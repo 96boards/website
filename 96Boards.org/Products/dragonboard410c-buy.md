@@ -1,4 +1,4 @@
-# Buy Noy
+# Buy Now
 
 ## [Basic Kit]() 
 
