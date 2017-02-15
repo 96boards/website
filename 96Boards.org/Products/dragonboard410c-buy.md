@@ -1,6 +1,6 @@
 # Buy Now
 
-## Basic Kit ([Purchase](https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools))
+## Basic Kit ([Purchase](http://linaro.co/dragonboard410c-buy-arrow))
 
 The DragonBoard 410c "Basic kit" is sold by Arrow Electronics. This kit comes with the following:
 
@@ -13,7 +13,7 @@ The DragonBoard 410c "Basic kit" is sold by Arrow Electronics. This kit comes wi
 
 ***
 
-## AWS Kit ([Purchase](https://www.amazon.com/DragonBoard-410C-IoT-Starter-powered/dp/B01GCPW37O/ref=sr_1_1?ie=UTF8&qid=1487110932&sr=8-1&keywords=dragonboard))
+## AWS Kit ([Purchase](http://linaro.co/96bawsbuy))
 
 The DragonBoard 410c "AWS Kit", also known as the Amazon Web Services kit, is sold through Amazon. This kit comes with the following:
 
@@ -24,7 +24,7 @@ The DragonBoard 410c "AWS Kit", also known as the Amazon Web Services kit, is so
 
 ***
 
-## Audio Kit ([Purchase](https://www.arrow.com/en/products/dragonboard410caudio/arrow-development-tools))
+## Audio Kit ([Purchase](http://linaro.org/db410c-audio-buy-arrow))
 
 The DragonBoard 410c "Audio Kit" is sold by Arrow Electronics. This kit comes with the following:
 
