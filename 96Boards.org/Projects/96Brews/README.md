@@ -1,26 +1,29 @@
-# Project Title
+# 96Brews
 
-< Description >
+Ricardo Salveti shared his recently converted home brewing operation. By taking a basic
+home brew system and adding a [Consumer Edition 96Boards](https://www.96boards.org/products/ce/),
+some sensors and the appropriate software, you can essentially automate a variety of functions that
+makes brewing the perfect beer much easier and streamlined
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
+- **Creator:** Ricardo Salveti
+- **Project Name:** 96Brews
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** 
+- **Board(s) used:** 96Boards Consumer Edition
 
 ## Videos
 
 ###
 
-[<img src="" data-canonical-src="" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="" data-canonical-src="" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[96Boards Blog with instructions](http://www.96boards.org/blog/96boards-96brews-automated-home-brewing/)
 
 ### Social Media Links
 
