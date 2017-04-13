@@ -11,7 +11,7 @@ makes brewing the perfect beer much easier and streamlined
 - **Project Name:** 96Brews
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** 96Boards Consumer Edition
+- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
 
 ## Videos
 
