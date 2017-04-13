@@ -7,7 +7,7 @@ makes brewing the perfect beer much easier and streamlined
 
 ## Project Details
 
-- **Creator:** Ricardo Salveti
+- **Creator:** [Ricardo Salveti](https://twitter.com/rsalveti)
 - **Project Name:** 96Brews
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
