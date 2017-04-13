@@ -1,26 +1,20 @@
-# Project Title
+# Running KVS on HiKey
 
-< Description >
+For some releases now,  KVM – the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the HiKey from 96Boards.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
+- **Creator:** Jorge Ortiz (ldts)
+- **Project Name:** Running KVS on HiKey
+- **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** 
-
-## Videos
-
-###
-
-[<img src="" data-canonical-src="" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+- **Board(s) used:** [HiKey](http://www.96boards.org/product/hikey/)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[96Boards blog](http://www.96boards.org/tutorial/running-kvm-guest-hikey/)
 
 ### Social Media Links
 
