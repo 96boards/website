@@ -1,32 +1,47 @@
-Name: Keith Lee from Gumstix
+# Gadget Drone
 
-Project Name: 96Boards and Gumstix GadgetDrone
+## Project Details
 
-Description: Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard 410c and the AeroCore 2 Mezzanine from Gumstix. 96Boards and the Gumstix AeroCore 2 card are used to fly a drone with PX4 R/C and wireless, telemetry, and video feed capabilities.
+- **Creator:** Keith Lee from Gumstix
+- **Project Name:** 96Boards and Gumstix GadgetDrone
+- **Description:** Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard 410c and the AeroCore 2 Mezzanine from Gumstix. 96Boards and the Gumstix AeroCore 2 card are used to fly a drone with PX4 R/C and wireless, telemetry, and video feed capabilities.
 
-The drone has proven to be fully functional and can be found in action in several videos:
+## Videos
 
-[<img src="http://i.imgur.com/lCC2QdU.png" data-canonical-src="http://i.imgur.com/lCC2QdU.png" width="240" height="100" />]()
+### GadgetDrone Flight Test (Drone view)
 
-GadgetDrone Flight Test (Drone view)
+[<img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" width="600" height="350" />](https://youtu.be/XK0PIaZMKJY)
 
-[<img src="http://i.imgur.com/lCC2QdU.png" data-canonical-src="http://i.imgur.com/lCC2QdU.png" width="240" height="100" />]()
+### Live drone demo on OpenHours ep.25
 
-Live drone demo on OpenHours ep.25
+[<img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+
+****
+
+## Resources
 
 While instructions might be made available in other formats at a later time, the following RSS URL can be used to guide you through the entire building and software installation process.
 
-RSS URL: Visit the 96Boards GadgetDrone Blog
+### RSS URL
 
-Social Media Links:
+[Visit the 96Boards GadgetDrone Blog](http://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
 
-96Boards: URL | Twitter | Facebook | Linkedin
-Gumstix: URL | Twitter | Facebook | Linkedin
-Keith Lee: Twitter
-https://youtu.be/XK0PIaZMKJY
-https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk
-Type of Project: Demonstrations (Projects showcasing individual features of a 96Boards product)
+### Social Media Links
 
-Project category: Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
+- 96Boards: URL | Twitter | Facebook | Linkedin
+- Gumstix: URL | Twitter | Facebook | Linkedin
+- Keith Lee: [Twitter](https://twitter.com/gstixguru)
+- https://youtu.be/XK0PIaZMKJY
+- https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk
 
-Board used: DragonBoard 410c
+### Type of Project
+
+Demonstrations (Projects showcasing individual features of a 96Boards product)
+
+### Project category
+
+Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
+
+### Board used
+
+[DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
