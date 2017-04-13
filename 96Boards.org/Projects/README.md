@@ -1,5 +1,9 @@
 # 96Boards Project
 
+[Submit a Project](SUBMIT.md) | [Contribute](CONTRIBUTE.md) | [OpenHours](http://www.96boards.org/openhours/)
+
+***
+
 <table align="center">
 <tr>
     <td align="center"><a href="GadgetDrone/README.md">GadgetDrone</a><br><img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/DroneKit_BOM.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/GadgetDrone/Images/DroneKit_BOM.png?raw=true" width="150" height="150" /><br>Working 96Boards drone using the Qualcomm DragonBoard 410c and the AeroCore 2 Mezzanine </td>
