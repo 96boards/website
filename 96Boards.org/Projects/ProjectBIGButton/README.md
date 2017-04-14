@@ -29,7 +29,7 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 
 ### Social Media Links
 
-- [Barry Byford4](https://twitter.com/uk_baz)
+- Barry Byford: [Twitter](https://twitter.com/uk_baz)
 - 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
