@@ -1,26 +1,31 @@
-# Project Title
+# Docker on aarch64 96Boards Consumer Edition
 
-< Description >
+Docker is “an open source project to pack, ship and run any application as a lightweight container.” It’s a very interesting tool from the Enterprise space, and docker.com lists its usecases as:
+
+- Continuous integration
+- DevOps
+- Big Data
+- Infrastructure Optimization
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
+- **Creator:** Bill Fletcher
+- **Project Name:** Installing Docker on aarch64 with the Reference Platform build on a 96Boards CE-Edition
+- **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** 
+- **Board(s) used:** CE Edition 96Boards
 
 ## Videos
 
 ###
 
-[<img src="" data-canonical-src="" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[96Boards blog and instructions](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
 
 ### Social Media Links
 
