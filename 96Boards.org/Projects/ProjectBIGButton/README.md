@@ -24,8 +24,8 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 
 ### RSS URL
 
-[96Boards Blog](http://www.96boards.org/blog/project-big-button-barry-byford/)
-[Instructions](https://ukbaz.github.io/howto/proj_big_btn.html)
+- [96Boards Blog](http://www.96boards.org/blog/project-big-button-barry-byford/)
+- [Instructions](https://ukbaz.github.io/howto/proj_big_btn.html)
 
 ### Social Media Links
 
