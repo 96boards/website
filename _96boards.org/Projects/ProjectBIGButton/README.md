@@ -14,11 +14,11 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 
 ### Project BIG Button Demo
 
-[<img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/VeuXedlyDvc)
+[<img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/VeuXedlyDvc)
 
 ### Barry Byford demos Project BIG Button on OpenHours ep. 46
 
-[<img src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96Boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/F6xZPTO9eO0)
+[<img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/F6xZPTO9eO0)
 
 ## Resources
 
