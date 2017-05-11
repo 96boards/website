@@ -1,26 +1,20 @@
-# Title
+# Home Lights
 
-Description
+This project is for the Smart Cities Hackathon. The project objetive was to find a way to control your lights at home and develop a cheap and practical kit to make your house smarter.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
+- **Creator:** Home Lights team from Tecnologico de Monterrey, Chihuahua
+- **Project Name:** Home Lights
+- **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
+- **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
 - **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[Instructions on Instructables](http://www.instructables.com/id/Home-Lights/)
 
 ### Social Media Links
 
