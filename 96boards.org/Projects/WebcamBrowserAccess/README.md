@@ -1,26 +1,38 @@
-# Title
+# Webcam Access on a Web Browser
 
-Description
+Based on the DragonBoard™ 410c development board from Arrow Electronics, a demo for image acquisition and web release was developed using the Python language.
+It is designed to demonstrate how to acquire images by camera and upload them to a web server deployed on DragonBoard 410c development board. Such images
+should then be accessible by other devices through network.
+
+This project is a simplified example of photo shooting and uploading, and can be conveniently integrated to a developer’s projects in order to realize real
+time image acquisition and web release.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
+- **Creator:** Long Hui, Thunder Software Technology (Shenzhen) Co., Ltd.
+- **Project Name:** Webcam Access on a Web Browser
+- **Type of Project:** Demo
+- **Project Category:** Computer Vision, Gaming, Smart Home
 - **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/webcam-access-web-browser)
+[Source Code](http://pan.baidu.com/s/1kVv2SnH)
+
+### Build / Assembly Instructions
+
+- Install the Linux operating system on DragonBoard 410c
+- Install boa web server by apt-get install boa command
+- Copy the code to var/WWW directory
+- Start up the boa server
+
+### Usage Instructions
+
+After the server is started, connect the DragonBoard 410c into the network, open the notebook browser connected to the same router, enter the board IP, and you
+will access the USB image information.
 
 ### Social Media Links
 
