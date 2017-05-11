@@ -1,26 +1,25 @@
-# Title
+# Typing Game
 
-Description
+A typing game for the DragonBoard™ 410c from Arrow Electronics that utilizes java language and JVM. This game is designed to provide interactivity along with
+real-time animation and sound by utilizing the strong AV processing computing power of the DragonBoard 410c.
+
+By developing a classic fun game, it is engineered to allow a developer to experience and utilize the powerful AV processing power of the DragonBoard 410c to
+carry out small game development by java.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
+- **Creator:** Long Hui, Thunder Software Technology (Shenzhen) Co., Ltd.
+- **Project Name:** Typing Game
+- **Type of Project:** Demo/Game
+- **Project Category:** Game
+- **Board(s) used:** DragonBoard 410c
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/typing-game)
+[Source Code](http://pan.baidu.com/s/1dFxGXt3)
 
 ### Social Media Links
 
