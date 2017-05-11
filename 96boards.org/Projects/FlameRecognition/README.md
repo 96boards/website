@@ -9,10 +9,10 @@ recognition of small area fire achieve accuracy of 90%.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
+- **Creator:** Li Ning, Student of Taiyuan University of Science and Technology
+- **Project Name:** Flame Recognition
+- **Type of Project:** Demo
+- **Project Category:** IoT, Smart Home
 - **Board(s) used:** DragonBoard 410c
 
 ## Resources
