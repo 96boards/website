@@ -1,24 +1,18 @@
-# Contribute
+Contributing to Projects                           
+========================
 
-## Why Contribute?
+96Boards projects is a community driven initiative of hosting the projects made out of 96Boards. 
+Projects to be submitted should be of good quality and should not include basic interfacing exercises
+of passive componenets. 
 
-< Insert Answer >
+How to Contribute:
+------------------
 
-## Instructions
+It is always recommended to open an issue first, with the title of **Project contribution to 96Boards**.
+The issue should have the following informations:
 
-< insert contribution instructions >
+- Title for the project
+- Description for the project
+- Use of 96Boards and Mezzanines
 
-## Policy
-
-We will accept contributions of good, and mostly complete projects that can be used by anyone.
-
-### What does this mean?
-
-- **“We will accept”**: This means we will receive your 96Boards projects, adapt as needed, and give you full credit for your work. Improvements to current projects area also accepted.
-- **“contributions”**: This can range from hosting an entire project to formatting/grammer and code changes/additions to other's projects. The easier you make it for us to accept your contribution, the happier we are, but if it’s good enough, we will do a reasonable amount of work to use it.
-- **“of good, and mostly complete projects”**: < In progress >
-- **“that can be used”**: < In progress >
-- **“by anyone”**: < In progress >
-
-
-
+Projects should be submitted by following the [Submission template](template.md)
