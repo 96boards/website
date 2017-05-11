@@ -1,6 +1,11 @@
-# Title
+# Flame Recognition
 
-Description
+Using the DragonBoard™ 410c from Arrow Electronics, this project is designed to acquire images of the surrounding environment using the camera, store the
+images, and use special image processing and recognition algorithms to scan and determine if there is fire in the captured images to achieve flame recognition.
+
+The project was inspired by previous exposure to flame recognition, where a STM32F749 chip of low frequency was used and the realization effect was not very
+good. This project is an effort to continue to realize this function on a high speed embedded development platform. The desired objective is to make the
+recognition of small area fire achieve accuracy of 90%.
 
 ## Project Details
 
@@ -8,19 +13,15 @@ Description
 - **Project Name:** 
 - **Type of Project:** 
 - **Project Category:** 
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
+- **Board(s) used:** DragonBoard 410c
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[View project on Qualcomm Developer Network]()
+[New flame detection algorithm based on color characteristics](http://xuebao.jlu.edu.cn/gxb/CN/Y2014/V44/I6/1787)
+[High precision video flame detection algorithm based on multi-characteristics infusion](http://xuebao.jlu.edu.cn/gxb/CN/abstract/abstract10105.shtml)
 
 ### Social Media Links
 
