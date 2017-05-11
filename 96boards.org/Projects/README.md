@@ -48,14 +48,37 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="SuperParking/README.md">Super Parking</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_FrontPage.png?raw=true" width="150" height="150" /><br>Lets user know if a parking lot has free spots</td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /><br>Your project can be featured here! Simply click the "Submit your project!" link above</td>
+<td align="center"><a href="SmartWeatherDisplaySystem/README.md">Weather Display System</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" width="150" height="150" /><br>Addresses the limitations that weather acquisition software typically is unable to satisfy individual users</td>
+
+<td align="center"><a href="Tetris/README.md">Tetris</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" width="150" height="150" /><br>This project tries to revive a classic game by adopting java and JVM running on the DragonBoard™ 410c</td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="AmazonAlexaVirtualDevice/README.md">Amazon Alexa Virtual Device</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" width="150" height="150" /><br>Brings Alexa to a Linux device including embedded systems like the DragonBoard™ 410c from Arrow Electronics </td>
+
+<td align="center"><a href="EmulatorBLEHeartRateSensor/README.md">BLE Heart Rate Sensor</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" width="150" height="150" /><br>Shows how to read values from a Bluetooth Low Energy device CSR1010 using DragonBoard™ 410c from Arrow Electronics</td>
+
+<td align="center"><a href="FlameRecognition/README.md">Flame Recognition</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" width="150" height="150" /><br>This projects scans objects to determine if there is fire in the captured images</td>
+
+<td align="center"><a href="LaserImageingandModeling/README.md">Laser Imageing and Modeling</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" width="150" height="150" /><br>Adopts laser imaging in combination with software developed on the DragonBoard™ 410c to scan any designated object and get its pseudo-3D model</td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="TypingGame/README.md">Typing Game</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/TypingGame/Images/TypingGame_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/TypingGame/Images/TypingGame_FrontPage.png?raw=true" width="150" height="150" /><br>A typing game for the DragonBoard™ 410c from Arrow Electronics that utilizes java language and JVM </td>
+
+<td align="center"><a href="UltraSonicFan/README.md">UltraSonic Fan</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" width="150" height="150" /><br>This project is designed to use the DragonBoard™ 410c from Arrow Electronics with a HS-100 ultrasonic module to detect the distance a person is from a fan to help prevent injury</td>
+
+<td align="center"><a href="WebcamBrowserAccess/README.md">Webcam Browser Access</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" width="150" height="150" /><br>a demo for image acquisition and web release was developed using the Python language.</td>
 
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /><br>Your project can be featured here! Simply click the "Submit your project!" link above</td>
 
 </tr>
 
 </table>
-
 
 
 
