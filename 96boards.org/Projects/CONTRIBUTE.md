@@ -5,6 +5,13 @@ Contributing to Projects
 Projects to be submitted should be of good quality and should not include basic interfacing exercises
 of passive componenets. 
 
+Contribution guidelines:
+------------------------
+
+- A video demonstrating the project should be attached
+- All the required support files should be attached
+- Copyright statement should be present for all source files
+
 How to Contribute:
 ------------------
 
@@ -15,4 +22,5 @@ The issue should have the following informations:
 - Description for the project
 - Use of 96Boards and Mezzanines
 
-Projects should be submitted by following the [Submission template](template.md)
+Once the issue has been approved by one of our 96Boards team members, projects should be submitted by
+following the [Submission template](template.md)
