@@ -1,26 +1,26 @@
-# Title
+# Ultrasonic Fan Control
 
-Description
+This project is designed to use the DragonBoard™ 410c from Arrow Electronics with a HS-100 ultrasonic module to detect the distance a person is from a fan to
+help prevent injury. The system is designed to transmit the distance value detected to the DragonBoard 410c and switch off the fan by triggering a relay
+connected to the DragonBoard 410c. The system is also designed to turn on the fan when the proximity near the fan is clear.
+
+Traditional fans with rotating blades can be hazardous to little children. News about children’s fingers being injured by fan blades is too frequent. This
+project uses the available resources to try to reduce such accidents.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
+- **Creator:** Long Hui , Xiao Miaosen - Thunder Software Technology (Shenzhen) Co., Ltd.
+- **Project Name:** Ultrasonic Fan Control
+- **Type of Project:** Demo
+- **Project Category:** Sensors / Smart Home
 - **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/ultrasonic-fan-control)
+[Source Code](http://pan.baidu.com/s/1pKGdoMn)
 
 ### Social Media Links
 
