@@ -27,5 +27,5 @@ following the [Submission template](template.md)
 
 ***
 
-[Submit a new Project](SUBMIT.md)
-[Return to Projects home page](README.md)
+- [Submit a new Project](SUBMIT.md)
+- [Return to Projects home page](README.md)
