@@ -16,11 +16,11 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="KVM/README.md">KVM</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/KVM/Images/KVM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/KVM/Images/KVM_FrontPage.png?raw=true" width="150" height="150" /></td>
 
+<td align="center"><a href="Docker96BoardsCE/README.md">Docker on 96Boards CE</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" width="150" height="150" /></td>
+
 </tr>
 
 <tr>
-
-<td align="center"><a href="Docker96BoardsCE/README.md">Docker on 96Boards CE</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="DragonDetector/README.md">Dragon Detector</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -28,21 +28,17 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="PassMe/README.md">PassMe</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-</tr>
-
-<tr>
-
 <td align="center"><a href="SmartBoiler/README.md">Smart Boiler</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartBoiler/Images/SmartBoiler_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartBoiler/Images/SmartBoiler_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="HomeLights/README.md">Home Lights</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HomeLights/Images/HomeLights_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HomeLights/Images/HomeLights_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="ComuniCibo/README.md">ComuniCibo</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" width="150" height="150" /></td>
-
-<td align="center"><a href="SAM/README.md">Smart Assistant Mirror</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" width="150" height="150" /></td>
-
 </tr>
 
 <tr>
+
+<td align="center"><a href="ComuniCibo/README.md">ComuniCibo</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SAM/README.md">Smart Assistant Mirror</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="BraceYourself/README.md">Brace Yourself</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/BraceYourself/Images/BraceYourself_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/BraceYourself/Images/BraceYourself_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -50,11 +46,11 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="SmartWeatherDisplaySystem/README.md">Weather Display</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="Tetris/README.md">Tetris</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" width="150" height="150" /></td>
-
 </tr>
 
 <tr>
+
+<td align="center"><a href="Tetris/README.md">Tetris</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="AmazonAlexaVirtualDevice/README.md">Alexa Virtual Device</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -73,6 +69,8 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 <td align="center"><a href="UltraSonicFan/README.md">UltraSonic Fan</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="WebcamBrowserAccess/README.md">Webcam Access</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /></td>
 
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /></td>
 
