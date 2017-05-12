@@ -8,6 +8,8 @@ If you would like to share a project that uses 96Boards through the 96Boards web
 
 In order to contribute to this repository, you will need to have a GitHub account. This will allow you go fork this repository, make changes, and **submit a pull request** to be review by one of our maintainers.
 
+https://github.com/
+
 If you already have a GitHub account, please skip to **Step 2**
 
 ## Step 2: Fork this repository
