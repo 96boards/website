@@ -64,7 +64,7 @@ Once the repository is forked onto your GitHub account, you will be able to make
 - Provide commit message. This message should briefly describe all that is commited, along with anything that might be missing.
 - Sign your Commit:
    - `Signed-off-by: FirstName LastName <Email@domain.org>`
-- Commit changed (click commit changes button)
+- Commit changes (click commit changes button)
 
 ## Step 5: Submit Pull Request
 
