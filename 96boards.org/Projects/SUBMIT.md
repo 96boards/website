@@ -69,3 +69,8 @@ Once the repository is forked onto your GitHub account, you will be able to make
 ## Step 5: Submit Pull Request
 
 For more detailed instructions on how to submit a pull request in GitHub, please visit this [GitHub Help page](https://help.github.com/articles/creating-a-pull-request/)
+
+***
+
+- [Contribute to an existing project](CONTRIBUTE.md)
+- [Return to Projects home page](README.md)
