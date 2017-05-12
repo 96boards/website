@@ -9,7 +9,7 @@
 - **Type of Project:** < Demonstration > 
 - **Project Category:** < Agriculture, Robotics, Healthcare, Security, Maker, IoT >
 - **Board(s) used:** 
-- **Difficulty level:** < Beginner, Experienced, Pro >
+- **Difficulty level:** < Beginner, Intermediate, Experienced>
 
 ## Videos
 

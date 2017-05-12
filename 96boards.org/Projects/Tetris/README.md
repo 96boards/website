@@ -1,26 +1,26 @@
-# Title
+# Tetris
 
-Description
+This project tries to revive a classic game by adopting java and JVM running on the DragonBoard™ 410c from Arrow Electronics. With the onboard multi-core CPU,
+the DragonBoard 410c is a development platform engineered to enhance the interactive interface and handle the logistic functions of the Tetris game with ease.
+This creates an extremely strong user interaction with background music.
+
+Using a classic fun game, this project aims to provide the developers with experience and an opportunity to learn about the DragonBoard 410c AV processing
+power in addition to carrying out game development in java.
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** 
-- **Project Category:** 
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-
-## Videos
-
-###
-
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/96Brews/Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
+- **Creator:** Long Hui, Thunder Software Technology (Shenzhen) Co., Ltd.
+- **Project Name:** Tetris
+- **Type of Project:** Demo/Game
+- **Project Category:** Game
+- **Board(s) used:** DragonBoard 410c
 
 ## Resources
 
 ### RSS URL
 
-[]()
+[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/tetris)
+[Source Code](http://pan.baidu.com/s/1nuCd9Gl)
 
 ### Social Media Links
 
