@@ -22,7 +22,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="Docker96BoardsCE/README.md">Docker on 96Boards CE</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="DragonDetector/README.md">Dragon Detector</a><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="DragonDetector/README.md">Dragon Detector</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DragonDetector/Images/DragonDetector_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="ProjectBIGButton/README.md">Project BIG Button</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ProjectBIGButton/Images/ProjectBIGButton_FrontPage.png?raw=true" width="150" height="150" /></td>
 
