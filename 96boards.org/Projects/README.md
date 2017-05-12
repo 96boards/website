@@ -70,9 +70,9 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="WebcamBrowserAccess/README.md">Webcam Access</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
 
