@@ -48,7 +48,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="SuperParking/README.md">Super Parking</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SmartWeatherDisplaySystem/README.md">Weather Display System</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SmartWeatherDisplaySystem/README.md">Weather Display</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartWeatherDisplaySystem/Images/SmartWeather_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="Tetris/README.md">Tetris</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Tetris/Images/Tetris_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -56,13 +56,13 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <tr>
 
-<td align="center"><a href="AmazonAlexaVirtualDevice/README.md">Amazon Alexa Virtual Device</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="AmazonAlexaVirtualDevice/README.md">Alexa Virtual Device</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="EmulatorBLEHeartRateSensor/README.md">BLE Heart Rate Sensor</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="FlameRecognition/README.md">Flame Recognition</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="LaserImageingandModeling/README.md">Laser Imageing and Modeling</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="LaserImageingandModeling/README.md">Laser Image/Model</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/LaserImageingandModeling/Images/LaserImaging_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 </tr>
 
@@ -72,7 +72,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="UltraSonicFan/README.md">UltraSonic Fan</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/UltraSonicFan/Images/UltraSonicFan_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="WebcamBrowserAccess/README.md">Webcam Browser Access</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="WebcamBrowserAccess/README.md">Webcam Access</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/WebcamBrowserAccess/Images/BrowserWebcamAccess_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="" data-canonical-src="" width="150" height="150" /></td>
 
