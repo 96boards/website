@@ -16,7 +16,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="KVM/README.md">KVM</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/KVM/Images/KVM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/KVM/Images/KVM_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="Docker96BoardsCE/README.md">Docker on 96Boards CE</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="Docker96BoardsCE/README.md">Docker on 96Boards</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_FrontPage.jpg?raw=true" width="150" height="150" /></td>
 
 </tr>
 
