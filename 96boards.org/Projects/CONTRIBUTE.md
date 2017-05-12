@@ -23,9 +23,8 @@ The issue should have the following informations:
 - Use of 96Boards and Mezzanines
 
 Once the issue has been approved by one of our 96Boards team members, projects should be submitted by
-following the [Submission template](template.md)
+following the [Submit a new Project](SUBMIT.md) guide.
 
 ***
 
-- [Submit a new Project](SUBMIT.md)
 - [Return to Projects home page](README.md)
