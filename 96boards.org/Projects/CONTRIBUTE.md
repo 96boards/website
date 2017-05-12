@@ -24,3 +24,8 @@ The issue should have the following informations:
 
 Once the issue has been approved by one of our 96Boards team members, projects should be submitted by
 following the [Submission template](template.md)
+
+***
+
+[Submit a new Project](SUBMIT.md)
+[Return to Projects home page](README.md)
