@@ -38,7 +38,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="ComuniCibo/README.md">ComuniCibo</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ComuniCibo/Images/ComuniCibo_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SAM/README.md">Smart Assistant Mirror</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SAM/README.md">S.A.M.</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SAM/Images/SAM_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="BraceYourself/README.md">Brace Yourself</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/BraceYourself/Images/BraceYourself_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/BraceYourself/Images/BraceYourself_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -54,7 +54,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="AmazonAlexaVirtualDevice/README.md">Alexa Virtual Device</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AmazonAlexaVirtualDevice/Images/AmazonAlexa_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="EmulatorBLEHeartRateSensor/README.md">BLE Heart Rate Sensor</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="EmulatorBLEHeartRateSensor/README.md">Heart Rate Sensor</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/EmulatorBLEHeartRateSensor/Images/EmulatingBLEHeartRateSensor_FrontPage.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="FlameRecognition/README.md">Flame Recognition</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/FlameRecognition/Images/FlameRecognition_FrontPage.png?raw=true" width="150" height="150" /></td>
 
