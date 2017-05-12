@@ -25,6 +25,8 @@ The issue should have the following informations:
 Once the issue has been approved by one of our 96Boards team members, projects should be submitted by
 following the [Submit a new Project](SUBMIT.md) guide.
 
+If you have any quesitons, please ask in our IRC channel #96Boards. Also, refer our [FAQ](FAQ.md) section.
+
 ***
 
 - [Return to Projects home page](README.md)
