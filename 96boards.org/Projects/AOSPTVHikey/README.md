@@ -12,11 +12,13 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 - **Type of Project:** Application/component/library: Software application, component or library 
 - **Project Category:** Android Open Source Project
 - **Board(s) used:** Hikey and Hikey960
-- **Difficulty level:** Biginer: Install Prebuilt ROM, Experienced: Build AOSP TV From Source
+- **Difficulty level:** Beginner: Install Prebuilt ROM, Experienced: Build AOSP TV From Source
 
 ## Videos
 
-[Video Of The AOSP TV Build Running On a Hikey960](https://youtu.be/3YgdDLQ46TA)
+### Video Of The AOSP TV Build Running On a Hikey960
+
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/3YgdDLQ46TA)
 
 ## Resources
 
