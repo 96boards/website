@@ -24,7 +24,7 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 
 ### Pre-Built Installation Guide [Only For Hikey960]
 
-1) Download from [here](https://mega.nz/#!0RUlhYzQ!jcBY7xT10PHeyDpA-Li8HYG_ixrAbnlNhtRgsQwf2bY)
+1) Download from [here](https://mega.nz/#!QAtD2JrK!0Z6l2vgZqYyxsw_9CwWmqmYYwEMx1B6obJqAQhSoeAo)
 2) Put Hikey960 into fastboot mode by using the following switch configuration
 ```
   switch 1 ON
