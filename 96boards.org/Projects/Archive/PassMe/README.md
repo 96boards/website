@@ -14,11 +14,11 @@ The intention of this project was to build a smart network for private neighborh
 
 ### PassMe Video Submission
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/PassMe/Images/PassMe_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/PassMe/Images/PassMe_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ### PassMe Presentation and Demo
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/PassMe/Images/PassMe_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/PassMe/Images/PassMe_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/PassMe/Images/PassMe_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ## Resources
 
