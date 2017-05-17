@@ -82,7 +82,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="Current Tracking/README.md">Current Tracking</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/CurrentTracking/Images/CurrentTracking_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/CurrentTracking/Images/CurrentTracking_FrontPage.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="DLNAMediaServer/README.md">/DLNA Server</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="DLNAMediaServer/README.md">DLNA Server</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="DigitalAlbum/README.md">Digital Album</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DigitalAlbum/Images/DigitalAlbum_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DigitalAlbum/Images/DigitalAlbum_FrontPage1.png?raw=true" width="150" height="150" /></td>
 
