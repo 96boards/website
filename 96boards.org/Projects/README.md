@@ -100,6 +100,34 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="e-BillBreaker/README.md">HiKey AOSP TV</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/e-BillBreaker/Images/BillBreaker_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/e-BillBreaker/Images/BillBreaker_FrontPage1.png?raw=true" width="150" height="150" /></td>
 
+<td align="center"><a href="IBMWatsonSensorRead/README.md">IBM Watson</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/IBMWatsonSensorRead/Images/IBMWatson_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/IBMWatsonSensorRead/Images/IBMWatson_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="Janus/README.md">Janus</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Janus/Images/Janus_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Janus/Images/Janus_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="MagicCheck-inClock/README.md">Magic Clock</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/MagicCheck-inClock/Images/MagicClock_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/MagicCheck-inClock/Images/MagicClock_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="ModelRailway/README.md">Model Railway</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ModelRailway/Images/ModelRailway_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ModelRailway/Images/ModelRailway_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="NFCSmartAccess/README.md">NFC Smart Access</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/NFCSmartAccess/Images/NFC_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/NFCSmartAccess/Images/NFC_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="NeedyTrashcan/README.md">Needy Trashcan</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/NeedyTrashcan/Images/NeedyTrashcan_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/NeedyTrashcan/Images/NeedyTrashcan_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="OxusR/README.md">OxusR</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/OxusR/Images/OXUS_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/OxusR/Images/OXUS_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="RemoteMonitoring/README.md">Remote Monitoring</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/RemoteMonitoring/Images/RemoteMonitor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/RemoteMonitoring/Images/RemoteMonitor_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="RemoteVideoTargetTracking/README.md">Target Tracking</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/RemoteVideoTargetTracking/Images/VideoMonitor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/RemoteVideoTargetTracking/Images/VideoMonitor_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
