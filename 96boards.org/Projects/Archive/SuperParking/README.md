@@ -14,11 +14,11 @@ This project is for the Smart Cities Hackathon. The main point of doing this pro
 
 ### Super Parking Video Submission
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/fIBGxbARHo4?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SuperParking/Images/SuperParking_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SuperParking/Images/SuperParking_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/fIBGxbARHo4?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ### Super Parking Presentation and Demo
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SuperParking/Images/SuperParking_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/rbnxT9H8iHY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SuperParking/Images/SuperParking_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SuperParking/Images/SuperParking_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/rbnxT9H8iHY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ## Resources
 
