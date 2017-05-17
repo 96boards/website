@@ -19,7 +19,7 @@ Docker is “an open source project to pack, ship and run any application as a l
 
 ### Bill Fletcher demos Docker on 96Boards on OpenHours ep. #6
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
