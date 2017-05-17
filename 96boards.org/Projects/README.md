@@ -72,14 +72,39 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="AOSPTVHikey/README.md">HiKey AOSP TV</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_FrontPage.png?raw=true" width="150" height="150" /></td>
 
+<td align="center"><a href="AutoBreathalyzer/README.md">Auto Breathalyzer</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AutoBreathalyzer/Images/AutoBreathalyzer_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AutoBreathalyzer/Images/AutoBreathalyzer_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="AutoLuminosity/README.md">Auto Luminosity</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AutoLuminosity/Images/AutoLuminosity_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AutoLuminosity/Images/AutoLuminosity_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Current Tracking/README.md">Current Tracking</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/CurrentTracking/Images/CurrentTracking_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/CurrentTracking/Images/CurrentTracking_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="DLNAMediaServer/README.md">/DLNA Server</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DLNAMediaServer/Images/DLNAServer_FrontPage1.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="DigitalAlbum/README.md">Digital Album</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DigitalAlbum/Images/DigitalAlbum_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/DigitalAlbum/Images/DigitalAlbum_FrontPage1.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="GPIOSTEMWorkshop/README.md">STEM Workshop</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/GPIOSTEMWorkshop/Images/GPIOWorkshop_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/GPIOSTEMWorkshop/Images/GPIOWorkshop_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="HandGestureRecognition/README.md">Gesture Recognition</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HandGestureRecognition/Images/HandGestureRecognition_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HandGestureRecognition/Images/HandGestureRecognition_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="HomeAutomation/README.md">Home Automation</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HomeAutomation/Images/HomeAutomation_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/HomeAutomation/Images/HomeAutomation_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="I2CAccelerometer/README.md">I2C Accelerometer</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/I2CAccelerometer/Images/I2CAccel_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/I2CAccelerometer/Images/I2CAccel_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="e-BillBreaker/README.md">HiKey AOSP TV</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/e-BillBreaker/Images/BillBreaker_FrontPage1.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/e-BillBreaker/Images/BillBreaker_FrontPage1.png?raw=true" width="150" height="150" /></td>
+
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
 
 </table>
-
-
-
 
 
 
