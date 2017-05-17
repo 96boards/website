@@ -132,6 +132,34 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 </tr>
 
+<tr>
+
+<td align="center"><a href="Vision4all/README.md">Vision 4all</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Vision4all/Images/Vision4all_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Vision4all/Images/Vision4all_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SunlightSensor/README.md">Sunlight Sensor</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SunlightSensor/Images/SunlightSensor_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SunlightSensor/Images/SunlightSensor_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SmartLighting/README.md">Smart Lighting</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartLighting/Images/SmartLight_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartLighting/Images/SmartLight_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SmartGridEnergyMeter/README.md">Smart Grid</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartGridEnergyMeter/Images/SmartGrid_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SmartGridEnergyMeter/Images/SmartGrid_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SensorDemo/README.md">Sensor Demo</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SensorDemo/Images/SensorDemo_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/SensorDemo/Images/SensorDemo_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="ROVWindowsIoT/README.md">ROV Windows IoT</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ROVWindowsIoT/Images/ROV_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ROVWindowsIoT/Images/ROV_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
 </table>
 
 
