@@ -7,8 +7,38 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 ***
 
 <table align="center">
+
 <tr>
-    <td align="center"><a href="Archive/GadgetDrone/README.md">GadgetDrone</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/DroneKit_BOM.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/DroneKit_BOM.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/3DPrintCase/README.md">3D Printed Case</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/3DPrintCase/Images/3DPrintCase_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/3DPrintCase/Images/3DPrintCase_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/AWSIoT/README.md">AWS IoT</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AWSIoT/Images/AWSIoT_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AWSIoT/Images/AWSIoT_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/AndroidTV/README.md">Android TV DB410c</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AndroidTV/Images/AndroidTVDB410c_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AndroidTV/Images/AndroidTVDB410c_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/AudioMezz/README.md">Audio Mezz</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AudioMezz/Images/AudioMezz_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AudioMezz/Images/AudioMezz_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/BreakerBall/README.md">BreakerBall</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/BreakerBall/Images/BreakerBall_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/BreakerBall/Images/BreakerBall_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="Archive/DronaRhythm/README.md">Drona Rhythm</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DronaRhythm/Images/DronaRhythm_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DronaRhythm/Images/DronaRhythm_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive//HeadlessIPReport/README.md">/Headless IP Report</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/HeadlessIPReport/Images/HeadlessIP_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/HeadlessIPReport/Images/HeadlessIP_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/IBMWatsonIoT/README.md">IBM Watson IoT</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/IBMWatsonIoT/Images/IBMWatson_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/IBMWatsonIoT/Images/IBMWatson_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/SeeingEyeRobot/README.md">Seeing Eye Robot</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SeeingEyeRobot/Images/SeeingEyeRobot_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SeeingEyeRobot/Images/SeeingEyeRobot_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/SmartCap/README.md">Smart Cap</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SmartCap/Images/SmartCap_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SmartCap/Images/SmartCap_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="Archive/GadgetDrone/README.md">GadgetDrone</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/DroneKit_BOM.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/DroneKit_BOM.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="Archive/Mosquitto/README.md">Mosquitto</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/Mosquitto/Images/MQTT_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/Mosquitto/Images/MQTT_FrontPage.png?raw=true" width="150" height="150" /></td>
 
@@ -145,6 +175,21 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
+
+<tr>
+
+<td align="center"><a href="Archive/TurtleBot2e/README.md">TurtleBot 2e</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/TurtleBot2e/Images/Turtlebot2e_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/TurtleBot2e/Images/Turtlebot2e_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/TurtlePostureRobot/README.md">Turtle Posture Robot</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/TurtlePostureRobot/Images/TurtlePostureBot_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/TurtlePostureRobot/Images/TurtlePostureBot_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/WinIoTNetwork/README.md">Win IoT Network</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/WinIoTNetwork/Images/WindowsIoT_FrontPage.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/WinIoTNetwork/Images/WindowsIoT_FrontPage.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
 
 </table>
 
