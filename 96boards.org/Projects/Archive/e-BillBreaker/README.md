@@ -1,3 +1,24 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; e-BillBreaker
+permalink: "/projects/e-BillBreaker/"
+breadcrumb-title: e-BillBreaker
+breadcrumb-section: Projects
+breadcrumb-subtitle: e-BillBreaker
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - BillBreaker_FrontPage1.png
+  - BillBreaker_Image1.png
+  - BillBreaker_Image2.png
+  - BillBreaker_Image3.png
+---
 # e-BillBreaker
 
 This project is designed to quantify power consumption in different environments using DragonBoard™ 410c.
@@ -10,7 +31,7 @@ e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcom
 - **Project Name:** e-BillBreaker
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Cities, Smart Homes
-- **Board(s) used:** 
+- **Board(s) used:**
 
 ## Resources
 
@@ -26,7 +47,7 @@ e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcom
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

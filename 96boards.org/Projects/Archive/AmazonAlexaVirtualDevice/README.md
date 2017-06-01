@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; AWSIoT
+permalink: "/projects/AmazonAlexaVirtualDevice/"
+breadcrumb-title: Amazon Alexa Virtual Device
+breadcrumb-section: Projects
+breadcrumb-subtitle: AmazonAlexaVirtualDevice
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - AmazonAlexa_FrontPage.png
+---
 # Amazon Alexa Virtual Device
 
 This project aims to provide the ability to bring Alexa to a Linux device including embedded systems like the DragonBoard™ 410c from Arrow Electronics. The
@@ -16,6 +34,7 @@ binary release is packed into an Ubuntu Core Snap package.
 ### RSS URL
 
 [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/amazon-alexa-virtual-device)
+
 [Source Code / Source Example / Application Executable](https://github.com/devicehive/AlexaDevice/releases/tag/v1.1)
 
 ### Build / Assembly Instructions
@@ -37,7 +56,7 @@ when it hears the 'Alexa' keyword and starts recording. Enjoy Alexa without the 
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

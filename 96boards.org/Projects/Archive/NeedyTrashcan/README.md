@@ -1,3 +1,24 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; The Needy Trashcan
+permalink: "/projects/NeedyTrashcan/"
+breadcrumb-title: The Needy Trashcan
+breadcrumb-section: Projects
+breadcrumb-subtitle: The Needy Trashcan
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - NeedyTrashcan_FrontPage.png
+  - NeedyTrashcan_Video_Image.png
+
+---
 # The Needy Trashcan
 
 This project was created during a Hackathon challenge organized for the H.A.R.D hack at University of California, San Diego. It was inspired by an everyday problem that comes with having roommates -- taking turns to take out the trash. Many times, trash piles up as someone has failed to do their part. To help solve this problem, the Needy Trashcan was created to remind them automatically.
@@ -23,7 +44,7 @@ It has been a month since you moved into your new apartment and no one has taken
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

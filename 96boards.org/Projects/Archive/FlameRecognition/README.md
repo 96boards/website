@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Flame Recognition
+permalink: "/projects/FlameRecognition/"
+breadcrumb-title: Flame Recognition
+breadcrumb-section: Projects
+breadcrumb-subtitle: Flame Recognition
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - FlameRecognition_FrontPage.png
+---
 # Flame Recognition
 
 Using the DragonBoard™ 410c from Arrow Electronics, this project is designed to acquire images of the surrounding environment using the camera, store the
@@ -25,7 +43,7 @@ recognition of small area fire achieve accuracy of 90%.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

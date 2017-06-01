@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Emulating BLE Heart Rate Sensor
+permalink: "/projects/EmulatorBLEHeartRateSensor/"
+breadcrumb-title: Emulating BLE Heart Rate Sensor
+breadcrumb-section: Projects
+breadcrumb-subtitle: Emulating BLE Heart Rate Sensor
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - EmulatingBLEHeartRateSensor_FrontPage.png
+---
 # Emulating BLE Heart Rate Sensor
 
 This project shows how to read values from a Bluetooth Low Energy device CSR1010 using DragonBoard™ 410c from Arrow Electronics. In this example, the CSR1010
@@ -24,7 +42,7 @@ sensor.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

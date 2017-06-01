@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Remote Video Monitoring and Target Tracking
+permalink: "/projects/RemoteVideoTargetTracking/"
+breadcrumb-title: Remote Video Monitoring and Target Tracking
+breadcrumb-section: Projects
+breadcrumb-subtitle: Remote Video Monitoring and Target Tracking
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - VideoMonitor_FrontPage.png
+---
 # Remote Video Monitoring and Target Tracking
 
 This project aims to implement video acquisition by using a USB camera and provide web access using Wi-Fi communication on the DragonBoard™ 410c from Arrow Electronics. In addition, it is also designed to use open-source motion codes to detect and track the moving objects in a video and configure the monitoring parameters, image output and mode. A developer may conveniently integrate this demo to his own DIY project to realize video monitoring related functions.
@@ -21,7 +40,7 @@ This demo is designed to teach people how to realize web video monitoring and ta
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

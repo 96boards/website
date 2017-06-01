@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Sunlight Sensor
+permalink: "/projects/SunlightSensor/"
+breadcrumb-title: Sunlight Sensor
+breadcrumb-section: Projects
+breadcrumb-subtitle: Sunlight Sensor
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SunlightSensor_FrontPage.png
+---
 # Sunlight Sensor
 
 This project measures Ultra Violet (UV) index, infrared and visible light using sensors connected to the DragonBoard 410c. Sensor data is sent to a Sparkfun cloud server, and an android app is designed to give the user tips to help protect themselves against health hazards caused by UV exposure. It also is designed to adjust compatible LED lamps to reduce energy usage during the day.
@@ -26,7 +45,7 @@ The Sunlight Sensor project was created during an IoT Hackathon challenge organi
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

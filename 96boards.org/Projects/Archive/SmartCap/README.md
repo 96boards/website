@@ -1,3 +1,23 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Smart Cap
+permalink: "/projects/SmartCap/"
+breadcrumb-title: Smart Cap
+breadcrumb-section: Projects
+breadcrumb-subtitle: Smart Cap
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SmartCap_FrontPage.png
+  - SmartCap_Image1.png
+---
 # Smart Cap
 
 Smart Cap is an assistant for the visually impaired that is designed to narrate the description of a scene via pictures from a webcam.
@@ -16,7 +36,7 @@ A webcam retrofitted into a regular cap is connected to the DragonBoard410c, whi
 
 ## Project Details
 
-- **Creator:** Tushar Chugh - Student, Carnegie Mellon University, Former Interim Engineering Intern, Qualcomm Technologies, 
+- **Creator:** Tushar Chugh - Student, Carnegie Mellon University, Former Interim Engineering Intern, Qualcomm Technologies,
 - **Project Name:** Smart Cap
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Alexa Voice Service, Embedded, Healthcare, IoT
@@ -31,6 +51,6 @@ A webcam retrofitted into a regular cap is connected to the DragonBoard410c, whi
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

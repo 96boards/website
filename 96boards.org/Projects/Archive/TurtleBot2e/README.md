@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; TurtleBot 2e
+permalink: "/projects/TurtleBot2e/"
+breadcrumb-title: TurtleBot 2e
+breadcrumb-section: Projects
+breadcrumb-subtitle: TurtleBot 2e
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - Turtlebot2e_FrontPage.png
+---
 # TurtleBot 2e
 
 The TurtleBot 2e is a new revision of the TurtleBot that uses a single board computer (SBC) such as the DragonBoard™ 410c. It also features the Orbbec Astra camera.
@@ -25,6 +44,6 @@ The DragonBoard 410c offers two advantages over the prior TurtleBot netbook vers
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

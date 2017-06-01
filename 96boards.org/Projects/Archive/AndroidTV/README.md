@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title: 96boards Projects &bull; Android TV - DragonBoard 410c
+permalink: "/projects/AndroidTV/"
+breadcrumb-title: Android TV - DragonBoard 410c
+breadcrumb-section: Projects
+breadcrumb-subtitle: AndroidTV
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - AndroidTVDB410c_FrontPage.png
+---
 # Android TV - DragonBoard 410c
 
 This project attempts to build Android TV on the DragonBoard™ 410c from Arrow Electronics. The main objective was to utilize the Android TV Input Framework, and this was done by running the built-in reference LiveTv App and Sample Input Apps.
@@ -15,14 +33,14 @@ We have also implemented the Custom Launcher to provide the look and feel of the
 
 An Exo player is built and installed in order to play the videos.
 
-### Further Work in Progress: 
+### Further Work in Progress:
 
 Fine tuning the performance and built-in tuner implementation.
 
 ## Project Details
 
 - **Creator:** Sunitha S. - Tech Lead, Kirupa S. - Software Engineer, Mohan Raj - Software Engineer, Global Edge Software Ltd.
-- **Project Name:** 
+- **Project Name:**
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Embedded, Smart Home
 - **Board(s) used:** DragonBoard 410c
@@ -54,21 +72,21 @@ device/google/atv/products/atv_base.mk)
 
 ````shell
 tapas LiveTv arm64
-make LiveTv 
+make LiveTv
 cp -r out/target/product/generic_arm64/system//priv-app/LiveTv/ /system/priv-app/
-rm -rf out/target 
+rm -rf out/target
 cd –
 ```
 
 #### Build the Sample Input Apk and its dependencies (Exo player) using the Gradle scripts:
 
 ```shell
-mkdir -p apps/ 
-cd apps/ 
+mkdir -p apps/
+cd apps/
 export ANDROID_HOME=
-export JAVA_HOME= (/usr/lib/jvm) 
-echo "count=0" > 
-/home/buildslave/.android/repositories.cfg 
+export JAVA_HOME= (/usr/lib/jvm)
+echo "count=0" >
+/home/buildslave/.android/repositories.cfg
 rm -rf ExoPlayer androidtv-sample-inputs
 ```
 
@@ -76,30 +94,30 @@ rm -rf ExoPlayer androidtv-sample-inputs
 
 ```shell
 git clone https://github.com/googlesamples/androidtv-sample-inputs
-cd androidtv-sample-inputs/ 
-sed -i "s/23.0.3/25.0.2/g" app/build.gradle 
-library/build.gradle ./gradlew assembleDebug cp 
-app/build/outputs/apk/app-debug.apk 
-../out/target/product/msm8916_64/data/app/ 
-cd - 
+cd androidtv-sample-inputs/
+sed -i "s/23.0.3/25.0.2/g" app/build.gradle
+library/build.gradle ./gradlew assembleDebug cp
+app/build/outputs/apk/app-debug.apk
+../out/target/product/msm8916_64/data/app/
+cd -
 git clone https://github.com/google/ExoPlayer
-cd ExoPlayer 
-sed -i "s/23.0.3/25.0.2/g" build.gradle 
-./gradlew assembleDebug 
-cp ./demo/buildout/outputs/apk/demo-withExtensions-debug.apk 
-../out/target/product/msm8916_64/data/app/ 
-cd - 
+cd ExoPlayer
+sed -i "s/23.0.3/25.0.2/g" build.gradle
+./gradlew assembleDebug
+cp ./demo/buildout/outputs/apk/demo-withExtensions-debug.apk
+../out/target/product/msm8916_64/data/app/
+cd -
 git clone https://github.com/GlobalEdgeSoftware/AndroidTV/tree/atv
 cd TvLauncher
 sed -i "s/23.0.3/25.0.2/g" build.gradle
-./gradlew assembleDebug 
-cp app/build/outputs/apk/app-debug.apk 
-../out/target/product/msm8916_64/data/app/ 
-cd - 
+./gradlew assembleDebug
+cp app/build/outputs/apk/app-debug.apk
+../out/target/product/msm8916_64/data/app/
+cd -
 ```
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

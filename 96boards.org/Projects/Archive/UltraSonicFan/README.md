@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Ultrasonic Fan Control
+permalink: "/projects/UltraSonicFan/"
+breadcrumb-title: Ultrasonic Fan Control
+breadcrumb-section: Projects
+breadcrumb-subtitle: Ultrasonic Fan Control
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - UltraSonicFan_FrontPage.png
+---
 # Ultrasonic Fan Control
 
 This project is designed to use the DragonBoard™ 410c from Arrow Electronics with a HS-100 ultrasonic module to detect the distance a person is from a fan to
@@ -24,7 +43,7 @@ project uses the available resources to try to reduce such accidents.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

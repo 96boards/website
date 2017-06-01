@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Digital Album
+permalink: "/projects/DigitalAlbum/"
+breadcrumb-title: Digital Album
+breadcrumb-section: Projects
+breadcrumb-subtitle: Digital Album
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - DigitalAlbum_FrontPage1.png
+  - DigitalAlbum_FrontPage2.png
+---
 # Digital Album
 
 This project is designed to read out images under the home partition and display them in a certain sequence to realize different transitions like left-right image switchover, fade in-out, louver etc. The project is also designed to allow the user to
@@ -22,7 +41,7 @@ We have an ever-expanding digital library, and thanks to advancements in data st
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

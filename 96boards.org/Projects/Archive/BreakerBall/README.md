@@ -1,3 +1,23 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Breakerball
+permalink: "/projects/BreakerBall/"
+breadcrumb-title: Breakerball
+breadcrumb-section: Projects
+breadcrumb-subtitle: Breakerball
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - BreakerBall_FrontPage.png
+  - BreakerBall_Image1.png
+  - BreakerBall_Image2.png
+---
 # Breakerball
 
 This is a great demo of the simplicity and power of the DragonBoard 410c that would interest younger programmers.
@@ -25,6 +45,6 @@ In this project, the DragonBoard 410c is combined with a Mezzanine Kit to create
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

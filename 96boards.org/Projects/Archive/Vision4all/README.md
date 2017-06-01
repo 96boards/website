@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Vision 4all
+permalink: "/projects/Vision4all/"
+breadcrumb-title: Vision 4all
+breadcrumb-section: Projects
+breadcrumb-subtitle: Vision 4all
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - Vision4all_FrontPage.png
+---
 # Vision 4all
 
 This project aims to implement vision assistive technology using DragonBoard™ 410c, OpenCV and Android applications. It uses computer vision and image processing to identify possible obstacles and helps the user navigate through the given area by providing feedback about the user’s surroundings.
@@ -27,7 +46,7 @@ The goal of the project was to provide more autonomy to the visually impaired in
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

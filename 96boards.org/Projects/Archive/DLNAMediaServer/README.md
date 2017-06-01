@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; DLNA Media Server / Client Solutions
+permalink: "/projects/DLNAMediaServer/"
+breadcrumb-title: DLNA Media Server / Client Solutions
+breadcrumb-section: Projects
+breadcrumb-subtitle: DLNAMediaServer
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - DLNAServer_FrontPage1.png
+  - DLNAServer_FrontPage2.png
+---
 # DLNA Media Server / Client Solutions
 
 If you live in the 21st century, you have hundreds if not thousands of photos, music, and movies sitting on a hard drive in your house, but no easy way to access them. Wouldn’t it be nice to make all those photos and home movies available to everyone in the house at any time? Or how about playing all your own music over the home network? Solve for a personal need to allow family members to view all family photos and videos from any local device in the home.
@@ -25,7 +44,7 @@ Would be usable in a home network environment with the goal of being able to ser
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

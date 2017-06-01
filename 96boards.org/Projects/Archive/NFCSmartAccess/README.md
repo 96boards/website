@@ -1,3 +1,23 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; NFC Smart Access Control System
+permalink: "/projects/NFCSmartAccess/"
+breadcrumb-title: NFC Smart Access Control System
+breadcrumb-section: Projects
+breadcrumb-subtitle: NFC Smart Access Control System
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - NFC_FrontPage.png
+
+---
 # NFC Smart Access Control System
 
 Many large office buildings allow entry by door access control systems using RFID modules. An NFC module is typically more expensive than simply an RFID module, but also usually features more powerful functions and security features. This project is designed to simulate a door access control system based on an NFC module. An NFC module is loaded on the DragonBoard™ 410c from Arrow Electronics using libnfc open-source code to provide access control, and a two-color LED light is used to indicate if an NFC card passes through the access control system.
@@ -27,7 +47,7 @@ Years ago, I loaded an RFID module onto a system via a serial port. However, the
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

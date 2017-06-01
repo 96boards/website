@@ -1,3 +1,24 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; S.A.M. (Smart Assistant Mirror)
+permalink: "/projects/SAM/"
+breadcrumb-title: S.A.M. (Smart Assistant Mirror)
+breadcrumb-section: Projects
+breadcrumb-subtitle: S.A.M. (Smart Assistant Mirror)
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SAM_FrontPage.png
+  - SAM_Video_Demo.png
+  - SAM_Video_Presentation.png
+---
 # S.A.M. (Smart Assistant Mirror)
 
 Since the ancient Egypt, the mirror has been used for personal grooming and admiring oneself, but now we want to make it a part of the next generation of homes. We want to introduce you S.A.M., your personal smart assistant mirror.
@@ -14,11 +35,11 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 
 ### S.A.M. Video Submission
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ### S.A.M. Presentation and Demo
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ## Resources
 
@@ -28,7 +49,7 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

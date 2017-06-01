@@ -1,4 +1,27 @@
-# Project Title
+---
+layout: project-display-page
+title:  96boards Projects &bull; Dragon Detector
+permalink: "/projects/DragonDetector/"
+breadcrumb-title: DragonDetector
+breadcrumb-section: Projects
+breadcrumb-subtitle: DragonDetector
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - DragonDetector_FrontPage.png
+  - DragonDetector_Image1.png
+  - DragonDetector_Image2.png
+  - DragonDetector_Image3.png
+  - DragonDetector_Video_Demo.png
+  - DragonDetector_Video_OpenHours.png
+---
+# Dragon Detector
 
 The DragonBoard™410c detects motion via an IR sensor and takes a photo via the webcam. The image is processed by OpenCV to see if there are any dragons. If a dragon is detected then the program calls an IFTTT maker API end point and notifies an operator on their phone, and the knight on the top of the detector flashes his eyes red.
 
@@ -14,11 +37,11 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 
 ### DragonDetector demo
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/9NGkGyWplvQ)
+[<img src="../view/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" data-canonical-src="../view/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/9NGkGyWplvQ)
 
 ### Andy Clark demos the DragonDetector on OpenHours ep. #30
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="../view/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" data-canonical-src="../view/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
@@ -30,7 +53,7 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 ### Social Media Links
 
 - Andy Clark: [Twitter](https://twitter.com/Workshopshed)
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

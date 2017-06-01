@@ -1,3 +1,25 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; OxusR – Content Optimization
+permalink: "/projects/OxusR/"
+breadcrumb-title: OxusR – Content Optimization
+breadcrumb-section: Projects
+breadcrumb-subtitle: OxusR – Content Optimization
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - OXUS_FrontPage.png
+  - OXUS_Image1.png
+  - OXUS_Image2.png
+  - OXUS_Image3.png
+---
 # OxusR – Content Optimization
 
 OxusR is a Digital Signage project that is designed to optimize bandwidth consumption by avoiding redundant downloads on the same network.
@@ -26,7 +48,7 @@ This project was created during an IoT Hackathon challenge organized by Qualcomm
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

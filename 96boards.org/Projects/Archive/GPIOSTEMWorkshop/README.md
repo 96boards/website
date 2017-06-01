@@ -1,3 +1,24 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; GPIO STEM Workshop
+permalink: "/projects/GPIOSTEMWorkshop/"
+breadcrumb-title: GPIO STEM Workshop
+breadcrumb-section: Projects
+breadcrumb-subtitle: GPIO STEM Workshop
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - GPIOWorkshop_FrontPage.png
+  - GPIOWorkshop_Image1.png
+  - GPIOWorkshop_Image2.png
+  - GPIOWorkshop_Image3.png
+---
 # GPIO STEM Workshop
 
 How can students aspire to jobs they don’t know exist? That is the challenge that the UK charity STEM Team East is trying to solve for students living in the east of England.
@@ -26,7 +47,7 @@ Once the students have the basics understood, they are challenged to come up wit
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

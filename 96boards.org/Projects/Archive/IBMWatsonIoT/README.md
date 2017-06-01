@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; IBM Watson IoT Platform Service
+permalink: "/projects/IBMWatsonIoT/"
+breadcrumb-title: IBM Watson IoT Platform Service
+breadcrumb-section: Projects
+breadcrumb-subtitle: IBM Watson IoT Platform Service
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - IBMWatson_FrontPage.png
+---
 # IBM Watson IoT Platform Service
 
 There is a three Step Process to connect the DragonBoard 410c to the IBM Watson IoT Platform:
@@ -23,6 +42,6 @@ There is a three Step Process to connect the DragonBoard 410c to the IBM Watson 
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

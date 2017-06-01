@@ -1,3 +1,26 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Smart Grids and Energy Meters
+permalink: "/projects/SmartGridEnergyMeter/"
+breadcrumb-title: Smart Grids and Energy Meters
+breadcrumb-section: Projects
+breadcrumb-subtitle: Smart Grids and Energy Meters
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SmartGrid_FrontPage.png
+  - SmartGrid_Image1.png
+  - SmartGrid_Image2.png
+  - SmartGrid_Image3.png
+  - SmartGrid_Image4.png
+---
 # Smart Grids and Energy Meters
 
 This project aims to implement a smart grid system using DragonBoard™ 410c, Bluetooth® Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.
@@ -24,7 +47,7 @@ Smart Grids and Energy Meters was created during an IoT Hackathon challenge orga
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

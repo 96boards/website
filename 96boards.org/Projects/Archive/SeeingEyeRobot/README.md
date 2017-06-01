@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Seeing Eye Robot
+permalink: "/projects/SeeingEyeRobot/"
+breadcrumb-title: Seeing Eye Robot
+breadcrumb-section: Projects
+breadcrumb-subtitle: Seeing Eye Robot
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SeeingEyeRobot_FrontPage.png
+---
 # Seeing Eye Robot
 
 The Seeing Eye Robot is a Qualcomm® Snapdragon™ Micro Rover from Qualcomm Technologies, Inc. powered by a DragonBoard™ 410c that is designed to identify a person and stay in front to help them navigate.
@@ -25,6 +44,6 @@ Inspired by the idea of creating a robotic seeing eye dog, the goal was to creat
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

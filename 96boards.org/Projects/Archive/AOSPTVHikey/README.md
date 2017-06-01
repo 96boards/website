@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title: 96boards Projects &bull; AOSPTVHikey
+permalink: "/projects/AOSPTVHikey/"
+breadcrumb-title: AOSP TV Hikey Build
+breadcrumb-section: Projects
+breadcrumb-subtitle: AOSPTVHikey
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - AOSPTV_FrontPage.png
+  - AOSPTV_Video_Demo.png
+---
 # AOSP TV Build For The Hikey And Hikey 960
 
 Taking clues from how we used to build Android TV for the Raspberry Pi, I was able to get a AOSP TV build running on both the Hikey bords.
@@ -9,7 +28,7 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 
 - **Creator:** Sahaj Sarup
 - **Project Name:** AOSP TV For Hikey Boards
-- **Type of Project:** Application/component/library: Software application, component or library 
+- **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Android Open Source Project
 - **Board(s) used:** [Hikey](http://www.96boards.org/product/hikey/) and [Hikey960](http://www.96boards.org/product/hikey960/)
 - **Difficulty level:** Beginner: Install Prebuilt ROM, Experienced: Build AOSP TV From Source

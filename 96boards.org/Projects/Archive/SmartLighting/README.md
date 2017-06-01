@@ -1,3 +1,24 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Smart Lighting Management System
+permalink: "/projects/SmartLighting/"
+breadcrumb-title: Smart Lighting Management System
+breadcrumb-section: Projects
+breadcrumb-subtitle: Smart Lighting Management System
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - SmartLight_FrontPage.png
+  - SmartLight_Image1.png
+  - SmartLight_Image2.png
+---
 # Smart Lighting Management System
 
 This project is designed to connect lighting systems from different areas, such as home, office building and hotel, to the cloud for centralized management and control. The goal is to reduce energy consumption and manage lighting efficiency.
@@ -24,7 +45,7 @@ The available lighting management systems generally adopt wired connections such
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

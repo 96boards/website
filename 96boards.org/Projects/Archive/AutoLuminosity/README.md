@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title: 96boards Projects &bull; Auto Luminosity
+permalink: "/projects/AutoLuminosity/"
+breadcrumb-title: Auto Luminosity
+breadcrumb-section: Projects
+breadcrumb-subtitle: Auto Luminosity
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - AutoLuminosity_FrontPage.png
+---
 # Auto Luminosity
 
 This project is using the DragonBoard 410c running Windows 10 IoT Core, an Android app to handle managing different lights and rooms, and LIFX smart light bulbs. The goal of this project is to make it easier to set up schedules for your lights. Examples include turning lights on or off at a designated time or turning on lights prior to walking into the house.
@@ -19,7 +37,7 @@ This project is using the DragonBoard 410c running Windows 10 IoT Core, an Andro
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

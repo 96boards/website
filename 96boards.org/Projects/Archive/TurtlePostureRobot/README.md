@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Fit Turtle Posture Robot
+permalink: "/projects/TurtlePostureRobot/"
+breadcrumb-title: Fit Turtle Posture Robot
+breadcrumb-section: Projects
+breadcrumb-subtitle: Fit Turtle Posture Robot
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - TurtlePostureBot_FrontPage.png
+---
 # Fit Turtle Posture Robot
 
 Fit Turtle is designed to use the Kinect to extract a skeleton model of your body and analyze the alignment of your spine and head. It will follow you using the camera on the TurtleBot, powered by a DragonBoard™ 410c, and provide audio feedback about your posture.
@@ -30,6 +49,6 @@ This project also demonstrates how a fairly simple algorithm can be easily integ
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

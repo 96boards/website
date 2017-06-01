@@ -1,8 +1,26 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Report IP Address During Headless Boot
+permalink: "/projects/HeadlessIPReport/"
+breadcrumb-title: Report IP Address During Headless Boot
+breadcrumb-section: Projects
+breadcrumb-subtitle: Report IP Address During Headless Boot
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - HeadlessIP_FrontPage.png
+---
 # Report IP Address During Headless Boot
 
 Report IP Address During Headless Boot is a method to run the DragonBoard™ 410c in headless mode (with no monitor attached) and have it report its IP address at boot.
 
-When booting the DragonBoard 410c in headless mode (or when no monitor and HDMI cable are available), it can be quite challenging to find out the IP address of the DragonBoard 410c. 
+When booting the DragonBoard 410c in headless mode (or when no monitor and HDMI cable are available), it can be quite challenging to find out the IP address of the DragonBoard 410c.
 
 This method uses Amazon Web Services (AWS), and causes the IP address of the DragonBoard 410c to be written to the DynamoDB on AWS. That information can thenbe accessed programmatically as needed.
 
@@ -23,6 +41,6 @@ This method uses Amazon Web Services (AWS), and causes the IP address of the Dra
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

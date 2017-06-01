@@ -1,3 +1,22 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; ROV with Windows 10 IoT Core
+permalink: "/projects/ROVWindowsIoT/"
+breadcrumb-title: ROV with Windows 10 IoT Core
+breadcrumb-section: Projects
+breadcrumb-subtitle: ROV with Windows 10 IoT Core
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - ROV_FrontPage.png
+---
 # ROV with Windows 10 IoT Core
 
 ROV 10 is inspired by the OpenROV project and demonstrates how to use Windows 10 IOT Core in a remote controlled robot. Even the software is demonstrated in an ROV and can be used in nearly every robot that requires live video. The live video feed
@@ -22,7 +41,7 @@ Applications for Windows 10. The controller side can run on Windows 10 Mobile, D
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

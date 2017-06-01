@@ -1,3 +1,21 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Drona Rhythm
+permalink: "/projects/DronaRhythm/"
+breadcrumb-title: Drona Rhythm
+breadcrumb-section: Projects
+breadcrumb-subtitle: DronaRhythm
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - DronaRhythm_FrontPage.png
+---
 # DronaRhythm
 
 DronaRhythm is an audio control system designed to allow drones to be virtually always-on, and respond to their environment in real-time without needing specific user input.
@@ -24,6 +42,6 @@ The desired result is to have drones that can perform certain actions in respons
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

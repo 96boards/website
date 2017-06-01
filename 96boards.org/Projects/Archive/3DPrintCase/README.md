@@ -1,3 +1,25 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; 3d Printed Case
+permalink: "/projects/3DPrintCase/"
+breadcrumb-title: 3D Printed Case
+breadcrumb-section: Projects
+breadcrumb-subtitle: 3DPrintCase
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+images:
+  - 3DPrintCase_FrontPage.png
+  - 3DPrintCase_Image1.png
+  - 3DPrintCase_Image2.png
+  - 3DPrintCase_Image3.png
+---
+
 # 3D Printed Case
 
 Use OpenSCAD to create a 3D printed case for DragonBoard 410c. OpenSCAD is free software for creating solid 3D CAD objects and is available for Linux/UNIX, MS Windows, and Mac OS X.
@@ -26,6 +48,6 @@ This project creates a protective case for the DragonBoard 410c. There are two v
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

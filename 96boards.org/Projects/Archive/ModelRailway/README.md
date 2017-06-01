@@ -1,3 +1,27 @@
+---
+layout: project-display-page
+title:  96boards Projects &bull; Model Railway Control
+permalink: "/projects/ModelRailway/"
+breadcrumb-title: Model Railway Control
+breadcrumb-section: Projects
+breadcrumb-subtitle: Model Railway Control
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+
+images:
+  - ModelRailway_FrontPage.png
+  - ModelRailway_Image1.png
+  - ModelRailway_Image2.png
+  - ModelRailway_Image3.png
+  - ModelRailway_Image4.png
+  - ModelRailway_Image5.png
+---
 # Model Railway Control
 
 This project shows you how to configure the DragonBoard 410c to allow it to control a model railway using DCC (Digital Command and Control) and open source JMRI software, via a USB/DCC interface. In this particular case, the focus is on controlling the track and signaling, but the codebase also includes the ability to program DCC locomotives.
@@ -21,7 +45,7 @@ This project shows you how to configure the DragonBoard 410c to allow it to cont
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***
