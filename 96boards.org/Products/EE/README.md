@@ -8,5 +8,5 @@ The 96Boards Enterprise Edition (EE) specification targets the networking and se
 
 | 96Boards                                | About                                                   | Options                                 | 
 |:---------------------------------------:|:-------------------------------------------------------:|:--------------------:|
-| <img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_Board/Poplar_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_Board/Poplar_Front_SD.png?raw=true" width="200" height="130" /><br> **Poplar** | Board based on Hisilicon Hi3798CV200 processor  | [View Product](Poplar/README.md)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_Board/Poplar_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_Board/Poplar_Front_SD.png?raw=true" width="200" height="180" /><br> **Poplar** | Board based on Hisilicon Hi3798CV200 processor  | [View Product](Poplar/README.md)<br> |
 
