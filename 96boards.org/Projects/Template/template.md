@@ -1,3 +1,27 @@
+---
+title:  Project Title
+permalink: "/projects/projecttitle/"
+
+breadcrumb-title: Project Title
+breadcrumb-subtitle: Projext Title
+images:
+  - ImageName1.png
+  - ImageName2.png
+  - ImageName2.png
+  
+layout: project-display-page
+breadcrumb-section: Projects
+specific_js:
+  - /js/owl.carousel.min.js
+  - /js/sticky-navbar.js
+  - /js/lightbox.js
+specific_css:
+  - /css/owl.carousel.min.css
+  - /css/owl.theme.default.min.css
+  - /css/lightbox.css
+---
+
+
 # Project Title
 
 < Brief description >
