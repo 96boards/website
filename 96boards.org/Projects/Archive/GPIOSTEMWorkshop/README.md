@@ -35,7 +35,7 @@ Once the students have the basics understood, they are challenged to come up wit
 - **Project Name:** GPIO STEM Workshop
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Education
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

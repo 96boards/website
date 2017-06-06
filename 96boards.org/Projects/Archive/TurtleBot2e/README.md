@@ -31,7 +31,7 @@ The DragonBoard 410c offers two advantages over the prior TurtleBot netbook vers
 - **Project Name:** TurtleBot 2e
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Robotics
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

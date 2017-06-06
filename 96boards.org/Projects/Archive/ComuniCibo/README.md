@@ -33,7 +33,7 @@ Making the refrigerator-concept for a public space helps people confront the rea
 - **Project Name:** ComuniCibo
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Videos
 

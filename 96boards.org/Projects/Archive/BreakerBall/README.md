@@ -32,7 +32,7 @@ In this project, the DragonBoard 410c is combined with a Mezzanine Kit to create
 - **Project Name:** Breakerball
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Gaming, IoT, Sensors
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

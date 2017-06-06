@@ -28,7 +28,7 @@ This guide will walk you through the steps required to build an "S.O.S.“, a br
 - **Project Name:** Brace Yourself
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Videos
 
@@ -44,7 +44,7 @@ This guide will walk you through the steps required to build an "S.O.S.“, a br
 
 ### RSS URL
 
-[Instructions on Instructables](http://www.instructables.com/id/Brace-Yourself/)
+- [Instructions on Instructables](http://www.instructables.com/id/Brace-Yourself/)
 
 ### Social Media Links
 

@@ -33,7 +33,7 @@ The goal of the project was to provide more autonomy to the visually impaired in
 - **Project Name:** Vision 4all
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Robotics, Healthcare
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

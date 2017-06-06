@@ -38,8 +38,8 @@ project uses the available resources to try to reduce such accidents.
 
 ### RSS URL
 
-[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/ultrasonic-fan-control)
-[Source Code](http://pan.baidu.com/s/1pKGdoMn)
+- [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/ultrasonic-fan-control)
+- [Source Code](http://pan.baidu.com/s/1pKGdoMn)
 
 ### Social Media Links
 

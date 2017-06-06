@@ -29,7 +29,7 @@ Demonstrates the use of mosquitto as a broker and paho as a client for MQTT mess
 - **Project Name:** MQTT publisher/subscriber demo
 - **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** CE Edition 96Boards
+- **Board(s) used:** [CE Edition 96Boards](http://www.96boards.org/products/ce/)
 
 ## Videos
 
@@ -41,7 +41,7 @@ Demonstrates the use of mosquitto as a broker and paho as a client for MQTT mess
 
 ### RSS URL
 
-[Github Repository](https://github.com/bfletcher/96board-mqtt-demo)
+- [Github Repository](https://github.com/bfletcher/96board-mqtt-demo)
 
 ### Social Media Links
 

@@ -45,7 +45,7 @@ This project is for the Smart Cities Hackathon. The main point of doing this pro
 
 ### RSS URL
 
-[Instructions on Instructables](http://www.instructables.com/id/Super-Parking/)
+- [Instructions on Instructables](http://www.instructables.com/id/Super-Parking/)
 
 ### Social Media Links
 

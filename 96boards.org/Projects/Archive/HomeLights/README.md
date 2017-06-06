@@ -32,7 +32,7 @@ This project is for the Smart Cities Hackathon. The project objetive was to find
 
 ### RSS URL
 
-[Instructions on Instructables](http://www.instructables.com/id/Home-Lights/)
+- [Instructions on Instructables](http://www.instructables.com/id/Home-Lights/)
 
 ### Social Media Links
 

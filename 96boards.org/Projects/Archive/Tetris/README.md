@@ -32,14 +32,14 @@ power in addition to carrying out game development in java.
 - **Project Name:** Tetris
 - **Type of Project:** Demo/Game
 - **Project Category:** Game
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
 ### RSS URL
 
-[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/tetris)
-[Source Code](http://pan.baidu.com/s/1nuCd9Gl)
+- [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/tetris)
+- [Source Code](http://pan.baidu.com/s/1nuCd9Gl)
 
 ### Social Media Links
 

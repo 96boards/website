@@ -30,7 +30,7 @@ This method uses Amazon Web Services (AWS), and causes the IP address of the Dra
 - **Project Name:** Report IP Address During Headless Boot
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Embedded, IoT
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

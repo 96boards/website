@@ -40,7 +40,7 @@ designed to display real-time local weather, local time, acquiring indoor temper
 
 ### RSS URL
 
-[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/smart-weather-display-system)
+- [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/smart-weather-display-system)
 
 ### Usage Instructions
 

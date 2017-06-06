@@ -30,7 +30,7 @@ Applications for Windows 10. The controller side can run on Windows 10 Mobile, D
 - **Project Name:** ROV with Windows 10 IoT Core
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Robotics
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

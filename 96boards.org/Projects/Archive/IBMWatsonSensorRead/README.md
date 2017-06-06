@@ -36,7 +36,7 @@ This project is part of a technical workshop at IBM InterConnect 2016. The [slid
 - **Project Name:** IBM Watson IoT Platform: Sensor Reading
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

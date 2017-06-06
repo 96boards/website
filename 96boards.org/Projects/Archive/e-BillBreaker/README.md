@@ -31,7 +31,7 @@ e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcom
 - **Project Name:** e-BillBreaker
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Cities, Smart Homes
-- **Board(s) used:**
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

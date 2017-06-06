@@ -31,7 +31,7 @@ It has been a month since you moved into your new apartment and no one has taken
 - **Project Name:** The Needy Trashcan
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Home, Smart Cities
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

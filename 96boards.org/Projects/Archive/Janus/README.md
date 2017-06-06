@@ -32,7 +32,7 @@ In line with the smart home theme of the H.A.R.D Hack hackathon at University of
 - **Project Name:** Janus, Roman God of Doors
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Cities, Smart Home
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

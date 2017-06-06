@@ -40,7 +40,7 @@ A webcam retrofitted into a regular cap is connected to the DragonBoard410c, whi
 - **Project Name:** Smart Cap
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Alexa Voice Service, Embedded, Healthcare, IoT
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

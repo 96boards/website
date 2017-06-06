@@ -27,7 +27,7 @@ Set up a network connection between your DragonBoard™ 410c and your developmen
 - **Project Name:** Windows IoT – Connecting to Network
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

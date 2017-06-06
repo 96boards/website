@@ -33,7 +33,7 @@ Would be usable in a home network environment with the goal of being able to ser
 - **Project Name:** DLNA Media Server / Client Solutions
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Home
-- **Board(s) used:** 96Boards Consumer Edition
+- **Board(s) used:** [96Boards Consumer Edition](http://www.96boards.org/products/ce/)
 
 ## Resources
 

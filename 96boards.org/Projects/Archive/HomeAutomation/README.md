@@ -31,7 +31,7 @@ No experience is needed, as the handout walks you through the project step by st
 - **Project Name:** Home Automation
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Security
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

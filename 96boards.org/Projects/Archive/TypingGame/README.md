@@ -31,14 +31,14 @@ carry out small game development by java.
 - **Project Name:** Typing Game
 - **Type of Project:** Demo/Game
 - **Project Category:** Game
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
 ### RSS URL
 
-[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/typing-game)
-[Source Code](http://pan.baidu.com/s/1dFxGXt3)
+- [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/typing-game)
+- [Source Code](http://pan.baidu.com/s/1dFxGXt3)
 
 ### Social Media Links
 

@@ -28,7 +28,7 @@ Aim of this demo is to introduce developers to the concept of image recognition 
 - **Project Name:** Hand Gesture Recognition
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Robotics, Gaming, Smart Home
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

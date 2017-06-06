@@ -31,7 +31,7 @@ sensor.
 - **Project Name:** Emulating BLE Heart Rate Sensor
 - **Type of Project:** Demo
 - **Project Category:** Embedded, IoT, Healthcare, Smart Home
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 

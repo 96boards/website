@@ -45,7 +45,7 @@ The intention of this project was to build a smart network for private neighborh
 
 ### RSS URL
 
-[Instructions on Instructables](http://www.instructables.com/id/Passme-QUALCOMM-Dragonboard-410c-Tec-De-Monterrey/)
+- [Instructions on Instructables](http://www.instructables.com/id/Passme-QUALCOMM-Dragonboard-410c-Tec-De-Monterrey/)
 
 ### Social Media Links
 

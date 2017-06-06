@@ -29,7 +29,7 @@ This project is a simplified example of photo shooting and uploading, and can be
 - **Project Name:** Webcam Access on a Web Browser
 - **Type of Project:** Demo
 - **Project Category:** Computer Vision, Gaming, Smart Home
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
