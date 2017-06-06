@@ -24,7 +24,7 @@ The DragonBoard 410c "AWS Kit", also known as the Amazon Web Services kit, is so
 
 ***
 
-## Audio Kit ([Purchase](https://www.arrow.com/en/products/dragonboard410caudio/arrow-development-tools)
+## Audio Kit ([Purchase](https://www.arrow.com/en/products/dragonboard410caudio/arrow-development-tools))
 
 The DragonBoard 410c "Audio Kit" is sold by Arrow Electronics. This kit comes with the following:
 
