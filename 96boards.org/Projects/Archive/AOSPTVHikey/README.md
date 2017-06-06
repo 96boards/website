@@ -64,7 +64,7 @@ loosing all the external apps, comment out the userdata flash line in flashall.s
 
 ### Build From Source
 
-Follow The [GitHub](https://github.com/ric96/device_linaro_hikey_tv) link for source and build instructions.
+- Follow The [GitHub](https://github.com/ric96/device_linaro_hikey_tv) link for source and build instructions.
 
 ### Social Media Link
 - **BLOG:** http://geektillithertz.com/wordpress/
