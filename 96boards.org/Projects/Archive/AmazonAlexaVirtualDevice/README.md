@@ -27,15 +27,14 @@ binary release is packed into an Ubuntu Core Snap package.
 - **Project Name:** Amazon Alexa Virtual Device
 - **Type of Project:** Demo
 - **Project Category:** Alexa Voice Service, IoT, Embedded, Smart Home, Smart Cities
-- **Board(s) used:** DragonBoard 410c
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
 ### RSS URL
 
-[View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/amazon-alexa-virtual-device)
-
-[Source Code / Source Example / Application Executable](https://github.com/devicehive/AlexaDevice/releases/tag/v1.1)
+- [View project on Qualcomm Developer Network](https://developer.qualcomm.com/project/amazon-alexa-virtual-device)
+- [Source Code / Source Example / Application Executable](https://github.com/devicehive/AlexaDevice/releases/tag/v1.1)
 
 ### Build / Assembly Instructions
 
