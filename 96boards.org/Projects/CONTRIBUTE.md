@@ -1,16 +1,17 @@
 Contributing to Projects                           
 ========================
 
-96Boards projects is a community driven initiative of hosting the projects made out of 96Boards. 
-Projects to be submitted should be of good quality and should not include basic interfacing exercises
+96Boards projects is a community driven initiative of hosting the projects made out of 96Boards (CE, EE and IE). 
+Potential projects should be of good quality and should not include basic interfacing exercises
 of passive componenets. 
 
 Contribution guidelines:
 ------------------------
 
-- A video demonstrating the project should be attached
-- All the required support files should be attached
-- Copyright statement should be present for all source files
+- All the required support files should be attached or linked
+- Project Thumbnail must be provided for each project
+- Copyright statement is recommended for all source files
+- Link to video demonstration of project is recommended
 
 How to Contribute:
 ------------------
@@ -20,12 +21,12 @@ The issue should have the following informations:
 
 - Title for the project
 - Description for the project
-- Use of 96Boards and Mezzanines
+- Bill of Materials (BoM)
 
-Once the issue has been approved by one of our 96Boards team members, projects should be submitted by
+Once the issue has been approved by one of our 96Boards team members, projects should be submitted using
 following the [Submit a new Project](SUBMIT.md) guide.
 
-If you have any quesitons, please ask in our IRC channel #96Boards. Also, refer our [FAQ](FAQ.md) section.
+If you have any quesitons, please ask in our IRC channel #96Boards or #OpenHours. Also, refer our [FAQ](FAQ.md) section.
 
 ***
 
