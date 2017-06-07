@@ -3,12 +3,8 @@ title:  Project Title
 permalink: "/projects/projecttitle/"
 
 breadcrumb-title: Project Title
-breadcrumb-subtitle: Projext Title
-images:
-  - ImageName1.png
-  - ImageName2.png
-  - ImageName2.png
-  
+breadcrumb-subtitle: Project Title
+
 layout: project-display-page
 breadcrumb-section: Projects
 specific_js:
@@ -28,11 +24,11 @@ specific_css:
 
 ## Project Details
 
-- **Creator:** 
-- **Project Name:** 
-- **Type of Project:** < Demonstration > 
+- **Creator:**
+- **Project Name:**
+- **Type of Project:** < Demonstration >
 - **Project Category:** < Agriculture, Robotics, Healthcare, Security, Maker, IoT >
-- **Board(s) used:** 
+- **Board(s) used:**
 - **Difficulty level:** < Beginner, Intermediate, Experienced>
 
 ## Videos
@@ -53,4 +49,3 @@ While instructions might be made available in other formats at a later time, the
 - < Links to any additional Social media >
 
 ***
-
