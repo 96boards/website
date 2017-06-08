@@ -88,7 +88,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="Archive/FlameRecognition/README.md">Flame Recognition</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/FlameRecognition/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/FlameRecognition/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="Archive/LaserImageingandModeling/README.md">Laser Image/Model</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/LaserImageingandModeling/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/LaserImageingandModeling/Images/thumb.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="Archive/LaserImageingandModeling/README.md">Laser Image/Model</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/LaserImagingandModeling/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/LaserImagingandModeling/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
 </tr>
 
