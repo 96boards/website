@@ -23,9 +23,9 @@ Once the repository is forked onto your GitHub account, you will be able to make
 **On your fork**, you will need to create a new folder within the "Projects" directory of the "website" repository.
 
 - Click "Create new file" - You be sent to a blank new file with the following path: 
-   - `website/96boards.org/Projects/<BLANK1>`
+   - `website/96boards.org/Projects/Archive/<BLANK1>`
 - Populate `<BLANK1>` with the name of your project followed by a forward slash `/`
-   - Your new path should be `website/96boards.org/Projects/NEWProjectName/<BLANK2>`
+   - Your new path should be `website/96boards.org/Projects/Archive/NEWProjectName/<BLANK2>`
 - Populate `<BLANK2>` with `README.md`
 - Copy and paste the following template into the body of your new file:
 
