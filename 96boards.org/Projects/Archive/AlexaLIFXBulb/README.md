@@ -75,16 +75,16 @@ While instructions might be made available in other formats at a later time, the
    11. Next -> Complete Function
    12. In dragonboard.py paste the token obtained from LIFX
 - Setup Alexa skills kit
-   Go to [https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit)
-   Click on 'create a skill now' (you will need to sign in with your amazon account)
-   Click on 'add a new skill' button
-   On skill information tab, give invocation name as 'dragonboard' and a name of your choice
-   Go to interaction mode tab, first add custom slot type from 'custom_slot_types.txt' 
-   e.g: Type: LIST_OF_COLORS Value: red green blue orange pink white yellow violet cyan
-  Copy the content of intent_schema.json and sample_utterance.txt as is
-   Go to configuration tab, select Lambda ARN (you can get this ARN on the top of 'Lamda function' which was created in the previous section
-   Go to test tab: Sample utterance->Enter Utterance->Alexa tell DragonBoard 410c, I am feeling blue
-   You should see the bulb change the color and the result in Lambda response
+   1. Go to [https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit)
+   2. Click on 'create a skill now' (you will need to sign in with your amazon account)
+   3. Click on 'add a new skill' button
+   4. On skill information tab, give invocation name as 'dragonboard' and a name of your choice
+   5. Go to interaction mode tab, first add custom slot type from 'custom_slot_types.txt' 
+      - e.g: Type: LIST_OF_COLORS Value: red green blue orange pink white yellow violet cyan
+   6. Copy the content of intent_schema.json and sample_utterance.txt as is
+   7. Go to configuration tab, select Lambda ARN (you can get this ARN on the top of 'Lamda function' which was created in the previous section
+   8. Go to test tab: Sample utterance->Enter Utterance->Alexa tell DragonBoard 410c, I am feeling blue
+   9. You should see the bulb change the color and the result in Lambda response
 
 ## Usage Instructions
 
