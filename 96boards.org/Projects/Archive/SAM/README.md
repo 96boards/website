@@ -35,11 +35,11 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 
 ### S.A.M. Video Submission
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ### S.A.M. Presentation and Demo
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/SAM/Images/SAM_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Presentation.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/SAM/Images/SAM_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ## Resources
 
