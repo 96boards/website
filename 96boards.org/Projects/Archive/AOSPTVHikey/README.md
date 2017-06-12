@@ -37,7 +37,7 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 
 ### Video Of The AOSP TV Build Running On a Hikey960
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/3YgdDLQ46TA)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Archive/Images/AOSPTV_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/AOSPTVHikey/Archive/Images/AOSPTV_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/3YgdDLQ46TA)
 
 ## Resources
 
