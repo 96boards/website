@@ -34,11 +34,11 @@ Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard
 
 ### GadgetDrone Flight Test (Drone view)
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" width="600" height="350" />](https://youtu.be/XK0PIaZMKJY)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" width="600" height="350" />](https://youtu.be/XK0PIaZMKJY)
 
 ### Live drone demo on OpenHours ep.25
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/view/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
