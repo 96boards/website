@@ -34,7 +34,7 @@ This guide will walk you through the steps required to build an "S.O.S.“, a br
 
 ### Brace Yourself Video Submission
 
-[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/ArchiveBraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/BraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/BraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/BraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ### Brace Yourself Presentation and Demo
 
