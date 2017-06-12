@@ -184,12 +184,25 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="Archive/3DPrintCase/README.md">3D Printed Case</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/3DPrintCase/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/3DPrintCase/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
+<td align="center"><a href="Archive/AWSGreengrass/README.md">AWS Greengrass</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AWSGreengrass/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AWSGreengrass/Images/thumb.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="Archive/AlexaLIFXBulb/README.md">Alexa LIFX Bulb</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AlexaLIFXBulb/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/AlexaLIFXBulb/Images/thumb.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
-
 
 </table>
 
