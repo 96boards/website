@@ -48,6 +48,7 @@ While instructions might be made available in other formats at a later time, the
 
 - [Visit the 96Boards GadgetDrone Blog](http://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
 - [Visit Gumstix GadgetDrone Blog](https://gumstixgadgets.blogspot.ca/2016/11/how-i-got-my-dragonboard-410c-airborne.html)
+- [AeroCore GitHub Repository](https://github.com/aerocore)
 
 ### Social Media Links
 
