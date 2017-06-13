@@ -1,3 +1,11 @@
+---
+layout: empty-container-page
+title:  96boards Buy DragonBoard410c
+permalink: /product/dragonboard410c-buy.md/
+breadcrumb-title: Buy DragonBoard410c
+breadcrumb-section: Products
+breadcrumb-subtitle: Buy DragonBoard410c
+---
 # Buy Now
 
 ## Basic Kit ([Purchase](http://linaro.co/dragonboard410c-buy-arrow))

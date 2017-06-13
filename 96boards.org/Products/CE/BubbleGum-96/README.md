@@ -1,3 +1,11 @@
+---
+title: "96Boards Bubblegum-96 board"
+layout: product-display-page
+permalink: /product/BubbleGum-96/
+status: active
+description: |-
+    Bubblegum-96 Board based on Actions Semi S900 Processor
+---
 # Bubblegum-96
 
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
@@ -6,12 +14,9 @@ packed into a board the size of a credit card. This board is expected to deliver
 
 In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM
 TrustZone® security support.
-
 ## Buy Now
 
 - [uCRobotics](http://linaro.co/bubblegum96-buy)
-
-***
 
 ## Additional Information
 
