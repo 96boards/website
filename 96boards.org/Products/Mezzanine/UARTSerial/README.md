@@ -1,3 +1,12 @@
+---
+title: 96Boards Mezzanine UARTS
+layout: product-display-page
+permalink: /product/UARTSerial/
+status: active
+
+description: |-
+    This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
+---
 # UART Serial Mezzanine
 
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.

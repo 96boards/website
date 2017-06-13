@@ -1,3 +1,12 @@
+---
+title: 96boards | Audio Mezz
+layout: product-display-page
+permalink: /product/LinkSprite/
+status: active
+
+description: |-
+    This is a 7-inch capacitive touch screen LCD with HDMI display and USB touch interfaces. The LCD uses standard HID protocol and integrates very easily into a Linux system. It supports the Debian system on the Arrow Dragonboard 410C.
+---
 # Arrow LinkSprite Mezzanine Kit
 
 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make

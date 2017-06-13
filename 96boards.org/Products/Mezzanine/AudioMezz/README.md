@@ -1,3 +1,12 @@
+---
+title: 96boards | Audio Mezz
+layout: product-display-page
+permalink: /product/AudioMezz/
+status: active
+
+description: |-
+    The 96Boards Sensors starter kit contains everything you need to wire up sensors and devices to a 96Boards single board computer. It contains the 96Boards Sensors mezzanine board with a selection of Grove modules that you can use to start experimenting and prototyping with the 96Boards platform.
+---
 # Arrow Audio Mezzanine
 
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
