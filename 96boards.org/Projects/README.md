@@ -128,7 +128,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <td align="center"><a href="Archive/I2CAccelerometer/README.md">I2C Accelerometer</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/I2CAccelerometer/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/I2CAccelerometer/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="Archive/e-BillBreaker/README.md">HiKey AOSP TV</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/e-BillBreaker/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/e-BillBreaker/Images/thumb.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="Archive/e-BillBreaker/README.md">e-BillBreaker</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/e-BillBreaker/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/e-BillBreaker/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="Archive/IBMWatsonSensorRead/README.md">IBM Watson</a><br><img src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/IBMWatsonSensorRead/Images/thumb.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/96boards.org/Projects/Archive/IBMWatsonSensorRead/Images/thumb.png?raw=true" width="150" height="150" /></td>
 
