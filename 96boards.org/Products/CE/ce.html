@@ -1,0 +1,78 @@
+---
+layout: empty-row-page
+title:  96Boards Consumer Edition (CE)
+permalink: "/products/ce/"
+breadcrumb-title: Consumer Edition
+breadcrumb-section: Products
+breadcrumb-section-two: CE
+breadcrumb-subtitle: Consumer Edition Boards
+description: |-
+    The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
+    The boards below are all certified conformig to this specification, which defines a fixed set and location
+specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
+specification_link: http://www.96boards.org/ce-specification
+specification_image_path: /images/96Boards-Logo_Consumer-small.png
+---
+<div class="container">
+        <div class="row">
+            <div class="col-lg-8" class="description">
+                    <p id="collection-description">{{ page.description }}</p>
+            </div>
+            <div class="col-lg-4 fade-in-one ">
+                  <img id="collection-image" class="lazyload img-responsive center-block hidden-sm hidden-xs"
+                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  data-src="{{ site.fullpath }}{{ page.specification_image_path}}" alt="96Boards logo small.">
+                  <br />
+                  <a href="{{ page.specification_link }}" download class="btn btn-primary center-block">Specification <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+
+        <div id="grid">
+            {% assign products_array = site.data.product_db.products | where: "product_specification", "CE" %}
+            <div class="row">
+            {% for product in products_array %}
+            {% assign product-url = product.product_permalink | split: "/" %}
+
+                <div class="mix {{product.product_specification | downcase }} col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="col-item">
+                        <div class="photo">
+                            <a href="{{site.fullpath}}{{product.product_permalink}}">
+                                <img data-src="../../product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}"
+                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload img-responsive" alt="a" />
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="product-title col-md-12 text-center">
+                                <a href="{{site.fullpath}}{{product.product_permalink}}">
+                                    <h5>{{ product.product_title }}</h5>
+                                </a>
+                            </div>
+                            <div class="product-short-description">
+                                {{ product.product_short_desc | slice: 0, 50 }}...
+                            </div>
+                            <div class="separator clear-left">
+                                <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
+                                    <a href="{{ site.fullpath }}{{ product.product_permalink }}" class="btn btn-primary btn-read-more">Read More</a>
+                                    <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Buy <i class="button-icon fa fa-shopping-cart"></i>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                  </button>
+                                  <ul class="dropdown-menu buy-dropup-menu">
+                                      {% for buy_link in product.product_buy_links %}
+                                      <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
+                                      {% endfor %}
+                                  </ul>
+                                </div>
+                            </div>
+
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+</div>
