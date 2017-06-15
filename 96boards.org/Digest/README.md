@@ -1,5 +1,6 @@
 # Weekly Digest
 
+- Issue #14 - [96Boards and Home Surveillance](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=dbeaf5595b)
 - Issue #13 - [96Boards welcomes back, the "Weekly Openhours Digest"](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=de445c0dd9)
 - Issue #12 - [OpenHours welcomes the "Community Minute"](http://eepurl.com/cLanAX)
 - Issue #11 - ["Project BIG Button"](http://eepurl.com/cJduhj)
