@@ -24,7 +24,7 @@ Smart Boiler is a Technological project developed in Tecnológico de Monterrey (
 
 ### Smart Boiler Video Submission
 
-[<img src="../view/SmartBoiler/Images/SmartBoiler_Video_Demo.png?raw=true" data-canonical-src="../view/SmartBoiler/Images/SmartBoiler_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EeY8mxL8CmY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+[<img src="../SmartBoiler/Images/SmartBoiler_Video_Demo.png?raw=true" data-canonical-src="../SmartBoiler/Images/SmartBoiler_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EeY8mxL8CmY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
 
 ## Resources
 

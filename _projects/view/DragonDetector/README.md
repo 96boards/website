@@ -28,11 +28,11 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 
 ### DragonDetector demo
 
-[<img src="../view/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" data-canonical-src="../view/DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/9NGkGyWplvQ)
+[<img src="../DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" data-canonical-src="../DragonDetector/Images/DragonDetector_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/9NGkGyWplvQ)
 
 ### Andy Clark demos the DragonDetector on OpenHours ep. #30
 
-[<img src="../view/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" data-canonical-src="../view/DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="../DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" data-canonical-src="../DragonDetector/Images/DragonDetector_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
