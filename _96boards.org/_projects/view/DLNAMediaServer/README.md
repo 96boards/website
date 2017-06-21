@@ -24,18 +24,18 @@ Would be usable in a home network environment with the goal of being able to ser
 - **Project Name:** DLNA Media Server / Client Solutions
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT, Smart Home
-- **Board(s) used:** [96Boards Consumer Edition](http://www._96boards.org/products/ce/)
+- **Board(s) used:** [96Boards Consumer Edition](http://www.96boards.org/products/ce/)
 
 ## Resources
 
 ### RSS URL
 
 - [View Project on Qualcomm Developer Network](https://developer.qualcomm.com/project/dlna-media-server-client-solutions)
-- [96Boards Blog Post with instructions](http://www._96boards.org/blog/96boards-media-server/)
+- [96Boards Blog Post with instructions](http://www.96boards.org/blog/96boards-media-server/)
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

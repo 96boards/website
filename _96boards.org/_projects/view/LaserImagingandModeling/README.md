@@ -19,7 +19,7 @@ Pseudo-3D modeling and similar techniques are used to simulate the appearance of
 - **Project Name:** Laser Imaging and Modeling
 - **Type of Project:** Demo
 - **Project Category:** Computer Vision, Gaming
-- **Board(s) used:** [96Boards Consumer Edition](https://www._96boards.org/products/ce/)
+- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
 
 ## Resources
 
@@ -43,7 +43,7 @@ and the 3D file will be generated.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

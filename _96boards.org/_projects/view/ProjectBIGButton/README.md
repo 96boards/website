@@ -19,7 +19,7 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 - **Project Name:** Project BIG Button
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Videos
 
@@ -35,13 +35,13 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 
 ### RSS URL
 
-- [96Boards Blog](http://www._96boards.org/blog/project-big-button-barry-byford/)
+- [96Boards Blog](http://www.96boards.org/blog/project-big-button-barry-byford/)
 - [Instructions](https://ukbaz.github.io/howto/proj_big_btn.html)
 
 ### Social Media Links
 
 - Barry Byford: [Twitter](https://twitter.com/uk_baz)
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

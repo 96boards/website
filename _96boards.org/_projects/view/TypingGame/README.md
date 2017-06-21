@@ -21,7 +21,7 @@ carry out small game development by java.
 - **Project Name:** Typing Game
 - **Type of Project:** Demo/Game
 - **Project Category:** Game
-- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
@@ -32,7 +32,7 @@ carry out small game development by java.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

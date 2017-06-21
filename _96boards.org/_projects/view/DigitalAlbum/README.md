@@ -20,7 +20,7 @@ We have an ever-expanding digital library, and thanks to advancements in data st
 - **Project Name:** Digital Album
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Digital Signage, Smart Home
-- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 
 ## Resources
 
@@ -31,7 +31,7 @@ We have an ever-expanding digital library, and thanks to advancements in data st
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

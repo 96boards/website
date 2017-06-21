@@ -19,7 +19,7 @@ Using the DragonBoard 410c, the objective of this project is to get familiar wit
 - **Project Name:** Integrated Alexa and LIFX Bulb
 - **Type of Project:** Demonstration
 - **Project Category:** Alexa Voice Service, Embedded, IoT, Smart Home
-- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
 - **Difficulty level:** Advanced
 
 ## Resources
@@ -84,6 +84,6 @@ While instructions might be made available in other formats at a later time, the
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***

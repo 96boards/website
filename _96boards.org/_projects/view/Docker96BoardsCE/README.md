@@ -26,7 +26,7 @@ Docker is “an open source project to pack, ship and run any application as a l
 - **Project Name:** Installing Docker on aarch64 with the Reference Platform build on a 96Boards CE-Edition
 - **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [CE Edition 96Boards](http://www._96boards.org/products/ce/)
+- **Board(s) used:** [CE Edition 96Boards](http://www.96boards.org/products/ce/)
 
 ## Videos
 
@@ -38,11 +38,11 @@ Docker is “an open source project to pack, ship and run any application as a l
 
 ### RSS URL
 
-[96Boards blog and instructions](http://www._96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[96Boards blog and instructions](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***
