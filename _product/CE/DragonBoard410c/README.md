@@ -16,7 +16,7 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 
 - [Arrow (Basic Kit)](http://linaro.co/dragonboard410c-buy-arrow)
 - [Arrow (Audio Kit)](http://linaro.co/db410c-audio-buy-arrow)
-- [Amazon (AWS Kit)](http://linaro.co/96bawsbuy)
+- [Amazon (AWS IOT Kit)](http://linaro.co/96bawsbuy)
 
 ***
 
