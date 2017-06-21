@@ -10,7 +10,7 @@ description: |-
 
 This projects page is hosted on, and rendered from the [96Boards website repository](https://github.com/96boards/website/tree/master/_96boards.org/Projects). Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
 
-[Submit a Project](SUBMIT.md) | [Contribute](CONTRIBUTE.md) | [FAQ](FAQ.md) | [OpenHours](http://www.96boards.org/openhours/)
+[Submit a Project](SUBMIT.md) | [Contribute](CONTRIBUTE.md) | [FAQ](FAQ.md) | [OpenHours](https://www.96boards.org/openhours/)
 
 ***
 
@@ -200,15 +200,15 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <tr>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/Projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_96boards.org/_projects/Template/Images/Share_image.png?raw=true" width="150" height="150" /></td>
 
 </tr>
 
