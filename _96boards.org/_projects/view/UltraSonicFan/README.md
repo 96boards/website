@@ -22,7 +22,7 @@ project uses the available resources to try to reduce such accidents.
 - **Project Name:** Ultrasonic Fan Control
 - **Type of Project:** Demo
 - **Project Category:** Sensors / Smart Home
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
+- **Board(s) used:** [96Boards Consumer Edition](https://www._96boards.org/products/ce/)
 
 ## Resources
 
@@ -33,7 +33,7 @@ project uses the available resources to try to reduce such accidents.
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

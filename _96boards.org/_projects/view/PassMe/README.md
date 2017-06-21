@@ -19,7 +19,7 @@ The intention of this project was to build a smart network for private neighborh
 - **Project Name:** PassMe
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
+- **Board(s) used:** [96Boards Consumer Edition](https://www._96boards.org/products/ce/)
 
 ## Videos
 
@@ -39,7 +39,7 @@ The intention of this project was to build a smart network for private neighborh
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

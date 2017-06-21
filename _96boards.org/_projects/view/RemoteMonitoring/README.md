@@ -21,7 +21,7 @@ Sometimes when I am not home I wanted to have a look of my home conditions. It w
 - **Project Name:** Remote Monitoring Project
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Computer Vision, Security, Smart Home
-- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
 
 ## Resources
 
@@ -34,7 +34,7 @@ Sometimes when I am not home I wanted to have a look of my home conditions. It w
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www._96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 
 ***

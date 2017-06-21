@@ -21,7 +21,7 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 - **Project Name:** AOSP TV For Hikey Boards
 - **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Android Open Source Project
-- **Board(s) used:** [Hikey](http://www.96boards.org/product/hikey/) and [Hikey960](http://www.96boards.org/product/hikey960/)
+- **Board(s) used:** [Hikey](http://www._96boards.org/product/hikey/) and [Hikey960](http://www._96boards.org/product/hikey960/)
 - **Difficulty level:** Beginner: Install Prebuilt ROM, Experienced: Build AOSP TV From Source
 
 ## Videos

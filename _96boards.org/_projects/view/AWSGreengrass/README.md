@@ -26,7 +26,7 @@ ASW Greengrass running on the DragonBoard 410c is designed to help manufacturers
 - **Project Name:** AWS Greengrass
 - **Type of Project:** Demonstration
 - **Project Category:** Embedded, Healthcare, IoT, Security, Sensors, Smart Cities, Smart Home
-- **Board(s) used:** [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](http://www._96boards.org/product/dragonboard410c/)
 - **Difficulty level:** Beginner
 
 ## Resources
@@ -57,6 +57,6 @@ Follow the detailed AWS Greengrass Setup Instructions, which covers the followin
 
 ### Social Media Links
 
-- 96Boards: [URL](http://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](http://www._96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
 
 ***
