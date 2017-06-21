@@ -1,6 +1,5 @@
 ---
 layout: empty-container-page
-title:  96boards Projects FAQ
 page_title: Projects FAQ
 permalink: "/projects/faq.md/"
 description: |-

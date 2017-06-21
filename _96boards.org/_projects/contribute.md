@@ -1,6 +1,5 @@
 ---
 layout: empty-container-page
-title:  96boards Project Contribution
 page_title: Project Contribution
 permalink: "/projects/contribute.md/"
 description: |-

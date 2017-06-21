@@ -1,6 +1,5 @@
 ---
 layout: empty-container-page
-title:  96boards Projects
 page_title: Projects
 permalink: "/projects/"
 description: |-

@@ -1,6 +1,5 @@
 ---
 layout: empty-container-page
-title:  96boards Submit New Project
 page_title: Submit Project
 permalink: "/projects/submit.md/"
 description: |-
