@@ -1,0 +1,87 @@
+---
+page_title: Blog
+permalink: "/blog/"
+description: |-
+    96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost.
+status: draft
+layout: empty-container-page-no-nav
+pagination:
+    enabled: true
+    collection: posts
+    permalink: "/:num/"
+    trail:
+        before: 4
+        after: 4
+redirect_from:
+  - /2015/
+  - /2016/
+  - /2017/
+---
+
+<div class="row">
+    <div class="col-md-9">
+        {% for post in paginator.posts %}
+            <div class="row blog_post">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <a href="{{post.url}}">
+                        <img class="img-responsive" src="http://via.placeholder.com/200x200" alt="{{post.title}}" />
+                    </a>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 post_title no-padding">
+                    <h3>{{ post.title}}</h3>
+                    <em>{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
+                    <p class="post_excerpt">
+                        {{post.content | strip_html | truncatewords:30}}
+                    </p>
+                    <p>
+                        <a href="{{post.url}}">
+                            <button class="btn blog-read-more-btn">Read More</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+          </p>
+        {% endfor %}
+    </div>
+    <div class="col-md-3">
+            <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Follow Us</h3>
+                  </div>
+                  <div class="panel-body">
+                      <a href="http://facebook.com/{{site.facebook_username}}" class="blog-icons btn btn-social-icon btn-facebook">
+                      <i class="fa fa-facebook"></i></a>
+                      <a href="https://github.com/{{site.github_username}}" class="blog-icons btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                      <a href="https://plus.google.com/{{site.google_plus_username}}/posts" class="blog-icons btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/company/{{site.linkedin_username}}" class="blog-icons btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                      <a href="https://twitter.com/{{site.twitter_username}}" class="blog-icons btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.youtube.com/{{site.youtube_username}}" class="blog-icons btn btn-social-icon btn-vk"><i class="fa fa-youtube"></i></a>
+                  </div>
+              </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Popular Blogs</h3>
+              </div>
+              <div class="panel-body">
+                  {% assign pop-blogs = site.posts | where: "featured_blog","true" %}
+                  {% for blog in pop-blogs %}
+                      <div class="featured_blog_post">
+                          <div class="row">
+                              <div class="col-md-3 col-sm-3 col-xs-3 no-padding">
+                                 <img src="http://via.placeholder.com/200x200" alt="{{blog.title}}" class="img-responsive"/>
+                              </div>
+                              <div class="col-md-9 col-sm-9 col-xs-9 ">
+                                 <a href="{{blog.url}}">{{blog.title | truncate: 40}}</a>
+                                 <br /><small><em>{{blog.date | date: "%A, %B %-d, %Y" }}</em></small>
+                             </div>
+                          </div>
+                      </div>
+                  {% endfor %}
+              </div>
+            </div>
+    </div>
+</div>
+<div class="row">
+{% include _theme-includes/_blog/pagination.html %}
+</div>
