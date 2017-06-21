@@ -1,9 +1,7 @@
 ---
-title: "96boards Hikey (LeMaker)"
-page_title:  HiKey (LeMaker)
+page_title: HiKey (LeMaker)
 layout: product-display-page
 permalink: /product/hikey/
-status: active
 redirect_from:
   - /products/hikey/
   - /hikey/

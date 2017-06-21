@@ -1,9 +1,7 @@
 ---
-title: "96Boards Bubblegum-96"
-page_title:  Bubblegum-96
+page_title: Bubblegum-96
 layout: product-display-page
 permalink: /product/bubblegum-96/
-status: active
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
 ---

@@ -1,10 +1,7 @@
 ---
-title: 96boards Link Sprite
-page_title:  Link Sprite
+page_title: Link Sprite
 layout: product-display-page
 permalink: /product/linksprite/
-status: active
-
 description: |-
     This is a 7-inch capacitive touch screen LCD with HDMI display and USB touch interfaces. The LCD uses standard HID protocol and integrates very easily into a Linux system. It supports the Debian system on the Arrow Dragonboard 410C.
 ---
