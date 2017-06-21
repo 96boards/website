@@ -1,0 +1,16 @@
+---
+layout: empty-container-page
+page_title: MediaTekX20 Configuration
+permalink: /documentation/ConsumerEdition/MediaTekX20/Configuration/
+description: |-
+    Execute unique configuraions to customize your MediaTek X20 experience.
+redirect_from:
+    - /documentation/ConsumerEdition/MediaTekX20/Configuration/README.md/
+---
+## Configuration
+
+Execute unique configuraions to customize your MediaTek X20 experience
+
+## Helpful Configurations
+
+Coming soon...
