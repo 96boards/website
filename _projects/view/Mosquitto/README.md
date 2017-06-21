@@ -25,7 +25,7 @@ Demonstrates the use of mosquitto as a broker and paho as a client for MQTT mess
 
 ### Live Mosquitto demo on OpenHours ep.31
 
-[<img src="../view/Mosquitto/Images/MQTT_Video_OpenHours.png?raw=true" data-canonical-src="../view/Mosquitto/Images/MQTT_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/soYVe_MJaaE?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+[<img src="../Mosquitto/Images/MQTT_Video_OpenHours.png?raw=true" data-canonical-src="../Mosquitto/Images/MQTT_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/soYVe_MJaaE?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ## Resources
 
