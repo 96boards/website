@@ -24,11 +24,13 @@ redirect_from:
             <div class="row blog_post">
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <a href="{{post.url}}">
-                        <img class="img-responsive" src="http://via.placeholder.com/200x200" alt="{{post.title}}" />
+                        <img class="img-responsive blog-img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="{% if post.images %}/images/blog/{{post.title | slugify }}/{{post.images[0]}}{% else %}http://via.placeholder.com/200x200{% endif %}" alt="{{post.title}}" />
                     </a>
                 </div>
                 <div class="col-md-9 col-sm-9 col-xs-12 post_title no-padding">
-                    <h3>{{ post.title}}</h3>
+                    <a href="{{post.url}}"><h3>{{ post.title}}</h3></a>
                     <em>{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
                     <p class="post_excerpt">
                         {{post.content | strip_html | truncatewords:30}}
