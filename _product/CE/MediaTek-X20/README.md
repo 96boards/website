@@ -1,5 +1,5 @@
 ---
-page_title: Mediatek X20 Development Board
+title: Mediatek X20 Development Board
 layout: product-display-page
 permalink: /product/mediatek-x20/
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Docker on AArch64 96Boards Consumer Edition
+title: Docker on AArch64 96Boards Consumer Edition
 layout: project-display-page
 permalink: "/projects/Docker96BoardsCE/"
 breadcrumb-title: Docker on AArch64 96Boards Consumer Edition

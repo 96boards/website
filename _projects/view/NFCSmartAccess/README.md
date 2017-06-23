@@ -1,5 +1,5 @@
 ---
-page_title: NFC Smart Access Control System
+title: NFC Smart Access Control System
 layout: project-display-page
 permalink: "/projects/NFCSmartAccess/"
 description: |-

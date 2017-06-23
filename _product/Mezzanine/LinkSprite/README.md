@@ -1,5 +1,5 @@
 ---
-page_title: Link Sprite
+title: Link Sprite
 layout: product-display-page
 permalink: /product/linksprite/
 description: |-

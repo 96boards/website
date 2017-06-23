@@ -1,5 +1,5 @@
 ---
-page_title: e-BillBreaker
+title: e-BillBreaker
 layout: project-display-page
 permalink: "/projects/e-BillBreaker/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Smart Grids and Energy Meters
+title: Smart Grids and Energy Meters
 layout: project-display-page
 permalink: "/projects/SmartGridEnergyMeter/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: HiKey (LeMaker)
+title: HiKey (LeMaker)
 layout: product-display-page
 permalink: /product/hikey/
 redirect_from:

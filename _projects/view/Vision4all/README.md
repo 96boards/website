@@ -1,5 +1,5 @@
 ---
-page_title: Vision 4all
+title: Vision 4all
 layout: project-display-page
 permalink: "/projects/Vision4all/"
 description: |-

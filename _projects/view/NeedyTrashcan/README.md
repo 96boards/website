@@ -1,5 +1,5 @@
 ---
-page_title: The Needy Trashcan
+title: The Needy Trashcan
 layout: project-display-page
 permalink: "/projects/NeedyTrashcan/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: DLNA Media Server / Client Solutions
+title: DLNA Media Server / Client Solutions
 layout: project-display-page
 permalink: "/projects/DLNAMediaServer/"
 description: |-

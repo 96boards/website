@@ -1,5 +1,5 @@
 ---
-page_title: STM32 Sensor Mezzanine Board
+title: STM32 Sensor Mezzanine Board
 layout: product-display-page
 permalink: /product/stm32/
 description: |-

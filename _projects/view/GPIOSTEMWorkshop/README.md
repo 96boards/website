@@ -1,5 +1,5 @@
 ---
-page_title: GPIO STEM Workshop
+title: GPIO STEM Workshop
 layout: project-display-page
 permalink: "/projects/GPIOSTEMWorkshop/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: 96Brews
+title: 96Brews
 permalink: "/projects/96Brews/"
 description: |-
     Ricardo Salveti shared his recently converted home brewing operation. By taking a basic

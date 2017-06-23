@@ -1,5 +1,5 @@
 ---
-page_title: Super Parking
+title: Super Parking
 layout: project-display-page
 permalink: "/projects/SuperParking/"
 description: |-

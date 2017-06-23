@@ -1,5 +1,5 @@
 ---
-page_title: MIPI Adapter Mezzanine
+title: MIPI Adapter Mezzanine
 layout: product-display-page
 permalink: /product/mipiadapter/
 description: |-

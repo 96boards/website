@@ -1,5 +1,5 @@
 ---
-page_title: IBM Watson IoT Platform Service
+title: IBM Watson IoT Platform Service
 layout: project-display-page
 permalink: "/projects/IBMWatsonIoT/"
 description: |-

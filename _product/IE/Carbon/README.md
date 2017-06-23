@@ -1,5 +1,5 @@
 ---
-page_title: Carbon
+title: Carbon
 layout: product-display-page
 permalink: /product/carbon/
 description: |-

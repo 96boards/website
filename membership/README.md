@@ -1,5 +1,5 @@
 ---
-page_title: Membership
+title: Membership
 description: |-
     96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 permalink: /membership/

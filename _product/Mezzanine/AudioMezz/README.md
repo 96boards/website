@@ -1,5 +1,5 @@
 ---
-page_title: Audio Mezz
+title: Audio Mezz
 layout: product-display-page
 permalink: /product/audiomezz/
 description: |-

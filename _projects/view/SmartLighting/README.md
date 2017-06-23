@@ -1,5 +1,5 @@
 ---
-page_title: Smart Lighting Management System
+title: Smart Lighting Management System
 layout: project-display-page
 permalink: "/projects/SmartLighting/"
 description: |-

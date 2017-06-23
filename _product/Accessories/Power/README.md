@@ -1,5 +1,5 @@
 ---
-page_title: Power Accessories
+title: Power Accessories
 permalink: /product/power/
 layout: accessory-display-page
 description: Power Accessories for 96Boards

@@ -1,6 +1,6 @@
 ---
 title:  Project Title
-page_title: Project Template
+title: Project Template
 permalink: "/projects/template.md/"
 layout: project-display-page
 ---

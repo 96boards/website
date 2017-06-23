@@ -1,5 +1,5 @@
 ---
-page_title: Ultrasonic Fan Control
+title: Ultrasonic Fan Control
 layout: project-display-page
 permalink: "/projects/UltraSonicFan/"
 description: |-

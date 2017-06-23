@@ -1,5 +1,5 @@
 ---
-page_title: Running KVM on HiKey
+title: Running KVM on HiKey
 layout: project-display-page
 permalink: "/projects/KVM/"
 description: |-

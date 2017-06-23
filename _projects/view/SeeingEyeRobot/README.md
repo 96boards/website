@@ -1,5 +1,5 @@
 ---
-page_title: Seeing Eye Robot
+title: Seeing Eye Robot
 layout: project-display-page
 permalink: "/projects/SeeingEyeRobot/"
 description: |-

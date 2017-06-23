@@ -1,5 +1,5 @@
 ---
-page_title: IBM Watson IoT Platform Sensor Reading
+title: IBM Watson IoT Platform Sensor Reading
 layout: project-display-page
 permalink: "/projects/IBMWatsonSensorRead/"
 description: |-

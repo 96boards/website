@@ -1,6 +1,6 @@
 ---
 layout: empty-container-page
-page_title: Projects
+title: Projects
 permalink: "/projects/"
 description: |-
     The 96Boards projects that have been announced are shown below.

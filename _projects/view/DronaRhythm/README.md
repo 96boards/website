@@ -1,5 +1,5 @@
 ---
-page_title: Drona Rhythm
+title: Drona Rhythm
 layout: project-display-page
 permalink: "/projects/DronaRhythm/"
 description: |-

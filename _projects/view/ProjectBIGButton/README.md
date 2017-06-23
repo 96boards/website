@@ -1,5 +1,5 @@
 ---
-page_title: Project BIG Button
+title: Project BIG Button
 layout: project-display-page
 permalink: "/projects/ProjectBIGButton/"
 description: |-

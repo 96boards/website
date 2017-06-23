@@ -1,5 +1,5 @@
 ---
-page_title: I2C Accelerometer
+title: I2C Accelerometer
 layout: project-display-page
 permalink: "/projects/I2CAccelerometer/"
 description: |-

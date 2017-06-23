@@ -1,5 +1,5 @@
 ---
-page_title: Amazon Alexa Virtual Device
+title: Amazon Alexa Virtual Device
 permalink: "/projects/AmazonAlexaVirtualDevice/"
 description: |-
     This project aims to provide the ability to bring Alexa to a Linux device including embedded systems like the DragonBoard™ 410c from Arrow Electronics.

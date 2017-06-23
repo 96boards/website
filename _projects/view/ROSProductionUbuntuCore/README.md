@@ -1,5 +1,5 @@
 ---
-page_title: ROS prototype to production on Ubuntu Core
+title: ROS prototype to production on Ubuntu Core
 layout: project-display-page
 permalink: "/projects/ROSProductionUbuntuCore/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Electrical Current Tracking
+title: Electrical Current Tracking
 layout: project-display-page
 permalink: "/projects/CurrentTracking/"
 description: |-

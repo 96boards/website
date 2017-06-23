@@ -1,5 +1,5 @@
 ---
-page_title: Remote Video Monitoring and Target Tracking
+title: Remote Video Monitoring and Target Tracking
 layout: project-display-page
 permalink: "/projects/RemoteVideoTargetTracking/"
 description: |-

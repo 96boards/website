@@ -1,5 +1,5 @@
 ---
-page_title: Smart Cap
+title: Smart Cap
 layout: project-display-page
 permalink: "/projects/SmartCap/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Home Lights
+title: Home Lights
 layout: project-display-page
 permalink: "/projects/HomeLights/"
 description: |-

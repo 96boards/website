@@ -1,5 +1,5 @@
 ---
-page_title: Sensor Demo
+title: Sensor Demo
 layout: project-display-page
 permalink: "/projects/SensorDemo/"
 description: |-

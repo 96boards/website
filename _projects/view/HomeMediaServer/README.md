@@ -1,5 +1,5 @@
 ---
-page_title: HomeMediaServer
+title: HomeMediaServer
 layout: project-display-page
 permalink: "/projects/HomeMediaServer/"
 status: draft

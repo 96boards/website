@@ -1,5 +1,5 @@
 ---
-page_title: Smart Weather Display System
+title: Smart Weather Display System
 layout: project-display-page
 permalink: "/projects/SmartWeatherDisplaySystem/"
 description: |-

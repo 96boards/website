@@ -1,5 +1,5 @@
 ---
-page_title: S.A.M. (Smart Assistant Mirror)
+title: S.A.M. (Smart Assistant Mirror)
 layout: project-display-page
 permalink: "/projects/SAM/"
 description: |-

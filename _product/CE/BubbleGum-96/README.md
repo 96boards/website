@@ -1,5 +1,5 @@
 ---
-page_title: Bubblegum-96
+title: Bubblegum-96
 layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-

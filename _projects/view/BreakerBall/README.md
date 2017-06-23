@@ -1,5 +1,5 @@
 ---
-page_title: Breakerball
+title: Breakerball
 layout: project-display-page
 permalink: "/projects/BreakerBall/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: AWSIoT
+title: AWSIoT
 permalink: "/projects/AWSIoT/"
 description: |-
     The DragonBoard™ 410c AWS IoT SDK kit includes applications that utilize the Amazon Web Services IoT.

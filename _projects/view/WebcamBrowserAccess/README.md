@@ -1,5 +1,5 @@
 ---
-page_title: Webcam Access on a Web Browser
+title: Webcam Access on a Web Browser
 layout: project-display-page
 permalink: "/projects/WebcamBrowserAccess/"
 description: |-

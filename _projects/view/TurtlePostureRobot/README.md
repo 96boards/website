@@ -1,5 +1,5 @@
 ---
-page_title: Fit Turtle Posture Robot
+title: Fit Turtle Posture Robot
 layout: project-display-page
 permalink: "/projects/TurtlePostureRobot/"
 description: |-

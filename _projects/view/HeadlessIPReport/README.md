@@ -1,5 +1,5 @@
 ---
-page_title: Report IP Address During Headless Boot
+title: Report IP Address During Headless Boot
 layout: project-display-page
 permalink: "/projects/HeadlessIPReport/"
 description: |-

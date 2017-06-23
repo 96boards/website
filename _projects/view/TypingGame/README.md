@@ -1,5 +1,5 @@
 ---
-page_title: Typing Game
+title: Typing Game
 layout: project-display-page
 permalink: "/projects/TypingGame/"
 description: |-

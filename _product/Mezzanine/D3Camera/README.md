@@ -1,5 +1,5 @@
 ---
-page_title: D3Camera
+title: D3Camera
 layout: product-display-page
 permalink: /product/d3camera/
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Compliance
+title: Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/

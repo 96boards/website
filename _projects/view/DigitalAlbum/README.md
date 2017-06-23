@@ -1,5 +1,5 @@
 ---
-page_title: Digital Album
+title: Digital Album
 layout: project-display-page
 permalink: "/projects/DigitalAlbum/"
 description: |-

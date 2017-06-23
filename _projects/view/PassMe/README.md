@@ -1,5 +1,5 @@
 ---
-page_title: PassMe
+title: PassMe
 layout: project-display-page
 permalink: "/projects/PassMe/"
 description: |-

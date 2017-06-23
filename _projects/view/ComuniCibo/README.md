@@ -1,5 +1,5 @@
 ---
-page_title: ComuniCibo
+title: ComuniCibo
 layout: project-display-page
 permalink: "/projects/ComuniCibo/"
 description: |-

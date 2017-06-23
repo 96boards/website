@@ -1,5 +1,5 @@
 ---
-page_title: Tetris
+title: Tetris
 layout: project-display-page
 permalink: "/projects/Tetris/"
 description: |-

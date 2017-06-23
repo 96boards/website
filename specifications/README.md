@@ -1,5 +1,5 @@
 ---
-page_title: Specifications
+title: Specifications
 description: |-
     The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features.
 permalink: "/specifications/"

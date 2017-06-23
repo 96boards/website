@@ -1,5 +1,5 @@
 ---
-page_title: Emulating BLE Heart Rate Sensor
+title: Emulating BLE Heart Rate Sensor
 layout: project-display-page
 permalink: "/projects/EmulatorBLEHeartRateSensor/"
 description: |-

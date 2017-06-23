@@ -1,5 +1,5 @@
 ---
-page_title: OxusR – Content Optimization
+title: OxusR – Content Optimization
 layout: project-display-page
 permalink: "/projects/OxusR/"
 description: |-

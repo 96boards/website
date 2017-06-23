@@ -1,5 +1,5 @@
 ---
-page_title: Windows IoT – Connecting to Network
+title: Windows IoT – Connecting to Network
 layout: project-display-page
 permalink: "/projects/WinIoTNetwork/"
 description: |-

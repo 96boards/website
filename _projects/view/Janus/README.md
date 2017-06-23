@@ -1,5 +1,5 @@
 ---
-page_title: Janus, Roman God of Doors
+title: Janus, Roman God of Doors
 layout: project-display-page
 permalink: "/projects/Janus/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: Model Railway Control
+title: Model Railway Control
 layout: project-display-page
 permalink: "/projects/ModelRailway/"
 description: |-

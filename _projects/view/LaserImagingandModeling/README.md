@@ -1,5 +1,5 @@
 ---
-page_title: Laser Imaging and Modeling
+title: Laser Imaging and Modeling
 layout: project-display-page
 permalink: "/projects/LaserImagingandModeling/"
 description: |-

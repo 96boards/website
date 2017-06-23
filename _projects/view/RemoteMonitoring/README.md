@@ -1,5 +1,5 @@
 ---
-page_title: Remote Monitoring Project
+title: Remote Monitoring Project
 layout: project-display-page
 permalink: "/projects/RemoteMonitoring/"
 description: |-

@@ -1,5 +1,5 @@
 ---
-page_title: UART Serial
+title: UART Serial
 layout: product-display-page
 permalink: /product/uartserial/
 description: |-

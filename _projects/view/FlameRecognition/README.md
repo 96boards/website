@@ -1,5 +1,5 @@
 ---
-page_title: Flame Recognition
+title: Flame Recognition
 layout: project-display-page
 permalink: "/projects/FlameRecognition/"
 description: |-

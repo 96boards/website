@@ -1,5 +1,5 @@
 ---
-page_title: ROV with Windows 10 IoT Core
+title: ROV with Windows 10 IoT Core
 layout: project-display-page
 permalink: "/projects/ROVWindowsIoT/"
 description: |-

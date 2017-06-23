@@ -1,5 +1,5 @@
 ---
-page_title: Dragon Detector
+title: Dragon Detector
 layout: project-display-page
 permalink: "/projects/DragonDetector/"
 description: |-

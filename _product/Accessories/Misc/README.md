@@ -1,5 +1,5 @@
 ---
-page_title: Miscellaneous Accessories
+title: Miscellaneous Accessories
 permalink: /product/misc/
 layout: accessory-display-page
 description: Miscellaneous Accessories for 96Boards

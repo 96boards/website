@@ -1,5 +1,5 @@
 ---
-page_title: Smart Boiler
+title: Smart Boiler
 layout: project-display-page
 permalink: "/projects/SmartBoiler/"
 description: |-

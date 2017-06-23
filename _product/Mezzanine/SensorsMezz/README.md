@@ -1,5 +1,5 @@
 ---
-page_title: Sensors
+title: Sensors
 layout: product-display-page
 permalink: /product/sensorsmezz/
 description: |-

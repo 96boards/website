@@ -1,5 +1,5 @@
 ---
-page_title: AOSP TV Build
+title: AOSP TV Build
 permalink: "/projects/AOSPTVHikey/"
 description: |-
     Taking clues from how we used to build Android TV for the Raspberry Pi, I was able to get a AOSP TV build running on both the Hikey bords.

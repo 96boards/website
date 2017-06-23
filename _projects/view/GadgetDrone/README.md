@@ -1,5 +1,5 @@
 ---
-page_title: Gumstix Gadget Drone
+title: Gumstix Gadget Drone
 layout: project-display-page
 permalink: "/projects/GadgetDrone/"
 description: |-

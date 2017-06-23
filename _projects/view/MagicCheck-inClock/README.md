@@ -1,5 +1,5 @@
 ---
-page_title: Magic Check-in Clock
+title: Magic Check-in Clock
 layout: project-display-page
 permalink: "/projects/MagicCheck-inClock/"
 description: |-

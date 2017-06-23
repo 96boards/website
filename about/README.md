@@ -1,5 +1,5 @@
 ---
-page_title: About
+title: About
 description: |-
     96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost.
 permalink: "/about/"

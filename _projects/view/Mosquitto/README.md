@@ -1,5 +1,5 @@
 ---
-page_title: Mosquitto
+title: Mosquitto
 layout: project-display-page
 permalink: "/projects/Mosquitto/"
 description: |-

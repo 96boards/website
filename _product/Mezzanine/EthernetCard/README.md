@@ -1,5 +1,5 @@
 ---
-page_title: Ethernet Card
+title: Ethernet Card
 layout: product-display-page
 permalink: /product/ethernetcard/
 description: |-

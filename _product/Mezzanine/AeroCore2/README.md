@@ -1,5 +1,5 @@
 ---
-page_title: AeroCore 2 for 96Boards
+title: AeroCore 2 for 96Boards
 layout: product-display-page
 permalink: /product/aerocore2/
 description: |-

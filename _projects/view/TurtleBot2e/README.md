@@ -1,5 +1,5 @@
 ---
-page_title: TurtleBot 2e
+title: TurtleBot 2e
 layout: project-display-page
 permalink: "/projects/TurtleBot2e/"
 description: |-

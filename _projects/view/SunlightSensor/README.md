@@ -1,5 +1,5 @@
 ---
-page_title: Sunlight Sensor
+title: Sunlight Sensor
 layout: project-display-page
 permalink: "/projects/SunlightSensor/"
 description: |-

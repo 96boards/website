@@ -1,5 +1,5 @@
 ---
-page_title: Hand Gesture Recognition
+title: Hand Gesture Recognition
 layout: project-display-page
 permalink: "/projects/HandGestureRecognition/"
 description: |-

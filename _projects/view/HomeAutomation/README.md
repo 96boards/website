@@ -1,5 +1,5 @@
 ---
-page_title: Home Automation
+title: Home Automation
 layout: project-display-page
 permalink: "/projects/HomeAutomation/"
 description: |-

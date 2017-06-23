@@ -85,7 +85,7 @@ products:
         link-title: "Arrow (Audio Kit)"
         link-url: "http://linaro.org/db410c-audio-buy-arrow"
       -
-        link-title: "Amazon (AWS Kit)"
+        link-title: "Amazon (AWS IoT Kit)"
         link-url: "http://linaro.co/96bawsbuy"
     product_documentation_link: /docs/dragonboard410c/
     product_features:
