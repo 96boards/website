@@ -6,5 +6,5 @@
 
 ***
 
-- [Mezzanine](mezzanine/README.md)
-- [Accessories](accessories/README.md)
+- [Mezzanine](Mezzanine/README.md)
+- [Accessories](Accessories/README.md)
