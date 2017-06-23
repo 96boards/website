@@ -1,3 +1,6 @@
-# 96boards Static Website Content
+Website
 
-This repository hosts generic 96Boards website content that will be included in the Jekyll based static website.
+- [Verticals](Verticals/README.md)
+- [Products](Products/README.md)
+- [Projects](Projects/README.md)
+- [Weekly Digest](Digest/README.md)
