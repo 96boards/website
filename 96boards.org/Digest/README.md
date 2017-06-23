@@ -1,14 +1,5 @@
----
-page_title: Weekly Digest
-description: |-
-    96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
-permalink: /digest/
-layout: plain-markdown-page
----
 # Weekly Digest
 
-- Issue #16 - Welcome the new Power over Ethernet Mezzanine (Coming June 29th)
-- Issue #15 - D3 DesignCore Camera Mezzanine Announcement and giveaway! (Coming June 22nd)
 - Issue #14 - [96Boards and Home Surveillance](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=dbeaf5595b)
 - Issue #13 - [96Boards welcomes back, the "Weekly Openhours Digest"](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=de445c0dd9)
 - Issue #12 - [OpenHours welcomes the "Community Minute"](http://eepurl.com/cLanAX)
