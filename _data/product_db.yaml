@@ -121,7 +121,7 @@ products:
         link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
 
     product_kits:
-      - title: Amazon IoT Kits
+      - title: AWS IOT Kits
         link: https://www.arrow.com/en/products/dragonboard410ciotsdk/arrow-development-tools
 
     product_features:
