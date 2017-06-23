@@ -12,12 +12,6 @@ seo_keywords: |-
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced
 processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
 
-## Buy Now
-
-- [Arrow (Basic Kit)](http://linaro.co/dragonboard410c-buy-arrow)
-- [Arrow (Audio Kit)](http://linaro.co/db410c-audio-buy-arrow)
-- [Amazon (AWS IOT Kit)](http://linaro.co/96bawsbuy)
-
 ***
 
 ## Additional Information
