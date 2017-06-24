@@ -1,10 +1,15 @@
 ---
-layout: empty-container-page
-title: Product
-permalink: "/product/"
+layout: empty-row-page
+title:  96boards Products
+title:  Products
+permalink: /products/
+status: active
 description: |-
-    The 96Boards product families that have been announced are shown below.
-    Click on the links to find out more about each family of products.
+    The 96Boards products that have been announced are shown below.
+    Click on the links to find out more about the boards and where to order them.
+    The tabs provide links to the different types of products that are and will become available.
+redirect_from:
+  - /product/
 ---
 
 # Products
