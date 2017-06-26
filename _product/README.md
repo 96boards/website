@@ -14,11 +14,11 @@ redirect_from:
 
 # Products
 
-- [Consumer Edition](CE/README.md)
-- [Enterprise Edition](EE/README.md)
-- [IoT Edition](IE/README.md)
+- [Consumer Edition](ce/README.md)
+- [Enterprise Edition](ee/README.md)
+- [IoT Edition](ie/README.md)
 
 ***
 
-- [Mezzanine](Mezzanine/README.md)
-- [Accessories](Accessories/README.md)
+- [Mezzanine](mezzanine/README.md)
+- [Accessories](accessories/README.md)
