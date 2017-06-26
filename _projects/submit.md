@@ -81,5 +81,5 @@ For more detailed instructions on how to submit a pull request in GitHub, please
 
 ***
 
-- [Contribute to an existing project](../Contribute)
+- [Contribute to an existing project](../contribute.md)
 - [Return to Projects home page](../)
