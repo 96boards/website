@@ -36,5 +36,3 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android 5.1 / Linux / Windows IoT Core                                                    |
 |  Size                | 85mm x 54mm                                                                                      |
-
-Please visit the [DragonBoard 410c Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/HWUserManual.md) for more information
