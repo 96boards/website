@@ -10,7 +10,7 @@ description: |-
 
 This projects page is hosted on, and rendered from the [96Boards website repository](../../../). Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
 
-[Submit a Project](SUBMIT.md) | [Contribute](CONTRIBUTE.md) | [FAQ](FAQ.md) | [OpenHours](https://www.96boards.org/openhours/)
+[Submit a Project](submit.md) | [Contribute](contribute.md) | [FAQ](faq.md) | [OpenHours](https://www.96boards.org/openhours/)
 
 ***
 
