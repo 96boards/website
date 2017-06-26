@@ -1,0 +1,43 @@
+---
+layout: empty-container-page
+title: Projects
+permalink: "/projects/"
+description: |-
+    The 96Boards projects that have been announced are shown below.
+    Click on the links to find out more about the projects.
+---
+<h1>96Boards projects</h1>
+<p>
+    This projects listed on this page are from the <a href="http://github.com/96boards">96boards github</a> where you can submit a project to be listed on here by creating a pull request.
+    Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
+</p>
+<br />
+<div align="right" class="controls project_filter_panel" id="sort_select">
+    <button class="btn blog-read-more-btn btn-sm filter" type="button" data-filter="all">All Projects</button>
+    <button class="btn blog-read-more-btn btn-sm sort" type="button" data-sort="name:descending">Descending</button>
+    <button class="btn blog-read-more-btn btn-sm sort" type="button" data-sort="random">Random</button>
+
+</div>
+<br/>
+<div id="grid" class="container row my-shuffle-container">
+    {% assign projects = site.projects | where: "project", "true" %}
+    {% capture order %}1{% endcapture %}
+    {% assign iterator = 1 %}
+    {% for each in projects %}
+        {% if each.page_title %}
+            {% assign page_base = each.permalink | split: "/" %}
+                <div data-name="{{each.page_title}}" data-order="{{iterator}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
+                        <a href="{{each.permalink}}">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/{{page_base[2]}}/Images/thumb.png" class="project_image lazyload center-block">
+                        </a>
+                        <a href="{{each.permalink}}">
+                            <h5 class="project_title">{{each.page_title | truncate: 30}}</h5>
+                        </a>
+                        <p class="project_description">
+                            {{each.description | truncatewords: 20 }}
+                        </p>
+                </div>
+                {% assign iterator = iterator + 1 %}
+        {% endif %}
+    {% endfor %}
+</div>
