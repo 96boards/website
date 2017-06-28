@@ -1,6 +1,5 @@
 products:
   - product_permalink: /product/bubblegum-96/
-
     product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/"
     product_support_link: "http://www.96boards.org/forums/forum/products/bubblegum96/"
     featured_product_order: 3
@@ -42,7 +41,7 @@ products:
       - title: Remix
         link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
       - title: Ubuntu Core
-        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md
+        link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
     product_accessories:
       - Power
       - Adapter
@@ -72,23 +71,16 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: "CE"
 
-    product_accessories:
-      - title: Power
-        link: http://www.96boards.org/product/power/
-      - title: Adapter
-        link: http://www.96boards.org/product/adapter/
-      - title: Debug
-        link: http://www.96boards.org/product/debug/
-      - title: Misc
-        link: http://www.96boards.org/product/misc/
-      
     product_buy_links:
       -
         link-title: "Arrow (Basic Kit)"
         link-url: "http://linaro.co/dragonboard410c-buy-arrow"
       -
         link-title: "Arrow (Audio Kit)"
-        link-url: "http://linaro.org/db410c-audio-buy-arrow"
+        link-url: "http://linaro.co/db410c-audio-buy-arrow"
+      -
+        link-title: "Arrow (Camera Kit)"
+        link-url: "http://linaro.co/96b-db410c-camera"
       -
         link-title: "Amazon (AWS IoT Kit)"
         link-url: "http://linaro.co/96bawsbuy"
@@ -111,31 +103,34 @@ products:
         The DragonBoard 410c, a product of Arrow Electronics, is the development board
         based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced processing power,
         Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
-   
-   product_mezzanine:
-      - title: LinkSprite
-        link: http://www.96boards.org/product/linker-mezzanine-starter-kit/
-      - title: UARTSerial
-        link: http://www.96boards.org/product/uarts/
-      - title: SensorsMezz
-        link: http://www.96boards.org/product/sensors-mezzanine/
-      - title: AudioMezz
-        link: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
+
 
     product_third_party_images:
-      - title: Windows 10
+      - title: Windows 10 IoT Core
         link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
       - title: Ubuntu Core
-        link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+        link: https://developer.ubuntu.com/en/snappy/start/dragonboard-410c/
       - title: More Downloads
         link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
+
+    product_accessories:
+      - Power
+      - Adapter
+      - Debug
+      - Misc
+    product_mezzanine:
+      - d3camera
+      - linkspritesensorkit
+      - uartserial
+      - sensorsmezz
+      - audiomezz
 
     product_kits:
       - title: Basic Kit
         link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
       - title: Audio Kit
-        link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/README.md/
-      - title: AWS IOT Kit
+        link: /product/audiomezz/
+      - title: AWS IoT Kit
         link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/README.md/
 
     product_features:
@@ -165,7 +160,7 @@ products:
 
     product_middleware:
 
-      - title: Amazon AWS IoT kit
+      - title: AWS IoT SDK
         link: https://github.com/ArrowElectronics/aws-iot-device-sdk
       - title: IBM Watson IoT Platform
         link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
@@ -525,7 +520,6 @@ products:
     product_os:
       - title: Build from Source
         link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
-
   - product_permalink: /product/stm32/
     product_documentation_link: https://www.96boards.org/documentation/MezzanineProducts/STM32/README.md/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
