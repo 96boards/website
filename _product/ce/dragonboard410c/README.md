@@ -1,5 +1,5 @@
 ---
-title: DragonBoard 410c - Low-Cost Product Development Platform
+title: DragonBoard 410c
 layout: product-display-page
 permalink: /product/dragonboard410c/
 description: |-
