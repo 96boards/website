@@ -1,8 +1,20 @@
 products:
-  - product_permalink: /product/bubblegum-96/
+# CE, EE, IE Products
+  - product_title: Bubblegum-96
+    product_permalink: /product/bubblegum-96/
 
     product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/"
     product_support_link: "http://www.96boards.org/forums/forum/products/bubblegum96/"
+
+    product_tab_menu:
+        - tab-title: Documentation
+          tab-link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/
+          tab-position: 1
+        - tab-title: Support
+          tab-link: http://www.96boards.org/forums/forum/products/bubblegum96/
+          tab-position: 2
+          tab-align-right: true
+
     featured_product_order: 3
     product_title: Bubblegum-96
     product_specification: CE
@@ -18,21 +30,6 @@ products:
       - 96b-0-bubblegum96-actions-ucrobotics-1.png
       - 96b-0-bubblegum96-actions-ucrobotics-4.png
       - 96b-0-bubblegum96-actions-ucrobotics-5.png
-    product_features:
-      - key: CPU
-        value: ARM Cortex-A53
-      - key: Cores
-        value: 4 Cores
-      - key: Frequency
-        value: 1.8 GHz
-      - key: Gpu
-        value: PowerVR G6230
-      - key: Ram
-        value: 2GB
-      - key: Ram-Type
-        value: LPDDR3
-      - key: Data Rate
-        value: 2400
     product_os:
       - title: Debian
         link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
@@ -69,11 +66,38 @@ products:
         link-url: "http://linaro.co/bubblegum96-buy"
 
     is_featured: true
-
-  - product_permalink: /product/dragonboard410c/
+  - product_title: DragonBoard™ 410c (Arrow)
+    product_permalink: /product/dragonboard410c/
+    product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+    product_specification: CE
     featured_product_order: 2
     is_featured: true
-    product_title: "DragonBoard™ 410c (Arrow)"
+    product_images:
+      - DragonBoard-UpdatedImages-front.png
+      - DragonBoard-UpdatedImages-back.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab-title: Getting Started
+          tab-link: https://www.96boards.org/db410c-getting-started/GettingStarted/README.md/
+          tab-position: 1
+        - tab-title: Documentation
+          tab-link: https://www.96boards.org/db410c-getting-started/
+          tab-position: 2
+        - tab-title: Tutorials
+          tab-link: https://www.96boards.org/tutorials/dragonboard410c/
+          tab-position: 3
+        - tab-title: Support
+          tab-link: https://discuss.96boards.org/c/products/dragonboard410c/
+          tab-position: 4
+          tab-align-right: true
+
+    product_getting_started: https://www.96boards.org/db410c-getting-started/GettingStarted/README.md/
+    product_documentation_link: https://www.96boards.org/db410c-getting-started/
+    product_tutorials_link: https://www.96boards.org/tutorials/dragonboard410c/
+    product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
+
+    # Buy Links
     product_buy_links:
       -
         link-title: DragonBoard401c (Basic Kit)
@@ -94,85 +118,18 @@ products:
         link-url: "http://linaro.co/96bawsbuy"
         from: Amazon
         type: package
-    product_documentation_link: /docs/dragonboard410c/
-    product_features:
-      cores: "4 Cores"
-      CPU: |-
-          Quad-core ARM® Cortex® A53 Snapdragon 410E Processor at up to 1.2 GHz per core
-      frequency: "Up to 1.2 GHz per core"
-      misc: |-
-          Micro SD card slot, One 40-pin low speed connector, One 60-pin high speed expansion connector and
-          Footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in
-      ram: 1GB
-      ram-type: LPDDR3
-      storage: "8GB eMMC 4.51 storage"
-    product_images:
-      - DragonBoard-UpdatedImages-front.png
-      - DragonBoard-UpdatedImages-back.png
-    product_long_desc: |-
-        The DragonBoard 410c, a product of Arrow Electronics, is the development board
-        based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced processing power,
-        Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
-    product_mezzanine:
-      - title: LinkSprite
-        link: https://www.96boards.org/product/linksprite/
-      - title: UARTSerial
-        link: https://www.96boards.org/product/uartserial/
-      - title: SensorsMezz
-        link: https://www.96boards.org/product/sensorsmezz/
-      - title: AudioMezz
-        link: https://www.96boards.org/product/audiomezz/
 
-    product_accessories:
-      - title: Power
-        link: https://www.96boards.org/product/power/
-      - title: Adapter
-        link: https://www.96boards.org/product/adapter/
-      - title: Debug
-        link: https://www.96boards.org/product/debug/
-      - title: Misc
-        link: https://www.96boards.org/product/misc/
-
-    product_third_party_images:
-      - title: Windows 10
-        link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
-      - title: Ubuntu Core
-        link: https://developer.ubuntu.com/en/snappy/start/dragonboard-410c/
-      - title: More Downloads
-        link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
-
-    product_kits:
-      - title: AWS IOT Kits
-        link: https://www.arrow.com/en/products/dragonboard410ciotsdk/arrow-development-tools
-
-    product_features:
-      - key: CPU
-        value: Quad-core ARM® Cortex® A53 Snapdragon 410E Processor at up to 1.2 GHz per core
-      - key: cores
-        value: 4
-      - key: frequency
-        value: Up to 1.2 GHz per core
-      - key: ram
-        value: 1GB
-      - key: ram-type
-        value: LPDDR3
-      - key: storage
-        value: 8GB eMMC 4.51 storage
-      - key: misc
-        value: Micro SD card slot, One 40-pin low speed connector, One 60-pin high speed expansion connector and
-         Footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in
-
+    # Right Sidepanel links
     product_os:
-      - link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md
-        title: Android
-      - link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md
-        title: Debian
-      - link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md
-        title: OpenEmbedded
+      - title: Android
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md
+      - title: Debian
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md
+      - title: OpenEmbedded
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md
 
     product_middleware:
-
-      - title: Amazon AWS IoT kit
+      - title: AWS IoT SDK
         link: https://github.com/ArrowElectronics/aws-iot-device-sdk
       - title: IBM Watson IoT Platform
         link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
@@ -183,18 +140,58 @@ products:
       - title: Microsoft Azure IoT Suite
         link: https://www.microsoft.com/en-us/cloud-platform/internet-of-things#AzureIoT
 
+    product_third_party_images:
+      - title: Windows 10 IoT Core
+        link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
+      - title: Ubuntu Core
+        link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+      - title: More Downloads
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
 
-    product_quickstart_link: /getting-started/dragonboard410c/
-    product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
-    product_specification: CE
-    product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
-    product_getting_started: https://www.96boards.org/db410c-getting-started/GettingStarted/README.md/
-    product_documentation_link: https://www.96boards.org/db410c-getting-started/
-    product_tutorials_link: https://www.96boards.org/tutorials/dragonboard410c/
-  - product_permalink: /product/hikey/
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: https://www.96boards.org/product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: https://www.96boards.org/product/linksprite/
+      - title: UART Serial
+        link: https://www.96boards.org/product/uartserial/
+      - title: Sensors Mezzanine
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: Audio Mezzanine
+        link: https://www.96boards.org/product/audiomezz/
+
+    product_kits:
+      - title: Basic Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
+      - title: Audio Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/README.md
+      - title: AWS IoT Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/README.md/
+  - product_title: Hikey (LeMaker)
+    product_permalink: /product/hikey/
 
     product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/HiKey/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/hikey"
+
+    product_tab_menu:
+        - tab-title: Documentation
+          tab-link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/README.md/
+          tab-position: 1
+        - tab-title: Support
+          tab-link: https://discuss.96boards.org/c/products/hikey
+          tab-position: 2
+          tab-align-right: true
 
     featured_product_order: 5
     # Breadcrumb
@@ -209,7 +206,7 @@ products:
     # Permalink for this product
     permalink: /product/hikey/
     # Product Front Matter Data
-    product_title: "Hikey (LeMaker)"
+
     product_specification: CE
     product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
     product_buy_links:
@@ -219,24 +216,6 @@ products:
       -
         link-title: "Buy HiKey(2GB RAM)"
         link-url: "http://linaro.co/hikey-lenovator-buy"
-
-    product_features:
-      - key: soc
-        value: HiSilicon Kirin 620
-      - key: CPU
-        value: ARM Cortex-A53
-      - key: cores
-        value: 8 Cores
-      - key: frequency
-        value: 1.2 GHz
-      - key: gpu
-        value: Mali-450 MP4
-      - key: ram
-        value: 1 GB, 2 GB
-      - key: ram-type
-        value: LPDDR3
-      - key: data-rate
-        value: 1600
     product_images:
       - Hikey-Lemaker-front-web.png
       - HiKey_LeMaker_back.jpg
@@ -275,10 +254,10 @@ products:
       - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md
         title: OpenEmbedded
 
-    product_quickstart_link: /getting-started/hikey/
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
     product_documentation_link: /docs/hikey/
-  - product_permalink: /product/hikey960/
+  - product_title: HiKey 960
+    product_permalink: /product/hikey960/
     product_media_highlights: true
     product_video:
       - https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
@@ -294,7 +273,7 @@ products:
     # Boolean to determine the type as a page.
     is_featured: true
     # Product Front Matter Data
-    product_title: "HiKey 960"
+
     product_specification: CE
     product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
     product_long_desc: |-
@@ -309,44 +288,6 @@ products:
     product_images:
       - hikey-960-SD-front.jpg
       - hikey-960-SD-back.jpg
-
-    product_features:
-      - key: soc
-        value: Kirin 960 octa-core CPU
-      - key: CPU
-        value: 4x Cortex-A53 cores to 1.8 GHz, 4x Cortex-A73 cores to 2.4 GHz
-      - key: cores
-        value: 8 Cores
-      - key: frequency
-        value: 1.8 GHz, 2.4 GHz
-      - key: gpu
-        value: Mali-G71 MP8 GPU
-      - key: ram
-        value: 3GB
-      - key: ram-type
-        value: LPDDR4 SDRAM
-      - key: software
-        value: AOSP with 4.4 AOSP common kernel
-      - key: storage
-        value: 32GB UFS 2.0 flash storage, MicroSD card
-      - key: display-interface
-        value: HDMI 1.2a up to 1080p plus 4-lane MIPI DSI
-      - key: usb
-        value: 1 x USB 2.0 type C OTG port, 2 x USB 3.0 type A host ports
-      - key: connectivity
-        value: Dual-band 802.11 b/g/n/ac WiFi and Bluetooth 4.1 with on board antennas
-      - key: camera
-        value: 1x 2-lane MIPI CSI, 1x 4-lane MIPI CSI
-      - key: io-extended-interface
-        value: 40 pin low speed expansion connector 1.8V
-      - key: misc
-        value: 4x user LEDs, LEDs for WiFi & Bluetooth, Power button
-      - key: power-supply
-        value: 12V/2A power supply recommended, 8V-18V/2A via 4.75/1.7mm power barrel (EIAJ-3 Compliant)
-      - key: dimensions
-        value: 85mm x 55mm
-
-
     product_mezzanine:
       - title: LinkSprite
         link: https://www.96boards.org/product/linksprite/
@@ -400,7 +341,8 @@ products:
         link-url: "http://linaro.co/hikey960-allnet"
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
-  - product_permalink: /product/mediatek-x20/
+  - product_title: Mediatek X20 Development Board
+    product_permalink: /product/mediatek-x20/
     product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/MediaTekX20/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/mediatek-x20"
     featured_product_order: 4
@@ -410,7 +352,7 @@ products:
     # Boolean to determine the type as a page.
     is_featured: true
     # Product Front Matter Data
-    product_title: "Mediatek X20 Development Board"
+
     product_specification: CE
     product_short_desc: "Board based on MediaTek X20 series CPU"
     date_released: 2017
@@ -428,24 +370,6 @@ products:
       - Helio-X20-back.png
       - Helio-X20-side-one.png
       - Helio-X20-side-two.png
-
-    product_features:
-      - key: CPU
-        value: Quad-core ARM® Cortex® A53 Snapdragon 410E Processor
-      - key: cores
-        value: 4 Cores
-      - key: frequency
-        value: Up to 1.2 GHz per core
-      - key: ram
-        value: 1GB
-      - key: ram-type
-        value: LPDDR3
-      - key: storage
-        value: 8GB eMMC 4.51 storage
-      - key: misc
-        value: |-
-            "Micro SD card slot, One 40-pin low speed connector, One 60-pin high speed expansion connector and
-            Footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in"
 
     product_third_party_images:
       - link: http://www.96boards.org/documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md
@@ -476,7 +400,8 @@ products:
         link-title: "Buy MediaTek X20"
         link-price: $75.00
         link-url: "http://link.linaro.org/MediatekX20-buy"
-  - product_permalink: /product/carbon/
+  - product_title: Carbon
+    product_permalink: /product/carbon/
     product_documentation_link: "http://www.96boards.org/documentation/IoTEdition/Carbon/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/carbon"
     featured_product_order: 6
@@ -492,15 +417,6 @@ products:
     product_images:
       - Carbon_Front-SD.png
       - Carbon-Back-web.png
-
-    product_features:
-      - key: CPU
-        value: 4Cortex-M4 chip
-      - key: onboard-storage
-        value: 512KB onboard flash
-      - key: bluetooth
-        value: Built in Bluetooth
-
     product_buy_links:
       -
         link-title: "Buy Carbon (Seeed)"
@@ -509,7 +425,8 @@ products:
     product_os:
       - title: Zephyr
         link: https://www.96boards.org/documentation/IoTEdition/Carbon/Downloads/Zephyr.md
-  - product_permalink: /product/poplar/
+  - product_title: Poplar
+    product_permalink: /product/poplar/
     product_documentation_link: "http://www.96boards.org/documentation/EnterpriseEdition/Poplar/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/poplar"
     breadcrumb-section: Products
@@ -526,33 +443,6 @@ products:
       - Poplar-Board-Front-Web-500x330.jpg
       - Poplar-Board-Side-Web-500x330.jpg
       - Poplar-Board-Back-Web-500x330.jpg
-
-    product_features:
-      - key: SOC
-        value: 	Hisilicon Hi3798CV200
-      - key: CPU
-        value: Quad-core ARM Cortex-A53 64 bit
-      - key: DRAM
-        value: DDR3/3L/4 SDRAM interface, maximum 32-bit data width 2 GB on board
-      - key: USB
-        value: Two USB 2.0 ports One USB 3.0 ports
-      - key: CONSOLE
-        value: USB-micro port for console support
-      - key: ETHERNET
-        value: 1 GBe Ethernet
-      - key: PCIE
-        value: One PCIe 2.0 interfaces
-      - key: JTAG
-        value: 8-Pin JTAG
-      - key: EXPANSION INTERFACE
-        value: Linaro 96Boards Low Speed Expansion slot
-      - key: DIMENSION
-        value: Standard 160×120 mm 96Boards Enterprice Edition form factor
-      - key: WIFI
-        value: 802.11AC 2*2 with Bluetooth
-      - key: CONNECTORS
-        value: One connector for Smart Card One connector for TSI
-
     product_buy_links:
       -
         link-title: "Aliexpress"
@@ -560,13 +450,14 @@ products:
     product_os:
       - title: Build from Source
         link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
-
-  - product_permalink: /product/stm32/
+# Mezzanine Products
+  - product_title: STM32 Sensor mezzanine board
+    product_permalink: /product/stm32/
     product_documentation_link: https://www.96boards.org/documentation/MezzanineProducts/STM32/README.md/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: "STM32 Sensor mezzanine board"
+
     product_specification: "Mezzanine"
     product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
     product_long_desc: |-
@@ -592,14 +483,15 @@ products:
     product_more_info:
       - title: Read More on ST.com
         link: http://linaro.co/stm32f446
-  - product_permalink: /product/uartserial/
+  - product_title: UART Adapter Board
+    product_permalink: /product/uartserial/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     featured_product_order: 7
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_title: UART Adapter Board
+
     is_featured: true
     product_specification: "Mezzanine"
     product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
@@ -654,12 +546,13 @@ products:
         id: 96B-05UART-V1.1
       - quantity: 2
         name: 2mm shunts
-  - product_permalink: /product/sensorsmezz/
+  - product_title: Sensors Mezzanine
+    product_permalink: /product/sensorsmezz/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_title: Sensors Mezzanine
+
     product_specification: "Mezzanine"
     product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
     product_long_desc: |-
@@ -710,12 +603,13 @@ products:
         name: Sensors Mezzanine Board
         id: 96B-05GROVE-C
         link: https://linaro.co/20n34bc
-  - product_permalink: /product/linksprite/
+  - product_title: Arrow LinkSprite Mezzanine Kit
+    product_permalink: /product/linkspritesensorkit/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: LinkSprite 7-inch Display Kit for 96Boards
+
     product_specification: "Mezzanine"
     product_short_desc: This is a 7inch capacitive touch screen LCD with HDMI interface.
     product_long_desc: |-
@@ -745,12 +639,13 @@ products:
         name: USB type A plug to micro B plug cable
       - quantity: 1
         name: 8GB SD card comes with system image
-  - product_permalink: /product/aerocore2/
+  - product_title: AeroCore 2 for 96Boards
+    product_permalink: /product/aerocore2/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: AeroCore 2 for 96Boards
+
     product_specification: "Mezzanine"
     product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
     product_long_desc: |-
@@ -814,20 +709,24 @@ products:
 
     product_video:
       - https://www.youtube.com/embed/LIH0tpi9KwE
-  - product_permalink: /product/mipiadapter/
+  - product_title: MIPI Adapter Mezzanine - AiStarVision
+    product_permalink: /product/mipiadapter/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-    product_title: MIPI Adapter Mezzanine
     product_specification: "Mezzanine"
     product_short_desc: Hardware compatible MIPI mezzanine and GPIO breakout for 96Boards
     product_long_desc: |-
         This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.
+
     product_images:
-      - "IMG_1297.jpg"
-      - "IMG_1298.jpg"
+      - "MIPI_Angle_Front_With_Board.jpg"
       - "jiepapbfokmagoko-1.png"
+      - "MIPI_Angle_Back_With_Board.jpg"
+      - "MIPI_Back.jpg"
+      - "MIPI_Camera_Only.jpg"
+      - "MIPI_Front_with_Camera.jpg"
+      - "MIPI_Front.jpg"
+
     mezzanine_features:
       - "Full 4 lane support for CSI0"
       - "Camera interface for OV5645/OV5640 auto focus module and OV7251 module"
@@ -836,11 +735,25 @@ products:
       - "UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs"
     product_buy_links:
       -
-        link-title: MIPI Adapter Mezzanine (Board only)
-        link-url: http://www.ebay.com/itm/MIPI-Adapter-for-dragonboard410c-/131998668218?hash=item1ebbbbd5ba:g:fhMAAOSwXeJYG8YB
+        link-title: 96Boards MIPI Adapter (Board only)
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf
+        from: ebay
+        type: board
       -
-        link-title: MIPI Adapter Mezzanine (Board and Camera bundle)
-        link-url: http://www.ebay.com/itm/MIPI-Adapter-for-dragonboard410c-with-OV5645-auto-focus-module-/132021014353?hash=item1ebd10cf51:g:BdUAAOSwiONYQMKw
+        link-title: 96Boards MIPI Adapter with OV5645
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252956476095?hash=item3ae56182bf:g:8z4AAOSwA29Y30WD
+        from: ebay
+        type: package
+      -
+        link-title: 96Boards MIPI Adapter with Dual OV5640
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-Dual-OV5640-/252928072406?hash=item3ae3b01ad6:g:O7kAAOSwTM5Y4frc
+        from: ebay
+        type: package
+      -
+        link-title: OV5640 Camera Module only
+        link-url: http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650
+        from: ebay
+        type: board
 
     product_more_info:
         -
@@ -853,20 +766,22 @@ products:
     product_includes:
       - quantity: 1
         name: MIPI Adapter Board
-  - product_permalink: /product/d3camera/
+  - product_title: D3 DesignCore™ Camera Mezzanine
+    product_permalink: /product/d3camera/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: D3 DesignCore™ Camera Mezzanine
+
     product_specification: "Mezzanine"
     product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-2 cameras to connect to the DragonBoard™ 410c.
     product_long_desc: |-
         D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c. Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
     product_images:
+      - "D3-DesignCore.jpg"
       - "Camera Mezzanine Board OV5640_front.jpg"
       - "Camera Mezzanine Board OV5640_back.jpg"
-      - "D3-DesignCore-Camera-Mezzanine-Board-OV5640_Side.jpg"
+
     product_getting_started: https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
     product_documents:
         - title: D3 Engineering website
@@ -887,12 +802,13 @@ products:
       -
         link-title: Arrow Electronics
         link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
-  - product_permalink: /product/audiomezz/
+  - product_title: AudioMezz
+    product_permalink: /product/audiomezz/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: AudioMezz
+
     product_specification: "Mezzanine"
     product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
     product_long_desc: |-
@@ -913,12 +829,13 @@ products:
       -
         link-title: Arrow Electronics
         link-url: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
-  - product_permalink: /product/ethernetcard/
+  - product_title: Ethernet Card
+    product_permalink: /product/ethernetcard/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: Ethernet Card
+
     product_specification: "Mezzanine"
     product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
     product_long_desc: |-
@@ -942,7 +859,7 @@ products:
       -
         link-title: Coming Soon
         link-url: https://www.96boards.org/products/mezzanine/
-
+# 96boards Accessories
 accessories:
   - accessory_permalink: /product/debug/
     accessory_category: Debug
