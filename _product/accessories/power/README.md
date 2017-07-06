@@ -3,6 +3,8 @@ title: Power Accessories
 permalink: /product/power/
 layout: accessory-display-page
 description: Power Accessories for 96Boards
+redirect_from:
+- /product/universal-power-supply/
 ---
 The 96Boards CE boards require an 8-18V 2A power supply.
 

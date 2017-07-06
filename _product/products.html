@@ -1,15 +1,15 @@
 ---
 layout: empty-row-page
 title:  96boards Products
-title:  Products
 permalink: /products/
 status: active
 description: |-
-    The 96Boards products that have been announced are shown below.
-    Click on the links to find out more about the boards and where to order them.
-    The tabs provide links to the different types of products that are and will become available.
+    96Boards includes Consumer Edition, Enterprise Edition, IoT Edition, Mezzanine Products and Accessories.
+    Visit 96Boards product page to see which boards or specification suites you.
+keywords: Consumer Edition Boards, Enterprise Developement Boards, ARM 64 Dev Boards, IoT Production boards, hacker, Makers
 redirect_from:
   - /product/
+  - /products/new/
 ---
 <div class="container">
 
@@ -30,14 +30,8 @@ redirect_from:
         {% assign products_array = site.data.product_db.products | where: "is_featured", "true" | sort: "featured_product_order" | ascending | limit: 7 %}
         <div class="row">
         {% for product in products_array %}
-            {% assign features = product.product_features %}
             {% assign product-url = product.product_permalink | split: "/" %}
-            <div class="mix {{product.product_specification | downcase }}
-            {% for feature in features %}
-                {% if feature.key == 'Ram' %}
-                    {{feature.key}}:{{feature.value}}
-                {% endif %}
-            {% endfor %} col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="{{product.product_specification | downcase }}col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <div class="col-item">
                     <div class="photo">
                         <a href="{{product.product_permalink}}">

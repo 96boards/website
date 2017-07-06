@@ -1,5 +1,6 @@
 products:
   - product_permalink: /product/bubblegum-96/
+
     product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/"
     product_support_link: "http://www.96boards.org/forums/forum/products/bubblegum96/"
     featured_product_order: 3
@@ -41,17 +42,26 @@ products:
       - title: Remix
         link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
       - title: Ubuntu Core
-        link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md
     product_accessories:
-      - Power
-      - Adapter
-      - Debug
-      - Misc
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
     product_mezzanine:
-      - LinkSprite
-      - UARTSerial
-      - SensorsMezz
-      - AudioMezz
+      - title: LinkSprite
+        link: https://www.96boards.org/product/linksprite/
+      - title: UARTSerial
+        link: https://www.96boards.org/product/uartserial/
+      - title: SensorsMezz
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: AudioMezz
+        link: https://www.96boards.org/product/audiomezz/
+
     product_buy_links:
       -
         link-title: Buy Bubblegum-96
@@ -60,30 +70,30 @@ products:
 
     is_featured: true
 
-    breadcrumb-section: Products
-    breadcrumb-section-two: CE
   - product_permalink: /product/dragonboard410c/
     featured_product_order: 2
     is_featured: true
-    # Breadcrumb
     product_title: "DragonBoard™ 410c (Arrow)"
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: "CE"
-
     product_buy_links:
       -
-        link-title: "Arrow (Basic Kit)"
+        link-title: DragonBoard401c (Basic Kit)
         link-url: "http://linaro.co/dragonboard410c-buy-arrow"
+        from: Amazon
       -
-        link-title: "Arrow (Audio Kit)"
+        link-title: "DragonBoard401c + Audio Kit"
         link-url: "http://linaro.co/db410c-audio-buy-arrow"
+        from: Arrow.com
+        type: package
       -
-        link-title: "Arrow (Camera Kit)"
+        link-title: "DragonBoard410c + Camera Kit"
         link-url: "http://linaro.co/96b-db410c-camera"
+        from: Arrow.com
+        type: package
       -
-        link-title: "Amazon (AWS IoT Kit)"
+        link-title: "DragonBoard410c + AWS IoT Kit"
         link-url: "http://linaro.co/96bawsbuy"
+        from: Amazon
+        type: package
     product_documentation_link: /docs/dragonboard410c/
     product_features:
       cores: "4 Cores"
@@ -103,35 +113,37 @@ products:
         The DragonBoard 410c, a product of Arrow Electronics, is the development board
         based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced processing power,
         Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
+    product_mezzanine:
+      - title: LinkSprite
+        link: https://www.96boards.org/product/linksprite/
+      - title: UARTSerial
+        link: https://www.96boards.org/product/uartserial/
+      - title: SensorsMezz
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: AudioMezz
+        link: https://www.96boards.org/product/audiomezz/
 
+    product_accessories:
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
 
     product_third_party_images:
-      - title: Windows 10 IoT Core
+      - title: Windows 10
         link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
       - title: Ubuntu Core
         link: https://developer.ubuntu.com/en/snappy/start/dragonboard-410c/
       - title: More Downloads
         link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
 
-    product_accessories:
-      - Power
-      - Adapter
-      - Debug
-      - Misc
-    product_mezzanine:
-      - d3camera
-      - linkspritesensorkit
-      - uartserial
-      - sensorsmezz
-      - audiomezz
-
     product_kits:
-      - title: Basic Kit
-        link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
-      - title: Audio Kit
-        link: /product/audiomezz/
-      - title: AWS IoT Kit
-        link: http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/README.md/
+      - title: AWS IOT Kits
+        link: https://www.arrow.com/en/products/dragonboard410ciotsdk/arrow-development-tools
 
     product_features:
       - key: CPU
@@ -160,7 +172,7 @@ products:
 
     product_middleware:
 
-      - title: AWS IoT SDK
+      - title: Amazon AWS IoT kit
         link: https://github.com/ArrowElectronics/aws-iot-device-sdk
       - title: IBM Watson IoT Platform
         link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
@@ -200,11 +212,6 @@ products:
     product_title: "Hikey (LeMaker)"
     product_specification: CE
     product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
-    product_accessories:
-      - Power
-      - Adapter
-      - Debug
-      - Misc
     product_buy_links:
       -
         link-title: "Buy HiKey(1GB RAM)"
@@ -242,10 +249,24 @@ products:
         delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size
         of a credit card.
     product_mezzanine:
-      - LinkSprite
-      - UARTSerial
-      - SensorsMezz
-      - AudioMezz
+      - title: LinkSprite
+        link: https://www.96boards.org/product/linksprite/
+      - title: UARTSerial
+        link: https://www.96boards.org/product/uartserial/
+      - title: SensorsMezz
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: AudioMezz
+        link: https://www.96boards.org/product/audiomezz/
+
+    product_accessories:
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
     product_os:
       - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/AOSP.md
         title: AOSP
@@ -326,16 +347,26 @@ products:
         value: 85mm x 55mm
 
 
-    product_accessories:
-      - Power
-      - Adapter
-      - Debug
-      - Misc
     product_mezzanine:
-      - LinkSprite
-      - UARTSerial
-      - SensorsMezz
-      - AudioMezz
+      - title: LinkSprite
+        link: https://www.96boards.org/product/linksprite/
+      - title: UARTSerial
+        link: https://www.96boards.org/product/uartserial/
+      - title: SensorsMezz
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: AudioMezz
+        link: https://www.96boards.org/product/audiomezz/
+
+    product_accessories:
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
+
     product_third_party_images:
         - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md
           title: AOSP
@@ -420,16 +451,25 @@ products:
       - link: http://www.96boards.org/documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md
         title: AOSP
 
-    product_accessories:
-      - Power
-      - Adapter
-      - Debug
-      - Misc
     product_mezzanine:
-      - LinkSprite
-      - UARTSerial
-      - SensorsMezz
-      - AudioMezz
+      - title: LinkSprite
+        link: https://www.96boards.org/product/linksprite/
+      - title: UARTSerial
+        link: https://www.96boards.org/product/uartserial/
+      - title: SensorsMezz
+        link: https://www.96boards.org/product/sensorsmezz/
+      - title: AudioMezz
+        link: https://www.96boards.org/product/audiomezz/
+
+    product_accessories:
+      - title: Power
+        link: https://www.96boards.org/product/power/
+      - title: Adapter
+        link: https://www.96boards.org/product/adapter/
+      - title: Debug
+        link: https://www.96boards.org/product/debug/
+      - title: Misc
+        link: https://www.96boards.org/product/misc/
 
     product_buy_links:
       -
@@ -520,6 +560,7 @@ products:
     product_os:
       - title: Build from Source
         link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
+
   - product_permalink: /product/stm32/
     product_documentation_link: https://www.96boards.org/documentation/MezzanineProducts/STM32/README.md/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
@@ -817,7 +858,7 @@ products:
 
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
-    product_title: D3Camera
+    product_title: D3 DesignCore™ Camera Mezzanine
     product_specification: "Mezzanine"
     product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-2 cameras to connect to the DragonBoard™ 410c.
     product_long_desc: |-
@@ -901,6 +942,7 @@ products:
       -
         link-title: Coming Soon
         link-url: https://www.96boards.org/products/mezzanine/
+
 accessories:
   - accessory_permalink: /product/debug/
     accessory_category: Debug
@@ -1037,22 +1079,74 @@ accessories:
     accessory_images:
         - accessory-misc-2.jpg
 members:
+    steering_committee:
+          - name: Actions
+            image: actions.jpg
+            url: https://www.linaro.org/company/actions/
+          - name: Archer Mind
+            image: archermind.jpg
+            url: https://www.linaro.org/company/archermind/
+          - name: Arrow Electronics
+            image: arrow.jpg
+            url: https://www.linaro.org/company/arrow/
+          - name: Canonical
+            image: canonical.jpg
+            url: https://www.linaro.org/company/
+          - name: Hisilicon
+            image: hisilicon.jpg
+            url: https://www.linaro.org/company/hisilicon/
+          - name: HopeRun
+            image: hoperun.jpg
+            url: https://www.linaro.org/company/hoperun/
+          - name: LeMaker
+            image: lemaker.jpg
+            url: https://www.linaro.org/company/lemaker/
+          - name: MediaTek
+            image: mediatek.jpg
+            url: https://www.linaro.org/company/mediatek/
+          - name: Mstar
+            image: mstar.png
+            url: https://www.linaro.org/company/mstar/
+          - name: NXP
+            image: nxp.jpg
+            url: https://www.linaro.org/company/nxp/
+          - name: QuIC
+            image: qulc.png
+            url: https://www.linaro.org/company/quic/
+          - name: Redhat
+            image: redhat.jpg
+            url: https://www.linaro.org/company/red-hat/
+          - name: Socionext
+            image: socionext.png
+            url: https://www.linaro.org/company/socionext/
+          - name: SpreadTrum
+            image: spreadtrum.png
+            url: https://www.linaro.org/company/spreadtrum/
+          - name: ST
+            image: st.png
+            url: https://www.linaro.org/company/st/
+          - name: Texas Instruments
+            image: texas-instruments.png
+            url: https://www.linaro.org/company/texas-instruments/
+          - name: ThunderSoft
+            image: thunder-soft.png
+            url: https://www.linaro.org/company/thundersoft/
     manufacturing_partners:
         - name: Archer Mind
           image: archermind.jpg
           url: https://www.linaro.org/company/archermind/
-        - name: Arrow
+        - name: Arrow Electronics
           image: arrow.jpg
           url: https://www.linaro.org/company/arrow/
+        - name: Black Whale Technology
+          image: Blackwhale.png
+          url: https://www.linaro.org/company/blackwhale/
         - name: BPI
           image: bpi.jpg
           url: https://www.linaro.org/company/bipai/
-        - name: Canonical
-          image: canonical.jpg
-          url: https://www.linaro.org/company/canonical/
-        - name: Black Whale
-          image: Blackwhale.png
-          url: https://www.linaro.org/company/blackwhale/
+        - name: Element 14
+          image: element14.png
+          url: https://www.linaro.org/company/element14/
         - name: Fujitsu Electronics
           image: fujitsu.jpg
           url: https://www.linaro.org/company/fujitsu-electronics/
@@ -1062,12 +1156,21 @@ members:
         - name: Gumstix
           image: gumstix.jpg
           url: https://www.linaro.org/company/gumstix/
+        - name: Hoperun
+          image: hoperun.jpg
+          url: https://www.linaro.org/company/hoperun/
         - name: Huaqin
           image: huaqin.jpg
           url: https://www.linaro.org/company/huaqin/
+        - name: Lemaker
+          image: lemaker.jpg
+          url: https://www.linaro.org/company/lemaker/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
+        - name: Shapedmedia
+          image: shapedmedia.png
+          url: https://www.linaro.org/company/shapedmedia/
         - name: Thundersoft
           image: thunder-soft.png
           url: https://www.linaro.org/company/thundersoft/
@@ -1077,55 +1180,12 @@ members:
         - name: UcRobotics
           image: uc-robotics.png
           url: https://www.linaro.org/company/ucrobotics/
-        - name: Red Hat
-          image: redhat.jpg
-          url: https://www.linaro.org/company/red-hat/
         - name: WrtNode
           image: wrtnode.png
           url: https://www.linaro.org/company/wrtnode/
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/
-    steering_committee:
-        - name: Actions
-          image: actions.jpg
-          url: https://www.linaro.org/company/actions/
-        - name: Archer Mind
-          image: archermind.jpg
-          url: https://www.linaro.org/company/archermind/
-        - name: Hisilicon
-          image: hisilicon.jpg
-          url: https://www.linaro.org/company/hisilicon/
-        - name: HopeRun
-          image: hoperun.jpg
-          url: https://www.linaro.org/company/hoperun/
-        - name: LeMaker
-          image: lemaker.jpg
-          url: https://www.linaro.org/company/lemaker/
-        - name: MediaTek
-          image: mediatek.jpg
-          url: https://www.linaro.org/company/mediatek/
-        - name: Mstar
-          image: mstar.png
-          url: https://www.linaro.org/company/mstar/
-        - name: Qualcomm
-          image: qulc.png
-          url: https://www.linaro.org/company/quic/
-        - name: Socionext
-          image: socionext.png
-          url: https://www.linaro.org/company/socionext/
-        - name: SpreadTrum
-          image: spreadtrum.png
-          url: https://www.linaro.org/company/spreadtrum/
-        - name: ST
-          image: st.png
-          url: https://www.linaro.org/company/st/
-        - name: Texas Instruments
-          image: texas-instruments.png
-          url: https://www.linaro.org/company/texas-instruments/
-        - name: ThunderSoft
-          image: thunder-soft.png
-          url: https://www.linaro.org/company/thundersoft/
     mezzanine_partners:
         - name: Qwerty
           image: qwerty.png
