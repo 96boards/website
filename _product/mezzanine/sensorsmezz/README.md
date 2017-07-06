@@ -4,6 +4,9 @@ layout: product-display-page
 permalink: /product/sensorsmezz/
 description: |-
     The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
+redirect_from:
+- /product/grove-starter-kit/
+- /product/sensors-mezzanine/
 ---
 # Grove Seeed Sensor Mezzanine
 
