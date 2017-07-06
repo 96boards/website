@@ -3,15 +3,15 @@ products:
   - product_title: Bubblegum-96
     product_permalink: /product/bubblegum-96/
 
-    product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/"
-    product_support_link: "http://www.96boards.org/forums/forum/products/bubblegum96/"
+    product_documentation_link: "/documentation/ConsumerEdition/Bubblegum-96/README.md/"
+    product_support_link: "/forums/forum/products/bubblegum96/"
 
     product_tab_menu:
         - tab-title: Documentation
-          tab-link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/README.md/
+          tab-link: /documentation/ConsumerEdition/Bubblegum-96/README.md/
           tab-position: 1
         - tab-title: Support
-          tab-link: http://www.96boards.org/forums/forum/products/bubblegum96/
+          tab-link: /forums/forum/products/bubblegum96/
           tab-position: 2
           tab-align-right: true
 
@@ -32,32 +32,32 @@ products:
       - 96b-0-bubblegum96-actions-ucrobotics-5.png
     product_os:
       - title: Debian
-        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
     product_third_party_images:
       - title: Phoenix
-        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
       - title: Remix
-        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
       - title: Ubuntu Core
-        link: http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md
     product_accessories:
       - title: Power
-        link: https://www.96boards.org/product/power/
+        link: /product/power/
       - title: Adapter
-        link: https://www.96boards.org/product/adapter/
+        link: /product/adapter/
       - title: Debug
-        link: https://www.96boards.org/product/debug/
+        link: /product/debug/
       - title: Misc
-        link: https://www.96boards.org/product/misc/
+        link: /product/misc/
     product_mezzanine:
-      - title: LinkSprite
-        link: https://www.96boards.org/product/linksprite/
-      - title: UARTSerial
-        link: https://www.96boards.org/product/uartserial/
-      - title: SensorsMezz
-        link: https://www.96boards.org/product/sensorsmezz/
-      - title: AudioMezz
-        link: https://www.96boards.org/product/audiomezz/
+      - title: Link Sprite
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
 
     product_buy_links:
       -
@@ -151,25 +151,25 @@ products:
     # Bottom Link
     product_accessories:
       - title: Power
-        link: https://www.96boards.org/product/power/
+        link: /product/power/
       - title: Adapter
-        link: https://www.96boards.org/product/adapter/
+        link: /product/adapter/
       - title: Debug
-        link: https://www.96boards.org/product/debug/
+        link: /product/debug/
       - title: Misc
-        link: https://www.96boards.org/product/misc/
+        link: /product/misc/
 
     product_mezzanine:
       - title: D3 Camera Mezzanine
-        link: https://www.96boards.org/product/d3camera/
+        link: /product/d3camera/
       - title: Link Sprite Sensor Kit
-        link: https://www.96boards.org/product/linksprite/
+        link: /product/linkspritesensorkit/
       - title: UART Serial
-        link: https://www.96boards.org/product/uartserial/
+        link: /product/uartserial/
       - title: Sensors Mezzanine
-        link: https://www.96boards.org/product/sensorsmezz/
+        link: /product/sensors-mezzanine
       - title: Audio Mezzanine
-        link: https://www.96boards.org/product/audiomezz/
+        link: /product/audio-mezzanine/
 
     product_kits:
       - title: Basic Kit
@@ -181,12 +181,12 @@ products:
   - product_title: Hikey (LeMaker)
     product_permalink: /product/hikey/
 
-    product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/HiKey/README.md/"
+    product_documentation_link: "/documentation/ConsumerEdition/HiKey/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/hikey"
 
     product_tab_menu:
         - tab-title: Documentation
-          tab-link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/README.md/
+          tab-link: /documentation/ConsumerEdition/HiKey/README.md/
           tab-position: 1
         - tab-title: Support
           tab-link: https://discuss.96boards.org/c/products/hikey
@@ -229,29 +229,29 @@ products:
         of a credit card.
     product_mezzanine:
       - title: LinkSprite
-        link: https://www.96boards.org/product/linksprite/
-      - title: UARTSerial
-        link: https://www.96boards.org/product/uartserial/
-      - title: SensorsMezz
-        link: https://www.96boards.org/product/sensorsmezz/
-      - title: AudioMezz
-        link: https://www.96boards.org/product/audiomezz/
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
 
     product_accessories:
       - title: Power
-        link: https://www.96boards.org/product/power/
+        link: /product/power/
       - title: Adapter
-        link: https://www.96boards.org/product/adapter/
+        link: /product/adapter/
       - title: Debug
-        link: https://www.96boards.org/product/debug/
+        link: /product/debug/
       - title: Misc
-        link: https://www.96boards.org/product/misc/
+        link: /product/misc/
     product_os:
-      - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/AOSP.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md
         title: AOSP
-      - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/Debian.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md
         title: Debian
-      - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md
         title: OpenEmbedded
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
@@ -262,7 +262,7 @@ products:
     product_video:
       - https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
 
-    product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/HiKey960/README.md/"
+    product_documentation_link: "/documentation/ConsumerEdition/HiKey960/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/hikey960"
 
     featured_product_order: 1
@@ -289,27 +289,27 @@ products:
       - hikey-960-SD-front.jpg
       - hikey-960-SD-back.jpg
     product_mezzanine:
-      - title: LinkSprite
-        link: https://www.96boards.org/product/linksprite/
-      - title: UARTSerial
-        link: https://www.96boards.org/product/uartserial/
-      - title: SensorsMezz
-        link: https://www.96boards.org/product/sensorsmezz/
-      - title: AudioMezz
-        link: https://www.96boards.org/product/audiomezz/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine/
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
 
     product_accessories:
       - title: Power
-        link: https://www.96boards.org/product/power/
+        link: /product/power/
       - title: Adapter
-        link: https://www.96boards.org/product/adapter/
+        link: /product/adapter/
       - title: Debug
-        link: https://www.96boards.org/product/debug/
+        link: /product/debug/
       - title: Misc
-        link: https://www.96boards.org/product/misc/
+        link: /product/misc/
 
     product_third_party_images:
-        - link: http://www.96boards.org/documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md
+        - link: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md
           title: AOSP
     product_buy_links:
       -
@@ -343,7 +343,7 @@ products:
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: Mediatek X20 Development Board
     product_permalink: /product/mediatek-x20/
-    product_documentation_link: "http://www.96boards.org/documentation/ConsumerEdition/MediaTekX20/README.md/"
+    product_documentation_link: "/documentation/ConsumerEdition/MediaTekX20/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/mediatek-x20"
     featured_product_order: 4
     # Breadcrumb
@@ -372,28 +372,28 @@ products:
       - Helio-X20-side-two.png
 
     product_third_party_images:
-      - link: http://www.96boards.org/documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md
+      - link: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md
         title: AOSP
 
     product_mezzanine:
       - title: LinkSprite
-        link: https://www.96boards.org/product/linksprite/
-      - title: UARTSerial
-        link: https://www.96boards.org/product/uartserial/
-      - title: SensorsMezz
-        link: https://www.96boards.org/product/sensorsmezz/
-      - title: AudioMezz
-        link: https://www.96boards.org/product/audiomezz/
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
 
     product_accessories:
       - title: Power
-        link: https://www.96boards.org/product/power/
+        link: /product/power/
       - title: Adapter
-        link: https://www.96boards.org/product/adapter/
+        link: /product/adapter/
       - title: Debug
-        link: https://www.96boards.org/product/debug/
+        link: /product/debug/
       - title: Misc
-        link: https://www.96boards.org/product/misc/
+        link: /product/misc/
 
     product_buy_links:
       -
@@ -402,7 +402,7 @@ products:
         link-url: "http://link.linaro.org/MediatekX20-buy"
   - product_title: Carbon
     product_permalink: /product/carbon/
-    product_documentation_link: "http://www.96boards.org/documentation/IoTEdition/Carbon/README.md/"
+    product_documentation_link: "/documentation/IoTEdition/Carbon/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/carbon"
     featured_product_order: 6
     breadcrumb-section: Products
@@ -427,7 +427,7 @@ products:
         link: https://www.96boards.org/documentation/IoTEdition/Carbon/Downloads/Zephyr.md
   - product_title: Poplar
     product_permalink: /product/poplar/
-    product_documentation_link: "http://www.96boards.org/documentation/EnterpriseEdition/Poplar/README.md/"
+    product_documentation_link: "/documentation/EnterpriseEdition/Poplar/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/poplar"
     breadcrumb-section: Products
     breadcrumb-section-two: "EE"
@@ -547,7 +547,7 @@ products:
       - quantity: 2
         name: 2mm shunts
   - product_title: Sensors Mezzanine
-    product_permalink: /product/sensorsmezz/
+    product_permalink: /product/sensors-mezzanine/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
@@ -802,8 +802,8 @@ products:
       -
         link-title: Arrow Electronics
         link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
-  - product_title: AudioMezz
-    product_permalink: /product/audiomezz/
+  - product_title: Audio Mezzanine
+    product_permalink: /product/audio-mezzanine/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
     breadcrumb-section: Products
@@ -817,7 +817,7 @@ products:
         grove ports which can be used to connect rich Grove functional modules, which will make your
         application more complicated and attracting.
     product_images:
-      - "AudioMezz.png"
+      - "audio-mezzanine.png"
     mezzanine_features:
       - "6 x On-board Grove connector"
       - "USB to UART conversion for access to the 410c system console."
@@ -828,7 +828,7 @@ products:
     product_buy_links:
       -
         link-title: Arrow Electronics
-        link-url: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
+        link-url: https://www.arrow.com/en/products/audio-mezzanine/seeed-technology-limited
   - product_title: Ethernet Card
     product_permalink: /product/ethernetcard/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
