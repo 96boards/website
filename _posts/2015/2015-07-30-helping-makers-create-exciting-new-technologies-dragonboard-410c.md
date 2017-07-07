@@ -16,6 +16,8 @@ tags:
   - dragonboard410c
 images:
 - arrow-dragonboard410c.jpg
+redirect_from:
+- /tutorial/helping-makers-create-exciting-new-technologies-dragonboard-410c/
 ---
 {% include media.html media_url="https://www.youtube.com/embed/m0vzAkNtygM" %}
 
