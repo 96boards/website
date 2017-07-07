@@ -7,6 +7,8 @@ description: |-
 redirect_from:
 - /product/grove-starter-kit/
 - /product/sensorsmezz/
+- /products/mezzanine/sensors-mezzanine/
+- /products/mezzanine/grove-starter-kit/
 ---
 # Grove Seeed Sensor Mezzanine
 

@@ -10,6 +10,8 @@ redirect_from:
 - /product/linksprite/
 - /product/linker-mezzanine-starter-kit/
 - /product/linksprite-7-display-kit/
+- /products/mezzanine/linker-mezzanine-starter-kit/
+- /products/mezzanine/linksprite-7-display-kit/
 ---
 # Arrow LinkSprite Mezzanine Kit
 

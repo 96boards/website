@@ -28,7 +28,7 @@ redirect_from:
         </div>
 
         <div id="grid">
-            {% assign products_array = site.data.product_db.products | where: "product_specification", "CE" %}
+            {% assign products_array = site.data.product_db.products | where: "product_specification", "ce" %}
             <div class="row">
             {% for product in products_array %}
             {% assign product-url = product.product_permalink | split: "/" %}
