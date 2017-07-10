@@ -42,6 +42,7 @@ tags:
 - Raspberry Pi
 - Reference Platform
 - rpb
+- OpenHoursRecap
 ---
 
 # Introduction
