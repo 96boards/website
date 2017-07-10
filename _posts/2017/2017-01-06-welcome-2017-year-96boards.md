@@ -559,7 +559,7 @@ Remember, you are all the reason this is possible. Please join us in welcoming a
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience. All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is YOUR channel and a means to bring up interesting and possibly controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also join to hang out and have a quick chat while you enjoy your morning coffee or tea :D
 
-![openhours-03](/assets/images/blog/2016/05/OpenHours-03-1.png){:class="img-responsive lazyload"}
+{% include image.html alt="OpenHours" name="OpenHours.png" %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
 
