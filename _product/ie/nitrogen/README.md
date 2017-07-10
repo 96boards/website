@@ -22,3 +22,26 @@ BLE Nitrogen is the kind of boards that uses software platform from 96Boards whi
 - [Seeed Studio](https://www.seeedstudio.com/BLE-Nitrogen-p-2711.html?gclid=EAIaIQobChMIhKu_ztr81AIVQiWBCh1zjghZEAAYASAAEgIKZPD_BwE)
 
 ***
+
+## Additional Information
+
+|   Component          |   Description                                                                                    |
+|:---------------------|:-------------------------------------------------------------------------------------------------|
+|  SoC                 | nRF52832 microcontroller                                                                         |
+|  CPU                 | Cortex-M4                                                                                        |
+|  Clock Speed         | 64MHz                                                                                            |
+|  RAM                 | 64KB                                                                                             |
+|  Storage             | 512KB onboard Flash                                                                              |
+|  Battery             | Onboard battery connector and charger                                                            |
+|  Debugger            | LPC11U35 on board SWD debugger                                                                   |
+|  Wireless            | nRF51832 Bluetooth with BLE power consumption measurement                                        |
+|  Connectors          | SWD debug, nRF52832 SWD, nRF52832 UART                                                           |
+|  Expansion Interface | 40 Pin Low-speed expansion                                                                       |
+|  Digital Output (V)  | 1.8V                                                                                             |
+|  Analog Input (V)    | 0V - 1.8V                                                                                        |
+|  Antenna             | Onboard chip antenna                                                                             |
+|  Power Source        | USB power supply with fuse protect                                                               |
+|  OS Support          | Zephyr                                                                                           |
+|  Size                | 60x30mm                                                                                          |
+
+***
