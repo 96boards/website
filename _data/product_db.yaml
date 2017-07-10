@@ -1,5 +1,5 @@
 products:
-# CE, EE, IE Products
+# ce, EE, IE Products
   - product_title: Bubblegum-96
     product_permalink: /product/bubblegum-96/
 
@@ -17,7 +17,7 @@ products:
 
     featured_product_order: 3
     product_title: Bubblegum-96
-    product_specification: CE
+    product_specification: ce
     product_short_desc: Board based on Actions Semi S900 Processor
     product_long_desc: |-
         The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
@@ -69,7 +69,7 @@ products:
   - product_title: DragonBoard™ 410c (Arrow)
     product_permalink: /product/dragonboard410c/
     product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
-    product_specification: CE
+    product_specification: ce
     featured_product_order: 2
     is_featured: true
     product_images:
@@ -196,7 +196,7 @@ products:
     featured_product_order: 5
     # Breadcrumb
     breadcrumb-section: Products
-    breadcrumb-section-two: "CE"
+    breadcrumb-section-two: "ce"
 
     # Layout
     layout: product-display-page
@@ -207,7 +207,7 @@ products:
     permalink: /product/hikey/
     # Product Front Matter Data
 
-    product_specification: CE
+    product_specification: ce
     product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
     product_buy_links:
       -
@@ -269,12 +269,12 @@ products:
     # Title of this page for use in <title> tag of the head.html include in layout.
     # Breadcrumb
     breadcrumb-section: Products
-    breadcrumb-section-two: "CE"
+    breadcrumb-section-two: "ce"
     # Boolean to determine the type as a page.
     is_featured: true
     # Product Front Matter Data
 
-    product_specification: CE
+    product_specification: ce
     product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
     product_long_desc: |-
         The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™
@@ -348,12 +348,12 @@ products:
     featured_product_order: 4
     # Breadcrumb
     breadcrumb-section: Products
-    breadcrumb-section-two: "CE"
+    breadcrumb-section-two: "ce"
     # Boolean to determine the type as a page.
     is_featured: true
     # Product Front Matter Data
 
-    product_specification: CE
+    product_specification: ce
     product_short_desc: "Board based on MediaTek X20 series CPU"
     date_released: 2017
     product_available: true
@@ -409,7 +409,7 @@ products:
     breadcrumb-section-two: "IE"
     is_featured: true
     product_title: "Carbon"
-    product_specification: IE
+    product_specification: ie
     product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
     product_long_desc: |-
         Carbon is the first board to be certified 96Boards IoT Edition compatible.
@@ -432,7 +432,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: "EE"
     product_title: "Poplar"
-    product_specification: EE
+    product_specification: ee
     product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
     product_long_desc: |-
         Available Now -  Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
@@ -458,12 +458,12 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
     product_long_desc: |-
         The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A).
         This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement,
-        pressure and sound. It can be plugged directly on top of 96Boards consumer edition (CE) products and supports multiple expansion
+        pressure and sound. It can be plugged directly on top of 96Boards consumer edition (ce) products and supports multiple expansion
         possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software development,
         drag-and-drop programming and provides direct access to the ARM mbed on-line resources.
     product_images:
@@ -493,7 +493,7 @@ products:
 
 
     is_featured: true
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
     product_long_desc: |-
         Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
@@ -553,7 +553,7 @@ products:
     breadcrumb-section-two: Mezzanine
 
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
     product_long_desc: |-
         The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
@@ -566,7 +566,7 @@ products:
         - 96Boards-Sensors-1.jpg
 
     mezzanine_features:
-      - "Compatible with 96Boards CE and EE baseboards"
+      - "Compatible with 96Boards ce and EE baseboards"
       - "Integrated Arduino-compatible ATMEGA328 microcontroller"
       - "Arduino UNO compatible expansion headers"
       - "9 Grove connectors for 96Boards IO (mixed 3.3V and 5V; all 5V tolerant): 5x GPIO, and 4x I2C"
@@ -610,7 +610,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: This is a 7inch capacitive touch screen LCD with HDMI interface.
     product_long_desc: |-
         This is a 7-inch capacitive touch screen LCD with HDMI display and USB touch interfaces. The LCD uses standard HID protocol and integrates very easily into a Linux system. It supports the Debian system on the Arrow Dragonboard 410C.
@@ -646,7 +646,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
     product_long_desc: |-
         Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O. Add functionality or remove unused components with the ease of a drag-and-drop interface.
@@ -713,7 +713,7 @@ products:
     product_permalink: /product/mipiadapter/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: Hardware compatible MIPI mezzanine and GPIO breakout for 96Boards
     product_long_desc: |-
         This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.
@@ -773,7 +773,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-2 cameras to connect to the DragonBoard™ 410c.
     product_long_desc: |-
         D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c. Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
@@ -809,7 +809,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
     product_long_desc: |-
         This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
@@ -836,7 +836,7 @@ products:
     breadcrumb-section: Products
     breadcrumb-section-two: Mezzanine
 
-    product_specification: "Mezzanine"
+    product_specification: "mezzanine"
     product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
     product_long_desc: |-
         The PoE + Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
@@ -858,11 +858,11 @@ products:
     product_buy_links:
       -
         link-title: Coming Soon
-        link-url: https://www.96boards.org/products/mezzanine/
+        link-url: /mezzanine/
 # 96boards Accessories
 accessories:
   - accessory_permalink: /product/debug/
-    accessory_category: Debug
+    accessory_category: debug
     accessory_title: UART to USB Adapter Cable
     accessory_description: |-
         The TE-C0344 cable is a UART to USB adapter cable, using the Prolific PL2303HXD chipset,
@@ -875,7 +875,7 @@ accessories:
     accessory_images:
         - uart-to-usb-cable.jpg
   - accessory_permalink: /product/debug/
-    accessory_category: Debug
+    accessory_category: debug
     accessory_title: 96Boards UART Serial Adapter
     accessory_description: |-
         Available now - a USB to UART interface to be used with any 96Boards Consumer or
@@ -887,7 +887,7 @@ accessories:
     accessory_images:
         - uarts-debug-accessory.jpg
   - accessory_permalink: /product/power/
-    accessory_category: Power
+    accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
     accessory_description: |-
         Arrow are providing this power supply worldwide and recommend it for all 96Boards.
@@ -898,7 +898,7 @@ accessories:
     accessory_images:
         - accessories-arrow-power.jpg
   - accessory_permalink: /product/power/
-    accessory_category: Power
+    accessory_category: power
     accessory_title: Universal power supply
     accessory_description: |-
         This is a 12V 2A power supply with universal connectivity on both ends.
@@ -913,7 +913,7 @@ accessories:
     accessory_images:
         - accessories-2.png
   - accessory_permalink: /product/power/
-    accessory_category: Power
+    accessory_category: power
     accessory_title: 5.5/2.1mm to 4.75/1.7mm cable DC plug converter
     accessory_description: |-
         This cable adapter seems to be easier to find that the direct converter,
@@ -926,7 +926,7 @@ accessories:
     accessory_images:
         - accessories-power-3.png
   - accessory_permalink: /product/power/
-    accessory_category: Power
+    accessory_category: power
     accessory_title: 2.1mm to 1.7mm DC plug adapter
     accessory_description: |-
         Low cost solution to convert more readily available 12V 2A 2.1mm power
@@ -937,7 +937,7 @@ accessories:
     accessory_images:
         - accessories-power-4.png
   - accessory_permalink: /product/adapter/
-    accessory_category: Adapter
+    accessory_category: adapter
     accessory_title: USB 2.0 to Fast Ethernet Adapter
     accessory_description_list:
         - Connectors -  USB Type-A, Stereo output jack, Mono microphone-input jack.
@@ -951,7 +951,7 @@ accessories:
     accessory_images:
         - accessories-adapters-1.png
   - accessory_permalink: /product/adapter/
-    accessory_category: Adapter
+    accessory_category: adapter
     accessory_title: USB Stereo Sound Adapter for Windows, Mac
     accessory_description_list:
         - Connectors-  USB Type-A, Stereo output jack, Mono microphone-input jack.
@@ -965,7 +965,7 @@ accessories:
     accessory_images:
         - accessories-adapters-2.jpg
   - accessory_permalink: /product/misc/
-    accessory_category: Misc
+    accessory_category: misc
 
     accessory_title: Creative Live! Cam Sync HD 720P Webcam
     accessory_description_list:
@@ -980,7 +980,7 @@ accessories:
     accessory_images:
         - accessory-misc-1.jpg
   - accessory_permalink: /product/misc/
-    accessory_category: Misc
+    accessory_category: misc
 
     accessory_title: Logitech Wireless Touch Keyboard K400 with Built-In Multi-Touch Touchpad, Black
     accessory_description_list:
