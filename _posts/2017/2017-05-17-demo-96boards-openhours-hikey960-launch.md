@@ -22,6 +22,7 @@ tags:
 - Open Hours
 - OpenHours
 - Robert Wolff
+- OpenHoursRecap
 ---
 
 As part of one of the special OpenHours session for HiKey960 launch, we did a demo on Hikey and HiKey960 to compare the performance of the 2 boards. We ran a [1080p/30fps](http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4) video on vlc using software decoder on both the devices running same codebase from AOSP master for the comparision. Here is the link to the Openhours session in which we did the demo: [https://www.youtube.com/watch?v=-6AVlw4VwRQ](https://www.youtube.com/watch?v=-6AVlw4VwRQ)
