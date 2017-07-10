@@ -421,10 +421,32 @@ products:
       -
         link-title: "Buy Carbon (Seeed)"
         link-price: $27.95
-        link-url: "https://www.seeedstudio.com/BLE-Carbon-p-2710.html"
+        link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
         link: https://www.96boards.org/documentation/IoTEdition/Carbon/Downloads/Zephyr.md
+  - product_title: Nitrogen
+    product_permalink: /product/nitrogen/
+    product_documentation_link: "/documentation/IoTEdition/nitrogen/README.md/"
+    product_support_link: "https://discuss.96boards.org/c/products/nitrogen"
+    featured_product_order: 7
+    is_featured: true
+    product_specification: ie
+    product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
+    product_long_desc: |-
+        Carbon is the first board to be certified 96Boards IoT Edition compatible.
+        The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+    product_images:
+      - nitrogen-front-web.jpg
+      - nitrogen-back-web.jpg
+    product_buy_links:
+      -
+        link-title: "Buy Nitrogen"
+        link-price: $27.95
+        link-url: "http://linaro.co/nitrogen-buy"
+    product_os:
+      - title: Linux
+        link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/README.md/
   - product_title: Poplar
     product_permalink: /product/poplar/
     product_documentation_link: "/documentation/EnterpriseEdition/Poplar/README.md/"
