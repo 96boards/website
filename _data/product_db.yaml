@@ -424,7 +424,7 @@ products:
         link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
-        link: https://www.96boards.org/documentation/IoTEdition/Carbon/Downloads/Zephyr.md
+        link: https://www.96boards.org/documentation/IoTEdition/carbon/downloads/Zephyr.md
   - product_title: Nitrogen
     product_permalink: /product/nitrogen/
     product_documentation_link: "/documentation/IoTEdition/nitrogen/README.md/"
@@ -804,16 +804,16 @@ products:
       - "Camera Mezzanine Board OV5640_front.jpg"
       - "Camera Mezzanine Board OV5640_back.jpg"
 
-    product_getting_started: https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+    product_getting_started: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
     product_documents:
         - title: D3 Engineering website
           link: http://www.d3engineering.com/solutions/embedded-vision
         - title: D3 DesignCore Mezzanine Wiki
           link: https://github.com/D3Engineering/410c_camera_support/wiki
         - title: Data Sheet
-          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
+          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
         - title: Quickstart Guide and Schematics
-          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
     mezzanine_features:
       - "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
       - "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
