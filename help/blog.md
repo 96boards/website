@@ -77,3 +77,30 @@ tags:
 ---
 Your content goes here.
 ```
+
+
+
+
+# Creating a new blog post
+
+To create a new blog post for the 96boards Jekyll Site use the following steps to get started.
+
+## 1. Fork the 'website' repository
+Go to https://github.com/96boards/website and fork the repository. In your terminal do the following but replace:
+```bash
+$ git clone https://github.com/your-username/website.git
+```
+Then add the original source for the website repository in the upstream remote.
+```bash
+$ git remote add upstream https://github.com/96boards/website.git
+```
+Check you have successfully added the remote by listing the available remotes.
+```bash
+$ git remote -v
+```
+To make sure that your website repository is in sync with the main one then use the following:
+```bash
+$ git fetch upstream
+$ git checkout master # Make sure you are on the master branch locally.
+$ git merge upstream/master #If you have no unique commits it will perform a fast-forward.
+```
