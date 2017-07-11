@@ -134,3 +134,9 @@ The featured image takes the name of an image that is located in the \_assets/im
 Images must be added to the /\_assets/images/ folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
 
 To add an image in your markdown please use the following liquid include.
+
+```
+{% include image.html name="name-of-your-image.png" alt="Alternate text for your image" %}
+```
+
+When using this liquid include the image you have included in your blog post will be rendered as a responsive image linked to your original image.
