@@ -48,34 +48,24 @@ Make sure your markdown is not indented at all otherwise it will not render prop
 |    Front Matter     |                        Meaning and usage                           |
 |---------------------|:------------------------------------------------------------------:|
 | title               | This is the title of the website for use in the head.html include. |
-| layout              | This is the layout to use for the post. If you don't know what layout to put then just use "post".  |
+| layout              | This is the layout to use for the post. Default is set to 'post'.  |
 | author              | This is the author of the blog post. In future updates a shortname will refer to a authors db.                 |
 | date                | This is the date of the post in this format - 2017-07-05 13:00:00+00:00             |
 | featured_image      | Name of the image which will be the main featured image on the blog post.           |
-| comments            | When this is set to true Disqus comments are displayed at the bottom of the post.   |
+| comments            | When this is set to false Disqus comments are not displayed at the bottom of the post.  Default is set to True. |
 | tags                | This is a yaml list of tags related to the post.                                    |
 
 
-An example of the front matter of a blog post:
+An example of the bare minimum front matter required for a blog post:
 
 ```yaml
 ---
-layout: post
 title: Most Awesome Blog Post in the World.
 author: John Smith
 date: 2017-07-07 13:00:00+00:00
 featured_image: blog-feature-image.jpg
-comments: true
-tags:
-- 64-Bit
-- 96Boards
-- Aarch64
-- Android
-- ARM Arm32
-- Arm64
-- ARMv8
 ---
-Your content goes here.
+Your Markdown content goes here.
 ```
 
 
@@ -109,3 +99,38 @@ $ git fetch upstream
 $ git checkout master # Make sure you are on the master branch locally.
 $ git merge upstream/master #If you have no unique commits it will perform a fast-forward.
 ```
+
+More more info on this matter please visit [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
+
+## 2. Create your new post in /\_posts
+Navigate to the \_posts directory and add in the new blog post markdown file with the following format for the file name so that Jekyll recognizes it as a post.
+
+```
+YYYY-MM-DD-name-of-your-post.md
+```
+The 'name-of-your-post' is used by Jekyll to work out the permalink of where your blog post should reside. The date must also be supplied in the file name of the post. A future date may result in your blog post from not being rendered on the site when a Jekyll build takes place.
+
+## 3. Start writing your post.
+
+In the help directory - where you are reading this - I have added a template for a post. You can use this template to get started and to make sure you have all the required front matter variables.
+```yaml
+---
+title: Most Awesome Blog Post in the World.
+author: John Smith
+date: 2017-07-07 13:00:00+00:00
+---
+YOUR MARKDOWN CONTENT GOES HERE
+```
+Above are the bare minimum front matter variables that need setting for your blog to be rendered correctly.
+
+However, the typical blog post will have a featured image that displays full page width etc. To add this full page image you should include a featured_image in the front matter like this:
+
+```yaml
+featured_image: your-featured-img.png
+```
+The featured image takes the name of an image that is located in the \_assets/images folder.
+
+### Images
+Images must be added to the /\_assets/images/ folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
+
+To add an image in your markdown please use the following liquid include.
