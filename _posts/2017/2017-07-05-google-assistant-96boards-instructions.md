@@ -1,13 +1,11 @@
 ---
 author: Radhika Paralkar
-comments: true
 featured_blog: true
 date: 2017-07-05 13:00:00+00:00
 layout: post
 link: http://www.96boards.org/blog/google-assistant-96boards-instructions/
 slug: google-assistant-96boards-instructions
 title: Instructions for Google Assistant on 96Boards
-wordpress_id: 20519
 featured_image: google-assistant-96boards.jpg
 categories:
 - blog
@@ -96,7 +94,8 @@ In today’s blog we will discuss the steps required in order to set up the proj
 
 To begin hardware connections, make sure the DragonBoard is powered off. Connect the USB Microphone onto one of the USB ports on the DragonBoard. If you are using USB Speakers, connect them as well. Since the DragonBoard has two USB ports, you may use a USB hub in order to connect the input devices such as mouse and keyboard. Then connect the monitor using the HDMI port and power on the DragonBoard 410c with 96Boards compliant power supply.
 
-![Google Assistant Instruction for 96boards Image 1](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="img-responsive lazyload" data-src="{% asset_path 'ga-img-1.jpg' %}"}
+{% include image.html name="ga-img-1.jpg" alt="New title" %}
+
 
 If you want to use Bluetooth speakers, keep them switched on. When the system boots, open Bluetooth Manager from the Application Menu. Click on search so that the DragonBoard can start scanning for nearby devices. Once the device appears, right click on it and select pair. Finally, after pairing, click on connect. To make sure the microphone and speakers are connected successfully, go to Application Menu - Sound & Video - PulseAudio Volume Control and check the input and output devices.
 
@@ -194,11 +193,11 @@ Now, this one bothered me for a while so I will talk about it first. If there is
 
 This one helps us do a simple speaker and microphone test, just to make sure that the hardware is functional.
 
+```bash
  $ speaker-test -t wav
-
  $ arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
  $ aplay --format=S16_LE --rate=16000 --file-type=raw out.raw
-
+```
 
 Finally, if you are experiencing choppy audio or any discontinuities in the responses, these commands should help. They basically adjust the sound device’s block size.
 

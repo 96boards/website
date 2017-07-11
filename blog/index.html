@@ -1,0 +1,101 @@
+---
+title: Blog
+permalink: "/blog/"
+description: |-
+    96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost.
+layout: empty-container-page-no-nav
+pagination:
+    enabled: true
+    collection: posts
+    permalink: "/:num/"
+    trail:
+        before: 4
+        after: 4
+redirect_from:
+  - /2015/
+  - /2016/
+  - /2017/
+  - /hub/
+  - /newsletter/
+---
+
+<div class="row blog-row">
+    <div class="col-md-9">
+        {% for post in paginator.posts %}
+            <div class="row blog_post">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <a href="{{post.url}}">
+                        <img class="img-responsive blog-img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        {% if post.featured_image %}
+                        data-src="/assets/images/thumbnails/{{post.featured_image}}"
+                        {% else %}
+                        data-src="{% asset_path 'placeholder.png' %}"
+                        {% endif %}
+                         alt="{{post.title}}" />
+                    </a>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 post_title no-padding">
+                    <a href="{{post.url}}"><h3>{{ post.title}}</h3></a>
+                    <em>{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
+                    <p class="post_excerpt">
+                    {{ post.content | strip_html | truncatewords:30 }}
+                    </p>
+                    <p>
+                        <a href="{{post.url}}">
+                            <button class="btn blog-read-more-btn">Read More</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+          </p>
+        {% endfor %}
+    </div>
+    <div class="col-md-3">
+            <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Follow Us</h3>
+                  </div>
+                  <div class="panel-body">
+                      <a href="http://facebook.com/{{site.facebook_username}}" class="blog-icons"><i class="icon-facebook"></i></a>
+                      <a href="https://github.com/{{site.github_username}}" class="blog-icons"><i class="icon-github-circled"></i></a>
+                      <a href="https://plus.google.com/{{site.google_plus_username}}/posts" class="blog-icons"><i class="icon-gplus"></i></a>
+                      <a href="https://www.linkedin.com/company/{{site.linkedin_username}}" class="blog-icons"><i class="icon-linkedin"></i></a>
+                      <a href="https://twitter.com/{{site.twitter_username}}" class="blog-icons"><i class="icon-twitter"></i></a>
+                      <a href="https://www.youtube.com/{{site.youtube_username}}" class="blog-icons"><i class="icon-youtube"></i></a>
+                  </div>
+
+              </div>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Recent Blogs</h3>
+                </div>
+                <div class="panel-body">
+                    {% for blog in site.posts limit: 5 %}
+                        <div class="featured_blog_post">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 no-padding">
+                                   <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                   {% if blog.featured_image %}
+                                   data-src="/assets/images/thumbnails/{{blog.featured_image}}"
+                                   {% else %}
+                                   data-src="{% asset_path 'placeholder.png' %}"
+                                   {% endif %}
+                                  alt="{{blog.title}}" class="img-responsive lazyload"/>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 ">
+                                   <a href="{{blog.url}}">{{blog.title | truncate: 40}}</a>
+                                   <br /><small><em>{{blog.date | date: "%A, %B %-d, %Y" }}</em></small>
+                               </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+              </div>
+
+    </div>
+</div>
+<div class="row">
+{% include _theme-includes/_blog/pagination.html %}
+</div>

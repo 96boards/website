@@ -75,7 +75,7 @@ In the help directory - where you are reading this - I have added a template for
 ---
 title: Most Awesome Blog Post in the World.
 author: John Smith
-date: 2017-07-07 13:00:00+00:00
+date: 2017-06-27 13:00:00+00:00
 ---
 YOUR MARKDOWN CONTENT GOES HERE
 ```
@@ -89,7 +89,7 @@ featured_image: your-featured-img.png
 The featured image takes the name of an image that is located in the \_assets/images folder.
 
 ### Images
-Images must be added to the /\_assets/images/ folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
+Images must be added to the `/\_assets/images/` folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
 
 To add an image in your markdown please use the following liquid include.
 

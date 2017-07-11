@@ -44,9 +44,7 @@ tags:
 - rpb
 - OpenHoursRecap
 ---
-
 # Introduction
-
 
 **- With help from guest Author,[ Jean-Marc Jobin](https://twitter.com/jmjobin)**
 

@@ -5,19 +5,15 @@ permalink: "/projects/"
 description: |-
     The 96Boards projects that have been announced are shown below.
     Click on the links to find out more about the projects.
+redirect_from:
+- /project/demos/
+- /project/accessories/
 ---
 <h1>96Boards projects</h1>
 <p>
     This projects listed on this page are from the <a href="http://github.com/96boards">96boards github</a> where you can submit a project to be listed on here by creating a pull request.
     Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
 </p>
-<br />
-<div align="right" class="controls project_filter_panel" id="sort_select">
-    <button class="btn blog-read-more-btn btn-sm filter" type="button" data-filter="all">All Projects</button>
-    <button class="btn blog-read-more-btn btn-sm sort" type="button" data-sort="name:descending">Descending</button>
-    <button class="btn blog-read-more-btn btn-sm sort" type="button" data-sort="random">Random</button>
-
-</div>
 <br/>
 <div id="grid" class="container row my-shuffle-container">
     {% assign projects = site.projects | where: "project", "true" %}

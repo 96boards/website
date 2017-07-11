@@ -1,20 +1,14 @@
 ---
 author: Radhika Paralkar
-comments: true
 featured_blog: true
 date: 2017-07-05 12:00:00+00:00
-layout: post
-link: http://www.96boards.org/blog/google-assistant-using-96boards-intro/
-slug: google-assistant-using-96boards-intro
 title: Introduction to Google Assistant using 96Boards
-wordpress_id: 20519
 featured_image: google-assistant-96boards-feature.jpg
 categories:
 - blog
 tags:
 - 64-Bit
 - 96Boards
-- Aarch64
 - Android
 - ARM Arm32
 - Arm64
@@ -80,7 +74,7 @@ tags:
 This year in April, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB microphone and speakers.
 
 
-![Google Assistant with 96boards feature image]({% asset_path "google-assistant-96boards-feature.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html name="google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
 
 # **Bill Of Materials**
 
