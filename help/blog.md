@@ -1,45 +1,7 @@
 
 # 96boards Blog
 
-1. [Adding a blog post](#adding-a-blog-post)
-
 96boards blog posts are now written in markdown for a Jekyll based static site. These markdown posts are pulled in by Jekyll and displayed just like your typical 96boards blog post. The following tips will help you get on track and start writing blog posts for the new static site.
-
-## Markdown
-This Jekyll site is using Kramdown flavour markdown and also uses the rouge highlighter and a custom scss file in the \_assets/css folder.
-
-## Images
-Images are included using the image.html file. This is located in the \_includes folder. This file will generate the necessary markdown for an image that opens in a lightbox and is lazy loaded as users scroll down the blog post. Below is an example of how to include an image in your post.
-
-```
-{% include image.html name="name-of-your-specific-image.png" alt="This is the image alt tag which is also the lightbox caption." %}
-```
-
-The above is a basic example of a responsive lightbox image include for use in your blog posts when you include an image.
-
-## Media
-Media items are included using the media.html file will will generate a bootstrap responsive media element and include the supplied media_url as a source. This can be used for Slideshare includes and youtube video includes; both of which will be displayed as a repsonsive full width element which is lazy loaded using the Lazy Sizes plugin.
-```
-{% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
-```
-
-## Code Highlighting
-
-The highlighter used in the site is [`Rouge`](http://rouge.jneen.net). For a list of the language shortcodes that are supported currently go [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
-
-```
-    ```python
-    def newFunction(firstname, surname):
-        name = firstname + surname
-        return name
-    ```
-```
-Once rendered the above will look similiar to this:
-```python
-def newFunction(firstname, surname):
-    name = firstname + surname
-    return name
-```
 
 Make sure your markdown is not indented at all otherwise it will not render properly.
 
@@ -56,8 +18,6 @@ Make sure your markdown is not indented at all otherwise it will not render prop
 | tags                | This is a yaml list of tags related to the post.                                    |
 
 
-An example of the bare minimum front matter required for a blog post:
-
 ```yaml
 ---
 title: Most Awesome Blog Post in the World.
@@ -67,8 +27,6 @@ featured_image: blog-feature-image.jpg
 ---
 Your Markdown content goes here.
 ```
-
-
 
 
 # Creating a new blog post
@@ -121,7 +79,7 @@ date: 2017-07-07 13:00:00+00:00
 ---
 YOUR MARKDOWN CONTENT GOES HERE
 ```
-Above are the bare minimum front matter variables that need setting for your blog to be rendered correctly.
+Above is the bare minimum front matter that is needed to setup your blog post and ensure it is rendered correctly.
 
 However, the typical blog post will have a featured image that displays full page width etc. To add this full page image you should include a featured_image in the front matter like this:
 
@@ -139,4 +97,38 @@ To add an image in your markdown please use the following liquid include.
 {% include image.html name="name-of-your-image.png" alt="Alternate text for your image" %}
 ```
 
-When using this liquid include the image you have included in your blog post will be rendered as a responsive image linked to your original image.
+When using this liquid include the image you have included in your blog post will be rendered as a responsive image and when clicked the image will then display a lightbox.
+
+### Youtube Video Series
+To include a youtube video in your blog post simply use the `media.html` include as follows:
+
+```
+{% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
+```
+
+This youtube video will be rendered as a responsively embedded element so it displays correctly on all screen sizes. This embed will also be lazy loaded.
+
+
+### Media (Slideshare includes etc)
+Media items are included using the media.html file will will generate a bootstrap responsive media element and include the supplied media_url as a source. This can be used for Slideshare includes and youtube video includes; both of which will be displayed as a repsonsive full width element which is lazy loaded using the Lazy Sizes plugin.
+```
+{% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
+```
+
+### Code Highlighting
+
+The highlighter used in the site is [`Rouge`](http://rouge.jneen.net). For a list of the language shortcodes that are supported currently go [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
+
+```
+    ```python
+    def newFunction(firstname, surname):
+        name = firstname + surname
+        return name
+    ```
+```
+Once rendered the above will look similiar to this:
+```python
+def newFunction(firstname, surname):
+    name = firstname + surname
+    return name
+```
