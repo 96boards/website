@@ -21,6 +21,8 @@ redirect_from:
 - /news-archive/linaro-launches-open-arm-sbc-spec-and-an-octa-core-sbc/
 - /news-archive/linaro-offers-new-arm-board-designs/
 - /news-archive/open-is-as-open-does-parsing-an-announcement/
+- /activity/
+- /forum/
 ---
 ## News
 <br />
