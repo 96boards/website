@@ -16,7 +16,7 @@ permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
 | Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)
 
 ***
 
@@ -34,4 +34,4 @@ Continue to [Installation page](../Installation/README.md)
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)

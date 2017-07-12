@@ -25,4 +25,4 @@ $ sudo reboot<Enter>
 
 ***
 
-When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/README.md) page to begin programming.
+When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/) page to begin programming.

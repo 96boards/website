@@ -14,7 +14,7 @@ permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md/
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)
 
 ***
 
@@ -32,4 +32,4 @@ permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md/
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)

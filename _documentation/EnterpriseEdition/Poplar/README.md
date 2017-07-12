@@ -9,16 +9,16 @@ A comprehensive guide to using the [Poplar](http://www.96boards.org/product/popl
 
 ## Software
 
-- [Build from Source](BuildSource/README.md)
+- [Build from Source](BuildSource/)
    - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documetation
 
-- [Getting Started](GettingStarted/README.md)
+- [Getting Started](GettingStarted/)
    - Learn about your Poplar board, how to prepare and set up for basic use
-- [Vendor Documentation](HardwareDocs/README.md)
+- [Vendor Documentation](HardwareDocs/)
    - Explore what makes your Poplar unique, technical specifications, schematics, hardware notes and more...
-- [Support](Support/README.md)
+- [Support](Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
 ***

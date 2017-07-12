@@ -16,4 +16,4 @@ permalink: /documentation/IoTEdition/nitrogen/downloads/Zephyr.md/
 | [Disco](http://builds.96boards.org/releases/nitrogen/zephyr-1.8/nitrogen_blinky.hex)   | A simple LED 'blinky' demo                   |
 | [Beacon](http://builds.96boards.org/releases/nitrogen/zephyr-1.8/nitrogen_beacon.hex) | A simple BLE 'beacon' application           |
 
-Continue to [Installation page](../installation/README.md)
+Continue to [Installation page](../installation/)

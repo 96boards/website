@@ -14,7 +14,7 @@ permalink: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md/
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/)       |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)
 
 ***
 
@@ -36,4 +36,4 @@ permalink: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md/
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)

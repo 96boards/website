@@ -17,4 +17,4 @@ permalink: /documentation/IoTEdition/carbon/downloads/Zephyr.md/
 | [Beacon](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_beacon.bin) | A simple BLE 'beacon' application           |
 | [Radio](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_nrf51_radio.hex) | A simple radio transmitter example |
 
-Continue to [Installation page](../installation/README.md)
+Continue to [Installation page](../installation/)

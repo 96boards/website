@@ -23,7 +23,7 @@ This method requires the following hardware:
 - Host machine (Linux)
 - USB Type-A (Host Machine) to USB Type-C (HiKey960) cable
 
-Go to the [Downloads page](../Downloads/README.md) if you have not yet chosen and downloaded an OS.
+Go to the [Downloads page](../Downloads/) if you have not yet chosen and downloaded an OS.
 
 **Choose host machine**:
 

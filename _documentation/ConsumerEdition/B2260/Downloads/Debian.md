@@ -15,6 +15,6 @@ permalink: /documentation/ConsumerEdition/B2260/Downloads/Debian.md/
 |  Debian (Alip)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-jessie_alip_*.img.gz) |
 |  Debian (Developer)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-jessie_developer_*.img.gz) |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)
 
 ***

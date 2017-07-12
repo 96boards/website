@@ -7,7 +7,7 @@ redirect_from: /documentation/ConsumerEdition/CE-Extras/GPIO/Beginner/README.md/
 
 96Boards enabled pre-built libraries are easy to get, and in some cases might already be included in your current build image. This beginner's guide will show you how to set up, and use your libraries to program the various GPIO interfaces located on the low-speed expansion header of your 96Boards.
 
-Before jumping into this guide, it is recommended to go through the [Low-Speed Expansion Header](../LSExpansionHeader/README.md) document. Readers can use this document to become more familiar with the physical locations of various GPIO interfaces.
+Before jumping into this guide, it is recommended to go through the [Low-Speed Expansion Header](../LSExpansionHeader/) document. Readers can use this document to become more familiar with the physical locations of various GPIO interfaces.
 
 ***
 
@@ -66,4 +66,4 @@ $ sudo apt-get install libupm-dev
 
 ***
 
-Once you have installed these libraries continue to our [Examples and Sample Code](../Examples/README.md) page!
+Once you have installed these libraries continue to our [Examples and Sample Code](../Examples/) page!

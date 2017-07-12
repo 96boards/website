@@ -15,7 +15,7 @@ permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md/
 | Stable Snapshot 99 | [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-99.zip)
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section) |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)
 
 ***
 
@@ -35,4 +35,4 @@ Continue to [Installation page](../Installation/README.md)
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/cache.img.tar.xz)    |
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)    |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)

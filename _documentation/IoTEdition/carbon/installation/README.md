@@ -35,7 +35,7 @@ This method requires the following hardware:
 - USB to microUSB cable
 - stm32flash tool
 
-You may choose to [Downloads](../Downloads/README.md) or [Build](../Building/README.md) an application for your Carbon
+You may choose to [Downloads](../Downloads/) or [Build](../Building/) an application for your Carbon
 
 Choose host machine
 
@@ -54,7 +54,7 @@ This method requires the following hardware:
 - USB to microUSB cable
 - dfu-util tool
 
-You may choose to [Downloads](../Downloads/README.md) or [Build](../Building/README.md) an application for your Carbon
+You may choose to [Downloads](../Downloads/) or [Build](../Building/) an application for your Carbon
 
 Choose host machine
 

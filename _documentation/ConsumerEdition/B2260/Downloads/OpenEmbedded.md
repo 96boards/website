@@ -23,4 +23,4 @@ permalink: /documentation/ConsumerEdition/B2260/Downloads/OpenEmbedded.md/
 
 Only download one SD card image (Either Jethro Console, Jethro Desktop, Krogoth Console or Krogoth Desktop).
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)

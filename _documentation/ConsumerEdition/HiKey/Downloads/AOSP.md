@@ -15,7 +15,7 @@ permalink: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md/
 |   HiKey Package                                   | [Download](https://developers.google.com/android/nexus/images-preview#hikey) |
 
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)
 
 ***
 
@@ -37,4 +37,4 @@ permalink: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md/
 |userdata.img.tar.xz      | [4G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-4gb.img.tar.xz) / [8G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-8gb.img.tar.xz)                                    |
 |cache.img.tar.xz         | [Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/cache.img.tar.xz)         |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)

@@ -14,7 +14,7 @@ permalink: /documentation/ConsumerEdition/HiKey960/Downloads/Debian.md/
 |:------------------|:------------------------------------|
 |Release Notes:     |[Link]()                             |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)
 
 ***
 
@@ -36,4 +36,4 @@ Continue to [Installation page](../Installation/README.md)
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link]()                           |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)

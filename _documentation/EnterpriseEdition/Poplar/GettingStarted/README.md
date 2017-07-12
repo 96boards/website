@@ -63,9 +63,9 @@ If you are already familiar with the Poplar board and would like to change out t
 
 - [Board Recovery](https://github.com/Linaro/poplar-tools/blob/latest/build_instructions.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../Support/README.md)
+- [Support](../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Poplar documentation home page](../README.md)
+Back to the [Poplar documentation home page](../)
 
 ***   

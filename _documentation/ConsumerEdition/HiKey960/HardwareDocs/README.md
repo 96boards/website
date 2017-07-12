@@ -18,4 +18,4 @@ Explore what makes the HiKey960 unique, technical specifications, schematics, ha
 
 ***
 
-[Return to the HiKey960 Documentation home page](../README.md)
+[Return to the HiKey960 Documentation home page](../)

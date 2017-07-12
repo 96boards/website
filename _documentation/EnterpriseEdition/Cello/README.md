@@ -9,7 +9,7 @@ A comprehensive guide to using the [Cello](http://www.96boards.org/products/ee/c
 
 ## Contents
 
-- [Quickstart](Quickstart/README.md)
+- [Quickstart](Quickstart/)
    - Learn about yourCello board, how to prepare and set up for basic use
-- [Troubleshooting](Troubleshooting/README.md)
+- [Troubleshooting](Troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

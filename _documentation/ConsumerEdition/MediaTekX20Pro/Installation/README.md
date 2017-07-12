@@ -32,6 +32,6 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
-Go to the [Downloads page](../Downloads/README.md) for your choice of MediaTek X20 builds and operating systems
+Go to the [Downloads page](../Downloads/) for your choice of MediaTek X20 builds and operating systems
 
 ***

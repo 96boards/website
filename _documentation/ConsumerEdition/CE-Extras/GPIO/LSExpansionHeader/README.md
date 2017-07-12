@@ -9,9 +9,9 @@ The low-speed expansion header is where all of your GPIO interfaces are located.
 
 If you are already familiar with the 96Boards low-speed expansion header, the interfaces available to you, and how to safely access them using basic jumper wires our one of the Mezzanine kits, please skip to one of the following sections to get started:
 
-- [Beginner's Guide](../Beginner/README.md)
-- [Advanced Guide](../Advanced/README.md)
-- [Examples - Sample Code](../Examples/README.md)
+- [Beginner's Guide](../Beginner/)
+- [Advanced Guide](../Advanced/)
+- [Examples - Sample Code](../Examples/)
 
 ***
 
@@ -33,7 +33,7 @@ Below is an image of the DragonBoard™ 410c(one of our 96Boards), and a diagram
 <a href="" align="left" target="_blank"><img src="http://i.imgur.com/yH9s441.png" data-canonical-src="http://i.imgur.com/yH9s441.png" width="180" height="240" /></a>
 <a href="" align="right" target="_blank"><img src="http://i.imgur.com/zo44YPE.jpg" data-canonical-src="http://i.imgur.com/zo44YPE.jpg" width="280" height="220" /></a>
 
-As you can see, this particular header is home to the many usable GPIO interfaces. In order to follow the [GPIO](), [I2C](), and [SPI]() example guides, you will need access to this header. Members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](../../../MezzanineProducts/README.md).
+As you can see, this particular header is home to the many usable GPIO interfaces. In order to follow the [GPIO](), [I2C](), and [SPI]() example guides, you will need access to this header. Members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](../../../MezzanineProducts/).
 
 ***
 

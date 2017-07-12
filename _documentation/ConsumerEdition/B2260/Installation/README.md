@@ -32,7 +32,7 @@ Required hardware:
 - USB mouse and keyboard
 - HDMI monitor and cable
 
-Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
+Go to the [Downloads page](../Downloads/) to get your SD card image.
 
 Choose host machine
 

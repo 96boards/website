@@ -9,20 +9,20 @@ A comprehensive guide to using the [MediaTek X20](http://www.96boards.org/produc
 
 ## Software
 
-- [Downloads](Downloads/README.md)
+- [Downloads](Downloads/)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](Installation/README.md)
+- [Installation](Installation/)
    - Choose and install an operating system on your MediaTek X20
 
 ## Documenation
 
-- [Getting Started](GettingStarted/README.md)
+- [Getting Started](GettingStarted/)
    - Learn about your MediaTek X20 board, how to prepare and set up for basic use
-- [Useful Guides](Guides/README.md)
+- [Useful Guides](Guides/)
    - These guides will help to get you started with a variety of available on-boards software
-- [Additional Documentation](AdditionalDocs/README.md)
+- [Additional Documentation](AdditionalDocs/)
    - Discover our list of sponsored MediaTek X20 documents, these include User Guides and Application notes
-- [Hardware Documentation](HardwareDocs/README.md)
+- [Hardware Documentation](HardwareDocs/)
    - Explore what makes your MediaTek X20 unique, technical specifications, schematics, hardware notes and more...
-- [Support](Troubleshooting/README.md)
+- [Support](Troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

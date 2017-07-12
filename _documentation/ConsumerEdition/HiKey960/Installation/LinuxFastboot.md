@@ -50,13 +50,13 @@ Jumper Pin 5-6 = DIP switch 3                     |
 **Host Linux Machine**
 
 - Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
-- Download appropriate operating system images from ["Downloads page"](../Downloads/README.md)
+- Download appropriate operating system images from ["Downloads page"](../Downloads/)
 
 ## Step 3: Flash base firmware (only if necessary)
 
 Most release-level devices should not require this step to updating the base firmware, so this step mostly applies to pre-release boards, and can be skipped (head on to **Step 4** of the instructions). However, if your board does not boot after being flashed, its advised to do a recovery flash to ensure lower-level firmware components are properly flashed.
 
-Instructions on how to do a recovery flash of the base firmware are kept in a seperate repository and can be found [here](https://github.com/96boards-hikey/tools-images-hikey960/blob/master/README.md)
+Instructions on how to do a recovery flash of the base firmware are kept in a seperate repository and can be found [here](https://github.com/96boards-hikey/tools-images-hikey960/blob/master/)
 
 ## Step 4: Boot HiKey 960 into fastboot mode
 
@@ -113,4 +113,4 @@ Fastboot      | Link 5-6 / Switch 3 | open / OFF
 **Congratulations! You are now booting your newly installed OS directly
 from eMMC on the HiKey960!**
 
-[Return to HiKey960 documentation home](../README.md)
+[Return to HiKey960 documentation home](../)

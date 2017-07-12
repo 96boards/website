@@ -12,4 +12,4 @@ permalink: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md/
 
 
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)
