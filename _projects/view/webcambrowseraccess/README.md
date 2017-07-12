@@ -5,7 +5,7 @@ permalink: "/projects/WebcamBrowserAccess/"
 description: |-
     Based on the DragonBoard™ 410c development board from Arrow Electronics, a demo for image acquisition and web release was developed using the Python language. It is designed to demonstrate how to acquire images by camera and upload them to a web server deployed on DragonBoard 410c development board. Such images should then be accessible by other devices through network.
 images:
-  - WindowsIoT_FrontPage.png
+  - BrowserWebcamAccess_FrontPage.png
 ---
 # Webcam Access on a Web Browser
 

@@ -8,6 +8,8 @@ images:
   - DroneKit_BOM.png
   - GadgetDrone_VideoImage_OnboardCameraFlight.png
   - GadgetDrone_VideoImage_OpenHours.png
+redirect_from:
+- /project/gumstix-gadgetdrone/
 ---
 # Gumstix Gadget Drone
 
@@ -24,12 +26,10 @@ Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard
 ## Videos
 
 ### GadgetDrone Flight Test (Drone view)
-
-[<img src="..Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" data-canonical-src="..Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OnboardCameraFlight.png?raw=true" width="600" height="350" />](https://youtu.be/XK0PIaZMKJY)
+{% include image.html name="GadgetDrone_VideoImage_OnboardCameraFlight.png" alt="GadgetDrone Flight Test (Drone view)" url="https://youtu.be/XK0PIaZMKJY"%}
 
 ### Live drone demo on OpenHours ep.25
-
-[<img src="..Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" data-canonical-src="..Archive/GadgetDrone/Images/GadgetDrone_VideoImage_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+{% include image.html name="GadgetDrone_VideoImage_OpenHours.png" alt="Live drone demo on OpenHours ep.25" url="https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk"%}
 
 ## Resources
 

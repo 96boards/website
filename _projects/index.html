@@ -23,9 +23,17 @@ redirect_from:
         {% if each.title %}
             {% assign page_base = each.permalink | split: "/" %}
                 <div data-name="{{each.title}}" data-order="{{iterator}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
-                        <a href="{{each.permalink}}">
-                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/{{page_base[2]}}/Images/thumb.png" class="project_image lazyload center-block">
-                        </a>
+                        <div class="project_image_holder">
+                            <a href="{{each.permalink}}">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                {% if each.images %}
+                                data-src="/assets/images/projects/thumbnails/{{each.images[0]}}"
+                                {% else %}
+                                data-src="{% asset_path 'placeholder.png' %}"
+                                {% endif %}
+                                 class="project_image lazyload center-block">
+                            </a>
+                        </div>
                         <a href="{{each.permalink}}">
                             <h5 class="project_title">{{each.title | truncate: 30}}</h5>
                         </a>

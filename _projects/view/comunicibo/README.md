@@ -29,16 +29,13 @@ Making the refrigerator-concept for a public space helps people confront the rea
 ## Videos
 
 ### ComuniCibo Video Submission
-
-[<img src="../ComuniCibo/Images/ComuniCibo_Video_Demo.png?raw=true" data-canonical-src="../ComuniCibo/Images/ComuniCibo_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/vI0JuVktJ9o?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="ComuniCibo_Video_Demo.png" alt="ComuniCibo Video Submission" url="https://youtu.be/vI0JuVktJ9o?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### ComuniCibo Presentation and Demo Part 1/2
-
-[<img src="../ComuniCibo/Images/ComuniCibo_Video_Presentation1.png?raw=true" data-canonical-src="../ComuniCibo/Images/ComuniCibo_Video_Presentation1.png?raw=true" width="600" height="350" />](https://youtu.be/n4Q2v6P-RZE?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="ComuniCibo_Video_Presentation1.png" alt="ComuniCibo Presentation and Demo Part 1/2" url="https://youtu.be/n4Q2v6P-RZE?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### ComuniCibo Presentation and Demo Part 2/2
-
-[<img src="../ComuniCibo/Images/ComuniCibo_Video_Pesentation2.png?raw=true" data-canonical-src="../ComuniCibo/Images/ComuniCibo_Video_Pesentation2.png?raw=true" width="600" height="350" />](https://youtu.be/gQLgcpw-ADQ?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="ComuniCibo_Video_Pesentation2.png" alt="ComuniCibo Presentation and Demo Part 2/2" url="https://youtu.be/gQLgcpw-ADQ?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ## Resources
 
