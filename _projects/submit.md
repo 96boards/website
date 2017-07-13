@@ -4,6 +4,9 @@ title: Submit Project
 permalink: "/projects/submit.md/"
 description: |-
     If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community.
+redirect_from:
+- /project/new/
+- /projects/new/
 ---
 # Submit a project
 

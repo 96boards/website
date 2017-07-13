@@ -2,9 +2,6 @@
 title: Docker on AArch64 96Boards Consumer Edition
 layout: project-display-page
 permalink: "/projects/Docker96BoardsCE/"
-breadcrumb-title: Docker on AArch64 96Boards Consumer Edition
-breadcrumb-section: Projects
-breadcrumb-subtitle: Docker96BoardsCE
 description: |-
     Docker is “an open source project to pack, ship and run any application as a lightweight container.” It’s a very interesting tool from the Enterprise space, and docker.com lists its use cases as Continuous integration, DevOps, Big Data and Infrastructure Optimization.
 images:
@@ -30,9 +27,9 @@ Docker is “an open source project to pack, ship and run any application as a l
 
 ## Videos
 
-### Bill Fletcher demos Docker on 96Boards on OpenHours ep. #6
+### Bill Fletcher demos Docker on 96Boards on OpenHours ep.6
 
-[<img src="../Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" data-canonical-src="../Docker96BoardsCE/Images/Docker_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+{% include image.html name="Docker_Video_OpenHours.png" alt="Bill Fletcher demos Docker on 96Boards on OpenHours ep.6" url="https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk"%}
 
 ## Resources
 

@@ -24,12 +24,10 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 ## Videos
 
 ### Project BIG Button Demo
-
-[<img src="../ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" data-canonical-src="../ProjectBIGButton/Images/ProjectBIGButton_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/VeuXedlyDvc)
+{% include image.html name="ProjectBIGButton_Video_Demo.png" alt="Project BIG Button Demo" url="https://youtu.be/VeuXedlyDvc"%}
 
 ### Barry Byford demos Project BIG Button on OpenHours ep. 46
-
-[<img src="../ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" data-canonical-src="../ProjectBIGButton/Images/ProjectBIGButton_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/F6xZPTO9eO0)
+{% include image.html name="ProjectBIGButton_Video_OpenHours.png" alt="Barry Byford demos Project BIG Button on OpenHours ep. 46" url="https://youtu.be/F6xZPTO9eO0"%}
 
 ## Resources
 

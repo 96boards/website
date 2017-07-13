@@ -26,7 +26,7 @@ makes brewing the perfect beer much easier and streamlined
 - **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
 
 ## Videos   
-[<img src="../96Brews/Images/96Brews_Video_OpenHours.png" data-canonical-src="Images/96Brews_Video_OpenHours.png?raw=true" width="600" height="350" />](https://youtu.be/dFh5p-LHfNI)
+{% include image.html name="96Brews_Video_OpenHours.png" alt="96brews image" url="https://youtu.be/dFh5p-LHfNI"%}
 
 ## Resources
 
