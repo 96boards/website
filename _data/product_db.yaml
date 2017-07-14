@@ -194,10 +194,6 @@ products:
           tab-align-right: true
 
     featured_product_order: 5
-    # Breadcrumb
-    breadcrumb-section: Products
-    breadcrumb-section-two: "ce"
-
     # Layout
     layout: product-display-page
     # Boolean to determine the type as a page.
@@ -259,21 +255,11 @@ products:
   - product_title: HiKey 960
     product_permalink: /product/hikey960/
     product_media_highlights: true
-    product_video:
-      - https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-
+    product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
     product_documentation_link: "/documentation/ConsumerEdition/HiKey960/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/hikey960"
-
     featured_product_order: 1
-    # Title of this page for use in <title> tag of the head.html include in layout.
-    # Breadcrumb
-    breadcrumb-section: Products
-    breadcrumb-section-two: "ce"
-    # Boolean to determine the type as a page.
     is_featured: true
-    # Product Front Matter Data
-
     product_specification: ce
     product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
     product_long_desc: |-
@@ -346,13 +332,9 @@ products:
     product_documentation_link: "/documentation/ConsumerEdition/MediaTekX20/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/mediatek-x20"
     featured_product_order: 4
-    # Breadcrumb
-    breadcrumb-section: Products
-    breadcrumb-section-two: "ce"
     # Boolean to determine the type as a page.
     is_featured: true
     # Product Front Matter Data
-
     product_specification: ce
     product_short_desc: "Board based on MediaTek X20 series CPU"
     date_released: 2017
@@ -405,10 +387,7 @@ products:
     product_documentation_link: "/documentation/IoTEdition/Carbon/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/carbon"
     featured_product_order: 6
-    breadcrumb-section: Products
-    breadcrumb-section-two: "IE"
     is_featured: true
-    product_title: "Carbon"
     product_specification: ie
     product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
     product_long_desc: |-
@@ -451,9 +430,6 @@ products:
     product_permalink: /product/poplar/
     product_documentation_link: "/documentation/EnterpriseEdition/Poplar/README.md/"
     product_support_link: "https://discuss.96boards.org/c/products/poplar"
-    breadcrumb-section: Products
-    breadcrumb-section-two: "EE"
-    product_title: "Poplar"
     product_specification: ee
     product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
     product_long_desc: |-
@@ -477,9 +453,6 @@ products:
     product_permalink: /product/stm32/
     product_documentation_link: https://www.96boards.org/documentation/MezzanineProducts/STM32/README.md/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
     product_specification: "mezzanine"
     product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
     product_long_desc: |-
@@ -508,12 +481,7 @@ products:
   - product_title: UART Adapter Board
     product_permalink: /product/uartserial/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
     featured_product_order: 7
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
-
     is_featured: true
     product_specification: "mezzanine"
     product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
@@ -571,22 +539,16 @@ products:
   - product_title: Sensors Mezzanine
     product_permalink: /product/sensors-mezzanine/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
-
     product_specification: "mezzanine"
     product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
     product_long_desc: |-
         The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
 
         On the board you will find sockets for 18 Grove modules, an Arduino-compatible shield socket, and two SPI headers. It also includes an ATMega328 microcontroller which can be programmed from the Arduino IDE and will run most Arduino UNO sketches unchanged. The shield connector and half of the Grove sockets are controlled by the microcontroller, while the remaining Grove sockets are controlled directly by the baseboard. This makes it a flexible prototyping platform which supports both direct control of devices from application software, and offload to a microcontroller. It also provides a USB-UART interface to access the base board’s serial console.
-
     product_images:
         - 96Boards-Sensors-2.jpg
         - 96Boards-Sensors-3.jpg
         - 96Boards-Sensors-1.jpg
-
     mezzanine_features:
       - "Compatible with 96Boards ce and EE baseboards"
       - "Integrated Arduino-compatible ATMEGA328 microcontroller"
@@ -599,7 +561,6 @@ products:
       - "3 user LEDs"
       - "Reset button"
       - "Power button"
-
     product_buy_links:
       -
         link-title: 96Boards Sensors
@@ -607,16 +568,11 @@ products:
       -
         link-title: Grove Starter Kit for 96Boards
         link-url: http://linaro.co/1KnV9TA
-
-
-
     product_more_info:
       - title: Getting-Started PDF
         link: http://linaro.co/sensorkitpdf
       - title: Github
         link: https://github.com/96boards/Starter_Kit_for_96Boards
-
-
     product_bottom_text: |-
         The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
 
@@ -628,11 +584,6 @@ products:
   - product_title: Arrow LinkSprite Mezzanine Kit
     product_permalink: /product/linkspritesensorkit/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
-    product_specification: "mezzanine"
     product_short_desc: This is a 7inch capacitive touch screen LCD with HDMI interface.
     product_long_desc: |-
         This is a 7-inch capacitive touch screen LCD with HDMI display and USB touch interfaces. The LCD uses standard HID protocol and integrates very easily into a Linux system. It supports the Debian system on the Arrow Dragonboard 410C.
@@ -664,10 +615,6 @@ products:
   - product_title: AeroCore 2 for 96Boards
     product_permalink: /product/aerocore2/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
     product_specification: "mezzanine"
     product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
     product_long_desc: |-
@@ -791,10 +738,6 @@ products:
   - product_title: D3 DesignCore™ Camera Mezzanine
     product_permalink: /product/d3camera/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
     product_specification: "mezzanine"
     product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-2 cameras to connect to the DragonBoard™ 410c.
     product_long_desc: |-
@@ -827,10 +770,6 @@ products:
   - product_title: Audio Mezzanine
     product_permalink: /product/audio-mezzanine/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
     product_specification: "mezzanine"
     product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
     product_long_desc: |-
@@ -854,10 +793,6 @@ products:
   - product_title: Ethernet Card
     product_permalink: /product/ethernetcard/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
-    breadcrumb-section: Products
-    breadcrumb-section-two: Mezzanine
-
     product_specification: "mezzanine"
     product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
     product_long_desc: |-
