@@ -90,8 +90,8 @@ products:
           tab-position: 4
           tab-align-right: true
 
-    product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/
-    product_documentation_link: /db410c-getting-started/
+    product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
+    product_documentation_link: /documentation/ConsumerEdition/DragonBoard-410c/
     product_tutorials_link: /tutorials/dragonboard410c/
     product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
 
