@@ -2,21 +2,19 @@ products:
 # ce, EE, IE Products
   - product_title: Bubblegum-96
     product_permalink: /product/bubblegum-96/
-
-    product_documentation_link: "/documentation/ConsumerEdition/Bubblegum-96/README.md/"
-    product_support_link: "/forums/forum/products/bubblegum96/"
+    product_documentation_link: /documentation/ConsumerEdition/Bubblegum-96/
+    product_support_link: https://discuss.96boards.org/c/products/bubblegum96
 
     product_tab_menu:
         - tab-title: Documentation
-          tab-link: /documentation/ConsumerEdition/Bubblegum-96/README.md/
+          tab-link: /documentation/ConsumerEdition/Bubblegum-96/
           tab-position: 1
         - tab-title: Support
-          tab-link: /forums/forum/products/bubblegum96/
+          tab-link: https://discuss.96boards.org/c/products/bubblegum96
           tab-position: 2
           tab-align-right: true
 
     featured_product_order: 3
-    product_title: Bubblegum-96
     product_specification: ce
     product_short_desc: Board based on Actions Semi S900 Processor
     product_long_desc: |-
@@ -79,22 +77,22 @@ products:
     # Sub Tab Menu Items
     product_tab_menu:
         - tab-title: Getting Started
-          tab-link: https://www.96boards.org/db410c-getting-started/GettingStarted/README.md/
+          tab-link: /db410c-getting-started/GettingStarted/
           tab-position: 1
         - tab-title: Documentation
-          tab-link: https://www.96boards.org/db410c-getting-started/
+          tab-link: /db410c-getting-started/
           tab-position: 2
         - tab-title: Tutorials
-          tab-link: https://www.96boards.org/tutorials/dragonboard410c/
+          tab-link: /tutorials/dragonboard410c/
           tab-position: 3
         - tab-title: Support
           tab-link: https://discuss.96boards.org/c/products/dragonboard410c/
           tab-position: 4
           tab-align-right: true
 
-    product_getting_started: https://www.96boards.org/db410c-getting-started/GettingStarted/README.md/
-    product_documentation_link: https://www.96boards.org/db410c-getting-started/
-    product_tutorials_link: https://www.96boards.org/tutorials/dragonboard410c/
+    product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/
+    product_documentation_link: /db410c-getting-started/
+    product_tutorials_link: /tutorials/dragonboard410c/
     product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
 
     # Buy Links
@@ -146,7 +144,7 @@ products:
       - title: Ubuntu Core
         link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
       - title: More Downloads
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/README.md
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/
 
     # Bottom Link
     product_accessories:
@@ -181,12 +179,12 @@ products:
   - product_title: Hikey (LeMaker)
     product_permalink: /product/hikey/
 
-    product_documentation_link: "/documentation/ConsumerEdition/HiKey/README.md/"
+    product_documentation_link: /documentation/ConsumerEdition/HiKey/
     product_support_link: "https://discuss.96boards.org/c/products/hikey"
 
     product_tab_menu:
         - tab-title: Documentation
-          tab-link: /documentation/ConsumerEdition/HiKey/README.md/
+          tab-link: /documentation/ConsumerEdition/HiKey/
           tab-position: 1
         - tab-title: Support
           tab-link: https://discuss.96boards.org/c/products/hikey
@@ -251,12 +249,11 @@ products:
         title: OpenEmbedded
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
-    product_documentation_link: /docs/hikey/
   - product_title: HiKey 960
     product_permalink: /product/hikey960/
     product_media_highlights: true
     product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-    product_documentation_link: "/documentation/ConsumerEdition/HiKey960/README.md/"
+    product_documentation_link: "/documentation/ConsumerEdition/HiKey960/"
     product_support_link: "https://discuss.96boards.org/c/products/hikey960"
     featured_product_order: 1
     is_featured: true
@@ -329,7 +326,7 @@ products:
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: Mediatek X20 Development Board
     product_permalink: /product/mediatek-x20/
-    product_documentation_link: "/documentation/ConsumerEdition/MediaTekX20/README.md/"
+    product_documentation_link: "/documentation/ConsumerEdition/MediaTekX20/"
     product_support_link: "https://discuss.96boards.org/c/products/mediatek-x20"
     featured_product_order: 4
     # Boolean to determine the type as a page.
@@ -354,7 +351,7 @@ products:
       - Helio-X20-side-two.png
 
     product_third_party_images:
-      - link: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md
+      - link: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/
         title: AOSP
 
     product_mezzanine:
@@ -384,7 +381,7 @@ products:
         link-url: "http://link.linaro.org/MediatekX20-buy"
   - product_title: Carbon
     product_permalink: /product/carbon/
-    product_documentation_link: "/documentation/IoTEdition/Carbon/README.md/"
+    product_documentation_link: "/documentation/IoTEdition/Carbon/"
     product_support_link: "https://discuss.96boards.org/c/products/carbon"
     featured_product_order: 6
     is_featured: true
@@ -403,10 +400,10 @@ products:
         link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
-        link: https://www.96boards.org/documentation/IoTEdition/carbon/downloads/Zephyr.md
+        link: /documentation/IoTEdition/carbon/downloads/Zephyr.md
   - product_title: Nitrogen
     product_permalink: /product/nitrogen/
-    product_documentation_link: "/documentation/IoTEdition/nitrogen/README.md/"
+    product_documentation_link: "/documentation/IoTEdition/nitrogen/"
     product_support_link: "https://discuss.96boards.org/c/products/nitrogen"
     featured_product_order: 7
     is_featured: true
@@ -425,7 +422,7 @@ products:
         link-url: "http://linaro.co/nitrogen-buy"
     product_os:
       - title: Linux
-        link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/README.md/
+        link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
   - product_title: Poplar
     product_permalink: /product/poplar/
     product_documentation_link: "/documentation/EnterpriseEdition/Poplar/README.md/"
