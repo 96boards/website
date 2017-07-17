@@ -1,7 +1,7 @@
 ---
 author: Manivannan Sadhasivam
 comments: true
-date: 2017-07-13 01:01:54+00:00
+date: 2017-07-17 01:01:54+00:00
 layout: post
 link: http://www.96boards.org/blog/path-libmraa-96boards-part-3/
 slug: path-libmraa-96boards-part-3
