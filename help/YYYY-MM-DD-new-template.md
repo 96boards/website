@@ -10,7 +10,7 @@ layout: post
 # Title of the blog post.
 title: 96boards OpenHours Recap 1337
 # This is the featured background image of the blog which resides under _assets/
-featured_image: featured_blog_image.jpg
+featured_image: OpenHours.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
