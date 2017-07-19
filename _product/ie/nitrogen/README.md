@@ -24,6 +24,8 @@ BLE Nitrogen is the kind of boards that uses software platform from 96Boards whi
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -43,5 +45,7 @@ BLE Nitrogen is the kind of boards that uses software platform from 96Boards whi
 |  Power Source        | USB power supply with fuse protect                                                               |
 |  OS Support          | Zephyr                                                                                           |
 |  Size                | 60x30mm                                                                                          |
+
+</div>
 
 ***

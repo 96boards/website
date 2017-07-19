@@ -29,6 +29,7 @@ WLAN, Bluetooth and GPS.
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -51,5 +52,7 @@ WLAN, Bluetooth and GPS.
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android Marshmallow 6.0                                                                          |
 |  Size                | 85mm x 54mm                                                                                      |
+
+</div>
 
 Please visit the [MediaTek X20 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserManual.md) for more information

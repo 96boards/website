@@ -22,6 +22,7 @@ TrustZone® security support.
 - [uCRobotics](http://linaro.co/bubblegum96-buy)
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                          |
 |:---------------------|:-------------------------------------------------------------------------------------------------------|
@@ -44,5 +45,7 @@ TrustZone® security support.
 |  Power Source        | 6.5V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm  |
 |  OS Support          | Android 5.1 / Debian Linux / Ubuntu Core / Android Remix                                          |
 |  Size                | 85mm x 54mm                                                                     |
+
+</div>
 
 Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/HardwareDocs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information

@@ -11,6 +11,7 @@ images:
 layout: project-display-page
 redirect_from:
 - /project/dragonboard-410c-case/
+- /project/cecase/
 ---
 
 # 3D Printed Case
