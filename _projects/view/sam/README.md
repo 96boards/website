@@ -24,12 +24,10 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 ## Videos
 
 ### S.A.M. Video Submission
-
-[<img src="../SAM/Images/SAM_Video_Demo.png?raw=true" data-canonical-src="../SAM/Images/SAM_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="SAM_Video_Demo.png" alt="S.A.M. Video Submission" url="https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### S.A.M. Presentation and Demo
-
-[<img src="../SAM/Images/SAM_Video_Presentation.png?raw=true" data-canonical-src="../SAM/Images/SAM_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="SAM_Video_Presentation.png" alt="S.A.M. Presentation and Demo" url="https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ## Resources
 

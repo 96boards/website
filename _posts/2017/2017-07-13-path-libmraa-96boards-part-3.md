@@ -1,11 +1,11 @@
 ---
 author: Manivannan Sadhasivam
 comments: true
-date: 2017-07-13 01:01:54+00:00
+date: 2017-07-17 01:01:54+00:00
 layout: post
 link: http://www.96boards.org/blog/path-libmraa-96boards-part-3/
 slug: path-libmraa-96boards-part-3
-featured_image: path-libmraa-96boards-part-3-featured.png
+featured_image: path-libmraa-96boards-part-2-featured.png
 title: Our path to libmraa on 96Boards – Part 3
 wordpress_id: 20365
 categories:
@@ -47,8 +47,8 @@ tags:
 
 # **Introduction**
 
-Welcome to **Part - 3** of **Our path to libmraa with 96Boards** series. This blog series is intended to provide a roadmap of our 
-work towards standardizing libmraa library for 96Boards. Before going into the current part, I’d like to give a quick recap 
+Welcome to **Part - 3** of **Our path to libmraa with 96Boards** series. This blog series is intended to provide a roadmap of our
+work towards standardizing libmraa library for 96Boards. Before going into the current part, I’d like to give a quick recap
 of the previous parts.
 
 1. [Part 1](http://www.96boards.org/blog/path-libmraa-96boards-part-1/) - **Getting started with libmraa for 96Boards** - This is the introductory blog focussed on providing a roadmap to libmraa from 96Boards perspective. Also, this blog provided library breakdown, how to get started instructions, introduction to libupm and much more.
@@ -56,7 +56,7 @@ of the previous parts.
 
 # **GPIO input pull-up/down support**
 
-GPIO (General Purpose Input Output) is one of the most common subsystem present in all Single Board Computers. It provides the IO access to control LED’s, switches etc… A single GPIO line can be configured as Input or Output depending upon the configuration (It might not be the case sometimes). 
+GPIO (General Purpose Input Output) is one of the most common subsystem present in all Single Board Computers. It provides the IO access to control LED’s, switches etc… A single GPIO line can be configured as Input or Output depending upon the configuration (It might not be the case sometimes).
 
     |     Output    |     Input     |
     | ------------- | ------------- |
@@ -64,7 +64,7 @@ GPIO (General Purpose Input Output) is one of the most common subsystem present 
     |     Low       |     Pull Down |
     ---------------------------------
 
-![Pull Up Down Image]({% asset_path "pull-up-down.jpg" %}){:class="img-responsive lazyload"}
+![Pull Up Down Image]({% asset_path "pull-up-down.png" %}){:class="img-responsive lazyload"}
 
 You might be wondering about the need of Pull-up/down modes in input, since we are only sampling the pin. But there are times when you would want the input pin to be in a stable state (High/Low) in order to detect an event.
 
@@ -80,15 +80,15 @@ If the pin is in floating state (neither high nor low), it will be difficult to 
 1. Pull-up/down in Software
 2. External Pull-up/down circuitry
 
-First method requires no external circuit to be present but the second one requires some crafty circuitry work to be present. This might increase the BoM cost unnecessarily. 
+First method requires no external circuit to be present but the second one requires some crafty circuitry work to be present. This might increase the BoM cost unnecessarily.
 
-As we saw in [Part 1](http://www.96boards.org/blog/path-libmraa-96boards-part-1/), libmraa still uses the sysfs interface for accessing GPIO’s and our support for adding chardev interface is in progress. Sysfs interface supports the GPIO input to be configured as pull-up/down mode using the **active_low** node present under **_/sys/class/gpio/gpioN/_**. 
+As we saw in [Part 1](http://www.96boards.org/blog/path-libmraa-96boards-part-1/), libmraa still uses the sysfs interface for accessing GPIO’s and our support for adding chardev interface is in progress. Sysfs interface supports the GPIO input to be configured as pull-up/down mode using the **active_low** node present under **_/sys/class/gpio/gpioN/_**.
 
-But there was no support present in libmraa for GPIO pull-up/down mode [Thanks to [Sahaj Sarup](https://twitter.com/sahajsarup) for pointing this]. Then we decided to add this support to libmraa. So, I created an initial Pull Request consists of support for pull-up/down mode along with C++ binding. 
+But there was no support present in libmraa for GPIO pull-up/down mode [Thanks to [Sahaj Sarup](https://twitter.com/sahajsarup) for pointing this]. Then we decided to add this support to libmraa. So, I created an initial Pull Request consists of support for pull-up/down mode along with C++ binding.
 
-Pull Request: (https://github.com/intel-iot-devkit/mraa/pull/768) 
+Pull Request: (https://github.com/intel-iot-devkit/mraa/pull/768)
 
-After few days of the submission, it was accepted into libmraa by one of its maintainers. 
+After few days of the submission, it was accepted into libmraa by one of its maintainers.
 
 # **Pull request breakdown**
 
@@ -105,7 +105,7 @@ API for setting pull-up/down mode is **mraa_gpio_input_mode**. You need to speci
 2. MODE_IN_ACTIVE_LOW
 
 
-Core support has been added to gpio source in **_src/gpio/gpio.c_** and C++ binding in **_api/mraa/gpio.hpp_**. 
+Core support has been added to gpio source in **_src/gpio/gpio.c_** and C++ binding in **_api/mraa/gpio.hpp_**.
 
 # **Example Usage**:
 
@@ -177,4 +177,3 @@ Every week at 4:00pm UTC the 96Boards team engages in the ultimate community dri
 
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
-

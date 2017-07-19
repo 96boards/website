@@ -27,8 +27,7 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 ## Videos
 
 ### Video Of The AOSP TV Build Running On a Hikey960
-
-[<img src="..Archive/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" data-canonical-src="..Archive/AOSPTVHikey/Images/AOSPTV_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/3YgdDLQ46TA)
+{% include image.html name="AOSPTV_Video_Demo.png" alt="Video Of The AOSP TV Build Running On a Hikey960" url="https://youtu.be/3YgdDLQ46TA"%}
 
 ## Resources
 

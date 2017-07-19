@@ -24,12 +24,10 @@ This guide will walk you through the steps required to build an "S.O.S.“, a br
 ## Videos
 
 ### Brace Yourself Video Submission
-
-[<img src="../BraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" data-canonical-src="../BraceYourself/Images/BraceYourself_Video_Demo.png?raw=true" width="600" height="350" />](https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="BraceYourself_Video_Demo.png" alt="Brace Yourself Video Submission" url="https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### Brace Yourself Presentation and Demo
-
-[<img src="../BraceYourself/Images/BraceYourself_Video_Presentation.png?raw=true" data-canonical-src="../BraceYourself/Images/BraceYourself_Video_Presentation.png?raw=true" width="600" height="350" />](https://youtu.be/9fxtDixKr-8?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="BraceYourself_Video_Presentation.png" alt="Brace Yourself Presentation and Demo" url="https://youtu.be/9fxtDixKr-8?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ## Resources
 

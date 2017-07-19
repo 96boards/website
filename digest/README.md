@@ -4,13 +4,17 @@ description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /digest/
 layout: plain-markdown-page
+redirect_from:
+- /newsletter/digest/
 ---
 # Weekly Digest
 
-- Issue #16 - Welcome the new Power over Ethernet Mezzanine (Coming June 29th)
-- Issue #15 - [D3 DesignCore Camera Mezzanine Announcement and giveaway!](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=ba1b51ebe4)
-- Issue #14 - [96Boards and Home Surveillance](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=dbeaf5595b)
-- Issue #13 - [96Boards welcomes back, the "Weekly Openhours Digest"](http://us3.campaign-archive1.com/?u=14baaae786342d0d405ee59c2&id=de445c0dd9)
+- Issue #18 - [miniNodes with 96Boards](http://eepurl.com/cVXHoL)
+- Issue #17 - [Google Assist on 96Boards](http://eepurl.com/cU_PMT)
+- Issue #16 - [Welcome the new Power over Ethernet Mezzanine (PoE) Mezzanine](http://eepurl.com/cUlGRf)
+- Issue #15 - [D3 DesignCore Camera Mezzanine Announcement and giveaway!](http://eepurl.com/cTwxjr)
+- Issue #14 - [96Boards and Home Surveillance](http://eepurl.com/cSHnRb)
+- Issue #13 - [96Boards welcomes back, the "Weekly Openhours Digest"](http://eepurl.com/cRnGyX)
 - Issue #12 - [OpenHours welcomes the "Community Minute"](http://eepurl.com/cLanAX)
 - Issue #11 - ["Project BIG Button"](http://eepurl.com/cJduhj)
 - Issue #10 - [96Boards for your 96Brews - Automated Home brewing](http://eepurl.com/cH78jb)

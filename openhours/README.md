@@ -87,7 +87,7 @@ Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/cale
                     <a href="{{post.url}}">
                         <img class="img-responsive blog-img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="/assets/images/thumbnails/{{post.featured_image}}" />
+                        data-src="/assets/images/blog/thumbnails/{{post.featured_image}}" />
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-12 post_title no-padding">

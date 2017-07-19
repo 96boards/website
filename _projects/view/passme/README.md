@@ -24,12 +24,10 @@ The intention of this project was to build a smart network for private neighborh
 ## Videos
 
 ### PassMe Video Submission
-
-[<img data-src="../PassMe/Images/PassMe_Video_Demo.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  class="lazyload" width="600" height="350" />](https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="PassMe_Video_Demo.png" alt="PassMe Video Submission" url="https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### PassMe Presentation and Demo
-
-[<img data-src="../PassMe/Images/PassMe_Video_Presentation.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="600" height="350" class="lazyload" />](https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5)
+{% include image.html name="PassMe_Video_Presentation.png" alt="PassMe Presentation and Demo" url="https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ## Resources
 
