@@ -813,6 +813,7 @@ products:
       -
         link-title: Coming Soon
         link-url: /mezzanine/
+    # New mezzanine products to enabled remove commented out specification.
 # 96boards Accessories
 accessories:
   - accessory_permalink: /product/debug/

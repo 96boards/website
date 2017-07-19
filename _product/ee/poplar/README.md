@@ -21,6 +21,8 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -36,5 +38,8 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 |  DIMENSION           | Standard 160×120 mm 96Boards Enterprice Edition form factor                                      |
 |  WIFI                | 802.11AC 2*2 with Bluetooth                                                                      |
 |  CONNECTORS          | One connector for Smart Card One connector for TSI                                               |
+
+
+</div>
 
 ***
