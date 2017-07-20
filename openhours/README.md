@@ -13,9 +13,9 @@ page_specific_css: openhours-page
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA3MTNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA3MjBUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #61** – Stay Tuned…
+**OpenHours Episode #62** -  Open Q&A with a dash of libmraa updates, community mezzanine project updates, the community minute and a look at the future pinout website that is being worked on! All this week.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
