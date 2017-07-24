@@ -1,14 +1,15 @@
 ---
-title: SensorKey
+title: NeonKey
 layout: product-display-page
-permalink: /product/sensorkey-mezzanine/
+permalink: /product/neonkey-mezzanine/
 description: |-
-    Coming soon...
+    96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
+    ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 redirect_from:
-- /product/sensorkey
-- /product/sensorkey-mezzanine
+- /product/neonkey
+- /product/neonkey-mezzanine
 ---
-# SensorKey Mezzanine
+# NeonKey Mezzanine
 
 96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
 ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below. 
