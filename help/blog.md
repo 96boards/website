@@ -106,6 +106,7 @@ To include a youtube video in your blog post simply use the `media.html` include
 {% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
 ```
 
+`Note: Currently only youtube embed links for the video will work. E.g https://www.youtube.com/embed/bbMp3puXkVg`
 This youtube video will be rendered as a responsively embedded element so it displays correctly on all screen sizes. This embed will also be lazy loaded.
 
 
