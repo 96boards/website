@@ -1,4 +1,5 @@
 ---
+page_title: HiKey 960
 title: HiKey 960 - AOSP Developement Board based [Buy Now] Based on 96Boards CE Specification
 layout: product-display-page
 permalink: /product/hikey960/
@@ -8,7 +9,7 @@ redirect_from:
   - /products/hikey960/
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
-seo_keywords: hikey 960, hikey960, aosp, aosp developement board, boards
+keywords: hikey 960, hikey960, aosp, aosp developement board, boards
 ---
 # HiKey960
 
@@ -34,6 +35,8 @@ for the availability of multiple Linux distributions for this board in the futur
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -55,5 +58,7 @@ for the availability of multiple Linux distributions for this board in the futur
 |  Power Source        | Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant)                                                                                        |
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
+
+</div>
 
 Please visit the [HiKey960 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md) for more information

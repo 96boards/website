@@ -10,6 +10,7 @@ redirect_from:
   - /products/mediatek-x20/
   - /products/mediatekx20/
   - /product/mediatekx20/
+  - /products/ce/mediatek-x20/
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
 ---
@@ -28,6 +29,7 @@ WLAN, Bluetooth and GPS.
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -50,5 +52,7 @@ WLAN, Bluetooth and GPS.
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android Marshmallow 6.0                                                                          |
 |  Size                | 85mm x 54mm                                                                                      |
+
+</div>
 
 Please visit the [MediaTek X20 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserManual.md) for more information

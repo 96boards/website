@@ -52,12 +52,36 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
 
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#small" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Small</a></li>
-              <li role="presentation"><a href="#powerful" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-rocket" aria-hidden="true"></span> Powerful</a></li>
-              <li role="presentation"><a href="#reliable" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-thumbs-o-up" aria-hidden="true"></span> Reliable</a></li>
-              <li role="presentation"><a href="#versatile" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-sun-o" aria-hidden="true"></span> Versatile</a></li>
-              <li role="presentation"><a href="#interchangeable" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-clone" aria-hidden="true"></span> Interchangeable</a></li>
-              <li role="presentation" class="pull-right"><a href="/products/"><span class="fa fa-microchip" aria-hidden="true"></span>Explore Boards</a></li>
+              <li role="presentation" class="active">
+                  <a href="#small" aria-controls="home" role="tab" data-toggle="tab">
+                     Small <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                  </a>
+              </li>
+              <li role="presentation">
+                  <a href="#powerful" aria-controls="profile" role="tab" data-toggle="tab">
+                    Powerful <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                  </a>
+              </li>
+              <li role="presentation">
+                  <a href="#reliable" aria-controls="messages" role="tab" data-toggle="tab">
+                   Reliable <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                  </a>
+              </li>
+              <li role="presentation">
+                  <a href="#versatile" aria-controls="settings" role="tab" data-toggle="tab">
+                   Versatile <span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+                  </a>
+              </li>
+              <li role="presentation">
+                  <a href="#interchangeable" aria-controls="settings" role="tab" data-toggle="tab">
+                   Interchangeable <span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>
+                  </a>
+              </li>
+              <li role="presentation" class="pull-right">
+                  <a href="/products/">
+                  Explore Boards <span class="glyphicon glyphicon-oil" aria-hidden="true"></span>
+                  </a>
+              </li>
             </ul>
 
                 <!-- Tab panes -->

@@ -5,6 +5,8 @@ permalink: /product/aerocore2/
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
+redirect_from:
+- /product/aerocore/
 ---
 # AeroCore2
 
@@ -31,6 +33,8 @@ Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Gep
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component                                       |   Description                                                                                    |
 |:--------------------------------------------------|:-------------------------------------------------------------------------------------------------|
@@ -47,5 +51,7 @@ in accordance with the ISO 11898 standard.  |
 |  MEMORY (SPI FRAM 1MB 1.8V)                       | Memory (SPI FRAM 1MB 1.8V) ([SPEC](http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf))                                                                                               |
 |  MS5611 BAROMETRIC SENSOR                         | A high resolution altitude and digital atmospheric pressure sensor accurate to within 10 cm.     |
 |  Mating Connectors                                |                                                                                                  |
+
+</div>
 
 ***

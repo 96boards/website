@@ -7,6 +7,13 @@ description: |-
     Edition 96Boards with new interfaces for IoT, industrial control, and other
     embedded applications. The following mezzanine expansion boards are currently available.
 specification-logo-path: /images/96Boards-Logo_Partner-small.png
+redirect_from:
+- /products/mezzanine/new-doc/
+- /products/mezzanine/coming-soon/
+- /products/mezzanine/new/
+- /products/kits/
+- /kits/
+- /product/kits/
 ---
 <div class="container">
 
@@ -23,7 +30,7 @@ specification-logo-path: /images/96Boards-Logo_Partner-small.png
     </div>
 
     <div id="grid">
-        {% assign products_array = site.data.product_db.products | where: "product_specification", "Mezzanine"%}
+        {% assign products_array = site.data.product_db.products | where: "product_specification", "mezzanine"%}
         <div class="row">
         {% for product in products_array %}
         {% assign product-url = product.product_permalink | split: "/" %}
@@ -50,7 +57,7 @@ specification-logo-path: /images/96Boards-Logo_Partner-small.png
                             <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
                                 <a href="{{ product.product_permalink }}" class="btn btn-primary btn-read-more">Read More</a>
                                 <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Buy <i class="button-icon fa fa-shopping-cart"></i>
+                                Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
                                 <span class="sr-only">Toggle Dropdown</span>
                               </button>
                               <ul class="dropdown-menu buy-dropup-menu">
