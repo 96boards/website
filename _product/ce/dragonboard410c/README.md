@@ -10,6 +10,7 @@ keywords: |-
 redirect_from:
 - /products/ce/dragonboard410c/
 - /products/dragonboard/
+- /product/dragonboard410c-buy.md/
 ---
 # DragonBoard 410c
 
