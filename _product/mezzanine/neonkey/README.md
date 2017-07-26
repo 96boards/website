@@ -40,5 +40,6 @@ redirect_from:
 ## Documents
 
 - [AOSP Sensors Documentation](https://source.android.com/devices/sensors/)
+- [AOSP NeonKey Documentation](https://source.android.com/source/devices#neonkey)
 - Schematics ([View](https://github.com/96boards/website/blob/master/_product/mezzanine/sensorkey/files/neonkey-schematics) / [Download](https://github.com/96boards/website/raw/master/_product/mezzanine/sensorkey/files/neonkey-schematics))
 - [NeonKey on Tocoding](http://en.tocoding.com/index.php/96boards-neonkey/)
