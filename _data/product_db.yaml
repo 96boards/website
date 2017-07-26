@@ -726,7 +726,7 @@ products:
           link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera
         -
           title: Getting Started
-          link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera/blob/master/AiStarVision-MIPI-Adapter-UserGuide.pdf
+          link: https://github.com/Kevin-WSCU/96Boards-Camera/blob/master/UserGuide_V2.0/AISTARVISION-MIPI-Adapter%20V2.0-UserGuide.pdf
 
     product_includes:
       - quantity: 1
