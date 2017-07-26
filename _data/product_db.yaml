@@ -438,8 +438,7 @@ products:
     product_specification: ie
     product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
     product_long_desc: |-
-        Carbon is the first board to be certified 96Boards IoT Edition compatible.
-        The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+        Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
     product_images:
       - nitrogen-front-web.jpg
       - nitrogen-back-web.jpg
@@ -449,7 +448,7 @@ products:
         link-price: $27.95
         link-url: "http://linaro.co/nitrogen-buy"
     product_os:
-      - title: Linux
+      - title: Zephyr
         link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
   - product_title: Poplar
     product_permalink: /product/poplar/
@@ -850,7 +849,7 @@ products:
           link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera
         -
           title: Getting Started
-          link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera/blob/master/AiStarVision-MIPI-Adapter-UserGuide.pdf
+          link: https://github.com/Kevin-WSCU/96Boards-Camera/blob/master/UserGuide_V2.0/AISTARVISION-MIPI-Adapter%20V2.0-UserGuide.pdf
 
     product_includes:
       - quantity: 1
