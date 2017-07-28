@@ -1,7 +1,7 @@
 ---
 title: DragonBoard 410c Tutorial
 permalink: /tutorials/dragonboard410c/
-layout: empty-container-page-no-nav
+layout: empty-container-page
 ---
 <br>
 <div class="col-md-9" markdown="1">
