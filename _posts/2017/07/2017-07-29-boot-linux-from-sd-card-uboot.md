@@ -112,8 +112,22 @@ the end of this step, the first partition of SD card should have entire Root Fil
 Now, build the Linux Kernel along with device tree using the instructions available in [release notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/).
 Then, convert the generated Kernel image to the format recognized by U-Boot(uImage) using **mkimage** tool.
 
+
 ```shell
-$ ./skales/mkimage -A arm64 -O linux -C none -T kernel -a 0x80080000 -e 0x80080000 -n Dragonboard -d Image uImage
+$ sudo apt-get install u-boot-tools
+$ mkimage -A arm64 -O linux -C none -T kernel -a 0x80080000 -e 0x80080000 -n Dragonboard -d arch/arm64/boot/Image uImage
+```
+> Note: *arch/arm64/boot/Image* is inside the kernel directory
+
+Once the image has been created successfully, you should get something similar to following output
+
+```
+Image Name:   Dragonboard
+Created:      Sat Jul 29 15:15:27 2017
+Image Type:   AArch64 Linux Kernel Image (uncompressed)
+Data Size:    17349120 Bytes = 16942.50 kB = 16.55 MB
+Load Address: 80080000
+Entry Point:  80080000
 ```
 After getting **uImage** copy it along with device tree blob **apq8016-sbc.dtb** to */boot* directory in SD card's ext4 filesystem.
 Final step is to place the **uEnv.txt** file containing the environment variable for U-Boot. So, create a file uEnv.txt in 
