@@ -15,7 +15,5 @@ Please get in touch by filling the form if you are interested to become a 96Boar
 
 </div>
 <div class="col-md-6">
-
-{% include media.html media_url="https://docs.google.com/forms/d/1r0H__mqXOLT3WcPmyUQo1O0JCU7OyUsEBXi4pH4MBDg/viewform?embedded=true" %}
-
+<iframe height="950px" width="100%" src="https://docs.google.com/forms/d/1r0H__mqXOLT3WcPmyUQo1O0JCU7OyUsEBXi4pH4MBDg/viewform?embedded=true"></iframe>
 </div>

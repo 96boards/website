@@ -10,6 +10,7 @@ keywords: |-
 redirect_from:
 - /products/ce/dragonboard410c/
 - /products/dragonboard/
+- /product/dragonboard410c-buy.md/
 ---
 # DragonBoard 410c
 
@@ -19,6 +20,8 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -40,3 +43,5 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android / Linux / Windows IoT Core                                                    |
 |  Size                | 85mm x 54mm                                                                                      |
+
+</div>

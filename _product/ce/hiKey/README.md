@@ -29,6 +29,8 @@ of a credit card.
 ***
 
 ## Additional Information
+<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -51,5 +53,7 @@ of a credit card.
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android 4.2 / Debian Linux                                                                       |
 |  Size                | 85mm x 54mm                                                                                      |
+
+</div>
 
 Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/UserManual.md) for more information
