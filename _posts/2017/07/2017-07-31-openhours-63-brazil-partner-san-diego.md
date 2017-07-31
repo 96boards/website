@@ -45,14 +45,37 @@ tags:
 
 Last week on [OpenHours ep #63](https://youtu.be/YLyhCk8JVq8), I had the opportunity to hang out with some of the coolest people I have ever come across. I am of course referring to the group of winners from the [Brazilian partnership program](http://www.96boards.org/go/db410c-partnership-brazil/). During the over one hour long episode we had the chance to talk about 5 amazing 96Boards projects that were worked on over the course of the past three months in areas all around the country of Brazil. Let's look deeper into this program...
 
-This partnership was originally formed between Qualcomm, Arrow and Embarcados with the goal of finding the best and the brightest hackers in Brazil. The main idea / slogan behind this hack was "Inventing the Future with DragonBoard 410c", which is exactly what their participants did. In fact, all of these projects were so great, we look forward to hosting individual OpenHours episodes for each team in which they will be able to show us demos and point out even more resources behind their work.
+### Origins and bringing them back!
 
-In general, the program was designed to provide technical resources to students, entrepreneurs, induistry professionals and start-ups who had the option to either work alone or in multi-disciplinary teams to come up with an inovative idea that would significantly impact the inter of things ecosystem in Brazil.
+This partnership was originally formed between [Qualcomm](https://developer.qualcomm.com/), [Arrow](https://www.arrow.com/) and [Embarcados](https://contest.embarcados.com.br/inventando-o-futuro-com-dragonboard-410c/) with the goal of finding the best and the brightest hackers in Brazil. The main idea / slogan behind this hack was "Inventing the Future with DragonBoard 410c", which is exactly what their participants did. In fact, all of these projects were so great, we look forward to hosting individual OpenHours episodes for each team in which they will be able to show us demos and point out even more resources behind their work.
 
-IoT solutions using the Qualcomm/Arrow DragonBoard 410c. 
+### Overview
 
-Since I think there may be many reading this who are unaware of this program, 
+In general, the program was designed to provide technical resources to students, entrepreneurs, industry professionals and startups who had the option of working alone or in multi-disciplinary teams (up to 3 per team). Each team would have three months to come up with an innovative idea that would significantly impact the internet of things ecosystem in Brazil.
 
+Much of this information can be found on the [Embarcados website](https://contest.embarcados.com.br/inventando-o-futuro-com-dragonboard-410c/), but I would like to share it here as well. Also, dont forget to check out the video below where [Bruno Evangelista](https://www.linkedin.com/in/bruno-evangelista-768328/) and [Thiago Lima](https://www.linkedin.com/in/tplima/) describe in detail the motivation behind this program and how they brought it to life!
+
+### A little more about the program...
+
+All Brazilians over the age of 18 were allowed to participate in the program. Registration opened on April 25th (2017) and the best candidates (winners) were chosen on June 30th (2017). When this program was made public, Embarcados quickly received over 450 team submissions with over 900 total contestants! A truly amazing turnout. Now since this program / contest required certain hardware to participate, it was important the event organizers pick what they felt the top projects would be. Once the first round of eliminations took place, DragonBoard 410c / Arrow LinkSprite Mezzanine kits were sent to all teams and thus marked the first day of the contest!
+
+### Partner Support
+
+Baita, Inatel, and of course Linaro / 96Boards was brought on board to help with support throughout the contest. Several online video conferences were held where participants could bring questions as well as showcase their current work in a group settings. OpenHours and several other resources were made available to the participants throughout the three month long hack.
+
+### The Finalists!
+
+- [BeeInformed](https://contest.embarcados.com.br/projetos/beeinformed-%C2%AD-sensor-ambiental-apicola/): Beekeeping environmental sensor
+   - This prototype is intended to monitor environmental health where beehives are located. It aims to provide analytics tools for any hive owner that will maximize productivity and the quality of their bee products.
+- [Bengala IoT](https://contest.embarcados.com.br/projetos/bengala-iot/)
+   - According to IBGE, 6.2% of the population has some kind of physical disability. This project aims to serve the public by assisting these folks, more specifically the visually impaired.
+- [Itamambuca Surfboard Data Feeder](https://contest.embarcados.com.br/projetos/surfboard/)
+   - This projects aims to couple electronic devices to a surfboard in order to collect data that can contribute to the experience of the surfer and environment.
+- [Safe2Med](https://contest.embarcados.com.br/projetos/saude-certa/): Healthcare
+   - This project aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds. Real time monitoring and transparency are key factors when bring this project to life.
+- [Dragon Wally](https://contest.embarcados.com.br/projetos/sistema-de-identificacao-de-pessoas-baseado-em-visao-computacional-estereoscopica/)
+   - A computer vision based device with 2x5-megapixel auto-focus cameras (stereoscopic view) and machine learning API (facial recognition)
+ 
 # The video
 
 {% include media.html media_url="https://youtu.be/YLyhCk8JVq8" %}
