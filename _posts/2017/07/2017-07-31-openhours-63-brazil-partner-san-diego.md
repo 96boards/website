@@ -10,7 +10,7 @@ layout: post
 # Title of the blog post.
 title: Brazil Partnership in San Diego
 featured_image: OpenHours.png
-thumbnail_image: /assets/images/thumbs/OpenHours.png
+thumbnail_image: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

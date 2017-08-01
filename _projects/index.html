@@ -25,8 +25,10 @@ redirect_from:
                 <div data-name="{{each.title}}" data-order="{{iterator}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
                         <a href="{{each.permalink}}">
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            {% if each.images %}
-                            data-src="/assets/images/projects/thumbnails/{{each.images[0]}}"
+                            {% if each.thumbnail_image %}
+                            data-src="{% asset_path '{{each.thumbnail_image}}' %}"
+                            {% elsif each.images %}
+                            data-src="/assets/thumbnails/projects/{{each.images[0]}}"
                             {% else %}
                             data-src="{% asset_path 'placeholder.png' %}"
                             {% endif %}

@@ -6,7 +6,7 @@ description: |-
     The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
 specification_path: /documentation/Specifications/96Boards-IE-Specification.pdf
 specification_link: https://linaro.co/ie-specification
-specification_image_path: /images/96Boards-Logo_IoT.png
+specification_image: 96Boards-Logo_IoT.png
 ---
 <div class="container">
 
@@ -16,7 +16,7 @@ specification_image_path: /images/96Boards-Logo_IoT.png
                     <p id="collection-description">{{ page.description }}</p>
             </div>
             <div class="col-md-4">
-                  <img id="collection-image" class="img-responsive center-block hidden-sm hidden-xs" src="{{ page.specification_image_path }}" alt="96Boards logo small.">
+                  <img id="collection-image" class="img-responsive center-block hidden-sm hidden-xs" src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards logo small.">
                   <br/>
                   <a href="{{ page.specification_link }}" id="specification-button" class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
             </div>
