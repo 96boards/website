@@ -88,6 +88,11 @@ featured_image: your-featured-img.png
 ```
 The featured image takes the name of an image that is located in the \_assets/images folder.
 
+```yaml
+thumbnail_image: your-featured-img-THUMB.png
+```
+The thumbnail image takes the name of an thumbnail image that is located in the \_assets/images folder and `must` not be the same name as the featured image.
+
 ### Images
 Images must be added to the `/\_assets/images/` folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
 
@@ -137,7 +142,6 @@ def newFunction(firstname, surname):
 
 ## 4. Commit your changes and submit PULL Request.
 Once you are happy with your blog post commit your changes locally and push to your forked repo. Once you have done this submit a PULL request by going to your repository in the browser and clicking the "Pull request" link just above your repo files. This blog post will then be reviewed and if all is in order your changes will be merged into the master branch on 96boards/website.
-
 
 ## 5. Wait patiently for the Automatic Update
 Once your blog post is pulled into the master branch on 96boards/website the content will be updated on the website(currently manually) automatically.

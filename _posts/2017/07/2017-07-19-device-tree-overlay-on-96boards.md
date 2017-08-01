@@ -6,7 +6,7 @@ layout: post
 link: https://www.96boards.org/blog/device-tree-overlay-on-96Boards/
 slug: device-tree-overlay-on-96Boards
 featured_image: devicetree.png
-thumbnail_image: /assets/images/thumbs/devicetree.png
+thumbnail_image: devicetree-thumb.png
 title: Device Tree Overlay on 96Boards
 wordpress_id: 20365
 categories:

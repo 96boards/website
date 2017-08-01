@@ -8,7 +8,7 @@ description: |-
     be notified when the first board becomes available.
 specification_path: /documentation/Specifications/96Boards-EE-Specification.pdf
 specification_link: https://linaro.co/ee-specification
-specification_image_path: /images/96Boards-Logo_Enterprise-small.png
+specification_image: 96Boards-Logo_Enterprise-small.png
 ---
 <div class="container">
 
@@ -19,7 +19,7 @@ specification_image_path: /images/96Boards-Logo_Enterprise-small.png
 
             </div>
             <div class="col-md-4">
-                  <img id="collection-image" class="img-responsive center-block" src="{{ page.specification_image_path }}" alt="96Boards logo small.">
+                  <img id="collection-image" class="img-responsive center-block" src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards logo small.">
                     <br />
                   <a href="{{ page.specification_link }}" class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
             </div>
