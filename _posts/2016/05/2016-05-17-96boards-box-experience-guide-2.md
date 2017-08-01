@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2016-05-17 15:33:34+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-box-experience-guide-2/
+link: https//www.96boards.org/blog/96boards-box-experience-guide-2/
 slug: 96boards-box-experience-guide-2
 featured_image: Screenshot-22.png
 title: 96Boards Out of box experience guide - part 2
@@ -36,10 +36,10 @@ tags:
 - ucRobotics
 ---
 
-In the last issue of this blog series, we took a quick look at the 96Boards unboxing process. I talked about gathering all the out of box necessities, setting up a safe work station, and powering up your 96Boards for the first time. For those of you who missed this blog, it can be found [here](http://www.96boards.org/blog/96boards-box-experience-guide-1/).
+In the last issue of this blog series, we took a quick look at the 96Boards unboxing process. I talked about gathering all the out of box necessities, setting up a safe work station, and powering up your 96Boards for the first time. For those of you who missed this blog, it can be found [here](https//www.96boards.org/blog/96boards-box-experience-guide-1/).
 For this part of the blog series, we will do as promised and take a closer look at what makes the 96Boards unique. We will examine and compare each operating system so that by the end of this blog, you will have a better idea of what mix (96Board+OS) best suits your development or hobby project needs.
 
-There will be a lot to cover in this part of the blog series. Let’s talk about each 96Boards platform which is currently available. While this blog will focus primarily on CE boards, please keep in mind that there are two types of 96Boards editions: [Consumer Edition (CE) 96Boards](http://www.96boards.org/products/ce/), and [Enterprise Edition(EE) 96Boards](http://www.96boards.org/products/ee/). Let’s start by listing some of the CE board characteristics individually:
+There will be a lot to cover in this part of the blog series. Let’s talk about each 96Boards platform which is currently available. While this blog will focus primarily on CE boards, please keep in mind that there are two types of 96Boards editions: [Consumer Edition (CE) 96Boards](https//www.96boards.org/products/ce/), and [Enterprise Edition(EE) 96Boards](https//www.96boards.org/products/ee/). Let’s start by listing some of the CE board characteristics individually:
 
 **HiKey**
 
@@ -150,7 +150,7 @@ The core of both these operating systems is the kernel which is the most fundame
 So you have explored your current operating system. Maybe you had some fun poking around the Android OS or maybe you got a chance to dive into the Debian Linux desktop. Either way, it’s time to decide which operating system you would like to proceed with for developing and/or working on our hobby project. Once you have decided, you will either want to get the latest version/release of the OS you are currently using, or swap it out completely to one of the other available operating systems. In order to do this, you will need to go through the following steps:
 
 
-  1. Visit the [96Boards Consumer Edition landing page](http://www.96boards.org/documentation/ConsumerEdition/README.md/).
+  1. Visit the [96Boards Consumer Edition landing page](https//www.96boards.org/documentation/ConsumerEdition/README.md/).
 
 
   2. Make your way through “Quickstart” and “Installation” sections of this landing page
@@ -165,26 +165,26 @@ So you have explored your current operating system. Maybe you had some fun pokin
   5. Follow the instructions to install your new operating system.
 
 
-Keep in mind, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Keep in mind, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 In next week’s blog we will dive deeper into the 96Boards add-ons such as the Mezzanine product line, audio jack additions through the analog expansion header of the DragonBoard 410c, and 3D printed 96Boards cases (STL files available now!).
 
-**Video from [OpenHours](http://www.96boards.org/openhours/)**
+**Video from [OpenHours](https//www.96boards.org/openhours/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/EJutUfI8WRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
 
-[**In this series**](http://www.96boards.org/tag/openhours/)
+[**In this series**](https//www.96boards.org/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](http://www.96boards.org/blog/96boards-box-experience-guide-1/) 
+  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/) 
 
 
-  * [96Boards Out of box experience guide – part 2](http://www.96boards.org/blog/96boards-box-experience-guide-2/) (This)
+  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/) (This)
 
 
-  * [96Boards Out of box experience guide – part 3](http://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/)

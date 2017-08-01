@@ -3,7 +3,7 @@ author: davidm
 comments: false
 date: 2015-10-15 10:17:06+00:00
 layout: post
-link: http://www.96boards.org/blog/the-beginning-of-96boards/
+link: https//www.96boards.org/blog/the-beginning-of-96boards/
 slug: the-beginning-of-96boards
 featured_image: 96boards-blog1.jpg
 title: The beginning of 96Boards

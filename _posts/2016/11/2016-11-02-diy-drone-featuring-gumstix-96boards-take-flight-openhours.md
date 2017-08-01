@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2016-11-02 23:30:36+00:00
 layout: post
-link: http://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/
+link: https//www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/
 slug: diy-drone-featuring-gumstix-96boards-take-flight-openhours
 title: DIY Drone featuring Gumstix! 96Boards take flight on OpenHours
 featured_image: drone_knoll.png
@@ -24,9 +24,9 @@ tags:
 # 96Boards take flight on OpenHours!
 
 
-As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](https://www.96boards.org/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](http://www.96boards.org/product/aerocore/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
+As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](https://www.96boards.org/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](https//www.96boards.org/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](https//www.96boards.org/product/aerocore/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
 
-As an added OpenHours bonus, Gumstix has generously offered to provide a free one hour consult with Gumstix Engineers for anyone who fills out a short survey.  You can get all the details here:  [http://www.96boards.org/geppetto-96boards-free-design-consult/](http://www.96boards.org/geppetto-96boards-free-design-consult/)
+As an added OpenHours bonus, Gumstix has generously offered to provide a free one hour consult with Gumstix Engineers for anyone who fills out a short survey.  You can get all the details here:  [https//www.96boards.org/geppetto-96boards-free-design-consult/](https//www.96boards.org/geppetto-96boards-free-design-consult/)
 
 This is your chance to create your very own design in Geppetto and Gumstix Engineers will help you get it to market!
 
@@ -365,8 +365,8 @@ This completes the demonstration walkthrough.  Having followed these steps you 
 
 
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
 ![openhours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

@@ -3,7 +3,7 @@ author: ldts
 comments: true
 date: 2015-11-06 16:37:17+00:00
 layout: post
-link: http://www.96boards.org/blog/xenomai-on-the-96boards/
+link: https//www.96boards.org/blog/xenomai-on-the-96boards/
 slug: xenomai-on-the-96boards
 featured_image: Xenomai-96Boards.jpg
 title: Xenomai on the 96Boards
@@ -89,5 +89,5 @@ Have fun with these boards, build cool prototypes and as always, enjoy your codi
   4. Xenomai 3 can also run over PREEMPT_RT as a real-time provider instead of using the Cobalt kernel.
 
 
-  5. [https://www.96boards.org/forums/topic/announcement-xenomai-on-hikey/](https://www.96boards.org/forums/topic/announcement-xenomai-on-hikey/)
-[https://www.96boards.org/forums/topic/announcement-xenomai-on-410c/](https://www.96boards.org/forums/topic/announcement-xenomai-on-410c/)
+  5. [https://discuss.96boards.org/t/announcement-xenomai-on-hikey/](https://discuss.96boards.org/t/announcement-xenomai-on-hikey/)
+[https://discuss.96boards.org/t/announcement-xenomai-on-410c/](https://discuss.96boards.org/t/announcement-xenomai-on-410c/)

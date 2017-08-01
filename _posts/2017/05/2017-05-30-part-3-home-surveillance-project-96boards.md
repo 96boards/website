@@ -3,7 +3,7 @@ author: Mani_S
 comments: true
 date: 2017-05-30 14:03:55+00:00
 layout: post
-link: http://www.96boards.org/blog/part-3-home-surveillance-project-96boards/
+link: https//www.96boards.org/blog/part-3-home-surveillance-project-96boards/
 slug: part-3-home-surveillance-project-96boards
 featured_image: Pic2.jpg
 title: Part 3 - Webcam Tracking using 96Boards Sensor Mezzanine
@@ -42,7 +42,7 @@ tags:
 # **Introduction**
 
 
-Welcome to Part 3 of our ‘**[Home Surveillance](http://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)**’ blog series focusing on building a home monitoring system using 96Boards. It’s been an amazing journey so far and if you are still with me, then you’re heading towards something awesome :) This part focuses on tracking the faces in front of webcam using a servo mount, connected to Sensors mezzanine, controlled by Dragonboard 410c. Sounds exciting right? Let's take a look at how we can make this happen!
+Welcome to Part 3 of our ‘**[Home Surveillance](https//www.96boards.org/blog/part-1-home-surveillance-project-96boards/)**’ blog series focusing on building a home monitoring system using 96Boards. It’s been an amazing journey so far and if you are still with me, then you’re heading towards something awesome :) This part focuses on tracking the faces in front of webcam using a servo mount, connected to Sensors mezzanine, controlled by Dragonboard 410c. Sounds exciting right? Let's take a look at how we can make this happen!
 
 {% include media.html media_url="https://www.youtube.com/embed/OSI_6HT76g8" %}
 
@@ -53,10 +53,10 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 
 
 
-  1. **[Part 1](http://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)** - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
+  1. **[Part 1](https//www.96boards.org/blog/part-1-home-surveillance-project-96boards/)** - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
 
 
-  2. [**Part 2** ](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running **[OpenCV](http://opencv.org/)** on **[Dragonboard 410c](http://www.96boards.org/product/dragonboard410c/)**. In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
+  2. [**Part 2** ](https//www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running **[OpenCV](http://opencv.org/)** on **[Dragonboard 410c](https//www.96boards.org/product/dragonboard410c/)**. In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
 
 
 
@@ -68,7 +68,7 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 
 
 
-  1. [Dragonboard 410c](http://www.96boards.org/product/dragonboard410c/)
+  1. [Dragonboard 410c](https//www.96boards.org/product/dragonboard410c/)
 
 
   2. [USB Webcam](https://www.logitech.com/en-in/product/hd-webcam-c270?crid=34)
@@ -89,7 +89,7 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 ## **Software Dependencies**
 
 
-Installed the dependencies mentioned in **[Part - 2](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)** along with the following:
+Installed the dependencies mentioned in **[Part - 2](https//www.96boards.org/blog/part-2-home-surveillance-project-96boards/)** along with the following:
 
 $ sudo apt-get install pyserial
 
@@ -166,7 +166,7 @@ Once the code has been flashed, both servos would turn 90 and 120 degrees respec
 ## **Code **Walk through
 
 
-Python script _facetrack.py_ makes use of the training dataset created in [Part -2](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/) for identifying the known face. Once the face has been identified, the position information of face (X,Y axes) would be sent to the Mezzanine through serial port. Then the Arduino code would determine whether the face is on left/right for pan and up/down for tilt. According to the face position, servo would be moved to cover it at the center of webcam.
+Python script _facetrack.py_ makes use of the training dataset created in [Part -2](https//www.96boards.org/blog/part-2-home-surveillance-project-96boards/) for identifying the known face. Once the face has been identified, the position information of face (X,Y axes) would be sent to the Mezzanine through serial port. Then the Arduino code would determine whether the face is on left/right for pan and up/down for tilt. According to the face position, servo would be moved to cover it at the center of webcam.
 
 For instance, if the face has been detected at left most portion. Servo will move towards left until the face becomes center of focus.  After adjusting the servo position for x axis, same procedure would be followed for y axis.
 
@@ -183,7 +183,7 @@ We’ll make use of the servo library comes pre-installed with Arduino for contr
 ## **Webcam tracking**
 
 
-As said before, _facetrack.py_ depends on training a dataset created in [Part 2](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/). So, copy that to the part 3 directory along with \_haarcascade_frontalface_default.xml \_classifier.
+As said before, _facetrack.py_ depends on training a dataset created in [Part 2](https//www.96boards.org/blog/part-2-home-surveillance-project-96boards/). So, copy that to the part 3 directory along with \_haarcascade_frontalface_default.xml \_classifier.
 
 Once all the steps mentioned above are completed, Webcam tracking could be achieved by executing the python script with USB webcam and sensor Mezzanine setup connected to Dragonboard410C.
 
@@ -203,7 +203,7 @@ Once all the steps mentioned above are completed, Webcam tracking could be achie
 
 Is your webcam tracking your face? Are you feeling like in a tech world surrounded by full blown gadgets monitoring you? If yes… then you are feeling the awesomeness I mentioned before :) Stay tuned for the Part -4 where I will show how to setup AWS S3 to stream detected faces to cloud.
 
-**Want more? [Continue on to Part - 4 of the series](http://www.96boards.org/blog/part-4-home-surveillance-project-96boards/)**.
+**Want more? [Continue on to Part - 4 of the series](https//www.96boards.org/blog/part-4-home-surveillance-project-96boards/)**.
 
 
 
@@ -220,11 +220,11 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](http://www.96boards.org/newsletter/)” and our “[Weekly Digest](http://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https//www.96boards.org/newsletter/)” and our “[Weekly Digest](https//www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](http://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https//www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

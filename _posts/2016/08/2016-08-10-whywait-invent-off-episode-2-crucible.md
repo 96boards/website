@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2016-08-10 13:43:18+00:00
 layout: post
-link: http://www.96boards.org/video/whywait-invent-off-episode-2-crucible/
+link: https//www.96boards.org/video/whywait-invent-off-episode-2-crucible/
 slug: whywait-invent-off-episode-2-crucible
 featured_image: invent-off-ep2.jpg
 title: 'The #WhyWait Invent-Off - Episode 2 - The Crucible'

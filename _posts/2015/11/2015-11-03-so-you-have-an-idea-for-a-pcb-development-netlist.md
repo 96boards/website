@@ -3,7 +3,7 @@ author: sophie-haynes
 comments: true
 date: 2015-11-03 20:00:27+00:00
 layout: post
-link: http://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-netlist/
+link: https//www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-netlist/
 slug: so-you-have-an-idea-for-a-pcb-development-netlist
 featured_image: pcb-idea-image.png
 title: So you have an idea for a PCB? - Development (Netlist)

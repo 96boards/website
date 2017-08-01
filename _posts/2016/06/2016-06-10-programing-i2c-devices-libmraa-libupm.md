@@ -3,7 +3,7 @@ author: ldts-atsuka
 comments: true
 date: 2016-06-10 17:18:42+00:00
 layout: post
-link: http://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/
+link: https//www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/
 slug: programing-i2c-devices-libmraa-libupm
 featured_image: akira-blog-image.jpg
 title: Programing I2C devices with libmraa and libupm
@@ -42,7 +42,7 @@ tags:
 - Source
 ---
 
-Thank you everyone who participated in this week’s [Open Hours](http://www.96boards.org/openhours/). Today I had the opportunity to speak about the I2C (Inter-integrated Circtui) and GPIO (General Purpose input/output) interfaces, taking what Robert spoke about these last two weeks and going a little more in depth. I decided to use the libmraa library and paired it with the UPM library to program the [LCD screen](https://www.seeedstudio.com/item_detail.html?p_id=1643) included in the [96Boards Sensors Mezzanine kit](https://www.seeedstudio.com/item_detail.html?p_id=2618).
+Thank you everyone who participated in this week’s [Open Hours](https//www.96boards.org/openhours/). Today I had the opportunity to speak about the I2C (Inter-integrated Circtui) and GPIO (General Purpose input/output) interfaces, taking what Robert spoke about these last two weeks and going a little more in depth. I decided to use the libmraa library and paired it with the UPM library to program the [LCD screen](https://www.seeedstudio.com/item_detail.html?p_id=1643) included in the [96Boards Sensors Mezzanine kit](https://www.seeedstudio.com/item_detail.html?p_id=2618).
 
 During the open hours I tried showing several printed diagram, those diagrams are available in this blog. The diagrams might help you gain a better understanding of the pros and cons for each of these interfaces (GPIO and I2C)
 
@@ -563,7 +563,7 @@ After execution, you will see your the LED you have connected to your Mezzanine 
 ## **Forum**
 
 
-[http://www.96boards.org/forums/forum/products/](http://www.96boards.org/forums/forum/products/)
+[https//discuss.96boards.org/c/products/](https//discuss.96boards.org/c/products/)
 
 
 
@@ -571,8 +571,8 @@ After execution, you will see your the LED you have connected to your Mezzanine 
 ## **Web page**
 
 
-[http://www.96boards.org/documentation/](http://www.96boards.org/documentation/)
+[https//www.96boards.org/documentation/](https//www.96boards.org/documentation/)
 
 [http://www.github.com/96boards/documentation/](http://www.github.com/96boards/documentation/)
 
-http://www.96boards.org/openhours/
+https//www.96boards.org/openhours/

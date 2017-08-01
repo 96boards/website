@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2016-08-10 13:40:37+00:00
 layout: post
-link: http://www.96boards.org/video/whywait-invent-off-episode-1-tortoise-hare/
+link: https//www.96boards.org/video/whywait-invent-off-episode-1-tortoise-hare/
 slug: whywait-invent-off-episode-1-tortoise-hare
 featured_image: qualcomm-invent-off-dragonboard410x.jpg
 title: 'The #WhyWait Invent-Off - Episode 1 - The Tortoise & The Hare'

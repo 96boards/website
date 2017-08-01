@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2017-04-26 16:15:14+00:00
 layout: post
-link: http://www.96boards.org/blog/chihuahua-mexico-hacks-96boards/
+link: https//www.96boards.org/blog/chihuahua-mexico-hacks-96boards/
 slug: chihuahua-mexico-hacks-96boards
 featured_image: SmartCitiesHackathonMEXINVITE.png
 title: Chihuahua, Mexico hacks 96Boards
@@ -66,7 +66,7 @@ Throughout the course of the hack, students had access to a variety of resources
   * [**Workshop presentation**](http://bit.ly/2lzW7ox)
 
 
-  * [**Hackathon page**](http://www.96boards.org/go/hackathon-mexico/)
+  * [**Hackathon page**](https//www.96boards.org/go/hackathon-mexico/)
 
 
 This is only a brief summary of the event. Please poke around the [96Boards YouTube channel](https://www.youtube.com/c/96boards) to see some of the exciting videos that were created during the hackathon.

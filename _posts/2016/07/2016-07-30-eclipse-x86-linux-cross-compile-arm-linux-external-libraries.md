@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2016-07-30 00:14:03+00:00
 layout: post
-link: http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/
+link: https//www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/
 slug: eclipse-x86-linux-cross-compile-arm-linux-external-libraries
 featured_image: Example_of_Canadian_Cross_scheme.png
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external
@@ -13,7 +13,7 @@ categories:
 - blog
 ---
 
-In my [last blog](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) I showed how to install Eclipse for C & C++ development for basic cross compilation. This time I’ll show you how to setup an ssh key so Eclipse can automatically copy an ARM binary over to your 96Boards development system, and I’ll show you how to use external libraries ([libsoc](https://github.com/jackmitch/libsoc) and [mraa](https://github.com/intel-iot-devkit/mraa)). My next blog will cover remote debugging.
+In my [last blog](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) I showed how to install Eclipse for C & C++ development for basic cross compilation. This time I’ll show you how to setup an ssh key so Eclipse can automatically copy an ARM binary over to your 96Boards development system, and I’ll show you how to use external libraries ([libsoc](https://github.com/jackmitch/libsoc) and [mraa](https://github.com/intel-iot-devkit/mraa)). My next blog will cover remote debugging.
 
 These instructions show how to use ssh-keygen, ssh-agent and some features of Eclipse to make use of external shared libraries. Some people will recommend generating an ssh key without a passphrase so it is easy to copy files from your X86 system to your ARM system; however, an ssh key without a passphrase is a real security hazard. Sure you intend it to be only on your development system but things can happen, and keys get copied by accident. I recommend you never make an SSH key without a strong passphrase.
 
@@ -28,7 +28,7 @@ These instructions show how to use ssh-keygen, ssh-agent and some features of Ec
   * Knowledge on how to use Eclipse as an Integrated Development Environment (IDE).
 
 
-  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
+  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
 
 
   * Cross compiling host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or
@@ -37,7 +37,7 @@ These instructions show how to use ssh-keygen, ssh-agent and some features of Ec
   * Debian Testing with Jessie cross compiling tools installed. (other versions of Linux will have issues getting ssh keys working, it can be done but it’s “complex”, I”m will not try to this it here)
 
 
-  * You are cross compiling for [96Boards](http://www.96boards.org/) - either 32bit or 64bit ARM.
+  * You are cross compiling for [96Boards](https//www.96boards.org/) - either 32bit or 64bit ARM.
 
 
 
@@ -542,15 +542,15 @@ When you run it it will execute the board_test libsoc application. Congratulatio
 
 So far in the series of blog postings, we’ve installed and setup command line cross compiling, the building cross compiled shared libraries, and use of shared libraries, then setup Eclipse for cross compiling from X86 to ARM, including using shared libraries, we have setup Eclipse to copy the new binary files over to the ARM 96Boards. I think by far the trickiest part to date has been setting up the secure remote copy command outlined above using ssh and scp with a secure ssh key.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 Other Blogs from David Mandala:
 
-[How do you access the GPIO pins programmatically?](http://www.96boards.org/blog/access-gpio-pins-programmatically/)
-[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](http://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
-[How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
-[Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+[How do you access the GPIO pins programmatically?](https//www.96boards.org/blog/access-gpio-pins-programmatically/)
+[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https//www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+[How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+[Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https//www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)

@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-06-20 22:31:54+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-openhours-session-6-recap/
+link: https//www.96boards.org/blog/96boards-openhours-session-6-recap/
 slug: 96boards-openhours-session-6-recap
 featured_image: OpenHours-03.png
 title: 96Boards OpenHours Session 6 Recap
@@ -102,7 +102,7 @@ Our fifth 96Boards OpenHours session the team discussed in more detail enabling 
   * 17:30 – Question – It would be nice if 96boards spec allowed option for USB 3.0 – is that going to be available on the high speed expansion connectors?
 
 
-  * 21:54 – Bill Fletcher begins talk on Docker on aarch64 (see his blog for more details: [http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/) )
+  * 21:54 – Bill Fletcher begins talk on Docker on aarch64 (see his blog for more details: [https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/) )
 
 
     * Docker is “an open source project to pack, ship and run any application as a lightweight container.”
@@ -185,33 +185,33 @@ Our fifth 96Boards OpenHours session the team discussed in more detail enabling 
 
 
 
-  * Bill wrote a great blog that goes through how to get Docker up and running that you can check out here: [http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+  * Bill wrote a great blog that goes through how to get Docker up and running that you can check out here: [https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
 
 
-Be sure to stay tune in next week  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/)
+Be sure to stay tune in next week  [https//www.96boards.org/openhours/](https//www.96boards.org/openhours/)
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](http://www.96boards.org/openhours/)
+[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](https//www.96boards.org/openhours/)
 
-[**In this series**](http://www.96boards.org/tag/openhours/)
-
-
+[**In this series**](https//www.96boards.org/tag/openhours/)
 
 
-  * [96Boards Out of box experience guide – part 1](http://www.96boards.org/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](http://www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 3](http://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 4](http://www.96boards.org/blog/96boards-box-experience-guide-4/)
+  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/)
 
 
-  * [96Boards Out of box experience guide - part 5](http://www.96boards.org/blog/96boards-box-experience-guide-5/)
+  * [96Boards Out of box experience guide – part 4](https//www.96boards.org/blog/96boards-box-experience-guide-4/)
 
 
-  * [Installing Docker on aarch64 with the Reference Platform Build on a 96Boards CE-edition](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+  * [96Boards Out of box experience guide - part 5](https//www.96boards.org/blog/96boards-box-experience-guide-5/)
+
+
+  * [Installing Docker on aarch64 with the Reference Platform Build on a 96Boards CE-edition](https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)

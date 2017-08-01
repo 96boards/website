@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-10-05 17:53:18+00:00
 layout: post
-link: http://www.96boards.org/blog/recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3/
+link: https//www.96boards.org/blog/recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3/
 slug: recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3
 featured_image: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 21 - DragonBoard 410c Mini-Series Part 3
@@ -52,9 +52,9 @@ To watch episode 21 go to [https://www.youtube.com/watch?v=iR1YzwGwGQE ](https
 
 **Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https//discuss.96boards.org/t/openhours-topic-suggestion/ ](https//discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -217,7 +217,7 @@ thanks!
 
 T
 
-[http://www.96boards.org/products/mezzanine/uarts/](http://www.96boards.org/products/mezzanine/uarts/)
+[https//www.96boards.org/products/mezzanine/uarts/](https//www.96boards.org/products/mezzanine/uarts/)
 
 
 
@@ -579,7 +579,7 @@ Hehe
 
 RW
 
-[www.96boards.org/documentation](http://www.96boards.org/documentation)
+[www.96boards.org/documentation](https//www.96boards.org/documentation)
 
 this is the new Carbon
 
@@ -631,7 +631,7 @@ yea Zephyr OS
 
 what protocol is used in this demo ?
 
-[96boards.org/carbon](http://96boards.org/carbon)
+[96boards.org/carbon](https://96boards.org/carbon)
 
 
 
@@ -786,8 +786,8 @@ Sorry I was distracted, didnt someone asked about Opensource hardware ?
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](http://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https//www.96boards.org/openhours/)

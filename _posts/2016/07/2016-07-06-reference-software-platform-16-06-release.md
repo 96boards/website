@@ -3,7 +3,7 @@ author: rsalveti
 comments: true
 date: 2016-07-06 12:41:02+00:00
 layout: post
-link: http://www.96boards.org/blog/reference-software-platform-16-06-release/
+link: https//www.96boards.org/blog/reference-software-platform-16-06-release/
 slug: reference-software-platform-16-06-release
 featured_image: youtube-banner.jpg
 title: Reference Software Platform 16.06 Release!
@@ -312,18 +312,18 @@ Enterprise Edition:
 
 By taking on, and enabling more development boards to stimulate community involvement, a big push has been made to ensure this platform is used by as many 96boards as possible. Highlights can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Extras/Highlights.md). If you would like to contribute to one of the many RPB components, instructions to do so can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Contribute/README.md).
 
-Last week during [OpenHours](http://www.96boards.org/openhours) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
+Last week during [OpenHours](https//www.96boards.org/openhours) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
 
 {% include media.html media_url="https://www.youtube.com/embed/lB6zpB4pS60?feature=oembed" %}
 
 Since the RPB alpha release in October of last year (15.10), the platform has not stopped evolving. Highlights for each release can be found in the [RPB github](https://github.com/Linaro/documentation/blob/master/Reference-Platform/README.md) under “[Previous RPB Releases](https://github.com/Linaro/documentation/blob/master/Reference-Platform/PreviousReleases/README.md)”.
 
-Please remember, there are plenty of resources all over the [96Boards](http://www.github.com/96boards/documentation) and [Linaro](http://www.github.com/Linaro/documentation) github pages. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running with the Reference Software Platform!
+Please remember, there are plenty of resources all over the [96Boards](http://www.github.com/96boards/documentation) and [Linaro](http://www.github.com/Linaro/documentation) github pages. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running with the Reference Software Platform!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
 
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 On behalf of the Linaro 96Boards team,
 

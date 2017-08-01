@@ -3,7 +3,7 @@ author: Radhika Paralkar
 featured_blog: true
 date: 2017-07-05 13:00:00+00:00
 layout: post
-link: http://www.96boards.org/blog/google-assistant-96boards-instructions/
+link: https//www.96boards.org/blog/google-assistant-96boards-instructions/
 slug: google-assistant-96boards-instructions
 title: Instructions for Google Assistant on 96Boards
 featured_image: google-assistant-96boards.jpg
@@ -75,7 +75,7 @@ tags:
 
 **This blog is subject to going out of date. Please** [visit this project](https://github.com/96boards/projects/tree/master/google_assistant) **in the** [96Boards projects repository](https://github.com/96boards/projects) **for the most up to date instruction set.**
 
-In [the previous blog](http://www.96boards.org/blog/google-assistant-using-96boards-intro/) we spoke about implementing Google Assistant on a DragonBoard using the recently released Google Assistant Software Development Kit, the hardware required and gave a roadmap for implementing the same.
+In [the previous blog](https//www.96boards.org/blog/google-assistant-using-96boards-intro/) we spoke about implementing Google Assistant on a DragonBoard using the recently released Google Assistant Software Development Kit, the hardware required and gave a roadmap for implementing the same.
 
 In today’s blog we will discuss the steps required in order to set up the project. First, we will talk about the hardware requirements and the setup. Then, we will learn how to configure a developer project on Google Cloud Platform and change the account settings for your google account. Once that is done, we will proceed with the software dependencies and finally, discuss how to integrate the project onto our development board. This blog will guide you through all of these steps in as much detail as possible. So let’s get right to it!
 
@@ -221,8 +221,8 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124; [Facebook](https://www.facebook.com/96Boards/) &#124; [YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](http://www.96boards.org/newsletter/)” and our “[Weekly Digest](http://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https//www.96boards.org/newsletter/)” and our “[Weekly Digest](https//www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](http://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](https//www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
