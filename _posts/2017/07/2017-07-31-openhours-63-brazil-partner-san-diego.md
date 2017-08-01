@@ -9,7 +9,6 @@ date: 2017-07-31 12:00:00+00:00
 layout: post
 # Title of the blog post.
 title: Brazil Partnership in San Diego
-# This is the featured background image of the blog which resides under _assets/
 featured_image: OpenHours.png
 thumbnail_image: /assets/images/thumbs/OpenHours.png
 # Tags related this post. For use in tag filters that will be used in future updates.
@@ -76,7 +75,6 @@ Baita, Inatel, and of course Linaro / 96Boards was brought on board to help with
    - This project aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds. Real time monitoring and transparency are key factors when bring this project to life.
 - [Dragon Wally](https://contest.embarcados.com.br/projetos/sistema-de-identificacao-de-pessoas-baseado-em-visao-computacional-estereoscopica/)
    - A computer vision based device with 2x5-megapixel auto-focus cameras (stereoscopic view) and machine learning API (facial recognition)
-
 # The video
 
 {% include media.html media_url="https://www.youtube.com/embed/YLyhCk8JVq8" %}
@@ -84,6 +82,7 @@ Baita, Inatel, and of course Linaro / 96Boards was brought on board to help with
 # The slideshow
 
 {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/xKQAaaITotVPba" %}
+
 
 **IRC: #96boards & #OpenHours**
 
