@@ -6,6 +6,7 @@ layout: post
 link: http://www.96boards.org/blog/path-libmraa-96boards-part-3/
 slug: path-libmraa-96boards-part-3
 featured_image: path-libmraa-96boards-part-2-featured.png
+thumbnail_image: /assets/images/thumbs/path-libmraa-96boards-part-2-featured.png
 title: Our path to libmraa on 96Boards – Part 3
 wordpress_id: 20365
 categories:

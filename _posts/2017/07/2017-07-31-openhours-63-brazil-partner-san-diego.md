@@ -11,6 +11,7 @@ layout: post
 title: Brazil Partnership in San Diego
 # This is the featured background image of the blog which resides under _assets/
 featured_image: OpenHours.png
+thumbnail_image: /assets/images/thumbs/OpenHours.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
