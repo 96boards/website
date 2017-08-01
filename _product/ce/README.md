@@ -7,7 +7,7 @@ description: |-
     The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
     The boards below are all certified conformig to this specification, which defines a fixed set and location
 specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
-specification_link: http://www.96boards.org/ce-specification
+specification_link: https://linaro.co/ce-specification
 specification_image_path: /images/96Boards-Logo_Consumer-small.png
 ---
 
@@ -18,7 +18,7 @@ specification, which defines a fixed set and location for minimum functions incl
 these specifications for particular target markets and functionality can be further enhance by Mezzanine products that connect to the standard low speed and
 high speed peripheral connectors on the boards.
 
-- [Consumer Edition Specification](http://www.96boards.org/ce-specification)
+- [Consumer Edition Specification](https://linaro.co/ce-specification)
 
 ***
 

@@ -763,7 +763,7 @@ For Robert Wolf, in your demo, is the GPU used to run the open CV algorithm?, an
 Shovan Sargunam - SS
 You can see it here
 http://www.96boards.org/specifications/
-The Consumer Edition (CE) Camera Module Interface Addendum --> https://www.96boards.org/camera-spec
+The Consumer Edition (CE) Camera Module Interface Addendum --> https://linaro.co/camera-spec
 
 Todd Thal - TT
 Ceasar's contact info?
