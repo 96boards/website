@@ -35,7 +35,7 @@ Think of the thinks you can build...
 
 ## Buy Now
 
-- [AliExpress](https://www.aliexpress.com/store/product/Orange-Pi-i96-RDA-ARM-Cortex-A5-32bit-WIFI-Bluetooth-Nand-Support-ubuntu-linux-and-android/1553371_32819068354.html?spm=2114.12010611.0.0.zW1SFc
+- [AliExpress](https://www.aliexpress.com/store/product/Orange-Pi-i96-RDA-ARM-Cortex-A5-32bit-WIFI-Bluetooth-Nand-Support-ubuntu-linux-and-android/1553371_32819068354.html?spm=2114.12010611.0.0.zW1SFc)
 
 ***
 
