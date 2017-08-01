@@ -47,7 +47,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 ## **Provided in Kit:**
 
 *   [DragonBoard 410c](https://developer.qualcomm.com/hardware/dragonboard-410c), by Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor
-*   [Arrow LinkSprite](http://www.96boards.org/product/linker-mezzanine-starter-kit/)
+*   [Arrow LinkSprite](https://www.96boards.org/product/linker-mezzanine-starter-kit/)
 
 **Optional Addons to help development:**
 
@@ -81,7 +81,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 
 **Getting started:**
 
-*   [DragonBoard 410c Landing page](http://www.96boards.org/product/dragonboard410c/) – here you will find getting started documents and more…
+*   [DragonBoard 410c Landing page](https://www.96boards.org/product/dragonboard410c/) – here you will find getting started documents and more…
 *   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   [Instructables (Previous projects)](http://www.instructables.com/howto/dragonboard+qualcomm/)
@@ -94,13 +94,13 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Peripherals access and sample code:**
 
 *   A repository of [sample code for sensors](https://github.com/DBOpenSource/db_samples) included in the hack kit is available on Github
-*   [GPIO and I2C libraries and installation](http://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/README.md/) are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
-*   [Low-speed expansion header tutorial](http://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/LSExpansionHeader/README.md) offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
+*   [GPIO and I2C libraries and installation](https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/README.md/) are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
+*   [Low-speed expansion header tutorial](https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/LSExpansionHeader/README.md) offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
 *   Compact getting started blogs:
-    *   [96Boards mezzanine products](http://www.96boards.org/blog/96boards-box-experience-guide-3/)
-    *   [General Purpose Input/Output (GPIO)](http://www.96boards.org/blog/96boards-box-experience-guide-4/)
-    *   [96Boards enabled libraries (libsoc, libmraa,UPM)](http://www.96boards.org/blog/96boards-box-experience-guide-5/)
-    *   [Programing I2C devices with libmraa and libupm](http://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/)
+    *   [96Boards mezzanine products](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+    *   [General Purpose Input/Output (GPIO)](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+    *   [96Boards enabled libraries (libsoc, libmraa,UPM)](https://www.96boards.org/blog/96boards-box-experience-guide-5/)
+    *   [Programing I2C devices with libmraa and libupm](https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/)
 *   Instructions for [getting started with AT&T M2X](https://github.com/ArrowElectronics/att-iot-device-sdk) on the DragonBoard 410c are available on GitHub
 
 **Documentation:**
@@ -111,7 +111,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 
 **Support:**
 
-*   Visit the [DragonBoard 410c support forum](https://www.96boards.org/forums/forum/products/dragonboard410c/) on 96Boards.org
+*   Visit the [DragonBoard 410c support forum](https://discuss.96boards.org/c/products/dragonboard410c/) on 96Boards.org
 *   [Live chat with 96Boards and Linaro developers](https://webchat.freenode.net/) (you will need to create a temp user name and join channel #96boards #OpenHours)
 *   **[View the OpenHours video recordings](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)** which pair the weekly blog with a question and answer hour. The recordings review the blog, cover questions, and feature a guest developer/engineer to talk about a more advanced subject.
 *   [Coursera training](https://www.coursera.org/specializations/internet-of-things)

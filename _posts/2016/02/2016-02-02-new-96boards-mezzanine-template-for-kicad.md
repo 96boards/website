@@ -3,7 +3,7 @@ author: sophie-haynes
 comments: true
 date: 2016-02-02 17:08:26+00:00
 layout: post
-link: http://www.96boards.org/blog/new-96boards-mezzanine-template-for-kicad/
+link: https://www.96boards.org/blog/new-96boards-mezzanine-template-for-kicad/
 slug: new-96boards-mezzanine-template-for-kicad
 featured_image: test-project2-1.png
 title: 'New: 96Boards Mezzanine template for KiCad'

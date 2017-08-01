@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2016-09-02 22:34:57+00:00
 layout: post
-link: http://www.96boards.org/blog/eclipse-remote-development-debugging/
+link: https://www.96boards.org/blog/eclipse-remote-development-debugging/
 slug: eclipse-remote-development-debugging
 featured_image: 20_RemoteDebugging-1.png
 title: Eclipse remote development and debugging
@@ -34,7 +34,7 @@ tags:
 - rpb
 ---
 
-In my [last blog](http://www.96boards.org/blog/gui-command-line-remote-debugging/) I showed how to get command line remote gdb debugging working, and I was also able to get remote source code debugging working with the gui ddd and gdb. The good news is that two people jumped in to help me with Eclipse. I’m happy to give credit to [Michael Welling](https://www.linkedin.com/in/mwelling) and [Michael Casadevall](https://www.linkedin.com/in/michael-casadevall-a7622312) for a fantastic amount of work getting remote debugging to work within Eclipse. I think I was close in last week’s attempts, but was missing several minor, yet critical steps, so I never got it working. Also, just to be clear, [Eclipse](http://www.eclipse.org/) is a moving target, the menu’s change between versions somewhat and what works in one version may be slightly different in another version.
+In my [last blog](https://www.96boards.org/blog/gui-command-line-remote-debugging/) I showed how to get command line remote gdb debugging working, and I was also able to get remote source code debugging working with the gui ddd and gdb. The good news is that two people jumped in to help me with Eclipse. I’m happy to give credit to [Michael Welling](https://www.linkedin.com/in/mwelling) and [Michael Casadevall](https://www.linkedin.com/in/michael-casadevall-a7622312) for a fantastic amount of work getting remote debugging to work within Eclipse. I think I was close in last week’s attempts, but was missing several minor, yet critical steps, so I never got it working. Also, just to be clear, [Eclipse](http://www.eclipse.org/) is a moving target, the menu’s change between versions somewhat and what works in one version may be slightly different in another version.
 
 
 # Assumptions
@@ -62,7 +62,7 @@ In my [last blog](http://www.96boards.org/blog/gui-command-line-remote-debugging
   * Cross debugging host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools including gdb installed.
 
 
-  * You are debugging for [96Boards](http://www.96boards.org/) - either 32bit or 64bit ARM.
+  * You are debugging for [96Boards](https://www.96boards.org/) - either 32bit or 64bit ARM.
 
 
 
@@ -401,30 +401,30 @@ To run the debugger remotely from the C/C++ perspective now that you have this s
 
 Another quirk is that you really need to use the “Run as” and “Debug as” functions vs “Run” or “Debug” because sometimes if you use “Run” or “Debug” Eclipse will try to run the program locally instead of remotely! Does not always happen but it does happen and it’s quite annoying so be aware of this. SInce you are cross compiling you get an error that the application failed to run. Exactly what one would expect if you try to run an ARM binary on an X86 box.
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 Other Blogs from David Mandala:
 
 
 
 
-  * [How do you access the GPIO pins programmatically?](http://www.96boards.org/blog/access-gpio-pins-programmatically/)
+  * [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
 
 
-  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](http://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
 
-  * [Gui & command line remote debugging](http://www.96boards.org/blog/gui-command-line-remote-debugging/) (Previous blog)
+  * [Gui & command line remote debugging](https://www.96boards.org/blog/gui-command-line-remote-debugging/) (Previous blog)
