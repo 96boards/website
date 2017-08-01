@@ -7,6 +7,7 @@ link: https://www.96boards.org/blog/google-assistant-96boards-instructions/
 slug: google-assistant-96boards-instructions
 title: Instructions for Google Assistant on 96Boards
 featured_image: google-assistant-96boards.jpg
+thumbnail_image: /assets/images/thumbs/google-assistant-96boards.jpg
 categories:
 - blog
 tags:

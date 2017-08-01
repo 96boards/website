@@ -8,9 +8,9 @@ date: 2017-07-31 12:00:00+00:00
 # Layout for the Post
 layout: post
 # Title of the blog post.
-title: 96boards OpenHours ep 63 - Welcome Brazil Partnership to San Diego
-# This is the featured background image of the blog which resides under _assets/
+title: Brazil Partnership in San Diego
 featured_image: OpenHours.png
+thumbnail_image: /assets/images/thumbs/OpenHours.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
