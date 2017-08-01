@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2016-08-10 13:38:37+00:00
 layout: post
-link: http://www.96boards.org/video/whywait-invent-off-series-trailer/
+link: https://www.96boards.org/video/whywait-invent-off-series-trailer/
 slug: whywait-invent-off-series-trailer
 featured_image: invent-off-dragonboard410c.jpg
 title: 'The #WhyWait Invent-Off - Series Trailer'

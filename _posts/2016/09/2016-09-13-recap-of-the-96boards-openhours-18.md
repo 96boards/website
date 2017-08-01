@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-09-13 23:17:32+00:00
 layout: post
-link: http://www.96boards.org/blog/recap-of-the-96boards-openhours-18/
+link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-18/
 slug: recap-of-the-96boards-openhours-18
 featured_image: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 18
@@ -48,7 +48,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
 
 {% include media.html media_url="https://www.youtube.com/embed/LtF7xIsgfNM?feature=oembed" %}
 
-  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [ http://www.96boards.org/tutorial/running-kvm-guest-hikey/ ](http://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [ https://www.96boards.org/tutorial/running-kvm-guest-hikey/ ](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
 
 
     * Jorge has over twenty years of experience developing software and has been with Linaro on the Member Services team for a few years now.
@@ -93,13 +93,13 @@ This was our last between season 96Boards OpenHours where we will have the enti
   * **43:27** - Robert closed the call talking about the DragonBoard 410c mini-series that will begin next week
 
 
-**Be sure to join us for the next OpenHours  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/) where we will have the first of our 3 part series  and go through an out of box experience with the DragonBoard 410c.**
+**Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/) where we will have the first of our 3 part series  and go through an out of box experience with the DragonBoard 410c.**
 
-As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -166,7 +166,7 @@ RW
 
 
 
-[http://www.96boards.org/tutorial/running-kvm-guest-hikey/](http://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+[https://www.96boards.org/tutorial/running-kvm-guest-hikey/](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
 
 
 
@@ -202,7 +202,7 @@ Questions are welcome in the chat
 
 
 
-[http://www.96boards.org/products/ce/](http://www.96boards.org/products/ce/)
+[https://www.96boards.org/products/ce/](https://www.96boards.org/products/ce/)
 
 
 
@@ -938,7 +938,7 @@ Awesome
 
 
 
-Bubblegum-96 [http://www.96boards.org/product/bubblegum-96/](http://www.96boards.org/product/bubblegum-96/)
+Bubblegum-96 [https://www.96boards.org/product/bubblegum-96/](https://www.96boards.org/product/bubblegum-96/)
 
 
 
@@ -972,7 +972,7 @@ MB
 
 
 
-[http://www.96boards.org/product/sd600eval/](http://www.96boards.org/product/sd600eval/) has Ethernet but not USB3
+[https://www.96boards.org/product/sd600eval/](https://www.96boards.org/product/sd600eval/) has Ethernet but not USB3
 
 
 
@@ -1131,7 +1131,7 @@ Thanks Lasse!
 
 
 
-[http://www.96boards.org/forums/topic/dragon-board-mezzanine-components-not-matching-the-layout/](http://www.96boards.org/forums/topic/dragon-board-mezzanine-components-not-matching-the-layout/)
+[https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/](https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/)
 
 
 
@@ -1222,7 +1222,7 @@ Jean-Marc could you please show us the board if you have with you now ?
 
 
 
-Sensor Mezzanine [http://www.96boards.org/products/mezzanine/sensors-mezzanine/](http://www.96boards.org/products/mezzanine/sensors-mezzanine/)
+Sensor Mezzanine [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
 
 
 
@@ -1454,7 +1454,7 @@ MB
 
 
 
-Akira answered missing LEDs at:: [http://www.96boards.org/forums/topic/dragon-board-mezzanine-components-not-matching-the-layout/](http://www.96boards.org/forums/topic/dragon-board-mezzanine-components-not-matching-the-layout/)
+Akira answered missing LEDs at:: [https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/](https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/)
 
 
 
@@ -1900,8 +1900,8 @@ L
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](http://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)

@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-11-14 21:51:41+00:00
 layout: post
-link: http://www.96boards.org/blog/recap-of-the-96boards-openhours-27-op-tee-for-96boards/
+link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-27-op-tee-for-96boards/
 slug: recap-of-the-96boards-openhours-27-op-tee-for-96boards
 title: Recap of the 96Boards OpenHours 27 - OP-TEE for 96Boards
 featured_image: OpenHours-02.png
@@ -96,9 +96,9 @@ To watch episode 27 go to[ https://www.youtube.com/watch?v=f8I-jXHu45Q](https:/
 
 **Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -178,7 +178,7 @@ I don't have any more video
 
 
 
-Carbon board: [http://www.96boards.org/product/carbon/](http://www.96boards.org/product/carbon/)
+Carbon board: [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
 
 
 
@@ -1697,7 +1697,7 @@ J
 
 
 
-[http://www.96boards.org/forums/topic/uart0-android-sensors-mezzanine/#post-17786](http://www.96boards.org/forums/topic/uart0-android-sensors-mezzanine/#post-17786)
+[https://discuss.96boards.org/t/uart0-android-sensors-mezzanine/#post-17786](https://discuss.96boards.org/t/uart0-android-sensors-mezzanine/#post-17786)
 
 
 
@@ -1815,4 +1815,4 @@ multithreaded ta is not supported but multiple cores can run the same ta at the 
 
 
 
-Click here to join us for [next OpenHours ](http://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)

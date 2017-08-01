@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2016-03-15 14:05:25+00:00
 layout: post
-link: http://www.96boards.org/blog/qualcomm-maker-month-contest/
+link: https://www.96boards.org/blog/qualcomm-maker-month-contest/
 slug: qualcomm-maker-month-contest
 featured_image: Screen-Shot-2016-03-15-at-14.04.26.png
 title: Qualcomm Maker Month Contest
@@ -23,4 +23,4 @@ Qualcomm Developer Network is declaring March as Maker Month, and in celebratio
   * **QDN (Qualcomm Developer Network)**: [https://developer.qualcomm.com/](https://developer.qualcomm.com/)
 
 
-  * **Support forum**: [https://www.96boards.org/forums/forum/products/dragonboard410c/](https://www.96boards.org/forums/forum/products/dragonboard410c/)
+  * **Support forum**: [https://discuss.96boards.org/c/products/dragonboard410c/](https://discuss.96boards.org/c/products/dragonboard410c/)

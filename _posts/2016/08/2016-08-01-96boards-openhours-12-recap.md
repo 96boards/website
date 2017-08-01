@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-08-01 22:43:35+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-openhours-12-recap/
+link: https://www.96boards.org/blog/96boards-openhours-12-recap/
 slug: 96boards-openhours-12-recap
 featured_image: OpenHours-03.png
 title: 96Boards OpenHours 12 Recap
@@ -47,13 +47,13 @@ tags:
 
 {% include media.html media_url="https://www.youtube.com/embed/dcAv-E3sC7E?feature=oembed" %}
 
-We began the hangout with Robert sharing a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.  The hangout then continued with taking attendee questions.   The first one was regarding how to make a Bluetooth to headphone profile and this was a problem that was more involved than at first glance.  The team spent quite a bit of time diagnosing the issue and working on different solutions for this problem.  The team decided to take this issue offline to try to solve.  Then Mark discussed the way he is running the Dragon board off of a battery to see if it can keep the load of the board and he can have an uninterrupted power supply.  The next question was whether you can access GPIO pins programatically on a Hikey board that is running Android? Or is it only possible to do it on a Hikey board with Debian Linux?  Robert has not tried this on a HiKey but he has tried it on the Dragon board.  He explained how to do it but said that Android makes this difficult to do because permissions are not always there.  There is a  work around  for this but it can be risky.  Below in the chat log is more information and some resources links given about these topics.
+We began the hangout with Robert sharing a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.  The hangout then continued with taking attendee questions.   The first one was regarding how to make a Bluetooth to headphone profile and this was a problem that was more involved than at first glance.  The team spent quite a bit of time diagnosing the issue and working on different solutions for this problem.  The team decided to take this issue offline to try to solve.  Then Mark discussed the way he is running the Dragon board off of a battery to see if it can keep the load of the board and he can have an uninterrupted power supply.  The next question was whether you can access GPIO pins programatically on a Hikey board that is running Android? Or is it only possible to do it on a Hikey board with Debian Linux?  Robert has not tried this on a HiKey but he has tried it on the Dragon board.  He explained how to do it but said that Android makes this difficult to do because permissions are not always there.  There is a  work around  for this but it can be risky.  Below in the chat log is more information and some resources links given about these topics.
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Be sure to join us for the next OpenHours  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -110,7 +110,7 @@ RW
 
 
 
-[http://www.96boards.org/forums/topic/openhours-topic-suggestion/](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)
+[https://discuss.96boards.org/t/openhours-topic-suggestion/](https://discuss.96boards.org/t/openhours-topic-suggestion/)
 
 
 
@@ -968,5 +968,5 @@ ok thanks, I would have used the ubuntu.... now I know better
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
-[n](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[n](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)

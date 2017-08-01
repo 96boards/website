@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-09-02 15:46:18+00:00
 layout: post
-link: http://www.96boards.org/blog/hisilicon-creates-poplar-first-96boards-tv-platform-development-board/
+link: https://www.96boards.org/blog/hisilicon-creates-poplar-first-96boards-tv-platform-development-board/
 slug: hisilicon-creates-poplar-first-96boards-tv-platform-development-board
 featured_image: Poplar-Board-Front-Web.jpg
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board

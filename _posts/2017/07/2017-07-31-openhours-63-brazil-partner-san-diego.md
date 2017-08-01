@@ -43,7 +43,7 @@ tags:
 ---
 # Introduction
 
-Last week on [OpenHours ep #63](https://youtu.be/YLyhCk8JVq8), I had the opportunity to hang out with some of the coolest people I have ever come across. I am of course referring to the group of winners from the [Brazilian partnership program](http://www.96boards.org/go/db410c-partnership-brazil/). During the over one hour long episode we had the chance to talk about 5 amazing 96Boards projects that were worked on over the course of the past three months in areas all around the country of Brazil. Let's look deeper into this program...
+Last week on [OpenHours ep #63](https://youtu.be/YLyhCk8JVq8), I had the opportunity to hang out with some of the coolest people I have ever come across. I am of course referring to the group of winners from the [Brazilian partnership program](https://www.96boards.org/go/db410c-partnership-brazil/). During the over one hour long episode we had the chance to talk about 5 amazing 96Boards projects that were worked on over the course of the past three months in areas all around the country of Brazil. Let's look deeper into this program...
 
 ### Origins and bringing them back!
 
@@ -75,21 +75,15 @@ Baita, Inatel, and of course Linaro / 96Boards was brought on board to help with
    - This project aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds. Real time monitoring and transparency are key factors when bring this project to life.
 - [Dragon Wally](https://contest.embarcados.com.br/projetos/sistema-de-identificacao-de-pessoas-baseado-em-visao-computacional-estereoscopica/)
    - A computer vision based device with 2x5-megapixel auto-focus cameras (stereoscopic view) and machine learning API (facial recognition)
- 
+
 # The video
 
-{% include media.html media_url="https://youtu.be/YLyhCk8JVq8" %}
+{% include media.html media_url="https://www.youtube.com/embed/YLyhCk8JVq8" %}
 
 # The slideshow
 
-{% include media.html media_url="https://www.slideshare.net/RobertWolff5/openhours-63-brazilian-partners-and-96boards-take-over-qualcomm-thinkabit-lab" %}
+{% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/xKQAaaITotVPba" %}
 
-# Resources
-
-You can always visit the [96Boards website](http://www.96boards.org/) to get access to the forums, projects, and much more!
-
-- 96Boards: [YouTube](https://www.youtube.com/c/96boards) | [Twitter](https://twitter.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/) | [Facebook](https://www.facebook.com/96Boards/)
-- Robert Wolff: [YouTube](https://www.youtube.com/channel/UCJlM_DlSn_KwlUQA8iqIpkg) | [Twitter](https://twitter.com/sdrobertw) | [Linkedin](https://www.linkedin.com/in/sdrobertw/) | [Facebook](https://www.facebook.com/robert.wolff85)
 
 **IRC: #96boards & #OpenHours**
 
@@ -107,12 +101,12 @@ Hello, my Brazilian brothers!
 Sarah Levine - SL
 http://connect.linaro.org
 hi
-http://www.96boards.org/blog/device-tree-overlay-on-96Boards/
-http://www.96boards.org/blog/vulkan-hikey960/
+https://www.96boards.org/blog/device-tree-overlay-on-96Boards/
+https://www.96boards.org/blog/vulkan-hikey960/
 https://github.com/96boards/mezzanine-community
 
 Sarah Levine - SL
-http://www.96boards.org/go/db410c-partnership-brazil/
+https://www.96boards.org/go/db410c-partnership-brazil/
 https://contest.embarcados.com.br/inventando-o-futuro-com-dragonboard-410c/
 
 maddog - M
@@ -180,7 +174,7 @@ CEZAR - C
 Sorry, my friends, for the noise...
 
 Mani - M
-cezar: No issues 
+cezar: No issues
 
 maddog - M
 He could drink in Brazil!
