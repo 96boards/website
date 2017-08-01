@@ -1,8 +1,0 @@
-entries:
-    name: Ricardo Salveti
-    shortname: rsalveti
-    image: rsalveti.jpeg
-    bio: |-
-      Ricardo Salveti has worked with Linux Embedded for more than 10 years. Involved with the development of the early Nokia tablets, developing custom product prototypes based on OpenEmbedded, he then moved to Canonical to improve the overall Ubuntu experience on ARM (involved with the Beagle and Pandaboard initiatives). Was the lead of the Linaro Development Platform team (2011-2012), which was responsible for the Linaro Ubuntu builds, Linux Linaro, Linaro U-Boot, as well the early OpenEmbedded builds for ARM64. Currently responsible for managing the Reference Software Platform project in Linaro.
-    twitter: https://twitter.com/rsalveti
-    email: ricardo.salveti@linaro.org
