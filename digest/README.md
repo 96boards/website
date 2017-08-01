@@ -9,6 +9,9 @@ redirect_from:
 ---
 # Weekly Digest
 
+[Signup for this Newsletter!](http://eepurl.com/cswh4X)
+
+- Issue #19 - [96Boards latest work on libmraa and more...](http://eepurl.com/cWG6xL)
 - Issue #18 - [miniNodes with 96Boards](http://eepurl.com/cVXHoL)
 - Issue #17 - [Google Assist on 96Boards](http://eepurl.com/cU_PMT)
 - Issue #16 - [Welcome the new Power over Ethernet Mezzanine (PoE) Mezzanine](http://eepurl.com/cUlGRf)

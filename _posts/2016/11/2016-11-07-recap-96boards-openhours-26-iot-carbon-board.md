@@ -657,7 +657,7 @@ more information on Carbon here: [http://www.96boards.org/product/carbon/](http:
 
 
 
-Getting started documents on Github:[https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md)
+Getting started documents on Github:[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
 
 
 
@@ -680,7 +680,7 @@ Getting started documents on Github:[https://github.com/96boards/documentation/b
 
 
 
-[https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md)
+[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
 
 
 
@@ -1266,7 +1266,7 @@ RW
 
 
 
-[https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md)
+[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
 
 
 
@@ -1707,7 +1707,7 @@ Doc website:
 
 
 
-[https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/README.md)
+[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
 
 
 

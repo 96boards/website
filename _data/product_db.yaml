@@ -2,17 +2,15 @@ products:
 # ce, EE, IE Products
   - product_title: Bubblegum-96
     product_permalink: /product/bubblegum-96/
-    product_documentation_link: /documentation/ConsumerEdition/Bubblegum-96/
-    product_support_link: https://discuss.96boards.org/c/products/bubblegum96
 
     product_tab_menu:
-        - tab-title: Documentation
-          tab-link: /documentation/ConsumerEdition/Bubblegum-96/
-          tab-position: 1
-        - tab-title: Support
-          tab-link: https://discuss.96boards.org/c/products/bubblegum96
-          tab-position: 2
-          tab-align-right: true
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/Bubblegum-96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/bubblegum96
+          tab_position: 2
+          tab_align-right: true
 
     featured_product_order: 3
     product_specification: ce
@@ -76,19 +74,19 @@ products:
 
     # Sub Tab Menu Items
     product_tab_menu:
-        - tab-title: Getting Started
-          tab-link: /db410c-getting-started/GettingStarted/
-          tab-position: 1
-        - tab-title: Documentation
-          tab-link: /db410c-getting-started/
-          tab-position: 2
-        - tab-title: Tutorials
-          tab-link: /tutorials/dragonboard410c/
-          tab-position: 3
-        - tab-title: Support
-          tab-link: https://discuss.96boards.org/c/products/dragonboard410c/
-          tab-position: 4
-          tab-align-right: true
+        - tab_title: Getting Started
+          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/
+          tab_position: 2
+        - tab_title: Tutorials
+          tab_link: /tutorials/dragonboard410c/
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
+          tab_position: 4
+          tab_align_right: true
 
     product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
     product_documentation_link: /documentation/ConsumerEdition/DragonBoard-410c/
@@ -179,17 +177,14 @@ products:
   - product_title: Hikey (LeMaker)
     product_permalink: /product/hikey/
 
-    product_documentation_link: /documentation/ConsumerEdition/HiKey/
-    product_support_link: "https://discuss.96boards.org/c/products/hikey"
-
     product_tab_menu:
-        - tab-title: Documentation
-          tab-link: /documentation/ConsumerEdition/HiKey/
-          tab-position: 1
-        - tab-title: Support
-          tab-link: https://discuss.96boards.org/c/products/hikey
-          tab-position: 2
-          tab-align-right: true
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey
+          tab_position: 2
+          tab_align_right: true
 
     featured_product_order: 5
     # Layout
@@ -253,8 +248,17 @@ products:
     product_permalink: /product/hikey960/
     product_media_highlights: true
     product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-    product_documentation_link: "/documentation/ConsumerEdition/HiKey960/"
-    product_support_link: "https://discuss.96boards.org/c/products/hikey960"
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/HiKey960/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey960
+          tab_position: 2
+          tab_align_right: true
+
+
     featured_product_order: 1
     is_featured: true
     product_specification: ce
@@ -326,8 +330,16 @@ products:
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: Mediatek X20 Development Board
     product_permalink: /product/mediatek-x20/
-    product_documentation_link: "/documentation/ConsumerEdition/MediaTekX20/"
-    product_support_link: "https://discuss.96boards.org/c/products/mediatek-x20"
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/MediaTekX20/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mediatek-x20
+          tab_position: 2
+          tab_align_right: true
+
     featured_product_order: 4
     # Boolean to determine the type as a page.
     is_featured: true
@@ -381,8 +393,16 @@ products:
         link-url: "http://link.linaro.org/MediatekX20-buy"
   - product_title: Carbon
     product_permalink: /product/carbon/
-    product_documentation_link: "/documentation/IoTEdition/Carbon/"
-    product_support_link: "https://discuss.96boards.org/c/products/carbon"
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/IoTEdition/carbon/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/carbon
+          tab_position: 2
+          tab_align_right: true
+
     featured_product_order: 6
     is_featured: true
     product_specification: ie
@@ -403,15 +423,22 @@ products:
         link: /documentation/IoTEdition/carbon/downloads/Zephyr.md
   - product_title: Nitrogen
     product_permalink: /product/nitrogen/
-    product_documentation_link: "/documentation/IoTEdition/nitrogen/"
-    product_support_link: "https://discuss.96boards.org/c/products/nitrogen"
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/IoTEdition/nitrogen/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/nitrogen
+          tab_position: 2
+          tab_align_right: true
+
     featured_product_order: 7
     is_featured: true
     product_specification: ie
     product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
     product_long_desc: |-
-        Carbon is the first board to be certified 96Boards IoT Edition compatible.
-        The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+        Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
     product_images:
       - nitrogen-front-web.jpg
       - nitrogen-back-web.jpg
@@ -421,12 +448,20 @@ products:
         link-price: $27.95
         link-url: "http://linaro.co/nitrogen-buy"
     product_os:
-      - title: Linux
+      - title: Zephyr
         link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
   - product_title: Poplar
     product_permalink: /product/poplar/
-    product_documentation_link: "/documentation/EnterpriseEdition/Poplar/README.md/"
-    product_support_link: "https://discuss.96boards.org/c/products/poplar"
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/EnterpriseEdition/Poplar/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/poplar
+          tab_position: 2
+          tab_align_right: true
+
     product_specification: ee
     product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
     product_long_desc: |-
@@ -446,10 +481,54 @@ products:
       - title: Build from Source
         link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
 # Mezzanine Products
+  - product_title: NeonKey Mezzanine
+    product_permalink: /product/neonkey/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/neonkey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more"
+    product_long_desc: |-
+        96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products. ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
+    product_images:
+      - sd/neonkey-front-sd.JPG
+      - sd/neonkey-back-sd.JPG
+      - sd/neonkey-frontangle1-sd.JPG
+
+    product_buy_links:
+      -
+        link-title: Ali Express
+        link-url: http://linaro.co/neonkey-buy
+
+    product_more_info:
+      - title: AOSP Sensors Documentation
+        link: https://source.android.com/devices/sensors/
+      - title: AOSP NeonKey Documentation
+        link: https://source.android.com/source/devices#neonkey
+      - title: Schematics
+        link: https://github.com/96boards/website/blob/master/_product/mezzanine/sensorkey/files/neonkey-schematics
+      - title: NeonKey on Tocoding
+        link: http://en.tocoding.com/index.php/96boards-neonkey/
+
   - product_title: STM32 Sensor mezzanine board
     product_permalink: /product/stm32/
-    product_documentation_link: https://www.96boards.org/documentation/MezzanineProducts/STM32/README.md/
-    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/STM32/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
     product_specification: "mezzanine"
     product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
     product_long_desc: |-
@@ -478,6 +557,16 @@ products:
   - product_title: UART Adapter Board
     product_permalink: /product/uartserial/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/UARTSerial/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
     featured_product_order: 7
     is_featured: true
     product_specification: "mezzanine"
@@ -535,7 +624,20 @@ products:
         name: 2mm shunts
   - product_title: Sensors Mezzanine
     product_permalink: /product/sensors-mezzanine/
-    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/SensorsMezzanine/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+
+
+
     product_specification: "mezzanine"
     product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
     product_long_desc: |-
@@ -580,7 +682,15 @@ products:
         link: https://linaro.co/20n34bc
   - product_title: Arrow LinkSprite Mezzanine Kit
     product_permalink: /product/linkspritesensorkit/
-    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_tab_menu:
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+
+
     product_short_desc: This is a 7inch capacitive touch screen LCD with HDMI interface.
     product_long_desc: |-
         This is a 7-inch capacitive touch screen LCD with HDMI display and USB touch interfaces. The LCD uses standard HID protocol and integrates very easily into a Linux system. It supports the Debian system on the Arrow Dragonboard 410C.
@@ -612,6 +722,18 @@ products:
   - product_title: AeroCore 2 for 96Boards
     product_permalink: /product/aerocore2/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/AeroCore2/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+
+
     product_specification: "mezzanine"
     product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
     product_long_desc: |-
@@ -727,7 +849,7 @@ products:
           link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera
         -
           title: Getting Started
-          link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera/blob/master/AiStarVision-MIPI-Adapter-UserGuide.pdf
+          link: https://github.com/Kevin-WSCU/96Boards-Camera/blob/master/UserGuide_V2.0/AISTARVISION-MIPI-Adapter%20V2.0-UserGuide.pdf
 
     product_includes:
       - quantity: 1
@@ -789,7 +911,17 @@ products:
         link-url: https://www.arrow.com/en/products/audio-mezzanine/seeed-technology-limited
   - product_title: Ethernet Card
     product_permalink: /product/ethernetcard/
-    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/MezzanineProducts/EthernetMezzanine/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+
     product_specification: "mezzanine"
     product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
     product_long_desc: |-
