@@ -18,9 +18,9 @@ layout: markdown-about-page
 
 Compliance is tested against the following:
 
-*   [96Boards Consumer Edition Low Cost Hardware Platform Specification](http://www.96boards.org/ce-specification),
-*   [96Boards Enterprise Edition Low Cost Hardware Platform Specification](https://www.96boards.org/ee-specification) and     [96Boards TV Platform Specification](https://www.96boards.org/tv-specification),
-*   [96Boards IoT Edition Low Cost Hardware Platform Specification](https://www.96boards.org/ie-specification)
+*   [96Boards Consumer Edition Low Cost Hardware Platform Specification](https://linaro.co/ce-specification),
+*   [96Boards Enterprise Edition Low Cost Hardware Platform Specification](https://linaro.co/ee-specification) and     [96Boards TV Platform Specification](https://linaro.co/tv-specification),
+*   [96Boards IoT Edition Low Cost Hardware Platform Specification](https://linaro.co/ie-specification)
 *   The requirements specified in the below
 
 ----

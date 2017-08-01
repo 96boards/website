@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-07-18 20:15:51+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-openhours-session-10-recap/
+link: https://www.96boards.org/blog/96boards-openhours-session-10-recap/
 slug: 96boards-openhours-session-10-recap
 featured_image: OpenHours-03.png
 title: 96Boards OpenHours Session 10 Recap
@@ -49,16 +49,16 @@ tags:
 
 
 
-This week began by addressing any questions from last week's session 9 as well as checking in on some guest's projects to see what the status was and if there were any issues or questions they had.  Robert then went through the attendees to see who had questions and if there were any new attendees on the call with questions.  There were some new folks listening in to get more information on what is going on in the community and there were many good resources given in the chat during the call which can be viewed below.   The team also talked about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/ ](http://connect.linaro.org/)   The session continued with an update from David Mandala and the very helpful blog he wrote on cross compiling:  [http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)  and an instruction set that can be found here: [ https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md](https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md).  Robert wrapped up the session talking about 96Boards documentation and contributions.
+This week began by addressing any questions from last week's session 9 as well as checking in on some guest's projects to see what the status was and if there were any issues or questions they had.  Robert then went through the attendees to see who had questions and if there were any new attendees on the call with questions.  There were some new folks listening in to get more information on what is going on in the community and there were many good resources given in the chat during the call which can be viewed below.   The team also talked about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/ ](http://connect.linaro.org/)   The session continued with an update from David Mandala and the very helpful blog he wrote on cross compiling:  [https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)  and an instruction set that can be found here: [ https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md](https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md).  Robert wrapped up the session talking about 96Boards documentation and contributions.
 
-Be sure to stay tune in to the next OpenHours  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/).  Next week during session 11 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to stay tune in to the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week during session 11 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today because there were many links referenced in the call and many resources given:**
 **RW**
 
-[http://www.96boards.org/blog/96boards-box-experience-guide-1/](http://www.96boards.org/blog/96boards-box-experience-guide-1/) [http://www.96boards.org/blog/fritzing-part-96boards-ce/](http://www.96boards.org/blog/fritzing-part-96boards-ce/) [http://www.96boards.org/blog/96boards-box-experience-guide-2/](http://www.96boards.org/blog/96boards-box-experience-guide-2/) [http://www.96boards.org/blog/96boards-box-experience-guide-3/](http://www.96boards.org/blog/96boards-box-experience-guide-3/) [http://www.96boards.org/blog/96boards-box-experience-guide-4/](http://www.96boards.org/blog/96boards-box-experience-guide-4/) [http://www.96boards.org/blog/96boards-box-experience-guide-5/](http://www.96boards.org/blog/96boards-box-experience-guide-5/) [http://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](http://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/) [http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/) [http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) [http://www.96boards.org/blog/reference-software-platform-16-06-release/](http://www.96boards.org/blog/reference-software-platform-16-06-release/) [http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+[https://www.96boards.org/blog/96boards-box-experience-guide-1/](https://www.96boards.org/blog/96boards-box-experience-guide-1/) [https://www.96boards.org/blog/fritzing-part-96boards-ce/](https://www.96boards.org/blog/fritzing-part-96boards-ce/) [https://www.96boards.org/blog/96boards-box-experience-guide-2/](https://www.96boards.org/blog/96boards-box-experience-guide-2/) [https://www.96boards.org/blog/96boards-box-experience-guide-3/](https://www.96boards.org/blog/96boards-box-experience-guide-3/) [https://www.96boards.org/blog/96boards-box-experience-guide-4/](https://www.96boards.org/blog/96boards-box-experience-guide-4/) [https://www.96boards.org/blog/96boards-box-experience-guide-5/](https://www.96boards.org/blog/96boards-box-experience-guide-5/) [https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/) [https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/) [https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) [https://www.96boards.org/blog/reference-software-platform-16-06-release/](https://www.96boards.org/blog/reference-software-platform-16-06-release/) [https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 **RS**
 
@@ -82,7 +82,7 @@ Qualcomm chip is available from Arrow
 
 **RW**
 
-Last Connect's content: [http://www.96boards.org/forums/topic/96boards-at-linaro-connect-bangkok-bkk16/](http://www.96boards.org/forums/topic/96boards-at-linaro-connect-bangkok-bkk16/)
+Last Connect's content: [https://discuss.96boards.org/t/96boards-at-linaro-connect-bangkok-bkk16/](https://discuss.96boards.org/t/96boards-at-linaro-connect-bangkok-bkk16/)
 
 @LinaroOrg @96Boards
 
@@ -112,7 +112,7 @@ Session videos: [https://www.youtube.com/c/linaroonair/videos](https://www.youtu
 
 **RW**
 
-[http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+[https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 [https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md](https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md)
 
@@ -124,11 +124,11 @@ I'm a gsoc student in BeagleBoard is interested  board and Embedded
 
 **RW**
 
-[www.96boards.org](http://www.96boards.org/)
+[www.96boards.org](https://www.96boards.org/)
 
 **RW**
 
 [https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/Compare96BoardsCE.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/Compare96BoardsCE.md)
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
-[n](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[n](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)

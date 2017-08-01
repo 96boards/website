@@ -50,7 +50,7 @@ description: |-
 ---
 ```
 
-This is an example of the front matter used in the [BubbleGum 96](http://www.96boards.org/product/bubblegum-96/) board page.
+This is an example of the front matter used in the [BubbleGum 96](https://www.96boards.org/product/bubblegum-96/) board page.
 
 ### 3. Product Database Update
 

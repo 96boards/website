@@ -4,7 +4,7 @@ comments: true
 featured_blog: true
 date: 2017-06-15 07:16:59+00:00
 layout: post
-link: http://www.96boards.org/blog/part-5-home-surveillance-project-96boards/
+link: https://www.96boards.org/blog/part-5-home-surveillance-project-96boards/
 slug: part-5-home-surveillance-project-96boards
 title: Part 5 (Final) - Home Surveillance
 wordpress_id: 20519
@@ -53,16 +53,16 @@ Welcome to Part 5 (Final) of our **‘Home Surveillance’** blog series focused
 
 So, before going into this final part of the series, I would like to give a quick recap of what has happened in the previous parts:
 
-  1. [Part 1](http://www.96boards.org/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined a roadmap to our end goal. Towards the end of this blog, information about how to contribute to the project was also mentioned.
+  1. [Part 1](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined a roadmap to our end goal. Towards the end of this blog, information about how to contribute to the project was also mentioned.
 
 
-  2. [Part 2 ](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection to run using [OpenCV](http://opencv.org/) on [Dragonboard 410c](http://www.96boards.org/product/dragonboard410c/). In order to make life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing a working demonstration was attached.
+  2. [Part 2 ](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection to run using [OpenCV](http://opencv.org/) on [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/). In order to make life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing a working demonstration was attached.
 
 
-  3. [Part 3](http://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking faces in front of webcam using servo mount connected to a Sensors mezzanine, controlled by Dragonboard 410c. Along with the blog, a video showing the working demonstration was attached.
+  3. [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking faces in front of webcam using servo mount connected to a Sensors mezzanine, controlled by Dragonboard 410c. Along with the blog, a video showing the working demonstration was attached.
 
 
-  4. [Part 4](http://www.96boards.org/blog/part-4-home-surveillance-project-96boards/) - Setting up your Amazon Web Service (AWS) Cloud Service - This part focussed on setting up AWS S3 account and streamed the detected faces to it.
+  4. [Part 4](https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/) - Setting up your Amazon Web Service (AWS) Cloud Service - This part focussed on setting up AWS S3 account and streamed the detected faces to it.
 
 
 **If you prefer to skip our blog series and dive directly into the code and instructions, you can visit this project in our “**[**projects repository**](https://github.com/96boards/projects/tree/master/home_surveillance)**” in GitHub**
@@ -84,7 +84,7 @@ So, before going into this final part of the series, I would like to give a quic
 # Software Dependencies
 
 
-Install dependencies mentioned in [Part 2](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/), [Part 3](http://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) and [Part 4](http://www.96boards.org/blog/part-4-home-surveillance-project-96boards/) along with the following one:
+Install dependencies mentioned in [Part 2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/), [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) and [Part 4](https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/) along with the following one:
 
 $ sudo pip install Flask
 
@@ -161,7 +161,7 @@ Now you should have received a confirmation email from AWS in the email ID given
   1. Go to AWS S3 console, [https://console.aws.amazon.com/s3/](https://console.aws.amazon.com/s3/)
 
 
-  2. Select the bucket we’ve created in [Part 4](http://www.96boards.org/blog/part-4-home-surveillance-project-96boards/)
+  2. Select the bucket we’ve created in [Part 4](https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/)
 
 
   3. Goto **Properties** tab and select “**Events”**
@@ -244,7 +244,7 @@ Now, we have everything ready to run the final ‘Home Surveillance’ system.
     $ cd projects/home_surveillance/part-2
 
 
-Create dataset by following [Part 2](http://www.96boards.org/blog/part-2-home-surveillance-project-96boards/).
+Create dataset by following [Part 2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/).
 
 
     $ cp -r trainer haarcascade_frontalface_default.xml ../part-5
@@ -252,7 +252,7 @@ Create dataset by following [Part 2](http://www.96boards.org/blog/part-2-home-su
     $ mkdir captured
 
 
-**Note:** Make sure Servo Pan and Tilt system is setup properly as mentioned in [Part 3](http://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)
+**Note:** Make sure Servo Pan and Tilt system is setup properly as mentioned in [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)
 
 $ sudo python home_surveillance.py
 
@@ -355,10 +355,10 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124; [Facebook](https://www.facebook.com/96Boards/) &#124; [YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](http://www.96boards.org/newsletter/)” and our “[Weekly Digest](http://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](http://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

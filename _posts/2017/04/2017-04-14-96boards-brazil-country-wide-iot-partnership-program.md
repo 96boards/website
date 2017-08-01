@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2017-04-14 15:00:11+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-brazil-country-wide-iot-partnership-program/
+link: https://www.96boards.org/blog/96boards-brazil-country-wide-iot-partnership-program/
 slug: 96boards-brazil-country-wide-iot-partnership-program
 featured_image: banner_850x510_D-696x418-1.jpg
 title: 96Boards in Brazil - Country wide IoT Partnership Program!
@@ -76,18 +76,18 @@ Qualcomm has selected the number one IoT portal in Brazil to handle this entire 
 ## Linaro and 96Boards
 
 
-[Linaro](https://www.linaro.org/) and [96Boards](http://www.96boards.org/) will be offering support throughout the entire event! This will include the following:
+[Linaro](https://www.linaro.org/) and [96Boards](https://www.96boards.org/) will be offering support throughout the entire event! This will include the following:
 
 
 
 
-  * Several private [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/) workshops to the participating teams.
+  * Several private [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/) workshops to the participating teams.
 
 
-  * [An event specific landing page](http://www.96boards.org/go/db410c-partnership-brazil/) packed with very useful resources
+  * [An event specific landing page](https://www.96boards.org/go/db410c-partnership-brazil/) packed with very useful resources
 
 
-  * Weekly [OpenHours conference calls](http://www.96boards.org/openhours/)
+  * Weekly [OpenHours conference calls](https://www.96boards.org/openhours/)
 
 
   * Live chat on [freenode IRC](https://webchat.freenode.net/) under channel #96Boards and #OpenHours

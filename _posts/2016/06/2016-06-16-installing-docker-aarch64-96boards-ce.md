@@ -3,7 +3,7 @@ author: fletcherb_linaro
 comments: true
 date: 2016-06-16 19:28:03+00:00
 layout: post
-link: http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/
+link: https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/
 slug: installing-docker-aarch64-96boards-ce
 featured_image: Docker_410c_projected.jpg
 title: Installing Docker on aarch64 with the Reference Platform Build on a 96Boards
@@ -83,9 +83,9 @@ I aim to be using Docker in the coming months to deploy some applications onto m
 
 As discussed in the 96Boards  (06/16/16) OpenHours session. All sessions are recorded and available in the [96Boards YouTube Channel](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
-We look forward to seeing you at [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we discuss current blogs along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+We look forward to seeing you at [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we discuss current blogs along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-Please remember, if you get stuck, there are resources to help you through any 96Boards issues. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through any 96Boards issues. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!

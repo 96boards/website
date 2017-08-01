@@ -3,7 +3,7 @@ author: sophie-haynes
 comments: true
 date: 2015-11-03 20:00:15+00:00
 layout: post
-link: http://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-specification/
+link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-specification/
 slug: so-you-have-an-idea-for-a-pcb-specification
 featured_image: pcb-idea.png
 title: So you have an idea for a PCB? - Specification

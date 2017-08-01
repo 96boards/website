@@ -2,14 +2,14 @@
 title: Orange Pi i96
 layout: product-display-page
 permalink: /product/orangepi-i96/
-description: |-
-    The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
+description: |- The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
+keywords: |- build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos
 ---
 # Orange Pi i96
 
 The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
 
-Think of the thinks you can build...
+Think of the things you can build...
 - A computer
 - Wireless servers
 - Games and consoles
@@ -22,7 +22,7 @@ Think of the thinks you can build...
 
 ## Buy Now
 
-- [AliExpress](https://www.aliexpress.com/store/product/Orange-Pi-i96-RDA-ARM-Cortex-A5-32bit-WIFI-Bluetooth-Nand-Support-ubuntu-linux-and-android/1553371_32819068354.html?spm=2114.12010611.0.0.zW1SFc)
+- [AliExpress](https://linaro.co/orangepi-i96-buy)
 
 ***
 
