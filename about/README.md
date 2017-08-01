@@ -18,23 +18,25 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
   <div class="col-md-12 col-lg-12 col-sm-3 col-xs-6 fade-in-one">
     <a href="/products/mezzanine/">
         <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        data-src="/images/96Boards-Logo_Partner-small.png" alt="96Boards partner logo small.">
+        data-src="{% asset_path '96Boards-Logo_Partner-small.png' %}" alt="96Boards partner logo small.">
     </a>
   </div>
   <div class="col-md-12 col-sm-3 col-xs-6 fade-in-two">
     <a href="/products/ce/">
         <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        data-src="/images/96Boards-Logo_Consumer-small.png" alt="96Boards partner consumer logo.">
+        data-src="{% asset_path '96Boards-Logo_Consumer-small.png' %}" alt="96Boards partner consumer logo.">
     </a>
   </div>
   <div class="col-md-12 col-sm-3 col-xs-6  fade-in-three">
     <a href="/products/ee/">
-        <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/96Boards-Logo_Enterprise-small.png" alt="96Boards partner enterprise logo.">
+        <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{% asset_path '96Boards-Logo_Enterprise-small.png' %}" alt="96Boards partner enterprise logo.">
     </a>
   </div>
   <div class="col-md-12 col-sm-3 col-xs-6  fade-in-four">
     <a href="/products/ie/">
-    <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/96Boards-Logo_IoT-small.png" alt="96Boards partner IoT lgoo.">
+    <img class="lazyload img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="{% asset_path '96Boards-Logo_IoT-small.png' %}" alt="96Boards partner IoT lgoo.">
     </a>
   </div>
 </div> <!-- Column md 2 END -->
@@ -96,7 +98,7 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
                           </div>
 
                         <div class="col-md-4">
-                            <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/hikey.png" alt="96Boards partner logo small.">    
+                            <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'hikey.png' %}" alt="96Boards partner logo small.">    
                         </div>
 
                     </div>
@@ -110,7 +112,8 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
                           You will always find new and exciting features on every 96Boards.</p>
                     </div>
                       <div class="col-md-4">
-                          <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/hikey-960-SD-front.jpg" alt="96Boards partner logo small.">    
+                          <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          data-src="{% asset_path 'hikey-960-SD-front.jpg' %}" alt="96Boards partner logo small.">    
                       </div>
 
 
@@ -125,7 +128,8 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
                          test prototypes on a 96Boards device, then purchase the SoC in large quantities to use in a final product.</p>
                          </div>
                          <div class="col-md-4">
-                             <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/Helio-X20-front.png" alt="96Boards partner logo small.">    
+                             <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  
+                             data-src="{% asset_path 'Helio-X20-front.png' %}" alt="96Boards partner logo small.">    
                          </div>
                   </div>
                   <div role="tabpanel" class="tab-pane" id="versatile">
@@ -135,7 +139,8 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
                        mezzanine ecosystem allows product designers to enhance the functionality of the board to cater to their specific application.</p>
                        </div>
                        <div class="col-md-4">
-                           <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/96b-0-bubblegum96-actions-ucrobotics-1.png" alt="96Boards partner logo small.">    
+                           <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                           data-src="{% asset_path '96b-0-bubblegum96-actions-ucrobotics-1.png' %} " alt="96Boards partner logo small.">    
                        </div>
                   </div>
                   <div role="tabpanel" class="tab-pane" id="interchangeable">
@@ -144,7 +149,8 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
                        This allows any product designed on one board to be fairly portable to other boards in the same family.</p>
                        </div>
                        <div class="col-md-4">
-                           <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/Carbon_Front-SD.png" alt="96Boards partner logo small.">    
+                           <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                           data-src="{% asset_path 'Carbon_Front-SD.png' %}" alt="96Boards partner logo small.">    
                        </div>
                   </div>
 
@@ -163,13 +169,13 @@ Standardized expansion buses for peripheral I/O have led to a wide range of comp
 The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
 </div>
 <div class="col-md-6">
-<img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/homepage-image-1.png" alt="96Boards partner logo small.">    
+<img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'homepage-image-1.png' %}" alt="96Boards partner logo small.">    
 </div>
 </div>
 <hr>
 <div class="row">
 <div class="col-md-6">
-<img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/homepage-image-2.png" alt="96Boards partner logo small.">    
+<img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'homepage-image-2.png' %}" alt="96Boards partner logo small.">    
 </div>
 <div class="col-md-6 padded-para" markdown="1">
 **As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
