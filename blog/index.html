@@ -32,7 +32,7 @@ redirect_from:
                         {% if post.thumbnail_image %}
                         data-src="{% asset_path '{{post.thumbnail_image}}' %}"
                         {% elsif post.featured_image %}
-                        data-src="/assets/images/blog/{{post.featured_image}}"
+                        data-src="/assets/thumbnails/blog/{{post.featured_image}}"
                         {% else %}
                         data-src="{% asset_path 'placeholder.png' %}"
                         {% endif %}
