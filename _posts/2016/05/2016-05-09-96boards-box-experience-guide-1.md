@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2016-05-09 21:05:26+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-box-experience-guide-1/
+link: https://www.96boards.org/blog/96boards-box-experience-guide-1/
 slug: 96boards-box-experience-guide-1
 featured_image: 20160506_144220.jpg
 title: 96Boards Out of box experience guide - part 1
@@ -44,7 +44,7 @@ Luckily your diligence has paid off, and now it is time for some fun. However, l
   * **Your favorite [96Boards](https://www.96boards.org)**
 
 
-    * Currently available: [HiKey](https//www.96boards.org/products/ce/hikey/), [DragonBoard 410c](https//www.96boards.org/products/ce/dragonboard410c/), and [Bubblegum-96](https//www.96boards.org/products/ce/bubblegum96/)
+    * Currently available: [HiKey](https://www.96boards.org/products/ce/hikey/), [DragonBoard 410c](https://www.96boards.org/products/ce/dragonboard410c/), and [Bubblegum-96](https://www.96boards.org/products/ce/bubblegum96/)
 
 
 
@@ -162,21 +162,21 @@ Now, the operating system you initially boot into will depend on your 96Boards c
 
 For the moment, I encourage you to explore your board. Poke around the applications and programs available to you by default, and spend some time getting familiar with the interface. Stay tuned for next week’s blog where we will talk about the different 96Boards and what makes them unique, the various operating systems available to you as a 96Boards user, and how you might go about flashing these operating systems onto your board.
 
-To learn more the 96Boards team are going to start a [weekly OpenHours session](https//www.96boards.org/openhours/) every Thursday at 4pm BST. We’ll begin these sessions with a short demo, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.  [Join](https//www.96boards.org/openhours/)
+To learn more the 96Boards team are going to start a [weekly OpenHours session](https://www.96boards.org/openhours/) every Thursday at 4pm BST. We’ll begin these sessions with a short demo, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.  [Join](https://www.96boards.org/openhours/)
 
-**Video from [OpenHours](https//www.96boards.org/openhours/)**
+**Video from [OpenHours](https://www.96boards.org/openhours/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
-[**In this series**](https//www.96boards.org/tag/openhours/)
+[**In this series**](https://www.96boards.org/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/) (This)
+  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/) (This)
 
 
-  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)

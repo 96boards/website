@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2015-11-12 11:16:10+00:00
 layout: post
-link: https//www.96boards.org/blog/bringing-standardization-linux-gpio-96boards/
+link: https://www.96boards.org/blog/bringing-standardization-linux-gpio-96boards/
 slug: bringing-standardization-linux-gpio-96boards
 featured_image: DragonBoard-UpdatedImages-side.png
 title: Bringing Standardization to Linux GPIO for 96Boards

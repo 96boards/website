@@ -3,7 +3,7 @@ author: 96boards-Team
 comments: true
 date: 2016-08-23 09:29:37+00:00
 layout: post
-link: https//www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
+link: https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
 slug: geppettotm-offers-makers-rapid-path-to-market
 featured_image: Geppetto_blank_base.png
 title: GEPPETTOTMOffers Makers Rapid Path to Market

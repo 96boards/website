@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2017-04-28 09:23:22+00:00
 layout: post
-link: https//www.96boards.org/blog/arm-aosp-developement-board-hikey960/
+link: https://www.96boards.org/blog/arm-aosp-developement-board-hikey960/
 slug: arm-aosp-developement-board-hikey960
 featured_image: hikey-aosp.jpg
 title: Linaro Announces Latest 96Boards Product for AOSP Development
@@ -12,7 +12,7 @@ categories:
 - blog
 ---
 
-[[96Boards OpenHours](https//www.96boards.org/openhours/) 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro Ltd, the open source collaborative engineering organization developing software for the ARM® ecosystem, today announced the availability of the [HiKey 960 96Boards](https//www.96boards.org/product/hikey960/) development platform from Linaro Core member Huawei. Designed to provide access to the latest ARM mobile technology for AOSP developers, this new board is now listed on the 96Boards website and is available through global distribution channels.
+[[96Boards OpenHours](https://www.96boards.org/openhours/) 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro Ltd, the open source collaborative engineering organization developing software for the ARM® ecosystem, today announced the availability of the [HiKey 960 96Boards](https://www.96boards.org/product/hikey960/) development platform from Linaro Core member Huawei. Designed to provide access to the latest ARM mobile technology for AOSP developers, this new board is now listed on the 96Boards website and is available through global distribution channels.
 
 While all AOSP developers will find the board useful, it is developers who want to work closer to the hardware who will gain maximum advantage from it. This will include mobile developers looking to enable support and innovative functionality with new and existing sensors, security and other peripheral hardware and software, and developers working on derivative products for markets like digital signage, point of sale (POS), robotics and others outside the traditional mobile AOSP space.
 
@@ -171,7 +171,7 @@ Information about the HiKey 960 board and Running Android on it will be availabl
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](https//www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](https://www.96boards.org).
 
 
 
@@ -203,4 +203,4 @@ Buy Now
   * [All Net](http://linaro.co/hikey960-allnet) (Germany)
 
 
-[Documentation](https//www.96boards.org/documentation/ConsumerEdition/HiKey960/README.md/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)
+[Documentation](https://www.96boards.org/documentation/ConsumerEdition/HiKey960/README.md/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)

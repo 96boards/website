@@ -43,7 +43,7 @@ tags:
 ---
 # Introduction
 
-Last week on [OpenHours ep #63](https://youtu.be/YLyhCk8JVq8), I had the opportunity to hang out with some of the coolest people I have ever come across. I am of course referring to the group of winners from the [Brazilian partnership program](https//www.96boards.org/go/db410c-partnership-brazil/). During the over one hour long episode we had the chance to talk about 5 amazing 96Boards projects that were worked on over the course of the past three months in areas all around the country of Brazil. Let's look deeper into this program...
+Last week on [OpenHours ep #63](https://youtu.be/YLyhCk8JVq8), I had the opportunity to hang out with some of the coolest people I have ever come across. I am of course referring to the group of winners from the [Brazilian partnership program](https://www.96boards.org/go/db410c-partnership-brazil/). During the over one hour long episode we had the chance to talk about 5 amazing 96Boards projects that were worked on over the course of the past three months in areas all around the country of Brazil. Let's look deeper into this program...
 
 ### Origins and bringing them back!
 
@@ -101,12 +101,12 @@ Hello, my Brazilian brothers!
 Sarah Levine - SL
 http://connect.linaro.org
 hi
-https//www.96boards.org/blog/device-tree-overlay-on-96Boards/
-https//www.96boards.org/blog/vulkan-hikey960/
+https://www.96boards.org/blog/device-tree-overlay-on-96Boards/
+https://www.96boards.org/blog/vulkan-hikey960/
 https://github.com/96boards/mezzanine-community
 
 Sarah Levine - SL
-https//www.96boards.org/go/db410c-partnership-brazil/
+https://www.96boards.org/go/db410c-partnership-brazil/
 https://contest.embarcados.com.br/inventando-o-futuro-com-dragonboard-410c/
 
 maddog - M

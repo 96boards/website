@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2015-11-09 15:08:06+00:00
 layout: post
-link: https//www.96boards.org/blog/dragonboard-410c-demos/
+link: https://www.96boards.org/blog/dragonboard-410c-demos/
 slug: dragonboard-410c-demos
 featured_image: DragonBoard-UpdatedImages-front.png
 title: DragonBoard 410c and demos

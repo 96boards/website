@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2016-06-08 19:22:58+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-box-experience-guide-5/
+link: https://www.96boards.org/blog/96boards-box-experience-guide-5/
 slug: 96boards-box-experience-guide-5
 featured_image: Screen-Shot-2016-06-08-at-12.33.49-AM.png
 title: 96Boards Out of box experience guide - part 5
@@ -53,21 +53,21 @@ Congratulations! Four whole blogs down and ready for the fifth. In this last mon
 
 
 
-  * [Part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/): 96Boards delivery and unboxing, we explored the bare essentials for booting up your 96Boards for the first time!
+  * [Part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/): 96Boards delivery and unboxing, we explored the bare essentials for booting up your 96Boards for the first time!
 
 
-  * [Part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/): 96Boards Consumer Edition comparison, which 96Boards is best for you? This blog will help you choose!
+  * [Part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/): 96Boards Consumer Edition comparison, which 96Boards is best for you? This blog will help you choose!
 
 
-  * [Part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/): 96Boards add-ons, from mezzanine products to 3D printed accessories and fun! Plenty of resources were handed out during this blog!
+  * [Part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/): 96Boards add-ons, from mezzanine products to 3D printed accessories and fun! Plenty of resources were handed out during this blog!
 
 
-  * [Part 4](https//www.96boards.org/blog/96boards-box-experience-guide-4/): General Purpose Input/Output (GPIO) and low speed expansion header, these interfaces help us manipulate and interpret data from the environment using our 96Boards! Diagrams, GPIO examples and plenty more resources can be found through this blog.
+  * [Part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/): General Purpose Input/Output (GPIO) and low speed expansion header, these interfaces help us manipulate and interpret data from the environment using our 96Boards! Diagrams, GPIO examples and plenty more resources can be found through this blog.
 
 
 If you missed any of these sections you can always go back to read them and pair them with their recordings in the [96Boards Open Hours YouTube channel](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
 
-For this particular part of the blog we will not be diverging from the GPIO just yet. Since in the last blog we talked about this interface and went through a simple command line example, I thought it would be a good to expand from there. Here we will take a look at the 96Boards enabled GPIO libraries (as discussed by David Mandala in [last week’s Open Hours](https://www.youtube.com/watch?v=vzOy_WV_HwU)), then we will use one of them! Since David Mandala has already created a blog which outlines how to build these libraries ([Found here](https//www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)), we will take a different approach.
+For this particular part of the blog we will not be diverging from the GPIO just yet. Since in the last blog we talked about this interface and went through a simple command line example, I thought it would be a good to expand from there. Here we will take a look at the 96Boards enabled GPIO libraries (as discussed by David Mandala in [last week’s Open Hours](https://www.youtube.com/watch?v=vzOy_WV_HwU)), then we will use one of them! Since David Mandala has already created a blog which outlines how to build these libraries ([Found here](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)), we will take a different approach.
 
 Thanks to a few Linaro engineers, we are now able to use apt-get (in Debian Linux) to retrieve our 96Boards enabled libraries! This means it is no longer necessary to build from source, instead we can execute a simple command in our terminal to download and install the library of our choice. Before jumping into an example, we will first try to provide a small definition for each available library.
 
@@ -176,7 +176,7 @@ _Please note: This example is meant to be run on Debian Linux_
 
 
 
-  * 96Boards booted up into Debian Linux desktop ([Blog P1](https//www.96boards.org/blog/96boards-box-experience-guide-1/), [Blog P2](https//www.96boards.org/blog/96boards-box-experience-guide-2/))
+  * 96Boards booted up into Debian Linux desktop ([Blog P1](https://www.96boards.org/blog/96boards-box-experience-guide-1/), [Blog P2](https://www.96boards.org/blog/96boards-box-experience-guide-2/))
 
 
   * [Power Supply](https://www.96boards.org/products/accessories/power/)
@@ -201,7 +201,7 @@ _Please note: This example is meant to be run on Debian Linux_
 
 In the following example we are going to take what we learned in the last part of this blog series (Part 4) and apply the concepts through the use of the [libsoc library](https://github.com/jackmitch/libsoc).
 
-First things first, if you would recall from [Part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/), 96Boards safe handling is paramount, especially when using the GPIOs on the low speed expansion header. Bridging the gap between two pins on the low speed expansion header (more commonly known as “shorting”) could not only cause your board to restart or act weird on the software side, it could destroy it all together by frying essential hardware components.
+First things first, if you would recall from [Part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/), 96Boards safe handling is paramount, especially when using the GPIOs on the low speed expansion header. Bridging the gap between two pins on the low speed expansion header (more commonly known as “shorting”) could not only cause your board to restart or act weird on the software side, it could destroy it all together by frying essential hardware components.
 
 This is why we will be very careful when connecting our mezzanine board. Whether you are using the Linker kit or the 96Boards Sensor kit, they both plug unto the low speed expansion header in the same way.
 
@@ -384,31 +384,31 @@ DONE!
 
 At this point you should have a functioning program! The hope is that when you use the touch sensor/button, it will activate whatever sensor is set to the output end (the GPIO_LED variable)
 
-Hopefully this basic walkthrough has helped you gain a better understanding of how the 96Boards enabled libraries work, and how to use them. This particular blog has already been turned into a permanent useful resource located on our [documentations page](https//www.96boards.org/documentation/ConsumerEdition/GPIO/Beginner/README.md/)! I would suggest using the other two examples found in David Mandala’s README.md file as practice. Once you have executed the sample code with all three libraries you can move on to a larger set of examples found [here](https//www.96boards.org/documentation/ConsumerEdition/GPIO/Examples/README.md/)!
+Hopefully this basic walkthrough has helped you gain a better understanding of how the 96Boards enabled libraries work, and how to use them. This particular blog has already been turned into a permanent useful resource located on our [documentations page](https://www.96boards.org/documentation/ConsumerEdition/GPIO/Beginner/README.md/)! I would suggest using the other two examples found in David Mandala’s README.md file as practice. Once you have executed the sample code with all three libraries you can move on to a larger set of examples found [here](https://www.96boards.org/documentation/ConsumerEdition/GPIO/Examples/README.md/)!
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 --
 
-[**In this series**](https//www.96boards.org/tag/openhours/)
+[**In this series**](https://www.96boards.org/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/)
+  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
 
 
-  * [96Boards Out of box experience guide – part 4](https//www.96boards.org/blog/96boards-box-experience-guide-4/)
+  * [96Boards Out of box experience guide – part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
 
 
-  * [96Boards Out of box experience guide – part 5](https//www.96boards.org/blog/96boards-box-experience-guide-5/) (This)
+  * [96Boards Out of box experience guide – part 5](https://www.96boards.org/blog/96boards-box-experience-guide-5/) (This)

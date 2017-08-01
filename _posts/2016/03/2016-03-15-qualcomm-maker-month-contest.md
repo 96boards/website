@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2016-03-15 14:05:25+00:00
 layout: post
-link: https//www.96boards.org/blog/qualcomm-maker-month-contest/
+link: https://www.96boards.org/blog/qualcomm-maker-month-contest/
 slug: qualcomm-maker-month-contest
 featured_image: Screen-Shot-2016-03-15-at-14.04.26.png
 title: Qualcomm Maker Month Contest

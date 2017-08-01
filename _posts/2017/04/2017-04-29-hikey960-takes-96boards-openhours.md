@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2017-04-29 01:30:06+00:00
 layout: post
-link: https//www.96boards.org/blog/hikey960-takes-96boards-openhours/
+link: https://www.96boards.org/blog/hikey960-takes-96boards-openhours/
 slug: hikey960-takes-96boards-openhours
 featured_image: Screenshot-348.png
 title: HiKey960 takes over 96Boards and OpenHours!
@@ -55,7 +55,7 @@ tags:
 # Introduction
 
 
-On April 25th, 2017 [96Boards OpenHours](https//www.96boards.org/openhours/) broke away from it's usual broadcast time to offer a special announcement episode via their regular BlueJeans channel. This surprise gathering brought people in from all around the world with the hopes of hearing about a new 96Boards product release. Joined by community members and 96Boards partners, the 45 minute long episode started out with a bang as the [HiKey960](https//www.96boards.org/product/hikey960/) was officially announced within the first few minutes.
+On April 25th, 2017 [96Boards OpenHours](https://www.96boards.org/openhours/) broke away from it's usual broadcast time to offer a special announcement episode via their regular BlueJeans channel. This surprise gathering brought people in from all around the world with the hopes of hearing about a new 96Boards product release. Joined by community members and 96Boards partners, the 45 minute long episode started out with a bang as the [HiKey960](https://www.96boards.org/product/hikey960/) was officially announced within the first few minutes.
 
 {% include media.html media_url="https://www.youtube.com/embed/-6AVlw4VwRQ" %}
 
@@ -159,7 +159,7 @@ So many have already talked about and outlined HiKey960's specs. I think it is b
 
 
 
-  * [HiKey960 Landing page](https//www.96boards.org/product/hikey960/)
+  * [HiKey960 Landing page](https://www.96boards.org/product/hikey960/)
 
 
   * [Announcement video](https://youtu.be/-6AVlw4VwRQ)
@@ -177,10 +177,10 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https//www.96boards.org/newsletter/)” and our “[Weekly Digest](https//www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https//www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

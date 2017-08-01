@@ -3,7 +3,7 @@ author: ldts
 comments: true
 date: 2015-12-16 19:56:47+00:00
 layout: post
-link: https//www.96boards.org/blog/servo-motor-control/
+link: https://www.96boards.org/blog/servo-motor-control/
 slug: servo-motor-control
 featured_image: youtube-banner.jpg
 title: 'Servo Motor Control: generating a stable PWM signal with Xenomai'

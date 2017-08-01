@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2016-05-24 17:25:58+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-box-experience-guide-3/
+link: https://www.96boards.org/blog/96boards-box-experience-guide-3/
 slug: 96boards-box-experience-guide-3
 featured_image: Screenshot-39.png
 title: 96Boards Out of box experience guide - part 3
@@ -54,11 +54,11 @@ tags:
 - UART
 ---
 
-You’ve made it to part three of the out of box experience! Previously we spoke about three different [Consumer Edition](https//www.96boards.org/products/ce/) boards ([HiKey](https//www.96boards.org/products/ce/hikey/), [DragonBoard 410c](https//www.96boards.org/products/ce/dragonboard410c/), and [Bubblegum-96](https//www.96boards.org/products/ce/bubblegum96/)) and what makes them unique. We also talked briefly about the different operating systems available to you and where you might go to download and learn the flashing process. For those of you who missed this blog, it can be found [here](https//www.96boards.org/blog/96boards-box-experience-guide-2/). Also, don't forget to check out our [Open Hours](https//www.96boards.org/openhours) series which we host every Thursday at 4pm GMT - here you can discuss the blog or any other questions you may have with the experts on the 96Boards team.
+You’ve made it to part three of the out of box experience! Previously we spoke about three different [Consumer Edition](https://www.96boards.org/products/ce/) boards ([HiKey](https://www.96boards.org/products/ce/hikey/), [DragonBoard 410c](https://www.96boards.org/products/ce/dragonboard410c/), and [Bubblegum-96](https://www.96boards.org/products/ce/bubblegum96/)) and what makes them unique. We also talked briefly about the different operating systems available to you and where you might go to download and learn the flashing process. For those of you who missed this blog, it can be found [here](https://www.96boards.org/blog/96boards-box-experience-guide-2/). Also, don't forget to check out our [Open Hours](https://www.96boards.org/openhours) series which we host every Thursday at 4pm GMT - here you can discuss the blog or any other questions you may have with the experts on the 96Boards team.
 
 In this part of the series we will look at the many 96Boards compatible enhancements, design tools, and add-ons. This includes the available Mezzanine product line with sensors and 3D printed accessories.
 
-First, what is a Mezzanine? As defined on [Wikipedia](https://en.wikipedia.org/wiki/Mezzanine) the “mezzanine is an intermediate floor (or floors) in a building which is open to the floor below”. This makes a lot of sense when comparing the definition of mezzanine to the 96Boards enabled mezzanine products! Using any 96Boards as a base board (ground floor), we can stack mezzanine boards (intermediate floors) to add/change features and enhance our overall experience with the base board. There are currently several mezzanine boards available, and since I will not be going into these different boards individually, take some time to read more about each one on the [96Boards website](https//www.96boards.org/products/mezzanine/). Here you will find a short description and links to where they can be purchased. Another mezzanine board of interest is the [Robo-Mezzi, by Michael Welling](https://github.com/mwelling/96boards-robomezzi). As the name indicates, this board is intended for robotics, and it is a great example of how powerful the [96Boards CE Specification](https://github.com/96boards/documentation/blob/master/96BoardsCESpecificationv1.0-EA1.pdf) is when paired with the [Mezzanine template](https://github.com/96boards/96boards-kicad-mezzanine-template). With access to the these resources, the possibilities are endless. Tapping into your 96Boards potential is as easy as adding a mezzanine layer to your base board. Michael Welling spoke briefly about his Robo-Mezzi at last week’s Open Hours and has agreed to return this week. Please stop by if you have any questions for him ([More information on Open Hours](https//www.96boards.org/openhours/)). More than one of these mezzanine boards will be used in later issues of this blog series for demos and troubleshooting etc...
+First, what is a Mezzanine? As defined on [Wikipedia](https://en.wikipedia.org/wiki/Mezzanine) the “mezzanine is an intermediate floor (or floors) in a building which is open to the floor below”. This makes a lot of sense when comparing the definition of mezzanine to the 96Boards enabled mezzanine products! Using any 96Boards as a base board (ground floor), we can stack mezzanine boards (intermediate floors) to add/change features and enhance our overall experience with the base board. There are currently several mezzanine boards available, and since I will not be going into these different boards individually, take some time to read more about each one on the [96Boards website](https://www.96boards.org/products/mezzanine/). Here you will find a short description and links to where they can be purchased. Another mezzanine board of interest is the [Robo-Mezzi, by Michael Welling](https://github.com/mwelling/96boards-robomezzi). As the name indicates, this board is intended for robotics, and it is a great example of how powerful the [96Boards CE Specification](https://github.com/96boards/documentation/blob/master/96BoardsCESpecificationv1.0-EA1.pdf) is when paired with the [Mezzanine template](https://github.com/96boards/96boards-kicad-mezzanine-template). With access to the these resources, the possibilities are endless. Tapping into your 96Boards potential is as easy as adding a mezzanine layer to your base board. Michael Welling spoke briefly about his Robo-Mezzi at last week’s Open Hours and has agreed to return this week. Please stop by if you have any questions for him ([More information on Open Hours](https://www.96boards.org/openhours/)). More than one of these mezzanine boards will be used in later issues of this blog series for demos and troubleshooting etc...
 
 The questions might arise, why do we need the mezzanine boards? Or, what do they do that will make my 96Boards that much different? The answer is simple and can be found in the list below. These are just some of the reasons/uses of the mezzanine boards.
 
@@ -81,8 +81,8 @@ Third party vendors will continue to develop and deploy increasingly innovative 
 
 If you already own a Sensors Mezzanine board and would like to get ahead of the game, feel free to take a look at David Mandala’s blogs on 96Boards enabled libraries and GPIO access:
 
-[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https//www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
-[How do you access the GPIO pins programmatically?](https//www.96boards.org/blog/access-gpio-pins-programmatically/)
+[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+[How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
 
 These blogs have been condensed into instructions sets, which can be found here.
 
@@ -94,7 +94,7 @@ Mezzanine products can be extremely useful, but what else can we use to enhance 
 
 [96Boards Case #3](https://github.com/96boards/96boards-case): This case does not have a lid. It is most likely designed with space for a mezzanine board to be placed on top.
 
-[96Boards Case #4:](https//www.96boards.org/blog/3d-printable-ce-cases/) This case is pretty slick, and it also has a lid. It is not intended to be used with Mezzanine products.
+[96Boards Case #4:](https://www.96boards.org/blog/3d-printable-ce-cases/) This case is pretty slick, and it also has a lid. It is not intended to be used with Mezzanine products.
 
 [96Boards Case #5](https://github.com/daniel-thompson/cad-for-cases): This case is a little different in that it is intended to be manufactured using a laser cutter.
 
@@ -108,25 +108,25 @@ It is time for us to bring this part of the blog to a close. Since the 96Boards 
 
 [http://makezine.com/2016/05/20/qualcomm-expands-maker-adoption-dragonboard-410c-bay-area-maker-faire/](http://makezine.com/2016/05/20/qualcomm-expands-maker-adoption-dragonboard-410c-bay-area-maker-faire/)
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-In next week’s blog we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](https//www.96boards.org/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. I will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!
+In next week’s blog we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](https://www.96boards.org/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. I will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!
 
 --
 
-[**In this series**](https//www.96boards.org/tag/openhours/)
+[**In this series**](https://www.96boards.org/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/)
+  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/) (This)
+  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/) (This)

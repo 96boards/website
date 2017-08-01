@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-10-24 20:54:54+00:00
 layout: post
-link: https//www.96boards.org/blog/recap-96boards-openhours-24-season-2-opener/
+link: https://www.96boards.org/blog/recap-96boards-openhours-24-season-2-opener/
 slug: recap-96boards-openhours-24-season-2-opener
 featured_image: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 24 - Season 2 Opener
@@ -54,9 +54,9 @@ To watch episode 24 go to[ https://www.youtube.com/watch?v=iR1YzwGwGQE ](https
 
 **Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https//discuss.96boards.org/t/openhours-topic-suggestion/ ](https//discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -258,7 +258,7 @@ I would suggest you try restarting your browser or application
 
 
 
-https//www.96boards.org/product/aerocore/
+https://www.96boards.org/product/aerocore/
 
 
 
@@ -497,7 +497,7 @@ You are listening to Keith Lee from Gumstix. He is talking about Geppetto, AeroC
 
 
 
-https//www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
+https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
 
 
 
@@ -1190,8 +1190,8 @@ Bookmarked !
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https//www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)

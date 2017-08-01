@@ -3,7 +3,7 @@ author: sdrobertw
 comments: true
 date: 2017-01-20 22:08:17+00:00
 layout: post
-link: https//www.96boards.org/blog/st-system-level-esd-protection/
+link: https://www.96boards.org/blog/st-system-level-esd-protection/
 slug: st-system-level-esd-protection
 featured_image: Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
 title: ST, System Level ESD Protection and OpenHours
@@ -36,9 +36,9 @@ It all started with an email and a referral, and before you know it, the 96Board
 
 **Many interesting questions came up during this interview/presentation, I would suggest watching as much as possible :D**
 
-Now we all know, OpenHours isn’t just interviews and me (Robert Wolff) talking the entire time! Sometimes, and I means sometimes, we actually some very cool stuff to announce. This time, in the spirit of having ST on the call, we were able to announce the [STM32 Mezzanine board](https//www.96boards.org/product/stm32sensor/)! For those who are unaware of this board, it has been on the 96Boards.org website for some time now, now several distributors are able to sell it.
+Now we all know, OpenHours isn’t just interviews and me (Robert Wolff) talking the entire time! Sometimes, and I means sometimes, we actually some very cool stuff to announce. This time, in the spirit of having ST on the call, we were able to announce the [STM32 Mezzanine board](https://www.96boards.org/product/stm32sensor/)! For those who are unaware of this board, it has been on the 96Boards.org website for some time now, now several distributors are able to sell it.
 
-**[Take a look!](https//www.96boards.org/product/stm32sensor/)**
+**[Take a look!](https://www.96boards.org/product/stm32sensor/)**
 
 I think I have said enough, now you will have to wait until the weekly blast to get more (Which should be going out shortly after this posts). Don’t forget to read on, more information on how to get involved in the 96Boards community is a small tick under this sentence! We are pretty much pushing out cool stuff on every channel you can think of. So… Add us, follow us, subscribe to us, but most importantly JOIN US as we move forward to 96Boards!
 
@@ -50,7 +50,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 **My personal twitter can be found here: :D** [**www.twitter.com/sdrobertw**](http://www.twitter.com/sdrobertw)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](https//www.96boards.org/newsletter/)**” and our “**[Weekly Digest](https//www.96boards.org/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](https://www.96boards.org/newsletter/)**” and our “**[Weekly Digest](https://www.96boards.org/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 
 
@@ -62,7 +62,7 @@ Every week at 4:00pm UTC the 96Boards team engages in the ultimate community dri
 
 
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the **[96Boards forums](https//discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards)** channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the **[96Boards forums](https://discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards)** channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
 
 
 

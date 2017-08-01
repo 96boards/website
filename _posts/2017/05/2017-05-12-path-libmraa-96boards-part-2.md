@@ -3,7 +3,7 @@ author: Mani_S
 comments: true
 date: 2017-05-12 01:01:54+00:00
 layout: post
-link: https//www.96boards.org/blog/path-libmraa-96boards-part-2/
+link: https://www.96boards.org/blog/path-libmraa-96boards-part-2/
 slug: path-libmraa-96boards-part-2
 featured_image: path-libmraa-96boards-part-2-featured.png
 title: Our path to libmraa on 96Boards – Part 2
@@ -49,13 +49,13 @@ tags:
 # **Introduction**
 
 
-This is the continuation of the blog series about path to libmraa on 96 Boards. Before reading this post, if you don’t know about the [first part](https//www.96boards.org/blog/path-libmraa-96boards-part-1/) I’d suggest to have a first look. It gives the brief introduction about libmraa and our goals to support all 96Boards. In this post we are going to see a similar kind of introduction to [libupm](https://github.com/intel-iot-devkit/upm) and at the end, i’ll demonstrate how simple this library is to interface devices like Accelerometer and LCD.
+This is the continuation of the blog series about path to libmraa on 96 Boards. Before reading this post, if you don’t know about the [first part](https://www.96boards.org/blog/path-libmraa-96boards-part-1/) I’d suggest to have a first look. It gives the brief introduction about libmraa and our goals to support all 96Boards. In this post we are going to see a similar kind of introduction to [libupm](https://github.com/intel-iot-devkit/upm) and at the end, i’ll demonstrate how simple this library is to interface devices like Accelerometer and LCD.
 
 
 # **How libupm is organised?**
 
 
-As I said in the [first part](https//www.96boards.org/blog/path-libmraa-96boards-part-1/) libupm depends on libmraa for accessing the peripherals. So, you’d need mraa headers and runtime libraries for using this library. In order to get more detail, kindly refer the below code flow for libmraa and libupm.
+As I said in the [first part](https://www.96boards.org/blog/path-libmraa-96boards-part-1/) libupm depends on libmraa for accessing the peripherals. So, you’d need mraa headers and runtime libraries for using this library. In order to get more detail, kindly refer the below code flow for libmraa and libupm.
 
 **Libmraa:**
 
@@ -163,10 +163,10 @@ Alright, let’s get into action of interfacing some devices using libupm and li
 
 
 
-  1. [Dragonboard 410c](https//www.96boards.org/product/dragonboard410c/) or any of [96Boards CE](https//www.96boards.org/products/ce/)
+  1. [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/) or any of [96Boards CE](https://www.96boards.org/products/ce/)
 
 
-  2. [Sensors Mezzanine](https//www.96boards.org/product/sensors-mezzanine/)
+  2. [Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/)
 
 
   3. [MMA7600 sensor](http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-1.5g/)
@@ -341,11 +341,11 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https//www.96boards.org/newsletter/)” and our “[Weekly Digest](https//www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https//www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
+Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documenation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

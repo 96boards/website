@@ -3,7 +3,7 @@ author: sophie-haynes
 comments: true
 date: 2015-11-03 20:00:12+00:00
 layout: post
-link: https//www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-pcb/
+link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-pcb/
 slug: so-you-have-an-idea-for-a-pcb-development-pcb
 featured_image: pcb-idea.png
 title: So you have an idea for a PCB? - Development (PCB)

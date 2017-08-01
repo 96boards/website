@@ -3,7 +3,7 @@ author: rsalveti
 comments: true
 date: 2016-03-06 12:54:21+00:00
 layout: post
-link: https//www.96boards.org/blog/reference-software-platform-16-03-release/
+link: https://www.96boards.org/blog/reference-software-platform-16-03-release/
 slug: reference-software-platform-16-03-release
 featured_image: youtube-banner.jpg
 title: Reference Software Platform 16.03 Release!

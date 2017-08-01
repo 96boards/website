@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2016-07-13 20:02:54+00:00
 layout: post
-link: https//www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/
+link: https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/
 slug: eclipse-x86-linux-cross-compile-arm-linux
 featured_image: 96Boardsbackground2HD1.jpg
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux
@@ -30,11 +30,11 @@ tags:
 - rpb
 ---
 
-[In my last blog](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) I showed how to install and use ARM command line cross compilation tools. In this blog I’ll show you how to install Eclipse for C & C++ development for basic cross compilation. Future blogs will cover using libraries (libsoc & mraa), auto copying executables from a cross compiling machine to a 96Boards target, and remote debugging.
+[In my last blog](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) I showed how to install and use ARM command line cross compilation tools. In this blog I’ll show you how to install Eclipse for C & C++ development for basic cross compilation. Future blogs will cover using libraries (libsoc & mraa), auto copying executables from a cross compiling machine to a 96Boards target, and remote debugging.
 
 These instructions show how to install the Linux version of Eclipse, either on the latest Debian (Jessie) or Ubuntu (16.04). You will also learn how to install a copy of the Eclipse IDE for C/C++ Developers in your home directory. These instructions do not demonstrate how to install Eclipse system wide.
 
-Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Blog: Cross compile using command line](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
+Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Blog: Cross compile using command line](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
 
 
 ## Assumptions
@@ -47,7 +47,7 @@ Once Eclipse is installed, we will set up a project for cross compiling. It is a
   * Knowledge on how to use Eclipse as an Integrated Development Environment (IDE).
 
 
-  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
+  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
 
 
   * Cross compiling host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian testing with Jessie cross compiling tools installed.
@@ -312,14 +312,14 @@ This file should be an ARM 32 or 64 bit file depending on which toolchain you us
 
 Congratulations, you have successfully used Eclipse to cross compile a C application. Now if you have used Eclipse in the past for building X86 projects, you likely know how to add an external library to a project, but don’t worry if you don’t - my next blog entry will address adding external libraries. I will also show you how to automatically copy your built application over to your 96Boards so it’s ready to run on your ARM system. Thanks for reading!
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
-[How do you access the GPIO pins programmatically?](https//www.96boards.org/blog/access-gpio-pins-programmatically/)
-[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https//www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
-[How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+[How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
+[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+[How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)

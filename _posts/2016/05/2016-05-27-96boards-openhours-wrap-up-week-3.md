@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-05-27 22:28:45+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-openhours-wrap-up-week-3/
+link: https://www.96boards.org/blog/96boards-openhours-wrap-up-week-3/
 slug: 96boards-openhours-wrap-up-week-3
 featured_image: Screenshot-39.png
 title: 96Boards OpenHours Wrap-Up Week 3
@@ -75,7 +75,7 @@ Below is an overview of what was discussed including the time in the video where
 
 
 
-  1. Began discussion this week’s blog topic:  [https//www.96boards.org/blog/96boards-box-experience-guide-3/ ](https//www.96boards.org/blog/96boards-box-experience-guide-3/)
+  1. Began discussion this week’s blog topic:  [https://www.96boards.org/blog/96boards-box-experience-guide-3/ ](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
 
 
   2. Using different peripherals
@@ -101,7 +101,7 @@ At 9:50 in the video there was a question: How do you know which Mezzanine board
 
 At 18:01  a discussion began on different places to go online to get access accessories – including places where you can get your schematics printed on a 3-D printer and the suggestion of posting schematics onto the community site and get input to help improve your design
 
-At 21:00 – Discussion about fritzing – see more in a blog by Ricardo Salveti - [https//www.96boards.org/blog/fritzing-part-96boards-ce/](https//www.96boards.org/blog/fritzing-part-96boards-ce/)
+At 21:00 – Discussion about fritzing – see more in a blog by Ricardo Salveti - [https://www.96boards.org/blog/fritzing-part-96boards-ce/](https://www.96boards.org/blog/fritzing-part-96boards-ce/)
 
 At 21:40 – Introduction of Michael Welling and his  Robo Mezzanine board
 
@@ -125,21 +125,21 @@ At 35:18 – Introduction Joakim Bech and Daniel Thompson – Discussion on Trus
   3. Discussion about security on different boards
 
 
-Be sure to stay tune in next week where we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](https//www.96boards.org/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. Robert will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!  [https//www.96boards.org/openhours/](https//www.96boards.org/openhours/)
+Be sure to stay tune in next week where we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](https://www.96boards.org/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. Robert will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
-
-
-
-[**In this series**](https//www.96boards.org/tag/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
 
-
-  * [96Boards Out of box experience guide – part 1](https//www.96boards.org/blog/96boards-box-experience-guide-1/)
-
-
-  * [96Boards Out of box experience guide – part 2](https//www.96boards.org/blog/96boards-box-experience-guide-2/)
+[**In this series**](https://www.96boards.org/tag/openhours/)
 
 
-  * [96Boards Out of box experience guide – part 3](https//www.96boards.org/blog/96boards-box-experience-guide-3/)
+
+
+  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
+
+
+  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
+
+
+  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)

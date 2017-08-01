@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2016-11-18 17:45:35+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-survey-1/
+link: https://www.96boards.org/blog/96boards-survey-1/
 slug: 96boards-survey-1
 featured_image: Screenshot-193.png
 title: '96Boards Survey: What do 96Boards users care about?'
@@ -47,36 +47,36 @@ Mezzanine boards were an interesting area, less than 50% of you are planning on 
 
 Finally, it looks like most of you knew about electrical and software cross compatibility of 96Boards, but 64% of you have no idea that libsoc and libmraa are the libraries that Linaro supports/uses to gain the software cross compatibility. It looks like this on a scale from 1 to 10 (where 1 is least important and 10 is the most important) binary/source code software compatibility is very important with 62% of you rating at 7 or above!  Guess it’s a good thing we have that worked out for Linux.
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](https//www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
 
 
 
-  * **[How do you access the GPIO pins programmatically?](https//www.96boards.org/blog/access-gpio-pins-programmatically/)**
+  * **[How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)**
 
 
-  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](https//www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https//www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https//www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https//www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
 
-  * [Eclipse remote development and debugging](https//www.96boards.org/blog/eclipse-remote-development-debugging/)
+  * [Eclipse remote development and debugging](https://www.96boards.org/blog/eclipse-remote-development-debugging/)
 
 
-  * [Ramblings of Mezzanine boards](https//www.96boards.org/blog/ramblings-mezzanine-boards/)
+  * [Ramblings of Mezzanine boards](https://www.96boards.org/blog/ramblings-mezzanine-boards/)
 
 
-  * [How to Develop on your 96Boards](https//www.96boards.org/blog/how-to-develop-on-your-96boards/)
+  * [How to Develop on your 96Boards](https://www.96boards.org/blog/how-to-develop-on-your-96boards/)

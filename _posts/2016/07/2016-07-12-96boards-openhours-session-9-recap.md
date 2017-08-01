@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-07-12 23:45:17+00:00
 layout: post
-link: https//www.96boards.org/blog/96boards-openhours-session-9-recap/
+link: https://www.96boards.org/blog/96boards-openhours-session-9-recap/
 slug: 96boards-openhours-session-9-recap
 featured_image: OpenHours-03.png
 title: 96Boards OpenHours Session 9 Recap
@@ -157,9 +157,9 @@ Our eight week of 96Boards OpenHours session the team discussed the 16.06 releas
   * 45:00 - Wrap-up of call - can see more about this topic at the next Linaro Connect --  [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
 
 
-Be sure to stay tune in next week  [https//www.96boards.org/openhours/](https//www.96boards.org/openhours/).  Next week during session 10 we will have an open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to stay tune in next week  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week during session 10 we will have an open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https//discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https//www.96boards.org/openhours/)
-[n](https//www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[n](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)

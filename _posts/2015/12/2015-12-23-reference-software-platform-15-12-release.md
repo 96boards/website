@@ -3,7 +3,7 @@ author: rsalveti
 comments: true
 date: 2015-12-23 03:42:19+00:00
 layout: post
-link: https//www.96boards.org/blog/reference-software-platform-15-12-release/
+link: https://www.96boards.org/blog/reference-software-platform-15-12-release/
 slug: reference-software-platform-15-12-release
 featured_image: 96boards-socialmedia.jpg
 title: Reference Software Platform 15.12 Release!
