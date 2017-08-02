@@ -41,7 +41,7 @@ redirect_from:
                             {{each.description | truncatewords: 20 }}
                         </p>
                 </div>
-                {% assign iterator = iterator + 1 %}
+                {% increment iterator %}
         {% endif %}
     {% endfor %}
 </div>
