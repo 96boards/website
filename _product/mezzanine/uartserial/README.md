@@ -43,7 +43,7 @@ Since it uses the FT230X chip from FTDI, when it is connected to your PC over US
 |  Base board reset button                                               |                                                                                                  |        
 |  TX and RX LEDs                                                        |                                                                                                  |        
 |  User LED connected to GPIOB (GPIOA on v1.0 of the adapter)            |                                                                                                  |        
-
+{:.hidden_rows}
 
 ## Parts list
 
