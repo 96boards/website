@@ -186,7 +186,7 @@ products:
           tab_position: 2
           tab_align_right: true
 
-    featured_product_order: 5
+    # featured_product_order:
     # Layout
     layout: product-display-page
     # Boolean to determine the type as a page.
@@ -450,6 +450,43 @@ products:
     product_os:
       - title: Zephyr
         link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
+  - product_title: Orange Pi i96
+    product_permalink: /product/orangepi-i96/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/IoTEdition/orangepi-i96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/orangepi-i96
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 5
+    is_featured: true
+    product_specification: ie
+    product_short_desc: "Cortex-A5 chip with 96Boards IE Specification"
+    product_long_desc: |-
+        The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
+    product_images:
+      - orangepi-i96_front-sd.jpg
+      - orangepi-i96_back-sd.jpg
+    product_buy_links:
+      -
+        link-title: "Orange Pi i96 (Ali Express)"
+        link-price: $8.80
+        link-url: "https://linaro.co/orangepi-i96-buy"
+    product_os:
+      - title: Debian
+        link: /documentation/IoTEdition/orangepi-i96/downloads/
+      - title: Ubuntu Server
+        link: /documentation/IoTEdition/orangepi-i96/downloads/
+      - title: Android Nand
+        link: /documentation/IoTEdition/orangepi-i96/downloads/
+      - title: Android Tcard
+        link: /documentation/IoTEdition/orangepi-i96/downloads/
+      - title: Raspbian Server
+        link: /documentation/IoTEdition/orangepi-i96/downloads/
   - product_title: Poplar
     product_permalink: /product/poplar/
 
@@ -567,7 +604,7 @@ products:
           tab_position: 2
           tab_align_right: true
 
-    featured_product_order: 7
+    featured_product_order: 8
     is_featured: true
     product_specification: "mezzanine"
     product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
