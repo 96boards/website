@@ -1,11 +1,16 @@
-WEBSITE_REPO=/Users/kyle/Documents/WebDevelopment/Github/96Boards/website/
-DOCUMENTATION_REPO=/Users/kyle/Documents/WebDevelopment/Github/96Boards/documentation/
-JEKYLL_REPO=/Users/kyle/Documents/WebDevelopment/96boards.org-jekyll/
+WEBSITE_REPO=/Users/shovan/Documents/WebDevelopment/Github/96Boards/website/
+DOCUMENTATION_REPO=/Users/shovan/Documents/WebDevelopment/Github/96Boards/documentation/
+JEKYLL_REPO=/Users/shovan/Documents/WebDevelopment/TestMerge/
 
-mkdir TestMerge
-cd TestMerge
+cd $JEKYLL_REPO
 CP -R $WEBSITE_REPO .
+mkdir _documentation
+cd _documentation
 CP -R $DOCUMENTATION_REPO .
-CP -R $JEKYLL_REPO .
+cd ..
+
+rvm use 2.4.1
+gem install bundler
+bundle install
 
 jekyll serve JEKYLL_ENV=production
