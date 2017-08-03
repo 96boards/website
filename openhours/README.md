@@ -5,7 +5,8 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
 layout: empty-container-page-no-nav
-page_specific_css: openhours-page
+specific_css: openhours-page
+specific_js: openhours
 ---
 <div class="col-md-6" markdown="1">
 <br>
