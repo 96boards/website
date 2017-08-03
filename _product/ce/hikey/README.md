@@ -53,6 +53,7 @@ of a credit card.
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android 4.2 / Debian Linux                                                                       |
 |  Size                | 85mm x 54mm                                                                                      |
+{:.hidden_rows}
 
 </div>
 

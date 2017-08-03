@@ -58,6 +58,7 @@ for the availability of multiple Linux distributions for this board in the futur
 |  Power Source        | Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant)                                                                                        |
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
+{:.hidden_rows}
 
 </div>
 

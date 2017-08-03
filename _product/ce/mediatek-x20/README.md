@@ -52,6 +52,7 @@ WLAN, Bluetooth and GPS.
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android Marshmallow 6.0                                                                          |
 |  Size                | 85mm x 54mm                                                                                      |
+{:.hidden_rows}
 
 </div>
 

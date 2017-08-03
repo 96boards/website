@@ -1,16 +1,21 @@
-WEBSITE_REPO=/Users/shovan/Documents/WebDevelopment/Github/96Boards/website/
-DOCUMENTATION_REPO=/Users/shovan/Documents/WebDevelopment/Github/96Boards/documentation/
-JEKYLL_REPO=/Users/shovan/Documents/WebDevelopment/TestMerge/
+WEBSITE_REPO=/Users/$USER/Documents/WebDevelopment/Github/96Boards/website/
+DOCUMENTATION_REPO=/Users/$USER/Documents/WebDevelopment/Github/96Boards/documentation/
+JEKYLL_REPO=/Users/$USER/Documents/WebDevelopment/96boards-jekyll/
 
-cd $JEKYLL_REPO
-CP -R $WEBSITE_REPO .
-mkdir _documentation
-cd _documentation
-CP -R $DOCUMENTATION_REPO .
-cd ..
+sync ()
+{
+    rsync -av --exclude='.git' --exclude='.DS_STORE' $DOCUMENTATION_REPO ./_documentation
+    rsync -av --exclude='.git' --exclude='.DS_STORE' $WEBSITE_REPO .
+}
 
-rvm use 2.4.1
-gem install bundler
-bundle install
-
-jekyll serve JEKYLL_ENV=production
+if [ -d $JEKYLL_REPO ]; then
+  cd $JEKYLL_REPO
+  if [ -d "_documentation" ]; then
+      sync
+  else
+      mkdir _documentation
+      sync
+  fi
+else
+    echo "Jekyll Repo path is incorrect!"
+fi

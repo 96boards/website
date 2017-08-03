@@ -37,5 +37,5 @@ Carbon is the first board to be certified 96Boards IoT Edition compatible. The C
 |  Power Source        | micro-USB                                                                                        |
 |  OS Support          | Zephyr                                                                                           |
 |  Size                | 60x30mm                                                                                          |
-
+{:.hidden_rows}
 </div>

@@ -46,6 +46,7 @@ Think of the things you can build...
 |  Power Source        | USB OTG input can supply power / Battery input can supply power(Optional)                        |
 |  OS Support          | Android, Ubuntu, Debian, etc.                                                                    |
 |  Size                | 60mm × 30mm                                                                                      |
+{:.hidden_rows}
 
 </div>
 
