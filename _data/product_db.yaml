@@ -190,7 +190,7 @@ products:
     # Layout
     layout: product-display-page
     # Boolean to determine the type as a page.
-    is_featured: true
+    is_featured: false
 
     # Permalink for this product
     permalink: /product/hikey/
