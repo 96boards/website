@@ -19,11 +19,10 @@ specific_css: projects-pages
 <div id="grid" class="container row my-shuffle-container">
     {% assign projects = site.projects | where: "project", "true" %}
     {% capture order %}1{% endcapture %}
-    {% assign iterator = 1 %}
     {% for each in projects %}
         {% if each.title %}
             {% assign page_base = each.permalink | split: "/" %}
-                <div data-name="{{each.title}}" data-order="{{iterator}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
+                <div data-name="{{each.title}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
                         <a href="{{each.permalink}}">
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             {% if each.thumbnail_image %}
@@ -42,7 +41,6 @@ specific_css: projects-pages
                             {{each.description | truncatewords: 20 }}
                         </p>
                 </div>
-                {% assign iterator = iterator + 1%}
         {% endif %}
     {% endfor %}
 </div>
