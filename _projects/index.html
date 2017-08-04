@@ -42,7 +42,7 @@ specific_css: projects-pages
                             {{each.description | truncatewords: 20 }}
                         </p>
                 </div>
-                {% assign iterator = iterator + 1%}
+                {% assign iterator = iterator | plus: 1%}
         {% endif %}
     {% endfor %}
 </div>
