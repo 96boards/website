@@ -9,7 +9,7 @@ layout: markdown-about-page
 ## Membership
 96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 
-Anyone can build and deliver products designed to the specification. Products using the 96Boards brand may be featured on the 96Boards.org website and supported on the 96Boards.org forums. These must meet certain standards including compliance testing (if required). Further information on 96Boards compliance is available on the [Compliance tab](/about/compliance/) of this page.
+Anyone can build and deliver products designed to the specification. Products using the 96Boards brand may be featured on the 96Boards.org website and supported on the 96Boards.org forums. These must meet certain standards including compliance testing (if required). Further information on 96Boards compliance is available on the [Compliance tab](/compliance/) of this page.
 
 1.  [Levels of Participation](#Participation)
 2.  [Developing a 96Boards Product](#Developing)
