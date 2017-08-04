@@ -6,7 +6,7 @@ description: |-
 permalink: "/openhours/"
 layout: empty-container-page-no-nav
 css-pack: openhours
-specific_js: openhours
+js-vendor: openhours
 ---
 <div class="col-md-6" markdown="1">
 <br>
