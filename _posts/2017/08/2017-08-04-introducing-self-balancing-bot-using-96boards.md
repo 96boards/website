@@ -5,9 +5,9 @@ date: 2017-08-04 01:01:54+00:00
 layout: post
 link: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/
 slug: introducing-self-balancing-bot-using-96boards
-featured_image: 
+featured_image: self-balancing-bot.jpg
+thumbnail_image: self-balancing-bot-thumb.jpg
 title: Introducing Self Balancing Bot using 96Boards
-wordpress_id: 
 categories:
 - blog
 tags:
@@ -46,9 +46,9 @@ tags:
 
 # **Introduction**
 
-Finally, 96Boards is doing Robotics with Self Balancing Bot! Yes, you heard it right :-) This is the introductory blog for 
+Finally, 96Boards is doing Robotics with Self Balancing Bot! Yes, you heard it right :-) This is the introductory blog for
 Self Balancing Bot using [96Boards CE](http://www.96boards.org/products/ce/). Like our previous project [Home Surveillance](http://www.96boards.org/blog/part-1-home-surveillance-project-96boards/),
-this project is also organized in series and each part will accompany a blog and a demonstrating video. Entire project has 
+this project is also organized in series and each part will accompany a blog and a demonstrating video. Entire project has
 been framed in such a way it suits readers of very little exposure to Robotics as well as Pro's.
 
 # **Self Balancing Bot**
@@ -61,8 +61,8 @@ Bot will fall at a slow pace allowing us to control the fall by moving back and 
 
 If we dive deep into the control system of this Bot, we can easily find the use of one of the most commonly used feedback controller
 which is [PID Controller](https://en.wikipedia.org/wiki/PID_controller). The heart of this Self Balancing Bot is the [IMU
-(Inertial Measurement Unit)](https://en.wikipedia.org/wiki/Inertial_measurement_unit), which is used to determine the 
-angle of Bot. IMU in combination with PID controller keeps the Bot steady by detecting the fall and moving the wheels to 
+(Inertial Measurement Unit)](https://en.wikipedia.org/wiki/Inertial_measurement_unit), which is used to determine the
+angle of Bot. IMU in combination with PID controller keeps the Bot steady by detecting the fall and moving the wheels to
 counteract it.
 
 Alright, we can now look into the BoM for this project.
@@ -82,7 +82,7 @@ available online.
 * [11.1v 2200mAh Rechargeble Battery Kit for Motor](http://robokits.co.in/batteries-chargers/lithium-ion-battery/lithium-ion-rechargeable-battery-pack-11.1v-2200mah-2c) - 1 Nos
 * [Lithium Battery Charger](http://www.amazon.in/Lithium-Battery-Charger-Protection-Module/dp/B0728D6MTV/ref=sr_1_6?s=industrial&ie=UTF8&qid=1501652848&sr=1-6&keywords=lithium+battery+charger+with+battery+protection) - 1 Nos
 
-The above BoM makes it into almost any Robotics projects. Only difference here would be the use of two separate batteries for motor 
+The above BoM makes it into almost any Robotics projects. Only difference here would be the use of two separate batteries for motor
 and CE board.
 
 # **Project Roadmap**
@@ -103,6 +103,6 @@ a demonstration video.
 
 # **Conclusion**
 
-So, that's it about the Self Balancing Bot introduction. I am really excited to see this project running on 96Boards :D. 
+So, that's it about the Self Balancing Bot introduction. I am really excited to see this project running on 96Boards :D.
 Keep your fingers crossed for the first part of this project, where we'll see how to measure the tilt of the Bot using 6 DoF
 IMU. You can find the entire project on our 96Boards [projects repository](https://github.com/96boards/projects/tree/master/self_balancing_bot).
