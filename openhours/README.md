@@ -16,7 +16,7 @@ js-vendor: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #64** - This week on OpenHours we will meet with HIJ! Along with a recap of last week's amazing episode with the Brazilian partnership program, we will also be talking with HIJ about their voice assistant for 96Boards. This project/product not only builds in the adaptation for AI adapter, voice acquisition, noise reduction processing, ASR and NLP semantic understanding platform, but also docks with live and video on demand apps. It can be woke up and interrupted by “Hello, Xiaole” which truly achieves the idea “Hands Free Eyes Free”. HIJ voice assistant can achieve voice interaction dialogue within 10 meters, but also can listen to music, search movies and watch TV live for free. The folks at HIJ will be giving us access to their code, resources and more! See you there.
+**OpenHours Episode #64** - This week, get ready for an OpenHours exclusive. For the first time ever, we are joined by the folks from Redhat to share some exciting news around Fedora and 96Boards! That's right, 64-bit images are on the way and will soon be available for a subset of 96Boards Consumer Edition boards. Tune in to find out more about this exciting step forward in software enablement from the folks at Redhat. We look forward to seeing you there.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
