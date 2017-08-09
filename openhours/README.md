@@ -16,7 +16,7 @@ js-vendor: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #64** - This week, get ready for an OpenHours exclusive. For the first time ever, we are joined by the folks from Redhat to share some exciting news around Fedora and 96Boards! That's right, 64-bit images are on the way and will soon be available for a subset of 96Boards Consumer Edition boards. Tune in to find out more about this exciting step forward in software enablement from the folks at Redhat. We look forward to seeing you there.
+**OpenHours Episode #66** - This week, get ready for an OpenHours exclusive. For the first time ever, we are joined by the folks from Redhat to share some exciting news around Fedora and 96Boards! That's right, 64-bit images are on the way and will soon be available for a subset of 96Boards Consumer Edition boards. Tune in to find out more about this exciting step forward in software enablement from the folks at Redhat. We look forward to seeing you there.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
