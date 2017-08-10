@@ -11,6 +11,8 @@ redirect_from:
 
 [Signup for this Newsletter!](http://eepurl.com/cswh4X)
 
+- Issue #22 - [The new 96Boards Community Mezzanine](http://eepurl.com/cY-Qhb)
+- Issue #21 - [Holy 96Boards Wikipedia, Batman! Two years later...](http://eepurl.com/cYi9iD)
 - Issue #20 - [Brazil Partners take over 96Boards OpenHours](http://eepurl.com/cXvG5T)
 - Issue #19 - [96Boards latest work on libmraa and more...](http://eepurl.com/cWG6xL)
 - Issue #18 - [miniNodes with 96Boards](http://eepurl.com/cVXHoL)
