@@ -43,6 +43,6 @@ Blog series (if you don't want to follow the videos):
 
 ### Social Media Links
 
-- Kyle Fazzari: [Blog](https://kyrofa.com) &#124; [Twitter](https://twitter.com/rainveil) &#124; [Facebook](https://www.facebook.com/fazzari.kyle) &#124; [Linkedin](www.linkedin.com/in/kylefazzari) &#124; [G+](https://plus.google.com/+KyleFazzari) &#124; [YouTube](youtube.com/c/KyleFazzari)
+- Kyle Fazzari: [Blog](https://kyrofa.com) &#124; [Twitter](https://twitter.com/rainveil) &#124; [Facebook](https://www.facebook.com/fazzari.kyle) &#124; [Linkedin](https://www.linkedin.com/in/kylefazzari/) &#124; [G+](https://plus.google.com/+KyleFazzari) &#124; [YouTube](https://youtube.com/c/KyleFazzari)
 
 ***
