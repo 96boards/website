@@ -75,6 +75,8 @@ Baita, Inatel, and of course Linaro / 96Boards was brought on board to help with
    - This project aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds. Real time monitoring and transparency are key factors when bring this project to life.
 - [Dragon Wally](https://contest.embarcados.com.br/projetos/sistema-de-identificacao-de-pessoas-baseado-em-visao-computacional-estereoscopica/)
    - A computer vision based device with 2x5-megapixel auto-focus cameras (stereoscopic view) and machine learning API (facial recognition)
+- [ReSeNi](https://contest.embarcados.com.br/projetos/rede-de-sensores-sem-fio-robusta-e-autonoma-para-monitoramento-de-nivel-em-aplicacoes-de-cidades-inteligentes/)
+   - A Smart City application for monitoring level in water reservoirs and trash cans arround the city using a low-power and long-range 6LowPAN RF Mesh network.
 
 # The video
 
