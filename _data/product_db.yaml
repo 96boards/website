@@ -340,6 +340,9 @@ products:
           tab_position: 2
           tab_align_right: true
 
+    product_images:
+      - hikey-circuitco-top.png
+      - hikey-circuitco-back.png
     # featured_product_order:
     # Layout
     layout: product-display-page
