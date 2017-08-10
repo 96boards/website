@@ -98,7 +98,7 @@ products:
       -
         link-title: DragonBoard410c (Basic Kit)
         link-url: "http://linaro.co/dragonboard410c-buy-arrow"
-        from: Amazon
+        from: Arrow.com
       -
         link-title: "DragonBoard410c + Audio Kit"
         link-url: "http://linaro.co/db410c-audio-buy-arrow"
@@ -328,6 +328,30 @@ products:
         link-url: "http://linaro.co/hikey960-allnet"
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
+  - product_title: HiKey (CircuitCo)
+    product_permalink: /product/hikey-circuitco/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey
+          tab_position: 2
+          tab_align_right: true
+
+    # featured_product_order:
+    # Layout
+    layout: product-display-page
+    # Boolean to determine the type as a page.
+    is_featured: false
+
+    # Product Front Matter Data
+
+    product_specification: ce
+    product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
+
+    product_support_link: "https://discuss.96boards.org/c/products/hikey/"
   - product_title: Mediatek X20 Development Board
     product_permalink: /product/mediatek-x20/
 
