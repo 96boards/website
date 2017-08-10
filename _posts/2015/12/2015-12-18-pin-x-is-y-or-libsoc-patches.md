@@ -3,7 +3,7 @@ author: andy.doan
 comments: true
 date: 2015-12-18 15:13:11+00:00
 layout: post
-link: http://www.96boards.org/blog/pin-x-is-y-or-libsoc-patches/
+link: https://www.96boards.org/blog/pin-x-is-y-or-libsoc-patches/
 slug: pin-x-is-y-or-libsoc-patches
 featured_image: pinx-y-libsoc.png
 title: Pin X is Y or libsoc patches

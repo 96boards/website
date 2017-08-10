@@ -11,7 +11,7 @@ pagination:
     trail:
         before: 4
         after: 4
-page_specific_css: blog-pages
+css-pack: blog
 redirect_from:
   - /2015/
   - /2016/
@@ -29,8 +29,10 @@ redirect_from:
                     <a href="{{post.url}}">
                         <img class="img-responsive blog-img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        {% if post.featured_image %}
-                        data-src="/assets/images/blog/thumbnails/{{post.featured_image}}"
+                        {% if post.thumbnail_image %}
+                        data-src="{% asset_path '{{post.thumbnail_image}}' %}"
+                        {% elsif post.featured_image %}
+                        data-src="/assets/thumbnails/blog/{{post.featured_image}}"
                         {% else %}
                         data-src="{% asset_path 'placeholder.png' %}"
                         {% endif %}
@@ -79,8 +81,10 @@ redirect_from:
                             <div class="row">
                                 <div class="col-md-3 col-sm-3 col-xs-3 no-padding">
                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                   {% if blog.featured_image %}
-                                   data-src="/assets/images/blog/thumbnails/{{blog.featured_image}}"
+                                   {% if blog.thumbnail_image %}
+                                   data-src="{% asset_path '{{blog.thumbnail_image}}'%}"
+                                   {% elsif blog.featured_image %}
+                                   data-src="{% asset_path '{{blog.featured_image}}' %}"
                                    {% else %}
                                    data-src="{% asset_path 'placeholder.png' %}"
                                    {% endif %}

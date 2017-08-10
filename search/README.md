@@ -4,6 +4,8 @@ permalink: "/search/"
 layout: home-page
 redirect_from:
 - /find/
+specific_js:
+ - search
 ---
 
 <div class="row content-container">

@@ -1,14 +1,14 @@
 ---
 layout: empty-row-page
-title:  96Boards Consumer Edition (CE)
-title:  Consumer Edition (CE)
+title: Consumer Edition (CE)
+css-pack: products
 permalink: "/products/ce/"
 description: |-
     The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
     The boards below are all certified conformig to this specification, which defines a fixed set and location
 specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
-specification_link: http://www.96boards.org/ce-specification
-specification_image_path: /images/96Boards-Logo_Consumer-small.png
+specification_link: https://linaro.co/ce-specification
+specification_image: 96Boards-Logo_Consumer-small.png
 redirect_from:
 - /products/ce/extended/
 ---
@@ -20,7 +20,7 @@ redirect_from:
             <div class="col-lg-4">
                   <img id="collection-image" class="lazyload img-responsive center-block hidden-sm hidden-xs"
                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  data-src="{{ page.specification_image_path}}" alt="96Boards logo small.">
+                  data-src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards Consumer Edition Logo">
                   <br />
                   <a href="{{ page.specification_link }}" download class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
             </div>

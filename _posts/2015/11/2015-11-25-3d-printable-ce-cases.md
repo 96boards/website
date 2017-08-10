@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2015-11-25 14:24:49+00:00
 layout: post
-link: http://www.96boards.org/blog/3d-printable-ce-cases/
+link: https://www.96boards.org/blog/3d-printable-ce-cases/
 slug: 3d-printable-ce-cases
 featured_image: 96Boards-3D-printable-CE-cases.png
 title: 96Boards 3D printable CE cases
