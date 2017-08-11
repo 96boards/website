@@ -6,7 +6,7 @@ layout: post
 link: http://www.96boards.org/blog/self-balancing-bot-using-96boards-part1/
 slug: introducing-self-balancing-bot-using-96boards
 featured_image: mpu6050.jpg
-thumbnail_image: mpu6050.jpg
+thumbnail_image: mpu6050-thumb.jpg
 title: Self Balancing Bot using 96Boards - Part 1
 categories:
 - blog
