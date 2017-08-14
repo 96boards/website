@@ -43,7 +43,7 @@ We look forward to seeing you in our next episode!
 
 #### Links and resources
 
-- bugzilla.redhat.com
+- https://bugzilla.redhat.com/
 - https://lists.fedoraproject.org/admin/lists/arm@lists.fedoraproject.org
 - https://fedoraproject.org/wiki/Get_Involved_Guide
 - https://fedoraproject.org/wiki/
