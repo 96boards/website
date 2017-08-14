@@ -14,9 +14,12 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MTdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #65** - This week, get ready for an OpenHours exclusive. For the first time ever, we are joined by the folks from Redhat to share some exciting news around Fedora and 96Boards! That's right, 64-bit images are on the way and will soon be available for a subset of 96Boards Consumer Edition boards. Tune in to find out more about this exciting step forward in software enablement from the folks at Redhat. We look forward to seeing you there.
+**OpenHours Episode #66** - Come, tell the world about Monero and Kovri! Share your Linaro / 96boards experience! In this episode we will discuss the work accomplished by the Kovri / Monero team and community as well as what collaborations are in store for the future.
+
+Monero is a community-driven cryptocurrency designed to deliver always-on fungibility, privacy, and anonymity. Monero’s Kovri I2P Router Project provides users with the ability to run and access nodes that hide their geographic location and IP address. When used in conjunction with Kovri, the origin of Monero transactions is concealed to protect the privacy of the sender while mitigating network monitoring and other attacks. Cross-platform support is made possible by automating builds and testing on Linaro/96boards systems.
+/u/fluffyponyza, /u/hyc_symas and /u/anonimal_0x914409F1 are confirmed for the call. All are welcome!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +48,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MTdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
