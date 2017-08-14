@@ -33,6 +33,21 @@ tags:
 ---
 # Introduction
 
+This week (August 10th) on OpenHours we met with Peter and Paul from Red Hat to talk about the soon to be Fedora images for 96Boards! The entire episode was packed with questions and valuable information around the future of Fedora on 96Boards, and more importantly the amazing work our two guests have been doing to make it happen.
+
+As always, we went through several announcements (find these at the beginning of the video). After the announcements, we introduced our guests, Red Hat, Fedora Project, and the questions rained down! If you have a spare hour to check out the video, you can find it below along with the [BlueJeans](https://www.bluejeans.com/) chat log. Throughout the episode, our guests shared many links and references, I tried pulling most of these up to this Introduction section for easy access.
+
+If you have more questions, you can always join the following channels on IRC to meet with myself or this episode's guests (Peter and Paul): #96Boards | #OpenHours | #fedora | #fedora-arm
+
+We look forward to seeing you in our next episode!
+
+#### Links and resources
+
+bugzilla.redhat.com
+https://lists.fedoraproject.org/admin/lists/arm@lists.fedoraproject.org
+https://fedoraproject.org/wiki/Get_Involved_Guide
+https://fedoraproject.org/wiki/
+https://fedoraproject.org/wiki/Architectures/ARM
 
 # Video
 
