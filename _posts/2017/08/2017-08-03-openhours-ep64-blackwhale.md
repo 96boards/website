@@ -29,7 +29,13 @@ tags:
 ---
 # Introduction
 
-In this episodes we met with the folks from Blackwhale (HIJ) to talk about their new high end audio solution
+In this week's episode of OpenHours (August 3rd), we spoke with Xingchao and Wing from Blackwhale which is an innovative technology company out of China. Blackwhale focuses on smart audio and voice recognition technologies and recently joined 96Boards / Linaro as a manufacturing partner earlier this year!
+
+This was the first time we ever had guests join us live out of China and besides a few technical difficulties at the beginning, the episode over all was very informative and fun.
+
+We of course started out with our introductions, some talk of [Blackwhale the company](http://hij.ai/), got to see a very cool demo on the [96Boards](http://www.96boards.org/) [Bubblegum-96](http://www.96boards.org/product/bubblegum-96/), and shared several links. Please be sure to scroll down, there you will find this week's episode along with the [BlueJeans](https://www.bluejeans.com/) chat log! We hope to see you [next week](http://www.96boards.org/openhours/).
+
+Thank you very much to our guests!
 
 # Video
 
@@ -306,7 +312,7 @@ cool
 
 Devang - D
 Hey Robert!!! I really wanted to get involved with the Mezzanine development and was hoping to join the sessions held on Mondays I suppose. How can I subscribe get the link everytime?
-Sure!!! My email is devang.motwani16@gmail.com
+Sure!!!
 
 Barry - B
 https://en.wikipedia.org/wiki/The_Chicken_and_the_Pig
