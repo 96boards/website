@@ -40,7 +40,7 @@ Thank you very much to our guests!
 
 # Video
 
-{% include media.html media_url="https://youtu.be/zytkvFDeddU" %}
+{% include media.html media_url="https://www.youtube.com/embed/zytkvFDeddU" %}
 
 # Chat log
 

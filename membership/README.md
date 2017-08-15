@@ -16,9 +16,8 @@ Anyone can build and deliver products designed to the specification. Products us
 3.  [Requirements for using the 96Boards Brand](#Requirements)
 4.  [96Boards Software Builds and Support](#Builds)
 
-<a name="Participation">
+<a name="Participation"></a>
 ## 1\. Levels of Participation
-</a>
 
 To use the 96Boards brand and logo companies must participate at one of the following program levels.
 
@@ -32,9 +31,8 @@ Product pages including where to buy, software downloads (if applicable) etc., c
 Includes ticket and no-charge tabletop demonstration area for Linaro Connect | Includes ticket to Linaro Connect | Includes ticket to Linaro Connect |
 Requires signing the 96Boards membership agreement | Requires signing the 96Boards manufacturing agreement including per board fee to cover 96Boards.org costs | [Requires signing the 96Boards partner agreement](/partner/) |
 
-<a name="Developing">
+<a name="Developing"></a>
 ## 2\. Developing a 96Boards Product
-</a>
 
 Companies considering development of a 96Boards product may contact us at [96boards@linaro.org](mailto:96boards@linaro.org) for further information. The specification is open and anyone can develop to it. However, to use the 96Boards brand and logo, and to benefit from participation on 96Boards.org you will need to do the following:
 
@@ -48,9 +46,8 @@ Ensure that a compliant software build is available for your board. This may be 
 
 Please contact [96boards@linaro.org](mailto:96boards@linaro.org) with your proposal. We expect to release documentation and guidelines for Mezzanine and Module developers in the summer, together with information on using the 96Boards Partner brand on your module.
 
-<a name="Requirements">
+<a name="Requirements"></a>
 ## 3\. Requirements for using the 96Boards Brand
-</a>
 
 Brand users **shall** participate in the 96Boards Program in at least one of the 96Boards Member, Manufacturing Partner or Partner Levels summarized in Section 2 above.
 
@@ -67,9 +64,8 @@ The 96Boards Compliance Report **shall** be available on the 96Boards website an
 
 It is strongly recommended that vendors seeking 96Boards compliance discuss their designs and requirements with Linaro during the design phase. It is much more cost effective to fix potential issues during design than to have to redesign or rework a product if it does not meet the compliance testing requirements.
 
-<a name="Builds">
+<a name="Builds"></a>
 ## 4\. 96Boards Software Builds and Support
-</a>
 
 The 96Boards web site offers the facility for hosting 96Boards compliant OS software for 96Boards branded products. The 96Boards.org forum provides community assistance for all software builds hosted on the site. Software builds will be one of the following types.
 

@@ -52,7 +52,7 @@ We look forward to seeing you in our next episode!
 
 # Video
 
-{% include media.html media_url="https://youtu.be/vhS8qCOcOlE" %}
+{% include media.html media_url="https://www.youtube.com/embed/vhS8qCOcOlE" %}
 
 # Chat log
 
