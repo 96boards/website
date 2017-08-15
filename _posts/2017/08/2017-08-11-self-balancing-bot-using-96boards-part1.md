@@ -122,7 +122,9 @@ run the C program (server) in background and Python program (client) in foregrou
 
 Source code and detailed instructions can be found in 96Boards [projects repository](https://github.com/96boards/projects/blob/master/imu)
 
-Demonstration video can be found in [96Boards Youtube Channel](https://youtu.be/mswTk_Sliiw)
+Demonstration video:
+
+{% include media.html media_url="https://youtu.be/mswTk_Sliiw" %}
 
 # **Conclusion**
 
