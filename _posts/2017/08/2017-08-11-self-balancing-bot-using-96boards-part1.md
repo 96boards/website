@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-11 01:01:54+00:00
 layout: post
 link: http://www.96boards.org/blog/self-balancing-bot-using-96boards-part1/
-slug: introducing-self-balancing-bot-using-96boards
+slug: self-balancing-bot-using-96boards-part1
 featured_image: mpu6050.jpg
 thumbnail_image: mpu6050-thumb.jpg
 title: Self Balancing Bot using 96Boards - Part 1
@@ -121,6 +121,8 @@ A small python script will implement 3D processing based on obtained data from C
 run the C program (server) in background and Python program (client) in foreground.
 
 Source code and detailed instructions can be found in 96Boards [projects repository](https://github.com/96boards/projects/blob/master/imu)
+
+Demonstration video can be found in [96Boards Youtube Channel](https://youtu.be/mswTk_Sliiw)
 
 # **Conclusion**
 
