@@ -11,6 +11,7 @@ layout: post
 title: OpenHours ep 65 Recap - Fedora on 96Boards
 # This is the featured background image of the blog which resides under _assets/
 featured_image: OpenHours.png
+thumbnail_image: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -59,11 +60,11 @@ We look forward to seeing you in our next episode!
 CEZAR - C
 Good morning (maybe afternoon or evening), everyone!
 Hello, CEZAR!
-Welcome back 
+Welcome back
 
 Peter Robinson - PR
 Hey all
-Peter! Welcome 
+Peter! Welcome
 We will start in < 6 minutes
 
 Sahaj Sarup - SS
@@ -78,10 +79,10 @@ Hi all, yeah never again Robert ;)
 :P
 
 Paul Whalen - PW
-Hi everyone 
+Hi everyone
 Ali, what are we looking at?
 Looks like you are doing some cool stuff
-Rodrigo! Welcome 
+Rodrigo! Welcome
 Ragnar, camera on :O
 first time ever!
 
@@ -112,7 +113,7 @@ Todd Thal - TT
 SWAG jealousy!!!!
 
 Peter Robinson - PR
-nice shirt 
+nice shirt
 
 Rodrigo Azevedo - RA
 I see the Robert OK
@@ -121,7 +122,7 @@ Peter Robinson - PR
 I heard the facebook message
 
 Sarah Levine - SL
-hi everyone. connect.linaro.org 
+hi everyone. connect.linaro.org
 
 Rafael Christ - RC
 Hi Rodrigo!
@@ -167,7 +168,7 @@ dnf ftw
 *on
 
 Tyeth - T
-yeah sahaj, you must love alien like me, rpm to deb 
+yeah sahaj, you must love alien like me, rpm to deb
 
 Mani - M
 ha ha

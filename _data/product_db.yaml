@@ -348,7 +348,7 @@ products:
 
     # Product Front Matter Data
 
-    product_specification: ce
+    # product_specification: ce
     product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
