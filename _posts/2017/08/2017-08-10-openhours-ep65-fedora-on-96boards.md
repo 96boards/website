@@ -37,7 +37,7 @@ This week (August 10th) on OpenHours we met with Peter and Paul from Red Hat to 
 
 As always, we went through several announcements (find these at the beginning of the video). After the announcements, we introduced our guests, Red Hat, Fedora Project, and the questions rained down! If you have a spare hour to check out the video, you can find it below along with the [BlueJeans](https://www.bluejeans.com/) chat log. Throughout the episode, our guests shared many links and references, I tried pulling most of these up to this Introduction section for easy access.
 
-If you have more questions, you can always join the following channels on IRC to meet with myself or this episode's guests (Peter and Paul): #96Boards | #OpenHours | #fedora | #fedora-arm
+If you have more questions, you can always join the following channels on IRC to meet with myself or this episode's guests (Peter and Paul): #96Boards, #OpenHours, #fedora, #fedora-arm
 
 We look forward to seeing you in our next episode!
 
