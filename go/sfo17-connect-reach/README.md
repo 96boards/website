@@ -1,8 +1,8 @@
 ---
-title: Dragonboard410c Partnership Brazil
+title: Linaro Connect Welcomes San Francisco based Engineers!
 description: |-
-    96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
-permalink: /go/db410c-partnership-brazil/
+    Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards
+permalink: /go/sfo17-connect-reach/
 layout: empty-container-page-no-nav
 ---
 ## Linaro Connect Welcomes San Francisco based Engineers!
