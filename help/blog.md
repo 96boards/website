@@ -88,10 +88,13 @@ featured_image: your-featured-img.png
 ```
 The featured image takes the name of an image that is located in the \_assets/images folder.
 
+### Custom Thumbnails
+
 ```yaml
 thumbnail_image: your-featured-img-THUMB.png
 ```
 The thumbnail image takes the name of an thumbnail image that is located in the \_assets/images folder and `must` not be the same name as the featured image.
+If you have not made a custom thumbnail then this line of front matter is not needed and if included may break the build. If you have a custom thumbnail then be sure to use this front matter to reference it.
 
 ### Images
 Images must be added to the `/\_assets/images/` folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
