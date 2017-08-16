@@ -26,14 +26,14 @@ layout: empty-container-page-no-nav
 - **Time**: Thursday 2:30p-3:00p
 - **Title**: 96Boards OpenHours Pre-game
 - **Presenter(s)**: Robert Wolff
-- **Summary**: OpenHours pregame special will be a fun look back at what got us to this point. This is an ideal opportunity to get up to speed with the over 40 previously aired episodes. There will be a simple presentation with social media links and announcements as well as a fun video montage. Expect open discussion, and a sneak peak of our featured guests for the "Live in Budapest" show later that day.
+- **Summary**: OpenHours pregame special will be a fun look back at what got us to this point. This is an ideal opportunity to get up to speed with the over 40 previously aired episodes. There will be a simple presentation with social media links and announcements as well as a fun video montage. Expect open discussion, and a sneak peak of our featured guests for the "Live in San Francisco" show later that day.
 
 ## SESSION 3: SFO17-XYZ
 
 - **Time**: Thursday 3:00p-4:00p
-- **Title**: OpenHours Live at Budapest!
+- **Title**: OpenHours Live in San Francisco!
 - **Presenter(s)**: Robert Wolff & Community Panel
-- **Summary**: 96Boards OpenHours – Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. Bring your coffee and questions, demos and feedback because OpenHours is going to Budapest!
+- **Summary**: 96Boards OpenHours – Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. Bring your coffee and questions, demos and feedback because OpenHours is going to San Francisco!
 
 ## Resources
 
