@@ -4,7 +4,7 @@ permalink: "/search/"
 layout: home-page
 redirect_from:
 - /find/
-specific_js:
+js-vendor:
  - search
 ---
 

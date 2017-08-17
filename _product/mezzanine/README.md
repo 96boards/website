@@ -5,18 +5,20 @@ description: |-
     96Boards mezzanine products let you expand your Consumer Edition or Enterprise
     Edition 96Boards with new interfaces for IoT, industrial control, and other
     embedded applications. The following mezzanine expansion boards are currently available.
+    Please take some time to review our [mezzanine guidelines](https&#58;//github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf) document for some helpful design guidelines and resources.
 specification-logo-path: /images/96Boards-Logo_Partner-small.png
 ---
 
 # Mezzanine
 
-
 96Boards mezzanine products let you expand your [Consumer Edition](https://www.96boards.org/products/ce/) or [Enterprise Edition](https://www.96boards.org/products/ee/) 96Boards with new interfaces for IoT, industrial control, and other
 embedded applications. The following mezzanine expansion boards are currently available.
 
+Please take some time to review our [mezzanine guidelines](https//github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf) document for some helpful design guidelines and resources.
+
 ***
 
-| Mezzanine                               | About                                                   | Options                                 | 
+| Mezzanine                               | About                                                   | Options                                 |
 |:---------------------------------------:|:-------------------------------------------------------:|:---------------------:|
 | <img src="https://github.com/96boards/website/blob/master/_product/mezzanine/stm32/images/STM32_Front.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_product/mezzanine/stm32/images/STM32_Front.png?raw=true" width="200" height="95" /><br> **STM32**  | Board based around the STM32F446 MCU, enables users to prototype systems that are aware of their environment  | [View Product](stm32/README.md)<br> |
 | <img src="https://github.com/96boards/website/blob/master/_product/mezzanine/linkspritesensorkit/images/LinkSprite_Front.jpg?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_product/mezzanine/linkspritesensorkit/images/LinkSprite_Front.jpg?raw=true" width="200" height="95" /><br> **LinkSprite**           | Kit contains Linker mezzanine card and loft modules, great way to get started with 96Boards  | [View Product](linkspritesensorkit/README.md)<br> |

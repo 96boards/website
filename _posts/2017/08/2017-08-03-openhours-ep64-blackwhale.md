@@ -11,6 +11,7 @@ layout: post
 title: OpenHours ep 64 Recap - Blackwhale (HIJ) and 96Boards
 # This is the featured background image of the blog which resides under _assets/
 featured_image: OpenHours.png
+thumbnail_image: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -39,7 +40,7 @@ Thank you very much to our guests!
 
 # Video
 
-{% include media.html media_url="https://youtu.be/zytkvFDeddU" %}
+{% include media.html media_url="https://www.youtube.com/embed/zytkvFDeddU" %}
 
 # Chat log
 
