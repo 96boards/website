@@ -58,9 +58,11 @@ products:
     product_buy_links:
       -
         link-title: Buy Bubblegum-96
-        link-price: $89.00
+        link-price: "89.00"
+        from: ucrobotics.com.cn
+        type: board
+        link-price-currency: USD
         link-url: "http://linaro.co/bubblegum96-buy"
-
     is_featured: true
   - product_title: DragonBoard™ 410c (Arrow)
     product_permalink: /product/dragonboard410c/
@@ -99,21 +101,30 @@ products:
         link-title: DragonBoard410c (Basic Kit)
         link-url: "http://linaro.co/dragonboard410c-buy-arrow"
         from: Arrow.com
+        type: board
+        link-price: "75.00"
+        link-price-currency: USD
       -
         link-title: "DragonBoard410c + Audio Kit"
         link-url: "http://linaro.co/db410c-audio-buy-arrow"
         from: Arrow.com
         type: package
+        link-price: "89.00"
+        link-price-currency: USD
       -
         link-title: "DragonBoard410c + Camera Kit"
         link-url: "http://linaro.co/96b-db410c-camera"
         from: Arrow.com
         type: package
+        link-price: "225.00"
+        link-price-currency: USD
       -
         link-title: "DragonBoard410c + AWS IoT Kit"
         link-url: "http://linaro.co/96bawsbuy"
-        from: Amazon
+        from: Amazon.com
         type: package
+        link-price: "84.99"
+        link-price-currency: USD
 
     # Right Sidepanel links
     product_os:
@@ -202,9 +213,21 @@ products:
       -
         link-title: "Buy HiKey(1GB RAM)"
         link-url: "http://linaro.co/hikey-lenovator-buy-1gb"
+        link-price: "75.00"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
+
       -
         link-title: "Buy HiKey(2GB RAM)"
         link-url: "http://linaro.co/hikey-lenovator-buy"
+        link-price: "119.00"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
+
+
+
     product_images:
       - Hikey-Lemaker-front-web.png
       - HiKey_LeMaker_back.jpg
@@ -258,7 +281,6 @@ products:
           tab_position: 2
           tab_align_right: true
 
-
     featured_product_order: 1
     is_featured: true
     product_specification: ce
@@ -301,31 +323,50 @@ products:
     product_buy_links:
       -
         link-title: "Amazon (USA)"
-        link-price: $239.99
+        link-price: "239.99"
         link-url: "http://linaro.co/hikey960buy-amazon"
+        link-price-currency: USD
+        from: Amazon.com
+        type: board
       -
         link-title: "Lenovator (Worldwide)"
-        link-price: $239.00
+        link-price: "239.00"
         link-url: "http://linaro.co/hikey960buy"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
       -
         link-title: "Seeed (Worldwide)"
-        link-price: $239.00
+        link-price: "239.00"
         link-url: "http://linaro.co/hikey960-seed"
+        link-price-currency: USD
+        from: SeeedStudio.com
+        type: board
       -
         link-title: "Alpha Star"
-        link-price: $239.00
+        link-price: "239.00"
         link-url: "http://linaro.co/hikey960buy-alpha"
+        link-price-currency: USD
+        from: Alpha-Star.org
+        type: board
       -
         link-title: "Ali express (USA)"
-        link-price: $239.00
+        link-price: "239.00"
         link-url: "http://linaro.co/hikey960-ali"
+        link-price-currency: USD
+        from: Aliexpress.com
+        type: board
       -
         link-title: "Switch Science (Japan)"
-        link-price: 30,974 JPY
+        link-price: 30,974
         link-url: "http://linaro.co/hikey960-switch"
+        link-price-currency: JPY
+        from: Switch-Science.com
+        type: board
       -
         link-title: "All Net (Germany)"
         link-url: "http://linaro.co/hikey960-allnet"
+        type: board
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: HiKey (CircuitCo)
@@ -413,8 +454,22 @@ products:
     product_buy_links:
       -
         link-title: "Buy MediaTek X20"
-        link-price: $75.00
         link-url: "http://link.linaro.org/MediatekX20-buy"
+      -
+        link-title: "MediaTek X20 (Amazon)"
+        link-price: "199.00"
+        link-url: https://www.amazon.com/dp/B073QNPH21/ref=olp_product_details?_encoding=UTF8&me=
+        link-price-currency: USD
+        from: Amazon.com
+        type: board
+      -
+        link-title: "MediaTek X20 (AliExpress)"
+        link-price: "199.00"
+        link-price-currency: USD
+        link-url: https://www.aliexpress.com/store/product/MediaTek-X20-Development-Board-MediaTek-X20-deca-core-processor-ARM-Mali-T880-Graphics-Processing-Units/2825017_32792573746.html?spm=2114.12010608.0.0.2995e5c09bOhln
+        from: AliExpress.com
+        type: board
+
   - product_title: Carbon
     product_permalink: /product/carbon/
 
