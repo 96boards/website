@@ -101,3 +101,21 @@ The following fall under website content:
 
 ## Products <a name="products"></a>
 To add a product please visit [this page](products.md)
+
+
+# SEO settings
+
+The 96boards jekyll site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to generate some useful meta tag information to describe pages for better seo.
+
+## Default social media share image
+
+To set a default social media share image the following `defaults` setting has been placed in the _config.yml files.
+
+```
+- scope:
+    path: ""
+  values:
+    image: /assets/images/social-media-image.png
+```
+
+This allows a default image to be used in open graph and twitter cards across all the site pages/posts etc. To change this default image just replace the image in the path described in the above YAML.
