@@ -735,7 +735,7 @@ products:
         name: Sensors Mezzanine Board
         id: 96B-05GROVE-C
         link: https://linaro.co/20n34bc
-  - product_title: Arrow LinkSprite Mezzanine Kit
+  - product_title: Arrow Link Sprite Mezzanine Kit
     product_permalink: /product/linkspritesensorkit/
     product_specification: "mezzanine"
     product_tab_menu:
