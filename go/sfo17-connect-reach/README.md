@@ -14,21 +14,21 @@ layout: empty-container-page-no-nav
 - Learn about our single board computers that are tremendous for developers in such domains as Robotics, Makerspace, embedded Firmware, Automotive, IoT and more 
 - Win the chance to get free 96boards at the event or learn a method for discounted 96boards in the future
 
-## SESSION 1: SFO17-XYZ
+## SESSION 1: Intro to Linaro and 96Boards for Engineers
 
 - **Time**: Thursday 2:00p-2:30p
 - **Title**: Intro to Linaro and 96Boards for Engineers
 - **Presenter(s)**: Mike Levine and Robert Wolff
 - **Summary**: Having been around for so long already, many who view keynotes and sessions are jumping in at a bit of a learning curve. This session will take the explanation of Linaro and 96Boards back to basics. Focusing on the what, why, and how things get done within these two segments at a very high level.
 
-# SESSION 2: SFO17-XYZ
+## SESSION 2: 96Boards OpenHours Pre-game
 
 - **Time**: Thursday 2:30p-3:00p
 - **Title**: 96Boards OpenHours Pre-game
 - **Presenter(s)**: Robert Wolff
 - **Summary**: OpenHours pregame special will be a fun look back at what got us to this point. This is an ideal opportunity to get up to speed with the over 40 previously aired episodes. There will be a simple presentation with social media links and announcements as well as a fun video montage. Expect open discussion, and a sneak peak of our featured guests for the "Live in San Francisco" show later that day.
 
-## SESSION 3: SFO17-XYZ
+## SESSION 3: OpenHours Live in San Francisco!
 
 - **Time**: Thursday 3:00p-4:00p
 - **Title**: OpenHours Live in San Francisco!
@@ -37,13 +37,13 @@ layout: empty-container-page-no-nav
 
 ## Resources
 
-- About Linaro the parent company of 96Boards:  https://www.linaro.org/about/
-- About 96Boards: http://www.96boards.org/about/
-- About Openhours:  http://www.96boards.org/openhours/
+- About Linaro the parent company of 96Boards:  [https://www.linaro.org/about/](https://www.linaro.org/about/)
+- About 96Boards: [http://www.96boards.org/about/](http://www.96boards.org/about/)
+- About Openhours:  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/)
 
 We are looking to develop rapports with embedded firmware engineers in San Francisco. This endeavor of ours should lead to more community members for 96Boards to help us accomplish various projects using 96Boards. The event will take place in San Francisco at the Hyatt Regency Hotel, [read more here](http://connect.linaro.org/).
 
 To attend the Thursday the 28th of August sessions free of charge listed above click here to register:  all about Linaro and 96Boards click here: 
 
 
-https://goo.gl/forms/c7CSD2GxxORObOJK2
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Ekv-1sJe_57XqUMgIbQMSLXVwDmPXi7ByAP-NghaXl-tNw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
