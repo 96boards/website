@@ -1,3 +1,13 @@
+---
+title: 96Boards Verticals
+description: |-
+  Boards for DIY Projects. ARM Boards for Hobbyist hacks. Powerful Open Source Boards for Maker community
+keywords: |-
+permalink: /verticals/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # 96Boards Verticals
 
 - [Drone](drone/README.md)
