@@ -1,11 +1,11 @@
 ---
-title: Linaro Connect Welcomes San Francisco based Engineers!
+title: Linaro Connect Welcomes San Francisco / Burlingame based Engineers!
 description: |-
     Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards
 permalink: /go/sfo17-connect-reach/
 layout: empty-container-page-no-nav
 ---
-## Linaro Connect Welcomes San Francisco based Engineers!
+## Linaro Connect Welcomes San Francisco / Burlingame based Engineers!
 
 **Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards**
 
@@ -26,12 +26,12 @@ layout: empty-container-page-no-nav
 - **Time**: Thursday 2:30p-3:00p
 - **Title**: 96Boards OpenHours Pre-game
 - **Presenter(s)**: Robert Wolff
-- **Summary**: OpenHours pregame special will be a fun look back at what got us to this point. This is an ideal opportunity to get up to speed with the over 40 previously aired episodes. There will be a simple presentation with social media links and announcements as well as a fun video montage. Expect open discussion, and a sneak peak of our featured guests for the "Live in San Francisco" show later that day.
+- **Summary**: OpenHours pregame special will be a fun look back at what got us to this point. This is an ideal opportunity to get up to speed with the over 65 previously aired episodes. There will be a simple presentation with social media links and announcements as well as a fun video montage. Expect open discussion, and a sneak peak of our featured guests for the "Live in Burlingame" show later that day.
 
-## SESSION 3: OpenHours Live in San Francisco!
+## SESSION 3: OpenHours Live in Burlingame!
 
 - **Time**: Thursday 3:00p-4:00p
-- **Title**: OpenHours Live in San Francisco!
+- **Title**: OpenHours Live in Burlingame!
 - **Presenter(s)**: Robert Wolff & Community Panel
 - **Summary**: 96Boards OpenHours – Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. Bring your coffee and questions, demos and feedback because OpenHours is going to San Francisco!
 
@@ -41,7 +41,7 @@ layout: empty-container-page-no-nav
 - About 96Boards: [http://www.96boards.org/about/](http://www.96boards.org/about/)
 - About Openhours:  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/)
 
-We are looking to develop rapports with embedded firmware engineers in San Francisco. This endeavor of ours should lead to more community members for 96Boards to help us accomplish various projects using 96Boards. The event will take place in San Francisco at the Hyatt Regency Hotel, [read more here](http://connect.linaro.org/).
+We are looking to develop rapports with embedded firmware engineers in San Francisco. This endeavor of ours should lead to more community members for 96Boards to help us accomplish various projects using 96Boards. The event will take place in San Francisco / Burlingame at the Hyatt Regency Hotel, [read more here](http://connect.linaro.org/).
 
 To attend the Thursday the 28th of August sessions free of charge listed above click here to register:  all about Linaro and 96Boards click here: 
 
