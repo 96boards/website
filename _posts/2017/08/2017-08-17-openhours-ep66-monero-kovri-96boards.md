@@ -41,7 +41,7 @@ tags:
 
 This week (August 17th) on OpenHours we met with several folks from Monero and Kovri (cryptocurrency and I2P service). In this episode, we got a crash course on cryptocurrency, talked about Monero as a type of cryptocurrency, and of course touched on Kovri as a secure, private, untraceable C++ implementation of the I2P anonymous network. Our featured guests walked us through the ins and outs of these two very exciting topics and explained the linchpins of the Monero and Kovri model.
 
-Please take some time to watch the video below, and don't forget to scroll through the chat log below for any additional resources and questions brought forward by our guests and the community. 
+Please take some time to watch the video below, and don't forget to scroll through the chat log below for any additional resources and questions brought forward by our guests and the community.
 
 If you have more questions, you can always join the following channels on IRC to meet with myself or this episode's guests (fluffypony, hyc and/or anonimal): #96Boards, #OpenHours, #monero, #monero-dev, #kovri and #kovri-dev
 
@@ -64,7 +64,7 @@ We look forward to seeing you in our next episode!
 
 # Video
 
-{% include media.html media_url="https://youtu.be/b0k5lTMFXBA" %}
+{% include media.html media_url="https://www.youtube.com/embed/b0k5lTMFXBA" %}
 
 # Chat log
 
@@ -97,7 +97,7 @@ Hello everyone! :D
 Very nice, neon you got there @palexander
 
 palexander - P
-I need a Monero one. 
+I need a Monero one.
 Yes!
 
 Riccardo &quot;fluffypony&quot; Spagni - RS
@@ -252,7 +252,7 @@ needmoney90 - Chris Cook? I'm working on getting him on my show! Adam Back is he
 
 Guest 36 - G3
 in all likelihood
-yes bigreddmachine 
+yes bigreddmachine
 I can get you a contact/chat
 if the adam channel is slow
 
@@ -274,7 +274,7 @@ Bruce - B
 I run 3 nodes
 
 Guest 36 - G3
-I only run one 
+I only run one
 
 hyc - PC - HP
 I've got ... a dozen or so at any given time
@@ -340,7 +340,7 @@ official Monero GUI and CLI clients are on https://getmonero.org
 web wallet (SMALL AMOUNTS ONLY): https://mymonero.com
 
 Raj - R
-no questions 
+no questions
 
 Tyeth - T
 how do u feel forks of the mainline should be handled, at what point should benefitting the masses outweigh what was agreed as the right way to do things, eg bitcoin/ethereum issues/forks?
@@ -362,7 +362,7 @@ unknownids - U
 more info on tail emission: https://monero.stackexchange.com/questions/23/what-is-the-purpose-of-the-tail-emission
 
 Sahaj Sarup - SS
-oh ohkay, thanks 
+oh ohkay, thanks
 
 Riccardo &quot;fluffypony&quot; Spagni - RS
 Tyeth: good question, we can answer that once we get through Mani's questions no doubt
