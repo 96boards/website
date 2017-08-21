@@ -1,3 +1,13 @@
+---
+title: Digital Signage
+description: |-
+  With the Digital signage market expected to grow huge in the upcoming years, there has been lot of investment in this sector.
+permalink: /verticals/digital-signage/
+redirect_from: /verticals/DigitalSignage/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # Digital Signage
 
 ## Introduction
@@ -15,4 +25,3 @@ environment and inturn changing the behaviour of the digital signage.
 effort. The flexibility of interfacing the external interfaces reduces the time to market. Also,
 when it comes to security one need not be worried because of the availability of security features
 such as TrustZone etc..
-
