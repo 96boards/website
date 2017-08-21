@@ -62,7 +62,7 @@ products:
         from: ucrobotics.com.cn
         type: board
         link-price-currency: USD
-        link-url: "http://linaro.co/bubblegum96-buy"
+        link-url: "https://linaro.co/bubblegum96-buy"
     is_featured: true
   - product_title: DragonBoard™ 410c (Arrow)
     product_permalink: /product/dragonboard410c/
@@ -99,28 +99,28 @@ products:
     product_buy_links:
       -
         link-title: DragonBoard410c (Basic Kit)
-        link-url: "http://linaro.co/dragonboard410c-buy-arrow"
+        link-url: "https://linaro.co/dragonboard410c-buy-arrow"
         from: Arrow.com
         type: board
         link-price: "75.00"
         link-price-currency: USD
       -
         link-title: "DragonBoard410c + Audio Kit"
-        link-url: "http://linaro.co/db410c-audio-buy-arrow"
+        link-url: "https://linaro.co/db410c-audio-buy-arrow"
         from: Arrow.com
         type: package
         link-price: "89.00"
         link-price-currency: USD
       -
         link-title: "DragonBoard410c + Camera Kit"
-        link-url: "http://linaro.co/96b-db410c-camera"
+        link-url: "https://linaro.co/96b-db410c-camera"
         from: Arrow.com
         type: package
         link-price: "225.00"
         link-price-currency: USD
       -
         link-title: "DragonBoard410c + AWS IoT Kit"
-        link-url: "http://linaro.co/96bawsbuy"
+        link-url: "https://linaro.co/96bawsbuy"
         from: Amazon.com
         type: package
         link-price: "84.99"
@@ -212,7 +212,7 @@ products:
     product_buy_links:
       -
         link-title: "Buy HiKey(1GB RAM)"
-        link-url: "http://linaro.co/hikey-lenovator-buy-1gb"
+        link-url: "https://linaro.co/hikey-lenovator-buy-1gb"
         link-price: "75.00"
         link-price-currency: USD
         from: Lenovator.com
@@ -220,7 +220,7 @@ products:
 
       -
         link-title: "Buy HiKey(2GB RAM)"
-        link-url: "http://linaro.co/hikey-lenovator-buy"
+        link-url: "https://linaro.co/hikey-lenovator-buy"
         link-price: "119.00"
         link-price-currency: USD
         from: Lenovator.com
@@ -324,48 +324,48 @@ products:
       -
         link-title: "Amazon (USA)"
         link-price: "239.99"
-        link-url: "http://linaro.co/hikey960buy-amazon"
+        link-url: "https://linaro.co/hikey960buy-amazon"
         link-price-currency: USD
         from: Amazon.com
         type: board
       -
         link-title: "Lenovator (Worldwide)"
         link-price: "239.00"
-        link-url: "http://linaro.co/hikey960buy"
+        link-url: "https://linaro.co/hikey960buy"
         link-price-currency: USD
         from: Lenovator.com
         type: board
       -
         link-title: "Seeed (Worldwide)"
         link-price: "239.00"
-        link-url: "http://linaro.co/hikey960-seed"
+        link-url: "https://linaro.co/hikey960-seed"
         link-price-currency: USD
         from: SeeedStudio.com
         type: board
       -
         link-title: "Alpha Star"
         link-price: "239.00"
-        link-url: "http://linaro.co/hikey960buy-alpha"
+        link-url: "https://linaro.co/hikey960buy-alpha"
         link-price-currency: USD
         from: Alpha-Star.org
         type: board
       -
         link-title: "Ali express (USA)"
         link-price: "239.00"
-        link-url: "http://linaro.co/hikey960-ali"
+        link-url: "https://linaro.co/hikey960-ali"
         link-price-currency: USD
         from: Aliexpress.com
         type: board
       -
         link-title: "Switch Science (Japan)"
         link-price: 30,974
-        link-url: "http://linaro.co/hikey960-switch"
+        link-url: "https://linaro.co/hikey960-switch"
         link-price-currency: JPY
         from: Switch-Science.com
         type: board
       -
         link-title: "All Net (Germany)"
-        link-url: "http://linaro.co/hikey960-allnet"
+        link-url: "https://linaro.co/hikey960-allnet"
         type: board
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
@@ -457,11 +457,18 @@ products:
     product_buy_links:
       -
         link-title: "Buy MediaTek X20"
-        link-url: "http://link.linaro.org/MediatekX20-buy"
+        link-url: "https://linaro.co/mediatekx20-buy"
+      -
+        link-title: "MediaTek X20 (Seed)"
+        link-price: "199.00"
+        link-url: "https://linaro.co/mediatekx20-seed"
+        link-price-currency: USD
+        from: seeedstudio.com
+        type: board
       -
         link-title: "MediaTek X20 (Amazon)"
         link-price: "199.00"
-        link-url: https://www.amazon.com/dp/B073QNPH21/ref=olp_product_details?_encoding=UTF8&me=
+        link-url: "https://linaro.co/mediatekx20-amazon"
         link-price-currency: USD
         from: Amazon.com
         type: board
@@ -469,7 +476,7 @@ products:
         link-title: "MediaTek X20 (AliExpress)"
         link-price: "199.00"
         link-price-currency: USD
-        link-url: https://www.aliexpress.com/store/product/MediaTek-X20-Development-Board-MediaTek-X20-deca-core-processor-ARM-Mali-T880-Graphics-Processing-Units/2825017_32792573746.html?spm=2114.12010608.0.0.2995e5c09bOhln
+        link-url: "https://linaro.co/mediatekx20-ali"
         from: AliExpress.com
         type: board
 
@@ -528,7 +535,7 @@ products:
       -
         link-title: "Buy Nitrogen"
         link-price: $27.95
-        link-url: "http://linaro.co/nitrogen-buy"
+        link-url: "https://linaro.co/nitrogen-buy"
     product_os:
       - title: Zephyr
         link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
@@ -596,7 +603,7 @@ products:
     product_buy_links:
       -
         link-title: "Aliexpress"
-        link-url: "http://linaro.co/poplar-ali"
+        link-url: "https://linaro.co/poplar-ali"
     product_os:
       - title: Build from Source
         link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
@@ -625,7 +632,7 @@ products:
     product_buy_links:
       -
         link-title: Ali Express
-        link-url: http://linaro.co/neonkey-buy
+        link-url: "https://linaro.co/neonkey-buy"
 
     product_more_info:
       - title: AOSP Sensors Documentation
@@ -721,7 +728,7 @@ products:
     product_buy_links:
       -
         link-title: Seeed
-        link-url: http://linaro.co/uart-seeed
+        link-url: https://linaro.co/uart-seeed
 
 
     product_more_info:
@@ -776,10 +783,10 @@ products:
     product_buy_links:
       -
         link-title: 96Boards Sensors
-        link-url: http://linaro.co/20n34bc
+        link-url: https://linaro.co/20n34bc
       -
         link-title: Grove Starter Kit for 96Boards
-        link-url: http://linaro.co/1KnV9TA
+        link-url: https://linaro.co/1KnV9TA
     product_more_info:
       - title: Getting-Started PDF
         link: http://linaro.co/sensorkitpdf
@@ -849,10 +856,10 @@ products:
     product_buy_links:
       -
         link-title: Gumstix
-        link-url: http://link.linaro.org/aerocore2-buy
+        link-url: https://linaro.co/aerocore2-buy
       -
         link-title: Arrow
-        link-url: http://link.linaro.org/aerocore2-buy-arrow
+        link-url: https://linaro.co/aerocore2-buy-arrow
     product_more_info:
         -
           title: Technical Specification
