@@ -10,8 +10,8 @@ layout: empty-container-page-no-nav
 **Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards**
 
 - Meet key people at Linaro and 96Boards to network with in the future
-- Receive valuable information about how to join and contribute to open source and in specific our 96boards community. 
-- Learn about our single board computers that are tremendous for developers in such domains as Robotics, Makerspace, embedded Firmware, Automotive, IoT and more 
+- Receive valuable information about how to join and contribute to open source and in specific our 96boards community.
+- Learn about our single board computers that are tremendous for developers in such domains as Robotics, Makerspace, embedded Firmware, Automotive, IoT and more
 - Win the chance to get free 96boards at the event or learn a method for discounted 96boards in the future
 
 ## SESSION 1: Intro to Linaro and 96Boards for Engineers
@@ -43,7 +43,7 @@ layout: empty-container-page-no-nav
 
 We are looking to develop rapports with embedded firmware engineers in San Francisco. This endeavor of ours should lead to more community members for 96Boards to help us accomplish various projects using 96Boards. The event will take place in San Francisco / Burlingame at the Hyatt Regency Hotel, [read more here](http://connect.linaro.org/).
 
-To attend the Thursday the 28th of August sessions free of charge listed above click here to register:  all about Linaro and 96Boards click here: 
+To attend the Thursday the 28th of August sessions free of charge listed above click here to register:  all about Linaro and 96Boards click here:
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Ekv-1sJe_57XqUMgIbQMSLXVwDmPXi7ByAP-NghaXl-tNw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Ekv-1sJe_57XqUMgIbQMSLXVwDmPXi7ByAP-NghaXl-tNw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
