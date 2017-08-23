@@ -14,7 +14,7 @@ specification-logo-path: /images/96Boards-Logo_Partner-small.png
 96Boards mezzanine products let you expand your [Consumer Edition](https://www.96boards.org/products/ce/) or [Enterprise Edition](https://www.96boards.org/products/ee/) 96Boards with new interfaces for IoT, industrial control, and other
 embedded applications. The following mezzanine expansion boards are currently available.
 
-Please take some time to review our [mezzanine guidelines](https//github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf) document for some helpful design guidelines and resources.
+Please take some time to review our [mezzanine guidelines](https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf) document for some helpful design guidelines and resources.
 
 ***
 
