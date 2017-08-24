@@ -146,4 +146,4 @@ Any modifications to these files will not show directly on the live website unle
 If a [data file](https://github.com/96boards/website/tree/master/_data) is modified simply change something on the page that is using the data file
 
 ##### Example
-If you are making a change to a product in the [product_db.yml](https://github.com/96boards/website/blob/master/_data/product_db.yaml) file then change something minor on [this page](https://github.com/96boards/website/blob/master/_product/products.html) to get the Jekyll Bamboo Automation to recognize your change and pull it in to the site.
+If you are making a change to a product in the [product_db.yml](https://github.com/96boards/website/blob/master/_data/product_db.yaml) file then change something minor on [this page](https://github.com/96boards/website/blob/master/_product/products.html) to get the Jekyll Bamboo Automation to recognize your changed [data file](https://github.com/96boards/website/tree/master/_data) and pull it in to the site.
