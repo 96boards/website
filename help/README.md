@@ -22,6 +22,10 @@ The 96boards website is built using Jekyll, a static website generator based on 
         1. [Keywords](#meta-keywords)
         2. [Description](#meta-description)
 4. [Website Content](#website-content)
+    1. [Blog Posts](#blog-posts)
+    2. [Products](#products)
+    3. [Projects](#projects)
+
 
 # Jekyll Deployment <a name="jekyll-deployment"></a>
 Jekyll uses Ruby to generate the static website so having Ruby installed is a must if you are
@@ -100,33 +104,6 @@ The resources included are as follows:
 2. Javascript
 3. Images
 
-# Website Content <a name="website-content"></a>
-The following fall under website content:
-1. Products [/products/](products.md)
-2. Projects [/projects/](projects.md)
-3. Blog Posts [/blog/](blog.md)
-4. About [/about/](https://www.96boards.org/about/) [Source](https://github.com/96boards/website/blob/master/about/README.md)
-5. Compliance [/compliance/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/compliance/README.md)
-6. Contact [/contact/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/contact/README.md)
-7. Digest [/digest/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/digest/README.md)
-9. Go [/go/](https://www.96boards.org/go/) [Source](https://github.com/96boards/website/tree/master/go)
-10. Legal [/legal/](https://www.96boards.org/legal/) [Source](https://github.com/96boards/website/blob/master/legal/README.md)
-11. Membership [/membership/](https://www.96boards.org/membership/) [Source](https://github.com/96boards/website/blob/master/membership/README.md)
-12. News [/news/](https://www.96boards.org/news/) [Source](https://github.com/96boards/website/blob/master/news/README.md) [Data](https://github.com/96boards/website/blob/master/_data/news.yaml)
-13. OpenHours [/openhours/](https://www.96boards.org/openhours/) [Source](https://github.com/96boards/website/blob/master/openhours/README.md)
-14. Partner [/partner/](https://www.96boards.org/partner/) [Source](https://github.com/96boards/website/blob/master/partner/README.md)
-15. Press [/press/](https://www.96boards.org/press/) [Source](https://github.com/96boards/website/blob/master/press/README.md)
-16. Search [/search/](https://www.96boards.org/search/) [Source](https://github.com/96boards/website/blob/master/search/README.md)
-17. Specifications [/specifications/](https://www.96boards.org/specifications/) [Source](https://github.com/96boards/website/blob/master/specifications/README.md)
-18. Tutorials [/tutorials/](http://www.96boards.org/tutorials/dragonboard410c/) [Source](https://github.com/96boards/website/blob/master/tutorials/dragonboard410c/README.md)
-19. Verticals [/verticals/](https://www.96boards.org/verticals/) [Source](https://github.com/96boards/website/tree/master/verticals)
-19. 404 [/404.html](https://www.96boards.org/404.html) [Source](https://github.com/96boards/website/blob/master/404.md)
-
-
-
-## Products <a name="products"></a>
-To add a product please visit [this page](products.md)
-
 # SEO settings <a name="website-seo"></a>
 
 The 96boards jekyll site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to generate some useful meta tag information to describe pages for better seo.
@@ -190,3 +167,41 @@ description: |-
 ## More...
 
 If you what you need is not listed above on [Jekyll Seo Tag Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) or [Jekyll Seo Tag Advanced Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md) then please feel free to submit an issue with the requested seo feature.
+
+
+
+# Website Content <a name="website-content"></a>
+The following pages all fall under website content:
+
+1. Products [/products/](products.md)
+2. Projects [/projects/](projects.md)
+3. Blog Posts [/blog/](blog.md)
+4. About [/about/](https://www.96boards.org/about/) [Source](https://github.com/96boards/website/blob/master/about/README.md)
+5. Compliance [/compliance/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/compliance/README.md)
+6. Contact [/contact/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/contact/README.md)
+7. Digest [/digest/](https://www.96boards.org/compliance/) [Source](https://github.com/96boards/website/blob/master/digest/README.md)
+9. Go [/go/](https://www.96boards.org/go/) [Source](https://github.com/96boards/website/tree/master/go)
+10. Legal [/legal/](https://www.96boards.org/legal/) [Source](https://github.com/96boards/website/blob/master/legal/README.md)
+11. Membership [/membership/](https://www.96boards.org/membership/) [Source](https://github.com/96boards/website/blob/master/membership/README.md)
+12. News [/news/](https://www.96boards.org/news/) [Source](https://github.com/96boards/website/blob/master/news/README.md) [Data](https://github.com/96boards/website/blob/master/_data/news.yaml)
+13. OpenHours [/openhours/](https://www.96boards.org/openhours/) [Source](https://github.com/96boards/website/blob/master/openhours/README.md)
+14. Partner [/partner/](https://www.96boards.org/partner/) [Source](https://github.com/96boards/website/blob/master/partner/README.md)
+15. Press [/press/](https://www.96boards.org/press/) [Source](https://github.com/96boards/website/blob/master/press/README.md)
+16. Search [/search/](https://www.96boards.org/search/) [Source](https://github.com/96boards/website/blob/master/search/README.md)
+17. Specifications [/specifications/](https://www.96boards.org/specifications/) [Source](https://github.com/96boards/website/blob/master/specifications/README.md)
+18. Tutorials [/tutorials/](http://www.96boards.org/tutorials/dragonboard410c/) [Source](https://github.com/96boards/website/blob/master/tutorials/dragonboard410c/README.md)
+19. Verticals [/verticals/](https://www.96boards.org/verticals/) [Source](https://github.com/96boards/website/tree/master/verticals)
+19. 404 [/404.html](https://www.96boards.org/404.html) [Source](https://github.com/96boards/website/blob/master/404.md)
+
+
+## Blog Posts <a name="blog-posts"></a>
+
+To add a blog post please visit the [How To submit a 96boards Blog Post](blog.md) page.
+
+## Products <a name="products"></a>
+
+To submit/edit a product please visit the [How To edit/add a 96boards Product](products.md) page.
+
+## Projects <a name="projects"></a>
+
+To submit/edit a project please visit the [How To edit/submit a 96boards Project](projects.md) page.

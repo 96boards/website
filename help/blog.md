@@ -1,5 +1,5 @@
 
-# 96boards Blog
+# How To submit a 96boards Blog Post
 
 96boards blog posts are now written in markdown for a Jekyll based static site. These markdown posts are pulled in by Jekyll and displayed just like your typical 96boards blog post. The following tips will help you get on track and start writing blog posts for the new static site.
 
