@@ -1,5 +1,7 @@
 # 96boards Jekyll Documentation
+
 The 96boards website is built using Jekyll, a static website generator based on Ruby, which allows the site to be more responsive and increase the performance of the site.
+
 # Table of Contents
 1. [Jekyll Deployment](#jekyll-deployment)
     1. [\_config.yml setup](#config-setup)
@@ -121,7 +123,8 @@ To add a product please visit [this page](products.md)
 
 The 96boards jekyll site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to generate some useful meta tag information to describe pages for better seo.
 
-## Default Social Media Share Image
+## Social Media Share Images
+### Default Social Media Share Image
 
 To set a default social media share image the following `defaults` setting has been placed in the \_config.yml files.
 
@@ -133,10 +136,9 @@ Replace `[this image](https://github.com/kylekirkby/website/blob/master/assets/i
   values:
     image: /assets/images/social-media-image.png
 ```
-
 This allows a default image to be used in open graph and twitter cards across all the site pages/posts etc. To change this default image just replace the image in the path described in the above YAML.
 
-## Per Page Social Media Image Setup
+### Per Page Social Media Image Setup
 
 To add a custom image for a specific page simply add the image path to your chosen page like this:
 
@@ -144,6 +146,39 @@ To add a custom image for a specific page simply add the image path to your chos
 image: /assets/images/contact-social-media-share-image.png
 ```
 
-`Make sure the image you specified is located [here](https://github.com/96boards/website/tree/master/assets/images) in the repo.`
+Make sure the image you specified is located [here](https://github.com/96boards/website/tree/master/assets/images) in the repo.
 
-    This will `NOT` work if you add the image to the Jekyll Assets Images folder - \_assets/images. This is due to the fact that images in this folder must be outputted specifically by calling it through liquid e.g `{% asset_path "contact-social-media-share-image.png" %}` and this `CANNOT` be done in YAML.
+This will NOT work if you add the image to the Jekyll Assets Images folder - \_assets/images. This is due to the fact that images in this folder must be outputted specifically by calling it through liquid e.g `{% asset_path "contact-social-media-share-image.png" %}` and this `CANNOT` be done in YAML.
+
+### Per Jekyll Collection
+
+It may useful to note that default share images can be added to groups of pages in order to add a `section` specific share image. E.g you could add a products only default share image or a documentation share image by using the following `defaults` setting in the \_config.yml file.
+
+```YAML
+- scope:
+    type: documentation
+  values:
+    image: /assets/images/documentation-share-image.png
+```
+## Meta Tags
+### Meta Keywords
+
+To add the keywords meta information to a particular page add the following YAML to the front matter of that page.
+
+```YAML
+keywords: hikey 960, hikey960, aosp, aosp developement board, boards
+```
+
+### Meta Description
+
+To add meta description to page add the following YAML to that pages front matter.
+
+```YAML
+description: |-
+    32- and 64-bit ARM Open Platform Specifications. For software developers.
+    For the maker community. For embedded OEMs. 64-bit ARM for $129.
+```
+
+## More...
+
+If you what you need is not listed above on [Jekyll Seo Tag Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) or [Jekyll Seo Tag Advanced Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md) then please feel free to submit an issue with the requested seo feature.
