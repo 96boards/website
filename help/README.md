@@ -117,15 +117,17 @@ The following fall under website content:
 ## Products <a name="products"></a>
 To add a product please visit [this page](products.md)
 
-# SEO settings
+# SEO settings <a name="website-seo"></a>
 
 The 96boards jekyll site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to generate some useful meta tag information to describe pages for better seo.
 
-## Default social media share image
+## Default Social Media Share Image
 
-To set a default social media share image the following `defaults` setting has been placed in the _config.yml files.
+To set a default social media share image the following `defaults` setting has been placed in the \_config.yml files.
 
-```
+Replace `[this image](https://github.com/kylekirkby/website/blob/master/assets/images/social-media-image.png)` with the default social media image of your choice.
+
+```YAML
 - scope:
     path: ""
   values:
@@ -133,3 +135,15 @@ To set a default social media share image the following `defaults` setting has b
 ```
 
 This allows a default image to be used in open graph and twitter cards across all the site pages/posts etc. To change this default image just replace the image in the path described in the above YAML.
+
+## Per Page Social Media Image Setup
+
+To add a custom image for a specific page simply add the image path to your chosen page like this:
+
+```YAML
+image: /assets/images/contact-social-media-share-image.png
+```
+
+`Make sure the image you specified is located [here](https://github.com/96boards/website/tree/master/assets/images) in the repo.`
+
+    This will `NOT` work if you add the image to the Jekyll Assets Images folder - \_assets/images. This is due to the fact that images in this folder must be outputted specifically by calling it through liquid e.g `{% asset_path "contact-social-media-share-image.png" %}` and this `CANNOT` be done in YAML.
