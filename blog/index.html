@@ -29,9 +29,9 @@ redirect_from:
                     <a href="{{post.url}}">
                         <img class="img-responsive blog-img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        {% if post.thumbnail_image %}
+                        {% if assets[post.thumbnail_image] %}
                         data-src="{% asset_path '{{post.thumbnail_image}}' %}"
-                        {% elsif post.featured_image %}
+                        {% elsif assets[post.featured_image] %}
                         data-src="/assets/thumbnails/blog/{{post.featured_image}}"
                         {% else %}
                         data-src="{% asset_path 'placeholder.png' %}"
@@ -81,9 +81,9 @@ redirect_from:
                             <div class="row">
                                 <div class="col-md-3 col-sm-3 col-xs-3 no-padding">
                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                   {% if blog.thumbnail_image %}
+                                   {% if assets[blog.thumbnail_image] %}
                                    data-src="{% asset_path '{{blog.thumbnail_image}}'%}"
-                                   {% elsif blog.featured_image %}
+                                   {% elsif assets[blog.featured_image] %}
                                    data-src="{% asset_path '{{blog.featured_image}}' %}"
                                    {% else %}
                                    data-src="{% asset_path 'placeholder.png' %}"

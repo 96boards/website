@@ -107,6 +107,11 @@ To add an image in your markdown please use the following liquid include.
 
 When using this liquid include the image you have included in your blog post will be rendered as a responsive image and when clicked the image will then display a lightbox.
 
+## Markdown Image include
+You can still add images to your post using the typical markdown image syntax but your image have to be in [this folder](https://github.com/96boards/website/tree/master/assets/images) rather than \_assets/images; as this folder is reserved for images that are included using asset_path from [Jekyll Assets](https://github.com/jekyll/jekyll-assets).
+
+
+
 ### Youtube Video Series
 To include a youtube video in your blog post simply use the `media.html` include as follows:
 
