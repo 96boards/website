@@ -25,7 +25,7 @@ redirect_from:
     <div class="col-md-9">
         {% for post in paginator.posts %}
             <div class="row blog_post">
-                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-xs-4">
                     <a href="{{post.url}}">
                         <img class="img-responsive blog-img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -39,9 +39,9 @@ redirect_from:
                          alt="{{post.title}}" />
                     </a>
                 </div>
-                <div class="col-md-8 col-sm-8 col-xs-12 post_title no-padding">
-                    <a href="{{post.url}}"><h3>{{ post.title}}</h3></a>
-                    <em>{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
+                <div class="col-xs-8 post_title no-padding">
+                    <a href="{{post.url}}"><h3 class="blog_title">{{ post.title}}</h3></a>
+                    <em class="blog_date">{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
                     <p class="post_excerpt">
                     {{ post.content | strip_html | truncatewords:30 }}
                     </p>
@@ -84,10 +84,11 @@ redirect_from:
                                    {% if assets[blog.thumbnail_image] %}
                                    data-src="{% asset_path '{{blog.thumbnail_image}}'%}"
                                    {% elsif assets[blog.featured_image] %}
-                                   data-src="{% asset_path '{{blog.featured_image}}' %}"
+                                   data-src="/assets/thumbnails/blog/{{blog.featured_image}}"
                                    {% else %}
                                    data-src="{% asset_path 'placeholder.png' %}"
                                    {% endif %}
+
                                   alt="{{blog.title}}" class="img-responsive lazyload"/>
                                 </div>
                                 <div class="col-md-9 col-sm-9 col-xs-9 ">
