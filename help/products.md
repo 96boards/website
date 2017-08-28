@@ -1,4 +1,4 @@
-# 96boards Products
+# How To edit/add a 96boards Product
 
 1. [Adding a product](#adding-a-product)
     1. [New Product Folder Structure](#product-folder-structure)

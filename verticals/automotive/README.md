@@ -1,3 +1,15 @@
+---
+title: Automotive
+description: |-
+  Every year the automotive industry integrates more technology into devices  which improve driver
+  and passenger experience and safety. These devices range from interactive to automated and can
+  truly change the way our vehicles interact with the environment, both inside and out.
+permalink: /verticals/automotive/
+redirect_from: /verticals/Automotive/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # Automotive
 
 ## Introduction
@@ -13,4 +25,3 @@ availability, developers can focus efforts without worry of obsoletion. Virtuall
 the current and future automotive can be deployed on a 96Boards, recreated, or expanded. 96Boards
 comes with a variety of hardware and software options which allows users to tackle any issue, from
 security to entertainment, navigation and  occupant comfort.
-

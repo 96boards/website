@@ -1,7 +1,7 @@
 ---
 layout: empty-container-page
 title: Project Contribution
-permalink: "/projects/contribute.md/"
+permalink: /projects/contribute.md/
 description: |-
     96Boards projects is a community driven initiative of hosting the projects made out of 96Boards (CE, EE and IE).Potential projects should be of good quality and should not include basic interfacing exercises of passive componenets.
 ---

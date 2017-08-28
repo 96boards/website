@@ -1,3 +1,14 @@
+---
+title: Machine Learning
+description: |-
+  The goal is to program computers to utilize example data, and statistical learning techniques to
+  identify patterns and create past experience to solve problems.
+permalink: /verticals/machine-learning/
+redirect_from: /verticals/MachineLearning/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # Machine Learning
 
 ## Introduction
@@ -14,4 +25,3 @@ the amount of data flying around today, this would require an immense amount of 
 of specifications. For anyone doing machine learning activities, a combined effort of CPU and GPU
 is required. In that case 96Boards stands tall among the currently available SBC’s in market. It
 could also be directly deployed to the end product with ease.
-
