@@ -57,7 +57,7 @@ then this blog will serve you as a good introduction to I2C on Carbon.
 
 [Carbon](http://www.96boards.org/product/carbon/) board is the first board to be certified as 96Boards IoT edition compatible.
 The heart of the Carbon board is **STM32F401RE** which is a Cortex M4 based microcontroller. For any IoT project, communication
-is a must have feature. For aiding this purpose another Co- processor is embedded onto the Carbon board which is **nRF51822**. 
+is a must have feature. For aiding this purpose another Co- processor is embedded onto the Carbon board which is **nRF51822**.
 This is used to provide *BLE* support for communicating the host, thus making Carbon as a best bet for doing IoT projects.
 On the software side, this board has [Zephyr RTOS](https://www.zephyrproject.org/) support. This blog post will clarify few
 misconceptions on Zephyr I2C support for Carbon and also provides a quick update over I2C_2 interface.
@@ -75,7 +75,7 @@ supports multiple bus speed with the below standard ones:
 But the I2C controller can be designed to operate at wide number of frequencies. For the detailed information on I2C, take a
 look at the [official website](https://www.i2c-bus.org/i2c-bus/)
 
-Carbon board supports 2 I2C interfaces on-board, I2C_1 and I2C_2 operating at Standard and Fast modes. Both are exposed on the Low Speed expansion header, allowing 
+Carbon board supports 2 I2C interfaces on-board, I2C_1 and I2C_2 operating at Standard and Fast modes. Both are exposed on the Low Speed expansion header, allowing
 easy interfacing to the external world. Although the microcontroller supports 3rd I2C interface, it is not exposed on carbon
 as it got wired to **nRF51822** for BLE support.
 
@@ -86,16 +86,16 @@ you can see two sets of I2C interfaces as below:
 
    * I2C1_SCL - PB6
    * I2C1_SDA - PB7
-   
+
    * I2C1_SCL - PB8
-   * I2C1_SDA - PB9 
-   
+   * I2C1_SDA - PB9
+
 Users often gets confused by this (as like me on first time :P) and fails to see the default pinmux section for I2C on the same
 [document](http://zephyr-docs.s3-website-us-east-1.amazonaws.com/online/dev/boards/arm/96b_carbon/doc/96b_carbon.html#i2c). This
 confusion can lead to connecting the I2C devices to wrong pins. But the Pinmux section clearly says that the Pinmux has been
 configured for I2C1 on PB6/PB7.
 
-Connecting to the wrong I2C pins often causes the device to hang at the [Wait for Slave Ack](LL_I2C_IsActiveFlag_ADDR) code as 
+Connecting to the wrong I2C pins often causes the device to hang at the [Wait for Slave Ack]() code as
 Carbon will try to establish I2C communcation via PB6/PB7 where no I2C slave device is hooked up.
 
 Okay, now I got the correct pinmap for I2C1 but what should I do for using another I2C1 interface?
@@ -116,7 +116,7 @@ This will cause the I2C controller present in **STM32F401RE** to use PB8/PB9 for
 
 Since, Carbon supports I2C_2 interface you might want to leverage that also. But, the previous code base would error out while
 trying to build Zephyr with I2C_2 support enabled for Carbon. Reason for that is the absence of Kconfig mapping for I2C_2 in Zephyr [I2C driver](https://github.com/zephyrproject-rtos/zephyr/blob/master/drivers/i2c/i2c_ll_stm32.c).
-Zephyr expects to have the mapping between Kconfig definitons and driver definitions for using any driver. This mapping is 
+Zephyr expects to have the mapping between Kconfig definitons and driver definitions for using any driver. This mapping is
 provided by the [DTS fixup](https://github.com/zephyrproject-rtos/zephyr/blob/master/dts/arm/96b_carbon.fixup) file for now. Since,
 there was no mapping for I2C_2 on Carbon before, I've added the mapping in this [Pull Request](https://github.com/zephyrproject-rtos/zephyr/pull/1254).
 
