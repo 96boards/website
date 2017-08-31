@@ -3,8 +3,6 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-11 01:01:54+00:00
 layout: post
-link: http://www.96boards.org/blog/self-balancing-bot-using-96boards-part1/
-slug: self-balancing-bot-using-96boards-part1
 featured_image: mpu6050.jpg
 title: Self Balancing Bot using 96Boards - Part 1
 categories:
@@ -48,7 +46,7 @@ tags:
 
 # **Introduction**
 
-Welcome to **Part 1** of our **Self Balancing Bot using 96Boards** blog series. This is the continuation of [previous blog](http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/)
+Welcome to **Part 1** of our **Self Balancing Bot using 96Boards** blog series. This is the continuation of [previous blog](https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/)
 where we introduced our new project to community. In this blog we are going to see how to interface **IMU** with 96Boards.
 Well, there are many IMU interfacing tutorials out there online, what is so special with this? Answer to this question lies in the
 fact that we are going to see how to 3D render the IMU data on 96Boards itself using **OpenGL**. This will allow us to explore
