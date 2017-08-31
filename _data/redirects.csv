@@ -1,94 +1,152 @@
 # -- Products --
 /product/,https://www.96boards.org/products/
+/product,https://www.96boards.org/products/
 # Armada
 /armada,https://www.96boards.org/products/
+/armada/,https://www.96boards.org/products/
 # sd600eval
 /products/ce/extended/sd600eval/,http://www.96boards.org/products/
+/products/ce/extended/sd600eval,http://www.96boards.org/products/
 # Bubblegum 96
 /bubblegum,http://www.96boards.org/product/bubblegum-96/
 /bubblegum/,http://www.96boards.org/product/bubblegum-96/
 /bubblegum96-buy,http://linaro.co/bubblegum96-buy
+/bubblegum96-buy/,http://linaro.co/bubblegum96-buy
 /bubblegumbuy,http://linaro.co/bubblegum96-buy
+/bubblegumbuy/,http://linaro.co/bubblegum96-buy
 /product/bubblegum96/,https://www.96boards.org/product/bubblegum-96/
+/product/bubblegum96,https://www.96boards.org/product/bubblegum-96/
 /products/ce/bubblegum96/,https://www.96boards.org/product/bubblegum-96/
+/products/ce/bubblegum96,https://www.96boards.org/product/bubblegum-96/
 /products/ce/bubblegum96/docs/,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/
+/products/ce/bubblegum96/docs,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/
 /products/ce/bubblegum96/downloads/,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/
+/products/ce/bubblegum96/downloads,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/
 /products/ce/bubblegum96/start/,http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/GettingStarted/
+/products/ce/bubblegum96/start,http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/GettingStarted/
 /products/ce/dragonboard410c/,https://www.96boards.org/product/dragonboard410c/
+/products/ce/dragonboard410c,https://www.96boards.org/product/dragonboard410c/
 # MediaTekX20
 /product/helio-x20/,https://www.96boards.org/product/mediatek-x20/
+/product/helio-x20,https://www.96boards.org/product/mediatek-x20/
 /products/ce/mediatek-x20/,https://www.96boards.org/product/mediatek-x20/
+/products/ce/mediatek-x20,https://www.96boards.org/product/mediatek-x20/
 /x20,https://www.96boards.org/product/mediatek-x20/
+/x20/,https://www.96boards.org/product/mediatek-x20/
 # Carbon
 /carbon,https://www.96boards.org/product/carbon/
 /carbon/docs,https://www.96boards.org/product/carbon/
 /carbon-buy,http://linaro.co/carbon-buy
+/carbon-buy/,http://linaro.co/carbon-buy
 # Dragonboard
 /dragonboard,https://www.96boards.org/product/dragonboard410c/
 /dragonboard/,https://www.96boards.org/product/dragonboard410c/
 /dragonboard410c,https://www.96boards.org/product/dragonboard410c/
+/dragonboard410c/,https://www.96boards.org/product/dragonboard410c/
 /dragonboard410c/docs,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
+/dragonboard410c/docs/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /dragonboard410c/documentation,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /dragonboard410c/documentation/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /dragonboard410c/downloads,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+/dragonboard410c/downloads/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
 /dragonboard410c/forum,https://discuss.96boards.org/c/products/dragonboard410c
+/dragonboard410c/forum/,https://discuss.96boards.org/c/products/dragonboard410c
 /dragonboard410c/gettingstarted,http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
+/dragonboard410c/gettingstarted/,http://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
 /dragonboard410cbuy,http://linaro.co/dragonboard410c-buy-arrow
+/dragonboard410cbuy/,http://linaro.co/dragonboard410c-buy-arrow
 /DragonBoard410c/forum,https://discuss.96boards.org/c/products/dragonboard410c
 /DragonBoard410c,https://www.96boards.org/product/dragonboard410c/
+/DragonBoard410c/,https://www.96boards.org/product/dragonboard410c/
 /DragonBoard410c/docs,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
+/DragonBoard410c/docs/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /products/ce/dragonboard410c/,https://www.96boards.org/product/dragonboard410c/
 /products/ce/dragonboard410c/docs/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
+/products/ce/dragonboard410c/docs,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /products/ce/dragonboard410c/downloads/,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+/products/ce/dragonboard410c/downloads,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
 /products/dragonboard/,https://www.96boards.org/product/dragonboard410c/
+/products/dragonboard,https://www.96boards.org/product/dragonboard410c/
+/DragonBoard/,https://www.96boards.org/product/dragonboard410c/
+/DragonBoard,https://www.96boards.org/product/dragonboard410c/
 # Cello
 /products/ee/cello/,http://www.96boards.org/products/ee/
+/products/ee/cello,http://www.96boards.org/products/ee/
 # HuskyBoard
 /products/ee/huskyboard/,http://www.96boards.org/products/ee/
+/products/ee/huskyboard,http://www.96boards.org/products/ee/
 # HiKey
 /hikey,https://www.96boards.org/product/hikey/
 /HiKey,https://www.96boards.org/product/hikey/
 /getting-started,https://www.96boards.org/product/hikey/
 /getting-started/,https://www.96boards.org/product/hikey/
 /hikey-gettingstarted,http://www.96boards.org/documentation/ConsumerEdition/HiKey960/GettingStarted/
+/hikey-gettingstarted/,http://www.96boards.org/documentation/ConsumerEdition/HiKey960/GettingStarted/
 /hikey-lemaker,https://www.96boards.org/product/hikey/
+/hikey-lemaker/,https://www.96boards.org/product/hikey/
 /hikey-lemaker-buy,http://linaro.co/hikey-lenovator-buy
+/hikey-lemaker-buy/,http://linaro.co/hikey-lenovator-buy
 /hikey-schematics,https://github.com/96boards/documentation/tree/master/ConsumerEdition/HiKey/HardwareDocs
+/hikey-schematics/,https://github.com/96boards/documentation/tree/master/ConsumerEdition/HiKey/HardwareDocs
 /hikey-userguide,http://www.96boards.org/documentation/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md
+/hikey-userguide/,http://www.96boards.org/documentation/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md
 /hikey/,https://www.96boards.org/product/hikey/
 /HiKey/,https://www.96boards.org/product/hikey/
 /products/ce/hikey/,https://www.96boards.org/product/hikey/
+/products/ce/hikey,https://www.96boards.org/product/hikey/
 /products/ce/hikey/docs/,https://www.96boards.org/documentation/ConsumerEdition/HiKey/
+/products/ce/hikey/docs,https://www.96boards.org/documentation/ConsumerEdition/HiKey/
 /products/ce/hikey/downloads/,https://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/
+/products/ce/hikey/downloads,https://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/
 /products/ce/hikey/start/,https://www.96boards.org/documentation/ConsumerEdition/HiKey/GettingStarted/
+/products/ce/hikey/start,https://www.96boards.org/documentation/ConsumerEdition/HiKey/GettingStarted/
 # Hikey 960
 /hikey960,https://www.96boards.org/product/hikey960/
 /hikey960/,https://www.96boards.org/product/hikey960/
 #STM 32
 /stm32f446,https://www.96boards.org/product/stm32/
+/stm32f446/,https://www.96boards.org/product/stm32/
 # Poplar
 /poplar,https://www.96boards.org/product/poplar/
+/poplar/,https://www.96boards.org/product/poplar/
 # Mezzanine
 /linker-mezzanine,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
+/linker-mezzanine/,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
 /MezzanineProducts/README.md,https://www.96boards.org/documentation/MezzanineProducts/
+/MezzanineProducts/README.md/,https://www.96boards.org/documentation/MezzanineProducts/
 /products/mezzanine/grove-starter-kit/,https://www.96boards.org/product/sensors-mezzanine/
+/products/mezzanine/grove-starter-kit,https://www.96boards.org/product/sensors-mezzanine/
 /products/mezzanine/linker-mezzanine-starter-kit/,https://www.96boards.org/product/linkspritesensorkit/
+/products/mezzanine/linker-mezzanine-starter-kit,https://www.96boards.org/product/linkspritesensorkit/
 /products/mezzanine/linksprite-7-display-kit/,https://www.96boards.org/product/linkspritesensorkit/
+/products/mezzanine/linksprite-7-display-kit,https://www.96boards.org/product/linkspritesensorkit/
 /products/mezzanine/sensors-mezzanine/,https://www.96boards.org/product/sensors-mezzanine/
+/products/mezzanine/sensors-mezzanine,https://www.96boards.org/product/sensors-mezzanine/
 /products/mezzanine/stm32sensor/,https://www.96boards.org/product/stm32/
+/products/mezzanine/stm32sensor,https://www.96boards.org/product/stm32/
 /products/mezzanine/uarts/,https://www.96boards.org/product/uartserial/
+/products/mezzanine/uarts,https://www.96boards.org/product/uartserial/
 /sensorkit,https://www.96boards.org/product/sensors-mezzanine/
+/sensorkit/,https://www.96boards.org/product/sensors-mezzanine/
 # Accessories
 /products/accessories/adapter/,https://www.96boards.org/product/adapter/
+/products/accessories/adapter,https://www.96boards.org/product/adapter/
 /products/accessories/debug/,https://www.96boards.org/product/debug/
+/products/accessories/debug,https://www.96boards.org/product/debug/
 /products/accessories/power/,https://www.96boards.org/product/power/
+/products/accessories/power,https://www.96boards.org/product/power/
 # -- Projects --
 /project/,https://www.96boards.org/projects/
+/project,https://www.96boards.org/projects/
 # -- Documentation --
 /ee-specification,https://www.96boards.org/documentation/Specifications/
+/ee-specification/,https://www.96boards.org/documentation/Specifications/
 /camera-spec,https://www.96boards.org/documentation/Specifications/
+/camera-spec/,https://www.96boards.org/documentation/Specifications/
 /ie-specification,https://www.96boards.org/documentation/Specifications/
+/ie-specification/,https://www.96boards.org/documentation/Specifications/
 /tv-specification,https://linaro.co/tv-specification
+/tv-specification/,https://linaro.co/tv-specification
 # -- Blogs --
 /blog/96boards-3d-printable-ce-cases/,https://www.96boards.org/blog/3d-printable-ce-cases/
 /blog/96boards-brazil-country-wide-iot-competition/,https://www.96boards.org/blog/96boards-brazil-country-wide-iot-partnership-program/
@@ -102,3 +160,13 @@
 /i-want-one,http://www.96boards.org/contact/
 /I-want-one/,http://www.96boards.org/contact/
 /wp-content/uploads/2015/02/GettingStarted-HiKeyEarlyAccess-EA1.pdf,http://www.96boards.org/documentation/ConsumerEdition/HiKey/
+# Redirects
+/register,https://discuss.96boards.org/login
+/register/,https://discuss.96boards.org/login
+/ce-specification,https://www.96boards.org/documentation/Specifications/
+/ce-specification/,https://www.96boards.org/documentation/Specifications/
+/developercloud/,https://www.linaro.cloud/
+/developercloud,https://www.linaro.cloud/
+/about/program/,http://www.96boards.org/membership/
+/about/program,http://www.96boards.org/membership/
+/forums/topic/faq/,https://discuss.96boards.org/
