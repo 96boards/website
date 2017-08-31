@@ -3,6 +3,9 @@ members:
           - name: Actions
             image: actions.jpg
             url: https://www.linaro.org/company/actions/
+          - name: Advantech
+            image: advantech.jpg
+            url: https://www.linaro.org/company/advantech/
           - name: Archer Mind
             image: archermind.jpg
             url: https://www.linaro.org/company/archermind/
@@ -85,6 +88,9 @@ members:
         - name: Lemaker
           image: lemaker.jpg
           url: https://www.linaro.org/company/lemaker/
+        - name: Long Sung
+          image: longsung.jpg
+          url: https://www.linaro.org/company/longsung/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
@@ -113,3 +119,6 @@ members:
         - name: Rohm
           image: rohm.png
           url: https://www.linaro.org/company/rohm/
+        - name: vamrs
+          image: vamrs.jpg
+          url: https://www.linaro.org/company/vamrs/
