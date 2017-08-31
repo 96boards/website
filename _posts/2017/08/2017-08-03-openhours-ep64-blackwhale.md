@@ -34,7 +34,7 @@ In this week's episode of OpenHours (August 3rd), we spoke with Xingchao and Win
 
 This was the first time we ever had guests join us live out of China and besides a few technical difficulties at the beginning, the episode over all was very informative and fun.
 
-We of course started out with our introductions, some talk of [Blackwhale the company](http://hij.ai/), got to see a very cool demo on the [96Boards](http://www.96boards.org/) [Bubblegum-96](http://www.96boards.org/product/bubblegum-96/), and shared several links. Please be sure to scroll down, there you will find this week's episode along with the [BlueJeans](https://www.bluejeans.com/) chat log! We hope to see you [next week](http://www.96boards.org/openhours/).
+We of course started out with our introductions, some talk of [Blackwhale the company](http://hij.ai/), got to see a very cool demo on the [96Boards](https://www.96boards.org/) [Bubblegum-96](https://www.96boards.org/product/bubblegum-96/), and shared several links. Please be sure to scroll down, there you will find this week's episode along with the [BlueJeans](https://www.bluejeans.com/) chat log! We hope to see you [next week](https://www.96boards.org/openhours/).
 
 Thank you very much to our guests!
 
@@ -50,7 +50,7 @@ https://github.com/96boards/mezzanine-community
 https://en.wikipedia.org/wiki/96Boards
 
 Robert Wolff - RW
-http://www.96boards.org/blog/openhours-63-brazil-partner-san-diego/
+https://www.96boards.org/blog/openhours-63-brazil-partner-san-diego/
 https://www.96boards.org/product/neonkey/
 
 Rafael Christ - RC

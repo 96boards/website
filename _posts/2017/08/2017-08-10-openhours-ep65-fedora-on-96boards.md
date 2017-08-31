@@ -129,7 +129,7 @@ Hi Rodrigo!
 
 Sarah Levine - SL
 https://youtu.be/zytkvFDeddU
-New Blog: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/
+New Blog: https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/
 
 Todd Thal - TT
 Robert's open hours is getting almost as many followers as the "Grateful Dead"...; )
@@ -273,7 +273,7 @@ Todd Thal - TT
 MiniNodes #61 was Awesome!!!
 
 Shovan Sargunam - SS
-Latest Hikey 960: http://www.96boards.org/product/hikey960/
+Latest Hikey 960: https://www.96boards.org/product/hikey960/
 
 David T - miniNodes - DM
 Awesome!! (I can help testing as well)
