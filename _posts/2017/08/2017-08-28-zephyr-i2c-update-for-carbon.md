@@ -3,9 +3,8 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-28 01:01:54+00:00
 layout: post
-link: http://www.96boards.org/blog/zephyr-i2c-update-for-carbon/
-slug: zephyr-i2c-update-for-carbon
 featured_image: 96b-carbon-front.png
+thumbnail_image: carbon-zephyr-i2c-thumb.jpg
 title: Zephyr I2C Update for Carbon
 categories:
 - blog
@@ -49,13 +48,13 @@ tags:
 
 # **Introduction**
 
-Have you tinkered with I2C on [96Boards Carbon](http://www.96boards.org/product/carbon/) - [IoT Edition](http://www.96boards.org/products/ie/)
+Have you tinkered with I2C on [96Boards Carbon](https://www.96boards.org/product/carbon/) - [IoT Edition](https://www.96boards.org/products/ie/)
 of our 96Boards family through [Zephyr RTOS](https://www.zephyrproject.org/)? If yes, then this blog will give you a quick update on the latest change made for I2C. If you haven't used
 then this blog will serve you as a good introduction to I2C on Carbon.
 
 # **Carbon**
 
-[Carbon](http://www.96boards.org/product/carbon/) board is the first board to be certified as 96Boards IoT edition compatible.
+[Carbon](https://www.96boards.org/product/carbon/) board is the first board to be certified as 96Boards IoT edition compatible.
 The heart of the Carbon board is **STM32F401RE** which is a Cortex M4 based microcontroller. For any IoT project, communication
 is a must have feature. For aiding this purpose another Co- processor is embedded onto the Carbon board which is **nRF51822**.
 This is used to provide *BLE* support for communicating the host, thus making Carbon as a best bet for doing IoT projects.

@@ -180,7 +180,7 @@ yes, I am here
 Sarah Levine - SL
 Link to last week's episode on youtube: Last week’s episode: https://youtu.be/vhS8qCOcOlE
 connect.linaro.org
-Self balancing bot part 1: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 65: http://www.96boards.org/blog/openhours-ep65-fedora-on-96boards/Self balancing bot introduction: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 64: http://www.96boards.org/blog/openhours-ep64-blackwhale/
+Self balancing bot part 1: https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 65: https://www.96boards.org/blog/openhours-ep65-fedora-on-96boards/Self balancing bot introduction: https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 64: https://www.96boards.org/blog/openhours-ep64-blackwhale/
 https://en.wikipedia.org/wiki/96Boards
 Some more links:
 Monero github: https://github.com/monero-projectMonero reddit: https://www.reddit.com/r/Monero/Kovri reddit: https://www.reddit.com/r/Kovri/ [under construction]Monero website: https://getmonero.orgKovri website: https://getkovri.org [new, work in progress]https://getmonero.org/knowledge-base/moneropedia/kovri
@@ -689,7 +689,7 @@ Tyeth - T
 thanks anonimal
 
 Sarah Levine - SL
-Blogs: Self balancing bot part 1: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 65: http://www.96boards.org/blog/openhours-ep65-fedora-on-96boards/Self balancing bot introduction: http://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 64: http://www.96boards.org/blog/openhours-ep64-blackwhale/
+Blogs: Self balancing bot part 1: https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 65: https://www.96boards.org/blog/openhours-ep65-fedora-on-96boards/Self balancing bot introduction: https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/OpenHours recap ep 64: https://www.96boards.org/blog/openhours-ep64-blackwhale/
 
 Bruce - B
 👍
