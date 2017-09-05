@@ -94,7 +94,7 @@ Users often gets confused by this (as like me on first time :P) and fails to see
 confusion can lead to connecting the I2C devices to wrong pins. But the Pinmux section clearly says that the Pinmux has been
 configured for I2C1 on PB6/PB7.
 
-Connecting to the wrong I2C pins often causes the device to hang at the [Wait for Slave Ack]() code as
+Connecting to the wrong I2C pins often causes the device to hang at [Wait for Slave Ack](https://github.com/zephyrproject-rtos/zephyr/blob/master/drivers/i2c/i2c_ll_stm32_v1.c#L325) as
 Carbon will try to establish I2C communcation via PB6/PB7 where no I2C slave device is hooked up.
 
 Okay, now I got the correct pinmap for I2C1 but what should I do for using another I2C1 interface?
@@ -109,7 +109,7 @@ It can be changed as like the following code:
 #endif /* CONFIG_I2C_1 */
 ```
 
-This will cause the I2C controller present in **STM32F401RE** to use PB8/PB9 for SCL/SDA.
+This will allow the I2C controller present in **STM32F401RE** to use PB8/PB9 for SCL/SDA.
 
 ## **I2C_2 Update**
 
