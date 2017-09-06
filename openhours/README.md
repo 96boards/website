@@ -14,9 +14,11 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MjRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MDdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #67** - In this episode, we will get in touch with our roots! Q&A with the 96Boards OpenHours team, some resource walkthrough and possible a demo or two. This week is all about talking some tech while hanging out and having fun. We look forward to seeing you there!
+**OpenHours Episode #69** - In this episode of OpenHours, we will be meeting with Nicolas Dechesne of Linaro! Nico works as tech lead for a  team within Linaro focused on software enablement (among many other things) around the Qualcomm Snapdragon chipsets. Him and his team are constantly on the move, working to provide latest and greatest features for one of our more popular 96Boards, the [DragonBoard 410c](https://96boards.org/product/dragonboard410c/). From [OpenEmbedded builds](http://builds.96boards.org/releases/dragonboard410c/linaro/openembedded/) to the [pre-built debian based Linaro builds](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/), this team is pretty much involved in it all.
+
+Now is your chance to be a part of the discussion. Bring your questions and comments on past, present and future plans around the Snapdragon work with Linaro, the DragonBoard 410c, and pretty much anything else 96Boards related. All are welcome!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +47,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MjRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MDdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
