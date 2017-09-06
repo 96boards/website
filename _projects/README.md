@@ -18,7 +18,21 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <tr>
 
-<td align="center"><a href="view/rosproductionubuntucore/README.md">ROS / Ubuntu Core</a><br><img src="view/rosproductionubuntucore/images/thumb.png?raw=true" data-canonical-src="view/rosproductionubuntucore/images/thumb.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="view/beeInformed/README.md">BeeInformed</a><br><img src="view/beeInformed/images/thumb.png?raw=true" data-canonical-src="view/beeInformed/images/thumb.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="view/bengala-iot/README.md">Bengala IoT</a><br><img src="view/bengala-iot/images/thumb.png?raw=true" data-canonical-src="view/bengala-iot/images/thumb.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="view/dragon-wally/README.md">Dragon Wally</a><br><img src="view/dragon-wally/images/thumb.png?raw=true" data-canonical-src="view/dragon-wally/images/thumb.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="view/reseni/README.md">ReSeNi</a><br><img src="view/reseni/images/thumb.png?raw=true" data-canonical-src="view/reseni/images/thumb.png?raw=true" width="150" height="150" /></td>
+
+<td align="center"><a href="view/safe2med/README.md">Safe2Med</a><br><img src="view/safe2med/images/thumb.png?raw=true" data-canonical-src="view/safe2med/images/thumb.png?raw=true" width="150" height="150" /></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><a href="view/surfboard-data-feeder/README.md">Surf Data Feeder</a><br><img src="view/surfboard-data-feeder/images/thumb.png?raw=true" data-canonical-src="view/surfboard-data-feeder/images/thumb.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="view/awsiot/README.md">AWS IoT</a><br><img src="view/awsiot/images/thumb.png?raw=true" data-canonical-src="view/awsiot/images/thumb.png?raw=true" width="150" height="150" /></td>
 
@@ -200,7 +214,7 @@ This projects page is hosted on, and rendered from the [96Boards website reposit
 
 <tr>
 
-<td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="template/images/Share_image.png?raw=true" data-canonical-src="template/images/Share_image.png?raw=true" width="150" height="150" /></td>
+<td align="center"><a href="view/rosproductionubuntucore/README.md">ROS / Ubuntu Core</a><br><img src="view/rosproductionubuntucore/images/thumb.png?raw=true" data-canonical-src="view/rosproductionubuntucore/images/thumb.png?raw=true" width="150" height="150" /></td>
 
 <td align="center"><a href="SUBMIT.md">Submit your project!</a><br><img src="template/images/Share_image.png?raw=true" data-canonical-src="template/images/Share_image.png?raw=true" width="150" height="150" /></td>
 
