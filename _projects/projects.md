@@ -1,7 +1,6 @@
 ---
 layout: empty-container-page
 title: Projects
-permalink: "/projects/"
 description: |-
     The 96Boards projects that have been announced are shown below.
     Click on the links to find out more about the projects.
