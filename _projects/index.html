@@ -26,11 +26,9 @@ css-pack: projects
                         <a href="{{each.permalink}}">
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             {% if each.thumbnail_image %}
-                            data-src="{% asset_path '{{each.thumbnail_image}}' %}"
-                            {% elsif each.images %}
-                            data-src="/assets/thumbnails/projects/{{each.images[0]}}"
+                                data-src="view/{{page_base[2] | downcase}}/images/{{each.thumbnail_image}}"
                             {% else %}
-                            data-src="{% asset_path 'placeholder.png' %}"
+                                data-src="view/{{page_base[2] | downcase}}/images/thumb.png"
                             {% endif %}
                              class="project_image lazyload center-block">
                         </a>
@@ -38,7 +36,11 @@ css-pack: projects
                             <h5 class="project_title">{{each.title | truncate: 30}}</h5>
                         </a>
                         <p class="project_description">
-                            {{each.description | truncatewords: 20 }}
+                            {% if each.description %}
+                                {{each.description | truncatewords: 20 }}
+                            {% else %}
+                                {{ each.content | strip_html | truncatewords:20 }}
+                            {% endif %}
                         </p>
                 </div>
         {% endif %}

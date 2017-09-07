@@ -1,9 +1,10 @@
 ---
 title: Dragon Wally
 permalink: "/projects/dragon-wally/"
-layout: project-display-page
 redirect_from:
 - /project/sample-project-demo/
+images:
+    - visual1.png
 ---
 
 # Dragon Wally

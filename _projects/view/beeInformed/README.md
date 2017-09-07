@@ -1,11 +1,18 @@
 ---
 title:  BeeInformed
 permalink: "/projects/beeinformed/"
-layout: project-display-page
 redirect_from:
 - /project/sample-project-demo/
+images:
+    - thumb.png
+    - chart.png
+    - diagram.png
+    - header.png
+    - visual-1.png
+    - visual-2.png
+    - visual-3.png
+    - visual-4.png
 ---
-
 # BeeInformed
 
 This beekeeping environmental sensor prototype is intended to monitor environmental health where beehives are located. It aims to provide analytics tools for any hive owner that will maximize productivity and the quality of their bee products.

@@ -1,9 +1,10 @@
 ---
 title: Surfboard Data Feeder
 permalink: "/projects/surfboard-data-feeder/"
-layout: project-display-page
 redirect_from:
 - /project/sample-project-demo/
+images:
+  - diagram.png
 ---
 
 # Surfboard Data Feeder

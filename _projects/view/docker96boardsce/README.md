@@ -1,6 +1,6 @@
 ---
 title: Docker on AArch64 96Boards Consumer Edition
-layout: project-display-page
+
 permalink: "/projects/Docker96BoardsCE/"
 description: |-
     Docker is “an open source project to pack, ship and run any application as a lightweight container.” It’s a very interesting tool from the Enterprise space, and docker.com lists its use cases as Continuous integration, DevOps, Big Data and Infrastructure Optimization.
