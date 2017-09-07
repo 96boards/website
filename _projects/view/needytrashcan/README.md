@@ -1,6 +1,6 @@
 ---
 title: The Needy Trashcan
-layout: project-display-page
+
 permalink: "/projects/NeedyTrashcan/"
 description: |-
     This project was created during a Hackathon challenge organized for the H.A.R.D hack at University of California, San Diego. It was inspired by an everyday problem that comes with having roommates -- taking turns to take out the trash. Many times, trash piles up as someone has failed to do their part. To help solve this problem, the Needy Trashcan was created to remind them automatically.

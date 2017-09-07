@@ -1,6 +1,6 @@
 ---
 title: TurtleBot 2e
-layout: project-display-page
+
 permalink: "/projects/TurtleBot2e/"
 description: |-
     The TurtleBot 2e is a new revision of the TurtleBot that uses a single board computer (SBC) such as the DragonBoard™ 410c. It also features the Orbbec Astra camera.

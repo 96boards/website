@@ -1,6 +1,6 @@
 ---
 title: ROS prototype to production on Ubuntu Core
-layout: project-display-page
+
 permalink: "/projects/ROSProductionUbuntuCore/"
 description: |-
     Follow along in this five-part series as Kyle takes you from creating a

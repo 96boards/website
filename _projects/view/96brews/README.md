@@ -7,7 +7,7 @@ description: |-
 images:
   - 96Brews_FrontPage.png
   - 96Brews_Video_OpenHours.png
-layout: project-display-page
+
 ---
 
 # 96Brews

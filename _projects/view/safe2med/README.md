@@ -1,9 +1,17 @@
 ---
 title: Safe2Med
 permalink: "/projects/safe2med/"
-layout: project-display-page
 redirect_from:
 - /project/sample-project-demo/
+images:
+  - BlocosAppDiagrama-1.png
+  - diagram.png
+  - output1.png
+  - output2.png
+  - SaudeCerta.png
+  - sponsor.png
+  - visual1.png
+  - visual2.png
 ---
 
 # Safe2Med

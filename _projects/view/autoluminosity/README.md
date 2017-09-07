@@ -5,7 +5,7 @@ description: |-
     This project is using the DragonBoard 410c running Windows 10 IoT Core, an Android app to handle managing different lights and rooms, and LIFX smart light bulbs. The goal of this project is to make it easier to set up schedules for your lights. Examples include turning lights on or off at a designated time or turning on lights prior to walking into the house.
 images:
   - AutoLuminosity_FrontPage.png
-layout: project-display-page
+
 ---
 # Auto Luminosity
 

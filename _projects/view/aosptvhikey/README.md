@@ -6,7 +6,7 @@ description: |-
 images:
   - AOSPTV_FrontPage.png
   - AOSPTV_Video_Demo.png
-layout: project-display-page
+
 ---
 # AOSP TV Build For The Hikey And Hikey 960
 

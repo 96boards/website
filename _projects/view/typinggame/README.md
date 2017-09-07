@@ -1,6 +1,6 @@
 ---
 title: Typing Game
-layout: project-display-page
+
 permalink: "/projects/TypingGame/"
 description: |-
     A typing game for the DragonBoard™ 410c from Arrow Electronics that utilizes java language and JVM. This game is designed to provide interactivity along with real-time animation and sound by utilizing the strong AV processing computing power of the DragonBoard 410c.

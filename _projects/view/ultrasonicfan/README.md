@@ -1,6 +1,6 @@
 ---
 title: Ultrasonic Fan Control
-layout: project-display-page
+
 permalink: "/projects/UltraSonicFan/"
 description: |-
     This project is designed to use the DragonBoard™ 410c from Arrow Electronics with a HS-100 ultrasonic module to detect the distance a person is from a fan to help prevent injury. The system is designed to transmit the distance value detected to the DragonBoard 410c and switch off the fan by triggering a relay connected to the DragonBoard 410c. The system is also designed to turn on the fan when the proximity near the fan is clear.

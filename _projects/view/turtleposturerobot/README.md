@@ -1,6 +1,6 @@
 ---
 title: Fit Turtle Posture Robot
-layout: project-display-page
+
 permalink: "/projects/TurtlePostureRobot/"
 description: |-
     Fit Turtle is designed to use the Kinect to extract a skeleton model of your body and analyze the alignment of your spine and head. It will follow you using the camera on the TurtleBot, powered by a DragonBoard™ 410c, and provide audio feedback about your posture.

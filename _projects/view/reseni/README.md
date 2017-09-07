@@ -1,9 +1,17 @@
 ---
 title: ReSeNi
 permalink: "/projects/reseni/"
-layout: project-display-page
 redirect_from:
 - /project/sample-project-demo/
+images:
+  - visual5.png
+  - logo.png
+  - pcb-ce.png
+  - pcb-module.png
+  - visual1.png
+  - visual2.png
+  - visual3.png
+  - visual4.png
 ---
 
 

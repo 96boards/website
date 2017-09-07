@@ -1,6 +1,6 @@
 ---
 title: e-BillBreaker
-layout: project-display-page
+
 permalink: "/projects/e-BillBreaker/"
 description: |-
     e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcomm Technologies, Inc. in Brazil. The objective of the project is to collect sensor data from an appliance or group of appliances and track power usage over a period of time. As it collects power usage data, the DragonBoardTM 410c synchronizes with a web application developed using Ruby on Rails, which then integrates with Google Chart APIs to display the usage trends of the appliances. This allows a user to see the historic trends of power consumption by appliance, and quickly identify any critical events or trigger conditions that caused any power fluctuation.
