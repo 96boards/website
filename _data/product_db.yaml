@@ -28,14 +28,14 @@ products:
       - 96b-0-bubblegum96-actions-ucrobotics-5.png
     product_os:
       - title: Debian
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
     product_third_party_images:
       - title: Phoenix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
       - title: Remix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
       - title: Ubuntu Core
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md
+        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.html
     product_accessories:
       - title: Power
         link: /product/power/
@@ -129,11 +129,11 @@ products:
     # Right Sidepanel links
     product_os:
       - title: Android
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md.html
       - title: Debian
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
       - title: OpenEmbedded
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md
+        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md.html
 
     product_middleware:
       - title: AWS IoT SDK
@@ -180,11 +180,11 @@ products:
 
     product_kits:
       - title: Basic Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
       - title: Audio Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/README.md
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
       - title: AWS IoT Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/README.md/
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
   - product_title: Hikey (LeMaker)
     product_permalink: /product/hikey/
 
@@ -259,11 +259,11 @@ products:
       - title: Misc
         link: /product/misc/
     product_os:
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
         title: AOSP
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md.html
         title: Debian
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md
+      - link: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
         title: OpenEmbedded
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
@@ -318,8 +318,7 @@ products:
         link: /product/misc/
 
     product_third_party_images:
-        - link: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md
-          title: AOSP
+        - link: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md.html
     product_buy_links:
       -
         link-title: "Amazon (USA)"
@@ -509,7 +508,7 @@ products:
         link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
-        link: /documentation/IoTEdition/carbon/downloads/Zephyr.md
+        link: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
   - product_title: Nitrogen
     product_permalink: /product/nitrogen/
 
@@ -606,7 +605,7 @@ products:
         link-url: "https://linaro.co/poplar-ali"
     product_os:
       - title: Build from Source
-        link: https://www.96boards.org/documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
+        link: /documentation/EnterpriseEdition/Poplar/BuildSource/
 # Mezzanine Products
   - product_title: NeonKey Mezzanine
     product_permalink: /product/neonkey/
