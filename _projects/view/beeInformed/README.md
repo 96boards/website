@@ -4,7 +4,6 @@ permalink: "/projects/beeinformed/"
 redirect_from:
 - /project/sample-project-demo/
 images:
-    - thumb.png
     - chart.png
     - diagram.png
     - header.png
