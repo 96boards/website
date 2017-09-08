@@ -57,4 +57,4 @@ of a credit card.
 
 </div>
 
-Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/UserManual.md) for more information
+Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md) for more information
