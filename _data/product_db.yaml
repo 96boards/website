@@ -639,7 +639,7 @@ products:
       - title: AOSP NeonKey Documentation
         link: https://source.android.com/source/devices#neonkey
       - title: Schematics
-        link: https://github.com/96boards/website/blob/master/_product/mezzanine/sensorkey/files/neonkey-schematics
+        link: https://github.com/sdrobertw/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
       - title: NeonKey on Tocoding
         link: http://en.tocoding.com/index.php/96boards-neonkey/
   - product_title: STM32 Sensor mezzanine board
