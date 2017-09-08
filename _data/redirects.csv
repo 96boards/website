@@ -225,5 +225,8 @@
 /legal,https://www.96boards.org/legal/
 /openhours,https://www.96boards.org/openhours/
 # -- Newsletter --
+/digest,https://www.96boards.org/digest/
 /newsletter/,https://www.96boards.org/digest/
+/newsletter,https://www.96boards.org/digest/
 /newsletter/digest/,https://www.96boards.org/digest/
+/newsletter/digest,https://www.96boards.org/digest/
