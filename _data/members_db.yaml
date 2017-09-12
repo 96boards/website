@@ -79,6 +79,9 @@ members:
         - name: Gumstix
           image: gumstix.jpg
           url: https://www.linaro.org/company/gumstix/
+        - name: Gigabyte
+          image: gigabyte.jpg
+          url: https://www.linaro.org/company/gigabyte/
         - name: Hoperun
           image: hoperun.jpg
           url: https://www.linaro.org/company/hoperun/
