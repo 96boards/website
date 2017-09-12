@@ -109,6 +109,9 @@ members:
         - name: UcRobotics
           image: uc-robotics.png
           url: https://www.linaro.org/company/ucrobotics/
+        - name: vamrs
+          image: vamrs.jpg
+          url: https://www.linaro.org/company/vamrs/
         - name: WrtNode
           image: wrtnode.png
           url: https://www.linaro.org/company/wrtnode/
@@ -122,6 +125,3 @@ members:
         - name: Rohm
           image: rohm.png
           url: https://www.linaro.org/company/rohm/
-        - name: vamrs
-          image: vamrs.jpg
-          url: https://www.linaro.org/company/vamrs/
