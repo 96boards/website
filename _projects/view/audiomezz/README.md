@@ -5,7 +5,7 @@ description: |-
     This project uses the 96Boards Audio Mezzanine Board and Alexa Voice Services to highlight the audio functionality of the DragonBoard™ 410c.
 images:
   - AudioMezz_FrontPage.png
-layout: project-display-page
+
 ---
 # Audio Mezzanine Board
 

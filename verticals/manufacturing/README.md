@@ -1,3 +1,18 @@
+---
+title: Manufacturing
+description: |-
+  Manufacturing is a critical force in both advanced and developing economies. It is evident that
+  when technology advances so does our manufacturing techniques and environment. As our devices
+  become cheaper, smaller, faster, stronger, and increasingly more intricate, our developers must
+  find ways to stay ahead of the curve.
+permalink: /verticals/manufacturing/
+redirect_from: /verticals/Manufacturing
+keywords: |-
+  circuit board manufacturing, printed circuit board, Manufacturing board, Manufacturing development boards,
+status: active
+layout: empty-container-page-no-nav
+---
+
 # Manufacturing
 
 ## Introduction
@@ -15,4 +30,3 @@ diverse sector, with diverse needs. Simply pair up with one of our many boards, 
 development environment, and plug away. 96Boards offers a healthy pool of SoC options, which allows
 developers a straightforward path to production. Building custom devices for your 96Boards chip has
 never been this streamlined.
-

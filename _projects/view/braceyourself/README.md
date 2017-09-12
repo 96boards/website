@@ -7,7 +7,7 @@ images:
   - BraceYourself_FrontPage.png
   - BraceYourself_Video_Demo.png
   - BraceYourself_Video_Presentation.png
-layout: project-display-page
+
 ---
 # Brace Yourself
 

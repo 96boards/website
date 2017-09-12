@@ -3,9 +3,10 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-07-19 01:01:54+00:00
 layout: post
-link: http://www.96boards.org/blog/device-tree-overlay-on-96Boards/
+link: https://www.96boards.org/blog/device-tree-overlay-on-96Boards/
 slug: device-tree-overlay-on-96Boards
 featured_image: devicetree.png
+thumbnail_image: devicetree-thumb.png
 title: Device Tree Overlay on 96Boards
 wordpress_id: 20365
 categories:

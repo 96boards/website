@@ -51,6 +51,7 @@ in accordance with the ISO 11898 standard.  |
 |  MEMORY (SPI FRAM 1MB 1.8V)                       | Memory (SPI FRAM 1MB 1.8V) ([SPEC](http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf))                                                                                               |
 |  MS5611 BAROMETRIC SENSOR                         | A high resolution altitude and digital atmospheric pressure sensor accurate to within 10 cm.     |
 |  Mating Connectors                                |                                                                                                  |
+{:.hidden_rows}
 
 </div>
 

@@ -3,7 +3,7 @@ author: linaro
 comments: true
 date: 2016-09-24 21:09:29+00:00
 layout: post
-link: http://www.96boards.org/blog/recap-of-the-96boards-openhours-20-dragonboard-410c-mini-series-part-2/
+link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-20-dragonboard-410c-mini-series-part-2/
 slug: recap-of-the-96boards-openhours-20-dragonboard-410c-mini-series-part-2
 featured_image: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 20 - DragonBoard 410c Mini-Series Part 2
@@ -75,11 +75,11 @@ To watch episode 20 go to [https://www.youtube.com/watch?v=iR1YzwGwGQE ](http
 
 **Be sure to join us for next week's LIVE OpenHours at Linaro Connect LAS16:  [ https://www.youtube.com/watch?v=29yWWbXa8p8](https://www.youtube.com/watch?v=29yWWbXa8p8)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -137,7 +137,7 @@ Youtube: [http://link.linaro.org/openhoursyoutube](http://link.linaro.org/openho
 
 
 
-[http://www.96boards.org/openhours/](http://www.96boards.org/openhours/)
+[https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
 
 
 
@@ -533,7 +533,7 @@ RW
 
 
 
-@tatzelbrumm: The mezzanine Lawrence is using can be found here: [http://www.96boards.org/products/mezzanine/grove-starter-kit/](http://www.96boards.org/products/mezzanine/grove-starter-kit/)
+@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -712,7 +712,7 @@ RW
 
 
 
-Kit can be found here: [http://www.96boards.org/products/mezzanine/grove-starter-kit/](http://www.96boards.org/products/mezzanine/grove-starter-kit/)
+Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -1215,7 +1215,7 @@ Does it come with an SDK?
 
 
 
-[www.96boards.org/forums](http://www.96boards.org/forums/)/
+[discuss.96boards.org](https://discuss.96boards.org/)/
 
 
 
@@ -1338,8 +1338,8 @@ Subscribe to 96Boards youtube for OpenHours live streem next week
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](http://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)

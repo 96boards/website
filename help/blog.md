@@ -1,5 +1,5 @@
 
-# 96boards Blog
+# How To submit a 96boards Blog Post
 
 96boards blog posts are now written in markdown for a Jekyll based static site. These markdown posts are pulled in by Jekyll and displayed just like your typical 96boards blog post. The following tips will help you get on track and start writing blog posts for the new static site.
 
@@ -88,6 +88,14 @@ featured_image: your-featured-img.png
 ```
 The featured image takes the name of an image that is located in the \_assets/images folder.
 
+### Custom Thumbnails
+
+```yaml
+thumbnail_image: your-featured-img-THUMB.png
+```
+The thumbnail image takes the name of an thumbnail image that is located in the \_assets/images folder and `must` not be the same name as the featured image.
+If you have not made a custom thumbnail then this line of front matter is not needed and if included may break the build. If you have a custom thumbnail then be sure to use this front matter to reference it.
+
 ### Images
 Images must be added to the `/\_assets/images/` folder in the website repo you have forked. This includes your featured_image. Please optimize your images and keep the file size down as much as possible to help with pagespeed and performance. The Jekyll site will build a thumbnail for your featured_image one is added to the \_assets/images/ folder.
 
@@ -99,6 +107,11 @@ To add an image in your markdown please use the following liquid include.
 
 When using this liquid include the image you have included in your blog post will be rendered as a responsive image and when clicked the image will then display a lightbox.
 
+## Markdown Image include
+You can still add images to your post using the typical markdown image syntax but your image have to be in [this folder](https://github.com/96boards/website/tree/master/assets/images) rather than \_assets/images; as this folder is reserved for images that are included using asset_path from [Jekyll Assets](https://github.com/jekyll/jekyll-assets).
+
+
+
 ### Youtube Video Series
 To include a youtube video in your blog post simply use the `media.html` include as follows:
 
@@ -106,7 +119,7 @@ To include a youtube video in your blog post simply use the `media.html` include
 {% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
 ```
 
-`Note: Currently only youtube embed links for the video will work. E.g https://www.youtube.com/embed/bbMp3puXkVg`
+`The following formats are accepted for youtube videos - https://www.youtube.com/embed/bbMp3puXkVg or https://www.youtu.be/bbMp3puXkVg `
 
 This youtube video will be rendered as a responsively embedded element so it displays correctly on all screen sizes. This embed will also be lazy loaded.
 
@@ -137,7 +150,6 @@ def newFunction(firstname, surname):
 
 ## 4. Commit your changes and submit PULL Request.
 Once you are happy with your blog post commit your changes locally and push to your forked repo. Once you have done this submit a PULL request by going to your repository in the browser and clicking the "Pull request" link just above your repo files. This blog post will then be reviewed and if all is in order your changes will be merged into the master branch on 96boards/website.
-
 
 ## 5. Wait patiently for the Automatic Update
 Once your blog post is pulled into the master branch on 96boards/website the content will be updated on the website(currently manually) automatically.

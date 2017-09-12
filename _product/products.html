@@ -11,16 +11,16 @@ redirect_from:
   - /product/
   - /products/new/
   - /shop/
+css-pack: products
 ---
 <div class="container">
-
 
         <div class="row">
             <div class="col-md-8" class="description">
                     <p id="collection-description">{{ page.description }}</p>
             </div>
             <div class="col-md-4 fade-in-one hidden-sm hidden-xs">
-                  <img id="collection-image" class="img-responsive center-block" src="/images/96boards-logo-300x109.png" alt="96Boards logo small.">
+                  <img id="collection-image" class="img-responsive center-block" src="{% asset_path '96boards-logo-300x109.png' %}" alt="96Boards logo small.">
             </div>
 
         </div>

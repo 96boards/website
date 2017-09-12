@@ -3,7 +3,7 @@ author: shovan
 comments: true
 date: 2015-07-30 13:29:48+00:00
 layout: post
-link: http://www.96boards.org/tutorial/helping-makers-create-exciting-new-technologies-dragonboard-410c/
+link: https://www.96boards.org/tutorial/helping-makers-create-exciting-new-technologies-dragonboard-410c/
 slug: helping-makers-create-exciting-new-technologies-dragonboard-410c
 featured_image: arrow-dragonboard410c.jpg
 title: Helping Makers Create Exciting New Technologies with the DragonBoard 410c

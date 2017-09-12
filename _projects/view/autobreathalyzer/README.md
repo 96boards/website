@@ -6,7 +6,7 @@ description: |-
 images:
   - AutoBreathalyzer_Demo.png
   - AutoBreathalyzer_FrontPage.png
-layout: project-display-page
+
 ---
 # Automotive Breathalyzer
 

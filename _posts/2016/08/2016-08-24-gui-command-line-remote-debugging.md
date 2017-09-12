@@ -3,7 +3,7 @@ author: davidm
 comments: true
 date: 2016-08-24 23:34:01+00:00
 layout: post
-link: http://www.96boards.org/blog/gui-command-line-remote-debugging/
+link: https://www.96boards.org/blog/gui-command-line-remote-debugging/
 slug: gui-command-line-remote-debugging
 featured_image: 2.png
 title: Gui & command line remote debugging
@@ -34,7 +34,7 @@ tags:
 - rpb
 ---
 
-In my [last blog](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/) I showed how to setup an ssh key so Eclipse can automatically copy an ARM binary over to your 96Boards development system, and I showed you how to use external libraries ([libsoc](https://github.com/jackmitch/libsoc) and [mraa](https://github.com/intel-iot-devkit/mraa)). This blog was supposed to cover remote debugging using Eclipse. No joy in that, I have spent quite a lot of time trying to figure out how to do remote ARM debugging on an X86 Linux system using GDB and Eclipse. I’ll keep looking but I’m not really an IDE person, and I can’t find the magic settings to get Eclipse to talk to the correct gdb and remote machine. That said, I did get command line remote gdb debugging to work, and I was also able to get remote source code debugging to work with the gui ddd and gdb, so all is not lost.
+In my [last blog](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/) I showed how to setup an ssh key so Eclipse can automatically copy an ARM binary over to your 96Boards development system, and I showed you how to use external libraries ([libsoc](https://github.com/jackmitch/libsoc) and [mraa](https://github.com/intel-iot-devkit/mraa)). This blog was supposed to cover remote debugging using Eclipse. No joy in that, I have spent quite a lot of time trying to figure out how to do remote ARM debugging on an X86 Linux system using GDB and Eclipse. I’ll keep looking but I’m not really an IDE person, and I can’t find the magic settings to get Eclipse to talk to the correct gdb and remote machine. That said, I did get command line remote gdb debugging to work, and I was also able to get remote source code debugging to work with the gui ddd and gdb, so all is not lost.
 
 If there are any Eclipse experts out there, I could use some help, I am “positive” there is some to set the needed options within Eclipse, but I can’t find it. Suggestions and help will be gladly accepted. I am not an Eclipse expert by any stretch of the imagination, I don’t generally use IDE’s at all, I prefer command line tools, though I will admit I prefer source code debugging when I need to do it, and for that I tend to use ddd over gdb. To do remote debugging you need to install several pieces of software on both systems (Host and 96Boards).
 
@@ -52,13 +52,13 @@ If there are any Eclipse experts out there, I could use some help, I am “posit
   * You know how to use the ddd gui interface to gdb if you choose to use the ddd interface, remember this is not a tutorial on using ddd, this is just how to get gdb to work with gdb in a remote debugging scenario.
 
 
-  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
+  * Previously installed command line cross compilation tools as described in a [prior blog entry of mine](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
 
 
   * Cross debugging host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools including gdb installed.
 
 
-  * You are debugging for [96Boards](http://www.96boards.org/) - either 32bit or 64bit ARM.
+  * You are debugging for [96Boards](https://www.96boards.org/) - either 32bit or 64bit ARM.
 
 
 
@@ -246,27 +246,27 @@ Restart gdbserver on your 96Boards, it will have exited when you exited ddd
 
 **Hint,** ddd is a gui that runs on top of gdb so you must have gdb fully running before trying to use ddd. If gdb is not functioning standalone, ddd is not going to run either.
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC channel](http://webchat.freenode.net/?channels=%2396boards) #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC channel](http://webchat.freenode.net/?channels=%2396boards) #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](http://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
 
 
 
-  * [How do you access the GPIO pins programmatically?](http://www.96boards.org/blog/access-gpio-pins-programmatically/)
+  * [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
 
 
-  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](http://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)

@@ -1,6 +1,6 @@
 ---
 title: Smart Lighting Management System
-layout: project-display-page
+
 permalink: "/projects/SmartLighting/"
 description: |-
     This project is designed to connect lighting systems from different areas, such as home, office building and hotel, to the cloud for centralized management and control. The goal is to reduce energy consumption and manage lighting efficiency.

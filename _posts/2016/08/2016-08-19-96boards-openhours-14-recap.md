@@ -3,7 +3,7 @@ author: jennifer.castelino
 comments: true
 date: 2016-08-19 22:23:18+00:00
 layout: post
-link: http://www.96boards.org/blog/96boards-openhours-14-recap/
+link: https://www.96boards.org/blog/96boards-openhours-14-recap/
 slug: 96boards-openhours-14-recap
 featured_image: OpenHours-03.png
 title: 96Boards OpenHours 14 Recap
@@ -47,7 +47,7 @@ tags:
 
 {% include media.html media_url="https://www.youtube.com/embed/G0w8fN1JvFQ?feature=oembed" %}
 
-A couple of week's ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ http://www.96boards.org/forums/topic/openhours-topic-suggestion/ ](http://www.96boards.org/forums/topic/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+A couple of week's ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
 This week began by Robert discussing the question from last week about the HiKey board running Android and wondering what the GPIO values were.  Robert found out that the pens for the Debian are the same as the HiKey.  Robert then announced that in September he will be doing a Dragon Board live set-up out of the box, then the next episode after that we will give away some Dragon Boards in a raffle for those on the call.  The call today was very small with fewer people on the call than normal.  A guest on the call had a question about a hack-a-thon they are doing using the Dragon Board, and Robert mentioned a great slide deck with a lot of useful information:  [https://docs.google.com/presentation/d/1RbUkCF6B7c4nH2oSwbcjzR8yFysF2F7pP-NTl8fB-hc/edit#slide=id.g14e3d25dac_0_495 ](https://docs.google.com/presentation/d/1RbUkCF6B7c4nH2oSwbcjzR8yFysF2F7pP-NTl8fB-hc/edit#slide=id.g14e3d25dac_0_495).  Then there was a battery charging question around the Dragon Board but Robert is still investigating the proper answer to this question.  There was a discussion then on power supplies with the boards, kits and production of boards.
 
@@ -55,9 +55,9 @@ As always there is a lot of good information and resources that was given in the
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Be sure to join us for the next OpenHours  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](http://www.96boards.org/forums/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -174,7 +174,7 @@ RW
 
 
 
-[http://www.96boards.org/documentation/ConsumerEdition/README.md/](http://www.96boards.org/documentation/ConsumerEdition/README.md/)
+[https://www.96boards.org/documentation/ConsumerEdition/README.md/](https://www.96boards.org/documentation/ConsumerEdition/README.md/)
 
 
 
@@ -481,7 +481,7 @@ or you could have someone reply on the forum
 
 
 
-[http://www.96boards.org/forums/topic/use-the-charger-in-pmic-to-charge-battery/](http://www.96boards.org/forums/topic/use-the-charger-in-pmic-to-charge-battery/)
+[https://discuss.96boards.org/t/use-the-charger-in-pmic-to-charge-battery/](https://discuss.96boards.org/t/use-the-charger-in-pmic-to-charge-battery/)
 
 
 
@@ -918,8 +918,8 @@ yes
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](http://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](http://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)

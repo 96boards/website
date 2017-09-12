@@ -1,6 +1,6 @@
 ---
 title: Laser Imaging and Modeling
-layout: project-display-page
+
 permalink: "/projects/LaserImagingandModeling/"
 description: |-
     The project is designed to adopt laser imaging in combination with software developed on the DragonBoard™ 410c from Arrow Electronics to scan any designated object and get its pseudo-3D model. The laser imaging unit is composed of line laser and camera. The specific structure calibrated by software can be used for high precision modeling of the object. The DragonBoard 410c software was developed on QT and uses Open CV for image processing. The acquired pseudo-3D model can be viewed in MeshLab.

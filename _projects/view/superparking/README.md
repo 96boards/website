@@ -1,6 +1,6 @@
 ---
 title: Super Parking
-layout: project-display-page
+
 permalink: "/projects/SuperParking/"
 description: |-
     This project is for the Smart Cities Hackathon. The main point of doing this project learn how to use the DragonBoard. The project objetive is to let the user know if in a parking lot are free parking spots, this using the security camera to locate all the cars in the parking lot and count them for the process and see the spots.

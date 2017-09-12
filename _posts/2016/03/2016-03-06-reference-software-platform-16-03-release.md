@@ -3,7 +3,7 @@ author: rsalveti
 comments: true
 date: 2016-03-06 12:54:21+00:00
 layout: post
-link: http://www.96boards.org/blog/reference-software-platform-16-03-release/
+link: https://www.96boards.org/blog/reference-software-platform-16-03-release/
 slug: reference-software-platform-16-03-release
 featured_image: youtube-banner.jpg
 title: Reference Software Platform 16.03 Release!
@@ -120,7 +120,7 @@ build from source are all published at
 [https://github.com/96boards/documentation/wiki/Reference-Platform-Home](https://github.com/96boards/documentation/wiki/Reference-Platform-Home).
 
 For general questions or support requests, please go to the
-[96boards.org](http://96boards.org/) Community forum ([https://www.96boards.org/forums/](https://www.96boards.org/forums/)). For
+[96boards.org](https://96boards.org/) Community forum ([httpss://discuss.96boards.org/](https://discuss.96boards.org/)). For
 development questions and topics, please use the 96Boards.org
 development mailing-list ([dev@lists.96boards.org](mailto:dev@lists.96boards.org)).
 

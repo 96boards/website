@@ -3,7 +3,7 @@ author: rsalveti
 comments: true
 date: 2015-12-23 03:42:19+00:00
 layout: post
-link: http://www.96boards.org/blog/reference-software-platform-15-12-release/
+link: https://www.96boards.org/blog/reference-software-platform-15-12-release/
 slug: reference-software-platform-15-12-release
 featured_image: 96boards-socialmedia.jpg
 title: Reference Software Platform 15.12 Release!
@@ -100,7 +100,7 @@ CE AOSP RPB for [HiKey](https://www.96boards.org/products/ce/hikey/) (including 
 
 Install instructions, known issues, test reports and instructions to build from source are all published at [https://github.com/96boards/documentation/wiki/RP-Release-2015.12](https://github.com/96boards/documentation/wiki/RP-Release-2015.12). Please also check [https://github.com/96boards/documentation/wiki/ReferenceSoftwareEE](https://github.com/96boards/documentation/wiki/ReferenceSoftwareEE) for documentation covering the components released as part of the EE RPB.
 
-For general questions or support requests, please go to the [96boards.org](http://96boards.org/) Community forum ([https://www.96boards.org/forums/](https://www.96boards.org/forums/)). For development questions and topics, please use the 96Boards.org development mailing-list ([dev@lists.96boards.org](mailto:dev@lists.96boards.org)).
+For general questions or support requests, please go to the [96boards.org](https://96boards.org/) Community forum ([https://discuss.96boards.org/](https://discuss.96boards.org/)). For development questions and topics, please use the 96Boards.org development mailing-list ([dev@lists.96boards.org](mailto:dev@lists.96boards.org)).
 
 For bugs related to the 96Boards platforms, please use the 96Boards bug tracking system ([https://bugs.96boards.org/](https://bugs.96boards.org/)). For bugs related to the reference software platform release, but on development boards that are not officially part of 96Boards, please use [https://bugs.linaro.org](https://bugs.linaro.org/) instead (e.g. AMD Overdrive and HiSilicon D02).
 

@@ -1,6 +1,6 @@
 ---
 title: Digital Album
-layout: project-display-page
+
 permalink: "/projects/DigitalAlbum/"
 description: |-
     This project is designed to read out images under the home partition and display them in a certain sequence to realize different transitions like left-right image switchover, fade in-out, louver etc. The project is also designed to allow the user to select the previous or next image using two buttons, and implement image processing options such as adjusting contrast, brightness and corrosion expansion.

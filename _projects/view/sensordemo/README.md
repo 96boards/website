@@ -1,6 +1,6 @@
 ---
 title: Sensor Demo
-layout: project-display-page
+
 permalink: "/projects/SensorDemo/"
 description: |-
     With the simple connection of some wires and sensors, you’ll be able to control virtual 3D objects by having them change and move at your command in real-time.

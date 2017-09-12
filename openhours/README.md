@@ -5,7 +5,8 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
 layout: empty-container-page-no-nav
-page_specific_css: openhours-page
+css-pack: openhours
+js-vendor: openhours
 ---
 <div class="col-md-6" markdown="1">
 <br>
@@ -13,9 +14,11 @@ page_specific_css: openhours-page
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA3MjdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MTRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #63** -  Next time in OpenHours, we will be joined (in person/on site) by all the winners from the [Brazilian Partnership Program](http://www.96boards.org/go/db410c-partnership-brazil/) and their entourage! In person and live, you can join in on the fun as we take over the Qualcomm Thinkabit lab on Qualcomm campus San Diego, California! Our seasoned OpenHours engineer (Rajan), former featured participant and event oraganizer (Bruno Evangelista), Embarcados CMO (Thiago Lima), and the group of winners will join us to share their experience in organizing, running, and participating in this amazing new way to hack on the 96Boards platform and contribute to the greater community in a positive way. Keep an eye on the countdown, we will be there when the clocks hits zeros!
+**OpenHours Episode #70** - Does anyone remember the [home surveillance project](https://github.com/96boards-projects/home_surveillance) created by Mani Sadhasivam (96Boards Applications engineer) several months ago? Well since then, people from Qualcomm have taken this project and turned it into a nice little DIY kit! What better place to showcase this kit and a great demo than on OpenHours... And who better to explain these efforts than Rajan Mistry, Qualcomm's seasoned OpenHours representative of the show (don't quote me on that one). Either way, Rajan joins us all the time on OpenHours, and this time he will be there as our featured guest. We will talk about the project it self, the reason behind it's consumption, and the eventual contributions that were made by Rajan and his team back into the project. Join us this week to see and hear more about this great effort, check out the demo, and get your questions answered. All are welcome! See you there.
+
+Now is your chance to be a part of the discussion. Bring your questions and comments on past, present and future plans around the Snapdragon work with Linaro, the DragonBoard 410c, and pretty much anything else 96Boards related. All are welcome!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -44,7 +47,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA3MjdUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MTRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
