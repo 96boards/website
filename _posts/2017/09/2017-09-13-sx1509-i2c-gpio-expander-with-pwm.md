@@ -4,7 +4,7 @@ comments: true
 date: 2017-09-13 12:00:00+00:00
 layout: post
 title: SX1509 i2c GPIO Expander with 8bit PWM Support
-featured_image: sx1509.png
+featured_image: sx1509.jpg
 tags:
 - 64-Bit
 - 96Boards
