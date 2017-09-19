@@ -1,6 +1,6 @@
 ---
 title: Running KVM on HiKey
-layout: project-display-page
+
 permalink: "/projects/KVM/"
 description: |-
     For some releases now,  KVM – the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the HiKey from 96Boards.

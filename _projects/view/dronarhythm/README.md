@@ -1,6 +1,6 @@
 ---
 title: Drona Rhythm
-layout: project-display-page
+
 permalink: "/projects/DronaRhythm/"
 description: |-
     DronaRhythm is an audio control system designed to allow drones to be virtually always-on, and respond to their environment in real-time without needing specific user input.

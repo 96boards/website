@@ -1,6 +1,6 @@
 ---
 title: Home Automation
-layout: project-display-page
+
 permalink: "/projects/HomeAutomation/"
 description: |-
     The aim of this workshop, created for an event at the University of Illinois at Urbana-Champaign, is to familiarize students with the Python scripting language, the OpenCV library, the Linux operating system, and the DragonBoard 410c.

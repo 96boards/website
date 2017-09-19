@@ -1,11 +1,11 @@
 ---
 title: IBM Watson IoT Platform Service
-layout: project-display-page
+
 permalink: "/projects/IBMWatsonIoT/"
 description: |-
     There is a three Step Process to connect the DragonBoard 410c to the IBM Watson IoT Platform - Prepare the IoT cloud service (sign up with IBM Bluemix and create an IBM Watston IoT Platform Service instance) - Prepare your device - Verify connection in the IBM Watson IoT Platform Dashboard
 images:
-  - IBMWatson_FrontPage 2.png
+  - IBMWatson_FrontPage.png
 ---
 # IBM Watson IoT Platform Service
 

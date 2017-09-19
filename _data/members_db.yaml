@@ -79,6 +79,9 @@ members:
         - name: Gumstix
           image: gumstix.jpg
           url: https://www.linaro.org/company/gumstix/
+        - name: Gigabyte
+          image: gigabyte.jpg
+          url: https://www.linaro.org/company/gigabyte/
         - name: Hoperun
           image: hoperun.jpg
           url: https://www.linaro.org/company/hoperun/
@@ -106,6 +109,9 @@ members:
         - name: UcRobotics
           image: uc-robotics.png
           url: https://www.linaro.org/company/ucrobotics/
+        - name: vamrs
+          image: vamrs.jpg
+          url: https://www.linaro.org/company/vamrs/
         - name: WrtNode
           image: wrtnode.png
           url: https://www.linaro.org/company/wrtnode/
@@ -119,6 +125,3 @@ members:
         - name: Rohm
           image: rohm.png
           url: https://www.linaro.org/company/rohm/
-        - name: vamrs
-          image: vamrs.jpg
-          url: https://www.linaro.org/company/vamrs/
