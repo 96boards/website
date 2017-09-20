@@ -68,7 +68,7 @@ I arrived to the event on Sunday (Sept 10th) to meet, help set up the booth and 
 
 Grab some coffee and take a seat, it’s time to take an operating system journey with the folks from Red Hat… What kind of journey you may ask? This is your story, your journey through the operating systems of a lifetime. Reach back into the depths of your memories to recall the first OS you ever booted, what was the first thing you did when those pixels lit up and your fingers hit the keys. No matter how old or young, everyone has taken the operating system journey, and Red Hat wanted to hear your story. This was only half of the fun. While a seasoned Red Hatter asked you fun questions about your past OSs, a cartoon artist drew you into an exciting comic book cover! The 10-15 minute experience was not only fun, but also rewarding as you walked away with your very own silly comic portrait. The booth’s artist and interviewers kept quite busy as the days went on, anyone at the conference was welcome to participate in this fun, interactive activity.
 
-{% include image.html name="ossummit-2017-1.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-1.jpg" alt="Your alternate text." %}
 
 ## Day 1
 
