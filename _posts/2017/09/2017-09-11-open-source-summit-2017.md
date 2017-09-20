@@ -1,7 +1,7 @@
 ---
 author: Robert Wolff
 comments: true
-date: 2017-09-11 12:00:00+00:00
+date: 2017-09-13 12:00:00+00:00
 layout: post
 link: https://www.96boards.org/blog/open-source-summit-2017/
 slug: open-source-summit-day-one
@@ -14,7 +14,7 @@ categories:
 tags:
 - open source summit
 - ossummit
-- Redhat
+- Red hat
 - 64-bit
 - 96Boards
 - aarch64
