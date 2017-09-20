@@ -5,13 +5,14 @@ date: 2017-09-11 12:00:00+00:00
 layout: post
 link: https://www.96boards.org/blog/open-source-summit-2017/
 slug: open-source-summit-day-one
-featured_image: path-libmraa-96boards-part-2-featured.png
-thumbnail_image: path-libmraa-96boards-part-2-featured-thumb.png
-title: Open Source Summit
+featured_image: ossummit-2017-feature.JPG
+thumbnail_image: ossummit-2017-feature-thumb.JPG
+title: Open Source Summit - 2017
 wordpress_id: 
 categories:
 - blog
 tags:
+- open source summit
 - ossummit
 - Redhat
 - 64-bit
@@ -67,7 +68,7 @@ I arrived to the event on Sunday (Sept 10th) to meet, help set up the booth and 
 
 Grab some coffee and take a seat, it’s time to take an operating system journey with the folks from Red Hat… What kind of journey you may ask? This is your story, your journey through the operating systems of a lifetime. Reach back into the depths of your memories to recall the first OS you ever booted, what was the first thing you did when those pixels lit up and your fingers hit the keys. No matter how old or young, everyone has taken the operating system journey, and Red Hat wanted to hear your story. This was only half of the fun. While a seasoned Red Hatter asked you fun questions about your past OSs, a cartoon artist drew you into an exciting comic book cover! The 10-15 minute experience was not only fun, but also rewarding as you walked away with your very own silly comic portrait. The booth’s artist and interviewers kept quite busy as the days went on, anyone at the conference was welcome to participate in this fun, interactive activity.
 
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-1.JPG" alt="Your alternate text." %}
 
 ## Day 1
 
@@ -75,19 +76,19 @@ Bright and early Monday morning. As mentioned in the introduction, the day start
 
 The goal of this showcase was to both make people aware of the 96Boards/Linaro and Red Hat partnership, but to also flaunt the new 64-bit Fedora images that are currently in the works. Throughout the day, hundreds of people came by to see the showcase, have a small chat about 96Boards/Linaro, and move on to questions about Fedora and Red Hat. The experience was great and the amount of people who showed interest in the 96Boards hardware was truly unexpected, it was a hit. Day one closed out with 
 
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-2.JPG" alt="Your alternate text." %}
 
 ## Day 2
 
 Tuesday started off with a 5K run (I did not participate), breakfast and of course another set of interesting keynotes. One in particular comes to mind, that of Joseph Gordon-Levitt. His keynote titled, “[The Difference Between a Crowd and a Community](http://events.linuxfoundation.org/events/open-source-summit-north-america/program/schedule)” really struck a chord with me, I wanted to know more, and more importantly hear him speak. Now while I won’t dive into his talk ([see video here](https://youtu.be/zd9FnRjR9Xk)), I will say it was very applicable to almost everything open source. As the 96Boards Community Manager, it was nice to see so many great ideas articulated so well during this keynote. If you have a spare 30-35 minutes, I would definitely recommend taking the time to watch the video.
 
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-3.JPG" alt="Your alternate text." %}
 
 Off to the showroom! Booth duty kicked off at 10:00a PST and I was ready to go. With the coffee and comics already in full swing, Red Hat swag sprawled out across the table and the 96Boards showcase latched to the booth, we were all ready to take on questions from the crowds of open source enthusiasts. Sure enough it was another very busy day of fun conversation and intense networking. 
 
 At about 11:00a we surprise attendees a with two-day long 96Boards raffle, sponsored by [Qualcomm](https://developer.qualcomm.com/) and hosted by Red Hat. Social media lights up with announcements of hourly [DragonBoard 410c](https://96boards.org/product/dragonboard410c/) giveaways and people start dropping their business cards into the specially positioned Red Hat (hat) on the table. After every hour a new winner is announced until finally seven DragonBoard 410c’s are raffled off. This was very exciting and rewarding to see so many awesome people win DragonBoards. A special thank you to everyone who participated, there are always more chances to get you hands on 96Boards gear ([tune into OpenHours](https://www.96boards.org/openhours/), weekly for more information).
 
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-4.JPG" alt="Your alternate text." %}
 
 Of course, in between each raffle and the hustle and bustle of booth duty, I had the chance to roam around and take time to visit almost every booth. Jacked on up coffee and adrenaline, I wanted to see it all, speak with everyone, and learn as much as possible… Unfortunately, there were not enough hours in the day. The showroom eventually closed down, crowds shuffled out, group formed and nighttime festivities began. I walked away with a bunch of new friends and a backpack full of swag!
 
@@ -105,9 +106,9 @@ I would like to extend a special thanks to our partner, Red Hat, for sponsoring 
 
 I would also like to thank Qualcomm and Arrow for donating the 10 DragonBoard 410c’s which were raffled throughout the course of the conference.
 
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
-{% include image.html name="OpenHours.png" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-5.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-6.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-7.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-8.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-9.JPG" alt="Your alternate text." %}
+{% include image.html name="ossummit-2017-10.JPG" alt="Your alternate text." %}
