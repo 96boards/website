@@ -107,8 +107,13 @@ I would like to extend a special thanks to our partner, Red Hat, for sponsoring 
 I would also like to thank Qualcomm and Arrow for donating the 10 DragonBoard 410c’s which were raffled throughout the course of the conference.
 
 {% include image.html name="ossummit-2017-5.JPG" alt="Your alternate text." %}
+
 {% include image.html name="ossummit-2017-6.JPG" alt="Your alternate text." %}
+
 {% include image.html name="ossummit-2017-7.JPG" alt="Your alternate text." %}
+
 {% include image.html name="ossummit-2017-8.JPG" alt="Your alternate text." %}
+
 {% include image.html name="ossummit-2017-9.JPG" alt="Your alternate text." %}
+
 {% include image.html name="ossummit-2017-10.JPG" alt="Your alternate text." %}
