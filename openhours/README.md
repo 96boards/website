@@ -14,11 +14,9 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MTRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGN1ZW41YThvbTluNWE2cWI4ODkwYmlxdGkgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org)
 
-**OpenHours Episode #70** - Does anyone remember the [home surveillance project](https://github.com/96boards-projects/home_surveillance) created by Mani Sadhasivam (96Boards Applications engineer) several months ago? Well since then, people from Qualcomm have taken this project and turned it into a nice little DIY kit! What better place to showcase this kit and a great demo than on OpenHours... And who better to explain these efforts than Rajan Mistry, Qualcomm's seasoned OpenHours representative of the show (don't quote me on that one). Either way, Rajan joins us all the time on OpenHours, and this time he will be there as our featured guest. We will talk about the project it self, the reason behind it's consumption, and the eventual contributions that were made by Rajan and his team back into the project. Join us this week to see and hear more about this great effort, check out the demo, and get your questions answered. All are welcome! See you there.
-
-Now is your chance to be a part of the discussion. Bring your questions and comments on past, present and future plans around the Snapdragon work with Linaro, the DragonBoard 410c, and pretty much anything else 96Boards related. All are welcome!
+**OpenHours Episode #72** - Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. Bring your coffee and questions, demos and feedback because OpenHours is going to San Francisco!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -47,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MTRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGN1ZW41YThvbTluNWE2cWI4ODkwYmlxdGkgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org)
 
 ### How to Join
 
