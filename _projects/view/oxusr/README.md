@@ -1,6 +1,6 @@
 ---
 title: OxusR – Content Optimization
-layout: project-display-page
+
 permalink: "/projects/OxusR/"
 description: |-
     OxusR is a Digital Signage project that is designed to optimize bandwidth consumption by avoiding redundant downloads on the same network.

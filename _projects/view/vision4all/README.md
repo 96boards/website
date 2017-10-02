@@ -1,6 +1,6 @@
 ---
 title: Vision 4all
-layout: project-display-page
+
 permalink: "/projects/Vision4all/"
 description: |-
     This project aims to implement vision assistive technology using DragonBoard™ 410c, OpenCV and Android applications. It uses computer vision and image processing to identify possible obstacles and helps the user navigate through the given area by providing feedback about the user’s surroundings.

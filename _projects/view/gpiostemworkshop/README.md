@@ -1,6 +1,6 @@
 ---
 title: GPIO STEM Workshop
-layout: project-display-page
+
 permalink: "/projects/GPIOSTEMWorkshop/"
 description: |-
     How can students aspire to jobs they don’t know exist? That is the challenge that the UK charity STEM Team East is trying to solve for students living in the east of England.

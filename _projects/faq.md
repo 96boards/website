@@ -1,7 +1,7 @@
 ---
 layout: empty-container-page
 title: Projects FAQ
-permalink: "/projects/faq.md/"
+permalink: /projects/faq.md/
 description: |-
     What kind of projects can be submitted to this repo? / If my entire source code is in my own repo, how should I submit? / How should the copyright of source be submitted? / What kind of materials should be included while submitting a project? / Can I expect community contributions? / Will the project be shown in 96Boards website?
 ---

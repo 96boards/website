@@ -1,3 +1,13 @@
+---
+title: Maker
+description: |-
+  Hobbyists often want to quickly prototype their projects and show them to the community. For this purpose the ability to setup the board quickly as possible is needed.
+permalink: /verticals/maker/
+redirect_from: /verticals/Maker/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # Maker
 
 ## Introduction
@@ -16,4 +26,3 @@ be spent on developing the application out of it. The availability of Mezzanine 
 community to quickly interface sensors and actuators onto the system. Also, the 96Boards are
 designed to have small footprint, which is ideal for making the board to fit in any constrained
 case.
-

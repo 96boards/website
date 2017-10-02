@@ -1,6 +1,6 @@
 ---
 title: S.A.M. (Smart Assistant Mirror)
-layout: project-display-page
+
 permalink: "/projects/SAM/"
 description: |-
     Since the ancient Egypt, the mirror has been used for personal grooming and admiring oneself, but now we want to make it a part of the next generation of homes. We want to introduce you S.A.M., your personal smart assistant mirror.

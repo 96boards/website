@@ -14,3 +14,6 @@ redirect_from:
 
 
 [Go DragonBoard-410c Partnership Brazil](/go/db410c-partnership-brazil/)
+
+
+[Go Linaro Connect SFO17 Reach](/go/sfo17-connect-reach/)

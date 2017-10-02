@@ -1,13 +1,13 @@
 ---
 title: NeonKey
 layout: product-display-page
-permalink: /product/neonkey-mezzanine/
+permalink: /product/neonkey/
 description: |-
     96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
     ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 redirect_from:
-- /product/neonkey
-- /product/neonkey-mezzanine
+- /product/neonkey-mezzanine/
+
 ---
 # NeonKey Mezzanine
 
@@ -42,5 +42,5 @@ redirect_from:
 
 - [AOSP Sensors Documentation](https://source.android.com/devices/sensors/)
 - [AOSP NeonKey Documentation](https://source.android.com/source/devices#neonkey)
-- Schematics ([View](https://github.com/96boards/website/blob/master/_product/mezzanine/sensorkey/files/neonkey-schematics) / [Download](https://github.com/96boards/website/raw/master/_product/mezzanine/sensorkey/files/neonkey-schematics))
+- Schematics ([View](https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf) / [Download](https://github.com/96boards/website/raw/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf))
 - [NeonKey on Tocoding](http://en.tocoding.com/index.php/96boards-neonkey/)

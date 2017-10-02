@@ -1,6 +1,6 @@
 ---
 title: Dragon Detector
-layout: project-display-page
+
 permalink: "/projects/DragonDetector/"
 description: |-
     The DragonBoard™410c detects motion via an IR sensor and takes a photo via the webcam. The image is processed by OpenCV to see if there are any dragons. If a dragon is detected then the program calls an IFTTT maker API end point and notifies an operator on their phone, and the knight on the top of the detector flashes his eyes red.

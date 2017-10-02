@@ -1,3 +1,13 @@
+---
+title: 96Boards Verticals
+description: |-
+  Boards for DIY Projects. ARM Boards for Hobbyist hacks. Powerful Open Source Boards for Maker community
+keywords: |-
+permalink: /verticals/
+status: active
+layout: empty-container-page-no-nav
+---
+
 # 96Boards Verticals
 
 - [Drone](drone/README.md)
@@ -5,9 +15,9 @@
 - [Automotive](automotive/README.md)
 - [Manufacturing](manufacturing/README.md)
 - [Healthcare](healthcare/README.md)
-- [MachineLearning](machinelearning/README.md)
+- [MachineLearning](machine-learning/README.md)
 - [Agriculture](agriculture/README.md)
 - [Maker](maker/README.md)
-- [Digital Signage](digitalsignage/README.md)
-- [High End Audio](highendaudio/README.md)
-- [Virtual Reality](virtualreality/README.md)
+- [Digital Signage](digital-signage/README.md)
+- [High End Audio](high-end-audio/README.md)
+- [Virtual Reality](virtual-reality/README.md)

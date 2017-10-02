@@ -6,7 +6,7 @@ description: |-
     DragonPulse app utilizes NodeJS, MQTT protocol, and Amazon AWS services, to interact with Ubuntu shell commands.  Extract performance and summary statistics to remotely monitor top CPU consumption, memory usage, network traffic, and disk space.
 images:
   - AWSIoT_FrontPage.png
-layout: project-display-page
+
 ---
 # Amazon Web Services (AWS) IoT
 

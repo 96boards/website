@@ -1,6 +1,6 @@
 ---
 title: Breakerball
-layout: project-display-page
+
 permalink: "/projects/BreakerBall/"
 description: |-
     This is a great demo of the simplicity and power of the DragonBoard 410c that would interest younger programmers.

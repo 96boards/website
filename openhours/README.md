@@ -5,8 +5,8 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
 layout: empty-container-page-no-nav
-specific_css: openhours-page
-specific_js: openhours
+css-pack: openhours
+js-vendor: openhours
 ---
 <div class="col-md-6" markdown="1">
 <br>
@@ -14,9 +14,9 @@ specific_js: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGN1ZW41YThvbTluNWE2cWI4ODkwYmlxdGkgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org)
 
-**OpenHours Episode #64** - This week on OpenHours we will meet with HIJ! Along with a recap of last week's amazing episode with the Brazilian partnership program, we will also be talking with HIJ about their voice assistant for 96Boards. This project/product not only builds in the adaptation for AI adapter, voice acquisition, noise reduction processing, ASR and NLP semantic understanding platform, but also docks with live and video on demand apps. It can be woke up and interrupted by “Hello, Xiaole” which truly achieves the idea “Hands Free Eyes Free”. HIJ voice assistant can achieve voice interaction dialogue within 10 meters, but also can listen to music, search movies and watch TV live for free. The folks at HIJ will be giving us access to their code, resources and more! See you there.
+**OpenHours Episode #72** - Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. Bring your coffee and questions, demos and feedback because OpenHours is going to San Francisco!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA4MDNUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGN1ZW41YThvbTluNWE2cWI4ODkwYmlxdGkgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org)
 
 ### How to Join
 

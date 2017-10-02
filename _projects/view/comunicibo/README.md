@@ -1,6 +1,6 @@
 ---
 title: ComuniCibo
-layout: project-display-page
+
 permalink: "/projects/ComuniCibo/"
 description: |-
     Smart Cities need to focus on the interconnection of services for a better quality of life. It has been estimated that in 2050 more than 60% of population will be living in the cities and necessities like feeding will be a complexity.
