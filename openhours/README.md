@@ -14,9 +14,9 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MjFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #71** - Edge computing and industrial IoT are on the docket for this week's OpenHours. Once again, we will be joined by Rajan Mistry from Qualcomm to talk about the amazing efforts put forth to enable the 96Boards DragonBoard 410c with [AWS Greengrass](https://aws.amazon.com/greengrass/). Everyone wants to know more about this subject, this is your chance to get the tough questions answered from one of the best! Don't forget to tune in at the end of the countdown. All are welcome!
+**OpenHours Episode #73** - Saúde Certa(Safe2Med) is a project that aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds, allowing information transparency and real-time monitoring. This time on OpenHours, you will get to meet the creators of this amazong prototype/product. Together we will discuss their development path and future product plans. If you have a product idea with 96Boards and would like to find out more about how people are using these platforms to bring their products to life, this is your chance. Join us in welcoming the folks from Safe2Med, bring your questions, comments, and favorite mug of coffee or tea! In the wake of Linaro Connect (SFO17) we will have much to discuss.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA5MjFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
