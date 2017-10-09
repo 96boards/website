@@ -9,6 +9,9 @@ members:
           - name: Archer Mind
             image: archermind.jpg
             url: https://www.linaro.org/company/archermind/
+          - name: Arm
+            image: arm.jpg
+            url: https://www.linaro.org/company/arm/
           - name: Arrow Electronics
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
