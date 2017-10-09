@@ -54,7 +54,7 @@ the recently added **mmap** support for [Dragonboard410c](https://www.96boards.o
 
 # **What is mmap and its need?**
 
-[mmap](https://linux.die.net/man/2/mmap) is a syscall in linux for mapping the virtual address to particular physical address.
+[mmap](https://linux.die.net/man/2/mmap) is a syscall in linux for mapping the virtual address to a particular physical address.
 This is essential for controlling the memory mapped IO peripherals. There are good reasons to avoid and use mmap in linux. One
 particular usage of mmap is to directly control the peripherals without going into the device driver model. This is used predominently
 for the below mentioned reasons:
@@ -62,16 +62,16 @@ for the below mentioned reasons:
 1. Faster access of the peripherals
 2. No interface provided to use the functionality.
 
-Basically reason 1 seems to suit most of the time, particularly for simple peripherals such as GPIO. For the mraa library,
+Basically, reason 1 seems to suit most of the time, particularly for simple peripherals such as GPIO. For the mraa library,
 GPIO is controlled (till now) using old sysfs interface. This suits well for most of the use cases like turning ON and OFF a
 gpio line. But, when it comes to toggle the gpio continuously to generate PWM, sysfs interface will fall back. Because, there
 will be cretain delay in accessing the gpio which may cause the PWM waveform to be unstable.
 
 So, the solution is to use mmap for faster access to gpio pins. But I'm not saying that the mmap interface will be lightning fast
-to be able to generate PWM at MHz frequency range but will be handy most of the times.
+to be able to generate PWM at MHz frequency range, but will be handy most of the times.
 
 When talking about the delay in accessing GPIO in linux, we have to include context switch delay introduced by the scheduler too.
-This cannot be avoided even by using mmap and addressing this issue will be done in another blog post.
+This cannot be avoided even by using mmap, and addressing this issue will be done in another blog post.
 
 # **mmap support in libmraa for Dragonboard410c**
 
@@ -98,9 +98,5 @@ For reading or writing to a particular pin, below calculation is used:
 
 # **Conclusion**
 
-We are at the end of this blog post. I hope that this blog post gave much info on mmap and its usage in libmraa. We will
-be working more on libmraa in upcoming days. So, stay tuned for further parts. Meanwhile, it'd be
-great if someone can benchmark the performance on using regular sysfs support and mmap support in libmraa and share with the
-community :-).
-
-
+We are at the end of this blog post. I hope this blog post gave much info on mmap and its usage in libmraa. We will be working more on libmraa in the upcoming days, stay tuned for further parts. Meanwhile, it'd be
+great if someone can benchmark the performance on using regular sysfs support and mmap support in libmraa and share with the community :-).
