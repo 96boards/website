@@ -1,4 +1,13 @@
 entries:
+  - title: SOFTBANK's IoT platform and Linaro's interoperability with the open standard 
+      "96Boards" series products for IoT
+    link: https://www.softbank.jp/corp/group/sbm/news/press/2017/20170926_01/
+    tag: news
+
+  - title: Arrow Electronics and Cypress Team up to Provide Ubiquitous IoT Connectivity
+    link: http://www.businesswire.com/news/home/20171004006231/en/Arrow-Electronics-Cypress-Team-Provide-Ubiquitous-IoT
+    tag: news
+
   - title: Linaro Announces First Development Board Compliant with 96Boards IoT Edition
       Specification
     link: http://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
