@@ -233,3 +233,5 @@
 /newsletter,https://www.96boards.org/digest/
 /newsletter/digest/,https://www.96boards.org/digest/
 /newsletter/digest,https://www.96boards.org/digest/
+# Logo used by Discourse
+/wp-content/uploads/2015/01/96Boards-website-logo.png,https://www.96boards.org/assets/logo.svg
