@@ -29,7 +29,7 @@ redirect_from:
 <div class="col-md-6">
     <div class="list-group">
         <a class="list-group-item active">
-            96Boards in the News
+            Linaro 96Boards News
         </a>
         {% assign linaro-news = site.data.news.entries | where: "tag","news" %}
         {% for news in linaro-news %}
@@ -40,7 +40,7 @@ redirect_from:
 <div class="col-md-6">
     <div class="list-group">
         <a href="" class="list-group-item active">
-            Linaro 96Boards News
+            96Boards in the News
         </a>
 
         {% assign external-news = site.data.news.entries | where: "tag","external-news" %}
