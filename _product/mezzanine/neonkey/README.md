@@ -24,17 +24,17 @@ redirect_from:
 
 | Component            | Description                                                                                               |
 |:---------------------|:---------------------------------------------------------------------------------------------------------:|
-| SoC                  | STMicroelectronics STM32F411CE                                                                            |
+| SoC                  | STMicroelectronics STM32F411CE                                                                             |
 | CPU                  | ARM Cortex-M4                                                                                             |
 | Clock Speed          | 100 MHz Maximum                                                                                           |
-| SRAM                 | 128 Kbytes                                                                                                |
-| Storage              | 512 Kbytes flash                                                                                          |
-| Sensors              | Temp/Humidity, Preasure, ALS/Proximity, Geomagnetic, Accel/Gyro                                           |
-| Expansion Interface  | 40 pin low-speed expansion connector, +1.8V, +5V, GND, SWDIO, SWCLK, UART, I2C, SPI, I2S, JTAG, MCU, GPIO |
-| Digital Out Voltage  | 1.8V                                                                                                      |
-| Analog In Voltage    | 3.3V                                                                                                      |
-| LED                  | 16 x LEDs                                                                                                 |
-| Button               | RST (Reset the STM32), USR (boot into bootloader for flashing)                                            |
+| SRAM                 | 128 Kbytes                                                                                                 |
+| Storage              | 512 Kbytes flash                                                                                           |
+| Sensors              | Temp/Humidity, Pressure, ALS/Proximity, Geomagnetic, Accel/Gyro, Microphone                               |
+| Expansion Interface  | 40 pin low-speed expansion connector, +1.8V, +5V, GND, UART, I2C, SPI, I2S, SWD, GPIO                     |
+| Digital Out Voltage  | 1.8V                                                                                                       |
+| Analog In Voltage    | 3.3V                                                                                                       |
+| LED                  | 15 x General purpose LEDs, 4 User LEDs                                                                                     |
+| Button               | RST (Reset the STM32), USR (boot into bootloader mode for flashing)                                       |
 | Size                 | 60x30mm                                                                                                   |
 {:.hidden_rows}
 
