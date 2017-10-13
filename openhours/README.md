@@ -14,9 +14,9 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMTJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #73** - Saúde Certa(Safe2Med) is a project that aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds, allowing information transparency and real-time monitoring. This time on OpenHours, you will get to meet the creators of this amazong prototype/product. Together we will discuss their development path and future product plans. If you have a product idea with 96Boards and would like to find out more about how people are using these platforms to bring their products to life, this is your chance. Join us in welcoming the folks from Safe2Med, bring your questions, comments, and favorite mug of coffee or tea! In the wake of Linaro Connect (SFO17) we will have much to discuss.
+**OpenHours Episode #74** - [DragonWally](http://www.dragonwally.com/) brings two high-resolution cameras to take pictures of the same scene from diferent points of view. An epipolar geometry algorithm then calculates the distance of the detected objects, based on subtle discrepancies between the two images. Get ready, because this week we will be speaking with the DragonWally team on OpenHours! Cezar Menezes, one of the Engineers from the DragonWally team will join us to talk about his project, the prototype, and his path to creating a product around this awesome idea. I have been told, we will be presented with several demos. We will of course have the opportunity to ask questions and address any other 96Boards concerns during the episode. Stop by with your favorite cup of coffee or tea and hang out with us!
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMTJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
