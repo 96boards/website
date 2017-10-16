@@ -195,6 +195,11 @@
 /product/carbon,https://www.96boards.org/product/carbon/
 /product/nitrogen,https://www.96boards.org/product/nitrogen/
 /product/orangepi-i96,https://www.96boards.org/product/orangepi-i96/
+/product/orangepi-i96/,https://www.96boards.org/product/orangepi-i96/
+/product/i96,https://www.96boards.org/product/orangepi-i96/
+/product/i96/,https://www.96boards.org/product/orangepi-i96/
+/products/i96,https://www.96boards.org/product/orangepi-i96/
+/products/i96/,https://www.96boards.org/product/orangepi-i96/
 /products/mezzanine,https://www.96boards.org/products/mezzanine/
 /product/neonkey,https://www.96boards.org/product/neonkey/
 /product/stm32,https://www.96boards.org/product/stm32/
