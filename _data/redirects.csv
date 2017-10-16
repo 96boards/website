@@ -112,8 +112,8 @@
 # Mezzanine
 /linker-mezzanine,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
 /linker-mezzanine/,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
-/MezzanineProducts/README.md,https://www.96boards.org/documentation/MezzanineProducts/
-/MezzanineProducts/README.md/,https://www.96boards.org/documentation/MezzanineProducts/
+/MezzanineProducts/README.md,https://www.96boards.org/documentation/mezzanine/
+/MezzanineProducts/README.md/,https://www.96boards.org/documentation/mezzanine/
 /products/mezzanine/grove-starter-kit/,https://www.96boards.org/product/sensors-mezzanine/
 /products/mezzanine/grove-starter-kit,https://www.96boards.org/product/sensors-mezzanine/
 /products/mezzanine/linker-mezzanine-starter-kit/,https://www.96boards.org/product/linkspritesensorkit/
@@ -217,7 +217,7 @@
 /documentation/ConsumerEdition,https://www.96boards.org/documentation/ConsumerEdition/
 /documentation/EnterpriseEdition,https://www.96boards.org/documentation/EnterpriseEdition/
 /documentation/IoTEdition,https://www.96boards.org/documentation/IoTEdition/
-/documentation/MezzanineProducts,https://www.96boards.org/documentation/MezzanineProducts/
+/documentation/MezzanineProducts,https://www.96boards.org/documentation/mezzanine/
 /documentation/Specifications,https://www.96boards.org/documentation/Specifications/
 /blog,https://www.96boards.org/blog/
 /contact,https://www.96boards.org/contact/
