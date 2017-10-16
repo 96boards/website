@@ -29,6 +29,8 @@
 # MediaTekX20
 /product/helio-x20/,https://www.96boards.org/product/mediatek-x20/
 /product/helio-x20,https://www.96boards.org/product/mediatek-x20/
+/products/ce/helio-x20/,https://www.96boards.org/product/mediatek-x20/
+/products/ce/helio-x20,https://www.96boards.org/product/mediatek-x20/
 /products/ce/mediatek-x20/,https://www.96boards.org/product/mediatek-x20/
 /products/ce/mediatek-x20,https://www.96boards.org/product/mediatek-x20/
 /x20,https://www.96boards.org/product/mediatek-x20/
