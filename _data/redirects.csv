@@ -235,3 +235,15 @@
 /newsletter/digest,https://www.96boards.org/digest/
 # Logo used by Discourse
 /wp-content/uploads/2015/01/96Boards-website-logo.png,https://www.96boards.org/assets/logo.svg
+# Redirects for MezzanineProducts Rename
+/documentation/MezzanineProducts/aerocore2/,https://www.96boards.org/documentation/mezzanine/aerocore2/
+/documentation/MezzanineProducts/audio-mezzanine/,https://www.96boards.org/documentation/mezzanine/audio-mezzanine/
+/documentation/MezzanineProducts/d3camera/,https://www.96boards.org/documentation/mezzanine/d3camera/
+/documentation/MezzanineProducts/ethernetcard/,https://www.96boards.org/documentation/mezzanine/ethernetcard/
+/documentation/MezzanineProducts/linkspritesensorkit/,https://www.96boards.org/documentation/mezzanine/linkspritesensorkit/
+/documentation/MezzanineProducts/mipiadapter/,https://www.96boards.org/documentation/mezzanine/mipiadapter/
+/documentation/MezzanineProducts/neonkey/,https://www.96boards.org/documentation/mezzanine/neonkey/
+/documentation/MezzanineProducts/sensors-mezzanine/,https://www.96boards.org/documentation/mezzanine/sensors-mezzanine/
+/documentation/MezzanineProducts/stm32/,https://www.96boards.org/documentation/mezzanine/stm32/
+/documentation/MezzanineProducts/uartserial/,https://www.96boards.org/documentation/mezzanine/uartserial/
+
