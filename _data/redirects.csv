@@ -268,4 +268,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /author/davidm,https://github.com/96boards/website/tree/master/_posts
 /author/sdrobertw/index.html,https://github.com/96boards/website/tree/master/_posts
 /author/sdrobertw,https://github.com/96boards/website/tree/master/_posts
+# Tutorial Redirects
+/tutorial/running-kvm-guest-hikey/index.html,https://www.96boards.org/blog/running-kvm-guest-hikey/
+/tutorial/running-kvm-guest-hikey,https://www.96boards.org/blog/running-kvm-guest-hikey/
+
 
