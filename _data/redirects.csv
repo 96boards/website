@@ -243,6 +243,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /OPENHOURS/index.html,https://www.96boards.org/openhours/
 /pinout,https://www.96boards.org/pinout/
 # -- Newsletter --
+/feed/index.html,https://www.96boards.org/digest/
+/feed,https://www.96boards.org/digest/
 /digest,https://www.96boards.org/digest/
 /newsletter/index.html,https://www.96boards.org/digest/
 /newsletter,https://www.96boards.org/digest/
@@ -261,4 +263,9 @@ https://www.96boards.org/products/ce/bubblegum96/
 /documentation/MezzanineProducts/STM32,https://www.96boards.org/documentation/mezzanine/stm32/
 /documentation/MezzanineProducts/UARTSerial/index.html,https://www.96boards.org/documentation/mezzanine/uartserial/
 /documentation/MezzanineProducts/UARTSerial,https://www.96boards.org/documentation/mezzanine/uartserial/
+# Temp Author Redirects
+/author/davidm/index.html,https://github.com/96boards/website/tree/master/_posts
+/author/davidm,https://github.com/96boards/website/tree/master/_posts
+/author/sdrobertw/index.html,https://github.com/96boards/website/tree/master/_posts
+/author/sdrobertw,https://github.com/96boards/website/tree/master/_posts
 
