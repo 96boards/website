@@ -16,6 +16,7 @@
 /bubblegumbuy/,http://linaro.co/bubblegum96-buy
 /product/bubblegum96/,https://www.96boards.org/product/bubblegum-96/
 /product/bubblegum96,https://www.96boards.org/product/bubblegum-96/
+https://www.96boards.org/products/ce/bubblegum96/
 /products/ce/bubblegum96/,https://www.96boards.org/product/bubblegum-96/
 /products/ce/bubblegum96,https://www.96boards.org/product/bubblegum-96/
 /products/ce/bubblegum96/docs/,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/
@@ -102,9 +103,13 @@
 /products/ce/hikey/downloads,https://www.96boards.org/documentation/ConsumerEdition/HiKey/Downloads/
 /products/ce/hikey/start/,https://www.96boards.org/documentation/ConsumerEdition/HiKey/GettingStarted/
 /products/ce/hikey/start,https://www.96boards.org/documentation/ConsumerEdition/HiKey/GettingStarted/
+/products/hikey/,https://www.96boards.org/product/hikey/
+/products/hikey,https://www.96boards.org/product/hikey/
 # Hikey 960
 /hikey960,https://www.96boards.org/product/hikey960/
 /hikey960/,https://www.96boards.org/product/hikey960/
+/products/hikey960/,https://www.96boards.org/product/hikey960/
+/products/hikey960,https://www.96boards.org/product/hikey960/
 #STM 32
 /stm32f446,https://www.96boards.org/product/stm32/
 /stm32f446/,https://www.96boards.org/product/stm32/
