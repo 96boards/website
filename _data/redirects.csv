@@ -118,6 +118,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /products/hikey/index.html,https://www.96boards.org/product/hikey/
 /products/hikey,https://www.96boards.org/product/hikey/
 # Hikey 960
+/documentation/ConsumerEdition/HiKey960/README.md/index.html,https://www.96boards.org/documentation/ConsumerEdition/HiKey960/
+/documentation/ConsumerEdition/HiKey960/README.md,https://www.96boards.org/documentation/ConsumerEdition/HiKey960/
 /hikey960,https://www.96boards.org/product/hikey960/
 /hikey960/index.html,https://www.96boards.org/product/hikey960/
 /products/hikey960/index.html,https://www.96boards.org/product/hikey960/
@@ -190,6 +192,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /about/program,http://www.96boards.org/membership/
 /forums/topic/faq/index.html,https://discuss.96boards.org/
 # Additional Redirects
+/feed/index.html,https://www.96boards.org/blog/
+/feed,https://www.96boards.org/blog/
 /tag/openhours/index.html,https://www.96boards.org/blog/tag/
 /tag/openhours,https://www.96boards.org/blog/tag/
 /about,https://www.96boards.org/about/
