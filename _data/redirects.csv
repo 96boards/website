@@ -7,6 +7,10 @@
 # sd600eval
 /products/ce/extended/sd600eval/index.html,http://www.96boards.org/products/
 /products/ce/extended/sd600eval,http://www.96boards.org/products/
+/product/sd600eval/index.html,http://www.96boards.org/products/
+/product/sd600eval,http://www.96boards.org/products/
+/products/sd600eval/index.html,http://www.96boards.org/products/
+/products/sd600eval,http://www.96boards.org/products/
 # B2260
 /product/b2260/index.html,https://96boards.org/products/ce/
 /product/b2260,https://96boards.org/products/ce/
@@ -28,8 +32,6 @@ https://www.96boards.org/products/ce/bubblegum96/
 /products/ce/bubblegum96/downloads,https://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/Downloads/
 /products/ce/bubblegum96/start/index.html,http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/GettingStarted/
 /products/ce/bubblegum96/start,http://www.96boards.org/documentation/ConsumerEdition/Bubblegum-96/GettingStarted/
-/products/ce/dragonboard410c/index.html,https://www.96boards.org/product/dragonboard410c/
-/products/ce/dragonboard410c,https://www.96boards.org/product/dragonboard410c/
 # MediaTekX20
 /product/helio-x20/index.html,https://www.96boards.org/product/mediatek-x20/
 /product/helio-x20,https://www.96boards.org/product/mediatek-x20/
@@ -45,6 +47,10 @@ https://www.96boards.org/products/ce/bubblegum96/
 /carbon-buy,http://linaro.co/carbon-buy
 /carbon-buy/index.html,http://linaro.co/carbon-buy
 # Dragonboard
+/db410c/index.html,https://www.96boards.org/product/dragonboard410c/
+/db410c,https://www.96boards.org/product/dragonboard410c/
+/db410c-getting-started/Downloads/README.md/index.html,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+/db410c-getting-started/Downloads/README.md,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
 /dragonboard,https://www.96boards.org/product/dragonboard410c/
 /dragonboard/index.html,https://www.96boards.org/product/dragonboard410c/
 /dragonboard410c,https://www.96boards.org/product/dragonboard410c/
@@ -66,11 +72,14 @@ https://www.96boards.org/products/ce/bubblegum96/
 /DragonBoard410c/index.html,https://www.96boards.org/product/dragonboard410c/
 /DragonBoard410c/docs,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /DragonBoard410c/docs/index.html,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
-/products/ce/dragonboard410c/index.html,https://www.96boards.org/product/dragonboard410c/
 /products/ce/dragonboard410c/docs/index.html,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /products/ce/dragonboard410c/docs,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/
 /products/ce/dragonboard410c/downloads/index.html,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
 /products/ce/dragonboard410c/downloads,https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+/products/ce/dragonboard410c/index.html,https://www.96boards.org/product/dragonboard410c/
+/products/ce/dragonboard410c,https://www.96boards.org/product/dragonboard410c/
+/product/ce/dragonboard410c/index.html,https://www.96boards.org/product/dragonboard410c/
+/product/ce/dragonboard410c,https://www.96boards.org/product/dragonboard410c/
 /products/dragonboard/index.html,https://www.96boards.org/product/dragonboard410c/
 /products/dragonboard,https://www.96boards.org/product/dragonboard410c/
 /DragonBoard/index.html,https://www.96boards.org/product/dragonboard410c/
@@ -181,6 +190,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /about/program,http://www.96boards.org/membership/
 /forums/topic/faq/index.html,https://discuss.96boards.org/
 # Additional Redirects
+/tag/openhours/index.html,https://www.96boards.org/blog/tag/
+/tag/openhours,https://www.96boards.org/blog/tag/
 /about,https://www.96boards.org/about/
 /specifications,https://www.96boards.org/specifications/
 /compliance,https://www.96boards.org/compliance/
@@ -243,6 +254,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /OPENHOURS/index.html,https://www.96boards.org/openhours/
 /pinout,https://www.96boards.org/pinout/
 # -- Newsletter --
+/feed/index.html,https://www.96boards.org/digest/
+/feed,https://www.96boards.org/digest/
 /digest,https://www.96boards.org/digest/
 /newsletter/index.html,https://www.96boards.org/digest/
 /newsletter,https://www.96boards.org/digest/
@@ -261,4 +274,13 @@ https://www.96boards.org/products/ce/bubblegum96/
 /documentation/MezzanineProducts/STM32,https://www.96boards.org/documentation/mezzanine/stm32/
 /documentation/MezzanineProducts/UARTSerial/index.html,https://www.96boards.org/documentation/mezzanine/uartserial/
 /documentation/MezzanineProducts/UARTSerial,https://www.96boards.org/documentation/mezzanine/uartserial/
+# Temp Author Redirects
+/author/davidm/index.html,https://github.com/96boards/website/tree/master/_posts
+/author/davidm,https://github.com/96boards/website/tree/master/_posts
+/author/sdrobertw/index.html,https://github.com/96boards/website/tree/master/_posts
+/author/sdrobertw,https://github.com/96boards/website/tree/master/_posts
+# Tutorial Redirects
+/tutorial/running-kvm-guest-hikey/index.html,https://www.96boards.org/blog/running-kvm-guest-hikey/
+/tutorial/running-kvm-guest-hikey,https://www.96boards.org/blog/running-kvm-guest-hikey/
+
 
