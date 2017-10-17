@@ -49,10 +49,10 @@ We look forward to seeing you in our next episode!
 
 #### Links and resources
 
-- [https://github.com/monero-projectMonero](https://github.com/monero-projectMonero)
+- [https://github.com/monero-project/Monero](https://github.com/monero-project/Monero)
 - [reddit: [https://www.reddit.com/r/Monero/](https://www.reddit.com/r/Monero/)
 - reddit: [https://www.reddit.com/r/Kovri/](https://www.reddit.com/r/Kovri/)
-- [under construction]Monero website: [https://getmonero.orgKovri](https://getmonero.orgKovri)
+- [under construction]Monero website: [https://getmonero.org/resources/moneropedia/kovri.html](https://getmonero.org/resources/moneropedia/kovri.html)
 - website: [https://getkovri.org](https://getkovri.org)
 - New, work in progress [https://getmonero.org/knowledge-base/moneropedia/kovri](https://getmonero.org/knowledge-base/moneropedia/kovri)
 - hyc on another project: [https://github.com/crosstool-ng/crosstool-ng/pull/700](https://github.com/crosstool-ng/crosstool-ng/pull/700)
