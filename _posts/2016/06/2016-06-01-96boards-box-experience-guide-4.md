@@ -72,9 +72,14 @@ Looking at the green columns in the diagram, we see the GPIOs valued from A to L
 
 Since each SoC has different GPIO values I had uploaded several of these diagrams, one or more for each 96Boards.
 
-**96Boards** ([Lettered](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/96Boards_LS_pinout.jpg){:class="img-responsive lazyload"} )
-**HiKey** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/HiKey_Debian_pinout.jpg){:class="img-responsive lazyload"} )
-**DragonBoard 410c** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Debian_pinout.jpg){:class="img-responsive lazyload"}  / [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Android_pinout.jpg){:class="img-responsive lazyload"} )
+**96Boards** 
+{% include image.html name="96Boards_LS_pinout.jpg" alt="Lettered" %}
+**HiKey**
+{% include image.html name="HiKey_Debian_pinout.jpg" alt="Debian" %}
+**DragonBoard 410c**
+{% include image.html name="DB410c_Debian_pinout.jpg" alt="Debian" %}
+
+ ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Debian_pinout.jpg){:class="img-responsive lazyload"}  / [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Android_pinout.jpg){:class="img-responsive lazyload"} )
 **Bubblegum-96** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/Bubblegum96_Debian_pinout.jpg){:class="img-responsive lazyload"} )
 
 Now that you have gained some familiarity with the low speed expansion header on your 96Boards, it’s time to take a closer look at the GPIO interface. This is the interface we will be interacting with in just a bit.
