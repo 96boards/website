@@ -7,6 +7,9 @@
 # sd600eval
 /products/ce/extended/sd600eval/,http://www.96boards.org/products/
 /products/ce/extended/sd600eval,http://www.96boards.org/products/
+# B2260
+/product/b2260/,https://96boards.org/products/ce/
+/product/b2260,https://96boards.org/products/ce/
 # Bubblegum 96
 /bubblegum,http://www.96boards.org/product/bubblegum-96/
 /bubblegum/,http://www.96boards.org/product/bubblegum-96/
