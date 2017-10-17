@@ -612,7 +612,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/neonkey/
+          tab_link: /documentation/mezzanine/neonkey/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -647,7 +647,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/STM32/
+          tab_link: /documentation/mezzanine/stm32/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -685,7 +685,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/UARTSerial/
+          tab_link: /documentation/mezzanine/uartserial/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -751,7 +751,7 @@ products:
     product_permalink: /product/sensors-mezzanine/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/SensorsMezzanine/
+          tab_link: /documentation/mezzanine/sensors-mezzanine/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -829,7 +829,7 @@ products:
     product_permalink: /product/aerocore2/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/AeroCore2/
+          tab_link: /documentation/mezzanine/aerocore2/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -967,16 +967,16 @@ products:
       - "Camera Mezzanine Board OV5640_front.jpg"
       - "Camera Mezzanine Board OV5640_back.jpg"
 
-    product_getting_started: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+    product_getting_started: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
     product_documents:
         - title: D3 Engineering website
           link: http://www.d3engineering.com/solutions/embedded-vision
         - title: D3 DesignCore Mezzanine Wiki
           link: https://github.com/D3Engineering/410c_camera_support/wiki
         - title: Data Sheet
-          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
         - title: Quickstart Guide and Schematics
-          link: https://github.com/96boards/website/raw/master/_product/Mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
     mezzanine_features:
       - "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
       - "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
@@ -1015,7 +1015,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/MezzanineProducts/EthernetMezzanine/
+          tab_link: /documentation/mezzanine/ethernetcard/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mezzanine
@@ -1071,7 +1071,7 @@ accessories:
         Enterprise Edition board.
     accessory_order_link:
         - http://linaro.co/uart-seeed
-    accessory_more_info: /products/mezzanine/uarts/
+    accessory_more_info: /product/uartserial/
     accessory_search_term: 96Boards UART Serial Adapter
     accessory_images:
         - uarts-debug-accessory.jpg
