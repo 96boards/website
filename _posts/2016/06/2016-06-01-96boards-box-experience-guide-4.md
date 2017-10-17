@@ -181,7 +181,7 @@ This is only the beginning when it comes to using your 96Boards GPIO interfaces.
 [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
 [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
-Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/README.md) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
+Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
 
 Since the beginning of this series, it has been my goal to take it slow. A good foundation is important, and it must be built with correct information and a well organized bank of resources. As we steer deeper into the 96Boards universe, you will find yourself collecting links, cheatsheets, sample code, examples, diagrams, schematics, and so much more! It is important to stay organized. I would suggest starting your collection now, it will pay off in the long run.
 

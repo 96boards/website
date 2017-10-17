@@ -117,7 +117,7 @@ MB
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/README.md)
+[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md)
 
 
 

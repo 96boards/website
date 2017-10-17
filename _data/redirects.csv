@@ -182,6 +182,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /about/program,http://www.96boards.org/membership/
 /forums/topic/faq/index.html,https://discuss.96boards.org/
 # Additional Redirects
+/tag/openhours/index.html,https://www.96boards.org/blog/tag/
+/tag/openhours,https://www.96boards.org/blog/tag/
 /about,https://www.96boards.org/about/
 /specifications,https://www.96boards.org/specifications/
 /compliance,https://www.96boards.org/compliance/
