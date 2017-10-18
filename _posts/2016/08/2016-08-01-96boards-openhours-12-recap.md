@@ -282,7 +282,7 @@ DM
 
 
 
-Just wanted to report one 404 link in 96boards [https://www.96boards.org/db410c-getting-started/Quickstart/README.md/](https://www.96boards.org/db410c-getting-started/Quickstart/README.md/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
+Just wanted to report one 404 link in 96boards [/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
 
 
 
@@ -470,7 +470,7 @@ DM
 
 
 
-[https://www.96boards.org/db410c-getting-started/Quickstart/README.md/](https://www.96boards.org/db410c-getting-started/Quickstart/README.md/)
+[/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)
 
 
 
