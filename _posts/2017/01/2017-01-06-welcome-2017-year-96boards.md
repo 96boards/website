@@ -471,7 +471,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Hackerboards.com talks 96Boards SBCs](http://hackerboards.com/96boards-sbcs-host-intel-joule-and-curie-iot-modules/) with host Intel Joule and Curie IoT modules
 
 
-    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/expansion/radium-96bie.html)
+    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/radium-96bie.html)
 
 
 
