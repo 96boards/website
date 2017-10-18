@@ -56,12 +56,12 @@ A 2x20 (read as “two by twenty”) header has 40 pins, two pins in each row, a
 
 **What is a 2.0mm pitch?**
 The pitch is the distance between the center of each pin in either direction. By convention the 2.0mm pitch tells us that devices with a pitch other than 2.0mm should not be used with this header. The voltage will most likely differ.
-![Screen Shot 2016-05-04 at 3.19.00 PM]({% asset_path "96boards-box-5-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html name="96boards-box-5-img-1.png" alt="Screen Shot 2016-05-04 at 3.19.00 PM"%}
 
 Below is an image of the DragonBoard™ 410c (one of our 96Boards), and a diagram illustrating the interfaces available on the low-speed expansion header. Even though the DragonBoard 410c is used in this example, all 96Boards can be paired to this diagram.
 
-![Screen Shot 2016-05-05 at 1.25.25 PM]({% asset_path "96boards-box-5-img-2.png" %}){:class="img-responsive lazyload"} ![96Boards_LS_pinout]({% asset_path "96boards-box-5-img-3.jpg" %}){:class="img-responsive lazyload"}
-
+{% include image.html name="96boards-box-5-img-2.png" alt="Screen Shot 2016-05-05 at 1.25.25 PM" %}
+{% include image.html name="96boards-box-5-img-3.jpg" alt="96Boards_LS_pinout" %}
 
 
 As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](), [I2C](), [SPI](), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
@@ -72,7 +72,7 @@ Looking at the green columns in the diagram, we see the GPIOs valued from A to L
 
 Since each SoC has different GPIO values I had uploaded several of these diagrams, one or more for each 96Boards.
 
-**96Boards** 
+**96Boards**
 {% include image.html name="96Boards_LS_pinout.jpg" alt="Lettered" %}
 **HiKey**
 {% include image.html name="HiKey_Debian_pinout.jpg" alt="Debian" %}
@@ -194,13 +194,13 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 [![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md). Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
 
 --
 
-[**In this series**](https://www.96boards.org/tag/openhours/)
+[**In this series**](/tag/openhours/)
 
 
 
