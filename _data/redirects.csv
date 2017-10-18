@@ -297,4 +297,7 @@ https://www.96boards.org/products/ce/bubblegum96/
 # Other
 /product/linker-mezzanine-starter-kit/index.html,https://www.96boards.org/products/mezzanine/
 /product/linker-mezzanine-starter-kit,https://www.96boards.org/products/mezzanine/
-
+/documentation/README.md/index.html,https://www.96boards.org/documentation/
+/documentation/README.md,https://www.96boards.org/documentation/
+/documentation/Extras/ContributionPolicy.md/index.html,https://www.96boards.org/documentation/Extras/ContributionPolicy.md.html
+/documentation/Extras/ContributionPolicy.md,https://www.96boards.org/documentation/Extras/ContributionPolicy.md.html
