@@ -49,7 +49,7 @@ It's been awhile since I've posted any updates on 96boards devboards in AOSP, so
 
 On the HiKey front, things continue to move upstream, although it's been slower of late due to working on other activities.
 
-In 4.12, the i2s audio driver landed (although the DTS changes to enable it didn't make it) for HDMI audio support, as well as +[Rob Herring](https://plus.google.com/111041570522611950865)'s work to get the TI Bluetooth chip working via his new serial device bus.
+In 4.12, the i2s audio driver landed (although the DTS changes to enable it didn't make it) for HDMI audio support, as well as +[Rob Herring](https://plus.google.com/+RobHerring)'s work to get the TI Bluetooth chip working via his new serial device bus.
 
 The serial device bus is **really nice**, because it allows the kernel to handle basic initialization like loading the firmware, setting the baud-rate etc, which normally would have to have been done in some device-specific userspace code before the standard hci device protocols could be used over the UART. Now, the kernel handles all of that, and we just get a standard hci device, same as with a usb bluetooth dongle. BlueZ userspace already knew how to handle this device-specific initialization for standard Linux environments, but with Android we were having to use TI's out-of-tree kernel driver and HAL. So this is really nice to have a generic solution upstream, and we're in process of backporting it to the android-linaro-hikey-4.9.
 
