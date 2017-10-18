@@ -44,7 +44,7 @@ tags:
 - UART
 ---
 
-In our fourth installment of the 96Boards OpenHours session the team discussed the [low-speed expansion header](https://www.96boards.org/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. Robert also highlighted some great examples and resources to help any hobbyist/developer get started with any 96Boards.  To watch this weeks’ session go to: [https://www.youtube.com/watch?v=vzOy_WV_HwU](https://www.youtube.com/watch?v=vzOy_WV_HwU)
+In our fourth installment of the 96Boards OpenHours session the team discussed the [low-speed expansion header]() and it’s many GPIO interfaces. Robert also highlighted some great examples and resources to help any hobbyist/developer get started with any 96Boards.  To watch this weeks’ session go to: [https://www.youtube.com/watch?v=vzOy_WV_HwU](https://www.youtube.com/watch?v=vzOy_WV_HwU)
 
 {% include media.html media_url="https://www.youtube.com/embed/vzOy_WV_HwU" %}
 
@@ -136,7 +136,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
         6. 28:43 – Question: Is programming GPIO the same for all 96Boards?
 
 
-        7. Robert discussed some documentation that was available on github: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md)
+        7. Robert discussed some documentation that was available on github: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md]()
 
 
 
@@ -159,7 +159,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
 
 The last several minutes of the call there was much discussion on the Dragonboard.  Robert then mentioned next week’s topic and demos that would be given next week.
 
-Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md).  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
@@ -340,7 +340,6 @@ AT
 RW
 
 {% include image.html name="96Boards_LS_pinout.jpg"%}
-[/assets/images/blog/2016/06/96Boards_LS_pinout.jpg](/assets/images/blog/2016/06/96Boards_LS_pinout.jpg){:class="img-responsive lazyload"}
 
 Pinout
 
@@ -352,7 +351,7 @@ Pinout
 
 AW
 
-[https://github.com/96boards/documentation/tree/master/ConsumerEdition/GPIO/PinOuts](https://github.com/96boards/documentation/tree/master/ConsumerEdition/GPIO/PinOuts)
+[https://github.com/96boards/documentation/tree/master/ConsumerEdition/GPIO/PinOuts]()
 
 Thanks
 
@@ -406,7 +405,7 @@ Akira: do we have a forum thread for this?
 
 D(
 
-[https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/](https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/)
+[https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/](https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676)
 
 
 
