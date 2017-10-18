@@ -43,7 +43,7 @@ In this blog entry we will show you how to just cross compile using the standard
 ## Assumptions
 
 
-I’m using my Linux laptop as my cross compiling station, I’m starting with the most current release of Ubuntu on it, 16.04 and I’m using libsoc and mraa from github so I’m running the latest library code on the Linux laptop and on the 96Boards. I’m using a DragonBoard 410c today, but this works on a HiKey and a Bubblegum board just as well. In fact with the HiKey board with it’s 2G of RAM there is even less need of cross compiling, but even with 2G you could run out. So make sure to use apt-get and update both the 96Boards and the cross compiling station, then use git to make sure you have the latest code on the library(ies) you are using. I’m not going to go into making sure you have installed the latest and greatest libsoc and/or mraa on your 96Boards, [there are instructions for doing that](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/README.md) so no need to cover old ground.
+I’m using my Linux laptop as my cross compiling station, I’m starting with the most current release of Ubuntu on it, 16.04 and I’m using libsoc and mraa from github so I’m running the latest library code on the Linux laptop and on the 96Boards. I’m using a DragonBoard 410c today, but this works on a HiKey and a Bubblegum board just as well. In fact with the HiKey board with it’s 2G of RAM there is even less need of cross compiling, but even with 2G you could run out. So make sure to use apt-get and update both the 96Boards and the cross compiling station, then use git to make sure you have the latest code on the library(ies) you are using. I’m not going to go into making sure you have installed the latest and greatest libsoc and/or mraa on your 96Boards, [there are instructions for doing that]() so no need to cover old ground.
 It is critical that your cross compiling station and your 96Boards stay in sync in terms of software so if you update your laptop update your 96boards, if you don’t bad and unexpected things can and will happen.
 
 Finally this is not instructions or a tutorial on using the [OpenEmbedded](https://github.com/Linaro/documentation/blob/master/Reference-Platform/RPTest/ConsumerEdition/DragonBoard-410c/InstallOERPB-16.03.md) build framework, it allows developers to create a complete Linux Distribution for embedded systems. These are instructions to take a Linaro build for 96Boards and cross compile applications to run in that build. If you are trying to create a product with the smallest possible Linux footprint OpenEmbedded might be just the ticket for you but that is much more complex then cross compiling an application to run on a 96Boards build. So with that clarification lets get started on a simple application compile and cross compile.
@@ -78,7 +78,7 @@ $ sudo apt-get dist-upgrade`
 #### Step 2: If you are using libsoc and or mraa make sure they are installed and up to date
 
 
-**Installation libsoc:** Please go [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md) for first time libsoc installation instructions.
+**Installation libsoc:** Please go [here]() for first time libsoc installation instructions.
 
 **Update:** Change directory (cd) to your libsoc source and make sure you have latest code
 
@@ -90,7 +90,7 @@ $ ./configure --enable-board=<your board name here> --with-board-configs
 $ make
 $ sudo make install`
 
-**Installation mraa:** Please go [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md) for first time mraa installation instructions.
+**Installation mraa:** Please go [here]() for first time mraa installation instructions.
 
 **Update:** Change directory (cd) to your mraa source and make sure you have the latest code.
 
