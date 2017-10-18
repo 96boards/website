@@ -145,7 +145,7 @@ So many have already talked about and outlined HiKey960's specs. I think it is b
   * [威锋网 on – cnBeta.com](http://www.cnbeta.com/articles/tech/606691.htm)
 
 
-  * [IT.com.cn](http://www.it.com.cn/news/cyxw/yejie/2017042622/1362399.html)
+  * [IT.com.cn]()
 
 
   * [Webwire](http://www.webwire.com/ViewPressRel.asp?aId=208895)
