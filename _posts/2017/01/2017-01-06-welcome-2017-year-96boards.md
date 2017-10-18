@@ -459,7 +459,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Gumstix blogs](https://www.gumstix.com/blog/5752/) on Geppetto D20 mezzanine customization for all 96Boards
 
 
-  * [Fujitsu issues press release](http://www.fujitsu.com/jp/group/fei/en/resources/news/topics/2016/20161025.html) on F-Cue 96Boards
+  * [Fujitsu issues press release](http://www.fujitsu.com/jp/group/fei/en/resources/news/2016/20161025.html) on F-Cue 96Boards
 
 
   * [CNX Software reports](http://www.cnx-software.com/2016/10/28/fujitsu-launches-f-cue-96boards-compliant-board-powered-by-socionext-mb86s71-processor/) on the F-Cue 96Boards by Fujitsu
