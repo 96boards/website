@@ -64,7 +64,7 @@ Below is an image of the DragonBoard™ 410c (one of our 96Boards), and a diagra
 
 
 
-As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), [I2C](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), [SPI](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
+As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](), [I2C](), [SPI](), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
 
 In the part of the series, we will only focus on GPIOs (Green columns). In later parts we will go over some of the other interfaces available on this header.
 
@@ -79,8 +79,8 @@ Since each SoC has different GPIO values I had uploaded several of these diagram
 **DragonBoard 410c**
 {% include image.html name="DB410c_Debian_pinout.jpg" alt="Debian" %}
 
- ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Debian_pinout.jpg){:class="img-responsive lazyload"}  / [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Android_pinout.jpg){:class="img-responsive lazyload"} )
-**Bubblegum-96** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/Bubblegum96_Debian_pinout.jpg){:class="img-responsive lazyload"} )
+ ([Debian]()  / [Android]() )
+**Bubblegum-96** ([Debian]() )
 
 Now that you have gained some familiarity with the low speed expansion header on your 96Boards, it’s time to take a closer look at the GPIO interface. This is the interface we will be interacting with in just a bit.
 
