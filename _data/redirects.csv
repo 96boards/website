@@ -292,5 +292,7 @@ https://www.96boards.org/products/ce/bubblegum96/
 # Tutorial Redirects
 /tutorial/running-kvm-guest-hikey/index.html,https://www.96boards.org/blog/running-kvm-guest-hikey/
 /tutorial/running-kvm-guest-hikey,https://www.96boards.org/blog/running-kvm-guest-hikey/
-
+# Other
+/product/linker-mezzanine-starter-kit/index.html,https://www.96boards.org/products/mezzanine/
+/product/linker-mezzanine-starter-kit,https://www.96boards.org/products/mezzanine/
 
