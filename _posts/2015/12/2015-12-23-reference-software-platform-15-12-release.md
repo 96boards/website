@@ -41,7 +41,7 @@ The work for the CE OE/Yocto RPB was also started, but unfortunately not yet co
   * UEFI/EDK2 support for D02, provided by [OpenPlatformPkg](https://wiki.linaro.org/LEG/Engineering/Kernel/UEFI/CommonPlatformTree)
 
 
-  * [4.4-rc4 based kernel](https://git.linaro.org/people/amit.kucheria/kernel.git/shortlog/refs/heads/96b/releases/2015.12), including support for D02 and Overdrive
+  * [4.4-rc4 based kernel](https://git.linaro.org/git-ro/people/amit.kucheria/kernel.git/refs/heads/96b/releases/2015.12), including support for D02 and Overdrive
 
 
   * ACPI support for D02 and Overdrive (mandatory for the enterprise edition)
