@@ -272,6 +272,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 # Logo used by Discourse
 /wp-content/uploads/2015/01/96Boards-website-logo.png,https://www.96boards.org/assets/logo.svg
 # Redirects for MezzanineProducts Rename
+/product/aerocore/index.html,https://www.96boards.org/documentation/mezzanine/aerocore2/
+/product/aerocore,https://www.96boards.org/documentation/mezzanine/aerocore2/
 /documentation/MezzanineProducts/AeroCore2/index.html,https://www.96boards.org/documentation/mezzanine/aerocore2/
 /documentation/MezzanineProducts/AeroCore2,https://www.96boards.org/documentation/mezzanine/aerocore2/
 /documentation/MezzanineProducts/LinkerMezzanineStarterKit/index.html,https://www.96boards.org/documentation/mezzanine/linkspritesensorkit/
