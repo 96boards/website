@@ -415,26 +415,7 @@ Actually in that page there is a linux guide..
 
 that points to a pdf.. which gives 404..
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-the actual link is [https://www.96boards.org/dragonboard410c/LinuxUserGuide_DragonBoard.pdf](https://www.96boards.org/dragonboard410c/LinuxUserGuide_DragonBoard.pdf)
+the actual link is [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf)
 
 
 
