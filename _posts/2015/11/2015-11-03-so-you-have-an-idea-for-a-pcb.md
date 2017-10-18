@@ -51,7 +51,7 @@ To start, I'll briefly describe the outline of how a project would typically pan
   * Prototype/Production: Produce [gerber](https://www.96boards.org/?p=8964) files and specification document, send the design for review, calculate the Bill of Materials
 
 
-[![Workflow]({% asset_path "pcb-idea-img-1.png" %}){:class="img-responsive lazyload"} ](/assets/pcb-idea-img-1.png){:class="img-responsive lazyload"}
+{% include image.html name="pcb-idea-img-1.png" alt="Workflow" %}
 
 Not too scary huh? Often the development stage is the longest, since you will revise and rework your design several times before you will be happy with it.
 [Specification→](https://www.96boards.org/?p=8941)
