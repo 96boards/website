@@ -131,8 +131,8 @@ https://www.96boards.org/products/ce/bubblegum96/
 /poplar,https://www.96boards.org/product/poplar/
 /poplar/index.html,https://www.96boards.org/product/poplar/
 # Mezzanine
-mezzanine/index.html,https://www.96boards.org/products/mezzanine/
-mezzanine,https://www.96boards.org/products/mezzanine/
+/mezzanine/index.html,https://www.96boards.org/products/mezzanine/
+/mezzanine,https://www.96boards.org/products/mezzanine/
 /linker-mezzanine,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
 /linker-mezzanine/index.html,https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
 /MezzanineProducts/README.md,https://www.96boards.org/documentation/mezzanine/
@@ -260,8 +260,8 @@ mezzanine,https://www.96boards.org/products/mezzanine/
 /OPENHOURS/index.html,https://www.96boards.org/openhours/
 /pinout,https://www.96boards.org/pinout/
 # -- Newsletter --
-/feed/index.html,https://www.96boards.org/digest/
-/feed,https://www.96boards.org/digest/
+/feed/index.html,https://www.96boards.org/feed.xml
+/feed,https://www.96boards.org/feed.xml
 /digest,https://www.96boards.org/digest/
 /newsletter/index.html,https://www.96boards.org/digest/
 /newsletter,https://www.96boards.org/digest/
