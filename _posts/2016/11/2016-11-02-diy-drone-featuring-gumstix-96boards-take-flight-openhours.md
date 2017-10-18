@@ -115,7 +115,7 @@ The parts used to construct this quad-copter drone are listed below, with storef
   * A Gumstix Aerocore 2 for Dragonboard 410C
 
 
-    * Available from [gumstix.com](https://store.gumstix.com/expansion/partners-3rd-party/aerocore-2-for-dragonboard.html)
+    * Available from [gumstix.com](https://store.gumstix.com/aerocore-2-for-dragonboard.html)
 
 
 
