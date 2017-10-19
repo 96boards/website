@@ -29,8 +29,8 @@ recognition of small area fire achieve accuracy of 90%.
 ### RSS URL
 
 - [View project on Qualcomm Developer Network]()
-- [New flame detection algorithm based on color characteristics]()
-- [High precision video flame detection algorithm based on multi-characteristics infusion]()
+- [New flame detection algorithm based on color characteristics]()http://xuebao.jlu.edu.cn/gxb/CN/Y2014/V44/I6/1787
+- [High precision video flame detection algorithm based on multi-characteristics infusion]()http://xuebao.jlu.edu.cn/gxb/CN/abstract/abstract10105.shtml
 
 ### Social Media Links
 

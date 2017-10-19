@@ -34,7 +34,7 @@ While instructions might be made available in other formats at a later time, the
 ### RSS URL
 
 - [View Project on Qualcomm Developer Network](https://developer.qualcomm.com/project/aws-greengrass)
-- [PDF Setup instructions]()
+- [PDF Setup instructions]()https://developer.qualcomm.com/sites/default/files/attachments/aws-greengrass-setup-instructions.pdf
 
 # Build / Assembly Instructions
 
