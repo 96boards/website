@@ -71,7 +71,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
   *  Link to YouTube channel: [https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg](https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg)
 
 
-  * Began discussion of this week’s blog topic:  [https://www.96boards.org/blog/96boards-box-experience-guide-4/](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+  * Began discussion of this week’s blog topic:  [https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 
 
@@ -103,10 +103,10 @@ Last week the team discussed  available Mezzanine product line with sensors and
     1. **David Mandala’s blogs on this topic to give you further details: **
 
 
-      1. [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
+      1. [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
 
-      2. [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+      2. [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
 
@@ -159,11 +159,11 @@ Last week the team discussed  available Mezzanine product line with sensors and
 
 The last several minutes of the call there was much discussion on the Dragonboard.  Robert then mentioned next week’s topic and demos that would be given next week.
 
-Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [https://www.96boards.org/openhours/](/openhours/)
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](https://www.96boards.org/openhours/)
+[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
 
 **_Transcript from the Chat during the call:  Please see below for a lot of great detailed references_**
 
@@ -227,9 +227,9 @@ we can't hear you robert
 
 RW
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-3/](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+[https://www.96boards.org/blog/96boards-box-experience-guide-3/](/blog/96boards-box-experience-guide-3/)
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-4/](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+[https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 [https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
@@ -329,7 +329,7 @@ Is there a download link for that diagram
 
 AT
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-4/](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+[https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 
 
@@ -495,7 +495,7 @@ USB-Ethernet dongle worked well for me. Alternatively have you looked at a seria
 
 RW
 
-[https://www.96boards.org/products/accessories/adapter/](https://www.96boards.org/products/accessories/adapter/)
+[https://www.96boards.org/products/accessories/adapter/](/products/accessories/adapter/)
 
 
 
@@ -597,18 +597,18 @@ this is all new, great start!
 
 
 
-[**In this series**](https://www.96boards.org/tag/openhours/)
+[**In this series**](/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
+  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
 
 
-  * [96Boards Out of box experience guide – part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/) (This)
+  * [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/) (This)

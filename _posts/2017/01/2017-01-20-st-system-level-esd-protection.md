@@ -32,13 +32,13 @@ It all started with an email and a referral, and before you know it, the 96Board
 
 **Of course you are going to want to watch the OpenHours episode as well, so I think I will plug it in right here:**
 
-{% include media.html media_url="https://www.youtube.com/embed/pgK_JRJtBzY" %}
+{% include media.html media_url="https://wsww.youtube.com/embed/pgK_JRJtBzY" %}
 
 **Many interesting questions came up during this interview/presentation, I would suggest watching as much as possible :D**
 
-Now we all know, OpenHours isn’t just interviews and me (Robert Wolff) talking the entire time! Sometimes, and I means sometimes, we actually some very cool stuff to announce. This time, in the spirit of having ST on the call, we were able to announce the [STM32 Mezzanine board](https://www.96boards.org/product/stm32sensor/)! For those who are unaware of this board, it has been on the 96Boards.org website for some time now, now several distributors are able to sell it.
+Now we all know, OpenHours isn’t just interviews and me (Robert Wolff) talking the entire time! Sometimes, and I means sometimes, we actually some very cool stuff to announce. This time, in the spirit of having ST on the call, we were able to announce the [STM32 Mezzanine board](/product/stm32sensor/)! For those who are unaware of this board, it has been on the 96Boards.org website for some time now, now several distributors are able to sell it.
 
-**[Take a look!](https://www.96boards.org/product/stm32sensor/)**
+**[Take a look!](/product/stm32sensor/)**
 
 I think I have said enough, now you will have to wait until the weekly blast to get more (Which should be going out shortly after this posts). Don’t forget to read on, more information on how to get involved in the 96Boards community is a small tick under this sentence! We are pretty much pushing out cool stuff on every channel you can think of. So… Add us, follow us, subscribe to us, but most importantly JOIN US as we move forward to 96Boards!
 
@@ -50,7 +50,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 **My personal twitter can be found here: :D** [**www.twitter.com/sdrobertw**](http://www.twitter.com/sdrobertw)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](https://www.96boards.org/newsletter/)**” and our “**[Weekly Digest](https://www.96boards.org/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](/newsletter/)**” and our “**[Weekly Digest](/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 
 

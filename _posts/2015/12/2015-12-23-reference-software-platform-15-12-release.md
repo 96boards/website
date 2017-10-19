@@ -23,11 +23,11 @@ tags:
 
 **We are happy to announce the 15.12 release for the reference software platform project!**
 
-This is our second release and for the first time also includes support for the [Enterprise Edition](https://www.96boards.org/products/ee/). Since there is still no availability for the 96Boards HuskyBoard, the first EE RPB was produced using the current enterprise development boards that are available in Linaro, such as [HiSilicon D02](http://open-estuary.org/d02-2/) and [AMD Overdrive](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/over-drive) (same SoC from HuskyBoard, known as Seattle). Once HuskyBoard is available, the work for making it supported by the EE RPB should be minimal.
+This is our second release and for the first time also includes support for the [Enterprise Edition](/products/ee/). Since there is still no availability for the 96Boards HuskyBoard, the first EE RPB was produced using the current enterprise development boards that are available in Linaro, such as [HiSilicon D02](http://open-estuary.org/d02-2/) and [AMD Overdrive](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/over-drive) (same SoC from HuskyBoard, known as Seattle). Once HuskyBoard is available, the work for making it supported by the EE RPB should be minimal.
 
 A lot of work was put in place for the EE RPB, covering firmware (UEFI/EDK2), Linux 4.4 (with ACPI), Debian Jessie/CentOS 7 network installers, OpenStack Liberty, Hadoop, Spark and a few others, consolidating the work from several other Linaro groups and teams as well as from community and members.
 
-For the Consumer Edition the CE AOSP RPB for [HiKey](https://www.96boards.org/products/ce/hikey/) is now using a 4.1 based kernel, closer to what is provided directly by AOSP. We decided to not push major updates and rebases for the CE Debian RPB kernel since we want the changes to follow the same kernel policy as used by the EE kernel ([https://github.com/96boards/documentation/wiki/RP-Kernel-Policy](https://github.com/96boards/documentation/wiki/RP-Kernel-Policy)). The goal of having one single tree for both CE and EE, with a strict upstream-based policy, will continue, and we hope to have more news on that in the upcoming weeks.
+For the Consumer Edition the CE AOSP RPB for [HiKey](/products/ce/hikey/) is now using a 4.1 based kernel, closer to what is provided directly by AOSP. We decided to not push major updates and rebases for the CE Debian RPB kernel since we want the changes to follow the same kernel policy as used by the EE kernel ([https://github.com/96boards/documentation/wiki/RP-Kernel-Policy](https://github.com/96boards/documentation/wiki/RP-Kernel-Policy)). The goal of having one single tree for both CE and EE, with a strict upstream-based policy, will continue, and we hope to have more news on that in the upcoming weeks.
 
 The work for the CE OE/Yocto RPB was also started, but unfortunately not yet covering single 96boards machine (due lack of a common kernel). Please check [https://github.com/96boards/meta-rpb](https://github.com/96boards/meta-rpb) and [https://github.com/96boards/oe-rpb-manifest](https://github.com/96boards/oe-rpb-manifest) to see what is already done for OpenEmbedded.
 
@@ -70,7 +70,7 @@ The work for the CE OE/Yocto RPB was also started, but unfortunately not yet co
 
 **Consumer Edition:**
 
-CE Debian RPB for [DragonBoard410](https://www.96boards.org/products/ce/dragonboard410c/) and [HiKey](https://www.96boards.org/products/ce/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
+CE Debian RPB for [DragonBoard410](/products/ce/dragonboard410c/) and [HiKey](/products/ce/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
 
 
 
@@ -87,7 +87,7 @@ CE Debian RPB for [DragonBoard410](https://www.96boards.org/products/ce/dragonbo
   * 96Boards artwork and default settings
 
 
-CE AOSP RPB for [HiKey](https://www.96boards.org/products/ce/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
+CE AOSP RPB for [HiKey](/products/ce/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
 
 
 

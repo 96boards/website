@@ -73,7 +73,7 @@ This was first episode of the DragonBoard 410c mini-series.  We are kicking off
   * **52:00** - Discussion on what is going on in the community
 
 
-**Be sure to join us for part two next week where Lawrence King will show a demo of the DragonBoard 410c in action.  Also during this episode that you will be able to [register to win a DragonBoard 410c. ](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf) Join us at:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/) **
+**Be sure to join us for part two next week where Lawrence King will show a demo of the DragonBoard 410c in action.  Also during this episode that you will be able to [register to win a DragonBoard 410c. ](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf) Join us at:  [https://www.96boards.org/openhours/](/openhours/) **
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -137,7 +137,7 @@ Youtube: [http://link.linaro.org/openhoursyoutube](http://link.linaro.org/openho
 
 
 
-[https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+[https://www.96boards.org/openhours/](/openhours/)
 
 
 
@@ -178,7 +178,7 @@ Competition Rules: [/assets/images/blog/2015/03/96Boards-Competition-DragonBoard
 
 
 
-DragonBoard 410: [https://www.96boards.org/product/dragonboard410c/](https://www.96boards.org/product/dragonboard410c/)
+DragonBoard 410: [https://www.96boards.org/product/dragonboard410c/](/product/dragonboard410c/)
 
 
 
@@ -191,7 +191,7 @@ DragonBoard 410: [https://www.96boards.org/product/dragonboard410c/](https://www
 
 
 
-Mezzanine Products: [https://www.96boards.org/products/mezzanine/](https://www.96boards.org/products/mezzanine/)
+Mezzanine Products: [https://www.96boards.org/products/mezzanine/](/products/mezzanine/)
 
 
 
@@ -262,7 +262,7 @@ MB
 
 
 
-Google doc - QC presentation, DB410c Workshophttps://docs.google.com/presentation/d/1RbUkCF6B7c4nH2oSwbcjzR8yFysF2F7pP-NTl8fB-hc/edit?usp=sharingBlog: [https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/](https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
+Google doc - QC presentation, DB410c Workshophttps://docs.google.com/presentation/d/1RbUkCF6B7c4nH2oSwbcjzR8yFysF2F7pP-NTl8fB-hc/edit?usp=sharingBlog: [https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/](/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
 
 
 
@@ -284,7 +284,7 @@ Google doc - QC presentation, DB410c Workshophttps://docs.google.com/presentatio
 
 
 
-Blog: [https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/](https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
+Blog: [https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/](/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
 
 
 
@@ -655,7 +655,7 @@ The USB switch is for loading Win10
 
 
 
-David Mandala's Blogs: [https://www.96boards.org/author/davidm/](https://www.96boards.org/author/davidm/)
+David Mandala's Blogs: [https://www.96boards.org/author/davidm/](/author/davidm/)
 
 
 
@@ -1158,8 +1158,8 @@ AWS - Amazon [https://www.amazon.com/DragonBoard-410C-IoT-Starter-powered/dp/B01
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

@@ -45,7 +45,7 @@ tags:
 - UART
 ---
 
-Welcome to our 35th episode of 96Boards OpenHours.  Last week we had a great discussion about 2016 and all the good and bad that happened over the year.  You can read the blog here:  [https://www.96boards.org/blog/welcome-2017-year-96boards/](https://www.96boards.org/blog/welcome-2017-year-96boards/).  Robert then announced the winner of the 96Boards give-away.  He went on to talk about the next Linaro Connect for 2017 that will take place in Budapest March 6-12, 2017.  96Boards will have many sessions during the week as well as another live broadcast of OpenHours during the event same as we did at LAS16.  We are looking for sponsors if you are interested please visit:  [http://connect.linaro.org/sponsors/](http://connect.linaro.org/sponsors/).  There are many different levels of sponsorships available.  Register now to reserve your spot and don't miss out on this great week of all things engineering - [http://connect.linaro.org/](http://connect.linaro.org/).
+Welcome to our 35th episode of 96Boards OpenHours.  Last week we had a great discussion about 2016 and all the good and bad that happened over the year.  You can read the blog here:  [https://www.96boards.org/blog/welcome-2017-year-96boards/](/blog/welcome-2017-year-96boards/).  Robert then announced the winner of the 96Boards give-away.  He went on to talk about the next Linaro Connect for 2017 that will take place in Budapest March 6-12, 2017.  96Boards will have many sessions during the week as well as another live broadcast of OpenHours during the event same as we did at LAS16.  We are looking for sponsors if you are interested please visit:  [http://connect.linaro.org/sponsors/](http://connect.linaro.org/sponsors/).  There are many different levels of sponsorships available.  Register now to reserve your spot and don't miss out on this great week of all things engineering - [http://connect.linaro.org/](http://connect.linaro.org/).
 
 Robert then discussed the weekly digest that he is working on putting together and hoped to get more people signed up as well as more ideas for content submitted to the team.  In other news an attendee of the call announced an event that is taking place in Brazil that will focus on a development project on DragonBoard:  http://www.embarcados.com.br .  Winners will be sent to Santa Clara for IOT.
 
@@ -55,7 +55,7 @@ To watch episode 35 go to[ https://www.youtube.com/watch?v=njMXCPLmPT4](https://
 
 {% include media.html media_url="https://www.youtube.com/embed/VGvJT8xEXvo?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -1867,4 +1867,4 @@ how are you going to handle the length of link in putting i2c in different rooms
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

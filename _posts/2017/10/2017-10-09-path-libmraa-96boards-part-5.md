@@ -50,7 +50,7 @@ tags:
 # **Introduction**
 
 Welcome to **Part - 5** of **Our path to libmraa with 96Boards** series. In this part, I am going to give an update of
-the recently added **mmap** support for [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/) in [libmraa](https://github.com/intel-iot-devkit/mraa).
+the recently added **mmap** support for [Dragonboard410c](/product/dragonboard410c/) in [libmraa](https://github.com/intel-iot-devkit/mraa).
 
 # **What is mmap and its need?**
 

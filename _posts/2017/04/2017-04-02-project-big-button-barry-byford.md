@@ -70,7 +70,7 @@ As mentioned, Barry came to us via OpenHours conference call from England, where
 
 
 
-  * OpenHours will begin to gamify! [Attending our weekly OpenHours](https://www.96boards.org/openhours/) call, participating in [96Boards forum](https://discuss.96boards.org) activity and over all contributing to the 96Boards community in any way possible will earn you community points(as long as we can track it). We will do our best to log community efforts on our side to ultimately generate a leaderboard for the website. Tracking and registering efforts might change as the team becomes more in tuned with collection process. Persons with the most community efforts will have chances to win 96Boards prizes such as boards, mezzanine, swag(96Boards, Linaro and member) and possibly a badge to the next Linaro Connect which will be held in San Francisco!
+  * OpenHours will begin to gamify! [Attending our weekly OpenHours](/openhours/) call, participating in [96Boards forum](https://discuss.96boards.org) activity and over all contributing to the 96Boards community in any way possible will earn you community points(as long as we can track it). We will do our best to log community efforts on our side to ultimately generate a leaderboard for the website. Tracking and registering efforts might change as the team becomes more in tuned with collection process. Persons with the most community efforts will have chances to win 96Boards prizes such as boards, mezzanine, swag(96Boards, Linaro and member) and possibly a badge to the next Linaro Connect which will be held in San Francisco!
 
 
   * We have officially launched the [OpenHours forum topics page](https://discuss.96boards.org/c/general/OpenHours)! You are welcome to post/suggest new OpenHours related topics, open new questions to be addressed during the show, and/or tackle current issues that are facing the community.
@@ -138,9 +138,9 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
@@ -151,34 +151,34 @@ Other Blogs from Robert Wolff
 
 
 
-  * [96Boards for 96Brews - Automated Home Brewing](https://www.96boards.org/blog/96boards-96brews-automated-home-brewing/) - Guest Author, Ricardo Salveti
+  * [96Boards for 96Brews - Automated Home Brewing](/blog/96boards-96brews-automated-home-brewing/) - Guest Author, Ricardo Salveti
 
 
-  * [ST, System Level ESD Protection and OpenHours](https://www.96boards.org/blog/st-system-level-esd-protection/)
+  * [ST, System Level ESD Protection and OpenHours](/blog/st-system-level-esd-protection/)
 
 
-  * [Welcome to 2017, Year of the 96Boards!](https://www.96boards.org/blog/welcome-2017-year-96boards/)
+  * [Welcome to 2017, Year of the 96Boards!](/blog/welcome-2017-year-96boards/)
 
 
-  * [DIY Drone featuring Gumstix! 96Boards take flight on OpenHours](https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/) - Guest Author, Keith Lee
+  * [DIY Drone featuring Gumstix! 96Boards take flight on OpenHours](/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/) - Guest Author, Keith Lee
 
 
-  * [DragonBoard 410c Workshop - 96Boards visits Qualcomm](https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
+  * [DragonBoard 410c Workshop - 96Boards visits Qualcomm](/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/)
 
 
-  * [96Boards Out of box experience guide - part 5](https://www.96boards.org/blog/96boards-box-experience-guide-5/)
+  * [96Boards Out of box experience guide - part 5](/blog/96boards-box-experience-guide-5/)
 
 
-  * [96Boards Out of box experience guide - part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+  * [96Boards Out of box experience guide - part 4](/blog/96boards-box-experience-guide-4/)
 
 
-  * [96Boards Out of box experience guide - part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide - part 3](/blog/96boards-box-experience-guide-3/)
 
 
-  * [96Boards Out of box experience guide - part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide - part 2](/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide - part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
+  * [96Boards Out of box experience guide - part 1](/blog/96boards-box-experience-guide-1/)
 
 
-  * [More...](https://www.96boards.org/author/sdrobertw/)
+  * [More...](/author/sdrobertw/)

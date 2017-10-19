@@ -137,7 +137,7 @@ Youtube: [http://link.linaro.org/openhoursyoutube](http://link.linaro.org/openho
 
 
 
-[https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+[https://www.96boards.org/openhours/](/openhours/)
 
 
 
@@ -533,7 +533,7 @@ RW
 
 
 
-@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
+@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -712,7 +712,7 @@ RW
 
 
 
-Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
+Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -1338,8 +1338,8 @@ Subscribe to 96Boards youtube for OpenHours live streem next week
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

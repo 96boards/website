@@ -62,9 +62,9 @@ Currently when wanting to use the D3 Camera Mezzanine with your DragonBoard 410c
 
 As mentioned in the video, we only went through the process of using fastboot to flash D3’s custom images onto the DragonBoard 410c (briefly skimmed) and the execution of a simple example provided in these images (using a single camera).
 
-We are offering a more in depth look of this mezzanine during [96Boards OpenHours](https://www.96boards.org/openhours/) on [June 22nd, 2017](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA2MjJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com). On this day, we will be joined by the D3 Engineering team and engineers from both Qualcomm and Arrow! 96Boards representatives will of course be there, and I will do my best (as always) to bring out some great content from our guests.
+We are offering a more in depth look of this mezzanine during [96Boards OpenHours](/openhours/) on [June 22nd, 2017](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzA2MjJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com). On this day, we will be joined by the D3 Engineering team and engineers from both Qualcomm and Arrow! 96Boards representatives will of course be there, and I will do my best (as always) to bring out some great content from our guests.
 
-**All are welcome to join this broadcast,** [**live at the end of the countdown**](https://www.96boards.org/openhours/)**! As a special added extra, we will be giving away several DragonBoard 410c / D3 Mezzanine kits. You MUST attend the LIVE broadcast to be entered into this contest to win!**
+**All are welcome to join this broadcast,** [**live at the end of the countdown**](/openhours/)**! As a special added extra, we will be giving away several DragonBoard 410c / D3 Mezzanine kits. You MUST attend the LIVE broadcast to be entered into this contest to win!**
 
 **After the live broadcast, we will be sure to upload the video to the** [**96Boards YouTube channel**](https://www.youtube.com/c/96boards)**.**
 
@@ -85,9 +85,9 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 **96Boards:** [Twitter](https://twitter.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124; [Facebook](https://www.facebook.com/96Boards/) &#124; [YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 

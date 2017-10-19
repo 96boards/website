@@ -45,13 +45,13 @@ tags:
 
 Have you thought of implementing face detection on your own? How well it would be if your SBC can identify your face and take action accordingly. And yeah this is the part 2 of ‘**Home surveillance**' blog series about creating a full fledged home monitoring system using 96Boards.
 
-In this blog, we are going to see how to implement the face recognition algorithm using [OpenCV](http://opencv.org/) on 96Boards. Never heard of OpenCV or Image processing stuff? No problem, as this tutorial covers everything right from scratch. As I said in my **[previous blog](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards)**, instructions available in this blog series would apply to all of our 96Boards CE family.
+In this blog, we are going to see how to implement the face recognition algorithm using [OpenCV](http://opencv.org/) on 96Boards. Never heard of OpenCV or Image processing stuff? No problem, as this tutorial covers everything right from scratch. As I said in my **[previous blog](/blog/part-1-home-surveillance-project-96boards)**, instructions available in this blog series would apply to all of our 96Boards CE family.
 
 {% include media.html media_url="https://www.youtube.com/embed/oiEUJ50o_co" %}
 
 **See other blogs from this series:**
 
-  1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards)
+  1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](/blog/part-1-home-surveillance-project-96boards)
 
 # **OpenCV -  Insight and Installation**
 
@@ -63,7 +63,7 @@ OpenCV is the acronym of '**Open Computer Vision**', an open source library for 
 
 
 
-  1. [96Boards CE](https://www.96boards.org/products/ce/)
+  1. [96Boards CE](/products/ce/)
 
 
   2. USB Webcam
@@ -187,7 +187,7 @@ Hurray… :D We have just implemented face detection using 96Boards on our own. 
 
 Alright, what's next? Implementing in your home... Yeah.. But hold on, we have plenty to come. So, stay calm and wait for the next blog series. At the end of the series, we would be having a full fledged** Home Surveillance system **using 96Boards.
 
-**Want more? [Continue on to Part - 3 of the series](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)**.
+**Want more? [Continue on to Part - 3 of the series](/blog/part-3-home-surveillance-project-96boards/)**.
 
 * * *
 
@@ -195,9 +195,9 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 

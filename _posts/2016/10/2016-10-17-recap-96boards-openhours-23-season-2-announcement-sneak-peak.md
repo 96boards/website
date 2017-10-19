@@ -48,7 +48,7 @@ This week was episode 23 in our OpenHours series.  We are gearing up for the 
 
 Robert announced that there will hopefully be more give-aways during season 2 and we are working on this now.  Robert then talked about the next episode of OpenHours which will be the start of season 2.  In the first episode we will interview Keith Lee from Gumstix. He will talk about Gumstix the company, Geppetto the drafting tool, and lead into a drone demo.
 
-The OpenHours then got started with a question about a Mezzanine board, which Jean-Marc and Grant then discussed making modifications to the 96Boards Sensors Mezzanine board.  This was a great in-depth discussion about the board and options that Jean-Marc can try to find a solution.  As always there is documentation available as well:  [https://github.com/96boards/96boards-kicad-mezzanine-template](https://github.com/96boards/96boards-kicad-mezzanine-template) and [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
+The OpenHours then got started with a question about a Mezzanine board, which Jean-Marc and Grant then discussed making modifications to the 96Boards Sensors Mezzanine board.  This was a great in-depth discussion about the board and options that Jean-Marc can try to find a solution.  As always there is documentation available as well:  [https://github.com/96boards/96boards-kicad-mezzanine-template](https://github.com/96boards/96boards-kicad-mezzanine-template) and [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](/products/mezzanine/sensors-mezzanine/)
 
 The next question (12:28) was regarding the grove sensor board.  Dave asked, "I am interested in using the servo. I am trying to use the example code for a sketch that uses the servo. However, the code attaches the servo to pin 9. I am not sure how to map this a connector on the board."  Robert got out his board to discuss board and the schematics with Dave.   Robert tabled the discussion since he did not have the answer and said he will find the answer for him and get back to him.
 
@@ -56,7 +56,7 @@ Robert then mentioned a great blog by Andy from Qualcomm: [ https://developer.q
 
 The question (24:41) after that was from an attend that wrote "I have a question about using SPI on the Dragonboard. I installed a Debian version including Spidev but when I connect a sensor board to the SPI pins of the Dragonboard I don't see any data. Is there an SPI program to use? Did anyone ever tried interfacing the Dragonboard with SPI?"  Robert gave a link to an instruction set that gives you a way to set this up: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md)
 
-There was a question on e health sensor serial port communication with dragonbaord? The team did not have the answer to that question but will follow-up.  The next question was "Would be interest to know if anyone has successfully used a camera with the DragonBoard other than a USB one?"  Robert mentioned that he did see this some at Linaro Connect, but it was mostly done with prototype cameras because there are not any on the market right now that do this.  Robert then gave 3 links that have more information about this:  [https://www.96boards.org/products/mezzanine/stm32sensor/](https://www.96boards.org/products/mezzanine/stm32sensor/) , [https://www.96boards.org/product/aerocore/](https://www.96boards.org/product/aerocore/)  and [https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf).
+There was a question on e health sensor serial port communication with dragonbaord? The team did not have the answer to that question but will follow-up.  The next question was "Would be interest to know if anyone has successfully used a camera with the DragonBoard other than a USB one?"  Robert mentioned that he did see this some at Linaro Connect, but it was mostly done with prototype cameras because there are not any on the market right now that do this.  Robert then gave 3 links that have more information about this:  [https://www.96boards.org/products/mezzanine/stm32sensor/](/products/mezzanine/stm32sensor/) , [https://www.96boards.org/product/aerocore/](/product/aerocore/)  and [https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf).
 
 Mark, who attended the last Linaro Connect, gave some feedback on the event and what his thoughts were and impressions of the event.  Shovan then announced that the next Linaro Connect will be open for registration in November and will take place in Budapest, Hungary.
 
@@ -66,7 +66,7 @@ To watch episode 21 go to[ https://www.youtube.com/watch?v=iR1YzwGwGQE ](https
 
 {% include media.html media_url="https://www.youtube.com/embed/bcqyrxxJeOM?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -341,7 +341,7 @@ Jean-Marc and Grant are talking about making modifications to the 96Boards Senso
 
 
 
-[https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
+[https://www.96boards.org/products/mezzanine/sensors-mezzanine/](/products/mezzanine/sensors-mezzanine/)
 
 
 
@@ -1177,7 +1177,7 @@ RW
 
 
 
-[https://www.96boards.org/products/mezzanine/stm32sensor/](https://www.96boards.org/products/mezzanine/stm32sensor/)
+[https://www.96boards.org/products/mezzanine/stm32sensor/](/products/mezzanine/stm32sensor/)
 
 
 
@@ -1200,7 +1200,7 @@ RW
 
 
 
-[https://www.96boards.org/product/aerocore/](https://www.96boards.org/product/aerocore/)
+[https://www.96boards.org/product/aerocore/](/product/aerocore/)
 
 
 
@@ -1775,8 +1775,8 @@ Cheers Robert
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

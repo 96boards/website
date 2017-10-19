@@ -48,7 +48,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
 
 {% include media.html media_url="https://www.youtube.com/embed/LtF7xIsgfNM?feature=oembed" %}
 
-  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [ https://www.96boards.org/tutorial/running-kvm-guest-hikey/ ](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [ https://www.96boards.org/tutorial/running-kvm-guest-hikey/ ](/tutorial/running-kvm-guest-hikey/)
 
 
     * Jorge has over twenty years of experience developing software and has been with Linaro on the Member Services team for a few years now.
@@ -93,7 +93,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
   * **43:27** - Robert closed the call talking about the DragonBoard 410c mini-series that will begin next week
 
 
-**Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/) where we will have the first of our 3 part series  and go through an out of box experience with the DragonBoard 410c.**
+**Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](/openhours/) where we will have the first of our 3 part series  and go through an out of box experience with the DragonBoard 410c.**
 
 As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -166,7 +166,7 @@ RW
 
 
 
-[https://www.96boards.org/tutorial/running-kvm-guest-hikey/](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+[https://www.96boards.org/tutorial/running-kvm-guest-hikey/](/tutorial/running-kvm-guest-hikey/)
 
 
 
@@ -202,7 +202,7 @@ Questions are welcome in the chat
 
 
 
-[https://www.96boards.org/products/ce/](https://www.96boards.org/products/ce/)
+[https://www.96boards.org/products/ce/](/products/ce/)
 
 
 
@@ -938,7 +938,7 @@ Awesome
 
 
 
-Bubblegum-96 [https://www.96boards.org/product/bubblegum-96/](https://www.96boards.org/product/bubblegum-96/)
+Bubblegum-96 [https://www.96boards.org/product/bubblegum-96/](/product/bubblegum-96/)
 
 
 
@@ -972,7 +972,7 @@ MB
 
 
 
-[https://www.96boards.org/product/sd600eval/](https://www.96boards.org/product/sd600eval/) has Ethernet but not USB3
+[https://www.96boards.org/product/sd600eval/](/product/sd600eval/) has Ethernet but not USB3
 
 
 
@@ -1222,7 +1222,7 @@ Jean-Marc could you please show us the board if you have with you now ?
 
 
 
-Sensor Mezzanine [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
+Sensor Mezzanine [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](/products/mezzanine/sensors-mezzanine/)
 
 
 
@@ -1900,8 +1900,8 @@ L
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

@@ -949,5 +949,5 @@ ok thanks, I would have used the ubuntu.... now I know better
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
-[n](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+[n](/blog/installing-docker-aarch64-96boards-ce/)

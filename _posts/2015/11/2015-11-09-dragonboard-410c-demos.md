@@ -27,7 +27,7 @@ tags:
 - Windows 10
 ---
 
-Last time I published, I talked about 96Boards in general and my [feelings about the initiative](https://www.96boards.org/blog/the-beginning-of-96boards/). This time I’m going to talk about the [DragonBoard 410c](https://www.96boards.org/products/ce/dragonboard410c/) which is built by Arrow Electronics, and uses a Qualcomm® Snapdragon 410 SoC as its core. It follows the Consumer Edition [specification](https://www.96boards.org/products/ce/), with credit card size of it’s 54mm x 85mm. It has some really nice features and I’ve crafted a demo that I’ve used at different trade shows and Maker events. More about the demo later.
+Last time I published, I talked about 96Boards in general and my [feelings about the initiative](/blog/the-beginning-of-96boards/). This time I’m going to talk about the [DragonBoard 410c](/products/ce/dragonboard410c/) which is built by Arrow Electronics, and uses a Qualcomm® Snapdragon 410 SoC as its core. It follows the Consumer Edition [specification](/products/ce/), with credit card size of it’s 54mm x 85mm. It has some really nice features and I’ve crafted a demo that I’ve used at different trade shows and Maker events. More about the demo later.
 
 [![DragonBoard-UpdatedImages-front]({% asset_path "DragonBoard-UpdatedImages-front.png" %}){:class="img-responsive lazyload"} ](/assets/DragonBoard-UpdatedImages-front.png){:class="img-responsive lazyload"}
 [![DragonBoard-UpdatedImages-back]({% asset_path "DragonBoard-UpdatedImages-back.png" %}){:class="img-responsive lazyload"} ](/assets/DragonBoard-UpdatedImages-back.png){:class="img-responsive lazyload"}

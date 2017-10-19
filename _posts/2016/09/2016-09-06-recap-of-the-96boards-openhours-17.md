@@ -60,7 +60,7 @@ tags:
   * There are now kits on seed studio that you can find the correct sensors.   Next was a follow-up question about what are the list of accessories one needs to buy along with the board?  The cost of the sensor kit is $69 (from Seed studio) and can be delivered to many locations. [http://www.seeedstudio.com/depot/Grove-Starter-Kit-p-709.html](http://www.seeedstudio.com/depot/Grove-Starter-Kit-p-709.html).  Also something to keep in mind is that with AWS kit the board is already loaded with Debian and a power supply.   [https://github.com/ArrowElectronics/aws-iot-device-sdk](https://github.com/ArrowElectronics/aws-iot-device-sdk)
 
 
-  * There was a guest participant that was interested in the possibility of Yocto Project with dragon board. What is the status of the support as of now?  You can find information about the DragonBoard on [https://www.96boards.org/product/dragonboard410c/ ](https://www.96boards.org/product/dragonboard410c/) and [https://github.com/Linaro/documentation](https://github.com/Linaro/documentation)
+  * There was a guest participant that was interested in the possibility of Yocto Project with dragon board. What is the status of the support as of now?  You can find information about the DragonBoard on [https://www.96boards.org/product/dragonboard410c/ ](/product/dragonboard410c/) and [https://github.com/Linaro/documentation](https://github.com/Linaro/documentation)
 
 
   * Robert then answer a question about what 96Boards and DragonBoards are being developed for.  He talked about different applications that the boards were being used for.  Lawrence then discussed how DragonBoard gives engineers a path to production and how it makes the board easier to get your ideas to market.
@@ -75,14 +75,14 @@ tags:
   * Can you use the DragonBoard as a data acquisition and control device?  The short answer is yes but there are limitations that Lawrence and David discussed.
 
 
-  * Robert closed the call talking about the blogs that are available and can be found here:  [https://www.96boards.org/blog/](https://www.96boards.org/blog/)
+  * Robert closed the call talking about the blogs that are available and can be found here:  [https://www.96boards.org/blog/](/blog/)
 
 
 As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)  where we will go through an out of box experience with the DragonBoard 410c.
+Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](/openhours/)  where we will go through an out of box experience with the DragonBoard 410c.
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
@@ -423,7 +423,7 @@ RW
 
 
 
-[https://www.96boards.org/product/dragonboard410c/](https://www.96boards.org/product/dragonboard410c/)
+[https://www.96boards.org/product/dragonboard410c/](/product/dragonboard410c/)
 
 
 
@@ -525,7 +525,7 @@ RW
 
 
 
-[https://www.96boards.org/products/mezzanine/](https://www.96boards.org/products/mezzanine/)
+[https://www.96boards.org/products/mezzanine/](/products/mezzanine/)
 
 
 
@@ -840,7 +840,7 @@ dont forget to buy power supply
 
 
 
-Accessories Page: [https://www.96boards.org/products/accessories/](https://www.96boards.org/products/accessories/)
+Accessories Page: [https://www.96boards.org/products/accessories/](/products/accessories/)
 
 
 
@@ -1123,7 +1123,7 @@ RW
 
 
 
-[https://www.96boards.org/product/dragonboard410c/](https://www.96boards.org/product/dragonboard410c/)
+[https://www.96boards.org/product/dragonboard410c/](/product/dragonboard410c/)
 
 
 
@@ -1191,7 +1191,7 @@ RW
 
 
 
-[https://www.96boards.org/db410c-getting-started/Downloads/README.md/](https://www.96boards.org/db410c-getting-started/Downloads/README.md/)
+[https://www.96boards.org/db410c-getting-started/Downloads/README.md/](/db410c-getting-started/Downloads/README.md/)
 
 
 
@@ -2017,8 +2017,8 @@ For barometric pressure BMP280 or BME280 modules work well via I2C
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)
