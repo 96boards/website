@@ -1777,7 +1777,7 @@ Could you use a DragonBoard to compile the carbon code?
 
 
 
-[https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Pinout.png](https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Pinout.png){:class="img-responsive lazyload"}
+[https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png](https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png){:class="img-responsive lazyload"}
 
 
 

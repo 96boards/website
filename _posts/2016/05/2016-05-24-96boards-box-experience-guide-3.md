@@ -114,7 +114,7 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-In next week’s blog we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. I will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!
+In next week’s blog we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header]() and it’s many GPIO interfaces. I will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!
 
 --
 
