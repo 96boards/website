@@ -23,7 +23,7 @@ tags:
 
 ### Introduction
 
-In previous blog post (https://www.96boards.org/blog/96boards-carbon-self-programming/), we learned about new features of the Zephyr RTOS 1.9 release, like mainline support for the 96Boards Carbon BLE connectivity, and learned how to self-program Carbon’s BLE chip using its main chip. This post continues to survey new features in Zephyr 1.9 which make Carbon, and IoT in general, programming more convenient. One of such features is initial BSD Sockets API support.
+In previous blog post (/blog/96boards-carbon-self-programming/), we learned about new features of the Zephyr RTOS 1.9 release, like mainline support for the 96Boards Carbon BLE connectivity, and learned how to self-program Carbon’s BLE chip using its main chip. This post continues to survey new features in Zephyr 1.9 which make Carbon, and IoT in general, programming more convenient. One of such features is initial BSD Sockets API support.
 
 ### What are BSD Sockets and why do they matter?
 

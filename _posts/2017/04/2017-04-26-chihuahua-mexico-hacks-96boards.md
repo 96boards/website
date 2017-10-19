@@ -66,7 +66,7 @@ Throughout the course of the hack, students had access to a variety of resources
   * [**Workshop presentation**](http://bit.ly/2lzW7ox)
 
 
-  * [**Hackathon page**](https://www.96boards.org/go/hackathon-mexico/)
+  * [**Hackathon page**](/go/hackathon-mexico/)
 
 
 This is only a brief summary of the event. Please poke around the [96Boards YouTube channel](https://www.youtube.com/c/96boards) to see some of the exciting videos that were created during the hackathon.

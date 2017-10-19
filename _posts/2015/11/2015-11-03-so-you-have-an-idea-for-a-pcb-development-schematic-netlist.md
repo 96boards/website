@@ -144,4 +144,4 @@ _*While hovering over an item, you can rotate it easily by hitting the R key_
 _*When using Global Labels, avoid using forward slashes when naming things, KiCad doesn’t like it and can cause some errors when you make your netlist_
 Once you are happy with your schematic design, you can go ahead and create a Netlist.
 
-[←Schematic](https://www.96boards.org/?p=8941) &#124;[Development: Netlist→ ](https://www.96boards.org/?p=8960)
+[←Schematic](/?p=8941) &#124;[Development: Netlist→ ](/?p=8960)

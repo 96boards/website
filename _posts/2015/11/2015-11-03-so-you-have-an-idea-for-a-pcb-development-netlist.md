@@ -47,4 +47,4 @@ Making the netlist is very simple, but also very important! It will add the requ
 On the top toolbar, look for the icon with a green rectangle and the word "NET" inside. This is the Netlist Generator. After clicking, you will be greeted by the Netlist pop-up window. With Pcbnew selected in the top left toolbar; click Generate. Now you will be asked what you want to name the netlist file. Once you’re happy, click Save, and wham bam! You have your netlist file.
 Now you're ready to start on the fun stuff!
 
-[←Development: Schematic](https://www.96boards.org/?p=8946) &#124;[Development: Footprints →](https://www.96boards.org/?p=8960)
+[←Development: Schematic](/?p=8946) &#124;[Development: Footprints →](/?p=8960)

@@ -118,7 +118,7 @@ Below is an overview of all the 96boards related sessions that took place at Lin
 
 
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 Unfortunately the chat was not able to be captured this week due to a technical issue but we will have this again going forward next week.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -134,8 +134,8 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

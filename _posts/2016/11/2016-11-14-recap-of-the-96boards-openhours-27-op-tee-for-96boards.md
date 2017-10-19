@@ -94,7 +94,7 @@ To watch episode 27 go to[ https://www.youtube.com/watch?v=f8I-jXHu45Q](https:/
 
 {% include media.html media_url="https://www.youtube.com/embed/gjWnEZJFa_U?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -178,7 +178,7 @@ I don't have any more video
 
 
 
-Carbon board: [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+Carbon board: [https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -1815,4 +1815,4 @@ multithreaded ta is not supported but multiple cores can run the same ta at the 
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

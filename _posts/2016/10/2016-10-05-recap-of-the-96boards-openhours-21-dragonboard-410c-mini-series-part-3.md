@@ -50,7 +50,7 @@ To watch episode 21 go to [https://www.youtube.com/watch?v=iR1YzwGwGQE ](https
 
 {% include media.html media_url="https://www.youtube.com/embed/29yWWbXa8p8?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -217,7 +217,7 @@ thanks!
 
 T
 
-[https://www.96boards.org/products/mezzanine/uarts/](https://www.96boards.org/products/mezzanine/uarts/)
+[https://www.96boards.org/products/mezzanine/uarts/](/products/mezzanine/uarts/)
 
 
 
@@ -579,7 +579,7 @@ Hehe
 
 RW
 
-[www.96boards.org/documentation](https://www.96boards.org/documentation)
+[www.96boards.org/documentation](/documentation)
 
 this is the new Carbon
 
@@ -786,8 +786,8 @@ Sorry I was distracted, didnt someone asked about Opensource hardware ?
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

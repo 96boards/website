@@ -52,11 +52,11 @@ Below is an overview of what was discussed including the time in the video where
 
 **The first topic was a recap of last week’s session:**
 
-Last week the team discussed “Installing Docker on aarch64 with the Reference Platform Build on a 96Boards CE-edition.”  Bill Fletcher was our guest speaker.  Here is Bill’s blog that gives you more information:  [https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+Last week the team discussed “Installing Docker on aarch64 with the Reference Platform Build on a 96Boards CE-edition.”  Bill Fletcher was our guest speaker.  Here is Bill’s blog that gives you more information:  [https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](/blog/installing-docker-aarch64-96boards-ce/)
 
 **This week’s discussion began at 6:40**
 
-Robert kicked off the discussion by explaining what cross compiling is and an introduction on our guest speaker for this week – David Mandala who was there to talk about was “How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries.”  David also wrote a great blog with more detailed information in it that can be found here:  [https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+Robert kicked off the discussion by explaining what cross compiling is and an introduction on our guest speaker for this week – David Mandala who was there to talk about was “How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries.”  David also wrote a great blog with more detailed information in it that can be found here:  [https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/](/blog/cross-compile-files-x86-linux-to-96boards/)
 
 **David Mandala began his presentation at 7:35**
 
@@ -66,8 +66,8 @@ David began to explain that cross compiling is not your best option but if you d
 
 20:08 – David shows a detailed written step-by-step of what to do.  He then goes through each step and gives a brief overview.
 
-Next week’s 96Boards OpenHours topic will be on the reference platform around 16:06.  Be sure to join us [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+Next week’s 96Boards OpenHours topic will be on the reference platform around 16:06.  Be sure to join us [https://www.96boards.org/openhours/](/openhours/)
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)

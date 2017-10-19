@@ -73,7 +73,7 @@ Following the steps below, you will be able to build and play with the thermomet
 
 
 
-  * 1 x [96Boards Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/) from Seeed Studio
+  * 1 x [96Boards Sensors Mezzanine](/product/sensors-mezzanine/) from Seeed Studio
 
 
   * 1 x USB Tiny ISP (Many different models available online)
@@ -295,9 +295,9 @@ It is possible to add a USB to Serial port FTDI and plug it into the Arduino con
 
 **[Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)**
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](https://www.96boards.org/newsletter/)**” and our “**[Weekly Digest](https://www.96boards.org/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](/newsletter/)**” and our “**[Weekly Digest](/newsletter/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
@@ -308,4 +308,4 @@ Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel f
 
 
 
-  * **[OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine](https://www.96boards.org/blog/openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin/)**
+  * **[OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine](/blog/openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin/)**

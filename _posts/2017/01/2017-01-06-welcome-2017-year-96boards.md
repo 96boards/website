@@ -4,7 +4,7 @@ comments: true
 date: 2017-01-06 01:07:05+00:00
 layout: post
 featured_image: 1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
-link: https://www.96boards.org/blog/welcome-2017-year-96boards/
+link: /blog/welcome-2017-year-96boards/
 slug: welcome-2017-year-96boards
 title: Welcome to 2017, Year of the 96Boards!
 wordpress_id: 19285
@@ -69,7 +69,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Arrow launched their [Linker Mezzanine card started kit](https://www.96boards.org/product/linker-mezzanine-starter-kit/)!
+  * Arrow launched their [Linker Mezzanine card started kit](/product/linker-mezzanine-starter-kit/)!
 
 
     * Take a look at the [CNX Software review](http://www.cnx-software.com/2016/01/18/96boards-mezzanine-add-on-boards-with-sensors-buttons-relays-etc-are-starting-to-show-up/) covering the Linker kit, as well as the Sensors and STM32 Mezzanines.
@@ -93,7 +93,7 @@ The year started out strong with January seeing a plethora of announcements and 
     * Check out the 96Boards [Twitter post](https://twitter.com/ARMEmbedded/status/687645175015931904)
 
 
-    * [Read more about the STM32](https://www.96boards.org/product/stm32sensor/) on the 96Boards website
+    * [Read more about the STM32](/product/stm32sensor/) on the 96Boards website
 
 
 
@@ -120,10 +120,10 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Canonical announces](https://insights.ubuntu.com/2016/02/24/canonical-to-offer-powerful-arm-64-bit-iot-developer-environment/) intent to offer powerful ARM 64-bit IoT developer environment!
 
 
-  * The beginning of [Github website rendering](https://www.96boards.org/documentation/README.md/)!
+  * The beginning of [Github website rendering](/documentation/README.md/)!
 
 
-    * 96Boards website now [welcomes community contributions](https://www.96boards.org/documentation/Extras/ContributionPolicy.md/).
+    * 96Boards website now [welcomes community contributions](/documentation/Extras/ContributionPolicy.md/).
 
 
 
@@ -141,7 +141,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Reference Platform 16.03 is announced and released right before Linaro Connect BKK16 (now legacy - see previous releases). ([Blog](https://www.96boards.org/blog/reference-software-platform-16-03-release/) &#124;[Twitter post](https://twitter.com/96Boards/status/706470286560874496))
+  * Reference Platform 16.03 is announced and released right before Linaro Connect BKK16 (now legacy - see previous releases). ([Blog](/blog/reference-software-platform-16-03-release/) &#124;[Twitter post](https://twitter.com/96Boards/status/706470286560874496))
 
 
   * Linaro Connect takes over Bangkok, Thailand ([BKK16)](http://connect.linaro.org/bkk16/)!
@@ -153,16 +153,16 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * One of the first [OpenScad 96Boards cases](https://www.96boards.org/project/cecase/) hits the projects page. Instructions for 3D printing your own case.
+  * One of the first [OpenScad 96Boards cases](/project/cecase/) hits the projects page. Instructions for 3D printing your own case.
 
 
-    * Followed by a [detailed blog](https://www.96boards.org/blog/files-96boards-ce-cases-mezzanine-boards-3d-printers/)
+    * Followed by a [detailed blog](/blog/files-96boards-ce-cases-mezzanine-boards-3d-printers/)
 
 
 
 
 
-  * Qualcomm announces the [“Maker Month” contest](https://www.96boards.org/blog/qualcomm-maker-month-contest/) using the 96Boards DragonBoard 410c
+  * Qualcomm announces the [“Maker Month” contest](/blog/qualcomm-maker-month-contest/) using the 96Boards DragonBoard 410c
 
 
   * New [3D print 96Boards case](http://www.thingiverse.com/thing:1424340) available on Thingverse
@@ -183,7 +183,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * Linaro and 96Boards visit ELC, San Diego!
 
 
-    * Check out the three part blog series ([Part 1](https://www.96boards.org/blog/lfelc-part1/), [Part 2](https://www.96boards.org/blog/lfelc-part2/), [Part 3](https://www.96boards.org/blog/lfelc-part3/))
+    * Check out the three part blog series ([Part 1](/blog/lfelc-part1/), [Part 2](/blog/lfelc-part2/), [Part 3](/blog/lfelc-part3/))
 
 
     * Check out some of the cool 96Boards Tweets ([Tweet 1](https://twitter.com/96Boards/status/717382096994443265), [Tweet 2](https://twitter.com/96Boards/status/717396496589545472), [Tweet 3](https://twitter.com/jrwyngaard/status/717376650908819456))
@@ -195,10 +195,10 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Instructions for [GPIO control](https://www.96boards.org/blog/access-gpio-pins-programmatically/) and [library installation](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/) on 96Boards are released.
+  * Instructions for [GPIO control](/blog/access-gpio-pins-programmatically/) and [library installation](/blog/install-96boardgpio-libsoc-libmraa-new-image/) on 96Boards are released.
 
 
-  * [uCRobotics](http://www.ucrobotics.com.cn/bubblegum96/) presents the [Bubblegum-96](https://www.96boards.org/product/bubblegum-96/) - [Tweet](https://twitter.com/pandaswarm/status/723553976239542272) &#124;[Video](https://youtu.be/syaQY0qMoDw)
+  * [uCRobotics](http://www.ucrobotics.com.cn/bubblegum96/) presents the [Bubblegum-96](/product/bubblegum-96/) - [Tweet](https://twitter.com/pandaswarm/status/723553976239542272) &#124;[Video](https://youtu.be/syaQY0qMoDw)
 
 
 
@@ -225,7 +225,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * 96Boards OpenHours goes LIVE with their [first episode](https://youtu.be/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)! Hosted by Robert Wolff.
 
 
-    * Paired with the [following blog](https://www.96boards.org/blog/96boards-box-experience-guide-1/),
+    * Paired with the [following blog](/blog/96boards-box-experience-guide-1/),
 
 
     * OpenHours aims to bring maker, hobbyist, enthusiast and developer together for the ultimate community experience. Visit the [OpenHours playlist](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) on the [96Boards YouTube channel](https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg). **Don’t forget to Subscribe!**
@@ -234,10 +234,10 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * The first series of “Out of the box” blogs are released to pair with OpenHours episodes - [Part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/) &#124;[Part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/) &#124;[Part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * The first series of “Out of the box” blogs are released to pair with OpenHours episodes - [Part 1](/blog/96boards-box-experience-guide-1/) &#124;[Part 2](/blog/96boards-box-experience-guide-2/) &#124;[Part 3](/blog/96boards-box-experience-guide-3/)
 
 
-  * Ricardo Salveti ([@rsalveti](https://twitter.com/rsalveti)) adds a [96Boards CE Fritzing part](https://www.96boards.org/blog/fritzing-part-96boards-ce/)!
+  * Ricardo Salveti ([@rsalveti](https://twitter.com/rsalveti)) adds a [96Boards CE Fritzing part](/blog/fritzing-part-96boards-ce/)!
 
 
 
@@ -249,13 +249,13 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Reference Platform 16.06 is announced and released (now legacy - see previous releases). ([Blog](https://www.96boards.org/blog/reference-software-platform-16-06-release/))
+  * Reference Platform 16.06 is announced and released (now legacy - see previous releases). ([Blog](/blog/reference-software-platform-16-06-release/))
 
 
   * Brian Shay from [Arrow Electronics announces the i.MX 7 Dual 96Boards](http://www.nxp.com/video/i.mx-7dual-96boards-consumer-edition:FUTURE-96BOARDS-VIDEOS-2016) CE board
 
 
-  * The second series of “Out of the box” blogs are released to pair with OpenHours episodes. - [Part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/) &#124;[Part 5](https://www.96boards.org/blog/96boards-box-experience-guide-5/)
+  * The second series of “Out of the box” blogs are released to pair with OpenHours episodes. - [Part 4](/blog/96boards-box-experience-guide-4/) &#124;[Part 5](/blog/96boards-box-experience-guide-5/)
 
 
   * [Arrow and blog](https://www.arrow.com/en/research-and-events/articles/96boards-future-proofs-the-dragonboard-410c) on future proofing DragonBoard 410c
@@ -264,13 +264,13 @@ The year started out strong with January seeing a plethora of announcements and 
   * Gumstix announce [AeroCore 2 drone Mezzanine](https://www.gumstix.com/blog/product-releases/aerocore-2-dragonboard/) for 96Boards
 
 
-  * Akira Tsukamoto talks I2C on OpenHours ([Video](https://youtu.be/fbTo3BwURg8?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/))
+  * Akira Tsukamoto talks I2C on OpenHours ([Video](https://youtu.be/fbTo3BwURg8?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](/blog/programing-i2c-devices-libmraa-libupm/))
 
 
-  * Bill Fletcher talks Docker for CE 96Boards on OpenHours ([Video](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/))
+  * Bill Fletcher talks Docker for CE 96Boards on OpenHours ([Video](https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](/blog/installing-docker-aarch64-96boards-ce/))
 
 
-  * David Mandala talks cross compilation with x86 Linux systems on OpenHours ([Blog](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/))
+  * David Mandala talks cross compilation with x86 Linux systems on OpenHours ([Blog](/blog/cross-compile-files-x86-linux-to-96boards/))
 
 
   * First [open source W3C EME solution](http://www.linaro.org/blog/engineering-update-16-04/) provided on the 96Boards HiKey platform
@@ -336,7 +336,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [CNX Software reports](http://www.cnx-software.com/2016/08/30/79-hisilicon-poplar-is-the-first-96boards-tv-platform-compliant-board/) on HiSilicon Poplar, the first 96Boards TV Platform
 
 
-  * [Kodi threads](http://forum.kodi.tv/showthread.php?tid=288853) start up around CNX report around the [96Boards Poplar](https://www.96boards.org/product/poplar/)
+  * [Kodi threads](http://forum.kodi.tv/showthread.php?tid=288853) start up around CNX report around the [96Boards Poplar](/product/poplar/)
 
 
   * Andy Clark from [@Workshopshed](https://twitter.com/Workshopshed) is recognized as [Qualcomm’s “Developer of the Month”](https://developer.qualcomm.com/blog/dom/andy-clark-blends-mechanics-electronics-software-makes-wonderful-things) for his 96Boards DragonBoard 410c DragonDetector
@@ -351,19 +351,19 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Qualcomm’s #WhyWait “Invent-Off”](https://www.youtube.com/playlist?list=PLADNcabi-P9byTYZsM8cdtwvtV1StUZRG) featuring the 96Boards DragonBoard 410c hits the air!
 
 
-  * [ArcherMind](https://www.archermind.com/) joins 96Boards and Launches the [MediaTek X20 Consumer Edition board](https://www.96boards.org/product/mediatek-x20/).
+  * [ArcherMind](https://www.archermind.com/) joins 96Boards and Launches the [MediaTek X20 Consumer Edition board](/product/mediatek-x20/).
 
 
   * [Inatel University](https://twitter.com/inateloficial) in Brazil hosts a [hackathon](http://www.inatel.br/imprensa/noticias/pesquisa-e-inovacao/2936-hackathon-inatel-reforca-acoes-de-iot-entre-alunos-colaboradores-e-professores) focused around smart cities and the DragonBoard 410c
 
 
-  * [Robert Wolff](https://twitter.com/sdrobertw) gives a [96Boards Workshop](https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/) at the Qualcomm campus in San Diego.
+  * [Robert Wolff](https://twitter.com/sdrobertw) gives a [96Boards Workshop](/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/) at the Qualcomm campus in San Diego.
 
 
-  * Gumstix announces [Geppetto for 96Boards](https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/) and a rapid path to market
+  * Gumstix announces [Geppetto for 96Boards](/blog/geppettotm-offers-makers-rapid-path-to-market/) and a rapid path to market
 
 
-  * David Mandala talks [GUI and Command line remote debugging](https://www.96boards.org/blog/gui-command-line-remote-debugging/) for 96Boards
+  * David Mandala talks [GUI and Command line remote debugging](/blog/gui-command-line-remote-debugging/) for 96Boards
 
 
 
@@ -375,13 +375,13 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * [HiSilicon create Poplar](https://www.96boards.org/blog/hisilicon-creates-poplar-first-96boards-tv-platform-development-board/), the first 96Boards TV Platform development board is announced then [goes on sale](https://www.96boards.org/product/poplar/).
+  * [HiSilicon create Poplar](/blog/hisilicon-creates-poplar-first-96boards-tv-platform-development-board/), the first 96Boards TV Platform development board is announced then [goes on sale](/product/poplar/).
 
 
-  * Jorge Ortiz blogged about [Running a KVM guest on the 96Boards HiKey](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+  * Jorge Ortiz blogged about [Running a KVM guest on the 96Boards HiKey](/tutorial/running-kvm-guest-hikey/)
 
 
-  * David Mandala offered us the [Ramblings of Mezzanine boards](https://www.96boards.org/blog/ramblings-mezzanine-boards/) and [instructions on how to use the Arduino IDE](https://www.96boards.org/blog/use-arduino-ide-sensors-mezzanine-board-linux/) with the 96Boards [Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/)
+  * David Mandala offered us the [Ramblings of Mezzanine boards](/blog/ramblings-mezzanine-boards/) and [instructions on how to use the Arduino IDE](/blog/use-arduino-ide-sensors-mezzanine-board-linux/) with the 96Boards [Sensors Mezzanine](/product/sensors-mezzanine/)
 
 
   * OpenHours launches a three part series for the 96Boards DragonBoard 410c
@@ -411,7 +411,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Qualcomm announces](https://www.qualcomm.com/news/releases/2016/09/28/qualcomm-snapdragon-600e-and-410e-designed-embedded-computing-internet) Snapdragon 600E and 410E for Embedded computing
 
 
-  * [Carbon](https://www.96boards.org/product/carbon/) is announced and released as the first 96Boards IoT Edition board!
+  * [Carbon](/product/carbon/) is announced and released as the first 96Boards IoT Edition board!
 
 
   * [CNX Software reports](http://www.cnx-software.com/2016/09/27/ble-carbon-96boards-iot-edition-board-runs-zephyr-os/) on the BLE Carbon 96Boards IoT Edition and Zephyr
@@ -441,7 +441,7 @@ The year started out strong with January seeing a plethora of announcements and 
     * Gumstix visits OpenHours and talks Geppetto ([Video](https://youtu.be/T-0KGstxTgA?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk))
 
 
-    * Gumstix demos a drone using 96Boards ([Video](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/))
+    * Gumstix demos a drone using 96Boards ([Video](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) &#124;[Blog](/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/))
 
 
 
@@ -459,7 +459,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Gumstix blogs](https://www.gumstix.com/blog/5752/) on Geppetto D20 mezzanine customization for all 96Boards
 
 
-  * [Fujitsu issues press release](http://www.fujitsu.com/jp/group/fei/en/resources/news/topics/2016/20161025.html) on F-Cue 96Boards
+  * [Fujitsu issues press release](http://www.fujitsu.com/jp/group/fei/en/resources/news/2016/20161025.html) on F-Cue 96Boards
 
 
   * [CNX Software reports](http://www.cnx-software.com/2016/10/28/fujitsu-launches-f-cue-96boards-compliant-board-powered-by-socionext-mb86s71-processor/) on the F-Cue 96Boards by Fujitsu
@@ -471,7 +471,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Hackerboards.com talks 96Boards SBCs](http://hackerboards.com/96boards-sbcs-host-intel-joule-and-curie-iot-modules/) with host Intel Joule and Curie IoT modules
 
 
-    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/expansion/radium-96bie.html)
+    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/radium-96bie.html)
 
 
 
@@ -498,16 +498,16 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * 96Boards launches a [community survey](https://www.96boards.org/blog/96boards-survey-1/).
+  * 96Boards launches a [community survey](/blog/96boards-survey-1/).
 
 
-  * 96Boards announces [“Weekly Digest” mailing list](https://www.96boards.org/newsletter/digest/) signup form (to start in Jan of 2017)
+  * 96Boards announces [“Weekly Digest” mailing list](/newsletter/digest/) signup form (to start in Jan of 2017)
 
 
   * Linaro and 96Boards announce Linaro Connect Budapest ([BUD17](http://connect.linaro.org/))!
 
 
-  * 96Boards.org goes live with the new [B2260 CE Extended board](https://www.96boards.org/product/b2260/)
+  * 96Boards.org goes live with the new [B2260 CE Extended board](/product/b2260/)
 
 
 
@@ -522,10 +522,10 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Qualcomm Developer Network announces](https://developer.qualcomm.com/blog/use-dragonboard-410c-move-mobile-iot-development) a DragonBoard 410c push from mobile to IoT Space
 
 
-  * 96Boards pushes for a [community negotiated mezzanine board](https://www.96boards.org/blog/community-mezzanine-board/)
+  * 96Boards pushes for a [community negotiated mezzanine board](/blog/community-mezzanine-board/)
 
 
-  * [OpenHours](https://www.96boards.org/openhours/) gets a visit from Andy Clark of [@Workshopshed](https://twitter.com/Workshopshed) ([Video](https://youtu.be/njMXCPLmPT4) &#124;[Blog](https://www.96boards.org/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/))
+  * [OpenHours](/openhours/) gets a visit from Andy Clark of [@Workshopshed](https://twitter.com/Workshopshed) ([Video](https://youtu.be/njMXCPLmPT4) &#124;[Blog](/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/))
 
 
   * Arrow's [Audio Mezzanine](https://www.arrow.com/en/products/dragonboardaudiomezz/seeed-technology-limited) goes on sale!
@@ -553,7 +553,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 If you are aching to follow more than just 96Boards, travel on over to my Twitter and give it a follow as well! [www.twitter.com/sdrobertw](http://www.twitter.com/sdrobertw)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 Remember, you are all the reason this is possible. Please join us in welcoming a vibrant and new twist on community engagement. With OpenHours, we will take on some exciting challenges this year.
 

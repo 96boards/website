@@ -23,13 +23,13 @@ tags:
 ## SUMMARY
 
 
-For some releases now,  [KVM](http://www.linux-kvm.org/page/Main_Page) - the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the [HiKey from 96Boards](https://www.96boards.org/product/hikey/).  This was made possible thanks to the open nature of the HiKey software stack but also to the early work done by Marc Zyngier as captured on this [post](https://discuss.96boards.org/t/kvmhypervisor-support/) and the numerous contributions to aarch64 from the Linaro Virtualization team.
+For some releases now,  [KVM](http://www.linux-kvm.org/page/Main_Page) - the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the [HiKey from 96Boards](/product/hikey/).  This was made possible thanks to the open nature of the HiKey software stack but also to the early work done by Marc Zyngier as captured on this [post](https://discuss.96boards.org/t/kvm-hypervisor-support/34) and the numerous contributions to aarch64 from the Linaro Virtualization team.
 
 The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors [...].  You can download the 2.0 version of the specification on this [link](http://www.linaro.org/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf).
 
 Having said that and despite the specification being available - but perhaps due to it being so recent-  you might have some issues finding OS images that comply to it.
 
-However this doesn’t prevent you from running a networking enabled Linux guest on your octa-core [HiKey](https://www.96boards.org/product/hikey/); as a matter of fact, there is a simple yet efficient way to execute a Linux guest OS on any Linux KVM enabled system without the need for more complex - and powerful- software virtualization packages: the native KVM tool, ie [kvmtool](https://lwn.net/Articles/438182/).
+However this doesn’t prevent you from running a networking enabled Linux guest on your octa-core [HiKey](/product/hikey/); as a matter of fact, there is a simple yet efficient way to execute a Linux guest OS on any Linux KVM enabled system without the need for more complex - and powerful- software virtualization packages: the native KVM tool, ie [kvmtool](https://lwn.net/Articles/438182/).
 
 But of course you can still use QEMU if that is what you like.
 
@@ -47,7 +47,7 @@ To install the kvmtool on Debian run the following on a terminal:
 
 `jro@HiKey:~# apt-get install kvmtool`
 
-By default,  the HiKey kernel should have been configured with all the recommended settings for kvmtool (see [README](https://git.kernel.org/cgit/linux/kernel/git/will/kvmtool.git/tree/README)). If you found that not to be the case,  follow the HiKey building from source [instructions](https://github.com/Linaro/documentation/blob/master/Reference-Platform/RPOfficial/ConsumerEdition/HiKey/BFSDebianRPB.md) and replace the kernel.  
+By default,  the HiKey kernel should have been configured with all the recommended settings for kvmtool (see [README](https://git.kernel.org/cgit/linux/kernel/git/will/kvmtool.git/tree/README)). If you found that not to be the case,  follow the HiKey building from source [instructions](https://github.com/Linaro/documentation/tree/master/Reference-Platform) and replace the kernel.  
 
 To check for a  particular kernel config in a running kernel, for example CONFIG_NET_9P, do the following:
 

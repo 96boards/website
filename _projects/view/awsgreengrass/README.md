@@ -6,8 +6,6 @@ description: |-
 permalink: "/projects/AWSGreengrass/"
 
 ---
-
-
 # AWS Greengrass
 
 This project shows how to get Amazon Web Services (AWS) Greengrass Core up and running on a DragonBoard™ 410c development board by Arrow Electronics.
@@ -36,7 +34,7 @@ While instructions might be made available in other formats at a later time, the
 ### RSS URL
 
 - [View Project on Qualcomm Developer Network](https://developer.qualcomm.com/project/aws-greengrass)
-- [PDF Setup instructions](https://developer.qualcomm.com/sites/default/files/attachments/aws-greengrass-setup-instructions.pdf)
+- [PDF Setup instructions]()https://developer.qualcomm.com/sites/default/files/attachments/aws-greengrass-setup-instructions.pdf
 
 # Build / Assembly Instructions
 

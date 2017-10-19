@@ -44,7 +44,7 @@ tags:
 - UART
 ---
 
-This week was episode 2 or our 3 part series on the DragonBoard 410c.  Last week Robert showed an out of box experience and how to set-up your DragonBoard and he also announced our contest for [a chance to win one of several DragonBoards.](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf)   In this episode we had a demo done by Lawrence King from his desk at Qualcomm Canada and it was also during this episode we took down names for those that wanted to be part of the drawing   The final episode of the series this week will be a live panel at our [Linaro Connect ](http://connect.linaro.org/las16/)event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions.  At the end of the Live Panel we will draw names from those that entered the contest during episode 2 and announce the winners live.  We will actually have two OpenHours sessions next week - the first one during our normal time of 4pm (BST) where Robert will stream the keynote from LAS16 and a second one at 2pm (PST) where we will have a panel discussion and announce the winners of our contest.  Here is the link to our upcoming Live OpenHours during connect:  [https://www.youtube.com/watch?v=29yWWbXa8p8](https://www.youtube.com/watch?v=29yWWbXa8p8)
+This week was episode 2 or our 3 part series on the DragonBoard 410c.  Last week Robert showed an out of box experience and how to set-up your DragonBoard and he also announced our contest for a chance to win one of several DragonBoards. In this episode we had a demo done by Lawrence King from his desk at Qualcomm Canada and it was also during this episode we took down names for those that wanted to be part of the drawing   The final episode of the series this week will be a live panel at our [Linaro Connect ](http://connect.linaro.org/las16/)event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions.  At the end of the Live Panel we will draw names from those that entered the contest during episode 2 and announce the winners live.  We will actually have two OpenHours sessions next week - the first one during our normal time of 4pm (BST) where Robert will stream the keynote from LAS16 and a second one at 2pm (PST) where we will have a panel discussion and announce the winners of our contest.  Here is the link to our upcoming Live OpenHours during connect:  [https://www.youtube.com/watch?v=29yWWbXa8p8](https://www.youtube.com/watch?v=29yWWbXa8p8)
 
 To watch episode 20 go to [https://www.youtube.com/watch?v=iR1YzwGwGQE ](https://www.youtube.com/watch?v=iR1YzwGwGQE)
 
@@ -137,7 +137,7 @@ Youtube: [http://link.linaro.org/openhoursyoutube](http://link.linaro.org/openho
 
 
 
-[https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+[https://www.96boards.org/openhours/](/openhours/)
 
 
 
@@ -533,7 +533,7 @@ RW
 
 
 
-@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
+@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -712,7 +712,7 @@ RW
 
 
 
-Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](https://www.96boards.org/products/mezzanine/grove-starter-kit/)
+Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
 
 
 
@@ -1338,8 +1338,8 @@ Subscribe to 96Boards youtube for OpenHours live streem next week
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)
