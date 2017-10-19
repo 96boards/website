@@ -26,7 +26,7 @@ Connect an I2C accelerometer to a DragonBoard™ 410c and create a simple app to
 
 - [View Project on Qualcomm Developer Network](https://developer.qualcomm.com/project/i2c-accelerometer)
 - [Instructions](https://www.hackster.io/4360/i2c-accelerometer-564b34?offset=0&ref=search&ref_id=dragonboard)
-- [Source Code]()
+- [Source Code]()https://github.com/ms-iot/samples/view/develop.zip
 
 ### Social Media Links
 
