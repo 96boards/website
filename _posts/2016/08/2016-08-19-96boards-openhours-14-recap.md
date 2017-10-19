@@ -140,8 +140,6 @@ MB
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md)
-
 
 
 
@@ -174,7 +172,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/ConsumerEdition/README.md/](/documentation/ConsumerEdition/README.md/)
+[https://www.96boards.org/documentation/ConsumerEdition/](/documentation/ConsumerEdition/)
 
 
 

@@ -125,7 +125,7 @@ At 35:18 – Introduction Joakim Bech and Daniel Thompson – Discussion on Trus
   3. Discussion about security on different boards
 
 
-Be sure to stay tune in next week where we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header](/documentation/ConsumerEdition/GPIO/LSExpansionHeader/README.md/) and it’s many GPIO interfaces. Robert will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!  [https://www.96boards.org/openhours/](/openhours/)
+Be sure to stay tune in next week where we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header]() and it’s many GPIO interfaces. Robert will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!  [https://www.96boards.org/openhours/](/openhours/)
 
 [![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 

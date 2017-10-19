@@ -91,7 +91,7 @@ Barry shared with us how he does STEM outreach to get the next generation intere
   * **Dragonboard 410c**
 
 
-    * The default version of [BlueZ](http://www.bluez.org/) on Debian Jessie is 5.23. This project requires the version of BlueZ D-Bus API that is in BlueZ 5.43 release so you will need to upgrade. There are more detailed instructions on how to upgrade available at [http://pythonhosted.org/bluezero/install_bluez.html](http://pythonhosted.org/bluezero/install_bluez.html)
+    * The default version of [BlueZ](http://www.bluez.org/) on Debian Jessie is 5.23. This project requires the version of BlueZ D-Bus API that is in BlueZ 5.43 release so you will need to upgrade. There are more detailed instructions on how to upgrade available at [http://bluezero.readthedocs.io/en/latest/install_bluez.html](http://bluezero.readthedocs.io/en/latest/install_bluez.html)
 
 
     * Debian Stretch should come with BlueZ 5.43 version as standard.
@@ -181,4 +181,4 @@ Other Blogs from Robert Wolff
   * [96Boards Out of box experience guide - part 1](/blog/96boards-box-experience-guide-1/)
 
 
-  * [More...](/author/sdrobertw/)
+  * [More...]()

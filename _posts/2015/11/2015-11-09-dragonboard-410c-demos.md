@@ -29,8 +29,9 @@ tags:
 
 Last time I published, I talked about 96Boards in general and my [feelings about the initiative](/blog/the-beginning-of-96boards/). This time I’m going to talk about the [DragonBoard 410c](/products/ce/dragonboard410c/) which is built by Arrow Electronics, and uses a Qualcomm® Snapdragon 410 SoC as its core. It follows the Consumer Edition [specification](/products/ce/), with credit card size of it’s 54mm x 85mm. It has some really nice features and I’ve crafted a demo that I’ve used at different trade shows and Maker events. More about the demo later.
 
-[![DragonBoard-UpdatedImages-front]({% asset_path "DragonBoard-UpdatedImages-front.png" %}){:class="img-responsive lazyload"} ](/assets/DragonBoard-UpdatedImages-front.png){:class="img-responsive lazyload"}
-[![DragonBoard-UpdatedImages-back]({% asset_path "DragonBoard-UpdatedImages-back.png" %}){:class="img-responsive lazyload"} ](/assets/DragonBoard-UpdatedImages-back.png){:class="img-responsive lazyload"}
+{% include image.html name="DragonBoard-UpdatedImages-front.png" alt="DragonBoard-UpdatedImages-front" %}
+
+{% include image.html name="DragonBoard-UpdatedImages-back.png" alt="DragonBoard-UpdatedImages-back" %}
 
 So what are the technical specifications of this board? It’s a quad-core, ARM Cortex-A53 processor running at up to 1.2GHz per core; which means it’s a 64-bit CPU with 1GB 533MHz LPDDR3 RAM, 8GB eMMC 4.5 storage and a micro SD card slot and integrated WiFi, Bluetooth, and GPS including an antenna. It has the required 40-pin low speed and 60-pin high speed connectors. It also has a Qualcomm Adreno 306 400MHz GPU with a Freedreno[1] open source Linux driver for PC-class graphics with support for advanced APIs, including OpenGL ES 3.0. The power jack is connected to a wide band 6.5-18V DC capable DC-DC converter that supplies the board with 1.8v to run on and 5V DC that can be used externally. The wide band power supply is really nice if you want to use the board in a battery-powered device. If you are doing robotics or building a drone, you can typically just connect the board directly to a battery and usually not need another DC-DC converter to convert battery power to something the board can use, saving parts and space.
 

@@ -49,7 +49,7 @@ tags:
 
 A few week's ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
-This week began with Robert opening the floor for questions about anything regarding 96Boards.  The discussion began around some of the courses available, including some information about sensors for mezzanine boards: [ https://www.96boards.org/products/mezzanine/sensors-mezzanine/ ](/products/mezzanine/sensors-mezzanine/)and Arrow products for 96Boards:  [https://www.arrow.com/en/products/102990344/seeed-technology-limited](https://www.arrow.com/en/products/102990344/seeed-technology-limited).  Two of the community members gave an updates on their projects their teams have been working on with 96Boards.  Robert then discussed some of the changes with 96Boards and documentation.  In the past there were documents that have been located on several different sites.  We have now tried to consolidate all of this documentation as much as we can.  On the 96Boards website there is now a section on the top navigation that is labeled documentation:  [https://www.96boards.org/documentation/README.md/](/documentation/README.md/).  Under this section there are many choices to drill down and find out more about each board.  Robert then took some time to do an in-depth walk thru of the site to show those on the call how to find different information under this section.  If you are trying to find documentation for 96Boards it is worth your time to watch this tutorial on how to find this information:[ https://youtu.be/7mzwROlfB8s?t=21m55s](https://youtu.be/7mzwROlfB8s?t=21m55s).   Finally the call wrapped up with a question about the differences between the two main OS' and making applications for those with handicaps.  The team then discussed the differences and the various options there are to do this.
+This week began with Robert opening the floor for questions about anything regarding 96Boards.  The discussion began around some of the courses available, including some information about sensors for mezzanine boards: [ https://www.96boards.org/products/mezzanine/sensors-mezzanine/ ](/products/mezzanine/sensors-mezzanine/)and Arrow products for 96Boards:  [https://www.arrow.com/en/products/102990344/seeed-technology-limited](https://www.arrow.com/en/products/102990344/seeed-technology-limited).  Two of the community members gave an updates on their projects their teams have been working on with 96Boards.  Robert then discussed some of the changes with 96Boards and documentation.  In the past there were documents that have been located on several different sites.  We have now tried to consolidate all of this documentation as much as we can.  On the 96Boards website there is now a section on the top navigation that is labeled documentation:  [https://www.96boards.org/documentation/](/documentation/).  Under this section there are many choices to drill down and find out more about each board.  Robert then took some time to do an in-depth walk thru of the site to show those on the call how to find different information under this section.  If you are trying to find documentation for 96Boards it is worth your time to watch this tutorial on how to find this information:[ https://youtu.be/7mzwROlfB8s?t=21m55s](https://youtu.be/7mzwROlfB8s?t=21m55s).   Finally the call wrapped up with a question about the differences between the two main OS' and making applications for those with handicaps.  The team then discussed the differences and the various options there are to do this.
 
 As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information.
 
@@ -408,7 +408,7 @@ DM
 
 
 
-[https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/](https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/)
+[https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676](https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676)
 
 
 
@@ -429,7 +429,7 @@ DM
 
 
 
-Contribution Policy [https://github.com/96boards/documentation/blob/master/ContributionPolicy.md](https://github.com/96boards/documentation/blob/master/ContributionPolicy.md)
+Contribution Policy [https://github.com/96boards/documentation/blob/master/ContributionPolicy.md](https://github.com/96boards/documentation/blob/master/Extras/ContributionPolicy.md)
 
 
 

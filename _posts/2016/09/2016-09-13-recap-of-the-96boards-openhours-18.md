@@ -48,7 +48,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
 
 {% include media.html media_url="https://www.youtube.com/embed/LtF7xIsgfNM?feature=oembed" %}
 
-  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [ https://www.96boards.org/tutorial/running-kvm-guest-hikey/ ](/tutorial/running-kvm-guest-hikey/)
+  * **1:50 - 10:24** The first part of the call was a discussion with Jorge Ramirez-Ortiz who wrote a blog recently on "Running a KVM guest on HiKey" [https://www.96boards.org/projects/KVM/](/projects/KVM/)
 
 
     * Jorge has over twenty years of experience developing software and has been with Linaro on the Member Services team for a few years now.
@@ -166,7 +166,7 @@ RW
 
 
 
-[https://www.96boards.org/tutorial/running-kvm-guest-hikey/](/tutorial/running-kvm-guest-hikey/)
+[https://www.96boards.org/projects/KVM/](/projects/KVM/)
 
 
 
@@ -972,7 +972,7 @@ MB
 
 
 
-[https://www.96boards.org/product/sd600eval/](/product/sd600eval/) has Ethernet but not USB3
+sd600eval has Ethernet but not USB3
 
 
 

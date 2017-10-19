@@ -17,7 +17,7 @@ categories:
 Qualcomm Developer Network is declaring March as Maker Month, and in celebration they giving away a [DragonBoard™ 410c](/products/ce/dragonboard410c/) development kit from Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor from Qualcomm Technologies, Inc., for every day of the month. Tell us what you would make with a DragonBoard 410c for a chance to win your own and be eligible for the Grand Prize—$5000 and your innovation featured on the Qualcomm Developer Network.
 
 
-  * **Signup now**: [https://dragonboardcontest.com/](https://dragonboardcontest.com/)
+  * **Signup now**: [https://dragonboardcontest.com/]()
 
 
   * **QDN (Qualcomm Developer Network)**: [https://developer.qualcomm.com/](https://developer.qualcomm.com/)

@@ -73,7 +73,7 @@ This was first episode of the DragonBoard 410c mini-series.  We are kicking off
   * **52:00** - Discussion on what is going on in the community
 
 
-**Be sure to join us for part two next week where Lawrence King will show a demo of the DragonBoard 410c in action.  Also during this episode that you will be able to [register to win a DragonBoard 410c. ](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf) Join us at:  [https://www.96boards.org/openhours/](/openhours/) **
+**Be sure to join us for part two next week where Lawrence King will show a demo of the DragonBoard 410c in action.  Also during this episode that you will be able to register to win a DragonBoard 410c. Join us at:  [https://www.96boards.org/openhours/](/openhours/) **
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -150,7 +150,7 @@ Youtube: [http://link.linaro.org/openhoursyoutube](http://link.linaro.org/openho
 
 
 
-Competition Rules: [/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf)
+Competition Rules: N/A
 
 
 
@@ -655,7 +655,7 @@ The USB switch is for loading Win10
 
 
 
-David Mandala's Blogs: [https://www.96boards.org/author/davidm/](/author/davidm/)
+David Mandala's Blogs: [https://www.96boards.org/blog/](/blog/)
 
 
 

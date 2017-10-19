@@ -99,7 +99,7 @@ Carbon will try to establish I2C communcation via PB6/PB7 where no I2C slave dev
 
 Okay, now I got the correct pinmap for I2C1 but what should I do for using another I2C1 interface?
 
-Answer to the above question is to modify the default [Pinmux code](https://github.com/zephyrproject-rtos/zephyr/blob/master/drivers/pinmux/stm32/pinmux_board_carbon.c#L26).
+Answer to the above question is to modify the default [Pinmux code]().
 It can be changed as like the following code:
 
 ```c
