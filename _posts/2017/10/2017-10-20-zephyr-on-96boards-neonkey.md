@@ -5,10 +5,10 @@ date: 2017-10-20 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/zephyr-on-96boards-neonkey/
 slug: zephyr-on-96boards-neonkey
-featured_image: neonkey.jpg
+featured_image: neonkey-hd.jpg
 thumbnail_image: neonkey.jpg
 title: Zephyr on 96Boards Neonkey
-wordpress_id: 
+wordpress_id:
 categories:
 - blog
 tags:
@@ -99,10 +99,10 @@ ROM bootloader can be triggered by the following pattern:
 2. Press and hold the USR button
 3. Press and release the RST button
 
-More detailed information on activating the ROM bootloder can be found in Chapter 29 of Application note [AN2606](https://www.st.com/resource/en/application_note/cd00167594.pdf). The ROM 
+More detailed information on activating the ROM bootloder can be found in Chapter 29 of Application note [AN2606](https://www.st.com/resource/en/application_note/cd00167594.pdf). The ROM
 bootloader supports flashing via UART, I2C and SPI protocols.
 
-For flashing, [stm32flash](https://sourceforge.net/p/stm32flash/wiki/Home/) command line utility can be used. The following 
+For flashing, [stm32flash](https://sourceforge.net/p/stm32flash/wiki/Home/) command line utility can be used. The following
 command will flash the zephyr.bin binary to the Neonkey board using UART and starts its execution:
 
 ```shell
@@ -112,15 +112,15 @@ $ stm32flash -w zephyr.bin -v -g 0x08000000 /dev/ttyS0
 
 ### **2. Using SWD debugger**
 
-For flashing via SWD debug port, 0.1” male header must be soldered at P4 header available at the bottom of the board, near 
-RST button. Use the Black Magic Debug Probe as an SWD programmer, which can be connected to the P4 header using its flying 
-leads and its 20 Pin JTAG Adapter Board Kit. When plugged into your host PC, the Black Magic Debug Probe enumerates as a 
+For flashing via SWD debug port, 0.1” male header must be soldered at P4 header available at the bottom of the board, near
+RST button. Use the Black Magic Debug Probe as an SWD programmer, which can be connected to the P4 header using its flying
+leads and its 20 Pin JTAG Adapter Board Kit. When plugged into your host PC, the Black Magic Debug Probe enumerates as a
 USB serial device as documented on its Getting started page.
 
 > Note: If you are concerned about buying a dedicated SWD debugger, you can also use [96Boards Carbon](https://www.96boards.org/product/carbon/) for flashing and debugging
 >       as shown in [this](https://www.96boards.org/blog/96boards-carbon-self-programming/) blog post.
 
-It also uses the GDB binary provided with the Zephyr SDK, arm-zephyr-eabi-gdb. Other GDB binaries, such as the GDB from 
+It also uses the GDB binary provided with the Zephyr SDK, arm-zephyr-eabi-gdb. Other GDB binaries, such as the GDB from
 GCC ARM Embedded, can be used as well.
 
 ```shell
@@ -143,6 +143,3 @@ Attaching to Remote target
 So, that's it about the Zephyr support for Neonkey board. Now its the time for community to make cool real time projects using
 Zephyr incorporating Neonkey and share with us :-) Since, Neonkey has many onboard sensors one can easily use this board with other 96Boards to
 create IoT ecosystem in an efficient way.
-
-
-

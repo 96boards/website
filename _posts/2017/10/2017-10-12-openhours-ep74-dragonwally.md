@@ -89,7 +89,7 @@ We're testing cameras (Laptop, USB Cam) and screen sharing. I hope our internet 
 ! :P lol @ragnar
 
 Ragnar. - R
-Robert hi, any news from my Santa Claus? 
+Robert hi, any news from my Santa Claus?
 
 Cezar Menezes - CM
 T minus twelve ...
@@ -250,7 +250,7 @@ Robert Wolff - RW
 Thank you!
 
 Ragnar. - R
-...and the Ragnar form 
+...and the Ragnar form
 
 Robert Wolff - RW
 Poplar: https://96boards.org/product/poplar/
@@ -288,7 +288,7 @@ Krohna
 Soul Eater
 
 Cezar Menezes - CM
-Not Corona 
+Not Corona
 
 Robert Wolff - RW
 Crona, Maka, Soul
