@@ -76,18 +76,18 @@ Qualcomm has selected the number one IoT portal in Brazil to handle this entire 
 ## Linaro and 96Boards
 
 
-[Linaro](https://www.linaro.org/) and [96Boards](https://www.96boards.org/) will be offering support throughout the entire event! This will include the following:
+[Linaro](https://www.linaro.org/) and [96Boards](/) will be offering support throughout the entire event! This will include the following:
 
 
 
 
-  * Several private [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/) workshops to the participating teams.
+  * Several private [DragonBoard 410c](/product/dragonboard410c/) workshops to the participating teams.
 
 
-  * [An event specific landing page](https://www.96boards.org/go/db410c-partnership-brazil/) packed with very useful resources
+  * [An event specific landing page](/go/db410c-partnership-brazil/) packed with very useful resources
 
 
-  * Weekly [OpenHours conference calls](https://www.96boards.org/openhours/)
+  * Weekly [OpenHours conference calls](/openhours/)
 
 
   * Live chat on [freenode IRC](https://webchat.freenode.net/) under channel #96Boards and #OpenHours

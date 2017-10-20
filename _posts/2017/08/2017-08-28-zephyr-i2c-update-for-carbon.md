@@ -48,13 +48,13 @@ tags:
 
 # **Introduction**
 
-Have you tinkered with I2C on [96Boards Carbon](https://www.96boards.org/product/carbon/) - [IoT Edition](https://www.96boards.org/products/ie/)
+Have you tinkered with I2C on [96Boards Carbon](/product/carbon/) - [IoT Edition](/products/ie/)
 of our 96Boards family through [Zephyr RTOS](https://www.zephyrproject.org/)? If yes, then this blog will give you a quick update on the latest change made for I2C. If you haven't used
 then this blog will serve you as a good introduction to I2C on Carbon.
 
 # **Carbon**
 
-[Carbon](https://www.96boards.org/product/carbon/) board is the first board to be certified as 96Boards IoT edition compatible.
+[Carbon](/product/carbon/) board is the first board to be certified as 96Boards IoT edition compatible.
 The heart of the Carbon board is **STM32F401RE** which is a Cortex M4 based microcontroller. For any IoT project, communication
 is a must have feature. For aiding this purpose another Co- processor is embedded onto the Carbon board which is **nRF51822**.
 This is used to provide *BLE* support for communicating the host, thus making Carbon as a best bet for doing IoT projects.
@@ -99,7 +99,7 @@ Carbon will try to establish I2C communcation via PB6/PB7 where no I2C slave dev
 
 Okay, now I got the correct pinmap for I2C1 but what should I do for using another I2C1 interface?
 
-Answer to the above question is to modify the default [Pinmux code](https://github.com/zephyrproject-rtos/zephyr/blob/master/drivers/pinmux/stm32/pinmux_board_carbon.c#L26).
+Answer to the above question is to modify the default [Pinmux code]().
 It can be changed as like the following code:
 
 ```c

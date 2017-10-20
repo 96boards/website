@@ -33,7 +33,7 @@ tags:
 # Introduction
 
 
-I was asked recently: “How do I do development for 96Boards? Do I use the cross compiler environment that I wrote about in one of my prior blogs([1](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/), [2](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/) , [3](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)) or something else?” Well it’s really something else, I was some what mystified when I was asked to write about using a cross compiler environment since I never use them when working with 96Boards. I develop directly on my 96Boards, using C, C++, Python, html, etc. The boards are fast enough and generally have enough RAM to make it quite easy. Only on the larger projects will you run out of RAM, i.e doing a Linux kernel compile will run a 1GB of RAM system out of RAM, but this is easily fixed. I also don’t use an IDE on my 96Boards because it takes up too much space, both storage and RAM, and personal preference. I use make files and C or Python, even when I’m doing X86 development.
+I was asked recently: “How do I do development for 96Boards? Do I use the cross compiler environment that I wrote about in one of my prior blogs([1](/blog/cross-compile-files-x86-linux-to-96boards/), [2](/blog/eclipse-x86-linux-cross-compile-arm-linux/) , [3](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)) or something else?” Well it’s really something else, I was some what mystified when I was asked to write about using a cross compiler environment since I never use them when working with 96Boards. I develop directly on my 96Boards, using C, C++, Python, html, etc. The boards are fast enough and generally have enough RAM to make it quite easy. Only on the larger projects will you run out of RAM, i.e doing a Linux kernel compile will run a 1GB of RAM system out of RAM, but this is easily fixed. I also don’t use an IDE on my 96Boards because it takes up too much space, both storage and RAM, and personal preference. I use make files and C or Python, even when I’m doing X86 development.
 
 
 # Assumptions
@@ -195,7 +195,7 @@ Filename Type Size Used Priority
 # Installing development software
 
 
-If you have not already installed your development environment it’s time to do so, this is really exactly out of my [blog entry](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/) so first, make sure your image is fully up to date:
+If you have not already installed your development environment it’s time to do so, this is really exactly out of my [blog entry](/blog/cross-compile-files-x86-linux-to-96boards/) so first, make sure your image is fully up to date:
 
 **Commands:**
 
@@ -216,37 +216,37 @@ Commands:
 # Useful Libraries for C, C++, Python, and Java development
 
 
-I personally recommend using libsoc or mraa libraries, when installed with the 96Boards extension they simplify GPIO and I2C access and make the code the same no matter which 96Board you are using. You can find install instructions at: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md#install-libraries](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md#install-libraries)
+I personally recommend using libsoc or mraa libraries, when installed with the 96Boards extension they simplify GPIO and I2C access and make the code the same no matter which 96Board you are using. You can find install instructions at: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md#install-libraries]()
 
 Have fun, unless you manage to need to write some code in assembler coding on ARM is exactly the same as coding on X86. Really now a days there is really very very little reason to consider developing anything using assembler code, if you need tight code that's really fast, use C, there are reasons that C has been called the portable assembler….. If clean tight C is really not fast enough then yes, you might need to learn ARM assembler but the need should be very rare.
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
 
 
 
-  * [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
+  * [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
 
-  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
 
-  * [Eclipse remote development and debugging](https://www.96boards.org/blog/eclipse-remote-development-debugging/)
+  * [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)
 
 
-  * [Ramblings of Mezzanine boards](https://www.96boards.org/blog/ramblings-mezzanine-boards/)
+  * [Ramblings of Mezzanine boards](/blog/ramblings-mezzanine-boards/)

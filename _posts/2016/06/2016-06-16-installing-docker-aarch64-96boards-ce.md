@@ -55,8 +55,6 @@ tags:
 Docker is “an open source project to pack, ship and run any application as a lightweight container.” It’s a very interesting tool from the Enterprise space, and docker.com lists its usecases as:
 
 
-
-
   * Continuous integration
 
 
@@ -75,7 +73,7 @@ Docker is an exciting technology, and one reason to install and run it on a CE s
 
 I had my own specific further reasons to use Docker on an embedded board. I was looking at some packages that were painful to install and needed specific distros and distro versions. I only wanted to do the installation and configuration once and I didn’t want to have to handle multiple or ‘unsupported’ distros. Docker allows you to save images that you’ve built and also to automate the build steps for an image. Images can be based on top of existing images and all the steps can be recorded in a `Dockerfile` to re-create the image. I was also motivated by what the folks at [http://blog.hypriot.com/](http://blog.hypriot.com/) had acheived even on ARMv7 and wanted some of that too.
 
-**The instructions to re-create my Docker install on 96Boards CE Edition are [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/DockerCE.md).**
+**The instructions to re-create my Docker install on 96Boards CE Edition are [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/docker_ce.md).**
 
 I aim to be using Docker in the coming months to deploy some applications onto my various CE Edition 96Boards without having to run multiple builds/installations. As a taster, here is a screenshot of 64 Docker containers, each with a separate container instance of Ubuntu, all started up and running on the Dragonboard.
 
@@ -83,9 +81,9 @@ I aim to be using Docker in the coming months to deploy some applications onto m
 
 As discussed in the 96Boards  (06/16/16) OpenHours session. All sessions are recorded and available in the [96Boards YouTube Channel](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
-We look forward to seeing you at [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we discuss current blogs along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+We look forward to seeing you at [Open Hours](/openhours/) every Thursday, where we discuss current blogs along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 Please remember, if you get stuck, there are resources to help you through any 96Boards issues. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!

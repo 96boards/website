@@ -14,9 +14,23 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMTlUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #73** - Saúde Certa(Safe2Med) is a project that aims to minimize the error in the administration of medicines and at the same time allow a smarter interaction of patients in hospital beds, allowing information transparency and real-time monitoring. This time on OpenHours, you will get to meet the creators of this amazong prototype/product. Together we will discuss their development path and future product plans. If you have a product idea with 96Boards and would like to find out more about how people are using these platforms to bring their products to life, this is your chance. Join us in welcoming the folks from Safe2Med, bring your questions, comments, and favorite mug of coffee or tea! In the wake of Linaro Connect (SFO17) we will have much to discuss.
+**OpenHours Episode #75** - OneRF designed a robust IoT gateway based on 96Boards DragonBoard 410c for outdoor and industrial IoT.
+With DragonBoard 410c, the gateway has edge processing capacity. This means processing happens closer to the source, via the gateway, instead of traveling to the cloud. 
+
+The gateway collects raw data from sensors and devices, processes it locally and communicates only information to cloud. DragonBoard 410c board will enable the use of Qualcomm's NPE (Snapdragon Neural Processing Engine). NPE allows the running of trained neural networks without a need for connection to the cloud. Complex data analysis and process decision could be made in the gateway.
+
+The radio modules can be embedded in diverse applications. Since the contest, we have more solutions that we would like to show on OpenHours: An Intelligent Photocell for Public Lighting Control, a Smart Meter application, Monitoring Module for Industry, a Waste and Water Level Monitoring module and a Parking Sensor device.
+
+Join us this week on our OpenHours live broadcast to meet the OneRF team and get all of your questions answered in this interactive and fun setting! See you at the end of the countdown.
+
+- References:
+   - Our website: http://www.onerf.com.br/index-en.html
+- For the Qualcomm Brazil and Embarcados contest, we developed a waste and water level monitoring module.
+   - https://github.com/GustavoRP/ReSeNI
+   - http://www.instructables.com/id/Inteligent-Level-Sensors-Network
+
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +59,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMDVUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMTlUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 

@@ -29,21 +29,21 @@ tags:
 ---
 # Introduction
 
-This special episode of 96Boards OpenHours was brought to you live from the Qualcomm Thinkabit lab in San Diego. We were joined by both Lawrence King and Rajan Mistry from Qualcomm, Jason Enslin and Scott Dunnington from D3 Engineering and over 130 community members from around the world! We couldn’t have hoped for a better turnout. During this episode we announced the new [DesignCore Camera Mezzanine for 96Boards](https://www.96boards.org/product/d3-designcore-camera-mezzanine/), talked about all of it’s resources and availability, then showcased the new mezzanine running on a [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/) with several cool demos(D3 Light box, and Lawrence’s ball tracking)! By the end of the broadcast, everyone got their questions answered and five lucky raffle winners took home a complete DragonBoard 410c / DesignCore Mezzanine kit, all of which were generously gifted by [Qualcomm](https://developer.qualcomm.com/) and [Arrow](https://www.arrow.com/).
+This special episode of 96Boards OpenHours was brought to you live from the Qualcomm Thinkabit lab in San Diego. We were joined by both Lawrence King and Rajan Mistry from Qualcomm, Jason Enslin and Scott Dunnington from D3 Engineering and over 130 community members from around the world! We couldn’t have hoped for a better turnout. During this episode we announced the new [DesignCore Camera Mezzanine for 96Boards](/product/d3-designcore-camera-mezzanine/), talked about all of it’s resources and availability, then showcased the new mezzanine running on a [DragonBoard 410c](/product/dragonboard410c/) with several cool demos(D3 Light box, and Lawrence’s ball tracking)! By the end of the broadcast, everyone got their questions answered and five lucky raffle winners took home a complete DragonBoard 410c / DesignCore Mezzanine kit, all of which were generously gifted by [Qualcomm](https://developer.qualcomm.com/) and [Arrow](https://www.arrow.com/).
 
-If you missed it, this is your chance to get up to speed. The video, along with time stamps can be found below! I also recommend reading [this prequel blog on the D3 Mezzanine](https://www.96boards.org/blog/d3-designcore-camera-mezzanine-and-openhours/) prior to jumping into this OpenHours episode. Here we cover the complete out of box experience and software walk through.
+If you missed it, this is your chance to get up to speed. The video, along with time stamps can be found below! I also recommend reading [this prequel blog on the D3 Mezzanine](/blog/d3-designcore-camera-mezzanine-and-openhours/) prior to jumping into this OpenHours episode. Here we cover the complete out of box experience and software walk through.
 
-I would like to extend a special thanks to Qualcomm and Arrow for donating the kits for this amazing raffle. A big thanks to the D3 Engineering team for joining us as featured guests. Thank you to Lawrence and Rajan for being there, onsite with me, and letting us use the Thinkabit lab at Qualcomm. Of course an enormous thanks to the entire 96Boards community for joining and participating in this important episode. [See you next week!](https://www.96boards.org/openhours/)
+I would like to extend a special thanks to Qualcomm and Arrow for donating the kits for this amazing raffle. A big thanks to the D3 Engineering team for joining us as featured guests. Thank you to Lawrence and Rajan for being there, onsite with me, and letting us use the Thinkabit lab at Qualcomm. Of course an enormous thanks to the entire 96Boards community for joining and participating in this important episode. [See you next week!](/openhours/)
 
 **Please take some time to explore the following OpenHours episode #59 resources:**
 
-*   [96Boards D3 DesignCore Camera Mezzanine landing page](https://www.96boards.org/product/d3-designcore-camera-mezzanine/)
-*   [Prequel blog for DesignCore Mezzanine out of box experience](https://www.96boards.org/blog/d3-designcore-camera-mezzanine-and-openhours/)
+*   [96Boards D3 DesignCore Camera Mezzanine landing page](/product/d3-designcore-camera-mezzanine/)
+*   [Prequel blog for DesignCore Mezzanine out of box experience](/blog/d3-designcore-camera-mezzanine-and-openhours/)
 *   [D3 Engineering Website](http://www.d3engineering.com/solutions/embedded-vision)
 *   [D3 Engineering on Linkedin](https://www.linkedin.com/company/d3-engineering)
 *   [Purchase DesignCore mezzanine on Arrow!](https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering)
-*   [DesignCore Mezzanine Data Sheet](https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf)
-*   [DesignCore Mezzanine Quick start Guide and Schematics](https://github.com/96boards/website/raw/master/_product/Mezzanine/D3Camera/Files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf)
+*   [DesignCore Mezzanine Data Sheet](https://github.com/96boards/website/blob/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf)
+*   [DesignCore Mezzanine Quick start Guide and Schematics](https://github.com/96boards/website/blob/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf)
 *   [DesignCore Mezzanine Wiki](https://github.com/D3Engineering/410c_camera_support)
 *   [Linux kernel qcomlt](https://github.com/D3Engineering/linux_kernel_qcomlt)
 *   [pyimagesearch blog related to Lawrence King’s demo](http://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)

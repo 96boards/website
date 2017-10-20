@@ -48,13 +48,13 @@ tags:
 
 https://youtu.be/u8x1zGcl3O0
 
-After the initial announcements Robert introduced David Mandala, who wrote a great blog on "[Gui & command line remote debugging](https://www.96boards.org/blog/gui-command-line-remote-debugging/)".  David began by mentioning the Geppetto tool from Gumstix ([https://www.gumstix.com/geppetto/](https://www.gumstix.com/geppetto/)) and how it can help you with your build.  David then introduced his blog and talked about debugging with gdb, setting up your ARM 96Boards system, starting gdb-multiarch, and GUI source code debugging with ddd.  The hangout then opened up for attendee questions.  The first was why did Linaro pick the DragonBoard?  The short answer was because the DragonBoard and all of our 96Boards are built for your product to go to market.  Robert then discussed in more detail what this meant.   The next question was about what different types of applications are 96Boards being used for?  Robert talked about one segment, IoT, which has done some really great work with ideas for applications of 96Boards in the healthcare industry and in robotics.  There was also another walk thru of the new 96Boards documentation section of the website.   Robert also discussed the next three openhours that will be focused on the DragonBoard and an out-of-box experience.  It will also include a DragonBoard give-away as well, more details to come.
+After the initial announcements Robert introduced David Mandala, who wrote a great blog on "[Gui & command line remote debugging](/blog/gui-command-line-remote-debugging/)".  David began by mentioning the Geppetto tool from Gumstix ([https://www.gumstix.com/geppetto/](https://www.gumstix.com/geppetto/)) and how it can help you with your build.  David then introduced his blog and talked about debugging with gdb, setting up your ARM 96Boards system, starting gdb-multiarch, and GUI source code debugging with ddd.  The hangout then opened up for attendee questions.  The first was why did Linaro pick the DragonBoard?  The short answer was because the DragonBoard and all of our 96Boards are built for your product to go to market.  Robert then discussed in more detail what this meant.   The next question was about what different types of applications are 96Boards being used for?  Robert talked about one segment, IoT, which has done some really great work with ideas for applications of 96Boards in the healthcare industry and in robotics.  There was also another walk thru of the new 96Boards documentation section of the website.   Robert also discussed the next three openhours that will be focused on the DragonBoard and an out-of-box experience.  It will also include a DragonBoard give-away as well, more details to come.
 
 As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](/openhours/).  Next week we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
@@ -122,7 +122,7 @@ RW
 
 
 
-[https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/](https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/)
+[https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/](/blog/geppettotm-offers-makers-rapid-path-to-market/)
 
 
 
@@ -143,7 +143,7 @@ RW
 
 
 
-[https://www.96boards.org/blog/gui-command-line-remote-debugging/](https://www.96boards.org/blog/gui-command-line-remote-debugging/)
+[https://www.96boards.org/blog/gui-command-line-remote-debugging/](/blog/gui-command-line-remote-debugging/)
 
 
 
@@ -295,7 +295,7 @@ Welcome!
 
 
 
-David Mandala is talking about his recent blog release found here: [https://www.96boards.org/blog/gui-command-line-remote-debugging/](https://www.96boards.org/blog/gui-command-line-remote-debugging/)
+David Mandala is talking about his recent blog release found here: [https://www.96boards.org/blog/gui-command-line-remote-debugging/](/blog/gui-command-line-remote-debugging/)
 
 
 
@@ -477,7 +477,7 @@ RW
 
 
 
-David Mandala is talking about his new blog, it can be found here: [https://www.96boards.org/blog/gui-command-line-remote-debugging/](https://www.96boards.org/blog/gui-command-line-remote-debugging/)
+David Mandala is talking about his new blog, it can be found here: [https://www.96boards.org/blog/gui-command-line-remote-debugging/](/blog/gui-command-line-remote-debugging/)
 
 
 
@@ -1997,8 +1997,8 @@ Here so some inspirational ideas on how to use 96Boards or even DtagonBaordshttp
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

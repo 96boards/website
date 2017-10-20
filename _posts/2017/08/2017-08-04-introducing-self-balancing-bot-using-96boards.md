@@ -45,7 +45,7 @@ tags:
 # **Introduction**
 
 Finally, 96Boards is doing Robotics with Self Balancing Bot! Yes, you heard it right :-) This is the introductory blog for
-Self Balancing Bot using [96Boards CE](https://www.96boards.org/products/ce/). Like our previous project [Home Surveillance](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/),
+Self Balancing Bot using [96Boards CE](/products/ce/). Like our previous project [Home Surveillance](/blog/part-1-home-surveillance-project-96boards/),
 this project is also organized in series and each part will accompany a blog and a demonstrating video. Entire project has
 been framed in such a way it suits readers of very little exposure to Robotics as well as Pro's.
 

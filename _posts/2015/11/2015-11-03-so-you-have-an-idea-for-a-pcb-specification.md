@@ -34,7 +34,7 @@ At this point in the workflow, you'll want to have a list of components you inte
 
 When choosing your components, bear in mind that some have a longer lead time than others, and supply availability varies too. This might present a risk in later stages.
 
-Another thing worth noting, is that you should be aware of the available expansion connectors on the [96Boards](https://www.96boards.org/) main boards; LS (low speed) and HS (high speed) connectors. How will your Mezzanine utilise the available pins?
+Another thing worth noting, is that you should be aware of the available expansion connectors on the [96Boards](/) main boards; LS (low speed) and HS (high speed) connectors. How will your Mezzanine utilise the available pins?
 
 
-[←Overview](https://www.96boards.org/?p=8888) &#124;[Development: Schematic & Netlist→](https://www.96boards.org/?p=8946)
+[←Overview](/?p=8888) &#124;[Development: Schematic & Netlist→](/?p=8946)

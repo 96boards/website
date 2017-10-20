@@ -46,7 +46,7 @@ tags:
 
 Welcome to episode 26 in our OpenHours series.  In this episode Robert had guest speaker Ricardo Salveti talk about IoT using the 96Boards Carbon board.   Ricardo Salveti took questions about this new board, and discussed his demo that he showed at Linaro Connect LAS16.
 
-Robert began by discussing last week's episode that showed a Gumstix drone.  There is  great blog that discussed specifically how you can build your own drone and gives step by step instructions and more information.  [https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/ ](https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/).  Robert then gave several other links that may be of interest for those looking to build this drone to see where you can get the parts shows:  [https://www.seeedstudio.com/category/96Boards-c-30.html](https://www.seeedstudio.com/category/96Boards-c-30.html)  and also to follow Gumstix [https://twitter.com/gstixguru](https://twitter.com/gstixguru).  To watch last week's episode you can view it here:   Youtube: [http://linaro.co/96byt](http://linaro.co/96byt)
+Robert began by discussing last week's episode that showed a Gumstix drone.  There is  great blog that discussed specifically how you can build your own drone and gives step by step instructions and more information.  [https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/ ](/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/).  Robert then gave several other links that may be of interest for those looking to build this drone to see where you can get the parts shows:  [https://www.seeedstudio.com/category/96Boards-c-30.html](https://www.seeedstudio.com/category/96Boards-c-30.html)  and also to follow Gumstix [https://twitter.com/gstixguru](https://twitter.com/gstixguru).  To watch last week's episode you can view it here:   Youtube: [http://linaro.co/96byt](http://linaro.co/96byt)
 
 
 
@@ -58,7 +58,7 @@ Robert began by discussing last week's episode that showed a Gumstix drone.  Th
 
 
 
-Today's episode began with the introduction of Ricardo who has been working in the Linux space for over 10 years now and his work in IoT.  Ricardo gave some information about his background in working with Linaro and in the industry.  He then discussed the new Carbon Board that was announced during the Linaro Connect LAS16 and showed the difference in sizes of some of the current boards including the new Carbon that is very small.  He discussed the specifications for it and what they are trying to do.  Here is a link to more information on IoT Specification: [https://www.96boards.org/specifications/](https://www.96boards.org/specifications/).
+Today's episode began with the introduction of Ricardo who has been working in the Linux space for over 10 years now and his work in IoT.  Ricardo gave some information about his background in working with Linaro and in the industry.  He then discussed the new Carbon Board that was announced during the Linaro Connect LAS16 and showed the difference in sizes of some of the current boards including the new Carbon that is very small.  He discussed the specifications for it and what they are trying to do.  Here is a link to more information on IoT Specification: [https://www.96boards.org/specifications/](/specifications/).
 
 
 
@@ -83,7 +83,7 @@ Today's episode began with the introduction of Ricardo who has been working in t
 
 
 
-13:44 - Ricardo began to discuss the specifics about the Carbon board.  You can read more about the product features and information here:  [https://www.96boards.org/product/carbon/ ](https://www.96boards.org/product/carbon/).  Ricardo showed the board and talked about each of the components and what you can use them for.
+13:44 - Ricardo began to discuss the specifics about the Carbon board.  You can read more about the product features and information here:  [https://www.96boards.org/product/carbon/ ](/product/carbon/).  Ricardo showed the board and talked about each of the components and what you can use them for.
 
 
 
@@ -164,7 +164,7 @@ To watch episode 26 go to[ https://www.youtube.com/watch?v=f8I-jXHu45Q](https:/
 
 {% include media.html media_url="https://www.youtube.com/embed/f8I-jXHu45Q?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -236,7 +236,7 @@ RW
 
 
 
- [https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/](https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
+ [https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/](/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
 
 
 
@@ -282,7 +282,7 @@ RW
 
 
 
-IoT Specification: [https://www.96boards.org/specifications/](https://www.96boards.org/specifications/)
+IoT Specification: [https://www.96boards.org/specifications/](/specifications/)
 
 
 
@@ -424,7 +424,7 @@ Yes. similar to Pi zero
 
 
 
-Read more about Carbon here:[https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+Read more about Carbon here:[https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -447,7 +447,7 @@ Read more about Carbon here:[https://www.96boards.org/product/carbon/](https://w
 
 
 
-[https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+[https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -470,7 +470,7 @@ Read more about Carbon here:[https://www.96boards.org/product/carbon/](https://w
 
 
 
-We are currently talking about the new 96Boards #Carbon.Read more here: [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+We are currently talking about the new 96Boards #Carbon.Read more here: [https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -634,7 +634,7 @@ RW
 
 
 
-more information on Carbon here: [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+more information on Carbon here: [https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -891,7 +891,7 @@ For those who just joined, Ricardo is talking about the Carbon, read more here:
 
 
 
-[https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+[https://www.96boards.org/product/carbon/](/product/carbon/)
 
 
 
@@ -1661,7 +1661,7 @@ RW
 
 
 
-[https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/](https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
+[https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/](/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/)
 
 
 
@@ -1777,7 +1777,7 @@ Could you use a DragonBoard to compile the carbon code?
 
 
 
-[https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Pinout.png](https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Pinout.png){:class="img-responsive lazyload"}
+[https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png](https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png){:class="img-responsive lazyload"}
 
 
 
@@ -1979,8 +1979,8 @@ Just spotted a typo in the pinout diagram. There's 2 lots of I2C1 on PB6 and PB8
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)

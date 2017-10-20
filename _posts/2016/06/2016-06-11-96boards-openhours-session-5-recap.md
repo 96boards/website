@@ -67,7 +67,7 @@ Last week the team discussed General Purpose Input/Output (GPIO) and low speed e
     * Akira spoke about the I2C (Inter-integrated Circtui) and GPIO (General Purpose input/output) interfaces, taking what was discussed in the previous two openhours sessions and going a little more in depth
 
 
-    * You can view a follow-up blog that Akira wrote on this topic here: [https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/)
+    * You can view a follow-up blog that Akira wrote on this topic here: [https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](/blog/programing-i2c-devices-libmraa-libupm/)
 
 
 
@@ -100,24 +100,24 @@ Last week the team discussed General Purpose Input/Output (GPIO) and low speed e
   * 36:40 – Questions and Answer session
 
 
-Be sure to stay tune in next week where we will discuss installing Docker on aarch64 with the reference platform build on a 96Boards CE-edition [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
+Be sure to stay tune in next week where we will discuss installing Docker on aarch64 with the reference platform build on a 96Boards CE-edition [https://www.96boards.org/openhours/](/openhours/)
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](https://www.96boards.org/openhours/)
+[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
 
-[**In this series**](https://www.96boards.org/tag/openhours/)
-
-
+[**In this series**](/tag/openhours/)
 
 
-  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
+  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
+
+
+  * [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/)

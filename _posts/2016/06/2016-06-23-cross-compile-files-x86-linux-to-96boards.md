@@ -43,10 +43,10 @@ In this blog entry we will show you how to just cross compile using the standard
 ## Assumptions
 
 
-I’m using my Linux laptop as my cross compiling station, I’m starting with the most current release of Ubuntu on it, 16.04 and I’m using libsoc and mraa from github so I’m running the latest library code on the Linux laptop and on the 96Boards. I’m using a DragonBoard 410c today, but this works on a HiKey and a Bubblegum board just as well. In fact with the HiKey board with it’s 2G of RAM there is even less need of cross compiling, but even with 2G you could run out. So make sure to use apt-get and update both the 96Boards and the cross compiling station, then use git to make sure you have the latest code on the library(ies) you are using. I’m not going to go into making sure you have installed the latest and greatest libsoc and/or mraa on your 96Boards, [there are instructions for doing that](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/README.md) so no need to cover old ground.
+I’m using my Linux laptop as my cross compiling station, I’m starting with the most current release of Ubuntu on it, 16.04 and I’m using libsoc and mraa from github so I’m running the latest library code on the Linux laptop and on the 96Boards. I’m using a DragonBoard 410c today, but this works on a HiKey and a Bubblegum board just as well. In fact with the HiKey board with it’s 2G of RAM there is even less need of cross compiling, but even with 2G you could run out. So make sure to use apt-get and update both the 96Boards and the cross compiling station, then use git to make sure you have the latest code on the library(ies) you are using. I’m not going to go into making sure you have installed the latest and greatest libsoc and/or mraa on your 96Boards, [there are instructions for doing that]() so no need to cover old ground.
 It is critical that your cross compiling station and your 96Boards stay in sync in terms of software so if you update your laptop update your 96boards, if you don’t bad and unexpected things can and will happen.
 
-Finally this is not instructions or a tutorial on using the [OpenEmbedded](https://github.com/Linaro/documentation/blob/master/Reference-Platform/RPTest/ConsumerEdition/DragonBoard-410c/InstallOERPB-16.03.md) build framework, it allows developers to create a complete Linux Distribution for embedded systems. These are instructions to take a Linaro build for 96Boards and cross compile applications to run in that build. If you are trying to create a product with the smallest possible Linux footprint OpenEmbedded might be just the ticket for you but that is much more complex then cross compiling an application to run on a 96Boards build. So with that clarification lets get started on a simple application compile and cross compile.
+Finally this is not instructions or a tutorial on using the [OpenEmbedded](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Releases/RPB_16.03/ConsumerEdition/DragonBoard-410c/InstallOERPB-16.03.md) build framework, it allows developers to create a complete Linux Distribution for embedded systems. These are instructions to take a Linaro build for 96Boards and cross compile applications to run in that build. If you are trying to create a product with the smallest possible Linux footprint OpenEmbedded might be just the ticket for you but that is much more complex then cross compiling an application to run on a 96Boards build. So with that clarification lets get started on a simple application compile and cross compile.
 
 The following three part instruction set will walk you through what was covered in our 7th OpenHours session. Please visit our [YouTube channel](https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg) for all OpenHour recordings. A dynamic version of these instructions can be found on our [96Boards github documentation](https://github.com/96boards/documentation/blob/master/README.md) pages, more specifically [here](https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/CommandLine.md).
 
@@ -78,7 +78,7 @@ $ sudo apt-get dist-upgrade`
 #### Step 2: If you are using libsoc and or mraa make sure they are installed and up to date
 
 
-**Installation libsoc:** Please go [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md) for first time libsoc installation instructions.
+**Installation libsoc:** Please go [here]() for first time libsoc installation instructions.
 
 **Update:** Change directory (cd) to your libsoc source and make sure you have latest code
 
@@ -90,7 +90,7 @@ $ ./configure --enable-board=<your board name here> --with-board-configs
 $ make
 $ sudo make install`
 
-**Installation mraa:** Please go [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/GPIO/Advanced/README.md) for first time mraa installation instructions.
+**Installation mraa:** Please go [here]() for first time mraa installation instructions.
 
 **Update:** Change directory (cd) to your mraa source and make sure you have the latest code.
 
@@ -382,12 +382,12 @@ Again, it’s critical that the cross compiler system and the 96Board system be 
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 Other Blogs by David Mandala:
 
-[How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
-[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+[How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
+[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)

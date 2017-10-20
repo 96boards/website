@@ -51,7 +51,7 @@ We began the hangout with Robert sharing a link to allow people to submit topic
 
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
 
-Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to join us for the next OpenHours  [https://www.96boards.org/openhours/](/openhours/).  Next week during session 13 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
@@ -282,7 +282,7 @@ DM
 
 
 
-Just wanted to report one 404 link in 96boards [https://www.96boards.org/db410c-getting-started/Quickstart/README.md/](https://www.96boards.org/db410c-getting-started/Quickstart/README.md/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
+Just wanted to report one 404 link in 96boards [/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
 
 
 
@@ -415,26 +415,7 @@ Actually in that page there is a linux guide..
 
 that points to a pdf.. which gives 404..
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-the actual link is [https://www.96boards.org/dragonboard410c/LinuxUserGuide_DragonBoard.pdf](https://www.96boards.org/dragonboard410c/LinuxUserGuide_DragonBoard.pdf)
+the actual link is [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf)
 
 
 
@@ -489,7 +470,7 @@ DM
 
 
 
-[https://www.96boards.org/db410c-getting-started/Quickstart/README.md/](https://www.96boards.org/db410c-getting-started/Quickstart/README.md/)
+[/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)
 
 
 
@@ -968,5 +949,5 @@ ok thanks, I would have used the ubuntu.... now I know better
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
-[n](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+[n](/blog/installing-docker-aarch64-96boards-ce/)

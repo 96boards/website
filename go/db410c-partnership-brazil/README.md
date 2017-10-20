@@ -47,7 +47,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 ## **Provided in Kit:**
 
 *   [DragonBoard 410c](https://developer.qualcomm.com/hardware/dragonboard-410c), by Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor
-*   [Arrow LinkSprite](https://www.96boards.org/product/linker-mezzanine-starter-kit/)
+*   [Arrow LinkSprite]()https://www.96boards.org/product/linker-mezzanine-starter-kit/
 
 **Optional Addons to help development:**
 
@@ -94,8 +94,8 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Peripherals access and sample code:**
 
 *   A repository of [sample code for sensors](https://github.com/DBOpenSource/db_samples) included in the hack kit is available on Github
-*   [GPIO and I2C libraries and installation](https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/README.md/) are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
-*   [Low-speed expansion header tutorial](https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/LSExpansionHeader/README.md) offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
+*   [GPIO and I2C libraries and installation]()https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/README.md/ are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
+*   [Low-speed expansion header tutorial]()https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/LSExpansionHeader/README.md offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
 *   Compact getting started blogs:
     *   [96Boards mezzanine products](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
     *   [General Purpose Input/Output (GPIO)](https://www.96boards.org/blog/96boards-box-experience-guide-4/)

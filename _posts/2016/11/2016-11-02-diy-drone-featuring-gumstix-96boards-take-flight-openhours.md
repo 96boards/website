@@ -24,9 +24,9 @@ tags:
 # 96Boards take flight on OpenHours!
 
 
-As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](https://www.96boards.org/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](https://www.96boards.org/product/aerocore/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
+As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](/product/aerocore/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
 
-As an added OpenHours bonus, Gumstix has generously offered to provide a free one hour consult with Gumstix Engineers for anyone who fills out a short survey.  You can get all the details here:  [https://www.96boards.org/geppetto-96boards-free-design-consult/](https://www.96boards.org/geppetto-96boards-free-design-consult/)
+As an added OpenHours bonus, Gumstix has generously offered to provide a free one hour consult with Gumstix Engineers for anyone who fills out a short survey.  You can get all the details here:  [https://www.96boards.org/geppetto-96boards-free-design-consult/](/geppetto-96boards-free-design-consult/)
 
 This is your chance to create your very own design in Geppetto and Gumstix Engineers will help you get it to market!
 
@@ -115,7 +115,7 @@ The parts used to construct this quad-copter drone are listed below, with storef
   * A Gumstix Aerocore 2 for Dragonboard 410C
 
 
-    * Available from [gumstix.com](https://store.gumstix.com/expansion/partners-3rd-party/aerocore-2-for-dragonboard.html)
+    * Available from [gumstix.com](https://store.gumstix.com/aerocore-2-for-dragonboard.html)
 
 
 
@@ -369,4 +369,4 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 ![openhours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

@@ -44,7 +44,7 @@ tags:
 - UART
 ---
 
-Welcome to our 30th episode of 96Boards OpenHours.  Last week we had a great discussion with David Mandala about creating a community mezzanine board.  David wrote a blog about this and it was posted on the 96Boards site:  [https://www.96boards.org/blog/community-mezzanine-board/](https://www.96boards.org/blog/community-mezzanine-board/).  Check out the blog for more information on this initiative.
+Welcome to our 30th episode of 96Boards OpenHours.  Last week we had a great discussion with David Mandala about creating a community mezzanine board.  David wrote a blog about this and it was posted on the 96Boards site:  [https://www.96boards.org/blog/community-mezzanine-board/](/blog/community-mezzanine-board/).  Check out the blog for more information on this initiative.
 
 Robert then spoke about the announcement that was made last week from Gumstix and Intel regarding the “GO Geppetto®” Intel® Joule™ Design Contest - for more information about this check out their site:  [https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36](https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36)
 
@@ -56,7 +56,7 @@ Robert then spoke about the announcement that was made last week from Gumstix an
 
 **24:40 -** Andy wrapped up his demo and Robert shared the git hub that will allow people to recreate his project:  [https://github.com/Workshopshed/Dragon](https://github.com/Workshopshed/Dragon)
 
-**26:10 -** David Mandala talked about his initiative that he wrote the blog about.  He is looking at encouraging the community to create a mezzanine board.  [https://www.96boards.org/blog/community-mezzanine-board/](https://www.96boards.org/blog/community-mezzanine-board/)  He talked about this in more detail and the issues the community now faces with the current available boards.
+**26:10 -** David Mandala talked about his initiative that he wrote the blog about.  He is looking at encouraging the community to create a mezzanine board.  [https://www.96boards.org/blog/community-mezzanine-board/](/blog/community-mezzanine-board/)  He talked about this in more detail and the issues the community now faces with the current available boards.
 
 **36:30-** Question:  Do we have any mezzanine on any i2s 1.8v module which someone has tested?
 
@@ -70,7 +70,7 @@ To watch episode 30 go to[ https://www.youtube.com/watch?v=njMXCPLmPT4](https://
 
 {% include media.html media_url="https://www.youtube.com/embed/njMXCPLmPT4?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -1114,4 +1114,4 @@ The MAX98357A I2C chip seems to accept a minimum of 1.2v for the digital signals
 
 
 
-Click here to join us for [next OpenHours ](https://www.96boards.org/openhours/)
+Click here to join us for [next OpenHours ](/openhours/)
