@@ -35,7 +35,7 @@ WLAN, Bluetooth and GPS.
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  SoC                 | Helio X20                                                                                        |
 |  CPU                 | 2x ARM Cortex-A72 @ 2.1GHz ~ 2.3GHz<br>4x Cortex-A53 @ 1.95GHz<br>4x Cortex-A53 @ 1.4GHz         |
-|  GPU                 | ARM Mail-T880 GPU operating at up to 800MHz                                                      |
+|  GPU                 | ARM Mali-T880 GPU operating at up to 800MHz                                                      |
 |  RAM                 | DDR: 2GB LPDDR3                                                                                  |
 |  PMU                 | MT6351                                                                                           |
 |  Storage             | 8GB eMMC5.1 on board storage MicroSD card slot	                                                  |
