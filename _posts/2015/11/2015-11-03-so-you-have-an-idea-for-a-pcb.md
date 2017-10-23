@@ -42,16 +42,16 @@ To start, I'll briefly describe the outline of how a project would typically pan
 
 
 
-  * [Specification](/?p=8941): Outline your board’s purpose and decide on what components you will use.
+  * [Specification](/blog/so-you-have-an-idea-for-a-pcb-specification/): Outline your board’s purpose and decide on what components you will use.
 
 
-  * Development: Design the [schematic](/?p=8946), create the [netlist](/?p=8953) and draw the [pcb](/?p=8964).
+  * Development: Design the [schematic](/blog/so-you-have-an-idea-for-a-pcb-development-schematic-netlist/), create the [netlist](/blog/so-you-have-an-idea-for-a-pcb-development-netlist/) and draw the [pcb](/blog/so-you-have-an-idea-for-a-pcb-development-pcb/).
 
 
-  * Prototype/Production: Produce [gerber](/?p=8964) files and specification document, send the design for review, calculate the Bill of Materials
+  * Prototype/Production: Produce [gerber]() files and specification document, send the design for review, calculate the Bill of Materials
 
 
 {% include image.html name="pcb-idea-img-1.png" alt="Workflow" %}
 
 Not too scary huh? Often the development stage is the longest, since you will revise and rework your design several times before you will be happy with it.
-[Specification→](/?p=8941)
+[Specification→](/blog/so-you-have-an-idea-for-a-pcb-specification/)

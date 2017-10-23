@@ -37,4 +37,4 @@ When choosing your components, bear in mind that some have a longer lead time th
 Another thing worth noting, is that you should be aware of the available expansion connectors on the [96Boards](/) main boards; LS (low speed) and HS (high speed) connectors. How will your Mezzanine utilise the available pins?
 
 
-[←Overview](/?p=8888) &#124;[Development: Schematic & Netlist→](/?p=8946)
+[←Overview]() &#124;[Development: Schematic & Netlist→](/blog/so-you-have-an-idea-for-a-pcb-development-schematic-netlist/)
