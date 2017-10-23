@@ -1009,7 +1009,7 @@ products:
     product_buy_links:
       -
         link-title: Arrow Electronics
-        link-url: https://www.arrow.com/en/products/audio-mezzanine/seeed-technology-limited
+        link-url: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
   - product_title: Ethernet Card
     product_permalink: /product/ethernetcard/
 
