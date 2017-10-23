@@ -168,4 +168,4 @@ And you’re done! Now you can proceed to the manufacturing site and upload the 
 
 In the next series of blogs, I’ll run through the process of submitting a design for manufacture. So stay tuned!
 
-[← Development: Footprints](/?p=8960)
+[← Development: Footprints](/blog/8960/)
