@@ -196,7 +196,7 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md). Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
+In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]()https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md. Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
 
 --
 

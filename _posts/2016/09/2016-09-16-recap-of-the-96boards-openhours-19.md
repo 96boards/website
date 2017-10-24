@@ -961,7 +961,7 @@ Come back next week for Competition sign up
 
 
 
-[/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf)
+[/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf]()
 
 
 
@@ -1037,7 +1037,7 @@ RW
 
 
 
-[/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf](/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf)
+[/assets/images/blog/2015/03/96Boards-Competition-DragonBoard-Give-away-Rules.pdf]()
 
 
 

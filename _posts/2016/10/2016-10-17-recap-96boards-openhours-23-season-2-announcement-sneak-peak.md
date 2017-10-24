@@ -800,7 +800,7 @@ RW
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Configuration/EnableSPI.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Configuration/EnableSPI.md)
+[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md)
 
 
 
@@ -1510,7 +1510,7 @@ Hi, I have a question about using SPI on the Dragonboard. I installed a Debian v
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Configuration/EnableSPI.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Configuration/EnableSPI.md)
+[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md)
 
 
 
