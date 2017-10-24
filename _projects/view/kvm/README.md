@@ -17,13 +17,13 @@ For some releases now,  KVM – the virtualization infrastructure that turns the
 - **Project Name:** Running KVM on HiKey
 - **Type of Project:** Application/component/library: Software application, component or library
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
-- **Board(s) used:** [HiKey](https://www.96boards.org/product/hikey/)
+- **Board(s) used:** [HiKey](/product/hikey/)
 
 ## Resources
 
 ### RSS URL
 
-- [96Boards blog](https://www.96boards.org/tutorial/running-kvm-guest-hikey/)
+- [96Boards blog](/tutorial/running-kvm-guest-hikey/)
 
 ### Social Media Links
 

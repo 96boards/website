@@ -30,23 +30,24 @@ I almost let the [magic white smoke](https://en.wikipedia.org/wiki/Magic_smoke) 
 
 Given that I’d nearly blown out a board that was in very limited supply, perhaps it was time to get around to it. OpenSCAD is really nice, it’s open source, written in C++, and supports Linux, MacOS and Microsoft Windows. Perfect, I installed the latest version and grabbed the [docs](http://www.openscad.org/documentation.html) and an [ebook](http://www.amazon.com/OpenSCAD-3D-Printing-Al-Williams-ebook/dp/B00I6K19OM/ref=sr_1_1?ie=UTF8&qid=1448062599&sr=8-1&keywords=OpenSCAD+ebook) that I found on Amazon and started reading. LK was right, this felt rather C like, I mean it’s clearly not C, but it feels familiar none the less. Some more reading and I discovered that variables are not variables as I think of them, they are more like [C preprocessor define statements](https://en.wikipedia.org/wiki/C_preprocessor), they get set at compile time not runtime so you can’t do runtime math into a variable, except in very limited situations, there is this thing called a module statement, that looks and feels like a C/C++ function call. All in all it feels very comfortable. Time to start.
 
-First I grab the [96Boards CE specification document](https://www.96boards.org/specifications/) and input all of the dimensions of a CE board, how long, wide (two different sizes, regular and extended, input both), thick. The size of the connectors, some of that I had to actually measure the real devices on my board, I could have used data sheets but I have a digital micrometer and a board, what is better than empirical measurements? With that and a few hours I laid out a board. One thing I had read about was difference call, it’s how you create a hollow cube, make a small cube, put it inside a bigger cube and subtract the small cube from the big one and you have a hollow cube. So to make a case that has holes in it I have to make the connectors stick out. That is easy, make them longer and plunk them down where they belong. See the graphic below:
+First I grab the [96Boards CE specification document](/specifications/) and input all of the dimensions of a CE board, how long, wide (two different sizes, regular and extended, input both), thick. The size of the connectors, some of that I had to actually measure the real devices on my board, I could have used data sheets but I have a digital micrometer and a board, what is better than empirical measurements? With that and a few hours I laid out a board. One thing I had read about was difference call, it’s how you create a hollow cube, make a small cube, put it inside a bigger cube and subtract the small cube from the big one and you have a hollow cube. So to make a case that has holes in it I have to make the connectors stick out. That is easy, make them longer and plunk them down where they belong. See the graphic below:
 
-[![BareBoardTop]({% asset_path "3d-cases-img-1.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-1.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-1.png" alt="BareBoardTop" %}
 
 OK, that looks like the layout of a 96Board, 2 USBs, a MicroUSB, an HDMI, a micro-SD card, a power connector and both the low speed and high speed connectors in place on top of a board. Brute force, nothing fancy in the code at this point just get it working.
 
 Next we need mounting holes, and the dimensional space the board is allowed to take up 7mm above the board, 3.4mm below the board, 1.6mm board thickness which comes to 12mm total and then add the tolerance allowed of .25mm in all directions.
 
-[![BareBlockTop]({% asset_path "3d-cases-img-2.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-2.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-2.png" alt="BareBlockTop" %}
+
 
 You know the best part? I still haven't drawn anything, it’s all numbers. LK was right I CAN DO THIS :-) The screw holes are a series of cylinders, the tapered top for a counter sunk screw is a cylinder with the top and bottom different sizes. For me this is SOOOOO much easier then trying to use some sort of a drafting program. I just don’t have that skill set at all.
 
 Time for an initial box, so some more brute force and we get a hollow case for a 96Boards hardware to fit in. Up until now I’ve been adding parts to other parts, now I’m about to use that difference engine. Make a bigger cube and diff my smaller cube. Not bad, I got:
 
-[![SimpleBox]({% asset_path "3d-cases-img-3.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-3.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-3.png" alt="SimpleBox" %}
 
-[![SimpleBox1]({% asset_path "3d-cases-img-4.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-4.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-4.png" alt="SimpleBox1" %}
 
 As you can see, all the connector holes are there, you can see right through the box and out the back power connector hole. Now I’m excited, I have a box, but there is still a problem, I can’t print this out and use it, there is no way to get the board into it. OK, so I have to cut this into 2 halfs, one top and one bottom.
 
@@ -122,9 +123,9 @@ And further down in the code it looks like this:
 
 Easier to understand, cleaner, uses the variables in easy to understand ways (at least easy to understand if you are a programmer and spend a bit of time reading it) and makes it very straightforward to turn on and off features. For those that are paying close attention, I decided that the square box was: A) Boring, B) Ugly. I added the ability to have a rounded case, in fact two types of rounded cases:
 
-[![SimpleAllRoundBox]({% asset_path "3d-cases-img-5.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-5.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-5.png" alt="SimpleAllRoundBox" %}
 
-[![SimpleRoundBox]({% asset_path "3d-cases-img-6.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-6.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-6.png" alt="SimpleRoundBox" %}
 
 Progress, nice looking boxes (IMHO), select what features I want, when I want them. All good. Time to post the source file to github so others can use it. Put the file under GPLv2 licence, added a README file and other bits and posted it at: [https://github.com/96boards/96BoardCECase](https://github.com/96boards/96BoardCECase). Patches gladly accepted.
 
@@ -142,9 +143,9 @@ Wow, this experience was both harder and easier than I had expected. Laying out 
 
 The board should just fit recessed into the bottom case with the board top flush with edges of the case and the top just drops on.
 
-[![SimpleAllRoundBoxTop]({% asset_path "3d-cases-img-7.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-7.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-7.png" alt="SimpleAllRoundBoxTop" %}
 
-[![SimpleAllRoundBoxBottom]({% asset_path "3d-cases-img-8.png" %}){:class="img-responsive lazyload"} ](/assets/3d-cases-img-8.png){:class="img-responsive lazyload"}
+{% include image.html name="3d-cases-img-8.png" alt="SimpleAllRoundBoxBottom" %}
 
 **Case type options now:**
 

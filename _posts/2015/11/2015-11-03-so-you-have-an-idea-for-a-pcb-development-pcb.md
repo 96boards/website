@@ -42,7 +42,8 @@ Adding the Ground Plane
 
 
 Dia 7.1: Basic overview of Pbcnew
-[![Dia 7.1: Basic overview of Pbcnew]({% asset_path "so-pcb-idea-img-1.png" %}){:class="img-responsive lazyload"} ](/assets/so-pcb-idea-img-1.png){:class="img-responsive lazyload"}  
+
+{% include image.html name="so-pcb-idea-img-1.png" alt="Dia 7.1: Basic overview of Pbcnew" %}
 
 #### Opening Pcbnew
 
@@ -63,17 +64,22 @@ KiCad has a nice sense of continuity; and so if you’ve followed this tutorial 
 If you’re designing a board which you want to work with another, the board and certain components will require specific properties. If you were to create a 96board Mezzanine adaptor for example, the board size would NEED to be 85x54mm. Similarly, the 40 pin connector would NEED to be in a specific location, otherwise the board wouldn’t fit properly. You will be able to find the board specs you need for your project online. If you’re lucky, they might also offer base templates too (see future posts!). Otherwise, have a look on github, there might be another project you can strip back and use as a base.
 
 Dia 7.2: Layer selector with Edge.Cuts highlighted
-[![Dia 7.2: Layer selector with Edge.Cuts highlighted]({% asset_path "so-pcb-idea-img-2.png" %}){:class="img-responsive lazyload"} ](/assets/so-pcb-idea-img-2.png){:class="img-responsive lazyload"}  
+
+{% include image.html name="so-pcb-idea-img-2.png" alt="Dia 7.2: Layer selector with Edge.Cuts highlighted" %}
+
+
 
 If you’re not so lucky to have a template you can use, it’s relatively simple to make your own. For the outline, check the top toolbar and make sure the yellow layer called “Edge.Cuts” is selected (see dia 7.2). Now, select the _Add Graphic Line or Polygon_ tool in the right hand toolbar (looks like a diagonal blue dashed line - see dia 7.3).
 
 Dia 7.3: Add Graphic or Polygon icon
-[![Dia 7.3: Add Graphic or Polygon icon]({% asset_path "so-pcb-idea-img-3.png" %}){:class="img-responsive lazyload"} ](/assets/so-pcb-idea-img-3.png){:class="img-responsive lazyload"}  
+
+{% include image.html name="so-pcb-idea-img-3.png" alt="Dia 7.3: Add Graphic or Polygon icon" %}
+
 
 Once selected (you should have a large white cross behind your cursor) you can start drawing the board outline. I recommend drawing one line at a time, hitting ESC to stop drawing, then while your cursor is hovering over the line, hit E. This will bring up _Line Properties_, and you can then input X & Y coordinates for your line, and specify lengths. This will allow you to ensure your board specs are 100% accurate (as long as your math is correct!).
 
 Dia 7.4: Selection pop-up window
-[![Dia 7.4: Selection pop-up window ]({% asset_path "so-pcb-idea-img-4.png" %}){:class="img-responsive lazyload"} ](/assets/so-pcb-idea-img-4.png){:class="img-responsive lazyload"}  
+{% include image.html name="so-pcb-idea-img-4.png" alt="Dia 7.4: Selection pop-up window" %}
 
 Similarly with your fixed-position components, if you pop them anywhere on the board, then hit E (if you get a little menu pop up like in dia 7.4, click the option that says _Footprint_), it will open _Footprint Properties_ where you can once again input specific coordinates.
 
@@ -151,7 +157,8 @@ Now that you have a layout you are happy to send to production, all you need to 
 Drill files are where the manufacturer need to drill holes, and the position files tell the pick-and-place machine (which the manufacturer will use) where to place SMD components on the board.
 
 Dia 8.1: Submenu showing the fabrication outputs
-[![Dia 8.1: Submenu showing the fabrication outputs]({% asset_path "so-pcb-idea-img-5.png" %}){:class="img-responsive lazyload"} ](/assets/so-pcb-idea-img-5.png){:class="img-responsive lazyload"}
+{% include image.html name="so-pcb-idea-img-5.png" alt="Dia 8.1: Submenu showing the fabrication outputs" %}
+
 
 Assuming you still have Pcbnew open, click File > Fabrication Outputs. In the submenu you will see the options for the .pos, .drl and BOM files. Click on each one and save in an appropriate location. I personally recommend popping them all in a new folder together to keep things organised.
 
@@ -161,4 +168,4 @@ And you’re done! Now you can proceed to the manufacturing site and upload the 
 
 In the next series of blogs, I’ll run through the process of submitting a design for manufacture. So stay tuned!
 
-[← Development: Footprints](https://www.96boards.org/?p=8960)
+[← Development: Footprints](/blog/8960/)

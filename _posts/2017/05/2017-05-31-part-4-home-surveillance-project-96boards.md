@@ -43,7 +43,7 @@ tags:
 # **Introduction**
 
 
-Welcome to Part 4 of our ‘[Home Surveillance](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)’ blog series focusing on building a home monitoring system using 96Boards. In the previous blog, I showed how to implement face tracking using a Webcam mounted on a Pan and Tilt servo setup. This was all controlled by the Sensor Mezzanine and a Dragonboard 410c. In this post, we will see how to setup [AWS S3](https://aws.amazon.com/s3/) (Amazon Simple Storage Service) and stream the detected faces to through service.
+Welcome to Part 4 of our ‘[Home Surveillance](/blog/part-1-home-surveillance-project-96boards/)’ blog series focusing on building a home monitoring system using 96Boards. In the previous blog, I showed how to implement face tracking using a Webcam mounted on a Pan and Tilt servo setup. This was all controlled by the Sensor Mezzanine and a Dragonboard 410c. In this post, we will see how to setup [AWS S3](https://aws.amazon.com/s3/) (Amazon Simple Storage Service) and stream the detected faces to through service.
 
 Cloud communication is one of the key components in building an IoT product. At the end of the day, all processing and analysis happens in the cloud space, so getting used to a popular cloud service like AWS seems extremely beneficial, and almost mandatory.
 
@@ -54,13 +54,13 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 
 
 
-  1. [Part 1](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
+  1. [Part 1](/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
 
 
-  2. [Part 2 ](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running [OpenCV](http://opencv.org/) on [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/). In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
+  2. [Part 2 ](/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running [OpenCV](http://opencv.org/) on [Dragonboard 410c](/product/dragonboard410c/). In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
 
 
-  3. [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking the faces in front of webcam using servo mount connected to Sensors mezzanine controlled by Dragonboard410C.
+  3. [Part 3](/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking the faces in front of webcam using servo mount connected to Sensors mezzanine controlled by Dragonboard410C.
 
 
 
@@ -84,7 +84,7 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 # **Software Dependencies**
 
 
-Install the dependencies mentioned in [Part-2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/) along with the following one:
+Install the dependencies mentioned in [Part-2](/blog/part-2-home-surveillance-project-96boards/) along with the following one:
 
 
 
@@ -259,9 +259,9 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](https://www.96boards.org/newsletter/)” and our “[Weekly Digest](https://www.96boards.org/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](https://www.96boards.org/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 

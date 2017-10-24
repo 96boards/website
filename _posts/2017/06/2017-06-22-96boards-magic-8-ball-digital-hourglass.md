@@ -40,8 +40,8 @@ The Magic 8 Ball application displays messages on the LCD when the touch sensor 
 
 ## **Hardware requirements**
 
-1.  [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
-2.  [Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/)
+1.  [DragonBoard 410c](/product/dragonboard410c/)
+2.  [Sensors Mezzanine](/product/sensors-mezzanine/)
 3.  Micro USB Cable
 4.  [Grove-LCD 16×2 RGB Backlight](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 5.  [Grove Touch Sensor Module](https://www.seeedstudio.com/Grove-Touch-Sensor-p-747.html)
@@ -113,9 +113,9 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) "| ["Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) "| ["Facebook](https://www.facebook.com/96Boards/) "| ["YouTube](https://www.youtube.com/c/96boards)
 
-"For those of you who prefer a mailing list, we have just the one for you! You can choose between our “["Monthly Newsletter](https://www.96boards.org/newsletter/)"” and our “["Weekly Digest](https://www.96boards.org/newsletter/digest/)"”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+"For those of you who prefer a mailing list, we have just the one for you! You can choose between our “["Monthly Newsletter](/newsletter/)"” and our “["Weekly Digest](/newsletter/digest/)"”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-"Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – ["OpenHours](https://www.96boards.org/openhours/)". All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+"Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – ["OpenHours](/openhours/)". All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 

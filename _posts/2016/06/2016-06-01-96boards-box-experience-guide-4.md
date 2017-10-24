@@ -44,7 +44,7 @@ tags:
 - UART
 ---
 
-Hello again, and welcome to part 4 of the out of box experience guide. This week we will be looking at the low speed expansion header on your 96Boards. The low-speed expansion header is where all of your “usable” general purpose input/output (GPIO) interfaces are located. In [last week’s blog](https://www.96boards.org/blog/96boards-box-experience-guide-3/) we spoke about the mezzanine product line and sensors, in [open hours](https://youtu.be/k7QR_KlXMRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), we talked about how these boards help us to gain physical access to these interfaces. Now, in this part of the series we will access the GPIOs programmatically using the command line on your favorite 96Boards.
+Hello again, and welcome to part 4 of the out of box experience guide. This week we will be looking at the low speed expansion header on your 96Boards. The low-speed expansion header is where all of your “usable” general purpose input/output (GPIO) interfaces are located. In [last week’s blog](/blog/96boards-box-experience-guide-3/) we spoke about the mezzanine product line and sensors, in [open hours](https://youtu.be/k7QR_KlXMRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), we talked about how these boards help us to gain physical access to these interfaces. Now, in this part of the series we will access the GPIOs programmatically using the command line on your favorite 96Boards.
 
 First things first, what is the low speed expansion header? As mentioned, the low-speed expansion header is where all of your GPIO interfaces are located. This particular header is 2x20, 2.0mm pitch, with female pins. Lets answer a couple questions on the low speed expansion header before we move on:
 
@@ -56,15 +56,15 @@ A 2x20 (read as “two by twenty”) header has 40 pins, two pins in each row, a
 
 **What is a 2.0mm pitch?**
 The pitch is the distance between the center of each pin in either direction. By convention the 2.0mm pitch tells us that devices with a pitch other than 2.0mm should not be used with this header. The voltage will most likely differ.
-![Screen Shot 2016-05-04 at 3.19.00 PM]({% asset_path "96boards-box-5-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html name="96boards-box-5-img-1.png" alt="Screen Shot 2016-05-04 at 3.19.00 PM"%}
 
 Below is an image of the DragonBoard™ 410c (one of our 96Boards), and a diagram illustrating the interfaces available on the low-speed expansion header. Even though the DragonBoard 410c is used in this example, all 96Boards can be paired to this diagram.
 
-![Screen Shot 2016-05-05 at 1.25.25 PM]({% asset_path "96boards-box-5-img-2.png" %}){:class="img-responsive lazyload"} ![96Boards_LS_pinout]({% asset_path "96boards-box-5-img-3.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html name="96boards-box-5-img-2.png" alt="Screen Shot 2016-05-05 at 1.25.25 PM" %}
+{% include image.html name="96boards-box-5-img-3.jpg" alt="96Boards_LS_pinout" %}
 
 
-
-As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), [I2C](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), [SPI](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/LSExpansionHeader), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/MezzanineProducts/README.md).
+As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](), [I2C](), [SPI](), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
 
 In the part of the series, we will only focus on GPIOs (Green columns). In later parts we will go over some of the other interfaces available on this header.
 
@@ -72,10 +72,15 @@ Looking at the green columns in the diagram, we see the GPIOs valued from A to L
 
 Since each SoC has different GPIO values I had uploaded several of these diagrams, one or more for each 96Boards.
 
-**96Boards** ([Lettered](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/96Boards_LS_pinout.jpg){:class="img-responsive lazyload"} )
-**HiKey** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/HiKey_Debian_pinout.jpg){:class="img-responsive lazyload"} )
-**DragonBoard 410c** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Debian_pinout.jpg){:class="img-responsive lazyload"}  / [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/DB410c_Android_pinout.jpg){:class="img-responsive lazyload"} )
-**Bubblegum-96** ([Debian](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/PinOuts/Bubblegum96_Debian_pinout.jpg){:class="img-responsive lazyload"} )
+**96Boards**
+{% include image.html name="96Boards_LS_pinout.jpg" alt="Lettered" %}
+**HiKey**
+{% include image.html name="HiKey_Debian_pinout.jpg" alt="Debian" %}
+**DragonBoard 410c**
+{% include image.html name="DB410c_Debian_pinout.jpg" alt="Debian" %}
+
+ ([Debian]()  / [Android]() )
+**Bubblegum-96** ([Debian]() )
 
 Now that you have gained some familiarity with the low speed expansion header on your 96Boards, it’s time to take a closer look at the GPIO interface. This is the interface we will be interacting with in just a bit.
 
@@ -124,10 +129,10 @@ Your 96Boards should be booted into the Debian Linux desktop environment before 
 
 
 
-  * 96Boards booted up into Debian Linux desktop ([Blog P1](https://www.96boards.org/blog/96boards-box-experience-guide-1/), [Blog P2](https://www.96boards.org/blog/96boards-box-experience-guide-2/))
+  * 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
 
 
-  * Mezzanine board with LED ([Blog 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)) or equivalent. (a multimeter can be used to measure the voltage change when toggling GPIO pin. You can probe the pin directly, use this if you do not have a Mezzanine board. Voltage should toggle between zero and ~1.8 volts)
+  * Mezzanine board with LED ([Blog 3](/blog/96boards-box-experience-guide-3/)) or equivalent. (a multimeter can be used to measure the voltage change when toggling GPIO pin. You can probe the pin directly, use this if you do not have a Mezzanine board. Voltage should toggle between zero and ~1.8 volts)
 
 
 **Step 2: Connect the desired device you wish to toggle**
@@ -178,35 +183,35 @@ If all went well, you should have toggled an LED using the basic GPIO commands i
 
 This is only the beginning when it comes to using your 96Boards GPIO interfaces. I encourage you all to read the following blogs by Linaro’s Davin Mandala. In these blogs he discusses more advanced ways to access the GPIOs programmatically, this includes downloading, building, and installing several 96Boards enabled GPIO libraries.
 
-[How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
-[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+[How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
+[How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
-Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/README.md) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
+Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
 
 Since the beginning of this series, it has been my goal to take it slow. A good foundation is important, and it must be built with correct information and a well organized bank of resources. As we steer deeper into the 96Boards universe, you will find yourself collecting links, cheatsheets, sample code, examples, diagrams, schematics, and so much more! It is important to stay organized. I would suggest starting your collection now, it will pay off in the long run.
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](https://www.96boards.org/openhours/)
+[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md). Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
+In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]()https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md. Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
 
 --
 
-[**In this series**](https://www.96boards.org/tag/openhours/)
+[**In this series**](/tag/openhours/)
 
 
 
 
-  * [96Boards Out of box experience guide – part 1](https://www.96boards.org/blog/96boards-box-experience-guide-1/)
+  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 
 
-  * [96Boards Out of box experience guide – part 2](https://www.96boards.org/blog/96boards-box-experience-guide-2/)
+  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
 
 
-  * [96Boards Out of box experience guide – part 3](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
+  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
 
 
-  * [96Boards Out of box experience guide – part 4](https://www.96boards.org/blog/96boards-box-experience-guide-4/) (This)
+  * [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/) (This)

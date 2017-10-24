@@ -61,7 +61,7 @@ with its illuminance property. **Blinking LED** is the first TODO project for al
 program for all programming languages. Linux has the support for using LEDs through a distinct [subsystem](https://www.kernel.org/doc/Documentation/leds/leds-class.txt).
 
 The control for LED's in linux is exported to user space through **sysfs** filesystem under */sys/class/leds*. Mostly, each onboard
-LED's would appear as an individual soft link. For instance, [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
+LED's would appear as an individual soft link. For instance, [Dragonboard410c](/product/dragonboard410c/)
 contains the following entries:
 
 ```

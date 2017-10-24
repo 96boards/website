@@ -51,11 +51,11 @@ Balancing Bot** in action...yay :D . You may notice a huge delay in getting the 
 
 In case you missed, here is the quick recap of what happened in previous parts:
 
-1. [Introductory blog](https://www.96boards.org/blog/introducing-self-balancing-bot-using-96boards/) - This is the introductory 
+1. [Introductory blog](/blog/introducing-self-balancing-bot-using-96boards/) - This is the introductory 
 blog for the **Self Balancing Bot**. Here we introduced the project, BoM and roadmap.
 
-2. [Part - 1](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part1/) - In this blog, we discussed about
-interfacing **IMU** with [96Boards CE](https://www.96boards.org/products/ce/). This involves 3D rendering the IMU data using
+2. [Part - 1](/blog/self-balancing-bot-using-96boards-part1/) - In this blog, we discussed about
+interfacing **IMU** with [96Boards CE](/products/ce/). This involves 3D rendering the IMU data using
 python OpenGL.
 
 # **Self Balancing Bot**
@@ -68,7 +68,7 @@ But, the bot is not functioning upto the mark :( There are couple of reasons for
 
 **1. Use of software Sensor Fusion algorithm**
 
-As you can see from the [previous blog](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part1/), I have used
+As you can see from the [previous blog](/blog/self-balancing-bot-using-96boards-part1/), I have used
 **Complimentary Filter** for fusing the Accelerometer and Gyroscope readings together. The issue here is, Accelerometer data
 can get affected by noise and Gyroscope data tends to drift over time. Since the filter is a software model, accurary is
 not that great. Because of these reasons, bot fails to stabilize on its axis.

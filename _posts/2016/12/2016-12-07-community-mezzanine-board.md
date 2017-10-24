@@ -34,7 +34,7 @@ tags:
 - rpb
 ---
 
-Having worked with the Sensors Mezzanine board ([By itself](https://www.96boards.org/product/sensors-mezzanine/), and [in a kit](https://www.96boards.org/product/grove-starter-kit/)) extensively over the last year I can say there are changes I would love to see. After speaking with others who have used the board, many agree changes should be made. The sensors board was developed by the Fellow who worked at Linaro, Grant Likely. He also developed the [96boards-uart board](https://www.96boards.org/product/uarts/). There was an amazing amount of discussion between Grant and a lot of us about the sensors board, It went through several revisions, each time getting better for a purpose.
+Having worked with the Sensors Mezzanine board ([By itself](/product/sensors-mezzanine/), and [in a kit](/product/grove-starter-kit/)) extensively over the last year I can say there are changes I would love to see. After speaking with others who have used the board, many agree changes should be made. The sensors board was developed by the Fellow who worked at Linaro, Grant Likely. He also developed the [96boards-uart board](/product/uarts/). There was an amazing amount of discussion between Grant and a lot of us about the sensors board, It went through several revisions, each time getting better for a purpose.
 
 The more I think about it, the more a particular change comes to mind. I would like to fix the sensor board so the level shifting voltage is selectable on all grove connectors(3.3V or 5V), and dump the idea that some Grove connectors are 3.3V and others are 5V, it just does not work all that well. On top of that I’d dump all the Grove connectors for the “Arduino like” Atmel chip, the “Arduino like” headers are there. If you want to use Grove connectors with the Atmel chip, simply add an [Arduino Grove connector shield](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html) it’s less than $9.00 USD and gives you a bunch of Grove connections. In the place of the Grove connectors you dump, I’d add back the C and D GPIO pins which were left off due to lack of space.
 
@@ -64,7 +64,7 @@ I really think the purpose of the sensors board was to allow people to easily ex
 
 
 
-  2. **The micro USB serial port.** This could be improved by adding jumpers to select which serial port is coming out (like the original serial to usb [tiny mezzanine board](https://www.96boards.org/product/uarts/)).
+  2. **The micro USB serial port.** This could be improved by adding jumpers to select which serial port is coming out (like the original serial to usb [tiny mezzanine board](/product/uarts/)).
 
 
   3. **Level shifting from 1.8V.**  
@@ -155,7 +155,7 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 ![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
 
-Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
@@ -164,22 +164,22 @@ Don’t forget about the [Open Hours](https://www.96boards.org/openhours/) every
 
 
 
-  * [How do you access the GPIO pins programmatically?](https://www.96boards.org/blog/access-gpio-pins-programmatically/)
+  * [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
 
-  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/)
+  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
+  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
 
-  * [Eclipse remote development and debugging](https://www.96boards.org/blog/eclipse-remote-development-debugging/)
+  * [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)
 
 
-  * [96Boards Survery: What do 96Boards users care about?](https://www.96boards.org/blog/96boards-survey-1/)
+  * [96Boards Survery: What do 96Boards users care about?](/blog/96boards-survey-1/)
