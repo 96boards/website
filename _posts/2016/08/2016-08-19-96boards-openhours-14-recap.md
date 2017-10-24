@@ -570,7 +570,7 @@ MB
 
 
 
-[https://www.arrow.com/en/products/dragonboard410cbrillokt/arrow-development-tools](https://www.arrow.com/en/products/dragonboard410cbrillokt/arrow-development-tools)
+[https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools](https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools)
 
 
 
