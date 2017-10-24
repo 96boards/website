@@ -48,7 +48,7 @@ If you have time to check out the video below, you will see face detection, reco
 
 #### Links and resources
 
-- [DragonWally Website](www.dragonwally.com)
+- [DragonWally Website](http://www.dragonwally.com)
 - [DragonWally GitHub](https://github.com/cezmen/dragonwally)
 - [Instructables](http://www.instructables.com/id/DragonWally/)
 - [Embarcados Website](https://contest.embarcados.com.br/projetos/sistema-de-identificacao-de-pessoas-baseado-em-visao-computacional-estereoscopica/)
