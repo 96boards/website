@@ -1,20 +1,20 @@
 ---
-page_title: Meercat Development Board
-title: Meercat Development Board
+page_title: iMX7-96 Development Board
+title: iMX7-96 Development Board
 layout: product-display-page
-permalink: /product/meercat/
+permalink: /product/imx7-96/
 redirect_from:
-  - /meercat/
-  - /meercat
-  - /products/meercat/
+  - /imx7-96/
+  - /imx7-96
+  - /products/imx7-96/
 description: |-
-    The Meercat Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
+    The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 ---
-# Meercat
+# iMX7-96
 
-The Meercat Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX 7
+The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within
-the Internet of Things. Meercat board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core
+the Internet of Things. iMX7-96 board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core
 ARM Cortex M4 operating up to 800MHz.  In addition, an extensive set of interfaces and connectivity peripherals are included
 to interface to cameras, touch-screen displays ,MMC/SD cards and Media processor engine. It also fully supports wireless 
 communication, including WLAN and BLE.
@@ -49,4 +49,4 @@ Coming soon
 
 </div>
 
-Please visit the [Meercat Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/hardware-user-manual.md) for more information
+Please visit the [iMX7-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/hardware-user-manual.md) for more information
