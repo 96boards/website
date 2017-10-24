@@ -52,7 +52,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Optional Addons to help development:**
 
 *   [96Boards LinkSprite Kit](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc)
-*   [96Boards Audio Mezzanine](https://www.arrow.com/en/products/dragonboardaudiomezz/seeed-technology-limited)
+*   [96Boards Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)
 *   [96Boards Camera Mezzanine](https://www.arrow.com/en/products/b-f446e-96b01a/stmicroelectronics)
 *   96Boards [Sensors Mezzanine Adapter by Seeed](https://www.seeedstudio.com/item_detail.html?p_id=2617)
 *   96Boards [UART Adapter Board by Seeed](http://www.seeedstudio.com/depot/96Boards-UART-p-2525.html)
