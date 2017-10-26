@@ -420,21 +420,15 @@ products:
           tab_align_right: true
 
     # # Buy Links
-    # product_buy_links:
-    #   -
-    #     link-title: DragonBoard410c (Basic Kit)
-    #     link-url: "https://linaro.co/dragonboard410c-buy-arrow"
-    #     from: Arrow.com
-    #     type: board
-    #     link-price: "75.00"
-    #     link-price-currency: USD
-    #   -
-    #     link-title: "DragonBoard410c + Audio Kit"
-    #     link-url: "https://linaro.co/db410c-audio-buy-arrow"
-    #     from: Arrow.com
-    #     type: package
-    #     link-price: "89.00"
-    #     link-price-currency: USD
+    product_buy_links:
+      -
+        link-title: IMX7 96 BOARD
+        link-url: "http://linaro.co/imx7-96-buy"
+        from: Arrow.com
+        type: board
+        link-price: "109.00"
+        link-price-currency: USD
+
 
     # Right Sidepanel links
     product_os:
