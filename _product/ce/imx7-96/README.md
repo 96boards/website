@@ -47,5 +47,3 @@ communication, including WLAN and BLE.
 {:.hidden_rows}
 
 </div>
-
-Please visit the [iMX7-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/hardware-user-manual.md) for more information
