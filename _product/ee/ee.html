@@ -28,6 +28,7 @@ specification_image: 96Boards-Logo_Enterprise-small.png
         </div>
         <div id="grid">
             {% assign products_array = site.data.product_db.products | where: "product_specification", "ee"%}
+            {% assign products_array =  products_array | where: "display_product", "true" %}
             <div class="row">
             {% for product in products_array %}
                 {% assign product-url = product.product_permalink | split: "/" %}
