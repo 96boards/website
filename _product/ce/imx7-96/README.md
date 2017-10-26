@@ -21,8 +21,7 @@ communication, including WLAN and BLE.
 
 ## Buy Now
 
-Coming soon
-
+- [Arrow](http://linaro.co/imx7-96-buy)
 
 ***
 
