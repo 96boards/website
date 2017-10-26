@@ -1,8 +1,8 @@
 products:
 # ce, EE, IE Products
   - product_title: Bubblegum-96
+    display_product: true
     product_permalink: /product/bubblegum-96/
-
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/ConsumerEdition/Bubblegum-96/
@@ -65,6 +65,7 @@ products:
         link-url: "https://linaro.co/bubblegum96-buy"
     is_featured: true
   - product_title: DragonBoard™ 410c (Arrow)
+    display_product: true
     product_permalink: /product/dragonboard410c/
     product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
     product_specification: ce
@@ -186,6 +187,7 @@ products:
       - title: AWS IoT Kit
         link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
   - product_title: Hikey (LeMaker)
+    display_product: true
     product_permalink: /product/hikey/
 
     product_tab_menu:
@@ -268,6 +270,7 @@ products:
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
   - product_title: HiKey 960
+    display_product: true
     product_permalink: /product/hikey960/
     product_media_highlights: true
     product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
@@ -369,8 +372,8 @@ products:
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: HiKey (CircuitCo)
+    display_product: true
     product_permalink: /product/hikey-circuitco/
-
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/ConsumerEdition/HiKey/
@@ -395,7 +398,81 @@ products:
     product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+  - product_title: iMX7-96 Development Board
+    display_product: false
+    product_permalink: /product/imx7-96/
+    product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
+    product_specification: ce
+    product_images:
+      - iMX7-96-front.jpg
+      - iMX7-96-back.jpg
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/ConsumerEdition/imx7-96/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/ConsumerEdition/imx7-96/
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/imx7-96/
+          tab_position: 3
+          tab_align_right: true
+
+    # # Buy Links
+    # product_buy_links:
+    #   -
+    #     link-title: DragonBoard410c (Basic Kit)
+    #     link-url: "https://linaro.co/dragonboard410c-buy-arrow"
+    #     from: Arrow.com
+    #     type: board
+    #     link-price: "75.00"
+    #     link-price-currency: USD
+    #   -
+    #     link-title: "DragonBoard410c + Audio Kit"
+    #     link-url: "https://linaro.co/db410c-audio-buy-arrow"
+    #     from: Arrow.com
+    #     type: package
+    #     link-price: "89.00"
+    #     link-price-currency: USD
+
+    # Right Sidepanel links
+    product_os:
+      - title: Android
+        link: /documentation/ConsumerEdition/imx7-96/downloads/
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Basic Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
+      - title: Audio Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+      - title: AWS IoT Kit
+        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
   - product_title: Mediatek X20 Development Board
+    display_product: true
     product_permalink: /product/mediatek-x20/
 
     product_tab_menu:
@@ -480,6 +557,7 @@ products:
         type: board
 
   - product_title: Carbon
+    display_product: true
     product_permalink: /product/carbon/
 
     product_tab_menu:
@@ -510,6 +588,7 @@ products:
       - title: Zephyr
         link: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
   - product_title: Nitrogen
+    display_product: true
     product_permalink: /product/nitrogen/
 
     product_tab_menu:
@@ -539,6 +618,7 @@ products:
       - title: Zephyr
         link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
   - product_title: Orange Pi i96
+    display_product: true
     product_permalink: /product/orangepi-i96/
 
     product_tab_menu:
@@ -577,6 +657,7 @@ products:
       - title: Raspbian Server
         link: /documentation/IoTEdition/orangepi-i96/downloads/
   - product_title: Poplar
+    display_product: true
     product_permalink: /product/poplar/
 
     product_tab_menu:
@@ -608,8 +689,8 @@ products:
         link: /documentation/EnterpriseEdition/Poplar/BuildSource/
 # Mezzanine Products
   - product_title: NeonKey Mezzanine
+    display_product: true
     product_permalink: /product/neonkey/
-
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/mezzanine/neonkey/
@@ -643,8 +724,8 @@ products:
       - title: NeonKey on Tocoding
         link: http://en.tocoding.com/index.php/96boards-neonkey/
   - product_title: STM32 Sensor mezzanine board
+    display_product: true
     product_permalink: /product/stm32/
-
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/mezzanine/stm32/
@@ -680,9 +761,9 @@ products:
       - title: Read More on ST.com
         link: http://linaro.co/stm32f446
   - product_title: UART Adapter Board
+    display_product: true
     product_permalink: /product/uartserial/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
-
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/mezzanine/uartserial/
@@ -748,6 +829,7 @@ products:
       - quantity: 2
         name: 2mm shunts
   - product_title: Sensors Mezzanine
+    display_product: true
     product_permalink: /product/sensors-mezzanine/
     product_tab_menu:
         - tab_title: Documentation
@@ -800,6 +882,7 @@ products:
         id: 96B-05GROVE-C
         link: https://linaro.co/20n34bc
   - product_title: Arrow Link Sprite Mezzanine Kit
+    display_product: true
     product_permalink: /product/linkspritesensorkit/
     product_specification: "mezzanine"
     product_tab_menu:
@@ -826,6 +909,7 @@ products:
         link-title: Arrow
         link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
   - product_title: AeroCore 2 for 96Boards
+    display_product: true
     product_permalink: /product/aerocore2/
     product_tab_menu:
         - tab_title: Documentation
@@ -899,6 +983,7 @@ products:
     product_video:
       - https://www.youtube.com/embed/LIH0tpi9KwE
   - product_title: MIPI Adapter Mezzanine - AiStarVision
+    display_product: true
     product_permalink: /product/mipiadapter/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
 
@@ -956,6 +1041,7 @@ products:
       - quantity: 1
         name: MIPI Adapter Board
   - product_title: D3 DesignCore™ Camera Mezzanine
+    display_product: true
     product_permalink: /product/d3camera/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
     product_specification: "mezzanine"
@@ -988,6 +1074,7 @@ products:
         link-title: Arrow Electronics
         link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
   - product_title: Audio Mezzanine
+    display_product: true
     product_permalink: /product/audio-mezzanine/
     product_support_link: https://discuss.96boards.org/c/products/mezzanine
     product_specification: "mezzanine"
@@ -1011,6 +1098,7 @@ products:
         link-title: Arrow Electronics
         link-url: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
   - product_title: Ethernet Card
+    display_product: true
     product_permalink: /product/ethernetcard/
 
     product_tab_menu:
