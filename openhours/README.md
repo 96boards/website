@@ -14,21 +14,9 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMjZUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #76** - This week on OpenHours we will take a journey into Deep Learning and Computer Vision with the Snapdragon while focusing on both 410 and 820 chip sets. Joined by Ali Gholamloo, we will discuss his efforts on Computer Vision and Tensorflow. Of course a "deeper" look at Deep Learning using 96Boards. This episode promises to be exciting and packed full of announcements including the launch of a brand new 96Boards Consumer Edition board! You will have to tune in to find out more! Please keep reading below to find out more about our "Featured Guest" segment and be sure to join in at the end of the countdown to hear some of our exciting announcements!
-
-With all advancement in the technology and new Soc's I believe it's the right time to add Intelligence to the embedded devices and IOT's to
-make them  aware of their environment and interact with it.
-In this Project I try to just scratch the surface of Computer Vision and Deep learning on the Embedded Devices specifically on Snapdragon
-410 and 820. 
-
-First I tried to use gpu to process the incoming images from camera and do some Image Processing Techniques  ( like changing the format of
-the picture from YUV to RGB, Filtering The image colors like showing just red or blue or green or even luminance or chrominance, and doing
-the edge detection in x and y axis with Sober Filter) And then I used tensorflow (a machine learning library ) to train a Convolutional
-Neural Network model (Mobile Net )and used the trainedmodel to classify the incoming images  for trained classes
-
-I hope this will be an inspiration for others to use these embedded boards for their projects. Note that this project is implemented in C and C++ and is under Linux Debian (stretch ) operating System.
+**OpenHours Episode #77** - Stay tuned...
 
 Join us this week on our OpenHours live broadcast to meet the OneRF team and get all of your questions answered in this interactive and fun setting! See you at the end of the countdown.
 
@@ -63,7 +51,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzEwMjZUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
