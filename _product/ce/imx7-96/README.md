@@ -21,8 +21,7 @@ communication, including WLAN and BLE.
 
 ## Buy Now
 
-Coming soon
-
+- [Arrow](http://linaro.co/imx7-96-buy)
 
 ***
 
@@ -48,5 +47,3 @@ Coming soon
 {:.hidden_rows}
 
 </div>
-
-Please visit the [iMX7-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/hardware-user-manual.md) for more information
