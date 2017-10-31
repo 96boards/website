@@ -25,7 +25,8 @@ CB22 7GG
 </div>
 <div class="col-md-9">
 
-<script type="text/javascript" defer src="//www.123contactform.com/embed/2819761.js" data-role="form" data-default-width="650px"></script>
+<iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
+
 
 </div>
 </div>

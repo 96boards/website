@@ -1218,7 +1218,7 @@ accessories:
 
     accessory_order_link:
         - http://linaro.co/28SI3hW
-    accessory_search_term: USB Stereo Sound Adapter
+    accessory_search_term: USB 2.0 to Fast Ethernet Adapter
     accessory_images:
         - accessories-adapters-1.png
   - accessory_permalink: /product/adapter/
