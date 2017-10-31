@@ -25,7 +25,7 @@ CB22 7GG
 </div>
 <div class="col-md-9">
 
-<iframe src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
+<iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
 
 
 </div>
