@@ -25,10 +25,8 @@ CB22 7GG
 </div>
 <div class="col-md-9">
 
-<div class="cognito">
-<script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-<script>Cognito.load("forms", { id: "1" });</script>
-</div>
+<iframe src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
+
 
 </div>
 </div>
