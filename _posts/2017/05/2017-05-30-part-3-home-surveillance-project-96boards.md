@@ -1,5 +1,5 @@
 ---
-author: Mani_S
+author: Manivannan Sadhasivam
 comments: true
 date: 2017-05-30 14:03:55+00:00
 layout: post
@@ -42,7 +42,7 @@ tags:
 # **Introduction**
 
 
-Welcome to Part 3 of our ‘**[Home Surveillance](/blog/part-1-home-surveillance-project-96boards/)**’ blog series focusing on building a home monitoring system using 96Boards. It’s been an amazing journey so far and if you are still with me, then you’re heading towards something awesome :) This part focuses on tracking the faces in front of webcam using a servo mount, connected to Sensors mezzanine, controlled by Dragonboard 410c. Sounds exciting right? Let's take a look at how we can make this happen!
+Welcome to Part 3 of our ‘**[Home Surveillance](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)**’ blog series focusing on building a home monitoring system using 96Boards. It’s been an amazing journey so far and if you are still with me, then you’re heading towards something awesome :) This part focuses on tracking the faces in front of webcam using a servo mount, connected to Sensors mezzanine, controlled by Dragonboard 410c. Sounds exciting right? Let's take a look at how we can make this happen!
 
 {% include media.html media_url="https://www.youtube.com/embed/OSI_6HT76g8" %}
 
@@ -53,10 +53,10 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 
 
 
-  1. **[Part 1](/blog/part-1-home-surveillance-project-96boards/)** - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
+  1. **[Part 1](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)** - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
 
 
-  2. [**Part 2** ](/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running **[OpenCV](http://opencv.org/)** on **[Dragonboard 410c](/product/dragonboard410c/)**. In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
+  2. [**Part 2** ](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running **[OpenCV](http://opencv.org/)** on **[Dragonboard 410c](/product/dragonboard410c/)**. In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
 
 
 
@@ -89,7 +89,7 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 ## **Software Dependencies**
 
 
-Installed the dependencies mentioned in **[Part - 2](/blog/part-2-home-surveillance-project-96boards/)** along with the following:
+Installed the dependencies mentioned in **[Part - 2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)** along with the following:
 
 $ sudo apt-get install pyserial
 
@@ -183,7 +183,7 @@ We’ll make use of the servo library comes pre-installed with Arduino for contr
 ## **Webcam tracking**
 
 
-As said before, _facetrack.py_ depends on training a dataset created in [Part 2](/blog/part-2-home-surveillance-project-96boards/). So, copy that to the part 3 directory along with \_haarcascade_frontalface_default.xml \_classifier.
+As said before, _facetrack.py_ depends on training a dataset created in [Part 2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/). So, copy that to the part 3 directory along with \_haarcascade_frontalface_default.xml \_classifier.
 
 Once all the steps mentioned above are completed, Webcam tracking could be achieved by executing the python script with USB webcam and sensor Mezzanine setup connected to Dragonboard410C.
 
@@ -203,7 +203,7 @@ Once all the steps mentioned above are completed, Webcam tracking could be achie
 
 Is your webcam tracking your face? Are you feeling like in a tech world surrounded by full blown gadgets monitoring you? If yes… then you are feeling the awesomeness I mentioned before :) Stay tuned for the Part -4 where I will show how to setup AWS S3 to stream detected faces to cloud.
 
-**Want more? [Continue on to Part - 4 of the series](/blog/part-4-home-surveillance-project-96boards/)**.
+**Want more? [Continue on to Part - 4 of the series](https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/)**.
 
 
 
