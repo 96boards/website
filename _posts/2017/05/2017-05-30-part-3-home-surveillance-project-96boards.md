@@ -134,8 +134,8 @@ Once the setup has been assembled, connect both servos to Sensors mezzanine in t
 Boot into Dragonboard410C and clone the source code from 96Boards git repository by following the steps given below:
 
 
-    $ git clone https://github.com/96boards/projects.git
-    $ cd projects/home_surveillance/part-3
+    $ git clone https://github.com/96boards-projects/home_surveillance.git
+    $ cd home_surveillance/part-3
 
 
 Launch Arduino IDE which comes pre installed in Debian release or install one if you don't have.
