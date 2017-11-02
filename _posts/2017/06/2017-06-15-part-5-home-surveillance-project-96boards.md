@@ -1,5 +1,5 @@
 ---
-author: Mani_S
+author: Manivannan Sadhasivam
 comments: true
 featured_blog: true
 date: 2017-06-15 07:16:59+00:00
@@ -65,7 +65,7 @@ So, before going into this final part of the series, I would like to give a quic
   4. [Part 4](/blog/part-4-home-surveillance-project-96boards/) - Setting up your Amazon Web Service (AWS) Cloud Service - This part focussed on setting up AWS S3 account and streamed the detected faces to it.
 
 
-**If you prefer to skip our blog series and dive directly into the code and instructions, you can visit this project in our “**[**projects repository**](https://github.com/96boards/projects/tree/master/home_surveillance)**” in GitHub**
+**If you prefer to skip our blog series and dive directly into the code and instructions, you can visit this project in our “**[**projects repository**](https://github.com/96boards-projects/home_surveillance)**” in GitHub**
 
 
 # Hardware requirement
@@ -196,7 +196,7 @@ In this case, if a .jpg image named ‘Mani’ is added to the bucket, the user 
 ## Port forwarding
 
 
-This is the final step which needs to be implemented in order to remotely monitor the webcam from anywhere. The python script included in [final part](https://github.com/96boards/projects/blob/master/home_surveillance/part-5/homesurveillance.py) will create a simple webserver in Dragonboard and it will stream the webcam frames on the web page. For accessing the web page globally (i.e outside of home network), we need to do port forwarding in router.
+This is the final step which needs to be implemented in order to remotely monitor the webcam from anywhere. The python script included in [final part](https://github.com/96boards-projects/home_surveillance/blob/master/part-5/homesurveillance.py) will create a simple webserver in Dragonboard and it will stream the webcam frames on the web page. For accessing the web page globally (i.e outside of home network), we need to do port forwarding in router.
 
 The concept of port forwarding is forwarding the incoming request on a particular port of the router to Dragonboard.
 
@@ -240,8 +240,8 @@ If you go to router’s public IP, it should get redirected to Dragonboard’s s
 Now, we have everything ready to run the final ‘Home Surveillance’ system.
 
 
-    $ git clone https://github.com/96boards/projects.git
-    $ cd projects/home_surveillance/part-2
+    $ git clone https://github.com/96boards-projects/home_surveillance
+    $ cd home_surveillance/part-2
 
 
 Create dataset by following [Part 2](/blog/part-2-home-surveillance-project-96boards/).
@@ -290,7 +290,7 @@ So, we are at the end of the ‘Home Surveillance’ blog series and finally got
 # **Appendix**
 
 
-Please feel free to comment below if you feel we should add to this appendix. All contribution are welcome. [Visit and fork the projects repository](https://github.com/96boards/projects) and begin sending us your pull requests! You will find this project, in its entirety under the “[home_surveillance](https://github.com/96boards/projects/tree/master/home_surveillance)” folder.
+Please feel free to comment below if you feel we should add more to this appendix. All contribution are welcome. [Visit and fork the source repository](https://github.com/96boards-projects/home_surveillance) and begin sending us pull requests according to the [contributing guidelines](https://github.com/96boards/projects/blob/master/CONTRIBUTE.md).
 
 
 #### **Machine Learning for setting up whitelist database**

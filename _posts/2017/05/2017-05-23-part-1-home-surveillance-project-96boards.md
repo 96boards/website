@@ -1,5 +1,5 @@
 ---
-author: Mani_S
+author: Manivannan Sadhasivam
 comments: true
 date: 2017-05-23 03:00:48+00:00
 layout: post
@@ -86,26 +86,19 @@ One of the key requirements of the hobbyist’s community is to easily interface
 This ‘**Home Surveillance**’ project has been broken down into a series of parts. Each part will act as a building block, and at the end everything we will integrate it all into a final project. Below is the breakdown of the full blog series.
 
 
-
-
   1. **Introduction to ‘Home Surveillance’ using 96Boards - Part 1 (this blog)**
 
 
-  2. Facial recognition using OpenCV - Part 2
+  2. Facial recognition using OpenCV - [Part 2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)
 
 
-  3. Webcam tracking - Part 3
+  3. Webcam Tracking using 96Boards Sensor Mezzanine - [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)
 
 
-  4. Communication to cloud - Part 4
+  4. Setting up your Amazon Web Service (AWS) Cloud Service - [Part 4](https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/)
 
 
-  5. Controlling webcam using Sensor mezzanine - Part 5
-
-
-  6. Final project - Home Surveillance - Part 6
-
-
+  5. Final project - Home Surveillance - [Part 5](https://www.96boards.org/blog/part-5-home-surveillance-project-96boards/)
 
 
 # **Platform support**
