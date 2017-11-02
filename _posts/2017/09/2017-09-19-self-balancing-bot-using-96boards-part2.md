@@ -4,7 +4,7 @@ comments: true
 date: 2017-09-19 01:01:54+00:00
 layout: post
 featured_image: self_balancing_bot.png
-title: Self Balancing Bot using 96Boards - Part 2
+title: Self Balancing Bot using 96Boards - Rev 1
 categories:
 - blog
 tags:
