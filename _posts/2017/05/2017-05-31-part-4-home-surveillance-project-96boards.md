@@ -222,8 +222,8 @@ Now Boto has been configured with IAM credentials. We can start using the API’
 Now we have everything in our plate, let’s stream data to AWS S3 bucket.
 
 
-    $ git clone https://github.com/96boards/projects.git
-    $ cd projects/home-surveillance/part-4
+    $ git clone https://github.com/96boards-projects/home_surveillance.git
+    $ cd home-surveillance/part-4
 
 
 Place the trained dataset and haarcascade_frontalface_default.xml to this directory
