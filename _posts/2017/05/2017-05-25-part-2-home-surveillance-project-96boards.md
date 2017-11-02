@@ -141,7 +141,7 @@ There are 3 steps involved in implementing the face detection/recognition. First
 Download the python source using following command.
 
 ```bash
-$ git clone https://github.com/96boards/projects.git
+$ git clone https://github.com/96boards-projects/home_surveillance
 $ cd home_surveillance/part-2
 ```
 
