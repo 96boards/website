@@ -15,7 +15,7 @@ description: |-
 The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within
 the Internet of Things. iMX7-96 board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core
-ARM Cortex M4 operating up to 800MHz.  In addition, an extensive set of interfaces and connectivity peripherals are included
+ARM Cortex M4 operating up to 200MHz.  In addition, an extensive set of interfaces and connectivity peripherals are included
 to interface to cameras, touch-screen displays ,MMC/SD cards and Media processor engine. It also fully supports wireless 
 communication, including WLAN and BLE.
 
