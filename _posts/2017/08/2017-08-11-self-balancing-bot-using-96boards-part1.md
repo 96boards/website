@@ -130,3 +130,5 @@ showcased the processing capability of 96Boards in a best possible way :-)
 
 If this post inspired you, please try to implement the same using instructions provided and share your experience with us. We'd
 love to hear from community.
+
+Want more? [Continue on to Part - 2 of the series](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part2/).
