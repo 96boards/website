@@ -117,7 +117,7 @@ A small python script will implement 3D processing based on obtained data from C
 (C and Python) communicates using **Unix Socket** IPC mechanism. But, for running two processes simultaneously we have to
 run the C program (server) in background and Python program (client) in foreground.
 
-Source code and detailed instructions can be found in 96Boards [projects repository](https://github.com/96boards/projects/blob/master/imu)
+Source code and detailed instructions can be found in 96Boards [projects repository](https://github.com/96boards-projects/imu/).
 
 Demonstration video:
 
@@ -130,3 +130,5 @@ showcased the processing capability of 96Boards in a best possible way :-)
 
 If this post inspired you, please try to implement the same using instructions provided and share your experience with us. We'd
 love to hear from community.
+
+Want more? [Continue on to Part - 2 of the series](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part2/).
