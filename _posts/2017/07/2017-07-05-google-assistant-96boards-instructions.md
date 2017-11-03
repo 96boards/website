@@ -74,7 +74,7 @@ tags:
 ---
 # **Introduction**
 
-**This blog is subject to going out of date. Please** [visit this project](https://github.com/96boards/projects/tree/master/google_assistant) **in the** [96Boards projects repository](https://github.com/96boards/projects) **for the most up to date instruction set.**
+**This blog is subject to going out of date. Please** [visit this project](https://github.com/96boards-projects/google_assistant) **in the** [96Boards projects GitHub repository](https://github.com/96boards-projects) **for the most up to date instruction set.**
 
 In [the previous blog](/blog/google-assistant-using-96boards-intro/) we spoke about implementing Google Assistant on a DragonBoard using the recently released Google Assistant Software Development Kit, the hardware required and gave a roadmap for implementing the same.
 
