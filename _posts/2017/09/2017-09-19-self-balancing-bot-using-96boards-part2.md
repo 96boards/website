@@ -61,7 +61,7 @@ python OpenGL.
 # **Self Balancing Bot**
 
 As I promissed, the Self Balancing Bot has been created using 96Boards CE. The detailed instructions including Schematic diagram,
-step by step instructions on building the code is provided in the [96Boards-projects](https://github.com/96boards-projects/self_balancing_bot)
+step by step instructions on building the code is provided in the [96Boards-projects](https://github.com/96boards-projects/self_balancing_bot/rev_1/)
 repository.
 
 But, the bot is not functioning upto the mark :( There are couple of reasons for that which are listed below:
@@ -96,7 +96,7 @@ Because of the above mentioned reasons, it took a while to get the **Part-2** ou
 
 As I said, PID controller tuning took more time. So I have prepared the below instructions to help anyone tune PID better as 
 the constants worked for me may not work for you. In the
-project, PID constants are mentioned [here](https://github.com/96boards-projects/self_balancing_bot/blob/master/src/motor_control.c#L30).
+project, PID constants are mentioned [here](https://github.com/96boards-projects/self_balancing_bot/blob/master/rev_1/src/motor_control.c).
 
 * **KP** - Proportional Constant
 * **KI** - Integral Constant
@@ -128,3 +128,4 @@ We are at the end of **Part-2** blog of our **self Balancing Bot** series. I hop
 in creating the self balancing bot using 96Boards CE. If you have any idea of how to make this project better or any suggestion
 over the current implementation, please provide those in comments. We'd love to hear back from the community!
 
+Want more? [Continue on to Part - 3 of the series](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part3/).
