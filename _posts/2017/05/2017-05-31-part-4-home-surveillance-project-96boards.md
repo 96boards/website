@@ -1,5 +1,5 @@
 ---
-author: Mani_S
+author: Manivannan Sadhasivam
 comments: true
 date: 2017-05-31 19:16:16+00:00
 layout: post
@@ -43,7 +43,7 @@ tags:
 # **Introduction**
 
 
-Welcome to Part 4 of our ‘[Home Surveillance](/blog/part-1-home-surveillance-project-96boards/)’ blog series focusing on building a home monitoring system using 96Boards. In the previous blog, I showed how to implement face tracking using a Webcam mounted on a Pan and Tilt servo setup. This was all controlled by the Sensor Mezzanine and a Dragonboard 410c. In this post, we will see how to setup [AWS S3](https://aws.amazon.com/s3/) (Amazon Simple Storage Service) and stream the detected faces to through service.
+Welcome to Part 4 of our ‘[Home Surveillance](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)’ blog series focusing on building a home monitoring system using 96Boards. In the previous blog, I showed how to implement face tracking using a Webcam mounted on a Pan and Tilt servo setup. This was all controlled by the Sensor Mezzanine and a Dragonboard 410c. In this post, we will see how to setup [AWS S3](https://aws.amazon.com/s3/) (Amazon Simple Storage Service) and stream the detected faces to through service.
 
 Cloud communication is one of the key components in building an IoT product. At the end of the day, all processing and analysis happens in the cloud space, so getting used to a popular cloud service like AWS seems extremely beneficial, and almost mandatory.
 
@@ -54,13 +54,13 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 
 
 
-  1. [Part 1](/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
+  1. [Part 1](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/) - Introductory blog - Here we introduced the Home Surveillance project and outlined the roadmap to our end goal. Towards the end of blog, information about how to contribute to this project was also mentioned.
 
 
-  2. [Part 2 ](/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running [OpenCV](http://opencv.org/) on [Dragonboard 410c](/product/dragonboard410c/). In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
+  2. [Part 2 ](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/)- Facial recognition using OpenCV - This part focussed on getting the face detection out by running [OpenCV](http://opencv.org/) on [Dragonboard 410c](/product/dragonboard410c/). In order to make the life easier for reader's, installation steps for OpenCV 3.2 was also included. Along with the blog, a video showing the working demonstration was attached.
 
 
-  3. [Part 3](/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking the faces in front of webcam using servo mount connected to Sensors mezzanine controlled by Dragonboard410C.
+  3. [Part 3](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/) - Webcam tracking using 96Boards Sensors Mezzanine - This part focussed on tracking the faces in front of webcam using servo mount connected to Sensors mezzanine controlled by Dragonboard410C.
 
 
 
@@ -84,7 +84,7 @@ Before getting into Webcam tracking, it is worth looking at the past to get our 
 # **Software Dependencies**
 
 
-Install the dependencies mentioned in [Part-2](/blog/part-2-home-surveillance-project-96boards/) along with the following one:
+Install the dependencies mentioned in [Part-2](https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/) along with the following one:
 
 
 
@@ -222,8 +222,8 @@ Now Boto has been configured with IAM credentials. We can start using the API’
 Now we have everything in our plate, let’s stream data to AWS S3 bucket.
 
 
-    $ git clone https://github.com/96boards/projects.git
-    $ cd projects/home-surveillance/part-4
+    $ git clone https://github.com/96boards-projects/home_surveillance.git
+    $ cd home-surveillance/part-4
 
 
 Place the trained dataset and haarcascade_frontalface_default.xml to this directory

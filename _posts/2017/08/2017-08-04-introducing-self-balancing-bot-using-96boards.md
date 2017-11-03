@@ -92,11 +92,8 @@ a demonstration video.
   * In this part, IMU will be used to measure the tilt of Bot. A simple filter will be employed in filtering out the noise from the Accel and Gyro data.
 * [**Part - 2: Self Balancing Bot - Rev 1**](https://github.com/96boards-projects/self_balancing_bot#4-self-balancing-bot---rev-1)
   * This part focusses on providing the Revision 1 of Self Balancing Bot using 96Boards. This involved using the Complementary filter for sensor fusion and PID controller for stabilizing the bot.
-* [**Part - 3: Establishing Bluetooth communication to CE board**](https://github.com/96boards-projects/self_balancing_bot#5-establishing-bluetooth-communication-to-ce-board)
-  * This part will explain setting up communication link between host PC and CE board using Bluetooth. This will also include sample demo of sending commands over Bluetooth to CE board for controlling the peripherals.
-* [**Part - 4: Self Balancing Bot - Rev 2**](https://github.com/96boards-projects/self_balancing_bot#6-self-balancing-bot---rev-2)
-  * This part will provide the Revision 2 of the Self Balancing Bot which uses onchip DMP in MPU6050 for sensor fusion. This
-  will improve the stability of bot drastically.
+* [**Part - 3: Self Balancing Bot - Rev 2**](https://github.com/96boards-projects/self_balancing_bot#6-self-balancing-bot---rev-2)
+  * This part will provide the Revision 2 of the Self Balancing Bot which uses onchip DMP in MPU6050 for sensor fusion and offloaded PID to arduino. This will improve the stability of bot drastically.
 
 # **Conclusion**
 
