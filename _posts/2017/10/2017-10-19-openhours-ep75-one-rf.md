@@ -65,7 +65,7 @@ We look forward to seeing you in our next episode!
 
 # The slideshow
 
-{% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/l23hQprmInWpKI" %}
+{% include media.html media_url="https://www.slideshare.net/secret/yI9DewffBbEPHu" %}
 
 # Chat log
 
