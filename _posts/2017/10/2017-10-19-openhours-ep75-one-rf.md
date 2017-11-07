@@ -41,8 +41,8 @@ tags:
 # Introduction
 
 OneRF designed a robust IoT gateway based on 96Boards DragonBoard 410c for outdoor and industrial IoT. With DragonBoard 410c, the gateway
-has edge processing capacity. This means processing happens closer to the source, via the gateway, instead of traveling to the cloud. 
- 
+has edge processing capacity. This means processing happens closer to the source, via the gateway, instead of traveling to the cloud.
+
 The gateway collects raw data from sensors and devices, processes it locally and communicates only information to cloud. DragonBoard 410c
 board will enable the use of Qualcomm's NPE (Snapdragon Neural Processing Engine). NPE allows the running of trained neural networks
 without a need for connection to the cloud. Complex data analysis and process decision could be made in the gateway.
@@ -65,7 +65,7 @@ We look forward to seeing you in our next episode!
 
 # The slideshow
 
-{% include media.html media_url="https://www.slideshare.net/secret/yI9DewffBbEPHu" %}
+{% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/l23hQprmInWpKI" %}
 
 # Chat log
 
@@ -104,7 +104,7 @@ Mani - M
 Are you guys using Qualcomm NPE sdk?
 
 Robert Wolff - RW
-thanks, @Todd Thal! :D Yes lots of work 
+thanks, @Todd Thal! :D Yes lots of work
 lots of help too
 
 Todd Thal - TT
@@ -176,7 +176,7 @@ Cezar Menezes - CM
 
 Mani - M
 Any shared library should conform to that standard AFAIK
-@loic: good to shoot this out 
+@loic: good to shoot this out
 
 jean.marc - J
 Why you did not use standard like LoRa or Sigfox or NB?
@@ -190,7 +190,7 @@ Is there enough IO to expand to other sensor data?
 When will I be able to buy the complete integrated system on Amazon?...; )
 
 Robert Wolff - RW
-@Todd, very good questions 
+@Todd, very good questions
 
 Leonardo Gonçalves - LG
 How much it costs?
@@ -267,7 +267,7 @@ Thanks, Mani!
 See you soon
 
 Mani - M
-See you guys next week 
+See you guys next week
 
 Sahaj Sarup LTE - SL
 gtg bya all!
@@ -325,7 +325,7 @@ Todd Thal - TT
 Post both emails
 gustavo_r_p@hotmail.com
 rafaelchrist@gmail.com
-There you go, Todd 
+There you go, Todd
 
 Carl - C
 greetings robert want to take a peek at my mcgyver like capstone WIP
@@ -361,7 +361,7 @@ Mani - M
 Are you guys using Qualcomm NPE sdk?
 
 Robert Wolff - RW
-thanks, @Todd Thal! :D Yes lots of work 
+thanks, @Todd Thal! :D Yes lots of work
 lots of help too
 
 Todd Thal - TT
@@ -433,7 +433,7 @@ Cezar Menezes - CM
 
 Mani - M
 Any shared library should conform to that standard AFAIK
-@loic: good to shoot this out 
+@loic: good to shoot this out
 
 jean.marc - J
 Why you did not use standard like LoRa or Sigfox or NB?
@@ -447,7 +447,7 @@ Is there enough IO to expand to other sensor data?
 When will I be able to buy the complete integrated system on Amazon?...; )
 
 Robert Wolff - RW
-@Todd, very good questions 
+@Todd, very good questions
 
 Leonardo Gonçalves - LG
 How much it costs?
