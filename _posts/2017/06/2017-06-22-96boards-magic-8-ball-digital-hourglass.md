@@ -62,8 +62,8 @@ Make sure you have the following two libraries installed along with the source c
 **Source Code**
 
 ```bash
-$ git clone https://github.com/96boards/projects.git
-$ cd projects
+$ git clone https://github.com/96boards-projects/hourglass
+$ git clone https://github.com/96boards-projects/magic8
 ```
 
 # **Instructions**

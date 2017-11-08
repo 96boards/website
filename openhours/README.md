@@ -14,9 +14,9 @@ js-vendor: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDlUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #77** - This week on OpenHours, we will be joined by students from the [UCSD IoT Specialization on Coursera.org](https://www.coursera.org/specializations/internet-of-things). We will talk about the renovations of both Course 2 and 3 as well as the future efforts that will be made for the entire specialization. We will discuss the new capstone (multiple options for submission) as well as their plans for ramping up their continued support in future iterations. We will also take some time to get in touch with our roots, half of this episode will be dedicated to fun discussions and any Linaro / open source / 96Boards questions you may have for our guests, community regulars and host.
+**OpenHours Episode #78** - This week on OpenHours, we look at an open source marine navigation system built using the 96Boards DragonBoard 410c. We will talk about the project, the road (wake) to it's creation and will hopefully see it in action. Tyler Baker will joins us for a showcase! There is even a chance Tyler will join us on his boat for a real time demo out on the water. This week's episode of OpenHours is bound to make a real spash! :P
 
 Join us this week on our OpenHours live broadcast to meet the OneRF team and get all of your questions answered in this interactive and fun setting! See you at the end of the countdown.
 
@@ -51,7 +51,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDJUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDlUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
