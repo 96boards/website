@@ -4,7 +4,7 @@ permalink: "/search/"
 layout: home-page
 redirect_from:
 - /find/
-js-vendor: search
+js-package: search
 ---
 <div class="row content-container main-cont">
     <div class="container content-container">
