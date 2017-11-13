@@ -5,7 +5,10 @@ date: 2017-04-28 09:23:22+00:00
 layout: post
 link: https://www.96boards.org/blog/arm-aosp-developement-board-hikey960/
 slug: arm-aosp-developement-board-hikey960
-featured_image: hikey-aosp.jpg
+image:
+    featured: true
+    path: /assets/images/blog/hikey-aosp.jpg
+    name: hikey-aosp.jpg
 title: Linaro Announces Latest 96Boards Product for AOSP Development
 wordpress_id: 20342
 categories:

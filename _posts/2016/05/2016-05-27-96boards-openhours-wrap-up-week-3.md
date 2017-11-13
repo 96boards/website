@@ -5,7 +5,10 @@ date: 2016-05-27 22:28:45+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-wrap-up-week-3/
 slug: 96boards-openhours-wrap-up-week-3
-featured_image: Screenshot-39.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-39.png
+    name: Screenshot-39.png
 title: 96Boards OpenHours Wrap-Up Week 3
 wordpress_id: 14856
 Boards:

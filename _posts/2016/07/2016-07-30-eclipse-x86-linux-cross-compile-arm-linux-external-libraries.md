@@ -5,7 +5,10 @@ date: 2016-07-30 00:14:03+00:00
 layout: post
 link: https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/
 slug: eclipse-x86-linux-cross-compile-arm-linux-external-libraries
-featured_image: Example_of_Canadian_Cross_scheme.png
+image:
+    featured: true
+    path: /assets/images/blog/Example_of_Canadian_Cross_scheme.png
+    name: Example_of_Canadian_Cross_scheme.png
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external
   libraries
 wordpress_id: 16096

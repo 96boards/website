@@ -5,7 +5,10 @@ date: 2017-02-02 18:38:37+00:00
 layout: post
 link: https://www.96boards.org/blog/ce-iot-using-sensors/
 slug: ce-iot-using-sensors
-featured_image: 110060157-1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/110060157-1.jpg
+    name: 110060157-1.jpg
 title: 96Boards Consumer Edition, IoT and using sensors
 wordpress_id: 19770
 categories:

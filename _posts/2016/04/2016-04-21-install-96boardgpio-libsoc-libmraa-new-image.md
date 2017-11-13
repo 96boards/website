@@ -5,7 +5,10 @@ date: 2016-04-21 13:00:42+00:00
 layout: post
 link: https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/
 slug: install-96boardgpio-libsoc-libmraa-new-image
-featured_image: lcelc-elc-edited2.jpg
+image:
+    featured: true
+    path: /assets/images/blog/lcelc-elc-edited2.jpg
+    name: lcelc-elc-edited2.jpg
 title: How do you install 96BoardGPIO, libsoc and libmraa on a new image?
 wordpress_id: 13778
 categories:

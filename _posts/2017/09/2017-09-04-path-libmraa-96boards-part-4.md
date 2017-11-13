@@ -5,10 +5,12 @@ date: 2017-09-04 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/path-libmraa-96boards-part-4/
 slug: path-libmraa-96boards-part-4
-featured_image: path-libmraa-96boards-part-2-featured.png
-thumbnail_image: path-libmraa-96boards-part-2-featured-thumb.png
+image:
+    featured: true
+    path: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
+    name: path-libmraa-96boards-part-2-featured.png
+    thumb: path-libmraa-96boards-part-2-featured-thumb.png
 title: Our path to libmraa on 96Boards – Part 4
-wordpress_id: 
 categories:
 - blog
 tags:

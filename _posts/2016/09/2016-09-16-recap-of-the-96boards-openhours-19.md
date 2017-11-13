@@ -5,7 +5,10 @@ date: 2016-09-16 20:56:16+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-19/
 slug: recap-of-the-96boards-openhours-19
-featured_image: OpenHours-03.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours-03.png
+    name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 19 - DragonBoard 410c Mini-Series Part 1
 wordpress_id: 17357
 Boards:

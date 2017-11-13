@@ -5,7 +5,10 @@ date: 2016-10-24 20:54:54+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-96boards-openhours-24-season-2-opener/
 slug: recap-96boards-openhours-24-season-2-opener
-featured_image: OpenHours-03.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours-03.png
+    name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 24 - Season 2 Opener
 wordpress_id: 17913
 Boards:

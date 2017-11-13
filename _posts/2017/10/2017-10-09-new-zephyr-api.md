@@ -4,7 +4,10 @@ comments: true
 date: 2017-10-09 12:00:00+00:00
 layout: post
 title: New Zephyr Socket API
-featured_image: zephyr.jpg
+image:
+    featured: true
+    path: /assets/images/blog/zephyr.jpg
+    name: zephyr.jpg
 tags:
 - Zephyr
 - 96Boards

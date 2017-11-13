@@ -5,7 +5,10 @@ date: 2017-05-31 19:16:16+00:00
 layout: post
 link: https://www.96boards.org/blog/part-4-home-surveillance-project-96boards/
 slug: part-4-home-surveillance-project-96boards
-featured_image: aws_s3.png
+image:
+    featured: true
+    path: /assets/images/blog/aws_s3.png
+    name: aws_s3.png
 title: Part 4 - Setting up your Amazon Web Service (AWS) Cloud Service
 wordpress_id: 20460
 categories:

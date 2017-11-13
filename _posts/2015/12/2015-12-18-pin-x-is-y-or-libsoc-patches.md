@@ -5,7 +5,10 @@ date: 2015-12-18 15:13:11+00:00
 layout: post
 link: https://www.96boards.org/blog/pin-x-is-y-or-libsoc-patches/
 slug: pin-x-is-y-or-libsoc-patches
-featured_image: pinx-y-libsoc.png
+image:
+    featured: true
+    path: /assets/images/blog/pinx-y-libsoc.png
+    name: pinx-y-libsoc.png
 title: Pin X is Y or libsoc patches
 wordpress_id: 10163
 categories:

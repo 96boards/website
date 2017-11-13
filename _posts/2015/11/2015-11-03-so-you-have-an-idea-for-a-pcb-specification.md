@@ -5,7 +5,10 @@ date: 2015-11-03 20:00:15+00:00
 layout: post
 link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-specification/
 slug: so-you-have-an-idea-for-a-pcb-specification
-featured_image: pcb-idea.png
+image:
+    featured: true
+    path: /assets/images/blog/pcb-idea.png
+    name: pcb-idea.png
 title: So you have an idea for a PCB? - Specification
 wordpress_id: 8941
 categories:

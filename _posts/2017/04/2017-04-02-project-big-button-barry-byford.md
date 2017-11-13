@@ -5,7 +5,10 @@ date: 2017-04-02 18:23:03+00:00
 layout: post
 link: https://www.96boards.org/blog/project-big-button-barry-byford/
 slug: project-big-button-barry-byford
-featured_image: Screenshot-328.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-328.png
+    name: Screenshot-328.png
 title: '"Project BIG Button" with Barry Byford'
 wordpress_id: 20139
 categories:

@@ -8,7 +8,10 @@ link: https://www.96boards.org/blog/modding-arrows-audio-mezzanine-96boards/
 slug: modding-arrows-audio-mezzanine-96boards
 title: Modding Arrow’s Audio Mezzanine for 96Boards
 wordpress_id: 20519
-featured_image: modding-arrow-audio-mezz-img-1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
+    name: modding-arrow-audio-mezz-img-1.jpg
 categories:
 - blog
 tags:

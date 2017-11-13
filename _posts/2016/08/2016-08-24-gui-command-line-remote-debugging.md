@@ -5,7 +5,10 @@ date: 2016-08-24 23:34:01+00:00
 layout: post
 link: https://www.96boards.org/blog/gui-command-line-remote-debugging/
 slug: gui-command-line-remote-debugging
-featured_image: 2.png
+image:
+    featured: true
+    path: /assets/images/blog/2.png
+    name: 2.png
 title: Gui & command line remote debugging
 wordpress_id: 16751
 categories:

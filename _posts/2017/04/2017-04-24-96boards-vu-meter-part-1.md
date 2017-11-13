@@ -5,7 +5,10 @@ date: 2017-04-24 03:50:56+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-vu-meter-part-1/
 slug: 96boards-vu-meter-part-1
-featured_image: IMG20170420145210.jpg
+image:
+    featured: true
+    path: /assets/images/blog/IMG20170420145210.jpg
+    name: IMG20170420145210.jpg
 title: 96Boards VU Meter - Part 1
 wordpress_id: 20259
 categories:

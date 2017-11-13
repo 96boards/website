@@ -5,7 +5,10 @@ date: 2016-12-07 19:23:59+00:00
 layout: post
 link: https://www.96boards.org/blog/community-mezzanine-board/
 slug: community-mezzanine-board
-featured_image: CommunityBoard.png
+image:
+    featured: true
+    path: /assets/images/blog/CommunityBoard.png
+    name: CommunityBoard.png
 title: Community Mezzanine Board
 wordpress_id: 18920
 categories:

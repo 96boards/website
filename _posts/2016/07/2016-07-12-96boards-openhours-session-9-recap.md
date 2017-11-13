@@ -5,7 +5,10 @@ date: 2016-07-12 23:45:17+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-9-recap/
 slug: 96boards-openhours-session-9-recap
-featured_image: OpenHours-03.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours-03.png
+    name: OpenHours-03.png
 title: 96Boards OpenHours Session 9 Recap
 wordpress_id: 15740
 Boards:

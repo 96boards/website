@@ -5,7 +5,10 @@ date: 2015-11-03 20:00:12+00:00
 layout: post
 link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-pcb/
 slug: so-you-have-an-idea-for-a-pcb-development-pcb
-featured_image: pcb-idea.png
+image:
+    featured: true
+    path: /assets/images/blog/pcb-idea.png
+    name: pcb-idea.png
 title: So you have an idea for a PCB? - Development (PCB)
 wordpress_id: 8964
 categories:

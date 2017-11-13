@@ -5,10 +5,12 @@ date: 2017-10-20 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/zephyr-on-96boards-neonkey/
 slug: zephyr-on-96boards-neonkey
-featured_image: neonkey-hd.jpg
-thumbnail_image: neonkey.jpg
+image:
+    featured: true
+    path: /assets/images/blog/neonkey-hd.jpg
+    name: neonkey-hd.jpg
+    thumb: neonkey.jpg
 title: Zephyr on 96Boards Neonkey
-wordpress_id:
 categories:
 - blog
 tags:

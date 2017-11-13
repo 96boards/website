@@ -5,7 +5,10 @@ date: 2016-09-09 17:09:09+00:00
 layout: post
 link: https://www.96boards.org/blog/ramblings-mezzanine-boards/
 slug: ramblings-mezzanine-boards
-featured_image: Screenshot-39.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-39.png
+    name: Screenshot-39.png
 title: Ramblings of Mezzanine boards
 wordpress_id: 17252
 categories:

@@ -5,7 +5,10 @@ date: 2016-06-05 22:22:23+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-4-recap/
 slug: 96boards-openhours-session-4-recap
-featured_image: 96Boards_LS_pinout-1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/96Boards_LS_pinout-1.jpg
+    name: 96Boards_LS_pinout-1.jpg
 title: 96Boards OpenHours Session 4 Recap
 wordpress_id: 14970
 Boards:

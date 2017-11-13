@@ -5,7 +5,10 @@ date: 2016-06-23 18:05:39+00:00
 layout: post
 link: https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/
 slug: cross-compile-files-x86-linux-to-96boards
-featured_image: Example_of_Canadian_Cross_scheme.png
+image:
+    featured: true
+    path: /assets/images/blog/Example_of_Canadian_Cross_scheme.png
+    name: Example_of_Canadian_Cross_scheme.png
 title: How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa
   libraries
 wordpress_id: 15399

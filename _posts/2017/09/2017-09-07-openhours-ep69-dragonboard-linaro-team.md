@@ -10,8 +10,11 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 69 Recap - DragonBoard & Linaro Team
 # This is the featured background image of the blog which resides under _assets/
-featured_image: OpenHours.png
-thumbnail_image: OpenHours-thumb.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours.png
+    name: OpenHours.png
+    thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

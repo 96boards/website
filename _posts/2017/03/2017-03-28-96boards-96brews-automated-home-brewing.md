@@ -5,7 +5,10 @@ date: 2017-03-28 05:49:10+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-96brews-automated-home-brewing/
 slug: 96boards-96brews-automated-home-brewing
-featured_image: Screenshot-327.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-327.png
+    name: Screenshot-327.png
 title: 96Boards for 96Brews - Automated Home Brewing
 wordpress_id: 20129
 categories:

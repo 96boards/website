@@ -5,7 +5,10 @@ date: 2016-10-05 17:53:18+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3/
 slug: recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3
-featured_image: OpenHours-03.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours-03.png
+    name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 21 - DragonBoard 410c Mini-Series Part 3
 wordpress_id: 17633
 Boards:
