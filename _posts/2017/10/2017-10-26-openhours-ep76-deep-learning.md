@@ -216,7 +216,7 @@ Robert Wolff - RW
 Marcel, which university are you with?
 
 Marcel - M
-Germany, Osnabrück. 
+Germany, Osnabrück.
 
 Rajan - R
 c_mistr@qti.qualcomm.com

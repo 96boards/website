@@ -329,3 +329,5 @@ https://www.96boards.org/products/ce/bubblegum96/
 /newsletter,https://www.96boards.org/blog/
 /tutorials/index.html,https://www.96boards.org/blog/
 /tutorials,https://www.96boards.org/blog/
+# PDF Redirects
+/wp-content/uploads/2015/02/96BoardsCESpecificationv1.0-EA1.pdf,https://linaro.co/ce-specification

@@ -45,5 +45,4 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 |  Size                | 85mm x 54mm                                                                                      |
 {:.hidden_rows}
 
-
 </div>

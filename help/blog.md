@@ -79,6 +79,8 @@ date: 2017-06-27 13:00:00+00:00
 ---
 YOUR MARKDOWN CONTENT GOES HERE
 ```
+
+### Featured Images
 Above is the bare minimum front matter that is needed to setup your blog post and ensure it is rendered correctly.
 
 However, the typical blog post will have a featured image that displays full page width etc. To add this full page image you should include a featured_image in the front matter like this:
@@ -87,6 +89,35 @@ However, the typical blog post will have a featured image that displays full pag
 featured_image: your-featured-img.png
 ```
 The featured image takes the name of an image that is located in the \_assets/images folder.
+
+#### Update 13th November 2017
+
+You can now use the following front matter settings on your blog post to ensure your featured image
+is used as the Social Media Share Image (Open Graph).
+
+```yaml
+image:
+    # Change this to False to stop your image from displaying.
+    featured: true
+    # Full path to your image that is not in 
+    # the _assets folder but the /assets/images/blog/ folder.
+    # This must be a full path to your image that is going to be used by
+    # Jekyll SEO Tag Manager to add a Social Media Share Image.
+    path: /assets/images/blog/pinout.png
+    # The Name of your featured image.
+    name: pinout.png
+    # You have two options for the thumbnail image.
+    # 1. Supply a full path to your image that is not
+    # in the _assets folder
+    thumb: /assets/images/blog/pinout_thumb.png
+    # 2. Supply the name of your thumbnail like before 
+    # and place inside the _assets/images/blog/ folder.
+    # thumb: pinout_thumb.png
+```
+
+Use the above Front matter object to make sure your Social Media Images are 
+relevant to your post.
+
 
 ### Custom Thumbnails
 
