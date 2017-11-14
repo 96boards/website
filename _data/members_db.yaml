@@ -121,9 +121,6 @@ members:
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/
-        - name: Xilinx
-          image: xilinx.jpg
-          url: /company/xilinx/
     mezzanine_partners:
         - name: Qwerty
           image: qwerty.png
