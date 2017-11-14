@@ -5,7 +5,10 @@ date: 2016-06-01 08:41:42+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-4/
 slug: 96boards-box-experience-guide-4
-featured_image: 96Boards_LS_pinout-1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/96Boards_LS_pinout-1.jpg
+    name: 96Boards_LS_pinout-1.jpg
 title: 96Boards Out of box experience guide - part 4
 wordpress_id: 14887
 Boards:

@@ -5,7 +5,10 @@ date: 2016-06-08 19:22:58+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-5/
 slug: 96boards-box-experience-guide-5
-featured_image: Screen-Shot-2016-06-08-at-12.33.49-AM.png
+image:
+    featured: true
+    path: /assets/images/blog/Screen-Shot-2016-06-08-at-12.33.49-AM.png
+    name: Screen-Shot-2016-06-08-at-12.33.49-AM.png
 title: 96Boards Out of box experience guide - part 5
 wordpress_id: 15029
 categories:

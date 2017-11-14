@@ -5,7 +5,10 @@ date: 2017-04-20 08:50:40+00:00
 layout: post
 link: https://www.96boards.org/blog/openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin/
 slug: openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin
-featured_image: DB410cAudioMezz.jpg
+image:
+    featured: true
+    path: /assets/images/blog/DB410cAudioMezz.jpg
+    name: DB410cAudioMezz.jpg
 title: OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine with Jean-Marc
   Jobin
 wordpress_id: 20233

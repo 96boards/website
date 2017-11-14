@@ -3,7 +3,10 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-11 01:01:54+00:00
 layout: post
-featured_image: mpu6050.jpg
+image:
+    featured: true
+    path: /assets/images/blog/mpu6050.jpg
+    name: mpu6050.jpg
 title: Self Balancing Bot using 96Boards - Part 1
 categories:
 - blog

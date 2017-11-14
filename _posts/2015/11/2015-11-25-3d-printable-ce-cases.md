@@ -5,7 +5,10 @@ date: 2015-11-25 14:24:49+00:00
 layout: post
 link: https://www.96boards.org/blog/3d-printable-ce-cases/
 slug: 3d-printable-ce-cases
-featured_image: 96Boards-3D-printable-CE-cases.png
+image:
+    featured: true
+    path: /assets/images/blog/96Boards-3D-printable-CE-cases.png
+    name: 96Boards-3D-printable-CE-cases.png
 title: 96Boards 3D printable CE cases
 wordpress_id: 9804
 Boards:

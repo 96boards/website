@@ -5,7 +5,10 @@ date: 2016-05-09 21:05:26+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-1/
 slug: 96boards-box-experience-guide-1
-featured_image: 20160506_144220.jpg
+image:
+    featured: true
+    path: /assets/images/blog/20160506_144220.jpg
+    name: 20160506_144220.jpg
 title: 96Boards Out of box experience guide - part 1
 wordpress_id: 13925
 categories:

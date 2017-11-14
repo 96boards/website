@@ -5,7 +5,10 @@ date: 2015-07-30 13:29:48+00:00
 layout: post
 link: https://www.96boards.org/tutorial/helping-makers-create-exciting-new-technologies-dragonboard-410c/
 slug: helping-makers-create-exciting-new-technologies-dragonboard-410c
-featured_image: arrow-dragonboard410c.jpg
+image:
+    featured: true
+    path: /assets/images/blog/arrow-dragonboard410c.jpg
+    name: arrow-dragonboard410c.jpg
 title: Helping Makers Create Exciting New Technologies with the DragonBoard 410c
 wordpress_id: 16302
 Boards:
@@ -14,8 +17,6 @@ categories:
   - Tutorials
 tags:
   - dragonboard410c
-images:
-- arrow-dragonboard410c.jpg
 redirect_from:
 - /tutorial/helping-makers-create-exciting-new-technologies-dragonboard-410c/
 ---

@@ -5,7 +5,10 @@ date: 2017-05-01 18:43:46+00:00
 layout: post
 link: https://www.96boards.org/blog/playing-96boards-sensors-mezzanine-jean-marc-jobin/
 slug: playing-96boards-sensors-mezzanine-jean-marc-jobin
-featured_image: Featureimage.jpg
+image:
+    featured: true
+    path: /assets/images/blog/Featureimage.jpg
+    name: Featureimage.jpg
 title: Playing on the 96Boards Sensors Mezzanine with Jean-Marc Jobin
 wordpress_id: 20320
 categories:

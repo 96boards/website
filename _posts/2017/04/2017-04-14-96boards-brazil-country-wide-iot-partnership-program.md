@@ -5,7 +5,10 @@ date: 2017-04-14 15:00:11+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-brazil-country-wide-iot-partnership-program/
 slug: 96boards-brazil-country-wide-iot-partnership-program
-featured_image: banner_850x510_D-696x418-1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/banner_850x510_D-696x418-1.jpg
+    name: banner_850x510_D-696x418-1.jpg
 title: 96Boards in Brazil - Country wide IoT Partnership Program!
 wordpress_id: 20176
 categories:

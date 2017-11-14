@@ -5,7 +5,10 @@ date: 2015-10-15 10:17:06+00:00
 layout: post
 link: https://www.96boards.org/blog/the-beginning-of-96boards/
 slug: the-beginning-of-96boards
-featured_image: 96boards-blog1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/96boards-blog1.jpg
+    name: 96boards-blog1.jpg
 title: The beginning of 96Boards
 wordpress_id: 8724
 categories:

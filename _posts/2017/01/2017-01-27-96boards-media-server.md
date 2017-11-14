@@ -5,7 +5,10 @@ date: 2017-01-27 18:56:16+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-media-server/
 slug: 96boards-media-server
-featured_image: ReadyMediaServer.png
+image:
+    featured: true
+    path: /assets/images/blog/ReadyMediaServer.png
+    name: ReadyMediaServer.png
 title: Setting up a home 96Boards media server
 wordpress_id: 19681
 categories:

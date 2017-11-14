@@ -5,7 +5,10 @@ date: 2016-03-15 11:56:13+00:00
 layout: post
 link: https://www.96boards.org/blog/files-96boards-ce-cases-mezzanine-boards-3d-printers/
 slug: files-96boards-ce-cases-mezzanine-boards-3d-printers
-featured_image: 3D-Case-SensorBoard-s.png
+image:
+    featured: true
+    path: /assets/images/blog/3D-Case-SensorBoard-s.png
+    name: 3D-Case-SensorBoard-s.png
 title: Files of 96Boards CE Cases with Mezzanine Boards for 3D printers
 wordpress_id: 12788
 categories:

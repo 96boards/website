@@ -5,7 +5,10 @@ date: 2016-10-06 17:46:19+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-96boards-openhours-22-back-connect/
 slug: recap-96boards-openhours-22-back-connect
-featured_image: OpenHours-03.png
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours-03.png
+    name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 22 - Back from Connect
 wordpress_id: 17794
 Boards:

@@ -5,7 +5,10 @@ date: 2017-05-25 05:00:09+00:00
 layout: post
 link: https://www.96boards.org/blog/part-2-home-surveillance-project-96boards/
 slug: part-2-home-surveillance-project-96boards
-featured_image: Screenshot-356.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-356.png
+    name: Screenshot-356.png
 title: Part 2 - Facial recognition using OpenCV on 96Boards
 wordpress_id: 20398
 categories:

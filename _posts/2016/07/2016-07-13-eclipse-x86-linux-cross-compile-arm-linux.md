@@ -5,7 +5,10 @@ date: 2016-07-13 20:02:54+00:00
 layout: post
 link: https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/
 slug: eclipse-x86-linux-cross-compile-arm-linux
-featured_image: 96Boardsbackground2HD1.jpg
+image:
+    featured: true
+    path: /assets/images/blog/96Boardsbackground2HD1.jpg
+    name: 96Boardsbackground2HD1.jpg
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux
 wordpress_id: 15744
 categories:

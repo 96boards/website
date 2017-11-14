@@ -6,7 +6,10 @@ layout: post
 featured_blog: true
 link: https://www.96boards.org/blog/96boards-updates-development-aosp/
 slug: 96boards-updates-development-aosp
-featured_image: hikey-960-SD-front-500x330.jpg
+image:
+    featured: true
+    path: /assets/images/blog/hikey-960-SD-front-500x330.jpg
+    name: hikey-960-SD-front-500x330.jpg
 title: 96Boards Updates on development in AOSP
 wordpress_id: 20504
 categories:
