@@ -14,14 +14,13 @@ js-package: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDlUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMTZUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #78** - This week on OpenHours, we look at an open source marine navigation system built using the 96Boards DragonBoard 410c. We will talk about the project, the road (wake) to it's creation and will hopefully see it in action. Tyler Baker will joins us for a showcase! There is even a chance Tyler will join us on his boat for a real time demo out on the water. This week's episode of OpenHours is bound to make a real spash! :P
-
-Join us this week on our OpenHours live broadcast to meet the OneRF team and get all of your questions answered in this interactive and fun setting! See you at the end of the countdown.
+**OpenHours Episode #78** - This week on OpenHours 79, we will be joined by Maciej Halasz, Timesys Vice President of Technology. Talking about the Timesys University 4-part webinar series, sponsored by Qualcomm Developer Network — Developing for Industrial IoT with Linux OS on DragonBoard™ 410c — to explore the process of building an embedded Linux based device using the Qualcomm® Snapdragon™ 410E powered DragonBoard 410c development board from Arrow Electronics. With topics that cover build systems, deployment strategy, designing-in and managing security, device appearance and ease of user interaction.
 
 - References:
-   - https://github.com/gholamlooAli/tf410c
+   - https://www.timesys.com/solutions/software-development-training/online-public/developing-iiot-linux-os-dragonboard-410c/
+   - https://developer.qualcomm.com/about-us/events
 
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
