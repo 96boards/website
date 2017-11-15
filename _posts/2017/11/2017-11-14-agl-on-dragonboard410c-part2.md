@@ -3,7 +3,10 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-11-14 01:01:54+00:00
 layout: post
-featured_image: agl.jpg
+image:
+    featured: true
+    path: /assets/images/blog/agl.jpg
+    name: agl.jpg
 title: Automotive Grade Linux on Dragonboard410c - Part 2
 categories:
 - blog
