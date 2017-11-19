@@ -14,14 +14,9 @@ js-package: openhours
 <div class="open-hours-clock"></div>
 <a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMTZUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMzBUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #78** - This week on OpenHours 79, we will be joined by Maciej Halasz, Timesys Vice President of Technology. Talking about the Timesys University 4-part webinar series, sponsored by Qualcomm Developer Network — Developing for Industrial IoT with Linux OS on DragonBoard™ 410c — to explore the process of building an embedded Linux based device using the Qualcomm® Snapdragon™ 410E powered DragonBoard 410c development board from Arrow Electronics. With topics that cover build systems, deployment strategy, designing-in and managing security, device appearance and ease of user interaction.
-
-- References:
-   - https://www.timesys.com/solutions/software-development-training/online-public/developing-iiot-linux-os-dragonboard-410c/
-   - https://developer.qualcomm.com/about-us/events
-
+**OpenHours US Thanksgiving** - 96Boards OpenHours will be taking the week of Thanksgiving (Nov 23rd) off from our regular broadcasting time. Please be sure to join us the following week for yet another exciting episode! For episode 80, we will be meeting with uCRobotics talk 96Boards, see some demos and get some announcements! We look forward to see you then, dont miss OpenHours episode 80 on November 30th.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -50,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMDlUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMzBUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### How to Join
 
