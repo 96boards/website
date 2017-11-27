@@ -7,6 +7,7 @@ image:
     featured: true
     path: /assets/images/blog/minecraft.png
     name: minecraft.png
+    thumb: /assets/images/blog/minecraft_thumb.png
 title: Full PC Version of Minecraft on Dragonboard 410c
 categories:
 - blog
