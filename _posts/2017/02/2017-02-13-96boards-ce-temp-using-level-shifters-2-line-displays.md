@@ -5,7 +5,10 @@ date: 2017-02-13 21:18:23+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-ce-temp-using-level-shifters-2-line-displays/
 slug: 96boards-ce-temp-using-level-shifters-2-line-displays
-featured_image: 2BOBRed.jpg
+image:
+    featured: true
+    path: /assets/images/blog/2BOBRed.jpg
+    name: 2BOBRed.jpg
 title: 96Boards CE what temp is it? Using level shifters and 2-line displays
 wordpress_id: 19924
 categories:

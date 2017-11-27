@@ -4,8 +4,10 @@ comments: true
 date: 2017-10-24 00:00:00+00:00
 layout: post
 slug: basic-threads-zephyr
-featured_image: zephyr.jpg
-thumbnail_image: zephyr.jpg
+image:
+    featured: true
+    path: /assets/images/blog/zephyr.jpg
+    name: zephyr.jpg
 title: Basic Threads on Zephyr RTOS
 categories:
 - blog

@@ -5,10 +5,12 @@ date: 2017-09-13 12:00:00+00:00
 layout: post
 link: https://www.96boards.org/blog/open-source-summit-2017/
 slug: open-source-summit-2017
-featured_image: ossummit-2017-feature.JPG
-thumbnail_image: ossummit-2017-feature-thumb.JPG
+image:
+    featured: true
+    path: /assets/images/blog/ossummit-2017-feature.JPG
+    name: ossummit-2017-feature.JPG
+    thumb: ossummit-2017-feature-thumb.JPG
 title: Open Source Summit - 2017
-wordpress_id: 
 categories:
 - blog
 tags:

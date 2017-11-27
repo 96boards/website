@@ -5,7 +5,10 @@ date: 2016-09-22 17:40:57+00:00
 layout: post
 link: https://www.96boards.org/blog/use-arduino-ide-sensors-mezzanine-board-linux/
 slug: use-arduino-ide-sensors-mezzanine-board-linux
-featured_image: Screen-Shot-2016-06-08-at-12.33.49-AM-1.png
+image:
+    featured: true
+    path: /assets/images/blog/Screen-Shot-2016-06-08-at-12.33.49-AM-1.png
+    name: Screen-Shot-2016-06-08-at-12.33.49-AM-1.png
 title: How to use the Arduino IDE with the Sensors Mezzanine Board under Linux
 wordpress_id: 17425
 categories:

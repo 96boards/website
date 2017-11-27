@@ -5,7 +5,10 @@ date: 2015-11-06 16:37:17+00:00
 layout: post
 link: https://www.96boards.org/blog/xenomai-on-the-96boards/
 slug: xenomai-on-the-96boards
-featured_image: Xenomai-96Boards.jpg
+image:
+    featured: true
+    path: /assets/images/blog/Xenomai-96Boards.jpg
+    name: Xenomai-96Boards.jpg
 title: Xenomai on the 96Boards
 wordpress_id: 9103
 categories:

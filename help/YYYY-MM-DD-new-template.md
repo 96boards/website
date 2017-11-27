@@ -8,9 +8,16 @@ date: 2017-07-20 12:00:00+00:00
 # Layout for the Post
 layout: post
 # Title of the blog post.
-title: 96boards OpenHours Recap 1337
-# This is the featured background image of the blog which resides under _assets/
-featured_image: OpenHours.png
+title: 96boards OpenHours Recap
+# This is the featured background image of the blog which resides under /assets/images/blog/
+# For more info see blog.md
+image:
+    # Change this to False to stop your image from displaying.
+    featured: true
+    path: /assets/images/blog/OpenHours.png
+    name: OpenHours.png
+    #thumb: /assets/images/blog/OpenHours-thumb.png
+
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

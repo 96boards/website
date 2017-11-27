@@ -5,7 +5,10 @@ date: 2016-06-11 18:07:43+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-5-recap/
 slug: 96boards-openhours-session-5-recap
-featured_image: akira-blog-image.jpg
+image:
+    featured: true
+    path: /assets/images/blog/akira-blog-image.jpg
+    name: akira-blog-image.jpg
 title: 96Boards OpenHours Session 5 Recap
 wordpress_id: 15263
 Boards:

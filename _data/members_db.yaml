@@ -15,9 +15,6 @@ members:
           - name: Arrow Electronics
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
-          - name: Canonical
-            image: canonical.jpg
-            url: https://www.linaro.org/company/
           - name: Hisilicon
             image: hisilicon.jpg
             url: https://www.linaro.org/company/hisilicon/
@@ -57,6 +54,9 @@ members:
           - name: ThunderSoft
             image: thunder-soft.png
             url: https://www.linaro.org/company/thundersoft/
+          - name: Xilinx
+            image: xilinx.jpg
+            url: https://www.linaro.org/company/xilinx/
     manufacturing_partners:
         - name: Archer Mind
           image: archermind.jpg

@@ -5,7 +5,10 @@ date: 2016-11-18 17:45:35+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-survey-1/
 slug: 96boards-survey-1
-featured_image: Screenshot-193.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-193.png
+    name: Screenshot-193.png
 title: '96Boards Survey: What do 96Boards users care about?'
 wordpress_id: 18632
 categories:

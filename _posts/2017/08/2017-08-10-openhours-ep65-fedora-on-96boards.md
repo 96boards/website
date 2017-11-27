@@ -9,9 +9,12 @@ date: 2017-08-10 12:00:00+00:00
 layout: post
 # Title of the blog post.
 title: OpenHours ep 65 Recap - Fedora on 96Boards
-# This is the featured background image of the blog which resides under _assets/
-featured_image: OpenHours.png
-thumbnail_image: OpenHours-thumb.png
+# This is the featured background image of the blog which resides under assets/
+image:
+    featured: true
+    path: /assets/images/blog/OpenHours.png
+    name: OpenHours.png
+    thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

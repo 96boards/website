@@ -8,9 +8,11 @@ link: https://www.96boards.org/blog/part-5-home-surveillance-project-96boards/
 slug: part-5-home-surveillance-project-96boards
 title: Part 5 (Final) - Home Surveillance
 wordpress_id: 20519
-featured_image: surveillance-152097_960_720-1.png
-images:
-  - surveillance-152097_960_720-1.png
+image:
+    featured: true
+    path: /assets/images/blog/surveillance-152097_960_720-1.png
+    name: surveillance-152097_960_720-1.png
+
 categories:
 - blog
 tags:
@@ -41,11 +43,6 @@ tags:
 - Servos
 - Webcam
 
-images:
-    thumbnail: thumb.png
-    list:
-        - image1.png
-        - image2.png
 ---
 # Introduction
 

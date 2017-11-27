@@ -3,8 +3,11 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-04 01:01:54+00:00
 layout: post
-featured_image: self-balancing-bot.jpg
-thumbnail_image: self-balancing-bot-thumb.jpg
+image:
+    featured: true
+    path: /assets/images/blog/self-balancing-bot.jpg
+    name: self-balancing-bot.jpg
+    thumb: self-balancing-bot-thumb.jpg
 title: Introducing Self Balancing Bot using 96Boards
 categories:
 - blog

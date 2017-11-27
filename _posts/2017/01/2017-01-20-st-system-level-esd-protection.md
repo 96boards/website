@@ -5,7 +5,10 @@ date: 2017-01-20 22:08:17+00:00
 layout: post
 link: https://www.96boards.org/blog/st-system-level-esd-protection/
 slug: st-system-level-esd-protection
-featured_image: Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
+image:
+    featured: true
+    path: /assets/images/blog/Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
+    name: Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
 title: ST, System Level ESD Protection and OpenHours
 wordpress_id: 19616
 categories:

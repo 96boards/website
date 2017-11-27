@@ -5,7 +5,10 @@ date: 2016-08-31 15:18:21+00:00
 layout: post
 link: https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/
 slug: dragonboard-410c-workshop-96boards-visits-qualcomm
-featured_image: Screenshot-118.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-118.png
+    name: Screenshot-118.png
 title: DragonBoard 410c Workshop - 96Boards visits Qualcomm
 wordpress_id: 16897
 categories:

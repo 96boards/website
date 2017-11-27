@@ -5,7 +5,10 @@ date: 2016-08-10 13:38:37+00:00
 layout: post
 link: https://www.96boards.org/video/whywait-invent-off-series-trailer/
 slug: whywait-invent-off-series-trailer
-featured_image: invent-off-dragonboard410c.jpg
+image:
+    featured: true
+    path: /assets/images/blog/invent-off-dragonboard410c.jpg
+    name: invent-off-dragonboard410c.jpg
 title: 'The #WhyWait Invent-Off - Series Trailer'
 wordpress_id: 16308
 Boards:

@@ -5,7 +5,10 @@ date: 2016-05-24 17:25:58+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-3/
 slug: 96boards-box-experience-guide-3
-featured_image: Screenshot-39.png
+image:
+    featured: true
+    path: /assets/images/blog/Screenshot-39.png
+    name: Screenshot-39.png
 title: 96Boards Out of box experience guide - part 3
 wordpress_id: 14690
 Boards:

@@ -5,7 +5,10 @@ date: 2015-12-18 15:56:04+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-3d-printable-ee-case/
 slug: 96boards-3d-printable-ee-case
-featured_image: 96boards-3d-case.jpg
+image:
+    featured: true
+    path: /assets/images/blog/96boards-3d-case.jpg
+    name: 96boards-3d-case.jpg
 title: 96Boards 3D printable EE case
 wordpress_id: 10181
 categories:

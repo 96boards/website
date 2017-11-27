@@ -5,7 +5,10 @@ date: 2016-05-17 00:42:41+00:00
 layout: post
 link: https://www.96boards.org/blog/fritzing-part-96boards-ce/
 slug: fritzing-part-96boards-ce
-featured_image: breadboard.png
+image:
+    featured: true
+    path: /assets/images/blog/breadboard.png
+    name: breadboard.png
 title: Fritzing part for 96boards CE
 wordpress_id: 14421
 Boards:

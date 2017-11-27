@@ -3,7 +3,11 @@ author: Radhika Paralkar
 featured_blog: true
 date: 2017-07-05 12:00:00+00:00
 title: Introduction to Google Assistant using 96Boards
-featured_image: google-assistant-96boards-feature.jpg
+image:
+    featured: true
+    path: /assets/images/blog/google-assistant-96boards-feature.jpg
+    name: google-assistant-96boards-feature.jpg
+    thumb: google-assistant-96boards-thumb.jpg
 categories:
 - blog
 tags:
