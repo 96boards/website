@@ -16,7 +16,7 @@ js-package: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cWxyNWlsZzFibDVwZzNrZjJ0b2s5aWtjdm9fMjAxNzExMzBUMTcwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours US Thanksgiving** - 96Boards OpenHours will be taking the week of Thanksgiving (Nov 23rd) off from our regular broadcasting time. Please be sure to join us the following week for yet another exciting episode! For episode 80, we will be meeting with uCRobotics talk 96Boards, see some demos and get some announcements! We look forward to see you then, dont miss OpenHours episode 80 on November 30th.
+**OpenHours Episode #80** - This week on 96Boards OpenHours, we will be meeting with Haitao Zhang from uCRobotics to talk about the Bubblegum96 and their work with 96Boards. By the end of the show we hope to see a small demo and of course we will be able to take any questions brought up from the audience. All are welcome, if you are joining with general 96Boards/Linaro questions, our team of 96Boards engineers and support are online to help! We look forward to see you there at the end of the countdown.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
