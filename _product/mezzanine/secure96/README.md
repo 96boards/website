@@ -10,7 +10,7 @@ redirect_from:
 ---
 # Secure96 mezzanine board
 
-This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
+This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
 
 ## Buy Now
 
@@ -19,7 +19,7 @@ This mezzanine board is intended for security development on 96Boards and featur
 ## Resources
 
 - Schematic ([View](https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf))
-- Getting Started Guide ([View](https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf)
+- Getting Started Guide ([View](https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf))
 
 ## Features
 
