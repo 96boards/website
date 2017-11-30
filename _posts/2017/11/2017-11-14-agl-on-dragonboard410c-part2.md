@@ -8,7 +8,6 @@ image:
     name: agl.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
-
 ---
 
 # **Introduction**
