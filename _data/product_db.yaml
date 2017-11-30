@@ -717,6 +717,46 @@ products:
         link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
       - title: NeonKey on Tocoding
         link: http://en.tocoding.com/index.php/96boards-neonkey/
+  - product_title: Secure96 Mezzanine 
+    display_product: true
+    product_permalink: /product/secure96/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/secure96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets."
+    product_long_desc: |-
+        This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
+    product_images:
+      - secure96-angle1-hd.jpg
+      - secure96-angle2-hd.jpg
+      - secure96-angle3-hd.jpg
+      - secure96-back-hd.jpg
+      - secure96-button-hd.jpg
+      - secure96-front-hd.jpg
+      - secure96-port-hd.jpg
+
+    product_buy_links:
+      -
+        link-title: Amazon
+        link-url: "https://www.amazon.com/Secure96-Mezzanine-Board-96Boards-Connector/dp/B077D2M4HG/ref=sr_1_1?ie=UTF8&qid=1511363830&sr=8-1&keywords=secure96"
+        
+    product_more_info:
+      - title: Schematics (View)
+        link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+      - title: Schematics (Download)
+        link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+      - title: Getting Started Guide (View)
+        link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+      - title: Getting Started Guide (Download)
+        link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
+  
   - product_title: STM32 Sensor mezzanine board
     display_product: true
     product_permalink: /product/stm32/
