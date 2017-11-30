@@ -717,7 +717,9 @@ products:
         link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
       - title: NeonKey on Tocoding
         link: http://en.tocoding.com/index.php/96boards-neonkey/
-  - product_title: Secure96 Mezzanine 
+  - product_title: Secure96 Mezzanine
+    featured_product_order: 8
+    is_featured: true 
     display_product: true
     product_permalink: /product/secure96/
     product_tab_menu:
@@ -807,7 +809,7 @@ products:
           tab_position: 2
           tab_align_right: true
 
-    featured_product_order: 8
+    featured_product_order: 9
     is_featured: true
     product_specification: "mezzanine"
     product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
