@@ -16,6 +16,8 @@ image:
 
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags: 64-Bit, 96Boards, OpenHours
+# A list of featured products referenced via the permalink slug of a product i.e /product/dragonboard410c/ would be dragonboard410c and /product/hikey960/ would be hikey960.
+featured-products: dragonboard410c, hikey960
 ---
 # **Opening Title**
 
