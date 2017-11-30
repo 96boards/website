@@ -23,6 +23,7 @@ tags:
 - Linux
 - AGL
 - Automotive
+featured-products: dragonboard410c
 ---
 
 # **Introduction**
