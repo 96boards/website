@@ -1,29 +1,13 @@
 ---
+title: Automotive Grade Linux on Dragonboard410c - Part 1
 author: Manivannan Sadhasivam
-comments: true
 date: 2017-11-06 01:01:54+00:00
-layout: post
 image:
     featured: true
     path: /assets/images/blog/agl.jpg
     name: agl.jpg
-title: Automotive Grade Linux on Dragonboard410c - Part 1
-categories:
-- blog
-tags:
-- 64-bit
-- 96Boards
-- aarch64
-- ARM
-- ARMv8
-- Consumer Edition
-- DB410c
-- dragonboard410c
-- Linaro
-- Linux
-- AGL
-- Automotive
-featured-products: dragonboard410c
+categories: blog
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
 ---
 
 # **Introduction**
@@ -105,12 +89,12 @@ $ source meta-agl/scripts/aglsetup.sh -m dragonboard-410c agl-demo  agl-appfw-sm
 $ bitbake agl-demo-platform
 ```
 
-Build will take quite some time depending upon the host machine configuration. So, go and take a nap for now :D
+The build will take quite some time depending on the host machine configuration. So, go and take a nap for now :D
 
 ## **Flashing AGL onto Dragonboard410c**
 
 Once the build has been completed, we have to flash the boot and rootfs images onto Dragonboard410c. Now, boot Dragonboard
-into fastboot mode by following the instructions [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md).
+in fastboot mode by following the instructions [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md).
 
 ```shell
 $ cd $AGL_TOP/build/tmp/deploy/images/dragonboard-410c
@@ -126,8 +110,8 @@ on top of Dragonboard410c. This will be really handly for debugging purposes.
 
 ## **Workaround for no output**
 
-Sometimes, the homescreen won't be visible straightaway and this need us to tweak some screen settings to get
-it working. The display which is mentioned in **Hardwares required** section will work out of the box but most
+Sometimes, the home screen won't be visible straightaway and this needs us to tweak some screen settings to get
+it working. The display which is mentioned in **Hardware required** section will work out of the box but most
 of the displays need to be configured.
 
 Login using the serial console as **root** and look for the **Output Section** in ***/etc/xdg/weston/weston.ini***
@@ -145,10 +129,9 @@ where,
 2. **mode** is the display resolution
 3. **transform** is the screen rotation
 
-Change the above mentioned variables according to your screen, then save and reboot the board. Display should work now :)
+Change the above-mentioned variables according to your screen, then save and reboot the board. Display should work now :)
 
 # **Conclusion**
 
-I hope this blogpost provided much information about booting AGL on Dragonboard410c. If you encounter any issues and 
-unable to solve them (or) you have solved the issue by yourself, please do share with us in comments below. Stay tuned
+I hope this blog post provided much information about booting AGL on Dragonboard410c. If you encounter any issues and unable to solve them (or) you have solved the issue by yourself, please do share with us in comments below. Stay tuned
 for the next part!
