@@ -1,12 +1,8 @@
 ---
 # Name of Blog Author - (In a future update this will be a reference to the authors entry in yaml db.)
 author: John Smith
-# If you want the post to display comments assign this variable to true.
-comments: true
 # Date of the post - has to be in the past otherwise Jekyll will see it as a future post.
 date: 2017-07-20 12:00:00+00:00
-# Layout for the Post
-layout: post
 # Title of the blog post.
 title: 96boards OpenHours Recap
 # This is the featured background image of the blog which resides under /assets/images/blog/
@@ -16,13 +12,10 @@ image:
     featured: true
     path: /assets/images/blog/OpenHours.png
     name: OpenHours.png
-    #thumb: /assets/images/blog/OpenHours-thumb.png
+    thumb: /assets/images/blog/OpenHours-thumb.png
 
 # Tags related this post. For use in tag filters that will be used in future updates.
-tags:
-- 64-Bit
-- 96Boards
-- OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
+tags: 64-Bit, 96Boards, OpenHours
 ---
 # **Opening Title**
 
