@@ -5,8 +5,8 @@ date: 2017-11-28 01:01:54+00:00
 layout: post
 image:
     featured: true
-    path: /assets/images/blog/agl_demo.jpg
-    name: agl_demo.jpg
+    path: /assets/images/blog/agl-demo.jpg
+    name: agl-demo.jpg
     thumb: agl-demo-thumb.jpg
 title: Automotive Grade Linux on Dragonboard410c - Part 3
 categories:
