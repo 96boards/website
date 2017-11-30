@@ -21,6 +21,7 @@ tags:
 - Linux Gaming
 - minecraft
 - db410c
+featured-products: dragonboard410c
 ---
 
 # **Introduction**
