@@ -1,29 +1,13 @@
 ---
+title: Automotive Grade Linux on Dragonboard410c - Part 2
 author: Manivannan Sadhasivam
-comments: true
 date: 2017-11-14 01:01:54+00:00
-layout: post
 image:
     featured: true
     path: /assets/images/blog/agl.jpg
     name: agl.jpg
-title: Automotive Grade Linux on Dragonboard410c - Part 2
-categories:
-- blog
-tags:
-- 64-bit
-- 96Boards
-- aarch64
-- ARM
-- ARMv8
-- Consumer Edition
-- DB410c
-- dragonboard410c
-- Linaro
-- Linux
-- AGL
-- Automotive
-featured-products: dragonboard410c
+categories: blog
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
 ---
 
 # **Introduction**
@@ -52,19 +36,19 @@ as in HACR (as in the designation of HACR-rated circuit breakers)".
 
 In AGL HVAC GUI is implemented as the QT application, which interacts with the
 hardware (ECU) through bindings. As a part of the agl-demo-platform, a [HVAC](https://gerrit.automotivelinux.org/gerrit/gitweb?p=apps/hvac.git)
-app and a sample binding are present. Since, in automobiles most of the
+app and a sample binding are present. Since in automobiles most of the
 communication happens via CAN or LIN bus, by default HVAC demo binding uses
 'vcan0' - a virtual can device to transfer data to and fro between GUI and ECU.
 For adapting agl-demo-platform to this HVAC demo, some of the customizations
 has been done.
 
 In order to demonstrate the AGL platform, I used Dragonboard410c to act as the
-master and slave. But in real world, there will be multiple of ECU's connected
+master and slave. But in the real world, there will be multiple of ECU's connected
 to a central (master) module through CAN/LIN bus and each ECU will send/receive
 data based on the request from the master.
 
 In Dragonboard410c, there is no CAN interface. So, for this demo two types of
-data transfer methods has been considered:
+data transfer methods have been considered:
 
 1. To use an external CAN controller module interfaced via I2C/SPI to send and
 receive data. But that will be an overhead for such a simple demo like this.
@@ -91,19 +75,19 @@ All the instructions required to reproduce this demo has been given in the
 **agl-demo** repository hosted on
 [96Boards Projects Org](https://github.com/96boards-projects/agl-demo).
 
-For executing this demo, you need to use the custom hvac recipie present in
-the repository and also need to flash the arduino sketch onto Sensors Mezzanine/
+For executing this demo, you need to use the custom HVAC recipe present in
+the repository and also need to flash the Arduino sketch onto Sensors Mezzanine/
 external Arduino.
 
-**Video Demostration**
+**Video Demonstration**
 
 {% include media.html media_url="https://www.youtube.com/embed/SEFfAzyVADc" %}
 
 # Conclusion
 
 So we are at the end of the **Automotive Grade Linux on Dragonboard410c - Part 2**
-blog post. The demo explained here is very basic and there are lot of things to
-improve. Since, all of the instructions and source code is open source, you can
+blog post. The demo explained here is very basic and there are a lot of things to
+improve. Since all of the instructions and source code is open source, you can
 enhance it and share with the 96Boards community.
 
 Please take a look at the [Contributing guide](https://github.com/96boards-projects/staging/blob/master/CONTRIBUTE.md)
