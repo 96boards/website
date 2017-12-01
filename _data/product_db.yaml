@@ -747,7 +747,11 @@ products:
     product_buy_links:
       -
         link-title: Amazon
-        link-url: "https://www.amazon.com/Secure96-Mezzanine-Board-96Boards-Connector/dp/B077D2M4HG/ref=sr_1_1?ie=UTF8&qid=1511363830&sr=8-1&keywords=secure96"
+        link-price: 31.99
+        from: amazon.com
+        type: board
+        link-price-currency: USD
+        link-url: "http://linaro.co/buy-secure96"
         
     product_more_info:
       - title: Schematics (View)
