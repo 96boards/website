@@ -7,6 +7,9 @@ description: |-
 redirect_from:
 - /product/secure96/
 - /products/mezzanine/secure96/
+image:
+    path: /assets/images/secure96-social-media.jpg
+    name: secure96-social-media.jpg
 ---
 # Secure96 Mezzanine Board
 
