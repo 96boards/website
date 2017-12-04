@@ -7,7 +7,7 @@ image:
     featured: true
     path: /assets/images/blog/secure96-tpm.jpg
     name: secure96-tpm.jpg
-    thumb: secure96-tpm-thumb.jpg
+    thumb: /assets/images/blog/thumbs/secure96-tpm-thumb.jpg
 title: Getting Started With The Secure96 TPM
 categories:
 - blog
