@@ -1,8 +1,6 @@
 ---
 author: Bill Fletcher
-comments: true
 date: 2017-12-04 01:01:54+00:00
-layout: post
 image:
     featured: true
     path: /assets/images/blog/secure96-tpm.jpg
