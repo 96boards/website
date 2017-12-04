@@ -35,7 +35,7 @@ tags:
 
 # **Introduction**
 
-The new 96Boards Secure96 mezzanine introduced at Linaro Connect SFO17 (https://youtu.be/JGkl3oC9gtA) contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e,g a Dragonboard or Hikey. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the latest TPM 2.0 specification.
+The new 96Boards Secure96 mezzanine introduced at [Linaro Connect SFO17](https://youtu.be/JGkl3oC9gtA) contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e,g a Dragonboard or Hikey. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the latest TPM 2.0 specification.
 
 # **TPM - What is it good for?**
 
@@ -129,7 +129,7 @@ $ ls /dev
 
 should show that tpm0 was created and you can use the userspace tools to access the functionality inside the TPM.
 
-A dump of all the SPI traffic between the host and the TPM device in order to initialise it is here: http://people.linaro.org/~bill.fletcher/Dragonboard_TPM/tpm_init_001.pdf
+A dump of all the SPI traffic between the host and the TPM device in order to initialise it is [here](http://people.linaro.org/~bill.fletcher/Dragonboard_TPM/tpm_init_001.pdf).
 
 # **Using the TPM - The IBM TSS Stack**
 
@@ -169,7 +169,7 @@ After building this change, the getcapability utility in the IBM TSS stack (in u
 $ sudo ./getcapability -cap 6
 ```
 
-Will list the internal capabilities of the TPM on the board. With the IBM stack, there’s no resource manager, utilities talk directly to the TPM device.
+will list the internal capabilities of the TPM on the board. With the IBM stack, there’s no resource manager, utilities talk directly to the TPM device.
 
 As an example of TPM functionality, the signapp.c source shows how several TPM commands from user space can be chained together to form an application that uses the TPM.  It does the following:
 
@@ -191,13 +191,13 @@ As an example of TPM functionality, the signapp.c source shows how several TPM c
 
 9. Flush the session
 
-You can invoke the signapp utility with 
+You can invoke the signapp utility with a quoted string as the input to the above process
 
 ```shell
 $ sudo ./signapp -ic "one two three"
 ```
 
-The code in the IBM TSS stack is not only a toolkit of TPM utilities but also intended to be used as examples on how to develop user space code to leverage the TPM and if necessary re-used in your applications. 
+The code in the IBM TSS stack is not only a toolkit of TPM utilities but also intended to be used as examples on how to develop user space code to leverage the TPM and if necessary can be re-used in your applications. 
 
 # **Don’t Generate RSA Keys**
 
@@ -288,7 +288,7 @@ CONFIG_TCG_TIS_SPI=m
 
 The drivers source in drivers/char/tpm is from the 4.4.9 kernel, with SLB 9670 patches applied as per the Infineon TPM application note [2]. In order to get these drivers to run in a 4.9 kernel, you also need the linux/tpm.h header from 4.4.9.
 
-My patched kernel is here http://people.linaro.org/~bill.fletcher/Dragonboard_TPM/
+My patched kernel is here [http://people.linaro.org/~bill.fletcher/Dragonboard_TPM/](http://people.linaro.org/~bill.fletcher/Dragonboard_TPM/)
 
 # **Troubleshooting**
 
@@ -302,7 +302,8 @@ There is a potential TPM reset issues with early versions of the mezzanine. If t
 
 [2] Infineon Application Note TPM20_Embedded_SLB_9670_AppNote_Rev1.0_2017-03-16
 
-[3] https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/
+[3] [https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/
+](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/)
 
 
 
