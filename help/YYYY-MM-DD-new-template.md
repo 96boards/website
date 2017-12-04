@@ -8,10 +8,13 @@ title: 96boards OpenHours Recap
 # This is the featured background image of the blog which resides under /assets/images/blog/
 # For more info see blog.md
 image:
+    
     # Change this to False to stop your image from displaying.
+    # 1366W x 600H
     featured: true
     path: /assets/images/blog/OpenHours.png
     name: OpenHours.png
+    # 256W x 205H
     thumb: /assets/images/blog/OpenHours-thumb.png
 
 # Tags related this post. For use in tag filters that will be used in future updates.
