@@ -1,4 +1,8 @@
 ---
+title: Getting Started With The Secure96 TPM
+description: |-
+	sdfsfdsdfsdf
+	
 author: Bill Fletcher
 date: 2017-12-04 01:01:54+00:00
 image:
@@ -6,38 +10,17 @@ image:
     path: /assets/images/blog/secure96-tpm.jpg
     name: secure96-tpm.jpg
     thumb: /assets/images/blog/thumbs/secure96-tpm-thumb.jpg
-title: Getting Started With The Secure96 TPM
-categories:
-- blog
-tags:
-- 64-bit
-- 96Boards
-- aarch64
-- ARM
-- ARMv8
-- Consumer Edition
-- DB410c
-- dragonboard410c
-- Linaro
-- Linux
-- Crypto
-- Secure96
-- Security
-- Secure
-- TPM
-- Cryptography
-- Trusted
-- Trusted Computing
-- Remote Attestation
+categories: blog
+tags: aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, Crypto, Secure96, Security, Secure, TPM, Cryptography, Trusted, Trusted Computing, Remote Attestation
 ---
 
 # **Introduction**
 
-The new 96Boards Secure96 mezzanine introduced at [Linaro Connect SFO17](https://youtu.be/JGkl3oC9gtA) contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e,g a Dragonboard or Hikey. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the latest TPM 2.0 specification.
+The new 96Boards [Secure96 mezzanine](https://www.96boards.org/product/secure96/) introduced at [Linaro Connect SFO17](https://youtu.be/JGkl3oC9gtA) contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e,g a Dragonboard or Hikey. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the latest TPM 2.0 specification.
 
 # **TPM - What is it good for?**
 
-A TPM (Trusted Platform Module) is an international standard for a secure cryptoprocessor [1]. The TPM technical specification was written by a computer industry consortium called Trusted Computing Group (TCG) and it’s standardised as ISO/IEC 11889.
+A TPM (Trusted Platform Module) is an international standard for a secure cryptoprocessor <sup>[1]</sup>. The TPM technical specification was written by a computer industry consortium called Trusted Computing Group (TCG) and it’s standardised as ISO/IEC 11889.
 
 One way to think of a TPM is as a cryptographic swiss army knife providing a lot of useful hardware crypto function implementations that might otherwise be difficult to implement and/or secure on a particular system. These crypto functions include: 
 
@@ -75,9 +58,9 @@ This ubiquity, coupled with concerns that it’s not possible to prove that the 
 
 Assuming you’re still willing to give a TPM a go as a root-of-trust, rather than viewing it as the potential root-of-all-evil, you need 
 
-* a Secure96 board, 
+* [a Secure96 board](https://www.96boards.org/product/secure96/), 
 
-* a host (e.g. a CE edition board), 
+* [a host (e.g. a 96Boards CE edition board)](https://www.96boards.org/products/ce/), 
 
 * a kernel and modules with the SPI TPM driver
 
@@ -97,7 +80,7 @@ To get started using the Dragonboard, use the patched kernel and device tree.
 
 # **Detailed Steps**
 
-Initially start with a Dragonboard flashed and running a recent Debian release. 
+Initially start with a [Dragonboard](https://www.96boards.org/product/dragonboard410c/) flashed and running a recent Debian release. 
 
 Copy the kernel modules across to the Dragonboard for the modified tpm kernel and unpack them under /lib/modules/kernel alongside the ones that are currently there. Don’t skip this step or you won’t have a TPM driver. 
 
@@ -147,7 +130,7 @@ There are 3 open source TPM Software Stacks (TSS)  which I evaluated that allow 
   <tr>
     <td>Intel TPM Software Stack for TPM 2.0</td>
     <td>https://github.com/01org/TPM2.0-TSS.git</td>
-    <td>The Intel Open Source Technology Center (01org) provides some TPM 2.0 tools, also referenced in [2]. It’s complex, with a TPM stack, d-bus integrated resource manager and toolkit.</td>
+    <td>The Intel Open Source Technology Center (01org) provides some TPM 2.0 tools, also referenced in <sup>[2</sup>. It’s complex, with a TPM stack, d-bus integrated resource manager and toolkit.</td>
   </tr>
   <tr>
     <td>IBM TPM 2.0 TSS</td>
@@ -199,7 +182,7 @@ The code in the IBM TSS stack is not only a toolkit of TPM utilities but also in
 
 # **Don’t Generate RSA Keys**
 
-A fatal flaw in the RSA key generation has been recently discovered in the Infineon-developed RSA Library version v1.02.013. The library runs on Infineon smartcard chips and TPMs [3]. This means that any generated RSA keys are vulnerable to a factorization attack.
+A fatal flaw in the RSA key generation has been recently discovered in the Infineon-developed RSA Library version v1.02.013. The library runs on Infineon smartcard chips and TPMs <sup>[3]</sup>. This means that any generated RSA keys are vulnerable to a factorization attack.
 
 The flaw affects only keys generated with the RSA algorithm on a smartcard or other embedded device that uses the Infineon library internally, and that currently includes the TPM on the Secure96. Infineon’s own vulnerability advisory is here: [https://www.ncsc.gov.uk/guidance/roca-infineon-tpm-and-secure-element-rsa-vulnerability-guidance](https://www.ncsc.gov.uk/guidance/roca-infineon-tpm-and-secure-element-rsa-vulnerability-guidance)
 
@@ -293,6 +276,8 @@ My patched kernel is here [http://people.linaro.org/~bill.fletcher/Dragonboard_T
 In order to create the /dev/tpm0 instance, the tpm_spi_tis kernel driver has to complete its initialisation successfully. This requires a large number of SPI bus transactions between the host and the TPM chip. If you have access to a logic analyser, you can follow along, or alternatively you can instrument the low level SPI driver in the kernel. There is SPI TPM driver code in the 4.9 kernel but it gives up after a few tens of bytes exchanged.
 
 There is a potential TPM reset issues with early versions of the mezzanine. If the TPM doesn’t respond sensibly to the driver initialization attempts, it’s possible to toggle the reset line to the chip via a connected GPIO and then manually load the driver module. There’s a file tpm_reset.c that toggles the reset line. One clue that there’s a reset issue is if the SPI driver spins reading zeros from the TPM and then times out. 
+
+{% include media.html media_url="https://youtu.be/JGkl3oC9gtA" %}
 
 # **References**
 
