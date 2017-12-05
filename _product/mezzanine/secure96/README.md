@@ -49,8 +49,6 @@ This mezzanine board is intended for security development on 96Boards and featur
    - 1.8V
 - Analog Input (V)
    - 0V-1.8V
-- OS Support
-   - OPTEE
 - Size
    - 60x30mm
 
