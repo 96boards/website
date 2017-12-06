@@ -1,8 +1,6 @@
 ---
 title: Getting Started With The Secure96 TPM
-description: |-
-	sdfsfdsdfsdf
-	
+description: The new 96Boards Secure96 mezzanine introduced at Linaro Connect SFO17 contains a Trusted Computing Group TPM chip. 
 author: Bill Fletcher
 date: 2017-12-04 01:01:54+00:00
 image:
