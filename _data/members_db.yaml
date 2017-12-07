@@ -21,9 +21,6 @@ members:
           - name: HopeRun
             image: hoperun.jpg
             url: https://www.linaro.org/company/hoperun/
-          - name: LeMaker
-            image: lemaker.jpg
-            url: https://www.linaro.org/company/lemaker/
           - name: MediaTek
             image: mediatek.jpg
             url: https://www.linaro.org/company/mediatek/
@@ -91,12 +88,6 @@ members:
         - name: Huaqin
           image: huaqin.jpg
           url: https://www.linaro.org/company/huaqin/
-        - name: Lemaker
-          image: lemaker.jpg
-          url: https://www.linaro.org/company/lemaker/
-        - name: Long Sung
-          image: longsung.jpg
-          url: https://www.linaro.org/company/longsung/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
