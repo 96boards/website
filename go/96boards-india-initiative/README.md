@@ -62,3 +62,4 @@ Following resources are useful for developing IE boards.
 * [OpenHours](https://www.96boards.org/openhours/)
 * [96Boards Projects Org](https://github.com/96boards-projects)
 * IRC: #96Boards #OpenHours #zephyrproject
+* 96Boards India WhatsApp group: http://linaro.co/96boards-whatsapp
