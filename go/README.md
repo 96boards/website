@@ -17,3 +17,6 @@ redirect_from:
 
 
 [Go Linaro Connect SFO17 Reach](/go/sfo17-connect-reach/)
+
+
+[Go 96Boards India Initiative](/go/96boards-india-initiative/)
