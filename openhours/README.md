@@ -16,7 +16,7 @@ js-package: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxNzEyMTRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
-**OpenHours Episode #81** - This week on OpenHours we will be talking about the new [NeonKey Mezzanine board](https://www.96boards.org/product/neonkey/) which was released a couple months ago! Mani and Sahaj of the 96Boards team have several demos prepared for both AOSP and Zephyr as well as some recent blogs and user guides to help new users get started. We will be taking questions about Coursera and of course anything related to 96Boards on the call. Bring you coffee and questions, we look forward to seeing you this Thursday!
+**OpenHours Episode #82** - Let's step into the past, the OpenHours past. Back when questions and conversation ran wild, heated forum discussions and bottomless coffee mugs! This week, we bring back the meaning of "Open" in OpenHours as we draw on the community for content! The 96Boards team will hand pick hot forum topics to discuss, we hope those who join have thoughts to share as well. See you soon! 
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
