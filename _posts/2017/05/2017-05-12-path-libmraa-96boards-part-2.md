@@ -234,7 +234,7 @@ Now LCD will show X,Y and Z axes acceleration with Blue background. If the senso
 ### **Code insight:**
 
 
-Let me show you what's going on inside [accel.cpp](https://github.com/96boards/projects/blob/master/accel/accel.cpp) Both LCD and accelerometer are accessed by creating two classes at the start and then followed by device specific initializations and interfacing code.
+Let me show you what's going on inside [accel.cpp](https://github.com/96boards-projects/accel/blob/master/src/accel.cpp) Both LCD and accelerometer are accessed by creating two classes at the start and then followed by device specific initializations and interfacing code.
 
 
 ### **Initializing the accelerometer:**
