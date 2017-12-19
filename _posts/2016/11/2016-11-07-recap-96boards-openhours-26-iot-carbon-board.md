@@ -130,7 +130,7 @@ Today's episode began with the introduction of Ricardo who has been working in t
 
 
 
-25:11 - Question - What is the development environment for developing with Carbon?  Ricardo discussed the OS (Zephyr) and the code and environment to flash the device.  There is also a getting started that page that helps users get started with some prebuilt images - [https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html](https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html) and [https://www.zephyrproject.org/](https://www.zephyrproject.org/)
+25:11 - Question - What is the development environment for developing with Carbon?  Ricardo discussed the OS (Zephyr) and the code and environment to flash the device.  There is also a getting started that page that helps users get started with some prebuilt images - [https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html]() and [https://www.zephyrproject.org/](https://www.zephyrproject.org/)
 
 
 
@@ -1105,7 +1105,7 @@ RW
 
 
 
-[https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html](https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html)
+[https://nexus.zephyrproject.org/content/sites/site/org.zephyrproject.zephyr/dev/index.html]()
 
 
 

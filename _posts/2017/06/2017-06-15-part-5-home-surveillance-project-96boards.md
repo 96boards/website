@@ -170,7 +170,7 @@ Now you should have received a confirmation email from AWS in the email ID given
   5. Enter name for the notification and choose “**Put”** under **Events**
 
 
-  6. Enter **Prefix** with the name you want to Blacklist. The same name should have a corresponding user ID in [facedetect.py](https://github.com/96boards/projects/blob/master/home_surveillance/part-5/facedetect.py). For instance, Enter **Mani** if you didn’t change the script.
+  6. Enter **Prefix** with the name you want to Blacklist. The same name should have a corresponding user ID in [facedetect.py](https://github.com/96boards-projects/home_surveillance/blob/master/part-2/facedetect.py). For instance, Enter **Mani** if you didn’t change the script.
 
 
   7. Enter **.jpg** in **Suffix**

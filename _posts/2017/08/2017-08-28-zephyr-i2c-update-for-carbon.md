@@ -119,7 +119,7 @@ This will allow the I2C controller present in **STM32F401RE** to use PB8/PB9 for
 Since, Carbon supports I2C_2 interface you might want to leverage that also. But, the previous code base would error out while
 trying to build Zephyr with I2C_2 support enabled for Carbon. Reason for that is the absence of Kconfig mapping for I2C_2 in Zephyr [I2C driver](https://github.com/zephyrproject-rtos/zephyr/blob/master/drivers/i2c/i2c_ll_stm32.c).
 Zephyr expects to have the mapping between Kconfig definitons and driver definitions for using any driver. This mapping is
-provided by the [DTS fixup](https://github.com/zephyrproject-rtos/zephyr/blob/master/dts/arm/96b_carbon.fixup) file for now. Since,
+provided by the [DTS fixup]()https://github.com/zephyrproject-rtos/zephyr/blob/master/dts/arm/96b_carbon.fixup file for now. Since,
 there was no mapping for I2C_2 on Carbon before, I've added the mapping in this [Pull Request](https://github.com/zephyrproject-rtos/zephyr/pull/1254).
 
 So now you can build Zephyr for Carbon with I2C_2 support and communicate any slave devices easily :-)
