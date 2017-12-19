@@ -28,3 +28,7 @@ We have tested three media players
  - [Media House](https://play.google.com/store/apps/details?id=com.dbapp.android.mediahouse&hl=en)
 
  {% include media.html media_url="https://youtu.be/ldwtO2wN0zU" %}
+
+**Credits**
+- David Mandala
+- Don Harbin
