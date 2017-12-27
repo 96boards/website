@@ -16,7 +16,7 @@ js-package: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxNzEyMjhUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
-**OpenHours Episode #83** - The holiday season is here and so is the time of giving (says many traditions :-)! For this, we once again welcome back [maddog](https://twitter.com/maddoghall) to share with us his holiday cheer and gift ideas during this wonderful time of the year. In this second annual holiday special, we will take open source gift giving to a whole new level as we look into some ideas that require a bit of work, some that require a bit of $$$, and other that are just plain fun or worthwhile to the open source enthusiast. So, dress in your finest holiday robes and join us in celebrating open source as a reason for the season!
+**OpenHours Episode #84** - It's time to take a look back! In this episode of OpenHours, the 96Boards team will take a look back at 2017 and all the fun things everyone has done. We will do our best to summarize community accomplishments, partner engagement and team efforts! Everyone played a huge role in making 2017 the year of 96Boards. As we move into 2018, bigger and better things await! Join us in celebrating this amazing year at the end of the countdown.
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
