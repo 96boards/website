@@ -11,8 +11,8 @@ js-package: openhours
 <div class="col-md-6" markdown="1">
 <br>
 <h3>Weekly Show</h3>
-<div class="open-hours-clock"></div>
-<a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+<iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxNzEyMjhUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
