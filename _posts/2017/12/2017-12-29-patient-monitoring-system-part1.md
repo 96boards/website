@@ -304,6 +304,13 @@ This demonstrates the BLE mesh network with two nodes acting as a Server and
 Client. Here the temperature data is sent from Server to Client every time
 when the Client raises the request.
 
+# Pain Points
+
+Eventhough we got the mesh network setup, there is still no way to store the
+provisioning and configuring information on the non-volatile memory like flash.
+This will make us to do the provision and configure every time after node restart.
+This feature is being worked on and I hope that it will be available soon.
+
 # Conclusion
 
 So that's it for the **Part 1** of **Patient Monitoring System using 96Boards**
