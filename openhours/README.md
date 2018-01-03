@@ -11,12 +11,13 @@ js-package: openhours
 <div class="col-md-6" markdown="1">
 <br>
 <h3>Weekly Show</h3>
-<div class="open-hours-clock"></div>
-<a href="http://link.linaro.org/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+<iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxNzEyMjFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
-**OpenHours Episode #83** - The holiday season is here and so is the time of giving (says many traditions :-)! For this, we once again welcome back [maddog](https://twitter.com/maddoghall) to share with us his holiday cheer and gift ideas during this wonderful time of the year. In this second annual holiday special, we will take open source gift giving to a whole new level as we look into some ideas that require a bit of work, some that require a bit of $$$, and other that are just plain fun or worthwhile to the open source enthusiast. So, dress in your finest holiday robes and join us in celebrating open source as a reason for the season!
+**OpenHours Episode #85** - Tune in for this week's OpenHours! Sahaj, from the 96Boards team, will be demoing a Superfast NAS(Network Attached Storage) with the 96Boards Poplar TV Enterprise board! Since Poplar has a USB3.0 and a Gigabit LAN Interface, It is the best candidate for a Superfast NAS. This project will go through the process of setting up hardware and software NAS using SMB(Samba) so it can be accessed across multiple OS. Since we will be using the gigabit ethernet interface, it will suffice to stream high bitrate content over multiple clients and to transfer large files over seconds. Demos and talks of the Poplar, this on Thursday at 4:00p UTC! See you there.
+
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -45,7 +46,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxNzEyMjFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
 ### How to Join
 
