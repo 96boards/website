@@ -14,10 +14,8 @@ surveillance, video conference and even robots projects. It provides multiple in
 
 ## Buy Now
 
-- [eBay - 96Boards MIPI Adapter (Board only)](http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf)
-- [eBay - 96Boards MIPI Adapter with OV5645](http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252956476095?hash=item3ae56182bf:g:8z4AAOSwA29Y30WD)
-- [eBay - 96Boards MIPI Adapter with Dual OV5640](http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-Dual-OV5640-/252928072406?hash=item3ae3b01ad6:g:O7kAAOSwTM5Y4frc)
-- [eBay - OV5640 Camera Module only](http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650)
+- [eBay - 96Boards MIPI Adapter ](https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562)
+- [Taobao - 96Boards MIPI Adapter ](https://shop362764588.taobao.com/?spm=a1z10.1-c-s.0.0.56436934oDTgRL)
 
 ***
 
