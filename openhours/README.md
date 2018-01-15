@@ -16,10 +16,12 @@ js-package: openhours
 
 ### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMThUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
-**OpenHours Episode #87** - Stay tuned...
+**OpenHours Episode #87** - Join us this week on OpenHours to learn a little more about our IoT Edition 96Boards and how they can be used in conjuntions with any Consumer Edition board. In this episode we will see two very cool demos using our several 96Boards from different families. Sahaj will be showing us his "Carbon Rover" a small vehicle bot that is run off of the Carbon IoT 96Boards, and Mani will be creating a small sensor network using the same IoT boards but also integrating in a CE 96Boards to serve as a gateway to collect and use data. During these demos, we will of course be taking questions, comments, and would love some conversations on what we should do next. Please join us at the end of the countdown for some Thursday fun with 96Boards! See you there.
+
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
 
-Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
+We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
 * * *
 
