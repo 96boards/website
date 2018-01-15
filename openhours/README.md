@@ -14,9 +14,9 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMTFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMThUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
-**OpenHours Episode #86** - Multiple security vulnerabilities were unveiled this last week, and it affects just about everyone under the sun. Considering our deep involvement with many of those affected, we thought it would be suitable to bring one of the experts onto OpenHours. In this episode we will learn about these vulnerabilities (**Meltdown** and **Spectre**), how they may affect our everyday lifes, what the experts are doing to fix this, and how we might go about getting these updates as quickly as possible to minimize any damage. Please join me, this week in welcoming **Joakim Bech** - The Technical Lead for the Linaro Security Team. If you have any questions about this security breach and what you can do to stay protected, join us on **Thursdsy at 4:00pm UTC**! See you there.
+**OpenHours Episode #87** - Stay tuned...
 
 
 Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
@@ -46,7 +46,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMTFUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMThUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
 
 ### How to Join
 
