@@ -58,7 +58,7 @@ With a recent update to the source, Google added initial support for the HiKey96
 
 And the instructions to get it running on the HiKey960 can be found here:
 
-[https://github.com/fuchsia-mirror/magenta/blob/master/docs/targets/hikey960.md](https://github.com/fuchsia-mirror/magenta/blob/master/docs/targets/hikey960.md)
+[https://github.com/fuchsia-mirror/magenta/blob/master/docs/targets/hikey960.md]()
 
 
 # **Prerequisites and Troubleshooting**
