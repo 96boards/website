@@ -1,7 +1,7 @@
 ---
 title: Part 2 - Patient Monitoring System using 96Boards
 author: Manivannan Sadhasivam
-date: 2017-12-29 01:01:54+00:00
+date: 2018-01-12 01:01:54+00:00
 image:
     featured: true
     path: /assets/images/blog/patient_monitoring_2.jpg
