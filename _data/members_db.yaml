@@ -106,9 +106,6 @@ members:
         - name: vamrs
           image: vamrs.jpg
           url: https://www.linaro.org/company/vamrs/
-        - name: WrtNode
-          image: wrtnode.png
-          url: https://www.linaro.org/company/wrtnode/
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/
