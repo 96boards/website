@@ -1047,7 +1047,7 @@ products:
       - "MIPI adapter with mipi bridge.png"
       - "MIPI adapter with V024.png"
       - "MIPI adapter with PI.png"
-      - "MIPI adapter with AR0130/134.png"
+      - "MIPI adapter with AR0130-134.png"
 
     mezzanine_features:
       - "Two CSI2 channels support(CSI0:4lane;CSI1:2lane)"
