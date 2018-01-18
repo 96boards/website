@@ -37,7 +37,7 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 ***
