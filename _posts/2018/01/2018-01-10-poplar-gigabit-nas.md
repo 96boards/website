@@ -25,4 +25,4 @@ Now, the OpenHours demo did have some hiccups due to the old age of the Hard Dri
 
 As you can notice, there is a significant speed drop in Linux, that is mostly due to some overhead caused by samba as well as lack of tweaking, this can be further improved by using protocols like NFS or SSHFS that are more native to a Linux environment.
 
-[**You can follow this guide to setup a Gigabit NAS using Poplar**](https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/Guides/gigabit-nas.md)
+[**You can follow this guide to setup a Gigabit NAS using Poplar**](https://github.com/96boards/documentation/blob/master/enterprise/poplar/guides/gigabit-nas.md)

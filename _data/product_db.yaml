@@ -661,7 +661,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/EnterpriseEdition/Poplar/
+          tab_link: /documentation/enterprise/poplar/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/poplar
@@ -685,7 +685,7 @@ products:
         link-url: "https://linaro.co/poplar-ali"
     product_os:
       - title: Build from Source
-        link: /documentation/EnterpriseEdition/Poplar/BuildSource/
+        link: /documentation/enterprise/poplar/build/
 # Mezzanine Products
   - product_title: NeonKey Mezzanine
     display_product: true

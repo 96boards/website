@@ -53,7 +53,7 @@ $ git checkout hikey
 
 ```
 
-Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](https://builds.96boards.org/releases/dragonboard410c/linaro/ubuntu/15.07/)).
+Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/)).
 
 So in order to install the Cobalt co-kernel in the I-PIPE enabled kernel just do:
 ```bash
