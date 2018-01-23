@@ -400,11 +400,11 @@ products:
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
   - product_title: iMX7-96 Development Board
     display_product: true
-    
+
     featured_product_order: 10
     # Boolean to determine the type as a page.
     is_featured: true
-    
+
     product_permalink: /product/imx7-96/
     product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
     product_specification: ce
@@ -561,7 +561,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/carbon/
+          tab_link: /documentation/iot/carbon/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/carbon
@@ -585,14 +585,14 @@ products:
         link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
-        link: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
+        link: /documentation/iot/carbon/downloads/zephyr.md.html
   - product_title: Nitrogen
     display_product: true
     product_permalink: /product/nitrogen/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/nitrogen/
+          tab_link: /documentation/iot/nitrogen/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/nitrogen
@@ -615,14 +615,14 @@ products:
         link-url: "https://linaro.co/nitrogen-buy"
     product_os:
       - title: Zephyr
-        link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
+        link: /documentation/iot/nitrogen/build/linux/
   - product_title: Orange Pi i96
     display_product: true
     product_permalink: /product/orangepi-i96/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/orangepi-i96/
+          tab_link: /documentation/iot/orangepi-i96/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/orangepi-i96
@@ -646,15 +646,15 @@ products:
         link-url: "https://linaro.co/orangepi-i96-buy"
     product_os:
       - title: Debian
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Ubuntu Server
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Android Nand
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Android Tcard
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Raspbian Server
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
   - product_title: Poplar
     display_product: true
     product_permalink: /product/poplar/
@@ -724,7 +724,7 @@ products:
         link: http://en.tocoding.com/index.php/96boards-neonkey/
   - product_title: Secure96 Mezzanine
     featured_product_order: 8
-    is_featured: true 
+    is_featured: true
     display_product: true
     product_permalink: /product/secure96/
     product_tab_menu:
@@ -757,7 +757,7 @@ products:
         type: board
         link-price-currency: USD
         link-url: "http://linaro.co/buy-secure96"
-        
+
     product_more_info:
       - title: Schematics (View)
         link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
@@ -767,7 +767,7 @@ products:
         link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
       - title: Getting Started Guide (Download)
         link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
-  
+
   - product_title: STM32 Sensor mezzanine board
     display_product: true
     product_permalink: /product/stm32/

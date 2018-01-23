@@ -261,7 +261,7 @@ Make sure you follow [this guide](https://www.zephyrproject.org/downloads) to do
   ```shell
   $ make
   ```
-- Flash: follow the flashing guide from [here](https://www.96boards.org/documentation/IoTEdition/carbon/installation/LinuxOTG.md.html)
+- Flash: follow the flashing guide from [here](https://www.96boards.org/documentation/iot/carbon/installation/linux-otg.md.html)
   ```shell
   $ sudo dfu-util -d [0483:df11] -a 0 -D outdir/96b_carbon/zephyr.bin -s 0x08000000
   ```
