@@ -261,7 +261,7 @@ https://www.96boards.org/products/ce/bubblegum96/
 /documentation,https://www.96boards.org/documentation/
 /documentation/ConsumerEdition,https://www.96boards.org/documentation/ConsumerEdition/
 /documentation/EnterpriseEdition,https://www.96boards.org/documentation/enterprise/
-/documentation/IoTEdition,https://www.96boards.org/documentation/IoTEdition/
+/documentation/IoTEdition,https://www.96boards.org/documentation/iot/
 /documentation/MezzanineProducts,https://www.96boards.org/documentation/mezzanine/
 /documentation/Specifications,https://www.96boards.org/documentation/Specifications/
 /blog,https://www.96boards.org/blog/
@@ -335,7 +335,7 @@ https://www.96boards.org/products/ce/bubblegum96/
 /tutorials,https://www.96boards.org/blog/
 # PDF Redirects
 /wp-content/uploads/2015/02/96BoardsCESpecificationv1.0-EA1.pdf,https://linaro.co/ce-specification
-# Documentation 
+# Documentation
 /documentation/ConsumerEdition/guides/mraa/gpio/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/gpio/
 /documentation/ConsumerEdition/guides/mraa/i2c/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/i2c/
 /documentation/ConsumerEdition/guides/mraa/led/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/led/
