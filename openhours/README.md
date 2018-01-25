@@ -14,12 +14,17 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMThUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/r/eventedit/copy/M2thZjJwOWxlMjFoYjRvZTZ2dTg4OHI0MWYgc2FoYWouc2FydXBAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true&output=xml)
 
-**OpenHours Episode #87** - Join us this week on OpenHours to learn a little more about our IoT Edition 96Boards and how they can be used in conjuntions with any Consumer Edition board. In this episode we will see two very cool demos using our several 96Boards from different families. Sahaj will be showing us his "Carbon Rover" a small vehicle bot that is run off of the Carbon IoT 96Boards, and Mani will be creating a small sensor network using the same IoT boards but also integrating in a CE 96Boards to serve as a gateway to collect and use data. During these demos, we will of course be taking questions, comments, and would love some conversations on what we should do next. Please join us at the end of the countdown for some Thursday fun with 96Boards! See you there.
+**OpenHours Episode #88** - In this episode we will meet with Haitao Zhang and Joe Dong from uCRobotics on site, in San Diego to talk 96Boards! This live broadcast will feature new board discussions and demos from the uCRobotics team. We hope to talk about the upcoming Linaro Connect, some possible events leading up into the conference and of course a few Coursera announcements. 
+
+**Here is a quick look at what you might see during this episode!**
+
+- Deploying uC3DP - A Cloud-based 3D printer farm with the [Bubblegum-96](https://www.96boards.org/product/bubblegum-96/)
+- A first look at the MIPS Arch 96Boards IoT Oxygen 2 "Actions-Semi ATS3503"
+- A demo of AiStarVision MIPI Adapter with a CSI camera on Bubblegum-96
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
-
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -48,7 +53,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMThUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/r/eventedit/copy/M2thZjJwOWxlMjFoYjRvZTZ2dTg4OHI0MWYgc2FoYWouc2FydXBAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true&output=xml)
 
 ### How to Join
 
