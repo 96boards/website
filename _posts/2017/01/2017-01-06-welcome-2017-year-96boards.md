@@ -450,7 +450,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * [RocketBoards.org reports](https://rocketboards.org/foswiki/view/Documentation/ArrowChameleon96Board) on the Arrow Chameleon96 board
+  * RocketBoards.org reports on the Arrow Chameleon96 board
 
 
   * [Edacafe reports](http://www10.edacafe.com/nbc/articles/1/1457919/Gumstix-Launches-IoT-Boards-96Boards-Intel-Markets) on the Gumstix Nodana 96Boards
@@ -474,7 +474,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Hackerboards.com talks 96Boards SBCs](http://hackerboards.com/96boards-sbcs-host-intel-joule-and-curie-iot-modules/) with host Intel Joule and Curie IoT modules
 
 
-    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/radium-96bie.html)
+    * Featuring Nodana and [Radium](https://store.gumstix.com/radium-96bie.html)
 
 
 
