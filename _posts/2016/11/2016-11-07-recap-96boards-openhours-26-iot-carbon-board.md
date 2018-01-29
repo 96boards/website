@@ -660,7 +660,7 @@ more information on Carbon here: [https://www.96boards.org/product/carbon/](/pro
 
 
 
-Getting started documents on Github:[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
+Getting started documents on Github: [https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
 
 
 
@@ -1269,7 +1269,7 @@ RW
 
 
 
-[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
+[https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
 
 
 
@@ -1710,7 +1710,7 @@ Doc website:
 
 
 
-[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
+[https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
 
 
 
@@ -1770,17 +1770,6 @@ Could you use a DragonBoard to compile the carbon code?
 
 
 
-
-
-
-
-
-
-
-
-
-
-[https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png](https://github.com/96boards/documentation/raw/master/IoTEdition/carbon/hardware-docs/Carbon_Pinout.png){:class="img-responsive lazyload"}
 
 
 
