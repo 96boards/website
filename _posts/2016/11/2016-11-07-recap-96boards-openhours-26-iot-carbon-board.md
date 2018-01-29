@@ -169,9 +169,9 @@ To watch episode 26 go to[ https://www.youtube.com/watch?v=f8I-jXHu45Q](https:/
 
 **Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
+As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout. Robert will take these suggestions and try to incorporate these into future OpenHours.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the 96Boards forums, [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -638,52 +638,6 @@ RW
 
 
 more information on Carbon here: [https://www.96boards.org/product/carbon/](/product/carbon/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Getting started documents on Github: [https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md](https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/README.md)
 
 
 
@@ -1252,57 +1206,6 @@ What's the situation with upstreaming Carbon support to Zephyr? I was surprised 
 
 
 
-
-
-
-
-RW
-
-
-
-
-
-
-
-
-
-
-
-
-[https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
 G2
 
 
@@ -1676,41 +1579,6 @@ RW
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Doc website:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[https://github.com/96boards/documentation/tree/master/iot/carbon](https://github.com/96boards/documentation/tree/master/iot/carbon)
 
 
 
