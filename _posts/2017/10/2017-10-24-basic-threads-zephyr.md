@@ -232,7 +232,7 @@ void main(void)
 }
 /*-------------------------------------------------------------------*/
 ```
-As I've mentioned in the comments, this is basically all of the code from the [shell sample](https://github.com/zephyrproject-rtos/zephyr/tree/master/samples/subsys/shell/shell), simply copied and run from main().
+As I've mentioned in the comments, this is basically all of the code from the [shell sample](https://github.com/zephyrproject-rtos/zephyr/), simply copied and run from main().
 
 So as you would've probably noticed there is no need to create a thread for main() using K_THREAD_DEFINE, and also main() usually has a fairly high priority as we'll see later on once we have compiled and run our code.
 
@@ -261,7 +261,7 @@ Make sure you follow [this guide](https://www.zephyrproject.org/downloads) to do
   ```shell
   $ make
   ```
-- Flash: follow the flashing guide from [here](https://www.96boards.org/documentation/iot/carbon/installation/linux-otg.md.html)
+- Flash: follow the flashing guide from [here](https://github.com/96boards/documentation/tree/master/iot/carbon/installation)
   ```shell
   $ sudo dfu-util -d [0483:df11] -a 0 -D outdir/96b_carbon/zephyr.bin -s 0x08000000
   ```
