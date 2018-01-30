@@ -1,11 +1,11 @@
 products:
 # ce, EE, IE Products
-  - product_title: Bubblegum-96
+  - product_title: bubblegum-96
     display_product: true
     product_permalink: /product/bubblegum-96/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/Bubblegum-96/
+          tab_link: /documentation/consumer/bubblegum-96/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/bubblegum96
@@ -28,14 +28,14 @@ products:
       - 96b-0-bubblegum96-actions-ucrobotics-5.png
     product_os:
       - title: Debian
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
     product_third_party_images:
       - title: Phoenix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
       - title: Remix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
       - title: Ubuntu Core
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
     product_accessories:
       - title: Power
         link: /product/power/
@@ -78,10 +78,10 @@ products:
     # Sub Tab Menu Items
     product_tab_menu:
         - tab_title: Getting Started
-          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
+          tab_link: /documentation/consumer/dragonboard410c/getting-started/
           tab_position: 1
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/
+          tab_link: /documentation/consumer/dragonboard410c/
           tab_position: 2
         - tab_title: Tutorials
           tab_link: /tutorials/dragonboard410c/
@@ -91,8 +91,8 @@ products:
           tab_position: 4
           tab_align_right: true
 
-    product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
-    product_documentation_link: /documentation/ConsumerEdition/DragonBoard-410c/
+    product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
+    product_documentation_link: /documentation/consumer/dragonboard410c/
     product_tutorials_link: /tutorials/dragonboard410c/
     product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
 
@@ -130,11 +130,11 @@ products:
     # Right Sidepanel links
     product_os:
       - title: Android
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/android.md.html
       - title: Debian
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
       - title: OpenEmbedded
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
 
     product_middleware:
       - title: AWS IoT SDK
@@ -154,7 +154,7 @@ products:
       - title: Ubuntu Core
         link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
       - title: More Downloads
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+        link: /documentation/consumer/dragonBoard410c/downloads/
 
     # Bottom Link
     product_accessories:
@@ -181,18 +181,18 @@ products:
 
     product_kits:
       - title: Basic Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
       - title: Audio Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
       - title: AWS IoT Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
   - product_title: Hikey (LeMaker)
     display_product: true
     product_permalink: /product/hikey/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_link: /documentation/consumer/hikey/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey
@@ -261,11 +261,11 @@ products:
       - title: Misc
         link: /product/misc/
     product_os:
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
+      - link: /documentation/consumer/hikey/downloads/aosp.md.html
         title: AOSP
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md.html
+      - link: /documentation/consumer/hikey/downloads/debian.md.html
         title: Debian
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
+      - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
         title: OpenEmbedded
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
@@ -277,7 +277,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey960/
+          tab_link: /documentation/consumer/hikey960/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey960
@@ -321,7 +321,7 @@ products:
         link: /product/misc/
 
     product_third_party_images:
-        - link: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md.html
+        - link: /documentation/consumer/hikey960/downloads/aosp.md.html
     product_buy_links:
       -
         link-title: "Amazon (USA)"
@@ -376,7 +376,7 @@ products:
     product_permalink: /product/hikey-circuitco/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_link: /documentation/consumer/hikey/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey
@@ -414,10 +414,10 @@ products:
     # Sub Tab Menu Items
     product_tab_menu:
         - tab_title: Getting Started
-          tab_link: /documentation/ConsumerEdition/imx7-96/getting-started/
+          tab_link: /documentation/consumer/imx7-96/getting-started/
           tab_position: 1
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/imx7-96/
+          tab_link: /documentation/consumer/imx7-96/
           tab_position: 2
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/imx7-96/
@@ -438,7 +438,7 @@ products:
     # Right Sidepanel links
     product_os:
       - title: Android
-        link: /documentation/ConsumerEdition/imx7-96/downloads/
+        link: /documentation/consumer/imx7-96/downloads/
 
     # Bottom Link
     product_accessories:
@@ -465,18 +465,18 @@ products:
 
     product_kits:
       - title: Basic Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
       - title: Audio Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
       - title: AWS IoT Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
   - product_title: Mediatek X20 Development Board
     display_product: true
     product_permalink: /product/mediatek-x20/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/MediaTekX20/
+          tab_link: /documentation/consumer/mediatekx20/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mediatek-x20
@@ -506,7 +506,7 @@ products:
       - Helio-X20-side-two.png
 
     product_third_party_images:
-      - link: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/
+      - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
         title: AOSP
 
     product_mezzanine:
