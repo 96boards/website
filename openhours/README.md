@@ -14,15 +14,7 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/calendar/r/eventedit/copy/M2thZjJwOWxlMjFoYjRvZTZ2dTg4OHI0MWYgc2FoYWouc2FydXBAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true&output=xml)
-
-**OpenHours Episode #88** - In this episode we will meet with Haitao Zhang and Joe Dong from uCRobotics on site, in San Diego to talk 96Boards! This live broadcast will feature new board discussions and demos from the uCRobotics team. We hope to talk about the upcoming Linaro Connect, some possible events leading up into the conference and of course a few Coursera announcements. 
-
-**Here is a quick look at what you might see during this episode!**
-
-- Deploying uC3DP - A Cloud-based 3D printer farm with the [Bubblegum-96](https://www.96boards.org/product/bubblegum-96/)
-- A first look at the MIPS Arch 96Boards IoT Oxygen 2 "Actions-Semi ATS3503"
-- A demo of AiStarVision MIPI Adapter with a CSI camera on Bubblegum-96
+**OpenHours Episode #89** - This week on OpenHours we will finally be talking about the Coursera launch many have been waiting for. Joined by representatives from UCSD, Qualcomm and Linaro/96Boards, we will give an in depth look at the new specialization curriculum, talk about our support plans, and take as many questions as possible! For those who are interested in scoping out the specialization, you can find more information [here](https://www.coursera.org/specializations/internet-of-things). We look forward to seeing everyone during the live BlueJeans broadcast; however, you can also find us on our other channels.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
@@ -53,7 +45,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/calendar/r/eventedit/copy/M2thZjJwOWxlMjFoYjRvZTZ2dTg4OHI0MWYgc2FoYWouc2FydXBAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true&output=xml)
+Every Thursday at 4pm UTC
 
 ### How to Join
 
