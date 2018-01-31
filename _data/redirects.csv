@@ -34,8 +34,8 @@
 /products/ce/bubblegum96/docs,https://www.96boards.org/documentation/consumer/bubblegum-96/
 /products/ce/bubblegum96/downloads/index.html,https://www.96boards.org/documentation/consumer/bubblegum-96/Downloads/
 /products/ce/bubblegum96/downloads,https://www.96boards.org/documentation/consumer/bubblegum-96/Downloads/
-/products/ce/bubblegum96/start/index.html,https://www.96boards.org/documentation/consumer/bubblegum-96/GettingStarted/
-/products/ce/bubblegum96/start,https://www.96boards.org/documentation/consumer/bubblegum-96/GettingStarted/
+/products/ce/bubblegum96/start/index.html,https://www.96boards.org/documentation/consumer/bubblegum-96/getting-started/
+/products/ce/bubblegum96/start,https://www.96boards.org/documentation/consumer/bubblegum-96/getting-started/
 # MediaTekX20
 /product/helio-x20/index.html,https://www.96boards.org/product/mediatek-x20/
 /product/helio-x20,https://www.96boards.org/product/mediatek-x20/
@@ -258,7 +258,7 @@
 /projects/faq.md,https://www.96boards.org/projects/faq.md/
 /projects/submit.md,https://www.96boards.org/projects/submit.md/
 /documentation,https://www.96boards.org/documentation/
-/documentation/ConsumerEdition,https://www.96boards.org/documentation/ConsumerEdition/
+/documentation/ConsumerEdition,https://www.96boards.org/documentation/consumer/
 /documentation/EnterpriseEdition,https://www.96boards.org/documentation/enterprise/
 /documentation/IoTEdition,https://www.96boards.org/documentation/iot/
 /documentation/MezzanineProducts,https://www.96boards.org/documentation/mezzanine/
@@ -311,8 +311,8 @@
 /documentation/Extras/ContributionPolicy.md,https://www.96boards.org/documentation/Extras/ContributionPolicy.md.html
 /project/cecase/index.html,https://www.96boards.org/projects/3DPrintCase/
 /project/cecase,https://www.96boards.org/projects/3DPrintCase/
-/documentation/ConsumerEdition/README.md/index.html,https://www.96boards.org/documentation/ConsumerEdition/
-/documentation/ConsumerEdition/README.md,https://www.96boards.org/documentation/ConsumerEdition/
+/documentation/ConsumerEdition/README.md/index.html,https://www.96boards.org/documentation/consumer/
+/documentation/ConsumerEdition/README.md,https://www.96boards.org/documentation/consumer/
 /product/d3-designcore-camera-mezzanine/index.html,https://www.96boards.org/product/d3camera/
 /product/d3-designcore-camera-mezzanine,https://www.96boards.org/product/d3camera/
 /products/ce/hikey-circuitco/,https://www.96boards.org/products/
@@ -335,7 +335,7 @@
 # PDF Redirects
 /wp-content/uploads/2015/02/96BoardsCESpecificationv1.0-EA1.pdf,https://linaro.co/ce-specification
 # Documentation
-/documentation/ConsumerEdition/guides/mraa/gpio/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/gpio/
-/documentation/ConsumerEdition/guides/mraa/i2c/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/i2c/
-/documentation/ConsumerEdition/guides/mraa/led/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/led/
-/documentation/ConsumerEdition/guides/mraa/uart/README.md.html,https://www.96boards.org/documentation/ConsumerEdition/guides/mraa/uart/
+/documentation/ConsumerEdition/guides/mraa/gpio/README.md.html,https://www.96boards.org/documentation/consumer/guides/mraa/gpio/
+/documentation/ConsumerEdition/guides/mraa/i2c/README.md.html,https://www.96boards.org/documentation/consumer/guides/mraa/i2c/
+/documentation/ConsumerEdition/guides/mraa/led/README.md.html,https://www.96boards.org/documentation/consumer/guides/mraa/led/
+/documentation/ConsumerEdition/guides/mraa/uart/README.md.html,https://www.96boards.org/documentation/consumer/guides/mraa/uart/

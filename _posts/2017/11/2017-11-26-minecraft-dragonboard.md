@@ -8,13 +8,13 @@ image:
     name: minecraft.png
     thumb: /assets/images/blog/minecraft_thumb.png
 categories: blog
-tags: 64-bit, 96Boards, aarch64, Gaming, Mesa, dragonboard410c, Linux Gaming, minecraft, db410c, LWJGL, OpenGL, libjawt 
+tags: 64-bit, 96Boards, aarch64, Gaming, Mesa, dragonboard410c, Linux Gaming, minecraft, db410c, LWJGL, OpenGL, libjawt
 featured-products: dragonboard410c
 ---
 
 # **Introduction**
 
-If you haven't heard of Minecraft, 
+If you haven't heard of Minecraft,
 > "Minecraft is a sandbox video game created and designed by Swedish game designer Markus "Notch" Persson, and later fully developed and published by Mojang. The creative and building aspects of Minecraft allow players to build with a variety of different cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat." -[Wikipedia](https://en.wikipedia.org/wiki/Minecraft)
 
 What's even better is that since it is mostly written in Java, It works cross-platform i.e it is one of the few games that works natively on Linux.
@@ -42,7 +42,7 @@ Also, it is architecture independent, ie it can run on Arm... almost. Although t
   ```shell
   sudo ln -s /usr/lib/jvm/java-8-openjdk-arm64/lib/aarch64/libjawt.so /usr/lib/libjawt.so
   ```
-  - [Setup zram swap](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/zram_swapspace.md)
+  - [Setup zram swap](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
 
 
 
@@ -84,4 +84,3 @@ Also, it is architecture independent, ie it can run on Arm... almost. Although t
   Note 1: if there are performance issues, turn every graphics settings to minimum and keep in mind the Snapdragon 410E is a mid-range mobile SoC with a mid-range GPU.
 
   > Note 2: I have only tried and tested it on build 17.09
-

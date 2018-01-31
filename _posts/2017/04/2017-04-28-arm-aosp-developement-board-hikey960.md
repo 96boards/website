@@ -206,4 +206,4 @@ Buy Now
   * [All Net](http://linaro.co/hikey960-allnet) (Germany)
 
 
-[Documentation](/documentation/ConsumerEdition/HiKey960/README.md/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)
+[Documentation](/documentation/consumer/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)

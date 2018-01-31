@@ -369,7 +369,7 @@ HDMI includes audio too
 
 
 
-DB410c Landing page:[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md)
+DB410c Landing page:[https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
 
 
 
@@ -380,7 +380,7 @@ DB410c Landing page:[https://github.com/96boards/documentation/blob/master/Consu
 
 
 
-DB410c Landing page: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md)
+DB410c Landing page: [https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
 
 
 

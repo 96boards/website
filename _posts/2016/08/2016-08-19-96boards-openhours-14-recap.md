@@ -120,7 +120,7 @@ MB
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md)
+[https://www.96boards.org/documentation/consumer/guides/gpio.md.html](https://www.96boards.org/documentation/consumer/guides/gpio.md.html)
 
 
 
@@ -175,7 +175,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/ConsumerEdition/](/documentation/ConsumerEdition/)
+[https://www.96boards.org/documentation/consumer/](/documentation/consumer/)
 
 
 
