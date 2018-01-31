@@ -48,4 +48,4 @@ TrustZone® security support.
 {:.hidden_rows}
 </div>
 
-Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/HardwareDocs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
+Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/bubblegum-96/hardware-docs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
