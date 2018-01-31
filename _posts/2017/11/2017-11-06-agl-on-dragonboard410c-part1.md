@@ -46,11 +46,11 @@ Enough theory, now we will move onto the practical stuffs :-)
   1. [Dragonboard410c](/product/dragonboard410c/)
 
   2. [Touch screen LCD](https://www.seeedstudio.com/Raspberry-Pi-HDMI-LCD-%287-inch%29-p-2763.html)
-  
+
   3. [HDMI cable](https://www.seeedstudio.com/1.5M-HDMI-to-HDMI-male-lead-cable-p-1502.html)
 
   4. [Power adapter](https://www.96boards.org/product/power/)
-  
+
 ## **Packages required**
 
 ```shell
@@ -94,7 +94,7 @@ The build will take quite some time depending on the host machine configuration.
 ## **Flashing AGL onto Dragonboard410c**
 
 Once the build has been completed, we have to flash the boot and rootfs images onto Dragonboard410c. Now, boot Dragonboard
-in fastboot mode by following the instructions [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md).
+in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/).
 
 ```shell
 $ cd $AGL_TOP/build/tmp/deploy/images/dragonboard-410c
@@ -125,7 +125,7 @@ transform = 270
 ```
 where,
 
-1. **name** mentions the name of the display connected to Dragonboard. 
+1. **name** mentions the name of the display connected to Dragonboard.
 2. **mode** is the display resolution
 3. **transform** is the screen rotation
 

@@ -62,4 +62,4 @@ for the availability of multiple Linux distributions for this board in the futur
 
 </div>
 
-Please visit the [HiKey960 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md) for more information
+Please visit the [HiKey960 Hardware User Manual](https://www.96boards.org/documentation/consumer/hikey960/hardware-docs/hardware-user-manual.md.html) for more information

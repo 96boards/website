@@ -140,7 +140,7 @@ Vendor response: This will be fixed in next batch of production units.</td>
 <div></div>
 </div>
 </td>
-<td data-sheets-value="{'1':2,'2':'https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.1.pdf'}" data-sheets-formula="=HYPERLINK('https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.1.pdf','https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.1.pdf')"><a href="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.1.pdf" target="\_blank">https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.1.pdf</a></td>
+<td data-sheets-value="{'1':2,'2':'https://www.96boards.org/documentation/consumer/hikey/'}" data-sheets-formula="=HYPERLINK('https://www.96boards.org/documentation/consumer/hikey/','https://www.96boards.org/documentation/consumer/hikey/')"><a href="https://www.96boards.org/documentation/consumer/hikey/" target="\_blank">https://www.96boards.org/documentation/consumer/hikey/</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -160,7 +160,7 @@ Vendor response: This will be fixed in next batch of production units.</td>
 <div></div>
 </div>
 </td>
-<td data-sheets-value="{'1':2,'2':'https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.2.pdf'}" data-sheets-formula="=HYPERLINK('https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.2.pdf','https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.2.pdf')"><a href="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.2.pdf" target="\_blank">https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_Hardware_User_Manual_Rev0.2.pdf</a></td>
+<td data-sheets-value="{'1':2,'2':'https://www.96boards.org/documentation/consumer/hikey/'}" data-sheets-formula="=HYPERLINK('https://www.96boards.org/documentation/consumer/hikey/','https://www.96boards.org/documentation/consumer/hikey/')"><a href="https://www.96boards.org/documentation/consumer/hikey/" target="\_blank">https://www.96boards.org/documentation/consumer/hikey/</a></td>
 <td></td>
 <td></td>
 </tr>

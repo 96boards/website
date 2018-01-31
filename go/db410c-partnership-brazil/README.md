@@ -82,8 +82,8 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Getting started:**
 
 *   [DragonBoard 410c Landing page](https://www.96boards.org/product/dragonboard410c/) – here you will find getting started documents and more…
-*   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
-*   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
+*   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
+*   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   [Instructables (Previous projects)](http://www.instructables.com/howto/dragonboard+qualcomm/)
 *   [Workshop presentation](http://bit.ly/2lzW7ox)
 
@@ -106,7 +106,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Documentation:**
 
 *   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/products/ce/dragonboard410c/)
-*   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
+*   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
 *   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf)
 
 **Support:**
