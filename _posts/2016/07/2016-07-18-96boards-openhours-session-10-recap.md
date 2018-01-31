@@ -131,7 +131,7 @@ I'm a gsoc student in BeagleBoard is interested  board and Embedded
 
 **RW**
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md)
+[/documentation/consumer/guides/compare_96boards_ce.md.html](/documentation/consumer/guides/compare_96boards_ce.md.html)
 
 [![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 [n](/blog/installing-docker-aarch64-96boards-ce/)

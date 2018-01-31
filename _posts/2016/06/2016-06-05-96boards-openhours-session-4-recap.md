@@ -558,7 +558,7 @@ I'll be using Linaro
 
 RW
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md)
+[/documentation/consumer/guides/compare_96boards_ce.md.html](/documentation/consumer/guides/compare_96boards_ce.md.html)
 
 
 
