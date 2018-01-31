@@ -1194,7 +1194,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/getting-started/](/consumer/dragonboard410c/getting-started/)
+[https://www.96boards.org/documentation/consumer/dragonboard410c/getting-started/](https://github.com/96boards/documentation/tree/master/consumer/dragonboard410c/getting-started)
 
 
 

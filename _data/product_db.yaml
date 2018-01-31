@@ -154,7 +154,7 @@ products:
       - title: Ubuntu Core
         link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
       - title: More Downloads
-        link: /documentation/consumer/dragonBoard410c/downloads/
+        link: /documentation/consumer/dragonboard410c/downloads/
 
     # Bottom Link
     product_accessories:
