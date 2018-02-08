@@ -14,7 +14,12 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #89** - This week on OpenHours we will finally be talking about the Coursera launch many have been waiting for. Joined by representatives from UCSD, Qualcomm and Linaro/96Boards, we will give an in depth look at the new specialization curriculum, talk about our support plans, and take as many questions as possible! For those who are interested in scoping out the specialization, you can find more information [here](https://www.coursera.org/specializations/internet-of-things). We look forward to seeing everyone during the live BlueJeans broadcast; however, you can also find us on our other channels.
+**OpenHours Episode #90** - The big 90! This week we come at you with possibly four segments (time permitting) that will surely make you anticipate the weeks and months to come.
+
+- 1) A look at the Cello EE board!
+- 2) 96Boards documentation and website revamp overview
+- 3) What's next? A look at all new and upcoming 96Boards, releases and speculation.
+- 4) Q&A throughout the entire show! So bring your questions...
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
