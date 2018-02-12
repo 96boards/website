@@ -1,24 +1,26 @@
 ---
-title: Carbon Rover Rev 2: NeoPixels
+title: Carbon Rover Rev 2 | NeoPixels
 author: Sahaj Sarup
-date: 2018-02-02 01:01:54+00:00
+date: 2018-02-12 01:01:54+00:00
 image:
     featured: true
     path: /assets/images/blog/carbon-rover-rev-2-thumb.jpg
     name: carbon-rover-rev-2.jpg
     thumb: carbon-rover-rev-2-thumb.jpg
 categories: blog
-tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Enterprise Edition, EE, Poplar, pcie, sata, usb
+tags: Iot, IE, carbon, arduino, neopixels, rgb, leds, robot, rover, zephyr
 
 ---
+
 # Introduction
+
 In one of my previous blogs titled ["Carbon Rover"](https://www.96boards.org/blog/carbon-rover/), I wrote about creating  create a rover that wouldn't fall off an edge nor would it hit an obstacle.
 
 # Riding The RGB Hype-train!
 
 In the Rev 2 of the Carbon Rover I decided to add some RGB NeoPixels. Now these LEDs don't generate random colors, they are in fact synced to the IR and Ultrasonic Sensors.
 
-{% include image.html name="poplar-pcie-testbench.jpg" alt="Your alternate text." %}
+{% include image.html name="rover-2.jpg" alt="Your alternate text." %}
 
 The NeoPixel strips are placed on the front and the back edge of the rover, 11 on each side for a total of 22 LEDs.
 
