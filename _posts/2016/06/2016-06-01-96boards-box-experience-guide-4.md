@@ -117,7 +117,7 @@ Here it is important to note the GPIO pins are configurable, and can be set as a
 
 Okay! You should know enough about the GPIO, I think it’s time to get your hands dirty. In this next part you will be working directly on your 96Boards. Regardless of the 96Boards you are using, you should be able to follow these steps by making sure to use the correct GPIO_# corresponding to the GPIO pin you wish to toggle (Remember: usable GPIOs occupy the same pins on all 96Boards, the GPIO_# is what changes).
 
-The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Installation/README.md), [DragonBoard 410c](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/README.md), [Bubblegum-96](https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/Installation/README.md))
+The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
 
 
 
@@ -189,21 +189,21 @@ This is only the beginning when it comes to using your 96Boards GPIO interfaces.
 [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
-Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
+Once you have read through these blogs, you can check out our new [96Boards GPIO landing page](https://www.96boards.org/documentation/consumer/guides/gpio.md.html) to get even easier access to these libraries. The landing page includes tutorials for library installation, sample code, and multiple fun gpio projects.
 
 Since the beginning of this series, it has been my goal to take it slow. A good foundation is important, and it must be built with correct information and a well organized bank of resources. As we steer deeper into the 96Boards universe, you will find yourself collecting links, cheatsheets, sample code, examples, diagrams, schematics, and so much more! It is important to stay organized. I would suggest starting your collection now, it will pay off in the long run.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
+Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/) or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
 [![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
-In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]()https://github.com/96boards/documentation/blob/master/ConsumerEdition/GPIO/Beginner/README.md. Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
+In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]()https://www.96boards.org/documentation/consumer/guides/gpio.md.html. Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
 
 --
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/openhours/)
 
 
 

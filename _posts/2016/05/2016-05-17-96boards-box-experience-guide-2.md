@@ -127,7 +127,7 @@ There will be a lot to cover in this part of the blog series. Let’s talk about
 
 
 
-A comparison table with this information can be found [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md). As more CE boards are released, the table will continue to be updated. This is a quick way to compare the 96Boards for their core differences. In addition, it is important to note the subtle customizations each board chose to go with (outside of the [CE Specification](https://linaro.co/ce-specification)), as well as the operating systems available to you with each board. You will see some of these subtle differences when looking at the available operating systems, GPU, and built in components. Here you can see how all boards have built in Bluetooth and WiFi, but only the DragonBoard 410c has built in GPS. If your development or project involves working with GPS, then this might be the board you would choose. In any case, you most likely already own a 96Boards platform. Hopefully I have through this blog post been able to shine some light on a few defining characteristics of the board you chose.
+A comparison table with this information can be found [here](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html). As more CE boards are released, the table will continue to be updated. This is a quick way to compare the 96Boards for their core differences. In addition, it is important to note the subtle customizations each board chose to go with (outside of the [CE Specification](https://linaro.co/ce-specification)), as well as the operating systems available to you with each board. You will see some of these subtle differences when looking at the available operating systems, GPU, and built in components. Here you can see how all boards have built in Bluetooth and WiFi, but only the DragonBoard 410c has built in GPS. If your development or project involves working with GPS, then this might be the board you would choose. In any case, you most likely already own a 96Boards platform. Hopefully I have through this blog post been able to shine some light on a few defining characteristics of the board you chose.
 
 It’s time to switch our focus to the operating system (OS). You will have noticed, after booting up your board for the first time, which default OS pertaining to the 96Boards you are using. As mentioned in the last issue of this series, each 96Boards platform has a different default OS:
 
@@ -153,7 +153,7 @@ The core of both these operating systems is the kernel which is the most fundame
 So you have explored your current operating system. Maybe you had some fun poking around the Android OS or maybe you got a chance to dive into the Debian Linux desktop. Either way, it’s time to decide which operating system you would like to proceed with for developing and/or working on our hobby project. Once you have decided, you will either want to get the latest version/release of the OS you are currently using, or swap it out completely to one of the other available operating systems. In order to do this, you will need to go through the following steps:
 
 
-  1. Visit the [96Boards Consumer Edition landing page](/documentation/ConsumerEdition/README.md/).
+  1. Visit the [96Boards Consumer Edition landing page](https://www.96boards.org/documentation/consumer/).
 
 
   2. Make your way through “Quickstart” and “Installation” sections of this landing page

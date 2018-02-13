@@ -139,7 +139,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
         6. 28:43 – Question: Is programming GPIO the same for all 96Boards?
 
 
-        7. Robert discussed some documentation that was available on github: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md]()
+        7. Robert discussed some documentation that was available on github: [https://www.96boards.org/documentation/consumer/guides/gpio.md.html]()
 
 
 
@@ -354,7 +354,7 @@ Pinout
 
 AW
 
-[https://github.com/96boards/documentation/tree/master/ConsumerEdition/GPIO/PinOuts]()
+[https://www.96boards.org/pinout/]()
 
 Thanks
 
@@ -366,7 +366,7 @@ Thanks
 
 RW
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/gpio.md)
+[https://www.96boards.org/documentation/consumer/guides/gpio.md.html](https://www.96boards.org/documentation/consumer/guides/gpio.md.html)
 
 
 
@@ -558,7 +558,7 @@ I'll be using Linaro
 
 RW
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/compare_96boards_ce.md)
+[https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html)
 
 
 
