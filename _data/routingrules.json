@@ -60,7 +60,7 @@
     "^/hikey-lemaker-buy.*$ https://linaro.co/hikey-lenovator-buy [R,L]",
     "^/hikey-lemaker.*$ /product/hikey/ [R,L]",
     "^/hikey-schematics.*$ /documentation/consumer/hikey/hardware-docs/ [R,L]",
-    "^/hikey-userguide.*$ /documentation/consumer/hikey/additional-docs/hardware-user-manual.md [F]",
+    "^/hikey-userguide.*$ /documentation/consumer/hikey/hardware-docs/hardware-user-manual.md.html [R,L]",
     "^/hikey.*$ /product/hikey/ [R,L]",
     "^/HiKey.*$ /product/hikey/ [R,L]",
     "^/hikey960.*$ /product/hikey960/ [R,L]",
