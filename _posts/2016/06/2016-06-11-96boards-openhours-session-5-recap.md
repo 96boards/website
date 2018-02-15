@@ -109,7 +109,7 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 [![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
 
 

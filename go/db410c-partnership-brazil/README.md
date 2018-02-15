@@ -47,7 +47,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 ## **Provided in Kit:**
 
 *   [DragonBoard 410c](https://developer.qualcomm.com/hardware/dragonboard-410c), by Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor
-*   [Arrow LinkSprite]()https://www.96boards.org/product/linker-mezzanine-starter-kit/
+*   [Arrow LinkSprite]()https://www.96boards.org/products/mezzanine/
 
 **Optional Addons to help development:**
 
@@ -109,7 +109,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 *   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
 *   Release Notes for [Linaro Linux](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/) based on Ubuntu
 =======
-*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/products/ce/dragonboard410c/)
+*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
 *   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
 >>>>>>> ddb147795c2fd085d82665be808fdc2c57967452
 *   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf)

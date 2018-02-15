@@ -220,7 +220,7 @@ thanks!
 
 T
 
-[https://www.96boards.org/products/mezzanine/uarts/](/products/mezzanine/uarts/)
+[https://www.96boards.org/product/uartserial/](/product/uartserial/)
 
 
 

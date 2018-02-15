@@ -67,7 +67,7 @@ Each team participating in the challenge will be able to check out one hack kit 
 
 **Documentation:**
 
-*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/products/ce/dragonboard410c/)
+*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
 *   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
 *   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf)
 
