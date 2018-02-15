@@ -29,6 +29,7 @@ If you want to register the remaining sessions or watch the recording of the pas
 
 # Chat Log
 
+```
 Duong - D
 hello
 
@@ -128,3 +129,4 @@ docker closed source ? wtf
 Robert Wolff (Screencast) - R(
 Community Form: https://goo.gl/forms/1yVOrjPkGFVU2PpY2
 CODE: OPENCELLO
+```
