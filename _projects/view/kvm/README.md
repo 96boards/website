@@ -23,7 +23,7 @@ For some releases now,  KVM – the virtualization infrastructure that turns the
 
 ### RSS URL
 
-- [96Boards blog](/tutorial/running-kvm-guest-hikey/)
+- [96Boards blog](/blog/running-kvm-guest-hikey/)
 
 ### Social Media Links
 

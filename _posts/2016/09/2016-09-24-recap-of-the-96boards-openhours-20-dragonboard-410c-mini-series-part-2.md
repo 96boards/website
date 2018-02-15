@@ -536,7 +536,7 @@ RW
 
 
 
-@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
+@tatzelbrumm: The mezzanine Lawrence is using can be found here: [https://www.96boards.org/product/sensors-mezzanine/](/product/sensors-mezzanine/)
 
 
 
@@ -715,7 +715,7 @@ RW
 
 
 
-Kit can be found here: [https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
+Kit can be found here: [https://www.96boards.org/product/sensors-mezzanine/](/product/sensors-mezzanine/)
 
 
 
