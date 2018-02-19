@@ -57,7 +57,7 @@ tags:
 - UART
 ---
 
-You’ve made it to part three of the out of box experience! Previously we spoke about three different [Consumer Edition](/products/ce/) boards ([HiKey](/products/ce/hikey/), [DragonBoard 410c](/products/ce/dragonboard410c/), and [Bubblegum-96](/products/ce/bubblegum96/)) and what makes them unique. We also talked briefly about the different operating systems available to you and where you might go to download and learn the flashing process. For those of you who missed this blog, it can be found [here](/blog/96boards-box-experience-guide-2/). Also, don't forget to check out our [Open Hours](/openhours) series which we host every Thursday at 4pm GMT - here you can discuss the blog or any other questions you may have with the experts on the 96Boards team.
+You’ve made it to part three of the out of box experience! Previously we spoke about three different [Consumer Edition](/products/ce/) boards ([HiKey](/product/hikey/), [DragonBoard 410c](/product/dragonboard410c/), and [Bubblegum-96](/product/bubblegum-96/)) and what makes them unique. We also talked briefly about the different operating systems available to you and where you might go to download and learn the flashing process. For those of you who missed this blog, it can be found [here](/blog/96boards-box-experience-guide-2/). Also, don't forget to check out our [Open Hours](/openhours) series which we host every Thursday at 4pm GMT - here you can discuss the blog or any other questions you may have with the experts on the 96Boards team.
 
 In this part of the series we will look at the many 96Boards compatible enhancements, design tools, and add-ons. This includes the available Mezzanine product line with sensors and 3D printed accessories.
 
@@ -121,7 +121,7 @@ In next week’s blog we will focus on a particularly important part of the 96Bo
 
 --
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
 
 

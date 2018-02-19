@@ -498,7 +498,7 @@ USB-Ethernet dongle worked well for me. Alternatively have you looked at a seria
 
 RW
 
-[https://www.96boards.org/products/accessories/adapter/](/products/accessories/adapter/)
+[https://www.96boards.org/product/adapter/](/product/adapter/)
 
 
 
@@ -600,7 +600,7 @@ this is all new, great start!
 
 
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
 
 

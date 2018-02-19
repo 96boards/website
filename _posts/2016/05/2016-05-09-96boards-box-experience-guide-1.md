@@ -47,7 +47,7 @@ Luckily your diligence has paid off, and now it is time for some fun. However, l
   * **Your favorite [96Boards](https://www.96boards.org)**
 
 
-    * Currently available: [HiKey](/products/ce/hikey/), [DragonBoard 410c](/products/ce/dragonboard410c/), and [Bubblegum-96](/products/ce/bubblegum96/)
+    * Currently available: [HiKey](/product/hikey/), [DragonBoard 410c](/product/dragonboard410c/), and [Bubblegum-96](/product/bubblegum-96/)
   * **Power Supply**:
     * WM24P-12-A-QL from Arrow Electronics is recommended
   * **HDMI Cable (Full size)**
@@ -100,7 +100,7 @@ To learn more the 96Boards team are going to start a [weekly OpenHours session]
 
 {% include media.html media_url="https://www.youtube.com/embed/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
   * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/) (This)
   * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)

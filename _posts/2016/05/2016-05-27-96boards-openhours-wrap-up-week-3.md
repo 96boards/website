@@ -134,7 +134,7 @@ Be sure to stay tune in next week where we will focus on a particularly importan
 
 
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
 
 

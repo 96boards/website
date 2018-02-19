@@ -1225,7 +1225,7 @@ Jean-Marc could you please show us the board if you have with you now ?
 
 
 
-Sensor Mezzanine [https://www.96boards.org/products/mezzanine/sensors-mezzanine/](/products/mezzanine/sensors-mezzanine/)
+Sensor Mezzanine [https://www.96boards.org/product/sensors-mezzanine/](/product/sensors-mezzanine/)
 
 
 
