@@ -43,7 +43,7 @@ I’m sitting at my desk trying to think of what my next series of blogs will be
 
 What would everyone think about a series of blogs which used the Sensor Mezzanine board and code running on the 96Boards, I could also tie in the ATMega328 (Mega) microcontroller to test the GPIO and the I2C functions? We would wire up the GPIO from the 96Boards to the Mega and the I2C from the 96Boards and the Mega and then write some test code on the 96Boards for the Mega, compile and upload it on to the Mega. Then we write some Linux test code to run on the 96Boards which would communicate with the Mega via the serial port and test the ports. On the 96Boards side we’d use the libsoc library to standardize the GPIO pin calls so the code would run on any CE 96Boards. Feedback would be appreciated.
 
-You know, in speaking of the Sensor Mezzanine Board, we now have quite a few Mezzanine boards: [STM32 Sensor mezzanine board](/products/mezzanine/stm32sensor/) (in development), [Linker mezzanine card starter kit](/products/mezzanine/linker-mezzanine-starter-kit/) (shipping, I have one on my desk), [96Boards UART Serial Adapter](/products/mezzanine/uarts/) (shipping, I have one on my desk), [Sensors mezzanine](/products/mezzanine/sensors-mezzanine/) (shipping, I have one on my desk) and the [Grove Starter Kit for 96Boards](/products/mezzanine/grove-starter-kit/) (shipping, contains the sensor board and some sensors, and yes I have a couple), [96Boards Display Mezzanine Kit ](https://www.arrow.com/en/products/96boards-display-7/linksprite-technologies-inc)(back order, I have seen this at a trade show), [Robomezzi](https://github.com/mwelling/96boards-robomezzi) (in active development, I have seen this at a trade show) and last but not least the [AeroCore 2 for 96Boards](https://store.gumstix.com/aerocore-2-for-dragonboard.html) (shipping, I have one on my desk). Those are all the boards I know about, however I would not be surprised if there are more out there in the community which I’ve not heard of yet. In this blog I thought I’d talk a bit about the one’s I’ve used. Of course since I’m not a Android programmer I’ll talk about my experience under Linux (and bare metal for one board). Finally a reminder, all mezzanine cards can be used with all [CE 96Boards](/products/ce/), that is intentional, the 96Boards CE standard insures cross compatibility.
+You know, in speaking of the Sensor Mezzanine Board, we now have quite a few Mezzanine boards: [STM32 Sensor mezzanine board](/product/stm32/) (in development), [Linker mezzanine card starter kit](/product/linkspritesensorkit/) (shipping, I have one on my desk), [96Boards UART Serial Adapter](/product/uartserial/) (shipping, I have one on my desk), [Sensors mezzanine](/product/sensors-mezzanine/) (shipping, I have one on my desk) and the [Grove Starter Kit for 96Boards](/product/sensors-mezzanine/) (shipping, contains the sensor board and some sensors, and yes I have a couple), [96Boards Display Mezzanine Kit ](https://www.arrow.com/en/products/96boards-display-7/linksprite-technologies-inc)(back order, I have seen this at a trade show), [Robomezzi](https://github.com/mwelling/96boards-robomezzi) (in active development, I have seen this at a trade show) and last but not least the [AeroCore 2 for 96Boards](https://store.gumstix.com/aerocore-2-for-dragonboard.html) (shipping, I have one on my desk). Those are all the boards I know about, however I would not be surprised if there are more out there in the community which I’ve not heard of yet. In this blog I thought I’d talk a bit about the one’s I’ve used. Of course since I’m not a Android programmer I’ll talk about my experience under Linux (and bare metal for one board). Finally a reminder, all mezzanine cards can be used with all [CE 96Boards](/products/ce/), that is intentional, the 96Boards CE standard insures cross compatibility.
 
 
 # My Experience with Mezzanine Boards
@@ -55,7 +55,7 @@ You know, in speaking of the Sensor Mezzanine Board, we now have quite a few Mez
 ## Linker Mezzanine card starter kit
 
 
-[More information here](/products/mezzanine/linker-mezzanine-starter-kit/)
+[More information here](/product/linkspritesensorkit/)
 
 Nice, well made board. This board connects only to the low speed interface with a hole in the board through which you could reach the high speed interface connector. It has the expected level shifters for the GPIO and I2C and SPI. The level shifters can be 3.3 VDC or 5 VDC, selected by a jumper. The SPI bus has 2 analog to digital converters so you can have analog input and convert it for the 96Boards. It also has the UART on a micro USB connector so you can plug in a USB cable from the board to a PC and get a serial console on the 96Boards, quite nice. It has a bunch of devices it comes with: Button Module, 5mm Red LED Module, LDR Module Thermal Module, Linear/Slide Potentiometer Module, Tilt Module, Touch Sensor Module, Relay Module, and (8) 20cm Connector Cables, and you can get more of them from LinkSprite. This is sold by [Arrow](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc) but produced by [LinkSprite Technologies, Inc.](http://www.linksprite.com/)
 
@@ -63,7 +63,7 @@ Nice, well made board. This board connects only to the low speed interface with 
 ## 96Boards UART Serial Adapter
 
 
-[More information here](/products/mezzanine/uarts/)
+[More information here](/product/uartserial/)
 
 This was the first shipping mezzanine boards, it connects only to the low speed connector and it simply provides a level shifter for the serial consoles, bring them out to serial on USB, you select which via jumpers and a reset button. It was very handy back when 96Boards first came out, still handy but several mezzanine cards now include the same functionality so if you are using a Linker mezzanine, a Sensor board mezzanine, or the AeroCore 2 mezzanine you don’t need this board as all three include the functionality. Still, if you need quick access for early console boot access it can’t be beat.
 
@@ -71,7 +71,7 @@ This was the first shipping mezzanine boards, it connects only to the low speed 
 ## Sensors Mezzanine & Grove Starter Kit for 96Boards
 
 
-[More information here](/products/mezzanine/sensors-mezzanine/)
+[More information here](/product/sensors-mezzanine/)
 
 The Grove Starter Kit for 96Boards contains one Sensors Mezzanine board so I’ll just talk about both the board and the kit here. The board is well made, hooks to the low speed connector only and does not allow easy access to the high speed interface, it could be reached with a ribbon cable but it can be a bit tricky. The board has a co-processor on it, an ATMega328 microcontroller which will run most Arduino UNO sketches unchanged. It has the standard Arduino I/O connectors so it can utilize most if not all Arduino shields.
 
@@ -85,7 +85,7 @@ Lots of options for accessing the real world, and for the ATMega328 both the sta
 ## AeroCore 2 Mezzanine Board
 
 
-[More information here](/product/aerocore/)
+[More information here](/product/aerocore2/)
 
 This board is interesting, it’s a full autopilot board for a drone. The folks from Gumstix designed it using their online design tool “Geppetto”. Gumstix thought they were only building the board for the DragonBoard 410c but because of the inherent cross compatibility of the 96Boards CE family the board actually works with the HiKey and Bubblegum-96 boards too! It connects to both the low speed and high speed connectors and has the ability to connect to cameras, though I haven’t tried this yet. I’ve not built a drone with this board (yet), but I did test it for very basic functionality on three CE 96Boards, and it worked as expected on all of them. I have to admit I am hoping at some point to build a drone using this board as it seems to have some really nice features. The board also has an onboard co-processor that communicates over other serial UART. It’s an ARM M4 microcontroller, that does a lot of the real time functions such as monitor the 9-axis internal measurement unit, along with an altimeter, combined with geopositioning with the optional GPS, gives you accurate positional feedback. As I say, I’ve done some basic testing of the board so I can’t speak to all of it’s built in functionality but I’m looking forward to using this board more fully at some point.
 

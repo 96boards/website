@@ -137,7 +137,7 @@ What kind of LCD ?
 AT
 [http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
 RW
-[https://www.96boards.org/products/mezzanine/grove-starter-kit/](/products/mezzanine/grove-starter-kit/)
+[https://www.96boards.org/product/sensors-mezzanine/](/product/sensors-mezzanine/)
 [https://www.arrow.com/en/products/102990344/seeed-technology-limited](https://www.arrow.com/en/products/102990344/seeed-technology-limited)
 MW
 [https://www.seeedstudio.com/96Boards-Sensors-p-2617.html](https://www.seeedstudio.com/96Boards-Sensors-p-2617.html)
