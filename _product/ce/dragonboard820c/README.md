@@ -15,7 +15,7 @@ redirect_from:
 The DragonBoard 820c development board is based on the Qualcomm® Snapdragon™ 820E embedded
 platform with the custom 64-bit Qualcomm® Kryo™ quad-core CPU and is compliant with the 96Boards
 Consumer Edition Extended Version specification managed by Linaro. The combination of the
-Snapdragon 820 embedded platform’s powerful Qualcomm® Adreno™ 530 GPU and quad-core CPU
+Snapdragon 820E embedded platform’s powerful Qualcomm® Adreno™ 530 GPU and quad-core CPU
 expands the possibilities of connected computing and high quality visual experiences while providing the
 ultimate in power efficiency. The DragonBoard 820c development board supports a wide range of
 interfaces and is ideal for prototyping complex embedded computing applications, from realistic visual
