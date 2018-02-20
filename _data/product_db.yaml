@@ -479,8 +479,8 @@ products:
     featured_product_order: 2
     is_featured: true
     product_images:
-      - DragonBoard-UpdatedImages-front.png
-      - DragonBoard-UpdatedImages-back.png
+      - dragonboard820c-front-sd.png
+      - dragonboard820c-back-sd.png
 
     # Sub Tab Menu Items
     product_tab_menu:
