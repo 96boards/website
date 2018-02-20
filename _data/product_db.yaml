@@ -1186,7 +1186,7 @@ products:
     product_buy_links:
       -
         link-title: Coming Soon
-        link-url: /mezzanine/
+        link-url: /products/mezzanine/
     # New mezzanine products to enabled remove commented out specification.
 # 96boards Accessories
 accessories:
