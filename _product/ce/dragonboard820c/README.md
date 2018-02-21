@@ -20,7 +20,7 @@ expands the possibilities of connected computing and high quality visual experie
 ultimate in power efficiency. The DragonBoard 820c development board supports a wide range of
 interfaces and is ideal for prototyping complex embedded computing applications, from realistic visual
 and audio immersion for VR and AR applications, to machine vision and artificial intelligence for
-commercial drones and robots. The Snapdragon 820 embedded platform is designed to provide a fast-
+commercial drones and robots. The Snapdragon 820E embedded platform is designed to provide a fast-
 track deployment path, with integration services and production-ready, customizable SoMs (System-on-
 Modules) and SBCs (Single Board Computers) available to turn a DragonBoard 820c based invention into
 a commercial product.
