@@ -1,0 +1,50 @@
+div#homepage-header {
+    background-position-y: -50px;
+    background-position-x: -150px;
+}
+
+div#contact-thanks {
+    margin-top: -20px;
+}
+/* Projects Icons */
+
+.project-icon {
+    color: #0084ab;
+}
+.project-title {
+    color: #0084ab;
+}
+.project-more-info {
+    color: #0084ab;
+    font-size: 12px;
+}
+
+/* ------------ Projects Icons -------------- */
+.project-icon{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#banner-area-homepage{
+    padding-top:60px;
+}
+
+.coloured-bp{
+    color: #def7ff;
+    font-size:12px;
+}
+
+/* ------------- Supporting Members Section --------------- */
+.member-image{
+  width: 50%;
+  text-align: center;
+}
+.row.members {
+    background-color: #fff;
+    padding:40px;
+}
+.responsive-table{
+    width:100%;
+    overflow: scroll;
+}

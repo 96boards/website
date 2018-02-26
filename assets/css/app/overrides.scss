@@ -1,0 +1,41 @@
+// Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
+
+$brand-primary: #19937a;
+
+//Home 
+$home-page-title-text: #fff;
+$home-page-main-title-color: #fff;
+
+// Footer
+$footer-bg-color: #222222;
+$footer-text-color: #fff;
+
+// Sub footer
+$sub-footer-color: #222222;
+// Navbar
+$navbar-text-color: #fff;
+$navbar-height: 66px;
+$navbar-inverse-bg: #222222;
+$navbar-inverse-color: #fff;
+
+//Newsletter
+$newsletter-background: #222222;
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato-regular/Lato-regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato-regular/Lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/lato-regular/Lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/lato-regular/Lato-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/lato-regular/Lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/lato-regular/Lato-regular.svg') format('svg'); /* Legacy iOS */
+}
+// Fonts 
+$font-family-sans-serif:  'Lato', Arial, sans-serif !default;
+
+// Breadcrumb Default background colour.
+$breadcrumb-background-color: $navbar-inverse-bg !default;
+
+
+
+
