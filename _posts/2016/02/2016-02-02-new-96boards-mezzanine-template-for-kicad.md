@@ -25,7 +25,7 @@ tags:
 - template
 ---
 
-Here are 96Boards, we’re big fans of the Open Source KiCad EDA tools for designing circuit boards. Both our [UART adapter](/products/mezzanine/uarts/) and [Sensors mezzanine ](/products/mezzanine/sensors-mezzanine/)were designed using KiCad, and now we’re announcing a template that will get you started with your own 96Boards Mezzanine board design.
+Here are 96Boards, we’re big fans of the Open Source KiCad EDA tools for designing circuit boards. Both our [UART adapter](/product/uartserial/) and [Sensors mezzanine ](/product/sensors-mezzanine/)were designed using KiCad, and now we’re announcing a template that will get you started with your own 96Boards Mezzanine board design.
 
 The template project helps to make mezzanine board development a bit easier and quicker. It provides you with an initial schematic and board layout so you don’t have to worry about placing the mounting holes and connectors in exactly the right place. You can find the template project on GitHub here:
 

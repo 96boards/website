@@ -56,4 +56,4 @@ WLAN, Bluetooth and GPS.
 
 </div>
 
-Please visit the [MediaTek X20 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserManual.md) for more information
+Please visit the [MediaTek X20 Hardware User Manual](https://www.96boards.org/documentation/consumer/mediatekx20/hardware-docs/) for more information

@@ -285,7 +285,7 @@ DM
 
 
 
-Just wanted to report one 404 link in 96boards [/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
+Just wanted to report one 404 link in 96boards [/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
 
 
 
@@ -418,7 +418,7 @@ Actually in that page there is a linux guide..
 
 that points to a pdf.. which gives 404..
 
-the actual link is [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf)
+the actual link is [https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf)
 
 
 
@@ -473,7 +473,7 @@ DM
 
 
 
-[/db410c-getting-started/Quickstart/README.md/](/db410c-getting-started/Quickstart/README.md/)
+[/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)
 
 
 

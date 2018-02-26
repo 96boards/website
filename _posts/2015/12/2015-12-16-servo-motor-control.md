@@ -30,7 +30,7 @@ PWM devices often found on SoCs have no fixed purpose and it is  with those dev
 
 If we'd rather avoid the risk of having a shaky motor when soft-generating the PWM signal, we should actually patch the Linux kernel with some form of real-time support (this could be preempt-rt,  RTAI,  Xenomai/IPIPE). Just be aware that different real-time providers might result different better latencies depending on the platform, kernel versions, driver stability and so on.
 
-I will use a [Grove Servo ](http://www.seeedstudio.com/wiki/Grove_-_Servo)and [Xenomai/I-PIPE ](http://xenomai.org/start-here/)on the 96Boards [HiKey](/products/ce/hikey/) platform to demonstrate with an example. 
+I will use a [Grove Servo ](http://www.seeedstudio.com/wiki/Grove_-_Servo)and [Xenomai/I-PIPE ](http://xenomai.org/start-here/)on the 96Boards [HiKey](/product/hikey/) platform to demonstrate with an example. 
 
 **Patching the Linux Kernel with real-time support**
 In order to clarify terms a little I'll start by mentioning that Xenomai3 is not a real-time provider (which is optional) but an RTOS abstraction layer: Xenomai does allow VxWorks, pSoS and other RTOS applications to run on Linux without major modifications. But in order to guarantee the deadlines of any of its clients Xenomai logically does require realtime support.
@@ -53,7 +53,7 @@ $ git checkout hikey
 
 ```
 
-Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](https://builds.96boards.org/releases/dragonboard410c/linaro/ubuntu/15.07/)).
+Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/)).
 
 So in order to install the Cobalt co-kernel in the I-PIPE enabled kernel just do:
 ```bash

@@ -261,7 +261,7 @@ I would suggest you try restarting your browser or application
 
 
 
-https://www.96boards.org/product/aerocore/
+https://www.96boards.org/product/aerocore2/
 
 
 

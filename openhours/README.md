@@ -14,12 +14,16 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+**OpenHours Episode #90** - The big 90! This week we come at you with possibly four segments (time permitting) that will surely make you anticipate the weeks and months to come.
 
-**OpenHours Episode #85** - Tune in for this week's OpenHours! Sahaj, from the 96Boards team, will be demoing a Superfast NAS(Network Attached Storage) with the 96Boards Poplar TV Enterprise board! Since Poplar has a USB3.0 and a Gigabit LAN Interface, It is the best candidate for a Superfast NAS. This project will go through the process of setting up hardware and software NAS using SMB(Samba) so it can be accessed across multiple OS. Since we will be using the gigabit ethernet interface, it will suffice to stream high bitrate content over multiple clients and to transfer large files over seconds. Demos and talks of the Poplar, this on Thursday at 4:00p UTC! See you there.
+- 1) A look at the Cello EE board!
+- 2) 96Boards documentation and website revamp overview
+- 3) What's next? A look at all new and upcoming 96Boards, releases and speculation.
+- 4) Q&A throughout the entire show! So bring your questions...
 
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
-Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
+We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
 * * *
 
@@ -46,7 +50,7 @@ The 96Boards Team
 <div class="openhours-panel" markdown="1">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+Every Thursday at 4pm UTC
 
 ### How to Join
 

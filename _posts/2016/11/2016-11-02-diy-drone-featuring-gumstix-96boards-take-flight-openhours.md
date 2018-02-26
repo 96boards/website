@@ -27,7 +27,7 @@ tags:
 # 96Boards take flight on OpenHours!
 
 
-As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](/product/aerocore/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
+As you may have seen, [OpenHours](http://bit.ly/2bYHUMc) broke into Season 2 with an exciting miniseries on drone development for [96Boards](/)! In this two-part series we spoke with [Keith Lee (the GumstixGuru)](https://twitter.com/gstixguru) about [Gumstix](https://www.gumstix.com/), [Geppetto](https://www.gumstix.com/geppetto/), [DragonBoard 410c](/product/dragonboard410c/) and the [Gumstix AeroCore 2 Mezzanine board](/product/aerocore2/), these were the main components used in his debut demo of the drone (Appropriately named the GadgetDrone). Because this demo was so awesome, Keith and the 96Boards team wanted to make sure everyone had access to instructions on how to recreate the drone he built and flew live on [OpenHours Episode 25](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) (Drone launch at ~45m).
 
 As an added OpenHours bonus, Gumstix has generously offered to provide a free one hour consult with Gumstix Engineers for anyone who fills out a short survey.  You can get all the details here:  [https://www.96boards.org/geppetto-96boards-free-design-consult/](/geppetto-96boards-free-design-consult/)
 
@@ -230,7 +230,7 @@ Before we get started, there are a few things you’ll need to take care of.
   * Bind your satelite DSM receiver with your radio
 
 
-    * The instructions to do this for the AR6210 are found here:  [http://www.horizonhobby.com/pdf/SPMAR6210_Manual.pdf](http://www.horizonhobby.com/pdf/SPMAR6210_Manual.pdf)
+    * The instructions to do this for the AR6210 are found here:  [http://www.rcheliaddict.co.uk/attachments/downloads/77487d1410819119-spektrum-ar6210-manual-spmar6210_manual.pdf](http://www.rcheliaddict.co.uk/attachments/downloads/77487d1410819119-spektrum-ar6210-manual-spmar6210_manual.pdf)
 
 
 
