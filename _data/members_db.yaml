@@ -88,6 +88,9 @@ members:
         - name: Huaqin
           image: huaqin.jpg
           url: https://www.linaro.org/company/huaqin/
+        - name: LeMaker
+          image: lemaker.jpg
+          url: https://www.linaro.org/company/lemaker/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
