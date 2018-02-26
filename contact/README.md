@@ -1,32 +1,35 @@
 ---
+layout: full-width-breadcrumb
 title: Contact
-layout: contact
-permalink: "/contact/"
+permalink: /contact/
+js-vendor: contact
+css-pack: contact
 ---
-<div class="row no-padding">
-    <div class="contact-hero text-center">
-        We would be happy to hear from you.
+<div id="contact-thanks">
+    <div class="jumbotron">
+        <h3 class="text-center animated fadeIn">We would be happy to hear from you.</h3>
     </div>
 </div>
 
-<div class="container">
-<div class="col-md-3">
-<h3>Address</h3>
-<address>
-96Boards c/o Linaro
-Harston Mill
-Royston Rd
-Harston
-Cambridge
-CB22 7GG
-</address>
-
-<br>
-</div>
-<div class="col-md-9">
-
-<iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
-
-
-</div>
+<div class="container-fluid">
+    <div class="container">
+        <!-- Tab panes -->
+      <div class="row">
+      <div class="col-md-4">
+              <h3>Address</h3>
+              <address>
+              96Boards c/o Linaro
+              Harston Mill
+              Royston Rd
+              Harston
+              Cambridge
+              CB22 7GG
+          </address>
+      </div>
+      <div class="col-md-8">
+      <iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
+          <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+      </div>
+      </div>
+    </div>
 </div>
