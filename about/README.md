@@ -4,8 +4,11 @@ description: |-
     96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost.
 permalink: "/about/"
 status: active
-layout: empty-row-page
+layout: default
 ---
+{% include breadcrumb.html %}
+
+<div class="container-fluid">
 <div class="container content-container">
 <div class="row">
 <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12" markdown="1">
@@ -183,6 +186,8 @@ The 96Boards specification allows enough flexibility to expose differentiating f
  A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
 <!-- You can also tap into the 96Boards community to quickly get up to speed on using the software since a lot of the core functionality -->
 </div>
+</div>
+
 </div>
 
 </div>
