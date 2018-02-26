@@ -62,6 +62,7 @@
     "^/hub(/?|/index.html)$ /blog/ [R,L,NC]",
     "^/i-want-one(/?|/index.html)$ /contact/ [R,L,NC]",
     "^/ie-specification(/?|/index.html)$ /documentation/Specifications/ [R,L,NC]",
+    "^/find(/?|/index.html)$ /search/ [R,L,NC]",
     "^/linker-mezzanine(/?|/index.html)$ https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc [R,L,NC]",
     "^/mezzanine(/?|/index.html)$ /products/mezzanine/ [R,L,NC]",
     "^/MezzanineProducts/README.md(/?|/index.html)$ /documentation/mezzanine/ [R,L,NC]",
