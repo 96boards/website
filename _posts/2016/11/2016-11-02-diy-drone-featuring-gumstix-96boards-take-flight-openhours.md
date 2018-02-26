@@ -230,7 +230,7 @@ Before we get started, there are a few things you’ll need to take care of.
   * Bind your satelite DSM receiver with your radio
 
 
-    * The instructions to do this for the AR6210 are found here:  [http://www.horizonhobby.com/pdf/SPMAR6210_Manual.pdf](http://www.horizonhobby.com/pdf/SPMAR6210_Manual.pdf)
+    * The instructions to do this for the AR6210 are found here:  [http://www.rcheliaddict.co.uk/attachments/downloads/77487d1410819119-spektrum-ar6210-manual-spmar6210_manual.pdf](http://www.rcheliaddict.co.uk/attachments/downloads/77487d1410819119-spektrum-ar6210-manual-spmar6210_manual.pdf)
 
 
 
