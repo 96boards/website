@@ -52,7 +52,6 @@ home:
             # then change this setting to false.
             darken: true
             # This is the name of the background-image located in /assets/images/
-            name: background-image.jpg
 
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: 96boards

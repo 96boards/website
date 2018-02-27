@@ -1,0 +1,30 @@
+pages:
+  - list:
+      - title: 96Boards Overview
+        url: /about/
+      - title: Specifications
+        url: /specifications/
+      - title: Compliance
+        url: /compliance/
+      - title: Membership
+        url: /membership/
+      - title: News
+        url: /news/
+    urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
+  - list:
+      - title: Overview
+        url: /governance/
+      - title: Releases
+        url: /releases/
+      - title: Committee
+        url: /committee/
+    urls: [/governance/,/releases/,/committee/]
+  -
+    list:
+      -
+        title: Documentation
+        url: /documentation/
+      -
+        title: License Agreement
+        url: /agreement/
+    urls: [/documentation/, /agreement/]
