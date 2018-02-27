@@ -3,7 +3,7 @@ title: Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/
-layout: markdown-about-page
+layout: container-breadcrumb-tabs
 ---
 ## Compliance
 96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program. The following Compliance topics are covered in this document:
@@ -152,3 +152,5 @@ A 96Boards product **shall** provide at least one of the following distributions
 
 </div><!--End Tab Content-->
 </div><!--End Tabs-->
+
+{% include members.html %}

@@ -4,7 +4,7 @@ description: |-
     The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features.
 permalink: /specifications/
 status: active
-layout: markdown-about-page-members
+layout: container-breadcrumb-tabs
 ---
 ## Specifications
 The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features. A fixed set of minimum functions including USB, SD, HDMI and standardized low speed and high speed peripheral connectors are provided. Vendors may add customized hardware and feature sets provided the minimum functions are available. We expect this to extend the platform life, increase the market for add-on hardware, and accelerate open source upstreaming of support for new SoC features.
@@ -21,3 +21,5 @@ To encourage the development of a broad range of compatible products, the above 
 
 * [The Consumer Edition (CE) Camera Module Interface Addendum](https://linaro.co/camera-spec)
 * [96Boards TV Platform](https://linaro.co/tv-specification): This specification describes requirements and recommendations for 96Boards Compliant hardware to be used for Digital Home applications including Digital TV and Set Top Boxes.
+
+{% include members.html %}

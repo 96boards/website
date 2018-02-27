@@ -1,7 +1,7 @@
 ---
 title: News
 permalink: /news/
-layout: markdown-about-page
+layout: container-breadcrumb-tabs
 redirect_from:
 - /linaro/96boards-and-open-source-hardware/
 - /linaro/dragonboard-410c-announced-by-qualcomm/
@@ -49,3 +49,5 @@ redirect_from:
         {% endfor %}
     </div>
 </div>
+
+{% include members.html %}

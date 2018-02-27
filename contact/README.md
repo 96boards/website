@@ -2,8 +2,8 @@
 layout: full-width-breadcrumb
 title: Contact
 permalink: /contact/
-js-vendor: contact
-css-pack: contact
+js-package: main
+css-package: main
 ---
 <div id="contact-thanks">
     <div class="jumbotron">
