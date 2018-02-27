@@ -12,6 +12,53 @@ pages:
         url: /news/
     urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
   - list:
+      - title: Latest Boards
+        url: /products/
+      - title: Consumer Edition
+        url: /products/ce/
+      - title: Enterprise Edition
+        url: /products/ee/
+      - title: IoT Edition
+        url: /products/ie/
+      - title: Mezzanine Products
+        url: /products/mezzanine/
+      - title: Accessories
+        url: /products/accessories/
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/]
+  - list:
+      - title: Projects
+        url: /projects/
+      - title: Contribute
+        url: /projects/contribute.md/
+      - title: FAQ
+        url: /projects/faq.md/
+      - title: OpenHours
+        url: /openhours/
+      - title: Submit a Project
+        url: /projects/submit.md/
+        right: true
+    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit.md/]
+  - list:
+      - title: All Docs
+        url: /documentation/
+      - title: Consumer Edition
+        url: /documentation/consumer/
+        sub-pages: true
+      - title: Enterprise Edition
+        url: /documentation/enterprise/
+        sub-pages: true
+      - title: IoT Edition
+        url: /documentation/iot/
+        sub-pages: true
+      - title: Mezzanine
+        url: /documentation/mezzanine/
+        sub-pages: true
+      - title: Specifications
+        url: /documentation/Specifications/
+        sub-pages: true
+    sub-pages-enabled: true
+    urls: [/documentation/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/]
+  - list:
       - title: Overview
         url: /governance/
       - title: Releases
@@ -19,12 +66,3 @@ pages:
       - title: Committee
         url: /committee/
     urls: [/governance/,/releases/,/committee/]
-  -
-    list:
-      -
-        title: Documentation
-        url: /documentation/
-      -
-        title: License Agreement
-        url: /agreement/
-    urls: [/documentation/, /agreement/]
