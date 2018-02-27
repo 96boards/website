@@ -68,8 +68,6 @@ pages:
             url: /documentation/Specifications/
           - text: Contribution Policy
             url: /documentation/Extras/ContributionPolicy.md.html
-    - title: Blog
-      url: /blog/
     - title: Forums
       options:
           - text: Discussion Forum
@@ -94,3 +92,5 @@ pages:
             url: https://discuss.96boards.org/c/specification
           - text: Login / Register
             url: https://discuss.96boards.org/login
+    - title: Blog
+      url: /blog/
