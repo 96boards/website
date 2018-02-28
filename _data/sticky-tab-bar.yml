@@ -1,5 +1,17 @@
 pages:
   - list:
+      - title: OpenHours
+        url: /openhours/
+      - title: About
+        url: /openhours/about/
+      - title: Guests
+        url: /openhours/guests/
+      - title: Impact
+        url: /openhours/impact/
+      - title: Community
+        url: /openhours/community/
+    urls: [/openhours/,/openhours/about/,/openhours/guests/,/openhours/impact/,/openhours/community/]
+  - list:
       - title: 96Boards Overview
         url: /about/
       - title: Specifications
@@ -38,6 +50,27 @@ pages:
         url: /projects/submit.md/
         right: true
     urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit.md/]
+  - list:
+      - title: HiKey 960
+        url: /product/hikey960/
+      - title: Documentation
+        url: /documentation/consumer/hikey960/
+      - title: Support
+        url: https://discuss.96boards.org/c/products/hikey960
+        right: true
+    urls: [/product/hikey960/,/documentation/consumer/hikey960/]
+  - list:
+      - title: All Accessories
+        url: /products/accessories/
+      - title: Debug
+        url: /product/debug/
+      - title: Power
+        url: /product/power/
+      - title: Adapters
+        url: /product/adapter/
+      - title: Misc
+        url: /products/misc/
+    urls: [/products/debug/,/product/power/,/product/adapter/,/product/misc/]
   - list:
       - title: All Docs
         url: /documentation/
