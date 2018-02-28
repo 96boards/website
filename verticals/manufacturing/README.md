@@ -10,7 +10,7 @@ redirect_from: /verticals/Manufacturing
 keywords: |-
   circuit board manufacturing, printed circuit board, Manufacturing board, Manufacturing development boards,
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Manufacturing

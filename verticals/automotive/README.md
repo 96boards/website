@@ -7,7 +7,7 @@ description: |-
 permalink: /verticals/automotive/
 redirect_from: /verticals/Automotive/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Automotive

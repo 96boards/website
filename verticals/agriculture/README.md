@@ -7,7 +7,7 @@ description: |-
 permalink: /verticals/agriculture/
 redirect_from: /verticals/Agriculture/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Agriculture

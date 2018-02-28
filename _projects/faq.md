@@ -1,5 +1,5 @@
 ---
-layout: empty-container-page
+layout: container-breadcrumb-tabs
 title: Projects FAQ
 permalink: /projects/faq.md/
 description: |-

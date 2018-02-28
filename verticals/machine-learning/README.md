@@ -6,7 +6,7 @@ description: |-
 permalink: /verticals/machine-learning/
 redirect_from: /verticals/MachineLearning/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Machine Learning

@@ -5,7 +5,7 @@ description: |-
 permalink: /verticals/drone/
 redirect_from: /verticals/Drone/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Drone

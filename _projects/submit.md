@@ -1,5 +1,5 @@
 ---
-layout: empty-container-page
+layout: container-breadcrumb-tabs
 title: Submit Project
 permalink: "/projects/submit.md/"
 description: |-

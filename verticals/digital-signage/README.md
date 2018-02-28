@@ -5,7 +5,7 @@ description: |-
 permalink: /verticals/digital-signage/
 redirect_from: /verticals/DigitalSignage/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Digital Signage

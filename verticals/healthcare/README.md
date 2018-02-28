@@ -7,7 +7,7 @@ description: |-
 permalink: /verticals/healthcare/
 redirect_from: /verticals/Healthcare/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Healthcare

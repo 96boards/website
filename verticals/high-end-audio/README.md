@@ -5,7 +5,7 @@ description: |-
 permalink: /verticals/high-end-audio/
 redirect_from: /verticals/HighEndAudio/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # High End Audio

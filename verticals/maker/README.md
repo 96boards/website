@@ -5,7 +5,7 @@ description: |-
 permalink: /verticals/maker/
 redirect_from: /verticals/Maker/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Maker

@@ -3,7 +3,7 @@ title: Brazil Partnership - 2018
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /go/brazil-partnership-2018/
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 ## Brazil Partnership - 2018
 

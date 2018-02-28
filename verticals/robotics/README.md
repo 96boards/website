@@ -7,7 +7,7 @@ keywords: |-
 permalink: /verticals/robotics/
 redirect_from: /verticals/Robotics/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Robotics

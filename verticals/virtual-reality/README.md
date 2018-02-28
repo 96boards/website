@@ -7,7 +7,7 @@ keywords: |-
 permalink: /verticals/virtual-reality/
 redirect_from: /verticals/VirtualReality/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Virtual Reality

@@ -1,7 +1,7 @@
 ---
 title: Hackathon India May 2017
 permalink: /go/hackathon-indiasummer2017/
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 ### From May 29 - June 2, 2017
 
