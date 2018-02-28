@@ -4,8 +4,8 @@ description: |-
     96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: empty-container-page-no-nav
-css-pack: openhours
+layout: container-breadcrumb-tabs
+css-package: openhours
 js-package: openhours
 ---
 <div class="col-md-6" markdown="1">
