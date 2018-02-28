@@ -5,6 +5,8 @@ description: |-
 permalink: "/about/"
 status: active
 layout: default
+js-package: about
+css-package: about
 ---
 {% include breadcrumb.html %}
 

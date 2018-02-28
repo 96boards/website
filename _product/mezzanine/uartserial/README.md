@@ -4,9 +4,6 @@ layout: product-display-page
 permalink: /product/uartserial/
 description: |-
     This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
-redirect_from:
-- /product/uarts/
-- /products/mezzanine/uarts/
 ---
 # UART Serial Mezzanine
 

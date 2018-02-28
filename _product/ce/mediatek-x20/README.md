@@ -6,11 +6,6 @@ description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application
     processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
     core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz.
-redirect_from:
-  - /products/mediatek-x20/
-  - /products/mediatekx20/
-  - /product/mediatekx20/
-  - /products/ce/mediatek-x20/
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
 ---

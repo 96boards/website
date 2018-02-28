@@ -5,7 +5,6 @@ description: |-
   are key. The 96Boards model is designed to provide developers with choices throughout the entire
   development process.
 permalink: /verticals/healthcare/
-redirect_from: /verticals/Healthcare/
 status: active
 layout: container-breadcrumb
 ---

@@ -3,8 +3,6 @@ title:  Project Title
 title: Project Template
 permalink: "/projects/template.md/"
 layout: container-breadcrumb
-redirect_from:
-- /project/sample-project-demo/
 ---
 # Project Title
 

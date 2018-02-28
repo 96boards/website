@@ -4,7 +4,6 @@ description: |-
   The goal is to program computers to utilize example data, and statistical learning techniques to
   identify patterns and create past experience to solve problems.
 permalink: /verticals/machine-learning/
-redirect_from: /verticals/MachineLearning/
 status: active
 layout: container-breadcrumb
 ---

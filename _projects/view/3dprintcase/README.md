@@ -8,10 +8,6 @@ images:
   - 3DPrintCase_Image1.png
   - 3DPrintCase_Image2.png
   - 3DPrintCase_Image3.png
-
-redirect_from:
-- /project/dragonboard-410c-case/
-- /project/cecase/
 ---
 
 # 3D Printed Case

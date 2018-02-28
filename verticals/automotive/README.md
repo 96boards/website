@@ -5,7 +5,6 @@ description: |-
   and passenger experience and safety. These devices range from interactive to automated and can
   truly change the way our vehicles interact with the environment, both inside and out.
 permalink: /verticals/automotive/
-redirect_from: /verticals/Automotive/
 status: active
 layout: container-breadcrumb
 ---

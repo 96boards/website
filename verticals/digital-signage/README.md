@@ -3,7 +3,6 @@ title: Digital Signage
 description: |-
   With the Digital signage market expected to grow huge in the upcoming years, there has been lot of investment in this sector.
 permalink: /verticals/digital-signage/
-redirect_from: /verticals/DigitalSignage/
 status: active
 layout: container-breadcrumb
 ---

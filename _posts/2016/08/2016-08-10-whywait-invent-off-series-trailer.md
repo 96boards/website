@@ -17,8 +17,6 @@ categories:
 - Video
 tags:
 - dragonboard410c
-redirect_from:
-- /video/whywait-invent-off-series-trailer/
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/pW7ywfmU20Y?feature=oembed" %}

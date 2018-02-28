@@ -5,6 +5,8 @@ description: |-
 permalink: /specifications/
 status: active
 layout: container-breadcrumb-tabs
+css-package: about
+
 ---
 ## Specifications
 The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features. A fixed set of minimum functions including USB, SD, HDMI and standardized low speed and high speed peripheral connectors are provided. Vendors may add customized hardware and feature sets provided the minimum functions are available. We expect this to extend the platform life, increase the market for add-on hardware, and accelerate open source upstreaming of support for new SoC features.

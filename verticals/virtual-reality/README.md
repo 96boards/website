@@ -5,7 +5,6 @@ description: |-
 keywords: |-
   virtual reality, vr, vr hardware, virtual reality hardware, vr maker, virtual reality maker, virtual reality hardware and software, vr products, vr technology, vr devices, vr tech, vr system, vr machine, vr kit, virtual reality platform, 
 permalink: /verticals/virtual-reality/
-redirect_from: /verticals/VirtualReality/
 status: active
 layout: container-breadcrumb
 ---

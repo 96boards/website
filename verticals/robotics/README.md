@@ -5,7 +5,6 @@ description: |-
 keywords: |-
   arduino robots, arduino robotics, robotic parts, arduino robot, open source robotics, arduino robot motor control, robotic sensors, robotics motors, robotics hobby, robot servos, open source robot platform, robot arm, robotic arm kit, robotics projects, diy robots, how to create a robot, control robot arm
 permalink: /verticals/robotics/
-redirect_from: /verticals/Robotics/
 status: active
 layout: container-breadcrumb
 ---
