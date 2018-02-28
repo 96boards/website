@@ -33,7 +33,7 @@
 //OpenHours Panel
 .openhours-panel {
     background-color: #553c97;
-    background-image: url(asset_path('openhours-noise.png'));
+    background-image: asset_url('openhours-noise.png');
     padding:20px;
     color: #fff;
     margin-top: 40px;
