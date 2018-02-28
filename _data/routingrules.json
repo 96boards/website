@@ -21,6 +21,7 @@
     "^/developercloud(/?|/index.html)$ https://www.linaro.cloud/ [R,L,NC]",
     "^/documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/downloads/android.md.html [R,L,NC]",
     "^/documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/downloads/debian.md.html [R,L,NC]",
+    "^documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxSDBoot.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/installation/linux-sd-boot.md.html [R,L,NC]",
     "^/documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html [R,L,NC]",
     "^/documentation/ConsumerEdition/guides/mraa/gpio/README.md.html$ /documentation/consumer/guides/mraa/gpio/ [R,L,NC]",
     "^/documentation/ConsumerEdition/guides/mraa/i2c/README.md.html$ /documentation/consumer/guides/mraa/i2c/ [R,L,NC]",
