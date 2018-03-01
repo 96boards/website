@@ -4,35 +4,112 @@ permalink: "/"
 layout: home
 ---
 
-<div id="featured-products-wrapper" class="hidden-xs">
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">HiKey 960</h3>
-        <span class="featured-product-price">from $239</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'hikey-960-SD-front.jpg' %}"/>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">HiKey</h3>
-        <span class="featured-product-price">from $75</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'Hikey-Lemaker-front-web.png' %}"/>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">DragonBoard </h3>
-        <span class="featured-product-price">from $79</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'DragonBoard-UpdatedImages-front.png' %}"/>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">Carbon</h3>
-        <span class="featured-product-price">from $79</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'DragonBoard-UpdatedImages-front.png' %}"/>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">HiKey 960</h3>
-        <span class="featured-product-price">from $79</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'DragonBoard-UpdatedImages-front.png' %}"/>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="featured-product-title">HiKey 960</h3>
-        <span class="featured-product-price">from $79</span>
-        <img class="lazyload featured-product-image" data-src="{% asset_path 'DragonBoard-UpdatedImages-front.png' %}"/>
+<div class="container no-padding">
+    <div class="row">
+
+        <div id="featured-products-wrapper" class="hidden-xs">
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">HiKey 960</h3>
+                <span class="featured-product-price">from $239</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'hikey-960-SD-front.jpg' %})"></div>
+            </div>
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">HiKey</h3>
+                <span class="featured-product-price">from $75</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Hikey-Lemaker-front-web.png' %})"></div>
+            </div>
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">DragonBoard </h3>
+                <span class="featured-product-price">from $79</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'DragonBoard-UpdatedImages-front.png' %})"></div>
+            </div>
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">Carbon</h3>
+                <span class="featured-product-price">from $27.95</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Carbon_Front-SD.png' %}")></div>
+            </div>
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">Nitrogen</h3>0
+                <span class="featured-product-price">from $27.95</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'nitrogen-front-web.jpg' %})"></div>
+            </div>
+            <div class="col-sm-4 featured-product">
+                <h3 class="featured-product-title">UART Adapter Board</h3>
+                <span class="featured-product-price">from $14.99</span>
+                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '96boards-uarts-seed4-crop.jpg' %})"></div>
+            </div>
+        </div>
     </div>
 </div>
+
+
+
+
+
+<div class="container no-padding">
+<div id="board-specifications">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="spec">
+                <div class="col-xs-4 image-container">
+                    <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Consumer-small.png' %})"></div>
+                </div>
+                <div class="col-xs-8 desc">
+                    <p>
+                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                    </p>
+                    <a href="btn spec-button" href="/products/ce/">Explore Boards</a>
+                    <a href="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="spec">
+                <div class="col-xs-4 image-container">
+                    <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Enterprise-small.png' %})"></div>
+                </div>
+                <div class="col-xs-8 desc">
+                    <p>
+                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                    </p>
+                    <a href="btn spec-button" href="/products/ce/">Explore Boards</a>
+                    <a href="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="spec">
+                <div class="col-xs-4 image-container">
+                    <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_IoT-small.png' %})"></div>
+                </div>
+                <div class="col-xs-8 desc">
+                    <p>
+                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                    </p>
+                    <a href="btn spec-button" href="/products/ce/">Explore Boards</a>
+                    <a href="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="spec">
+                <div class="col-xs-4 image-container">
+                    <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Partner-small.png' %})"></div>
+                </div>
+                <div class="col-xs-8 desc">
+                    <p>
+                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                    </p>
+                    <a href="btn spec-button" href="/products/ce/">Explore Boards</a>
+                    <a href="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+    
+
+
