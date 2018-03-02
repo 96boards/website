@@ -113,7 +113,7 @@ partition and RFS would be in **ext4** partition. But, we are going to place the
 After formatting SD card, download the OpenEmbedded RFS from 96Boards build, extract it and flash onto SD card's first partition. By
 the end of this step, the first partition of SD card should have entire Root File System populated.
 
-Now, build the Linux Kernel along with device tree using the instructions available in [release notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/).
+Now, build the Linux Kernel along with device tree using the instructions available in [release notes](https://releases.linaro.org/96boards/dragonboard410c/).
 Then, convert the generated Kernel image to the format recognized by U-Boot(uImage) using **mkimage** tool.
 
 
