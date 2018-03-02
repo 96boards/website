@@ -3,7 +3,6 @@
 //= require vendor/cookieconsent.min
 //= require vendor/lazysizes.min
 //= require vendor/owl.carousel.min
-//= require vendor/discourse-api
 
 
 //= require app/main
