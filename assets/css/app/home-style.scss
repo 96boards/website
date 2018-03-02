@@ -1,0 +1,122 @@
+.featured-product-image {
+    background-size: cover;
+    object-fit: contain;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    top: 50px;
+    position: relative;
+}
+
+div#featured-products-wrapper {
+    overflow: auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.col-sm-4.featured-product {
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3.featured-product-title {
+    text-align: center;
+    font-size: 18px;
+}
+
+div#board-specifications {
+    margin-top: 100px;
+}    
+
+span.featured-product-price {
+    color: black;
+    font-style: italic;
+}
+
+.col-sm-4.featured-product:hover .featured-product-image {
+    top:-60px;
+    transition: all 500ms ease-in-out;
+}
+
+.featured-product-image {
+    transition: all 1s ease-in-out;
+}
+
+
+.col-sm-4.featured-product:hover .featured-product-image {
+    top:-60px;
+    transition: all 500ms ease-in-out;
+}
+.col-sm-4.featured-product:hover .featured-product-title{
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+.col-sm-4.featured-product:hover .featured-product-price{
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.featured-product-image {
+    transition: all 1s ease-in-out;
+}
+
+.col-sm-4.featured-product.bottom {
+    border-top: 1px solid #000;
+}
+
+.spec-image.lazyloaded {
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div#specifications-row {
+    background-color: #F8FCFF;
+    padding-bottom: 100px;
+}
+
+a#explore-boards {
+    border: 1px solid #000;
+    border-radius: 20px;
+    height:20px;
+    width:200px;
+    margin-top:50px;
+    margin-bottom:50px;
+    line-height:1px;
+    padding: 15px;
+    color: #000;
+
+    transition: all 500ms ease;
+}
+
+a#explore-boards:hover {
+    color: #fff;
+    background-color: #000;
+
+    transition: all 500ms ease;
+}
+
+.col-xs-8.desc {
+    font-size: 18px;
+}
+
+#board-specifications .col-xs-8 p {
+    font-size: 17px;
+}
+
+.spec {
+    overflow: auto;
+    margin-bottom: 20px;
+    border:1px solid #eee;
+    background-color:#fff;
+    padding:30px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 25px -8px rgb(232, 232, 232);
+    -moz-box-shadow: 0px 0px 25px -8px rgb(204, 204, 204);
+    box-shadow: 0px 0px 25px -8px rgb(222, 222, 222);
+}
