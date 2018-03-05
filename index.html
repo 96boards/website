@@ -5,7 +5,7 @@ layout: boards-home
 ---
 <div class="container-fluid" id="content-container">
     <div class="row" id="featured-products-row">
-        <div class="container no-padding">
+        <div class="container">
             <div class="row">
                 <h2 id="featured-boards">
                     Each board has its own <strong>unique features</strong>, you can <strong>pick and choose</strong><br />
@@ -70,21 +70,30 @@ layout: boards-home
     </div>
     
     <div class="row" id="specifications-row">
-        
-        <div class="container no-padding">
+        <div class="container">
             <div id="board-specifications">
-                <div class="row">
+                <div class="row remove-margins">
                     <div class="col-sm-6">
                         <div class="spec">
                             <div class="col-xs-4 image-container">
                                 <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Consumer-small.png' %})"></div>
                             </div>
                             <div class="col-xs-8 desc">
-                                <p>
-                                    The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
-                                </p>
-                                <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
-                                <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                                
+                                <div class="col-xs-12 no-padding">
+                                    <p>
+                                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                                    </p>
+                                </div>
+                                
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
+                                </div>
+                                
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -94,11 +103,19 @@ layout: boards-home
                                 <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Enterprise-small.png' %})"></div>
                             </div>
                             <div class="col-xs-8 desc">
-                                <p>
+                                
+                                <div class="col-xs-12 no-padding">
                                     The 96Boards Enterprise Edition (EE) specification targets the networking and server segments
-                                </p>
-                                <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
-                                <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                                </div>
+                                
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn spec-button" href="/products/ee/">Explore Boards</a>
+                                </div>
+                                
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn view-spec" href="https://linaro.co/ee-specification">View Specification</a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -110,11 +127,21 @@ layout: boards-home
                                 <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_IoT-small.png' %})"></div>
                             </div>
                             <div class="col-xs-8 desc">
-                                <p>
-                                    The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
-                                </p>
-                                <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
-                                <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                                
+                                <div class="col-xs-12 no-padding">
+                                    <p>
+                                        The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
+                                    </p>
+                                </div>
+
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn spec-button" href="/products/ie/">Explore Boards</a>
+                                </div>
+                                
+                                <div class="col-sm-6 no-padding">
+                                    <a class="btn view-spec" href="https://linaro.co/ie-specification">View Specification</a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -124,11 +151,16 @@ layout: boards-home
                                 <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Partner-small.png' %})"></div>
                             </div>
                             <div class="col-xs-8 desc">
-                                <p>
-                                    The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
-                                </p>
-                                <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
-                                <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                                
+                                <div class="col-xs-12 no-padding">
+                                    <p>
+                                        The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                                    </p>
+                                </div>
+
+                                <div class="col-xs-12 no-padding">
+                                    <a class="btn spec-button" href="/products/mezzanine/">Explore Boards</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -140,8 +172,8 @@ layout: boards-home
     
     <div class="row" id="latest-blogs-row">
         
-        <div class="container no-padding">
-            <div id="latest-blogs">
+        <div class="container">
+            <div id="latest-blogs" class="hidden-xs">
                 <div class="row">
                     
                     <div class="col-sm-3 blog-post">
