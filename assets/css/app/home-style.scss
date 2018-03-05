@@ -10,6 +10,38 @@
     position: relative;
 }
 
+.author h3 {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-xs-3.author-image {
+    padding-left: 26px;
+}
+
+h3.blog-featured-title {
+    font-size: 14px;
+}
+
+
+.author h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+span.date {
+    font-size: 10px;
+}
+
+.row.author {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    border: 1px solid #eee;
+}
+
 div#featured-products-wrapper {
     overflow: auto;
     border: 1px solid;
