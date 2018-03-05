@@ -1,5 +1,5 @@
 ---
-layout: breacrumb-container
+layout: container-breadcrumb
 title: Projects
 description: |-
     The 96Boards projects that have been announced are shown below.

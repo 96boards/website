@@ -1,6 +1,6 @@
 ---
 title: 96boards Tutorials
 permalink: /tutorials/
-layout: breacrumb-container
+layout: container-breadcrumb
 ---
 # Tutorials

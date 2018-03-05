@@ -1,7 +1,7 @@
 ---
 title: DragonBoard 410c Tutorial
 permalink: /tutorials/dragonboard410c/
-layout: breacrumb-container
+layout: container-breadcrumb
 ---
 <br>
 <div class="col-md-9" markdown="1">
