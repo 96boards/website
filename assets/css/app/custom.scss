@@ -307,8 +307,8 @@ p.sub-tag {
 
 @media(max-width:991px){
     .partners-panel {
-    height: auto;
-}
+        height: auto;
+    }
 }
 
 
@@ -358,12 +358,11 @@ i.edit-on-github-icon.icon-github-circled.center-block {
     #homepage-heading {
         font-size: 20px;
     }
-}
-
-@media (max-width: 1000px) {
-    #buttons>a {
-        display: inherit;
+    
+    a#explore-boards {
+        margin-top: 0px
     }
+
     p.sub-tag {
         width: 95%;
         font-size: 16px;
