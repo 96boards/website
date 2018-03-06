@@ -57,6 +57,52 @@ layout: boards-home
                         </div>
                     </a>
                 </div>
+                
+                <div class="home-carousel owl-carousel visible-xs" id="homeCarousel">                    
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">HiKey 960</h3>
+                            <span class="featured-product-price">From $239</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'hikey960-hd.png' %})"></div>
+                        </div>
+                    </div>
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">HiKey</h3>
+                            <span class="featured-product-price">From $75</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Hikey-Lemaker-front-web.png' %})"></div>
+                        </div>
+                    </div>    
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">DragonBoard™ 410c</h3>
+                            <span class="featured-product-price">From $79</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'DragonBoard-UpdatedImages-front.png' %})"></div>
+                        </div>
+                    </div>    
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">Carbon</h3>
+                            <span class="featured-product-price">From $27.95</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Carbon_Front-SD.png' %}")></div>
+                        </div>
+                    </div>    
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">Nitrogen</h3>
+                            <span class="featured-product-price">From $27.95</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'nitrogen-front-web.jpg' %})"></div>
+                        </div>
+                    </div>    
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 no-padding visible-xs">
+                            <h3 class="featured-product-title">UART Adapter Board</h3>
+                            <span class="featured-product-price">From $14.99</span>
+                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path '96boards-uarts-seed4-crop.jpg' %})"></div>
+                        </div>
+                    </div>    
+                </div> <!-- // home product-carousel -->
+                
             </div>
             
             <div class="row">
@@ -71,7 +117,7 @@ layout: boards-home
     
     <div class="row" id="specifications-row">
         <div class="container">
-            <div id="board-specifications">
+            <div id="board-specifications" class="hidden-xs">
                 <div class="row remove-margins">
                     <div class="col-sm-6">
                         <div class="spec">
@@ -86,11 +132,11 @@ layout: boards-home
                                     </p>
                                 </div>
                                 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
                                 </div>
                                 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
                                 </div>
                                 
@@ -105,14 +151,16 @@ layout: boards-home
                             <div class="col-sm-8 desc">
                                 
                                 <div class="col-xs-12 no-padding">
-                                    The 96Boards Enterprise Edition (EE) specification targets the networking and server segments
+                                    <p>
+                                        The 96Boards Enterprise Edition (EE) specification targets the networking and server segments
+                                    </p>
                                 </div>
                                 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn spec-button" href="/products/ee/">Explore Boards</a>
                                 </div>
                                 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn view-spec" href="https://linaro.co/ee-specification">View Specification</a>
                                 </div>
                                 
@@ -134,11 +182,11 @@ layout: boards-home
                                     </p>
                                 </div>
 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn spec-button" href="/products/ie/">Explore Boards</a>
                                 </div>
                                 
-                                <div class="col-sm-6 no-padding">
+                                <div class="col-xs-12 no-padding">
                                     <a class="btn view-spec" href="https://linaro.co/ie-specification">View Specification</a>
                                 </div>
                                 
@@ -166,6 +214,118 @@ layout: boards-home
                     </div>
                 </div>
             </div>
+            
+            
+            <div class="specification-carousel owl-carousel visible-xs" id="homeSpecificationCarousel">         
+                           
+                <div class="owl-item__inner">
+                    <div class="spec">
+                        <div class="col-xs-12 image-container">
+                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Consumer-small.png' %})"></div>
+                        </div>
+                        <div class="col-xs-12 desc">
+                            
+                            <div class="col-xs-12 no-padding">
+                                <p>
+                                    The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                                </p>
+                            </div>
+                            
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn spec-button" href="/products/ce/">Explore Boards</a>
+                            </div>
+                            
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn view-spec" href="https://linaro.co/ce-specification">View Specification</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item__inner">
+                    <div class="spec">
+                        <div class="col-xs-12 image-container">
+                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Enterprise-small.png' %})"></div>
+                        </div>
+                        <div class="col-xs-12 desc">
+                            
+                            <div class="col-xs-12 no-padding">
+                                <p>
+                                    The 96Boards Enterprise Edition (EE) specification targets the networking and server segments
+                                </p>
+                            </div>
+                            
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn spec-button" href="/products/ee/">Explore Boards</a>
+                            </div>
+                            
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn view-spec" href="https://linaro.co/ee-specification">View Specification</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="owl-item__inner">
+                    <div class="spec">
+                        <div class="col-xs-12 image-container">
+                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_IoT-small.png' %})"></div>
+                        </div>
+                        <div class="col-xs-12 desc">
+                            
+                            <div class="col-xs-12 no-padding">
+                                <p>
+                                    The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn spec-button" href="/products/ie/">Explore Boards</a>
+                            </div>
+                            
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn view-spec" href="https://linaro.co/ie-specification">View Specification</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="owl-item__inner">
+                    <div class="spec">
+                        <div class="col-xs-12 image-container">
+                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_Partner-small.png' %})"></div>
+                        </div>
+                        <div class="col-xs-12 desc">
+                            
+                            <div class="col-xs-12 no-padding">
+                                <p>
+                                    The 96boards Consumer Edition(CE) specification targets the mobile, embedded and digital home segments.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 no-padding">
+                                <a class="btn spec-button" href="/products/mezzanine/">Explore Boards</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+            </div> <!-- //home blog carousel -->
+            
+            
+            
+            
+            
+            
+            
+            
         </div>
 
     </div>
@@ -177,17 +337,28 @@ layout: boards-home
                 <div class="row">
                     
                     {% for blog in site.posts limit:4 %}
-                       
+                    {% assign author = site.data.authors | where: "username", blog.author | first %}
+
                        <div class="col-sm-3 blog-post">
                            <div class="row image">
                                <a href="{{blog.url}}">
                                    <div class="blog-featured-image-home" {% if assets[blog.thumbnail_image] %}
-                                      style="background-image: url({% asset_path '{{blog.thumbnail_image}}'%})"
-                                   {% elsif blog.featured_image %}
-                                      style="background-image: url(/assets/thumbnails/blog/{{blog.featured_image}})"
-                                   {% else %}
-                                      style="background-image: url({% asset_path 'placeholder.png' %})"
-                                   {% endif %} style="background-image: url('/assets/images/blog/thumbs/photobooth-thumb.png')"></div>
+                                style="background-image: url('{% asset_path '{{blog.thumbnail_image}}'%}')"
+                             {% elsif blog.featured_image %}
+                                 style="background-image: url('/assets/thumbnails/blog/{{blog.featured_image}}')"
+                             {% elsif blog.image.featured %}
+                                {% if blog.image.thumb %}
+                                      {% if assets[blog.image.thumb] %}
+                                         style="background-image: url('{% asset_path '{{blog.image.thumb}}'%}')"
+                                      {% else %}
+                                         style="background-image: url('{{blog.image.thumb}}')"
+                                      {% endif  %}
+                                 {% else %}
+                                       style="background-image: url('/{{site.mini_magick.blog_thumbnail_static.destination}}/{{blog.image.name}}')"
+                                 {% endif %}
+                             {% else %}
+                                style="background-image: url('{% asset_path 'placeholder.png' %}')"
+                             {% endif %} style="background-image: url('/assets/images/blog/thumbs/photobooth-thumb.png')"></div>
                                </a>
                            </div>
                            
@@ -200,14 +371,19 @@ layout: boards-home
                            </div>
                            <div class="row author">
                                <div class="col-xs-3 author-image">
-                                   <div class="home-author-image" style="background-image: url('{% asset_path 'Mani.jpg' %}')"></div>
+                                   <div class="home-author-image" style="background-image: url('{% if author.image %}
+                          {% asset_path '{{author.image.name}}' %}
+                        {% else %}
+                          {% asset_path 'avatar-placeholder.png' %}
+                        {% endif %}')"></div>
                                </div>
-                               {% assign author = site.data.authors | where: "username", page.author | first %}
                                <div class="col-xs-9">
-                                   <h3>{% if author.name %}{{author.username}}{% else %}{{page.author}}{% endif %}</h3>
+                                   <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
+                                   {% if blog.date %}
                                    <span class="date">
-                                       18 Feb 2016
+                                       {{blog.date |  date: "%A, %B %-d, %Y"}}
                                    </span>
+                                   {% endif %}
                                </div>
                            </div>
                        </div>
@@ -216,6 +392,72 @@ layout: boards-home
                 
                 </div>
             </div>
+            
+            <div class="blog-carousel owl-carousel visible-xs" id="homeBlogCarousel">  
+                
+                {% for blog in site.posts limit:4 %}
+                
+                {% assign author = site.data.authors | where: "username", blog.author | first %}
+                                
+                <div class="owl-item__inner">
+                  <div class="col-xs-12 no-padding visible-xs">
+                   <div class="col-xs-12 no-padding blog-post">
+                       <div class="row image">
+                           <a href="{{blog.url}}">
+                               <div class="lazyload blog-featured-image-home" {% if assets[blog.thumbnail_image] %}
+                            style="background-image: url('{% asset_path '{{blog.thumbnail_image}}'%}')"
+                         {% elsif blog.featured_image %}
+                             style="background-image: url('/assets/thumbnails/blog/{{blog.featured_image}}')"
+                         {% elsif blog.image.featured %}
+                            {% if blog.image.thumb %}
+                                  {% if assets[blog.image.thumb] %}
+                                     style="background-image: url('{% asset_path '{{blog.image.thumb}}'%}')"
+                                  {% else %}
+                                     style="background-image: url('{{blog.image.thumb}}')"
+                                  {% endif  %}
+                             {% else %}
+                                   style="background-image: url('/{{site.mini_magick.blog_thumbnail_static.destination}}/{{blog.image.name}}')"
+                             {% endif %}
+                         {% else %}
+                            style="background-image: url('{% asset_path 'placeholder.png' %}')"
+                         {% endif %} style="background-image: url('/assets/images/blog/thumbs/photobooth-thumb.png')"></div>
+                           </a>
+                       </div>
+                       
+                       <div class="row title">
+                           <div class="col-xs-12">
+                               <a href="{{blog.url}}">
+                                   <h3 class="blog-featured-title">{{blog.title}}</h3>
+                               </a>
+                           </div>
+                       </div>
+                       <div class="row author">
+                           <div class="col-xs-3 author-image">
+                               <div class="home-author-image" style="background-image: url('{% if author.image %}
+                      {% asset_path '{{author.image.name}}' %}
+                    {% else %}
+                      {% asset_path 'avatar-placeholder.png' %}
+                    {% endif %}')"></div>
+                           </div>
+                           <div class="col-xs-9">
+                               <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
+                               {% if blog.date %}
+                               <span class="date">
+                                   {{blog.date |  date: "%A, %B %-d, %Y"}}
+                               </span>
+                               {% endif %}
+                           </div>
+                       </div>
+                   </div>                       
+                   </div>
+               </div>
+                {% endfor %}
+
+            </div> <!-- //home blog carousel -->
+            
+            
+            
+            
         </div>
         
         
