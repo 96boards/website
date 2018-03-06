@@ -381,7 +381,7 @@ layout: boards-home
                                    <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
                                    {% if blog.date %}
                                    <span class="date">
-                                       {{blog.date |  date: %B %-d, %Y"}}
+                                       {{blog.date |  date: "%B %-d, %Y"}}
                                    </span>
                                    {% endif %}
                                </div>
@@ -443,7 +443,7 @@ layout: boards-home
                                <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
                                {% if blog.date %}
                                <span class="date">
-                                   {{blog.date |  date:  %B %-d, %Y"}}
+                                   {{blog.date |  date:  "%B %-d, %Y"}}
                                </span>
                                {% endif %}
                            </div>
