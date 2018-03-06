@@ -2,8 +2,6 @@
 layout: full-width-breadcrumb
 title: Contact
 permalink: /contact/
-js-package: main
-css-package: main
 ---
 <div id="contact-thanks">
     <div class="jumbotron">
@@ -18,12 +16,11 @@ css-package: main
       <div class="col-md-4">
               <h3>Address</h3>
               <address>
-              96Boards c/o Linaro
-              Harston Mill
-              Royston Rd
-              Harston
-              Cambridge
-              CB22 7GG
+              96Boards c/o Linaro <br>
+              Harston Mill <br>
+              Royston Rd <br>
+              Harston, Cambridge <br>
+              CB22 7GG 
           </address>
       </div>
       <div class="col-md-8">

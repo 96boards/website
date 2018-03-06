@@ -45,6 +45,12 @@ span.date {
     overflow: hidden;
     border: 1px solid #eee;
 }
+@media(max-width:$screen-xs-min){
+    h2#featured-boards {
+        font-size: 18px;
+    }
+}
+
 
 div#featured-products-wrapper {
     overflow: auto;
@@ -212,6 +218,9 @@ div#latest-blogs {
 #homeCarousel .featured-product-image {
     top: 0px;
 }
+#contact-thanks h3.text-center {
+    color: white;
+}
 
 .home-author-image {
     width: 40px;
@@ -251,4 +260,12 @@ div#homeSpecificationCarousel p {
 .col-xs-12.no-padding.blog-post {
     border: 1px solid #eee;
     overflow: hidden;
+}
+
+
+#latest-blogs-row h2#latest-blogs-and-news {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
 }
