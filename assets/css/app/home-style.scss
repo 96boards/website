@@ -10,6 +10,18 @@
     position: relative;
 }
 
+#board-specifications a.btn.view-spec:hover {
+    background-color:#000;
+    color:white ;
+}
+
+
+#board-specifications a.btn.spec-button:hover {
+    background-color:#fff;  
+    color:#000 ;
+    border:1px solid #000;
+}
+
 .author h3 {
     font-size: 12px;
     margin-top: 0px;
@@ -239,12 +251,18 @@ div#latest-blogs {
 a.btn.spec-button {
     width: 100%;
     border: 1px solid #eee;
+    background-color: #000;
+    color: white;
+    
+    transition: all 300ms ease;
 }
 
 a.btn.view-spec {
     width: 100%;
-    border: 1px solid #eee;
+    border: 1px solid #000;
+    color: black;
     margin: 10px 0;
+    transition: all 300ms ease;
 }
 
 #board-specifications .spec >
