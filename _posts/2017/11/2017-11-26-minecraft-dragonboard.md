@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/minecraft.png
     name: minecraft.png
-    thumb: /assets/images/blog/minecraft_thumb.png
+    thumb: minecraft_thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, Gaming, Mesa, dragonboard410c, Linux Gaming, minecraft, db410c, LWJGL, OpenGL, libjawt
 featured-products: dragonboard410c

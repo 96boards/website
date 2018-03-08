@@ -3,7 +3,7 @@ title: Dragonboard410c Partnership Brazil
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /go/db410c-partnership-brazil/
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 ## Dragonboard410c Partnership Brazil
 
@@ -66,13 +66,13 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
     *   [Grove Gesture Sensor](http://www.seeedstudio.com/depot/Grove-Gesture-p-2463.html)
     *   [Grove I2C Color Sensor](http://www.seeedstudio.com/depot/Grove-I2C-Color-Sensor-p-854.html)
     *   [Grove Button Sensor](http://www.seeedstudio.com/depot/Grove-Button-p-766.html)
-    *   [Grove Buzzer Sensor](http://www.seeedstudio.com/wiki/Grove_-_Buzzer)
-    *   [Grove Sound Sensor](http://www.seeedstudio.com/wiki/Grove_-_Sound_Sensor)
-    *   [Grove Touch Sensor](http://www.seeedstudio.com/wiki/Grove_-_Touch_Sensor)
-    *   [Grove Rotary Angle Sensor](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor)
-    *   [Grove Smart Relay](http://www.seeedstudio.com/wiki/Grove_-_Relay)
-    *   [Grove Mini Servo](http://www.seeedstudio.com/wiki/Grove_-_Servo)
-    *   [Grove LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
+    *   Grove Buzzer Sensor
+    *   Grove Sound Sensor
+    *   Grove Touch Sensor
+    *   Grove Rotary Angle Sensor
+    *   Grove Smart Relay
+    *   Grove Mini Servo
+    *   Grove LCD RGB Backlight
     *   [I2C Hub](http://www.seeedstudio.com/depot/Grove-I2C-Hub-p-851.html)
     *   [Grove 4-pin Male Jumper to Grove 4-pin Conversion Cable](http://www.seeedstudio.com/depot/Grove-4-pin-Male-Jumper-to-Grove-4-pin-Conversion-Cable-5-PCs-per-Pack-p-1565.html)
 *   Wireless keyboard with touchpad: [Logitech Wireless Touch Keyboard K400](http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r)

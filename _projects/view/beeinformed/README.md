@@ -1,8 +1,6 @@
 ---
 title:  BeeInformed
 permalink: "/projects/beeinformed/"
-redirect_from:
-- /project/sample-project-demo/
 images:
     - chart.png
     - diagram.png

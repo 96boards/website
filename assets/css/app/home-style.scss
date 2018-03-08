@@ -1,0 +1,289 @@
+.featured-product-image {
+    background-size: cover;
+    object-fit: contain;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    top: 50px;
+    position: relative;
+}
+
+#board-specifications a.btn.view-spec:hover {
+    background-color:#000;
+    color:white ;
+}
+
+
+#board-specifications a.btn.spec-button:hover {
+    background-color:#fff;  
+    color:#000 ;
+    border:1px solid #000;
+}
+
+.author h3 {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-xs-3.author-image {
+    padding-left: 26px;
+}
+
+h3.blog-featured-title {
+    font-size: 14px;
+}
+
+
+.author h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+span.date {
+    font-size: 10px;
+}
+
+.row.author {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.col-sm-3.blog-post {
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+@media(max-width:$screen-xs-min){
+    h2#featured-boards {
+        font-size: 18px;
+    }
+}
+
+
+div#featured-products-wrapper {
+    overflow: auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.col-sm-4.featured-product {
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3.featured-product-title {
+    text-align: center;
+    font-size: 18px;
+}
+
+div#board-specifications {
+    margin-top: 100px;
+}    
+
+span.featured-product-price {
+    color: black;
+    font-style: italic;
+}
+
+.col-sm-4.featured-product:hover .featured-product-image {
+    top:-60px;
+    transition: all 500ms ease-in-out;
+}
+
+.featured-product-image {
+    transition: all 1s ease-in-out;
+}
+
+
+.col-sm-4.featured-product:hover .featured-product-image {
+    top:-60px;
+    transition: all 500ms ease-in-out;
+}
+.col-sm-4.featured-product:hover .featured-product-title{
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+.col-sm-4.featured-product:hover .featured-product-price{
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.featured-product-image {
+    transition: all 1s ease-in-out;
+}
+
+.col-sm-4.featured-product.bottom {
+    border-top: 1px solid #000;
+}
+
+.spec-image.lazyloaded {
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div#specifications-row {
+    background-color: #F8FCFF;
+    padding-bottom: 100px;
+}
+
+a#explore-boards {
+    border: 1px solid #000;
+    border-radius: 20px;
+    height:20px;
+    width:200px;
+    margin-top:50px;
+    margin-bottom:50px;
+    line-height:1px;
+    padding: 15px;
+    color: #000;
+
+    transition: all 500ms ease;
+}
+
+#homeBlogCarousel .blog-featured-image-home {
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#latest-blogs .blog-featured-image-home {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+a#explore-boards:hover {
+    color: #fff;
+    background-color: #000;
+
+    transition: all 500ms ease;
+}
+
+h2#featured-boards {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.col-sm-8.desc {
+    font-size: 18px;
+}
+
+#board-specifications .col-sm-8 p {
+    font-size: 17px;
+}
+
+.spec {
+    overflow: auto;
+    margin-bottom: 20px;
+    border:1px solid #eee;
+    background-color:#fff;
+    padding:30px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 25px -8px rgb(232, 232, 232);
+    -moz-box-shadow: 0px 0px 25px -8px rgb(204, 204, 204);
+    box-shadow: 0px 0px 25px -8px rgb(222, 222, 222);
+}
+
+.blog-featured-image-home {
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.row.title {
+    height: 125px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+h3.blog-featured-title {
+    font-size: 14px;
+}
+
+div#latest-blogs {
+    border: 1px solid #eee;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#homeCarousel {
+    text-align: center;
+}
+
+#homeCarousel .featured-product-image {
+    top: 0px;
+}
+#contact-thanks h3.text-center {
+    color: white;
+}
+
+.home-author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-size: cover;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 100px;
+}
+
+a.btn.spec-button {
+    width: 100%;
+    border: 1px solid #eee;
+    background-color: #000;
+    color: white;
+    
+    transition: all 300ms ease;
+}
+
+a.btn.view-spec {
+    width: 100%;
+    border: 1px solid #000;
+    color: black;
+    margin: 10px 0;
+    transition: all 300ms ease;
+}
+
+#board-specifications .spec >
+ p {
+    font-size: 8px !important;
+}
+
+div#homeSpecificationCarousel p {
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.col-xs-12.no-padding.blog-post {
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+
+#latest-blogs-row h2#latest-blogs-and-news {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
+}

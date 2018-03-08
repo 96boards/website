@@ -4,7 +4,8 @@ description: |-
     96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 permalink: /membership/
 status: active
-layout: markdown-about-page
+css-package: about
+layout: container-breadcrumb-tabs
 ---
 ## Membership
 96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
@@ -93,3 +94,5 @@ Community builds are 96Boards compliant builds created by the community and host
 
 
 <small id="SMALL_156">Issue 1.01 / Date February 9, 2016</small>
+
+{% include members.html %}

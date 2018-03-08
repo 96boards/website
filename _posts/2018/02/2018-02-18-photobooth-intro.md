@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/photobooth.png
     name: photobooth.png
-    thumb: /assets/images/blog/thumbs/photobooth-thumb.png
+    thumb: photobooth-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux
 ---

@@ -1,14 +1,11 @@
 ---
 title: Mosquitto
-
 permalink: "/projects/Mosquitto/"
 description: |-
     Demonstrates the use of mosquitto as a broker and paho as a client for MQTT messages. MQTT messages are published (using a twitter feed as content). A subscriber client subscribes to these MQTT messages and displays them on an emulated lcd display. Intended for ‘getting started’ with MQTT and CE 96Boards.
 images:
   - MQTT_FrontPage.png
   - MQTT_Video_OpenHours.png
-redirect_from:
-- /project/mqtt-demo/
 ---
 # Mosquitto
 

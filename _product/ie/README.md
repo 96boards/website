@@ -1,7 +1,5 @@
 ---
-layout: empty-row-page
 title: Internet of Things Edition
-permalink: "/products/ie/"
 description: |-
     The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
 specification_path: /documentation/Specifications/96Boards-IE-Specification.pdf

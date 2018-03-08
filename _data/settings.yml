@@ -1,0 +1,128 @@
+favicon: favicon.png
+search-label: 96Boards
+name: 96Boards
+slogan: Develop &amp; Prototype on the Latest Arm Technology
+
+# Breadcrumb Settings
+breadcrumb:
+    image: banner.jpg
+
+#Content Repo for static site.
+# Used for the edit on github include
+edit-on-github:
+    enabled: true
+    repo: https://github.com/96boards/website
+    docs: https://github.com/96boards/documentation
+
+# Mailchimp settings
+mailchimp:
+    enabled: true
+    id: e3d2abc041
+    
+# Footer Newsletter toggle.
+newsletter:
+    enabled: true
+
+# Blog tags
+tags_enabled: true
+
+# Members
+members:
+    key: 96boards_members
+    excludes: [/contact/]
+    
+# Footer Image default is linaro sprinkle
+linaro-footer-image: Linaro-Sprinkle.png
+    
+# Settings for the home page
+home:
+    #Content Background Image E.g. DeviceTree.org
+    # content-image: devicetree-content-bg.png
+    # If this is set then the navigation will be transparent.
+    transparent_nav: true
+    # If this is set to true then the shape divider will be displayed
+    shaped-divider: false
+    # Jumbotron settings for the home page
+    jumbotron:
+        included_file: hero-banner.html
+        enabled: true
+        # Background image for the home page located in assets/images
+        background-image:
+            # Darken is set to true by default - if you wish to remove the image overlay
+            # then change this setting to false.
+            darken: true
+            # This is the name of the background-image located in /assets/images/
+
+# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
+github_username: 96boards
+linkedin_username: 96boards
+google_plus_username: 106009833460292139774
+facebook_username: 96Boards
+youtube_username: channel/UCjawhk_W1QnJs3pKIsKLJNg/
+twitter_username: 96Boards
+slideshare_username: 96boards
+
+# Blog setup
+blog:
+    # Toggle site wide comments display.
+    comments: true
+    # Post Side Bar Settings
+    sidebar:
+        # Toggle whether or not thumbnails in the sidebar are displayed.
+        thumbnails:
+            display: true
+        # Display other posts contained in _posts
+        other-posts:
+            display: true
+            count: 4
+        # Display Related posts based on tags / categories
+        related-posts:
+            display: true
+            count: 5
+        # Display the most recent posts
+        most-recent-posts:
+            display: true
+            count: 5
+        # # Display custom collection e.g projects on 96boards
+        # collection:
+        #     - name: projects
+        #       count: 5
+        #       # Fields to use for title and url.
+        #       display_fields:
+        #           title: title
+        #           url: url
+                  
+#Google analytics
+google:
+    tag_manager: GTM-P53JPC
+    
+# Shema.org Setup -> used in the schema.html include.
+schema:
+    enabled: true
+    organisation:
+        name: 96boards
+        url: https://www.96boards.org
+        sameAs:
+            - https://twitter.com/96Boards
+            - https://www.facebook.com/96Boards
+            - https://www.linkedin.com/company/6637095
+            - https://plus.google.com/106009833460292139774/posts
+            - https://github.com/96boards
+            - http://slideshare.com/96boards
+        address:
+            street: Harston Mill, Royston Rd 
+            town: Harston 
+            county: Cambridge 
+            post_code: CB22 7GG
+            country_code: UK 
+
+# Disqus Comments
+
+disqus:
+    enabled: true
+    shortname: 96boards
+
+# Placeholder for Missing Images
+placeholder: placeholder.png
+
+

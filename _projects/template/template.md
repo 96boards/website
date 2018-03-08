@@ -2,12 +2,8 @@
 title:  Project Title
 title: Project Template
 permalink: "/projects/template.md/"
-layout: project-display-page
-redirect_from:
-- /project/sample-project-demo/
+layout: container-breadcrumb
 ---
-
-
 # Project Title
 
 < Brief description >

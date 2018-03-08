@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/patient_monitoring.jpg
     name: patient_monitoring.jpg
-    thumb: /assets/images/blog/thumbs/patient_thumb.jpg
+    thumb: patient_thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech
 ---

@@ -1,5 +1,5 @@
 ---
-layout: empty-container-page
+layout: container-breadcrumb-tabs
 title: Project Contribution
 permalink: /projects/contribute.md/
 description: |-

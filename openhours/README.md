@@ -4,8 +4,8 @@ description: |-
     96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: empty-container-page-no-nav
-css-pack: openhours
+layout: container-breadcrumb-tabs
+css-package: openhours
 js-package: openhours
 ---
 <div class="col-md-6" markdown="1">
@@ -14,12 +14,7 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #90** - The big 90! This week we come at you with possibly four segments (time permitting) that will surely make you anticipate the weeks and months to come.
-
-- 1) A look at the Cello EE board!
-- 2) 96Boards documentation and website revamp overview
-- 3) What's next? A look at all new and upcoming 96Boards, releases and speculation.
-- 4) Q&A throughout the entire show! So bring your questions...
+**OpenHours Episode #93** - Episode 93, coming at you loud and clear! This week in OpenHours, we will be speaking with Don Harbin of Linaro about his work with the DragonBoard 820c! As it turns out, the board is now available (in limited quantities), and projects are already starting to surface. What projects will we demo on this episode, you may ask? Well, Don will be showing a very cool software defined radio, running on the DragonBoard 820c! The team had a chance to talk with him earlier this week, and it sounds like he has a few other surprises up his sleeve. Make sure to tune in to the show to get a peak at what this awesome new 96Boards is capable of! Of course, bring you questions and/or any other tech discussions to bring up during the broadcast, or hang around for when the recording shuts off for our AfterHours talk.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 

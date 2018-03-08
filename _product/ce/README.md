@@ -1,8 +1,5 @@
 ---
-layout: empty-row-page
 title:  96Boards Consumer Edition (CE)
-title:  Consumer Edition (CE)
-permalink: "/products/ce/"
 description: |-
     The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
     The boards below are all certified conformig to this specification, which defines a fixed set and location

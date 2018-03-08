@@ -1,9 +1,7 @@
 ---
 title: 96boards Go Events
 permalink: /go/
-layout: empty-container-page-no-nav
-redirect_from:
-- /go/aosp/
+layout: container-breadcrumb
 ---
 # 96boards Go Pages
 
