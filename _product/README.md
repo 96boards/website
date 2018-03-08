@@ -1,8 +1,5 @@
 ---
-layout: empty-row-page
 title:  96boards Products
-title:  Products
-permalink: /products/
 status: active
 description: |-
     The 96Boards products that have been announced are shown below.
