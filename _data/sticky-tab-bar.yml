@@ -69,8 +69,8 @@ pages:
       - title: Adapters
         url: /product/adapter/
       - title: Misc
-        url: /products/misc/
-    urls: [/products/debug/,/product/power/,/product/adapter/,/product/misc/]
+        url: /product/misc/
+    urls: [/product/debug/,/product/power/,/product/adapter/,/product/misc/]
   - list:
       - title: All Docs
         url: /documentation/
@@ -90,7 +90,8 @@ pages:
         url: /documentation/Specifications/
         sub-pages: true
     sub-pages-enabled: true
-    urls: [/documentation/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/]
+    urls: [/documentation/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/,
+    /documentation/Extras/]
   - list:
       - title: Overview
         url: /governance/
