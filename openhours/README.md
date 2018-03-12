@@ -42,7 +42,7 @@ The 96Boards Team
 
 </div>
 <div class="col-md-6">
-<div class="openhours-panel" markdown="1">
+<div class="openhours-panel" markdown="1" id="openhours-panel">
 ### When
 
 Every Thursday at 4pm UTC
