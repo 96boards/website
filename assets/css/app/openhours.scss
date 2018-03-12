@@ -28,24 +28,31 @@
         -moz-transform: scale(0.85);
     }
 }
+div#openhours-panel h3 {
+    color: white;
+}
 
+div#openhours-panel p {
+    color: white;
+    opacity: .7;
+}
 
 //OpenHours Panel
-.openhours-panel {
+#openhours-panel {
     background-color: #553c97;
     background-image: asset_url('openhours-noise.png');
     padding:20px;
     color: #fff;
     margin-top: 40px;
 }
-.openhours-panel a {
+#openhours-panel a {
     color: #fff;
     text-decoration: underline;
 }
-.openhours-panel a:hover{
+#openhours-panel a:hover{
     color: #fff;
     text-decoration: none;
 }
-.openhours-panel p {
+#openhours-panel p {
     color: #fff;
 }
