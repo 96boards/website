@@ -588,7 +588,7 @@ Info
 
 
 
-[http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/)
+[https://releases.linaro.org/96boards/dragonboard410c/qualcomm/](https://releases.linaro.org/96boards/dragonboard410c/qualcomm/)
 
 
 
