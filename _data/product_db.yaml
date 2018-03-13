@@ -365,10 +365,6 @@ products:
         link-price-currency: JPY
         from: Switch-Science.com
         type: board
-      -
-        link-title: "All Net (Germany)"
-        link-url: "https://linaro.co/hikey960-allnet"
-        type: board
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: HiKey (CircuitCo)

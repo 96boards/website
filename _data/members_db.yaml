@@ -61,6 +61,9 @@ members:
         - name: Arrow Electronics
           image: arrow.jpg
           url: https://www.linaro.org/company/arrow/
+        - name: Avnet
+          image: Avnet.png
+          url: https://www.linaro.org/company/avnet/
         - name: Black Whale Technology
           image: Blackwhale.png
           url: https://www.linaro.org/company/blackwhale/
