@@ -14,7 +14,7 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #93** - Episode 93, coming at you loud and clear! This week in OpenHours, we will be speaking with Don Harbin of Linaro about his work with the DragonBoard 820c! As it turns out, the board is now available (in limited quantities), and projects are already starting to surface. What projects will we demo on this episode, you may ask? Well, Don will be showing a very cool software defined radio, running on the DragonBoard 820c! The team had a chance to talk with him earlier this week, and it sounds like he has a few other surprises up his sleeve. Make sure to tune in to the show to get a peak at what this awesome new 96Boards is capable of! Of course, bring you questions and/or any other tech discussions to bring up during the broadcast, or hang around for when the recording shuts off for our AfterHours talk.
+**OpenHours Episode #95** - Episode 95, coming at you loud and clear! This week in OpenHours, we will be speaking with Keith Lee of Gumstix. Gumstix is releasing a new revision of the Aerocore 2 for the Dragonboard 410c and Keith will be demoing some of its newest features. So tune in for some very exciting demos. Of course, bring your questions and/or any other tech discussions to bring up during the broadcast, or hang around for when the recording shuts off for our AfterHours talk.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
