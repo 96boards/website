@@ -543,7 +543,7 @@ products:
 
     product_kits:
       - title: Coming Soon...
-	  
+
   - product_title: Ultra96 (Avnet)
     display_product: true
     product_permalink: /product/ultra96/
@@ -554,17 +554,17 @@ products:
     product_images:
       - ultra96-front-sd.png
       - ultra96-back-sd.png
-	  - ultra96-angle1-sd.png
-	  - ultra96-angle2-sd.png
-	  - ultra96-angle3-sd.png
-	  - ultra96-angle4-sd.png
-	  - ultra96-angle5-sd.png
-	  - ultra96-angle6-sd.png
-	  - ultra96-angle7-sd.png
-	  - ultra96-angle8-sd.png
-	  - ultra96-angle9-sd.png
-	  - ultra96-angle10-sd.png
-	  - ultra96-angle11-sd.png
+      - ultra96-angle1-sd.png
+      - ultra96-angle2-sd.png
+      - ultra96-angle3-sd.png
+      - ultra96-angle4-sd.png
+      - ultra96-angle5-sd.png
+      - ultra96-angle6-sd.png
+      - ultra96-angle7-sd.png
+      - ultra96-angle8-sd.png
+      - ultra96-angle9-sd.png
+      - ultra96-angle10-sd.png
+      - ultra96-angle11-sd.png
 
     # Sub Tab Menu Items
     product_tab_menu:
