@@ -26,7 +26,6 @@ for the availability of multiple Linux distributions for this board in the futur
 - [Ali express](http://linaro.co/hikey960-ali)
 - [Switch Science (Japan)](http://linaro.co/hikey960-switch)
 
-
 ***
 
 ## Additional Information
