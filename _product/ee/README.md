@@ -1,7 +1,5 @@
 ---
-layout: empty-row-page
 title: Enterprise Edition (EE)
-permalink: "/products/ee/"
 description: |-
     The 96Boards Enterprise Edition (EE) specification targets the networking and server segments.
     A first version of this specification is available here. Please subscribe below if you wish to

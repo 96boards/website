@@ -1,9 +1,7 @@
 ---
 title: Search
 permalink: "/search/"
-layout: home-page
-redirect_from:
-- /find/
+layout: container
 js-package: search
 ---
 <div class="row content-container main-cont">

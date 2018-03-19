@@ -6,7 +6,6 @@ image:
   featured: true
   path: /assets/images/96boards-lemaker-cello.jpg
   name: 96boards-lemaker-cello.jpg
-  thumb: /assets/images/blog/thumbs/96boards-lemaker-cello.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, enterprise edition, Linaro, Linux, iot, cloud, aws, amazon web services, sysadmin, cello,
 

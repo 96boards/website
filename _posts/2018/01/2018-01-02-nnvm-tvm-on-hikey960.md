@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/nnvm.jpg
     name: nnvm.jpg
-    thumb: /assets/images/blog/thumbs/nnvm-thumb.jpg
+    thumb: nnvm-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey960, Linaro, Linux, NNVM, TVM, AI, TensorFlow, MxNet
 ---

@@ -17,8 +17,6 @@ categories:
 - Video
 tags:
 - dragonboard410c
-redirect_from:
-- /video/whywait-invent-off-episode-2-crucible/
 ---
 {% include media.html media_url="https://www.youtube.com/embed/fXi7Sd2O74U?feature=oembed" %}
 

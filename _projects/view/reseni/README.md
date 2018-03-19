@@ -1,8 +1,6 @@
 ---
 title: ReSeNi
 permalink: "/projects/reseni/"
-redirect_from:
-- /project/sample-project-demo/
 images:
   - visual5.png
   - logo.png

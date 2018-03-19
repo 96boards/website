@@ -7,7 +7,7 @@ image:
     featured: true
     path: /assets/images/blog/secure96-tpm.jpg
     name: secure96-tpm.jpg
-    thumb: /assets/images/blog/thumbs/secure96-tpm-thumb.jpg
+    thumb: secure96-tpm-thumb.jpg
 categories: blog
 tags: aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, Crypto, Secure96, Security, Secure, TPM, Cryptography, Trusted, Trusted Computing, Remote Attestation
 ---

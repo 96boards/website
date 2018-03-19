@@ -1,5 +1,5 @@
 ---
-layout: empty-container-page
+layout: container-breadcrumb
 title:  96boards | Project Template
 permalink: "/projects/Template/"
 breadcrumb-title: Project Template

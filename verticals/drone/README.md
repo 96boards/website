@@ -3,9 +3,8 @@ title: Drone
 description: |-
   Drone technologies today border on that of yesterday’s science fiction. Curiosity and convenience has driven improvements to pretty much every aspect of the drone world.
 permalink: /verticals/drone/
-redirect_from: /verticals/Drone/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Drone

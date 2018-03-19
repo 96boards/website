@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/level-shift-1.png
     name: level-shift-1.png
-    thumb: /assets/images/blog/thumbs/level-shift-1-thumb.png
+    thumb: level-shift-1-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux, Audio Mezzanine
 ---

@@ -1,0 +1,32 @@
+#grid .project_block {
+    display:block;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $gray-lighter;
+}
+#grid  .project_image{
+  width: auto;
+  height: 100%;
+}
+ #grid  .project_block a:first-child {
+    overflow: hidden;
+    height: 200px;
+    display: block;
+    border: 1px solid #19947b;
+  }
+#grid p.project_description {
+    font-size: 11px;
+    font-style: italic;
+    height:50px;
+    overflow:hidden;
+    margin-bottom:20px
+}
+#grid  div.project_filter_panel{
+    height:auto;
+    padding:10px;
+}
+#grid .project_title {
+    min-height: 35px;
+}
+#grid  div.project_filter_panel button {
+    margin-bottom: 20px;
+}

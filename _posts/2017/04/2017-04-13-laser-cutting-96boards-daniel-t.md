@@ -7,8 +7,8 @@ link: https://www.96boards.org/blog/laser-cutting-96boards-daniel-t/
 slug: laser-cutting-96boards-daniel-t
 image:
     featured: true
-    path: /assets/images/blog/Screenshot-355.png
-    name: Screenshot-355.png
+    path: /assets/images/blog/screenshot355.png
+    name: screenshot355.png
 title: Laser cutting for 96Boards with Daniel T.
 wordpress_id: 20167
 categories:

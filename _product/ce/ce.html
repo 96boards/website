@@ -1,7 +1,7 @@
 ---
-layout: empty-row-page
+layout: container-breadcrumb-tabs
 title: Consumer Edition (CE)
-css-pack: products
+css-package: products
 permalink: "/products/ce/"
 description: |-
     The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
@@ -9,70 +9,65 @@ description: |-
 specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
 specification_link: https://linaro.co/ce-specification
 specification_image: 96Boards-Logo_Consumer-small.png
-redirect_from:
-- /products/ce/extended/
 ---
-<div class="container">
-        <div class="row">
-            <div class="col-lg-8" class="description">
-                    <p id="collection-description">{{ page.description }}</p>
-            </div>
-            <div class="col-lg-4">
-                  <img id="collection-image" class="lazyload img-responsive center-block hidden-sm hidden-xs"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  data-src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards Consumer Edition Logo">
-                  <br />
-                  <a href="{{ page.specification_link }}" download class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
-            </div>
+<div class="row">
+    <div class="col-lg-8" class="description">
+            <p id="collection-description">{{ page.description }}</p>
+    </div>
+    <div class="col-lg-4">
+          <img id="collection-image" class="lazyload img-responsive center-block hidden-sm hidden-xs"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards Consumer Edition Logo">
+          <br />
+          <a href="{{ page.specification_link }}" download class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
+    </div>
 
-        </div>
+</div>
 
-        <div id="grid">
-            {% assign products_array = site.data.product_db.products | where: "product_specification", "ce" %}
-            {% assign products_array =  products_array | where: "display_product", "true" %}
-            <div class="row">
-            {% for product in products_array %}
-            {% assign product-url = product.product_permalink | split: "/" %}
+<div id="grid">
+    {% assign products_array = site.data.product_db.products | where: "product_specification", "ce" %}
+    {% assign products_array =  products_array | where: "display_product", "true" %}
+    <div class="row">
+    {% for product in products_array %}
+    {% assign product-url = product.product_permalink | split: "/" %}
 
-                <div class="mix {{product.product_specification | downcase }} col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="col-item">
-                        <div class="photo">
-                            <a href="{{product.product_permalink}}">
-                                <img data-src="../../product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload img-responsive" alt="a" />
-                            </a>
-                        </div>
-                        <div class="info">
-                            <div class="product-title col-md-12 text-center">
-                                <a href="{{product.product_permalink}}">
-                                    <h5>{{ product.product_title }}</h5>
-                                </a>
-                            </div>
-                            <div class="product-short-description">
-                                {{ product.product_short_desc | slice: 0, 50 }}...
-                            </div>
-                            <div class="separator clear-left">
-                                <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
-                                    <a href="{{ product.product_permalink }}" class="btn btn-primary btn-read-more">Read More</a>
-                                    <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                  </button>
-                                  <ul class="dropdown-menu buy-dropup-menu">
-                                      {% for buy_link in product.product_buy_links %}
-                                      <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
-                                      {% endfor %}
-                                  </ul>
-                                </div>
-                            </div>
-
-                            <div class="clearfix">
-                            </div>
+        <div class="mix {{product.product_specification | downcase }} col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-item">
+                <div class="photo">
+                    <a href="{{product.product_permalink}}">
+                        <img data-src="../../product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}"
+                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload img-responsive" alt="a" />
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="product-title col-md-12 text-center">
+                        <a href="{{product.product_permalink}}">
+                            <h5>{{ product.product_title }}</h5>
+                        </a>
+                    </div>
+                    <div class="product-short-description">
+                        {{ product.product_short_desc | slice: 0, 50 }}...
+                    </div>
+                    <div class="separator clear-left">
+                        <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
+                            <a href="{{ product.product_permalink }}" class="btn btn-primary btn-read-more">Read More</a>
+                            <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu buy-dropup-menu">
+                              {% for buy_link in product.product_buy_links %}
+                              <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
+                              {% endfor %}
+                          </ul>
                         </div>
                     </div>
+
+                    <div class="clearfix">
+                    </div>
                 </div>
-            {% endfor %}
             </div>
         </div>
-
+    {% endfor %}
+    </div>
 </div>
