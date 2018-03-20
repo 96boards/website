@@ -12,7 +12,7 @@ redirect_from:
 ---
 # Ultra96
 
-Ultra96(TM) is an Arm-based, Xilinx Zynq UltraScale+(TM) MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with PetaLinux.
+Ultra96(TM) is an Arm-based, Xilinx Zynq UltraScale+(TM) MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
 
 ***
 
@@ -30,7 +30,7 @@ Ultra96(TM) is an Arm-based, Xilinx Zynq UltraScale+(TM) MPSoC development board
 |  Expansion Interface | 40-pin 96Boards Low-speed expansion header<br>60-pin 96Boards High speed expansion header        |
 |  LED                 | 4 x user-controllable LEDs                                                                       |
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
-|  OS Support          | PetaLinux                                                                                        |
+|  OS Support          | Linux                                                                                        |
 |  Size                | 85mm x 54mm                                                                                      |
 {:.hidden_rows}
 
