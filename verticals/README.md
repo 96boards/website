@@ -5,7 +5,7 @@ description: |-
 keywords: |-
 permalink: /verticals/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # 96Boards Verticals

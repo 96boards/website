@@ -4,10 +4,6 @@ layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
-redirect_from:
-- /products/ce/bubblegum96/
-- /product/bubblegum96/
-- /bubblegum-96/
 ---
 # Bubblegum-96
 

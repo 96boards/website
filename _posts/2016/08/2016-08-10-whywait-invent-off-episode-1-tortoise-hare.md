@@ -3,7 +3,6 @@ author: shovan
 comments: true
 date: 2016-08-10 13:40:37+00:00
 layout: post
-link: https://www.96boards.org/video/whywait-invent-off-episode-1-tortoise-hare/
 slug: whywait-invent-off-episode-1-tortoise-hare
 image:
     featured: true
@@ -15,8 +14,6 @@ categories:
 - Video
 tags:
 - dragonboard410c
-redirect_from:
-- /video/whywait-invent-off-episode-1-tortoise-hare/
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/8ryVbAkDNMo?feature=oembed" %}

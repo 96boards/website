@@ -1,0 +1,96 @@
+# Navigation Configuration
+# - Add your navigation structure to this File
+# - Toggle brand image output
+# - Toggle Search Bar.
+# Search Config
+search:
+    enabled: true
+    label: 96Boards
+
+brand:
+    text: 96Boards
+    image: 
+        enabled: true
+        name: logo.svg
+    url: /
+pages:
+    - title: About
+      options:
+          - text: Overview
+            url: /about/
+          - text: Specifications
+            url: /specifications/
+          - text: Compliance
+            url: /compliance/
+          - text: Membership
+            url: /membership/
+          - text: News
+            url: /news/
+    - title: Products
+      options:
+          - text: Latest Boards
+            url: /products/
+          - text: Consumer Edition (CE)
+            url: /products/ce/
+          - text: Enterprise Edition (EE)
+            url: /products/ee/
+          - text: IoT Edition (IE)
+            url: /products/ie/
+          - text: Mezzanine Products
+            url: /products/mezzanine/
+          - text: Accessories
+            url: /products/accessories/
+    - title: Projects
+      options:
+          - text: Projects
+            url: /projects/
+          - text: Contribute
+            url: /projects/contribute.md/
+          - text: FAQ
+            url: /projects/faq.md/
+          - text: Submit a Project
+            url: /projects/submit.md/
+          - text: OpenHours
+            url: /openhours/
+    - title: Documentation
+      options:
+          - text: All Documentation
+            url: /documentation/
+          - text: Consumer Edition Docs
+            url: /documentation/consumer/
+          - text: Enterprise Edition Docs
+            url: /documentation/enterprise/
+          - text: IoT Edition Docs
+            url: /documentation/iot/
+          - text: Mezzanine Products Docs
+            url: /documentation/mezzanine/
+          - text: Specification Docs
+            url: /documentation/Specifications/
+          - text: Contribution Policy
+            url: /documentation/Extras/ContributionPolicy.md.html
+    - title: Forums
+      options:
+          - text: Discussion Forum
+            url: https://discuss.96boards.org/
+          - text: DragonBoard410c
+            url: https://discuss.96boards.org/c/products/dragonboard410c
+          - text: HiKey
+            url: https://discuss.96boards.org/c/products/hikey
+          - text: HiKey 960
+            url: https://discuss.96boards.org/c/products/hikey960
+          - text: MediaTek-X20
+            url: https://discuss.96boards.org/c/products/mediatek-x20
+          - text: Bubblegum-96
+            url: https://discuss.96boards.org/c/products/bubblegum96
+          - text: Poplar
+            url: https://discuss.96boards.org/c/products/poplar
+          - text: DragonBoard820c (Beta)
+            url: https://discuss.96boards.org/c/products/dragonboard820c
+          - text: General
+            url: https://discuss.96boards.org/c/general
+          - text: Specification
+            url: https://discuss.96boards.org/c/specification
+          - text: Login / Register
+            url: https://discuss.96boards.org/login
+    - title: Blog
+      url: /blog/

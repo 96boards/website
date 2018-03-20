@@ -5,9 +5,8 @@ description: |-
   productivity and efficiency, it is mandatory to have various technologies in place. One of the key
   challenges when it comes to agriculture is the lack of manpower.
 permalink: /verticals/agriculture/
-redirect_from: /verticals/Agriculture/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Agriculture

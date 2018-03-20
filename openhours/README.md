@@ -4,8 +4,8 @@ description: |-
     96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: empty-container-page-no-nav
-css-pack: openhours
+layout: container-breadcrumb-tabs
+css-package: openhours
 js-package: openhours
 ---
 <div class="col-md-6" markdown="1">
@@ -14,7 +14,9 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #95** - Episode 95, coming at you loud and clear! This week in OpenHours, we will be speaking with Keith Lee of Gumstix. Gumstix is releasing a new revision of the Aerocore 2 for the Dragonboard 410c and Keith will be demoing some of its newest features. So tune in for some very exciting demos. Of course, bring your questions and/or any other tech discussions to bring up during the broadcast, or hang around for when the recording shuts off for our AfterHours talk.
+**OpenHours Episode #95** - Episode 95, coming at you loud and clear! This week in OpenHours, we will be speaking with Keith Lee of Gumstix. Gumstix is releasing a new revision of the Aerocore 2 for the Dragonboard 410c and Keith will be demoing some of its newest features, including dual CSI-2 camera connectors. So tune in for some very exciting demos. Of course, bring your questions and/or any other tech discussions to bring up during the broadcast, or hang around for when the recording shuts off for our AfterHours talk.
+
+If you want to take a look at a previous OpenHours episode where Keith demoed the original Aero Core 2, check out [the YouTube archive.](https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk) 
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
@@ -42,7 +44,7 @@ The 96Boards Team
 
 </div>
 <div class="col-md-6">
-<div class="openhours-panel" markdown="1">
+<div class="openhours-panel" markdown="1" id="openhours-panel">
 ### When
 
 Every Thursday at 4pm UTC
