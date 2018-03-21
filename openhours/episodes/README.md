@@ -1,9 +1,9 @@
 ---
 title: OpenHours Episodes &amp; Guests
-permalink: /openhours/guests/
+permalink: /openhours/episodes/
 layout: container-breadcrumb-tabs
 ---
-# Episodes
+# Episodes  
 
 - Episode 13:
 - Episode 12:
