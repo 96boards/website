@@ -30,7 +30,7 @@ We’ll begin these sessions with introductions and announcements, presentation 
 
 These sessions will be held on BlueJeans and recorded so they can be made available after the session. There is a limit to a 100 participants so it will be first come first served initially!
 
-We look forward to talking with you
+We look forward to talking with you.
 
 The 96Boards Team
 
