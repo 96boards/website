@@ -4,8 +4,8 @@ pages:
         url: /openhours/
       - title: About
         url: /openhours/about/
-      - title: Guests
-        url: /openhours/guests/
+      - title: Episodes
+        url: /openhours/episodes/
       - title: Impact
         url: /openhours/impact/
       - title: Community
