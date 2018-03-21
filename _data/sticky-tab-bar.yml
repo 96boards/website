@@ -10,7 +10,7 @@ pages:
         url: /openhours/impact/
       - title: Community
         url: /openhours/community/
-    urls: [/openhours/,/openhours/about/,/openhours/guests/,/openhours/impact/,/openhours/community/]
+    urls: [/openhours/,/openhours/about/,/openhours/episodes/,/openhours/impact/,/openhours/community/]
   - list:
       - title: 96Boards Overview
         url: /about/
