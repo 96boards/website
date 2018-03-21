@@ -3,7 +3,7 @@ title: OpenHours Episodes &amp; Guests
 permalink: /openhours/guests/
 layout: container-breadcrumb-tabs
 ---
-# Epsidoes
+# Episodes
 
 - Episode 13:
 - Episode 12:
