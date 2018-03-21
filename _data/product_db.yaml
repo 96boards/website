@@ -587,12 +587,16 @@ products:
     product_buy_links:
       -
         link-title: Ultra96 Developer Board
-        link-url: "http://www.zedboard.org/product/ultra96/"
+        link-url: https://linaro.co/ultra96-buy
         from: Avnet.com
         type: board
         link-price: "249.00"
         link-price-currency: USD
-
+        
+    product_more_info:
+        - title: Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+          
     # Right Sidepanel links
     product_os:
       - title: Coming Soon...
