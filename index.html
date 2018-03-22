@@ -14,17 +14,24 @@ layout: boards-home
             </div>
             <div class="row">
                 <div id="featured-products-wrapper" class="hidden-xs">
-                    
-                    {% for product in site.data.featured_products %}
-                    
-                    <a href="{{product.url}}">
-                        <div class="col-sm-4 featured-product">
-                            <h3 class="featured-product-title">{{product.title}}</h3>
-                            <span class="featured-product-price">From {{product.price}}</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
-                        </div>
-                    </a>
-
+                    {% for product in site.data.featured_products limit:6 %}
+                        {% if forloop.index < 3 %}
+                        <a href="{{product.url}}">
+                            <div class="col-sm-4 featured-product">
+                                <h3 class="featured-product-title">{{product.title}}</h3>
+                                <span class="featured-product-price">From {{product.price}}</span>
+                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <a href="{{product.url}}">
+                            <div class="col-sm-4 featured-product bottom">
+                                <h3 class="featured-product-title">{{product.title}}</h3>
+                                <span class="featured-product-price">From {{product.price}}</span>
+                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
+                            </div>
+                        </a>
+                        {% endif %}
                     {% endfor %}
                 </div>
                 
@@ -74,15 +81,12 @@ layout: boards-home
                 </div> <!-- // home product-carousel -->
                 
             </div>
-            
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <a id="explore-boards" class="btn explore-boards" href="/products/">Explore Boards</a>
                 </div>
             </div>
         </div>
-
-
     </div>
     
     <div class="row" id="specifications-row">
@@ -281,21 +285,8 @@ layout: boards-home
                         </div>
                     </div>
                 </div>
-                
-                
-                
-                
-                
-                
-            </div> <!-- //home blog carousel -->
             
-            
-            
-            
-            
-            
-            
-            
+            </div> <!-- //home blog carousel -->    
         </div>
 
     </div>
@@ -339,6 +330,9 @@ layout: boards-home
                                <div class="col-xs-12">
                                    <a href="{{blog.url}}">
                                        <h3 class="blog-featured-title">{{blog.title}}</h3>
+                                       <p>
+                                           {{ post.content | strip_html | truncatewords:30 }}
+                                       </p>
                                    </a>
                                </div>
                            </div>
@@ -401,6 +395,9 @@ layout: boards-home
                            <div class="col-xs-12">
                                <a href="{{blog.url}}">
                                    <h3 class="blog-featured-title">{{blog.title}}</h3>
+                                   <p>
+                                       {{ post.content | strip_html | truncatewords:30 }}
+                                   </p>
                                </a>
                            </div>
                        </div>
