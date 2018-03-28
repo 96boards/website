@@ -14,48 +14,25 @@ layout: boards-home
             </div>
             <div class="row">
                 <div id="featured-products-wrapper" class="hidden-xs">
-                    <a href="/product/hikey960/">
-                        <div class="col-sm-4 featured-product">
-                            <h3 class="featured-product-title">HiKey 960</h3>
-                            <span class="featured-product-price">From $239</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'hikey960-hd.png' %})"></div>
-                        </div>
-                    </a>
-                    <a href="/product/hikey/">
-                        <div class="col-sm-4 featured-product">
-                            <h3 class="featured-product-title">HiKey</h3>
-                            <span class="featured-product-price">From $75</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Hikey-Lemaker-front-web.png' %})"></div>
-                        </div>
-                    </a>
-                    <a href="/product/dragonboard410c/">
-                        <div class="col-sm-4 featured-product">
-                            <h3 class="featured-product-title">DragonBoard™ 410c</h3>
-                            <span class="featured-product-price">From $79</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'DragonBoard-UpdatedImages-front.png' %})"></div>
-                        </div>
-                    </a>
-                    <a href="/product/carbon/">
-                        <div class="col-sm-4 featured-product bottom">
-                            <h3 class="featured-product-title">Carbon</h3>
-                            <span class="featured-product-price">From $27.95</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Carbon_Front-SD.png' %}")></div>
-                        </div>
-                    </a>
-                    <a href="/product/nitrogen/">
-                        <div class="col-sm-4 featured-product bottom">
-                            <h3 class="featured-product-title">Nitrogen</h3>
-                            <span class="featured-product-price">From $27.95</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'nitrogen-front-web.jpg' %})"></div>
-                        </div>
-                    </a>
-                    <a href="/product/uartserial/">
-                        <div class="col-sm-4 featured-product bottom">
-                            <h3 class="featured-product-title">UART Adapter Board</h3>
-                            <span class="featured-product-price">From $14.99</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path '96boards-uarts-seed4-crop.jpg' %})"></div>
-                        </div>
-                    </a>
+                    {% for product in site.data.featured_products limit:6 %}
+                        {% if forloop.index < 3 %}
+                        <a href="{{product.url}}">
+                            <div class="col-sm-4 featured-product">
+                                <h3 class="featured-product-title">{{product.title}}</h3>
+                                <span class="featured-product-price">From {{product.price}}</span>
+                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <a href="{{product.url}}">
+                            <div class="col-sm-4 featured-product bottom">
+                                <h3 class="featured-product-title">{{product.title}}</h3>
+                                <span class="featured-product-price">From {{product.price}}</span>
+                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
+                            </div>
+                        </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 
                 <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">                    
@@ -104,15 +81,12 @@ layout: boards-home
                 </div> <!-- // home product-carousel -->
                 
             </div>
-            
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <a id="explore-boards" class="btn explore-boards" href="/products/">Explore Boards</a>
                 </div>
             </div>
         </div>
-
-
     </div>
     
     <div class="row" id="specifications-row">
@@ -311,21 +285,8 @@ layout: boards-home
                         </div>
                     </div>
                 </div>
-                
-                
-                
-                
-                
-                
-            </div> <!-- //home blog carousel -->
             
-            
-            
-            
-            
-            
-            
-            
+            </div> <!-- //home blog carousel -->    
         </div>
 
     </div>
@@ -369,6 +330,9 @@ layout: boards-home
                                <div class="col-xs-12">
                                    <a href="{{blog.url}}">
                                        <h3 class="blog-featured-title">{{blog.title}}</h3>
+                                       <p>
+                                           {{ post.content | strip_html | truncatewords:30 }}
+                                       </p>
                                    </a>
                                </div>
                            </div>
@@ -431,6 +395,9 @@ layout: boards-home
                            <div class="col-xs-12">
                                <a href="{{blog.url}}">
                                    <h3 class="blog-featured-title">{{blog.title}}</h3>
+                                   <p>
+                                       {{ post.content | strip_html | truncatewords:30 }}
+                                   </p>
                                </a>
                            </div>
                        </div>

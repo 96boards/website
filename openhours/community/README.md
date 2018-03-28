@@ -2,6 +2,7 @@
 title: OpenHours Community
 permalink: /openhours/community/
 layout: container-breadcrumb-tabs
+css-package: openhours
 ---
 # Leaderboard
 
