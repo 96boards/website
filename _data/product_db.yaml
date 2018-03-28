@@ -582,18 +582,21 @@ products:
 
     product_getting_started: /documentation/consumer/ultra96/getting-started/
     product_documentation_link: /documentation/consumer/ultra96/
-    product_support_link: "https://discuss.96boards.org/c/products/ultra96/"
 
     # Buy Links
     product_buy_links:
       -
         link-title: Ultra96 Developer Board
-        link-url: "http://www.zedboard.org/product/ultra96/"
+        link-url: https://linaro.co/ultra96-buy
         from: Avnet.com
         type: board
         link-price: "249.00"
         link-price-currency: USD
-
+        
+    product_more_info:
+        - title: Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+          
     # Right Sidepanel links
     product_os:
       - title: Coming Soon...
@@ -603,6 +606,10 @@ products:
 
     product_third_party_images:
       - title: Coming Soon...
+      
+    product_more_info:
+        - title: Avnet
+        - link: https://linaro.co/ultra96-vendor-avnet
 
     # Bottom Link
     product_accessories:
