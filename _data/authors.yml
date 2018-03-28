@@ -1,11 +1,11 @@
 - username: Manivannan Sadhasivam
   shortname: mani
   image: 
-      name: Mani.jpg
+      name: mani-small.jpg
 - username: Sahaj Sarup
   shortname: sahaj
   image:
-      name: Sahaj.jpg
+      name: sahaj-small.jpg
 - username: Bill Fletcher
   shortname: bfletcher
   image:
@@ -13,4 +13,4 @@
 - username: Robert Wolff
   shortname: rwolf
   image:
-      name: robert-wolff.jpg
+      name: robert-small.jpg
