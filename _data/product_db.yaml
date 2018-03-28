@@ -592,7 +592,11 @@ products:
         type: board
         link-price: "249.00"
         link-price-currency: USD
-
+        
+    product_more_info:
+        - title: Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+          
     # Right Sidepanel links
     product_os:
       - title: Coming Soon...
