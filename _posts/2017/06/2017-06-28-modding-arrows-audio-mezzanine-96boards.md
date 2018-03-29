@@ -78,7 +78,7 @@ tags:
 ---
 # **Introduction**
 
-**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) is described as,**
+**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.96boards.org/product/audio-mezzanine/) is described as,**
 
 “This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards. You can connect 96Boards to various modules easily with this expansion board. There are six grove ports which can be used to connect rich Grove functional modules, which will make your application more complicated and attracting. In addition, this expansion board gets one 3.5 mm audio port and two independent MICs which can be applied into multimedia processing. Since 96Boards I/O voltage is set at 1.8 V, so it cannot be connected directly to embedded world. This expansion board has used voltage converting circuit so that you can choose 3.3V/5V as the output voltage. Other features are also embedded on this expansion board such as USB to Serial circuit and reset button, and so on, all those make 96Boards more conveniently to build applications.”
 
@@ -126,7 +126,7 @@ But, do remember that these board are in a limited supply from arrow, around 750
 
 ![Modding Arrow Audio Mezz Image 7]({% asset_path "modding-arrows-img-7.jpg" %}){:class="img-responsive lazyload"}
 
-**[https://www.arrow.com/en/products/audiomezz/seeed-technology-limited](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)**
+**[https://www.96boards.org/product/audio-mezzanine/](https://www.96boards.org/product/audio-mezzanine/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/0RmwPOo1-Gw" %}
 

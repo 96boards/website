@@ -51,7 +51,7 @@ tags:
 
 **- With help from guest Author,[ Jean-Marc Jobin](https://twitter.com/jmjobin)**
 
-The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android.md.html), complimented with the [Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
+The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android.md.html), complimented with the [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
 
 {% include media.html media_url="https://www.youtube.com/embed/Hixk8R_-ixQ" %}
 
@@ -63,7 +63,7 @@ The following notes summarize Jean-Marc's experience with the [DragonBoard 410c]
   * [96Boards Compliant power supply](/product/power/)
 
 
-  * [Audio Mezzanine Board](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)
+  * [Audio Mezzanine Board](https://www.96boards.org/product/audio-mezzanine/)
 
 
   * [16 pin (2 by 8) 2.0mm pitch connector](https://www.arrow.com/en/products/0877581616/molex)

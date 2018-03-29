@@ -531,7 +531,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [OpenHours](/openhours/) gets a visit from Andy Clark of [@Workshopshed](https://twitter.com/Workshopshed) ([Video](https://youtu.be/njMXCPLmPT4) &#124;[Blog](/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/))
 
 
-  * Arrow's [Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) goes on sale!
+  * Arrow's [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) goes on sale!
 
 
 
