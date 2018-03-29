@@ -8,19 +8,30 @@ layout: container-breadcrumb-tabs
 css-package: openhours
 js-package: openhours
 ---
+
 <div class="col-md-6" markdown="1">
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #96** - Sponsored by Linaro welcomes you to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2018. Bring your coffee and questions, demos and feedback because OpenHours is going to Hong Kong!
+**OpenHours Episode #97 :**
+
+Linaro (OpenHours Sponsor) welcomes you to participate in the ultimate community driven experience. This week we will discuss all that went down at Linaro Connect Hong Kong 2018, including but not limited to:
+
+- New Boards:
+  - HiKey970
+  - Rock960 PRO EE/CE
+  - Ultra96
+  - ArgonKey
+- 96boards.ai
+
+... and more.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
-* * *
 
 ### What is 96Boards OpenHours?
 
