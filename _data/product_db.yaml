@@ -107,7 +107,7 @@ products:
         link-price-currency: USD
       -
         link-title: "DragonBoard410c + Audio Kit"
-        link-url: "https://linaro.co/db410c-audio-buy-arrow"
+        link-url: "https://www.96boards.org/product/audio-mezzanine/"
         from: Arrow.com
         type: package
         link-price: "89.00"
