@@ -11,6 +11,18 @@ products:
       - rock960-front-sd.png
       - rock960-back-sd.png
 
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/rock960/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/rock960/
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/rock960/
+          tab_position: 4
+          tab_align_right: true
     # Buy Links
     product_buy_links:
       -
@@ -35,12 +47,11 @@ products:
     # Right Sidepanel links
     product_os:
       - title: AOSP
+        link: /documentation/consumer/rock960/downloads/aosp.md.html
       - title: Debian
+        link: /documentation/consumer/rock960/downloads/debian.md.html
       - title: Ubuntu
-      - title: Fedora
-      - title: LibreELEC
-      - title: Lakka
-      - title: FlintOS
+        link: /documentation/consumer/rock960/downloads/ubuntu.md.html
 
     product_middleware:
       - title: Coming Soon...
