@@ -52,12 +52,12 @@ products:
     # Right Sidepanel links
     product_os:
       - title: AOSP
-	  - title: Debian
-	  - title: Ubuntu
-	  - title: Fedora
-	  - title: LibreELEC
-	  - title: Lakka
-	  - title: FlintOS
+      - title: Debian
+      - title: Ubuntu
+      - title: Fedora
+      - title: LibreELEC
+      - title: Lakka
+      - title: FlintOS
 
     product_middleware:
       - title: Coming Soon...
