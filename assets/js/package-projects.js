@@ -1,8 +1,8 @@
-//= require vendor/jquery.min
-//= require vendor/bootstrap.min
-//= require vendor/cookieconsent.min
-//= require vendor/owl.carousel.min
-//= require vendor/lazysizes.min
+//= require vendor/jquery
+//= require vendor/bootstrap
+//= require vendor/cookieconsent
+//= require vendor/owl.carousel
+//= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/lightbox
 //= require vendor/discourse-api
