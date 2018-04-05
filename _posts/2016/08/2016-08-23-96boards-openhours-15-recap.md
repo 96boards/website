@@ -432,7 +432,7 @@ DM
 
 
 
-Contribution Policy [https://github.com/96boards/documentation/blob/master/ContributionPolicy.md](https://github.com/96boards/documentation/blob/master/Extras/ContributionPolicy.md)
+Contribution Policy [https://github.com/96boards/documentation/blob/master/CONTRIBUTE.md](https://github.com/96boards/documentation/blob/master/CONTRIBUTE.md)
 
 
 
