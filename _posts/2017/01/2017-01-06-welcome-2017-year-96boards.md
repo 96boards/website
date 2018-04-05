@@ -126,7 +126,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * The beginning of [Github website rendering](/documentation/)!
 
 
-    * 96Boards website now [welcomes community contributions](/documentation/Extras/ContributionPolicy.md.html).
+    * 96Boards website now [welcomes community contributions](/documentation/CONTRIBUTE.md.html).
 
 
 
