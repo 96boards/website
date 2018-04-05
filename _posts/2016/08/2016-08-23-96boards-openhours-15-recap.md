@@ -420,27 +420,6 @@ DM
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Contribution Policy [https://github.com/96boards/documentation/blob/master/ContributionPolicy.md](https://github.com/96boards/documentation/blob/master/Extras/ContributionPolicy.md)
-
-
-
-
-
-
-
-
 ![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 
 
