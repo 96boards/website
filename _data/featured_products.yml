@@ -1,24 +1,24 @@
-- title: HiKey 960
-  url: /product/hikey960/
-  image: hikey960-hd.png
-  price: $239
-- title: HiKey
-  url: /product/hikey/
-  image: Hikey-Lemaker-front-web.png
-  price: $75
+- title: ROCK960
+  url: /product/rock960/
+  image: rock960-front-sd.png
+  price: $99.00
 - title: DragonBoard™ 410c
   url: /product/dragonboard410c/
   image: DragonBoard-UpdatedImages-front.png
-  price: $79
-- title: Carbon
-  url: /product/carbon/
-  image: Carbon_Front-SD.png
-  price: $27.95
+  price: $75.00
+- title: Ultra96
+  url: /product/ultra96/
+  image: ultra96-front-sd.png
+  price: $249.00
+- title: HiKey 960
+  url: /product/hikey960/
+  image: hikey960-hd.png
+  price: $239.00
 - title: Nitrogen
   url: /product/nitrogen/
   image: nitrogen-front-web.jpg
   price: $27.95
-- title: UART Adapter Board
-  url: /product/uartserial/
-  image: 96boards-uarts-seed4-crop.jpg
-  price: $14.99
+- title: DragonBoard 820c
+  url: /product/dragonboard820c/
+  image: dragonboard820c-front-sd.png
+  price: $199.00
