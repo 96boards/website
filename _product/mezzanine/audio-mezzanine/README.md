@@ -20,7 +20,7 @@ applications.
 
 ## Buy Now
 
-- [Arrow Electronics](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)
+- [Arrow Electronics](https://www.96boards.org/product/audio-mezzanine/)
 
 ***
 

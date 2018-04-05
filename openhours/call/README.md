@@ -5,6 +5,7 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/call/"
 layout: container-breadcrumb
+css-package: openhours
 ---
 <div class="col-md-12">
     <object type="text/html" data="https://bluejeans.com/711957081/browser" style="width:100%; height:800px">

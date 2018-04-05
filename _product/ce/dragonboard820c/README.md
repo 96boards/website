@@ -33,9 +33,9 @@ a commercial product.
 |:---------------------|:-------------------------------------------------------------------------------|
 |  SoC                 | Qualcomm® Snapdragon™ 820E                                                     |
 |  CPU                 | Snapdragon 820E embedded platform, custom 64-bit Kryo quad-core CPU up to 2.35GHz , 14nm FinFET process technology                                                  |
-|  GPU                 | Adreno™ 530 GPU OpenGL ES 3.1 + AEP, OpenCL2.0 Full1, Vulcan, Renderscript, 64-bit virtual addressing                                                                                  |
-|  RAM                 | Dual-channel PoP LPDDR4 1866MHz                                                |
-|  Storage             | 32GB UFS 2.0 and SD 3.0 (UHS-I)                                                |
+|  GPU                 | Adreno™ 530 GPU OpenGL ES 3.1 + AEP, Vulcan, Renderscript, 64-bit virtual addressing                                                                                  |
+|  RAM                 | Quad-channel, 16bit, 3GB PoP LPDDR4 SDRAM designed for 1866 MHz clock rate                                              |
+|  Storage             | UFS2.0 gear 3 (1-lane) 32GB , and SD3.0                                              |
 |  Ethernet Port       | GbE Ethernet connection                                                        |
 |  Wireless            | WLAN 802.11ac and Bluetooth 4.2                                                |
 |  USB                 | One USB 2.0 micro B (device mode only)<br>Two USB 3.0 (host mode only)                                                                 |

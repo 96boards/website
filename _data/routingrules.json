@@ -32,6 +32,7 @@
     "^/documentation/ConsumerEdition/HiKey960/README.md(/?|/index.html)$ /documentation/consumer/hikey960/ [R,L,NC]",
     "^/documentation/ConsumerEdition/README.md(/?|/index.html)$ /documentation/consumer/ [R,L,NC]",
     "^/documentation/ConsumerEdition(/?|/index.html)$ /documentation/consumer/ [R,L,NC]",
+    "^/documentation/Extras/ContributionPolicy.md.html$ /documentation/CONTRIBUTE.md.html [R,L,NC]",
     "^/documentation/EnterpriseEdition(/?|/index.html)$ /documentation/enterprise/ [R,L,NC]",
     "^/documentation/Extras/ContributionPolicy.md(/?|/index.html)$ /documentation/Extras/ContributionPolicy.md.html [R,L,NC]",
     "^/documentation/IoTEdition(/?|/index.html)$ /documentation/iot/ [R,L,NC]",
