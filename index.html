@@ -300,25 +300,25 @@ layout: boards-home
             <div id="latest-blogs" class="hidden-xs">
                 <div class="row">
                     
-                    {% for blog in site.posts limit:4 %}
-                    {% assign author = site.data.authors | where: "username", blog.author | first %}
+                    {% for post in site.posts limit:4 %}
+                    {% assign author = site.data.authors | where: "username", post.author | first %}
 
                        <div class="col-sm-3 blog-post">
                            <div class="row image">
-                               <a href="{{blog.url}}">
-                                   <div class="blog-featured-image-home" {% if assets[blog.thumbnail_image] %}
-                                style="background-image: url('{% asset_path '{{blog.thumbnail_image}}'%}')"
-                             {% elsif blog.featured_image %}
-                                 style="background-image: url('/assets/thumbnails/blog/{{blog.featured_image}}')"
-                             {% elsif blog.image.featured %}
-                                {% if blog.image.thumb %}
-                                      {% if assets[blog.image.thumb] %}
-                                         style="background-image: url('{% asset_path '{{blog.image.thumb}}'%}')"
+                               <a href="{{post.url}}">
+                                   <div class="blog-featured-image-home" {% if assets[post.thumbnail_image] %}
+                                style="background-image: url('{% asset_path '{{post.thumbnail_image}}'%}')"
+                             {% elsif post.featured_image %}
+                                 style="background-image: url('/assets/thumbnails/blog/{{post.featured_image}}')"
+                             {% elsif post.image.featured %}
+                                {% if post.image.thumb %}
+                                      {% if assets[post.image.thumb] %}
+                                         style="background-image: url('{% asset_path '{{post.image.thumb}}'%}')"
                                       {% else %}
-                                         style="background-image: url('{{blog.image.thumb}}')"
+                                         style="background-image: url('{{post.image.thumb}}')"
                                       {% endif  %}
                                  {% else %}
-                                       style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{blog.image.name}}')"
+                                       style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{post.image.name}}')"
                                  {% endif %}
                              {% else %}
                                 style="background-image: url('{% asset_path 'placeholder.png' %}')"
@@ -328,8 +328,8 @@ layout: boards-home
                            
                            <div class="row title">
                                <div class="col-xs-12">
-                                   <a href="{{blog.url}}">
-                                       <h3 class="blog-featured-title">{{blog.title}}</h3>
+                                   <a href="{{post.url}}">
+                                       <h3 class="blog-featured-title">{{post.title}}</h3>
                                        <p>
                                            {{ post.content | strip_html | truncatewords:30 }}
                                        </p>
@@ -345,10 +345,10 @@ layout: boards-home
                         {% endif %}')"></div>
                                </div>
                                <div class="col-xs-9">
-                                   <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
-                                   {% if blog.date %}
+                                   <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
+                                   {% if post.date %}
                                    <span class="date">
-                                       {{blog.date |  date: "%B %-d, %Y"}}
+                                       {{post.date |  date: "%B %-d, %Y"}}
                                    </span>
                                    {% endif %}
                                </div>
@@ -362,28 +362,28 @@ layout: boards-home
             
             <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">  
                 
-                {% for blog in site.posts limit:4 %}
+                {% for post in site.posts limit:4 %}
                 
-                {% assign author = site.data.authors | where: "username", blog.author | first %}
+                {% assign author = site.data.authors | where: "username", post.author | first %}
                                 
                 <div class="owl-item__inner">
                   <div class="col-xs-12 no-padding visible-xs">
                    <div class="col-xs-12 no-padding blog-post">
                        <div class="row image">
-                           <a href="{{blog.url}}">
-                               <div class="lazyload blog-featured-image-home" {% if assets[blog.thumbnail_image] %}
-                            style="background-image: url('{% asset_path '{{blog.thumbnail_image}}'%}')"
-                         {% elsif blog.featured_image %}
-                             style="background-image: url('/assets/thumbnails/blog/{{blog.featured_image}}')"
-                         {% elsif blog.image.featured %}
-                            {% if blog.image.thumb %}
-                                  {% if assets[blog.image.thumb] %}
-                                     style="background-image: url('{% asset_path '{{blog.image.thumb}}'%}')"
+                           <a href="{{post.url}}">
+                               <div class="lazyload blog-featured-image-home" {% if assets[post.thumbnail_image] %}
+                            style="background-image: url('{% asset_path '{{post.thumbnail_image}}'%}')"
+                         {% elsif post.featured_image %}
+                             style="background-image: url('/assets/thumbnails/blog/{{post.featured_image}}')"
+                         {% elsif post.image.featured %}
+                            {% if post.image.thumb %}
+                                  {% if assets[post.image.thumb] %}
+                                     style="background-image: url('{% asset_path '{{post.image.thumb}}'%}')"
                                   {% else %}
-                                     style="background-image: url('{{blog.image.thumb}}')"
+                                     style="background-image: url('{{post.image.thumb}}')"
                                   {% endif  %}
                              {% else %}
-                                   style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{blog.image.name}}')"
+                                   style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{post.image.name}}')"
                              {% endif %}
                          {% else %}
                             style="background-image: url('{% asset_path 'placeholder.png' %}')"
@@ -393,8 +393,8 @@ layout: boards-home
                        
                        <div class="row title">
                            <div class="col-xs-12">
-                               <a href="{{blog.url}}">
-                                   <h3 class="blog-featured-title">{{blog.title}}</h3>
+                               <a href="{{post.url}}">
+                                   <h3 class="blog-featured-title">{{post.title}}</h3>
                                    <p>
                                        {{ post.content | strip_html | truncatewords:30 }}
                                    </p>
@@ -410,10 +410,10 @@ layout: boards-home
                     {% endif %}')"></div>
                            </div>
                            <div class="col-xs-9">
-                               <h3>{% if author.username %}{{author.username}}{% else %}{{blog.author}}{% endif %}</h3>
-                               {% if blog.date %}
+                               <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
+                               {% if post.date %}
                                <span class="date">
-                                   {{blog.date |  date:  "%B %-d, %Y"}}
+                                   {{post.date |  date:  "%B %-d, %Y"}}
                                </span>
                                {% endif %}
                            </div>
