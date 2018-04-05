@@ -318,7 +318,7 @@ layout: boards-home
                                          style="background-image: url('{{blog.image.thumb}}')"
                                       {% endif  %}
                                  {% else %}
-                                       style="background-image: url('/{{site.mini_magick.blog_thumbnail_static.destination}}/{{blog.image.name}}')"
+                                       style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{blog.image.name}}')"
                                  {% endif %}
                              {% else %}
                                 style="background-image: url('{% asset_path 'placeholder.png' %}')"
@@ -383,7 +383,7 @@ layout: boards-home
                                      style="background-image: url('{{blog.image.thumb}}')"
                                   {% endif  %}
                              {% else %}
-                                   style="background-image: url('/{{site.mini_magick.blog_thumbnail_static.destination}}/{{blog.image.name}}')"
+                                   style="background-image: url('/{{site.mini_magick.thumbnails.destination}}/{{blog.image.name}}')"
                              {% endif %}
                          {% else %}
                             style="background-image: url('{% asset_path 'placeholder.png' %}')"
