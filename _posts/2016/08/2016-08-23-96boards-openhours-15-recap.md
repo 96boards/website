@@ -414,11 +414,7 @@ DM
 [https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676](https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676)
 
 
-
-
-
-
-
+Contribution Policy [https://github.com/96boards/documentation/blob/master/CONTRIBUTE.md](https://github.com/96boards/documentation/blob/master/CONTRIBUTE.md)
 
 ![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 
