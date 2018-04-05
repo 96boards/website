@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/oaid.jpg
     name: oaid.jpg
-    thumb: oaid-thumb.jpeg
+    thumb: oaid-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, OAID, AI, Machine Learning, ACL, Caffe, MxNet
 ---
