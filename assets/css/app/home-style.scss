@@ -10,6 +10,23 @@
     position: relative;
 }
 
+#content-container #latest-blogs p {
+    font-size: 10px;
+}
+
+#buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five {
+    background-color: #060606;
+    border-color: #3c3c3c;
+    color: dimgrey;
+    border-radius: 10px !important;
+}
+
+#buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px !important;
+}
+
 #board-specifications a.btn.view-spec:hover {
     background-color:#000;
     color:white ;
