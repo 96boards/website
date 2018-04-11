@@ -1,19 +1,19 @@
-.fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
+#content-container .fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
     background-color: #19937a;
     border: 1px solid #19937a;
 }
 
-.fessWrapper .pagination > li > a, .fessWrapper .pagination > li > span {
+#content-container .fessWrapper .pagination > li > a, .fessWrapper .pagination > li > span {
     background-color: white;
     color: #989898;
 }
 
-.fessWrapper .pagination > li > a:focus, .fessWrapper .pagination > li > a:hover, .fessWrapper .pagination > li > span:focus, .fessWrapper .pagination > li > span:hover {
+#content-container .fessWrapper .pagination > li > a:focus, .fessWrapper .pagination > li > a:hover, .fessWrapper .pagination > li > span:focus, .fessWrapper .pagination > li > span:hover {
     color: white;
     background-color: black;
     border:1px solid black;
 }
 
-.fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
+#content-container .fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
     color: white;
 }
