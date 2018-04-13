@@ -39,11 +39,11 @@ products:
         type: board
         link-price: "99.00"
         link-price-currency: USD
-        
+
     product_more_info:
         - title: 96Rocks
           link: https://www.96rocks.com/
-          
+
     # Right Sidepanel links
     product_os:
       - title: AOSP
@@ -677,11 +677,11 @@ products:
         type: board
         link-price: "249.00"
         link-price-currency: USD
-        
+
     product_more_info:
         - title: Avnet
           link: https://linaro.co/ultra96-vendor-avnet
-          
+
     # Right Sidepanel links
     product_os:
       - title: Coming Soon...
@@ -690,8 +690,9 @@ products:
       - title: Coming Soon...
 
     product_third_party_images:
-      - title: Coming Soon...
-      
+      - title: OpenSUSE
+        link: https://en.opensuse.org/HCL:Ultra96
+
     product_more_info:
         - title: Avnet
         - link: https://linaro.co/ultra96-vendor-avnet
@@ -721,7 +722,7 @@ products:
 
     product_kits:
       - title: Coming Soon...
-  
+
   - product_title: Mediatek X20 Development Board
     display_product: true
     product_permalink: /product/mediatek-x20/
