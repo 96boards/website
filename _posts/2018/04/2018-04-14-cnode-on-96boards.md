@@ -18,7 +18,9 @@ Hi! 96Boards has partnered with UCSD ECE to begin development into Cryptocurrenc
 The team at (Team H) UCSD is currently investing its time into research specifically on which coins are ammenable to the project. After cementing a choice, a wallet, miner, and node host for said coin will be attempted. Current progress has the group close to up-to-speed on existing technologies and methodologies behind the operations of each of the three. Once these features are implemented, integration of the three as well as a supporting GUI will be worked upon.
 [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
 Currently wallet implementation is the goal.
+
 #Slides from the week
+
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/37EuhhjlKLkMsc"  %}
 
 # Conclusion
