@@ -4,7 +4,7 @@ author: Andrew Betts
 date: 2018-04-13 17:00:00+00:00
 image:
     featured: true
-    path: /assets/images/blog/oaid.jpg
+    path: /assets/images/blog/ucsd.png
     name: ucsd.png
     thumb: ucsd-thumb.png
 categories: blog
