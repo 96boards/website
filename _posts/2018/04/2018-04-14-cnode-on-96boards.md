@@ -19,7 +19,7 @@ The team at (Team H) UCSD is currently investing its time into research specific
 [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
 Currently wallet implementation is the goal.
 
-#Slides from the week
+# Slides from the week
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/37EuhhjlKLkMsc"  %}
 
