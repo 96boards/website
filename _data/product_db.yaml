@@ -591,8 +591,7 @@ products:
         type: board
         link-price: "199.00"
         link-price-currency: USD
-        out-of-stock: true
-
+        
     # Right Sidepanel links
     product_os:
       - title: Debian
