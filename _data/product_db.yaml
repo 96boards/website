@@ -88,7 +88,7 @@ products:
  - product_title: Chameleon96 (Novtech)
  	display_product: true
  	product_permalink: /product/chameleon96/
- 	product_short_desc: "The Rock960 is a development board based on the Intel Cyclone V SoC FPGA"
+ 	product_short_desc: "The Chameleon96 is a development board based on the Intel Cyclone V SoC FPGA"
  	product_specification: ce
  	featured_product_order: 2
  	is_featured: true
@@ -96,7 +96,7 @@ products:
  		- chameleon96-front-sd.png
  		- chameleon96-back-sd.png
 
- 	# Sub Tab Menu Items
+    # Sub Tab Menu Items
  	product_tab_menu:
  			- tab_title: Getting Started
  				tab_link: /documentation/consumer/chameleon96/getting-started/
@@ -108,21 +108,21 @@ products:
  				tab_link: https://discuss.96boards.org/c/products/chameleon96/
  				tab_position: 4
  				tab_align_right: true
- 	# Buy Links
+    # Buy Links
  	product_buy_links:
  		-
  			link-title: Chameleon96 (Arrow)
- 			link-url: ""
+ 			link-url: "https://www.arrow.com/en/products/chameleon96/novtech-inc"
  			from: Arrow.com
  			type: board
- 			link-price: ".00"
+ 			link-price: "129.00"
  			link-price-currency: USD
-			
+
  	product_more_info:
  			- title: Chameleon96
  				link: 
-				
- 	# Right Sidepanel links
+
+    # Right Sidepanel links
  	product_os:
  		- title: Linux
  			link: /documentation/consumer/chameleon96/installation/README.md.html
@@ -133,7 +133,7 @@ products:
  	product_third_party_images:
  		- title: Coming Soon...
 
- 	# Bottom Link
+    # Bottom Link
  	product_accessories:
  		- title: Power
  			link: /product/power/
