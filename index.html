@@ -15,7 +15,7 @@ layout: boards-home
             <div class="row">
                 <div id="featured-products-wrapper" class="hidden-xs">
                     {% for product in site.data.featured_products limit:6 %}
-                        {% if forloop.index < 3 %}
+                        {% if forloop.index < 4 %}
                         <a href="{{product.url}}">
                             <div class="col-sm-4 featured-product">
                                 <h3 class="featured-product-title">{{product.title}}</h3>
