@@ -67,7 +67,7 @@ pages:
           - text: Specification Docs
             url: /documentation/Specifications/
           - text: Contribution Policy
-            url: /documentation/Extras/ContributionPolicy.md.html
+            url: /documentation/CONTRIBUTE.md.html
     - title: Forums
       options:
           - text: Discussion Forum

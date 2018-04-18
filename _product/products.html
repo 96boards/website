@@ -52,9 +52,13 @@ css-package: products
                         <span class="sr-only">Toggle Dropdown</span>
                       </button>
                       <ul class="dropdown-menu buy-dropup-menu">
+                          {% if product.out-of-stock == true %}
+                          <li>Currently out of stock.</li>
+                          {% else %}
                           {% for buy_link in product.product_buy_links %}
                           <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
                           {% endfor %}
+                          {% endif  %}
                       </ul>
                     </div>
                 </div>
