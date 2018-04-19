@@ -125,7 +125,7 @@ products:
     # Right Sidepanel links
     product_os:
         - title: Linux
-          link: /documentation/consumer/chameleon96/installation/README.md.html
+          link: /documentation/consumer/chameleon96/installation/
 
     product_middleware:
         - title: Coming Soon...
