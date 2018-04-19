@@ -68,6 +68,7 @@ span.date {
     padding-bottom: 10px;
     padding-top: 10px;
     border-top: 1px solid #eee;
+    height: 70px;
 }
 
 .col-sm-3.blog-post {
@@ -76,10 +77,14 @@ span.date {
 }
 @media(max-width:$screen-xs-min){
     h2#featured-boards {
-        font-size: 18px;
+        font-size: 21px;
     }
 }
-
+@media(max-width:$screen-sm-min){
+    #content-container .blog-post p {
+        font-size: 10px;
+    }
+}
 
 div#featured-products-wrapper {
     overflow: auto;
