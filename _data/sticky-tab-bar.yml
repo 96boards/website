@@ -75,7 +75,8 @@ pages:
       - title: All Docs
         url: /documentation/
       - title: Guides
-        url: /documentation/guides.md.html
+        url: /documentation/guides/
+        sub-pages: true
       - title: Consumer Edition
         url: /documentation/consumer/
         sub-pages: true
@@ -92,7 +93,7 @@ pages:
         url: /documentation/Specifications/
         sub-pages: true
     sub-pages-enabled: true
-    urls: [/documentation/,/documentation/guides.md.html,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/,
+    urls: [/documentation/,/documentation/guides/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/,
     /documentation/Extras/]
   - list:
       - title: Overview
