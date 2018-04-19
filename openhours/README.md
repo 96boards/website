@@ -17,7 +17,7 @@ js-package: openhours
 
 **OpenHours Episode #100 : EOF for Phase 1**
 
-<img src="https://i.imgur.com/ApfvBlx.jpg" data-canonical-src="https://i.imgur.com/ApfvBlx.jpg" width="800" height="450" />
+<img data-src="https://i.imgur.com/ApfvBlx.jpg" alt="OpenHours Graphic" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="img-responsive lazyload center-block"/>
 
 Out with the old and in with the new:
 
