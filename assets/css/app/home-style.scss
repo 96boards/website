@@ -84,7 +84,21 @@ span.date {
     #content-container .blog-post p {
         font-size: 10px;
     }
+    #jumbotron-caption span.linaro-green {
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
+
+#jumbotron-caption span.linaro-green {
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:  block;
+}
+
 
 div#featured-products-wrapper {
     overflow: auto;
