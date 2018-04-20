@@ -7,6 +7,81 @@ description: |-
     DragonBoard 820c by Arrow Electronics, development board based on the top-tier Qualcomm® Snapdragon™ 820E processor. Low-Cost Product Development Platform
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
+#product_title: DragonBoard™ 820c (Arrow)
+display_product: true
+#product_permalink: /product/dragonboard820c/
+product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
+product_specification: ce
+featured_product_order: 2
+is_featured: true
+product_images:
+  - dragonboard820c-front-sd.png
+  - dragonboard820c-back-sd.png
+
+# Sub Tab Menu Items
+product_tab_menu:
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/dragonboard820c/getting-started/
+      tab_position: 1
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/dragonboard820c/
+      tab_position: 2
+      tab_position: 3
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
+      tab_position: 4
+      tab_align_right: true
+
+product_getting_started: /documentation/consumer/dragonboard820c/getting-started/
+product_documentation_link: /documentation/consumer/dragonboard820c/
+product_tutorials_link: /tutorials/dragonboard820c/
+product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
+
+# Buy Links
+product_buy_links:
+  -
+    link-title: DragonBoard820c (Basic Kit)
+    link-url: "https://www.arrow.com/en/products/dragonboard820c/arrow-development-tools"
+    from: Arrow.com
+    type: board
+    link-price: "199.00"
+    link-price-currency: USD
+# Right Sidepanel links
+product_os:
+  - title: Debian
+    link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
+
+product_middleware:
+  - title: Coming Soon...
+
+product_third_party_images:
+  - title: Coming Soon...
+
+# Bottom Link
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+
+product_mezzanine:
+  - title: D3 Camera Mezzanine
+    link: /product/d3camera/
+  - title: Link Sprite Sensor Kit
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+  - title: Audio Mezzanine
+    link: /product/audio-mezzanine/
+
+product_kits:
+  - title: Coming Soon...
 ---
 # DragonBoard 820c
 

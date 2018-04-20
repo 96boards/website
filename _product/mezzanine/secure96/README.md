@@ -7,6 +7,48 @@ description: |-
 image:
     path: /assets/images/products/secure96-social-media.jpg
     name: secure96-social-media.jpg
+#product_title: Secure96 Mezzanine
+featured_product_order: 8
+is_featured: true
+display_product: true
+#product_permalink: /product/secure96/
+product_tab_menu:
+    - tab_title: Documentation
+      tab_link: /documentation/mezzanine/secure96/
+      tab_position: 1
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/mezzanine
+      tab_position: 2
+      tab_align_right: true
+product_specification: "mezzanine"
+product_short_desc: "This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets."
+product_long_desc: |-
+    This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
+product_images:
+  - secure96-angle1-hd.jpg
+  - secure96-angle2-hd.jpg
+  - secure96-angle3-hd.jpg
+  - secure96-back-hd.jpg
+  - secure96-button-hd.jpg
+  - secure96-front-hd.jpg
+  - secure96-port-hd.jpg
+product_buy_links:
+  -
+    link-title: Amazon
+    link-price: 31.99
+    from: amazon.com
+    type: board
+    link-price-currency: USD
+    link-url: "http://linaro.co/buy-secure96"
+product_more_info:
+  - title: Schematics (View)
+    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+  - title: Schematics (Download)
+    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+  - title: Getting Started Guide (View)
+    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+  - title: Getting Started Guide (Download)
+    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
 ---
 # Secure96 Mezzanine Board
 

@@ -3,6 +3,57 @@ title: Power Accessories
 permalink: /product/power/
 layout: accessory-display-page
 description: Power Accessories for 96Boards
+accessories:
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
+    accessory_description: |-
+        Arrow are providing this power supply worldwide and recommend it for all 96Boards.
+        The adapter has a US plug, but supports 90-264V AC input and 12V 2A output.
+    accessory_order_link:
+        - https://www.arrow.com/en/products/wm24p6-12-a-ql/autec-power-systems
+    accessory_search_term: Plug-In Adapter Single-OUT 12V 2A 24W
+    accessory_images:
+        - accessories-arrow-power.jpg
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: Universal power supply
+    accessory_description: |-
+        This is a 12V 2A power supply with universal connectivity on both ends.
+        A little more expensive than a standard 1.7mm or 2.1mm supply with a
+        fixed power plug , we have used these on the HiKey and DragonBoard 410c
+        boards without any issues or adapters required. One thing to ensure is
+        that the board end is connected with center pin positive.
+    accessory_order_link:
+        - http://cpc.farnell.com/ideal-power/25hk-ab-120a250-cp6/psu-desktop-plug-in-12v-2-5a-vi/dp/PW04128?rpsku=rel1:PW03336&isexcsku=false
+    accessory_search_term: 25HK-AB-120A250-CP
+    accessory_more_info: http://www.idealpower.co.uk/external-power-supply/interchangeable-switched-mode/25HK-AB-120A250-CP
+    accessory_images:
+        - accessories-2.png
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: 5.5/2.1mm to 4.75/1.7mm cable DC plug converter
+    accessory_description: |-
+        This cable adapter seems to be easier to find that the direct converter,
+        but offers a similar low cost solution to convert more readily available
+        12V 2A 5.5/2.1mm power supplies down to the 96Boards 4.75/1.7mm power jack.
+
+    accessory_order_link:
+        - http://www.amazon.com/Super-Power-Supply%C2%AE-5-5x2-1mm-4-8x1-7mm/dp/B00EA4Q60K/ref=sr_1_4?ie=UTF8&qid=1436114814&sr=8-4
+    accessory_search_term: 2.1mm to 1.7mm power adapter
+    accessory_images:
+        - accessories-power-3.png
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: 2.1mm to 1.7mm DC plug adapter
+    accessory_description: |-
+        Low cost solution to convert more readily available 12V 2A 2.1mm power
+        supplies down to the 96Boards 1.7mm power jack.
+    accessory_order_link:
+        - http://www.amazon.co.uk/5-5mm-1-7mm-2-1mm-Female-Adapter/dp/B00MJSNNDC/ref=sr_1_19?ie=UTF8&qid=1422616362&sr=8-19
+    accessory_search_term: 2.1mm to 1.7mm power adapter
+    accessory_images:
+        - accessories-power-4.png
 ---
 The 96Boards CE boards require an 8-18V 2A power supply.
 
