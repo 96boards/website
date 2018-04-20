@@ -13,4 +13,5 @@
 //= require app/sticky-tab-bar
 //= require app/tables
 //= require vendor/mc-validate
+//= require vendor/shuffle
 //= require app/custom
