@@ -1,6 +1,6 @@
 products:
 # ce, EE, IE Products
-  - product_title: DeveloperBox (SocioNext)
+  - product_title: DeveloperBox (Socionext)
     display_product: true
     product_permalink: /product/developerbox/
     product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
@@ -34,7 +34,7 @@ products:
         link-price-currency: USD
 
     product_more_info:
-        - title: SocioNext
+        - title: Socionext
           link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
 
     # Right Sidepanel links
