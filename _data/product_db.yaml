@@ -1,5 +1,74 @@
 products:
 # ce, EE, IE Products
+  - product_title: DeveloperBox (SocioNext)
+    display_product: true
+    product_permalink: /product/developerbox/
+    product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - developerbox-front-sd.png
+      - developerbox-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/developerbox/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/developerbox
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/developerbox/
+          tab_position: 4
+          tab_align_right: true
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DeveloperBox (Chip1Stop)
+        link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
+        from: chip1stop.com
+        type: board
+        link-price: "1230.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: SocioNext
+          link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
+
+    # Right Sidepanel links
+    product_os:
+      - title: EDK2 (Firmware)
+	    link: /documentation/consumer/developerbox/downloads/edk2.md.html
+	  - title: Debian
+        link: /documentation/consumer/developerbox/downloads/debian.md.html
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
   - product_title: Rock960 (Vamrs)
     display_product: true
     product_permalink: /product/rock960/
