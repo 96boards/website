@@ -7,7 +7,7 @@ layout: container-breadcrumb
 ---
 # May is the month for Women in STEM!
 
-Get ready for an A-May-zing month of Women in STEM! If you are hear to read more about the initiative, please continue! You can also skip straight to taking our written interview by scrolling down or [clicking here](https://goo.gl/forms/ZBFy8ldtXtJ7kHHx1)
+Get ready for an A-May-zing month of Women in STEM! If you are here to read more about the initiative, please continue! You can also skip straight to taking our written interview by scrolling down or [clicking here](https://goo.gl/forms/ZBFy8ldtXtJ7kHHx1)
 
 # Summary, the plan...
 
