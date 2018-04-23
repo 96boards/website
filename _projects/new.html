@@ -1,0 +1,53 @@
+---
+layout: container-breadcrumb-tabs
+title: Projects
+permalink: "/projects-new/"
+description: |-
+    The 96Boards projects that have been announced are shown below.
+    Click on the links to find out more about the projects.
+css-package: projects
+js-package: projects
+---
+<h1>96Boards projects</h1>
+<p>
+    This projects listed on this page are from the <a href="http://github.com/96boards">96boards github</a> where you can submit a project to be listed on here by creating a pull request.
+    Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
+</p>
+<br/>
+
+<select class="sort-options">
+  <option value="">Default</option>
+  <option value="title">Title</option>
+  <option value="date-created">Date Created</option>
+</select>
+
+
+<div id="grid" class="container row my-shuffle-container">
+    {% assign projects = site.projects | where: "project", "true" %}
+    {% capture order %}1{% endcapture %}
+    {% for each in projects %}
+        {% if each.title %}
+            {% assign page_base = each.permalink | split: "/" %}
+            <a href="{{each.permalink}}">
+                <figure class="col-4@sm project-item" data-groups='[{% if each.categories %}{% for tag in each.categories %}"{{tag}}",{% endfor %}{% endif %}]'
+                 data-date-created="{% if each.date %}{{ each.date | date: "%Y-%m-%d" }}{% endif %}" data-title="{{each.title | truncate: 30}}" >
+                  <div class="aspect aspect--16x9">
+                    <div class="aspect__inner">
+                      <img class="lazyload" {% if each.thumbnail_image %}
+                          src="{% asset_path  '{{each.thumbnail_image}}' %}"
+                      {% else %}
+                          src="/projects/view/{{page_base[2] | downcase}}/images/thumb.png"
+                      {% endif %} alt="{% if each.description %}
+                          {{each.description | truncatewords: 20 }}
+                      {% else %}
+                          {{ each.content | strip_html | truncatewords:20 }}
+                      {% endif %}" />
+                    </div>
+                  </div>
+                  <figcaption>{{each.title | truncate: 30}}</figcaption>
+                </figure>
+            </a>
+        {% endif %}
+    {% endfor %}
+    <div class="col-1@sm my-sizer-element"></div>
+</div>
