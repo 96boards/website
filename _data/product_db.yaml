@@ -42,7 +42,7 @@ products:
       - title: EDK2 (Firmware)
 	    link: /documentation/consumer/developerbox/downloads/edk2.md.html
 	  - title: Debian
-        link: /documentation/consumer/developerbox/downloads/debian.md.html
+	    link: /documentation/consumer/developerbox/downloads/debian.md.html
 
     product_third_party_images:
       - title: Coming Soon...
