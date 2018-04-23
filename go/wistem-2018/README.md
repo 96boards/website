@@ -24,23 +24,23 @@ Please consider this schedule as tentative! For the most current information on 
 - **Featured Guest:** TBD
    - **Date:** May 3rd, 2018
    - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar]()
+   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MzB1dWxydGRycHVwMTFlOGFmOTk4aDg0bXMgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
 - **Featured Guest:** [Lindsey - The Engineeress](https://www.instagram.com/the_engineeress/)
    - **Date:** May 10th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar]()
+   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=Nzl1cTVtcmhsazU4ZmxidW81b2Q0c2VzMTIgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
 - **Featured Guest:** [Falkyou](https://www.instagram.com/falkyou/)
    - **Date:** May 17th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar]()
+   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MWs5M2htdGxwZTNvYWJsYXRudWZmYW9sbDIgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
 - **Featured Guest:** [Sili Scientist](https://www.instagram.com/silli_scientist/)
    - **Date:** May 24th, 2018
    - **Time:** TBD
-   - [Add to your Calendar]()
+   - [Add to your Calendar]() - Link coming soon...
 - **Featured Guest:** [Estefanniegg](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
    - **Time:** TBD
-   - [Add to your Calendar]()
+   - [Add to your Calendar]() - Link coming soon...
 
 # Get featured! Please take our Written Interview
 
