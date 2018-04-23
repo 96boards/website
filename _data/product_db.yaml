@@ -88,7 +88,7 @@ products:
   - product_title: Chameleon96 (Novtech)
     display_product: true
     product_permalink: /product/chameleon96/
-    product_short_desc: "The Rock960 is a development board based on the Intel Cyclone V SoC FPGA"
+    product_short_desc: "The Chameleon96 is a development board based on Intel® Cyclone V SoC FPGA"
     product_specification: ce
     featured_product_order: 2
     is_featured: true
