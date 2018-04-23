@@ -18,7 +18,7 @@ By providing this software development environment, we are accelerating the deve
 
 ## News and More Information
 
-- [SocioNext](https://www.socionext.com/en/products/assp/SynQuacer/Edge/)
+- [Socionext](https://www.socionext.com/en/products/assp/SynQuacer/Edge/)
 - [Press Release](http://socionextus.com/pressreleases/96boards-compliant-synquacer-e-series/)
 
 ***
