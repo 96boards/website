@@ -4,7 +4,7 @@ products:
     display_product: true
     product_permalink: /product/developerbox/
     product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
-    product_specification: ce
+    product_specification: ee
     featured_product_order: 2
     is_featured: true
     product_images:
