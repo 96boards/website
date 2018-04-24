@@ -5,7 +5,7 @@ columns:
       url: /products/
       items:
         - text: HiKey 960 Board
-          url : https://github.com/OP-TEE/optee_os
+          url : /product/hikey960/
         - text: DragonBoard™ 410c
           url : /product/dragonboard410c/
         - text: Bubblegum-96
