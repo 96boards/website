@@ -78,7 +78,7 @@ surveillance, video conference and even robots projects. It provides multiple in
 ## Buy Now
 
 - [eBay - 96Boards MIPI Adapter ](https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562)
-- [Taobao - 96Boards MIPI Adapter ](https://shop362764588.taobao.com/?spm=a1z10.1-c-s.0.0.56436934oDTgRL)
+- [Taobao - 96Boards MIPI Adapter ](https://shop197360562.taobao.com/index.htm?spm=2013.1.w5002-18109524163.6.19891d77HGPQJ7)
 
 ***
 
