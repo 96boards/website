@@ -5,12 +5,10 @@
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/lightbox
-//= require vendor/discourse-api
-//= require vendor/jquery.filterizr.min
+//= require vendor/mixitup
+//= require vendor/mc-validate
 
 //= require app/main
 //= require app/projects
 //= require app/sticky-tab-bar
 //= require app/tables
-//= require vendor/mc-validate
-//= require app/custom
