@@ -10,6 +10,8 @@ image:
     path: /assets/images/projects/green-grass-thumb.png
     name: green-grass-thumb.png
     thumb: green-grass-thumb.png
+categories:
+- DragonBoard410c
 ---
 # AWS Greengrass
 

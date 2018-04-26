@@ -5,6 +5,8 @@ description: |-
     The Seeing Eye Robot is a Qualcomm® Snapdragon™ Micro Rover from Qualcomm Technologies, Inc. powered by a DragonBoard™ 410c that is designed to identify a person and stay in front to help them navigate.
 images:
   - SeeingEyeRobot_FrontPage.png
+categories:
+- DragonBoard410c
 ---
 # Seeing Eye Robot
 

@@ -6,6 +6,8 @@ description: |-
 images:
   - SmartCap_FrontPage.png
   - SmartCap_Image1.png
+categories:
+- DragonBoard410c
 ---
 # Smart Cap
 

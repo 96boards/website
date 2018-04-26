@@ -6,6 +6,8 @@ description: |-
 images:
   - I2CAccel_FrontPage.png
   - I2CAccel_Image1.png
+categories:
+- DragonBoard410c
 ---
 # I2C Accelerometer
 

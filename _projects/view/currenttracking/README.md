@@ -10,6 +10,8 @@ image:
     path: /assets/images/projects/currenttracking-thumb.png
     name: currenttracking-thumb.png
     thumb: currenttracking-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Electrical Current Tracking
 

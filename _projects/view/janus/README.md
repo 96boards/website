@@ -8,6 +8,8 @@ images:
   - Janus_Image1.png
   - Janus_Image2.png
   - Janus_Video_Image.png
+categories:
+- DragonBoard410c
 ---
 # Janus, Roman God of Doors
 

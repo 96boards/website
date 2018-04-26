@@ -5,6 +5,8 @@ description: |-
     Build a passive information display to quickly view information as opposed to opening an app on your phone or computer. The Magic Clock hangs on your wall and always points to the location of the person being followed on Foursquare.
 images:
   - MagicClock_FrontPage.png
+categories:
+- DragonBoard410c
 ---
 # Magic Check-in Clock
 

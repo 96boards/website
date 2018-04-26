@@ -8,6 +8,8 @@ images:
   - OXUS_Image1.png
   - OXUS_Image2.png
   - OXUS_Image3.png
+categories:
+- DragonBoard410c
 ---
 # OxusR – Content Optimization
 

@@ -9,6 +9,8 @@ images:
   - SmartGrid_Image2.png
   - SmartGrid_Image3.png
   - SmartGrid_Image4.png
+categories:
+- DragonBoard410c
 ---
 # Smart Grids and Energy Meters
 

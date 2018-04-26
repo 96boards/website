@@ -9,6 +9,8 @@ image:
     path: /assets/images/projects/al-thumb.png
     name: al-thumb.png
     thumb: al-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Auto Luminosity
 

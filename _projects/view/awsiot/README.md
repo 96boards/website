@@ -11,6 +11,8 @@ image:
 images:
     - awsiot-thumb.png
     - AWSIoT_FrontPage.png
+categories:
+- DragonBoard410c
 ---
 # Amazon Web Services (AWS) IoT
 

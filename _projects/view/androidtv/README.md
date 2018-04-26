@@ -9,6 +9,8 @@ image:
   path: /assets/images/projects/aosptv-thumb.png
   name: aosptv-thumb.png
   thumb: aosptv-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Android TV - DragonBoard 410c
 

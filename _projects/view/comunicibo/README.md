@@ -12,6 +12,8 @@ image:
   path: /assets/images/projects/comunicibo-thumb.png
   name: comunicibo-thumb.png
   thumb: comunicibo-thumb.png
+categories:
+- DragonBoard410c
 ---
 # ComuniCibo
 

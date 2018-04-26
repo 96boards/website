@@ -11,6 +11,8 @@ image:
     path: /assets/images/projects/digitalalbum-thumb.png
     name: digitalalbum-thumb.png
     thumb: digitalalbum-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Digital Album
 

@@ -11,7 +11,8 @@ image:
   path: /assets/images/projects/braceyourself-thumb.png
   name: braceyourself-thumb.png
   thumb: braceyourself-thumb.png
-
+categories:
+- DragonBoard410c
 ---
 # Brace Yourself
 

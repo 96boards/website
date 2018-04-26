@@ -14,6 +14,8 @@ images:
   - IBMWatson_Image7.png
   - IBMWatson_Image8.png
   - IBMWatson_Image9.png
+categories:
+- DragonBoard410c
 ---
 # IBM Watson IoT Platform: Sensor Reading
 

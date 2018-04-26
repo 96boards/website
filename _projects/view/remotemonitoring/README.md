@@ -7,6 +7,8 @@ images:
   - RemoteMonitor_FrontPage.png
   - RemoteMonitor_Image1.png
   - RemoteMonitor_Image2.png
+categories:
+- DragonBoard410c
 ---
 # Remote Monitoring Project
 

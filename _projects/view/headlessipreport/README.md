@@ -5,6 +5,8 @@ description: |-
     Report IP Address During Headless Boot is a method to run the DragonBoard™ 410c in headless mode (with no monitor attached) and have it report its IP address at boot.
 images:
   - HeadlessIP_FrontPage.png
+categories:
+- DragonBoard410c
 ---
 # Report IP Address During Headless Boot
 

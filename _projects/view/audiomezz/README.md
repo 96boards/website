@@ -9,6 +9,8 @@ image:
     path: /assets/images/projects/audiomezz-thumb.png
     name: audiomezz-thumb.png
     thumb: audiomezz-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Audio Mezzanine Board
 
