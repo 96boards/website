@@ -41,6 +41,7 @@ product_buy_links:
 product_more_info:
   - title: Read More on ST.com
     link: http://linaro.co/stm32f446
+product: true
 ---
 # STM32 Sensor mezzanine board, mbed™-enabled
 

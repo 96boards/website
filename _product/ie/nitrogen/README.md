@@ -34,6 +34,7 @@ product_buy_links:
 product_os:
   - title: Zephyr
     link: /documentation/iot/nitrogen/build/linux/
+product: true
 ---
 # Nitrogen
 

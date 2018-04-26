@@ -49,6 +49,7 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
   - title: Getting Started Guide (Download)
     link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
+product: true
 ---
 # Secure96 Mezzanine Board
 

@@ -37,6 +37,7 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
+product: true
 ---
 # D3 Camera Mezzanine
 

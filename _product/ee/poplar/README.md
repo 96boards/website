@@ -33,6 +33,7 @@ product_buy_links:
 product_os:
   - title: Build from Source
     link: /documentation/enterprise/poplar/build/
+product: true
 ---
 # Poplar
 

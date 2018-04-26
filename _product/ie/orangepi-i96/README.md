@@ -43,6 +43,7 @@ product_os:
     link: /documentation/iot/orangepi-i96/downloads/
   - title: Raspbian Server
     link: /documentation/iot/orangepi-i96/downloads/
+product: true
 ---
 # Orange Pi i96
 

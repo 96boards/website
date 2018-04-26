@@ -67,7 +67,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -79,9 +78,9 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_kits:
   - title: Coming Soon...
+product: true
 ---
 # DragonBoard 820c
 

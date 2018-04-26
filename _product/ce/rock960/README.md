@@ -88,6 +88,7 @@ product_mezzanine:
 
 product_kits:
   - title: Coming Soon...
+product: true
 ---
 # Rock960
 

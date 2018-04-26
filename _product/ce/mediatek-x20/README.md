@@ -91,7 +91,7 @@ product_buy_links:
     link-url: "https://linaro.co/mediatekx20-ali"
     from: AliExpress.com
     type: board
-
+product: true
 ---
 # MediaTek X20
 

@@ -39,6 +39,7 @@ product_buy_links:
   -
     link-title: Coming Soon
     link-url: /products/mezzanine/
+product: true
 ---
 # PoE + Ethernet Mezzanine
 

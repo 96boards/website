@@ -64,11 +64,10 @@ product_more_info:
     -
       title: More cameras from our site
       link: https://www.deltavision.io
-
-
 product_includes:
   - quantity: 1
     name: MIPI Adapter Board
+product: true
 ---
 # DUAL MIPI Adapter Mezzanine - AiStarVision
 

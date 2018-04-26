@@ -51,12 +51,12 @@ product_more_info:
     link: https://github.com/96boards/Starter_Kit_for_96Boards
 product_bottom_text: |-
     The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
-
 product_includes:
   - quantity: 1
     name: Sensors Mezzanine Board
     id: 96B-05GROVE-C
     link: https://linaro.co/20n34bc
+product: true
 ---
 # Grove Seeed Sensor Mezzanine
 

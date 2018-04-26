@@ -24,13 +24,11 @@ product_images:
 layout: product-display-page
 # Boolean to determine the type as a page.
 is_featured: false
-
 # Product Front Matter Data
-
 # product_specification: ce
 product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
-
 product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+product: true
 ---
 # Welcome to the HiKey (CircuitCo)
 

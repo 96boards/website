@@ -12,7 +12,6 @@ is_featured: true
 product_images:
   - developerbox-front-sd.png
   - developerbox-back-sd.png
-
 # Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
@@ -24,7 +23,7 @@ product_tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/developerbox/
       tab_position: 4
-      tab_align_right: true
+      tab_align_right: true 
 # Buy Links
 product_buy_links:
   -
@@ -70,7 +69,7 @@ product_mezzanine:
 
 product_kits:
   - title: Coming Soon...
-
+product: true
 ---
 # DeveloperBox
 

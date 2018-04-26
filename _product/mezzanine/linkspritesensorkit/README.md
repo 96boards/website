@@ -32,6 +32,7 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
+product: true
 ---
 # Arrow LinkSprite Mezzanine Kit
 

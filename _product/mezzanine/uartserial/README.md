@@ -72,6 +72,7 @@ product_includes:
     id: 96B-05UART-V1.1
   - quantity: 2
     name: 2mm shunts
+product: true
 ---
 # UART Serial Mezzanine
 

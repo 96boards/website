@@ -30,3 +30,9 @@
 #grid  div.project_filter_panel button {
     margin-bottom: 20px;
 }
+
+.filtr-item img {
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+}

@@ -80,7 +80,7 @@ product_mezzanine:
 
 product_kits:
     - title: Coming Soon...
-
+product: true
 ---
 # {{page.title}}
 

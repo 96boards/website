@@ -102,8 +102,8 @@ product_buy_links:
     link-price-currency: JPY
     from: Switch-Science.com
     type: board
-
 product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
+product: true
 ---
 # HiKey960
 

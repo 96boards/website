@@ -75,8 +75,8 @@ product_os:
     title: Debian
   - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
     title: OpenEmbedded
-
 product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+product: true
 ---
 # HiKey
 

@@ -28,6 +28,7 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.96boards.org/product/audio-mezzanine/
+product: true
 ---
 # Arrow Audio Mezzanine
 

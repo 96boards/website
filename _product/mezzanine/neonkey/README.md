@@ -37,6 +37,7 @@ product_more_info:
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
   - title: NeonKey on Tocoding
     link: http://en.tocoding.com/index.php/96boards-neonkey/
+product: true
 ---
 # NeonKey Mezzanine
 

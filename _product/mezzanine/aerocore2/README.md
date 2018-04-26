@@ -79,6 +79,7 @@ product_includes:
 
 product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
+product: true
 ---
 # AeroCore2
 

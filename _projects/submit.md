@@ -6,6 +6,25 @@ description: |-
     If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community.
 ---
 # Submit a project
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#submitProject">
+Submit a project
+</button>
+  
+<!-- Modal 2 -->
+<div class="modal fade" id="submitProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add New Contact</h4>
+      </div>
+      <div class="modal-body">
+      <iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=9" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="725" width="100%"></iframe>
+      <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
 
 If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community. You may also have a project that you want to invite other people to participate in. Generally, projects will require you to have a project URL, which may new/be on services like GitHub or SourceForge, or something you host yourself. We will regularly check links and will view projects that are no longer accessible or become very out of date.
 

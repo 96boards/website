@@ -75,6 +75,7 @@ product_kits:
     link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
   - title: AWS IoT Kit
     link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+product: true
 ---
 # iMX7-96
 

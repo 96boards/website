@@ -17,8 +17,10 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-    
-window.shuffleInstance = new window.Shuffle(document.getElementById('grid'), {
-  itemSelector: '.project-item',
-  sizer: '.my-sizer-element',
+
+var filterizd = $('.filtr-container').filterizr({
+   //options object
 });
+    
+
+

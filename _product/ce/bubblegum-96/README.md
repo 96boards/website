@@ -68,6 +68,7 @@ product_buy_links:
     link-price-currency: USD
     link-url: "https://linaro.co/bubblegum96-buy"
 is_featured: true
+product: true
 ---
 # Bubblegum-96
 
