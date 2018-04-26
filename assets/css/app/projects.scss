@@ -33,3 +33,21 @@ div#grid {
        display: block;
      }
 }
+
+select.form-control.filter-select {
+    display: inline-block;
+    width: 200px;
+    background-color: #333333;
+    color: white;
+    outline: none;
+    margin-top: 5px;
+}
+
+select.form-control.filter-select:focus{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+#project-filters .btn-group {
+    margin-top: -3px;
+}
