@@ -35,49 +35,16 @@ layout: boards-home
                     {% endfor %}
                 </div>
                 
-                <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">                    
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">HiKey 960</h3>
-                            <span class="featured-product-price">From $239</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'hikey960-hd.png' %})"></div>
+                <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">
+                    {% for product in site.data.featured_products limit:6 %}
+                        <div class="owl-item__inner">
+                            <div class="col-xs-12 visible-xs">
+                                <h3 class="featured-product-title">{{product.title}}</h3>
+                                <span class="featured-product-price">From {{product.price}}</span>
+                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">HiKey</h3>
-                            <span class="featured-product-price">From $75</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Hikey-Lemaker-front-web.png' %})"></div>
-                        </div>
-                    </div>    
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">DragonBoard™ 410c</h3>
-                            <span class="featured-product-price">From $79</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'DragonBoard-UpdatedImages-front.png' %})"></div>
-                        </div>
-                    </div>    
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">Carbon</h3>
-                            <span class="featured-product-price">From $27.95</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'Carbon_Front-SD.png' %}")></div>
-                        </div>
-                    </div>    
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">Nitrogen</h3>
-                            <span class="featured-product-price">From $27.95</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path 'nitrogen-front-web.jpg' %})"></div>
-                        </div>
-                    </div>    
-                    <div class="owl-item__inner">
-                        <div class="col-xs-12 no-padding visible-xs">
-                            <h3 class="featured-product-title">UART Adapter Board</h3>
-                            <span class="featured-product-price">From $14.99</span>
-                            <div class="lazyload featured-product-image" style="background-image: url({% asset_path '96boards-uarts-seed4-crop.jpg' %})"></div>
-                        </div>
-                    </div>    
+                    {% endfor %}               
                 </div> <!-- // home product-carousel -->
                 
             </div>
@@ -437,6 +404,7 @@ layout: boards-home
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
         {% for each in projects %}
+        <a href="{{each.url}}">
                 <div
                 {% if each.thumbnail_image %}
                     style="background-image: url({% asset_path '{{each.thumbnail_image}}' %});"
@@ -447,7 +415,11 @@ layout: boards-home
                 {% endif %}
                  class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
                  <div class="overlay"></div>
+                 <div class="project-title">
+                     {{each.title}}
+                 </div>
             </div>
+        </a>
         {% endfor %}
     </div>
 </div>
