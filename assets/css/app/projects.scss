@@ -25,3 +25,11 @@
 div#grid {
     margin-top: 50px;
 }
+
+@media(max-width: $screen-sm-min){
+    #grid  .project_block a:first-child {
+       overflow: hidden;
+       height: 150px;
+       display: block;
+     }
+}

@@ -173,6 +173,8 @@ div#specifications-row {
 
 div#latest-blogs-row {
     border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid  #e2e2e2;
+    padding-bottom: 50px;
 }
 
 
@@ -248,7 +250,7 @@ h2#featured-boards {
 }
 
 .row.title {
-    height: 125px;
+    height: 150px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -334,11 +336,22 @@ div#projects-row .home-page-project-image {
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center center;
-    
-    transition: all 1s ease;
+    padding: 0;
 }
-
-div#projects-row .home-page-project-image:hover {
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
+div#projects-row .home-page-project-image .overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+    transition: all 300ms ease;
+}
+div#projects-row .home-page-project-image:hover > .overlay{
+    opacity: 1;
+}
+div#projects-row {
+    background-color: black;
+    -webkit-clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
+    -moz-clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
+    clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
+    padding-top:6%;
 }
