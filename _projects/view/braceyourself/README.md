@@ -7,6 +7,10 @@ images:
   - BraceYourself_FrontPage.png
   - BraceYourself_Video_Demo.png
   - BraceYourself_Video_Presentation.png
+image:
+  path: /assets/images/projects/braceyourself-thumb.png
+  name: braceyourself-thumb.png
+  thumb: braceyourself-thumb.png
 
 ---
 # Brace Yourself

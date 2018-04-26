@@ -4,7 +4,13 @@ description: |-
     This project uses the DragonBoard™ 410C Development Board from Arrow Electronics integrated with Alexa Voice Services and LIFX light bulbs using Amazon skills kit. The integration is designed to allow the users to turn on or off the LIFX bulb as well as change the bulb’s color via voice commands (e.g., “Alexa, tell DragonBoard 410c to turn the color to green”).
 permalink: "/projects/AlexaLIFXBulb/"
 images:
-- thumb.png
+- alexalifxbulb-thumb.png
+categories:
+- DragonBoard410c
+image:
+    path: /assets/images/projects/96brews-thumb.png
+    name: 96brews-thumb.png
+    thumb: 96brews-thumb.png
 ---
 # Integrated Alexa and LIFX Bulb
 

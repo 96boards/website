@@ -7,6 +7,10 @@ description: |-
 images:
   - DigitalAlbum_FrontPage1.png
   - DigitalAlbum_FrontPage2.png
+image:
+    path: /assets/images/projects/digitalalbum-thumb.png
+    name: digitalalbum-thumb.png
+    thumb: digitalalbum-thumb.png
 ---
 # Digital Album
 

@@ -12,6 +12,10 @@ images:
   - schematics.png
   - team.png
   - visual1.png
+image:
+    path: /assets/images/projects/bengala-iot-thumb.png
+    name: bengala-iot-thumb.png
+    thumb: bengala-iot-thumb.png
 ---
 # Bengala IoT (Walking stick)
 

@@ -1,25 +1,34 @@
 ---
 layout: container-breadcrumb-tabs
-title: Projects
+title: Projects with 96Boards
 permalink: "/projects/"
 description: |-
     The 96Boards projects that have been announced are shown below.
     Click on the links to find out more about the projects.
 css-package: projects
+js-package: projects
 ---
-<h1>96Boards projects</h1>
 <p>
-    This projects listed on this page are from the <a href="http://github.com/96boards">96boards github</a> where you can submit a project to be listed on here by creating a pull request.
-    Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please visit the links below.
+    This projects listed on this page are from the <a href="https://github.com/96boards-projects">96Boards Projects Github</a> where you can submit a project to be listed on here by creating a pull request. Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please <a href="/projects/submit/" target="_blank">click here.</a>
 </p>
-<br/>
-<div id="grid" class="container row my-shuffle-container">
+<div id="project-filters">
+    <button type="button" data-filter="all">All</button>
+    <button type="button" data-filter=".DragonBoard410c">DragonBoard410c</button>
+    <button type="button" data-filter=".category-b">Hikey960</button>
+    <button type="button" data-filter=".category-c">AI</button>
+
+    <button type="button" data-sort="order:asc">ASC</button>
+    <button type="button" data-sort="order:descending">DESC</button>
+    <button type="button" data-sort="random">Random</button>
+
+</div>
+<div id="grid" class="container mixitup-container">
     {% assign projects = site.projects | where: "project", "true" %}
-    {% capture order %}1{% endcapture %}
+    {% assign order = 1 %}
     {% for each in projects %}
         {% if each.title %}
             {% assign page_base = each.permalink | split: "/" %}
-                <div data-name="{{each.title}}" data-cat="{% if each.categories %}{% for tag in each.categories %}{{tag}}{% endfor %}{% endif %}" class="project_block mix all {% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %} col-md-3 col-sm-4 col-xs-6">
+                <div data-name="{{each.title}}" class="{% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %}project_block project-item mix all col-md-3 col-sm-4 col-xs-6" data-order="{{order}}">
                         <a href="{{each.permalink}}">
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             {% if each.thumbnail_image %}
@@ -40,6 +49,7 @@ css-package: projects
                             {% endif %}
                         </p>
                 </div>
+                {% assign order = order | plus: 1 %}
         {% endif %}
     {% endfor %}
 </div>

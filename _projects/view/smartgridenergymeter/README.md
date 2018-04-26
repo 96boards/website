@@ -1,6 +1,5 @@
 ---
 title: Smart Grids and Energy Meters
-
 permalink: "/projects/SmartGridEnergyMeter/"
 description: |-
     This project aims to implement a smart grid system using DragonBoard™ 410c, Bluetooth® Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.

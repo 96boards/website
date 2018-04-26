@@ -4,9 +4,13 @@ permalink: "/projects/AWSIoT/"
 description: |-
     The DragonBoard™ 410c AWS IoT SDK kit includes applications that utilize the Amazon Web Services IoT.
     DragonPulse app utilizes NodeJS, MQTT protocol, and Amazon AWS services, to interact with Ubuntu shell commands.  Extract performance and summary statistics to remotely monitor top CPU consumption, memory usage, network traffic, and disk space.
+image:
+  path: /assets/images/projects/AWSIoT_FrontPage.png
+  name: AWSIoT_FrontPage.png
+  thumb: awsiot-thumb.png
 images:
-  - AWSIoT_FrontPage.png
-
+    - awsiot-thumb.png
+    - AWSIoT_FrontPage.png
 ---
 # Amazon Web Services (AWS) IoT
 
