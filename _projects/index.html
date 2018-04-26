@@ -20,13 +20,13 @@ js-package: projects
         <button class="btn btn-default" type="button" data-sort="random">Random</button>
     </div>
     <select class="form-control filter-select">
-        <option value="">Filter by Board</option>
+        <option value="all">Filter by Board</option>
         {% for board in site.data.project-categories.boards %}
           <option value=".{{board}}">{{board}}</option>
         {% endfor %}
     </select>
     <select class="form-control filter-select">
-        <option value="">Filter by Vertical</option>
+        <option value="all">Filter by Vertical</option>
         {% for vertical in site.data.project-categories.verticals %}
           <option value=".{{vertical}}">{{vertical}}</option>
         {% endfor %}
