@@ -424,13 +424,24 @@ layout: boards-home
                 {% endfor %}
 
             </div> <!-- //home blog carousel -->
-            
-            
-            
-            
         </div>
-        
-        
+    </div>
+    
+    <div class="row" id="projects-row">
+        {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
+        {% capture order %}1{% endcapture %}
+        {% for each in projects %}
+                <div
+                {% if each.thumbnail_image %}
+                    style="background-image: url({% asset_path '{{each.thumbnail_image}}' %});"
+                {% elsif each.image.thumb %}
+                    style="background-image: url({% asset_path '{{each.image.thumb}}' %});"
+                {% else %}
+                    style="background-image: url({% asset_path '{{each.images[0]}}' %});"
+                {% endif %}
+                 class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
+            </div>
+        {% endfor %}
     </div>
 </div>
 
