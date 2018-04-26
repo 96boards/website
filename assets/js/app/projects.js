@@ -18,9 +18,15 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-var filterizd = $('.filtr-container').filterizr({
-   //options object
+var mixer = mixitup('.mixitup-container', {
+    selectors: {
+        target: '.project-item'
+    },
+    animation: {
+        duration: 300
+    }
 });
+
     
 
 
