@@ -27,6 +27,13 @@ var mixer = mixitup('.mixitup-container', {
     }
 });
 
-    
+
+$filterSelect = $('.filter-select');
+$container = $('.mixitup-container');
+
+$filterSelect.on('change', function(){
+    mixer.filter(this.value);
+});
+
 
 
