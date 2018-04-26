@@ -427,6 +427,12 @@ layout: boards-home
         </div>
     </div>
     
+    <div class="row">
+        <div class="container">
+            <h2 class="text-center">Projects with 96Boards</h2>
+        </div>
+    </div>
+    
     <div class="row" id="projects-row">
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
@@ -440,6 +446,7 @@ layout: boards-home
                     style="background-image: url({% asset_path '{{each.images[0]}}' %});"
                 {% endif %}
                  class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
+                 <div class="overlay"></div>
             </div>
         {% endfor %}
     </div>
