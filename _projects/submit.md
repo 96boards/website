@@ -12,15 +12,17 @@ Submit a project
   
 <!-- Modal 2 -->
 <div class="modal fade" id="submitProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <h4 class="modal-title" id="myModalLabel">Add New Contact</h4>
+        <h4 class="modal-title" id="myModalLabel">Submit a project</h4>
       </div>
       <div class="modal-body">
-      <iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=9" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="725" width="100%"></iframe>
-      <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+          <div class="cognito">
+          <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+          <script>Cognito.load("forms", { id: "9" });</script>
+          </div>
       </div>
     </div>
   </div>
