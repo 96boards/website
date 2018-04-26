@@ -1,7 +1,6 @@
 #grid .project_block {
     display:block;
-    margin-bottom: 20px;
-    border-bottom: 1px solid $gray-lighter;
+    margin-bottom: 50px;
 }
 #grid  .project_image{
   width: auto;
@@ -11,28 +10,18 @@
     overflow: hidden;
     height: 200px;
     display: block;
-    border: 1px solid #19947b;
   }
 #grid p.project_description {
-    font-size: 11px;
-    font-style: italic;
-    height:50px;
+    font-size: 12px;
+    height:60px;
     overflow:hidden;
-    margin-bottom:20px
-}
-#grid  div.project_filter_panel{
-    height:auto;
-    padding:10px;
+    margin-bottom:20px;
+    text-align: center;
 }
 #grid .project_title {
     min-height: 35px;
+    text-align: center;
 }
-#grid  div.project_filter_panel button {
-    margin-bottom: 20px;
-}
-
-.filtr-item img {
-    object-fit: contain;
-    height: 200px;
-    width: auto;
+div#grid {
+    margin-top: 50px;
 }

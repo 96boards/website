@@ -329,3 +329,16 @@ div#homeSpecificationCarousel p {
     text-align: center;
     margin-top: 30px;
 }
+div#projects-row .home-page-project-image {
+    height: 300px;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    transition: all 1s ease;
+}
+
+div#projects-row .home-page-project-image:hover {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
