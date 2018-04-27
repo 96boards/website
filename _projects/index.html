@@ -37,15 +37,19 @@ js-package: projects
     {% assign projects = site.projects | where: "project", "true" %}
     {% assign order = 1 %}
     {% for each in projects %}
+        {% assign project-uri = each.permalink | split: "/" %}
+        {% assign project-uri = project-uri[2] | downcase  %}
         {% if each.title %}
             {% assign page_base = each.permalink | split: "/" %}
                 <div data-name="{{each.title}}" class="{% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %}project_block project-item mix all col-md-3 col-sm-4 col-xs-6" data-order="{{order}}">
                         <a href="{{each.permalink}}">
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             {% if each.thumbnail_image %}
-                                data-src="view/{{page_base[2] | downcase}}/images/{{each.thumbnail_image}}"
+                                data-src="/projects/view/{{project-uri}}/images/{{each.thumbnail_image}}"
+                            {% elsif each.image.thumb %}
+                                data-src="/projects/view/{{project-uri}}/images/{{each.image.thumb}}"
                             {% else %}
-                                data-src="view/{{page_base[2] | downcase}}/images/thumb.png"
+                                data-src="/projects/view/{{project-uri}}/images/{{each.images[0]}}"
                             {% endif %}
                              class="project_image lazyload center-block">
                         </a>
