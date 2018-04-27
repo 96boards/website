@@ -13,6 +13,7 @@ image:
   thumb: braceyourself-thumb.png
 categories:
 - DragonBoard410c
+- IoT
 ---
 # Brace Yourself
 
