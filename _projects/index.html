@@ -14,18 +14,18 @@ js-package: projects
 
 <div id="project-filters">
     <div class="btn-group" role="group" aria-label="Project Filter Buttons">
-        <button class="btn btn-default" type="button" data-filter="all">All</button>
-        <button class="btn btn-default" type="button" data-sort="order:asc">ASC</button>
-        <button class="btn btn-default" type="button" data-sort="order:descending">DESC</button>
-        <button class="btn btn-default" type="button" data-sort="random">Random</button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-filter="all">All</button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-sort="order:asc">ASC</button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="order:descending">DESC</button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="random">Random</button>
     </div>
-    <select class="form-control filter-select">
+    <select class="form-control filter-select" data-mixitup-control>
         <option value="all">Filter by Board</option>
         {% for board in site.data.project-categories.boards %}
           <option value=".{{board}}">{{board}}</option>
         {% endfor %}
     </select>
-    <select class="form-control filter-select">
+    <select class="form-control filter-select" data-mixitup-control>
         <option value="all">Filter by Vertical</option>
         {% for vertical in site.data.project-categories.verticals %}
           <option value=".{{vertical}}">{{vertical}}</option>
