@@ -1084,7 +1084,7 @@ products:
 # Mezzanine Products
   - product_title: Shiratech LTE Mezzanine
     display_product: true
-    product_permalink: /product/shiratech-lte
+    product_permalink: /product/shiratech-lte/
     product_tab_menu:
         - tab_title: Documentation
           tab_link: /documentation/mezzanine/shiratech-lte/
