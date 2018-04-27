@@ -8,9 +8,9 @@ images:
 categories:
 - DragonBoard410c
 image:
-    path: /assets/images/projects/96brews-thumb.png
-    name: 96brews-thumb.png
-    thumb: 96brews-thumb.png
+    path: /assets/images/projects/alexalifxbulb-thumb.png
+    name: alexalifxbulb-thumb.png
+    thumb: alexalifxbulb-thumb.png
 ---
 # Integrated Alexa and LIFX Bulb
 
