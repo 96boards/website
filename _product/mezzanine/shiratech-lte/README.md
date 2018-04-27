@@ -61,4 +61,4 @@ Outputs fused sensor data - Quaternion, Euler angles, Rotation vector, Linear ac
 
 ## Documents
 
-- [Product Brief]()
+- [Product Brief](https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf)
