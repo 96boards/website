@@ -410,11 +410,11 @@ layout: boards-home
         <a href="{{each.url}}">
                 <div
                 {% if each.thumbnail_image %}
-                    style="background-image: url(/projects/view/{{page-uri}}/images/{{each.thumbnail_image}});"
+                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.thumbnail_image}});"
                 {% elsif each.image.thumb %}
-                    style="background-image: url(/projects/view/{{page-uri}}/images/{{each.image.thumb}});"
+                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.image.thumb}});"
                 {% else %}
-                    style="background-image: url(/projects/view/{{page-uri}}/images/{{each.images[0]}});"
+                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.images[0]}});"
                 {% endif %}
                  class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
                  <div class="overlay"></div>
