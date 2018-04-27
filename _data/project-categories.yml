@@ -3,6 +3,7 @@ boards:
     - MediaTekX20
     - DeveloperBox
     - Hikey960
+    - Hikey
     - Rock960
     - Chameleon96
     - DragonBoard820c
