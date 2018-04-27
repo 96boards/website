@@ -6,9 +6,9 @@ description: |-
 images:
   - AndroidTVDB410c_FrontPage.png
 image:
-  path: /assets/images/projects/aosptv-thumb.png
-  name: aosptv-thumb.png
-  thumb: aosptv-thumb.png
+  path: /assets/images/projects/androidtv-thumb.png
+  name: androidtv-thumb.png
+  thumb: androidtv-thumb.png
 categories:
 - DragonBoard410c
 ---
