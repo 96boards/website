@@ -20,7 +20,8 @@ $('.owl-carousel').owlCarousel({
 
 var mixer = mixitup('.mixitup-container', {
     selectors: {
-        target: '.project-item'
+        target: '.project-item',
+        control: '[data-mixitup-control]'
     },
     animation: {
         duration: 300
