@@ -1,0 +1,1749 @@
+products:
+# ce, EE, IE Products
+  - product_title: DeveloperBox (Socionext)
+    display_product: true
+    product_permalink: /product/developerbox/
+    product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
+    product_specification: ee
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - developerbox-front-sd.png
+      - developerbox-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/enterprise/developerbox/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/enterprise/developerbox
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/developerbox/
+          tab_position: 4
+          tab_align_right: true
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DeveloperBox (Chip1Stop)
+        link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
+        from: chip1stop.com
+        type: board
+        link-price: "1230.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: Socionext
+          link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
+
+    # Right Sidepanel links
+    product_os:
+      - title: EDK2 (Firmware)
+        link: /documentation/enterprise/developerbox/downloads/edk2.md.html
+      - title: Debian
+        link: /documentation/enterprise/developerbox/downloads/debian.md.html
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
+  - product_title: Rock960 (Vamrs)
+    display_product: true
+    product_permalink: /product/rock960/
+    product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - rock960-front-sd.png
+      - rock960-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/rock960/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/rock960/
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/rock960/
+          tab_position: 4
+          tab_align_right: true
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: Rock960 (SeeedStudio)
+        link-url: "https://www.seeedstudio.com/Rock-960-Board-RK3399-solution-2G-Version-p-3036.html"
+        from: SeeedStudio.com
+        type: board
+        link-price: "99.00"
+        link-price-currency: USD
+      -
+        link-title: Rock960 (Vamrs)
+        link-url: "https://store.vamrs.com/products/rock960"
+        from: Vamrs.com
+        type: board
+        link-price: "99.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: 96Rocks
+          link: https://www.96rocks.com/
+
+    # Right Sidepanel links
+    product_os:
+      - title: AOSP
+        link: /documentation/consumer/rock960/downloads/aosp.md.html
+      - title: Debian
+        link: /documentation/consumer/rock960/downloads/debian.md.html
+      - title: Ubuntu
+        link: /documentation/consumer/rock960/downloads/ubuntu.md.html
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+      
+  - product_title: Chameleon96 (Novtech)
+    display_product: true
+    product_permalink: /product/chameleon96/
+    product_short_desc: "The Chameleon96 is a development board based on Intel® Cyclone V SoC FPGA"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+        - chameleon96-front-small.png
+        - chameleon96-back-small.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+            - tab_title: Getting Started
+              tab_link: /documentation/consumer/chameleon96/getting-started/
+              tab_position: 1
+            - tab_title: Documentation
+              tab_link: /documentation/consumer/chameleon96/
+              tab_position: 2
+            - tab_title: Support
+              tab_link: https://discuss.96boards.org/c/products/chameleon96/
+              tab_position: 4
+              tab_align_right: true
+    # Buy Links
+    product_buy_links:
+        -
+            link-title: Chameleon96 (Arrow)
+            link-url: "https://www.arrow.com/en/products/chameleon96/novtech-inc"
+            from: Arrow.com
+            type: board
+            link-price: "129.00"
+            link-price-currency: USD
+
+    product_more_info:
+            - title: Chameleon96
+              link: https://www.arrow.com/en/products/chameleon96/novtech-inc
+
+    # Right Sidepanel links
+    product_os:
+        - title: Linux
+          link: /documentation/consumer/chameleon96/installation/
+
+    product_middleware:
+        - title: Coming Soon...
+
+    product_third_party_images:
+        - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+
+    product_mezzanine:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+
+    product_kits:
+        - title: Coming Soon...
+
+  - product_title: bubblegum-96
+    display_product: true
+    product_permalink: /product/bubblegum-96/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/bubblegum-96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/bubblegum96
+          tab_position: 2
+          tab_align-right: true
+
+    featured_product_order: 3
+    product_specification: ce
+    product_short_desc: Board based on Actions Semi S900 Processor
+    product_long_desc: |-
+        The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
+        Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
+        The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity,
+        all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
+        In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output,
+        Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
+    product_images:
+      - 96b-0-bubblegum96-actions-ucrobotics-1.png
+      - 96b-0-bubblegum96-actions-ucrobotics-4.png
+      - 96b-0-bubblegum96-actions-ucrobotics-5.png
+    product_os:
+      - title: Debian
+        link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
+    product_third_party_images:
+      - title: Phoenix
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+      - title: Remix
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+      - title: Ubuntu Core
+        link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+    product_mezzanine:
+      - title: Link Sprite
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_buy_links:
+      -
+        link-title: Buy Bubblegum-96
+        link-price: "89.00"
+        from: ucrobotics.com.cn
+        type: board
+        link-price-currency: USD
+        link-url: "https://linaro.co/bubblegum96-buy"
+    is_featured: true
+  - product_title: DragonBoard™ 410c (Arrow)
+    display_product: true
+    product_permalink: /product/dragonboard410c/
+    product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - DragonBoard-UpdatedImages-front.png
+      - DragonBoard-UpdatedImages-back.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/dragonboard410c/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/dragonboard410c/
+          tab_position: 2
+        - tab_title: Tutorials
+          tab_link: /tutorials/dragonboard410c/
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
+          tab_position: 4
+          tab_align_right: true
+
+    product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
+    product_documentation_link: /documentation/consumer/dragonboard410c/
+    product_tutorials_link: /tutorials/dragonboard410c/
+    product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
+
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DragonBoard410c (Basic Kit)
+        link-url: "https://linaro.co/dragonboard410c-buy-arrow"
+        from: Arrow.com
+        type: board
+        link-price: "75.00"
+        link-price-currency: USD
+      -
+        link-title: "DragonBoard410c + Audio Kit"
+        link-url: "https://www.96boards.org/product/audio-mezzanine/"
+        from: Arrow.com
+        type: package
+        link-price: "89.00"
+        link-price-currency: USD
+      -
+        link-title: "DragonBoard410c + Camera Kit"
+        link-url: "https://linaro.co/96b-db410c-camera"
+        from: Arrow.com
+        type: package
+        link-price: "225.00"
+        link-price-currency: USD
+      -
+        link-title: "DragonBoard410c + AWS IoT Kit"
+        link-url: "https://linaro.co/96bawsbuy"
+        from: Amazon.com
+        type: package
+        link-price: "84.99"
+        link-price-currency: USD
+
+    # Right Sidepanel links
+    product_os:
+      - title: Android
+        link: /documentation/consumer/dragonboard410c/downloads/android.md.html
+      - title: Debian
+        link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
+      - title: OpenEmbedded
+        link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
+
+    product_middleware:
+      - title: AWS IoT SDK
+        link: https://github.com/ArrowElectronics/aws-iot-device-sdk
+      - title: IBM Watson IoT Platform
+        link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
+      - title: AT&T M2X
+        link: https://github.com/ArrowElectronics/att-iot-device-sdk
+      - title: ROS
+        link: http://wiki.ros.org/kinetic/Installation/Debian
+      - title: Microsoft Azure IoT Suite
+        link: https://www.microsoft.com/en-us/cloud-platform/internet-of-things#AzureIoT
+
+    product_third_party_images:
+      - title: Windows 10 IoT Core
+        link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
+      - title: Ubuntu Core
+        link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+      - title: More Downloads
+        link: /documentation/consumer/dragonboard410c/downloads/
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Basic Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+      - title: Audio Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+      - title: AWS IoT Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+  - product_title: Hikey (LeMaker)
+    display_product: true
+    product_permalink: /product/hikey/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/hikey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey
+          tab_position: 2
+          tab_align_right: true
+
+    # featured_product_order:
+    # Layout
+    layout: product-display-page
+    # Boolean to determine the type as a page.
+    is_featured: false
+
+    # Permalink for this product
+    permalink: /product/hikey/
+    # Product Front Matter Data
+
+    product_specification: ce
+    product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
+    product_buy_links:
+      -
+        link-title: "Buy HiKey(1GB RAM)"
+        link-url: "https://linaro.co/hikey-lenovator-buy-1gb"
+        link-price: "75.00"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
+
+      -
+        link-title: "Buy HiKey(2GB RAM)"
+        link-url: "https://linaro.co/hikey-lenovator-buy"
+        link-price: "119.00"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
+
+
+
+    product_images:
+      - Hikey-Lemaker-front-web.png
+      - HiKey_LeMaker_back.jpg
+      - HiKey_LeMaker_angle3.jpg
+      - HiKey_LeMaker_angle2.jpg
+      - HiKey_LeMaker_angle.jpg
+    product_long_desc: |-
+        The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,
+        1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also
+        delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size
+        of a credit card.
+    product_mezzanine:
+      - title: LinkSprite
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+    product_os:
+      - link: /documentation/consumer/hikey/downloads/aosp.md.html
+        title: AOSP
+      - link: /documentation/consumer/hikey/downloads/debian.md.html
+        title: Debian
+      - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
+        title: OpenEmbedded
+
+    product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+  - product_title: HiKey 960
+    display_product: true
+    product_permalink: /product/hikey960/
+    product_media_highlights: true
+    product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/hikey960/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey960
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 1
+    is_featured: true
+    product_specification: ce
+    product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
+    product_long_desc: |-
+        The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™
+        processor with four ARM Cortex®-A73 and four Cortex-A53 cores with 3GB of LPDDR4 SDRAM memory, 32GB of UFS 2.0 flash
+        storage, and the latest generation Mali™ G71 MP8 graphics processor. The board is provided by Archermind and LeMaker
+        through multiple channels (see links on right).
+
+        Initial software support for the board is provided in the AOSP source tree based on the Android Common Kernel using the Linux 4.4 kernel release.
+        Linaro and Huawei are also working on the Linux 4.9 based Android Common kernel and maintaining support for the Kirin 960 SoC in the mainline kernel.org
+        tree, allowing for the availability of multiple Linux distributions for this board in the future.
+    product_images:
+      - hikey-960-SD-front.jpg
+      - hikey-960-SD-back.jpg
+    product_mezzanine:
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine/
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_third_party_images:
+        - link: /documentation/consumer/hikey960/downloads/aosp.md.html
+    product_buy_links:
+      -
+        link-title: "Amazon (USA)"
+        link-price: "239.99"
+        link-url: "https://linaro.co/hikey960buy-amazon"
+        link-price-currency: USD
+        from: Amazon.com
+        type: board
+      -
+        link-title: "Lenovator (Worldwide)"
+        link-price: "239.00"
+        link-url: "https://linaro.co/hikey960buy"
+        link-price-currency: USD
+        from: Lenovator.com
+        type: board
+      -
+        link-title: "Seeed (Worldwide)"
+        link-price: "239.00"
+        link-url: "https://linaro.co/hikey960-seed"
+        link-price-currency: USD
+        from: SeeedStudio.com
+        type: board
+      -
+        link-title: "Alpha Star"
+        link-price: "239.00"
+        link-url: "https://linaro.co/hikey960buy-alpha"
+        link-price-currency: USD
+        from: Alpha-Star.org
+        type: board
+      -
+        link-title: "Ali express (USA)"
+        link-price: "239.00"
+        link-url: "https://linaro.co/hikey960-ali"
+        link-price-currency: USD
+        from: Aliexpress.com
+        type: board
+      -
+        link-title: "Switch Science (Japan)"
+        link-price: 30,974
+        link-url: "https://linaro.co/hikey960-switch"
+        link-price-currency: JPY
+        from: Switch-Science.com
+        type: board
+
+    product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
+  - product_title: HiKey (CircuitCo)
+    display_product: true
+    product_permalink: /product/hikey-circuitco/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/hikey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/hikey
+          tab_position: 2
+          tab_align_right: true
+
+    product_images:
+      - hikey-circuitco-top.png
+      - hikey-circuitco-back.png
+    # featured_product_order:
+    # Layout
+    layout: product-display-page
+    # Boolean to determine the type as a page.
+    is_featured: false
+
+    # Product Front Matter Data
+
+    # product_specification: ce
+    product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
+
+    product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+  - product_title: iMX7-96 Development Board
+    display_product: true
+
+    featured_product_order: 10
+    # Boolean to determine the type as a page.
+    is_featured: true
+
+    product_permalink: /product/imx7-96/
+    product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
+    product_specification: ce
+    product_images:
+      - iMX7-96-front.jpg
+      - iMX7-96-back.jpg
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/imx7-96/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/imx7-96/
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/imx7-96/
+          tab_position: 3
+          tab_align_right: true
+
+    # # Buy Links
+    product_buy_links:
+      -
+        link-title: IMX7 96 BOARD
+        link-url: "http://linaro.co/imx7-96-buy"
+        from: Arrow.com
+        type: board
+        link-price: "109.00"
+        link-price-currency: USD
+
+
+    # Right Sidepanel links
+    product_os:
+      - title: Android
+        link: /documentation/consumer/imx7-96/downloads/
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Basic Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+      - title: Audio Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+      - title: AWS IoT Kit
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+
+  - product_title: DragonBoard™ 820c (Arrow)
+    display_product: true
+    product_permalink: /product/dragonboard820c/
+    product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - dragonboard820c-front-sd.png
+      - dragonboard820c-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/dragonboard820c/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/dragonboard820c/
+          tab_position: 2
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
+          tab_position: 4
+          tab_align_right: true
+
+    product_getting_started: /documentation/consumer/dragonboard820c/getting-started/
+    product_documentation_link: /documentation/consumer/dragonboard820c/
+    product_tutorials_link: /tutorials/dragonboard820c/
+    product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
+
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DragonBoard820c (Basic Kit)
+        link-url: "https://www.arrow.com/en/products/dragonboard820c/arrow-development-tools"
+        from: Arrow.com
+        type: board
+        link-price: "199.00"
+        link-price-currency: USD
+    # Right Sidepanel links
+    product_os:
+      - title: Debian
+        link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
+  - product_title: Ultra96 (Avnet)
+    display_product: true
+    product_permalink: /product/ultra96/
+    product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - ultra96-front-sd.png
+      - ultra96-back-sd.png
+      - ultra96-angle1-sd.png
+      - ultra96-angle2-sd.png
+      - ultra96-angle3-sd.png
+      - ultra96-angle4-sd.png
+      - ultra96-angle5-sd.png
+      - ultra96-angle6-sd.png
+      - ultra96-angle7-sd.png
+      - ultra96-angle8-sd.png
+      - ultra96-angle9-sd.png
+      - ultra96-angle10-sd.png
+      - ultra96-angle11-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/ultra96/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/ultra96/
+          tab_position: 2
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/ultra96/
+          tab_position: 4
+          tab_align_right: true
+
+    product_getting_started: /documentation/consumer/ultra96/getting-started/
+    product_documentation_link: /documentation/consumer/ultra96/
+
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: Ultra96 Developer Board
+        link-url: https://linaro.co/ultra96-buy
+        from: Avnet.com
+        type: board
+        link-price: "249.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+
+    # Right Sidepanel links
+    product_os:
+      - title: Coming Soon...
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: OpenSUSE
+        link: https://en.opensuse.org/HCL:Ultra96
+
+    product_more_info:
+        - title: Avnet
+        - link: https://linaro.co/ultra96-vendor-avnet
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
+  - product_title: Mediatek X20 Development Board
+    display_product: true
+    product_permalink: /product/mediatek-x20/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/mediatekx20/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mediatek-x20
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 4
+    # Boolean to determine the type as a page.
+    is_featured: true
+    # Product Front Matter Data
+    product_specification: ce
+    product_short_desc: "Board based on MediaTek X20 series CPU"
+    date_released: 2017
+    product_available: true
+    product_long_desc: |-
+        The Mediatek X20 Development Board is a 96Boards compliant community board
+        based on the MediaTek X20 series of SoCs. X20 is a highly integrated application processor that
+        includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53
+        processors operating at up to 1.95GHz, Quad-core ARM Cortex-A53 processors operating at up to
+        1.4GHz and a Mali T880 GPU operating at up to 800MHz . In addition, an extensive set of interfaces
+        and connectivity peripherals are included to interface to cameras, touch-screen displays and
+        MMC/SD cards. It also fully supports wireless communication, including WLAN, Bluetooth and GPS.
+    product_images:
+      - Helio-X20-front.png
+      - Helio-X20-back.png
+      - Helio-X20-side-one.png
+      - Helio-X20-side-two.png
+
+    product_third_party_images:
+      - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
+        title: AOSP
+
+    product_mezzanine:
+      - title: LinkSprite
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_buy_links:
+      -
+        link-title: "Buy MediaTek X20"
+        link-url: "https://linaro.co/mediatekx20-buy"
+      -
+        link-title: "MediaTek X20 (Seed)"
+        link-price: "199.00"
+        link-url: "https://linaro.co/mediatekx20-seed"
+        link-price-currency: USD
+        from: seeedstudio.com
+        type: board
+      -
+        link-title: "MediaTek X20 (Amazon)"
+        link-price: "199.00"
+        link-url: "https://linaro.co/mediatekx20-amazon"
+        link-price-currency: USD
+        from: Amazon.com
+        type: board
+      -
+        link-title: "MediaTek X20 (AliExpress)"
+        link-price: "199.00"
+        link-price-currency: USD
+        link-url: "https://linaro.co/mediatekx20-ali"
+        from: AliExpress.com
+        type: board
+
+  - product_title: Carbon
+    display_product: true
+    product_permalink: /product/carbon/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/iot/carbon/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/carbon
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 6
+    is_featured: true
+    product_specification: ie
+    product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
+    product_long_desc: |-
+        Carbon is the first board to be certified 96Boards IoT Edition compatible.
+        The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+    product_images:
+      - Carbon_Front-SD.png
+      - Carbon-Back-web.png
+    product_buy_links:
+      -
+        link-title: "Buy Carbon (Seeed)"
+        link-price: $27.95
+        link-url: "http://linaro.co/carbon-buy"
+    product_os:
+      - title: Zephyr
+        link: /documentation/iot/carbon/downloads/zephyr.md.html
+  - product_title: Nitrogen
+    display_product: true
+    product_permalink: /product/nitrogen/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/iot/nitrogen/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/nitrogen
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 7
+    is_featured: true
+    product_specification: ie
+    product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
+    product_long_desc: |-
+        Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
+    product_images:
+      - nitrogen-front-web.jpg
+      - nitrogen-back-web.jpg
+    product_buy_links:
+      -
+        link-title: "Buy Nitrogen"
+        link-price: $27.95
+        link-url: "https://linaro.co/nitrogen-buy"
+    product_os:
+      - title: Zephyr
+        link: /documentation/iot/nitrogen/build/linux/
+  - product_title: Orange Pi i96
+    display_product: true
+    product_permalink: /product/orangepi-i96/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/iot/orangepi-i96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/orangepi-i96
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 5
+    is_featured: true
+    product_specification: ie
+    product_short_desc: "Cortex-A5 chip with 96Boards IE Specification"
+    product_long_desc: |-
+        The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
+    product_images:
+      - orangepi-i96_front-sd.jpg
+      - orangepi-i96_back-sd.jpg
+      - orangepi-i96_angle-sd.jpg
+    product_buy_links:
+      -
+        link-title: "Orange Pi i96 (Ali Express)"
+        link-price: $8.80
+        link-url: "https://linaro.co/orangepi-i96-buy"
+    product_os:
+      - title: Debian
+        link: /documentation/iot/orangepi-i96/downloads/
+      - title: Ubuntu Server
+        link: /documentation/iot/orangepi-i96/downloads/
+      - title: Android Nand
+        link: /documentation/iot/orangepi-i96/downloads/
+      - title: Android Tcard
+        link: /documentation/iot/orangepi-i96/downloads/
+      - title: Raspbian Server
+        link: /documentation/iot/orangepi-i96/downloads/
+  - product_title: Poplar
+    display_product: true
+    product_permalink: /product/poplar/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/enterprise/poplar/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/poplar
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: ee
+    product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
+    product_long_desc: |-
+        Available Now -  Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
+        Developed by HiSilicon, the board features the Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53 processor and high
+        performance Mali T720 GPU, making it capable of running any commercial set-top solution based on Linux or Android. Its high performance
+        specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second.
+    product_images:
+      - Poplar-Board-Front-Web-500x330.jpg
+      - Poplar-Board-Side-Web-500x330.jpg
+      - Poplar-Board-Back-Web-500x330.jpg
+    product_buy_links:
+      -
+        link-title: "Aliexpress"
+        link-url: "https://linaro.co/poplar-ali"
+    product_os:
+      - title: Build from Source
+        link: /documentation/enterprise/poplar/build/
+# Mezzanine Products
+  - product_title: Shiratech LTE Mezzanine
+    display_product: true
+    product_permalink: /product/shiratech-lte/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/shiratech-lte/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
+    product_long_desc: |-
+        Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
+    product_images:
+      - shiratech-lte-front-sd.jpg
+      - shiratech-lte-back-sd.jpg
+
+    product_buy_links:
+      -
+        link-title: Coming Soon...
+        link-url: ""
+
+    product_more_info:
+      - title: Product Brief
+        link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
+  - product_title: NeonKey Mezzanine
+    display_product: true
+    product_permalink: /product/neonkey/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/neonkey/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more"
+    product_long_desc: |-
+        96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products. ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
+    product_images:
+      - sd/neonkey-front-sd.JPG
+      - sd/neonkey-frontangle1-sd.JPG
+      - sd/neonkey-back-sd.JPG
+
+    product_buy_links:
+      -
+        link-title: Ali Express
+        link-url: "https://linaro.co/neonkey-buy"
+
+    product_more_info:
+      - title: AOSP Sensors Documentation
+        link: https://source.android.com/devices/sensors/
+      - title: AOSP NeonKey Documentation
+        link: https://source.android.com/source/devices#neonkey
+      - title: Schematics
+        link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
+      - title: NeonKey on Tocoding
+        link: http://en.tocoding.com/index.php/96boards-neonkey/
+  - product_title: Secure96 Mezzanine
+    featured_product_order: 8
+    is_featured: true
+    display_product: true
+    product_permalink: /product/secure96/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/secure96/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets."
+    product_long_desc: |-
+        This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
+    product_images:
+      - secure96-angle1-hd.jpg
+      - secure96-angle2-hd.jpg
+      - secure96-angle3-hd.jpg
+      - secure96-back-hd.jpg
+      - secure96-button-hd.jpg
+      - secure96-front-hd.jpg
+      - secure96-port-hd.jpg
+
+    product_buy_links:
+      -
+        link-title: Amazon
+        link-price: 31.99
+        from: amazon.com
+        type: board
+        link-price-currency: USD
+        link-url: "http://linaro.co/buy-secure96"
+
+    product_more_info:
+      - title: Schematics (View)
+        link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+      - title: Schematics (Download)
+        link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+      - title: Getting Started Guide (View)
+        link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+      - title: Getting Started Guide (Download)
+        link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
+
+  - product_title: STM32 Sensor mezzanine board
+    display_product: true
+    product_permalink: /product/stm32/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/stm32/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
+    product_long_desc: |-
+        The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A).
+        This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement,
+        pressure and sound. It can be plugged directly on top of 96Boards consumer edition (ce) products and supports multiple expansion
+        possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software development,
+        drag-and-drop programming and provides direct access to the ARM mbed on-line resources.
+    product_images:
+      - STM32_Front.png
+
+    product_buy_links:
+      -
+        link-title: Arrow Electronics
+        link-url: https://linaro.co/stm32arrow
+      -
+        link-title: Mouser Electronics
+        link-url: https://linaro.co/stm32mouser
+      -
+        link-title: Future Electronics
+        link-url: https://linaro.co/stm32futureelectronics
+
+    product_more_info:
+      - title: Read More on ST.com
+        link: http://linaro.co/stm32f446
+  - product_title: UART Adapter Board
+    display_product: true
+    product_permalink: /product/uartserial/
+    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/uartserial/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    featured_product_order: 9
+    is_featured: true
+    product_specification: "mezzanine"
+    product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
+    product_long_desc: |-
+        Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
+
+        It makes it easy to connect your PC to the serial console on the 96Boards low-speed expansion connector, without worrying about pinout or level shifting for 1.8V IO. It also provides remote control of the power button and reset signals so that the base board can be completely controlled over a single USB cable.
+
+        Since it uses the FT230X chip from FTDI, when it is connected to your PC over USB, it appears as a normal UART interface on a PC, Macintosh or Linux computer with an FTDI UART driver installed.
+
+    product_images:
+      - 96boards-uarts-seed3.jpg
+      - 96boards-uarts-seed2.jpg
+      - 96boards-uarts-seed.jpg
+      - 96boards-uarts-seed-for-accesories-page.jpg
+      - UARTplugIMG_3673.jpg
+      - 96boards-uarts-seed4-crop.jpg
+      - 96boards-uarts-seed4.jpg
+
+    mezzanine_features:
+      - Attaches to 96Boards low-speed (LS) expansion connector
+      - FT230X USB to UART adapter chip
+      - USB bus powered. Doesn’t disconnect when base board power is cycled
+      - Switchable between LS UART0 and UART1. (UART1 is the default console)
+      - CTS/RTS with using UART0
+      - TX and RX LEDs
+      - Remote control of baseboard reset and power signals
+      - Base board reset button
+      - TX and RX LEDs
+      - User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
+
+    product_buy_links:
+      -
+        link-title: Seeed
+        link-url: https://linaro.co/uart-seeed
+
+
+    product_more_info:
+      - title: User Guide
+        link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
+      - title: Schematic
+        link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart.pdf
+      - title: GitHub
+        link: https://github.com/96boards/96boards-uart
+
+    product_bottom_text: |-
+        The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
+
+    product_includes:
+      - quantity: 1
+        name: 96Boards UART
+        id: 96B-05UART-V1.1
+      - quantity: 2
+        name: 2mm shunts
+  - product_title: Sensors Mezzanine
+    display_product: true
+    product_permalink: /product/sensors-mezzanine/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/sensors-mezzanine/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+    product_specification: "mezzanine"
+    product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
+    product_long_desc: |-
+        The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
+
+        On the board you will find sockets for 18 Grove modules, an Arduino-compatible shield socket, and two SPI headers. It also includes an ATMega328 microcontroller which can be programmed from the Arduino IDE and will run most Arduino UNO sketches unchanged. The shield connector and half of the Grove sockets are controlled by the microcontroller, while the remaining Grove sockets are controlled directly by the baseboard. This makes it a flexible prototyping platform which supports both direct control of devices from application software, and offload to a microcontroller. It also provides a USB-UART interface to access the base board’s serial console.
+    product_images:
+        - 96Boards-Sensors-2.jpg
+        - 96Boards-Sensors-3.jpg
+        - 96Boards-Sensors-1.jpg
+    mezzanine_features:
+      - "Compatible with 96Boards ce and EE baseboards"
+      - "Integrated Arduino-compatible ATMEGA328 microcontroller"
+      - "Arduino UNO compatible expansion headers"
+      - "9 Grove connectors for 96Boards IO (mixed 3.3V and 5V; all 5V tolerant): 5x GPIO, and 4x I2C"
+      - "9 Grove connectors for ATMEGA328 IO (all 5V): 5x GPIO, 3x ADC, and 1x I2C"
+      - "26-pin SPI headers"
+      - "MicroUSB interface to 96Boards console serial port"
+      - "1 Power LED"
+      - "3 user LEDs"
+      - "Reset button"
+      - "Power button"
+    product_buy_links:
+      -
+        link-title: 96Boards Sensors
+        link-url: https://linaro.co/20n34bc
+      -
+        link-title: Grove Starter Kit for 96Boards
+        link-url: https://linaro.co/1KnV9TA
+    product_more_info:
+      - title: Getting-Started PDF
+        link: http://linaro.co/sensorkitpdf
+      - title: Github
+        link: https://github.com/96boards/Starter_Kit_for_96Boards
+    product_bottom_text: |-
+        The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
+
+    product_includes:
+      - quantity: 1
+        name: Sensors Mezzanine Board
+        id: 96B-05GROVE-C
+        link: https://linaro.co/20n34bc
+  - product_title: Arrow Link Sprite Mezzanine Kit
+    display_product: true
+    product_permalink: /product/linkspritesensorkit/
+    product_specification: "mezzanine"
+    product_tab_menu:
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+    product_short_desc: 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card.
+    product_long_desc: |-
+        96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make eight fun projects following step-by-step tutorials. Starting from the basics of electronics modules, to more complex projects, the kit will help you control the physical world with sensor and actuators and help you ramp up your progamming using 96Boards.
+    product_images:
+        - LinkSprite_Front.jpg
+        - Sensor_Button.jpg
+        - Sensor_LED.jpg
+        - Sensor_Light.jpg
+        - Sensor_Relay.jpg
+        - Sensor_Slider.jpg
+        - Sensor_Temperature.jpg
+        - Sensor_Tilt.jpg
+        - Sensor_Touch.jpg
+
+    product_buy_links:
+      -
+        link-title: Arrow
+        link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
+  - product_title: AeroCore 2 for 96Boards
+    display_product: true
+    product_permalink: /product/aerocore2/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/aerocore2/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+    product_specification: "mezzanine"
+    product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
+    product_long_desc: |-
+        Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O. Add functionality or remove unused components with the ease of a drag-and-drop interface.
+    product_images:
+      - "AeroCore-2-Mezzanine-front.jpg"
+      - "AeroCore-2-Mezzanine-back.jpg"
+      - "AeroCore-2-Mezzanine-angle.jpg"
+      - "AeroCore-2-Mezzanine-additional3.jpg"
+      - "AeroCore-2-Mezzanine-additional2.jpg"
+      - "AeroCore-2-Mezzanine-additional.jpg"
+    mezzanine_features:
+      - "Barometer Included"
+      - "Controller Area Network (CAN) - For use in applications employing the CAN serial communication physical layer in accordance with the ISO 11898 standard."
+      - "Processor - ARM Cortex-M4 Microcontroller"
+      - "USB Device - Micro B USB Plug"
+      - "5-PIN GPS Connector"
+    product_buy_links:
+      -
+        link-title: Gumstix
+        link-url: https://linaro.co/aerocore2-buy
+      -
+        link-title: Arrow
+        link-url: https://linaro.co/aerocore2-buy-arrow
+    product_more_info:
+        -
+          title: Technical Specification
+          link: https://d3iwea566ns1n1.cloudfront.net/us-west-2/datasheets/geppetto/855bc28811a023824742294171238a8175770196.pdf
+        -
+          title: Disk Image
+          link: https://gumstix-misc.s3.amazonaws.com/uploads/db410c.img.xz
+        -
+          title: Datasheet
+          link: https://s3-us-west-2.amazonaws.com/media.gumstix.com/datasheets/PKG900000000351.pdf
+        -
+          title: Clone and Customize in Geppetto
+          link: https://geppetto.gumstix.com/#!/design/1130/
+
+    product_includes:
+      - quantity: 1
+        name: "FCI 15 PIN FPC Connector - Raspberry pi CSI2 and DSI connector"
+      - quantity: 1
+        name: Magnetic Buzzer SMT -  Magnetic Buzzer 5V 12.8MM SMD
+        link: http://www.cui.com/product/resource/ct-1205cl-smt.pdf
+        id: 5V 30MA 92DBA
+      - quantity: 1
+        name: Texas Instruments CAN Transceiver	- Designed for use with Texas Instruments DSPs with CAN controllers and equivalent devices. Provides differential transmit and receive capability at speeds up to 1 Mbps
+        link: http://www.ti.com/product/sn65hvd232
+        id: SN65HVD232
+      - quantity: 1
+        name: FTDI USB UART Interface - Connect to an RS232 serial terminal over USB with the FTDI FT232RQ interface
+        link: http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+        id: FT232RQ
+      - quantity: 1
+        title: Memory (SPI FRAM 1MB 1.8V)
+        link: http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf
+      - quantity: 1
+        title: Barometric Sensor - A high resolution altitude and digital atmospheric pressure sensor accurate to within 10 cm.
+        link: http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf
+        id: MS5611
+
+    product_video:
+      - https://www.youtube.com/embed/LIH0tpi9KwE
+  - product_title: MIPI Adapter Mezzanine - AiStarVision
+    display_product: true
+    product_permalink: /product/mipiadapter/
+    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+
+    product_specification: "mezzanine"
+    product_short_desc: Hardware compatible MIPI mezzanine and GPIO breakout for 96Boards
+    product_long_desc: |-
+        This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.
+
+    product_images:
+      - "MIPI adapter-Front.png"
+      - "MIPI adapter-Back.png"
+      - "MIPI adapter with Dual module.png"
+      - "MIPI adapter with OV7251.png"
+      - "MIPI adapter with OV8865.png"
+      - "MIPI adapter with OV13850.png"
+      - "MIPI adapter with mipi bridge.png"
+      - "MIPI adapter with V024.png"
+      - "MIPI adapter with PI.png"
+      - "MIPI adapter with AR0130-134.png"
+
+    mezzanine_features:
+      - "Two CSI2 channels support(CSI0:4lane;CSI1:2lane)"
+      - "Camera module supported:OV5645/OV5640"
+      - "Raspberry PI camera supported:OV5647,IMX219"
+      - "Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR"
+      - "UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs"
+    product_buy_links:
+      -
+        link-title: 96Boards MIPI Adapter (Board only)
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf
+        from: ebay
+        type: board
+      -
+        link-title: 96Boards MIPI Adapter with OV5645
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252956476095?hash=item3ae56182bf:g:8z4AAOSwA29Y30WD
+        from: ebay
+        type: package
+      -
+        link-title: 96Boards MIPI Adapter with Dual OV5640
+        link-url: http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-Dual-OV5640-/252928072406?hash=item3ae3b01ad6:g:O7kAAOSwTM5Y4frc
+        from: ebay
+        type: package
+      -
+        link-title: OV5640 Camera Module only
+        link-url: http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650
+        from: ebay
+        type: board
+
+    product_more_info:
+        -
+          title: Github Repository
+          link: https://github.com/Kevin-WSCU/Dragonboard410C-Camera
+        -
+          title: Getting Started
+          link: https://github.com/Kevin-WSCU/96Boards-Camera/blob/master/UserGuide_V2.0/AISTARVISION-MIPI-Adapter%20V2.0-UserGuide.docx.pdf
+        -
+          title: More cameras from our site
+          link: https://www.deltavision.io
+
+
+    product_includes:
+      - quantity: 1
+        name: MIPI Adapter Board
+  - product_title: D3 DesignCore™ Camera Mezzanine
+    display_product: true
+    product_permalink: /product/d3camera/
+    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+    product_specification: "mezzanine"
+    product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-2 cameras to connect to the DragonBoard™ 410c.
+    product_long_desc: |-
+        D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c. Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
+    product_images:
+      - "D3-DesignCore.jpg"
+      - "Camera Mezzanine Board OV5640_front.jpg"
+      - "Camera Mezzanine Board OV5640_back.jpg"
+
+    product_getting_started: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+    product_documents:
+        - title: D3 Engineering website
+          link: http://www.d3engineering.com/solutions/embedded-vision
+        - title: D3 DesignCore Mezzanine Wiki
+          link: https://github.com/D3Engineering/410c_camera_support/wiki
+        - title: Data Sheet
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
+        - title: Quickstart Guide and Schematics
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+    mezzanine_features:
+      - "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
+      - "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
+    product_video:
+        - https://www.youtube.com/embed/nosQO0K60YM?feature=oembed
+        - https://www.youtube.com/embed/1gpMbZf4x8w?feature=oembed
+    product_buy_links:
+      -
+        link-title: Arrow Electronics
+        link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
+  - product_title: Audio Mezzanine
+    display_product: true
+    product_permalink: /product/audio-mezzanine/
+    product_support_link: https://discuss.96boards.org/c/products/mezzanine
+    product_specification: "mezzanine"
+    product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
+    product_long_desc: |-
+        This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
+        You can connect 96Boards to various modules easily with this expansion board. There are six
+        grove ports which can be used to connect rich Grove functional modules, which will make your
+        application more complicated and attracting.
+    product_images:
+      - "audio-mezzanine.png"
+    mezzanine_features:
+      - "6 x On-board Grove connector"
+      - "USB to UART conversion for access to the 410c system console."
+      - "Access to the Analog Audio on the 410c board"
+      - "Access to the low-speed expansion connector"
+      - "Power and Reset/Volume down buttons"
+      - "Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB"
+    product_buy_links:
+      -
+        link-title: Arrow Electronics
+        link-url: https://www.96boards.org/product/audio-mezzanine/
+  - product_title: Ethernet Card
+    display_product: true
+    product_permalink: /product/ethernetcard/
+
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/ethernetcard/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+
+    product_specification: "mezzanine"
+    product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
+    product_long_desc: |-
+        The PoE + Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
+        The Board consists of three key components. The LAN7850 from Microchip provides Gigabit Ethernet through high speed USB 2.0, which is connected to the 96Boards standard HS expansion connector.
+    product_images:
+      - "ethernet-card-high-res.png"
+      - "DB410c_Mezz_Front_Angle.jpg"
+      - "DB410c_Mezz_Front2.jpg"
+      - "Ethernet_Back.jpg"
+      - "Ethernet_Front.jpg"
+      - "Front_Angle_Ethernet.jpg"
+      - "Front_Angle_Side.jpg"
+      - "Front_Angle_Side2.jpg"
+      - "Front_Angle_Side3.jpg"
+      - "Front_Angle_Side4.jpg"
+      - "Front_Angle_Side5.jpg"
+      - "Front_Angle_Side6.jpg"
+      - "Front_Angle_Side7.jpg"
+      - "Front_Angle_Side8.jpg"
+    product_buy_links:
+      -
+        link-title: Coming Soon
+        link-url: /products/mezzanine/
+    # New mezzanine products to enabled remove commented out specification.
+# 96boards Accessories
+accessories:
+  - accessory_permalink: /product/debug/
+    accessory_category: debug
+    accessory_title: UART to USB Adapter Cable
+    accessory_description: |-
+        The TE-C0344 cable is a UART to USB adapter cable, using the Prolific PL2303HXD chipset,
+        which allows users to connect the DragonBoard™ 410c (or any 96Boards specification compliant
+        development board) via the UART pins on the low speed connector, to the USB port on their computer.
+    accessory_order_link:
+        - http://linaro.co/1NtCWme
+    accessory_more_info: http://linaro.co/1iLAdtg
+    accessory_search_term: UART to USB Adapter Cable
+    accessory_images:
+        - uart-to-usb-cable.jpg
+  - accessory_permalink: /product/debug/
+    accessory_category: debug
+    accessory_title: 96Boards UART Serial Adapter
+    accessory_description: |-
+        Available now - a USB to UART interface to be used with any 96Boards Consumer or
+        Enterprise Edition board.
+    accessory_order_link:
+        - http://linaro.co/uart-seeed
+    accessory_more_info: /product/uartserial/
+    accessory_search_term: 96Boards UART Serial Adapter
+    accessory_images:
+        - uarts-debug-accessory.jpg
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
+    accessory_description: |-
+        Arrow are providing this power supply worldwide and recommend it for all 96Boards.
+        The adapter has a US plug, but supports 90-264V AC input and 12V 2A output.
+    accessory_order_link:
+        - https://www.arrow.com/en/products/wm24p6-12-a-ql/autec-power-systems
+    accessory_search_term: Plug-In Adapter Single-OUT 12V 2A 24W
+    accessory_images:
+        - accessories-arrow-power.jpg
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: Universal power supply
+    accessory_description: |-
+        This is a 12V 2A power supply with universal connectivity on both ends.
+        A little more expensive than a standard 1.7mm or 2.1mm supply with a
+        fixed power plug , we have used these on the HiKey and DragonBoard 410c
+        boards without any issues or adapters required. One thing to ensure is
+        that the board end is connected with center pin positive.
+    accessory_order_link:
+        - http://cpc.farnell.com/ideal-power/25hk-ab-120a250-cp6/psu-desktop-plug-in-12v-2-5a-vi/dp/PW04128?rpsku=rel1:PW03336&isexcsku=false
+    accessory_search_term: 25HK-AB-120A250-CP
+    accessory_more_info: http://www.idealpower.co.uk/external-power-supply/interchangeable-switched-mode/25HK-AB-120A250-CP
+    accessory_images:
+        - accessories-2.png
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: 5.5/2.1mm to 4.75/1.7mm cable DC plug converter
+    accessory_description: |-
+        This cable adapter seems to be easier to find that the direct converter,
+        but offers a similar low cost solution to convert more readily available
+        12V 2A 5.5/2.1mm power supplies down to the 96Boards 4.75/1.7mm power jack.
+
+    accessory_order_link:
+        - http://www.amazon.com/Super-Power-Supply%C2%AE-5-5x2-1mm-4-8x1-7mm/dp/B00EA4Q60K/ref=sr_1_4?ie=UTF8&qid=1436114814&sr=8-4
+    accessory_search_term: 2.1mm to 1.7mm power adapter
+    accessory_images:
+        - accessories-power-3.png
+  - accessory_permalink: /product/power/
+    accessory_category: power
+    accessory_title: 2.1mm to 1.7mm DC plug adapter
+    accessory_description: |-
+        Low cost solution to convert more readily available 12V 2A 2.1mm power
+        supplies down to the 96Boards 1.7mm power jack.
+    accessory_order_link:
+        - http://www.amazon.co.uk/5-5mm-1-7mm-2-1mm-Female-Adapter/dp/B00MJSNNDC/ref=sr_1_19?ie=UTF8&qid=1422616362&sr=8-19
+    accessory_search_term: 2.1mm to 1.7mm power adapter
+    accessory_images:
+        - accessories-power-4.png
+  - accessory_permalink: /product/adapter/
+    accessory_category: adapter
+    accessory_title: USB 2.0 to Fast Ethernet Adapter
+    accessory_description_list:
+        - Connectors -  USB Type-A, Stereo output jack, Mono microphone-input jack.
+        - Driverless for Windows 98SE/ME/2000/XP/Server 2003/Vista/7/8/Linux/Mac OSX.
+        - USB bus-powered, no external power required.
+        - Reverse Compliant with USB Audio Device Class Specification 1.0
+
+    accessory_order_link:
+        - http://linaro.co/28SI3hW
+    accessory_search_term: USB 2.0 to Fast Ethernet Adapter
+    accessory_images:
+        - accessories-adapters-1.png
+  - accessory_permalink: /product/adapter/
+    accessory_category: adapter
+    accessory_title: USB Stereo Sound Adapter for Windows, Mac
+    accessory_description_list:
+        - Connectors-  USB Type-A, Stereo output jack, Mono microphone-input jack.
+        - Driverless for Windows 98SE/ME/2000/XP/Server 2003/Vista/7/8/Linux/Mac OSX.
+        - USB bus-powered, no external power required.
+        - Reverse Compliant with USB Audio Device Class Specification 1.0
+
+    accessory_order_link:
+        - http://linaro.co/28SI3hW
+    accessory_search_term: USB Stereo Sound Adapter
+    accessory_images:
+        - accessories-adapters-2.jpg
+  - accessory_permalink: /product/misc/
+    accessory_category: misc
+
+    accessory_title: Creative Live! Cam Sync HD 720P Webcam
+    accessory_description_list:
+        - Capture and share HD 720p video online
+        - Built-in noise-cancelling microphone eliminates background noise for clearer voice chats
+        - Secure your webcam with a password to prevent unauthorized usage
+        - Share your photos and videos online to Facebook and YouTube with a single click
+        - Live! Central 3 with integrated surveillance software to help you monitor your home, kids and business remotely from your mobile phone and PC
+    accessory_order_link:
+        - http://linaro.co/28VpYD2
+    accessory_search_term: 720P Webcam
+    accessory_images:
+        - accessory-misc-1.jpg
+  - accessory_permalink: /product/misc/
+    accessory_category: misc
+
+    accessory_title: Logitech Wireless Touch Keyboard K400 with Built-In Multi-Touch Touchpad, Black
+    accessory_description_list:
+        - Easy and comfortable typing on quiet keys with bold, easy-to-read characters
+        - Large (3.5-inch) touch-pad with multi-touch navigation for easier web browsing
+        - Control your TV-connected laptop from the couch with 33 feet/10 meter wireless range
+        - Plug the tiny Logitech Unifying wireless receiver into your laptop and start surfing the web
+        - Works with Windows 7, Windows Vista and Windows XP
+
+    accessory_order_link:
+        - http://linaro.co/28VqsJs
+    accessory_search_term: Wireless Touch Keyboard
+    accessory_images:
+        - accessory-misc-2.jpg
