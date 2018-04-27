@@ -406,7 +406,7 @@ layout: boards-home
             <a href="
         {% for each in projects %}
         {% assign project-uri = each.permalink | split: "/" %}
-        {% assign project-uri = page-uri[2] | downcase  %}
+        {% assign project-uri = project-uri[2] | downcase  %}
         <a href="{{each.url}}">
                 <div
                 {% if each.thumbnail_image %}
