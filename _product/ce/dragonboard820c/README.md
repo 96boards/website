@@ -1,6 +1,6 @@
 ---
 page_title: DragonBoard 820c
-title: DragonBoard 820c - Low-Cost Product Development Platform
+title: DragonBoard 820c
 layout: product-display-page
 permalink: /product/dragonboard820c/
 description: |-
