@@ -5,5 +5,29 @@ description: |-
     Submit a blog post to 96Boards Blog today via this simple form.
 layout: container-breadcrumb
 ---
-<iframe class="lazyload" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=12" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="725" width="100%"></iframe>
-<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+<h2>Submit a Blog Post using the Form</h2>
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#submitBlogPost">
+Submit
+</button>
+  
+<!-- Modal 2 -->
+<div class="modal fade" id="submitBlogPost" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="cognito">
+          <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+          <script>Cognito.load("forms", { id: "12" });</script>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<h2>Submit a Blog Post through Github</h2>
+
+<p>
+    If you would like to submit a blog post through Github then please follow <a href="">these instructions.</a> 
+</p>

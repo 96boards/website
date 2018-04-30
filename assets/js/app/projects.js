@@ -18,23 +18,23 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-var mixer = mixitup('.mixitup-container', {
-    selectors: {
-        target: '.project-item',
-        control: '[data-mixitup-control]'
-    },
-    animation: {
-        duration: 300
-    }
-});
 
-
-$filterSelect = $('.filter-select');
-$container = $('.mixitup-container');
-
-$filterSelect.on('change', function(){
-    mixer.filter(this.value);
-});
+if($('.mixitup-container').length) {
+    var mixer = mixitup('.mixitup-container', {
+        selectors: {
+            target: '.project-item',
+            control: '[data-mixitup-control]'
+        },
+        animation: {
+            duration: 300
+        }
+    });
+    $filterSelect = $('.filter-select');
+    $container = $('.mixitup-container');
+    $filterSelect.on('change', function(){
+        mixer.filter(this.value);
+    });
+}
 
 
 
