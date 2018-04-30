@@ -403,7 +403,6 @@ layout: boards-home
     <div class="row" id="projects-row">
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
-            <a href="
         {% for each in projects %}
         {% assign project-uri = each.permalink | split: "/" %}
         {% assign project-uri = project-uri[2] | downcase  %}
