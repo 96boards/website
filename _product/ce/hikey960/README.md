@@ -1,6 +1,6 @@
 ---
 page_title: HiKey 960
-title: HiKey 960 - AOSP Developement Board based [Buy Now] Based on 96Boards CE Specification
+title: HiKey 960 
 layout: product-display-page
 permalink: /product/hikey960/
 description: |-
