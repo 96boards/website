@@ -2,7 +2,7 @@
 title:  Bengala IoT (Walking stick)
 permalink: "/projects/bengala-iot/"
 images:
-  - thumb.png
+  - bengala-iot-thumb.png
   - visual2.png
   - diagram1.png
   - diagram2.png
