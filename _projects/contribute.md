@@ -31,7 +31,7 @@ The issue should have the following informations:
 - Bill of Materials (BoM)
 
 Once the issue has been approved by one of our 96Boards team members, projects should be submitted using
-following the [Submit a new Project](../submit.md) guide.
+following the [Submit a new Project](/projects/submit/) guide.
 
 If you have any quesitons, please ask in our IRC channel #96Boards or #OpenHours. Also, refer our [FAQ](../faq.md) section.
 

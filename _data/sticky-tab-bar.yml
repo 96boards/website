@@ -47,9 +47,9 @@ pages:
       - title: OpenHours
         url: /openhours/
       - title: Submit a Project
-        url: /projects/submit.md/
+        url: /projects/submit/
         right: true
-    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit.md/]
+    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit/]
   - list:
       - title: HiKey 960
         url: /product/hikey960/

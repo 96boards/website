@@ -7,6 +7,10 @@ description: |-
     Robot Operating System (ROS) prototype on classic Ubuntu to creating a
     flashable Ubuntu Core image with the prototype preinstalled. Along the way
     you'll learn about ROS, snaps, and Ubuntu Core.
+image:
+    path: /assets/images/projects/ros-thumb.png
+    name: ros-thumb.png
+    thumb: ros-thumb.png
 ---
 # ROS prototype to production on Ubuntu Core
 

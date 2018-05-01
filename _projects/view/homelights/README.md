@@ -1,6 +1,5 @@
 ---
 title: Home Lights
-
 permalink: "/projects/HomeLights/"
 description: |-
     This project is for the Smart Cities Hackathon. The project objetive was to find a way to control your lights at home and develop a cheap and practical kit to make your house smarter.

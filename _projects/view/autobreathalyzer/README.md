@@ -6,7 +6,12 @@ description: |-
 images:
   - AutoBreathalyzer_Demo.png
   - AutoBreathalyzer_FrontPage.png
-
+image:
+  path: /assets/images/projects/ab-thumb.png
+  name: ab-thumb.png
+  thumb: ab-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Automotive Breathalyzer
 

@@ -13,7 +13,7 @@ Ans: Projects to be submitted here should be of good quality and it can fall und
      Designs for Mezzanine boards, 96Boards port for software repositories you maintain etc...
 #### 2. If my entire source code is in my own repo, how should I submit?
 Ans: You can link your repo under RSS URL section while submitting your project. For mode details, please
-     refer our [Submit a project](../submit.md) guide.
+     refer our [Submit a project](/projects/submit/) guide.
 #### 3. How should the copyright of source be submitted?
 Ans: We do not enforce any license restrictions to the source code/materials submitted to this repo.
      But, it should fall under one of the open source licenses available.

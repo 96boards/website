@@ -1,12 +1,135 @@
 ---
 page_title: DragonBoard 410c
-title: DragonBoard 410c - Low-Cost Product Development Platform
+title: DragonBoard 410c 
 layout: product-display-page
 permalink: /product/dragonboard410c/
 description: |-
     DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® Snapdragon™ 410 processor. Low-Cost Product Development Platform
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
+#product_title: DragonBoard™ 410c (Arrow)
+display_product: true
+#product_permalink: /product/dragonboard410c/
+product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+product_specification: ce
+featured_product_order: 2
+is_featured: true
+product_images:
+  - DragonBoard-UpdatedImages-front.png
+  - DragonBoard-UpdatedImages-back.png
+
+# Sub Tab Menu Items
+product_tab_menu:
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/dragonboard410c/getting-started/
+      tab_position: 1
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/dragonboard410c/
+      tab_position: 2
+    - tab_title: Tutorials
+      tab_link: /tutorials/dragonboard410c/
+      tab_position: 3
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
+      tab_position: 4
+      tab_align_right: true
+
+product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
+product_documentation_link: /documentation/consumer/dragonboard410c/
+product_tutorials_link: /tutorials/dragonboard410c/
+product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
+
+# Buy Links
+product_buy_links:
+  -
+    link-title: DragonBoard410c (Basic Kit)
+    link-url: "https://linaro.co/dragonboard410c-buy-arrow"
+    from: Arrow.com
+    type: board
+    link-price: "75.00"
+    link-price-currency: USD
+  -
+    link-title: "DragonBoard410c + Audio Kit"
+    link-url: "https://www.96boards.org/product/audio-mezzanine/"
+    from: Arrow.com
+    type: package
+    link-price: "89.00"
+    link-price-currency: USD
+  -
+    link-title: "DragonBoard410c + Camera Kit"
+    link-url: "https://linaro.co/96b-db410c-camera"
+    from: Arrow.com
+    type: package
+    link-price: "225.00"
+    link-price-currency: USD
+  -
+    link-title: "DragonBoard410c + AWS IoT Kit"
+    link-url: "https://linaro.co/96bawsbuy"
+    from: Amazon.com
+    type: package
+    link-price: "84.99"
+    link-price-currency: USD
+
+# Right Sidepanel links
+product_os:
+  - title: Android
+    link: /documentation/consumer/dragonboard410c/downloads/android.md.html
+  - title: Debian
+    link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
+  - title: OpenEmbedded
+    link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
+
+product_middleware:
+  - title: AWS IoT SDK
+    link: https://github.com/ArrowElectronics/aws-iot-device-sdk
+  - title: IBM Watson IoT Platform
+    link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
+  - title: AT&T M2X
+    link: https://github.com/ArrowElectronics/att-iot-device-sdk
+  - title: ROS
+    link: http://wiki.ros.org/kinetic/Installation/Debian
+  - title: Microsoft Azure IoT Suite
+    link: https://www.microsoft.com/en-us/cloud-platform/internet-of-things#AzureIoT
+
+product_third_party_images:
+  - title: Windows 10 IoT Core
+    link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
+  - title: Ubuntu Core
+    link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+  - title: More Downloads
+    link: /documentation/consumer/dragonboard410c/downloads/
+
+# Bottom Link
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+
+product_mezzanine:
+  - title: D3 Camera Mezzanine
+    link: /product/d3camera/
+  - title: Link Sprite Sensor Kit
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+  - title: Audio Mezzanine
+    link: /product/audio-mezzanine/
+
+product_kits:
+  - title: Basic Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+  - title: Audio Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+  - title: AWS IoT Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+product: true
 ---
 # DragonBoard 410c
 

@@ -1,6 +1,5 @@
 ---
 title: PassMe
-
 permalink: "/projects/PassMe/"
 description: |-
     The intention of this project was to build a smart network for private neighborhoods so residents can send a signal by Bluetooth or Internet to their guests. This will give quick access, without any information exchange.

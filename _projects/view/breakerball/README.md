@@ -1,6 +1,5 @@
 ---
 title: Breakerball
-
 permalink: "/projects/BreakerBall/"
 description: |-
     This is a great demo of the simplicity and power of the DragonBoard 410c that would interest younger programmers.
@@ -8,6 +7,12 @@ images:
   - BreakerBall_FrontPage.png
   - BreakerBall_Image1.png
   - BreakerBall_Image2.png
+image:
+    path: /assets/images/projects/breakerball-thumb.png
+    name: breakerball-thumb.png
+    thumb: breakerball-thumb.png
+categories:
+- DragonBoard410c
 ---
 # Breakerball
 

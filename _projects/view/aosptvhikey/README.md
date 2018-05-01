@@ -6,7 +6,9 @@ description: |-
 images:
   - AOSPTV_FrontPage.png
   - AOSPTV_Video_Demo.png
-
+categories:
+- Hikey960
+- Hikey
 ---
 # AOSP TV Build For The Hikey And Hikey 960
 

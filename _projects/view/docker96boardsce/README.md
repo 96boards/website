@@ -7,6 +7,10 @@ description: |-
 images:
   - Docker_FrontPage.jpg
   - Docker_Video_OpenHours.png
+image:
+    path: /assets/images/projects/docker96-thumb.png
+    name: docker96-thumb.png
+    thumb: docker96-thumb.png
 ---
 # Docker on AArch64 96Boards Consumer Edition
 

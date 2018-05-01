@@ -1,11 +1,12 @@
 ---
 title: Tetris
-
 permalink: "/projects/Tetris/"
 description: |-
         This project tries to revive a classic game by adopting java and JVM running on the DragonBoard™ 410c from Arrow Electronics. With the onboard multi-core CPU, the DragonBoard 410c is a development platform engineered to enhance the interactive interface and handle the logistic functions of the Tetris game with ease. This creates an extremely strong user interaction with background music.
 images:
   - Tetris_FrontPage.png
+categories:
+- DragonBoard410c
 ---
 # Tetris
 
