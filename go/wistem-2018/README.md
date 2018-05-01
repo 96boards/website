@@ -15,7 +15,7 @@ Get ready for an A-May-zing month of Women in STEM! If you are here to read more
 
 There will be several surprises and plenty of good times throughout the month of May. We have something planned for each day with many opportunities to participate and engage with everyone who is involved.
 
-96Boards (with the help of many collaborators) will be hosting 31 written interviews from Women in a wide variety of STEM fields. Makers and software engineers, mathematicians and material physicists, Students, professionals, evangelists, influencers, and more! We hope to speak with everyone! Each day, one STEM story will be featured as a [96Boards Blog](https://www.96boards.org/blog/) and shared across various social media channels.
+96Boards (with the help of many collaborators) will try to host 23 written interviews from Women in a wide variety of STEM fields. Makers and software engineers, mathematicians and material physicists, Students, professionals, evangelists, influencers, and more! We hope to speak with everyone! Each day, one STEM story will be featured as a [96Boards Blog](https://www.96boards.org/blog/) and shared across various social media channels.
 
 While the written interviews offer a great daily read, a weekly livestream can also be expected! At the [end of the countdown](https://www.96boards.org/openhours/) each week, 96Boards will host a live video chat room for anyone and everyone. The topic of the month is "Women in STEM" and you can expect some amazing featured guests to be joining us. This is everyone's chance to listen in, share your thoughts, and even get your questions answered by a selected panel of core participants and our featured guest of the week.
 
