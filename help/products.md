@@ -58,7 +58,7 @@ Once you have created your README.md with the front matter required you can then
 
 |    Product_db Variable      |                Meaning and usage                           |
 |-----------------------------|:----------------------------------------------------------:|
-| product_title  (required)   | This is the product title and is required. |
+| title  (required)   | This is the product title and is required. |
 | product_documentation_link (optional) | This is a link to documentation for the product. This is displayed in the tabbed navigation bar.  |
 | product_support_link  (optional) | This is the support link which is also included in the tabbed navigation bar.  |
 | product_specification (required)  | This is required as it distinguishes your product into a category which is used to display your product correctly on the website. |

@@ -7,9 +7,7 @@ description: |-
     The Chameleon96TM board, based on Intel® Cyclone V SoC FPGA, is a member of 96Boards community and complies with Consumer Edition board specifications. The Chameleon96TM meets all 96Boards mandatory specifications (excluding MIPI SDI Interface) and most optional specifications. The Chameleon96TM features Dual ARM Cortex-A9 processors and a set of peripherals allow direct interfacing and connecting to MMC/SD card, HDMI out, USB, WLAN and BLE. Two expansion connectors provide additional interfaces to cameras, USB, UARTs, I2C, SPI and GPIOs. The use of the FPGA fabric for the video processing allows development of custom IPU/GPU/VPU solutions on this platform.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, alter, novtech, arrow, fpga, processor, low cost, Product, Development, Platform
-#product_title: Chameleon96 (Novtech)
 display_product: true
-#product_permalink: /product/chameleon96/
 product_short_desc: "The Rock960 is a development board based on the Intel Cyclone V SoC FPGA"
 product_specification: ce
 featured_product_order: 2
@@ -17,7 +15,6 @@ is_featured: true
 product_images:
     - chameleon96-front-small.png
     - chameleon96-back-small.png
-
 # Sub Tab Menu Items
 product_tab_menu:
         - tab_title: Getting Started

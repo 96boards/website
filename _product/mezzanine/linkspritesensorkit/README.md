@@ -5,9 +5,6 @@ permalink: /product/linkspritesensorkit/
 description: |-
     96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards.
     96Boards.
-#product_title: Arrow Link Sprite Mezzanine Kit
-display_product: true
-#product_permalink: /product/linkspritesensorkit/
 product_specification: "mezzanine"
 product_tab_menu:
     - tab_title: Support
@@ -27,7 +24,6 @@ product_images:
     - Sensor_Temperature.jpg
     - Sensor_Tilt.jpg
     - Sensor_Touch.jpg
-
 product_buy_links:
   -
     link-title: Arrow
