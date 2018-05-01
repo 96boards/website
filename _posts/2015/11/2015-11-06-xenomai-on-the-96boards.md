@@ -63,7 +63,7 @@ Thanks to the ARM kernel [consolidation](https://lwn.net/Articles/443510/) effo
 
 Moving forward and, as probably any of you trying to do some motor control from any of the 96Boards must have already noticed, there is no way to manage a servo motor due to the lack of PWM modules in these chips. One option would be to spend some dollars on an adaptor card.
 
-But since we now have a real-time provider and enough GPIOs to generate the required PWM signals by software, we can try using one of the many processor cores available. This is not a new concept and it is something that has been tried a number of times with a certain degree of [success](http://letsmakerobots.com/node/28812).
+But since we now have a real-time provider and enough GPIOs to generate the required PWM signals by software, we can try using one of the many processor cores available. This is not a new concept and it is something that has been tried a number of times with a certain degree of success.
 
 In any case and over the coming months we will prototype and deliver the results and associated source code on this same blog using the Hikey board as the evaluation platform.
 
