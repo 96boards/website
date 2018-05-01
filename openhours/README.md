@@ -15,17 +15,15 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours Episode #100 : EOF for Phase 1**
+**OpenHours - Women in STEM month, Interview series!**
 
 <img data-src="https://i.imgur.com/ApfvBlx.jpg" alt="OpenHours Graphic" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="img-responsive lazyload center-block"/>
 
-Out with the old and in with the new:
+OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry and materials, and more... Each featured guest, with their own story filled with challenges and triumphs!
 
-- Community update and plans for the future of OpenHours
-- University update. Students will join us from UCSD to talk about a couple of the projects they are working on
-- Women in STEM month - The entire month of May.
+This week, we will be meeting with **Lindsey aka [@the_engineeress](https://www.instagram.com/the_engineeress/)**, a Materials Engineer who has been sharing her STEM story with us since late last year through Instagram. 
 
-We will be kicking off OpenHours (phase 2) with the first episode of May. New content, new people, new interviews, new crowds, new tech, same family :)
+We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
