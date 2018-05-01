@@ -5,7 +5,7 @@ permalink: /product/aerocore2/
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
-#product_title: AeroCore 2 for 96Boards
+#title: AeroCore 2 for 96Boards
 display_product: true
 #permalink: /product/aerocore2/
 product_tab_menu:
