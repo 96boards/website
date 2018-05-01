@@ -7,7 +7,7 @@ description: |-
 image:
     path: /assets/images/products/secure96-social-media.jpg
     name: secure96-social-media.jpg
-#product_title: Secure96 Mezzanine
+#title: Secure96 Mezzanine
 featured_product_order: 8
 is_featured: true
 display_product: true

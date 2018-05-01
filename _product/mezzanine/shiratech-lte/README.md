@@ -4,7 +4,7 @@ layout: product-display-page
 permalink: /product/shiratech-lte/
 description: |-
     Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
-product_title: Shiratech LTE Mezzanine
+title: Shiratech LTE Mezzanine
 display_product: true
 permalink: /product/shiratech-lte/
 product_tab_menu:
