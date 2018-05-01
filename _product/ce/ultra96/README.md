@@ -9,7 +9,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
 #product_title: Ultra96 (Avnet)
 display_product: true
-#product_permalink: /product/ultra96/
+#permalink: /product/ultra96/
 product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
 product_specification: ce
 featured_product_order: 2

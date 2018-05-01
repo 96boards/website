@@ -7,7 +7,7 @@ description: |-
     ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 #product_title: NeonKey Mezzanine
 display_product: true
-#product_permalink: /product/neonkey/
+#permalink: /product/neonkey/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/neonkey/

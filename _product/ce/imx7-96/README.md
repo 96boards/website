@@ -10,7 +10,7 @@ display_product: true
 featured_product_order: 10
 # Boolean to determine the type as a page.
 is_featured: true
-#product_permalink: /product/imx7-96/
+#permalink: /product/imx7-96/
 product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 product_specification: ce
 product_images:

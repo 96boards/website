@@ -7,7 +7,7 @@ description: |-
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
 #product_title: AeroCore 2 for 96Boards
 display_product: true
-#product_permalink: /product/aerocore2/
+#permalink: /product/aerocore2/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/aerocore2/

@@ -8,7 +8,7 @@ keywords: |-
     Build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos
 #product_title: Orange Pi i96
 display_product: true
-#product_permalink: /product/orangepi-i96/
+#permalink: /product/orangepi-i96/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/iot/orangepi-i96/

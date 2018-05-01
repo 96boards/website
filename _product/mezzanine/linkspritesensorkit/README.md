@@ -7,7 +7,7 @@ description: |-
     96Boards.
 #product_title: Arrow Link Sprite Mezzanine Kit
 display_product: true
-#product_permalink: /product/linkspritesensorkit/
+#permalink: /product/linkspritesensorkit/
 product_specification: "mezzanine"
 product_tab_menu:
     - tab_title: Support

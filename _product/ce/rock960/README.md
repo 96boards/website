@@ -7,7 +7,7 @@ description: |-
 keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, rockchip, rk3399, processor, low cost, Product, Development, Platform, arm
 #product_title: Rock960 (Vamrs)
 display_product: true
-#product_permalink: /product/rock960/
+#permalink: /product/rock960/
 product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
 product_specification: ce
 featured_product_order: 2

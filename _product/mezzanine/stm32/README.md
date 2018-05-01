@@ -6,7 +6,7 @@ description: |-
     The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A)
 #product_title: STM32 Sensor mezzanine board
 display_product: true
-#product_permalink: /product/stm32/
+#permalink: /product/stm32/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/stm32/

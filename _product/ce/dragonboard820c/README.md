@@ -9,7 +9,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
 #product_title: DragonBoard™ 820c (Arrow)
 display_product: true
-#product_permalink: /product/dragonboard820c/
+#permalink: /product/dragonboard820c/
 product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
 product_specification: ce
 featured_product_order: 2
