@@ -16,6 +16,7 @@ product_tab_menu:
       tab_align_right: true
 featured_product_order: 7
 is_featured: true
+display_product: true
 product_specification: ie
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
 product_long_desc: |-

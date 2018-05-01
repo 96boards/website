@@ -9,6 +9,7 @@ keywords: |-
 product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
 product_specification: ce
 featured_product_order: 2
+display_product: true
 is_featured: true
 product_images:
   - ultra96-front-sd.png

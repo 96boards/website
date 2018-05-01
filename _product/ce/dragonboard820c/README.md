@@ -14,7 +14,6 @@ is_featured: true
 product_images:
   - dragonboard820c-front-sd.png
   - dragonboard820c-back-sd.png
-# Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/dragonboard820c/getting-started/
@@ -31,7 +30,6 @@ product_getting_started: /documentation/consumer/dragonboard820c/getting-started
 product_documentation_link: /documentation/consumer/dragonboard820c/
 product_tutorials_link: /tutorials/dragonboard820c/
 product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
-# Buy Links
 product_buy_links:
   -
     link-title: DragonBoard820c (Basic Kit)
@@ -40,18 +38,13 @@ product_buy_links:
     type: board
     link-price: "199.00"
     link-price-currency: USD
-# Right Sidepanel links
 product_os:
   - title: Debian
     link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
-
 product_middleware:
   - title: Coming Soon...
-
 product_third_party_images:
   - title: Coming Soon...
-
-# Bottom Link
 product_accessories:
   - title: Power
     link: /product/power/

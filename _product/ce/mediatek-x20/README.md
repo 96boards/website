@@ -19,6 +19,7 @@ product_tab_menu:
 featured_product_order: 4
 is_featured: true
 product_specification: ce
+display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"
 date_released: 2017
 product_available: true

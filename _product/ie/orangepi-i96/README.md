@@ -15,6 +15,7 @@ product_tab_menu:
       tab_position: 2
       tab_align_right: true
 featured_product_order: 5
+display_product: true
 is_featured: true
 product_specification: ie
 product_short_desc: "Cortex-A5 chip with 96Boards IE Specification"
