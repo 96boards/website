@@ -1,5 +1,4 @@
 ---
-page_title: Ultra96
 title: Ultra96
 layout: product-display-page
 permalink: /product/ultra96/
@@ -7,9 +6,6 @@ description: |-
     Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
-#title: Ultra96 (Avnet)
-display_product: true
-#permalink: /product/ultra96/
 product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
 product_specification: ce
 featured_product_order: 2
@@ -28,7 +24,6 @@ product_images:
   - ultra96-angle9-sd.png
   - ultra96-angle10-sd.png
   - ultra96-angle11-sd.png
-# Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/ultra96/getting-started/
@@ -41,11 +36,8 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/ultra96/
       tab_position: 4
       tab_align_right: true
-
 product_getting_started: /documentation/consumer/ultra96/getting-started/
 product_documentation_link: /documentation/consumer/ultra96/
-
-# Buy Links
 product_buy_links:
   -
     link-title: Ultra96 Developer Board
@@ -54,27 +46,19 @@ product_buy_links:
     type: board
     link-price: "249.00"
     link-price-currency: USD
-
 product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
-
-# Right Sidepanel links
 product_os:
   - title: Coming Soon...
-
 product_middleware:
   - title: Coming Soon...
-
 product_third_party_images:
   - title: OpenSUSE
     link: https://en.opensuse.org/HCL:Ultra96
-
 product_more_info:
     - title: Avnet
     - link: https://linaro.co/ultra96-vendor-avnet
-
-# Bottom Link
 product_accessories:
   - title: Power
     link: /product/power/
@@ -84,7 +68,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -96,7 +79,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_kits:
   - title: Coming Soon...
 product: true

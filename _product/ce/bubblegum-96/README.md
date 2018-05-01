@@ -4,9 +4,7 @@ layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
-#title: bubblegum-96
 display_product: true
-#permalink: /product/bubblegum-96/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/bubblegum-96/
@@ -15,7 +13,6 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/bubblegum96
       tab_position: 2
       tab_align-right: true
-
 featured_product_order: 3
 product_specification: ce
 product_short_desc: Board based on Actions Semi S900 Processor

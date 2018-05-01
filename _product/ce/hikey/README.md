@@ -4,9 +4,7 @@ layout: product-display-page
 permalink: /product/hikey/
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
-#title: Hikey (LeMaker)
 display_product: true
-#permalink: /product/hikey/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey/
@@ -15,25 +13,18 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/hikey
       tab_position: 2
       tab_align_right: true
-# featured_product_order:
-# Layout
-layout: product-display-page
-# Boolean to determine the type as a page.
 is_featured: false
-# Permalink for this product
-permalink: /product/hikey/
-# Product Front Matter Data
 product_specification: ce
-product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
+product_short_desc: Board based on HiSilicon Kirin 6220 processor
 product_buy_links:
-  - link-title: "Buy HiKey(1GB RAM)"
-    link-url: "https://linaro.co/hikey-lenovator-buy-1gb"
+  - link-title: Buy HiKey(1GB RAM)
+    link-url: https://linaro.co/hikey-lenovator-buy-1gb
     link-price: "75.00"
     link-price-currency: USD
     from: Lenovator.com
     type: board
-  - link-title: "Buy HiKey(2GB RAM)"
-    link-url: "https://linaro.co/hikey-lenovator-buy"
+  - link-title: Buy HiKey(2GB RAM)
+    link-url: https://linaro.co/hikey-lenovator-buy
     link-price: "119.00"
     link-price-currency: USD
     from: Lenovator.com
@@ -58,7 +49,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_accessories:
   - title: Power
     link: /product/power/
@@ -75,7 +65,7 @@ product_os:
     title: Debian
   - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
     title: OpenEmbedded
-product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+product_support_link: https://discuss.96boards.org/c/products/hikey/
 product: true
 ---
 # HiKey

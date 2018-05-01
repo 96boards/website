@@ -1,15 +1,12 @@
 ---
-page_title: DragonBoard 820c
-title: DragonBoard 820c
+title: DragonBoard™ 820c (Arrow)
 layout: product-display-page
 permalink: /product/dragonboard820c/
 description: |-
     DragonBoard 820c by Arrow Electronics, development board based on the top-tier Qualcomm® Snapdragon™ 820E processor. Low-Cost Product Development Platform
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
-#title: DragonBoard™ 820c (Arrow)
 display_product: true
-#permalink: /product/dragonboard820c/
 product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
 product_specification: ce
 featured_product_order: 2
@@ -17,7 +14,6 @@ is_featured: true
 product_images:
   - dragonboard820c-front-sd.png
   - dragonboard820c-back-sd.png
-
 # Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
@@ -31,12 +27,10 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
       tab_position: 4
       tab_align_right: true
-
 product_getting_started: /documentation/consumer/dragonboard820c/getting-started/
 product_documentation_link: /documentation/consumer/dragonboard820c/
 product_tutorials_link: /tutorials/dragonboard820c/
 product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
-
 # Buy Links
 product_buy_links:
   -

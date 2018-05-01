@@ -5,9 +5,6 @@ permalink: /product/aerocore2/
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
-#title: AeroCore 2 for 96Boards
-display_product: true
-#permalink: /product/aerocore2/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/aerocore2/
@@ -53,7 +50,6 @@ product_more_info:
     -
       title: Clone and Customize in Geppetto
       link: https://geppetto.gumstix.com/#!/design/1130/
-
 product_includes:
   - quantity: 1
     name: "FCI 15 PIN FPC Connector - Raspberry pi CSI2 and DSI connector"
@@ -76,7 +72,6 @@ product_includes:
     title: Barometric Sensor - A high resolution altitude and digital atmospheric pressure sensor accurate to within 10 cm.
     link: http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf
     id: MS5611
-
 product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
 product: true

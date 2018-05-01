@@ -1,7 +1,7 @@
 ---
+title: DeveloperBox (Socionext)
 layout: product-display-page
 permalink: /product/developerbox/
-title: DeveloperBox (Socionext)
 description: |-
     SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”
 display_product: true
@@ -12,7 +12,6 @@ is_featured: true
 product_images:
   - developerbox-front-sd.png
   - developerbox-back-sd.png
-# Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/enterprise/developerbox/getting-started/
@@ -24,7 +23,6 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/developerbox/
       tab_position: 4
       tab_align_right: true 
-# Buy Links
 product_buy_links:
   -
     link-title: DeveloperBox (Chip1Stop)
@@ -33,28 +31,21 @@ product_buy_links:
     type: board
     link-price: "1230.00"
     link-price-currency: USD
-
 product_more_info:
     - title: Socionext
       link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
-
-# Right Sidepanel links
 product_os:
   - title: EDK2 (Firmware)
     link: /documentation/enterprise/developerbox/downloads/edk2.md.html
   - title: Debian
     link: /documentation/enterprise/developerbox/downloads/debian.md.html
-
 product_third_party_images:
   - title: Coming Soon...
-
-# Bottom Link
 product_accessories:
   - title: Debug
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -66,7 +57,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_kits:
   - title: Coming Soon...
 product: true
