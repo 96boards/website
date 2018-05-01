@@ -1,11 +1,239 @@
 products:
 # ce, EE, IE Products
-  - product_title: Bubblegum-96
+  - product_title: DeveloperBox (Socionext)
+    display_product: true
+    product_permalink: /product/developerbox/
+    product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
+    product_specification: ee
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - developerbox-front-sd.png
+      - developerbox-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/enterprise/developerbox/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/enterprise/developerbox
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/developerbox/
+          tab_position: 4
+          tab_align_right: true
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DeveloperBox (Chip1Stop)
+        link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
+        from: chip1stop.com
+        type: board
+        link-price: "1230.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: Socionext
+          link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
+
+    # Right Sidepanel links
+    product_os:
+      - title: EDK2 (Firmware)
+        link: /documentation/enterprise/developerbox/downloads/edk2.md.html
+      - title: Debian
+        link: /documentation/enterprise/developerbox/downloads/debian.md.html
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
+  - product_title: Rock960 (Vamrs)
+    display_product: true
+    product_permalink: /product/rock960/
+    product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - rock960-front-sd.png
+      - rock960-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/rock960/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/rock960/
+          tab_position: 2
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/rock960/
+          tab_position: 4
+          tab_align_right: true
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: Rock960 (SeeedStudio)
+        link-url: "https://www.seeedstudio.com/Rock-960-Board-RK3399-solution-2G-Version-p-3036.html"
+        from: SeeedStudio.com
+        type: board
+        link-price: "99.00"
+        link-price-currency: USD
+      -
+        link-title: Rock960 (Vamrs)
+        link-url: "https://store.vamrs.com/products/rock960"
+        from: Vamrs.com
+        type: board
+        link-price: "99.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: 96Rocks
+          link: https://www.96rocks.com/
+
+    # Right Sidepanel links
+    product_os:
+      - title: AOSP
+        link: /documentation/consumer/rock960/downloads/aosp.md.html
+      - title: Debian
+        link: /documentation/consumer/rock960/downloads/debian.md.html
+      - title: Ubuntu
+        link: /documentation/consumer/rock960/downloads/ubuntu.md.html
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+      
+  - product_title: Chameleon96 (Novtech)
+    display_product: true
+    product_permalink: /product/chameleon96/
+    product_short_desc: "The Chameleon96 is a development board based on Intel® Cyclone V SoC FPGA"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+        - chameleon96-front-small.png
+        - chameleon96-back-small.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+            - tab_title: Getting Started
+              tab_link: /documentation/consumer/chameleon96/getting-started/
+              tab_position: 1
+            - tab_title: Documentation
+              tab_link: /documentation/consumer/chameleon96/
+              tab_position: 2
+            - tab_title: Support
+              tab_link: https://discuss.96boards.org/c/products/chameleon96/
+              tab_position: 4
+              tab_align_right: true
+    # Buy Links
+    product_buy_links:
+        -
+            link-title: Chameleon96 (Arrow)
+            link-url: "https://www.arrow.com/en/products/chameleon96/novtech-inc"
+            from: Arrow.com
+            type: board
+            link-price: "129.00"
+            link-price-currency: USD
+
+    product_more_info:
+            - title: Chameleon96
+              link: https://www.arrow.com/en/products/chameleon96/novtech-inc
+
+    # Right Sidepanel links
+    product_os:
+        - title: Linux
+          link: /documentation/consumer/chameleon96/installation/
+
+    product_middleware:
+        - title: Coming Soon...
+
+    product_third_party_images:
+        - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+
+    product_mezzanine:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+
+    product_kits:
+        - title: Coming Soon...
+
+  - product_title: bubblegum-96
     display_product: true
     product_permalink: /product/bubblegum-96/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/Bubblegum-96/
+          tab_link: /documentation/consumer/bubblegum-96/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/bubblegum96
@@ -28,14 +256,14 @@ products:
       - 96b-0-bubblegum96-actions-ucrobotics-5.png
     product_os:
       - title: Debian
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
     product_third_party_images:
       - title: Phoenix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
       - title: Remix
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
       - title: Ubuntu Core
-        link: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.html
+        link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
     product_accessories:
       - title: Power
         link: /product/power/
@@ -78,10 +306,10 @@ products:
     # Sub Tab Menu Items
     product_tab_menu:
         - tab_title: Getting Started
-          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
+          tab_link: /documentation/consumer/dragonboard410c/getting-started/
           tab_position: 1
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/DragonBoard-410c/
+          tab_link: /documentation/consumer/dragonboard410c/
           tab_position: 2
         - tab_title: Tutorials
           tab_link: /tutorials/dragonboard410c/
@@ -91,8 +319,8 @@ products:
           tab_position: 4
           tab_align_right: true
 
-    product_getting_started: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
-    product_documentation_link: /documentation/ConsumerEdition/DragonBoard-410c/
+    product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
+    product_documentation_link: /documentation/consumer/dragonboard410c/
     product_tutorials_link: /tutorials/dragonboard410c/
     product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
 
@@ -107,7 +335,7 @@ products:
         link-price-currency: USD
       -
         link-title: "DragonBoard410c + Audio Kit"
-        link-url: "https://linaro.co/db410c-audio-buy-arrow"
+        link-url: "https://www.96boards.org/product/audio-mezzanine/"
         from: Arrow.com
         type: package
         link-price: "89.00"
@@ -130,11 +358,11 @@ products:
     # Right Sidepanel links
     product_os:
       - title: Android
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/android.md.html
       - title: Debian
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
       - title: OpenEmbedded
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md.html
+        link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
 
     product_middleware:
       - title: AWS IoT SDK
@@ -154,7 +382,7 @@ products:
       - title: Ubuntu Core
         link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
       - title: More Downloads
-        link: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/
+        link: /documentation/consumer/dragonboard410c/downloads/
 
     # Bottom Link
     product_accessories:
@@ -181,18 +409,18 @@ products:
 
     product_kits:
       - title: Basic Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
       - title: Audio Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
       - title: AWS IoT Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
   - product_title: Hikey (LeMaker)
     display_product: true
     product_permalink: /product/hikey/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_link: /documentation/consumer/hikey/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey
@@ -261,11 +489,11 @@ products:
       - title: Misc
         link: /product/misc/
     product_os:
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
+      - link: /documentation/consumer/hikey/downloads/aosp.md.html
         title: AOSP
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md.html
+      - link: /documentation/consumer/hikey/downloads/debian.md.html
         title: Debian
-      - link: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
+      - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
         title: OpenEmbedded
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
@@ -277,7 +505,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey960/
+          tab_link: /documentation/consumer/hikey960/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey960
@@ -321,7 +549,7 @@ products:
         link: /product/misc/
 
     product_third_party_images:
-        - link: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md.html
+        - link: /documentation/consumer/hikey960/downloads/aosp.md.html
     product_buy_links:
       -
         link-title: "Amazon (USA)"
@@ -365,10 +593,6 @@ products:
         link-price-currency: JPY
         from: Switch-Science.com
         type: board
-      -
-        link-title: "All Net (Germany)"
-        link-url: "https://linaro.co/hikey960-allnet"
-        type: board
 
     product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
   - product_title: HiKey (CircuitCo)
@@ -376,7 +600,7 @@ products:
     product_permalink: /product/hikey-circuitco/
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/HiKey/
+          tab_link: /documentation/consumer/hikey/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/hikey
@@ -400,6 +624,11 @@ products:
     product_support_link: "https://discuss.96boards.org/c/products/hikey/"
   - product_title: iMX7-96 Development Board
     display_product: true
+
+    featured_product_order: 10
+    # Boolean to determine the type as a page.
+    is_featured: true
+
     product_permalink: /product/imx7-96/
     product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
     product_specification: ce
@@ -409,10 +638,10 @@ products:
     # Sub Tab Menu Items
     product_tab_menu:
         - tab_title: Getting Started
-          tab_link: /documentation/ConsumerEdition/imx7-96/getting-started/
+          tab_link: /documentation/consumer/imx7-96/getting-started/
           tab_position: 1
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/imx7-96/
+          tab_link: /documentation/consumer/imx7-96/
           tab_position: 2
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/imx7-96/
@@ -433,7 +662,7 @@ products:
     # Right Sidepanel links
     product_os:
       - title: Android
-        link: /documentation/ConsumerEdition/imx7-96/downloads/
+        link: /documentation/consumer/imx7-96/downloads/
 
     # Bottom Link
     product_accessories:
@@ -460,18 +689,189 @@ products:
 
     product_kits:
       - title: Basic Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
       - title: Audio Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
       - title: AWS IoT Kit
-        link: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AWSKit/
+        link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+
+  - product_title: DragonBoard™ 820c (Arrow)
+    display_product: true
+    product_permalink: /product/dragonboard820c/
+    product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - dragonboard820c-front-sd.png
+      - dragonboard820c-back-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/dragonboard820c/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/dragonboard820c/
+          tab_position: 2
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
+          tab_position: 4
+          tab_align_right: true
+
+    product_getting_started: /documentation/consumer/dragonboard820c/getting-started/
+    product_documentation_link: /documentation/consumer/dragonboard820c/
+    product_tutorials_link: /tutorials/dragonboard820c/
+    product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
+
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: DragonBoard820c (Basic Kit)
+        link-url: "https://www.arrow.com/en/products/dragonboard820c/arrow-development-tools"
+        from: Arrow.com
+        type: board
+        link-price: "199.00"
+        link-price-currency: USD
+    # Right Sidepanel links
+    product_os:
+      - title: Debian
+        link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: Coming Soon...
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
+  - product_title: Ultra96 (Avnet)
+    display_product: true
+    product_permalink: /product/ultra96/
+    product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
+    product_specification: ce
+    featured_product_order: 2
+    is_featured: true
+    product_images:
+      - ultra96-front-sd.png
+      - ultra96-back-sd.png
+      - ultra96-angle1-sd.png
+      - ultra96-angle2-sd.png
+      - ultra96-angle3-sd.png
+      - ultra96-angle4-sd.png
+      - ultra96-angle5-sd.png
+      - ultra96-angle6-sd.png
+      - ultra96-angle7-sd.png
+      - ultra96-angle8-sd.png
+      - ultra96-angle9-sd.png
+      - ultra96-angle10-sd.png
+      - ultra96-angle11-sd.png
+
+    # Sub Tab Menu Items
+    product_tab_menu:
+        - tab_title: Getting Started
+          tab_link: /documentation/consumer/ultra96/getting-started/
+          tab_position: 1
+        - tab_title: Documentation
+          tab_link: /documentation/consumer/ultra96/
+          tab_position: 2
+          tab_position: 3
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/ultra96/
+          tab_position: 4
+          tab_align_right: true
+
+    product_getting_started: /documentation/consumer/ultra96/getting-started/
+    product_documentation_link: /documentation/consumer/ultra96/
+
+    # Buy Links
+    product_buy_links:
+      -
+        link-title: Ultra96 Developer Board
+        link-url: https://linaro.co/ultra96-buy
+        from: Avnet.com
+        type: board
+        link-price: "249.00"
+        link-price-currency: USD
+
+    product_more_info:
+        - title: Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+
+    # Right Sidepanel links
+    product_os:
+      - title: Coming Soon...
+
+    product_middleware:
+      - title: Coming Soon...
+
+    product_third_party_images:
+      - title: OpenSUSE
+        link: https://en.opensuse.org/HCL:Ultra96
+
+    product_more_info:
+        - title: Avnet
+        - link: https://linaro.co/ultra96-vendor-avnet
+
+    # Bottom Link
+    product_accessories:
+      - title: Power
+        link: /product/power/
+      - title: Adapter
+        link: /product/adapter/
+      - title: Debug
+        link: /product/debug/
+      - title: Misc
+        link: /product/misc/
+
+    product_mezzanine:
+      - title: D3 Camera Mezzanine
+        link: /product/d3camera/
+      - title: Link Sprite Sensor Kit
+        link: /product/linkspritesensorkit/
+      - title: UART Serial
+        link: /product/uartserial/
+      - title: Sensors Mezzanine
+        link: /product/sensors-mezzanine
+      - title: Audio Mezzanine
+        link: /product/audio-mezzanine/
+
+    product_kits:
+      - title: Coming Soon...
+
   - product_title: Mediatek X20 Development Board
     display_product: true
     product_permalink: /product/mediatek-x20/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/ConsumerEdition/MediaTekX20/
+          tab_link: /documentation/consumer/mediatekx20/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/mediatek-x20
@@ -501,7 +901,7 @@ products:
       - Helio-X20-side-two.png
 
     product_third_party_images:
-      - link: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/
+      - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
         title: AOSP
 
     product_mezzanine:
@@ -556,7 +956,7 @@ products:
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/carbon/
+          tab_link: /documentation/iot/carbon/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/carbon
@@ -580,14 +980,14 @@ products:
         link-url: "http://linaro.co/carbon-buy"
     product_os:
       - title: Zephyr
-        link: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
+        link: /documentation/iot/carbon/downloads/zephyr.md.html
   - product_title: Nitrogen
     display_product: true
     product_permalink: /product/nitrogen/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/nitrogen/
+          tab_link: /documentation/iot/nitrogen/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/nitrogen
@@ -610,14 +1010,14 @@ products:
         link-url: "https://linaro.co/nitrogen-buy"
     product_os:
       - title: Zephyr
-        link: /documentation/IoTEdition/nitrogen/build/LinuxBuild/
+        link: /documentation/iot/nitrogen/build/linux/
   - product_title: Orange Pi i96
     display_product: true
     product_permalink: /product/orangepi-i96/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/IoTEdition/orangepi-i96/
+          tab_link: /documentation/iot/orangepi-i96/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/orangepi-i96
@@ -641,22 +1041,22 @@ products:
         link-url: "https://linaro.co/orangepi-i96-buy"
     product_os:
       - title: Debian
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Ubuntu Server
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Android Nand
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Android Tcard
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
       - title: Raspbian Server
-        link: /documentation/IoTEdition/orangepi-i96/downloads/
+        link: /documentation/iot/orangepi-i96/downloads/
   - product_title: Poplar
     display_product: true
     product_permalink: /product/poplar/
 
     product_tab_menu:
         - tab_title: Documentation
-          tab_link: /documentation/EnterpriseEdition/Poplar/
+          tab_link: /documentation/enterprise/poplar/
           tab_position: 1
         - tab_title: Support
           tab_link: https://discuss.96boards.org/c/products/poplar
@@ -680,8 +1080,36 @@ products:
         link-url: "https://linaro.co/poplar-ali"
     product_os:
       - title: Build from Source
-        link: /documentation/EnterpriseEdition/Poplar/BuildSource/
+        link: /documentation/enterprise/poplar/build/
 # Mezzanine Products
+  - product_title: Shiratech LTE Mezzanine
+    display_product: true
+    product_permalink: /product/shiratech-lte/
+    product_tab_menu:
+        - tab_title: Documentation
+          tab_link: /documentation/mezzanine/shiratech-lte/
+          tab_position: 1
+        - tab_title: Support
+          tab_link: https://discuss.96boards.org/c/products/mezzanine
+          tab_position: 2
+          tab_align_right: true
+
+    product_specification: "mezzanine"
+    product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
+    product_long_desc: |-
+        Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
+    product_images:
+      - shiratech-lte-front-sd.jpg
+      - shiratech-lte-back-sd.jpg
+
+    product_buy_links:
+      -
+        link-title: Coming Soon...
+        link-url: ""
+
+    product_more_info:
+      - title: Product Brief
+        link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
   - product_title: NeonKey Mezzanine
     display_product: true
     product_permalink: /product/neonkey/
@@ -719,7 +1147,7 @@ products:
         link: http://en.tocoding.com/index.php/96boards-neonkey/
   - product_title: Secure96 Mezzanine
     featured_product_order: 8
-    is_featured: true 
+    is_featured: true
     display_product: true
     product_permalink: /product/secure96/
     product_tab_menu:
@@ -752,7 +1180,7 @@ products:
         type: board
         link-price-currency: USD
         link-url: "http://linaro.co/buy-secure96"
-        
+
     product_more_info:
       - title: Schematics (View)
         link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
@@ -762,7 +1190,7 @@ products:
         link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
       - title: Getting Started Guide (Download)
         link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
-  
+
   - product_title: STM32 Sensor mezzanine board
     display_product: true
     product_permalink: /product/stm32/
@@ -1042,7 +1470,7 @@ products:
       - "MIPI adapter with mipi bridge.png"
       - "MIPI adapter with V024.png"
       - "MIPI adapter with PI.png"
-      - "MIPI adapter with AR0130/134.png"
+      - "MIPI adapter with AR0130-134.png"
 
     mezzanine_features:
       - "Two CSI2 channels support(CSI0:4lane;CSI1:2lane)"
@@ -1143,7 +1571,7 @@ products:
     product_buy_links:
       -
         link-title: Arrow Electronics
-        link-url: https://www.arrow.com/en/products/audiomezz/seeed-technology-limited
+        link-url: https://www.96boards.org/product/audio-mezzanine/
   - product_title: Ethernet Card
     display_product: true
     product_permalink: /product/ethernetcard/
@@ -1181,7 +1609,7 @@ products:
     product_buy_links:
       -
         link-title: Coming Soon
-        link-url: /mezzanine/
+        link-url: /products/mezzanine/
     # New mezzanine products to enabled remove commented out specification.
 # 96boards Accessories
 accessories:

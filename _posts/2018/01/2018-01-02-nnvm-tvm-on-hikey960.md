@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/nnvm.jpg
     name: nnvm.jpg
-    thumb: /assets/images/blog/thumbs/nnvm-thumb.jpg
+    thumb: nnvm-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey960, Linaro, Linux, NNVM, TVM, AI, TensorFlow, MxNet
 ---
@@ -32,7 +32,7 @@ together with other contributors.
 
 NNVM compiler allows us to use the deep learning models from the frameworks
 like Apache MXNet, Caffe, Keras, PyTorch etc... These models can be deployed
-on various hardware backends with the help of TVM primitives such as LLVM, 
+on various hardware backends with the help of TVM primitives such as LLVM,
 OpenCL, Metal, CUDA etc...
 
 Upcoming sections will illustrate how to install NNVM/TVM on the host and
@@ -101,7 +101,7 @@ Unzip the **rootfs** image and flash it onto HiKey960 along with **boot** and
 >       [here](https://github.com/96boards-hikey/tools-images-hikey960#base-firmware-files-and-installation).
 >    Next, flash the above-specified images using **fastboot**
 
-Once the HiKey960 boots into debian, enable networking using [this](https://github.com/96boards/documentation/blob/master/ConsumerEdition/guides/wifi_commandline.md)
+Once the HiKey960 boots into debian, enable networking using [this](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
 guide and note down the IP address using `ifconfig` command.
 
 Next, follow the below steps to install TVM runtime on HiKey960:

@@ -61,6 +61,9 @@ members:
         - name: Arrow Electronics
           image: arrow.jpg
           url: https://www.linaro.org/company/arrow/
+        - name: Avnet
+          image: Avnet.png
+          url: https://www.linaro.org/company/avnet/
         - name: Black Whale Technology
           image: Blackwhale.png
           url: https://www.linaro.org/company/blackwhale/
@@ -88,6 +91,9 @@ members:
         - name: Huaqin
           image: huaqin.jpg
           url: https://www.linaro.org/company/huaqin/
+        - name: LeMaker
+          image: lemaker.jpg
+          url: https://www.linaro.org/company/lemaker/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
@@ -106,9 +112,6 @@ members:
         - name: vamrs
           image: vamrs.jpg
           url: https://www.linaro.org/company/vamrs/
-        - name: WrtNode
-          image: wrtnode.png
-          url: https://www.linaro.org/company/wrtnode/
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/

@@ -4,24 +4,34 @@ description: |-
     96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: empty-container-page-no-nav
-css-pack: openhours
+layout: container-breadcrumb-tabs
+css-package: openhours
 js-package: openhours
 ---
+
 <div class="col-md-6" markdown="1">
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-### This week – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+**OpenHours - Women in STEM month, Interview series!**
 
-**OpenHours Episode #85** - Tune in for this week's OpenHours! Sahaj, from the 96Boards team, will be demoing a Superfast NAS(Network Attached Storage) with the 96Boards Poplar TV Enterprise board! Since Poplar has a USB3.0 and a Gigabit LAN Interface, It is the best candidate for a Superfast NAS. This project will go through the process of setting up hardware and software NAS using SMB(Samba) so it can be accessed across multiple OS. Since we will be using the gigabit ethernet interface, it will suffice to stream high bitrate content over multiple clients and to transfer large files over seconds. Demos and talks of the Poplar, this on Thursday at 4:00p UTC! See you there.
+{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
 
+OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.freenode.net/): **#OpenHours & #96boards**
+**This week**, we will be meeting with **Lindsey aka [@the_engineeress](https://www.instagram.com/the_engineeress/)**, a Materials Engineer who has been sharing her STEM story with us since late last year through Instagram. Lindsey has shown us superconducting quantum interference devices and helium tanks, she has given us an inside look at the clean room she works in (fully suited) and shared information on the devices she uses for her job/research. All of this while working toward becoming a master in her field. Join this week's livestream to hear Lindsey's story, and together we will...
 
-* * *
+"peel back the curtain of women in engineering"
+- [The_Engineeress](https://www.instagram.com/the_engineeress/)
+
+We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
+
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
+
+We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
+
 
 ### What is 96Boards OpenHours?
 
@@ -31,7 +41,7 @@ We’ll begin these sessions with introductions and announcements, presentation 
 
 These sessions will be held on BlueJeans and recorded so they can be made available after the session. There is a limit to a 100 participants so it will be first come first served initially!
 
-We look forward to talking with you
+We look forward to talking with you.
 
 The 96Boards Team
 
@@ -43,10 +53,10 @@ The 96Boards Team
 
 </div>
 <div class="col-md-6">
-<div class="openhours-panel" markdown="1">
+<div class="openhours-panel" markdown="1" id="openhours-panel">
 ### When
 
-Every Thursday at 4pm UTC – [ADD TO CALENDAR](https://calendar.google.com/event?action=TEMPLATE&tmeid=cThpZGZ1Nzg1Nmk1Zm1mMWFjY3RoaGkzbGtfMjAxODAxMDRUMTYwMDAwWiBhMXFxdjZqaHIxYTBhdDJzbGxuazVpNzRpNEBn&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com&scp=ALL)
+Every Thursday at 4pm UTC
 
 ### How to Join
 

@@ -3,9 +3,8 @@ title: High End Audio
 description: |-
   Getting the high end audio devices seemed to be very expensive but with the advent of 96Boards, one can easily construct those devices with ease.
 permalink: /verticals/high-end-audio/
-redirect_from: /verticals/HighEndAudio/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # High End Audio

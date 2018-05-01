@@ -1,0 +1,102 @@
+# include: members.html
+
+columns:
+    - title: Shop and Learn
+      url: /products/
+      items:
+        - text: HiKey 960 Board
+          url : /product/hikey960/
+        - text: DragonBoard™ 410c
+          url : /product/dragonboard410c/
+        - text: Bubblegum-96
+          url : /product/bubblegum-96/
+        - text: Mediatek X20
+          url : /product/mediatek-x20/
+        - text: Carbon
+          url : /product/carbon/
+        - text: UART Serial Adapter
+          url : /product/uartserial/
+        - text: View All
+          url : /products/
+    - title: Products
+      url: /products/
+      items:
+        - text: Consumer Edition
+          url : /products/ce/
+        - text: Enterprise Edition
+          url : /products/ee/
+        - text: IoT Edition
+          url : /products/ie/
+        - text: Mezzanine Products
+          url : /products/mezzanine/
+        - text: Accessories
+          url : /products/accessories/
+        - text: View All
+          url : /products/
+    - title: Specifications
+      url: /specifications/
+      items:
+        - text: Consumer Edition (CE)
+          url : https://linaro.co/ce-specification
+        - text: Enterprise Edition (EE)
+          url : https://linaro.co/ee-specification
+        - text: IoT Edition (IE)
+          url : https://linaro.co/ie-specification
+    - title: About 96Boards
+      url: https://www.linaro.org/work/
+      items:
+        - text: Specifications
+          url : /specifications/
+        - text: News
+          url : /news/
+        - text: Job Opportunities
+          url : https://www.linaro.org/careers/
+        - text: Press Info
+          url : /press/
+        - text: Membership
+          url : /membership/
+        - text: Compliance
+          url : /compliance/
+        - text: Compliance
+          url : /contact/
+    - title: Support Forum
+      url: https://discuss.96boards.org/
+      items:
+        - text: Hikey 960
+          url : https://discuss.96boards.org/c/products/hikey960
+        - text: DragonBoard410c
+          url : https://discuss.96boards.org/c/products/dragonboard410c
+        - text: MediaTek-X20
+          url : https://discuss.96boards.org/c/products/mediatek-x20
+        - text: Bubblegum-96
+          url : https://discuss.96boards.org/c/products/bubblegum96
+        - text: Carbon
+          url : https://discuss.96boards.org/c/products/carbon
+        - text: Poplar
+          url : https://discuss.96boards.org/c/products/poplar
+        - text: Mezzanine Support
+          url : https://discuss.96boards.org/c/products/mezzanine
+    - title: Social Media
+      url: 
+      items:
+        - text: Github
+          url : https://github.com/96boards
+        - text: Facebook
+          url : https://facebook.com/96Boards
+        - text: Youtube
+          url : https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg
+        - text: Twitter
+          url : https://twitter.com/96Boards
+        - text: Linkedin
+          url : https://www.linkedin.com/showcase/11404995
+        - text: Slideshare
+          url : https://www.slideshare.net/
+        - text: Google +
+          url : https://plus.google.com/106009833460292139774/posts
+companylinks:
+    - name: Legal
+      url: /legal/
+    - name: Contact
+      url: /contact/
+    - name: Press
+      url: /press/

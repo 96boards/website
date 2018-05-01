@@ -7,7 +7,7 @@ description: |-
 ---
 # Poplar
 
-Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. Developed by HiSilicon, the board features the Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53 processor and high performance Mali T720 GPU, making it capable of running any commercial set-top solution based on Linux or Android. Its high performance specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second.
+Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. Developed by HiSilicon, the board features the Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53 processor and high performance Mali T720 GPU. Its high performance specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second.
 
 ## Buy Now
 
@@ -28,8 +28,8 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  SoC                 | Hisilicon Hi3798CV200                                                                            |
 |  CPU                 | Quad-core ARM Cortex-A53 64 bit                                                                  |
-|  DRAM                | DDR3/3L/4 SDRAM interface, maximum 32-bit data width 2 GB on board                               |
-|  USB                 | Two USB 2.0 ports One USB 3.0 ports                                                              |
+|  DRAM                | DDR3/3L/4 SDRAM interface (maximum 32-bit data width, up to 2 GB on board)                       |
+|  USB                 | USB 2.0 & USB 3.0 ports                                                                          |
 |  CONSOLE             | USB-micro port for console support                                                               |
 |  ETHERNET            | 1 GBe Ethernet                                                                                   |
 |  PCIE                | One PCIe 2.0 interfaces                                                                          |

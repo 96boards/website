@@ -78,7 +78,7 @@ tags:
 ---
 # **Introduction**
 
-**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) is described as,**
+**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.96boards.org/product/audio-mezzanine/) is described as,**
 
 “This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards. You can connect 96Boards to various modules easily with this expansion board. There are six grove ports which can be used to connect rich Grove functional modules, which will make your application more complicated and attracting. In addition, this expansion board gets one 3.5 mm audio port and two independent MICs which can be applied into multimedia processing. Since 96Boards I/O voltage is set at 1.8 V, so it cannot be connected directly to embedded world. This expansion board has used voltage converting circuit so that you can choose 3.3V/5V as the output voltage. Other features are also embedded on this expansion board such as USB to Serial circuit and reset button, and so on, all those make 96Boards more conveniently to build applications.”
 
@@ -126,7 +126,7 @@ But, do remember that these board are in a limited supply from arrow, around 750
 
 ![Modding Arrow Audio Mezz Image 7]({% asset_path "modding-arrows-img-7.jpg" %}){:class="img-responsive lazyload"}
 
-**[https://www.arrow.com/en/products/audiomezz/seeed-technology-limited](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)**
+**[https://www.96boards.org/product/audio-mezzanine/](https://www.96boards.org/product/audio-mezzanine/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/0RmwPOo1-Gw" %}
 
@@ -140,7 +140,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 **96Boards:** [Twitter](https://twitter.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124; [Facebook](https://www.facebook.com/96Boards/) &#124; [YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 

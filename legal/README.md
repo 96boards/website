@@ -1,6 +1,6 @@
 ---
 title: Legal
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 permalink: "/legal/"
 ---
 

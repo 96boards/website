@@ -1194,7 +1194,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/](/db410c-getting-started/Downloads/README.md/)
+[https://www.96boards.org/documentation/consumer/dragonboard410c/getting-started/](https://github.com/96boards/documentation/tree/master/consumer/dragonboard410c/getting-started)
 
 
 
@@ -1876,7 +1876,7 @@ RW
 
 
 
-[https://github.com/96boards/documentation](https://github.com/96boards/documentation)
+[https://www.96boards.org/documentation/](https://www.96boards.org/documentation/)
 
 
 
@@ -1899,7 +1899,7 @@ RW
 
 
 
-[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Downloads/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Downloads/README.md)
+[https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/)
 
 
 

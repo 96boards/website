@@ -1,14 +1,11 @@
 ---
 title: Mosquitto
-
 permalink: "/projects/Mosquitto/"
 description: |-
     Demonstrates the use of mosquitto as a broker and paho as a client for MQTT messages. MQTT messages are published (using a twitter feed as content). A subscriber client subscribes to these MQTT messages and displays them on an emulated lcd display. Intended for ‘getting started’ with MQTT and CE 96Boards.
 images:
   - MQTT_FrontPage.png
   - MQTT_Video_OpenHours.png
-redirect_from:
-- /project/mqtt-demo/
 ---
 # Mosquitto
 
@@ -35,6 +32,6 @@ Demonstrates the use of mosquitto as a broker and paho as a client for MQTT mess
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 ***

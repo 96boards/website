@@ -3,7 +3,7 @@ title: Dragonboard410c Partnership Brazil
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /go/db410c-partnership-brazil/
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 ## Dragonboard410c Partnership Brazil
 
@@ -47,12 +47,12 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 ## **Provided in Kit:**
 
 *   [DragonBoard 410c](https://developer.qualcomm.com/hardware/dragonboard-410c), by Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor
-*   [Arrow LinkSprite]()https://www.96boards.org/product/linker-mezzanine-starter-kit/
+*   [Arrow LinkSprite]()https://www.96boards.org/products/mezzanine/
 
 **Optional Addons to help development:**
 
 *   [96Boards LinkSprite Kit](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc)
-*   [96Boards Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)
+*   [96Boards Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/)
 *   [96Boards Camera Mezzanine](https://www.arrow.com/en/products/b-f446e-96b01a/stmicroelectronics)
 *   96Boards [Sensors Mezzanine Adapter by Seeed](https://www.seeedstudio.com/item_detail.html?p_id=2617)
 *   96Boards [UART Adapter Board by Seeed](http://www.seeedstudio.com/depot/96Boards-UART-p-2525.html)
@@ -66,13 +66,13 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
     *   [Grove Gesture Sensor](http://www.seeedstudio.com/depot/Grove-Gesture-p-2463.html)
     *   [Grove I2C Color Sensor](http://www.seeedstudio.com/depot/Grove-I2C-Color-Sensor-p-854.html)
     *   [Grove Button Sensor](http://www.seeedstudio.com/depot/Grove-Button-p-766.html)
-    *   [Grove Buzzer Sensor](http://www.seeedstudio.com/wiki/Grove_-_Buzzer)
-    *   [Grove Sound Sensor](http://www.seeedstudio.com/wiki/Grove_-_Sound_Sensor)
-    *   [Grove Touch Sensor](http://www.seeedstudio.com/wiki/Grove_-_Touch_Sensor)
-    *   [Grove Rotary Angle Sensor](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor)
-    *   [Grove Smart Relay](http://www.seeedstudio.com/wiki/Grove_-_Relay)
-    *   [Grove Mini Servo](http://www.seeedstudio.com/wiki/Grove_-_Servo)
-    *   [Grove LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
+    *   Grove Buzzer Sensor
+    *   Grove Sound Sensor
+    *   Grove Touch Sensor
+    *   Grove Rotary Angle Sensor
+    *   Grove Smart Relay
+    *   Grove Mini Servo
+    *   Grove LCD RGB Backlight
     *   [I2C Hub](http://www.seeedstudio.com/depot/Grove-I2C-Hub-p-851.html)
     *   [Grove 4-pin Male Jumper to Grove 4-pin Conversion Cable](http://www.seeedstudio.com/depot/Grove-4-pin-Male-Jumper-to-Grove-4-pin-Conversion-Cable-5-PCs-per-Pack-p-1565.html)
 *   Wireless keyboard with touchpad: [Logitech Wireless Touch Keyboard K400](http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r)
@@ -82,8 +82,8 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Getting started:**
 
 *   [DragonBoard 410c Landing page](https://www.96boards.org/product/dragonboard410c/) – here you will find getting started documents and more…
-*   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
-*   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
+*   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
+*   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   [Instructables (Previous projects)](http://www.instructables.com/howto/dragonboard+qualcomm/)
 *   [Workshop presentation](http://bit.ly/2lzW7ox)
 
@@ -94,8 +94,8 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Peripherals access and sample code:**
 
 *   A repository of [sample code for sensors](https://github.com/DBOpenSource/db_samples) included in the hack kit is available on Github
-*   [GPIO and I2C libraries and installation]()https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/README.md/ are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
-*   [Low-speed expansion header tutorial]()https://www.96boards.org/documentation/ConsumerEdition/CE-Extras/GPIO/LSExpansionHeader/README.md offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
+*   [GPIO and I2C libraries and installation]()https://www.96boards.org/documentation/consumer/guides/mraa/ are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
+*   [Low-speed expansion header tutorial]()https://www.96boards.org/documentation/consumer/guides/mraa/ offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
 *   Compact getting started blogs:
     *   [96Boards mezzanine products](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
     *   [General Purpose Input/Output (GPIO)](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
@@ -105,9 +105,14 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 
 **Documentation:**
 
-*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/products/ce/dragonboard410c/)
-*   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
-*   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf)
+<<<<<<< HEAD
+*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
+*   Release Notes for [Linaro Linux](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/) based on Ubuntu
+=======
+*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
+*   Release Notes for [Linaro Linux](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) based on Ubuntu
+>>>>>>> ddb147795c2fd085d82665be808fdc2c57967452
+*   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf)
 
 **Support:**
 

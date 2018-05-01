@@ -369,7 +369,7 @@ HDMI includes audio too
 
 
 
-DB410c Landing page:[https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md)
+DB410c Landing page:[https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
 
 
 
@@ -380,7 +380,7 @@ DB410c Landing page:[https://github.com/96boards/documentation/blob/master/Consu
 
 
 
-DB410c Landing page: [https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/README.md)
+DB410c Landing page: [https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
 
 
 
@@ -1050,115 +1050,7 @@ RW
 * * *
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LK
-
-
-
-
-
-
-
-
-
-
-
-
 I have to leave now. Have a great day...
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DB410c Arrow - Board only [https://www.arrow.com/en/products/dragonboard410c/arrow-development-toolsDB410c](https://www.arrow.com/en/products/dragonboard410c/arrow-development-toolsDB410c)
-Arrow - AWS Kit [https://www.arrow.com/en/products/dragonboard410ciotsdk/arrow-development-toolsWM24P6-12-A-QL](https://www.arrow.com/en/products/dragonboard410ciotsdk/arrow-development-toolsWM24P6-12-A-QL) -
-Power supply [https://www.arrow.com/en/products/wm24p6-12-a-ql/autec-power-systemsDB410c](https://www.arrow.com/en/products/wm24p6-12-a-ql/autec-power-systemsDB410c) -
-Amazon [https://www.amazon.com/Qualcomm-Seeedstudio-DragonBoard-410C/dp/B01GFPZS14/ref=sr_1_2?ie=UTF8&qid=1473949457&sr=8-2&keywords=DragonBoard+410cDB410c](https://www.amazon.com/Qualcomm-Seeedstudio-DragonBoard-410C/dp/B01GFPZS14/ref=sr_1_2?ie=UTF8&qid=1473949457&sr=8-2&keywords=DragonBoard+410cDB410c)
-AWS - Amazon [https://www.amazon.com/DragonBoard-410C-IoT-Starter-powered/dp/B01GCPW37O/ref=sr_1_1?ie=UTF8&qid=1473949457&sr=8-1&keywords=DragonBoard+410c](https://www.amazon.com/DragonBoard-410C-IoT-Starter-powered/dp/B01GCPW37O/ref=sr_1_1?ie=UTF8&qid=1473949457&sr=8-1&keywords=DragonBoard+410c)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 [![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)

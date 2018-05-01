@@ -3,9 +3,8 @@ title: Maker
 description: |-
   Hobbyists often want to quickly prototype their projects and show them to the community. For this purpose the ability to setup the board quickly as possible is needed.
 permalink: /verticals/maker/
-redirect_from: /verticals/Maker/
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 
 # Maker

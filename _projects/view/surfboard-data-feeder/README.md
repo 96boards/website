@@ -1,8 +1,6 @@
 ---
 title: Surfboard Data Feeder
 permalink: "/projects/surfboard-data-feeder/"
-redirect_from:
-- /project/sample-project-demo/
 images:
   - diagram.png
 ---
@@ -40,7 +38,7 @@ While instructions might be made available in other formats at a later time, the
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - < Links to any additional Social media >
 
 ***

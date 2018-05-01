@@ -72,7 +72,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Arrow launched their [Linker Mezzanine card started kit](/product/linker-mezzanine-starter-kit/)!
+  * Arrow launched their [Linker Mezzanine card started kit](/products/mezzanine/)!
 
 
     * Take a look at the [CNX Software review](http://www.cnx-software.com/2016/01/18/96boards-mezzanine-add-on-boards-with-sensors-buttons-relays-etc-are-starting-to-show-up/) covering the Linker kit, as well as the Sensors and STM32 Mezzanines.
@@ -96,7 +96,7 @@ The year started out strong with January seeing a plethora of announcements and 
     * Check out the 96Boards [Twitter post](https://twitter.com/ARMEmbedded/status/687645175015931904)
 
 
-    * [Read more about the STM32](/product/stm32sensor/) on the 96Boards website
+    * [Read more about the STM32](/product/stm32/) on the 96Boards website
 
 
 
@@ -123,10 +123,10 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Canonical announces](https://insights.ubuntu.com/2016/02/24/canonical-to-offer-powerful-arm-64-bit-iot-developer-environment/) intent to offer powerful ARM 64-bit IoT developer environment!
 
 
-  * The beginning of [Github website rendering](/documentation/README.md/)!
+  * The beginning of [Github website rendering](/documentation/)!
 
 
-    * 96Boards website now [welcomes community contributions](/documentation/Extras/ContributionPolicy.md/).
+    * 96Boards website now [welcomes community contributions](/documentation/CONTRIBUTE.md.html).
 
 
 
@@ -156,7 +156,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * One of the first [OpenScad 96Boards cases](/project/cecase/) hits the projects page. Instructions for 3D printing your own case.
+  * One of the first [OpenScad 96Boards cases](/projects/3DPrintCase/) hits the projects page. Instructions for 3D printing your own case.
 
 
     * Followed by a [detailed blog](/blog/files-96boards-ce-cases-mezzanine-boards-3d-printers/)
@@ -381,7 +381,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [HiSilicon create Poplar](/blog/hisilicon-creates-poplar-first-96boards-tv-platform-development-board/), the first 96Boards TV Platform development board is announced then [goes on sale](/product/poplar/).
 
 
-  * Jorge Ortiz blogged about [Running a KVM guest on the 96Boards HiKey](/tutorial/running-kvm-guest-hikey/)
+  * Jorge Ortiz blogged about [Running a KVM guest on the 96Boards HiKey](/blog/running-kvm-guest-hikey/)
 
 
   * David Mandala offered us the [Ramblings of Mezzanine boards](/blog/ramblings-mezzanine-boards/) and [instructions on how to use the Arduino IDE](/blog/use-arduino-ide-sensors-mezzanine-board-linux/) with the 96Boards [Sensors Mezzanine](/product/sensors-mezzanine/)
@@ -450,7 +450,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * [RocketBoards.org reports](https://rocketboards.org/foswiki/view/Documentation/ArrowChameleon96Board) on the Arrow Chameleon96 board
+  * RocketBoards.org reports on the Arrow Chameleon96 board
 
 
   * [Edacafe reports](http://www10.edacafe.com/nbc/articles/1/1457919/Gumstix-Launches-IoT-Boards-96Boards-Intel-Markets) on the Gumstix Nodana 96Boards
@@ -474,7 +474,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Hackerboards.com talks 96Boards SBCs](http://hackerboards.com/96boards-sbcs-host-intel-joule-and-curie-iot-modules/) with host Intel Joule and Curie IoT modules
 
 
-    * Featuring [Nodana](https://store.gumstix.com/expansion/nodana-96bce.html) and [Radium](https://store.gumstix.com/radium-96bie.html)
+    * Featuring Nodana and [Radium](https://store.gumstix.com/radium-96bie.html)
 
 
 
@@ -504,13 +504,13 @@ The year started out strong with January seeing a plethora of announcements and 
   * 96Boards launches a [community survey](/blog/96boards-survey-1/).
 
 
-  * 96Boards announces [“Weekly Digest” mailing list](/newsletter/digest/) signup form (to start in Jan of 2017)
+  * 96Boards announces [“Weekly Digest” mailing list](/digest/) signup form (to start in Jan of 2017)
 
 
   * Linaro and 96Boards announce Linaro Connect Budapest ([BUD17](http://connect.linaro.org/))!
 
 
-  * 96Boards.org goes live with the new [B2260 CE Extended board](/product/b2260/)
+  * 96Boards.org goes live with the new [B2260 CE Extended board](/products/ce/)
 
 
 
@@ -531,7 +531,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [OpenHours](/openhours/) gets a visit from Andy Clark of [@Workshopshed](https://twitter.com/Workshopshed) ([Video](https://youtu.be/njMXCPLmPT4) &#124;[Blog](/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/))
 
 
-  * Arrow's [Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) goes on sale!
+  * Arrow's [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) goes on sale!
 
 
 
@@ -556,7 +556,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 If you are aching to follow more than just 96Boards, travel on over to my Twitter and give it a follow as well! [www.twitter.com/sdrobertw](http://www.twitter.com/sdrobertw)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 Remember, you are all the reason this is possible. Please join us in welcoming a vibrant and new twist on community engagement. With OpenHours, we will take on some exciting challenges this year.
 

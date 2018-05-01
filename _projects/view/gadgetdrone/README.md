@@ -1,6 +1,5 @@
 ---
 title: Gumstix Gadget Drone
-
 permalink: "/projects/GadgetDrone/"
 description: |-
     Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard 410c and the AeroCore 2 Mezzanine from Gumstix. 96Boards and the Gumstix AeroCore 2 card are used to fly a drone with PX4 R/C and wireless, telemetry, and video feed capabilities.
@@ -8,8 +7,6 @@ images:
   - DroneKit_BOM.png
   - GadgetDrone_VideoImage_OnboardCameraFlight.png
   - GadgetDrone_VideoImage_OpenHours.png
-redirect_from:
-- /project/gumstix-gadgetdrone/
 ---
 # Gumstix Gadget Drone
 
@@ -43,7 +40,7 @@ While instructions might be made available in other formats at a later time, the
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/showcase/6637095/)
+- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - Gumstix: [URL](https://www.gumstix.com/) &#124; [Twitter](https://twitter.com/gumstix) &#124; [Facebook](https://www.facebook.com/gumstix) &#124; [Linkedin](https://www.linkedin.com/company-beta/283581/)
 - Keith Lee: [Twitter](https://twitter.com/gstixguru)
 - https://youtu.be/XK0PIaZMKJY

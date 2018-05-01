@@ -1,7 +1,7 @@
 ---
 title: Resources for Press
 permalink: "/press/"
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
 # Resources for Press
 Thank you for your interest in 96Boards.  If you are not a member of the media and have a question or inquiry, please contact us at [contactus@linaro.org](mailto:contactus@linaro.org). For more information about 96Boards news, please visit our Blog or stay connected with us on Twitter.

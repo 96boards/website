@@ -6,13 +6,11 @@ description: |-
   become cheaper, smaller, faster, stronger, and increasingly more intricate, our developers must
   find ways to stay ahead of the curve.
 permalink: /verticals/manufacturing/
-redirect_from: /verticals/Manufacturing
 keywords: |-
   circuit board manufacturing, printed circuit board, Manufacturing board, Manufacturing development boards,
 status: active
-layout: empty-container-page-no-nav
+layout: container-breadcrumb
 ---
-
 # Manufacturing
 
 ## Introduction

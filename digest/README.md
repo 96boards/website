@@ -3,9 +3,7 @@ title: Weekly Digest
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /digest/
-layout: plain-markdown-page
-redirect_from:
-- /newsletter/digest/
+layout: container-breadcrumb
 ---
 # Weekly Digest
 

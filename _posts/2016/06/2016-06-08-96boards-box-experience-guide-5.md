@@ -182,7 +182,7 @@ _Please note: This example is meant to be run on Debian Linux_
   * 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
 
 
-  * [Power Supply](/products/accessories/power/)
+  * [Power Supply](/product/power/)
 
 
   * HDMI monitor
@@ -191,7 +191,7 @@ _Please note: This example is meant to be run on Debian Linux_
   * USB Keyboard and Mouse
 
 
-  * [Linker Mezzanine kit](/products/mezzanine/linker-mezzanine-starter-kit/) or [96Boards Sensor Mezzanine kit](/products/mezzanine/grove-starter-kit/)
+  * [Linker Mezzanine kit](/product/linkspritesensorkit/) or [96Boards Sensor Mezzanine kit](/product/sensors-mezzanine/)
 
 
   * 96Boards baseboard mezzanine spacers, these spacers come with either Mezzanine kit
@@ -397,7 +397,7 @@ Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will
 
 --
 
-[**In this series**](/tag/openhours/)
+[**In this series**](/blog/tag/)
 
 
 

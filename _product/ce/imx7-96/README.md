@@ -3,10 +3,6 @@ page_title: iMX7-96 Development Board
 title: iMX7-96 Development Board
 layout: product-display-page
 permalink: /product/imx7-96/
-redirect_from:
-  - /imx7-96/
-  - /imx7-96
-  - /products/imx7-96/
 description: |-
     The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 ---

@@ -4,10 +4,6 @@ layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
-redirect_from:
-- /products/ce/bubblegum96/
-- /product/bubblegum96/
-- /bubblegum-96/
 ---
 # Bubblegum-96
 
@@ -48,4 +44,4 @@ TrustZone® security support.
 {:.hidden_rows}
 </div>
 
-Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/HardwareDocs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
+Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/bubblegum-96/hardware-docs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information

@@ -104,7 +104,7 @@ The above variable could be executed by the following command:
 # Booting Linux from SD card
 
 Now, lets get into the detail of booting Linux from SD card using U-Boot. The complete guide containing the instructions is
-avaialbe in [96Boards Documentation repository](https://github.com/Mani-Sadhasivam/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/uboot-linux-sd.md).
+avaialbe in [96Boards Documentation repository](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/).
 
 First, SD card needs to be formatted in such as way that the first partition should be of **ext4** type. This is the place,
 we will store the RFS (Root File System), Kernel image, dtb, uEnv.txt etc... Usually Kenrel image would be placed in **FAT**
@@ -113,7 +113,7 @@ partition and RFS would be in **ext4** partition. But, we are going to place the
 After formatting SD card, download the OpenEmbedded RFS from 96Boards build, extract it and flash onto SD card's first partition. By
 the end of this step, the first partition of SD card should have entire Root File System populated.
 
-Now, build the Linux Kernel along with device tree using the instructions available in [release notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/).
+Now, build the Linux Kernel along with device tree using the instructions available in [release notes](https://releases.linaro.org/96boards/dragonboard410c/).
 Then, convert the generated Kernel image to the format recognized by U-Boot(uImage) using **mkimage** tool.
 
 
@@ -156,6 +156,6 @@ will be shown in the U-Boot console.
 # **Conclusion**
 
 I hope this blog has provided much information to boot Linux using U-Boot from SD card. More detailed steps are availabe in the
-[Documentation repo](https://github.com/Mani-Sadhasivam/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/uboot-linux-sd.md).
+[Documentation repo](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/).
 
 As we always say, if you encounter any issues or have any suggestion please report it in comments/forum. We are glad to help you :-)

@@ -1,5 +1,5 @@
 ---
-layout: empty-container-page
+layout: container-breadcrumb
 title: Submit Project
 permalink: "/projects/submit-draft/"
 description: |-

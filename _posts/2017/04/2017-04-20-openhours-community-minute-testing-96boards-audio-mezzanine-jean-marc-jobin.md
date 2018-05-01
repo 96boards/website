@@ -51,7 +51,7 @@ tags:
 
 **- With help from guest Author,[ Jean-Marc Jobin](https://twitter.com/jmjobin)**
 
-The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Downloads/Android.md), complimented with the [Audio Mezzanine](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
+The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android.md.html), complimented with the [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
 
 {% include media.html media_url="https://www.youtube.com/embed/Hixk8R_-ixQ" %}
 
@@ -63,7 +63,7 @@ The following notes summarize Jean-Marc's experience with the [DragonBoard 410c]
   * [96Boards Compliant power supply](/product/power/)
 
 
-  * [Audio Mezzanine Board](https://www.arrow.com/en/products/audiomezz/seeed-technology-limited)
+  * [Audio Mezzanine Board](https://www.96boards.org/product/audio-mezzanine/)
 
 
   * [16 pin (2 by 8) 2.0mm pitch connector](https://www.arrow.com/en/products/0877581616/molex)
@@ -75,7 +75,7 @@ The following notes summarize Jean-Marc's experience with the [DragonBoard 410c]
   * USB Type-A Keyboard and mouse
 
 
-  * [Android OS](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Downloads/Android.md)
+  * [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android.md.html)
 
 
 This mezzanine bring simplicity in connecting sensors to the DragonBoard 410c by adapting the signal levels and protecting the DB410c from shorting or experiencing connection errors from the outside world.
@@ -171,7 +171,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
-For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/newsletter/)” and our “[Weekly Digest](/newsletter/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
+For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
