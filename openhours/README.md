@@ -17,11 +17,14 @@ js-package: openhours
 
 **OpenHours - Women in STEM month, Interview series!**
 
-<img data-src="https://i.imgur.com/ApfvBlx.jpg" alt="OpenHours Graphic" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="img-responsive lazyload center-block"/>
+{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
 
-OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry and materials, and more... Each featured guest, with their own story filled with challenges and triumphs!
+OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-This week, we will be meeting with **Lindsey aka [@the_engineeress](https://www.instagram.com/the_engineeress/)**, a Materials Engineer who has been sharing her STEM story with us since late last year through Instagram. 
+**This week**, we will be meeting with **Lindsey aka [@the_engineeress](https://www.instagram.com/the_engineeress/)**, a Materials Engineer who has been sharing her STEM story with us since late last year through Instagram. Lindsey has shown us superconducting quantum interference devices and helium tanks, she has given us an inside look at the clean room she works in (fully suited) and shared information on the devices she uses for her job/research. All of this while working toward becoming a master in her field. Join this week's livestream to hear Lindsey's story, and together we will...
+
+"peel back the curtain of women in engineering"
+- [The_Engineeress](https://www.instagram.com/the_engineeress/)
 
 We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
