@@ -23,8 +23,8 @@ seo:
                             {% assign url-name = page.permalink | split: "/" %}
                             {% assign url-name-new = url-name[2] %}
                             <div class="activity-block item">
-                                <a href="../product/{{page.product_specification}}/{{url-name-new}}/images/{{ page.product_images[0]}}" data-lightbox="{{page.product_title}}" data-title="{{page.product_title}}">
-                                    <img data-src="../product/{{page.product_specification}}/{{url-name-new}}/images/{{ page.product_images[0]}}" class="owl-lazy img-responsive" alt="{{product_image}}" />
+                                <a href="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}" data-lightbox="{{page.product_title}}" data-title="{{page.product_title}}">
+                                    <img data-src="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}" class="owl-lazy img-responsive" alt="{{product_image}}" />
                                 </a>
                             </div>
                         {% endfor %}
