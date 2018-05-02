@@ -38,6 +38,7 @@ product_buy_links:
     type: board
     link-price: "199.00"
     link-price-currency: USD
+# Right Sidepanel links
 product_os:
   - title: Debian
     link: /documentation/consumer/dragonboard820c/downloads/debian.md.html

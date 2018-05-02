@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/mipiadapter/
 description: |-
     This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily integrate image sensors into your camera projects. This mezzanine is ideal for surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.
+display_product: true
 product_support_link: https://discuss.96boards.org/c/products/mezzanine
 product_specification: "mezzanine"
 product_short_desc: Hardware compatible MIPI mezzanine and GPIO breakout for 96Boards

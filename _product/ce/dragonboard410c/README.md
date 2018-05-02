@@ -14,7 +14,6 @@ is_featured: true
 product_images:
   - DragonBoard-UpdatedImages-front.png
   - DragonBoard-UpdatedImages-back.png
-
 # Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
@@ -30,7 +29,6 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 4
       tab_align_right: true
-
 product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
 product_documentation_link: /documentation/consumer/dragonboard410c/
 product_tutorials_link: /tutorials/dragonboard410c/
