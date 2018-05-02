@@ -178,7 +178,7 @@ div#latest-blogs-row {
 }
 
 
-a#explore-boards {
+#content-container a.explore-btn {
     border: 1px solid #000;
     border-radius: 20px;
     height:20px;
@@ -207,11 +207,9 @@ a#explore-boards {
     background-repeat: no-repeat;
     background-position: center center;
 }
-a#explore-boards:hover {
+#content-container a.explore-btn:hover {
     color: #fff;
     background-color: #000;
-
-    transition: all 500ms ease;
 }
 
 h2#featured-boards {
