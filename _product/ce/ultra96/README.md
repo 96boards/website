@@ -7,9 +7,7 @@ description: |-
     Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
-#title: Ultra96 (Avnet)
 display_product: true
-#permalink: /product/ultra96/
 product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
 product_specification: ce
 featured_product_order: 2

@@ -4,9 +4,7 @@ permalink: /product/poplar/
 title: Poplar
 description: |-
     Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
-#title: Poplar
 display_product: true
-#permalink: /product/poplar/
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/enterprise/poplar/
