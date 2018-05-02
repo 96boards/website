@@ -174,10 +174,11 @@ div#specifications-row {
 div#latest-blogs-row {
     border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid  #e2e2e2;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
-
-
+#latest-blogs-row .owl-dots {
+    margin-top: 35px;
+}
 #content-container a.explore-btn {
     border: 1px solid #000;
     border-radius: 20px;
