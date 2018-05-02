@@ -23,7 +23,6 @@ product_long_desc: |-
     drag-and-drop programming and provides direct access to the ARM mbed on-line resources.
 product_images:
   - STM32_Front.png
-
 product_buy_links:
   -
     link-title: Arrow Electronics
@@ -34,7 +33,6 @@ product_buy_links:
   -
     link-title: Future Electronics
     link-url: https://linaro.co/stm32futureelectronics
-
 product_more_info:
   - title: Read More on ST.com
     link: http://linaro.co/stm32f446

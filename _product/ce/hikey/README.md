@@ -13,20 +13,18 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/hikey
       tab_position: 2
       tab_align_right: true
-# Boolean to determine the type as a page.
 is_featured: false
-# Product Front Matter Data
 product_specification: ce
-product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
+product_short_desc: Board based on HiSilicon Kirin 6220 processor
 product_buy_links:
-  - link-title: "Buy HiKey(1GB RAM)"
-    link-url: "https://linaro.co/hikey-lenovator-buy-1gb"
+  - link-title: Buy HiKey(1GB RAM)
+    link-url: https://linaro.co/hikey-lenovator-buy-1gb
     link-price: "75.00"
     link-price-currency: USD
     from: Lenovator.com
     type: board
-  - link-title: "Buy HiKey(2GB RAM)"
-    link-url: "https://linaro.co/hikey-lenovator-buy"
+  - link-title: Buy HiKey(2GB RAM)
+    link-url: https://linaro.co/hikey-lenovator-buy
     link-price: "119.00"
     link-price-currency: USD
     from: Lenovator.com
@@ -51,7 +49,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_accessories:
   - title: Power
     link: /product/power/
@@ -68,7 +65,7 @@ product_os:
     title: Debian
   - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
     title: OpenEmbedded
-product_support_link: "https://discuss.96boards.org/c/products/hikey/"
+product_support_link: https://discuss.96boards.org/c/products/hikey/
 product: true
 ---
 # HiKey

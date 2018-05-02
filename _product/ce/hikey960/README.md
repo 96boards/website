@@ -1,5 +1,4 @@
 ---
-page_title: HiKey 960
 title: HiKey 960 
 layout: product-display-page
 permalink: /product/hikey960/
@@ -9,7 +8,6 @@ keywords: hikey 960, hikey960, aosp, aosp developement board, boards
 display_product: true
 product_media_highlights: true
 product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey960/
@@ -18,7 +16,6 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/hikey960
       tab_position: 2
       tab_align_right: true
-
 featured_product_order: 1
 is_featured: true
 product_specification: ce
@@ -44,7 +41,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine/
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_accessories:
   - title: Power
     link: /product/power/
@@ -54,7 +50,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_third_party_images:
     - link: /documentation/consumer/hikey960/downloads/aosp.md.html
 product_buy_links:

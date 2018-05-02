@@ -51,7 +51,6 @@ product_more_info:
     -
       title: Clone and Customize in Geppetto
       link: https://geppetto.gumstix.com/#!/design/1130/
-
 product_includes:
   - quantity: 1
     name: "FCI 15 PIN FPC Connector - Raspberry pi CSI2 and DSI connector"
@@ -74,7 +73,6 @@ product_includes:
     title: Barometric Sensor - A high resolution altitude and digital atmospheric pressure sensor accurate to within 10 cm.
     link: http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf
     id: MS5611
-
 product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
 product: true

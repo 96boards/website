@@ -10,7 +10,6 @@ product_specification: "mezzanine"
 product_short_desc: Hardware compatible MIPI mezzanine and GPIO breakout for 96Boards
 product_long_desc: |-
     This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.
-
 product_images:
   - "MIPI adapter-Front.png"
   - "MIPI adapter-Back.png"
@@ -22,7 +21,6 @@ product_images:
   - "MIPI adapter with V024.png"
   - "MIPI adapter with PI.png"
   - "MIPI adapter with AR0130-134.png"
-
 mezzanine_features:
   - "Two CSI2 channels support(CSI0:4lane;CSI1:2lane)"
   - "Camera module supported:OV5645/OV5640"
@@ -50,7 +48,6 @@ product_buy_links:
     link-url: http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650
     from: ebay
     type: board
-
 product_more_info:
     -
       title: Github Repository

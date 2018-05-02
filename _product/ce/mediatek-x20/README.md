@@ -8,7 +8,6 @@ description: |-
     core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz.
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
-display_product: true
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/mediatekx20/
@@ -17,12 +16,10 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/mediatek-x20
       tab_position: 2
       tab_align_right: true
-
 featured_product_order: 4
-# Boolean to determine the type as a page.
 is_featured: true
-# Product Front Matter Data
 product_specification: ce
+display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"
 date_released: 2017
 product_available: true
@@ -39,11 +36,9 @@ product_images:
   - Helio-X20-back.png
   - Helio-X20-side-one.png
   - Helio-X20-side-two.png
-
 product_third_party_images:
   - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
     title: AOSP
-
 product_mezzanine:
   - title: LinkSprite
     link: /product/linkspritesensorkit/
@@ -53,7 +48,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_accessories:
   - title: Power
     link: /product/power/
@@ -63,7 +57,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_buy_links:
   -
     link-title: "Buy MediaTek X20"

@@ -25,7 +25,6 @@ product_images:
     - Sensor_Temperature.jpg
     - Sensor_Tilt.jpg
     - Sensor_Touch.jpg
-
 product_buy_links:
   -
     link-title: Arrow

@@ -1,5 +1,4 @@
 ---
-page_title: iMX7-96 Development Board
 title: iMX7-96 Development Board
 layout: product-display-page
 permalink: /product/imx7-96/
@@ -7,14 +6,12 @@ description: |-
     The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 display_product: true
 featured_product_order: 10
-# Boolean to determine the type as a page.
 is_featured: true
 product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 product_specification: ce
 product_images:
   - iMX7-96-front.jpg
   - iMX7-96-back.jpg
-# Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/imx7-96/getting-started/
@@ -26,8 +23,6 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/imx7-96/
       tab_position: 3
       tab_align_right: true
-
-# # Buy Links
 product_buy_links:
   -
     link-title: IMX7 96 BOARD
@@ -36,14 +31,9 @@ product_buy_links:
     type: board
     link-price: "109.00"
     link-price-currency: USD
-
-
-# Right Sidepanel links
 product_os:
   - title: Android
     link: /documentation/consumer/imx7-96/downloads/
-
-# Bottom Link
 product_accessories:
   - title: Power
     link: /product/power/
@@ -53,7 +43,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -65,7 +54,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_kits:
   - title: Basic Kit
     link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/

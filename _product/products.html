@@ -16,12 +16,8 @@ css-package: products
     <div class="col-md-4 fade-in-one hidden-sm hidden-xs">
           <img id="collection-image" class="img-responsive center-block" src="{% asset_path '96boards-logo-300x109.png' %}" alt="96Boards logo small.">
     </div>
-
 </div>
-
-
 <div id="grid">
-
 {% assign products_array = site.product | where: "is_featured", "true" | sort: "featured_product_order" | ascending | limit: 7 %}
 {% assign products_array =  products_array | where: "display_product", "true" %}
 <div class="row">
