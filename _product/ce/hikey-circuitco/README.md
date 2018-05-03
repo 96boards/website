@@ -20,6 +20,7 @@ is_featured: false
 product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 product_support_link: "https://discuss.96boards.org/c/products/hikey/"
 product: true
+product_specification: ce
 ---
 # Welcome to the HiKey (CircuitCo)
 
