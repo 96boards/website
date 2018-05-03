@@ -17,3 +17,20 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+if($('.mixitup-container').length) {
+    var mixer = mixitup('.mixitup-container', {
+        selectors: {
+            target: '.product-item',
+            control: '[data-mixitup-control]'
+        },
+        animation: {
+            duration: 300
+        }
+    });
+    $filterSelect = $('.filter-select');
+    $container = $('.mixitup-container');
+    $filterSelect.on('change', function(){
+        mixer.filter(this.value);
+    });
+}
