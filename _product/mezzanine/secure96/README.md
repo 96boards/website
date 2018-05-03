@@ -55,7 +55,7 @@ This mezzanine board is intended for security development on 96Boards and featur
 
 ## Buy Now
 
-- [Amazon](https://www.amazon.com/Secure96-Mezzanine-Board-96Boards-Connector/dp/B077D2M4HG/ref=sr_1_1?ie=UTF8&qid=1511363830&sr=8-1&keywords=secure96)
+- [Amazon](https://amzn.to/2qWN1CC)
 
 ## Resources
 
