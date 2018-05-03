@@ -23,7 +23,7 @@ js-package: projects
         <option value="all">Filter by Board</option>
         {% assign boards = site.product | where: "display_product", "true" %}
         {% for board in boards %}
-          <option value=".{{board.title}}">{{board.title}}</option>
+          <option value=".{{board.shortname}}">{{board.title}}</option>
         {% endfor %}
     </select>
     <select class="form-control filter-select" data-mixitup-control>
