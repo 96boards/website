@@ -1,6 +1,6 @@
 ---
 layout: container-breadcrumb-tabs
-title:  96boards Products
+title:  All 96Boards
 permalink: /products/
 status: active
 description: |-
@@ -18,7 +18,7 @@ css-package: products
     </div>
 </div>
 <div id="grid">
-{% assign products_array = site.product | where: "is_featured", "true" | sort: "featured_product_order" | ascending | limit: 7 %}
+{% assign products_array = site.product | ascending %}
 {% assign products_array =  products_array | where: "display_product", "true" %}
 <div class="row">
 {% for product in products_array %}
@@ -58,7 +58,6 @@ css-package: products
                       </ul>
                     </div>
                 </div>
-
                 <div class="clearfix">
                 </div>
             </div>
