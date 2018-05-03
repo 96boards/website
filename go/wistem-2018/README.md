@@ -26,7 +26,7 @@ Please consider this schedule as tentative! For the most current information on 
 - **Featured Guest:** [Lindsey - The Engineeress](https://www.instagram.com/the_engineeress/)
    - **Date:** May 3rd, 2018
    - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MzB1dWxydGRycHVwMTFlOGFmOTk4aDg0bXMgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
+   - This event has passed, [check out the recording!](https://www.96boards.org/go/wistem-2018/)
 - **Featured Guest:** [AnaQueenMaker](https://www.instagram.com/anaqueenmaker/)
    - **Date:** May 10th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
