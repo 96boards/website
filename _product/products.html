@@ -8,6 +8,7 @@ description: |-
     Visit 96Boards product page to see which boards or specification suites you.
 keywords: Consumer Edition Boards, Enterprise Developement Boards, ARM 64 Dev Boards, IoT Production boards, hacker, Makers
 css-package: products
+js-package: products
 ---
 <!-- <div class="row">
     <div class="col-md-8" class="description">
@@ -26,26 +27,22 @@ css-package: products
         <button class="btn btn-default" data-mixitup-control type="button" data-sort="random"><i class="glyphicon glyphicon-random"></i></button>
     </div>
     <select class="form-control filter-select" data-mixitup-control>
-        <option value="all">Filter by Board</option>
-        {% for board in site.data.project-categories.boards %}
-          <option value=".{{board}}">{{board}}</option>
-        {% endfor %}
-    </select>
-    <select class="form-control filter-select" data-mixitup-control>
         <option value="all">Filter by Vertical</option>
-        {% for vertical in site.data.project-categories.verticals %}
+        {% for vertical in site.data.verticals %}
           <option value=".{{vertical}}">{{vertical}}</option>
         {% endfor %}
     </select>
 </div>
-
-<div id="grid">
+            
+<div id="grid" class="mixitup-container">
 {% assign products_array = site.product | ascending %}
 {% assign products_array =  products_array | where: "display_product", "true" %}
 <div class="row">
+{% assign order = 1 %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
-    <div class="{{product.product_specification | downcase }}col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}col-xs-12 col-sm-6 col-md-3 col-lg-3
+    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}">
         <div class="col-item">
             <div class="photo">
                 <a href="{{product.permalink}}">
@@ -85,6 +82,7 @@ css-package: products
             </div>
         </div>
     </div>
+    {% assign order = order | plus: 1 %}
 {% endfor %}
 </div>
 </div>
