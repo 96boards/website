@@ -9,30 +9,24 @@
     top: 50px;
     position: relative;
 }
-
 #content-container #latest-blogs p {
     font-size: 10px;
 }
-
 #buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five {
     background-color: #060606;
     border-color: #3c3c3c;
     color: dimgrey;
     border-radius: 10px !important;
 }
-
 #buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five:hover {
     background-color: #000;
     color: #fff;
     border-radius: 10px !important;
 }
-
 #board-specifications a.btn.view-spec:hover {
     background-color:#000;
     color:white ;
 }
-
-
 #board-specifications a.btn.spec-button:hover {
     background-color:#fff;  
     color:#000 ;
@@ -116,11 +110,6 @@ h3.featured-product-title {
     text-align: center;
     font-size: 18px;
 }
-
-div#board-specifications {
-    margin-top: 100px;
-}    
-
 span.featured-product-price {
     color: black;
     font-style: italic;
@@ -167,8 +156,8 @@ span.featured-product-price {
 
 div#specifications-row {
     background-color: #F8FCFF;
-    padding-bottom: 100px;
     border-top: 1px solid #e2e2e2;
+    padding-top: 20px;
 }
 
 div#latest-blogs-row {
@@ -231,7 +220,7 @@ h2#featured-boards {
 .spec {
     overflow: auto;
     margin-bottom: 20px;
-    border:1px solid #eee;
+    border:1px solid #d6d6d6;
     background-color:#fff;
     padding:30px;
     border-radius: 15px;
