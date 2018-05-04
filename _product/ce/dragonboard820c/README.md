@@ -2,6 +2,7 @@
 title: DragonBoard™ 820c (Arrow)
 layout: product-display-page
 permalink: /product/dragonboard820c/
+shortname: dragonboard820c
 description: |-
     DragonBoard 820c by Arrow Electronics, development board based on the top-tier Qualcomm® Snapdragon™ 820E processor. Low-Cost Product Development Platform
 keywords: |-
