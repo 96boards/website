@@ -243,7 +243,15 @@ span.buy-price {
     }
     div#product-filters {
         text-align: center;
+        width: 100%;
     }
+}
+
+#product-filters h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #8c8c8c;
 }
 
 div#product-filters {
@@ -251,6 +259,7 @@ div#product-filters {
     padding: 10px;
     border-radius: 3px;
     border: 1px solid #000;
+    width: 408px;
 }
 
 select.form-control.filter-select {
