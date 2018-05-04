@@ -28,7 +28,7 @@ pages:
             url: /news/
     - title: Products
       options:
-          - text: Latest Boards
+          - text: All Boards
             url: /products/
           - text: Consumer Edition (CE)
             url: /products/ce/

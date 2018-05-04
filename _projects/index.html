@@ -21,13 +21,14 @@ js-package: projects
     </div>
     <select class="form-control filter-select" data-mixitup-control>
         <option value="all">Filter by Board</option>
-        {% for board in site.data.project-categories.boards %}
-          <option value=".{{board}}">{{board}}</option>
+        {% assign boards = site.product | where: "display_product", "true" %}
+        {% for board in boards %}
+          <option value=".{{board.shortname}}">{{board.title}}</option>
         {% endfor %}
     </select>
     <select class="form-control filter-select" data-mixitup-control>
         <option value="all">Filter by Vertical</option>
-        {% for vertical in site.data.project-categories.verticals %}
+        {% for vertical in site.data.verticals %}
           <option value=".{{vertical}}">{{vertical}}</option>
         {% endfor %}
     </select>

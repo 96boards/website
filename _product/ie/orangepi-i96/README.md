@@ -43,8 +43,6 @@ product_os:
     link: /documentation/iot/orangepi-i96/downloads/
 product: true
 ---
-# Orange Pi i96
-
 The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
 
 Think of the things you can build...

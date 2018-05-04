@@ -15,15 +15,4 @@ boards:
     - Secure96
     - UARTAdapater
     - iMX7-96
-verticals:
-    - Drone
-    - Robotics
-    - Automotive
-    - Manufacturing
-    - Healthcare
-    - MachineLearning
-    - Agriculture
-    - Maker
-    - Digital Signage
-    - High End Audio
-    - Virtual Reality
+

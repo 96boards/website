@@ -67,8 +67,6 @@ product_buy_links:
 is_featured: true
 product: true
 ---
-# Bubblegum-96
-
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all
 packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.

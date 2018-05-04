@@ -28,8 +28,6 @@ product_buy_links:
     link-url: https://www.96boards.org/product/audio-mezzanine/
 product: true
 ---
-# Arrow Audio Mezzanine
-
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 You can connect 96Boards to various modules easily with this expansion board. There are six
 grove ports which can be used to connect rich Grove functional modules, which will make your
