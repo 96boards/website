@@ -6,7 +6,7 @@ description: |-
 images:
   - HandGestureRecognition_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Hand Gesture Recognition
 

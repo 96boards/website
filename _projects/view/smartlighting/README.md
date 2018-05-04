@@ -8,7 +8,7 @@ images:
   - SmartLight_Image1.png
   - SmartLight_Image2.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Smart Lighting Management System
 

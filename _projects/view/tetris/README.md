@@ -6,7 +6,7 @@ description: |-
 images:
   - Tetris_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Tetris
 

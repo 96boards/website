@@ -7,7 +7,7 @@ description: |-
 images:
   - BrowserWebcamAccess_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Webcam Access on a Web Browser
 

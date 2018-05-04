@@ -7,7 +7,7 @@ description: |-
 images:
   - TurtlePostureBot_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Fit Turtle Posture Robot
 

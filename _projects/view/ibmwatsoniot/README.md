@@ -6,7 +6,7 @@ description: |-
 images:
   - IBMWatson_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # IBM Watson IoT Platform Service
 

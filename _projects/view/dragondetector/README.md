@@ -15,7 +15,7 @@ image:
   name: dragondetector-thumb.png
   thumb: dragondetector-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Dragon Detector
 

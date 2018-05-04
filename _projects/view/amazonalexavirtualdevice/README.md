@@ -6,7 +6,7 @@ description: |-
 images:
   - AmazonAlexa_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 - Alexa
 image:
     path: /assets/images/projects/alexavd-thumb.png

@@ -6,7 +6,7 @@ permalink: "/projects/AlexaLIFXBulb/"
 images:
 - alexalifxbulb-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 image:
     path: /assets/images/projects/alexalifxbulb-thumb.png
     name: alexalifxbulb-thumb.png

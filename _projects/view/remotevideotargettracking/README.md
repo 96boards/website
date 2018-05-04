@@ -6,7 +6,7 @@ description: |-
 images:
   - VideoMonitor_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Remote Video Monitoring and Target Tracking
 

@@ -6,7 +6,7 @@ description: |-
 images:
   - SensorDemo_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Sensor Demo
 

@@ -8,7 +8,7 @@ image:
     name: dragonwally-thumb.png
     thumb: dragonwally-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 
 # Dragon Wally

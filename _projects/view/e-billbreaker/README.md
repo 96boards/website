@@ -14,7 +14,7 @@ image:
   name: ebillbreaker-thumb.png
   thumb: ebillbreaker-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # e-BillBreaker
 

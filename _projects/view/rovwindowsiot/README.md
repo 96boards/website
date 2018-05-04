@@ -6,7 +6,7 @@ description: |-
 images:
   - ROV_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # ROV with Windows 10 IoT Core
 

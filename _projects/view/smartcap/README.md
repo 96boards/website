@@ -7,7 +7,7 @@ images:
   - SmartCap_FrontPage.png
   - SmartCap_Image1.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Smart Cap
 

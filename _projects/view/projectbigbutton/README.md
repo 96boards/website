@@ -8,7 +8,7 @@ images:
   - ProjectBIGButton_Video_Demo.png
   - ProjectBIGButton_Video_OpenHours.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Project BIG Button
 
