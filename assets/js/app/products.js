@@ -25,7 +25,7 @@ if($('.mixitup-container').length) {
             control: '[data-mixitup-control]'
         },
         animation: {
-            duration: 300
+            effects: 'fade translateZ(-100px)'
         }
     });
     $filterSelect = $('.filter-select');
