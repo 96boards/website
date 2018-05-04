@@ -231,7 +231,7 @@ span.buy-price {
 }
 
 
-@media(max-width:991px){
+@media(max-width:$screen-sm-min){
     .product-short-description {
         min-height: 0px;
     }
@@ -241,6 +241,16 @@ span.buy-price {
     .photo {
         min-height: 0px;
     }
+    div#product-filters {
+        text-align: center;
+    }
+}
+
+div#product-filters {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #000;
 }
 
 select.form-control.filter-select {
