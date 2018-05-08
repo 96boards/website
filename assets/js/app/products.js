@@ -35,7 +35,6 @@ if($('.mixitup-container').length) {
         mixer.filter(this.value);
     });
 }
-
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip({container: 'body'});
 });
