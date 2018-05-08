@@ -73,7 +73,7 @@ The HiKey board was the first board to be certified 96Boards Consumer Edition co
 around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size
 of a credit card.
 
-[Hikey relaunched by Lemaker](http://www.lemaker.org/page/hikey.html)
+Hikey relaunched by Lemaker
 
 ## Buy Now
 
