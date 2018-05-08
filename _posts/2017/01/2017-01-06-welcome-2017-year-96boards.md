@@ -219,7 +219,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * Softpedia reports the [availability of Ubuntu Snappy Core](http://news.softpedia.com/news/ubuntu-snappy-core-images-available-for-lemaker-s-hikey-96boards-download-now-504051.shtml?utm_content=buffere790f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) images for the LeMaker’s HiKey 96Boards.
 
 
-    * Please note the broken link on Softpedia - [Actual Link](http://www.lemaker.org/product-hikey-download-54.html)
+    * Please note the broken link on Softpedia
 
 
 
