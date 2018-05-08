@@ -37,6 +37,6 @@ if($('.mixitup-container').length) {
 }
 
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip({container: 'body'})
+  $('[data-toggle="tooltip"]').tooltip({container: 'body'});
 });
 
