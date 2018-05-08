@@ -10,15 +10,6 @@ keywords: Consumer Edition Boards, Enterprise Developement Boards, ARM 64 Dev Bo
 css-package: products
 js-package: all-products
 ---
-<!-- <div class="row">
-    <div class="col-md-8" class="description">
-            <p id="collection-description">{{ page.description }}</p>
-    </div>
-    <div class="col-md-4 fade-in-one hidden-sm hidden-xs">
-          <img id="collection-image" class="img-responsive center-block" src="{% asset_path '96boards-logo-300x109.png' %}" alt="96Boards logo small.">
-    </div>
-</div> -->
-
 <div id="product-filters">
     <h3>Filters</h3>
     <div class="btn-group" role="group" aria-label="Product Sort Buttons">
@@ -33,8 +24,7 @@ js-package: all-products
         <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ie" data-toggle="tooltip" data-container="body" data-placement="bottom" title="IoT Edition"><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></button>
         <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".mezzanine" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Mezzanine Edition"><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></button>
     </div>
-</div>
-            
+</div>        
 <div id="grid" class="mixitup-container">
 {% assign products_array = site.product | ascending %}
 {% assign products_array =  products_array | where: "display_product", "true" %}

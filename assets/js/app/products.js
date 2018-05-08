@@ -26,6 +26,7 @@ if($('.mixitup-container').length) {
         },
         animation: {
             effects: 'fade translateZ(-100px)'
+            duration: 300
         }
     });
     $filterSelect = $('.filter-select');
@@ -37,4 +38,5 @@ if($('.mixitup-container').length) {
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({container: 'body'})
-})
+});
+
