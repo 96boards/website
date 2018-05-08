@@ -25,7 +25,7 @@ if($('.mixitup-container').length) {
             control: '[data-mixitup-control]'
         },
         animation: {
-            effects: 'fade translateZ(-100px)'
+            effects: 'fade translateZ(-100px)',
             duration: 300
         }
     });
@@ -36,7 +36,7 @@ if($('.mixitup-container').length) {
     });
 }
 
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip({container: 'body'});
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({container: 'body'});
 });
 
