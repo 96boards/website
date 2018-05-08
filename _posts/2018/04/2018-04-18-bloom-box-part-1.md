@@ -1,4 +1,4 @@
----
+﻿---
 title: Bloom Box - Part 1
 author: Joy Nwarueze
 date: 2018-04-18 01:01:54+00:00
@@ -19,12 +19,12 @@ We are Team I (better name pending) of class ECE 191 Spring ‘18 at UCSD. Our t
 and me, Joy Nwarueze.
 
 ##  First, our Team Lead: Karina Niño
-Hello! I'm Karina from Chino, CA. As a graduating electrical engineering senior at UC San > Diego, my depth is power systems/
-electronics & control systems. I'm excited to work on a > project that incorporates renewable energy and caters to the underserved.
-Fun fact: I'm an  > intermediate salsa dancer!
+Hello! I'm Karina from Chino, CA. As a graduating electrical engineering senior at UC San Diego, my depth is power systems/
+electronics & control systems. I'm excited to work on a project that incorporates renewable energy and caters to the underserved.
+Fun fact: I'm an intermediate salsa dancer!
 
 ## Next up is Aansh Malik:
-Hi! I’m Aansh from Irvine/Burbank, CA. I am an Electrical Engineering Senior with machine > learning/ control systems depth and
+Hi! I’m Aansh from Irvine/Burbank, CA. I am an Electrical Engineering Senior with machine learning/ control systems depth and
 electives in Power Systems/ Entrepreneurship. **Fun Fact**: I spent the first 16 years of my life in India and therefore am
 particularly excited about the potential benefits and impact that this project can have on the underprivileged in the country I was
 born and brought up in.
@@ -35,9 +35,9 @@ of is great interest to me because of the intended scope of its application. Hel
 available in the developed world not only fosters a more competitive environment worldwide but also allows more innovation to occur.
 
 ## Last but not least, Our Glorious, Amazing, Shining Star of a Human Being, me, Joy:
-Hola! I’m a 5th year electrical engineering student that’ll hopefully graduate after one more > quarter. My depth for my major is
+Hola! I’m a 5th year electrical engineering student that’ll hopefully graduate after one more quarter. My depth for my major is
 circuits and systems with a technical/professional focus in computer science. I’m interested in this project because I think it would
-be cool to build something I wish I had growing up as it would have helped foster a passion I didn’t know I > had earlier on. Also, a
+be cool to build something I wish I had growing up as it would have helped foster a passion I didn’t know I had earlier on. Also, a
 fun fact about me is that I’m in the National Honor Fraternity Phi Sigma Pi and have been Parliamentarian for the past 2 years. So
 yeah please hire me before the monster that is student debt comes to get me.
 
