@@ -2,6 +2,7 @@
 title: Nitrogen
 layout: product-display-page
 permalink: /product/nitrogen/
+shortname: nitrogen
 description: |-
     The BLE Nitrogen is joint efforts by 96Boards and Seeed, aims to provide economic and compact  BLE solutions for IoT projects.
 

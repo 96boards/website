@@ -6,7 +6,7 @@ description: |-
 images:
   - HeadlessIP_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Report IP Address During Headless Boot
 

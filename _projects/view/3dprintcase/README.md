@@ -9,7 +9,7 @@ images:
   - 3DPrintCase_Image2.png
   - 3DPrintCase_Image3.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 image:
   path: /assets/images/projects/3dprintcase-thumb.png
   name: 3dprintcase-thumb.png

@@ -66,6 +66,7 @@ product_buy_links:
     link-url: "https://linaro.co/bubblegum96-buy"
 is_featured: true
 product: true
+shortname: bubblegum-96
 ---
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all

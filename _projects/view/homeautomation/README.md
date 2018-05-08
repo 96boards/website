@@ -7,7 +7,7 @@ images:
   - HomeAutomation_FrontPage.png
   - HomeAutomation_Image1.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Home Automation
 

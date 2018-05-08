@@ -7,7 +7,7 @@ description: |-
 images:
   - Vision4all_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Vision 4all
 

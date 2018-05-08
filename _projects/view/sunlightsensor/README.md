@@ -6,7 +6,7 @@ description: |-
 images:
   - SunlightSensor_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Sunlight Sensor
 

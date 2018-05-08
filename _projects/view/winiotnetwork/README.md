@@ -7,7 +7,7 @@ description: |-
 images:
   - WindowsIoT_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Windows IoT – Connecting to Network
 

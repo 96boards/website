@@ -12,7 +12,7 @@ image:
     name: breakerball-thumb.png
     thumb: breakerball-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Breakerball
 

@@ -13,7 +13,7 @@ image:
   name: comunicibo-thumb.png
   thumb: comunicibo-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # ComuniCibo
 

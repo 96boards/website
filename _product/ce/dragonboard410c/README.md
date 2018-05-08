@@ -1,6 +1,7 @@
 ---
 title: DragonBoard™ 410c (Arrow)
 layout: product-display-page
+shortname: dragonboard410c
 permalink: /product/dragonboard410c/
 description: |-
     DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® Snapdragon™ 410 processor. Low-Cost Product Development Platform

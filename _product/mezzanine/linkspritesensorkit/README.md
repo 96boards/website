@@ -2,6 +2,7 @@
 title: Link Sprite
 layout: product-display-page
 permalink: /product/linkspritesensorkit/
+shortname: linkspritesensorkit
 description: |-
     96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards.
     96Boards.

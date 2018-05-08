@@ -7,7 +7,7 @@ description: |-
 images:
   - TypingGame_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Typing Game
 

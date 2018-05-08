@@ -6,7 +6,7 @@ description: |-
 images:
   - NFC_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # NFC Smart Access Control System
 

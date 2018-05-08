@@ -2,6 +2,7 @@
 title: DeveloperBox (Socionext)
 layout: product-display-page
 permalink: /product/developerbox/
+shortname: developerbox
 description: |-
     SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”
 display_product: true

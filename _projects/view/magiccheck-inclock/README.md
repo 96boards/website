@@ -6,7 +6,7 @@ description: |-
 images:
   - MagicClock_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Magic Check-in Clock
 

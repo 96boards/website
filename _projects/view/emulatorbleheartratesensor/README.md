@@ -10,7 +10,7 @@ image:
     name: ehrs-thumb.png
     thumb: ehrs-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Emulating BLE Heart Rate Sensor
 

@@ -10,7 +10,7 @@ image:
     name: audiomezz-thumb.png
     thumb: audiomezz-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Audio Mezzanine Board
 

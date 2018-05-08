@@ -19,6 +19,11 @@ $(document).ready(function() {
               items:1,
               dots: true,
               nav: false
+          },
+          475:{
+              items: 2,
+              dots: true,
+              nav: false
           }
       }
   });
@@ -36,6 +41,11 @@ $(document).ready(function() {
       responsive:{
           0:{
               items:1,
+              dots: true,
+              nav: false
+          },
+          475:{
+              items: 2,
               dots: true,
               nav: false
           }

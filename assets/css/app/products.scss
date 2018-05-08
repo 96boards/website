@@ -231,7 +231,7 @@ span.buy-price {
 }
 
 
-@media(max-width:991px){
+@media(max-width:$screen-sm-min){
     .product-short-description {
         min-height: 0px;
     }
@@ -241,6 +241,25 @@ span.buy-price {
     .photo {
         min-height: 0px;
     }
+    div#product-filters {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+#product-filters h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+div#product-filters {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: 408px;
 }
 
 select.form-control.filter-select {
@@ -259,6 +278,9 @@ select.form-control.filter-select:focus{
 }
 #product-filters .btn-group {
     margin-top: -3px;
+}
+#product-filters button.btn {
+    margin-top: 5px;
 }
 img.filter-thumbnail {
     height: 18px;

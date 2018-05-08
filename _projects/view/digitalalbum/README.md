@@ -12,7 +12,7 @@ image:
     name: digitalalbum-thumb.png
     thumb: digitalalbum-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Digital Album
 

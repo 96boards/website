@@ -10,7 +10,7 @@ image:
   name: androidtv-thumb.png
   thumb: androidtv-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Android TV - DragonBoard 410c
 

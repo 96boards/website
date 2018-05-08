@@ -25,6 +25,7 @@ if($('.mixitup-container').length) {
             control: '[data-mixitup-control]'
         },
         animation: {
+            effects: 'fade translateZ(-100px)'
             duration: 300
         }
     });
@@ -34,3 +35,8 @@ if($('.mixitup-container').length) {
         mixer.filter(this.value);
     });
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip({container: 'body'})
+});
+
