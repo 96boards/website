@@ -11,7 +11,7 @@ image:
   name: ab-thumb.png
   thumb: ab-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Automotive Breathalyzer
 

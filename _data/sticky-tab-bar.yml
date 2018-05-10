@@ -24,7 +24,7 @@ pages:
         url: /news/
     urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
   - list:
-      - title: Latest Boards
+      - title: All 96Boards
         url: /products/
       - title: Consumer Edition
         url: /products/ce/

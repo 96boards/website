@@ -48,7 +48,7 @@ are used to form a mesh network and one of them will act as a server and another
 will act as a client. The client node is connected to the gateway via USB to
 UART.
 
-Also two of the sensors, [CCS811](http://ams.com/eng/Products/Environmental-Sensors/Air-Quality-Sensors/CCS811)
+Also two of the sensors, CCS811
 and [TMP102](http://www.ti.com/product/TMP102) are connected **I2C_1** of the server in order
 to get the Air Quality and Temperature data along with one additional push button
 connected to **PC8**.

@@ -12,7 +12,7 @@ image:
   name: braceyourself-thumb.png
   thumb: braceyourself-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 - IoT
 ---
 # Brace Yourself

@@ -2,6 +2,7 @@
 title: DragonBoard™ 820c (Arrow)
 layout: product-display-page
 permalink: /product/dragonboard820c/
+shortname: dragonboard820c
 description: |-
     DragonBoard 820c by Arrow Electronics, development board based on the top-tier Qualcomm® Snapdragon™ 820E processor. Low-Cost Product Development Platform
 keywords: |-
@@ -38,6 +39,7 @@ product_buy_links:
     type: board
     link-price: "199.00"
     link-price-currency: USD
+# Right Sidepanel links
 product_os:
   - title: Debian
     link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
@@ -69,8 +71,6 @@ product_kits:
   - title: Coming Soon...
 product: true
 ---
-# DragonBoard 820c
-
 The DragonBoard 820c development board is based on the Qualcomm® Snapdragon™ 820E embedded
 platform with the custom 64-bit Qualcomm® Kryo™ quad-core CPU and is compliant with the 96Boards
 Consumer Edition Extended Version specification managed by Linaro. The combination of the

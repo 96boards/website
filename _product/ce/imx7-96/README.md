@@ -2,6 +2,7 @@
 title: iMX7-96 Development Board
 layout: product-display-page
 permalink: /product/imx7-96/
+shortname: imx7-96
 description: |-
     The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 display_product: true
@@ -63,8 +64,6 @@ product_kits:
     link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
 product: true
 ---
-# iMX7-96
-
 The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within
 the Internet of Things. iMX7-96 board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core

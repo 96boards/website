@@ -50,7 +50,7 @@ layout: boards-home
             </div>
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <a id="explore-boards" class="btn explore-boards" href="/products/">Explore Boards</a>
+                    <a id="explore-boards" class="btn explore-btn" href="/products/">Explore Boards</a>
                 </div>
             </div>
         </div>
@@ -341,7 +341,7 @@ layout: boards-home
                                <div class="lazyload blog-featured-image-home" {% if assets[post.thumbnail_image] %}
                             style="background-image: url('{% asset_path '{{post.thumbnail_image}}'%}')"
                          {% elsif post.featured_image %}
-                             style="background-image: url('/assets/thumbnails/blog/{{post.featured_image}}')"
+                             style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/thumbnails/blog/{{post.featured_image}}') no-repeat; background-size: cover;"
                          {% elsif post.image.featured %}
                             {% if post.image.thumb %}
                                   {% if assets[post.image.thumb] %}
@@ -423,6 +423,11 @@ layout: boards-home
             </div>
         </a>
         {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <a id="explore-projects" class="btn explore-btn" href="/projects/">All Projects</a>
+        </div>
     </div>
 </div>
 

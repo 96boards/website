@@ -1,6 +1,6 @@
 ---
 layout: container-breadcrumb-tabs
-title:  96boards Products
+title:  All 96Boards
 permalink: /products/
 status: active
 description: |-
@@ -8,25 +8,32 @@ description: |-
     Visit 96Boards product page to see which boards or specification suites you.
 keywords: Consumer Edition Boards, Enterprise Developement Boards, ARM 64 Dev Boards, IoT Production boards, hacker, Makers
 css-package: products
+js-package: all-products
 ---
-<div class="row">
-    <div class="col-md-8" class="description">
-            <p id="collection-description">{{ page.description }}</p>
+<div id="product-filters">
+    <h3>Filters</h3>
+    <div class="btn-group" role="group" aria-label="Product Sort Buttons">
+        <button class="btn btn-default" data-mixitup-control type="button" data-filter="all">All</button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-sort="order:asc"><i class="glyphicon glyphicon-arrow-up"></i></button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="order:descending"><i class="glyphicon glyphicon-arrow-down"></i></button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="random"><i class="glyphicon glyphicon-random"></i></button>
     </div>
-    <div class="col-md-4 fade-in-one hidden-sm hidden-xs">
-          <img id="collection-image" class="img-responsive center-block" src="{% asset_path '96boards-logo-300x109.png' %}" alt="96Boards logo small.">
+    <div class="btn-group" role="group" aria-label="Product Specification Filters">
+        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ce" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Consumer Edition"><img src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ee" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Enterprise Edition"><img src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ie" data-toggle="tooltip" data-container="body" data-placement="bottom" title="IoT Edition"><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".mezzanine" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Mezzanine Edition"><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></button>
     </div>
-
-</div>
-
-
-<div id="grid">
-{% assign products_array = site.product | where: "is_featured", "true" | sort: "featured_product_order" | ascending | limit: 7 %}
+</div>        
+<div id="grid" class="mixitup-container">
+{% assign products_array = site.product | ascending %}
 {% assign products_array =  products_array | where: "display_product", "true" %}
 <div class="row">
+{% assign order = 1 %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
-    <div class="{{product.product_specification | downcase }}col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }} col-xs-12 col-sm-4 col-md-3 col-lg-3
+    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}">
         <div class="col-item">
             <div class="photo">
                 <a href="{{product.permalink}}">
@@ -61,12 +68,12 @@ css-package: products
                       </ul>
                     </div>
                 </div>
-
                 <div class="clearfix">
                 </div>
             </div>
         </div>
     </div>
+    {% assign order = order | plus: 1 %}
 {% endfor %}
 </div>
 </div>

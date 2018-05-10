@@ -6,7 +6,7 @@ description: |-
 images:
   - FlameRecognition_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Flame Recognition
 

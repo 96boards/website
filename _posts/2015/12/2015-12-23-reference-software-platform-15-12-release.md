@@ -73,7 +73,7 @@ The work for the CE OE/Yocto RPB was also started, but unfortunately not yet co
 
 **Consumer Edition:**
 
-CE Debian RPB for [DragonBoard410](/product/dragonboard410c/) and [HiKey](/product/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
+CE Debian RPB for [DragonBoard410](/product/dragonboard410c/) and [HiKey](/product/hikey/) (including support for the LeMaker version):
 
 
 
@@ -90,7 +90,7 @@ CE Debian RPB for [DragonBoard410](/product/dragonboard410c/) and [HiKey](/produ
   * 96Boards artwork and default settings
 
 
-CE AOSP RPB for [HiKey](/product/hikey/) (including support for the [LeMaker version](http://www.lemaker.org/page/hikey.html)):
+CE AOSP RPB for [HiKey](/product/hikey/) (including support for the LeMaker version:
 
 
 

@@ -11,7 +11,7 @@ image:
     name: currenttracking-thumb.png
     thumb: currenttracking-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Electrical Current Tracking
 

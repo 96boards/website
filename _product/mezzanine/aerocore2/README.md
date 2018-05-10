@@ -2,9 +2,11 @@
 title: AeroCore 2 for 96Boards
 layout: product-display-page
 permalink: /product/aerocore2/
+shortname: aerocore2
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
+display_product: true
 product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/aerocore2/
@@ -76,8 +78,6 @@ product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
 product: true
 ---
-# AeroCore2
-
 Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://www.gumstix.com/geppetto). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 
 - [Clone and kickstart your customized AreoCore 2 expansion board design for 96Boards](https://geppetto.gumstix.com/#!/design/1130/)

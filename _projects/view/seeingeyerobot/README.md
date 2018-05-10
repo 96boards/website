@@ -6,7 +6,7 @@ description: |-
 images:
   - SeeingEyeRobot_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Seeing Eye Robot
 

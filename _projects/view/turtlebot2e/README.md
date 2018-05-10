@@ -7,7 +7,7 @@ description: |-
 images:
   - Turtlebot2e_FrontPage.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # TurtleBot 2e
 

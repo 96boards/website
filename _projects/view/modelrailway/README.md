@@ -11,7 +11,7 @@ images:
   - ModelRailway_Image4.png
   - ModelRailway_Image5.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Model Railway Control
 

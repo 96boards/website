@@ -19,9 +19,7 @@ specification-logo: 96Boards-Logo_Partner-small.png
     </div>
     <div class="col-md-4">
           <img id="collection-image" class="img-responsive center-block hidden-sm hidden-xs" src="{% asset_path '{{ page.specification-logo }}'%}" alt="96Boards logo small.">
-
     </div>
-
 </div>
 
 <div id="grid">
@@ -30,7 +28,6 @@ specification-logo: 96Boards-Logo_Partner-small.png
     <div class="row">
     {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
-
         <div class="mix {{product.product_specification | downcase }} col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="col-item">
                 <div class="photo">

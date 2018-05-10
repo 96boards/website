@@ -10,7 +10,7 @@ image:
     name: al-thumb.png
     thumb: al-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Auto Luminosity
 

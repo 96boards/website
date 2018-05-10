@@ -11,7 +11,7 @@ image:
     name: dronarhythm-thumb.png
     thumb: dronarhythm-thumb.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 - Robotics
 - Drone
 - IoT

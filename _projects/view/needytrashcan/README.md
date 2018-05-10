@@ -7,7 +7,7 @@ images:
   - NeedyTrashcan_FrontPage.png
   - NeedyTrashcan_Video_Image.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # The Needy Trashcan
 

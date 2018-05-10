@@ -2,8 +2,11 @@
 title: Shiratech LTE Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-lte/
+shortname: shiratech-lte
 description: |-
     Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
+title: Shiratech LTE Mezzanine
+display_product: true
 display_product: true
 product_tab_menu:
   - tab_title: Documentation
@@ -28,8 +31,6 @@ product_more_info:
 - title: Product Brief
   link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
 ---
-# Shiratech LTE Mezzanine
-
 Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 
 ## Buy Now

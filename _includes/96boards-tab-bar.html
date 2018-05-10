@@ -1,0 +1,58 @@
+<div class="tabbed-area" id="tabbed-nav-bar"><!-- Nav tabs -->
+<nav class="navbar-default" role="navigation">
+<div class="container">
+    <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tabbed-nav-bar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="sub-navigation-header" href=""></a>
+        </div>
+        <div class="collapse navbar-collapse" id="tabbed-nav-bar-collapse">
+            <ul class="nav nav-tabs tabbed-nav" id="tab-row" role="tablist">
+                {% assign page_base =  page.url | split:'/' %}
+
+                <!--Projects Sub Navigation-->
+                {% if page.permalink == "/projects/" or
+                    page_base[1] == "projects" and page_base[2] or
+                    page.permalink == "/projects/contribute.md/" or
+                    page.permalink == "/projects/faq.md/" or
+                    page.permalink == "/projects/submit/" %}
+                        {% if page_base[2] and
+                         page_base[2] != "faq.md" and
+                         page_base[2] != "contribute.md" and
+                         page_base[2] != "submit" %}
+                            <li role="presentation" class="active tabbed-nav-btn"><a href="{{page.permalink}}" aria-controls="overview" role="link">{{page.title}}</a></li>
+                        {% endif %}
+                    <li role="presentation" {% if page.permalink == '/projects/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/" aria-controls="overview" role="link">Projects</a></li>
+                    <li role="presentation" {% if page.permalink == '/projects/contribute.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/contribute.md/" aria-controls="lswg" role="link">Contribute</a></li>
+                    <li role="presentation" {% if page.permalink == '/projects/faq.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/faq.md/" aria-controls="lswg" role="link">FAQ</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/openhours/" aria-controls="lswg" role="link">OpenHours</a></li>
+                    <li role="presentation" {% if page.permalink == '/projects/submit/' %}class="active tabbed-nav-btn pull-right"{% else %}class="tabbed-nav-btn pull-right"{% endif %}><a href="/projects/submit/" aria-controls="lswg" role="link">Submit a Project</a></li>
+                {% endif %}
+
+                <!--Products Sub Navigation-->
+                {% if page.product %}
+                    {% if page.product_tab_menu %}
+                        {% assign product-tabs = page.product_tab_menu | sort:"tab_position" %}
+                        <li role="presentation" class="active tabbed-nav-btn"><a href="{{ page.permalink }}" aria-controls="overview" role="link">{{ page.title }}</a></li>
+                        {% for tab in product-tabs %}
+                            <li role="presentation" class="tabbed-nav-btn {% if tab.tab_align_right == true %}pull-right{% endif %}"><a href="{{ tab.tab_link }}" aria-controls="overview" role="link">{{ tab.tab_title }}</a></li>
+                        {% endfor %}
+
+                    {% else %}
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
+                    {% endif %}
+                {% endif %}
+        </ul>
+    </div>
+    </div>
+</nav>
+</div>

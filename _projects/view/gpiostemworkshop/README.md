@@ -9,7 +9,7 @@ images:
   - GPIOWorkshop_Image2.png
   - GPIOWorkshop_Image3.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # GPIO STEM Workshop
 

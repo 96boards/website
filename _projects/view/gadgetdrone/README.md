@@ -8,7 +8,7 @@ images:
   - GadgetDrone_VideoImage_OnboardCameraFlight.png
   - GadgetDrone_VideoImage_OpenHours.png
 categories:
-- DragonBoard410c
+- dragonboard410c
 ---
 # Gumstix Gadget Drone
 
