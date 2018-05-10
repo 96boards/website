@@ -5,7 +5,13 @@ description: |-
     This project aims to provide the ability to bring Alexa to a Linux device including embedded systems like the DragonBoard™ 410c from Arrow Electronics.
 images:
   - AmazonAlexa_FrontPage.png
-
+categories:
+- dragonboard410c
+- Alexa
+image:
+    path: /assets/images/projects/alexavd-thumb.png
+    name: alexavd-thumb.png
+    thumb: alexavd-thumb.png
 ---
 # Amazon Alexa Virtual Device
 

@@ -1,6 +1,5 @@
 ---
 title: Model Railway Control
-
 permalink: "/projects/ModelRailway/"
 description: |-
     This project shows you how to configure the DragonBoard 410c to allow it to control a model railway using DCC (Digital Command and Control) and open source JMRI software, via a USB/DCC interface. In this particular case, the focus is on controlling the track and signaling, but the codebase also includes the ability to program DCC locomotives.
@@ -11,6 +10,8 @@ images:
   - ModelRailway_Image3.png
   - ModelRailway_Image4.png
   - ModelRailway_Image5.png
+categories:
+- dragonboard410c
 ---
 # Model Railway Control
 

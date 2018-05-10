@@ -1,12 +1,13 @@
 ---
 title: I2C Accelerometer
-
 permalink: "/projects/I2CAccelerometer/"
 description: |-
     Connect an I2C accelerometer to a DragonBoard™ 410c and create a simple app to read data from it. Step-by-step guidance, so no background knowledge of I2C is needed.
 images:
   - I2CAccel_FrontPage.png
   - I2CAccel_Image1.png
+categories:
+- dragonboard410c
 ---
 # I2C Accelerometer
 

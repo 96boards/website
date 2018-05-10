@@ -1,6 +1,5 @@
 ---
 title: Remote Monitoring Project
-
 permalink: "/projects/RemoteMonitoring/"
 description: |-
     This project is designed to implement remote monitoring on the DragonBoard™ 410c from Arrow Electronics. A picture can be taken upon request using the USB camera connected to the DragonBoard 410c, and the pictures can be transmitted to the server. An Android phone is used to make the request and view the pictures that have been sent to the server. The DragonBoard 410c can also be set up to proactively take photos, carry out facial recognition, and upload photos from which faces are detected. It may also take and upload photos based on any hardware-triggered commands.
@@ -8,6 +7,8 @@ images:
   - RemoteMonitor_FrontPage.png
   - RemoteMonitor_Image1.png
   - RemoteMonitor_Image2.png
+categories:
+- dragonboard410c
 ---
 # Remote Monitoring Project
 

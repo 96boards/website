@@ -2,27 +2,23 @@ favicon: favicon.png
 search-label: 96Boards
 name: 96Boards
 slogan: Develop &amp; Prototype on the Latest Arm Technology
-
 # Breadcrumb Settings
 breadcrumb:
     image: banner.jpg
-
 #Content Repo for static site.
 # Used for the edit on github include
 edit-on-github:
     enabled: true
     repo: https://github.com/96boards/website
     docs: https://github.com/96boards/documentation
-
 # Mailchimp settings
 mailchimp:
     enabled: true
     id: e3d2abc041
-    
+    unsubscribe-url: https://96boards.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=e3d2abc041
 # Footer Newsletter toggle.
 newsletter:
     enabled: true
-
 # Blog tags
 tags_enabled: true
 
@@ -58,7 +54,7 @@ github_username: 96boards
 linkedin_username: 96boards
 google_plus_username: 106009833460292139774
 facebook_username: 96Boards
-youtube_username: UCjawhk_W1QnJs3pKIsKLJNg/
+youtube_username: channel/UCjawhk_W1QnJs3pKIsKLJNg/
 twitter_username: 96Boards
 slideshare_username: 96boards
 
@@ -68,6 +64,7 @@ blog:
     comments: true
     # Post Side Bar Settings
     sidebar:
+        custom-include: blog-sidebar-include.html
         # Toggle whether or not thumbnails in the sidebar are displayed.
         thumbnails:
             display: true

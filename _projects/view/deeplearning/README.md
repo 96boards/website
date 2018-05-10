@@ -3,11 +3,13 @@ title: Deep learning with Snapdragon in Linux Debian
 permalink: /projects/deeplearning/
 description: |-
     The goal of this project is to try MobileNet Model (a convolutional Neural Network model for Mobile devices) for Object Classification/Detection with snapdragon
-
 images:
   - deeplearn1.jpg
   - deeplearn2.jpg
-
+image:
+  path: /assets/images/projects/deeplearning-thumb.png
+  name: deeplearning-thumb.png
+  thumb: deeplearning-thumb.png
 ---
 
 # Deep learning with Snapdragon in Linux Debian

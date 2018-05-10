@@ -24,7 +24,7 @@ pages:
         url: /news/
     urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
   - list:
-      - title: Latest Boards
+      - title: All 96Boards
         url: /products/
       - title: Consumer Edition
         url: /products/ce/
@@ -47,9 +47,9 @@ pages:
       - title: OpenHours
         url: /openhours/
       - title: Submit a Project
-        url: /projects/submit.md/
+        url: /projects/submit/
         right: true
-    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit.md/]
+    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit/]
   - list:
       - title: HiKey 960
         url: /product/hikey960/
@@ -74,6 +74,9 @@ pages:
   - list:
       - title: All Docs
         url: /documentation/
+      - title: Guides
+        url: /documentation/guides/
+        sub-pages: true
       - title: Consumer Edition
         url: /documentation/consumer/
         sub-pages: true
@@ -90,7 +93,7 @@ pages:
         url: /documentation/Specifications/
         sub-pages: true
     sub-pages-enabled: true
-    urls: [/documentation/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/,
+    urls: [/documentation/,/documentation/guides/,/documentation/consumer/,/documentation/enterprise/,/documentation/iot/,/documentation/mezzanine/,/documentation/Specifications/,
     /documentation/Extras/]
   - list:
       - title: Overview

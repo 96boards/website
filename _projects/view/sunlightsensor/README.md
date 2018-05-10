@@ -1,11 +1,12 @@
 ---
 title: Sunlight Sensor
-
 permalink: "/projects/SunlightSensor/"
 description: |-
     This project measures Ultra Violet (UV) index, infrared and visible light using sensors connected to the DragonBoard 410c. Sensor data is sent to a Sparkfun cloud server, and an android app is designed to give the user tips to help protect themselves against health hazards caused by UV exposure. It also is designed to adjust compatible LED lamps to reduce energy usage during the day.
 images:
   - SunlightSensor_FrontPage.png
+categories:
+- dragonboard410c
 ---
 # Sunlight Sensor
 

@@ -5,7 +5,12 @@ description: |-
     This project attempts to build Android TV on the DragonBoard™ 410c from Arrow Electronics. The main objective was to utilize the Android TV Input Framework, and this was done by running the built-in reference LiveTv App and Sample Input Apps.
 images:
   - AndroidTVDB410c_FrontPage.png
-
+image:
+  path: /assets/images/projects/androidtv-thumb.png
+  name: androidtv-thumb.png
+  thumb: androidtv-thumb.png
+categories:
+- dragonboard410c
 ---
 # Android TV - DragonBoard 410c
 

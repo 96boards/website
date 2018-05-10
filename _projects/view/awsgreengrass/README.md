@@ -4,7 +4,14 @@ description: |-
     This project shows how to get Amazon Web Services (AWS) Greengrass Core up and running on a DragonBoard™ 410c development board by Arrow Electronics.
     Support for AWS Greengrass on the DragonBoard 410c is designed to allow local AWS Lambda execution on gateways and devices, and help enhance the performance and cost effectiveness of many IoT applications by bringing the power of AWS to the edge.
 permalink: "/projects/AWSGreengrass/"
-
+images:
+- green-grass-thumb.png
+image:
+    path: /assets/images/projects/green-grass-thumb.png
+    name: green-grass-thumb.png
+    thumb: green-grass-thumb.png
+categories:
+- dragonboard410c
 ---
 # AWS Greengrass
 

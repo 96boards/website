@@ -7,7 +7,12 @@ description: |-
 images:
   - 96Brews_FrontPage.png
   - 96Brews_Video_OpenHours.png
-
+image:
+    path: /assets/images/projects/96brews-thumb.png
+    name: 96brews-thumb.png
+    thumb: 96brews-thumb.png
+categories:
+- Robotics
 ---
 
 # 96Brews

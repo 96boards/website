@@ -1,11 +1,12 @@
 ---
 title: Remote Video Monitoring and Target Tracking
-
 permalink: "/projects/RemoteVideoTargetTracking/"
 description: |-
     This project aims to implement video acquisition by using a USB camera and provide web access using Wi-Fi communication on the DragonBoard™ 410c from Arrow Electronics. In addition, it is also designed to use open-source motion codes to detect and track the moving objects in a video and configure the monitoring parameters, image output and mode. A developer may conveniently integrate this demo to his own DIY project to realize video monitoring related functions.
 images:
   - VideoMonitor_FrontPage.png
+categories:
+- dragonboard410c
 ---
 # Remote Video Monitoring and Target Tracking
 

@@ -1,0 +1,29 @@
+---
+layout: full-width-breadcrumb
+js-package: projects
+css-package: projects
+---
+{% include 96boards-tab-bar.html %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            {{content}}
+        </div>
+        {% if page.images %}
+            <div class="col-md-4">
+                <div class="owl-carousel owl-theme" id="product-image">
+                    {% for project_image in page.images %}
+                            {% assign page-uri = page.permalink | split: "/" %}
+                            {% assign page-uri = page-uri[2] | downcase  %}
+                            <div class="activity-block item">
+                                <a href="../view/{{page-uri}}/images/{{project_image}}" data-lightbox="projects" data-title="{{page.title}}">
+                                    <img data-src="../view/{{page-uri}}/images/{{project_image}}" class="owl-lazy img-responsive" alt="{{project_image}}" />
+                                </a>
+                            </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+

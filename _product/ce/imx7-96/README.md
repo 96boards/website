@@ -1,13 +1,69 @@
 ---
-page_title: iMX7-96 Development Board
 title: iMX7-96 Development Board
 layout: product-display-page
 permalink: /product/imx7-96/
+shortname: imx7-96
 description: |-
     The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
+display_product: true
+featured_product_order: 10
+is_featured: true
+product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
+product_specification: ce
+product_images:
+  - iMX7-96-front.jpg
+  - iMX7-96-back.jpg
+product_tab_menu:
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/imx7-96/getting-started/
+      tab_position: 1
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/imx7-96/
+      tab_position: 2
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/imx7-96/
+      tab_position: 3
+      tab_align_right: true
+product_buy_links:
+  -
+    link-title: IMX7 96 BOARD
+    link-url: "http://linaro.co/imx7-96-buy"
+    from: Arrow.com
+    type: board
+    link-price: "109.00"
+    link-price-currency: USD
+product_os:
+  - title: Android
+    link: /documentation/consumer/imx7-96/downloads/
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+product_mezzanine:
+  - title: D3 Camera Mezzanine
+    link: /product/d3camera/
+  - title: Link Sprite Sensor Kit
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+  - title: Audio Mezzanine
+    link: /product/audio-mezzanine/
+product_kits:
+  - title: Basic Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+  - title: Audio Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+  - title: AWS IoT Kit
+    link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+product: true
 ---
-# iMX7-96
-
 The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within
 the Internet of Things. iMX7-96 board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core

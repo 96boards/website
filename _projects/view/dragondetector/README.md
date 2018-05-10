@@ -10,6 +10,12 @@ images:
   - DragonDetector_Image3.png
   - DragonDetector_Video_Demo.png
   - DragonDetector_Video_OpenHours.png
+image:
+  path: /assets/images/projects/dragondetector-thumb.png
+  name: dragondetector-thumb.png
+  thumb: dragondetector-thumb.png
+categories:
+- dragonboard410c
 ---
 # Dragon Detector
 

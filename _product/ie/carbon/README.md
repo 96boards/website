@@ -2,11 +2,38 @@
 title: Carbon
 layout: product-display-page
 permalink: /product/carbon/
+shortname: carbon
 description: |-
     Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+product_tab_menu:
+    - tab_title: Documentation
+      tab_link: /documentation/iot/carbon/
+      tab_position: 1
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/carbon
+      tab_position: 2
+      tab_align_right: true
+featured_product_order: 6
+is_featured: true
+display_product: true
+product_specification: ie
+product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
+product_long_desc: |-
+    Carbon is the first board to be certified 96Boards IoT Edition compatible.
+    The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+product_images:
+  - Carbon_Front-SD.png
+  - Carbon-Back-web.png
+product_buy_links:
+  -
+    link-title: "Buy Carbon (Seeed)"
+    link-price: $27.95
+    link-url: "http://linaro.co/carbon-buy"
+product_os:
+  - title: Zephyr
+    link: /documentation/iot/carbon/downloads/zephyr.md.html
+product: true
 ---
-# Carbon
-
 Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
 
 ## Buy Now

@@ -4,9 +4,70 @@ layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
----
-# Bubblegum-96
+display_product: true
+product_tab_menu:
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/bubblegum-96/
+      tab_position: 1
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/bubblegum96
+      tab_position: 2
+      tab_align-right: true
+featured_product_order: 3
+product_specification: ce
+product_short_desc: Board based on Actions Semi S900 Processor
+product_long_desc: |-
+    The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
+    Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
+    The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity,
+    all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
+    In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output,
+    Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
+product_images:
+  - 96b-0-bubblegum96-actions-ucrobotics-1.png
+  - 96b-0-bubblegum96-actions-ucrobotics-4.png
+  - 96b-0-bubblegum96-actions-ucrobotics-5.png
+product_os:
+  - title: Debian
+    link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
+product_third_party_images:
+  - title: Phoenix
+    link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+  - title: Remix
+    link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+  - title: Ubuntu Core
+    link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+product_mezzanine:
+  - title: Link Sprite
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+  - title: Audio Mezzanine
+    link: /product/audio-mezzanine/
 
+product_buy_links:
+  -
+    link-title: Buy Bubblegum-96
+    link-price: "89.00"
+    from: ucrobotics.com.cn
+    type: board
+    link-price-currency: USD
+    link-url: "https://linaro.co/bubblegum96-buy"
+is_featured: true
+product: true
+shortname: bubblegum-96
+---
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all
 packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.

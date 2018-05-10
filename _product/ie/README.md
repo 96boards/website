@@ -1,12 +1,3 @@
----
-title: Internet of Things Edition
-description: |-
-    The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.
-specification_path: /documentation/Specifications/96Boards-IE-Specification.pdf
-specification_link: https://linaro.co/ie-specification
-specification_image_path: /images/96Boards-Logo_IoT.png
----
-
 # IoT Edition
 
 The 96Boards IoT Edition (IE) platform is designed to support development in the Internet of Things (IoT) space.

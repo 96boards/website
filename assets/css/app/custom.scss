@@ -12,7 +12,6 @@ article.post-content img.img-responsive.lazyloaded {
 #wrapper .col-md-12.members-panel {
     border: none;
 }
-
 .members-panel.panel {
     box-shadow: none;
     border: none;
@@ -36,7 +35,7 @@ a.footer-heading {
 }
 
 .footer-strip {
-    border-top: 1px #717171 solid;
+    border-top: 1px #dedede solid;
 }
 //Body
 body {
@@ -355,8 +354,6 @@ span.edit-me-on-github-text {
 i.edit-on-github-icon.icon-github-circled.center-block {
     font-size: 40px;
 }
-
-
 @media (max-width: 1000px) {
     #homepage-heading {
         font-size: 20px;
@@ -371,12 +368,13 @@ i.edit-on-github-icon.icon-github-circled.center-block {
         font-size: 16px;
     }
 }
-
 //Blockquotes
 blockquote {
     border-left: 5px solid $brand-primary;
 }
-
 .embed-responsive.embed-responsive-16by9 {
     margin-bottom: 10px;
+}
+.developer-services-block {
+    border: 1px solid #eee;
 }

@@ -1,11 +1,12 @@
 ---
 title: Flame Recognition
-
 permalink: "/projects/FlameRecognition/"
 description: |-
     Using the DragonBoard™ 410c from Arrow Electronics, this project is designed to acquire images of the surrounding environment using the camera, store the images, and use special image processing and recognition algorithms to scan and determine if there is fire in the captured images to achieve flame recognition.
 images:
   - FlameRecognition_FrontPage.png
+categories:
+- dragonboard410c
 ---
 # Flame Recognition
 

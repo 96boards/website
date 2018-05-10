@@ -1,6 +1,5 @@
 ---
 title: ComuniCibo
-
 permalink: "/projects/ComuniCibo/"
 description: |-
     Smart Cities need to focus on the interconnection of services for a better quality of life. It has been estimated that in 2050 more than 60% of population will be living in the cities and necessities like feeding will be a complexity.
@@ -9,6 +8,12 @@ images:
   - ComuniCibo_Video_Demo.png
   - ComuniCibo_Video_Pesentation2.png
   - ComuniCibo_Video_Presentation1.png
+image:
+  path: /assets/images/projects/comunicibo-thumb.png
+  name: comunicibo-thumb.png
+  thumb: comunicibo-thumb.png
+categories:
+- dragonboard410c
 ---
 # ComuniCibo
 

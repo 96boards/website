@@ -1,11 +1,12 @@
 ---
 title: NFC Smart Access Control System
-
 permalink: "/projects/NFCSmartAccess/"
 description: |-
     Many large office buildings allow entry by door access control systems using RFID modules. An NFC module is typically more expensive than simply an RFID module, but also usually features more powerful functions and security features. This project is designed to simulate a door access control system based on an NFC module. An NFC module is loaded on the DragonBoard™ 410c from Arrow Electronics using libnfc open-source code to provide access control, and a two-color LED light is used to indicate if an NFC card passes through the access control system.
 images:
   - NFC_FrontPage.png
+categories:
+- dragonboard410c
 ---
 # NFC Smart Access Control System
 

@@ -28,7 +28,7 @@ pages:
             url: /news/
     - title: Products
       options:
-          - text: Latest Boards
+          - text: All Boards
             url: /products/
           - text: Consumer Edition (CE)
             url: /products/ce/
@@ -49,7 +49,7 @@ pages:
           - text: FAQ
             url: /projects/faq.md/
           - text: Submit a Project
-            url: /projects/submit.md/
+            url: /projects/submit/
           - text: OpenHours
             url: /openhours/
     - title: Documentation

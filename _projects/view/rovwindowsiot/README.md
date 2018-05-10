@@ -1,11 +1,12 @@
 ---
 title: ROV with Windows 10 IoT Core
-
 permalink: "/projects/ROVWindowsIoT/"
 description: |-
     ROV 10 is inspired by the OpenROV project and demonstrates how to use Windows 10 IOT Core in a remote controlled robot. Even the software is demonstrated in an ROV and can be used in nearly every robot that requires live video.
 images:
   - ROV_FrontPage.png
+categories:
+- dragonboard410c
 ---
 # ROV with Windows 10 IoT Core
 

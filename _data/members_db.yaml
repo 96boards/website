@@ -15,6 +15,9 @@ members:
           - name: Arrow Electronics
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
+          - name: Google
+            image: google.png
+            url: https://www.linaro.org/company/google/
           - name: Hisilicon
             image: hisilicon.jpg
             url: https://www.linaro.org/company/hisilicon/
@@ -30,12 +33,15 @@ members:
           - name: NXP
             image: nxp.jpg
             url: https://www.linaro.org/company/nxp/
-          - name: QuIC
+          - name: QuIC 
             image: qulc.png
             url: https://www.linaro.org/company/quic/
           - name: Redhat
             image: redhat.jpg
             url: https://www.linaro.org/company/red-hat/
+          - name: Rockchip
+            image: rockchip.png
+            url: http://www.rock-chips.com
           - name: Socionext
             image: socionext.png
             url: https://www.linaro.org/company/socionext/
@@ -70,6 +76,9 @@ members:
         - name: BPI
           image: bpi.jpg
           url: https://www.linaro.org/company/bipai/
+        - name: Deltavision
+          image: deltavision.png
+          url: https://www.deltavision.io/
         - name: Element 14
           image: element14.png
           url: https://www.linaro.org/company/element14/
@@ -100,6 +109,9 @@ members:
         - name: Shapedmedia
           image: shapedmedia.png
           url: https://www.linaro.org/company/shapedmedia/
+        - name: Shiratech
+          image: shiratech.png
+          url: http://www.shiratech.com
         - name: Thundersoft
           image: thunder-soft.png
           url: https://www.linaro.org/company/thundersoft/

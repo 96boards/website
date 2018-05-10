@@ -2,12 +2,36 @@
 title: Link Sprite
 layout: product-display-page
 permalink: /product/linkspritesensorkit/
+shortname: linkspritesensorkit
 description: |-
     96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards.
     96Boards.
+display_product: true
+product_specification: "mezzanine"
+product_tab_menu:
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/mezzanine
+      tab_position: 2
+      tab_align_right: true
+product_short_desc: 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card.
+product_long_desc: |-
+    96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make eight fun projects following step-by-step tutorials. Starting from the basics of electronics modules, to more complex projects, the kit will help you control the physical world with sensor and actuators and help you ramp up your progamming using 96Boards.
+product_images:
+    - LinkSprite_Front.jpg
+    - Sensor_Button.jpg
+    - Sensor_LED.jpg
+    - Sensor_Light.jpg
+    - Sensor_Relay.jpg
+    - Sensor_Slider.jpg
+    - Sensor_Temperature.jpg
+    - Sensor_Tilt.jpg
+    - Sensor_Touch.jpg
+product_buy_links:
+  -
+    link-title: Arrow
+    link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
+product: true
 ---
-# Arrow LinkSprite Mezzanine Kit
-
 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make
 eight fun projects following step-by-step tutorials. Starting from the basics of electronics modules, to more complex projects, the kit will help you control the physical world with sensor and actuators and help you ramp up your progamming using
 96Boards.

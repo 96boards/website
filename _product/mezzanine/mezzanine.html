@@ -19,22 +19,19 @@ specification-logo: 96Boards-Logo_Partner-small.png
     </div>
     <div class="col-md-4">
           <img id="collection-image" class="img-responsive center-block hidden-sm hidden-xs" src="{% asset_path '{{ page.specification-logo }}'%}" alt="96Boards logo small.">
-
     </div>
-
 </div>
 
 <div id="grid">
-    {% assign products_array = site.data.product_db.products | where: "product_specification", "mezzanine"%}
+    {% assign products_array = site.product | where: "product_specification", "mezzanine"%}
     {% assign products_array =  products_array | where: "display_product", "true" %}
     <div class="row">
     {% for product in products_array %}
-    {% assign product-url = product.product_permalink | split: "/" %}
-
+    {% assign product-url = product.permalink | split: "/" %}
         <div class="mix {{product.product_specification | downcase }} col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="col-item">
                 <div class="photo">
-                    <a href="{{product.product_permalink}}">
+                    <a href="{{product.permalink}}">
                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         data-src="../../product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}"
                         class="img-responsive lazyload" alt="a" />
@@ -42,8 +39,8 @@ specification-logo: 96Boards-Logo_Partner-small.png
                 </div>
                 <div class="info">
                     <div class="product-title col-md-12 text-center">
-                        <a href="{{product.product_permalink}}">
-                            <h5>{{ product.product_title }}</h5>
+                        <a href="{{product.permalink}}">
+                            <h5>{{ product.title }}</h5>
                         </a>
                     </div>
                     <div class="product-short-description">
@@ -51,7 +48,7 @@ specification-logo: 96Boards-Logo_Partner-small.png
                     </div>
                     <div class="separator clear-left">
                         <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
-                            <a href="{{ product.product_permalink }}" class="btn btn-primary btn-read-more">Read More</a>
+                            <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more">Read More</a>
                             <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
                             <span class="sr-only">Toggle Dropdown</span>
