@@ -11,7 +11,7 @@ categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, stem, michael welling, mezzanine, gps, initiative, community, groupgets, qwerty embedded, crowd funding, crowdfunding, ron justin, dragonboard, qualcomm, snapdragon, huawei, actions semi, soc, system on chip, GetSparked
 ---
 
-# Introduction
+# Introduction - Robert Wolff
 
 Welcome to your new favorite 10 minute read! A joint blog between [QWERTY Embedded Design](http://www.qwertyembedded.com/), [GroupGets](https://groupgets.com/) and [96Boards](https://www.96boards.org/)! How could this get any better :-) ?!
 
