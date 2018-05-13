@@ -237,3 +237,31 @@ entries:
   - link: http://www.webwire.com/ViewPressRel.asp?aId=208895
     title: Webwire
     tag: hikey960
+
+  - link: https://www.xda-developers.com/huawei-linaro-hikey-970-development-board-kirin-970-soc/
+    title: XDA Developers - HiKey970 Launch! 
+    tag: hikey970
+
+  - link: https://www.cnx-software.com/2018/04/16/hikey-970-development-board-now-up-for-pre-order-for-299-99/
+    title: CNX Software
+    tag: hikey970
+
+  - link: https://medium.com/syncedreview/huawei-introduces-ai-development-board-hikey-970-763ac996b29a
+    title: Synced Review
+    tag: hikey970
+
+  - link: https://www.techrepublic.com/article/most-powerful-raspberry-pi-style-board-yet-octa-core-boards-with-8gb-and-dual-sata-revealed/
+    title: Tech Republic
+    tag: hikey970
+
+  - link: https://www.androidheadlines.com/2018/03/huawei-linaro-announce-hikey-970-ai-development-board.html
+    title: Android Headlines
+    tag: hikey970
+
+  - link: http://pocketnow.com/2018/03/21/the-hikey-970-is-a-huawei-infused-hobby-board
+    title: Pocketnow
+    tag: hikey970
+
+  - link: https://www.gizmochina.com/2018/03/20/huawei-launches-hikey-970-development-board-with-ai-a-dedicated-npu-based-on-kirin-970/
+    title: Gizmochina
+    tag: hikey970
