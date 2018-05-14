@@ -1,5 +1,5 @@
 ---
-title: HiKey 970 
+title: HiKey970 
 layout: product-display-page
 permalink: /product/hikey970/
 shortname: hikey970
@@ -43,8 +43,13 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
+
+product_os:
+  - title: Coming soon...
+
 product_third_party_images:
-    - link: /documentation/consumer/hikey970/downloads/
+  - title: Coming soon...
+
 product_buy_links:
   -
     link-title: "SeeedStudio"
