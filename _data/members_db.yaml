@@ -88,6 +88,9 @@ members:
         - name: Global Scale
           image: globalscale.jpg
           url: https://www.linaro.org/company/globalscale/
+        - name: Geniatech
+          image: geniatech.jpg
+          url: https://www.geniatech.com/
         - name: Gumstix
           image: gumstix.jpg
           url: https://www.linaro.org/company/gumstix/
