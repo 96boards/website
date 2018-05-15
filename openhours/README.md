@@ -21,9 +21,7 @@ js-package: openhours
 
 OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-**This week**, we will be meeting with **Ana aka [@anaqueenmaker](https://www.instagram.com/anaqueenmaker/)** of [@EpicQueens](https://www.instagram.com/epicqueens/). Ana is the Founder and CEO of Epic Queens which is an amazing STEM education program for girls in Latin America! Not only is Ana running this awesome company, but she also finds time to evangelize other STEM programs, work on her own personal makes, and push out video blogs of her various travels and initiatives. It is our pleasure to have Ana on the call with us this week! We hope you will join us in welcoming Ana to OpenHours for our second week of Women in STEM month!
-
-If you have some extra time, check out [Ana's YouTube channel](https://www.youtube.com/channel/UCbY2CYQgER7RxurFp1lgqNA) before the show!
+**This week**, we will be meeting with **Al Falk** aka [Falkyou](https://www.instagram.com/falkyou/) who is a web application developer, cybersecurity MS candidate and model from Pittsburgh! Falkyou's STEM story is unique and very empowering, filled with challenges and game changers as she found her way into the tech industry. It is our pleasure to introduce Al as this week's #WomeninSTEM guest to be featured on OpenHours for the month of May livestream interview series! Don't forget to tune in at the end of the countdown.
 
 We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
