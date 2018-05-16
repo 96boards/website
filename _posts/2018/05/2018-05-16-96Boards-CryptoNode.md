@@ -12,7 +12,7 @@ tags: 64-bit, 96Boards, Crypto, UCSD
 ---
 
 # Update On CryptoNode
-It's been a while since the last update but welcome back to the CryptoNode project. Practicality brainstorming has occurred in the weeks since the last update and as such we are honing in on a design. Parts are orders so a tangible unit is in the works.
+It's been a while since the last update but welcome back to the CryptoNode project. Practicality brainstorming has occurred in the weeks since the last update and as such we are honing in on a design. Parts are ordered so a tangible unit is in the works.
 
 # Updated Design
 1. Crypto Functions
