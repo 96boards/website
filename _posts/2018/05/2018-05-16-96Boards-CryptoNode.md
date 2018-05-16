@@ -53,7 +53,7 @@ Ticker
 [![LCD](https://images-na.ssl-images-amazon.com/images/I/817viZaVlCL._SL1500_.jpg)](https://www.amazon.com/SunFounder-Serial-Module-Arduino-Mega2560/dp/B01GPUMP9C/ref=sr_1_1?ie=UTF8&qid=1525829842&sr=8-1&keywords=16x4+lcd)
 LCD
 
-[![Bat](https://media.digikey.com/Photos/Sparkfun%20Elec%20%20Photos/MFG_PRT-13856.jpg)](https://www.digikey.com/products/en/battery-products/batteries-rechargeable-secondary/91?k=&pkeyword=&pv33=722&FV=ffe0005b%2C670004a&quantity=0&ColumnSort=0&page=1&pageSize=25)]
+[![Bat](https://media.digikey.com/Photos/Sparkfun%20Elec%20%20Photos/MFG_PRT-13856.jpg)](https://www.digikey.com/products/en/battery-products/batteries-rechargeable-secondary/91?k=&pkeyword=&pv33=722&FV=ffe0005b%2C670004a&quantity=0&ColumnSort=0&page=1&pageSize=25)
 Battery
 
 
