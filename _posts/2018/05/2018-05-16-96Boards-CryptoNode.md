@@ -42,7 +42,7 @@ bash electrum-smart sendto address amount
 ```
 The python backend of the electrum service may need to be implemented as prompts in python cannot call arguments piped through bash. Ways of solving this issue include adding a few custom flags so the initial bash passes our arguments, or prompting graphically through TKinter or some other python library.
 
-Lastly on the Cryptoend, a rudimentary stock ticker for cryptocurrencies has been made. It calls the api of binance through the REST API and edits the returned JSON values to obtain information on each coin. The idea was to use such crypto data to display useful parameters on the Display such as wallet balance and conversion rates to FIAT or to BTC.
+Lastly on the Crypto end, a rudimentary stock ticker for cryptocurrencies has been made. It calls the api of binance through the REST API and edits the returned JSON values to obtain information on each coin. The idea was to use such crypto data to display useful parameters on the Display such as wallet balance and conversion rates to FIAT or to BTC.
 
 ![TICK](https://i.imgur.com/6qzB1AQ.png)
 
