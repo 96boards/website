@@ -106,6 +106,9 @@ members:
         - name: LeMaker
           image: lemaker.jpg
           url: https://www.linaro.org/company/lemaker/
+        - name: NovTech
+          image: novtech.jpg
+          url: http://www.novtech.com/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
