@@ -57,7 +57,7 @@ product_buy_links:
   -
     link-title: "Amazon (USA)"
     link-price: "239.99"
-    link-url: "https://linaro.co/hikey960buy-amazon"
+    link-url: "https://amzn.to/2JHYhLc"
     link-price-currency: USD
     from: Amazon.com
     type: board
