@@ -25,10 +25,6 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Upcoming Livestreams!
 
-- **Featured Guest:** [Falkyou](https://www.instagram.com/falkyou/)
-   - **Date:** May 17th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MWs5M2htdGxwZTNvYWJsYXRudWZmYW9sbDIgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
 - **Featured Guest:** [Alejandra Muñoz - girlcodemx](https://www.instagram.com/girlcodemx/)
    - **Date:** May 24th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
@@ -44,6 +40,10 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Archived Livestreams
 
+- **Featured Guest:** [Falkyou](https://www.instagram.com/falkyou/)
+   - **Date:** May 17th, 2018
+   - **Time:** 4:00p UTC / 9:00a PST
+   - This event has passed, [check out the recording!](https://youtu.be/BQ3JvYwQbMY)
 - **Featured Guest:** [Lindsey - The Engineeress](https://www.instagram.com/the_engineeress/)
    - **Date:** May 3rd, 2018
    - **Time:** 4:00p UTC / 9:00a PST
