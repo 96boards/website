@@ -21,7 +21,7 @@ js-package: openhours
 
 OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-**This week**, we will be meeting with **Al Falk** aka [Falkyou](https://www.instagram.com/falkyou/) who is a web application developer, cybersecurity MS candidate and model from Pittsburgh! Falkyou's STEM story is unique and very empowering, filled with challenges and game changers as she found her way into the tech industry. It is our pleasure to introduce Al as this week's #WomeninSTEM guest to be featured on OpenHours for the month of May livestream interview series! Don't forget to tune in at the end of the countdown.
+**This week**, This section will be updated soon!
 
 We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
