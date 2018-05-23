@@ -22,7 +22,13 @@ js-package: openhours
 
 OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-**This week**, This section will be updated soon!
+**This week**, we will be having two interviews!
+
+**First Interview (countdown #1):** We will speak with Alejandra Muñoz aka [girlcodemx](https://www.instagram.com/girlcodemx/) who is a Web Developer from Mexico! We look forward to a fun and welcoming conversation on the topic of #WomeninSTEM, as is the topic of the month!
+
+**Second Interview (countdown #2):** Several hours after our first interview, we will speak with Michelle aka [silli_scientist](https://www.instagram.com/silli_scientist/). Michelle is a spunky and silly chemist who also runs and writes for her website, [Alloksci (ALLOKATING SCIENCE)](https://www.alloksci.com/). Here is a link to her latest article/interview: [Antonio P. Vella](https://www.alloksci.com/where-art-science-collides/2018/4/20/antonio-p-velle).
+
+It is also worth mentioning Michelle's involvement with the online science community, more efforts can be followed on her [joint venture social media account](https://www.instagram.com/thescicommunity/). Check it out!
 
 We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
