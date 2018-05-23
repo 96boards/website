@@ -29,10 +29,12 @@ Please consider this schedule as tentative! For the most current information on 
    - **Date:** May 24th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
    - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVmcmdub2ZqY3FtZWNmbTQya2pwbzloaTAgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
-- **Featured Guest:** [Sili Scientist](https://www.instagram.com/silli_scientist/)
+
+- **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
    - **Date:** May 24th, 2018
    - **Time:** 6:30pm PST
    - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=NDh1NjIwaWowdDY3bGx1dWViOGdwbTBxN2Ugc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
+
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
    - **Time:** TBD
@@ -55,6 +57,7 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Written Interview Archive
 
+- [May 21: Raquel Medina - Software Engineer](https://www.96boards.org/blog/wistem-13/)
 - [May 16: Preeti Gupta - Electronics and Communications Engineer](https://www.96boards.org/blog/wistem-12/)
 - [May 15: Ketal Gandhi - Electronics Engineer](https://www.96boards.org/blog/wistem-11/)
 - [May 14: Rachel Patron - Chemical Engineering](https://www.96boards.org/blog/wistem-10/)
