@@ -13,6 +13,7 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
+<iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
 **OpenHours - Women in STEM month, Interview series!**
@@ -21,7 +22,13 @@ js-package: openhours
 
 OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-**This week**, we will be meeting with **Al Falk** aka [Falkyou](https://www.instagram.com/falkyou/) who is a web application developer, cybersecurity MS candidate and model from Pittsburgh! Falkyou's STEM story is unique and very empowering, filled with challenges and game changers as she found her way into the tech industry. It is our pleasure to introduce Al as this week's #WomeninSTEM guest to be featured on OpenHours for the month of May livestream interview series! Don't forget to tune in at the end of the countdown.
+**This week**, we will be having two interviews!
+
+**First Interview (countdown #1):** We will speak with Alejandra Muñoz aka [girlcodemx](https://www.instagram.com/girlcodemx/) who is a Web Developer from Mexico! We look forward to a fun and welcoming conversation on the topic of #WomeninSTEM, as is the topic of the month!
+
+**Second Interview (countdown #2):** Several hours after our first interview, we will speak with Michelle aka [silli_scientist](https://www.instagram.com/silli_scientist/). Michelle is a spunky and silly chemist who also runs and writes for her website, [Alloksci (ALLOKATING SCIENCE)](https://www.alloksci.com/). Here is a link to her latest article/interview: [Antonio P. Vella](https://www.alloksci.com/where-art-science-collides/2018/4/20/antonio-p-velle).
+
+It is also worth mentioning Michelle's involvement with the online science community, more efforts can be followed on her [joint venture social media account](https://www.instagram.com/thescicommunity/). Check it out!
 
 We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 

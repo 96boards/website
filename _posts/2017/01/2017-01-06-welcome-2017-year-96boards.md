@@ -468,10 +468,10 @@ The year started out strong with January seeing a plethora of announcements and 
   * [CNX Software reports](http://www.cnx-software.com/2016/10/28/fujitsu-launches-f-cue-96boards-compliant-board-powered-by-socionext-mb86s71-processor/) on the F-Cue 96Boards by Fujitsu
 
 
-  * [HackerBoards.com reports](http://hackerboards.com/latest-96boards-sbc-ships-with-gbepcie-add-on/) on the F-Cue 96Boards by Fujitsu
+  * HackerBoards.com reports on the F-Cue 96Boards by Fujitsu
 
 
-  * [Hackerboards.com talks 96Boards SBCs](http://hackerboards.com/96boards-sbcs-host-intel-joule-and-curie-iot-modules/) with host Intel Joule and Curie IoT modules
+  * Hackerboards.com talks 96Boards SBCs with host Intel Joule and Curie IoT modules
 
 
     * Featuring Nodana and [Radium](https://store.gumstix.com/radium-96bie.html)
