@@ -15,6 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
+<div class="col-md-6" markdown="1">
+<br>
+<h3>Special</h3>
+<iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+
+
 **OpenHours - Women in STEM month, Interview series!**
 
 {% include image.html name="wistem-banner-1.jpg" alt="Women In STEM Banner"%}
