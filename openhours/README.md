@@ -30,7 +30,7 @@ OpenHours is taking time off between phases to talk with some of the many women 
 
 It is also worth mentioning Michelle's involvement with the online science community, more efforts can be followed on her [joint venture social media account](https://www.instagram.com/thescicommunity/). Check it out!
 
-We will be kicking off OpenHours (phase 2) with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
+We will be kicking off **OpenHours (phase 2)** with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
