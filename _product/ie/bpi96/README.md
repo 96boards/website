@@ -28,11 +28,11 @@ product_images:
 product_buy_links:
   -
     link-title: "BPi NB-IoT (Ali Express)"
-    link-price: $23.00
+    link-price: 23.00
     link-url: "https://pt.aliexpress.com/store/product/BPI-NB-IoT-Linaro-96Boards-with-Quecte-BC95-module-developent-board/302756_32849214414.html?spm=2114.12010612.0.0.5c76d209TDr2v8"
   -
     link-title: "BPi NB-IoT (Find a store)"
-    link-price: $23.00
+    link-price: 23.00
     link-url: "http://www.banana-pi.org/shop.html"
 product_os:
   - title: Explore
