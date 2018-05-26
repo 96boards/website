@@ -14,10 +14,10 @@ keywords: |-
     Build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos, geniatech
 product_tab_menu:
     - tab_title: Documentation
-      tab_link: /documentation/iot/bpi96/
+      tab_link: /documentation/iot/4iot/
       tab_position: 1
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/bpi96
+      tab_link: https://discuss.96boards.org/c/products/4iot
       tab_position: 2
       tab_align_right: true
 featured_product_order: 5
@@ -38,8 +38,8 @@ product_long_desc: |-
     with the Adreno™ 306 GPU, integrated ISP with up to 13 MP camera support,
     and 1080p HD video playback and capture with H.264 (AVC).
 product_images:
-  - bpi96-front-sd.jpg
-  - bpi96-back-sd.jpg
+  - 4iot-front-sd.jpg
+  - 4iot-back-sd.jpg
 product_buy_links:
   -
     link-title: "Coming soon..."
