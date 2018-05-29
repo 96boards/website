@@ -78,7 +78,6 @@ members:
           url: https://www.linaro.org/company/bipai/
         - name: Deltavision
           image: deltavision.png
-          url: https://www.deltavision.io/
         - name: Element 14
           image: element14.png
           url: https://www.linaro.org/company/element14/
