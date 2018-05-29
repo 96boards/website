@@ -25,23 +25,21 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Upcoming Livestreams!
 
-- **Featured Guest:** [Alejandra Muñoz - girlcodemx](https://www.instagram.com/girlcodemx/)
-   - **Date:** May 24th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVmcmdub2ZqY3FtZWNmbTQya2pwbzloaTAgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
-
-- **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
-   - **Date:** May 24th, 2018
-   - **Time:** 6:30pm PST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=NDh1NjIwaWowdDY3bGx1dWViOGdwbTBxN2Ugc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org)
-
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
-   - **Time:** TBD
+   - **Time:** 6:30p PST / 8:30p CST
    - [Add to your Calendar]() - Link coming soon...
 
 ### Archived Livestreams
 
+- **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
+   - **Date:** May 24th, 2018
+   - **Time:** 6:30pm PST
+   - This event has passed, [check out the recording!](https://youtu.be/uVdAjQXQQew)
+- **Featured Guest:** [Alejandra Muñoz - girlcodemx](https://www.instagram.com/girlcodemx/)
+   - **Date:** May 24th, 2018
+   - **Time:** 4:00p UTC / 9:00a PST
+   - This event has passed, [check out the recording!](https://youtu.be/Ou_8LRMzPP0)
 - **Featured Guest:** [Falkyou](https://www.instagram.com/falkyou/)
    - **Date:** May 17th, 2018
    - **Time:** 4:00p UTC / 9:00a PST
