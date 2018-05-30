@@ -378,3 +378,12 @@ blockquote {
 .developer-services-block {
     border: 1px solid #eee;
 }
+// Adjust the position of the nav bar to account of the universal nav
+nav#main-navigation {
+    margin-top: 31px;
+}
+// Adjust the margin of the main wrapper to move all content down for the univeral nav addition
+#wrapper.main {
+    overflow-x: hidden;
+    margin-top: 96px;
+}
