@@ -6,7 +6,7 @@
 search:
     enabled: true
     label: 96Boards
-
+universal-nav: true
 brand:
     text: 96Boards
     image: 
