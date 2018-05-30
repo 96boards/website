@@ -18,17 +18,21 @@ js-package: openhours
 
 **OpenHours - Women in STEM month, Interview series!**
 
-{% include image.html name="wistem-banner-1.jpg" alt="Women In STEM Banner"%}
+{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
 
 OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
-**This week**, we will be having two interviews!
+**This week**, we will be meeting with our sixth and final Woman in STEM for the month of May, [Estefannie Explains it All](https://www.youtube.com/user/estefanniegg)!
 
-**First Interview (countdown #1):** We will speak with Alejandra Muñoz aka [girlcodemx](https://www.instagram.com/girlcodemx/) who is a Web Developer from Mexico! We look forward to a fun and welcoming conversation on the topic of #WomeninSTEM, as is the topic of the month!
+**Estefannie** is a software engineer who spends much of her spare time making cool things and sharing them across her social media channels. Her videos are fun, educational and entertaining, and almost always paired with open source code! In this interview finale, Estefannie will be taking questions on herself, STEM, and anything else you can think to ask this skilled maker :-)! Join us on May 31st and welcome Estefannie to the lineup, we are all very excited to have her on the livestream. 
 
-**Second Interview (countdown #2):** Several hours after our first interview, we will speak with Michelle aka [silli_scientist](https://www.instagram.com/silli_scientist/). Michelle is a spunky and silly chemist who also runs and writes for her website, [Alloksci (ALLOKATING SCIENCE)](https://www.alloksci.com/). Here is a link to her latest article/interview: [Antonio P. Vella](https://www.alloksci.com/where-art-science-collides/2018/4/20/antonio-p-velle).
+**Check out Estefannie's social media channel:**
 
-It is also worth mentioning Michelle's involvement with the online science community, more efforts can be followed on her [joint venture social media account](https://www.instagram.com/thescicommunity/). Check it out!
+- [Estefannie Explains it All YouTube](https://www.youtube.com/user/estefanniegg)
+- [Estefannie's Instagram](https://www.instagram.com/estefanniegg/)
+- [Estefannie's Twitter](https://twitter.com/estefanniegg)
+
+**Stick around after the interview for announcements on how we plan to continue our women in STEM efforts on through phase two of OpenHours.**
 
 We will be kicking off **OpenHours (phase 2)** with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
 
