@@ -28,7 +28,7 @@ Please consider this schedule as tentative! For the most current information on 
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
    - **Time:** 6:30p PST / 8:30p CST
-   - [Add to your Calendar]() - Link coming soon...
+   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXJldHBlaW11YzVvN21jaDljZ2I4OTVkaGggYTFxcXY2amhyMWEwYXQyc2xsbms1aTc0aTRAZw&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
 
 ### Archived Livestreams
 
