@@ -12,17 +12,41 @@ js-package: all-products
 ---
 <div id="product-filters">
     <h3>Filters</h3>
-    <div class="btn-group" role="group" aria-label="Product Sort Buttons">
-        <button class="btn btn-default" data-mixitup-control type="button" data-filter="all">All</button>
-        <button class="btn btn-default" data-mixitup-control  type="button" data-sort="order:asc"><i class="glyphicon glyphicon-arrow-up"></i></button>
-        <button class="btn btn-default" data-mixitup-control type="button" data-sort="order:descending"><i class="glyphicon glyphicon-arrow-down"></i></button>
-        <button class="btn btn-default" data-mixitup-control type="button" data-sort="random"><i class="glyphicon glyphicon-random"></i></button>
-    </div>
     <div class="btn-group" role="group" aria-label="Product Specification Filters">
-        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ce" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Consumer Edition"><img src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></button>
-        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ee" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Enterprise Edition"><img src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></button>
-        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".ie" data-toggle="tooltip" data-container="body" data-placement="bottom" title="IoT Edition"><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></button>
-        <button class="btn btn-default" data-mixitup-control  type="button" data-filter=".mezzanine" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Mezzanine Edition"><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></button>
+        <div class="btn-group" role="group">
+           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Sort
+             <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu">
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Show all 96Boards"><a href="#" data-mixitup-control type="button" data-filter="all" >All</a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title ACS"><a href="#" data-mixitup-control  type="button" data-sort="order:asc" ><i class="glyphicon glyphicon-arrow-up"></i></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="order:descending" ><i class="glyphicon glyphicon-arrow-down"></i></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="random" ><i class="glyphicon glyphicon-random"></i></a></li>
+           </ul>
+         </div>
+        <div class="btn-group" role="group">
+           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Specifications
+             <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu">
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ce" ><img src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ee" ><img src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ie" ><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition"><a href="#" data-mixitup-control  type="button" data-filter=".mezzanine" ><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></a></li>
+           </ul>
+         </div>
+        <div class="btn-group" role="group">
+           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             OS
+             <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu">
+             <li class="text-center"><a href="#" data-mixitup-control  type="button" data-filter=".debian" >Debian</a></li>
+             <li class="text-center"><a href="#" data-mixitup-control  type="button" data-filter=".android" >AOSP</a></li>
+           </ul>
+         </div>
     </div>
 </div>        
 <div id="grid" class="mixitup-container">
@@ -32,7 +56,7 @@ js-package: all-products
 {% assign order = 1 %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
-    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }} col-xs-12 col-sm-4 col-md-3 col-lg-3
+    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %}{{os.title | downcase}} {% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
     {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}">
         <div class="col-item">
             <div class="photo">
