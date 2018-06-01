@@ -1,3 +1,7 @@
+// Adjust the margin-top of the home wrapper to account for the universal nav
+#wrapper.home {
+    margin-top: 31px;
+}
 .featured-product-image {
     background-size: cover;
     object-fit: contain;
