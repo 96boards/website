@@ -55,7 +55,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_buy_links:
   -
     link-title: Buy Bubblegum-96
