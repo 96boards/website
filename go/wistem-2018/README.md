@@ -23,15 +23,12 @@ While the written interviews offer a great daily read, a weekly livestream can a
 
 Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](https://www.96boards.org/openhours/) to read about this week's events, and to follow the countdown.
 
-### Upcoming Livestreams!
+### Archived Livestreams
 
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
    - **Time:** 6:30p PST / 8:30p CST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXJldHBlaW11YzVvN21jaDljZ2I4OTVkaGggYTFxcXY2amhyMWEwYXQyc2xsbms1aTc0aTRAZw&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
-
-### Archived Livestreams
-
+   - This event has passed, [check out the recording!](https://youtu.be/eovR-Kid9gI)
 - **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
    - **Date:** May 24th, 2018
    - **Time:** 6:30pm PST
@@ -55,6 +52,7 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Written Interview Archive
 
+- [May 28: Jumana Mundichipparakkal - SoC Performance Analyst](https://www.96boards.org/blog/wistem-14/)
 - [May 21: Raquel Medina - Software Engineer](https://www.96boards.org/blog/wistem-13/)
 - [May 16: Preeti Gupta - Electronics and Communications Engineer](https://www.96boards.org/blog/wistem-12/)
 - [May 15: Ketal Gandhi - Electronics Engineer](https://www.96boards.org/blog/wistem-11/)
@@ -68,29 +66,6 @@ Please consider this schedule as tentative! For the most current information on 
 - [May 03: Shirley Q. - Computer Science - Software Engineer](https://www.96boards.org/blog/wistem-03/)
 - [May 02: Alejandra Muñoz Villalobos - Front End Developer I IT Engineer](https://www.96boards.org/blog/wistem-02/)
 - [May 01: Alveera Ahsan - Electrical Engineer](https://www.96boards.org/blog/wistem-01/)
-
-### Archived Livestreams
-
-- **Featured Guest:** [Lindsey - The Engineeress](https://www.instagram.com/the_engineeress/)
-   - **Date:** May 3rd, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/kf8XAB0F_QE)
-- **Featured Guest:** [AnaQueenMaker](https://www.instagram.com/anaqueenmaker/)
-   - **Date:** May 10th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/IhBme5830Dc)
-
-### Written Interview Archive
-
-- [May 11th: Kimberly Nguyen - Chemical Engineering](https://www.96boards.org/blog/wistem-09/)
-- [May 10th: Michelle Thompson - Information Theory](https://www.96boards.org/blog/wistem-08/)
-- [May 9th: Ena Hodzic - Aeronautics and astronautics](https://www.96boards.org/blog/wistem-07/)
-- [May 8th: Anastasia Marchenkova - Physics](https://www.96boards.org/blog/wistem-06/)
-- [May 7th: Kiara Navarro - Embedded Hardware Engineering](https://www.96boards.org/blog/wistem-05/)
-- [May 4th: Laura Abbott - Computer Science](https://www.96boards.org/blog/wistem-04/)
-- [May 3rd: Shirley Q. - Computer Science - Software Engineer](https://www.96boards.org/blog/wistem-03/)
-- [May 2nd: Alejandra Muñoz Villalobos - Front End Developer I IT Engineer](https://www.96boards.org/blog/wistem-02/)
-- [May 1st: Alveera Ahsan - Electrical Engineer](https://www.96boards.org/blog/wistem-01/)
 
 # Get featured! Please take our Written Interview
 
