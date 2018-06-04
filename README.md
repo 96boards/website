@@ -9,5 +9,3 @@ If you come across any bugs/issues then please let us know by clicking the Submi
 We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
 
 
-
-
