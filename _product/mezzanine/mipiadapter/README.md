@@ -56,9 +56,6 @@ product_more_info:
     -
       title: Getting Started
       link: https://github.com/Kevin-WSCU/96Boards-Camera/blob/master/UserGuide_V2.0/AISTARVISION-MIPI-Adapter%20V2.0-UserGuide.docx.pdf
-    -
-      title: More cameras from our site
-      link: https://www.deltavision.io
 product_includes:
   - quantity: 1
     name: MIPI Adapter Board

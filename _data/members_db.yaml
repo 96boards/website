@@ -78,7 +78,6 @@ members:
           url: https://www.linaro.org/company/bipai/
         - name: Deltavision
           image: deltavision.png
-          url: https://www.deltavision.io/
         - name: Element 14
           image: element14.png
           url: https://www.linaro.org/company/element14/
@@ -106,6 +105,9 @@ members:
         - name: LeMaker
           image: lemaker.jpg
           url: https://www.linaro.org/company/lemaker/
+        - name: NovTech
+          image: novtech.jpg
+          url: http://www.novtech.com/
         - name: Seeed
           image: seeed.png
           url: https://www.linaro.org/company/seeed/
@@ -127,6 +129,9 @@ members:
         - name: vamrs
           image: vamrs.jpg
           url: https://www.linaro.org/company/vamrs/
+        - name: Witstek
+          image: witstek.png
+          url: http://witstech.cn/
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/

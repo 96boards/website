@@ -1,3 +1,13 @@
 .compliance-tabs ul > li > a {
     color: black;
 }
+#about-tabs.nav-tabs > li > a {color: black;}
+#about-tabs.nav-tabs > ul {
+    color: black;
+    top:10px;
+}
+
+
+div#about-tabs-content {
+    margin-top: 20px;
+}

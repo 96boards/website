@@ -57,7 +57,7 @@ product_buy_links:
   -
     link-title: "Amazon (USA)"
     link-price: "239.99"
-    link-url: "https://linaro.co/hikey960buy-amazon"
+    link-url: "https://amzn.to/2JHYhLc"
     link-price-currency: USD
     from: Amazon.com
     type: board
@@ -109,7 +109,7 @@ for the availability of multiple Linux distributions for this board in the futur
 
 ## Buy Now
 
-- [Amazon (USA)](http://linaro.co/hikey960buy-amazon)
+- [Amazon (USA)](https://amzn.to/2JHYhLc)
 - [Lenovator (Worldwide)](http://linaro.co/hikey960buy)
 - [Seeed (Worldwide)](http://linaro.co/hikey960-seed)
 - [Alpha Star](http://linaro.co/hikey960buy-alpha)
