@@ -6,7 +6,6 @@
 search:
     enabled: true
     label: 96Boards
-
 brand:
     text: 96Boards
     image: 
