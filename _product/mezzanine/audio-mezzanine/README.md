@@ -26,7 +26,7 @@ mezzanine_features:
 product_buy_links:
   -
     link-title: Arrow Electronics
-    link-url: https://www.96boards.org/product/audio-mezzanine/
+    link-url: https://www.arrow.com/en/products/114990332/seeed-technology-limited
 product: true
 ---
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
@@ -42,7 +42,7 @@ applications.
 
 ## Buy Now
 
-- [Arrow Electronics](https://www.96boards.org/product/audio-mezzanine/)
+- [Arrow Electronics](https://www.arrow.com/en/products/114990332/seeed-technology-limited)
 
 ***
 
