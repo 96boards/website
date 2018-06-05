@@ -73,7 +73,7 @@ LLVM_CONFIG = llvm-config-5.0
 $ make
 ```
 If the build goes well, you can see the `libtvm.so` runtime under `lib` directory.
-Next, install the python package for TVM as mentioned [here](https://github.com/dmlc/tvm/blob/master/docs/how_to/install.md#python-package-installation).
+Next, install the python package for TVM as mentioned [here](https://github.com/dmlc/tvm/blob/master/docs/install/index.rst#python-package-installation).
 
 # Installing NNVM
 
