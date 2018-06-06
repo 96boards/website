@@ -73,6 +73,10 @@ Every Thursday at 4pm UTC
 **Robert Wolff (Host):**
 [Twitter](https://twitter.com/sdrobertw) | [Linkedin](https://www.linkedin.com/in/sdrobertw)
 
+**Watch Live on YouTube**
+
+{% include media.html media_url="https://www.youtube.com/embed/live_stream?channel=UCjawhk_W1QnJs3pKIsKLJNg" %}
+
 **Previous OpenHours Video**
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
