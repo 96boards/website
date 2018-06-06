@@ -19,7 +19,7 @@ js-package: openhours
 
 Phase two, OpenHours is about to unfold, and we welcome everyone to join in for the fun. The current plan was outlined last week in our [phase two pilot episode](https://youtu.be/QPijdGYpLoA), but will most likely be touched on once again this week as we tackle new goals for the broadcast and attempt to bring new and exciting content forward in the form of technical interviews and showcases. We are currently working to book out the rest of the years interview slots, so if anyone is interested in joining OpenHours as a featured guest, please reach out to Robert Wolff (robert.wolff@linaro.org) to reserve a slot.
 
-**This week's** guest is still to be announced! Stay tuned for an update to the page in the next day or two.
+**This week**, we will be meeting with two groups of students from the University of California, San Diego! Each group spent the last 10 weeks working with 96Boards to create a couple of very cool projects. **One of the projects is a self-sustainable mobile workstation (powered by solar), and the other project is based around crypto!** In the one hour of eloted time, each group will have about 20 minutes to talk about their project and of course take questions from the 96Boards team and community. We look forward to see you there!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
