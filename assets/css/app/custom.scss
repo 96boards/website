@@ -379,19 +379,10 @@ blockquote {
     border: 1px solid #eee;
 }
 // Universal Nav
-// Adjust the position of the nav bar to account of the universal nav
-nav#main-navigation {
-    margin-top: 31px;
-}
-// Adjust the margin of the main wrapper to move all content down for the univeral nav addition
-#wrapper.main {
-    overflow-x: hidden;
-    margin-top: 96px;
-}
 // Ajust the sticky-nav for the universal nav
 .sticky-nav {
     position: fixed;
-    top: 31px !important;
+    top: 31px;
     z-index: 9998;
     left: 0;
     margin-top: 0px;
@@ -407,6 +398,29 @@ nav#main-navigation {
 }
 div#tabbed-nav-bar.sticky-nav {
     margin-top: 0px;
+}
+#wrapper div#tabbed-nav-bar.sticky-nav {
+    margin-top: 0px;
+    top: 0px;
+}
+
+#main-navigation.navbar-inverse .navbar-nav>li>a {
+    color:#fff;
+}
+
+div#tabbed-nav-bar {
+    background-color: white;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#wrapper #tabbed-nav-bar .collapse {
+    z-index: 0;
+}
+
+ul#tab-row {
+    border-bottom: none;
 }
 
 

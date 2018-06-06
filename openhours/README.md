@@ -13,33 +13,19 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
-**OpenHours - Women in STEM month, Interview series!**
+**OpenHours**
 
-{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
+Phase two, OpenHours is about to unfold, and we welcome everyone to join in for the fun. The current plan was outlined last week in our [phase two pilot episode](https://youtu.be/QPijdGYpLoA), but will most likely be touched on once again this week as we tackle new goals for the broadcast and attempt to bring new and exciting content forward in the form of technical interviews and showcases. We are currently working to book out the rest of the years interview slots, so if anyone is interested in joining OpenHours as a featured guest, please reach out to Robert Wolff (robert.wolff@linaro.org) to reserve a slot.
 
-OpenHours is taking time off between phases to talk with some of the many women in STEM. In fact, the entire month of May will be all about Women in STEM! Each week, you can expect one or more interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest will join us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
-
-**This week**, we will be meeting with our sixth and final Woman in STEM for the month of May, [Estefannie Explains it All](https://www.youtube.com/user/estefanniegg)!
-
-**Estefannie** is a software engineer who spends much of her spare time making cool things and sharing them across her social media channels. Her videos are fun, educational and entertaining, and almost always paired with open source code! In this interview finale, Estefannie will be taking questions on herself, STEM, and anything else you can think to ask this skilled maker :-)! Join us on May 31st and welcome Estefannie to the lineup, we are all very excited to have her on the livestream. 
-
-**Check out Estefannie's social media channel:**
-
-- [Estefannie Explains it All YouTube](https://www.youtube.com/user/estefanniegg)
-- [Estefannie's Instagram](https://www.instagram.com/estefanniegg/)
-- [Estefannie's Twitter](https://twitter.com/estefanniegg)
-
-**Stick around after the interview for announcements on how we plan to continue our women in STEM efforts on through phase two of OpenHours.**
-
-We will be kicking off **OpenHours (phase 2)** with the first episode of June. New content, new people, new interviews, new contests, new tech, new partners, same family :)
+**This week's** guest is still to be announced! Stay tuned for an update to the page in the next day or two.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
+[OpenHours spent the entire month of May talking all about Women in STEM!](https://www.96boards.org/go/wistem-2018/) Each week, we had interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest joined us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
 
 ### What is 96Boards OpenHours?
 
