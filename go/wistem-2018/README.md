@@ -23,15 +23,12 @@ While the written interviews offer a great daily read, a weekly livestream can a
 
 Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](https://www.96boards.org/openhours/) to read about this week's events, and to follow the countdown.
 
-### Upcoming Livestreams!
+### Archived Livestreams
 
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
    - **Date:** May 31st, 2018
    - **Time:** 6:30p PST / 8:30p CST
-   - [Add to your Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXJldHBlaW11YzVvN21jaDljZ2I4OTVkaGggYTFxcXY2amhyMWEwYXQyc2xsbms1aTc0aTRAZw&tmsrc=a1qqv6jhr1a0at2sllnk5i74i4%40group.calendar.google.com)
-
-### Archived Livestreams
-
+   - This event has passed, [check out the recording!](https://youtu.be/eovR-Kid9gI)
 - **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
    - **Date:** May 24th, 2018
    - **Time:** 6:30pm PST
@@ -55,6 +52,7 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Written Interview Archive
 
+- [May 28: Jumana Mundichipparakkal - SoC Performance Analyst](https://www.96boards.org/blog/wistem-14/)
 - [May 21: Raquel Medina - Software Engineer](https://www.96boards.org/blog/wistem-13/)
 - [May 16: Preeti Gupta - Electronics and Communications Engineer](https://www.96boards.org/blog/wistem-12/)
 - [May 15: Ketal Gandhi - Electronics Engineer](https://www.96boards.org/blog/wistem-11/)

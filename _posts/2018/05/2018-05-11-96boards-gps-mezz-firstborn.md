@@ -42,16 +42,8 @@ So back to YOU witnessing history, here it is… As the title of this blog reads
 
 GroupGets was founded out of frustration with not being able to launch crowdfunding campaigns for existing parts and products. Back in 2013 it was common to back crowdfunding campaigns for vaporware but there wasn’t a platform to go after stuff on the shelf. I wanted to launch a group buy for a full wafer’s worth of ASIC’s but there was no platform to securely facilitate it at that time. The manufacturer would only sell by the wafer which costed over $100k which was way out of my league.
 
-<<<<<<< HEAD
 The core intent of GroupGets was therefore to launch group buys for parts with crazy high minimum order quantities. We’re fine if people use the platform to save a few bucks on a common part, but the spirit of the platform is to give anyone access to anything via group buys.
 The core intent of GroupGets was therefore to launch group buys for parts with crazy high minimum order quantities. We’re fine if people use the platform to save a few bucks on a common part but the spirit of the platform is to give anyone access to anything via group buys.
-=======
-<<<<<<< HEAD
-The core intent of GroupGets was therefore to launch group buys for parts with crazy high minimum order quantities. We’re fine if people use the platform to save a few bucks on a common part, but the spirit of the platform is to give anyone access to anything via group buys.
-=======
-The core intent of GroupGets was therefore to launch group buys for parts with crazy high minimum order quantities. We’re fine if people use the platform to save a few bucks on a common part but the spirit of the platform is to give anyone access to anything via group buys.
->>>>>>> afb21dc477d3428e09c8cfa7e5b4fc83ce7584b1
->>>>>>> aacb55e490450837b5a5835e402fe967e69a61e2
 
 Over time the mission organically grew to letting companies and individuals initiate sales of their existing products in promotional bundles, betas, limited editions, and inventory liquidations to group buyers. Then we started seeing people using the platform to fund production runs for existing designs which I want to stress here that we are VERY ok with as long as we get a working demo. [AudioMoth](https://groupgets.com/manufacturers/open-acoustic-devices/products/audiomoth) is a great example of that. They’ve funded about 2000 on GroupGets as of today.
 
@@ -66,24 +58,10 @@ For more information on this the Mezzanine-Community Initiative, please visit: h
 
 ## The GPS Mezzanine - Michael Welling
 
-<<<<<<< HEAD
 The GPS mezzanine was one of a handful of designs which were voted into the initiative early on. Robert found many people were having issues using the on-board GPS built into the [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/). The proprietary interface and sensitivity issue left many people wanting. Furthermore, this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE (Consumer Edition) boards.
 
 After voting, the GPS mezzanine was added to the queue, and it would become the second KiCAD design to be created out of the initiative. To keep the design simple, the Adafruit [Ultimate GPS module](https://www.adafruit.com/product/790) was selected for it’s core. This module provides an impressive feature set built into a small yet easy to use package. It is driven by the MTK3339 chipset and provides both a built-in antenna for basic outdoors use, and external powered antenna which can work indoors. Another nice feature, is the built-in logging capability which allows the unit to record up to 16 hours of autonomous tracking at 15 second intervals.
-The GPS mezzanine was one of a handful of designs that were voted into the initiative early on. Robert found that many people were having issues using the on-board GPS built in to the Dragonboard 410c. The proprietary interface and sensitivity issue left many people wanting. Furthermore this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE boards.
 
-=======
-<<<<<<< HEAD
-The GPS mezzanine was one of a handful of designs which were voted into the initiative early on. Robert found many people were having issues using the on-board GPS built into the [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/). The proprietary interface and sensitivity issue left many people wanting. Furthermore, this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE (Consumer Edition) boards.
-
-After voting, the GPS mezzanine was added to the queue, and it would become the second KiCAD design to be created out of the initiative. To keep the design simple, the Adafruit [Ultimate GPS module](https://www.adafruit.com/product/790) was selected for it’s core. This module provides an impressive feature set built into a small yet easy to use package. It is driven by the MTK3339 chipset and provides both a built-in antenna for basic outdoors use, and external powered antenna which can work indoors. Another nice feature, is the built-in logging capability which allows the unit to record up to 16 hours of autonomous tracking at 15 second intervals.
-=======
-The GPS mezzanine was one of a handful of designs that were voted into the initiative early on. Robert found that many people were having issues using the on-board GPS built in to the Dragonboard 410c. The proprietary interface and sensitivity issue left many people wanting. Furthermore this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE boards.
-
-After taking a vote, the GPS mezzanine was added to the queue and it would become the second KiCAD design to be created out of the initiative. To keep the design simple, the Adafruit [Ultimate GPS module](https://www.adafruit.com/product/790) was selected for it’s core. This module provides an impressive feature set built into a small yet easy to use package. It is driven by the MTK3339 chipset and provides both a built-in antenna for basic outdoors use and external powered antenna which can work indoors. Another nice feature is the built-in logging capability that allows the unit to record up to 16 hours of autonomous tracking at 15 second intervals.
->>>>>>> afb21dc477d3428e09c8cfa7e5b4fc83ce7584b1
-
->>>>>>> aacb55e490450837b5a5835e402fe967e69a61e2
 **Here are the basic specifications as reported on the Adafruit product page:**
 
 - -165 dBm sensitivity, 10 Hz updates, 66 channels
@@ -97,32 +75,14 @@ After taking a vote, the GPS mezzanine was added to the queue and it would becom
 - Fix status output
 - Ultra small size: only 16mm x 16mm x 5mm and 4 grams
 
-<<<<<<< HEAD
 The first version of the GPS mezzanine was prototyped using PCBs, generously donated from [OSH park](https://oshpark.com/). Only the bare necessities were included in the design. This meant bringing the UART lines and a few GPIOs up from the 96boards low-speed connector through a level translator to the GPS unit. The UART is used to transmit the NMEA message back to the main processor and send commands the GPS. The GPIOs were used to signal the PPS and FIX signals back to the core module. The signalling on the 96board CE expansion headers is 1.8V and the GPS unit is powered by 3.3V. Unfortunately 3.3V is not provided by any of the expansion headers on the CE specification so a simple LDO regulator was added to the design. Add a few passives, a u.FL connector, and a coin battery holder and it was ready for proto. For a pinch of extra utility, the debugging UART was broken out to a 4 pin headers.
-The first version of the GPS mezzanine was prototyped using PCBs generously donated from OSH park. Only the bare necessities were included in the design. This meant bringing the UART lines and a few GPIOs up from the 96boards low-speed connector through a level translator to the GPS unit. The UART is used to transmit the NMEA message back to the main processor and send commands the GPS. The GPIOs were used to signal the PPS and FIX signals back to the core module. The signalling on the 96board CE expansion headers is 1.8V and the GPS unit is powered by 3.3V. Unfortunately 3.3V is not provided by any of the expansion headers on the CE specification so a simple LDO regulator was added to the design. Add a few passives, a u.FL connector, and a coin battery holder and it was ready for proto. For a pinch of extra utility, the debugging UART was broken out to a 4 pin headers.
-=======
-<<<<<<< HEAD
-The first version of the GPS mezzanine was prototyped using PCBs, generously donated from [OSH park](https://oshpark.com/). Only the bare necessities were included in the design. This meant bringing the UART lines and a few GPIOs up from the 96boards low-speed connector through a level translator to the GPS unit. The UART is used to transmit the NMEA message back to the main processor and send commands the GPS. The GPIOs were used to signal the PPS and FIX signals back to the core module. The signalling on the 96board CE expansion headers is 1.8V and the GPS unit is powered by 3.3V. Unfortunately 3.3V is not provided by any of the expansion headers on the CE specification so a simple LDO regulator was added to the design. Add a few passives, a u.FL connector, and a coin battery holder and it was ready for proto. For a pinch of extra utility, the debugging UART was broken out to a 4 pin headers. 
-=======
-The first version of the GPS mezzanine was prototyped using PCBs generously donated from OSH park. Only the bare necessities were included in the design. This meant bringing the UART lines and a few GPIOs up from the 96boards low-speed connector through a level translator to the GPS unit. The UART is used to transmit the NMEA message back to the main processor and send commands the GPS. The GPIOs were used to signal the PPS and FIX signals back to the core module. The signalling on the 96board CE expansion headers is 1.8V and the GPS unit is powered by 3.3V. Unfortunately 3.3V is not provided by any of the expansion headers on the CE specification so a simple LDO regulator was added to the design. Add a few passives, a u.FL connector, and a coin battery holder and it was ready for proto. For a pinch of extra utility, the debugging UART was broken out to a 4 pin headers. 
->>>>>>> afb21dc477d3428e09c8cfa7e5b4fc83ce7584b1
->>>>>>> aacb55e490450837b5a5835e402fe967e69a61e2
 
 #### R0 Schematic
 
 {% include image.html name="collab-firstborn-1.png" alt="R0 Schematic"%}
 {% include image.html name="collab-firstborn-2.png" alt="R0 Prototype"%}
 
-<<<<<<< HEAD
 Once the bare PCBs and parts arrived, the first 3 units were hand assembled and tested. The units were all functional with only a few component footprint tweaks needed for the revision. The software setup was a breeze following along with a Raspi tutorial on Adafruit’s site. [https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up)
-Once the bare PCBs and part arrived, the first 3 units were hand assembled and tested. The units were all functional with only a few component footprint tweaks needed for the revision. The software setup was a breeze following along with a Raspi tutorial on Adafruit’s site. https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up
-=======
-<<<<<<< HEAD
-Once the bare PCBs and parts arrived, the first 3 units were hand assembled and tested. The units were all functional with only a few component footprint tweaks needed for the revision. The software setup was a breeze following along with a Raspi tutorial on Adafruit’s site. [https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up)
-=======
-Once the bare PCBs and part arrived, the first 3 units were hand assembled and tested. The units were all functional with only a few component footprint tweaks needed for the revision. The software setup was a breeze following along with a Raspi tutorial on Adafruit’s site. https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up
->>>>>>> afb21dc477d3428e09c8cfa7e5b4fc83ce7584b1
->>>>>>> aacb55e490450837b5a5835e402fe967e69a61e2
 
 {% include image.html name="collab-firstborn-3.png" alt="Mezzanine on 96Boards"%}
 {% include image.html name="collab-firstborn-4.png" alt="Multiple mezzanine on show"%}
