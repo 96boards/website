@@ -78,9 +78,9 @@ We are looking for women to share their "STEM story"! To participate in this ini
 
 <div class="col-md-6" markdown="1">
 <br>
-<h3>Weekly Show</h3>
+<h3>Time to Next Women in STEM Event</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
-<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Go to 2019 page</a>
+<a href="https://www.96boards.org/go/wistem-2019/" class="btn blog-read-more-btn center-block">Go to 2019 page</a>
 
 ### Interview Form
 
