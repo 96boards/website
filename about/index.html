@@ -9,12 +9,11 @@ js-package: about
 css-package: about
 ---
 {% include breadcrumb.html %}
-
 <div class="container-fluid" id="content-container">
 {% include sticky-tab-bar.html %}   
 <div class="container content-container">
 <div class="row">
-<div class="col-md-10 col-lg-10 col-sm-12 col-xs-12" markdown="1">
+<div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
 <h2>About 96Boards</h2>
 <p>
     96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost. The specifications are open and define a standard board layout for SoC-agnostic (processor independent)  development platforms that can be used by software application, hardware device, kernel and other system software developers. Boards produced to the 96Boards specifications are suitable for rapid prototyping, hobbyist projects or incorporation into new systems for a wide range of applications including desktop and laptop computing, the digital home, digital signage, point of sale (POS), high-end audio, robotics and drones, artificial intelligence, virtual reality, IoT and industrial control.
@@ -62,7 +61,7 @@ css-package: about
           <div class="row">
 
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-tabs" role="tablist" id="about-tabs">
               <li role="presentation" class="active">
                   <a href="#small" aria-controls="home" role="tab" data-toggle="tab">
                      Small <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
@@ -96,7 +95,7 @@ css-package: about
             </ul>
 
                 <!-- Tab panes -->
-                <div class="tab-content">
+                <div class="tab-content" id="about-tabs-content">
 
 
                       <div role="tabpanel" class="tab-pane active" id="small">
@@ -170,12 +169,16 @@ css-package: about
 
 </div>
 
-<div class="container content-container"  markdown="1">
+<div class="container content-container">
 <h2 class="text-center">Benefits of the 96Boards ecosystem</h2>
 <div class="row">
-<div class="col-md-6 padded-para" markdown="1">
-**As a Vendor** you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
-The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
+<div class="col-md-6 padded-para">
+    <p>
+        <strong>As a Vendor</strong> you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
+    </p>
+    <p>
+        The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
+    </p>
 </div>
 <div class="col-md-6">
 <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'homepage-image-1.png' %}" alt="96Boards partner logo small.">    
@@ -186,15 +189,16 @@ The 96Boards specification allows enough flexibility to expose differentiating f
 <div class="col-md-6">
 <img class="img-responsive center-block margin-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'homepage-image-2.png' %}" alt="96Boards partner logo small.">    
 </div>
-<div class="col-md-6 padded-para" markdown="1">
-**As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
-
- A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
-<!-- You can also tap into the 96Boards community to quickly get up to speed on using the software since a lot of the core functionality -->
+<div class="col-md-6 padded-para">
+    <p>
+        <strong>As an End User</strong> you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
+    </p>
+    <p>
+        A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
+    </p>
 </div>
 </div>
 {% include members.html %}
-
 </div>
 
 

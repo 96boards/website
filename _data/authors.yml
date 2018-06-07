@@ -14,3 +14,7 @@
   shortname: rwolf
   image:
       name: robert-small.jpg
+- username: 96Boards
+  shortname: 96Boards
+  image:
+      name: 96Boards-Logo_vertical-96Boards.png

@@ -378,3 +378,49 @@ blockquote {
 .developer-services-block {
     border: 1px solid #eee;
 }
+// Universal Nav
+// Ajust the sticky-nav for the universal nav
+.sticky-nav {
+    position: fixed;
+    top: 31px;
+    z-index: 9998;
+    left: 0;
+    margin-top: 0px;
+    right: 0;
+    transition: all 1s ease;
+}
+// Position the toggle so that it's inline with the main nav
+#tabbed-nav-bar.non-sticky-nav button.navbar-toggle {
+    margin-right: -15px;
+}
+.sticky-nav#tabbed-nav-bar button.navbar-toggle {
+    margin-right: -15px;
+}
+div#tabbed-nav-bar.sticky-nav {
+    margin-top: 0px;
+}
+#wrapper div#tabbed-nav-bar.sticky-nav {
+    margin-top: 0px;
+    top: 0px;
+}
+
+#main-navigation.navbar-inverse .navbar-nav>li>a {
+    color:#fff;
+}
+
+div#tabbed-nav-bar {
+    background-color: white;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#wrapper #tabbed-nav-bar .collapse {
+    z-index: 0;
+}
+
+ul#tab-row {
+    border-bottom: none;
+}
+
+
