@@ -12,33 +12,37 @@ We’ll begin these sessions with introductions and announcements, presentation 
 
 We look forward to talking with you.
 
+***
+
 # FAQ
 
-1. How often is OpenHours?
+1. **How often is OpenHours?**
    * OpenHours is hosted by 96Boards EVERY WEEK on Thursday at 4:00pm UTC. Sometimes the 96Boards team will host special OpenHours events which are held separately and on different days and times.
-2. Why would I want to attend OpenHours?
+2. **Why would I want to attend OpenHours?**
    * OpenHours is aimed at sharing information on the OpenSource space. People working in OpenSource participates and talks about the work which interests them.
-3. Should I show up early to OpenHours?
+3. **Should I show up early to OpenHours?**
    * Not mandatory. Attendees are expected to join at 4PM UTC.
-4. Is OpenHours recorded?
+4. **Is OpenHours recorded?**
    * Yes it will be recorted till 5PM UTC. Also, it will be live streamed to YouTube and Facebook.
-5. If I leave my camera off, can I still still participate?
+5. **If I leave my camera off, can I still still participate?**
    * Yes you can. People who doesn't want to show their faces can turn their camera stream off and ask questions over voice or type in chat.
-6. Do I have to have a camera and microphone to participate?
+6. **Do I have to have a camera and microphone to participate?**
    * No. You can ask questions over chat and we will respond. But having a camera and microphone would be better for communication.
-7. Is OpenHours hosted anywhere else, or only on BlueJeans?
+7. **Is OpenHours hosted anywhere else, or only on BlueJeans?**
    * There will be live streaming over YouTube and Facebook but your presence will only be recorded in Bluejeans. We also take questions from YouTube and Facebook comments.
-8. How do I get BlueJeans?
+8. **How do I get BlueJeans?**
    * There are two options available:
       * You can join us directly and participate in the livestream on [Blejeans App](https://www.bluejeans.com/downloads)
       * You can watch the livestream on [YouTube](https://www.youtube.com/96boards)
       * Or you can watch the livestream on [Facebook](https://www.facebook.com/96Boards/)
-9. How long is OpenHours?
+9. **How long is OpenHours?**
    *The official time is one hour from 4PM to 5PM UTC when the recording and live streaming takes place. After 5PM we move into after hours, where we talk without any recordings or live streaming.
-10. Does anything happen after OpenHours?
+10. **Does anything happen after OpenHours?**
    * Yes, we move into AfterHours and talk till Robert's coffee lasts :P
-11. How is Linaro associated with OpenHours?
+11. **How is Linaro associated with OpenHours?**
    * Linaro is a sponsor of OpenHours.
+
+***
 
 # The Team 
 
