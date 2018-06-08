@@ -51,7 +51,14 @@ product_third_party_images:
   - title: Coming soon...
 
 product_buy_links:
-  -
+-
+    link-title: "Lenovator"
+    link-price: "299.00"
+    link-url: "http://www.lenovator.com/product/135.html"
+    link-price-currency: USD
+    from: lenovator.com
+    type: board
+-
     link-title: "SeeedStudio"
     link-price: "299.00"
     link-url: "https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426"
@@ -72,6 +79,7 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 
 ## Buy Now
 
+- [Lenovator](http://www.lenovator.com/product/135.html)
 - [SeeedStudio](https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426)
 - [HiHope](http://hihope.org/product/HiKey970)
 
