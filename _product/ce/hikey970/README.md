@@ -43,13 +43,10 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_os:
   - title: Coming soon...
-
 product_third_party_images:
   - title: Coming soon...
-
 product_buy_links:
   -
     link-title: "Lenovator"
@@ -75,7 +72,7 @@ product_buy_links:
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
 ---
-HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers looking maximize accelerated AI capabilities not found in most other development platforms!
+HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers, looking maximize accelerated AI capabilities not found in most other development platforms!
 
 ## Buy Now
 
