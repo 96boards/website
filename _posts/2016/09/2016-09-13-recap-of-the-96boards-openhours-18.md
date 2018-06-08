@@ -57,7 +57,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
     * Jorge has over twenty years of experience developing software and has been with Linaro on the Member Services team for a few years now.
 
 
-    * The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors […].  You can download the 2.0 version of the specification on this [link](http://www.linaro.org/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf).
+    * The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors […].  You can download the 2.0 version of the specification on this [link](https://www.linaro.org/assets/downloads/VMSystemSpecificationForARM-v2.0.pdf).
 
 
     * Jorge went through his blog in more detail on the call and talked about additional materials that are available
