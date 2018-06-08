@@ -46,7 +46,8 @@ product_accessories:
 product_os:
   - title: Coming soon...
 product_third_party_images:
-  - title: Coming soon...
+  - title: AOSP
+    link: /documentation/consumer/hikey970/downloads/aosp.md.html
 product_buy_links:
   -
     link-title: "Lenovator"
