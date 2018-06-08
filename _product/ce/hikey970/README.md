@@ -43,13 +43,10 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_os:
   - title: Coming soon...
-
 product_third_party_images:
   - title: Coming soon...
-
 product_buy_links:
   -
     link-title: "Lenovator"
