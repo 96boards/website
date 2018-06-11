@@ -28,7 +28,7 @@ tags:
 
 For some releases now,  [KVM](http://www.linux-kvm.org/page/Main_Page) - the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the [HiKey from 96Boards](/product/hikey/).  This was made possible thanks to the open nature of the HiKey software stack but also to the early work done by Marc Zyngier as captured on this [post](https://discuss.96boards.org/t/kvm-hypervisor-support/34) and the numerous contributions to aarch64 from the Linaro Virtualization team.
 
-The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors [...].  You can download the 2.0 version of the specification on this [link](http://www.linaro.org/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf).
+The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors [...].  You can download the 2.0 version of the specification on this [link](https://www.linaro.org/assets/downloads/VMSystemSpecificationForARM-v2.0.pdf).
 
 Having said that and despite the specification being available - but perhaps due to it being so recent-  you might have some issues finding OS images that comply to it.
 
