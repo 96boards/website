@@ -56,35 +56,35 @@ product_third_party_images:
 product_buy_links:
   -
     link-title: "Amazon (USA)"
-    link-price: "239.99"
+    link-price: "$239.99"
     link-url: "https://amzn.to/2JHYhLc"
     link-price-currency: USD
     from: Amazon.com
     type: board
   -
     link-title: "Lenovator (Worldwide)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960buy"
     link-price-currency: USD
     from: Lenovator.com
     type: board
   -
     link-title: "Seeed (Worldwide)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960-seed"
     link-price-currency: USD
     from: SeeedStudio.com
     type: board
   -
     link-title: "Alpha Star"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960buy-alpha"
     link-price-currency: USD
     from: Alpha-Star.org
     type: board
   -
     link-title: "Ali express (USA)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960-ali"
     link-price-currency: USD
     from: Aliexpress.com

@@ -37,7 +37,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/dragonboard820c/arrow-development-tools"
     from: Arrow.com
     type: board
-    link-price: "199.00"
+    link-price: "$199.00"
     link-price-currency: USD
 # Right Sidepanel links
 product_os:

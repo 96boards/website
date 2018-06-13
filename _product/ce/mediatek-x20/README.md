@@ -64,21 +64,21 @@ product_buy_links:
     link-url: "https://linaro.co/mediatekx20-buy"
   -
     link-title: "MediaTek X20 (Seed)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-url: "https://linaro.co/mediatekx20-seed"
     link-price-currency: USD
     from: seeedstudio.com
     type: board
   -
     link-title: "MediaTek X20 (Amazon)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-url: "https://linaro.co/mediatekx20-amazon"
     link-price-currency: USD
     from: Amazon.com
     type: board
   -
     link-title: "MediaTek X20 (AliExpress)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-price-currency: USD
     link-url: "https://linaro.co/mediatekx20-ali"
     from: AliExpress.com
