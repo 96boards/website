@@ -35,7 +35,7 @@ product_buy_links:
         link-url: "https://www.arrow.com/en/products/chameleon96/novtech-inc"
         from: Arrow.com
         type: board
-        link-price: "129.00"
+        link-price: "$129.00"
         link-price-currency: USD
 
 product_more_info:

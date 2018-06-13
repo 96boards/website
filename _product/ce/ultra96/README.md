@@ -46,7 +46,7 @@ product_buy_links:
     link-url: https://linaro.co/ultra96-buy
     from: Avnet.com
     type: board
-    link-price: "249.00"
+    link-price: "$249.00"
     link-price-currency: USD
 product_more_info:
     - title: Avnet
