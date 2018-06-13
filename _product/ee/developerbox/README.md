@@ -30,7 +30,7 @@ product_buy_links:
     link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
     from: chip1stop.com
     type: board
-    link-price: "1230.00"
+    link-price: "$1200.00"
     link-price-currency: USD
 product_more_info:
     - title: Socionext
