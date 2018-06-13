@@ -25,7 +25,7 @@ layout: boards-home
                         <a href="{{product.url}}">
                             <div class="col-sm-4 featured-product">
                                 <h3 class="featured-product-title">{{product.title}}</h3>
-                                {% if product.product_buy_links %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
+                                {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                                 <div class="lazyload featured-product-image" style="background-image: url(/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}})"></div>
                             </div>
                         </a>
@@ -33,7 +33,7 @@ layout: boards-home
                         <a href="{{product.url}}">
                             <div class="col-sm-4 featured-product bottom">
                                 <h3 class="featured-product-title">{{product.title}}</h3>
-                                <span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>
+                                {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                                 <div class="lazyload featured-product-image" style="background-image: url(/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}})"></div>
                             </div>
                         </a>
