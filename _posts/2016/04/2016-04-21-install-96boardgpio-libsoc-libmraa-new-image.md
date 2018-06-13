@@ -183,7 +183,7 @@ UPM is an object oriented library of drivers for many I2C devices. This library 
 ## Use the installed libraries
 
 
-Now that the library or libraries of your choice are installed you can start development. As a test you can go to github.com and download some very simple code that is known to compile, link and run. The sample code will use GPIO-A and GPIO-C. When GPIO-A is toggled high, GPIO-C will change state to the opposite state. If you have an [Arrow LinkSprite board](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc) or a [Seeed Studios Sensor Board Starter Kit](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-96Boards-p-2618.html) you can connect the touch switch on GPIO A and the LED on GPIO-C and turn it on and off as a test. The code used in this post can be found [here](https://github.com/dmandala/library_test)
+Now that the library or libraries of your choice are installed you can start development. As a test you can go to github.com and download some very simple code that is known to compile, link and run. The sample code will use GPIO-A and GPIO-C. When GPIO-A is toggled high, GPIO-C will change state to the opposite state. If you have an [Arrow LinkSprite board](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc) or a [Seeed Studios Sensor Board Starter Kit](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-96Boards-p-2618.html) you can connect the touch switch on GPIO A and the LED on GPIO-C and turn it on and off as a test. The code used in this post can be found here - https://github.com/dmandala/library_test.
 
 
 ### Install and build test code

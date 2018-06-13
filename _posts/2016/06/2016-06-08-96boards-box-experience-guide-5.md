@@ -322,7 +322,7 @@ $ sudo apt-get install libsoc-dev
 
 **Commands:**
 
-$ git clone [https://github.com/dmandala/library_test.git](https://github.com/dmandala/library_test.git)
+$ git clone https://github.com/dmandala/library_test.git
 $ cd library_test
 You can check the contents of this directory by executing the `ls` or `ls -la` command
 

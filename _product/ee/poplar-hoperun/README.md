@@ -28,6 +28,7 @@ product_buy_links:
   -
     link-title: "HiHope"
     link-url: "http://hihope.org/product/Poplar"
+    link-price: "$99.00"
 product_os:
   - title: Build from Source
     link: /documentation/enterprise/poplar-hoperun/build/
