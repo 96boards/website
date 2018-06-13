@@ -20,13 +20,13 @@ product_short_desc: Board based on HiSilicon Kirin 6220 processor
 product_buy_links:
   - link-title: Buy HiKey(1GB RAM)
     link-url: https://linaro.co/hikey-lenovator-buy-1gb
-    link-price: "75.00"
+    link-price: "$75.00"
     link-price-currency: USD
     from: Lenovator.com
     type: board
   - link-title: Buy HiKey(2GB RAM)
     link-url: https://linaro.co/hikey-lenovator-buy
-    link-price: "119.00"
+    link-price: "$119.00"
     link-price-currency: USD
     from: Lenovator.com
     type: board

@@ -120,7 +120,7 @@ span.featured-product-price {
 }
 
 .col-sm-4.featured-product:hover .featured-product-image {
-    top:-60px;
+    top:-40px;
     transition: all 500ms ease-in-out;
 }
 
@@ -128,11 +128,6 @@ span.featured-product-price {
     transition: all 1s ease-in-out;
 }
 
-
-.col-sm-4.featured-product:hover .featured-product-image {
-    top:-60px;
-    transition: all 500ms ease-in-out;
-}
 .col-sm-4.featured-product:hover .featured-product-title{
     opacity: 0;
     transition: all 400ms ease-in-out;
