@@ -9,7 +9,7 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, alter, novtech, arrow, fpga, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "The Rock960 is a development board based on the Intel Cyclone V SoC FPGA"
+product_short_desc: "The Chameleon96 is a development board based on the Intel Cyclone V SoC FPGA"
 product_specification: ce
 featured_product_order: 2
 is_featured: true
