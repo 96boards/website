@@ -52,12 +52,8 @@ seo:
                             <a href="{{ buy_link.link-url }}">
                                 <span class="text-left">{{ buy_link.link-title }}</span>{% if buy_link.link-price %}<span class=" pull-right buy-price">
                                     {% if buy_link.link-price-currency %}
-                                        {% if buy_link.link-price-currency == "USD" %}$
-                                        {% elsif buy_link.link-price-currency == "GBP" %}£
-                                        {% elsif buy_link.link-price-currency == "JPY" %}JP&yen;
+                                        {% if buy_link.link-price-currency == "JPY" %}JP&yen;
                                         {% endif %}
-                                    {% else %}
-                                    $
                                     {% endif %}
                                     {{buy_link.link-price}}
                                     </span>{% endif %}
