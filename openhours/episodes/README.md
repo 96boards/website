@@ -19,16 +19,16 @@ layout: container-breadcrumb-tabs
 | 113     | 30 Aug 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
 | 112     | 23 Aug 2018    | TBD                     | TBD                                     | N/A                                                  |
 | 111     | 16 Aug 2018    | TBD                     | TBD                                     | N/A                                                  |
-| 110     | 9 Aug 2018     | TBD                     | TBD                                     | N/A                                                  |
-| 109     | 2 Aug 2018     | TBD                     | TBD                                     | N/A                                                  |
+| 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | N/A                                                  |
+| 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | N/A                                                  |
 | 108     | 26 Jul 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
-| 107     | 19 Jul 2018    | TBD                     | TBD                                     | N/A                                                  |
-| 106     | 12 Jul 2018    | TBD                     | TBD                                     | N/A                                                  |
+| 107     | 19 Jul 2018    | Meral Arik              | Hello Chava                             | N/A                                                  |
+| 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | N/A                                                  |
 | 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | N/A                                                  |
-| 104     | 28 Jun 2018    | 96Boards Team           | Q/A                                     | N/A                                                  |
-| 103     | 21 Jun 2018    | Peter Robinson - RedHat | Introduction to Fedora IoT              | N/A                                                  |
-| 102     | 14 Jun 2018    | Tom Cubie - Vamrs       | Introduction to the Rock960             | N/A                                                  |
-| 101     | 7 Jun 2018     | UCSD ECE 191 Close out  | 96Boards Q2 UCSD Engineering Mentorship | [Set Reminder](https://youtu.be/WfN_n9PT6q4)         |
+| 104     | 28 Jun 2018    | 96Boards Team           | Scheduled Q&A                           | N/A                                                  |
+| 103     | 21 Jun 2018    | Peter Robinson - RedHat | Introduction to Fedora IoT              | Up Next!                                             |
+| 102     | 14 Jun 2018    | Tom Cubie - Vamrs       | Introduction to the Rock960             | [Watch Video](https://youtu.be/qmdYR-kZt8I)          |
+| 101     | 7 Jun 2018     | UCSD ECE 191 Close out  | 96Boards Q2 UCSD Engineering Mentorship | [Watch Video](https://youtu.be/WfN_n9PT6q4)          |
 
 ## Phase 1
 
@@ -133,4 +133,4 @@ layout: container-breadcrumb-tabs
 |  4      | 2 Jun 2016     | David Mandela, Andy Doan| GPIO                                     | [Watch Video](https://youtu.be/vzOy_WV_HwU)          |
 |  3      | 24 May 2016    | Joakim, Daniel, Michael | Security                                 | [Watch Video](https://youtu.be/k7QR_KlXMRc)          |
 |  2      | 17 May 2016    | Michael Welling         | Robo-Mezzanine and Q&A                   | [Watch Video](https://youtu.be/EJutUfI8WRc)          |
-|  1      | 9 May 2016     | 96Boards Team           | DragonBoard 410c                        | [Watch Video](https://youtu.be/ZTNEXTcsJ2Y)          |
+|  1      | 9 May 2016     | 96Boards Team           | DragonBoard 410c                         | [Watch Video](https://youtu.be/ZTNEXTcsJ2Y)          |
