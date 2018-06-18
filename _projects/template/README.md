@@ -1,13 +1,16 @@
 ---
-layout: container-breadcrumb
-title:  96boards | Project Template
-permalink: "/projects/Template/"
-breadcrumb-title: Project Template
-breadcrumb-section: Projects
-breadcrumb-subtitle: Project Template
-js_bundle: big-bundle
-description: |-
-    A Template for creating a new project to  be submitted through Github and to be included on the site.
+title:  Template
+permalink: "/projects/template/"
+description: Description of your project goes here.
+images:
+  - thumb.jpg
+  - Share_image.png
+image:
+    path: /assets/images/projects/Share_image.png
+    name: Share_image.png
+    thumb: Share_image.png
+categories:
+- dragonboard410c
 ---
 # Project Title
 
