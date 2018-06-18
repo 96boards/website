@@ -10,14 +10,14 @@ description: Description of your project
 # The first image is always used in the table at /projects/
 images:
   - thumb.jpg
-  - DigitalAlbum_FrontPage2.png
+  - share_image.png
 # This section is used to add a social media share image to your project.
 # Place the image you'd like to use when sharing on social media in the /assets/images/projects/
 # folder and adjust the following YAML accordingly.
 image:
-    path: /assets/images/projects/tourmalet_share_image.png
-    name: tourmalet_share_image.png
-    thumb: tourmalet_share_image.png
+    path: /assets/images/projects/share_image.png
+    name: share_image.png
+    thumb: share_image.png
 # Categories that your project belongs too. For a full list of projects see
 # this file - _data/project-categories.yml
 # You can also add new categories to the project-categories.yml file if the category you
