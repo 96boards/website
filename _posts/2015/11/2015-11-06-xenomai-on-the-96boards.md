@@ -69,7 +69,7 @@ In any case and over the coming months we will prototype and deliver the results
 
 And while I doubt that toggling GPIO from userland - an action more suited for turning on a toaster than for generating real-time signals - will provide us with the required accuracy, I am relatively confident that an RTDM GPIO driver will achieve the expected results. So stay tuned.
 
-And again thank you Linaro for providing 96Boards development platforms to a number of the Xenomai [maintainers](http://xenomai.org/maintainers/) and to the team at [http://mperpetuo.com](http://mperpetuo.com) who contributed the initial AArch64 set of patches.
+And again thank you Linaro for providing 96Boards development platforms to a number of the Xenomai [maintainers](http://xenomai.org/) and to the team at [http://mperpetuo.com](http://mperpetuo.com) who contributed the initial AArch64 set of patches.
 
 
 Have fun with these boards, build cool prototypes and as always, enjoy your coding time.

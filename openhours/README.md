@@ -13,6 +13,7 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
+<iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
 
 **OpenHours**
