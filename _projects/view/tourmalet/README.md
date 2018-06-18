@@ -1,5 +1,4 @@
 ---
-layout: container-breadcrumb
 title:  Tourmalet
 permalink: "/projects/Tourmalet/"
 description: Portable Multimedia player with a 1080p touchscreen using Dragonboard410c
