@@ -2,11 +2,16 @@
 layout: container-breadcrumb
 title:  Tourmalet
 permalink: "/projects/Tourmalet/"
-breadcrumb-title: Tourmalet
-breadcrumb-section: Projects
-breadcrumb-subtitle: Portable Multimedia player
-js_bundle: big-bundle
 description: Portable Multimedia player with a 1080p touchscreen using Dragonboard410c
+images:
+  - thumb.jpg
+  - DigitalAlbum_FrontPage2.png
+image:
+    path: /assets/images/projects/tourmalet_share_image.png
+    name: tourmalet_share_image.png
+    thumb: tourmalet_share_image.png
+categories:
+- dragonboard410c
 ---
 # Tourmalet
 
