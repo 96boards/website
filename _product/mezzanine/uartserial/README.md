@@ -26,6 +26,8 @@ product_long_desc: |-
 
     Since it uses the FT230X chip from FTDI, when it is connected to your PC over USB, it appears as a normal UART interface on a PC, Macintosh or Linux computer with an FTDI UART driver installed.
 product_images:
+  - uart-mezzanine-front-sd.png
+  - uart-mezzanine-back-sd.png
   - 96boards-uarts-seed3.jpg
   - 96boards-uarts-seed2.jpg
   - 96boards-uarts-seed.jpg
