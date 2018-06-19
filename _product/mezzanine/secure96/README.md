@@ -38,7 +38,7 @@ product_buy_links:
     from: amazon.com
     type: board
     link-price-currency: USD
-    link-url: "http://linaro.co/buy-secure96"
+    link-url: "https://amzn.to/2qWN1CC"
 product_more_info:
   - title: Schematics (View)
     link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
