@@ -20,7 +20,6 @@ product_images:
     - linksprite-mezzanine-kit-front-sd.png
     - linksprite-mezzanine-kit-back-sd.png
     - linksprite-box-front-sd.png
-    - 
 product_buy_links:
   -
     link-title: Arrow
