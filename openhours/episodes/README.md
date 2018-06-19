@@ -9,19 +9,31 @@ layout: container-breadcrumb-tabs
 
 | Episode | Date           | Guest(s)                | Topic(s)                                | YouTube                                              |
 |:-------:|:--------------:|:-----------------------:|:----------------------------------------|:-----------------------------------------------------|
+| 132     | 27 Dec 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
+| 131     | 20 Dec 2018    | Jon "maddog" Hall       | maddog holiday special                  | N/A                                                  |
+| 130     | 13 Dec 2018    | Douglas Esteves         | IoT from PoV of a Maker                 | N/A                                                  |
+| 129     | 6 Dec 2018     | TBD                     | TBD                                     | N/A                                                  |
+| 128     | 29 Nov 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
+| 127     | 22 Nov 2018    | TBD                     | TBD                                     | N/A                                                  |
+| 126     | 15 Nov 2018    | TBD                     | TBD                                     | N/A                                                  |
+| 125     | 8 Nov 2018     | TBD                     | TBD                                     | N/A                                                  |
+| 124     | 1 Nov 2018     | TBD                     | TBD                                     | N/A                                                  |
+| 123     | 25 Oct 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
+| 122     | 18 Oct 2018    | TBD                     | TBD                                     | N/A                                                  |
+| 121     | 11 Oct 2018    | TBD                     | TBD                                     | N/A                                                  |
 | 120     | 4 Oct 2018     | TBD                     | TBD                                     | N/A                                                  |
 | 119     | 27 Sept 2018   | Q&A                     | Scheduled Q&A                           | N/A                                                  |
-| 118     | 20 Sept 2018   | TBD                     | TBD                                     | N/A                                                  |
+| 118     | 20 Sept 2018   | 96Boards & Partners     | OpenHours Live in Vancouver - Canada    | N/A                                                  |
 | 117     | 13 Sept 2018   | TBD                     | TBD                                     | N/A                                                  |
 | 116     | 20 Sept 2018   | TBD                     | TBD                                     | N/A                                                  |
 | 115     | 13 Sept 2018   | TBD                     | TBD                                     | N/A                                                  |
 | 114     | 6 Sept 2018    | TBD                     | TBD                                     | N/A                                                  |
 | 113     | 30 Aug 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
-| 112     | 23 Aug 2018    | TBD                     | TBD                                     | N/A                                                  |
-| 111     | 16 Aug 2018    | TBD                     | TBD                                     | N/A                                                  |
+| 112     | 23 Aug 2018    | John Martin             | Martin Soft - Software Development      | N/A                                                  |
+| 111     | 16 Aug 2018    | Yossi, Nazik            | Novtech and 96Boards                    | N/A                                                  |
 | 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | N/A                                                  |
 | 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | N/A                                                  |
-| 108     | 26 Jul 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                  |
+| 108     | 26 Jul 2018    | Ron Justin, Michael Welling, Matthew Navarro               | Scheduled Q&A                           | N/A               |
 | 107     | 19 Jul 2018    | Meral Arik              | Hello Chava                             | N/A                                                  |
 | 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | N/A                                                  |
 | 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | N/A                                                  |
