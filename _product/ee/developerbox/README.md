@@ -1,5 +1,5 @@
 ---
-title: DeveloperBox (Socionext)
+title: Developerbox (Socionext)
 layout: product-display-page
 permalink: /product/developerbox/
 shortname: developerbox
@@ -26,11 +26,11 @@ product_tab_menu:
       tab_align_right: true 
 product_buy_links:
   -
-    link-title: DeveloperBox (Chip1Stop)
+    link-title: Developerbox (Chip1Stop)
     link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
     from: chip1stop.com
     type: board
-    link-price: "1230.00"
+    link-price: "$1200.00"
     link-price-currency: USD
 product_more_info:
     - title: Socionext

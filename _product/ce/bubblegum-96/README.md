@@ -55,11 +55,10 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_buy_links:
   -
     link-title: Buy Bubblegum-96
-    link-price: "89.00"
+    link-price: "$89.00"
     from: ucrobotics.com.cn
     type: board
     link-price-currency: USD

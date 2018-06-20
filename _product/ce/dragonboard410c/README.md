@@ -42,28 +42,28 @@ product_buy_links:
     link-url: "https://linaro.co/dragonboard410c-buy-arrow"
     from: Arrow.com
     type: board
-    link-price: "75.00"
+    link-price: "$75.00"
     link-price-currency: USD
   -
     link-title: "DragonBoard410c + Audio Kit"
     link-url: "https://www.96boards.org/product/audio-mezzanine/"
     from: Arrow.com
     type: package
-    link-price: "89.00"
+    link-price: "$89.00"
     link-price-currency: USD
   -
     link-title: "DragonBoard410c + Camera Kit"
     link-url: "https://linaro.co/96b-db410c-camera"
     from: Arrow.com
     type: package
-    link-price: "225.00"
+    link-price: "$225.00"
     link-price-currency: USD
   -
     link-title: "DragonBoard410c + AWS IoT Kit"
     link-url: "https://linaro.co/96bawsbuy"
     from: Amazon.com
     type: package
-    link-price: "84.99"
+    link-price: "$84.99"
     link-price-currency: USD
 
 # Right Sidepanel links
