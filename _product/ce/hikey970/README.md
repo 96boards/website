@@ -23,8 +23,8 @@ product_short_desc: "Board based on the HiSilicon Kirin 970"
 product_long_desc: |-
     HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers looking maximize accelerated AI capabilities not found in most other development platforms!
 product_images:
-  - hikey970-front-sd.png
-  - hikey970-back-sd.png
+  - hikey970-front-sd-min.png
+  - hikey970-back-sd-min.png
 product_mezzanine:
   - title: Link Sprite Sensor Kit
     link: /product/linkspritesensorkit/
