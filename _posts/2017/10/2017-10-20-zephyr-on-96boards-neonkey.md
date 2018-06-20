@@ -101,7 +101,7 @@ ROM bootloader can be triggered by the following pattern:
 2. Press and hold the USR button
 3. Press and release the RST button
 
-More detailed information on activating the ROM bootloder can be found in Chapter 29 of Application note [AN2606](https://www.st.com/resource/en/application_note/cd00167594.pdf). The ROM
+More detailed information on activating the ROM bootloder can be found in Chapter 29 of Application note [AN2606](http://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf). The ROM
 bootloader supports flashing via UART, I2C and SPI protocols.
 
 For flashing, [stm32flash](https://sourceforge.net/p/stm32flash/wiki/Home/) command line utility can be used. The following
