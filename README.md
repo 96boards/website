@@ -9,3 +9,19 @@ If you come across any bugs/issues then please let us know by clicking the Submi
 We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
 
 
+## Adding Products
+
+In order to add a product please copy one of the products currently in the [/_product folder](https://github.com/96boards/website/tree/master/_product). Products are organsied in the _product folder into the 96Boards specifcations that are avaialble ([ce](https://github.com/96boards/website/tree/master/_product/ce), [ee](https://github.com/96boards/website/tree/master/_product/ee), [ie](https://github.com/96boards/website/tree/master/_product/ie), and [mezzaanine](https://github.com/96boards/website/tree/master/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly. 
+
+
+### Modify the YAML meta values
+
+We use the YAML(Jekyll front matter) values to help render your product on our Jekyll site. Please look at the other products for reference on how to structure the YAML (Jekyll front matter)
+
+### Adding product images
+
+Please add product images to the images/ sub folder inside the folder for your board. Make sure to optimize these images as best as possible to reduce the overhead on users when viewing your product page.
+
+
+### Known Issues
+Due to the way product images are include, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.
