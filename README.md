@@ -12,7 +12,7 @@ We happy to consider any contributions/feature requests that you may submit so p
 Below are a few guides that may help when adding content to the 96Boards website.
 
 - [Adding a blog post](#adding-a-blog-post)
-- [Adding a Product](#adding-products)
+- [Adding products](#adding-products)
 
 
 *****
