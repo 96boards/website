@@ -2,6 +2,11 @@
 
 The 96Boards website is built using the Jekyll static site generator. It is based off of the jumbo-jekyll-theme used for all of the Linaro static sites. With the move from Wordpress to Static we have introduced GitHub/Community driven content that allows 96Boards.org users to submit issues about any of the pages on 96Boards.org through the associated Git respository.
 
+## Contributions
+We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
+
+*****
+
 ## Adding a Blog Post
 
 In order to add a blog post to 96Boards copy and existing post from the [_posts folder](https://github.com/96boards/website/tree/master/_posts). Posts are organised into by year/month so add to the correct folder based on the month you are posting it in and if the folder doesn't exist create one.
@@ -93,6 +98,10 @@ To add a media element / YouTube video use the following Jekyll include.
 {% include media.html media_url="https://youtu.be/GFzJd0hXI0c" %}
 ```
 
+
+*****
+
+
 ## Adding Products
 
 ### Step 1 - Duplicate similiar product folder
@@ -109,15 +118,12 @@ Please add product images to the images/ sub folder inside the folder for your b
 
 __Please note:__ Due to the way product images are include, images should not include spaces in the filename otherwise they may not be rendered on the website as expected.
 
+*****
 
+## Issues 
+If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
 
 ### Known Issues
 #### Image file names
 Due to the way product images are include, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.
 
-
-## Issues 
-If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
-
-## Contributions
-We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
