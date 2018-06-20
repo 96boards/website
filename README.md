@@ -74,6 +74,16 @@ You also align/scale your image using the following css classes.
 Using this Jekyll include will allow your images to be lazy loaded and format the image HTML correctly.
 
 
+#### Adding code
+
+We are using the rouge syntax highlighter to highlight your glorious code. 
+
+```bash
+$ bundle exec jekyll serve --port 1337
+```
+
+See the full list of languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers).
+
 ## Adding Products
 
 In order to add a product copy one of the products currently in the [_product folder](https://github.com/96boards/website/tree/master/_product). Products are organsied in the _product folder into the 96Boards specifcations that are avaialble ([ce](https://github.com/96boards/website/tree/master/_product/ce), [ee](https://github.com/96boards/website/tree/master/_product/ee), [ie](https://github.com/96boards/website/tree/master/_product/ie), and [mezzaanine](https://github.com/96boards/website/tree/master/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly. 
