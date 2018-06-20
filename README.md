@@ -7,7 +7,17 @@ We happy to consider any contributions/feature requests that you may submit so p
 
 *****
 
-## Adding a Blog Post
+## Guides
+
+Below are a few guides that may help when adding content to the 96Boards website.
+
+- [Adding a blog post](#adding-a-blog-post)
+- [Adding a Product](#adding-products)
+
+
+*****
+
+## Adding a blog post
 
 In order to add a blog post to 96Boards copy and existing post from the [_posts folder](https://github.com/96boards/website/tree/master/_posts). Posts are organised into by year/month so add to the correct folder based on the month you are posting it in and if the folder doesn't exist create one.
 
@@ -102,7 +112,7 @@ To add a media element / YouTube video use the following Jekyll include.
 *****
 
 
-## Adding Products
+## Adding products
 
 ### Step 1 - Duplicate similiar product folder
 
