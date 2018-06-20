@@ -12,7 +12,7 @@ product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI CSI-
 product_long_desc: |-
     D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c. Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
 product_images:
-  - "Camera Mezzanine Board OV5640_front.jpg"
+  - "Camera_Mezzanine_Board_OV5640_front.jpg"
   - "Camera Mezzanine Board OV5640_back.jpg"
   - "D3-DesignCore.jpg"
 product_getting_started: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
