@@ -112,7 +112,7 @@ Due to the way product images are include, images should not include spaces in t
 
 
 ## Issues 
-If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. 
+If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
 
 ## Contributions
 We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
