@@ -19,7 +19,7 @@ js-package: openhours
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Tom Cubie from Vamrs! These are the folks who made the [Rock960](https://www.96boards.org/product/rock960/), and have more big plans with 96Boards. Tomorrow, we plan to show off this awesome board, talk about it's specs and features, as well as showcase several fun demos running on the Rock960. To learn more about the Rock960, you can either visit the [96Boards website](https://www.96boards.org/product/rock960/) or the [96Rocks website](https://www.96rocks.com/), check them out!
+**This week**, we will be meeting with Peter Robinson of Red Hat to talk about Fedora IoT! 
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
