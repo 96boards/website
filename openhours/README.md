@@ -13,14 +13,15 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
-<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
+<a href="https://youtu.be/RLsaN5IUnX0" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWR0Zm1yc3NsMmZvcmpzb3F1Z292bGxjazEgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Tom Cubie from Vamrs! These are the folks who made the [Rock960](https://www.96boards.org/product/rock960/), and have more big plans with 96Boards. Tomorrow, we plan to show off this awesome board, talk about it's specs and features, as well as showcase several fun demos running on the Rock960. To learn more about the Rock960, you can either visit the [96Boards website](https://www.96boards.org/product/rock960/) or the [96Rocks website](https://www.96rocks.com/), check them out!
+**This week**, we will be meeting with Peter Robinson of Red Hat to talk about [Fedora IoT](https://fedoraproject.org/wiki/Objectives/Fedora_IoT)! Earlier this year (in February), [Fedora IoT was proposed](https://pagure.io/Fedora-Council/tickets/issue/193) and quickly accepted to be an Official Edition with a Working Group to back it. This was great news, and now we finally get to hear the whole story from Peter himself! In this upcoming Livestream, we will spend an entire hour talking to Peter, asking our own questions and taking as many questions from the community as possible. Come hang out with us! Bring your coffee and questions, we will see you at the end of the countdown.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
