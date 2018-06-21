@@ -14,7 +14,7 @@ js-package: openhours
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
-<a href="https://youtu.be/RLsaN5IUnX0" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
+<a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWR0Zm1yc3NsMmZvcmpzb3F1Z292bGxjazEgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
