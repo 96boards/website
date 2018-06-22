@@ -135,7 +135,9 @@ __Please note:__ Due to the way product images are include, images should not in
 
 In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
 
-Once you have above installed you can simple clone this repo and run the following:
+Once you have above installed you can simply clone this repo and the [96Boards Documentation Repo](https://github.com/96boards/documentation). You will then need to modify the build.sh file to pull the documentation into your website repo before building the static site.
+
+
 
 ```
 $ bundle 
