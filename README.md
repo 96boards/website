@@ -143,7 +143,6 @@ $ ./build.sh
 
 After you have moved the documentation files over you can go ahead and run the following to get the site building:
 
-
 ```
 $ bundle 
 ```
