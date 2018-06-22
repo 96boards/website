@@ -107,6 +107,7 @@ exclude:
   - gulpfile.js
   - package.json
   - _projects/template/
+  - build.sh
   - package-lock.json
   
 # Google Tag mangager site wide setting - for deployment of site to China.

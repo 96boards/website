@@ -13,6 +13,7 @@ Below are a few guides that will help when adding content to the 96Boards websit
 
 - [Adding a blog post](#adding-a-blog-post)
 - [Adding products](#adding-products)
+- [Building the static site](#building-the-static-site)
 
 
 *****
@@ -127,6 +128,28 @@ We use the Jekyll front matter (YAML) values to help render your product on our 
 Please add product images to the images/ sub folder inside the folder for your board. Make sure to optimize these images as best as possible to reduce the overhead on users when loading your product page.
 
 __Please note:__ Due to the way product images are include, images should not include spaces in the filename otherwise they may not be rendered on the website as expected.
+
+*****
+
+## Building the static site
+
+In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
+
+Once you have above installed you can simple clone this repo and run the following:
+
+```
+$ bundle 
+```
+
+This will install the required gems listed in the Gemfile.
+
+```
+$ bundle exec jekyll s 
+```
+
+This will serve (s) the Jekyll static website to the http://localhost:4000 where you can view the generated static website.
+
+
 
 *****
 

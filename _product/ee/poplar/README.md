@@ -58,6 +58,7 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 |  CPU                 | Quad-core ARM Cortex-A53 64 bit                                                                  |
 |  DRAM                | DDR3/3L/4 SDRAM interface (maximum 32-bit data width, up to 2 GB on board)                       |
 |  USB                 | USB 2.0 & USB 3.0 ports                                                                          |
+|  DISPLAY INTERFACE   | 1x HDMI 2.0a with HDCP 2.2, maximum 4K x 2K@60fps                                                |
 |  CONSOLE             | USB-micro port for console support                                                               |
 |  ETHERNET            | 1 GBe Ethernet                                                                                   |
 |  PCIE                | One PCIe 2.0 interfaces                                                                          |
