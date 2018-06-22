@@ -50,7 +50,7 @@ product_third_party_images:
     link: /documentation/consumer/hikey970/downloads/aosp.md.html
 product_buy_links:
   -
-    link-tite: "Amazon"
+    link-title: "Amazon"
     link-price: "$299.00"
     link-url: "https://amzn.to/2vJM8mO"
     link-price-currency: USD

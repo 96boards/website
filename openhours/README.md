@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWR0Zm1yc3NsMmZvcmpzb3F1Z292bGxjazEgc2FoYWouc2FydXBAbGluYXJvLm9yZw&tmsrc=sahaj.sarup%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA2MjhUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Peter Robinson of Red Hat to talk about [Fedora IoT](https://fedoraproject.org/wiki/Objectives/Fedora_IoT)! Earlier this year (in February), [Fedora IoT was proposed](https://pagure.io/Fedora-Council/tickets/issue/193) and quickly accepted to be an Official Edition with a Working Group to back it. This was great news, and now we finally get to hear the whole story from Peter himself! In this upcoming Livestream, we will spend an entire hour talking to Peter, asking our own questions and taking as many questions from the community as possible. Come hang out with us! Bring your coffee and questions, we will see you at the end of the countdown.
+**This week**, we will be meeting with **Ron Justin** from [GroupGets](https://groupgets.com/) and **Michael Welling** of [QWERTY Embedded](http://www.qwertyembedded.com/). Thanks to these two, we were able to launch the first ever crowd funded 96Boards Mezzanine! Michael, who is the lead maintainer of the [96Boards Mezzanine Community](https://github.com/96boards/mezzanine-community), created a GPS/Proto/Debug Mezzanine and open sourced it in the above mentioned repository. With major help from Ron at GroupGets, we were able to get this board posted... Now comes to task of getting it funded! For this livestream, we will gloss over the crowd funding event; however, we are more interested in talking about these two great companies! We will be taking questions and having fun, so don't miss out! See you at the end of the countdown :-)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
