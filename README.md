@@ -135,8 +135,13 @@ __Please note:__ Due to the way product images are include, images should not in
 
 In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
 
-Once you have above installed you can simply clone this repo and the [96Boards Documentation Repo](https://github.com/96boards/documentation). You will then need to modify the build.sh file to pull the documentation into your website repo before building the static site.
+Once you have above installed you can simply clone this repo and the [96Boards Documentation Repo](https://github.com/96boards/documentation). You will then need to modify the [build.sh](https://github.com/96boards/website/blob/master/build.sh) file to pull the documentation into your website repo before building the static site. Amend the top two lines of the build.sh file so that the correct paths are used. Then run the script to move the documentation files over to the _documentation collection in the website repo.
 
+```
+$ ./build.sh
+```
+
+After you have moved the documentation files over you can go ahead and run the following to get the site building:
 
 
 ```
