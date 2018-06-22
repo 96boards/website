@@ -1,2 +1,5 @@
 /help/build.sh
 node_modules/*
+.asset-cache
+.sass-cache
+_site
