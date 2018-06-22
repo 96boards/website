@@ -125,11 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-<<<<<<< HEAD
   jumbo-jekyll-theme (= 1.8.92)
-=======
-  jumbo-jekyll-theme (= 1.8.6)
->>>>>>> 4eca77bc80d7b73019954c0e36d38797c7a9dee1
 
 BUNDLED WITH
    1.16.1
