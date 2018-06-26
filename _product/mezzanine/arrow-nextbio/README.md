@@ -29,9 +29,9 @@ product_buy_links:
   link-url: "https://www.arrow.com/en/products/nbdk-2023-s2-vaix-db/next-biometrics-group-asa"
 product_more_info:
 - title: Product Brief
-  link: 
+  link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf
 - title: User Guide
-  link: 
+  link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/nbdk-2023-s2-vaix-db-development-kit-user-guide-v1.2.pdf
 ---
 
 The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module is a fingerprint development shield for the DragonBoard 410c development board by Arrow Electronics. The mezzanine includes a software Development Kit (SDK), which can be downloaded from NEXT Biometrics Support Portal https://support.nextbiometrics.com/. It is primarily supposed that NB-2023-S2 shield board is put together with the DragonBoard 410c development board and used as a one solid piece of hardware (However, other 96Boards may be compatible). Such a set allows to the user easy evaluation of the connected NB-2023-S2-VAIX fingerprint sensor module at ARM Cortex-A53 64-bit powered platform. Please note that NBDK-2023-S2-VAIX-DB Development Kit is delivered without the DragonBoard 410c board. The can be purchased directly from Arrow Electronic: https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools
@@ -59,7 +59,7 @@ The Software Development Kit comprises:
 2. NB Biometrics AIX API libraries with cutting-edge minutiae based biometric algorithm engine providing fingerprint template extraction and ultra-fast 1: N matching.
 3. Demo application for Linux.
 
-#### Technical Specifications
+## Technical Specifications
 
 | NB 2023-S2-VAIX Sensor Specifications:      |                                                                      |
 |:--------------------------------------------|:---------------------------------------------------------------------|
@@ -91,5 +91,5 @@ Note: Measurement taken on reference DB platform (Qualcomm Snapdragon 410 (APQ80
 
 ## Documents
 
-- [Product Brief]()
-- [User Guide]()
+- [Product Brief](https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf)
+- [User Guide](https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/nbdk-2023-s2-vaix-db-development-kit-user-guide-v1.2.pdf)
