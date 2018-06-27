@@ -10,7 +10,7 @@ display_product: true
 display_product: true
 product_tab_menu:
   - tab_title: Documentation
-    tab_link: 
+    tab_link: /documentation/mezzanine/arrow-nextbio/
     tab_position: 1
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
