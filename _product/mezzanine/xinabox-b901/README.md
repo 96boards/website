@@ -31,8 +31,8 @@ product_buy_links:
 product_more_info:
   - title: B901-96 Wiki
     link: https://wiki.xinabox.cc/B901_-_96_Boards_Bridge
-  - title: B901-96 Github
-    link: https://github.com/xinabox/xB901
+  - title: B901-96 Guides on Github
+    link: https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901
 product: true
 ---
 
@@ -47,6 +47,6 @@ This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboar
 ## Additional Resources
 
 - [B901-96 Wiki](https://wiki.xinabox.cc/B901_-_96_Boards_Bridge)
-- [B901-96 on Github](https://github.com/xinabox/xB901)
+- [B901-96 Guides on Github](https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901)
 
 
