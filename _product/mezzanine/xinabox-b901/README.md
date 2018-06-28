@@ -21,7 +21,7 @@ product_specification: "mezzanine"
 product_short_desc: "This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc."
 product_long_desc: |-
     This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
-    product_images:
+product_images:
   - xinabox-b901-front-sd.png
   - xinabox-b901-back-sd.png
 product_buy_links:
@@ -33,12 +33,6 @@ product_more_info:
     link: https://wiki.xinabox.cc/B901_-_96_Boards_Bridge
   - title: B901-96 Github
     link: https://github.com/xinabox/xB901
-product_includes:
-  - quantity: 1
-    name: 96Boards UART
-    id: 96B-05UART-V1.1
-  - quantity: 2
-    name: 2mm shunts
 product: true
 ---
 
