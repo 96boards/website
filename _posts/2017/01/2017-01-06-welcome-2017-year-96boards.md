@@ -483,7 +483,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Alpha Star thread starts](http://forum.alpha-star.org/main-forum/the-first-experience-of-x20-96boards/) around 96Boards MediaTek X20
 
 
-  * [Open Source India blogs](http://opensourceindia.in/osidays/building-embedded-iot-products-made-easy-96boards-org/) on Embedded and IoT Products made easy with 96Boards
+  * Open Source India blogs on Embedded and IoT Products made easy with 96Boards
 
 
   * [Electronics Lab blog](http://www.electronics-lab.com/ble-carbon-new-28-iot-edition-sbc/) on BLE 96Boards Carbon
