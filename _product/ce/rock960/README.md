@@ -45,7 +45,7 @@ product_more_info:
       link: https://www.96rocks.com/
 product_os:
   - title: AOSP
-    link: /documentation/consumer/rock960/downloads/aosp.md.html
+    link: https://source.android.com/setup/
   - title: Debian
     link: /documentation/consumer/rock960/downloads/debian.md.html
   - title: Ubuntu
