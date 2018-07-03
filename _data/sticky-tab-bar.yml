@@ -6,7 +6,7 @@ pages:
         url: /services/about/
       - title: Partners
         url: /services/partners/
-    urls: [/services/,/openhours/about/,/openhours/partners/]
+    urls: [/services/,/services/about/,/services/partners/]
   - list:
       - title: OpenHours
         url: /openhours/
