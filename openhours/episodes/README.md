@@ -24,20 +24,18 @@ layout: container-breadcrumb-tabs
 | 120     | 4 Oct 2018     | TBD                     | TBD                                     | N/A                                                     |
 | 119     | 27 Sept 2018   | Q&A                     | Scheduled Q&A                           | N/A                                                     |
 | 118     | 20 Sept 2018   | 96Boards & Partners     | OpenHours Live in Vancouver - Canada    | N/A                                                     |
-| 117     | 13 Sept 2018   | TBD                     | TBD                                     | N/A                                                     |
-| 116     | 20 Sept 2018   | TBD                     | TBD                                     | N/A                                                     |
-| 115     | 13 Sept 2018   | TBD                     | TBD                                     | N/A                                                     |
-| 114     | 6 Sept 2018    | TBD                     | TBD                                     | N/A                                                     |
+| 115     | 13 Sept 2018   | Maciej Halasz           | embedded Linux security                 | N/A                                                     |
+| 114     | 6 Sept 2018    | S. Alex Martin          | A day in the SciCom Community           | N/A                                                     |
 | 113     | 30 Aug 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                     |
 | 112     | 23 Aug 2018    | John Martin             | Martin Soft - Software Development      | N/A                                                     |
 | 111     | 16 Aug 2018    | Yossi, Nazik            | Novtech and 96Boards                    | N/A                                                     |
 | 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | N/A                                                     |
 | 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | N/A                                                     |
-| 108     | 26 Jul 2018    | Ron Justin, Michael Welling, Matthew Navarro               | GroupGets and QWERTY Embedded           | N/A                  |
+| 108     | 26 Jul 2018    | 96Boards Team           | Scheduled Q&A                           | N/A                                                     |
 | 107     | 19 Jul 2018    | Meral Arik              | Hello Chava                             | N/A                                                     |
 | 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | N/A                                                     |
-| 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | N/A                                                     |
-| 104     | 28 Jun 2018    | 96Boards Team           | Scheduled Q&A                           | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 104     | 28 Jun 2018    | Ron Justin, Michael Welling, Matthew Navarro | GroupGets and QWERTY Embedded | [Watch Video](https://youtu.be/etv9Tk2B_8M)  |
 | 103     | 21 Jun 2018    | Peter Robinson - RedHat | Introduction to Fedora IoT              | [Watch Video](https://youtu.be/4vIqCCh-iTE)             |
 | 102     | 14 Jun 2018    | Tom Cubie - Vamrs       | Introduction to the Rock960             | [Watch Video](https://youtu.be/qmdYR-kZt8I)             |
 | 101     | 7 Jun 2018     | UCSD ECE 191 Close out  | 96Boards Q2 UCSD Engineering Mentorship | [Watch Video](https://youtu.be/WfN_n9PT6q4)             |

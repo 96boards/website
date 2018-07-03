@@ -15,15 +15,15 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA2MjhUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA3MDVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with **Ron Justin** from [GroupGets](https://groupgets.com/) and **Michael Welling** of [QWERTY Embedded](http://www.qwertyembedded.com/). Thanks to these two, we were able to launch the first ever crowd funded 96Boards Mezzanine! Michael, who is the lead maintainer of the [96Boards Mezzanine Community](https://github.com/96boards/mezzanine-community), created a GPS/Proto/Debug Mezzanine and open sourced it in the above mentioned repository. With major help from Ron at GroupGets, we were able to get this board posted... Now comes to task of getting it funded! For this livestream, we will gloss over the crowd funding event; however, we are more interested in talking about these two great companies! We will be taking questions and having fun, so don't miss out! See you at the end of the countdown :-)
+**This week**, we will be meeting with **Ramon Horkany** and **Guy Zohar** from [Shiratech Solutions](http://www.shiratech-solutions.com/). Shiratech is a new 96Boards partner who has hit the ground running with two amazing 96Boards mezzanine boards, which will soon be available to the public! Want to know more about these products? You will need to join the call! Throughout the hour long broadcast, we will talk about Shiratech's new tech, ask and answer questions from the community and showcase one of these new mezzanine with a fun demo! The demo will be brought to you by [Sahaj, the Barbarian / Conquerer](https://www.youtube.com/channel/UCG0ZBOEf1_S2sPFR5aTIaGw) our famous 96Boards engineer and YouTuber (Thx Todd :-P). Don't miss this one, but if you do... You can always watch the recording on [YouTube](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), but that will never be as much fun... Get your coffee, see you soon.
 
-The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
