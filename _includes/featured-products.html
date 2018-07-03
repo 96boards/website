@@ -1,2 +1,61 @@
-<h1> Each board has its own unique features, you can <strong>pick and choose</strong> <br />
-one based on the project you are working on.</h1>
+<div class="row" id="featured-products-row">
+    <div class="container">
+        <div class="row">
+            <h2 id="featured-boards">
+                Each board has its own <strong>unique features</strong>, you can <strong>pick and choose</strong><br />
+                one based on the project you are working on.
+            </h2>
+        </div>
+        <div class="row">
+            <div id="featured-products-wrapper" class="hidden-xs">
+
+                {% assign featured-products = site.product | where: "product", "true" | sample: 6  %}
+                
+                {% for product in featured-products %}
+                    {% assign url-name = product.permalink | split: "/" %}
+                    {% assign url-slug = url-name[2] %}
+                    
+                    {% if forloop.index < 4 %}
+                    <a href="{{product.url}}">
+                        <div class="col-sm-4 featured-product">
+                            <h3 class="featured-product-title">{{product.title}}</h3>
+                            {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
+                            <div class="lazyload featured-product-image" style="background-image: url(/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}})"></div>
+                        </div>
+                    </a>
+                    {% else %}
+                    <a href="{{product.url}}">
+                        <div class="col-sm-4 featured-product bottom">
+                            <h3 class="featured-product-title">{{product.title}}</h3>
+                            {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
+                            <div class="lazyload featured-product-image" style="background-image: url(/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}})"></div>
+                        </div>
+                    </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            
+            <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">
+                {% assign featured-products = site.product | where: "product", "true" | sample: 6  %}
+                
+                {% for product in featured-products %}
+                    {% assign url-name = product.permalink | split: "/" %}
+                    {% assign url-slug = url-name[2] %}
+                    <div class="owl-item__inner">
+                        <div class="col-xs-12 visible-xs">
+                            <h3 class="featured-product-title">{{product.title}}</h3>
+                            {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
+                            <div class="lazyload featured-product-image" style="background-image: url(/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}})"></div>
+                        </div>
+                    </div>
+                {% endfor %}               
+            </div> <!-- // home product-carousel -->
+            
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <a id="explore-boards" class="btn explore-btn" href="/products/">Explore Boards</a>
+            </div>
+        </div>
+    </div>
+</div>
