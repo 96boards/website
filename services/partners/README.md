@@ -1,6 +1,6 @@
 ---
 title: Partners
-permalink: /openhours/partners/
+permalink: /services/partners/
 layout: container-breadcrumb-tabs
 ---
 # 96Boards Service Partners
