@@ -159,3 +159,5 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 {:.hidden_rows}
 
 </div>
+
+<a href="/documentation/consumer/dragonboard410c/hardware-docs/files/compliance-db410c.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
