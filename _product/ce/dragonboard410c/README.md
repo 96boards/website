@@ -133,8 +133,6 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -156,8 +154,5 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android / Linux / Windows IoT Core                                                    |
 |  Size                | 85mm x 54mm                                                                                      |
-{:.hidden_rows}
-
-</div>
 
 <a href="/documentation/consumer/dragonboard410c/hardware-docs/files/compliance-db410c.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
