@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA3MDVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA3MTJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with **Ramon Horkany** and **Guy Zohar** from [Shiratech Solutions](http://www.shiratech-solutions.com/). Shiratech is a new 96Boards partner who has hit the ground running with two amazing 96Boards mezzanine boards, which will soon be available to the public! Want to know more about these products? You will need to join the call! Throughout the hour long broadcast, we will talk about Shiratech's new tech, ask and answer questions from the community and showcase one of these new mezzanine with a fun demo! The demo will be brought to you by [Sahaj, the Barbarian / Conquerer](https://www.youtube.com/channel/UCG0ZBOEf1_S2sPFR5aTIaGw) our famous 96Boards engineer and YouTuber (Thx Todd :-P). Don't miss this one, but if you do... You can always watch the recording on [YouTube](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), but that will never be as much fun... Get your coffee, see you soon.
+**This week**, we will be speaking with **Andrew** from [Distrupt it Yourself](https://www.instagram.com/disruptityourself/), who uses 3D printers and other disruptive tools to encourage others to make! Andrew is well versed and fun to listen to, and his instagram feed is usually filled with great stories about the many cool things he has going on. I think it is fair to say, Andrew will be the most experience 3D printer entusiast to ever join us on OpenHours. This is the time to bring any questions around this topic. We at 96Boards have a great segment planned, and hope you will all join us for the fun. Bring your coffee or tea, and join us at the end of the countdown! See you on Thursday!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
