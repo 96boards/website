@@ -90,7 +90,6 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -105,6 +104,3 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Linux                                                                                        |
 |  Size                | 85mm x 54mm                                                                                      |
-{:.hidden_rows}
-
-</div>
