@@ -52,12 +52,15 @@ product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
 product_os:
-  - title: Coming Soon...
+  - title: Linux
+    link: /documentation/consumer/ultra96/downloads/linux.md
 product_middleware:
   - title: Coming Soon...
 product_third_party_images:
   - title: OpenSUSE
     link: https://en.opensuse.org/HCL:Ultra96
+  - title: X-Ware
+    link: http://www.ultra96.org/node/26011
 product_more_info:
     - title: Avnet
     - link: https://linaro.co/ultra96-vendor-avnet
