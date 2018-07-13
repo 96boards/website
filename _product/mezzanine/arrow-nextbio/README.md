@@ -20,8 +20,8 @@ product_short_desc: "The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX 
 product_long_desc: |-
   Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 product_images:
-- nextbio-front-sd.jpg
 - nextbio-back-sd.jpg
+- nextbio-front-sd.jpg
 product_buy_links:
 -
   link-title: Arrow
