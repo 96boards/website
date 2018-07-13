@@ -53,7 +53,7 @@ product_more_info:
       link: https://linaro.co/ultra96-vendor-avnet
 product_os:
   - title: Linux
-    link: /documentation/consumer/ultra96/downloads/linux.md
+    link: /documentation/consumer/ultra96/downloads/
 product_middleware:
   - title: Coming Soon...
 product_third_party_images:
