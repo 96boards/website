@@ -21,7 +21,10 @@ Coming Soon...
 
 ## The Kit
 
-Coming Soon...
+- [DragonBoard 410c](https://developer.qualcomm.com/hardware/dragonboard-410c), by Arrow Electronics, featuring the Qualcomm® Snapdragon™ 410 processor
+- [Arrow LinkSprite](https://www.96boards.org/products/mezzanine/)
+
+For optional add ons, visit the [96Boards website](https://www.96boards.org/)
 
 ***
 
@@ -35,11 +38,33 @@ Coming Soon...
 
 #### Online Office Hours
 
-Coming Soon...
+<iframe width="321" height="165" src="https://w2.countingdownto.com/2215188" frameborder="0"></iframe>
+
+1) Install BlueJeans video conferencing software on your desktop or mobile device
+   - [Desktop download](https://www.bluejeans.com/downloads)
+   - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
+2) Launch BlueJeans applications
+3) Use the following ID to join the weekly call
+   - ID: 943216362
+
+NOTE - You can also join via web browser with the following link: https://bluejeans.com/943216362
 
 ***
 
 ## Resources
+
+- DragonBoard 410c Landing page
+   - [96Boards Landing Page](https://www.96boards.org/product/dragonboard410c/)
+   - [Documentation](https://github.com/96boards/documentation)
+- Projects
+   - [Instructables](http://www.instructables.com/howto/dragonboard+qualcomm/)
+   - [96Boards](https://www.96boards.org/projects/)
+   - [Qualcomm Developer Network](https://developer.qualcomm.com/project)
+- Workshop presentation
+   - [Presentation](http://bit.ly/2lzW7ox)
+- 96Boards OpenHours
+   - [Website](https://www.96boards.org/openhours/)
+   - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 #### Getting started
 
@@ -60,9 +85,6 @@ Coming Soon...
 #### Support
 
 Coming Soon...
-
-
-{% include image.html name="BrazilPartnershipGoImg4.jpg" alt="Dragonboard410c Partnership Brazil Image 4"%}
 
 </div>
 

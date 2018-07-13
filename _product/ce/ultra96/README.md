@@ -52,15 +52,16 @@ product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
 product_os:
-  - title: Coming Soon...
-product_middleware:
-  - title: Coming Soon...
+  - title: Linux
+    link: /documentation/consumer/ultra96/downloads/
 product_third_party_images:
   - title: OpenSUSE
     link: https://en.opensuse.org/HCL:Ultra96
+  - title: X-Ware
+    link: http://www.ultra96.org/node/26011
 product_more_info:
-    - title: Avnet
-    - link: https://linaro.co/ultra96-vendor-avnet
+  - title: Avnet Zedboard
+    link: http://zedboard.org/product/ultra96
 product_accessories:
   - title: Power
     link: /product/power/
@@ -90,7 +91,6 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -105,6 +105,3 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Linux                                                                                        |
 |  Size                | 85mm x 54mm                                                                                      |
-{:.hidden_rows}
-
-</div>

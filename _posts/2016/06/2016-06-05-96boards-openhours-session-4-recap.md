@@ -520,7 +520,7 @@ I'm putting it in a very small box... may need to try to use grove or i2c for Et
 
 S
 
-In response to Tervor's question, take a look at the SD 600eval here: [https://eragon.einfochips.com/products/single-board-computers/sd-600eval.html](https://eragon.einfochips.com/products/single-board-computers/sd-600eval.html)
+In response to Tervor's question, take a look at the SD 600eval here: LINK REMOVED
 
 
 

@@ -92,8 +92,6 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -111,6 +109,3 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 | OS Support:          | Android<br>Linux                                                                                 |
 | Mechanical:          | 105.26mm by 100mm meeting 96Boards Consumer Edition standard dimensions specifications.          | 
 | Environmental:       | Operating Temp: 0°C to +70°C RoHS and Reach compliant                                            |
-{:.hidden_rows}
-
-</div>

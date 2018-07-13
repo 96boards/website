@@ -87,8 +87,6 @@ a commercial product.
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                  |
 |:---------------------|:-------------------------------------------------------------------------------|
@@ -110,8 +108,3 @@ a commercial product.
 |  Power Source        | 96Boards compliant power supply                  |
 |  OS Support          | Linux Debian today<br>Linux OpenEmbedded – later 2018                          |
 |  Size                | 100mm by 85mm meeting 96Boards™ Consumer Edition ’extended’ dimensions specifications.               |
-
-
-{:.hidden_rows}
-
-</div>

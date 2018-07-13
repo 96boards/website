@@ -20,7 +20,7 @@ layout: container-breadcrumb-tabs
 | 124     | 1 Nov 2018     | TBD                     | TBD                                     | N/A                                                     |
 | 123     | 25 Oct 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                     |
 | 122     | 18 Oct 2018    | TBD                     | TBD                                     | N/A                                                     |
-| 121     | 11 Oct 2018    | TBD                     | TBD                                     | N/A                                                     |
+| 121     | 11 Oct 2018    | Janelle Letzen          | Sushi and Science                       | N/A                                                     |
 | 120     | 4 Oct 2018     | TBD                     | TBD                                     | N/A                                                     |
 | 119     | 27 Sept 2018   | Q&A                     | Scheduled Q&A                           | N/A                                                     |
 | 118     | 20 Sept 2018   | 96Boards & Partners     | OpenHours Live in Vancouver - Canada    | N/A                                                     |
@@ -32,9 +32,9 @@ layout: container-breadcrumb-tabs
 | 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | N/A                                                     |
 | 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | N/A                                                     |
 | 108     | 26 Jul 2018    | 96Boards Team           | Scheduled Q&A                           | N/A                                                     |
-| 107     | 19 Jul 2018    | Meral Arik              | Hello Chava                             | N/A                                                     |
-| 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | N/A                                                     |
-| 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 107     | 19 Jul 2018    | Meral Arik & Isaac      | Hello Chava                             | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | [Watch Video](https://youtu.be/aVRpdbIa0jg)             |
+| 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | [Watch Video](https://youtu.be/v0ZLiVPP-So)             |
 | 104     | 28 Jun 2018    | Ron Justin, Michael Welling, Matthew Navarro | GroupGets and QWERTY Embedded | [Watch Video](https://youtu.be/etv9Tk2B_8M)  |
 | 103     | 21 Jun 2018    | Peter Robinson - RedHat | Introduction to Fedora IoT              | [Watch Video](https://youtu.be/4vIqCCh-iTE)             |
 | 102     | 14 Jun 2018    | Tom Cubie - Vamrs       | Introduction to the Rock960             | [Watch Video](https://youtu.be/qmdYR-kZt8I)             |
