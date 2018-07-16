@@ -2,7 +2,7 @@
 <html lang="en-US">
   <meta charset="utf-8">
   <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="{{ page.redirect.to }}">
+  <link rel="canonical" href="{{ page.redirect.to | replace: site.url, "" }}">
   <script>location="{{ page.redirect.to | replace: site.url, "" }}"</script>
   <meta http-equiv="refresh" content="0; url={{ page.redirect.to | replace: site.url, "" }}">
   <meta name="robots" content="noindex">
