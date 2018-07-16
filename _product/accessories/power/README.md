@@ -27,7 +27,7 @@ accessories:
     accessory_order_link:
         - http://cpc.farnell.com/ideal-power/25hk-ab-120a250-cp6/psu-desktop-plug-in-12v-2-5a-vi/dp/PW04128?rpsku=rel1:PW03336&isexcsku=false
     accessory_search_term: 25HK-AB-120A250-CP
-    accessory_more_info: http://www.idealpower.co.uk/external-power-supply/interchangeable-switched-mode/25HK-AB-120A250-CP
+    accessory_more_info: https://www.idealpower.co.uk/products/25hk-ab-120a250-cp/
     accessory_images:
         - accessories-2.png
   - accessory_permalink: /product/power/
