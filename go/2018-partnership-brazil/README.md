@@ -15,7 +15,7 @@ layout: container-breadcrumb
 
 ## Introduction
 
-Coming Soon...
+For the duration of this partnership, 96Boards will host a several support channels and events to compliment the contest and expand on the resources available to all participants. For more information, you can continue to explore this page, and/or [visit last years event page](https://www.96boards.org/go/db410c-partnership-brazil/).
 
 ***
 
@@ -27,16 +27,6 @@ Coming Soon...
 For optional add ons, visit the [96Boards website](https://www.96boards.org/)
 
 ***
-
-## Events
-
-Coming Soon...
-
-#### Livestreams
-
-Coming Soon...
-
-#### Online Office Hours
 
 <iframe width="321" height="165" src="https://w2.countingdownto.com/2215188" frameborder="0"></iframe>
 
@@ -66,25 +56,15 @@ NOTE - You can also join via web browser with the following link: https://blueje
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
-#### Getting started
+#### Walkthrough
 
-Coming Soon...
-
-#### Connectivity
-
-Coming Soon...
-
-#### Peripherals (I/O) access and sample code
-
-Coming Soon...
-
-#### Documentation
-
-Coming Soon...
-
-#### Support
-
-Coming Soon...
+- Getting Started
+- Guides
+- Change your OS
+- Connectivity
+   - WiFi
+   - Bluetooth
+   - GPS
 
 </div>
 
