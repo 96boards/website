@@ -36,8 +36,6 @@ Coming Soon...
 
 Coming Soon...
 
-#### Online Office Hours
-
 <iframe width="321" height="165" src="https://w2.countingdownto.com/2215188" frameborder="0"></iframe>
 
 1) Install BlueJeans video conferencing software on your desktop or mobile device
