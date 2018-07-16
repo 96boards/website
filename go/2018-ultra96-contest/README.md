@@ -76,7 +76,7 @@ NOTE - You can also join via web browser with the following link: https://blueje
 
 {% include media.html media_url="https://www.youtube.com/embed/kIZd8CDgsWE?feature=oembed" %}
 
-* * *
+***
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
