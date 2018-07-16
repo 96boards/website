@@ -4,7 +4,12 @@ description: |-
     Ultra96 Contest by Xilinx, Avnets and Hackster.io
 permalink: /go/2018-ultra96-contest/
 layout: container-breadcrumb
+css-package: openhours
+js-package: openhours
 ---
+
+<div class="col-md-6" markdown="1">
+
 ## Ultra96 Contest - 2018
 
 ## Introduction
@@ -15,7 +20,8 @@ Coming Soon...
 
 ## The Kit
 
-- [Ultra96](https://www.96boards.org/product/ultra96/), by Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
+- [Ultra96](https://www.96boards.org/product/ultra96/)
+   - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
 
 For optional add ons, visit the [96Boards website](https://www.96boards.org/)
 
@@ -26,19 +32,19 @@ For optional add ons, visit the [96Boards website](https://www.96boards.org/)
 - Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest
    - Date: TBD
    - Presenter(s): TBD
-   - Add to your Calendar
+   - [Add to your Calendar]()
 - Introduction to the Ultra96 by Avnet
    - Date: TBD
    - Presenter(s): TBD
-   - Add to your Calendar
+   - [Add to your Calendar]()
 - Ultra96 Deep Dive
    - Date: TBD
    - Presenter(s): TBD
-   - Add to your Calendar
+   - [Add to your Calendar]()
 - SDSoC - Introduction and Deep dive
    - Date: TBD
    - Presenter(s): TBD
-   - Add to your Calendar
+   - [Add to your Calendar]()
 
 #### Online Office Hours
 
@@ -71,13 +77,14 @@ NOTE - You can also join via web browser with the following link: https://blueje
 ***
 
 </div>
-
-<div class="col-md-3" markdown="1">
+<div class="col-md-6">
+<div class="openhours-panel" markdown="1" id="openhours-panel">
 
 {% include media.html media_url="https://www.youtube.com/embed/kIZd8CDgsWE?feature=oembed" %}
 
-* * *
+***
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
+</div>
 </div>
