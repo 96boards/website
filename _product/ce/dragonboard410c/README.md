@@ -18,10 +18,10 @@ product_images:
 # Sub Tab Menu Items
 product_tab_menu:
     - tab_title: Getting Started
-      tab_link: /documentation/consumer/dragonboard410c/getting-started/
+      tab_link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
       tab_position: 1
     - tab_title: Documentation
-      tab_link: /documentation/consumer/dragonboard410c/
+      tab_link: /documentation/consumer/dragonboard/dragonboard410c/
       tab_position: 2
     - tab_title: Tutorials
       tab_link: /tutorials/dragonboard410c/
@@ -30,7 +30,7 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 4
       tab_align_right: true
-product_getting_started: /documentation/consumer/dragonboard410c/getting-started/
+product_getting_started: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
 product_documentation_link: /documentation/consumer/dragonboard410c/
 product_tutorials_link: /tutorials/dragonboard410c/
 product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
@@ -120,11 +120,11 @@ product_mezzanine:
 
 product_kits:
   - title: Basic Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
   - title: Audio Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/audio-kit/
   - title: AWS IoT Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 product: true
 ---
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced
@@ -155,4 +155,4 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 |  OS Support          | Android / Linux / Windows IoT Core                                                    |
 |  Size                | 85mm x 54mm                                                                                      |
 
-<a href="/documentation/consumer/dragonboard410c/hardware-docs/files/compliance-db410c.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
+<a href="/documentation/consumer/dragonboard/dragonboard410c/hardware-docs/files/compliance-db410c.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
