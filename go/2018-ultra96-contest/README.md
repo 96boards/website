@@ -23,11 +23,22 @@ For optional add ons, visit the [96Boards website](https://www.96boards.org/)
 
 ## Webinar Series
 
-Coming Soon...
-
-#### Livestreams
-
-Coming Soon...
+- Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest
+   - Date: TBD
+   - Presenter(s): TBD
+   - Add to your Calendar
+- Introduction to the Ultra96 by Avnet
+   - Date: TBD
+   - Presenter(s): TBD
+   - Add to your Calendar
+- Ultra96 Deep Dive
+   - Date: TBD
+   - Presenter(s): TBD
+   - Add to your Calendar
+- SDSoC - Introduction and Deep dive
+   - Date: TBD
+   - Presenter(s): TBD
+   - Add to your Calendar
 
 #### Online Office Hours
 
@@ -57,24 +68,16 @@ NOTE - You can also join via web browser with the following link: https://blueje
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
-#### Getting started
-
-Coming Soon...
-
-#### Connectivity
-
-Coming Soon...
-
-#### Peripherals (I/O) access and sample code
-
-Coming Soon...
-
-#### Documentation
-
-Coming Soon...
-
-#### Support
-
-Coming Soon...
-
 ***
+
+</div>
+
+<div class="col-md-3" markdown="1">
+
+{% include media.html media_url="https://www.youtube.com/embed/kIZd8CDgsWE?feature=oembed" %}
+
+* * *
+
+{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
+
+</div>
