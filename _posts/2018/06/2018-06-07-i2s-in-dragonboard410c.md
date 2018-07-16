@@ -6,14 +6,14 @@ image:
     featured: true
     path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
     name: DragonBoard-UpdatedImages-front.png
-    thumb: DragonBoard-UpdatedImages-front.png 
+    thumb: DragonBoard-UpdatedImages-front.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Dragonboard410c, Qualcomm, I2S, Audio, ALSA
 ---
 
 # Introduction
 
-When you look at the spec of [Dragonboard410c](https://www.96boards.org/documentation/consumer/dragonboard410c/hardware-docs/hardware-user-manual.md.html), there will be 2 I2S ports mentioned.
+When you look at the spec of [Dragonboard410c](/documentation/consumer/dragonboard/dragonboard410c/hardware-docs/hardware-user-manual.md.html), there will be 2 I2S ports mentioned.
 However, on the [release image](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/)
 provided by Qualcomm Landing team, only one I2S will be used (for HDMI). The other
 one will be on the Low Speed Expansion header but since nothing is connected to those
@@ -103,7 +103,7 @@ index 9ff848792712..7615b804da94 100644
 +++ b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
 @@ -442,7 +442,7 @@
                          reg-names = "mic-iomux", "spkr-iomux";
- 
+
                          status = "okay";
 -                        pinctrl-0 = <&cdc_pdm_lines_act &ext_sec_tlmm_lines_act &ext_mclk_tlmm_lines_act>;
 +                        pinctrl-0 = <&cdc_pdm_lines_act &ext_sec_tlmm_lines_act &ext_mclk_tlmm_lines_act &ext_pri_tlmm_lines_act &ext_pri_ws_act>;
@@ -123,10 +123,10 @@ index 704428735e3c..6da13cc573f2 100644
 +#define SPKR_CTL_DATA0_EN		BIT(4)
 +
  #define DEFAULT_MCLK_RATE		9600000
- 
+
  static int apq8016_sbc_dai_init(struct snd_soc_pcm_runtime *rtd)
 @@ -51,7 +55,9 @@ static int apq8016_sbc_dai_init(struct snd_soc_pcm_runtime *rtd)
- 
+
  	switch (cpu_dai->id) {
  	case MI2S_PRIMARY:
 -		writel(readl(pdata->spkr_iomux) | SPKR_CTL_PRI_WS_SLAVE_SEL_11,
@@ -135,15 +135,15 @@ index 704428735e3c..6da13cc573f2 100644
 +				SPKR_CTL_DATA1_EN,
  			pdata->spkr_iomux);
  		break;
- 
--- 
+
+--
 2.16.2
 ```
 
 # Building and Flashing the kernel
 
 After applying the above diff, build and flash the kernel on to Dragonboard410c
-using the instructions specified [here](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/build/kernel.md#3-build-linux-kernel).
+using the instructions specified [here](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/build/kernel.md#3-build-linux-kernel).
 
 # Testing LS I2S Output
 
