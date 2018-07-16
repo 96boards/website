@@ -12,9 +12,7 @@ js-package: openhours
 
 ## Ultra96 Contest - 2018
 
-## Introduction
-
-Coming Soon...
+Xilinx and Avnet have teamed up to make the amazing [Ultra96](https://www.96boards.org/product/ultra96/)! Of course, since this is a 96Boards Consumer Edition board, it only makes sense for our team to be involved. 
 
 ***
 
@@ -46,19 +44,6 @@ For optional add ons, visit the [96Boards website](https://www.96boards.org/)
    - Presenter(s): TBD
    - [Add to your Calendar]()
 
-#### Online Office Hours
-
-<iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
-
-1) Install BlueJeans video conferencing software on your desktop or mobile device
-   - [Desktop download](https://www.bluejeans.com/downloads)
-   - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
-2) Launch BlueJeans applications
-3) Use the following ID to join the weekly call
-   - ID: 943216362
-
-NOTE - You can also join via web browser with the following link: https://bluejeans.com/943216362
-
 ***
 
 ## Resources
@@ -80,7 +65,20 @@ NOTE - You can also join via web browser with the following link: https://blueje
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
 
-{% include media.html media_url="https://www.youtube.com/embed/kIZd8CDgsWE?feature=oembed" %}
+## Online Office Hours
+
+<iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
+
+1) Install BlueJeans video conferencing software on your desktop or mobile device
+   - [Desktop download](https://www.bluejeans.com/downloads)
+   - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
+2) Launch BlueJeans applications
+3) Use the following ID to join the weekly call
+   - ID: 943216362
+
+NOTE - You can also join via web browser with the following link: https://bluejeans.com/943216362
+
+{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W0V7iIE5UTj12IvvpAfUdhj" %}
 
 ***
 
