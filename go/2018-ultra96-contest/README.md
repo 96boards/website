@@ -20,8 +20,7 @@ Xilinx and Avnet have teamed up to make the amazing [Ultra96](https://www.96boar
 
 - [Ultra96](https://www.96boards.org/product/ultra96/)
    - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
-
-For optional add ons, visit the [96Boards website](https://www.96boards.org/)
+- [Optional Mezzanine Add on](https://www.96boards.org/products/mezzanine/)
 
 ***
 
