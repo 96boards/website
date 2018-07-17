@@ -76,12 +76,9 @@ js-package: openhours
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
 
-- 1) Install BlueJeans video conferencing software on your desktop or mobile device
-   - [Desktop download](https://www.bluejeans.com/downloads)
-   - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
-- 2) Launch BlueJeans applications
-- 3) Use the following ID to join the weekly call
-   - ID: 943216362
+1) Install BlueJeans video conferencing software on your desktop or mobile device: ([Desktop download](https://www.bluejeans.com/downloads) / [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet))
+2) Launch BlueJeans applications
+3) Use the following ID to join the weekly call: 943216362
 
 **NOTE - You can also join via web browser with the following link: [https://bluejeans.com/943216362](https://bluejeans.com/943216362)**
 
