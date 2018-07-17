@@ -54,6 +54,9 @@ members:
           - name: Texas Instruments
             image: texas-instruments.png
             url: https://www.linaro.org/company/texas-instruments/
+          - name: Tier IV
+            image: tier4.png
+            url: https://www.tier4.jp/
           - name: ThunderSoft
             image: thunder-soft.png
             url: https://www.linaro.org/company/thundersoft/
