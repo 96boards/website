@@ -34,19 +34,19 @@ js-package: openhours
 
 ## Webinar Series
 
-- Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest
+- **Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- Introduction to the Ultra96 by Avnet
+- **Introduction to the Ultra96 by Avnet**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- Ultra96 Deep Dive
+- **Ultra96 Deep Dive**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- SDSoC - Introduction and Deep dive
+- **SDSoC - Introduction and Deep dive**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
@@ -55,16 +55,16 @@ js-package: openhours
 
 ## Resources
 
-- Ultra96 Landing page
+- **Ultra96 Landing page**
    - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Zed Board](http://zedboard.org/product/ultra96)
-- Projects
+- **Projects**
    - Coming soon...
-- Workshop
+- **Workshop**
    - Coming soon...
-- [Blogs](https://www.96boards.org/blog/)
-- 96Boards OpenHours
+- **[Blogs](https://www.96boards.org/blog/)**
+- **96Boards OpenHours**
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
@@ -76,12 +76,9 @@ js-package: openhours
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
 
-- 1) Install BlueJeans video conferencing software on your desktop or mobile device
-   - [Desktop download](https://www.bluejeans.com/downloads)
-   - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
-- 2) Launch BlueJeans applications
-- 3) Use the following ID to join the weekly call
-   - ID: 943216362
+1) Install BlueJeans video conferencing software on your desktop or mobile device: ([Desktop download](https://www.bluejeans.com/downloads) / [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet))
+2) Launch BlueJeans applications
+3) Use the following ID to join the weekly call: 943216362
 
 **NOTE - You can also join via web browser with the following link: [https://bluejeans.com/943216362](https://bluejeans.com/943216362)**
 
