@@ -12,11 +12,19 @@ js-package: openhours
 
 ## Ultra96 Contest - 2018
 
-Xilinx and Avnet have teamed up to make the amazing [Ultra96](https://www.96boards.org/product/ultra96/)! Of course, since this is a 96Boards Consumer Edition board, it only makes sense for our team to be involved. 
+[Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](https://www.96boards.org/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
+
+**On this page, you will find...**
+
+- Special Event Schedule
+- 96Boards resources
+- Ultra96 resources
+- Link to fun blogs and videos
+- and more!
 
 ***
 
-## The Kit
+## Contest Kit
 
 - [Ultra96](https://www.96boards.org/product/ultra96/)
    - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
@@ -50,10 +58,12 @@ Xilinx and Avnet have teamed up to make the amazing [Ultra96](https://www.96boar
 - Ultra96 Landing page
    - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
+   - [Zed Board](http://zedboard.org/product/ultra96)
 - Projects
    - Coming soon...
 - Workshop
    - Coming soon...
+- [Blogs](https://www.96boards.org/blog/)
 - 96Boards OpenHours
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
@@ -64,22 +74,26 @@ Xilinx and Avnet have teamed up to make the amazing [Ultra96](https://www.96boar
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
 
-## Online Office Hours
-
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
 
-1) Install BlueJeans video conferencing software on your desktop or mobile device
+- 1) Install BlueJeans video conferencing software on your desktop or mobile device
    - [Desktop download](https://www.bluejeans.com/downloads)
    - [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet)
-2) Launch BlueJeans applications
-3) Use the following ID to join the weekly call
+- 2) Launch BlueJeans applications
+- 3) Use the following ID to join the weekly call
    - ID: 943216362
 
-NOTE - You can also join via web browser with the following link: https://bluejeans.com/943216362
+**NOTE - You can also join via web browser with the following link: [https://bluejeans.com/943216362](https://bluejeans.com/943216362)**
+
+***
+
+## Ultra96 Playlist
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W0V7iIE5UTj12IvvpAfUdhj" %}
 
 ***
+
+## OpenHours Playlist
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
