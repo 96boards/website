@@ -34,19 +34,19 @@ js-package: openhours
 
 ## Webinar Series
 
-- Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest
+- **Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- Introduction to the Ultra96 by Avnet
+- **Introduction to the Ultra96 by Avnet**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- Ultra96 Deep Dive
+- **Ultra96 Deep Dive**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
-- SDSoC - Introduction and Deep dive
+- **SDSoC - Introduction and Deep dive**
    - Date: TBD
    - Presenter(s): TBD
    - [Add to your Calendar]()
@@ -55,16 +55,16 @@ js-package: openhours
 
 ## Resources
 
-- Ultra96 Landing page
+- **Ultra96 Landing page**
    - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Zed Board](http://zedboard.org/product/ultra96)
-- Projects
+- **Projects**
    - Coming soon...
-- Workshop
+- **Workshop**
    - Coming soon...
-- [Blogs](https://www.96boards.org/blog/)
-- 96Boards OpenHours
+- **[Blogs](https://www.96boards.org/blog/)**
+- **96Boards OpenHours**
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
