@@ -84,8 +84,6 @@ product_middleware:
     link: https://github.com/ArrowElectronics/att-iot-device-sdk
   - title: ROS
     link: http://wiki.ros.org/kinetic/Installation/Debian
-  - title: Microsoft Azure IoT Suite
-    link: https://www.microsoft.com/en-us/cloud-platform/internet-of-things#AzureIoT
 
 product_third_party_images:
   - title: Windows 10 IoT Core
