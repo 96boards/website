@@ -111,7 +111,6 @@ Hikey relaunched by Lemaker
 
 </div>
 
-Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/hikey/hardware-docs/hardware-user-manual.md) for more information
+Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/hardware-docs/hardware-user-manual.md) for more information
 
-<a href="/documentation/consumer/hikey/hardware-docs/files/compliance-hikey.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
-
+<a href="/documentation/consumer/hikey/hikey620/hardware-docs/files/compliance-hikey.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>

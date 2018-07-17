@@ -215,5 +215,18 @@
     "^/wp-content/uploads/2015/01/96Boards-website-logo.png$ /assets/logo.svg [R,L,NC]",
     "^/wp-content/uploads/2015/02/96BoardsCESpecificationv1.0-EA1.pdf$ https://linaro.co/ce-specification [R,L,NC]",
     "^/wp-content/uploads/2015/02/GettingStarted-HiKeyEarlyAccess-EA1.pdf$ /documentation/consumer/hikey/ [R,L,NC]",
-    "^/x20(/?|/index.html)$ /product/mediatek-x20/ [R,L,NC]"
+    "^/x20(/?|/index.html)$ /product/mediatek-x20/ [R,L,NC]",
+    "^/documentation/consumer/dragonboard410c/(.*)$ /documentation/consumer/dragonboard/dragonboard410c/$1 [R,L]",
+    "^/documentation/consumer/dragonboard820c/(.*)$ /documentation/consumer/dragonboard/dragonboard820c/$1 [R,L]",
+    "^/documentation/consumer/hikey/additional-docs/(.*)$ /documentation/consumer/hikey/hikey620/additional-docs/$1 [R,L]",
+    "^/documentation/consumer/hikey/build/(.*)$ /documentation/consumer/hikey/hikey620/build/$1 [R,L]",
+    "^/documentation/consumer/hikey/downloads/(.*)$ /documentation/consumer/hikey/hikey620/downloads/$1 [R,L]",
+    "^/documentation/consumer/hikey/getting-started/(.*)$ /documentation/consumer/hikey/hikey620/getting-started/$1 [R,L]",
+    "^/documentation/consumer/hikey/guides/(.*)$ /documentation/consumer/hikey/hikey620/guides/$1 [R,L]",
+    "^/documentation/consumer/hikey/hardware-docs/(.*)$ /documentation/consumer/hikey/hikey620/hardware-docs/$1 [R,L]",
+    "^/documentation/consumer/hikey/installation/(.*)$ /documentation/consumer/hikey/hikey620/installation/$1 [R,L]",
+    "^/documentation/consumer/hikey/troubleshooting/(.*)$ /documentation/consumer/hikey/hikey620/troubleshooting/$1 [R,L]",
+    "^/documentation/consumer/hikey960/(.*)$ /documentation/consumer/hikey/hikey960/$1 [R,L]",
+    "^/documentation/consumer/hikey970/(.*)$ /documentation/consumer/hikey/hikey970/$1 [R,L]",
+    "^/documentation/consumer/rock960/(.*)$ /documentation/consumer/rock/rock960/$1 [R,L]"
 ]
