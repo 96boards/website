@@ -16,10 +16,10 @@ js-package: openhours
 
 **On this page, you will find...**
 
-- Special Event Schedule
+- Special Events Schedule
 - 96Boards resources
 - Ultra96 resources
-- Link to fun blogs and videos
+- Links to fun blogs and videos
 - and more!
 
 ***
@@ -28,23 +28,23 @@ js-package: openhours
 
 - [Ultra96](https://www.96boards.org/product/ultra96/)
    - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
-- [Optional Mezzanine Add on](https://www.96boards.org/products/mezzanine/)
+- [Optional Mezzanine Add-ons](https://www.96boards.org/products/mezzanine/)
 
 ***
 
 ## Webinar Series
 
-- **Introduction to Linaro/96Boards, Xilinx, Avnet and the Ultra96 Contest**
+- **Introduction to the Ultra96 Contest by Avnet**
    - Date: TBD
-   - Presenter(s): TBD
+   - Presenter(s): [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
    - [Add to your Calendar]()
-- **Introduction to the Ultra96 by Avnet**
+- **Introduction to Linaro/96Boards, Xilinx and Avnet**
    - Date: TBD
-   - Presenter(s): TBD
+   - Presenter(s): [Robert Wolff (96Boards)](https://www.linkedin.com/in/sdrobertw/), [Yang Zhang (96Boards)](https://www.linkedin.com/in/yangz/), [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
    - [Add to your Calendar]()
 - **Ultra96 Deep Dive**
    - Date: TBD
-   - Presenter(s): TBD
+   - Presenter(s): [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
    - [Add to your Calendar]()
 - **SDSoC - Introduction and Deep dive**
    - Date: TBD
@@ -63,7 +63,10 @@ js-package: openhours
    - Coming soon...
 - **Workshop**
    - Coming soon...
-- **[Blogs](https://www.96boards.org/blog/)**
+- **Blogs**
+   - [96Boards Blogs](https://www.96boards.org/blog/)
+   - [MicroZED Chronicles](https://blog.hackster.io/microzed-chronicles-a-look-at-the-ultra96-board-c5b8f7a02209)
+   - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
    - [Website](https://www.96boards.org/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
