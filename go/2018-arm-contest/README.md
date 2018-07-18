@@ -10,6 +10,8 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
+<a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>
+
 Coming Soon...
 
 **On this page, you will find...**
