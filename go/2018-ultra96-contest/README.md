@@ -10,8 +10,6 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
-## Ultra96 Contest - 2018
-
 [Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](https://www.96boards.org/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
 
 **On this page, you will find...**
