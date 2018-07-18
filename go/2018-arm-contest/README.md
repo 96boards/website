@@ -8,6 +8,9 @@ css-package: openhours
 js-package: openhours
 ---
 
+
+{% include image.html name="arm-contest-logo-top.jpg" alt="Arm Contest Logo top"%}
+
 <div class="col-md-6" markdown="1">
 
 <a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>
@@ -101,3 +104,6 @@ Coming Soon...
 
 </div>
 </div>
+
+{% include image.html name="arm-contest-logo-bottom.jpg" alt="Arm Contest Logo bottom"%}
+
