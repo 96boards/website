@@ -17,7 +17,6 @@ js-package: openhours
 <a href="https://www.hackster.io/contests/arm2018" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
 <a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>
 
-https://www.hackster.io/contests/arm2018
 **On this page, you will find...**
 
 - Special Events Schedule
