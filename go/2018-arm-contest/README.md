@@ -10,7 +10,7 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
-[Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted out participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
+[Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted our participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
 
  Participants will be able to develop and create on the [Ultra96](https://www.96boards.org/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!). 
 
