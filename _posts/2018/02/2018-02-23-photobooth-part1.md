@@ -47,8 +47,6 @@ Mezzanine using the instructions available in [D3 Engineering Wiki](https://gith
         bit outdated. If you want to use the latest release images from
         Linaro.org, then you need to follow the instructions I have mentioned
         in the [forum](https://discuss.96boards.org/t/getting-ov5640-camera-working-with-upcoming-kernel-releases/3826/7?u=mani).
-        Regarding this, I have submitted a [patch](https://patchwork.kernel.org/patch/10215257/) for fixing the OV5640 camera
-        sensor driver.
 
 Once the Dragonboard410c is setup with the required boot and rootfs images, verify
 the functionality of the camera by using the scripts mentioned in the Wiki.

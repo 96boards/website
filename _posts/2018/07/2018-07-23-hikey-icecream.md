@@ -57,7 +57,7 @@ The performance gain of course, isn’t very linear. There is a lot more to comp
 
 And finally here is the pic of my ghetto setup on a dirty workbench:
 
-{% include image.html name="https://i.imgur.com/8IICi1m.jpg" alt="Your alternate text." %}
+{% include image.html name="icecc3.jpg" alt="Your alternate text." %}
 
 And a few pics of Icecream Monitor:
 
