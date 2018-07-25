@@ -1,8 +1,8 @@
 ---
-title: Ultra96 Contest - 2018
+title: The Autonomous Robot Challenge - Arm 2018
 description: |-
-    Ultra96 Contest by Xilinx, Avnets and Hackster.io
-permalink: /go/2018-ultra96-contest/
+    Ultra96 Contest by Arm and Hackster.io
+permalink: /go/2018-arm-contest/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
@@ -10,9 +10,12 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
-[Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](https://www.96boards.org/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
+[Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted our participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
 
-<a href="https://www.96boards.org/go/2018-arm-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Arm Page)</a>
+ Participants will be able to develop and create on the [Ultra96](https://www.96boards.org/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!). 
+
+<a href="https://www.hackster.io/contests/arm2018" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
+<a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>
 
 **On this page, you will find...**
 
@@ -77,7 +80,7 @@ js-package: openhours
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
 
-<iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
+<iframe width="350" height="180" src="https://w2.countingdownto.com/2219515" frameborder="0"></iframe>
 
 1) Install BlueJeans video conferencing software on your desktop or mobile device: ([Desktop download](https://www.bluejeans.com/downloads) / [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet))
 
