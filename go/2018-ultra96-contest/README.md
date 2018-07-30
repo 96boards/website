@@ -64,7 +64,7 @@ js-package: openhours
 - **Projects**
    - Coming soon...
 - **Workshop**
-   - [Hackster.io Workshop](https://events.hackster.io/Ultra96)
+   - Coming soon...
 - **Blogs**
    - [96Boards Blogs](https://www.96boards.org/blog/)
    - [MicroZED Chronicles](https://blog.hackster.io/microzed-chronicles-a-look-at-the-ultra96-board-c5b8f7a02209)
