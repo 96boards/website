@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA3MjZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/calendar/r/eventedit/copy/cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA4MDJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we have three special contest announcements! In the first half of the broadcast, we will talk about several contests which will take place in many places around the world, and how you can get involved. We will be joined by representatives from each one of these contests to outline the rules and submission deadlines as well as the giveaways and prizes that come along with your participation! The second half of the hour will be dedicated to general 96Boards discussion and any community Q&A. This is the best time to bring any questions or comments for the 96Boards team :-) Don't forget to set your reminders! The buttons above will take you to our calendar invite and/or the livestream placeholder on YouTube. See you there! 
+**This week**, we will be meeting with **Ramon Horkany** from [Shiratech Solutions](http://www.shiratech-solutions.com/). Shiratech is a new 96Boards partner who has hit the ground running with two amazing 96Boards mezzanine boards, which will soon be available to the public! Want to know more about these products? You will need to join the call! Throughout the hour long broadcast, we will talk about Shiratech's new tech, ask and answer questions from the community and hopefully showcase one of these new mezzanine with a fun demo! Don't miss this one, but if you do... You can always watch the recording on [YouTube](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), but that will never be as much fun... Get your coffee, see you soon.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
