@@ -1,5 +1,5 @@
 ---
-title: HiKey970 
+title: HiKey970
 layout: product-display-page
 permalink: /product/hikey970/
 shortname: hikey970
@@ -48,6 +48,10 @@ product_os:
 product_third_party_images:
   - title: AOSP
     link: /documentation/consumer/hikey970/downloads/aosp.md.html
+  - title: Lubuntu (LeMaker Ubuntu)
+    link: http://www.lemaker.org/product-hikey970-download-84.html
+  - title: Lebian (LeMaker Debian)
+    link: http://www.lemaker.org/product-hikey970-download-85.html
 product_buy_links:
   -
     link-title: "Amazon"
@@ -107,5 +111,5 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 | User Interface:      | Power/Reset<br>8 LED indicators<br>4 -user controllable<br>3 -for radios (BT and WLAN and GPS activity)<br>1 – for CAN                                                                                                              |
 | Power Source:        | DC Power: +8V to +18V                                                                            |
 | OS Support:          | Android<br>Linux                                                                                 |
-| Mechanical:          | 105.26mm by 100mm meeting 96Boards Consumer Edition standard dimensions specifications.          | 
+| Mechanical:          | 105.26mm by 100mm meeting 96Boards Consumer Edition standard dimensions specifications.          |
 | Environmental:       | Operating Temp: 0°C to +70°C RoHS and Reach compliant                                            |
