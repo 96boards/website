@@ -30,8 +30,8 @@ layout: container-breadcrumb-tabs
 | 112     | 23 Aug 2018    | John Martin             | Martin Soft - Software Development      | N/A                                                     |
 | 111     | 16 Aug 2018    | Yossi, Nazik            | Novtech and 96Boards                    | N/A                                                     |
 | 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | N/A                                                     |
-| 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | N/A                                                     |
-| 108     | 26 Jul 2018    | 96Boards Team           | Scheduled Q&A                           | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 108     | 26 Jul 2018    | 96Boards Team           | Scheduled Q&A                           | [Watch Video](https://youtu.be/pkTg0dM4gOQ)             |
 | 107     | 19 Jul 2018    | Meral Arik & Isaac      | Hello Chava                             | [Watch Video](https://youtu.be/s_Ice0UbGN0)             |
 | 106     | 12 Jul 2018    | Andrew Stott            | 3D Printing with Disruptityourself      | [Watch Video](https://youtu.be/aVRpdbIa0jg)             |
 | 105     | 5 Jul 2018     | Ramon - Shiratech       | Introduction to Shiratech 96Boards      | [Watch Video](https://youtu.be/v0ZLiVPP-So)             |
