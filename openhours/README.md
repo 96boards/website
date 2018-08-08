@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA3MjZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/calendar/r/eventedit/copy/cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA4MDJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we have three special contest announcements! In the first half of the broadcast, we will talk about several contests which will take place in many places around the world, and how you can get involved. We will be joined by representatives from each one of these contests to outline the rules and submission deadlines as well as the giveaways and prizes that come along with your participation! The second half of the hour will be dedicated to general 96Boards discussion and any community Q&A. This is the best time to bring any questions or comments for the 96Boards team :-) Don't forget to set your reminders! The buttons above will take you to our calendar invite and/or the livestream placeholder on YouTube. See you there! 
+**This week**, we will be meeting with **Winston Moy** of [Winstonmakes](https://www.instagram.com/winstonmakes/). Winston is a maker, Adventurer, Aerospace Enthusiast, Digital Fabrication evangelist and [YouTuber](https://www.youtube.com/winstonmoy) with fascinating content and an amazing videos! From wood work and metal work to hardware, software and tech tutorials, Winston walks viewers through his makes in fun detail. With years of bite sized YouTube videos and engageing Instagram stories, you will be non-stop entertained while poking through his content. So... Get ready, because Winston is on OpenHours for an entire hour this Thursday! Bring your coffee, and we will bring the questions. Sit back or join in on the fun, as we will be taking questions on YouTube, Facebook and BlueJeans for anyone who would like to take part in the livestream. See you then!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 

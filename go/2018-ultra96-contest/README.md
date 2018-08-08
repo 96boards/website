@@ -13,6 +13,7 @@ js-package: openhours
 [Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](https://www.96boards.org/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
 
 <a href="https://www.hackster.io/contests/ultra96" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
+
 <a href="https://www.96boards.org/go/2018-arm-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Arm Page)</a>
 
 **On this page, you will find...**
@@ -63,7 +64,7 @@ js-package: openhours
 - **Projects**
    - Coming soon...
 - **Workshop**
-   - [Hackster.io Workshop](https://events.hackster.io/Ultra96)
+   - Coming soon...
 - **Blogs**
    - [96Boards Blogs](https://www.96boards.org/blog/)
    - [MicroZED Chronicles](https://blog.hackster.io/microzed-chronicles-a-look-at-the-ultra96-board-c5b8f7a02209)

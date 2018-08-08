@@ -2,7 +2,7 @@
 title: Brazil Partnership - 2018
 description: |-
     Brazil Partnership Program, dedicated community support page.
-permalink: /go/brazil-partnership-2018/
+permalink: /go/2018-partnership-brazil/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
