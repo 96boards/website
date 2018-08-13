@@ -33,9 +33,6 @@ members:
           - name: NXP
             image: nxp.jpg
             url: https://www.linaro.org/company/nxp/
-          - name: QuIC 
-            image: qulc.png
-            url: https://www.linaro.org/company/quic/
           - name: Redhat
             image: redhat.jpg
             url: https://www.linaro.org/company/red-hat/
