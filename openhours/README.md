@@ -21,7 +21,7 @@ js-package: openhours
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with **Winston Moy** of [Winstonmakes](https://www.instagram.com/winstonmakes/). Winston is a maker, Adventurer, Aerospace Enthusiast, Digital Fabrication evangelist and [YouTuber](https://www.youtube.com/winstonmoy) with fascinating content and an amazing videos! From wood work and metal work to hardware, software and tech tutorials, Winston walks viewers through his makes in fun detail. With years of bite sized YouTube videos and engageing Instagram stories, you will be non-stop entertained while poking through his content. So... Get ready, because Winston is on OpenHours for an entire hour this Thursday! Bring your coffee, and we will bring the questions. Sit back or join in on the fun, as we will be taking questions on YouTube, Facebook and BlueJeans for anyone who would like to take part in the livestream. See you then!
+**This week**, we will be meeting with **Yossi and Nazik** of [Novtech](http://www.novtech.com/)! Join us to hear about the amazing work behind two featured Consumer Edition 96Boards, the [Meerkat](https://www.96boards.org/product/imx7-96/) and the [Chameleon96](https://www.96boards.org/product/chameleon96/). During this episode, we will hear a more Novtech (the company) and of course a deep dive into their two 96Boards. If we are lucky, there might even be a demo or two :-). Brew some coffee or tea, and tune in at the end of the countdown on either BlueJeans or YouTube (see the links above!).
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
