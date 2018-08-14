@@ -28,8 +28,8 @@ layout: container-breadcrumb-tabs
 | 114     | 6 Sept 2018    | S. Alex Martin          | A day in the SciCom Community           | N/A                                                     |
 | 113     | 30 Aug 2018    | Q&A                     | Scheduled Q&A                           | N/A                                                     |
 | 112     | 23 Aug 2018    | John Martin             | Martin Soft - Software Development      | N/A                                                     |
-| 111     | 16 Aug 2018    | Yossi, Nazik            | Novtech and 96Boards                    | N/A                                                     |
-| 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 111     | 16 Aug 2018    | Yossi, Nazik            | Novtech and 96Boards                    | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 110     | 9 Aug 2018     | Winston Makes           | Makers Gonna Make                       | [Watch Video](https://youtu.be/dbqGkn25mNk) |
 | 109     | 2 Aug 2018     | Ramon Horkany           | ShiraTech Mezzanine Announcement        | [Watch Video](https://youtu.be/zjiPDSecA_M)             |
 | 108     | 26 Jul 2018    | 96Boards Team           | Scheduled Q&A                           | [Watch Video](https://youtu.be/pkTg0dM4gOQ)             |
 | 107     | 19 Jul 2018    | Meral Arik & Isaac      | Hello Chava                             | [Watch Video](https://youtu.be/s_Ice0UbGN0)             |
