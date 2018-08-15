@@ -1342,7 +1342,7 @@ RW
 
 
 
-[http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+LINK REMOVED
 
 
 
@@ -1365,8 +1365,7 @@ RW
 
 
 
-[http://connect.linaro.org/las16/resources/](http://connect.linaro.org/las16/resources/)
-
+LINK REMOVED
 
 
 
