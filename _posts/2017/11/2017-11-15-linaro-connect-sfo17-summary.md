@@ -25,7 +25,7 @@ Two four-player arcade panels (made by Grant Likely of Arm and Secret Lab) would
 
 # Monday
 
-The first day of connect. It started with everybody gathering up at the lobby to collect their badges, followed up by [George Grey’s keynote](http://connect.linaro.org/resource/sfo17/sfo17-100k1/) highlighting Linaro’s future prospects and welcoming some new members. Then everybody assembled at the Atrium for a [group photograph](https://www.flickr.com/photos/linaroorg/37285265142/in/album-72157687039294924/). The rest of the day was followed by either attending one of the many session, that ranged from talks on Zephyr RTOS to talks on the Secure96 Mezzanine boards and everything in between, or meeting with colleagues from the other side of the globe. The evening was followed by a team dinner. Being in San Francisco, it was only fair that the cuisine was set for seafood, and before we knew our table was filled with Crabs, Fish Chops, Octopus and Wine.
+The first day of connect. It started with everybody gathering up at the lobby to collect their badges, followed up by LINK REMOVED highlighting Linaro’s future prospects and welcoming some new members. Then everybody assembled at the Atrium for a [group photograph](https://www.flickr.com/photos/linaroorg/37285265142/in/album-72157687039294924/). The rest of the day was followed by either attending one of the many session, that ranged from talks on Zephyr RTOS to talks on the Secure96 Mezzanine boards and everything in between, or meeting with colleagues from the other side of the globe. The evening was followed by a team dinner. Being in San Francisco, it was only fair that the cuisine was set for seafood, and before we knew our table was filled with Crabs, Fish Chops, Octopus and Wine.
 
 # Tuesday
 
@@ -102,11 +102,11 @@ For wrapping up the day, we attended the session by Daniel thompson and Leo yan 
 
 # Thursday
 
-Thursday started with a keynote by [Iliyan Malchev (Google)](http://connect.linaro.org/resource/sfo17/sfo17-400k1/) talking about project TREBLE for AOSP and Google’s ambitions to solve the Android Update Issues using it. He went in depth explaining the current state of HAL and how TREBLE Aims to improve on it.
+Thursday started with a keynote by LINK REMOVED talking about project TREBLE for AOSP and Google’s ambitions to solve the Android Update Issues using it. He went in depth explaining the current state of HAL and how TREBLE Aims to improve on it.
 
 Thursday was a special day for 96Boards as well, we had two sessions:
 
-The first one being the [Mezzanine Workshop](http://connect.linaro.org/resource/sfo17/sfo17-414/) and info session, where Robert talked about past, present and future efforts around the 96Boards mezzanine ecosystem and later in the session Mani talked about his idea to implement Device Tree Overlays for Mezzanine Boards. 
+The first one being the LINK REMOVED and info session, where Robert talked about past, present and future efforts around the 96Boards mezzanine ecosystem and later in the session Mani talked about his idea to implement Device Tree Overlays for Mezzanine Boards. 
 
 This was followed by [OpenHours Live from Connect](https://youtu.be/zRVOdFPZmDY), where we had Live audience and a few guest speakers who were kneen to respond to queries raised by our live audience as well as those who attended the session over Bluejeans
 

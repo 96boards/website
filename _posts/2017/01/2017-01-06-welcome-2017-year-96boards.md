@@ -405,7 +405,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * Linaro Connect takes over Las Vegas, Nevada (LINK REMOVED)!
 
 
-    * [Here](http://connect.linaro.org/las16/) you will find links to event description, videos, photos, and much more!
+    * LINK REMOVED you will find links to event description, videos, photos, and much more!
 
 
 
