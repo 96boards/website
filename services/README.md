@@ -4,6 +4,8 @@ description: |-
     96Boards Partner offered services
 permalink: "/services/"
 layout: container-breadcrumb-tabs
+css-package: openhours
+js-package: openhours
 ---
 
 <br>
