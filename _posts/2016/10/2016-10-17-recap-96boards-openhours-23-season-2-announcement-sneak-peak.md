@@ -47,7 +47,7 @@ tags:
 - UART
 ---
 
-This week was episode 23 in our OpenHours series.  We are gearing up for the official launch of season 2 which will begin on Thursday October 20th.  This episode started by talking about the several announcements and demos that took place at Linaro Connect LAS16, beginning with the new IoT edition Carbon Board, the GumStick board, and several boards that were shown at tables by Arrow - to see all the videos of the new boards and what happened at Connect you can visit:  [http://connect.linaro.org/las16/resources/](http://connect.linaro.org/las16/resources/) and Youtube: [https://www.youtube.com/user/LinaroOrg/videos](https://www.youtube.com/user/LinaroOrg/videos).
+This week was episode 23 in our OpenHours series.  We are gearing up for the official launch of season 2 which will begin on Thursday October 20th.  This episode started by talking about the several announcements and demos that took place at Linaro Connect LAS16, beginning with the new IoT edition Carbon Board, the GumStick board, and several boards that were shown at tables by Arrow - to see all the videos of the new boards and what happened at Connect you can visit:  LINK REMOVED and Youtube: [https://www.youtube.com/user/LinaroOrg/videos](https://www.youtube.com/user/LinaroOrg/videos).
 
 Robert announced that there will hopefully be more give-aways during season 2 and we are working on this now.  Robert then talked about the next episode of OpenHours which will be the start of season 2.  In the first episode we will interview Keith Lee from Gumstix. He will talk about Gumstix the company, Geppetto the drafting tool, and lead into a drone demo.
 
@@ -134,8 +134,7 @@ You can watch all the videos and slides here
 
 
 
-
-[http://connect.linaro.org/las16/resources/](http://connect.linaro.org/las16/resources/)
+LINK REMOVED
 
 
 

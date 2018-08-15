@@ -147,7 +147,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * Reference Platform 16.03 is announced and released right before Linaro Connect BKK16 (now legacy - see previous releases). ([Blog](/blog/reference-software-platform-16-03-release/) &#124;[Twitter post](https://twitter.com/96Boards/status/706470286560874496))
 
 
-  * Linaro Connect takes over Bangkok, Thailand ([BKK16)](http://connect.linaro.org/bkk16/)!
+  * Linaro Connect takes over Bangkok, Thailand (LINK REMOVED)!
 
 
     * [Here](https://twitter.com/96Boards/status/706470286560874496) you will find links to event description, videos, photos, and much more!
@@ -402,7 +402,7 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Linaro Connect takes over Las Vegas, Nevada ([LAS16](http://connect.linaro.org/las16/)[)](http://connect.linaro.org/bkk16/)!
+  * Linaro Connect takes over Las Vegas, Nevada (LINK REMOVED)!
 
 
     * [Here](http://connect.linaro.org/las16/) you will find links to event description, videos, photos, and much more!
