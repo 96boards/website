@@ -69,7 +69,7 @@ Below is an overview of all the 96boards related sessions that took place at Lin
     * Community development, Compliance (for members and partners), Reference platform software, product development platform.
 
 
-    * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-109/](http://connect.linaro.org/resource/las16/las16-109/)
+    * Presentations & Videos: LINK REMOVED
 
 
 
@@ -81,7 +81,7 @@ Below is an overview of all the 96boards related sessions that took place at Lin
     * 96Boards hosted Openhours live from Linaro Connect- see below to watch the video of the panel session
 
 
-    * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-412/](http://connect.linaro.org/resource/las16/las16-412/)
+    * Presentations & Videos: LINK REMOVED
 
 
 
@@ -93,7 +93,7 @@ Below is an overview of all the 96boards related sessions that took place at Lin
     * Discussion around activities for 96Boards.
 
 
-    * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-502/](http://connect.linaro.org/resource/las16/las16-502/)
+    * Presentations & Videos: LINK REMOVED
 
 
 
@@ -105,7 +105,7 @@ Below is an overview of all the 96boards related sessions that took place at Lin
     * 96Boards aims to end outdated documentation by implementing a dynamic approach which utilizes member and community resources, paired with on point maintenance and diligent review from the 96Boards team and Linaro. Doing this, we can provide up-to-date, straightforward, and accurate documentation without the need to share documents, convert formats, or refer to releases/versions when wondering if the document is going to work.
 
 
-    * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-506/](http://connect.linaro.org/resource/las16/las16-506/)
+    * Presentations & Videos: LINK REMOVED
 
 
 

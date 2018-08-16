@@ -157,7 +157,7 @@ Our eight week of 96Boards OpenHours session the team discussed the 16.06 releas
 
 
 
-  * 45:00 - Wrap-up of call - can see more about this topic at the next Linaro Connect --  [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+  * 45:00 - Wrap-up of call - can see more about this topic at the next Linaro Connect --  LINK REMOVED
 
 
 Be sure to stay tune in next week  [https://www.96boards.org/openhours/](/openhours/).  Next week during session 10 we will have an open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.

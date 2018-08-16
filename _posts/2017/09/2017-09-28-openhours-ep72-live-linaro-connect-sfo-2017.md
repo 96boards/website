@@ -59,7 +59,7 @@ A special thanks to Red Hat, 96Boards and BlueJeans for providing some special s
 
 #### Links and resources
 
-- [Linaro Connect SFO17 Resources](http://connect.linaro.org/sfo17/resources/)
+LINK REMOVED
 
 # Video
 
