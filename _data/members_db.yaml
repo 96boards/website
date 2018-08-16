@@ -42,6 +42,9 @@ members:
           - name: Socionext
             image: socionext.png
             url: https://www.linaro.org/company/socionext/
+          - name: SoftBank
+            image: softbank.jpg
+            url: https://www.softbank.jp/en/
           - name: SpreadTrum
             image: spreadtrum.png
             url: https://www.linaro.org/company/spreadtrum/
