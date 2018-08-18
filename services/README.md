@@ -8,6 +8,8 @@ css-package: openhours
 js-package: openhours
 ---
 
+<div class="col-md-6" markdown="1">
+
 <br>
 <a href="https://www.96boards.org/openhours/" class="btn blog-read-more-btn center-block">96Boards OpenHours</a>
 <a href="https://www.96boards.org/go/mezzanine-community/" class="btn blog-read-more-btn center-block">Mezzanine Community</a>
