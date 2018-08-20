@@ -13,10 +13,47 @@ Below are a few guides that will help when adding content to the 96Boards websit
 
 - [Adding a blog post](#adding-a-blog-post)
 - [Adding products](#adding-products)
+- [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
 - [Building the static site](#building-the-static-site)
 
-
 *****
+## Addding a new page
+
+### Step 1 - Choose url and layout
+
+Static Jekyll web pages are place in folders in the root of the website with either a README.md or a index.html page beneath them. Example - /services/README.md or /services/index.html. This keeps the pages organised to some extent.
+
+The url for your page should be added to the front matter of your posts (section at the top of the file between --- containing yaml) as the `permalink`. This will ensure the url of your page is exactly as you intended it to be. See below for an example of the front matter to add to the web page. If in any doubt please duplicate a page that you would like yours to look like and modify the file from there.
+
+```
+---
+# Layout of your web page - see below for available layouts.
+layout: container-breadcrumb-tabs
+# URL of your web page
+permalink: /services/
+# Title of your web page
+title: Services Page
+# Description of your web page.
+desc: |-
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was 
+    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+# Keywords that describe your page used as meta keywords.
+keywords: lorem, ipsum, web, page
+---
+```
+
+#### Available layouts
+
+Below are a table showing the available layouts for you to use:
+
+| Layout | Description | Image | 
+| ------ | ----------- | ----- |
+| container-breadcrumb | This layout contains the standard breadcrumb and centered content container for you to use. | ![container-breadcrumb layout](/assets/images/help/container-breadcrumb.png) |
+
+
 
 ## Adding a blog post
 
@@ -135,6 +172,22 @@ __Please note:__ Due to the way product images are include, images should not in
 
 *****
 
+## Adding Redirects to the Static site
+
+We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
+
+```
+^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
+!^/oldpath.*$ http://www.example.com [R=302,L,NC]
+^/topsecret.*$ [F,L]
+^/deadlink.*$ [G]
+^/foo$ /bar [H=^baz\.com$]
+```
+
+__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
+
+*****
+
 ## Building the static site
 
 In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
@@ -162,21 +215,7 @@ This will serve (s) the Jekyll static website to the http://localhost:4000 where
 
 *****
 
-## Adding Redirects to the Static site
 
-We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
-
-```
-^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
-!^/oldpath.*$ http://www.example.com [R=302,L,NC]
-^/topsecret.*$ [F,L]
-^/deadlink.*$ [G]
-^/foo$ /bar [H=^baz\.com$]
-```
-
-__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
-
-*****
 
 ## Issues 
 If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
