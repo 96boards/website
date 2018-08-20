@@ -54,6 +54,7 @@ Below are a table showing the available layouts for you to use:
 | container-breadcrumb | This layout contains the standard breadcrumb and centered content container for you to use. | ![container-breadcrumb layout](/assets/images/help/container-breadcrumb.png) |
 | container-breadcrumb-tabs | Same as the above layout but includes the HTML for the sticky tab bar. | ![container-breadcrumb-tabs layout](/assets/images/help/container-breadcrumb-tabs.png) |
 | product-display-page | This is the layout used by product pages on the 96Boards website. | ![product-display-page layout](/assets/images/help/product-display-page.png) |
+| post | This the layout used for blog posts. If you supply a featured image a header with the featured image will be added. This images is also used when sharing on social media sites. | ![default layout](/assets/images/help/post.png) |
 | default | This is the default layout used by other layouts. Use this if you want to add custom HTML for content. | ![default layout](/assets/images/help/default.png) |
 
 
