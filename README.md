@@ -58,6 +58,15 @@ Below are a table showing the available layouts for you to use:
 | default | This is the default layout used by other layouts. Use this if you want to add custom HTML for content. | ![default layout](/assets/images/help/default.png) |
 
 
+#### Front Matter - available settings
+
+| Front Matter Key | Example Value | Description  | 
+| ------ | ----------- | ----- |
+| layout | post | Layout to be used for the page |
+| published | false | Set `published` to false if you want to add the page but not show it on the website. |
+| title | My Awesome Post | The title of your page/post. Used in the `meta` tags and in layouts to display your page correctly. |
+| description | This is an awesome post about 96Boards... | The description of your page used as the `meta` description.|
+
 
 ## Adding a blog post
 
