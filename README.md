@@ -54,6 +54,10 @@ image:
 
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/96boards/website/tree/master/assets/images/blog).
 
+
+__Note:__ There is currently a bug with the version of `jekyll-assets` we are using which means the only acceptable image extensions are `.jpg` and `.png`. If you use `.jpeg` you image may not display as expected.
+
+
 #### Tags
 These should be modified based on the content of your post as they are used for Meta keywords so that people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
 
