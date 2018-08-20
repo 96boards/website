@@ -260,10 +260,6 @@ The year started out strong with January seeing a plethora of announcements and 
 
   * The second series of “Out of the box” blogs are released to pair with OpenHours episodes. - [Part 4](/blog/96boards-box-experience-guide-4/) &#124;[Part 5](/blog/96boards-box-experience-guide-5/)
 
-
-  * [Arrow and blog](https://www.arrow.com/en/research-and-events/articles/96boards-future-proofs-the-dragonboard-410c) on future proofing DragonBoard 410c
-
-
   * Gumstix announce [AeroCore 2 drone Mezzanine](https://www.gumstix.com/blog/product-releases/aerocore-2-dragonboard/) for 96Boards
 
 

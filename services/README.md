@@ -3,10 +3,20 @@ title: 96Boards Partner Services
 description: |-
     96Boards Partner offered services
 permalink: "/services/"
-layout: container-breadcrumb-tabs
+layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
+product_tab_menu:
+  - tab_title: About
+    tab_link: /website/services/about/
+    tab_position: 1
+  - tab_title: Partners
+    tab_link: website/services/partners/
+    tab_position: 2
+    tab_align_right: true
 ---
+
+<div class="col-md-6" markdown="1">
 
 <br>
 <a href="https://www.96boards.org/openhours/" class="btn blog-read-more-btn center-block">96Boards OpenHours</a>
