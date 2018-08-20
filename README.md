@@ -52,7 +52,20 @@ Below are a table showing the available layouts for you to use:
 | Layout | Description | Image | 
 | ------ | ----------- | ----- |
 | container-breadcrumb | This layout contains the standard breadcrumb and centered content container for you to use. | ![container-breadcrumb layout](/assets/images/help/container-breadcrumb.png) |
+| container-breadcrumb-tabs | Same as the above layout but includes the HTML for the sticky tab bar. | ![container-breadcrumb-tabs layout](/assets/images/help/container-breadcrumb-tabs.png) |
+| product-display-page | This is the layout used by product pages on the 96Boards website. | ![product-display-page layout](/assets/images/help/product-display-page.png) |
+| post | This the layout used for blog posts. If you supply a featured image a header with the featured image will be added. This image is also used when sharing on social media sites. | ![default layout](/assets/images/help/post.png) |
+| default | This is the default layout used by other layouts. Use this if you want to add custom HTML for content. | ![default layout](/assets/images/help/default.png) |
 
+
+#### Front Matter - available settings
+
+| Front Matter Key | Example Value | Description  | 
+| ------ | ----------- | ----- |
+| layout | post | Layout to be used for the page |
+| published | false | Set `published` to false if you want to add the page but not show it on the website. |
+| title | My Awesome Post | The title of your page/post. Used in the `meta` tags and in layouts to display your page correctly. |
+| description | This is an awesome post about 96Boards... | The description of your page used as the `meta` description.|
 
 
 ## Adding a blog post
