@@ -41,8 +41,8 @@ product_accessories:
     link: /product/adapter/
   - title: Debug
     link: /product/debug/
-  - title: Misc
-    link: /product/misc/
+  - title: Case with Fan
+    link: http://smartfire.cn/thread-843-1-1.html
 product_os:
   - title: Coming soon...
 product_third_party_images:
