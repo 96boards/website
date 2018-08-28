@@ -70,7 +70,7 @@ pages:
             url: /documentation/Specifications/
           - text: Contribution Policy
             url: /documentation/CONTRIBUTE.md.html
-    - title: Forums
+    - title: Support
       options:
           - text: Join our Slack!
             url: http://link.linaro.org/96Boards-slack
