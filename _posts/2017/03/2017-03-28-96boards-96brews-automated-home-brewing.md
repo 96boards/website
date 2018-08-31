@@ -92,7 +92,7 @@ As described in the slides there are several basic steps and ingredients that ar
   * **Infographic from OCWEEKLY as a guide**
 
 
-    * [http://media.ocweekly.com/6160793.0.pdf](http://media.ocweekly.com/6160793.0.pdf)
+    * [http://media.ocweekly.com/6160793.0.pdf](https://www.ocweekly.com/infographic-how-to-make-beer-at-home-6632054/)
 
 
   * **Four basic ingredients**

@@ -134,7 +134,7 @@ members:
           url: https://www.linaro.org/company/vamrs/
         - name: Witstek
           image: witstek.png
-          url: http://witstech.cn/
+          # url: http://witstech.cn/
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/
