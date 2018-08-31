@@ -81,6 +81,20 @@ product_buy_links:
     link-price-currency: USD
     from: HiHope.com
     type: board
+  -
+    link-title: "Amazon Kit"
+    link-price: "$340.00"
+    link-url: "https://www.amazon.com/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X"
+    link-price-currency: USD
+    from: Amazon.com
+    type: board
+  -
+    link-title: "Amazon Kit (UK)"
+    link-price: "£339.00"
+    link-url: "https://www.amazon.co.uk/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X"
+    link-price-currency: GBP
+    from: Amazon.co.uk
+    type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
 ---
