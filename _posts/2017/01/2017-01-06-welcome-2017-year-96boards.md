@@ -1,5 +1,5 @@
 ---
-author: sdrobertw
+author: Robert Wolff
 comments: true
 date: 2017-01-06 01:07:05+00:00
 layout: post
@@ -147,7 +147,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * Reference Platform 16.03 is announced and released right before Linaro Connect BKK16 (now legacy - see previous releases). ([Blog](/blog/reference-software-platform-16-03-release/) &#124;[Twitter post](https://twitter.com/96Boards/status/706470286560874496))
 
 
-  * Linaro Connect takes over Bangkok, Thailand ([BKK16)](http://connect.linaro.org/bkk16/)!
+  * Linaro Connect takes over Bangkok, Thailand (LINK REMOVED)!
 
 
     * [Here](https://twitter.com/96Boards/status/706470286560874496) you will find links to event description, videos, photos, and much more!
@@ -259,10 +259,6 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
   * The second series of “Out of the box” blogs are released to pair with OpenHours episodes. - [Part 4](/blog/96boards-box-experience-guide-4/) &#124;[Part 5](/blog/96boards-box-experience-guide-5/)
-
-
-  * [Arrow and blog](https://www.arrow.com/en/research-and-events/articles/96boards-future-proofs-the-dragonboard-410c) on future proofing DragonBoard 410c
-
 
   * Gumstix announce [AeroCore 2 drone Mezzanine](https://www.gumstix.com/blog/product-releases/aerocore-2-dragonboard/) for 96Boards
 
@@ -402,10 +398,10 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
 
-  * Linaro Connect takes over Las Vegas, Nevada ([LAS16](http://connect.linaro.org/las16/)[)](http://connect.linaro.org/bkk16/)!
+  * Linaro Connect takes over Las Vegas, Nevada (LINK REMOVED)!
 
 
-    * [Here](http://connect.linaro.org/las16/) you will find links to event description, videos, photos, and much more!
+    * LINK REMOVED you will find links to event description, videos, photos, and much more!
 
 
 
@@ -483,7 +479,7 @@ The year started out strong with January seeing a plethora of announcements and 
   * [Alpha Star thread starts](http://forum.alpha-star.org/main-forum/the-first-experience-of-x20-96boards/) around 96Boards MediaTek X20
 
 
-  * [Open Source India blogs](http://opensourceindia.in/osidays/building-embedded-iot-products-made-easy-96boards-org/) on Embedded and IoT Products made easy with 96Boards
+  * Open Source India blogs on Embedded and IoT Products made easy with 96Boards
 
 
   * [Electronics Lab blog](http://www.electronics-lab.com/ble-carbon-new-28-iot-edition-sbc/) on BLE 96Boards Carbon

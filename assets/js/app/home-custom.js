@@ -44,7 +44,7 @@ $(document).ready(function() {
               dots: true,
               nav: false
           },
-          475:{
+          560:{
               items: 2,
               dots: true,
               nav: false

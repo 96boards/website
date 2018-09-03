@@ -13,15 +13,17 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
+<a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
+<a href="https://calendar.google.com/calendar/r/eventedit/copy/cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA4MDJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Tom Cubie from Vamrs! These are the folks who made the [Rock960](https://www.96bsoards.org/product/rock960/), and have more big plans with 96Boards. Tomorrow, we plan to show off this awesome board, talk about it's specs and features, as well as showcase several fun demos running on the Rock960. To learn more about the Rock960, you can either visit the [96Boards website](https://www.96boards.org/product/rock960/) or the [96Rocks website](https://www.96rocks.com/), check them out!
+**This week**, we will be meeting with **Yossi and Nazik** of [Novtech](http://www.novtech.com/)! Join us to hear about the amazing work behind two featured Consumer Edition 96Boards, the [Meerkat](https://www.96boards.org/product/imx7-96/) and the [Chameleon96](https://www.96boards.org/product/chameleon96/). During this episode, we will hear a more Novtech (the company) and of course a deep dive into their two 96Boards. If we are lucky, there might even be a demo or two :-). Brew some coffee or tea, and tune in at the end of the countdown on either BlueJeans or YouTube (see the links above!).
 
-The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 

@@ -87,14 +87,12 @@ a commercial product.
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                  |
 |:---------------------|:-------------------------------------------------------------------------------|
 |  SoC                 | Qualcomm® Snapdragon™ 820E                                                     |
-|  CPU                 | Snapdragon 820E embedded platform, custom 64-bit Kryo quad-core CPU up to 2.35GHz , 14nm FinFET process technology                                                  |
-|  GPU                 | Adreno™ 530 GPU OpenGL ES 3.1 + AEP, Vulcan, Renderscript, 64-bit virtual addressing                                                                                  |
+|  CPU                 | Snapdragon 820E embedded platform, custom 64-bit Kryo quad-core CPU up to 2.15GHz , 14nm FinFET process technology                                                  |
+|  GPU                 | Adreno™ 530 GPU OpenGL ES 3.1 + AEP, OpenCL2.0, Vulcan, Renderscript, 64-bit virtual addressing                                                                                 |
 |  RAM                 | Quad-channel, 16bit, 3GB PoP LPDDR4 SDRAM designed for 1866 MHz clock rate                                              |
 |  Storage             | UFS2.0 gear 3 (1-lane) 32GB , and SD3.0                                              |
 |  Ethernet Port       | GbE Ethernet connection                                                        |
@@ -111,7 +109,4 @@ a commercial product.
 |  OS Support          | Linux Debian today<br>Linux OpenEmbedded – later 2018                          |
 |  Size                | 100mm by 85mm meeting 96Boards™ Consumer Edition ’extended’ dimensions specifications.               |
 
-
-{:.hidden_rows}
-
-</div>
+>Note: OpenCL2.0, Vulcan and RenderScript are supported features on the GPU. However, they are NOT a part of the official Linux Kernel, Debian, Open-embedded and AOSP release.

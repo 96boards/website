@@ -59,7 +59,7 @@ columns:
           url : /compliance/
         - text: Compliance
           url : /contact/
-    - title: Support Forum
+    - title: Support
       url: https://discuss.96boards.org/
       items:
         - text: Hikey 960
@@ -76,6 +76,8 @@ columns:
           url : https://discuss.96boards.org/c/products/poplar
         - text: Mezzanine Support
           url : https://discuss.96boards.org/c/products/mezzanine
+        - text: Join our Slack!
+          url : http://link.linaro.org/96Boards-slack
     - title: Social Media
       url: 
       items:

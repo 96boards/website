@@ -19,7 +19,7 @@ There are currently three 96Boards specifications for low-cost ARM Cortex-A and 
 
 These specifications are intended to foster the delivery of multiple ARM hardware platforms targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification/). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
-To encourage the development of a broad range of compatible products, the above specifications may be extended with the introduction of addenda for particular applications. You can access the addenda documents on [GitHub](https://github.com/96boards/documentation/tree/master/Addenda):
+To encourage the development of a broad range of compatible products, the above specifications may be extended with the introduction of addenda for particular applications. You can access the addenda documents on [GitHub](https://github.com/96boards/documentation/tree/master/Specifications/Addenda):
 
 * [The Consumer Edition (CE) Camera Module Interface Addendum](https://linaro.co/camera-spec)
 * [96Boards TV Platform](https://linaro.co/tv-specification): This specification describes requirements and recommendations for 96Boards Compliant hardware to be used for Digital Home applications including Digital TV and Set Top Boxes.

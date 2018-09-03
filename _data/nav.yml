@@ -6,7 +6,9 @@
 search:
     enabled: true
     label: 96Boards
+    
 universal-nav: true
+
 brand:
     text: 96Boards
     image: 
@@ -68,8 +70,11 @@ pages:
             url: /documentation/Specifications/
           - text: Contribution Policy
             url: /documentation/CONTRIBUTE.md.html
-    - title: Forums
+    - title: Support
       options:
+          - text: Join our Slack!
+            url: http://link.linaro.org/96Boards-slack
+            external: true
           - text: Discussion Forum
             url: https://discuss.96boards.org/
           - text: DragonBoard410c

@@ -66,6 +66,9 @@ product_os:
     title: Debian
   - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
     title: OpenEmbedded
+product_more_info:
+  - title: DIY Root of Trust using ARM Trusted Firmware
+  - link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
 product_support_link: https://discuss.96boards.org/c/products/hikey/
 product: true
 ---
@@ -111,4 +114,6 @@ Hikey relaunched by Lemaker
 
 </div>
 
-Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/hikey/hardware-docs/hardware-user-manual.md) for more information
+Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/hardware-docs/hardware-user-manual.md) for more information
+
+<a href="/documentation/consumer/hikey/hikey620/hardware-docs/files/compliance-hikey.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
