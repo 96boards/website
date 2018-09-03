@@ -17,15 +17,9 @@ js-package: openhours
 
 **OpenHours**
 
-<<<<<<< HEAD
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Tom Cubie from Vamrs! These are the folks who made the [Rock960](https://www.96boards.org/product/rock960/), and have more big plans with 96Boards. Tomorrow, we plan to show off this awesome board, talk about it's specs and features, as well as showcase several fun demos running on the Rock960. To learn more about the Rock960, you can either visit the [96Boards website](https://www.96boards.org/product/rock960/) or the [96Rocks website](https://www.96rocks.com/), check them out!
-=======
-Phase two, OpenHours is about to unfold, and we welcome everyone to join in for the fun. The current plan was outlined last week in our [phase two pilot episode](https://youtu.be/QPijdGYpLoA), but will most likely be touched on once again this week as we tackle new goals for the broadcast and attempt to bring new and exciting content forward in the form of technical interviews and showcases. We are currently working to book out the rest of the years interview slots, so if anyone is interested in joining OpenHours as a featured guest, please reach out to Robert Wolff (robert.wolff@linaro.org) to reserve a slot.
-
-**This week's** guest is still to be announced! Stay tuned for an update to the page in the next day or two.
->>>>>>> d4ce0417e0290a61c4f229551a4354d7843e5364
+**This week**, we will be meeting with Tom Cubie from Vamrs! These are the folks who made the [Rock960](https://www.96bsoards.org/product/rock960/), and have more big plans with 96Boards. Tomorrow, we plan to show off this awesome board, talk about it's specs and features, as well as showcase several fun demos running on the Rock960. To learn more about the Rock960, you can either visit the [96Boards website](https://www.96boards.org/product/rock960/) or the [96Rocks website](https://www.96rocks.com/), check them out!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
 
