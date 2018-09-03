@@ -39,7 +39,7 @@ accessories:
         12V 2A 5.5/2.1mm power supplies down to the 96Boards 4.75/1.7mm power jack.
 
     accessory_order_link:
-        - http://www.amazon.com/Super-Power-Supply%C2%AE-5-5x2-1mm-4-8x1-7mm/dp/B00EA4Q60K/ref=sr_1_4?ie=UTF8&qid=1436114814&sr=8-4
+        - https://www.superpowersupply.com/super-power-supply-5-5x2-1mm-to-4-8x1-7mm-5-5mm-x-2-1mm-to-4-8mm-x-1-7mm-tip-size-ac-adapter-barrel-plug-for-wall-chargers.php
     accessory_search_term: 2.1mm to 1.7mm power adapter
     accessory_images:
         - accessories-power-3.png

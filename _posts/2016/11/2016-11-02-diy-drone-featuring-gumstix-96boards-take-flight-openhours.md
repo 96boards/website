@@ -85,7 +85,7 @@ The parts used to construct this quad-copter drone are listed below, with storef
   * A 3S 11.1v LiPO battery
 
 
-    * [Venom Flight Pack 20C (2100mAh)](https://www.amazon.ca/Venom-2100mAh-Battery-Universal-System/dp/B004UZD4Q8)
+    * [Venom Flight Pack 20C (2100mAh)](https://www.amazon.ca/Venom-2100mAh-Battery-Universal-System/dp/B00FE0OKA2/)
 
 
 
