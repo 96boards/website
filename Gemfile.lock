@@ -41,13 +41,14 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-assets (2.2.8)
-      extras (~> 0.1)
+    jekyll-assets (2.4.0)
+      concurrent-ruby (~> 1.0)
+      extras (~> 0.2)
       fastimage (~> 2.0, >= 1.8)
       jekyll (~> 3.1, >= 3.0)
       pathutil (>= 0.8)
-      rack (> 1, < 2)
-      sprockets (~> 3.3, < 3.7)
+      rack (~> 1.6)
+      sprockets (~> 3.3, < 3.8)
     jekyll-data (1.0.0)
       jekyll (~> 3.3)
     jekyll-feed (0.10.0)
@@ -56,7 +57,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
-    jekyll-redirect-from (0.13.0)
+    jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -64,9 +65,9 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
-    jekyll-theme-assets (0.1.2)
+    jekyll-theme-assets-updated (1.1)
       jekyll (~> 3.1, >= 3.0)
-      jekyll-assets (~> 2.2.8)
+      jekyll-assets (~> 2.4.0)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -74,12 +75,12 @@ GEM
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     json (2.1.0)
-    jumbo-jekyll-theme (1.8.3)
+    jumbo-jekyll-theme (2.1.0)
       autoprefixer-rails (~> 5.0, >= 5.0.0.1)
       bootstrap-sass (~> 3.3)
       hash-joiner (~> 0)
-      jekyll (~> 3.7.2)
-      jekyll-assets (= 2.2.8)
+      jekyll (= 3.7.3)
+      jekyll-assets (= 2.4.0)
       jekyll-data (> 0)
       jekyll-feed (> 0)
       jekyll-paginate-v2 (> 0)
@@ -87,8 +88,9 @@ GEM
       jekyll-redirect-from (~> 0.12)
       jekyll-seo-tag (~> 2.2)
       jekyll-sitemap (~> 1.1)
-      jekyll-theme-assets (> 0)
+      jekyll-theme-assets-updated (~> 1.1)
       jekyll-tidy (~> 0.2.2)
+      sprockets (~> 3.7.2)
       uglifier (> 0)
     kramdown (1.17.0)
     liquid (4.0.0)
@@ -112,10 +114,10 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    sprockets (3.6.3)
+    sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    uglifier (4.1.11)
+    uglifier (4.1.18)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
@@ -123,7 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 1.8.3)
+  jumbo-jekyll-theme (= 2.1.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.3
