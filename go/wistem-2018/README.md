@@ -74,8 +74,6 @@ Please consider this schedule as tentative! For the most current information on 
 
 We are looking for women to share their "STEM story"! To participate in this initiative, please take some time to fill out the interview questions below. Each interview will be highly considered for publishing as a 96Boards blog and shared across our many channels. We will do our best to notify all participants if any action is taken and hope you enjoy the interview. Thank you for sharing your story with us!
 
-### Time to Next Women in STEM Event
-
 <div class="col-md-6" markdown="1">
 <br>
 <h3>Time to Next Women in STEM Event</h3>
