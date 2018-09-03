@@ -81,7 +81,9 @@ We are looking for women to share their "STEM story"! To participate in this ini
 <h3>Time to Next Women in STEM Event</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
 <a href="https://www.96boards.org/go/wistem-2019/" class="btn blog-read-more-btn center-block">Go to 2019 page</a>
-
+</div>
+<div class="col-md-6" markdown="1">
 ### Interview Form
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc32F34PKNFfgq85Tfi-l3vKHu9X9L33asZngsPLTSNuAY5EQ/viewform?usp=sf_link" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
