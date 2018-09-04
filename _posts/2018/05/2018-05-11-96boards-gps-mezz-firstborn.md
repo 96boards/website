@@ -57,10 +57,21 @@ For more information on this the Mezzanine-Community Initiative, please visit: h
 
 ## The GPS Mezzanine - Michael Welling
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 The GPS mezzanine was one of a handful of designs that were voted into the initiative early on. Robert found that many people were having issues using the on-board GPS built in to the Dragonboard 410c. The proprietary interface and sensitivity issue left many people wanting. Furthermore this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE boards.
 
 After taking a vote, the GPS mezzanine was added to the queue and it would become the second KiCAD design to be created out of the initiative. To keep the design simple, the Adafruit [Ultimate GPS module](https://www.adafruit.com/product/790) was selected for it’s core. This module provides an impressive feature set built into a small yet easy to use package. It is driven by the MTK3339 chipset and provides both a built-in antenna for basic outdoors use and external powered antenna which can work indoors. Another nice feature is the built-in logging capability that allows the unit to record up to 16 hours of autonomous tracking at 15 second intervals.
 
+=======
+The GPS mezzanine was one of a handful of designs which were voted into the initiative early on. Robert found many people were having issues using the on-board GPS built into the [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/). The proprietary interface and sensitivity issue left many people wanting. Furthermore, this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE (Consumer Edition) boards.
+=======
+The GPS mezzanine was one of a handful of designs that were voted into the initiative early on. Robert found that many people were having issues using the on-board GPS built in to the Dragonboard 410c. The proprietary interface and sensitivity issue left many people wanting. Furthermore this GPS feature was limited to a small subset of the 96board CE suite of boards. The mezzanine initiative tries to focus on mezzanines that can be used with any of the 96boards CE boards.
+>>>>>>> b2461b71e6b64f594bd076081cd182aa20e0771d
+
+After taking a vote, the GPS mezzanine was added to the queue and it would become the second KiCAD design to be created out of the initiative. To keep the design simple, the Adafruit [Ultimate GPS module](https://www.adafruit.com/product/790) was selected for it’s core. This module provides an impressive feature set built into a small yet easy to use package. It is driven by the MTK3339 chipset and provides both a built-in antenna for basic outdoors use and external powered antenna which can work indoors. Another nice feature is the built-in logging capability that allows the unit to record up to 16 hours of autonomous tracking at 15 second intervals.
+
+>>>>>>> d4ce0417e0290a61c4f229551a4354d7843e5364
 **Here are the basic specifications as reported on the Adafruit product page:**
 
 - -165 dBm sensitivity, 10 Hz updates, 66 channels
@@ -74,7 +85,14 @@ After taking a vote, the GPS mezzanine was added to the queue and it would becom
 - Fix status output
 - Ultra small size: only 16mm x 16mm x 5mm and 4 grams
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4ce0417e0290a61c4f229551a4354d7843e5364
+=======
+
+>>>>>>> b2461b71e6b64f594bd076081cd182aa20e0771d
 The first version of the GPS mezzanine was prototyped using PCBs, generously donated from [OSH park](https://oshpark.com/). Only the bare necessities were included in the design. This meant bringing the UART lines and a few GPIOs up from the 96boards low-speed connector through a level translator to the GPS unit. The UART is used to transmit the NMEA message back to the main processor and send commands the GPS. The GPIOs were used to signal the PPS and FIX signals back to the core module. The signalling on the 96board CE expansion headers is 1.8V and the GPS unit is powered by 3.3V. Unfortunately 3.3V is not provided by any of the expansion headers on the CE specification so a simple LDO regulator was added to the design. Add a few passives, a u.FL connector, and a coin battery holder and it was ready for proto. For a pinch of extra utility, the debugging UART was broken out to a 4 pin headers.
 
 #### R0 Schematic
