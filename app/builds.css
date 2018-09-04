@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(//fonts.googleapis.com/css?family=Lato:400,700);
+
+body, h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+	height:80px;
+}
+
+	.navbar a{
+	  color: #ffffff;
+	  font-size: 16px;
+	  font-weight: bold;
+	  padding-right: 25px;
+	  padding-left: 25px;
+	  text-transform: none;
+	  letter-spacing: 0px;
+
+	}
+
+	.navbar li a {
+  		height: 80px;
+	  line-height: 60px;
+	 }
+
+	/* Mobile Nav */
+	.navbar-collapse.collapse.in {
+	    background-color: #101010;
+	    margin-top: 30px;
+	}
+
+	.navbar-collapse.collapse.in li a {
+	    padding: 9px;
+	    margin: 0;
+	    height: auto;
+	    line-height: 28px;
+	}
+
+	.navbar-collapse.collapse.in li {
+	    border-bottom: 1px solid #474747;
+	}
+
+	.navbar-collapse.collapse.in li a:hover {
+	    background-color: #19947b;
+	}
+
+
+.mk-sticky-logo{
+	height: 50px;
+	width: auto;
+}
+
+#mk-page-introduce {
+	height: 113px;
+	background: url("https://www.96boards.org/assets/banner.jpg");
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+	#mk-page-introduce h1{
+		font-size: 20px;
+		color: #ffffff;
+		text-transform: none;
+		font-weight: normal;
+		letter-spacing: 2px;
+		padding: 0;
+		margin: 0;
+		border-bottom: 0;
+		margin: 25px 0 15px;
+	}
+
+	#mk-page-introduce .breadcrumb{
+		background-color: transparent;
+ 		padding: 0;
+		color: rgba(255,255,255,.5);
+	}
+
+	#mk-page-introduce .breadcrumb a {
+		color: rgba(255,255,255,.5);
+	}
+
+	#mk-page-introduce .breadcrumb a:active{
+		color: #fff;
+	}
+
+table.folderlist {
+	width: 100%;
+	}
+
+	table.folderlist thead th{
+		  background-color: #19947b;
+		  padding: 18px 12px;
+		  color: #fff;
+		  text-align: left;
+		  text-transform: uppercase;
+		  font-weight: 700;
+		  font-size: 14px;
+		}
+
+
+	table.folderlist td {
+	  text-align: left;
+	  padding: 12px;
+	}
+
+	div#content table {
+	  width: 100%;
+	}
+
+	div#content table thead th{
+	  background-color: #19947b;
+	  padding: 18px 12px;
+	  color: #fff;
+	  text-align: left;
+	  text-transform: none;
+	  font-weight: 700;
+	  font-size: 12px;
+	}
+
+
+	div#content table td {
+	  text-align: left;
+	  padding: 7px;
+	}
+
+	div#content table thead tr:last-child th {
+	  display: none;
+	}
+
+	table.folderlist {
+		width: 100%;
+		}
+
+ul#tabs-titles {
+    list-style: none;
+    background-color: #19947b;
+    padding: 5px;
+    color: #fff;
+}
+
+#tabs-titles a {
+    color: #fff;
+}
+
+footer {
+	background-color: #373737;
+  border-top: 1px solid #19947b;
+	color: #808080;
+	min-height: 111px;
+	padding-top: 20px;
+	margin: 50px 0 0 0;
+}
+
+footer a {
+	color: #808080;
+}
+	footer a:hover{
+		color:#fff;
+	}
+
+/* Bugs */
+div#header, div#bugzilla-body {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border: 0px;
+}
+
+body.bugs-96boards-org.yui-skin-sam {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #19947b;
+}
+
+a:hover {
+    color: #1FB798;
+}
+
+div#titles {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+#header .links, #footer {
+    background-color: #373737;
+    border-radius: 0px;
+}
+
+#header .links span.separator, #footer span.separator {
+    padding: 0px 5px;
+}
+
+input#find_top, input#find_bottom {
+    background-color: #19947b;
+    height: 26px;
+    color: #fff;
+    padding-top: 4px;
+    margin: -3px 5px 0 0;
+}
+
+#footer .intro, #footer #useful-links, #footer .outro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+
+
+
+/*
+body{
+	background: #FFF;
+}
+.head96 {
+	height: 80px;
+	background-color: #292929;
+}
+
+#logo96 img {
+    max-height: 70px;
+    padding: 5px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div#logo96 {
+    float: left;
+}
+
+div#menu96 {
+    float: right;
+}
+
+.main_menu li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.main_menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main_menu {
+    margin-top: 30px;
+}
+
+#content {
+clear: both;
+width: 75%;
+margin: 10px;
+padding: 10px;
+background: #fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+-o-border-radius: 6px;
+border-radius: 6px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+-o-box-shadow: none;
+border: 1px solid #ccc;
+}
+
+*/
