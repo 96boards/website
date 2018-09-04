@@ -58,7 +58,7 @@ product_mezzanine:
 product_buy_links:
   -
     link-title: Buy Bubblegum-96
-    link-price: "89.00"
+    link-price: "$89.00"
     from: ucrobotics.com.cn
     type: board
     link-price-currency: USD
@@ -105,3 +105,6 @@ TrustZone® security support.
 </div>
 
 Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/bubblegum-96/hardware-docs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
+
+<a href="/documentation/consumer/bubblegum-96/hardware-docs/files/compliance-bubblegum96.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
+

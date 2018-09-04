@@ -30,7 +30,7 @@ product_buy_links:
     link-url: "http://linaro.co/imx7-96-buy"
     from: Arrow.com
     type: board
-    link-price: "109.00"
+    link-price: "$109.00"
     link-price-currency: USD
 product_os:
   - title: Android

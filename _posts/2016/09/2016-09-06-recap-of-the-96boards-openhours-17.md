@@ -47,7 +47,7 @@ tags:
 - UART
 ---
 
-96Boards OpenHours just had it's 17th episode and it is continuing to grow.  This week was our largest audience to date.  OpenHours is a chance for those in the 96Boards community to come every Thursday to learn and ask questions about 96Boards.  We are currently between seasons so this hour is available for those that call in to ask questions of the many developers we have on the call.   This week's episode began with Robert making the announcement that we will be giving away some Dragonboards in September during one of our OpenHours sessions.   It will be during a 3 part series that will begin on Thursday September 15th, the first episode will be about simple unboxing of a new DragonBoard 410c, the second episode will be a demo with Lawrence King from his desk at Qualcomm Canada (during this episode we will be taking down names for those that want to be part of the drawing) and the final part of the series will be a live panel at our [Linaro Connect ](http://connect.linaro.org/las16/)event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions (and we will announce the winners).  After the give-away announcement Robert opened the call up to any questions the participants had.  To watch this weeks’ session go to [(https://www.youtube.com/watch?v=FNF-AL-wkN0)](https://www.youtube.com/watch?v=FNF-AL-wkN0)
+96Boards OpenHours just had it's 17th episode and it is continuing to grow.  This week was our largest audience to date.  OpenHours is a chance for those in the 96Boards community to come every Thursday to learn and ask questions about 96Boards.  We are currently between seasons so this hour is available for those that call in to ask questions of the many developers we have on the call.   This week's episode began with Robert making the announcement that we will be giving away some Dragonboards in September during one of our OpenHours sessions.   It will be during a 3 part series that will begin on Thursday September 15th, the first episode will be about simple unboxing of a new DragonBoard 410c, the second episode will be a demo with Lawrence King from his desk at Qualcomm Canada (during this episode we will be taking down names for those that want to be part of the drawing) and the final part of the series will be a live panel at our Linaro Connect event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions (and we will announce the winners).  After the give-away announcement Robert opened the call up to any questions the participants had.  To watch this weeks’ session go to [(https://www.youtube.com/watch?v=FNF-AL-wkN0)](https://www.youtube.com/watch?v=FNF-AL-wkN0)
 
 {% include media.html media_url="https://www.youtube.com/embed/FNF-AL-wkN0?feature=oembed" %}
 
@@ -1194,7 +1194,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/getting-started/](https://github.com/96boards/documentation/tree/master/consumer/dragonboard410c/getting-started)
+[https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/getting-started/](https://github.com/96boards/documentation/tree/master/consumer/dragonboard/dragonboard410c/getting-started)
 
 
 

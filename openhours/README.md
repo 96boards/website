@@ -13,15 +13,17 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join OpenHours</a>
+<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
+<a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
+<a href="https://calendar.google.com/calendar/r/eventedit/copy/cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA4MDJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
-Phase two, OpenHours is about to unfold, and we welcome everyone to join in for the fun. The current plan was outlined last week in our [phase two pilot episode](https://youtu.be/QPijdGYpLoA), but will most likely be touched on once again this week as we tackle new goals for the broadcast and attempt to bring new and exciting content forward in the form of technical interviews and showcases. We are currently working to book out the rest of the years interview slots, so if anyone is interested in joining OpenHours as a featured guest, please reach out to Robert Wolff (robert.wolff@linaro.org) to reserve a slot.
+Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week's** guest is still to be announced! Stay tuned for an update to the page in the next day or two.
+**This week**, we will be meeting with **Yossi and Nazik** of [Novtech](http://www.novtech.com/)! Join us to hear about the amazing work behind two featured Consumer Edition 96Boards, the [Meerkat](https://www.96boards.org/product/imx7-96/) and the [Chameleon96](https://www.96boards.org/product/chameleon96/). During this episode, we will hear a more Novtech (the company) and of course a deep dive into their two 96Boards. If we are lucky, there might even be a demo or two :-). Brew some coffee or tea, and tune in at the end of the countdown on either BlueJeans or YouTube (see the links above!).
 
-The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/96boards) channels.
+The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -72,6 +74,10 @@ Every Thursday at 4pm UTC
 
 **Robert Wolff (Host):**
 [Twitter](https://twitter.com/sdrobertw) | [Linkedin](https://www.linkedin.com/in/sdrobertw)
+
+**Watch Live on YouTube**
+
+{% include media.html media_url="https://www.youtube.com/embed/live_stream?channel=UCjawhk_W1QnJs3pKIsKLJNg" %}
 
 **Previous OpenHours Video**
 

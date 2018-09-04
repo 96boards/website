@@ -4,10 +4,10 @@ layout: product-display-page
 permalink: /product/ultra96/
 shortname: ultra96
 description: |-
-    Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
+    Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
-product_short_desc: "Ultra96TM is an Arm-based, Xilinx Zynq UltraScale+TM MPSoC development board"
+product_short_desc: "Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board"
 product_specification: ce
 featured_product_order: 2
 display_product: true
@@ -46,21 +46,22 @@ product_buy_links:
     link-url: https://linaro.co/ultra96-buy
     from: Avnet.com
     type: board
-    link-price: "249.00"
+    link-price: "$249.00"
     link-price-currency: USD
 product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
 product_os:
-  - title: Coming Soon...
-product_middleware:
-  - title: Coming Soon...
+  - title: Linux
+    link: /documentation/consumer/ultra96/downloads/
 product_third_party_images:
   - title: OpenSUSE
     link: https://en.opensuse.org/HCL:Ultra96
+  - title: X-Ware
+    link: http://www.ultra96.org/node/26011
 product_more_info:
-    - title: Avnet
-    - link: https://linaro.co/ultra96-vendor-avnet
+  - title: Avnet Zedboard
+    link: http://zedboard.org/product/ultra96
 product_accessories:
   - title: Power
     link: /product/power/
@@ -90,7 +91,6 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -105,6 +105,3 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Linux                                                                                        |
 |  Size                | 85mm x 54mm                                                                                      |
-{:.hidden_rows}
-
-</div>

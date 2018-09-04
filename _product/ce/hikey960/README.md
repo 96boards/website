@@ -1,5 +1,5 @@
 ---
-title: HiKey 960 
+title: HiKey 960
 layout: product-display-page
 permalink: /product/hikey960/
 shortname: hikey960
@@ -56,35 +56,35 @@ product_third_party_images:
 product_buy_links:
   -
     link-title: "Amazon (USA)"
-    link-price: "239.99"
+    link-price: "$239.99"
     link-url: "https://amzn.to/2JHYhLc"
     link-price-currency: USD
     from: Amazon.com
     type: board
   -
     link-title: "Lenovator (Worldwide)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960buy"
     link-price-currency: USD
     from: Lenovator.com
     type: board
   -
     link-title: "Seeed (Worldwide)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960-seed"
     link-price-currency: USD
     from: SeeedStudio.com
     type: board
   -
     link-title: "Alpha Star"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960buy-alpha"
     link-price-currency: USD
     from: Alpha-Star.org
     type: board
   -
     link-title: "Ali express (USA)"
-    link-price: "239.00"
+    link-price: "$239.00"
     link-url: "https://linaro.co/hikey960-ali"
     link-price-currency: USD
     from: Aliexpress.com
@@ -119,8 +119,6 @@ for the availability of multiple Linux distributions for this board in the futur
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -142,8 +140,7 @@ for the availability of multiple Linux distributions for this board in the futur
 |  Power Source        | Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant)                                                                                        |
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
-{:.hidden_rows}
-
-</div>
 
 Please visit the [HiKey960 Hardware User Manual](https://www.96boards.org/documentation/consumer/hikey960/hardware-docs/hardware-user-manual.md.html) for more information
+
+<a href="/documentation/consumer/hikey/hikey960/hardware-docs/files/compliance-hikey960.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>

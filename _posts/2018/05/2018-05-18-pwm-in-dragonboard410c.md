@@ -119,5 +119,4 @@ servo motor which draws very low current. This **should not** be used for
 controlling any high end motors as it might damage the board.
 
 I hope that this blog provided a good overview of the PWM functionality available
-in Dragonboard410c. This same information can also be found in [96Boards Documentation](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/pmic-pwm.md).
-
+in Dragonboard410c. This same information can also be found in [96Boards Documentation](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/pmic-pwm.md).

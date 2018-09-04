@@ -64,21 +64,21 @@ product_buy_links:
     link-url: "https://linaro.co/mediatekx20-buy"
   -
     link-title: "MediaTek X20 (Seed)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-url: "https://linaro.co/mediatekx20-seed"
     link-price-currency: USD
     from: seeedstudio.com
     type: board
   -
     link-title: "MediaTek X20 (Amazon)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-url: "https://linaro.co/mediatekx20-amazon"
     link-price-currency: USD
     from: Amazon.com
     type: board
   -
     link-title: "MediaTek X20 (AliExpress)"
-    link-price: "199.00"
+    link-price: "$199.00"
     link-price-currency: USD
     link-url: "https://linaro.co/mediatekx20-ali"
     from: AliExpress.com
@@ -126,3 +126,6 @@ WLAN, Bluetooth and GPS.
 </div>
 
 Please visit the [MediaTek X20 Hardware User Manual](https://www.96boards.org/documentation/consumer/mediatekx20/hardware-docs/) for more information
+
+<a href="/documentation/consumer/mediatekx20/hardware-docs/files/compliance-mediatekx20.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
+

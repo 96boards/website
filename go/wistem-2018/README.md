@@ -52,6 +52,9 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Written Interview Archive
 
+- [May 31: Laura Medalia - Software Engineer](https://www.96boards.org/blog/wistem-17/)
+- [May 30: Edith Hernandez - Inflammation In Vivo Research Associate](https://www.96boards.org/blog/wistem-16/)
+- [May 29: Dilesha Stelmach - Group benefits underwriter](https://www.96boards.org/blog/wistem-15/)
 - [May 28: Jumana Mundichipparakkal - SoC Performance Analyst](https://www.96boards.org/blog/wistem-14/)
 - [May 21: Raquel Medina - Software Engineer](https://www.96boards.org/blog/wistem-13/)
 - [May 16: Preeti Gupta - Electronics and Communications Engineer](https://www.96boards.org/blog/wistem-12/)
@@ -71,4 +74,14 @@ Please consider this schedule as tentative! For the most current information on 
 
 We are looking for women to share their "STEM story"! To participate in this initiative, please take some time to fill out the interview questions below. Each interview will be highly considered for publishing as a 96Boards blog and shared across our many channels. We will do our best to notify all participants if any action is taken and hope you enjoy the interview. Thank you for sharing your story with us!
 
+<div class="col-md-6" markdown="1">
+<br>
+<h3>Time to Next Women in STEM Event</h3>
+<iframe width="100%" height="160px" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
+<a href="https://www.96boards.org/go/wistem-2019/" class="btn blog-read-more-btn center-block">Go to 2019 page</a>
+</div>
+<div class="col-md-6" markdown="1">
+### Interview Form
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc32F34PKNFfgq85Tfi-l3vKHu9X9L33asZngsPLTSNuAY5EQ/viewform?usp=sf_link" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>

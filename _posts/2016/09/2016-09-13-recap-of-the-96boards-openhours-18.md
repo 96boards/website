@@ -47,7 +47,7 @@ tags:
 - UART
 ---
 
-This was our last between season 96Boards OpenHours where we will have the entire hour to ask questions.  Beginning in our next OpenHours we will be kicking off the new season starting with an exciting three part series and a chance to win one of several DragonBoards.  It will be during a 3 part series that will begin on Thursday September 15th, the first episode will be about simple unboxing of a new DragonBoard 410c, the second episode will be a demo with Lawrence King from his desk at Qualcomm Canada (during this episode we will be taking down names for those that want to be part of the drawing) and the final part of the series will be a live panel at our [Linaro Connect ](http://connect.linaro.org/las16/)event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions (and we will announce the winners).  This week's OpenHours (#18) had 90 participants on the call and many great questions.   To watch this weeks’ session go to [(https://www.youtube.com/watch?v=LtF7xIsgfNM)](https://www.youtube.com/watch?v=FNF-AL-wkN0)
+This was our last between season 96Boards OpenHours where we will have the entire hour to ask questions.  Beginning in our next OpenHours we will be kicking off the new season starting with an exciting three part series and a chance to win one of several DragonBoards.  It will be during a 3 part series that will begin on Thursday September 15th, the first episode will be about simple unboxing of a new DragonBoard 410c, the second episode will be a demo with Lawrence King from his desk at Qualcomm Canada (during this episode we will be taking down names for those that want to be part of the drawing) and the final part of the series will be a live panel at our Linaro Connect event in Las Vegas, Nevada to discuss the DragonBoard and to answer any questions (and we will announce the winners).  This week's OpenHours (#18) had 90 participants on the call and many great questions.   To watch this weeks’ session go to [(https://www.youtube.com/watch?v=LtF7xIsgfNM)](https://www.youtube.com/watch?v=FNF-AL-wkN0)
 
 {% include media.html media_url="https://www.youtube.com/embed/LtF7xIsgfNM?feature=oembed" %}
 
@@ -57,7 +57,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
     * Jorge has over twenty years of experience developing software and has been with Linaro on the Member Services team for a few years now.
 
 
-    * The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors […].  You can download the 2.0 version of the specification on this [link](http://www.linaro.org/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf).
+    * The second version of the VM System Specification for ARM processors was released back in April 2016: this document aims at [..] providing a set of guidelines for both guest OS and hypervisors such that OS images built according to these guidelines shall guarantee that those images will be able to execute on those hypervisors […].  You can download the 2.0 version of the specification on this [link](https://www.linaro.org/assets/downloads/VMSystemSpecificationForARM-v2.0.pdf).
 
 
     * Jorge went through his blog in more detail on the call and talked about additional materials that are available

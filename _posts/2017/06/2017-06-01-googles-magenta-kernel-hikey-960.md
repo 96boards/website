@@ -1,5 +1,5 @@
 ---
-author: sdrobertw
+author: Robert Wolff
 comments: true
 date: 2017-06-01 16:20:04+00:00
 layout: post
@@ -58,7 +58,7 @@ With a recent update to the source, Google added initial support for the HiKey96
 
 And the instructions to get it running on the HiKey960 can be found here:
 
-[https://github.com/fuchsia-mirror/magenta/blob/master/docs/targets/hikey960.md]()
+[https://fuchsia.googlesource.com/zircon/+/master/docs/targets/hikey960.md](https://fuchsia.googlesource.com/zircon/+/master/docs/targets/hikey960.md)
 
 
 # **Prerequisites and Troubleshooting**

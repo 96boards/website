@@ -4,58 +4,7 @@ permalink: "/"
 layout: boards-home
 ---
 <div class="container-fluid" id="content-container">
-    <div class="row" id="featured-products-row">
-        <div class="container">
-            <div class="row">
-                <h2 id="featured-boards">
-                    Each board has its own <strong>unique features</strong>, you can <strong>pick and choose</strong><br />
-                    one based on the project you are working on.
-                </h2>
-            </div>
-            <div class="row">
-                <div id="featured-products-wrapper" class="hidden-xs">
-                    {% for product in site.data.featured_products limit:6 %}
-                        {% if forloop.index < 4 %}
-                        <a href="{{product.url}}">
-                            <div class="col-sm-4 featured-product">
-                                <h3 class="featured-product-title">{{product.title}}</h3>
-                                <span class="featured-product-price">From {{product.price}}</span>
-                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
-                            </div>
-                        </a>
-                        {% else %}
-                        <a href="{{product.url}}">
-                            <div class="col-sm-4 featured-product bottom">
-                                <h3 class="featured-product-title">{{product.title}}</h3>
-                                <span class="featured-product-price">From {{product.price}}</span>
-                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
-                            </div>
-                        </a>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-                
-                <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">
-                    {% for product in site.data.featured_products limit:6 %}
-                        <div class="owl-item__inner">
-                            <div class="col-xs-12 visible-xs">
-                                <h3 class="featured-product-title">{{product.title}}</h3>
-                                <span class="featured-product-price">From {{product.price}}</span>
-                                <div class="lazyload featured-product-image" style="background-image: url({% asset_path '{{product.image}}' %})"></div>
-                            </div>
-                        </div>
-                    {% endfor %}               
-                </div> <!-- // home product-carousel -->
-                
-            </div>
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <a id="explore-boards" class="btn explore-btn" href="/products/">Explore Boards</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    {% include featured-products.html %}
     <div class="row" id="specifications-row">
         <div class="container">
             <div id="board-specifications" class="hidden-xs">
@@ -150,7 +99,12 @@ layout: boards-home
                                 <div class="col-xs-12 no-padding">
                                     <a class="btn spec-button" href="/products/mezzanine/">Explore Boards</a>
                                 </div>
-                            </div>
+                        
+                                <div class="col-xs-12 no-padding">
+                                    <a class="btn view-spec" href="https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf">View Guidelines</a>
+                                </div>
+							
+							</div>
                         </div>
                     </div>
                 </div>

@@ -120,7 +120,7 @@ span.featured-product-price {
 }
 
 .col-sm-4.featured-product:hover .featured-product-image {
-    top:-60px;
+    top:-40px;
     transition: all 500ms ease-in-out;
 }
 
@@ -128,11 +128,6 @@ span.featured-product-price {
     transition: all 1s ease-in-out;
 }
 
-
-.col-sm-4.featured-product:hover .featured-product-image {
-    top:-60px;
-    transition: all 500ms ease-in-out;
-}
 .col-sm-4.featured-product:hover .featured-product-title{
     opacity: 0;
     transition: all 400ms ease-in-out;
@@ -377,4 +372,18 @@ div#projects-row {
         border-bottom: 1px solid  #e2e2e2;
         padding-bottom: 15px;
     }
+}
+
+.blog-featured-image-home:hover {
+    transform: scale(1.3);
+}
+.blog-featured-image-home {
+    z-index: -100;
+    transition: all 5s ease;
+    transition-delay: 200ms;
+}
+
+.row.image {
+    overflow: hidden;
+    z-index: -1;
 }

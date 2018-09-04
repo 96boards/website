@@ -81,7 +81,7 @@ Qualcomm chip is available from Arrow
 
 **ES**
 
-[http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+LINK REMOVED
 
 **RW**
 

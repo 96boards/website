@@ -4,11 +4,20 @@ permalink: /openhours/community/
 layout: container-breadcrumb-tabs
 css-package: openhours
 ---
-# Leaderboard
+# Community
 
-96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience. Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
+Your chance to get involved! 96Boards will soon be launching OpenHours bounties and leader board. A community "To-Do" list is in the works which will allow anyone to pick up tasks to earn 96Boards community points. Compete with other community members for status, and/or use your points to get your hands on 96Boards / OpenHours swag and giveaway items!
 
-We’ll begin these sessions with introductions and announcements, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.These sessions will be held on BlueJeans and recorded so they can be made available after the session. There is a limit to a 100 participants so it will be first come first served initially!
-We look forward to talking with you.
+Coming soon...
 
+***
 
+## Leader Board
+
+Coming soon...
+
+***
+
+## Bounties
+
+Coming soon...

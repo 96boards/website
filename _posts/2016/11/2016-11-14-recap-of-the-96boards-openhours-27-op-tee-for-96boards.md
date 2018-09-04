@@ -64,8 +64,7 @@ David then began his talk with a very basic definition of OP-TEE and what it is.
 
 
 
-(Great video from Connect LAS16 with some nice diagrams)- [http://connect.linaro.org/resource/las16/las16-406/
-](http://connect.linaro.org/resource/las16/las16-406/)[http://www.op-tee.org/
+(Great video from Connect LAS16 with some nice diagrams)- LINK REMOVED [http://www.op-tee.org/
 ](http://www.op-tee.org/)OP-TEE Docs [https://www.op-tee.org/documentation/
 ](https://www.op-tee.org/documentation/)OP-TEE on github [https://github.com/OP-TEE/
 ](https://github.com/OP-TEE/)[https://github.com/96boards/documentation/wiki/HiKeyOPTEE
@@ -370,8 +369,7 @@ OP-TEE video from Linaro Connect:
 
 
 
-[http://connect.linaro.org/resource/las16/las16-406/](http://connect.linaro.org/resource/las16/las16-406/)
-
+LINK REMOVED
 
 
 

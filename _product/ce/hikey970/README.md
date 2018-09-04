@@ -1,5 +1,5 @@
 ---
-title: HiKey970 
+title: HiKey970
 layout: product-display-page
 permalink: /product/hikey970/
 shortname: hikey970
@@ -23,8 +23,8 @@ product_short_desc: "Board based on the HiSilicon Kirin 970"
 product_long_desc: |-
     HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers looking maximize accelerated AI capabilities not found in most other development platforms!
 product_images:
-  - hikey970-front-sd.png
-  - hikey970-back-sd.png
+  - hikey970-front-sd-min.png
+  - hikey970-back-sd-min.png
 product_mezzanine:
   - title: Link Sprite Sensor Kit
     link: /product/linkspritesensorkit/
@@ -41,45 +41,75 @@ product_accessories:
     link: /product/adapter/
   - title: Debug
     link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-
+  - title: Case with Fan
+    link: http://smartfire.cn/thread-843-1-1.html
 product_os:
   - title: Coming soon...
-
 product_third_party_images:
-  - title: Coming soon...
-
+  - title: AOSP
+    link: /documentation/consumer/hikey970/downloads/aosp.md.html
+  - title: Lubuntu (LeMaker Ubuntu)
+    link: http://www.lemaker.org/product-hikey970-download-84.html
+  - title: Lebian (LeMaker Debian)
+    link: http://www.lemaker.org/product-hikey970-download-85.html
 product_buy_links:
   -
+    link-title: "Amazon"
+    link-price: "$299.00"
+    link-url: "https://amzn.to/2vJM8mO"
+    link-price-currency: USD
+    from: amazon.com
+    type: board
+  -
+    link-title: "Lenovator"
+    link-price: "$299.00"
+    link-url: "http://www.lenovator.com/product/135.html"
+    link-price-currency: USD
+    from: lenovator.com
+    type: board
+  -
     link-title: "SeeedStudio"
-    link-price: "299.00"
+    link-price: "$299.00"
     link-url: "https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426"
     link-price-currency: USD
     from: seeedstudio.com
     type: board
   -
     link-title: "HiHope"
-    link-price: "299.00"
+    link-price: "$299.00"
     link-url: "http://hihope.org/product/HiKey970"
     link-price-currency: USD
     from: HiHope.com
     type: board
+  -
+    link-title: "Amazon Kit"
+    link-price: "$340.00"
+    link-url: "https://www.amazon.com/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X"
+    link-price-currency: USD
+    from: Amazon.com
+    type: board
+  -
+    link-title: "Amazon Kit (UK)"
+    link-price: "£339.00"
+    link-url: "https://www.amazon.co.uk/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X"
+    link-price-currency: GBP
+    from: Amazon.co.uk
+    type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
 ---
-HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers looking maximize accelerated AI capabilities not found in most other development platforms!
+HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers, looking maximize accelerated AI capabilities not found in most other development platforms!
 
 ## Buy Now
 
+- [Amazon](https://amzn.to/2vJM8mO)
+- [Lenovator](http://www.lenovator.com/product/135.html)
 - [SeeedStudio](https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426)
 - [HiHope](http://hihope.org/product/HiKey970)
 
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
-
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -95,8 +125,5 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 | User Interface:      | Power/Reset<br>8 LED indicators<br>4 -user controllable<br>3 -for radios (BT and WLAN and GPS activity)<br>1 – for CAN                                                                                                              |
 | Power Source:        | DC Power: +8V to +18V                                                                            |
 | OS Support:          | Android<br>Linux                                                                                 |
-| Mechanical:          | 105.26mm by 100mm meeting 96Boards Consumer Edition standard dimensions specifications.          | 
+| Mechanical:          | 105.26mm by 100mm meeting 96Boards Consumer Edition standard dimensions specifications.          |
 | Environmental:       | Operating Temp: 0°C to +70°C RoHS and Reach compliant                                            |
-{:.hidden_rows}
-
-</div>

@@ -31,21 +31,21 @@ product_buy_links:
     link-url: "https://www.seeedstudio.com/Rock-960-Board-RK3399-solution-2G-Version-p-3036.html"
     from: SeeedStudio.com
     type: board
-    link-price: "99.00"
+    link-price: "$99.00"
     link-price-currency: USD
   -
     link-title: Rock960 (Vamrs)
     link-url: "https://store.vamrs.com/products/rock960"
     from: Vamrs.com
     type: board
-    link-price: "99.00"
+    link-price: "$99.00"
     link-price-currency: USD
 product_more_info:
     - title: 96Rocks
       link: https://www.96rocks.com/
 product_os:
   - title: AOSP
-    link: /documentation/consumer/rock960/downloads/aosp.md.html
+    link: https://source.android.com/setup/
   - title: Debian
     link: /documentation/consumer/rock960/downloads/debian.md.html
   - title: Ubuntu
