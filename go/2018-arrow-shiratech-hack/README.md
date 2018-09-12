@@ -10,7 +10,7 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
-We invite Linaro developers and Linaro Connect attendees to join us for a fun and challenging Hackathon based on 96Boards made by [Arrow Electronics](www.arrow.com) and [Shiratech-solutions](www.shiratech-solutions.com).
+We invite Linaro developers and Linaro Connect attendees to join us for a fun and challenging Hackathon based on 96Boards made by [Arrow Electronics](https://www.arrow.com/) and [Shiratech-solutions](http://www.shiratech-solutions.com/).
  
 The accepted Hackathon participants will each receive a kit consisting of an Arrow Dragonboard and three Shiratech 96Boards Mezzanines so they can start developing at home before the event and continue in their spare time during the event. The Hackathon will end on September 21st and all projects will be shown at Demo Friday.
  
