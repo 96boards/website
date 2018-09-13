@@ -41,7 +41,7 @@ Following resources are useful for developing IE boards.
 
 #### Software - Zephyr
 
-* [Zephyr Kernel Primer](http://docs.zephyrproject.org/kernel/kernel.html)
+* [Zephyr Kernel Primer](https://docs.zephyrproject.org/latest/kernel/kernel.html)
 * [Zephyr Developer Guide](http://docs.zephyrproject.org/contribute/contribute_guidelines.html)
 * [Zephyr API Guide](http://docs.zephyrproject.org/api/api.html)
 * [Zephyr Porting Guide](http://docs.zephyrproject.org/porting/porting.html)
