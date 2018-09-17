@@ -29,9 +29,9 @@ Interested? Please read more below.
 
 - Every participant will receive a kit (free of charge) that contains the following parts:
 - Arrow Dragonboard 410C
-- LTE Mezzanine:  An LTE CAT4 cell modem with on-board 9-axis orientation, gesture, proximity, range and temperature sensors.   
-- FPGA Mezzanine: based on Intel Max10 FPGA with an onboard and Arduino expansion connectors
-- Bosch Sensor Mezzanine:  includes pressure and environmental sensors, accelerometer and magnetometer.
+- **LTE Mezzanine**:  An LTE CAT4 cell modem with on-board 9-axis orientation, gesture, proximity, range and temperature sensors.   
+- **FPGA Mezzanine**: based on Intel Max10 FPGA with an onboard and Arduino expansion connectors
+- **Bosch Sensor Mezzanine**:  includes pressure and environmental sensors, accelerometer and magnetometer.
 
 Note: If required, for EU based participants we can provide an EU LTE Mezzanine board fit for use in Europe (in addition to the N. America module)
 
