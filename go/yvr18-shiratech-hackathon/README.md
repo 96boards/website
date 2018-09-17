@@ -1,6 +1,6 @@
 ---
 title: Shiratech Hackathon at Linaro Connect Vancouver!
-permalink: /go/yvr18-shiratech-hackathon
+permalink: /go/yvr18-shiratech-hackathon/
 layout: container-breadcrumb
 ---
 
