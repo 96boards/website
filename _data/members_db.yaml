@@ -15,6 +15,9 @@ members:
           - name: Arrow Electronics
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
+          - name: Analog Devices
+            image: analog-devices.gif
+            url: https://www.linaro.org/company/analog-devices/
           - name: Google
             image: google.png
             url: https://www.linaro.org/company/google/
