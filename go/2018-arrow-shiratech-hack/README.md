@@ -16,12 +16,11 @@ The accepted Hackathon participants will each receive a kit consisting of an Arr
  
 Registration starts now and will remain open until September 19th. To register, please populate the form found on this page. You can enter the hackathon as an individual or a team with up to four members.
 
-Attila:  aambrus@arroweurope.com
-Ramon: ramon.h@shiratech-solutions.com
+- Attila:  aambrus@arroweurope.com
+- Ramon: ramon.h@shiratech-solutions.com
+- Robert: robert.wolff@linaro.org
 
 Great prizes for the three winning projects!
- 
-Interested? Please read more below.
 
 ***
 
@@ -40,8 +39,14 @@ Note: If required, for EU based participants we can provide an EU LTE Mezzanine 
 ## Scope
 
 - Create a working project using the provided kit
-- For the project it is mandatory to use the Dragonboard 410C and at least one of the Shiratech Mezzanines provided in the kit.
-- Use as many features of the provided Hardware as possible, add other elements such as sensors, toys, … and create the most amazing/crazy/fancy demo of all.
+- For the project it is mandatory to use the Dragonboard 410c (or other Arrow 96Boards) and at least one of the Shiratech Mezzanines provided in the kit.
+- Use as many features of the provided Hardware as possible, add other elements such as sensors, toys, etc… and create the most amazing/crazy/fancy demo of all.
+- Judges will score each project based on the following criteria:
+   - Technical Difficulty
+   - Innovation
+   - Creativity
+   - Usefulness/Practicality
+   - Business Potential
 
 ***
 
@@ -58,6 +63,8 @@ Note: If required, for EU based participants we can provide an EU LTE Mezzanine 
 - 1st Place - Grand Price
 - 2nd Place - Honorable Mention
 - 3rd Place - Honorable Mention
+
+**Winners will be announced during [Electronica](https://electronica.de/index.html)**
 
 ***
 
@@ -84,6 +91,18 @@ Note: If required, for EU based participants we can provide an EU LTE Mezzanine 
 2) Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
 
 3) Must include one or more video demonstrations, with explanation of final project.
+
+***
+
+## Interview with Shiratech - LTE Mezzanine
+
+{% include media.html media_url="https://youtu.be/v0ZLiVPP-So" %}
+
+***
+
+## Interview with Shiratech - FPGA Mezzanine
+
+{% include media.html media_url="https://youtu.be/zjiPDSecA_M" %}
 
 ***
 
