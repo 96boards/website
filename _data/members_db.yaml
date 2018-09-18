@@ -17,6 +17,7 @@ members:
             url: https://www.linaro.org/company/arrow/
           - name: Analog Devices
             image: adi.png
+            padded: padded-member-md
             url: https://www.linaro.org/company/analog-devices/
           - name: Google
             image: google.png
@@ -74,7 +75,7 @@ members:
           image: arrow.jpg
           url: https://www.linaro.org/company/arrow/
         - name: Avnet
-          padded: true
+          padded: padded-member
           image: Avnet.png
           url: https://www.linaro.org/company/avnet/
         - name: Black Whale Technology
@@ -123,6 +124,7 @@ members:
           url: https://www.linaro.org/company/shapedmedia/
         - name: Shiratech
           image: shiratech.png
+          padded: padded-member-md
           url: http://www.shiratech.com
         - name: Thundersoft
           image: thunder-soft.png
@@ -139,6 +141,7 @@ members:
         - name: Witstek
           image: witstek.png
           # url: http://witstech.cn/
+          padded: padded-member
         - name: Xunlong
           image: xunlong.png
           url: https://www.linaro.org/company/xunlong/
