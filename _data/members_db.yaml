@@ -133,7 +133,8 @@ members:
           image: tocoding.png
           url: https://www.linaro.org/company/tocoding/
         - name: UcRobotics
-          image: uc-robotics.png
+          image: ucrobotics.png
+          padded: padded-member-md
           url: https://www.linaro.org/company/ucrobotics/
         - name: vamrs
           image: vamrs.jpg
