@@ -16,7 +16,7 @@ members:
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
           - name: Analog Devices
-            image: analog-devices.gif
+            image: adi.png
             url: https://www.linaro.org/company/analog-devices/
           - name: Google
             image: google.png
@@ -74,6 +74,7 @@ members:
           image: arrow.jpg
           url: https://www.linaro.org/company/arrow/
         - name: Avnet
+          padded: true
           image: Avnet.png
           url: https://www.linaro.org/company/avnet/
         - name: Black Whale Technology
