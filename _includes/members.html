@@ -10,7 +10,7 @@
                                <a href="{{member.url}}">
                                    <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    class="{% if member.padded %}padded-member{% endif %} img-responsive members-img lazyload center-block"/>
+                                    class="{% if member.padded %}{{member.padded}}{% endif %} img-responsive members-img lazyload center-block"/>
                                 </a>
                            </div>
                   {% endfor %}
@@ -30,7 +30,7 @@
                       <a href="{{member.url}}">
                           <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                           class="{% if member.padded %}padded-member{% endif %} img-responsive members-img lazyload center-block"/>
+                           class="{% if member.padded %}{{member.padded}}{% endif %} img-responsive members-img lazyload center-block"/>
                        </a>
                   </div>
               {% endfor %}
