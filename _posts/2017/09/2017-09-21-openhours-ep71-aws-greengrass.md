@@ -50,7 +50,7 @@ Edge computing and industrial IoT were on the docket for this week's OpenHours. 
 - [Linaro Connect SFO17](/go/sfo17-connect-reach/)
 - [Qualcomm Developer Network, Projects page](https://developer.qualcomm.com/project)
 - [Qualcomm Snapdragon pages](https://developer.qualcomm.com/blog/snapdragon-410e-aws-greengrass-intelligence-edge)
-- [AWS Live event with robot arm demo](http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2279608)
+- [AWS Live event with robot arm demo]()
 
 # Video
 
@@ -392,5 +392,5 @@ Have to go see you live....
 
 Christine Jorgensen - CJ
 see there link to AWS Live event with robot arm demo:
-http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2279608
+
 ```
