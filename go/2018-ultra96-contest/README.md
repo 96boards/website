@@ -34,24 +34,14 @@ js-package: openhours
 
 ***
 
-## Webinar Series
+## Webinars, Workshops and More!
 
-- **Introduction to the Ultra96 Contest by Avnet**
-   - Date: TBD
-   - Presenter(s): [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
-   - [Add to your Calendar]()
-- **Introduction to Linaro/96Boards, Xilinx and Avnet**
-   - Date: TBD
-   - Presenter(s): [Robert Wolff (96Boards)](https://www.linkedin.com/in/sdrobertw/), [Yang Zhang (96Boards)](https://www.linkedin.com/in/yangz/), [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
-   - [Add to your Calendar]()
-- **Ultra96 Deep Dive**
-   - Date: TBD
-   - Presenter(s): [Bryan Fletcher (Avnet)](https://www.linkedin.com/in/bryan-fletcher-09b87b5/)
-   - [Add to your Calendar]()
-- **SDSoC - Introduction and Deep dive**
-   - Date: TBD
-   - Presenter(s): TBD
-   - [Add to your Calendar]()
+- [Hackster.io MCU Monday Ultra96 Unboxing](https://youtu.be/QA90ClbP4EM)
+- Introduction to the Ultra96 with Hackster.io and the 96Boards team
+   - [Ultra96 Intro // FPGA Single-Board Computer](https://youtu.be/fVR_YB0qnBQ)
+   - [Ultra96 Live Demos // FPGA Single-Board Computer](https://youtu.be/MoCFhOiGj6c)
+   - [Ultra96 SDSoC Software License // FPGA Single-Board Computer](https://youtu.be/pdXdKK14xfo)
+- Element14 Webinar: [What Can I do with Programmable Logic?](https://www.element14.com/community/docs/DOC-90581/l/webinar-recording-what-can-i-do-with-programmable-logic)
 
 ***
 
@@ -61,13 +51,12 @@ js-package: openhours
    - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Zed Board](http://zedboard.org/product/ultra96)
+   - [Ultra96 Getting Started Guide](http://zedboard.org/sites/default/files/documentations/Ultra96-GSG-v1_0.pdf)
 - **Projects**
-   - Coming soon...
-- **Workshop**
-   - Coming soon...
+   - [MicroZed Chronicles](http://www.microzedchronicles.com/)
+   - [Xilinx Projects](https://www.hackster.io/xilinx/projects)
 - **Blogs**
    - [96Boards Blogs](https://www.96boards.org/blog/)
-   - [MicroZED Chronicles](https://blog.hackster.io/microzed-chronicles-a-look-at-the-ultra96-board-c5b8f7a02209)
    - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
    - [Website](https://www.96boards.org/openhours/)
