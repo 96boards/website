@@ -16,7 +16,7 @@ The accepted Hackathon participants will each receive a kit consisting of an Arr
  
 Registration starts now and will remain open until September 19th. To register, please populate the form found on this page. You can enter the hackathon as an individual or a team with up to four members.
 
-- Attila:  aambrus@arroweurope.com
+- Attila: aambrus@arroweurope.com
 - Ramon: ramon.h@shiratech-solutions.com
 - Robert: robert.wolff@linaro.org
 
@@ -55,6 +55,10 @@ Note: If required, for EU based participants we can provide an EU LTE Mezzanine 
 - For images and SW/HW support please use the 96Boards.org as your main source
 - For any tricky questions Arrow and Shiratech will provide support (support@shiratech-solutions.com)
 - We will open a special Hackathon resource section with all Shiratech Mezzanine related information on Shirtech-solutions web site
+
+## Resources
+
+- [Download Mezzanine Resource Package](https://www.dropbox.com/sh/svpftv2j9h795ep/AADHmBS9_WjuPu29vrmXUdTBa?dl=0)
 
 ***
 
