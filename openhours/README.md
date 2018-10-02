@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA5MjdUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMDRUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will have a general Q&A session with the 96Boards team! Together we can comb through some of the latest forum posts and take questions from anyone in the call. I would also like to talk about some of the demos and tech we saw at Linaro Connect in YVR! Grab some coffee and come hang out with us! 
+**This week**, we will be meeting with [Next Biometrics](https://www.nextbiometrics.com/)! Next Bio has put out an awesome [new fingerprint scanner for 96Boards](https://www.96boards.org/product/arrow-nextbio/), and we want to talk about it on the show! In this episode, we plan to find out more about Next Bio and their plans with 96Boards. Of course, we will also try to show off this tech with some demos, brought to you by the one and only, Sahaj Sarup (96Boards Engineer). We hope you will join us for this week's interview with Next Bio! Bring your coffee (or beer), questions, and thinking hat, this week is going to be a lot of fun! :-)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
