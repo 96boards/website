@@ -12,21 +12,21 @@ layout: container-breadcrumb-tabs
 | 132     | 27 Dec 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
 | 131     | 20 Dec 2018    | Jon "maddog" Hall         | maddog holiday special                  | N/A                                                     |
 | 130     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | N/A                                                     |
-| 129     | 6 Dec 2018     | TBD                       | TBD                                     | N/A                                                     |
+| 129     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | N/A                                                     |
 | 128     | 29 Nov 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
 | 127     | 22 Nov 2018    | TBD                       | TBD                                     | N/A                                                     |
-| 126     | 15 Nov 2018    | TBD                       | TBD                                     | N/A                                                     |
+| 126     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | N/A                                                     |
 | 125     | 8 Nov 2018     | TBD                       | TBD                                     | N/A                                                     |
-| 124     | 1 Nov 2018     | TBD                       | TBD                                     | N/A                                                     |
-| 123     | 25 Oct 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
-| 122     | 18 Oct 2018    | TBD                       | TBD                                     | N/A                                                     |
-| 121     | 11 Oct 2018    | Janelle Letzen            | Sushi and Science                       | N/A                                                     |
-| 120     | 4 Oct 2018     | TBD                       | TBD                                     | N/A                                                     |
-| 119     | 27 Sept 2018   | Q&A                       | Scheduled Q&A                           | N/A                                                     |
-| 118     | 20 Sept 2018   | 96Boards & Partners       | OpenHours Live in Vancouver - Canada    | N/A                                                     |
-| 115     | 13 Sept 2018   | Maciej Halasz             | Embedded Linux security                 | N/A                                                     |
-| 114     | 6 Sept 2018    | S. Alex Martin            | A day in the SciCom Community           | [Set Reminder](https://www.youtube.com/c/96boards/live) |
-| 113     | 30 Aug 2018    | Q&A                       | Scheduled Q&A                           | [Watch Video](https://youtu.be/_2br2YnBL2g)             |
+| 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | N/A                                                     |
+| 123     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | N/A                                                     |
+| 122     | 18 Oct 2018    | The Coding Blonde         | TBD                                     | N/A                                                     |
+| 121     | 11 Oct 2018    | TBD                       | TBD                                     | N/A                                                     |
+| 120     | 4 Oct 2018     | Ondrej Adamek             | NextBio Mezzanine                       | N/A                                                     |
+| 119     | 27 Sept 2018   | 96Boards Team             | Scheduled Q&A & Demo                    | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 118     | 20 Sept 2018   | 96Boards & Partners       | OpenHours Live in Vancouver - Canada    | [Watch Video](https://youtu.be/eQKwIozskrk)             |
+| 115     | 13 Sept 2018   | Maciej Halasz             | Embedded Linux security                 | [Watch Video](https://youtu.be/FBBp7iq27cI)             |
+| 114     | 6 Sept 2018    | S. Alex Martin            | A day in the SciCom Community Part 1    | [Watch Video](https://youtu.be/SzeuRdGodTs)             |
+| 113     | 30 Aug 2018    | 96Boards Team             | Scheduled Q&A                           | [Watch Video](https://youtu.be/_2br2YnBL2g)             |
 | 112     | 23 Aug 2018    | Yossi and Nazik (Novtech) | Novtech, Chameleon96 and Meerkat96!     | [Watch Video](https://youtu.be/n3U5StNHdx8)             |
 | 111     | 16 Aug 2018    | Sahaj Sarup               | Sahaj Takeover                          | [Watch Video](https://youtu.be/dbqGkn25mNk)             |
 | 110     | 9 Aug 2018     | Winston Makes             | Makers Gonna Make                       | [Watch Video](https://youtu.be/dbqGkn25mNk)             |

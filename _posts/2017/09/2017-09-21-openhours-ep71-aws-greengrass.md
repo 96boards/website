@@ -50,7 +50,7 @@ Edge computing and industrial IoT were on the docket for this week's OpenHours. 
 - [Linaro Connect SFO17](/go/sfo17-connect-reach/)
 - [Qualcomm Developer Network, Projects page](https://developer.qualcomm.com/project)
 - [Qualcomm Snapdragon pages](https://developer.qualcomm.com/blog/snapdragon-410e-aws-greengrass-intelligence-edge)
-- [AWS Live event with robot arm demo](http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2279608)
+- [AWS Live event with robot arm demo]()
 
 # Video
 
@@ -64,7 +64,7 @@ Edge computing and industrial IoT were on the docket for this week's OpenHours. 
 
 ```
 Sahaj Sarup - SS
-hi all 
+hi all
 
 Todd Thal - TT
 I see the "diehard quad" ( and a half) is here...1). Sahaj 2). Ragnar 3). Nazmul 4). "Robert" and his evil mini-me "Robert screen
@@ -98,7 +98,7 @@ Selim - S
 greetings
 
 Sahaj Sarup - SS
-hello 
+hello
 
 Robert Wolff - RW
 @Selim: Hello! Welcome
@@ -164,7 +164,7 @@ He is going on!!!!
 yes
 
 Ragnar. - R
-  
+
 Robert Wolff - RW
 https://www.96boards.org/go/sfo17-connect-reach/
 
@@ -183,7 +183,7 @@ Have to go see you live....
 
 Christine Jorgensen - CJ
 see there link to AWS Live event with robot arm demo:
-http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2279608
+
 I am still trying to find the link to the actual video ...
 Ha, found the video:
 https://www.youtube.com/watch?v=6RM0ZqR8u0U
@@ -238,10 +238,10 @@ Ragnar. - R
 Robert: Be Sure to Wear Flowers in Your Hair
 
 Christine Jorgensen - CJ
-We need a mulel 
+We need a mulel
 no FCPA
 right now we are on a deadline
-thanks 
+thanks
 Arrow said it would be three weeks
 sorry not arrow but Seeed
 Nope
@@ -272,10 +272,10 @@ Later!!!
 Safe Travels!!!
 
 On 21 September 2017 at 10:11, Robert Wolff <robert.wolff@linaro.org> wrote:
-Glad to see you are now a regular, Todd! 
+Glad to see you are now a regular, Todd!
 
 Sahaj Sarup - SS
-hi all 
+hi all
 
 Todd Thal - TT
 I see the "diehard quad" ( and a half) is here...1). Sahaj 2). Ragnar 3). Nazmul 4). "Robert" and his evil mini-me "Robert screen shot"....; )
@@ -308,7 +308,7 @@ Selim - S
 greetings
 
 Sahaj Sarup - SS
-hello 
+hello
 
 Robert Wolff - RW
 @Selim: Hello! Welcome
@@ -373,7 +373,7 @@ He is going on!!!!
 yes
 
 Ragnar. - R
-  
+
 Robert Wolff - RW
 https://www.96boards.org/go/sfo17-connect-reach/
 
@@ -392,5 +392,5 @@ Have to go see you live....
 
 Christine Jorgensen - CJ
 see there link to AWS Live event with robot arm demo:
-http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2279608
+
 ```
