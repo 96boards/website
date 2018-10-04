@@ -7,11 +7,9 @@ func([
     {
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},
-        "content_html": {{ post.content | jsonify }},
         "url": "{{ site.url }}{{ post.url }}",
         "summary": {{ post.excerpt | smartify | jsonify }},
         "date_published": "{{ post.date }}"
-        {% comment %}"author": "{{ post.author }}"{% endcomment %}
     }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
 ]);
