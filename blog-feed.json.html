@@ -1,0 +1,5 @@
+---
+permalink: /assets/json/blog.json
+---
+{% assign posts = site.posts | limit: 10 %}
+func({{ posts | jsonify }});
