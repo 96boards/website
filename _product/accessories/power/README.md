@@ -64,6 +64,8 @@ accessories:
         - http://www.amazon.co.uk/5-5mm-1-7mm-2-1mm-Female-Adapter/dp/B00MJSNNDC/ref=sr_1_19?ie=UTF8&qid=1422616362&sr=8-19
     accessory_search_term: 2.1mm to 1.7mm power adapter
 ---
+*** 
+
 The 96Boards CE boards require an 8-18V 2A power supply.
 
 We recommend a 12V 2A adapter with a DC plug that has a 4.75 mm outer diameter with 1.7mm center pin (EIAJ-3 Compliant).
