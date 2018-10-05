@@ -6,7 +6,7 @@ description: Power Accessories for 96Boards
 accessories:
   - accessory_permalink: /product/power/
     accessory_category: power
-    accessory_title: External 96Boards compliant power supply kit (12V, 2A, US plug)
+    accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
     accessory_description: |-
         Avnet is providing this power supply worldwide and recommend it for all 96Boards.
         The adapter has a US plug, but supports 90-264V AC input and 12V 2A output.
@@ -17,7 +17,7 @@ accessories:
         - accessories-arrow-power.jpg
   - accessory_permalink: /product/power/
     accessory_category: power
-    accessory_title: 4A 12V Power Supply, Meets 96Boards Spec
+    accessory_title: Plug-In Adapter Single-OUT 12V 4A 48W
     accessory_description: |-
         Avnet is providing this power supply worldwide and recommend it for all 96Boards.
         The adapter has a US plug, but supports 90-264V AC input and 12V 4A output.
