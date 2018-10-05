@@ -1,3 +1,0 @@
----
----
-{{ site.data.members_db | jsonify }}
