@@ -1,9 +1,8 @@
 ---
 permalink: /assets/json/blog.json
 ---
-{% assign posts = site.posts | limit: 10 %}
 func([
-{% for post in posts %}
+{% for post in site.posts limit: 10 %}
     {
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},
