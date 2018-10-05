@@ -14,7 +14,7 @@ accessories:
         - http://avnet.me/96BoardPower2A
     accessory_search_term: External 96Boards compliant power supply kit (12V, 2A, US plug)
     accessory_images:
-        - no-image-available.png
+        - accessories-arrow-power.jpg
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: 4A 12V Power Supply, Meets 96Boards Spec
@@ -25,7 +25,7 @@ accessories:
         - http://avnet.me/96BoardPower4A
     accessory_search_term: 4A 12V POWER SUPPLY, MEETS THE 96BOARDS SPEC
     accessory_images:
-        - no-image-available.png
+        - accessories-arrow-power.jpg
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
