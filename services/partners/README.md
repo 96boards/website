@@ -8,10 +8,10 @@ All 96Boards services partners are hand picked to address 96Boards specific need
 ***
 
 ## Archermind
-- [Timesys Website](https://www.archermind.com/en/)
+- [Archermind Website](https://www.archermind.com/en/)
 
 ## Hoperun
-- [Timesys Website](http://www.hoperun.com/en)
+- [Hoperun Website](http://www.hoperun.com/en)
 
 ## Timesys
 - [Timesys Website](https://www.timesys.com/)
@@ -21,7 +21,7 @@ All 96Boards services partners are hand picked to address 96Boards specific need
    - [Timesys Test &amp; Validation Services](https://www.timesys.com/open-source-embedded/remote-debugging-testing/)
 
 ## Thundersoft
-- [Timesys Website](http://www.thundersoft.com/)
+- [Thundersoft Website](http://www.thundersoft.com/)
 
 ## Linaro Developer Services
 - [Linaro Developer Services Website](https://www.linaro.org/services/96boards/)
