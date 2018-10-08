@@ -8,24 +8,25 @@ accessories:
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W
     accessory_description: |-
-        Avnet is providing this power supply worldwide and recommend it for all 96Boards.
-        The adapter has a US plug, but supports 90-264V AC input and 12V 2A output.
+        AES-ACC-U96-PWR is the lowest-cost 96Boards-compatible power supply from Avnet that supplies 12V @ 2A. It has a US plug and supports 100-240
+        VAC. This power supply recommended for designs that do not consume much power through the expansion mezzanines or USB 3.0 host connectors.
     accessory_order_link:
         - http://avnet.me/96BoardPower2A
-    accessory_search_term: External 96Boards compliant power supply kit (12V, 2A, US plug)
+    accessory_search_term: AES-ACC-U96-PWR
     accessory_images:
-        - accessories-arrow-power.jpg
+        - no-image-available.png
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 4A 48W
     accessory_description: |-
-        Avnet is providing this power supply worldwide and recommend it for all 96Boards.
-        The adapter has a US plug, but supports 90-264V AC input and 12V 4A output.
+        AES-ACC-U96-4APWR is our highest power 96Boards-compatible power supply from Avnet that supplies 12V @ 4A. It ships with an international plug
+        set and supports 100-240 VAC. This power supply is recommended for designs that may consume power through the expansion mezzanines or USB 3.0
+        host connectors.
     accessory_order_link:
         - http://avnet.me/96BoardPower4A
-    accessory_search_term: 4A 12V POWER SUPPLY, MEETS THE 96BOARDS SPEC
+    accessory_search_term: AES-ACC-U96-4APWR
     accessory_images:
-        - accessories-arrow-power.jpg
+        - no-image-available.png
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W

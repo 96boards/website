@@ -54,6 +54,8 @@ product_more_info:
 product_os:
   - title: Linux
     link: /documentation/consumer/ultra96/downloads/
+  - title: Xilinx PYNQ
+    link: http://www.pynq.io/board.html
 product_third_party_images:
   - title: OpenSUSE
     link: https://en.opensuse.org/HCL:Ultra96
