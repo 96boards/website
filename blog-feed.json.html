@@ -1,0 +1,14 @@
+---
+permalink: /assets/json/blog.json
+---
+func([
+{% for post in site.posts limit: 10 %}
+    {
+        "id": "{{ post.id }}",
+        "title": {{ post.title | smartify | jsonify }},
+        "url": "{{ site.url }}{{ post.url }}",
+        "summary": {{ post.excerpt | smartify | jsonify }},
+        "date_published": "{{ post.date }}"
+    }{% unless forloop.last == true %},{% endunless %}
+{% endfor %}
+]);

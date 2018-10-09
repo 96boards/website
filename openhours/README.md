@@ -15,13 +15,13 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/calendar/r/eventedit/copy/cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODA4MDJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw/cm9iZXJ0LndvbGZmQGxpbmFyby5vcmc?sf=true" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMTFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with **Yossi and Nazik** of [Novtech](http://www.novtech.com/)! Join us to hear about the amazing work behind two featured Consumer Edition 96Boards, the [Meerkat](https://www.96boards.org/product/imx7-96/) and the [Chameleon96](https://www.96boards.org/product/chameleon96/). During this episode, we will hear a more Novtech (the company) and of course a deep dive into their two 96Boards. If we are lucky, there might even be a demo or two :-). Brew some coffee or tea, and tune in at the end of the countdown on either BlueJeans or YouTube (see the links above!).
+**This week** (for our surprise episode), we will be meeting with [Brandy Morgan](https://www.instagram.com/msbrandymorgan/) of [Creators Code](https://creatorscode.co/)! Brandy is a developer, designer, and doer who could out hustle Jay-z. Her work has received recognition and acclaim from Awwwards. Brandy has been featured in Glamour and Money magazine for her work on social media for paving the way for other female developers. If she isn't coding or working on Creators Code, you can find her running laps around the beautiful lakes of Winter Park, FL or sipping espresso at the local coffee shops. At Creators Code their mission is to cohesively integrate the technologist and the creative, for building successful and authentic connections online. From corporate marketing teams to individuals focused on personal branding, Creators Code provides the tools to develop creative and innovative data-driven strategies to optimize your online presence. This is your chance to come hang out with Brandy for an entire hour! Bring your coffee and/or tea (and/or beer ;-)) and join us on BlueJeans, YouTube, or Facebook for the livestream. The 96Boards team have a bunch of questions, but we encourage anyone who is joining to speak up and contribute to the converstaion. See you on Thursday!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 

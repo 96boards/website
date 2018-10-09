@@ -255,6 +255,7 @@ __Note:__ These redirects are currently not respected by the link checker until 
 ## Issues 
 If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
 
+
 ### Known Issues
 #### Image file names
 Due to the way product images are include, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.

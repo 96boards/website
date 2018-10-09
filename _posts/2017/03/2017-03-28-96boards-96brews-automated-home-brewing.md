@@ -162,12 +162,7 @@ Here are some websites that may help you decide on the type of system you plan o
     * [https://www.westcoastbrewer.com/BrewersBlog/home-brewing-equipment/brew-sculptures-and-homebrewing-stands/home-brewing-stands-and-home-brewery-rig-images/](https://www.westcoastbrewer.com/BrewersBlog/home-brewing-equipment/brew-sculptures-and-homebrewing-stands/home-brewing-stands-and-home-brewery-rig-images/)
 
 
-    * [https://byo.com/hops/item/1325-rims-and-herms-brewing-advanced-homebrewing](https://byo.com/hops/item/1325-rims-and-herms-brewing-advanced-homebrewing)
-
-
-
-
-
+    <!-- Link removed as article was deleted by the website -->
 
 
 ### **Automating your brew system**
