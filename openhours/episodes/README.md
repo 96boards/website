@@ -20,9 +20,9 @@ layout: container-breadcrumb-tabs
 | 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | N/A                                                     |
 | 123     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | N/A                                                     |
 | 122     | 18 Oct 2018    | The Coding Blonde         | TBD                                     | N/A                                                     |
-| 121     | 11 Oct 2018    | TBD                       | TBD                                     | N/A                                                     |
-| 120     | 4 Oct 2018     | Ondrej Adamek             | NextBio Mezzanine                       | N/A                                                     |
-| 119     | 27 Sept 2018   | 96Boards Team             | Scheduled Q&A & Demo                    | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 121     | 11 Oct 2018    | Brandy Morgan             | Creators Code                           | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 120     | 4 Oct 2018     | Ondrej Adamek             | NextBio Mezzanine                       | [Watch Video](https://youtu.be/1pSRE6oJDOU)             |
+| 119     | 27 Sept 2018   | 96Boards Team             | Scheduled Q&A & Demo                    | [Watch Video](https://youtu.be/mMGR2KRHGqE)             |
 | 118     | 20 Sept 2018   | 96Boards & Partners       | OpenHours Live in Vancouver - Canada    | [Watch Video](https://youtu.be/eQKwIozskrk)             |
 | 115     | 13 Sept 2018   | Maciej Halasz             | Embedded Linux security                 | [Watch Video](https://youtu.be/FBBp7iq27cI)             |
 | 114     | 6 Sept 2018    | S. Alex Martin            | A day in the SciCom Community Part 1    | [Watch Video](https://youtu.be/SzeuRdGodTs)             |
