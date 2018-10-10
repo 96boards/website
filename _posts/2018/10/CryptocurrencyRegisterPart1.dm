@@ -4,7 +4,6 @@ Tags: 2018-10-08
 Image : 
 	Name: goal.png
 	Categories: blog
-
 # Introductions
 
 Hello! Welcome to the blog Cyptocurrency register part 1. 96Boards pairing up with the UCSD ECE department to develop a register that will allow store owners to accept cryptocurrency. We will be using the dragon board 410c to control the register. 
