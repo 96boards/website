@@ -27,4 +27,4 @@ The team decided one of three display LCD, which is PCD 8544 for the QR code. Th
 
 # Conclusion
 
-We are working on understanding more about the world of cryptocurrency, and we can build a well-designed product. Next week¡¯s blog will further detail our technical plans.
+We are working on understanding more about the world of cryptocurrency, and we can build a well-designed product. Next week 1 blog will further detail our technical plans.
