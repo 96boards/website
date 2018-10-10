@@ -1,0 +1,259 @@
+# Email address
+email: kyle.kirkby@linaro.org
+
+#OpenHours Setup
+openhours:
+    hour: 16 # 4pm UTC
+    day: 4 #Thursday -  0-6
+
+# Destination of the Jekyll site upon build of site.
+destination: cn.96boards.org
+
+# Include the Linaro Jekyll Theme
+# include: [_jekyll-hyperblip-theme]
+
+# Permalink for the blog posts of the Jekyll website.
+permalink: /blog/:title/
+
+# production status for robots.txt and files alike.
+production: false
+
+# Shema.org Setup -> used in the schema.html include.
+schema:
+    organisation:
+        name: 96boards
+        url: https://www.96boards.org
+        sameAs:
+            - https://twitter.com/96Boards
+            - https://www.facebook.com/96Boards
+            - https://www.linkedin.com/company/6637095
+            - https://github.com/96boards
+            - http://slideshare.com/96boards
+        address:
+            street: Harston Mill, Royston Rd 
+            town: Harston 
+            county: Cambridge 
+            post_code: CB22 7GG
+            country_code: UK 
+
+
+# For china build specific settings.
+china_build: true
+
+# Markdown version
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge # Syntax highlighter for 96boards blog
+
+# Website title - used in the <title> tag of the <head> section of the website.
+title: 96Boards
+
+# Encoding of the files being included in the Jekyll Build.
+encoding: utf-8
+
+# Description of the website used in the Meta Description.
+description: > # this means to ignore newlines until "baseurl:"
+  32- and 64-bit ARM Open Platform Specifications. For software developers.
+  For the maker community. For embedded OEMs. 64-bit ARM for $129.
+
+# Jekyll configuration for running the site in "Safe" mode.
+safe: false
+
+# Search label setting for site search with e.g. search/?fields.label=96Boards
+search-label: 96Boards
+
+# Disqus Comments settings.
+disqus: true
+disqus_shortname: '96boards'
+
+# This is the url that is used when your site is built for canonicals etc.
+#url: "http://localhost:4000"
+url: "https://www.cn.96boards.org"
+
+# Files jekyll should keep.
+keep_files:
+  - pinout
+
+# Files that should be excluded from the Jekyll build.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _deploy
+  - _deploy-china
+  - _deploy-test
+  - _deploy-site
+  - .sass-cache
+  - _private
+  - _site
+  - help
+  - _projects/projects.md
+
+  # - _projects
+  # - _product
+  # - _documentation
+  # - _posts/2015
+  # - _posts/2017
+  # - _posts/2016
+  # - _posts
+  # - blog
+
+# Google Tag mangager site wide setting - for deployment of site to China.
+google-tag-manager: false
+
+# Social Configuration for the Jekyll SEO plugin.
+social:
+  name: 96Boards
+  links:
+    - https://twitter.com/96Boards
+    - https://www.facebook.com/96Boards
+    - https://www.linkedin.com/company/6637095
+    - https://plus.google.com/106009833460292139774/posts
+    - https://github.com/96boards
+    - http://slideshare.com/96boards
+twitter:
+    username: 96Boards
+
+# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
+github_username: 96boards
+linkedin_username: 6637095
+google_plus_username: 106009833460292139774
+facebook_username: 96Boards
+youtube_username: UCjawhk_W1QnJs3pKIsKLJNg
+twitter_username: 96Boards
+
+
+# Jekyll Collections configuration - Projects, Products and Documentation.
+collections:
+    product:
+        output: true
+        permalink: /:collection/:path/
+    projects:
+        output: true
+        permalink: /:collection/:path/
+    documentation:
+        output: true
+        permalink: /:collection/:path/
+defaults:
+  - scope:
+        type: "documentation"
+    values:
+        layout: "documentation-page"
+        page_specific_css: documentation-pages
+  - scope:
+        path: "_projects/view"
+    values:
+        project: true
+  - scope:
+        type: "projects"
+    values:
+        page_specific_css: projects-pages
+        layout: project-display-page
+  - scope:
+        path: "_product"
+    values:
+        page_specific_css: products-pages
+  - scope:
+        path: ""
+        type: "posts"
+    values:
+        layout: post
+        comments: true
+        page_specific_css: blog-pages
+  - scope:
+        path: "/sitemap.xml"
+    values:
+        redirect_from: /sitemap/
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
+
+
+# Gems that should be included in the Jekyll builld of this site.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-readme-index
+  # - jekyll-feed
+  - bootstrap-sass
+  - uglifier
+  - jekyll-assets
+  # - jekyll-redirect-from
+  # ^^^ is this still needed?
+  - jekyll-tidy
+  - autoprefixer-rails
+  # - jekyll-postfiles
+  # - jekyll-minimagick
+  # ^^^ using local version
+  - jekyll-paginate-v2
+
+# Compress the html and beautify it.
+jekyll_tidy: # Compress the html and beautify it.
+    compress_html: true
+    exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
+
+# Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
+assets:
+  compress:
+      js: true
+      css: true
+  autoprefixer:
+      browsers: ["last 2 versions","> 5%","IE 9"]
+  sources:
+      - _assets/js
+      - _assets/css
+      - assets/images
+      - assets/images/projects
+      - assets/images/members
+      - assets/images/authors
+      - assets/images/products
+      - _assets/fonts
+      - assets/images/blog
+      - assets/images/blog/thumbs
+
+
+# Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
+sass:
+    style: compressed
+    sass_dir: _assets/css
+
+paginate_path: /blog/:num/
+
+# Jekyll Pagination V2 Configuration
+pagination:
+    enabled: true
+    per_page: 10
+    trail:
+        before: 2
+        after: 2
+    sort_reverse: true
+    sort_field: 'date'
+
+# Jekyll pagination v2 autopages configuration.
+autopages:
+  enabled: false
+#
+mini_magick:
+    blog_thumbnail_static:
+        source: assets/images/blog
+        destination: assets/thumbnails/blog
+        resize: "200x200"
+        thumbnail: "200x200>"
+        gravity: "Center"
+        extent: "200x200"
+    # project_thumbnails:
+    #     source: _assets/images/projects
+    #     destination: assets/thumbnails/projects
+    #     resize: "200x200"
+    #     thumbnail: "200x200>"
+    #     gravity: "Center"
+    #     extent: "200x200"
+#
+jekyll_relative_links:
+    process_all_collections: true
+    verbose: 1

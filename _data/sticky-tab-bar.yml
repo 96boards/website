@@ -1,12 +1,10 @@
 pages:
   - list:
-      - title: Services
-        url: /services/
       - title: About
-        url: /services/about/
+        url: /services/
       - title: Partners
         url: /services/partners/
-    urls: [/services/,/services/about/,/services/partners/]
+    urls: [/services/,/services/partners/]
   - list:
       - title: OpenHours
         url: /openhours/
