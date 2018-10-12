@@ -3,12 +3,12 @@ title: CryptonNode on 96Boards - Part 1
 author: Garam An
 date: 2018-10-10 00:00:01+00:00
 image:
-	featured: true
-	path: /assets/images/blog/goal.png
-	name: goal.png
-	thumb: goal.png
+    featured: true
+    path: /assets/images/blog/goal.png
+    name: goal.png
+    thumb: goal.png
 categories: blog
-tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Rockchip, RK3399, Rock960, Ficus, Vamrs, U-Boot, SoC, Enterprise, Mainlining, Devicetree
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Dragonboard410c, Crypto, Mining, Node, Business, QR, UCSD, Cryptocurrency, LCD
 ---
 	
 # Introductions
@@ -27,7 +27,7 @@ The team decided one of three display LCD, which is PCD 8544 for the QR code. Th
 
 # Slide from this week
 
-{% include media.html media_url=¡±//https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8¡± %)
+{% include media.html media_url="https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8" %)
 
 # Conclusion
 
