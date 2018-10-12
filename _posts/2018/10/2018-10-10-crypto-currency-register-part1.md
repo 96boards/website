@@ -27,7 +27,7 @@ The team decided one of three display LCD, which is PCD 8544 for the QR code. Th
 
 # Slide from this week
 
-{% include media.html media_url="https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8" %)
+{% include media.html media_url="https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8" %}
 
 # Conclusion
 
