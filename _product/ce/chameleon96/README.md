@@ -32,7 +32,7 @@ product_tab_menu:
 product_buy_links:
     -
         link-title: Chameleon96 (Arrow)
-        link-url: "https://www.arrow.com/en/products/chameleon96/novtech-inc"
+        link-url: "https://www.arrow.com/en/products/chameleon96-419-005-0201-kit/novtech-inc"
         from: Arrow.com
         type: board
         link-price: "$129.00"
@@ -40,7 +40,7 @@ product_buy_links:
 
 product_more_info:
         - title: Chameleon96
-          link: https://www.arrow.com/en/products/chameleon96/novtech-inc
+          link: https://www.arrow.com/en/products/chameleon96-419-005-0201-kit/novtech-inc
 
 # Right Sidepanel links
 product_os:

@@ -1,6 +1,6 @@
 ---
-title: Hackathon India May 2017
-permalink: /go/hackathon-indiasummer2017/
+title: Shiratech Hackathon at Linaro Connect Vancouver!
+permalink: /go/yvr18-shiratech-hackathon/
 layout: container-breadcrumb
 ---
 
