@@ -15,7 +15,7 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMTFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnBpMDY1NTM1cDBkdmRqc2g5amw0bDFzdDEgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
