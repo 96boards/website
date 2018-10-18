@@ -27,7 +27,7 @@ so many updates in the kernel world for Bubblegum96. They are listed below:
 3. DMA Support for UART
 4. Reset Controller Support
 
-1. I2C Controller Support
+## I2C Controller Support
 
 I2C (Inter Integrated Circuit) is the two-wire serial bus protocol for interfacing
 the sensors/actuators to the host processor. Actions Semi S900 SoC has 6
@@ -57,7 +57,7 @@ iterations to get merged.
 
 https://patchwork.kernel.org/cover/10552779/
 
-2. DMA Controller Support
+## DMA Controller Support
 
 DMA (Direct Memory Access) is the feature for transferring data from peripherals
 to memory or peripherals to peripherals without the intervention of the host
@@ -80,7 +80,7 @@ patchset only supported Memcpy support.
 
 https://patchwork.kernel.org/cover/10545205/
 
-3. DMA Support for UART
+## DMA Support for UART
 
 As said in the previous section, the DMA engine in S900 can transfer data between
 several slave devices. So, another patchset was posted to add the DMA slave
@@ -91,7 +91,7 @@ peripherals like eMMC, I2S, USB, SPI etc...
 
 https://lore.kernel.org/patchwork/cover/993278/
 
-4. Reset Controller Support
+## Reset Controller Support
 
 Reset Controllers are used to provide the warm/cold reboots to the host system.
 Reset Management Unit in Actions Semi S900 SoC provides reset to VDD power
