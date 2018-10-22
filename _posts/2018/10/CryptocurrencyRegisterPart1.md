@@ -5,6 +5,7 @@ Image :
 	Path: assets/images/blog/goal.png
 	Name: goal.png
 	Categories: blog
+
 # Introductions
 
 Hello! Welcome to the blog Cyptocurrency register part 1. 96Boards pairing up with the UCSD ECE department to develop a register that will allow store owners to accept cryptocurrency. We will be using the dragon board 410c to control the register. 
@@ -23,7 +24,7 @@ The team decided one of three display LCD, which is PCD 8544 for the QR code. Th
 
 # Slide from this week
 
-{% include media.html media_url=¡±//https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8¡± %)
+https://www.slideshare.net/GaRamAn1/cryptocurrencyoct8
 
 # Conclusion
 
