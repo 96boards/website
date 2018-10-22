@@ -15,13 +15,19 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnBpMDY1NTM1cDBkdmRqc2g5amw0bDFzdDEgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with Masha aka [CodingBlonde](https://codingblonde.com/) (also on [Instagram](https://www.instagram.com/codingblonde/)!). Masha is a tech evangelist who aims at making difficult tech topics more fun and accessible for her diverse and engaging audience! A quick visit to [her webpage](https://codingblonde.com/) and [YouTube channel](https://www.youtube.com/channel/UCjdRbKZ494DfZ4zeX19rICw) will give you great insight into the many amazing topics and discussions she has covered over the past several years. To quote her channel's trailer video: **"Coding Blonde is a place where I talk about technology using real words, real examples and ask real questions to real people..."**. The 96Boards team will bring forward a variety of topics to discuss with Masha, and of course open the channel for questions and community discussion. During the broadcast, we would like to highlight some of Masha's personal and professinal achievements while focusing on her very unique (and exciting) entrepreneurial journey. Other topics will include, women in tech (A Coding Blonde mission), social media (growing an engageing community), and a dash of blockchain / crypto talk! Grab some coffee or tea, and please join us at the end of the countdown for a fun hour of tech talk with one our favorite content creators! See you there.
+**This week**, we will meet with [Susanna L. Harris](https://www.instagram.com/susannalharris/). Susanna is a PhD candidate at UNC-Chapel Hill studying “plant probiotics”, she studies how beneficial bacteria stick to plant roots and whether this community of microbes helps or hurts the plants’ growth. She hopes this research may help develop safe microbes to replace harsh chemicals for increasing crop production.
+
+In March 2018, Susanna founded [The PhDepression LLC](https://www.instagram.com/ph_d_epression/) to open discussion of mental illness in Higher Education through curation of stories and resources. She speaks openly about her own depression and mental illness, including in a widely-viewed speech (https://vimeo.com/286214085).
+
+We will speak with Susanna about the ups and downs of grad school, her scientific research, and her founding efforts (and the people) behind PhDepression LLC. The broadcast / livestream is open to the public, we welcome healthy discussions and questions around any of the topics brought forth by our featured guest and 96Boards support.
+
+For more info prior to the stream, check out [The PhDepression LLC website](www.thephdepression.com) or @ph_d_epression on [Twitter](https://twitter.com/Ph_D_epression) and [Instagram](https://www.instagram.com/ph_d_epression/). Susanna can be found on [Twitter](https://twitter.com/SusannaLHarris) and [Instagram](https://www.instagram.com/susannalharris/) at @susannalharris
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
