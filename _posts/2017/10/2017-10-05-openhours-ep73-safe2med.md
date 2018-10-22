@@ -49,7 +49,6 @@ Saúde Certa(Safe2Med) is a project that aims to minimize the error in the admin
 
 #### Links and resources
 
-- [Safe2Med](http://safe2med.com/)
 - [Safe2Med Videos](https://www.youtube.com/playlist?list=PLm4cgOYi_UDBT1kPzhT36tysx5enEVpFG)
 - [Safe2Med Facebook](https://www.facebook.com/safe2med)
 
