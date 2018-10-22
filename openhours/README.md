@@ -23,7 +23,7 @@ Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/
 
 **This week**, we will meet with [Susanna L. Harris](https://www.instagram.com/susannalharris/). Susanna is a PhD candidate at UNC-Chapel Hill studying “plant probiotics”, she studies how beneficial bacteria stick to plant roots and whether this community of microbes helps or hurts the plants’ growth. She hopes this research may help develop safe microbes to replace harsh chemicals for increasing crop production.
 
-In March 2018, Susanna founded [The PhDepression LLC](https://www.instagram.com/ph_d_epression/) to open discussion of mental illness in Higher Education through curation of stories and resources. She speaks openly about her own depression and mental illness, including in a widely-viewed speech (https://vimeo.com/286214085).
+In March 2018, Susanna founded [The PhDepression LLC](https://www.instagram.com/ph_d_epression/) to open discussion of mental illness in Higher Education through curation of stories and resources. She speaks openly about her own depression and mental illness, including in a [widely-viewed speech](https://vimeo.com/286214085).
 
 We will speak with Susanna about the ups and downs of grad school, her scientific research, and her founding efforts (and the people) behind PhDepression LLC. The broadcast / livestream is open to the public, we welcome healthy discussions and questions around any of the topics brought forth by our featured guest and 96Boards support.
 
