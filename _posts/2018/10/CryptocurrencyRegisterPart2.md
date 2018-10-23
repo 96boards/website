@@ -41,4 +41,3 @@ Thermal Receipt Printer
 # Conclusion
 
 	We were focusing to understand concept, made overall plan, gathering ideas, and trying to be closed with tools and software until now, we are focusing for the software and hardware design since now. It was not easy to understand whole concepts, make overall plan, but we are going to work for week goal, get sweat sleep after going through changes.
-
