@@ -27,7 +27,7 @@ In March 2018, Susanna founded [The PhDepression LLC](https://www.instagram.com/
 
 We will speak with Susanna about the ups and downs of grad school, her scientific research, and her founding efforts (and the people) behind PhDepression LLC. The broadcast / livestream is open to the public, we welcome healthy discussions and questions around any of the topics brought forth by our featured guest and 96Boards support.
 
-For more info prior to the stream, check out [The PhDepression LLC website](www.thephdepression.com) or @ph_d_epression on [Twitter](https://twitter.com/Ph_D_epression) and [Instagram](https://www.instagram.com/ph_d_epression/). Susanna can be found on [Twitter](https://twitter.com/SusannaLHarris) and [Instagram](https://www.instagram.com/susannalharris/) at @susannalharris
+For more info prior to the stream, check out [The PhDepression LLC website](https://www.thephdepression.com/) or @ph_d_epression on [Twitter](https://twitter.com/Ph_D_epression) and [Instagram](https://www.instagram.com/ph_d_epression/). Susanna can be found on [Twitter](https://twitter.com/SusannaLHarris) and [Instagram](https://www.instagram.com/susannalharris/) at @susannalharris
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
