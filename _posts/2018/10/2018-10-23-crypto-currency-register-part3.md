@@ -22,6 +22,8 @@ Team was researching for the dragon board 410c and other equipment which are, th
 
 Team ordered equipment which are levelshifter, LCD, thermal receipt printer, and paper roll for receipt printer. It is used Arduino or Python, size is small, cheap, has so this is the perfect product for our product. Also, we could find the tutorial for this printer, so it makes us more efficient work. The levelshifter makes change the voltage of LCD to 3.3v which is dragonboard 410c voltage.
 
+Mini Thermal Receipt Printer-(https://www.youtube.com/watch?v=x0qBD6LuxzE)
+
 # Conclusion
 
 We were focusing to understand concept, made overall plan, gathering ideas, and trying to be closed with tools and software until now, we are focusing for the software and hardware design since now. It was not easy to understand whole concepts, make overall plan, but we are going to work for week goal, get sweat sleep after going through changes.
