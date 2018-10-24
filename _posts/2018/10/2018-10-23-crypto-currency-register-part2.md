@@ -4,9 +4,9 @@ author: Garam An
 date: 2018-10-23 00:00:01+00:00
 image:
     featured: true
-    path: /assets/images/blog/lever swift.png
-    name: lever swift.png
-    thumb: lever swift.png
+    path: /assets/images/blog/goal.png
+    name: goal.png
+    thumb: goal.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Dragonboard410c, Crypto, Mining, Node, Business, QR, UCSD, Cryptocurrency, LCD
 ---
