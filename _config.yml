@@ -148,6 +148,9 @@ collections:
     documentation:
         output: true
         permalink: /:collection/:path/
+    authors:
+        output: true
+        permalink: /:collection/:path/
         
 # Defaults
 defaults:
@@ -175,6 +178,11 @@ defaults:
         layout: post
         comments: true
         page_specific_css: blog-pages
+  - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author
   - scope:
         path: "/sitemap.xml"
     values:
