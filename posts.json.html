@@ -9,6 +9,8 @@ func([
         "url": "{{ site.url }}{{ post.url }}",
         "summary": {{ post.excerpt | smartify | jsonify }},
         "date_published": "{{ post.date }}",
+        {% assign author = site.authors | where: "username", post.author | first %}
+        "author":"{{author.name}}",
         "site":"{{site.url}}"
     }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
