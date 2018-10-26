@@ -27,7 +27,7 @@ Below are a few guides that will help when adding content to the 96Boards websit
 
 ### Step 1 - Choose url and layout
 
-Static Jekyll web pages are placed in folders in the root of the website with either a README.md or a index.html page beneath them. Example - /services/README.md or /services/index.html. This keeps the pages organised to some extent. If you page contains mostly HTML then use index.html so that IDE's recognize it has HTML and README.md if the page is mostly markdown.
+Static Jekyll web pages are placed in folders in the root of the website with either a `README.md` or a `index.html` page beneath them. Example - /services/README.md or /services/index.html. This keeps the pages organised to some extent. If your page contains mostly HTML then use a `index.html` file so that IDE's recognize it has HTML and `README.md` if the page is mostly markdown.
 
 The url for your page should be added to the front matter of your posts (section at the top of the file between --- containing yaml) as the `permalink`. This will ensure the url of your page is exactly as you intended it to be. See below for an example of the front matter to add to the web page. If in any doubt please duplicate a page that you would like yours to look like and modify the file from there.
 
