@@ -148,6 +148,9 @@ collections:
     documentation:
         output: true
         permalink: /:collection/:path/
+    authors:
+        output: true
+        permalink: /:collection/:path/
         
 # Defaults
 defaults:
@@ -176,6 +179,11 @@ defaults:
         comments: true
         page_specific_css: blog-pages
   - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author
+  - scope:
         path: "/sitemap.xml"
     values:
         redirect_from: /sitemap/
@@ -183,6 +191,11 @@ defaults:
       path: ""
     values:
       image: /assets/images/social-media-image.png
+  - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author
 
 
 # Compress the html and beautify it.

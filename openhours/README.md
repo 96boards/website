@@ -15,13 +15,19 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMTFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org" class="btn blog-read-more-btn center-block">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODEwMjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week** (for our surprise episode), we will be meeting with [Brandy Morgan](https://www.instagram.com/msbrandymorgan/) of [Creators Code](https://creatorscode.co/)! Brandy is a developer, designer, and doer who could out hustle Jay-z. Her work has received recognition and acclaim from Awwwards. Brandy has been featured in Glamour and Money magazine for her work on social media for paving the way for other female developers. If she isn't coding or working on Creators Code, you can find her running laps around the beautiful lakes of Winter Park, FL or sipping espresso at the local coffee shops. At Creators Code their mission is to cohesively integrate the technologist and the creative, for building successful and authentic connections online. From corporate marketing teams to individuals focused on personal branding, Creators Code provides the tools to develop creative and innovative data-driven strategies to optimize your online presence. This is your chance to come hang out with Brandy for an entire hour! Bring your coffee and/or tea (and/or beer ;-)) and join us on BlueJeans, YouTube, or Facebook for the livestream. The 96Boards team have a bunch of questions, but we encourage anyone who is joining to speak up and contribute to the converstaion. See you on Thursday!
+**This week**, we will meet with [Susanna L. Harris](https://www.instagram.com/susannalharris/). Susanna is a PhD candidate at UNC-Chapel Hill studying “plant probiotics”, she studies how beneficial bacteria stick to plant roots and whether this community of microbes helps or hurts the plants’ growth. She hopes this research may help develop safe microbes to replace harsh chemicals for increasing crop production.
+
+In March 2018, Susanna founded [The PhDepression LLC](https://www.instagram.com/ph_d_epression/) to open discussion of mental illness in Higher Education through curation of stories and resources. She speaks openly about her own depression and mental illness, including in a [widely-viewed speech](https://vimeo.com/286214085).
+
+We will speak with Susanna about the ups and downs of grad school, her scientific research, and her founding efforts (and the people) behind PhDepression LLC. The broadcast / livestream is open to the public, we welcome healthy discussions and questions around any of the topics brought forth by our featured guest and 96Boards support.
+
+For more info prior to the stream, check out [The PhDepression LLC website](https://www.thephdepression.com/) or @ph_d_epression on [Twitter](https://twitter.com/Ph_D_epression) and [Instagram](https://www.instagram.com/ph_d_epression/). Susanna can be found on [Twitter](https://twitter.com/SusannaLHarris) and [Instagram](https://www.instagram.com/susannalharris/) at @susannalharris
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
