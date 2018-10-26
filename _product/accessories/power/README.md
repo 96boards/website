@@ -14,7 +14,7 @@ accessories:
         - http://avnet.me/96BoardPower2A
     accessory_search_term: AES-ACC-U96-PWR
     accessory_images:
-        - no-image-available.png
+        - avnet-2a-power-1.png
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 4A 48W
@@ -26,7 +26,7 @@ accessories:
         - http://avnet.me/96BoardPower4A
     accessory_search_term: AES-ACC-U96-4APWR
     accessory_images:
-        - no-image-available.png
+        - avnet-4a-power-1.png
   - accessory_permalink: /product/power/
     accessory_category: power
     accessory_title: Plug-In Adapter Single-OUT 12V 2A 24W

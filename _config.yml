@@ -179,6 +179,11 @@ defaults:
         comments: true
         page_specific_css: blog-pages
   - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author
+  - scope:
         path: "/sitemap.xml"
     values:
         redirect_from: /sitemap/
