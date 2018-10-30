@@ -21,6 +21,14 @@ css-package: contact
                     <a class="btn email" href="mailto:contact@linaro.org?subject=96Boards.org - {{page.url}}">
                         Contact Us
                     </a>
+                    <h3>Address</h3>
+                    <address>
+                        96Boards c/o Linaro <br>
+                        Harston Mill <br>
+                        Royston Rd <br>
+                        Harston, Cambridge <br>
+                        CB22 7GG 
+                    </address>
                 </div>
             </div>
         </div>
