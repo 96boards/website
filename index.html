@@ -10,9 +10,9 @@ layout: boards-home
             <div id="board-specifications" class="hidden-xs">
                 <div class="row remove-margins">
                     <div class="col-sm-6">
-                        <div class="spec">
+                        <div class="spec fly">
                             <div class="col-sm-4 image-container">
-                                <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Consumer.png' %})"></div>
+                                <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Consumer.png)"></div>
                             </div>
                             <div class="col-sm-8 desc">
                                 
@@ -34,9 +34,9 @@ layout: boards-home
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="spec">
+                        <div class="spec fly">
                             <div class="col-sm-4 image-container">
-                                <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Enterprise.png' %})"></div>
+                                <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Enterprise.png)"></div>
                             </div>
                             <div class="col-sm-8 desc">
                                 
@@ -60,9 +60,9 @@ layout: boards-home
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="spec">
+                        <div class="spec fly">
                             <div class="col-sm-4 image-container">
-                                <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-IoT.png' %})"></div>
+                                <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-IoT.png)"></div>
                             </div>
                             <div class="col-sm-8 desc">
                                 
@@ -84,9 +84,9 @@ layout: boards-home
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="spec">
+                        <div class="spec fly">
                             <div class="col-sm-4 image-container">
-                                <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Partner.png' %})"></div>
+                                <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Partner.png)"></div>
                             </div>
                             <div class="col-sm-8 desc">
                                 
@@ -114,9 +114,9 @@ layout: boards-home
             <div class="specification-carousel owl-carousel owl-theme visible-xs" id="homeSpecificationCarousel">         
                            
                 <div class="owl-item__inner">
-                    <div class="spec">
+                    <div class="spec fly">
                         <div class="col-xs-12 image-container">
-                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Consumer.png' %})"></div>
+                            <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Consumer.png)"></div>
                         </div>
                         <div class="col-xs-12 desc">
                             
@@ -138,9 +138,9 @@ layout: boards-home
                     </div>
                 </div>
                 <div class="owl-item__inner">
-                    <div class="spec">
+                    <div class="spec fly">
                         <div class="col-xs-12 image-container">
-                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Enterprise.png' %})"></div>
+                            <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Enterprise.png)"></div>
                         </div>
                         <div class="col-xs-12 desc">
                             
@@ -163,9 +163,9 @@ layout: boards-home
                 </div>
                 
                 <div class="owl-item__inner">
-                    <div class="spec">
+                    <div class="spec fly">
                         <div class="col-xs-12 image-container">
-                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-IoT.png' %})"></div>
+                            <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-IoT.png)"></div>
                         </div>
                         <div class="col-xs-12 desc">
                             
@@ -188,9 +188,9 @@ layout: boards-home
                 </div>
             
                 <div class="owl-item__inner">
-                    <div class="spec">
+                    <div class="spec fly">
                         <div class="col-xs-12 image-container">
-                            <div class="lazyload spec-image" style="background-image: url({% asset_path '96Boards-Logo_v-Partner.png' %})"></div>
+                            <div class="lazyload spec-image" style="background-image: url(/assets/images/content/96Boards-Logo_v-Partner.png)"></div>
                         </div>
                         <div class="col-xs-12 desc">
                             
@@ -358,24 +358,24 @@ layout: boards-home
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
         {% for each in projects %}
-        {% assign project-uri = each.permalink | split: "/" %}
-        {% assign project-uri = project-uri[2] | downcase  %}
-        <a href="{{each.url}}">
-                <div
-                {% if each.thumbnail_image %}
-                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.thumbnail_image}});"
-                {% elsif each.image.thumb %}
-                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.image.thumb}});"
-                {% else %}
-                    style="background-image: url(/projects/view/{{project-uri}}/images/{{each.images[0]}});"
-                {% endif %}
-                 class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
-                 <div class="overlay"></div>
-                 <div class="project-title">
-                     {{each.title}}
-                 </div>
-            </div>
-        </a>
+            {% assign project-uri = each.permalink | split: "/" %}
+            {% assign project-uri = project-uri[2] | downcase  %}
+            <a href="{{each.url}}">
+                    <div
+                    {% if each.thumbnail_image %}
+                        style="background-image: url(/projects/view/{{project-uri}}/images/{{each.thumbnail_image}});"
+                    {% elsif each.image.thumb %}
+                        style="background-image: url(/projects/view/{{project-uri}}/images/{{each.image.thumb}});"
+                    {% else %}
+                        style="background-image: url(/projects/view/{{project-uri}}/images/{{each.images[0]}});"
+                    {% endif %}
+                    class="home-page-project-image img-responsive lazyload center-block col-xs-6 col-sm-3">
+                    <div class="overlay"></div>
+                    <div class="project-title">
+                        {{each.title}}
+                    </div>
+                </div>
+            </a>
         {% endfor %}
     </div>
     <div class="row">
