@@ -294,6 +294,13 @@ p.sub-tag {
     background: linear-gradient(to bottom, #2a4b41 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#2a4b41, endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
+//Jumbotron Custom Styling
+.jumbotron.contact{
+    margin-bottom: 0;
+    margin-top:0;
+    background-color: $brand-primary !important;
+    background: none;
+}
 .container .jumbotron, .container-fluid .jumbotron {
     border-radius: 0px;
 }
