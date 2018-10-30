@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 css-package: contact
 ---
-<div class="container-fluid">
+<div class="container-fluid" id="content-container">
     <div class="row">
         <div id="contact-thanks">
             <div class="jumbotron contact">
@@ -17,17 +17,6 @@ css-package: contact
     <div class="row">
         <div class="container">
             <div class="row">
-            <div class="col-md-4">
-                    <h3>Address</h3>
-                    <address>
-                    96Boards c/o Linaro <br>
-                    Harston Mill <br>
-                    Royston Rd <br>
-                    Harston, Cambridge <br>
-                    CB22 7GG 
-                </address>
-            </div>
-            <div class="col-md-8">
                 <div class="col-xs-12 text-center">
                     <a class="btn email" href="mailto:contact@linaro.org?subject=96Boards.org - {{page.url}}">
                         Contact Us
