@@ -14,7 +14,7 @@ tags: aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Li
 
 # **Introduction**
 
-The 96Boards Secure96 mezzanine was introduced last year (https://youtu.be/JGkl3oC9gtA) and it contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e.g. a 96Boards Dragonboard DB410C or similar host. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the most recent TPM 2.0 specification.  This post describes how to get the TPM to initialize and running some basic operations via the TSS stack using the 4.14 kernel on the Dragonboard DB410C.
+The 96Boards Secure96 mezzanine was introduced last year (https://youtu.be/JGkl3oC9gtA) and it contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e.g. a 96Boards Dragonboard DB410C or similar host. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the most recent TPM 2.0 specification. This post describes how to get the TPM to initialize and running some basic operations via the TSS stack using the 4.14 kernel on the Dragonboard DB410C.
 
 # **What is a TPM?**
 
@@ -54,14 +54,14 @@ To get the TPM running, you need
 
 These instructions are based on the Qualcomm Landing Team kernel 4.14.69, cloned from http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
 
-Details on building the kernel from source for the Dragonboard are here
+Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html)
 
 Modifications to the following files are needed to enable the TPM SPI driver and the SPI interface chip select:
 arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
 arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
 drivers/spi/spi-qup.c
 
-A full description of these changes are described in this patch (and also reproduced at the end of this post).
+A full description of these changes are described in [this patch](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/db410c_spi_cs.patch) (and also reproduced at the end of this post).
 
 In the kernel config, as a minimum you need the TPM core functionality, the TPM SPI driver and support for the Infineon device. Here’s a TPM-related snippet from the config I used: 
 
@@ -89,6 +89,23 @@ Follow the instructions to create a boot-db410c.img file
 
 I’ve uploaded my boot-db410c.img along with the other files (CS patch, config) at http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/
 
+# **Flashing and Booting the Board**
+
+Start with the Dragonboard with a recent install of Debian using one of the methods [explained here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/)  
+
+Power off the board and insert the Secure96 mezzanine into the low speed connector on the Dragonboard, taking care before you power on to ensure that it’s aligned and not offset by one or more pins either way. The micro USB connector on the board is connected to UART0 on the low-speed connector. Unfortunately the default console UART is UART1.
+
+Connect your Linux PC to the Dragonboard via the OTG connector and put the Dragonboard in fastboot mode (power off, hold down S4 and power on).
+
+Flashing instructions are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html). 
+
+After flashing, remove the OTG cable and reboot the board. Typing
+```
+$ ls /dev
+```
+should show that tpm0 was created and you can use the userspace tools to access the functionality inside the TPM. 
+
+It's worthwhile copying across the modules for a fully functioning system.
 
 # **Using the TPM - The IBM TSS Stack**
 
@@ -156,7 +173,7 @@ The code in the IBM TSS stack is not only a toolkit of TPM utilities but also in
 
 # **TPMs in Real Life**
 
-A TPM is a passive device hanging off (in this case) the SPI bus. On its own, it doesn’t check or measure anything except what code running on the CPU sends to it. That raises the obvious question as to how to trust the code that is talking to the TPM - especially at boot time, and that implies an initial root of trust in microcode or firmware external to the TPM. x86 systems, as far as I can ascertain[3], boot trusted microcode that sends measurements from that boot phase directly to the TPM over the LPC bus at boot.
+A TPM is a passive device hanging off (in this case) the SPI bus. On its own, it doesn’t check or measure anything except what code running on the CPU sends to it. That raises the obvious question as to how to trust the code that is talking to the TPM - especially at boot time, and that implies an initial root of trust in microcode or firmware external to the TPM. x86 systems, as far as I can ascertain<sup>[2]</sup>, boot trusted microcode that sends measurements from that boot phase directly to the TPM over the LPC bus at boot.
 
 Once you have some kind of trusted firmware booted, you can use the TPM. For example:
 
@@ -174,7 +191,7 @@ You can expect to see the log message in dmesg:
 [    1.159875] tpm tpm0: A TPM error (256) occurred continue selftest
 [    1.159912] tpm tpm0: starting up the TPM manually
 ```
-This is normal according to previous Infineon documentation. My suspicion is that the driver mis-interprets the V-bit in the return code as an error.
+This is normal according to previous Infineon documentation<sup>[3]</sup>. My suspicion is that the driver mis-interprets the V-bit in the return code from the TPM as an error.
 
 There is a potential TPM reset issue with the mezzanine.The TPM reset line is connected to a GPIO rather than a reset circuit. I didn’t ultimately see problems with this, but if the TPM doesn’t respond sensibly to the driver initialization attempts, it’s possible to toggle the reset line to the chip via a connected GPIO. One clue that there’s a reset issue is if the SPI driver spins reading zeros from the TPM and then times out. 
 
@@ -259,11 +276,10 @@ index 974a8ce58b68..072f17cf7e26 100644
 # **References**
 
 [1] A Practical Guide to TPM 2.0 - Will Arthur, David Challener Apress Open
+[2] Intel TXT Boot Sequence https://ebrary.net/24863/computer_science/intel_boot_sequence
+[3] Infineon Application Note TPM20_Embedded_SLB_9670_AppNote_Rev1.0_2017-03-16
 
-[2] Infineon Application Note TPM20_Embedded_SLB_9670_AppNote_Rev1.0_2017-03-16
 
-[3] [https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/
-](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/)
 
 
 
