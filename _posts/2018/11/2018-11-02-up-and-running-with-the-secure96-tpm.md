@@ -175,9 +175,7 @@ The code in the IBM TSS stack is not only a toolkit of TPM utilities but also in
 
 A TPM is a passive device hanging off (in this case) the SPI bus. On its own, it doesn’t check or measure anything except what code running on the CPU sends to it. That raises the obvious question as to how to trust the code that is talking to the TPM - especially at boot time, and that implies an initial root of trust in microcode or firmware external to the TPM. x86 systems, as far as I can ascertain<sup>[2]</sup>, boot trusted microcode that sends measurements from that boot phase directly to the TPM over the LPC bus at boot.
 
-Once you have some kind of trusted firmware booted, you can use the TPM. For example:
-
-“If a machine has a TPM, then … it could be used to store a key pair used to sign the OS that a user wants to boot. That way the user has full control over what he or she “blesses”.  I imaging a BIOS/UEFI/EBBS command that says: Use the platform key at *this* location to bless the current install, and use *this* public key to verify a blessed install.This would get around the problem of needing to go to a particular vendor to get a blessing of your kernel, and also allow people to experiment.”*
+Once you have some kind of trusted firmware booted, you can use the TPM. For example: if a machine has a TPM, then … it could be used to store a key pair used to sign the OS that a user wants to boot. That way the user has full control over what he or she “blesses”.E.g. a BIOS/UEFI/EBBS command that says: Use the platform key at *this* location to bless the current install, and use *this* public key to verify a blessed install. This would get around the problem of needing to go to a particular vendor to get a blessing of your kernel, and also allow people to experiment.
 
 (thanks to David Challener for this suggestion)
 
