@@ -89,6 +89,9 @@ members:
         - name: Element 14
           image: element14.png
           url: https://www.linaro.org/company/element14/
+        - name: Fab to Lab
+          image: fab-to-lab.jpg
+          url: https://www.linaro.org/company/fab-to-lab/
         - name: Fujitsu Electronics
           image: fujitsu.jpg
           url: https://www.linaro.org/company/fujitsu-electronics/
