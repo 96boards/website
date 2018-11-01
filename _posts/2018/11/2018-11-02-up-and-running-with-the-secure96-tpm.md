@@ -276,7 +276,9 @@ index 974a8ce58b68..072f17cf7e26 100644
 # **References**
 
 [1] A Practical Guide to TPM 2.0 - Will Arthur, David Challener Apress Open
+
 [2] Intel TXT Boot Sequence https://ebrary.net/24863/computer_science/intel_boot_sequence
+
 [3] Infineon Application Note TPM20_Embedded_SLB_9670_AppNote_Rev1.0_2017-03-16
 
 
