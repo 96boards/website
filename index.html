@@ -347,13 +347,11 @@ layout: boards-home
             </div> <!-- //home blog carousel -->
         </div>
     </div>
-    
     <div class="row">
         <div class="container">
             <h2 class="text-center">Projects with 96Boards</h2>
         </div>
     </div>
-    
     <div class="row" id="projects-row">
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
