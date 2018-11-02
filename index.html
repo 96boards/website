@@ -227,7 +227,7 @@ layout: boards-home
                        <div class="col-sm-3 blog-post">
                            <div class="row image">
                                <a href="{{post.url}}">
-                                   <div class="blog-featured-image-home" {% if assets[post.thumbnail_image] %}
+                                   <div class="lazyload blog-featured-image-home" {% if assets[post.thumbnail_image] %}
                                 style="background-image: url('{% asset_path '{{post.thumbnail_image}}'%}')"
                              {% elsif post.featured_image %}
                                  style="background-image: url('/assets/thumbnails/blog/{{post.featured_image}}')"
@@ -243,7 +243,7 @@ layout: boards-home
                                  {% endif %}
                              {% else %}
                                 style="background-image: url('{% asset_path 'placeholder.png' %}')"
-                             {% endif %} style="background-image: url('/assets/images/blog/thumbs/photobooth-thumb.png')"></div>
+                             {% endif %}></div>
                                </a>
                            </div>
                            
@@ -308,7 +308,7 @@ layout: boards-home
                              {% endif %}
                          {% else %}
                             style="background-image: url('{% asset_path 'placeholder.png' %}')"
-                         {% endif %} style="background-image: url('/assets/images/blog/thumbs/photobooth-thumb.png')"></div>
+                         {% endif %}></div>
                            </a>
                        </div>
                        
