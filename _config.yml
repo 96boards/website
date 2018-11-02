@@ -151,7 +151,6 @@ collections:
     authors:
         output: true
         permalink: /:collection/:path/
-        
 # Defaults
 defaults:
   - scope:
