@@ -1,20 +1,23 @@
+<div class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div style="background: url(/assets/images/content/96boards-home-image-2.jpg) no-repeat center center fixed;"
+         class="lazyload item active">
+        </div>
+        <div style="background: url(/assets/images/content/96boards-home-image-3.jpg) no-repeat center center fixed;" 
+        class="lazyload item">
+        </div>
+        <div style="background: url(/assets/images/content/96boards-home-image-1.jpg) no-repeat center center fixed;" 
+        class="lazyload item">
+        </div>
+    </div>
+</div>
 <div class="container-fluid" id="homepage-header" 
 {% if site.data.settings.home.jumbotron.background-image.name %}
     style="background-image: url('{% asset_path '{{site.data.settings.home.jumbotron.background-image.name}}' %}');"
 {% else %}
     class="jumbotron text-center featured-jumbotron"
 {% endif %}> <!--Fluid Container -->
-<div class="carousel slide carousel-fade" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-            </div>
-            <div class="item">
-            </div>
-            <div class="item">
-            </div>
-        </div>
-    </div>
     <div class="row {% if site.data.settings.home.jumbotron.background-image.darken %}overlay{% endif %}"> <!--Row -->
         <div id="featured-jumbotron"> <!--Jumbotron div -->        
           <div class="container" id="jumbotron-text"> <!--Container -->
