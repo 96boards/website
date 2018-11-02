@@ -151,10 +151,6 @@ collections:
     authors:
         output: true
         permalink: /:collection/:path/
-<<<<<<< HEAD
-=======
-        
->>>>>>> 7216f6854b414e536b1dfaa2994e10f3def75f57
 # Defaults
 defaults:
   - scope:
