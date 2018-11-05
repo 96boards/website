@@ -446,7 +446,10 @@ div#projects-row {
     position: fixed;
     z-index: 99999;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+}
+.item.active {
+    height: 100vh;
 }
 
 // CSS for content on top of carousel
@@ -457,6 +460,7 @@ div#content-container {
 }
 .carousel.slide.carousel-fade {
     position: absolute;
+    top: 0px;
     z-index: -1;
 }
 h1.fly.center-block {
@@ -482,7 +486,14 @@ div#homepage-header {
     z-index: 99999;
     position: relative;
 }
-.item.active {
-    height: 500px;
-    margin-top:-40px;
+div#featured-jumbotron {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 86px;
+    min-height: 320px;
+}
+@media (max-width: $screen-sm-min){
+    #homepage-heading {
+        font-size: 32px;
+    }
 }
