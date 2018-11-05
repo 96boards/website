@@ -190,6 +190,11 @@ defaults:
       path: ""
     values:
       image: /assets/images/social-media-image.png
+  - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author
 
 
 # Compress the html and beautify it.

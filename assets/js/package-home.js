@@ -11,3 +11,4 @@
 //= require app/home-custom
 //= require app/tables
 //= require app/custom
+//= require app/fly

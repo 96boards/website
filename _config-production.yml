@@ -1,7 +1,10 @@
 # In order to build for staging run:
 # $ jekyll build --config _config.yml, _config-production.yml
 #
+<<<<<<< HEAD
 #
+=======
+>>>>>>> 8b875f6b13fac8b34d6fc631ae9596f3e76b15d4
 # URL of static site
 url: "https://www.96boards.org"
 # Destination folder
