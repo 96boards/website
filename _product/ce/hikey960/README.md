@@ -83,13 +83,6 @@ product_buy_links:
     from: Alpha-Star.org
     type: board
   -
-    link-title: "Ali express (USA)"
-    link-price: "$239.00"
-    link-url: "https://linaro.co/hikey960-ali"
-    link-price-currency: USD
-    from: Aliexpress.com
-    type: board
-  -
     link-title: "Switch Science (Japan)"
     link-price: 30,974
     link-url: "https://linaro.co/hikey960-switch"
@@ -113,7 +106,6 @@ for the availability of multiple Linux distributions for this board in the futur
 - [Lenovator (Worldwide)](http://linaro.co/hikey960buy)
 - [Seeed (Worldwide)](http://linaro.co/hikey960-seed)
 - [Alpha Star](http://linaro.co/hikey960buy-alpha)
-- [Ali express](http://linaro.co/hikey960-ali)
 - [Switch Science (Japan)](http://linaro.co/hikey960-switch)
 
 ***
