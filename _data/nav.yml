@@ -72,6 +72,8 @@ pages:
             url: /documentation/CONTRIBUTE.md.html
     - title: Support
       options:
+          - text: Services
+            url: /services/
           - text: Join our Slack!
             url: http://link.linaro.org/96Boards-slack
             external: true
