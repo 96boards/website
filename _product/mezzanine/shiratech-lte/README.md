@@ -8,21 +8,26 @@ description: |-
 title: Shiratech LTE Mezzanine
 display_product: true
 product_tab_menu:
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/shiratech-lte/
-    tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
-    tab_position: 2
-    tab_align_right: true
+    - tab_title: Documentation
+      tab_link: /documentation/mezzanine/shiratech-lte/
+      tab_position: 1
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/mezzanine
+      tab_position: 2
+      tab_align_right: true
 product_specification: "mezzanine"
 product: true
 product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
 product_long_desc: |-
-  Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
+    Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 product_images:
+<<<<<<< HEAD
   - shiratech-lte-front-sd.jpg
   - shiratech-lte-back-sd.jpg
+=======
+    - shiratech-lte-front-sd.jpg
+    - shiratech-lte-back-sd.jpg
+>>>>>>> 1bade9a0d9f146cc95621109f6002e652021f52d
 product_buy_links:
   -
     link-title: Coming Soon...
