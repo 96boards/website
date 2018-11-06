@@ -21,13 +21,8 @@ product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the eas
 product_long_desc: |-
     Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 product_images:
-<<<<<<< HEAD
-  - shiratech-lte-front-sd.jpg
-  - shiratech-lte-back-sd.jpg
-=======
     - shiratech-lte-front-sd.jpg
     - shiratech-lte-back-sd.jpg
->>>>>>> 1bade9a0d9f146cc95621109f6002e652021f52d
 product_buy_links:
   -
     link-title: Coming Soon...
