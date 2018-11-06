@@ -438,3 +438,16 @@ ul#tab-row {
     border: 1px solid #000000;
     color:white;
 }
+// Align the navigation text to the center
+
+@media(max-width: $screen-sm-min - 1){
+    a.dropdown-item {
+        text-align: center;
+    }
+    li.main.dropdown.menu {
+        text-align: center;
+    }
+    li.main {
+        text-align: center;
+    }
+}
