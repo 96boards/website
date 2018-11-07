@@ -13,7 +13,8 @@ featured_product_order: 2
 display_product: true
 is_featured: true
 product_images:
-  - 
+    - sophon-front-sd.png
+    - sophon-back-sd.png
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
@@ -36,9 +37,9 @@ product_buy_links:
     type: board
   -
     link-title: Sophon Edge (CN)
-	link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
-	from: Sophon.ai
-	type: board
+    link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
+    from: Sophon.ai
+    type: board
 product_os:
   - title: Linux
     link: /documentation/consumer/sophon-edge/downloads/
