@@ -35,11 +35,15 @@ product_buy_links:
     link-url: https://sophon.ai/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
     from: Sophon.ai
     type: board
+    link-price: "$129.99"
+    link-price-currency: USD
   -
     link-title: Sophon Edge (CN)
     link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
     from: Sophon.ai
     type: board
+    link-price: "$899.00"
+    link-price-currency: RMB
 product_os:
   - title: Linux
     link: /documentation/consumer/sophon-edge/downloads/
@@ -88,4 +92,4 @@ The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful De
 | H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
 | Power                | 12V@2A                                                                                           |
 | OS                   | Linux                                                                                            | 
-| Dimensions           | 85mm x 55mm                                                                                      |
+| Dimensions           | 85mm x 54mm                                                                                      |
