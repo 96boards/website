@@ -11,8 +11,8 @@ product_specification: ce
 display_product: true
 is_featured: true
 product_images:
-  - rock960-front-sd.png
-  - rock960-back-sd.png
+  - sophon-edge-tpu-board-front.png
+  - sophon-edge-tpu-board-back.png
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
