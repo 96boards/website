@@ -15,13 +15,22 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODExMDFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODExMDhUMTcwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, in a Halloween themed OpenHours, we will be speaking with [Max Brady-Hoover](https://www.instagram.com/bradyhoover_designs/) about everything 3D printing (and more)! We will be talking about 3D printer design, building and testing, using a 3D printer for work and for fun, as well as how electronics and 3d printing are employed in some high tech hobby work and big 3d prints. Bring a costume, your favorite coffee (or beer), and join us for this week's spooky :-P episode of 96Boards OpenHours!
+**This week**, we will be meeting with W. GORDON KRUBERG, M.D. - PRESIDENT AND CEO of [Gumstix](https://www.gumstix.com/) to talk about [Geppetto](https://geppetto.gumstix.com/) and a new board builder feature, soon to be available! Keep reading to find out more about Gordon and Gumstix as well as what we will be talking about in the show. Tune in at the end of the countdown for your front row seat to all the action! See you then!
+
+Gordon Kruberg has been President and CEO since founding the company in October 2003. Over the course of his career, Dr. Kruberg has been involved in over thirty US-based companies as a venture investor, member of the board of directors or executive team (including Chairman, CEO, or President.)
+
+Immediately prior to founding Gumstix, Gordon was CEO of Deersoft, acquired by Network Associates in December 2002. His background includes seven years with Grace Horn Ventures, managing investments in software, biotechnology and medical high-technology startups.
+
+Gordon holds an A.B. degree in Human Biology, a M.S. degree in Industrial Engineering from Stanford University and an M.D. degree from Northwestern University.
+
+BOARD BUILDER OVERVIEW: Since 2003, over 20,000 engineers, makers, and innovators have used Gumstix to prototype, visualize, and see their ideas come to life. Now Gumstix is revolutionizing EDA. Welcome to Board Builder, the future of device design.
+Board Builder is now the fastest and easiest way to prototype available anywhere. Just choose and select your technical requirements from the checklist and Board Builder builds the design, complete with 3D preview for your review.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
