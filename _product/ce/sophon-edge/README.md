@@ -88,4 +88,4 @@ The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful De
 | H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
 | Power                | 12V@2A                                                                                           |
 | OS                   | Linux                                                                                            | 
-| Dimensions           | 85mm x 55mm                                                                                      |
+| Dimensions           | 85mm x 54mm                                                                                      |
