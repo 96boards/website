@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/sophon-edge/
 shortname: sophon-edge
 description: |-
+<<<<<<< HEAD
     The Bitmain SophonTM Edge Developer Board(EDB) is designed for bringing powerful Deep Learning capability to various type of applications through its quick prototype development. Sophon Edge Developer Board is powered by BM1880, which equips tailored TPU supporting DNN/CNN/RNN/LSTM operations and models. The edge developer board is compatible with Linaro 96boards while supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, etc.
 keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, processor, low cost, Product, Development, Platform, arm, sophon, Bitmain, edge
 product_short_desc: "Edge Developer Board is designed for bringing powerful Deep Learning capability to various type of application through its quick prototype development."
@@ -13,6 +14,19 @@ is_featured: true
 product_images:
   - sophon-edge-tpu-board-front.png
   - sophon-edge-tpu-board-back.png
+=======
+    The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
+keywords: |-
+    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
+product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
+product_specification: ce
+featured_product_order: 2
+display_product: true
+is_featured: true
+product_images:
+    - sophon-front-sd.png
+    - sophon-back-sd.png
+>>>>>>> 79f1ea9f24be852e956af43e68d5e1482e726e21
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
@@ -20,51 +34,74 @@ product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/sophon-edge/
       tab_position: 2
+      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/sophon-edge/
       tab_position: 4
       tab_align_right: true
+product_getting_started: /documentation/consumer/sophon-edge/getting-started/
+product_documentation_link: /documentation/consumer/sophon-edge/
 product_buy_links:
   -
-    link-title: Sophon Edge (Sophon.ai)
-    link-url: "https://www.sophon.ai/product/view/00020181017110052ZUWAF5SSYD64Hew/view.html"
+    link-title: Sophon Edge (US)
+    link-url: https://sophon.ai/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
     from: Sophon.ai
     type: board
-product_more_info:
-    - title: Sophon.ai Edge Board Documentation
-      link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board#get-started
-    - title: Sophon.ai Edge Board Page
-      link: https://www.sophon.ai/product/introduce/edb.html
+    link-price: "$129.99"
+    link-price-currency: USD
+  -
+    link-title: Sophon Edge (CN)
+    link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
+    from: Sophon.ai
+    type: board
+    link-price: "s899.00"
+    link-price-currency: RMB
 product_os:
-  - title: BMNNSDK
-    link: https://sophon-edge.gitbook.io/project/getting-started/bmnnsdk-installation#get-bmnnsdk
+  - title: Linux
+    link: /documentation/consumer/sophon-edge/downloads/
+product_third_party_images:
+  - title: Coming Soon...
+    link:
+product_more_info:
+  - title: Sophon
+    link: https://sophon.ai/
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+product_mezzanine:
+  - title: Link Sprite Sensor Kit
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+product_kits:
+  - title: Coming Soon...
 product: true
 ---
-The Bitmain SophonTM Edge Developer Board(EDB) is designed for bringing powerful Deep Learning capability to various type of applications through its quick prototype development. Sophon Edge Developer Board is powered by BM1880, which equips tailored TPU supporting DNN/CNN/RNN/LSTM operations and models. The edge developer board is compatible with Linaro 96boards while supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, etc.
+
+The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
 
 ***
 
-## Product Specification
-<div style="overflow-x:scroll;" markdown="1">
+## Additional Information
 
-|Component|Description|
-|--- |--- |
-|Main Chip|BM1880|
-|Processor|Dual Cortex A53@1.5Ghz|
-|Dual Cortex A53@1.5Ghz|RISC-V: 750Mhz|
-|TPU|Up to 2TOPS by INT8 Winograd implementation|
-|Memory|1GB LPDDR4 3200Mhz|
-|Storage|8GB eMMC + micro SD card slot|
-|Camera|Support USB Camera (UVC)|
-|Connectivity|Gigabit Ethernet Wifi/BT Combo|
-|USB|USB 3.0 x 3 (1 with OTG support)|
-|Expansion|40-pin low-speed expansion header|
-|Audio|I2S x 2 support  4-Mic + speaker|
-|Power supply|12V@2A|
-|Debug|JTAG, UART|
-|OS|Linux|
-|Dimensions|85mm x 55mm|
-
-{:.hidden_rows}
-
-</div>
+|   Component          |   Description                                                                                    |
+|:---------------------|:-------------------------------------------------------------------------------------------------|
+|  Processor           | Sophon BM1880                                                                                    |
+| System Memory        | LPDDR4 1GB @ 3200Mhz                                                                             |
+| Flash Memory         | 8GB eMMC + micro SD card slot                                                                    |
+| Connectivity         | Gigabit Ethernet(RJ-45), Wifi, Bluetooth                                                         |
+| USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       | 
+| I/O Expansion        | 40-pin 96Boards low-speed expansion header                                                       |
+| Audio                | I2S x 2 (included in 40-pin header)                                                              |
+| H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
+| Power                | 12V@2A                                                                                           |
+| OS                   | Linux                                                                                            | 
+| Dimensions           | 85mm x 54mm                                                                                      |
