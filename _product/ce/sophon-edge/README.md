@@ -43,7 +43,7 @@ product_buy_links:
     from: Sophon.ai
     type: board
     link-price: "899.00"
-    link-price-currency: RMB
+    link-price-currency: "&#xa5;"
 product_os:
   - title: Linux
     link: /documentation/consumer/sophon-edge/downloads/
