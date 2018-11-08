@@ -53,6 +53,8 @@ seo:
                                 <span class="text-left">{{ buy_link.link-title }}</span>{% if buy_link.link-price %}<span class=" pull-right buy-price">
                                     {% if buy_link.link-price-currency %}
                                         {% if buy_link.link-price-currency == "JPY" %}JP&yen;
+                                        {% else %}
+                                        {{buy_link.link-price-currency}}
                                         {% endif %}
                                     {% endif %}
                                     {{buy_link.link-price}}
