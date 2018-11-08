@@ -4,17 +4,6 @@ layout: product-display-page
 permalink: /product/sophon-edge/
 shortname: sophon-edge
 description: |-
-<<<<<<< HEAD
-    The Bitmain SophonTM Edge Developer Board(EDB) is designed for bringing powerful Deep Learning capability to various type of applications through its quick prototype development. Sophon Edge Developer Board is powered by BM1880, which equips tailored TPU supporting DNN/CNN/RNN/LSTM operations and models. The edge developer board is compatible with Linaro 96boards while supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, etc.
-keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, processor, low cost, Product, Development, Platform, arm, sophon, Bitmain, edge
-product_short_desc: "Edge Developer Board is designed for bringing powerful Deep Learning capability to various type of application through its quick prototype development."
-product_specification: ce
-display_product: true
-is_featured: true
-product_images:
-  - sophon-edge-tpu-board-front.png
-  - sophon-edge-tpu-board-back.png
-=======
     The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
@@ -26,7 +15,6 @@ is_featured: true
 product_images:
     - sophon-front-sd.png
     - sophon-back-sd.png
->>>>>>> 79f1ea9f24be852e956af43e68d5e1482e726e21
 product_tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
@@ -54,7 +42,7 @@ product_buy_links:
     link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
     from: Sophon.ai
     type: board
-    link-price: "s899.00"
+    link-price: "899.00"
     link-price-currency: RMB
 product_os:
   - title: Linux
