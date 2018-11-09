@@ -39,10 +39,10 @@ mezzanine_features:
 product_buy_links:
   -
     link-title: 96Boards Sensors
-    link-url: https://linaro.co/20n34bc
+    link-url: http://linaro.co/20n34bc
   -
     link-title: Grove Starter Kit for 96Boards
-    link-url: https://linaro.co/1KnV9TA
+    link-url: http://linaro.co/1KnV9TA
 product_more_info:
   - title: Getting-Started PDF
     link: http://linaro.co/sensorkitpdf
