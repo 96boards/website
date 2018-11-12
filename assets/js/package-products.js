@@ -5,7 +5,7 @@
 //= require vendor/owl.carousel
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
-//= require vendor/lightbox
+//= require vendor/featherlight
 //= require vendor/discourse-api
 
 
