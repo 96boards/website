@@ -31,7 +31,7 @@ Static Jekyll web pages are placed in folders in the root of the website with ei
 
 The url for your page should be added to the front matter of your posts (section at the top of the file between --- containing yaml) as the `permalink`. This will ensure the url of your page is exactly as you intended it to be. See below for an example of the front matter to add to the web page. If in any doubt please duplicate a page that you would like yours to look like and modify the file from there.
 
-```
+```YAML
 ---
 # Layout of your web page - see below for available layouts.
 layout: container-breadcrumb-tabs
@@ -99,7 +99,6 @@ Modify the date to sometime before you post the blog otherwise Jekyll will see i
 This value is used for the featured image displayed on your blog post and the image that is used when sharing the blog post on social media sites.
 
 ```YAML
-
 image:
     featured: true
     path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
@@ -109,7 +108,6 @@ image:
 ```
 
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/96boards/website/tree/master/assets/images/blog).
-
 
 __Note:__ There is currently a bug with the version of `jekyll-assets` we are using which means the only acceptable image extensions are `.jpg` and `.png`. If you use `.jpeg` you image may not display as expected.
 
@@ -209,6 +207,8 @@ __Note:__ These redirects are currently not respected by the link checker until 
 
 ## Building the static site
 
+    We are working towards creating a Dockerfile for building our static sites. In the mean time you can still clone the site and install bundler/jekyll gems and ruby to build the site locally.
+
 In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
 
 Once you have above installed you can simply clone this repo and the [96Boards Documentation Repo](https://github.com/96boards/documentation). You will then need to modify the [build.sh](https://github.com/96boards/website/blob/master/build.sh) file to pull the documentation into your website repo before building the static site. Amend the top two lines of the build.sh file so that the correct paths are used. Then run the script to move the documentation files over to the _documentation collection in the website repo.
@@ -230,26 +230,6 @@ $ bundle exec jekyll s
 ```
 
 This will serve (s) the Jekyll static website to the http://localhost:4000 where you can view the generated static website.
-
-
-*****
-
-## Adding Redirects to the Static site
-
-We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
-
-```
-^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
-!^/oldpath.*$ http://www.example.com [R=302,L,NC]
-^/topsecret.*$ [F,L]
-^/deadlink.*$ [G]
-^/foo$ /bar [H=^baz\.com$]
-```
-
-__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
-
-*****
-
 
 
 ## Issues 
