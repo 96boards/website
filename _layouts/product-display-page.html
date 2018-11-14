@@ -23,7 +23,7 @@ seo:
                             {% assign url-name = page.permalink | split: "/" %}
                             {% assign url-name-new = url-name[2] %}
                             <div class="activity-block item">
-                                <a href="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}" data-lightbox="{{page.product_title}}" data-title="{{page.product_title}}">
+                                <a href="#" data-featherlight="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}">
                                     <img data-src="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}" class="owl-lazy img-responsive" alt="{{product_image}}" />
                                 </a>
                             </div>
@@ -53,6 +53,8 @@ seo:
                                 <span class="text-left">{{ buy_link.link-title }}</span>{% if buy_link.link-price %}<span class=" pull-right buy-price">
                                     {% if buy_link.link-price-currency %}
                                         {% if buy_link.link-price-currency == "JPY" %}JP&yen;
+                                        {% else %}
+                                        {{buy_link.link-price-currency}}
                                         {% endif %}
                                     {% endif %}
                                     {{buy_link.link-price}}

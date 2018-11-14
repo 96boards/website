@@ -222,7 +222,7 @@ layout: boards-home
                 <div class="row">
                     
                     {% for post in site.posts limit:4 %}
-                    {% assign author = site.data.authors | where: "username", post.author | first %}
+                    {% assign author = site.authors | where: "username", post.author | first %}
 
                        <div class="col-sm-3 blog-post">
                            <div class="row image">
@@ -285,7 +285,7 @@ layout: boards-home
                 
                 {% for post in site.posts limit:4 %}
                 
-                {% assign author = site.data.authors | where: "username", post.author | first %}
+                {% assign author = site.authors | where: "username", post.author | first %}
                                 
                 <div class="owl-item__inner">
                   <div class="col-xs-12 no-padding visible-xs">

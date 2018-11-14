@@ -16,8 +16,8 @@ layout: container-breadcrumb-tabs
 | 128     | 29 Nov 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
 | 127     | 22 Nov 2018    | TBD                       | TBD                                     | N/A                                                     |
 | 126     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | N/A                                                     |
-| 125     | 8 Nov 2018     | TBD                       | TBD                                     | N/A                                                     |
-| 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 125     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Watch Video](https://youtu.be/wH_gkCemir4)             |
 | 123     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | [Watch Video](https://youtu.be/kcFHrGUnqe4)             |
 | 122     | 18 Oct 2018    | The Coding Blonde         | Coding Blonde, Mission and more!        | [Watch Video](https://youtu.be/gkHVyvL9qao)             |
 | 121     | 11 Oct 2018    | Brandy Morgan             | Creators Code                           | [Watch Video](https://youtu.be/DBW42kte3vA)             |

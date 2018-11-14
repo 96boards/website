@@ -14,7 +14,7 @@ tags: aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Li
 
 # **Introduction**
 
-The 96Boards Secure96 mezzanine was introduced last year (https://youtu.be/JGkl3oC9gtA) and it contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e.g. a 96Boards Dragonboard DB410C or similar host. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the most recent TPM 2.0 specification. This post describes how to get the TPM to initialize and running some basic operations via the TSS stack using the 4.14 kernel on the Dragonboard DB410C.
+The 96Boards Secure96 mezzanine by [Hoperun](https://www.hoperun.net/hrtc/) was introduced last year [https://youtu.be/JGkl3oC9gtA](https://youtu.be/JGkl3oC9gtA) and it contains a Trusted Computing Group TPM chip. Secure96 is a 1.8V mezzanine for cryptography applications that plugs into the low-speed connector on e.g. a 96Boards Dragonboard DB410C or similar host. The TPM on board communicates with the host via SPI. It is an Infineon SLB 9670 and conforms to the most recent TPM 2.0 specification. This post describes how to get the TPM to initialize and running some basic operations via the TSS stack using the 4.14 kernel on the Dragonboard DB410C.
 
 # **What is a TPM?**
 
@@ -42,25 +42,26 @@ The TPM has a capability to store a measure of the overall system state in a one
 
 # **Interacting with the Secure96 TPM**
 
-To get the TPM running, you need 
-
+To get the TPM running, you need: 
 * a Secure96 board
 * a host such as a Dragonboard DB410C with a 1.8V low-speed connector
 * a kernel built with the SPI TPM driver configured
 * device tree with necessary changes to enable the low speed connector SPI bus and to configure the correct GPIO as the SPI chip select
 * Some user-space TPM tools
 
+
 # **Kernel**
 
-These instructions are based on the Qualcomm Landing Team kernel 4.14.69, cloned from http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
+These instructions are based on the Qualcomm Landing Team kernel 4.14.69, cloned from [http://git.linaro.org/landing-teams/working/qualcomm/kernel.git](http://git.linaro.org/landing-teams/working/qualcomm/kernel.git)
 
-Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html)
+Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html).
 
 Modifications to the following files are needed to enable the TPM SPI driver and the SPI interface chip select:
+```
 arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
 arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
 drivers/spi/spi-qup.c
-
+```
 A full description of these changes are described in [this patch](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/db410c_spi_cs.patch) (and also reproduced at the end of this post).
 
 In the kernel config, as a minimum you need the TPM core functionality, the TPM SPI driver and support for the Infineon device. Here’s a TPM-related snippet from the config I used: 
@@ -87,7 +88,7 @@ Modify your config using menuconfig to enable the above options.
 Build the kernel, device tree blobs and modules. 
 Follow the instructions to create a boot-db410c.img file
 
-I’ve uploaded my boot-db410c.img along with the other files (CS patch, config) at http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/
+I’ve uploaded my boot-db410c.img along with the other files (CS patch, config) at [http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/).
 
 # **Flashing and Booting the Board**
 
@@ -103,7 +104,7 @@ After flashing, remove the OTG cable and reboot the board. Typing
 ```
 $ ls /dev
 ```
-should show that tpm0 was created and you can use the userspace tools to access the functionality inside the TPM. 
+should show that device tpm0 was created and you can use the userspace tools to access the functionality inside the TPM. 
 
 It's worthwhile copying across the modules for a fully functioning system.
 
@@ -124,8 +125,8 @@ There are 3 open source TPM Software Stacks (TSS)  which I previously evaluated 
   </tr>
   <tr>
     <td>Intel TPM Software Stack for TPM 2.0</td>
-    <td>https://github.com/01org/TPM2.0-TSS.git</td>
-    <td>The Intel Open Source Technology Center (01org) provides some TPM 2.0 tools, also referenced in <sup>[2</sup>. It’s complex, with a TPM stack, d-bus integrated resource manager and toolkit.</td>
+    <td>https://github.com/tpm2-software/tpm2-tss</td>
+    <td>TPM 2.0 tools backed and supported by Intel, Infineon, Fraunhofer, Redhat and many others. It’s complex but comprehensive, with a TPM stack, d-bus integrated resource manager and toolkit.</td>
   </tr>
   <tr>
     <td>IBM TPM 2.0 TSS</td>
@@ -141,7 +142,7 @@ To configure it to use the hardware TPM (/dev/tpm0), edit the file tssproperties
 ```
 #define TPM_INTERFACE_TYPE_DEFAULT “dev”
 ```
-as the first definition in the file. Build is a simple case of typing make, although I did already have build-essential and the typical build packages installed. The stack worked out of the box for me once I pointed it at the hardware TPM.
+as the first definition in the file. Build is a simple case of typing make on the Dragonboard, although I did already have build-essential and the typical build packages installed. The stack worked out of the box for me once I pointed it at the hardware TPM.
 
 After building this change, the getcapability utility in the IBM TSS stack (in utils/)
 
@@ -182,14 +183,14 @@ Once you have some kind of trusted firmware booted, you can use the TPM. For exa
 
 # **Troubleshooting**
 
-In order to create the /dev/tpm0 instance, the tpm_spi_tis kernel driver has to complete its initialisation successfully. This requires a large number of SPI bus transactions between the host and the TPM chip. If you have access to a logic analyser, you can follow along, or alternatively you can instrument the low level SPI driver in the kernel.
+In order to create the /dev/tpm0 instance, the tpm_spi_tis kernel driver has to complete its initialisation successfully. This requires a large number of SPI bus transactions between the host and the TPM chip. If you have access to a logic analyser, you can follow along, or alternatively you can instrument the low level SPI driver in the kernel. I've posted the annotated SPI traffic [here](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/).
 
 You can expect to see the log message in dmesg:
 ```
 [    1.159875] tpm tpm0: A TPM error (256) occurred continue selftest
 [    1.159912] tpm tpm0: starting up the TPM manually
 ```
-This is normal according to previous Infineon documentation<sup>[3]</sup>. My suspicion is that the driver mis-interprets the V-bit in the return code from the TPM as an error.
+This is normal according to previous Infineon documentation<sup>[3]</sup>. THis is an RC_Initialize (0x100) caused by missing TPM2_Startup, which should be issued by the boot firmware. It's not an error - as you can also see in the next line "starting up the TPM manually" (thanks to Peter Huewe of Infineon for this).
 
 There is a potential TPM reset issue with the mezzanine.The TPM reset line is connected to a GPIO rather than a reset circuit. I didn’t ultimately see problems with this, but if the TPM doesn’t respond sensibly to the driver initialization attempts, it’s possible to toggle the reset line to the chip via a connected GPIO. One clue that there’s a reset issue is if the SPI driver spins reading zeros from the TPM and then times out. 
 
