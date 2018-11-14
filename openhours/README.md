@@ -21,16 +21,22 @@ js-package: openhours
 
 Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
 
-**This week**, we will be meeting with W. GORDON KRUBERG, M.D. - PRESIDENT AND CEO of [Gumstix](https://www.gumstix.com/) to talk about [Geppetto](https://geppetto.gumstix.com/) and a new board builder feature, soon to be available! Keep reading to find out more about Gordon and Gumstix as well as what we will be talking about in the show. Tune in at the end of the countdown for your front row seat to all the action! See you then!
+**This week**, we will be speaking with Janelle Letzen, the sushi scientist! Janelle is a PhD and postdoctoral fellow at Johns Hopkins University conducting research on brain function associated with chronic pain. She is a self-taught food artist who started Sushi Science at the beginning of this year in the hopes of making complex neuroscience topics more approachable for students and informal learners.
 
-Gordon Kruberg has been President and CEO since founding the company in October 2003. Over the course of his career, Dr. Kruberg has been involved in over thirty US-based companies as a venture investor, member of the board of directors or executive team (including Chairman, CEO, or President.)
+You might be wondering, what is sushi science? Well, you will have to take a look for your self! Before joining us, make sure to pay a visit to Janelle's website and/or instagram to witness some of the amazing creations she has made (and the amazing science she explains!). And, to answer a question people most frequently ask: yes, she eats and/or shares all of her creations! Sample her work at [thesushiscientist.com](https://www.thesushiscientist.com/) or on Instagram ([@the_sushi_scientist](https://www.instagram.com/the_sushi_scientist/)).
 
-Immediately prior to founding Gumstix, Gordon was CEO of Deersoft, acquired by Network Associates in December 2002. His background includes seven years with Grace Horn Ventures, managing investments in software, biotechnology and medical high-technology startups.
+As an added bonus to this week's episode, Robert and Janelle will be creating a tech sushi showcases (tech stuff made of sushi!) to present and eat during the broadcast! If you have any sushi science to share for yourself, we invite you to bring your creations and join in on the fun. Robert will also be drinking sake :-P so for those who really want to get in the sprit, you will not be alone!
 
-Gordon holds an A.B. degree in Human Biology, a M.S. degree in Industrial Engineering from Stanford University and an M.D. degree from Northwestern University.
+Janelle's welcomes questions from the community and is glad to address some of the following topics:
 
-BOARD BUILDER OVERVIEW: Since 2003, over 20,000 engineers, makers, and innovators have used Gumstix to prototype, visualize, and see their ideas come to life. Now Gumstix is revolutionizing EDA. Welcome to Board Builder, the future of device design.
-Board Builder is now the fastest and easiest way to prototype available anywhere. Just choose and select your technical requirements from the checklist and Board Builder builds the design, complete with 3D preview for your review.
+- Brain function in chronic pain; chronic pain treatment; mood, motivation, and chronic pain
+- What the scientific process is like and things people might want to consider in reading popular science articles
+- Her doctoral clinical training (cognitive-behavioral therapy; acceptance and commitment therapy; mindfulness-based stress reduction; mental health)
+- Why she started Sushi Science and how she makes her creations
+- Her sushi preferences and select techniques (... Not sushi master chef, but we are sure she will out create Robert :P)
+- Her life outside of science/sushi
+
+So set your reminders and add us to your calendar! This week, OpenHours goes to sushi to explain science (and some tech).
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
