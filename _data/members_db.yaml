@@ -6,9 +6,6 @@ members:
           - name: Advantech
             image: advantech.jpg
             url: https://www.linaro.org/company/advantech/
-          - name: Archer Mind
-            image: archermind.jpg
-            url: https://www.linaro.org/company/archermind/
           - name: Arm
             image: arm.jpg
             url: https://www.linaro.org/company/arm/
