@@ -16,6 +16,10 @@ members:
             image: adi.png
             padded: padded-member-md
             url: https://www.linaro.org/company/analog-devices/
+          - name: Bitmain
+            image: bitmain_logo.png
+            padded: padded-member-md
+            url: https://www.linaro.org/company/bitmain/
           - name: Google
             image: google.png
             url: https://www.linaro.org/company/google/
