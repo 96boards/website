@@ -287,8 +287,8 @@ Find all references to currentTimeInMilliseconds() and delete them.
 ```
 $ cd dlib_for_arm/dlib
 $ python setup.py build
-$ python setup.py install*******
-$ cd dli	b_for_arm/dlib
+$ python setup.py install
+$ cd dlib_for_arm/dlib
 $ mkdir build
 $ cd build
 $ cmake ..
