@@ -203,10 +203,6 @@ p.sub-tag {
     height:25%;
     width:80%;
 }
-.partners-panel{
-    height:500px;
-    margin-top: 40px;
-}
 //Bottom Border Five Pixels.
 .bottom-border-five{ margin-bottom: 5px; }
 
@@ -412,13 +408,6 @@ div#tabbed-nav-bar {
     -o-transition: none;
     transition: none;
 }
-#wrapper #tabbed-nav-bar .collapse {
-    z-index: 0;
-}
-
-ul#tab-row {
-    border-bottom: none;
-}
 // CSS for the email button.
 #wrapper .email {
     height: 50px;
@@ -451,6 +440,15 @@ ul#tab-row {
         text-align: center;
     }
 }
-.navbar-header {
+#main-navigation .navbar-header {
     z-index: 9999;
+}
+.container-fluid.breadcrumb-container {
+    background-color: black;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10000;
 }
