@@ -6,8 +6,49 @@
     color: black;
     top:10px;
 }
-
-
 div#about-tabs-content {
     margin-top: 20px;
+}
+.partners-panel{
+    height:auto;
+    margin-top: 0px;
+}
+.panel-heading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #393836;
+    font-weight: bold;
+}
+div.tab-pane {
+    height: 400px;
+}
+#about-tabs li a {
+    text-align:center;
+    font-size: 14px !important;
+    margin-right:0px;
+}
+#about-tabs li {
+    font-size: 9px !important;
+    width: 20%;
+}
+@media(max-width: 660px){
+    #about-tabs li {
+        width: 50%;
+    }
+    #about-tabs li a {
+        font-size: 12px !important;
+    }
+    #content-container p{
+        font-size:12px !important;
+    }
+}
+#about-tabs li.active {
+    background-color: white;
+}
+ul#about-tabs {
+    margin-top: 40px;
+}
+.explore-boards-about {
+    margin-top:40px;
 }
