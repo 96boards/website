@@ -3,8 +3,6 @@ title: News
 permalink: /news/
 layout: container-breadcrumb-tabs
 ---
-## News
-<br />
 <div class="col-md-6">
     <div class="list-group">
         <a class="list-group-item active">
