@@ -287,17 +287,11 @@ Find all references to currentTimeInMilliseconds() and delete them.
 ```
 $ cd dlib_for_arm/dlib
 $ python setup.py build
-<<<<<<< HEAD
 $ python setup.py install
-$ cd dlib_for_arm/dlib
-=======
-$ python setup.py install*******
-$ cd dli	b_for_arm/dlib
->>>>>>> Added blog post about OpenFace Installation, and media for the post.
 $ mkdir build
 $ cd build
 $ cmake ..
-$ cmake --build . 
+$ cmake --build .
 ```
 
 #Part 4, Building Torch:
