@@ -15,28 +15,31 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODExMDhUMTcwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODExMjlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
+**Every year**, OpenHours takes one day off (US Holiday of Thanksgiving)... This year it lands on November 22nd! So, please excuse our absence while our team enjoys time with friends and family.
 
-**This week**, we will be speaking with Janelle Letzen, the sushi scientist! Janelle is a PhD and postdoctoral fellow at Johns Hopkins University conducting research on brain function associated with chronic pain. She is a self-taught food artist who started Sushi Science at the beginning of this year in the hopes of making complex neuroscience topics more approachable for students and informal learners.
+**We are already preparing for next week's episode!** On November 29th at 4:00p UTC, we will be joined by the lead developer of [TronBet](https://www.tronbet.com/#/), a community owned and decentralized gaming "dApp" running on the [Tron network](https://tron.network/) which uses smart contracts to ensure each and every aspect of the platform remains trustless. [The TronBet site](https://www.tronbet.io/#/) was launched a little over a month ago and has already seen over 10,000,000 transactions with 5BN+ in TRX winnings. Since its launch, the TronBet developer team has made huge efforts to improve their UI and UX while taking community input very seriously. 
 
-You might be wondering, what is sushi science? Well, you will have to take a look for your self! Before joining us, make sure to pay a visit to Janelle's website and/or instagram to witness some of the amazing creations she has made (and the amazing science she explains!). And, to answer a question people most frequently ask: yes, she eats and/or shares all of her creations! Sample her work at [thesushiscientist.com](https://www.thesushiscientist.com/) or on Instagram ([@the_sushi_scientist](https://www.instagram.com/the_sushi_scientist/)).
+During this one hour special, we will get to know TronBet's lead developer on a personal and professional level, and we will discuss the plethora of technologies that goes into creating such an amazing platform within the Tron ecosystem. Our featured guest will also be taking questions on the following topics:
 
-As an added bonus to this week's episode, Robert and Janelle will be creating a tech sushi showcases (tech stuff made of sushi!) to present and eat during the broadcast! If you have any sushi science to share for yourself, we invite you to bring your creations and join in on the fun. Robert will also be drinking sake :-P so for those who really want to get in the sprit, you will not be alone!
+- General Q's about TronBet
+- The ANTE Token
+- TronBet's Roadmap
+- Upcoming games
+- Developing on Tron's Network
+- Smart Contracts
+- Decentralized Exchanges
+- And more...
 
-Janelle's welcomes questions from the community and is glad to address some of the following topics:
+So if you are new to Tron and TronBet, or a seasoned veteran working your way up the leaderboard, we welcome you to join and participate in this event! Set your reminders, grab some coffee, tea or beer, and join us for a great discussion on Tron and TronBet!
 
-- Brain function in chronic pain; chronic pain treatment; mood, motivation, and chronic pain
-- What the scientific process is like and things people might want to consider in reading popular science articles
-- Her doctoral clinical training (cognitive-behavioral therapy; acceptance and commitment therapy; mindfulness-based stress reduction; mental health)
-- Why she started Sushi Science and how she makes her creations
-- Her sushi preferences and select techniques (... Not sushi master chef, but we are sure she will out create Robert :P)
-- Her life outside of science/sushi
-
-So set your reminders and add us to your calendar! This week, OpenHours goes to sushi to explain science (and some tech).
+- [TronBet Website](https://www.tronbet.com/#/)
+- [TronBet io Website](https://www.tronbet.io/#/)
+   - [Robert's referral (if you are new :-))](https://www.tronbet.io/?r=sdreferral)
+- [TronBet Telegram Group](http://t.me/tronbetio)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
@@ -65,6 +68,7 @@ The 96Boards Team
 </div>
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
+
 ### When
 
 Every Thursday at 4pm UTC
