@@ -4,7 +4,6 @@ author: Manivannan Sadhasivam
 date: 2018-11-22 01:01:54+00:00
 image:
     featured: true
-categories: blog
     path: /assets/images/blog/rock960_front.jpg
     name: rock960_front.jpg
     thumb: rock960_thumb.png
