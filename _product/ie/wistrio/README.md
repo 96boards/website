@@ -13,19 +13,19 @@ featured_product_order: 6
 display_product: true
 is_featured: true
 product_images:
-    - wistrio-antenna-sd-front.png
-    - wistrio-antenna-sd-back.png
+  - wistrio-antenna-sd-front.png
+  - wistrio-antenna-sd-back.png
 product_tab_menu:
-    - tab_title: Getting Started
-      tab_link: /documentation/iot/wistrio/getting-started/
-      tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/iot/wistrio/
-      tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/wistrio/
-      tab_position: 4
-      tab_align_right: true
+  - tab_title: Getting Started
+    tab_link: /documentation/iot/wistrio/getting-started/
+    tab_position: 1
+  - tab_title: Documentation
+    tab_link: /documentation/iot/wistrio/
+    tab_position: 2
+  - tab_title: Support
+    tab_link: https://discuss.96boards.org/c/products/wistrio/
+    tab_position: 4
+    tab_align_right: true
 product_getting_started: /documentation/iot/wistrio/getting-started/
 product_documentation_link: /documentation/iot/wistrio/
 product_buy_links:
@@ -45,6 +45,7 @@ product_more_info:
   - title: WisTrio Beta
     link: https://www.rakwireless.com/en/beta-wistrio
 product_accessories:
+  - title: Debug
     link: /product/debug/
   - title: Misc
     link: /product/misc/
