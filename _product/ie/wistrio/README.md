@@ -9,7 +9,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, RAK5205, wistrio, rakwireless, wireless, rak
 product_short_desc: "RAK Wireless IoT Board is powered by the RK5205"
 product_specification: ie
-featured_product_order: 2
+featured_product_order: 6
 display_product: true
 is_featured: true
 product_images:
@@ -22,7 +22,6 @@ product_tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/iot/wistrio/
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/wistrio/
       tab_position: 4
@@ -38,7 +37,7 @@ product_buy_links:
     link-price: "$49.50"
     link-price-currency: USD
 product_os:
-  - title: Coming Soon...
+  - title: Explore
     link: /documentation/iot/wistrio/downloads/
 product_more_info:
   - title: RAK Wireless
