@@ -25,15 +25,20 @@ In this week, we finally complete to connect thermal receipt printer with Dragon
 # Test Code for Thermal Printer
 	
 import adafruit_thermal_printer
+
 import serial
  
 ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.67)
+
 uart = serial.Serial("/dev/ttyUSB0", baudrate=9600, timeout=3000)
  
 printer = ThermalPrinter(uart)
+
 printer.warm_up()
  
 printer.feed(2) 
+
 printer.print('Hello world!')
+
 printer.feed(2)
 
