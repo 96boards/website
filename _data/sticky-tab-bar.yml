@@ -52,10 +52,12 @@ pages:
         url: /projects/faq.md/
       - title: OpenHours
         url: /openhours/
+      - title: Mezzanine Community
+        url: /go/mezzanine-community/
       - title: Submit a Project
         url: /projects/submit/
         right: true
-    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/projects/submit/]
+    urls: [/projects/,/projects/contribute.md/,/projects/faq.md/,/go/mezzanine-community/,/projects/submit/]
   - list:
       - title: HiKey 960
         url: /product/hikey960/
