@@ -1,5 +1,5 @@
 ---
-title: CryptonNode on 96Boards - Part 7
+title: CryptonNode on 96Boards - Part 8
 author: Garam An
 date: 2018-11-28 00:00:01+00:00
 categories: blog
