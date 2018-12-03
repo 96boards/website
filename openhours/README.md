@@ -19,9 +19,7 @@ js-package: openhours
 
 **OpenHours**
 
-**Every year**, OpenHours takes one day off (US Holiday of Thanksgiving)... This year it lands on November 22nd! So, please excuse our absence while our team enjoys time with friends and family.
-
-**We are already preparing for next week's episode!** On November 29th at 4:00p UTC, we will be joined by the lead developer of [TronBet](https://www.tronbet.com/#/), a community owned and decentralized gaming "dApp" running on the [Tron network](https://tron.network/) which uses smart contracts to ensure each and every aspect of the platform remains trustless. [The TronBet site](https://www.tronbet.io/#/) was launched a little over a month ago and has already seen over 10,000,000 transactions with 5BN+ in TRX winnings. Since its launch, the TronBet developer team has made huge efforts to improve their UI and UX while taking community input very seriously. 
+**This week, TRONBet takes over OpenHours!** On November 29th at 4:00p UTC, we will be joined by a lead developer of [TronBet](https://www.tronbet.com/#/), a community owned and decentralized gaming "dApp" running on the [Tron network](https://tron.network/) which uses smart contracts to ensure each and every aspect of the platform remains trustless. [The TronBet site](https://www.tronbet.io/#/) was launched a little over a month ago and has already seen over 10,000,000 transactions with 5BN+ in TRX winnings. Since its launch, the TronBet developer team has made huge efforts to improve their UI and UX while taking community input very seriously. 
 
 During this one hour special, we will get to know TronBet's lead developer on a personal and professional level, and we will discuss the plethora of technologies that goes into creating such an amazing platform within the Tron ecosystem. Our featured guest will also be taking questions on the following topics:
 
