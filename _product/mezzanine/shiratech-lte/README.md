@@ -25,8 +25,8 @@ product_images:
     - shiratech-lte-back-sd.jpg
 product_buy_links:
   -
-    link-title: Coming Soon...
-    link-url: ""
+    link-title: Arrow
+    link-url: "https://www.arrow.com/en/products/srt-96b-mez-lte-a/arrow-development-tools"
 product_more_info:
   - title: Product Brief
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
