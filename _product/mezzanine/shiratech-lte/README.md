@@ -33,10 +33,6 @@ product_more_info:
 ---
 Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 
-## Buy Now
-
-- Coming Soon!
-
 ***
 
 ## Features
