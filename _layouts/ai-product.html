@@ -9,14 +9,54 @@ seo:
 
 <div class="container-fluid" id="content-container">
     <div class="row tab-bar">
-        <div class="container">
+        <div class="container no-padding">
             {% include 96boards-tab-bar.html %}
         </div>
     </div>
-    <!----->
+    <!-- AI HERO Banner --->
+    {% assign header-image-url =  %}
     <div class="row">
         <div class="container">
-            {{content}}
+            <div class="col-xs-12 header-image">
+                <img class="img-responsive lazyload" alt="{{page.title}} header image" 
+                data-src="../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.header-image}}" 
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+            </div>
+            <div class="col-xs-12 header-title">
+                <h1>{{page.title}}</h1>
+            </div>
+            <a href="{{page.buy-now.url}}" class="btn btn-buy">
+                {{page.buy-now.text}}
+            </a>
+        </div>
+    </div>
+    <!-- AI Verticals --->
+    <div class="row call-to-action">
+        <div class="container text-center">
+           {{page.call-to-action}}
+        </div>
+    </div>
+    <!-- AI Verticals --->
+    <div class="row">
+        <div class="container">
+            {% for vertical in page.verticals %}
+                <div class="col-xs-12 col-sm-4 primary-vertical">
+                    <div class="primary-vertical">
+                        <h3>{{vertical.title}}</h3>
+                        {% if vertical.description %}
+                            <p>
+                                {{vertical.description}}
+                            </p>
+                        {% elsif vertical.list %}
+                            <ul>
+                                {% for item in vertical.list %}
+                                    <li>{{item}}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>
