@@ -31,10 +31,8 @@
                     <li role="presentation" {% if page.permalink == '/projects/submit/' %}class="active tabbed-nav-btn pull-right"{% else %}class="tabbed-nav-btn pull-right"{% endif %}><a href="/projects/submit/" aria-controls="lswg" role="link">Submit a Project</a></li>
                 {% endif %}
                 {% if page.tab_menu %}
-                    {% assign tabs = page.tab_menu | sort:"tab_position" %}
-                    <li role="presentation" class="active tabbed-nav-btn"><a href="{{ page.permalink }}" aria-controls="overview" role="link">{{ page.title }}</a></li>
-                    {% for tab in tabs %}
-                        <li role="presentation" class="tabbed-nav-btn {% if tab.tab_align_right == true %}pull-right{% endif %}"><a href="{{ tab.tab_link }}" aria-controls="overview" role="link">{{ tab.tab_title }}</a></li>
+                    {% for tab in page.tab_menu %}
+                        <li role="presentation" class="{% if tab.active %}active {% endif %}tabbed-nav-btn {% if tab.tab_align_right == true %}pull-right{% endif %}"><a href="{{ tab.tab_link }}" aria-controls="overview" role="link">{{ tab.tab_title }}</a></li>
                     {% endfor %}
                 {% elsif page.product %}
                     <li role="presentation" class="tabbed-nav-btn"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
