@@ -1,0 +1,22 @@
+---
+layout: default
+js-package: products
+css-package: products
+seo:
+    type: Product
+---
+{% include breadcrumb.html %}
+
+<div class="container-fluid" id="content-container">
+    <div class="row tab-bar">
+        <div class="container">
+            {% include 96boards-tab-bar.html %}
+        </div>
+    </div>
+    <!----->
+    <div class="row">
+        <div class="container">
+            {{content}}
+        </div>
+    </div>
+</div>
