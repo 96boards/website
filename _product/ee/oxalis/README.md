@@ -4,13 +4,12 @@ layout: product-display-page
 permalink: /product/oxalis/
 shortname: oxalis
 description: |-
-	Near ubiquitous broadband Internet connecting a multitude of distributed embedded
-systems in the IoT world, introduces new challenges in data transfer performance and communication security. The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
+	Near ubiquitous broadband Internet connecting a multitude of distributed embedded systems in the IoT world, introduces new challenges in data transfer performance and communication security. The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
 product_short_desc: "Oxalis Board based on the NXP Layerscape LS1012A Processor"
 product_specification: ee
-featured_product_order: 4
+featured_product_order: 2
 display_product: true
 is_featured: true
 product_images:
@@ -27,7 +26,7 @@ product_tab_menu:
       tab_position: 2
       tab_position: 3
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/oxalis
+      tab_link: https://discuss.96boards.org/c/products/oxalis/
       tab_position: 4
       tab_align_right: true
 product_getting_started: /documentation/enterprise/oxalis/getting-started/
