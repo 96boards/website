@@ -36,7 +36,7 @@ product_buy_links:
   -
     link-title: Oxalis
     link-url: https://www.arrow.com/en/products/iot-ls1012a-oxalis/arrow-development-tools
-    from: Sophon.ai
+    from: Arrow.com
     type: board
     link-price: "$440.33"
     link-price-currency: USD
@@ -75,7 +75,6 @@ product: true
 Near ubiquitous broadband Internet connecting a multitude of distributed embedded systems in the IoT world, introduces new challenges in data transfer performance and communication security.
 The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
 
-***
 
 ## Additional Information
 
