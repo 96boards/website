@@ -6,7 +6,7 @@ shortname: ethernetcard
 description: |-
     The PoE + Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet. The Board consists of three key components. The LAN7850 from Microchip provides Gigabit Ethernet through high speed USB 2.0, which is connected to the 96Boards standard HS expansion connector.
 display_product: true
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/ethernetcard/
       tab_position: 1

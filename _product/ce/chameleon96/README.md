@@ -17,7 +17,7 @@ product_images:
     - chameleon96-front-small.png
     - chameleon96-back-small.png
 # Sub Tab Menu Items
-product_tab_menu:
+tab_menu:
         - tab_title: Getting Started
           tab_link: /documentation/consumer/chameleon96/getting-started/
           tab_position: 1

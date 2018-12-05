@@ -16,7 +16,7 @@ product_images:
   - DragonBoard-UpdatedImages-front.png
   - DragonBoard-UpdatedImages-back.png
 # Sub Tab Menu Items
-product_tab_menu:
+tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
       tab_position: 1

@@ -9,7 +9,7 @@ description: |-
     core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz.
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/mediatekx20/
       tab_position: 1

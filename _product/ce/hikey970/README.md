@@ -8,7 +8,7 @@ description: |-
 keywords: hikey 970, hikey970, aosp, aosp developement board, boards, linux, ai, artificial intelligence
 display_product: true
 product_media_highlights: true
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey970/
       tab_position: 1

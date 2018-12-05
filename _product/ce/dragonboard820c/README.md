@@ -15,7 +15,7 @@ is_featured: true
 product_images:
   - dragonboard820c-front-sd.png
   - dragonboard820c-back-sd.png
-product_tab_menu:
+tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/dragonboard820c/getting-started/
       tab_position: 1

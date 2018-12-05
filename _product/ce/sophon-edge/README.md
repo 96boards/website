@@ -15,14 +15,16 @@ is_featured: true
 product_images:
     - sophon-front-sd.png
     - sophon-back-sd.png
-product_tab_menu:
+tab_menu:
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
-      tab_position: 1
+      tab_position: 2
     - tab_title: Documentation
       tab_link: /documentation/consumer/sophon-edge/
-      tab_position: 2
       tab_position: 3
+    - tab_title: AI
+      tab_link: /product/sophon-edge/ai/
+      tab_position: 1
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/sophon-edge/
       tab_position: 4

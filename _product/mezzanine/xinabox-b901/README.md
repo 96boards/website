@@ -7,7 +7,7 @@ description: |-
     This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
 display_product: true
 product_support_link: https://discuss.96boards.org/c/products/mezzanine
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/xinabox-b901/
       tab_position: 1

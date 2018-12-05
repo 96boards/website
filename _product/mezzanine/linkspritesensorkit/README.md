@@ -8,7 +8,7 @@ description: |-
     96Boards.
 display_product: true
 product_specification: "mezzanine"
-product_tab_menu:
+tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/mezzanine
       tab_position: 2

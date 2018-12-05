@@ -11,7 +11,7 @@ image:
 featured_product_order: 8
 is_featured: true
 display_product: true
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/mezzanine/secure96/
       tab_position: 1

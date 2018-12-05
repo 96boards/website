@@ -9,7 +9,7 @@ keywords: hikey 960, hikey960, aosp, aosp developement board, boards
 display_product: true
 product_media_highlights: true
 product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-product_tab_menu:
+tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey960/
       tab_position: 1
