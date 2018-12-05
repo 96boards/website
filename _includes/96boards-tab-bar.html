@@ -13,8 +13,6 @@
         <div class="collapse navbar-collapse" id="tabbed-nav-bar-collapse">
             <ul class="nav nav-tabs tabbed-nav" id="tab-row" role="tablist">
                 {% assign page_base =  page.url | split:'/' %}
-
-                <!--Projects Sub Navigation-->
                 {% if page.permalink == "/projects/" or
                     page_base[1] == "projects" and page_base[2] or
                     page.permalink == "/projects/contribute.md/" or
@@ -32,24 +30,19 @@
                     <li role="presentation" class="tabbed-nav-btn"><a href="/openhours/" aria-controls="lswg" role="link">OpenHours</a></li>
                     <li role="presentation" {% if page.permalink == '/projects/submit/' %}class="active tabbed-nav-btn pull-right"{% else %}class="tabbed-nav-btn pull-right"{% endif %}><a href="/projects/submit/" aria-controls="lswg" role="link">Submit a Project</a></li>
                 {% endif %}
-
-                <!--Products Sub Navigation-->
-                {% if page.product %}
-                    {% if page.product_tab_menu %}
-                        {% assign product-tabs = page.product_tab_menu | sort:"tab_position" %}
-                        <li role="presentation" class="active tabbed-nav-btn"><a href="{{ page.permalink }}" aria-controls="overview" role="link">{{ page.title }}</a></li>
-                        {% for tab in product-tabs %}
-                            <li role="presentation" class="tabbed-nav-btn {% if tab.tab_align_right == true %}pull-right{% endif %}"><a href="{{ tab.tab_link }}" aria-controls="overview" role="link">{{ tab.tab_title }}</a></li>
-                        {% endfor %}
-
-                    {% else %}
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
-                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
-                    {% endif %}
+                {% if page.tab_menu %}
+                    {% assign tabs = page.tab_menu | sort:"tab_position" %}
+                    <li role="presentation" class="active tabbed-nav-btn"><a href="{{ page.permalink }}" aria-controls="overview" role="link">{{ page.title }}</a></li>
+                    {% for tab in tabs %}
+                        <li role="presentation" class="tabbed-nav-btn {% if tab.tab_align_right == true %}pull-right{% endif %}"><a href="{{ tab.tab_link }}" aria-controls="overview" role="link">{{ tab.tab_title }}</a></li>
+                    {% endfor %}
+                {% elsif page.product %}
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                    <li role="presentation" class="tabbed-nav-btn"><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
                 {% endif %}
         </ul>
     </div>
