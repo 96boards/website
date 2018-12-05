@@ -32,10 +32,10 @@ product_documentation_link: /documentation/consumer/parrot/
 product_buy_links:
   -
     link-title: Parrot
-    link-url: 
-    from: 
+    link-url: https://cn1521138201qcai.onesite.alibaba.com/product/60820889942-0/Support_Amazon_AVS_3_Mai_far_field_pickup_development_board.html?spm=a2700.onesite.costePro14.1.6ab71b72O5bI8s
+    from: Alibaba
     type: board
-    link-price: ""
+    link-price: "79.90"
     link-price-currency: USD
 product_os:
   - title: Linux
@@ -73,4 +73,17 @@ with Allwinner R18 chip design. Allwinner SoC-Only 3-Mic Far-Field Dev Kit is Al
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  Processor           | Allwinner R18                                                                                    |
+| Processor            | Allwinner R18                                                                                    |
+| CPU                  | Quad-core Cortex-A53 @ 1.15GHz                                                                   |
+| GPU                  | Mali400MP2 GPU,Supports OpenGL ES 2.0 , Open VG1.1                                               |
+| Memory               | 1G Byte DDR3                                                                                     |
+| Storage              | 8GB eMMC                                                                                         |
+| WIFI                 | Dual band. 2.4GHz, 5GHz                                                                          |
+| BT                   | BT 4.0                                                                                           |
+| MIC                  | 3 MIC, 2 AEC                                                                                     |
+| HW Interfaces        | HDMI, USBA, USB-OTG, HEADPHONE OUT                                                               |
+| OS                   | Tina Linux                                                                                       |
+| Algorithm Provider   | GMEMS                                                                                            |
+| Power Input          | 12V DC                                                                                           |
+| MIC Board Size       | 104 x 90mm                                                                                       |
+| Mainboard Size       | 100 x 85mm                                                                                       |
