@@ -10,7 +10,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
 product_short_desc: "Oxalis Board based on the NXP Layerscape LS1012A Processor"
 product_specification: ee
-featured_product_order: 2
+featured_product_order: 4
 display_product: true
 is_featured: true
 product_images:
