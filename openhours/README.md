@@ -15,29 +15,11 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODExMjlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODEyMDZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-**This week, TRONBet takes over OpenHours!** On November 29th at 4:00p UTC, we will be joined by a lead developer of [TronBet](https://www.tronbet.com/#/), a community owned and decentralized gaming "dApp" running on the [Tron network](https://tron.network/) which uses smart contracts to ensure each and every aspect of the platform remains trustless. [The TronBet site](https://www.tronbet.io/#/) was launched a little over a month ago and has already seen over 10,000,000 transactions with 5BN+ in TRX winnings. Since its launch, the TronBet developer team has made huge efforts to improve their UI and UX while taking community input very seriously. 
-
-During this one hour special, we will get to know TronBet's lead developer on a personal and professional level, and we will discuss the plethora of technologies that goes into creating such an amazing platform within the Tron ecosystem. Our featured guest will also be taking questions on the following topics:
-
-- General Q's about TronBet
-- The ANTE Token
-- TronBet's Roadmap
-- Upcoming games
-- Developing on Tron's Network
-- Smart Contracts
-- Decentralized Exchanges
-- And more...
-
-So if you are new to Tron and TronBet, or a seasoned veteran working your way up the leaderboard, we welcome you to join and participate in this event! Set your reminders, grab some coffee, tea or beer, and join us for a great discussion on Tron and TronBet!
-
-- [TronBet Website](https://www.tronbet.com/#/)
-- [TronBet io Website](https://www.tronbet.io/#/)
-   - [Robert's referral (if you are new :-))](https://www.tronbet.io/?r=sdreferral)
-- [TronBet Telegram Group](http://t.me/tronbetio)
+**This week**, we will be meeting with Kate aka [githugs](https://www.instagram.com/githugs/) from Instagram! Kate majored in art and bartended in the service industry for many years. During this time, she started teaching herself to code. Eventually she attended a bootcamp (Hack Reactor) and graduated from there in January 2018 (earlier this year)! Shortly after graduating, she got her first engineering job in New York, working and specializing in javascript, react and node. Bring your questions and coffee (or beer) and join us for an hour of fun conversation with the one and only [githugs](https://www.instagram.com/githugs/)!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
