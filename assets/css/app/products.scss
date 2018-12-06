@@ -328,4 +328,51 @@ img.filter-thumbnail {
 // AI Layout
 .call-to-action{
     background-color: $brand-primary;
+    padding: 40px 0;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+}
+.header-image img.img-responsive {
+    height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+a.btn.btn-buy {
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 0px;
+    color: black;
+    margin: 20px 0;
+}
+a.btn.btn-buy:hover {
+    background-color: black;
+    color: white !important;
+}
+.row.ai-footer {
+    background-color: $brand-primary;
+}
+#wrapper .ai-footer h3 {
+    color: white;
+}
+#wrapper .ai-footer ul {
+    padding-left: 0px;
+}
+#wrapper .ai-footer ul li {
+    color: white;
+    list-style:none;
+}
+#wrapper .ai-footer ul a:hover li {
+    color: black;
+    list-style:none;
+}
+
+// Add to theme when rolling over to v3
+.padded-row-30 {
+    padding: 30px 0;
+}
+@media(max-width: $screen-sm-min - 1){
+    .text-center-mob {
+        text-align:center !important;
+    }
 }
