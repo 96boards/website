@@ -10,6 +10,9 @@ description: |-
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
 tab_menu:
+    - tab_title: Mediatek X20 Development Board
+      tab_link: /product/mediatek-x20/
+      active: true
     - tab_title: Documentation
       tab_link: /documentation/consumer/mediatekx20/
       tab_position: 1

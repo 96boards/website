@@ -14,6 +14,9 @@ product_images:
   - iMX7-96-front.jpg
   - iMX7-96-back.jpg
 tab_menu:
+    - tab_title: iMX7-96 Development Board
+      tab_link: /product/imx7-96/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/imx7-96/getting-started/
       tab_position: 1

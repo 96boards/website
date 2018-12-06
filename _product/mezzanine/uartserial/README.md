@@ -8,13 +8,14 @@ description: |-
 display_product: true
 product_support_link: https://discuss.96boards.org/c/products/mezzanine
 tab_menu:
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/uartserial/
-      tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
+  - tab_title: UART Serial
+    tab_link: /product/uartserial/
+    active: true
+  - tab_title: Documentation
+    tab_link: /documentation/mezzanine/uartserial/
+  - tab_title: Support
+    tab_link: https://discuss.96boards.org/c/products/mezzanine
+    tab_align_right: true
 featured_product_order: 9
 is_featured: true
 product_specification: "mezzanine"

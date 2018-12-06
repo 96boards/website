@@ -27,6 +27,9 @@ product_images:
   - ultra96-angle10-sd.png
   - ultra96-angle11-sd.png
 tab_menu:
+    - tab_title: Ultra96
+      tab_link: /product/ultra96/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/ultra96/getting-started/
       tab_position: 1

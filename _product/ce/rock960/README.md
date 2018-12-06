@@ -15,6 +15,9 @@ product_images:
   - rock960-front-sd.png
   - rock960-back-sd.png
 tab_menu:
+    - tab_title: Rock960 (Vamrs)
+      tab_link: /product/rock960/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
       tab_position: 1

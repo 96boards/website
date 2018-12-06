@@ -16,6 +16,9 @@ product_images:
   - wistrio-antenna-sd-front.png
   - wistrio-antenna-sd-back.png
 tab_menu:
+  - tab_title: WisTrio
+    tab_link: /product/wistrio/
+    active: true
   - tab_title: Getting Started
     tab_link: /documentation/iot/wistrio/getting-started/
     tab_position: 1

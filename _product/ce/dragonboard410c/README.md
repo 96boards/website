@@ -17,6 +17,9 @@ product_images:
   - DragonBoard-UpdatedImages-back.png
 # Sub Tab Menu Items
 tab_menu:
+    - tab_title: DragonBoard™ 410c (Arrow)
+      tab_link: /product/dragonboard410c/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
       tab_position: 1

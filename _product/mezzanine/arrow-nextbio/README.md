@@ -8,6 +8,9 @@ description: |-
 title: NextBio Mezzanine (Arrow)
 display_product: true
 tab_menu:
+  - tab_title: NextBio Mezzanine (Arrow)
+    tab_link: /product/arrow-nextbio/
+    active: true
   - tab_title: Documentation
     tab_link: /documentation/mezzanine/arrow-nextbio/
     tab_position: 1

@@ -64,7 +64,9 @@ whats-in-the-box:
     - 16 GB microSD card
     - SDSoC license voucher
     - Quick start card
-buy-now: https://linaro.co/ultra96-buy
+buy-now: 
+    title: Buy Now
+    url: https://linaro.co/ultra96-buy
 footer-image: sophon-back-sd.png
 ---
 Content goes here
