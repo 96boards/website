@@ -14,49 +14,119 @@ seo:
         </div>
     </div>
     <!-- AI HERO Banner --->
-    {% assign header-image-url =  %}
-    <div class="row">
-        <div class="container">
+    {% capture header-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.header-image}}{% endcapture %}
+    {% capture footer-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.footer-image}}{% endcapture %}
+    <div class="row padded-row-30 ai-header" style="background-image:url(/assets/images/content/ai-bg.png);">
+        <div class="container text-center">
             <div class="col-xs-12 header-image">
                 <img class="img-responsive lazyload" alt="{{page.title}} header image" 
-                data-src="../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.header-image}}" 
+                data-src="{{header-image-url}}" 
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
             </div>
-            <div class="col-xs-12 header-title">
-                <h1>{{page.title}}</h1>
-            </div>
             <a href="{{page.buy-now.url}}" class="btn btn-buy">
-                {{page.buy-now.text}}
+                {{page.buy-now.title}}
             </a>
         </div>
     </div>
-    <!-- AI Verticals --->
-    <div class="row call-to-action">
-        <div class="container text-center">
-           {{page.call-to-action}}
+    {% if page.call-to-action %}
+        <!-- AI Verticals --->
+        <div class="row call-to-action">
+            <div class="container text-center">
+            {{page.call-to-action}}
+            </div>
         </div>
-    </div>
-    <!-- AI Verticals --->
-    <div class="row">
-        <div class="container">
-            {% for vertical in page.verticals %}
-                <div class="col-xs-12 col-sm-4 primary-vertical">
-                    <div class="primary-vertical">
-                        <h3>{{vertical.title}}</h3>
-                        {% if vertical.description %}
-                            <p>
-                                {{vertical.description}}
-                            </p>
-                        {% elsif vertical.list %}
-                            <ul>
-                                {% for item in vertical.list %}
-                                    <li>{{item}}</li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
+    {% endif %}
+    {% if page.verticals %}
+        <!-- AI Verticals --->
+        <div class="row verticals">
+            <div class="container">
+                {% for vertical in page.verticals %}
+                    <div class="col-xs-12 col-sm-4 vertical-col text-center-mob">
+                        <div class="vertical-block">
+                            <h3>{{vertical.title}}</h3>
+                            {% if vertical.description %}
+                                <p>
+                                    {{vertical.description}}
+                                </p>
+                            {% elsif vertical.list %}
+                                <ul>
+                                    {% for item in vertical.list %}
+                                        <li>{{item}}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
                     </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    {% if page.secondary-verticals %}
+        <!-- AI Verticals --->
+        <div class="row secondary-verticals">
+            <div class="container">
+                {% for vertical in page.secondary-verticals %}
+                    <div class="col-xs-12 col-sm-4 vertical-col">
+                        <div class="vertical-block">
+                            <h3>{{vertical.title}}</h3>
+                            {% if vertical.description %}
+                                <p>
+                                    {{vertical.description}}
+                                </p>
+                            {% elsif vertical.list %}
+                                <ul>
+                                    {% for item in vertical.list %}
+                                        <li>{{item}}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    <!-- AI Verticals --->
+    <div class="row padded-row-30 ai-footer">
+        <div class="container">
+           <div class="col-sm-6 board-footer-image">
+                <img class="img-responsive lazyload" alt="{{page.title}} footer image" 
+                data-src="{{footer-image-url}}" 
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+           </div>
+           <div class="col-sm-6 board-footer-text text-center-mob">
+               {% if page.documentation %}
+                    <h3>Documentation</h3>
+                    <ul>
+                        {% for link in page.documentation %}
+                            <a href="{{link.url}}">
+                                <li>{{link.title}}</li>   
+                            </a>
+                        {% endfor %}
+                    </ul>
+               {% endif %}
+               {% if page.demos %}
+                    <h3>Demos</h3>
+                    <ul>
+                        {% for demo in page.demos %}
+                            <a href="{{demo.url}}">
+                                <li>{{demo.title}}</li>   
+                            </a>
+                        {% endfor %}
+                    </ul>
+               {% endif %}
+               {% if page.whats-in-the-box %}
+                    <h3>What's in the box?</h3>
+                    <ul>
+                        {% for item in page.whats-in-the-box %}
+                            <li>{{item}}</li>   
+                        {% endfor %}
+                    </ul>
+               {% endif %}
+               <a href="{{page.buy-now.url}}" class="btn btn-buy">
+                    {{page.buy-now.title}}
+                </a>
+           </div>
         </div>
     </div>
 </div>
