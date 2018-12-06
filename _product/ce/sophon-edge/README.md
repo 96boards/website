@@ -19,8 +19,6 @@ tab_menu:
     - tab_title: Sophon Edge
       tab_link: /product/sophon-edge/
       active: true
-    - tab_title: AI
-      tab_link: /product/sophon-edge/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
     - tab_title: Documentation
