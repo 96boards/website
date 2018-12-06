@@ -37,6 +37,13 @@ product_buy_links:
     type: board
     link-price: "79.90"
     link-price-currency: USD
+  -
+    link-title: Parrot
+    link-url: https://detail.1688.com/offer/582769678586.html?spm=a26286.8292837.0.0.491d749fGHTC2N
+    from: Detail
+    type: board
+    link-price: "555.99"
+    link-price-currency: RMB
 product_os:
   - title: Linux
     link: /documentation/consumer/parrot/downloads/
