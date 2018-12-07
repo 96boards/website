@@ -82,11 +82,11 @@ The Oxalis meets these challenges head on and provides a high performance IoT ga
 |  CPU                 |   Cortex-A53                                                                                     |
 |  RAM                 |   1GByte                                                                                         |
 |  PMU                 |   NXP VR5100                                                                                     |
-|  Storage             |   16MByte SPI Flash for bootloader and RCW and MicroSD Card slot                                 |
+|  Storage             |   64MByte SPI Flash for bootloader and RCW + MicroSD Card slot + SATA                            |
 |  Ethernet Port       |   2x 10/100/1000                                                                                 |
 |  USB                 |   2x USB 3.0                                                                                     |
 |  Expansion Interface |   40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12 |
-|  Button              |   Power/Reset                                                                                    |
-|  Power Source        |   12V@TBD, 2.5mm center pin 8A DC jack connector, CUI Inc PJ-063BH or equivalent                 |
+|  Button              |   Reset                                                                                          |
+|  Power Source        |   12V@2.5A, 2.5mm center pin 8A DC jack connector, CUI Inc PJ-063BH or equivalent                |
 |  OS Support          |   Debian GNU Linux                                                                               |
 |  Size                |   160x120mm                                                                                      |
