@@ -15,22 +15,29 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODExMDhUMTcwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODExMjlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
+**This week, TRONBet takes over OpenHours!** On November 29th at 4:00p UTC, we will be joined by a lead developer of [TronBet](https://www.tronbet.com/#/), a community owned and decentralized gaming "dApp" running on the [Tron network](https://tron.network/) which uses smart contracts to ensure each and every aspect of the platform remains trustless. [The TronBet site](https://www.tronbet.io/#/) was launched a little over a month ago and has already seen over 10,000,000 transactions with 5BN+ in TRX winnings. Since its launch, the TronBet developer team has made huge efforts to improve their UI and UX while taking community input very seriously. 
 
-**This week**, we will be meeting with W. GORDON KRUBERG, M.D. - PRESIDENT AND CEO of [Gumstix](https://www.gumstix.com/) to talk about [Geppetto](https://geppetto.gumstix.com/) and a new board builder feature, soon to be available! Keep reading to find out more about Gordon and Gumstix as well as what we will be talking about in the show. Tune in at the end of the countdown for your front row seat to all the action! See you then!
+During this one hour special, we will get to know TronBet's lead developer on a personal and professional level, and we will discuss the plethora of technologies that goes into creating such an amazing platform within the Tron ecosystem. Our featured guest will also be taking questions on the following topics:
 
-Gordon Kruberg has been President and CEO since founding the company in October 2003. Over the course of his career, Dr. Kruberg has been involved in over thirty US-based companies as a venture investor, member of the board of directors or executive team (including Chairman, CEO, or President.)
+- General Q's about TronBet
+- The ANTE Token
+- TronBet's Roadmap
+- Upcoming games
+- Developing on Tron's Network
+- Smart Contracts
+- Decentralized Exchanges
+- And more...
 
-Immediately prior to founding Gumstix, Gordon was CEO of Deersoft, acquired by Network Associates in December 2002. His background includes seven years with Grace Horn Ventures, managing investments in software, biotechnology and medical high-technology startups.
+So if you are new to Tron and TronBet, or a seasoned veteran working your way up the leaderboard, we welcome you to join and participate in this event! Set your reminders, grab some coffee, tea or beer, and join us for a great discussion on Tron and TronBet!
 
-Gordon holds an A.B. degree in Human Biology, a M.S. degree in Industrial Engineering from Stanford University and an M.D. degree from Northwestern University.
-
-BOARD BUILDER OVERVIEW: Since 2003, over 20,000 engineers, makers, and innovators have used Gumstix to prototype, visualize, and see their ideas come to life. Now Gumstix is revolutionizing EDA. Welcome to Board Builder, the future of device design.
-Board Builder is now the fastest and easiest way to prototype available anywhere. Just choose and select your technical requirements from the checklist and Board Builder builds the design, complete with 3D preview for your review.
+- [TronBet Website](https://www.tronbet.com/#/)
+- [TronBet io Website](https://www.tronbet.io/#/)
+   - [Robert's referral (if you are new :-))](https://www.tronbet.io/?r=sdreferral)
+- [TronBet Telegram Group](http://t.me/tronbetio)
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
@@ -59,6 +66,7 @@ The 96Boards Team
 </div>
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
+
 ### When
 
 Every Thursday at 4pm UTC

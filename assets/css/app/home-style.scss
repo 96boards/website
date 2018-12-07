@@ -25,7 +25,7 @@
     height: 3em;
     
 }
-#content-container #latest-blogs p {
+#wrapper #latest-blogs p {
     font-size: 10px;
 }
 #buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five {
@@ -79,18 +79,17 @@ span.date {
     border-top: 1px solid #eee;
     height: 70px;
 }
-
 .col-sm-3.blog-post {
     overflow: hidden;
     border: 1px solid #eee;
 }
 @media(max-width:$screen-xs-min){
     h2#featured-boards {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 @media(max-width:$screen-sm-min){
-    #content-container .blog-post p {
+    #wrapper .blog-post p {
         font-size: 10px;
     }
     #jumbotron-caption span.linaro-green {
@@ -178,7 +177,7 @@ div#latest-blogs-row {
 #latest-blogs-row .owl-dots {
     margin-top: 35px;
 }
-#content-container a.explore-btn {
+#wrapper a.explore-btn {
     border: 1px solid #000;
     border-radius: 20px;
     height:20px;
@@ -207,7 +206,7 @@ div#latest-blogs-row {
     background-repeat: no-repeat;
     background-position: center center;
 }
-#content-container a.explore-btn:hover {
+#wrapper a.explore-btn:hover {
     color: #fff;
     background-color: #000;
 }
@@ -479,7 +478,7 @@ div#projects-row {
 }
 
 // CSS for content on top of carousel
-div#content-container {
+div#homepage-header {
     z-index: 99999;
     position: relative;
     margin-top: -40px;
@@ -521,5 +520,36 @@ div#featured-jumbotron {
 @media (max-width: $screen-sm-min){
     #homepage-heading {
         font-size: 32px;
+    }
+}
+#wrapper h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#wrapper .blog-post .title p {
+    font-size: 11px;
+}
+#wrapper .blog-post .title a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+#wrapper .blog-carousel a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+#wrapper .blog-carousel p {
+    font-size: 11px;
+}
+#wrapper .blog-carousel a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+// Add to theme when rolling over to v3
+.padded-row-30 {
+    padding: 30px 0;
+}
+@media(max-width: $screen-sm-min - 1){
+    .text-center-mob {
+        text-align:center !important;
     }
 }

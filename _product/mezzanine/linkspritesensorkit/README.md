@@ -8,7 +8,7 @@ description: |-
     96Boards.
 display_product: true
 product_specification: "mezzanine"
-product_tab_menu:
+tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/mezzanine
       tab_position: 2
@@ -24,6 +24,17 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
+tab_menu:
+  - tab_title: Link Sprite
+    tab_link: /product/linkspritesensorkit/
+    active: true
+  - tab_title: Documentation
+    tab_link: /documentation/mezzanine/linkspritesensorkit/
+    tab_position: 1
+  - tab_title: Support
+    tab_link: https://discuss.96boards.org/c/products/mezzanine
+    tab_position: 2
+    tab_align_right: true
 product: true
 ---
 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make
