@@ -5,9 +5,7 @@ css-package: products
 seo:
     type: Product
 ---
-{% include breadcrumb.html %}
-
-<div class="container-fluid" id="content-container">
+<div class="container-fluid ai-page" id="content-container">
     <div class="row tab-bar">
         <div class="container no-padding">
             {% include 96boards-tab-bar.html %}
@@ -18,6 +16,7 @@ seo:
     {% capture footer-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.footer-image}}{% endcapture %}
     <div class="row padded-row-30 ai-header" style="background-image:url(/assets/images/content/ai-bg.png);">
         <div class="container text-center">
+            <h1>{{page.title}}</h1>
             <div class="col-xs-12 header-image">
                 <img class="img-responsive lazyload" alt="{{page.title}} header image" 
                 data-src="{{header-image-url}}" 
@@ -42,7 +41,7 @@ seo:
             <div class="container">
                 {% for vertical in page.verticals %}
                     <div class="col-xs-12 col-sm-4 vertical-col text-center-mob">
-                        <div class="vertical-block">
+                        <div class="vertical-block text-center-mob">
                             <h3>{{vertical.title}}</h3>
                             {% if vertical.description %}
                                 <p>
@@ -51,7 +50,13 @@ seo:
                             {% elsif vertical.list %}
                                 <ul>
                                     {% for item in vertical.list %}
-                                        <li>{{item}}</li>
+                                        {% if item.url %}
+                                            <a href="{{item.url}}">
+                                               <li>{{item.title}}</li> 
+                                            </a>
+                                        {% else %}
+                                            <li>{{item.title}}</li>
+                                        {% endif %}
                                     {% endfor %}
                                 </ul>
                             {% endif %}
@@ -76,7 +81,13 @@ seo:
                             {% elsif vertical.list %}
                                 <ul>
                                     {% for item in vertical.list %}
-                                        <li>{{item}}</li>
+                                        {% if item.url %}
+                                            <a href="{{item.url}}">
+                                               <li>{{item.title}}</li> 
+                                            </a>
+                                        {% else %}
+                                            <li>{{item.title}}</li>
+                                        {% endif %}
                                     {% endfor %}
                                 </ul>
                             {% endif %}
