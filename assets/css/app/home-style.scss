@@ -544,12 +544,3 @@ div#featured-jumbotron {
     text-decoration: none !important;
     color: black;
 }
-// Add to theme when rolling over to v3
-.padded-row-30 {
-    padding: 30px 0;
-}
-@media(max-width: $screen-sm-min - 1){
-    .text-center-mob {
-        text-align:center !important;
-    }
-}
