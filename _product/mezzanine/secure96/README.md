@@ -16,7 +16,7 @@ tab_menu:
     tab_link: /product/secure96/
     active: true
   - tab_title: Documentation
-    tab_link: /documentation/mezzanine/neonsecure96key/
+    tab_link: /documentation/mezzanine/secure96/
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
