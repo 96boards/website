@@ -13,7 +13,10 @@ is_featured: true
 product_images:
   - developerbox-front-sd.png
   - developerbox-back-sd.png
-product_tab_menu:
+tab_menu:
+    - tab_title: Developerbox (Socionext)
+      tab_link: /product/developerbox/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/enterprise/developerbox/getting-started/
       tab_position: 1

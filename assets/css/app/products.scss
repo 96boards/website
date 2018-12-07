@@ -89,7 +89,7 @@ $background_color_6: #333333;
 	button.btn-buy {
 		width: 40%;
 		height: 42px;
-		border-radius: 0 20px 20px 0;
+		border-radius: 0 2px 2px 0;
 		transition: all .5s ease;
 		&:hover {
 			background-color: $background_color_2;
@@ -112,7 +112,8 @@ $background_color_6: #333333;
 }
 .product-short-description {
 	min-height: 105px;
-	height: auto;
+    height: auto;
+    text-align: center;
 	font-size: 12px;
 	font-style: italic;
 	line-height: 18px;
@@ -225,8 +226,9 @@ $background_color_6: #333333;
 	}
 }
 a.btn.btn-primary.btn-read-more {
-	border-bottom-left-radius: 20px;
-	border-top-left-radius: 20px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-color: #c4c4c4;
 }
 span.buy-price {
 	background-color: $background_color_5;
@@ -252,13 +254,12 @@ span.buy-price {
 		margin-top: 5px;
 	}
 }
-div#product-filters {
-	background-color: $background_color_6;
-	padding: 10px;
-	border-radius: 3px;
-	border: 1px solid #000;
-	width: 408px;
+#product-filters button.btn.btn-default.dropdown-toggle {
+    background-color: #f5f5f5;
+    color: #333333;
+    border-color: #c5c5c5;
 }
+
 @media(max-width:$screen-sm-min){
     .product-short-description {
         min-height: 0px;
@@ -274,20 +275,18 @@ div#product-filters {
         width: 100%;
     }
 }
-
 #product-filters h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 12px;
     color: #8c8c8c;
 }
-
 div#product-filters {
-    background-color: #333333;
+    background-color: transparent;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #000;
-    width: 408px;
+    border: none;
+	width: 408px;
 }
 select.form-control.filter-select {
 	display: inline-block;
@@ -324,4 +323,73 @@ img.filter-thumbnail {
 
 #product-filters .btn-group {
     margin-top: 0px;
+}
+// AI Layout
+.call-to-action{
+    background-color: $brand-primary;
+    padding: 40px 0;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+}
+.header-image img.img-responsive {
+    height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+a.btn.btn-buy {
+    background-color: white;
+    border: 2px solid #000;
+    border-color: #c4c4c4;
+    border-radius: 0px;
+    color: black;
+    margin: 20px 0;
+}
+button.btn.btn-primary.dropdown-toggle.btn-buy {
+    border-color: #c3c3c3;
+}
+a.btn.btn-buy:hover {
+    background-color: black;
+    color: white !important;
+}
+.row.ai-footer {
+    background-color: $brand-primary;
+}
+#wrapper .ai-footer h3 {
+    color: white;
+}
+#wrapper .ai-page ul {
+    padding-left: 0px;
+}
+#wrapper .ai-page ul li {
+    color: white;
+    list-style:none;
+}
+#wrapper .ai-page ul a:hover li {
+    color: black;
+    list-style:none;
+}
+
+// Add to theme when rolling over to v3
+.padded-row-30 {
+    padding: 30px 0;
+}
+@media(max-width: $screen-sm-min - 1){
+    .text-center-mob {
+        text-align:center !important;
+    }
+}
+ul.dropdown-menu.buy-dropup-menu li:last-child a {
+    border-bottom: 0px;
+}
+#wrapper .ai-header h1 {
+    color: white;
+    font-size: 56px;
+    margin: 30px 0;
+}
+#wrapper .vertical-block ul li {
+    color: black;
+}
+#wrapper .vertical-block ul a li {
+    color: $brand-primary;
 }
