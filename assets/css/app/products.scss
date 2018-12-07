@@ -358,14 +358,14 @@ a.btn.btn-buy:hover {
 #wrapper .ai-footer h3 {
     color: white;
 }
-#wrapper .ai-footer ul {
+#wrapper .ai-page ul {
     padding-left: 0px;
 }
-#wrapper .ai-footer ul li {
+#wrapper .ai-page ul li {
     color: white;
     list-style:none;
 }
-#wrapper .ai-footer ul a:hover li {
+#wrapper .ai-page ul a:hover li {
     color: black;
     list-style:none;
 }
@@ -381,4 +381,15 @@ a.btn.btn-buy:hover {
 }
 ul.dropdown-menu.buy-dropup-menu li:last-child a {
     border-bottom: 0px;
+}
+#wrapper .ai-header h1 {
+    color: white;
+    font-size: 56px;
+    margin: 30px 0;
+}
+#wrapper .vertical-block ul li {
+    color: black;
+}
+#wrapper .vertical-block ul a li {
+    color: $brand-primary;
 }
