@@ -121,6 +121,6 @@ disqus:
     shortname: 96boards
 
 # Placeholder for Missing Images
-placeholder: placeholder.png
+placeholder: /assets/images/placeholder.png
 
 
