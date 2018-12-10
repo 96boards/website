@@ -519,7 +519,7 @@ div#featured-jumbotron {
 }
 @media (max-width: $screen-sm-min){
     #homepage-heading {
-        font-size: 32px;
+        font-size: 32px !important;
     }
 }
 #wrapper h2 {
