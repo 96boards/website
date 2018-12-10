@@ -15,7 +15,7 @@ theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
   - jekyll-readme-index
-  
+blog_images_dir: assets/images/blog/
 # Permalink for the blog posts of the Jekyll website.
 permalink: /blog/:title/
 
