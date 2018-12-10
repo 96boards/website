@@ -8,4 +8,5 @@
 //= require app/main
 //= require app/sticky-tab-bar
 //= require app/tables
+//= requrie app/search
 //= require app/custom
