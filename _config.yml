@@ -11,7 +11,10 @@ destination: _site
 
 # Include the Linaro Jekyll Theme
 theme: jumbo-jekyll-theme
-
+#jekyll_get:
+#  - data: linaro_news
+#    json: 'https://www.linaro.org/assets/json/news.json'
+#    cache: true
 plugins:
   - jekyll-data
   - jekyll-readme-index
