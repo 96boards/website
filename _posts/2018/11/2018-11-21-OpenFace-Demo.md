@@ -5,12 +5,9 @@ date: 2018-11-21 01:01:54+00:00
 image:
     featured: true
     path: /assets/images/blog/Pic1-OpenFace-Demo.png
-    name: Pic1-OpenFace-Demo.png
-    thumb: Pic1-OpenFace-Demo.png
 categories: blog
 tags: 96Boards, AI, FacialRecognition, OpenFace, Tensorflow, OpenCV, Demo
 ---
-
 # OpenFace Demo
 
 For this demo you will need:
