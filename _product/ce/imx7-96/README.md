@@ -30,7 +30,7 @@ tab_menu:
 product_buy_links:
   -
     link-title: IMX7 96 BOARD
-    link-url: "http://linaro.co/imx7-96-buy"
+    link-url: "https://www.arrow.com/en/products/imx7-96-board/novtech-inc"
     from: Arrow.com
     type: board
     link-price: "$109.00"
