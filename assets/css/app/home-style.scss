@@ -382,6 +382,7 @@ div#projects-row {
     -moz-clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
     clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
     padding-top:30px;
+    overflow: auto;
 }
 @media(max-width:$screen-xs-min){ 
     div#projects-row {
@@ -455,4 +456,13 @@ nav#main-navigation {
 #wrapper .blog-carousel a:hover {
     text-decoration: none !important;
     color: black;
+}
+span.line-one {
+    display: block;
+    color: #ffdf84;
+}
+
+span.line-two {
+    display: block;
+    color: #ffdf84;
 }
