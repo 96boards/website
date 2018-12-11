@@ -1,10 +1,6 @@
 search:
     enabled: true
     label: 96Boards
-<<<<<<< HEAD
-=======
-
->>>>>>> 993338dc490b9e29c94346c863bc6622bb90ae84
 universal-nav: true
 brand:
     text: 96Boards
