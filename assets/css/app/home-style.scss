@@ -348,13 +348,23 @@ div#projects-row .home-page-project-image {
     background-size: cover;
     background-position: center center;
     padding: 0;
+    overflow: hidden;
+}
+.home-page-project-image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 div#projects-row .home-page-project-image .overlay {
     height: 100%;
     width: 100%;
-    opacity: 1;
-    
+    background-color: black;
+    position: absolute;
+    z-index: 999999;
+    opacity: .7;
+    top: 0px;
     transition: all 300ms ease;
+    left: 0px;
 }
 div#projects-row .home-page-project-image:hover > .overlay{
     opacity: 0.3;
