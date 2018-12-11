@@ -4,5 +4,5 @@ class="img-responsive lazyload"> -->
     {% for i in resized %}
         <source media="(min-width: {{ i.width }}px)" data-srcset="/{{ i.path }}">
     {% endfor %}
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/{{ path }}" class="center-block img-responsive lazyload">
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ fullpath }}" class="{{class}} center-block img-responsive lazyload">
 </picture>
