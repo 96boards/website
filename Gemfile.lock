@@ -78,7 +78,7 @@ GEM
       jekyll
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jumbo-jekyll-theme (3.0.54)
+    jumbo-jekyll-theme (3.0.55)
       autoprefixer-rails (~> 9.0, >= 9.0.0)
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
@@ -133,7 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 3.0.54)
+  jumbo-jekyll-theme (= 3.0.55)
 
 BUNDLED WITH
    1.17.1
