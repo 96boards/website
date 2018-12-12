@@ -2,7 +2,6 @@
 layout: jumbotron
 title: Contact
 permalink: /contact/
-css-package: contact
 ---
 <div class="row">
     <div id="contact-thanks">
@@ -11,8 +10,7 @@ css-package: contact
         </div>
     </div>
 </div>
-</div>
-<div class="row"  id="content-container">
+<div class="row" id="content-container">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
