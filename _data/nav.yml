@@ -1,19 +1,13 @@
-# Navbar Configuration
-# - Add your navigation structure to this File
-# - Toggle brand image output
-# - Toggle Search Bar.
-# Search Config
 search:
     enabled: true
     label: 96Boards
-    
 universal-nav: true
-
 brand:
     text: 96Boards
-    image: 
+    image:
         enabled: true
-        name: logo.svg
+        svg: true
+        name: logo.html
     url: /
 pages:
     - title: About
@@ -52,8 +46,16 @@ pages:
             url: /projects/faq.md/
           - text: Submit a Project
             url: /projects/submit/
+    - title: Initiatives
+      options:
           - text: OpenHours
             url: /openhours/
+          - text: Mezzanine Community
+            url: /go/mezzanine-community/
+          - text: Women in STEM
+            url: /go/wistem-2018/
+          - text: 96Boards Pinout
+            url: /pinout/
     - title: Documentation
       options:
           - text: All Documentation

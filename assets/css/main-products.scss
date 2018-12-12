@@ -1,22 +1,12 @@
 ---
 ---
-//Bootstrap Overrides
+// Bootstrap Overrides
 @import "app/overrides";
-
-//Boostrap Includes
+// Bootstrap3 Includes
 @import 'bootstrap';
 @import 'bootstrap/variables';
-
-// Linaro Jekyll Theme Includes
-
+// Core Includes
 @import 'core';
-@import 'core/carousel-styles';
-@import "vendor/featherlight";
-
-// Include the home sass partials
-
 // App Includes
-// Page specific styling
-// @import "app/home";
 @import "app/custom";
 @import "app/products";

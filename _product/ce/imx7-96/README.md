@@ -13,7 +13,10 @@ product_specification: ce
 product_images:
   - iMX7-96-front.jpg
   - iMX7-96-back.jpg
-product_tab_menu:
+tab_menu:
+    - tab_title: iMX7-96 Development Board
+      tab_link: /product/imx7-96/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/imx7-96/getting-started/
       tab_position: 1
@@ -27,7 +30,7 @@ product_tab_menu:
 product_buy_links:
   -
     link-title: IMX7 96 BOARD
-    link-url: "http://linaro.co/imx7-96-buy"
+    link-url: "https://www.arrow.com/en/products/imx7-96-board/novtech-inc"
     from: Arrow.com
     type: board
     link-price: "$109.00"

@@ -12,7 +12,10 @@ description: |-
     and 1080p HD video playback and capture with H.264 (AVC).
 keywords: |-
     Build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos, geniatech
-product_tab_menu:
+tab_menu:
+    - tab_title: 4IoT - Geniatech
+      tab_link: /product/4iot/
+      active: true
     - tab_title: Documentation
       tab_link: /documentation/iot/4iot/
       tab_position: 1

@@ -6,9 +6,6 @@ members:
           - name: Advantech
             image: advantech.jpg
             url: https://www.linaro.org/company/advantech/
-          - name: Archer Mind
-            image: archermind.jpg
-            url: https://www.linaro.org/company/archermind/
           - name: Arm
             image: arm.jpg
             url: https://www.linaro.org/company/arm/
@@ -19,6 +16,10 @@ members:
             image: adi.png
             padded: padded-member-md
             url: https://www.linaro.org/company/analog-devices/
+          - name: Bitmain
+            image: bitmain_logo.png
+            padded: padded-member-md
+            url: https://www.linaro.org/company/bitmain/
           - name: Google
             image: google.png
             url: https://www.linaro.org/company/google/
@@ -86,6 +87,7 @@ members:
           url: https://www.linaro.org/company/bipai/
         - name: Deltavision
           image: deltavision.png
+          url: https://www.linaro.org/company/deltavision/
         - name: Element 14
           image: element14.png
           url: https://www.linaro.org/company/element14/

@@ -25,7 +25,7 @@
     height: 3em;
     
 }
-#content-container #latest-blogs p {
+#wrapper #latest-blogs p {
     font-size: 10px;
 }
 #buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five {
@@ -79,18 +79,17 @@ span.date {
     border-top: 1px solid #eee;
     height: 70px;
 }
-
 .col-sm-3.blog-post {
     overflow: hidden;
     border: 1px solid #eee;
 }
 @media(max-width:$screen-xs-min){
     h2#featured-boards {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 @media(max-width:$screen-sm-min){
-    #content-container .blog-post p {
+    #wrapper .blog-post p {
         font-size: 10px;
     }
     #jumbotron-caption span.linaro-green {
@@ -178,7 +177,7 @@ div#latest-blogs-row {
 #latest-blogs-row .owl-dots {
     margin-top: 35px;
 }
-#content-container a.explore-btn {
+#wrapper a.explore-btn {
     border: 1px solid #000;
     border-radius: 20px;
     height:20px;
@@ -195,6 +194,7 @@ div#latest-blogs-row {
 #homeBlogCarousel .blog-featured-image-home {
     width: 100%;
     height: 250px;
+    object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -203,11 +203,12 @@ div#latest-blogs-row {
 #latest-blogs .blog-featured-image-home {
     width: 100%;
     height: 250px;
+    object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-#content-container a.explore-btn:hover {
+#wrapper a.explore-btn:hover {
     color: #fff;
     background-color: #000;
 }
@@ -349,13 +350,23 @@ div#projects-row .home-page-project-image {
     background-size: cover;
     background-position: center center;
     padding: 0;
+    overflow: hidden;
+}
+.home-page-project-image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 div#projects-row .home-page-project-image .overlay {
     height: 100%;
     width: 100%;
-    opacity: 1;
-    
+    background-color: black;
+    position: absolute;
+    z-index: 999999;
+    opacity: .7;
+    top: 0px;
     transition: all 300ms ease;
+    left: 0px;
 }
 div#projects-row .home-page-project-image:hover > .overlay{
     opacity: 0.3;
@@ -383,6 +394,7 @@ div#projects-row {
     -moz-clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
     clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 5%);
     padding-top:30px;
+    overflow: auto;
 }
 @media(max-width:$screen-xs-min){ 
     div#projects-row {
@@ -412,83 +424,6 @@ div#projects-row {
     overflow: hidden;
     z-index: -1;
 }
-
-// Full Width Slider
-.carousel-fade .carousel-inner .item {
-    opacity: 0;
-    transition-property: opacity;
-}
-.carousel-fade .carousel-inner .active {
-    opacity: 1;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-    left: 0;
-    opacity: 0;
-    z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-    opacity: 1;
-}
-.carousel-fade .carousel-control {
-    z-index: 2;
-}
-@media all and (transform-3d),
-(-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-        opacity: 0;
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-        opacity: 0;
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-        opacity: 1;
-    }
-}
-.item:nth-child(1) {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.item:nth-child(2) {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.item:nth-child(3) {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.carousel .item {
-    position: fixed;
-    z-index: 99999;
-    width: 100%;
-    height: 100vh;
-}
-.item.active {
-    height: 100vh;
-}
-
-// CSS for content on top of carousel
-div#content-container {
-    z-index: 99999;
-    position: relative;
-    margin-top: -40px;
-}
-.carousel.slide.carousel-fade {
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-}
 h1.fly.center-block {
     color: white;
 }
@@ -503,23 +438,43 @@ nav#main-navigation {
     z-index: 9999;
     /* position: relative; */
 }
-div#homepage-header {
-    z-index: 0;
-    position: relative;
-    background: none;
-}
 .container-fluid.footer {
     z-index: 99999;
     position: relative;
 }
-div#featured-jumbotron {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 86px;
-    min-height: 320px;
-}
 @media (max-width: $screen-sm-min){
     #homepage-heading {
-        font-size: 32px;
+        font-size: 32px !important;
     }
+}
+#wrapper h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#wrapper .blog-post .title p {
+    font-size: 11px;
+}
+#wrapper .blog-post .title a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+#wrapper .blog-carousel a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+#wrapper .blog-carousel p {
+    font-size: 11px;
+}
+#wrapper .blog-carousel a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+span.line-one {
+    display: block;
+    color: #ffdf84;
+}
+
+span.line-two {
+    display: block;
+    color: #ffdf84;
 }

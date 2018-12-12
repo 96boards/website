@@ -9,7 +9,7 @@ The 96Boards website is built using the Jekyll static site generator. It is base
 *****
 
 ## Contributions
-We happy to consider any contributions/feature requests that you may submit so please submit a PR with your changes and we will take a look.
+We happy to consider any contributions/feature requests that you may have. Please submit a PR with your changes and we will take a look. You can also use the `Github Edit` buttons available on all the website pages to help locate the file you wish to edit/raise and issue about.
 
 *****
 
@@ -31,7 +31,7 @@ Static Jekyll web pages are placed in folders in the root of the website with ei
 
 The url for your page should be added to the front matter of your posts (section at the top of the file between --- containing yaml) as the `permalink`. This will ensure the url of your page is exactly as you intended it to be. See below for an example of the front matter to add to the web page. If in any doubt please duplicate a page that you would like yours to look like and modify the file from there.
 
-```
+```YAML
 ---
 # Layout of your web page - see below for available layouts.
 layout: container-breadcrumb-tabs
@@ -99,7 +99,6 @@ Modify the date to sometime before you post the blog otherwise Jekyll will see i
 This value is used for the featured image displayed on your blog post and the image that is used when sharing the blog post on social media sites.
 
 ```YAML
-
 image:
     featured: true
     path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
@@ -109,7 +108,6 @@ image:
 ```
 
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/96boards/website/tree/master/assets/images/blog).
-
 
 __Note:__ There is currently a bug with the version of `jekyll-assets` we are using which means the only acceptable image extensions are `.jpg` and `.png`. If you use `.jpeg` you image may not display as expected.
 
@@ -183,11 +181,133 @@ In order to add a product copy one of the products currently in the [_product fo
 
 We use the Jekyll front matter (YAML) values to help render your product on our Jekyll site. Please look at the other products README.md's for reference on how to structure the front matter (YAML).
 
+Below we will step through each front matter(yaml) setting and explain what each value is used for when building the static pages.
+
+```yaml
+---
+# Your Product title - this is the definitive product title.
+title: Sophon Edge
+# The layout to be used - below is the layout that you should use unless
+# you have been directed otherwise by one of the 96Boards team.
+layout: product-display-page
+# This is the url that your product will be available at. 
+# You should stick to the format /product/product-title
+# Please use dashes between words to keep the format consistent.
+permalink: /product/sophon-edge/
+# The description of your product is used for the web pages description meta tag
+# and on page content where a description of your product is need. To maximise the
+# effectiveness of your description please choose a powerful starting sentence.
+description: |-
+    The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
+# Keywords -  these are used for meta keywords and can be used when finding boards with a
+# particular feature
+keywords: |-
+    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
+# Product Short Description -  this is used on the product index page to provide a brief
+# overview of your product.
+product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
+# Product Specification - This is the 96Boards specification of your product and is used 
+# by Jekyll when collectin products of a certain specification. 
+# Please use either ee, ce, mezzanine or iot
+product_specification: ce
+# Display Product - this a boolean value that is used to determine if your product should be displayed.
+display_product: true
+# Product Images - These are the images of your board. The first image is the image that is featured on index pages/homepage.
+product_images:
+    - sophon-front-sd.png
+    - sophon-back-sd.png
+# Product Tab Menu - this is where you configure the tabs of the product tab bar.
+product_tab_menu:
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/sophon-edge/getting-started/
+      tab_position: 1
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/sophon-edge/
+      tab_position: 2
+      tab_position: 3
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/sophon-edge/
+      tab_position: 4
+      tab_align_right: true
+# Product buy links - these links let you customise the buy links available for your product.
+product_buy_links:
+  -
+    # Title of your buy link
+    link-title: Sophon Edge (US)
+    # URL of your buy link
+    link-url: https://sophon.ai/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
+    # The short version of the site which the users are purchasing your board from. E.g Buy from Sophon.ai
+    from: Sophon.ai
+    # The type of your product e.g board, mezzanine, adapter etc
+    type: board
+    # The price of your board
+    link-price: "$129.99"
+    # The official currency short code prepended to the product price.
+    link-price-currency: USD
+  -
+    link-title: Sophon Edge (CN)
+    link-url: https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html
+    from: Sophon.ai
+    type: board
+    link-price: "&#xa5;899.00"
+    link-price-currency: CNY
+# Product OS - This setting is used in the product-display-page layout to specify what operating systems are available for your board.
+product_os:
+  - title: Linux
+    link: /documentation/consumer/sophon-edge/downloads/
+# Third part images - This setting is used in the product-display-page to show what third party images there are available for your board. If you have no third party images then please omit.
+product_third_party_images:
+  - title: Coming Soon...
+    link:
+# Product more info - This setting is used in the product-display-page to link to any other sources for more information about this board e.g vendor site, vendor documentation.
+product_more_info:
+  - title: Sophon
+    link: https://sophon.ai/
+# Product accessories - shows the accessories that are available.
+product_accessories:
+  - title: Power
+    link: /product/power/
+  - title: Adapter
+    link: /product/adapter/
+  - title: Debug
+    link: /product/debug/
+  - title: Misc
+    link: /product/misc/
+# Product accessories - shows the mezzanine boards that can be used with your board.
+product_mezzanine:
+  - title: Link Sprite Sensor Kit
+    link: /product/linkspritesensorkit/
+  - title: UART Serial
+    link: /product/uartserial/
+  - title: Sensors Mezzanine
+    link: /product/sensors-mezzanine
+# Product kits - This allows you to add links to any kits that are available for your board.
+product_kits:
+  - title: Coming Soon...
+product: true
+---
+```
+
 ### Step 3 - Add product images
 
-Please add product images to the images/ sub folder inside the folder for your board. Make sure to optimize these images as best as possible to reduce the overhead on users when loading your product page.
+Please add product images to the images/ sub folder inside the folder for your board. Make sure to `optimize` these images as best as possible to reduce the overhead on users when loading your product page. The first image that you add to the front matter will be the one that is used on the homepage/product index pages. Therefore you should ensure that this image is optimized whilst also being a relatively high resolution so that your product is displayed correctly.
 
-__Please note:__ Due to the way product images are include, images should not include spaces in the filename otherwise they may not be rendered on the website as expected.
+Below you can see example of the product_images front matter value that you need to change to match your product images that you add to the images subfolder.
+
+```yaml
+---
+...
+product_images:
+    - sophon-front-sd.png
+    - sophon-back-sd.png
+...
+---
+
+```
+
+
+
+__Please note:__ Due to the way product images are include, images **should not include spaces** in the filename otherwise they may not be rendered on the website as expected.
 
 *****
 
@@ -208,6 +328,8 @@ __Note:__ These redirects are currently not respected by the link checker until 
 *****
 
 ## Building the static site
+
+    We are working towards creating a Dockerfile for building our static sites. In the mean time you can still clone the site and install bundler/jekyll gems and ruby to build the site locally.
 
 In order to build the 96Boards.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
 
@@ -230,26 +352,6 @@ $ bundle exec jekyll s
 ```
 
 This will serve (s) the Jekyll static website to the http://localhost:4000 where you can view the generated static website.
-
-
-*****
-
-## Adding Redirects to the Static site
-
-We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
-
-```
-^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
-!^/oldpath.*$ http://www.example.com [R=302,L,NC]
-^/topsecret.*$ [F,L]
-^/deadlink.*$ [G]
-^/foo$ /bar [H=^baz\.com$]
-```
-
-__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
-
-*****
-
 
 
 ## Issues 

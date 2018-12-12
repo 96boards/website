@@ -1,14 +1,15 @@
 //= require vendor/jquery
 //= require vendor/bootstrap
-//= require vendor/mc
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
+//= require vendor/ls.unveilhooks
 //= require vendor/owl.carousel
 
 //= require app/main
+//= require app/fly
 //= require app/sticky-tab-bar
 //= require app/home
 //= require app/home-custom
 //= require app/tables
 //= require app/custom
-//= require app/fly
+//= requrie app/search

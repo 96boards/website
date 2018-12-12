@@ -26,28 +26,36 @@ product_images:
   - ultra96-angle9-sd.png
   - ultra96-angle10-sd.png
   - ultra96-angle11-sd.png
-product_tab_menu:
+tab_menu:
+    - tab_title: Ultra96
+      tab_link: /product/ultra96/
+      active: true
+    - tab_title: AI
+      tab_link: /product/ultra96/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/ultra96/getting-started/
-      tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/consumer/ultra96/
-      tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/ultra96/
-      tab_position: 4
       tab_align_right: true
 product_getting_started: /documentation/consumer/ultra96/getting-started/
 product_documentation_link: /documentation/consumer/ultra96/
 product_buy_links:
   -
-    link-title: Ultra96 Developer Board
+    link-title: Ultra96 Developer Board (US)
     link-url: https://linaro.co/ultra96-buy
     from: Avnet.com
     type: board
     link-price: "$249.00"
     link-price-currency: USD
+  -
+    link-title: Ultra96 Developer Board (CN)
+    link-url: https://cn.element14.com/search?st=ultra96
+    from: element14.com
+    type: board
+    link-price: "2510.00"
+    link-price-currency: CNY
 product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet

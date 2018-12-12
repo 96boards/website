@@ -7,9 +7,6 @@ All 96Boards services partners are hand picked to address 96Boards specific need
 
 ***
 
-## Archermind
-- [Archermind Website](https://www.archermind.com/en/)
-
 ## Hoperun
 - [Hoperun Website](http://www.hoperun.com/en)
 

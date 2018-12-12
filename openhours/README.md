@@ -15,22 +15,11 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=cTc0M2EzbXV1NWhvM3J2b2E1MWI2dnFlNThfMjAxODExMDhUMTcwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODEyMDZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-Phase two, OpenHours has started - [Check out the pilot here!](https://youtu.be/QPijdGYpLoA)
-
-**This week**, we will be meeting with W. GORDON KRUBERG, M.D. - PRESIDENT AND CEO of [Gumstix](https://www.gumstix.com/) to talk about [Geppetto](https://geppetto.gumstix.com/) and a new board builder feature, soon to be available! Keep reading to find out more about Gordon and Gumstix as well as what we will be talking about in the show. Tune in at the end of the countdown for your front row seat to all the action! See you then!
-
-Gordon Kruberg has been President and CEO since founding the company in October 2003. Over the course of his career, Dr. Kruberg has been involved in over thirty US-based companies as a venture investor, member of the board of directors or executive team (including Chairman, CEO, or President.)
-
-Immediately prior to founding Gumstix, Gordon was CEO of Deersoft, acquired by Network Associates in December 2002. His background includes seven years with Grace Horn Ventures, managing investments in software, biotechnology and medical high-technology startups.
-
-Gordon holds an A.B. degree in Human Biology, a M.S. degree in Industrial Engineering from Stanford University and an M.D. degree from Northwestern University.
-
-BOARD BUILDER OVERVIEW: Since 2003, over 20,000 engineers, makers, and innovators have used Gumstix to prototype, visualize, and see their ideas come to life. Now Gumstix is revolutionizing EDA. Welcome to Board Builder, the future of device design.
-Board Builder is now the fastest and easiest way to prototype available anywhere. Just choose and select your technical requirements from the checklist and Board Builder builds the design, complete with 3D preview for your review.
+**This week**, we will be meeting with Kate aka [githugs](https://www.instagram.com/githugs/) from Instagram! Kate majored in art and bartended in the service industry for many years. During this time, she started teaching herself to code. Eventually she attended a bootcamp (Hack Reactor) and graduated from there in January 2018 (earlier this year)! Shortly after graduating, she got her first engineering job in New York, working and specializing in javascript, react and node. Bring your questions and coffee (or beer) and join us for an hour of fun conversation with the one and only [githugs](https://www.instagram.com/githugs/)!
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
@@ -59,6 +48,7 @@ The 96Boards Team
 </div>
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
+
 ### When
 
 Every Thursday at 4pm UTC

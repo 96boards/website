@@ -19,7 +19,7 @@ css-package: contact
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <a class="btn email" href="mailto:contact@linaro.org?subject=96Boards.org - {{page.url}}">
-                        Contact Us
+                        contact@linaro.org
                     </a>
                     <h3>Address</h3>
                     <address>

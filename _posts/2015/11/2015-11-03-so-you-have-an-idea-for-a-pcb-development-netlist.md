@@ -9,7 +9,7 @@ image:
     featured: true
     path: /assets/images/blog/pcb-idea-image.png
     name: pcb-idea-image.png
-title: So you have an idea for a PCB? - Development (Netlist)
+title: "So you have an idea for a PCB? - Development (Netlist)"
 wordpress_id: 8953
 categories:
 - blog

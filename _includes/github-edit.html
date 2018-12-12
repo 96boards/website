@@ -13,9 +13,7 @@
 {% endcapture %}    
 
 {% capture edit-me-link %}{{github-docs}}{{page-path | replace: "_documentation/", ""}}{% endcapture %}
-
-<div class="container-fluid github-edit">
-    <div class="row">
+    <div class="row content github-edit">
         <div class="container">
             <div class="edit-me-on-github text-center">
                 <div class="btn-group btn-group-xs" role="group" id="github_controls">
@@ -35,8 +33,6 @@
             </div>
         </div>
     </div>
-</div>
-
 {% else %}
 
 {% capture github-home %}{{site.data.settings.edit-on-github.repo}}{% endcapture %}
@@ -46,9 +42,7 @@
 {% endcapture %}    
 
 {% capture edit-me-link %}{{github-docs}}{{page-path}}{% endcapture %}
-
-<div class="container-fluid github-edit">
-    <div class="row">
+    <div class="row content github-edit">
         <div class="container">
             <div class="edit-me-on-github text-center">
                 <div class="btn-group btn-group-xs" role="group" id="github_controls">
@@ -68,6 +62,5 @@
             </div>
         </div>
     </div>
-</div>
 {% endif %}
 {% endif %}
