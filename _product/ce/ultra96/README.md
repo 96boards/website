@@ -42,12 +42,19 @@ product_getting_started: /documentation/consumer/ultra96/getting-started/
 product_documentation_link: /documentation/consumer/ultra96/
 product_buy_links:
   -
-    link-title: Ultra96 Developer Board
+    link-title: Ultra96 Developer Board (US)
     link-url: https://linaro.co/ultra96-buy
     from: Avnet.com
     type: board
     link-price: "$249.00"
     link-price-currency: USD
+  -
+    link-title: Ultra96 Developer Board (CN)
+    link-url: https://cn.element14.com/search?st=ultra96
+    from: element14.com
+    type: board
+    link-price: "2510.00"
+    link-price-currency: CNY
 product_more_info:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
