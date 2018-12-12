@@ -19,7 +19,7 @@ specification_image: 96Boards-Logo_Enterprise-small.png
             <div class="col-md-4">
                   <img id="collection-image" class="img-responsive center-block" src="{% asset_path '{{page.specification_image}}' %}" alt="96Boards logo small.">
                     <br />
-                  <a href="{{ page.specification_link }}" class="btn btn-primary center-block">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
+                  <a href="{{ page.specification_link }}" class="btn btn-primary center-block specification-image">Specification <i class="glyphicon glyphicon-file" aria-hidden="true"></i></a>
             </div>
 
         </div>
@@ -35,7 +35,7 @@ specification_image: 96Boards-Logo_Enterprise-small.png
                         <div class="photo">
                             <a href="{{product.permalink}}">
                                 {% capture image_path %}_product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
-                                {% capture full_path %}../product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
+                                {% capture full_path %}/product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
                                 {% responsive_image_block %}
                                 template: _includes/thumb.html
                                 path: {{ image_path }}
