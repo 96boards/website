@@ -19,7 +19,6 @@ layout: container-breadcrumb-tabs
         <a href="" class="list-group-item active">
             96Boards in the News
         </a>
-
         {% assign external-news = site.data.news.entries | where: "tag","external-news" %}
         {% for news in external-news %}
                     <a target="_blank" href="{{ news.link | capitalize }}" class="list-group-item">{{ news.title }}</a>
