@@ -1,17 +1,14 @@
 # Email address
 email: kyle.kirkby@linaro.org
-
 #OpenHours Setup
 openhours:
     hour: 16 # 4pm UTC
     day: 4 #Thursday -  0-6
-
 # Destination of the Jekyll site upon build of site.
 destination: _site
-
 # Include the Linaro Jekyll Theme
 theme: jumbo-jekyll-theme
-#jekyll_get:
+# jekyll_get:
 #  - data: linaro_news
 #    json: 'https://www.linaro.org/assets/json/news.json'
 #    cache: true
