@@ -3,9 +3,7 @@
 //= require vendor/cookieconsent
 //= require vendor/owl.carousel
 //= require vendor/lazysizes
-//= require vendor/ls.unveilhooks
 //= require vendor/featherlight
-//= require vendor/discourse-api
 //= require vendor/mixitup
 
 //= require app/main
