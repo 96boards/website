@@ -34,6 +34,11 @@ $background_color_6: #333333;
 .info {
 	margin-bottom: 5%;
 }
+.photo picture img {
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 180px;
+}
 #accessory-grid {
 	a.btn.btn-primary.btn-read-more {
 		border-top-right-radius: 20px;
