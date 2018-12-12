@@ -46,7 +46,7 @@ js-package: projects
                         <a href="{{each.permalink}}">
                             {% if each.thumbnail_image %}
                                 {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.thumbnail_image}}{% endcapture %}
-                                {% capture full_path %}../view/{{project-uri}}/images/{{each.thumbnail_image}}{% endcapture %}
+                                {% capture full_path %}/projects/view/{{project-uri}}/images/{{each.thumbnail_image}}{% endcapture %}
                                 {% responsive_image_block %}
                                 template: _includes/thumb.html
                                 path: {{ image_path }}
@@ -58,7 +58,7 @@ js-package: projects
                                 {% endresponsive_image_block %}
                             {% elsif each.image.thumb %}
                                 {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.image.thumb}}{% endcapture %}
-                                {% capture full_path %}../view/{{project-uri}}/images/{{each.image.thumb}}{% endcapture %}
+                                {% capture full_path %}/projects/view/{{project-uri}}/images/{{each.image.thumb}}{% endcapture %}
                                 {% responsive_image_block %}
                                 template: _includes/thumb.html
                                 path: {{ image_path }}
@@ -70,7 +70,7 @@ js-package: projects
                                 {% endresponsive_image_block %}
                             {% else %}
                                 {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
-                                {% capture full_path %}../view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
+                                {% capture full_path %}/projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
                                 {% responsive_image_block %}
                                 template: _includes/thumb.html
                                 path: {{ image_path }}
