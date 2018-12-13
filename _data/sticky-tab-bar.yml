@@ -109,3 +109,513 @@ pages:
       - title: Committee
         url: /committee/
     urls: [/governance/,/releases/,/committee/]
+    #
+    # Consumer Edition
+    #
+    # -------- Ultra 96 -----------
+  - list:
+      - title: Ultra96
+        url: /product/ultra96/
+      - title: AI
+        url: /product/ultra96/ai/
+      - title: Getting Started
+        url: /documentation/consumer/ultra96/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/ultra96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/ultra96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/ultra96/]
+    # -------- Sophon Edge -----------
+  - list:
+      - title: Ultra96
+        url: /product/sophon-edge/
+      - title: AI
+        url: /product/sophon-edge/ai/
+      - title: Getting Started
+        url: /documentation/consumer/sophon-edge/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/sophon-edge/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/sophon-edge/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/sophon-edge/]
+    # -------- Rock960 -----------
+  - list:
+      - title: Rock960
+        url: /product/rock960/
+      - title: AI
+        url: /product/rock960/ai/
+      - title: Getting Started
+        url: /documentation/consumer/rock960/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/rock960/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/rock960/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/ultra96/]
+    # -------- Parrot -----------
+  - list:
+      - title: Parrot
+        url: /product/ultra96/
+      - title: Getting Started
+        url: /documentation/consumer/ultra96/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/ultra96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/ultra96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/ultra96/]
+    # -------- mediatek-x20 -----------
+  - list:
+      - title: Mediatek X20
+        url: /product/mediatek-x20/
+      - title: Getting Started
+        url: /documentation/consumer/mediatek-x20/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/mediatek-x20/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mediatek-x20/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/ultra96/]
+    # -------- iMX7-96 -----------
+  - list:
+      - title: iMX7-96
+        url: /product/imx7-96/
+      - title: Getting Started
+        url: /documentation/consumer/imx7-96/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/imx7-96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/imx7-96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/imx7-96/]
+    # -------- HiKey970 -----------
+  - list:
+      - title: HiKey970
+        url: /product/hikey970/
+      - title: AI
+        url: /product/hikey970/ai/
+      - title: Getting Started
+        url: /documentation/consumer/hikey970/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/hikey970/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/hikey970/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/hikey/hikey970/]
+    # -------- HiKey 960 -----------
+  - list:
+      - title: HiKey 960
+        url: /product/hikey960/
+      - title: Getting Started
+        url: /documentation/consumer/hikey960/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/hikey960/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/hikey960/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/hikey/hikey960/]
+    # -------- HiKey (LeMaker) -----------
+  - list:
+      - title: HiKey (LeMaker)
+        url: /product/hikey/
+      - title: Getting Started
+        url: /documentation/consumer/hikey/hikey620/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/hikey/hikey620/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/hikey/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/hikey/hikey620/]
+    # -------- DragonBoard™ 820c (Arrow) -----------
+  - list:
+      - title: DragonBoard™ 820c (Arrow)
+        url: /product/dragonboard820c/
+      - title: Getting Started
+        url: /documentation/consumer/dragonboard820c/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/dragonboard820c/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/dragonboard820c/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/dragonboard820c/]
+    # -------- DragonBoard™ 410c (Arrow) -----------
+  - list:
+      - title: DragonBoard™ 410c (Arrow)
+        url: /product/dragonboard410c/
+      - title: Getting Started
+        url: /documentation/consumer/dragonboard410c/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/dragonboard410c/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/dragonboard410c/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/dragonboard410c/]
+    # -------- Chameleon96 -----------
+  - list:
+      - title: Chameleon96
+        url: /product/chameleon96/
+      - title: Getting Started
+        url: /documentation/consumer/chameleon96/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/chameleon96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/chameleon96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/chameleon96/]
+    # -------- Bubblegum-96 -----------
+  - list:
+      - title: Bubblegum-96
+        url: /product/bubblegum-96/
+      - title: Getting Started
+        url: /documentation/consumer/bubblegum-96/getting-started/
+      - title: Documentation
+        url: /documentation/consumer/bubblegum-96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/bubblegum-96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/bubblegum-96/]
+    #
+    # Enterprise Editiion
+    #
+    # -------- Developerbox (Socionext) -----------
+  - list:
+      - title: Developerbox (Socionext)
+        url: /product/developerbox/
+      - title: Getting Started
+        url: /documentation/enterprise/developerbox/getting-started/
+      - title: Documentation
+        url: /documentation/enterprise/developerbox/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/developerbox/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/enterprise/developerbox/]
+    # -------- Oxalis -----------
+  - list:
+      - title: Oxalis
+        url: /product/oxalis/
+      - title: Getting Started
+        url: /documentation/enterprise/oxalis/getting-started/
+      - title: Documentation
+        url: /documentation/enterprise/oxalis/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/oxalis/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/enterprise/oxalis/]
+    # -------- Poplar (Hoperun) -----------
+  - list:
+      - title: Poplar (Hoperun)
+        url: /product/poplar-hoperun/
+      - title: Getting Started
+        url: /documentation/enterprise/poplar-hoperun/getting-started/
+      - title: Documentation
+        url: /documentation/enterprise/poplar-hoperun/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/poplar-hoperun/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/enterprise/poplar-hoperun/]
+    # -------- Poplar -----------
+  - list:
+      - title: Poplar
+        url: /product/poplar/
+      - title: Getting Started
+        url: /documentation/enterprise/poplar/getting-started/
+      - title: Documentation
+        url: /documentation/enterprise/poplar/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/poplar/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/enterprise/poplar/]
+    #
+    # IoT Editiion
+    #
+    # -------- 4IoT - Geniatech -----------
+  - list:
+      - title: 4IoT - Geniatech
+        url: /product/4iot/
+      - title: Getting Started
+        url: /documentation/iot/4iot/getting-started/
+      - title: Documentation
+        url: /documentation/iot/4iot/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/4iot/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/4iot/]
+    # -------- BPi96 NB-IoT -----------
+  - list:
+      - title: BPi96 NB-IoT
+        url: /product/bpi96/
+      - title: Getting Started
+        url: /documentation/iot/bpi96/getting-started/
+      - title: Documentation
+        url: /documentation/iot/bpi96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/bpi96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/bpi96/]
+    # -------- Carbon -----------
+  - list:
+      - title: Carbon
+        url: /product/carbon/
+      - title: Getting Started
+        url: /documentation/iot/carbon/getting-started/
+      - title: Documentation
+        url: /documentation/iot/carbon/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/carbon/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/carbon/]
+    # -------- Nitrogen -----------
+  - list:
+      - title: Nitrogen
+        url: /product/nitrogen/
+      - title: Getting Started
+        url: /documentation/iot/nitrogen/getting-started/
+      - title: Documentation
+        url: /documentation/iot/nitrogen/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/nitrogen/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/nitrogen/]
+    # -------- Orange Pi i96 -----------
+  - list:
+      - title: Orange Pi i96
+        url: /product/orangepi-i96/
+      - title: Getting Started
+        url: /documentation/iot/orangepi-i96/getting-started/
+      - title: Documentation
+        url: /documentation/iot/orangepi-i96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/orangepi-i96/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/orangepi-i96/]
+    # -------- WisTrio -----------
+  - list:
+      - title: WisTrio
+        url: /product/wistrio/
+      - title: Getting Started
+        url: /documentation/iot/wistrio/getting-started/
+      - title: Documentation
+        url: /documentation/iot/wistrio/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/wistrio/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/iot/wistrio/]
+    #
+    # Mezzanine Editiion
+    #
+    # -------- AeroCore 2 for 96Boards -----------
+  - list:
+      - title: AeroCore 2 for 96Boards
+        url: /product/aerocore2/
+      - title: Documentation
+        url: /documentation/mezzanine/aerocore2/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/aerocore2/]
+    # -------- NextBio Mezzanine (Arrow) -----------
+  - list:
+      - title: NextBio Mezzanine (Arrow)
+        url: /product/arrow-nextbio/
+      - title: Documentation
+        url: /documentation/mezzanine/arrow-nextbio/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/arrow-nextbio/]
+    # -------- Audio Mezzanine -----------
+  - list:
+      - title: Audio Mezzanine
+        url: /product/audio-mezzanine/
+      - title: Documentation
+        url: /documentation/mezzanine/audio-mezzanine/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/audio-mezzanine/]
+    # -------- D3Camera -----------
+  - list:
+      - title: D3Camera
+        url: /product/d3camera/
+      - title: Documentation
+        url: /documentation/mezzanine/d3camera/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/d3camera/]
+    # -------- Ethernet Card -----------
+  - list:
+      - title: Ethernet Card
+        url: /product/ethernetcard/
+      - title: Documentation
+        url: /documentation/mezzanine/ethernetcard/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/ethernetcard/]
+    # -------- Link Sprite -----------
+  - list:
+      - title: Link Sprite
+        url: /product/linkspritesensorkit/
+      - title: Documentation
+        url: /documentation/mezzanine/linkspritesensorkit/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/linkspritesensorkit/]
+    # -------- MIPI Adapter Mezzanine -----------
+  - list:
+      - title: MIPI Adapter Mezzanine
+        url: /product/mipiadapter/
+      - title: Documentation
+        url: /documentation/mezzanine/mipiadapter/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/mipiadapter/]
+    # -------- NeonKey -----------
+  - list:
+      - title: NeonKey
+        url: /product/neonkey/
+      - title: Documentation
+        url: /documentation/mezzanine/neonkey/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/neonkey/]
+    # -------- Secure96 -----------
+  - list:
+      - title: Secure96
+        url: /product/secure96/
+      - title: Documentation
+        url: /documentation/mezzanine/secure96/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/secure96/]
+    # -------- Sensors -----------
+  - list:
+      - title: Sensors
+        url: /product/sensors-mezzanine/
+      - title: Documentation
+        url: /documentation/mezzanine/sensors-mezzanine/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/sensors-mezzanine/]
+    # -------- Shiratech LTE -----------
+  - list:
+      - title: Shiratech LTE
+        url: /product/shiratech-lte/
+      - title: Documentation
+        url: /documentation/mezzanine/shiratech-lte/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/shiratech-lte/]
+    # -------- STM32 Sensor Board -----------
+  - list:
+      - title: STM32 Sensor Board
+        url: /product/stm32/
+      - title: Documentation
+        url: /documentation/mezzanine/stm32/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/stm32/]
+    # -------- UART Serial -----------
+  - list:
+      - title: UART Serial
+        url: /product/uartserial/
+      - title: Documentation
+        url: /documentation/mezzanine/uartserial/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/uartserial/]
+    # -------- X in a Box B901 -----------
+  - list:
+      - title: X in a Box B901
+        url: /product/xinabox-b901/
+      - title: Documentation
+        url: /documentation/mezzanine/xinabox-b901/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/mezzanine/
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/mezzanine/xinabox-b901/]
