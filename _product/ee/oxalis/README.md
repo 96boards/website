@@ -17,17 +17,15 @@ product_images:
     - oxalis-back-sd.JPG
     - oxalis-som-front-sd.JPG
     - oxalis-som-back-sd.JPG
-product_tab_menu:
+tab_menu:
+    - tab_title: Oxalis
+      tab_link: /product/oxalis/
     - tab_title: Getting Started
       tab_link: /documentation/enterprise/oxalis/getting-started/
-      tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/enterprise/oxalis/
-      tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/oxalis/
-      tab_position: 4
       tab_align_right: true
 product_getting_started: /documentation/enterprise/oxalis/getting-started/
 product_documentation_link: /documentation/enterprise/oxalis/

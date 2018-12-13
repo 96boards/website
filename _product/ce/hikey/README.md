@@ -10,8 +10,10 @@ tab_menu:
     - tab_title: HiKey (LeMaker)
       tab_link: /product/hikey/
       active: true
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/hikey/hikey620/getting-started/
     - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey/
+      tab_link: /documentation/consumer/hikey/hikey620/
       tab_position: 1
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/hikey

@@ -18,7 +18,7 @@ product_images:
     - chameleon96-back-small.png
 # Sub Tab Menu Items
 tab_menu:
-        - tab_title: Chameleon96™
+        - tab_title: Chameleon96
           tab_link: /product/chameleon96/
           active: true
         - tab_title: Getting Started
