@@ -15,11 +15,11 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
 <a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODEyMDZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODEyMTNUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-**This week**, we will be meeting with Kate aka [githugs](https://www.instagram.com/githugs/) from Instagram! Kate majored in art and bartended in the service industry for many years. During this time, she started teaching herself to code. Eventually she attended a bootcamp (Hack Reactor) and graduated from there in January 2018 (earlier this year)! Shortly after graduating, she got her first engineering job in New York, working and specializing in javascript, react and node. Bring your questions and coffee (or beer) and join us for an hour of fun conversation with the one and only [githugs](https://www.instagram.com/githugs/)!
+**This week**, we will be meeting with [Douglas Esteves](https://www.instagram.com/_douglasesteves/), who is the Co-founder [IoTMakers](https://www.instagram.com/iotmakers/), member of [Hackerspace in Brazil]() (Laboratório Hacker de Campinas "LHC"), Computer Engineer, Ehthusiast with IoT, and Maker/Hackerspace evangelist! Joining us from across the world, welcome Douglas to our latest OpenHours livestream! We will hear about his many initiatives and work, speeches, contests, groups and educational courses. Brew some coffee (tea or beer) and join us at the end of the countdown.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
