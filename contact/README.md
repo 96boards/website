@@ -2,14 +2,13 @@
 layout: jumbotron
 title: Contact
 permalink: /contact/
+description: >-
+    We would be happy to hear from you! Send us an email and we will reply as soon as possible.
+jumbotron:
+    background-image: /assets/images/content/96boards-home-image-2.jpg
+    title: Contact
+    animation: fade 
 ---
-<div class="row">
-    <div id="contact-thanks">
-        <div class="jumbotron contact">
-            <h3 class="text-center animated fadeIn">We would be happy to hear from you.</h3>
-        </div>
-    </div>
-</div>
 <div class="row" id="content-container">
     <div class="container">
         <div class="row">
