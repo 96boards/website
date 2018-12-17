@@ -5,7 +5,10 @@ permalink: /product/carbon/
 shortname: carbon
 description: |-
     Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
-product_tab_menu:
+tab_menu:
+    - tab_title: Carbon
+      tab_link: /product/carbon/
+      active: true
     - tab_title: Documentation
       tab_link: /documentation/iot/carbon/
       tab_position: 1

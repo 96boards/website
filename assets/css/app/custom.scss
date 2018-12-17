@@ -20,9 +20,11 @@ td {
     padding: 15px;
 }
 div#contact-thanks {
-    margin-top: -20px;
+    margin-top: 0px;
 }
-
+#contact-thanks h3 {
+    color: white;
+}
 #tabbed-nav-bar {
     margin-bottom: 0px;
 }
@@ -81,10 +83,12 @@ i.icon-github-circled.center-block {
 }
 
  html.ios7 body {height: 100%;position: fixed;width: 100%;}
-
+#universal-nav li a {
+    height: 36px;
+}
  html {
      height  : 100%;
-     background-color: #222222;
+     background-color: #f5f5f5;;
     //  overflow: hidden; Will break the sticky navbar - be warned
 }
 
@@ -269,7 +273,7 @@ p.sub-tag {
     border:0;
 }
 
-//Bootstrap Glyphicon Override.
+// Bootstrap3 Glyphicon Override.
 .glyphicon {
     width: 14px;
     height: 14px;

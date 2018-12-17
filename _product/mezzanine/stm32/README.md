@@ -6,14 +6,15 @@ shortname: stm32
 description: |-
     The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A)
 display_product: true
-product_tab_menu:
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/stm32/
-      tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
+tab_menu:
+  - tab_title: STM32 Sensor Board
+    tab_link: /product/stm32/
+    active: true
+  - tab_title: Documentation
+    tab_link: /documentation/mezzanine/stm32/
+  - tab_title: Support
+    tab_link: https://discuss.96boards.org/c/products/mezzanine
+    tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
 product_long_desc: |-

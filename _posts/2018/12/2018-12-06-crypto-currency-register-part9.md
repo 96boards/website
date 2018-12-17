@@ -23,7 +23,9 @@ We keep developing our project after connection with mini thermal printer. We ma
 At the same time, we are working for the PCD 8544 small screen for the QR code. It is directly wired with dragonboard 410c as we put pin into GPIO pin. It is powered on now, but failed to download module and connect with dragonboard 410c. We are still working for this, and it is going to be worked soon after we make module works in the dragonboard 410c
 
 # Test Code for Thermal Printer
-	
+
+```python
+
 import adafruit_thermal_printer
 import serial
 
@@ -76,4 +78,5 @@ printer.feed(2)
 
 @QR Code
 
+```
 

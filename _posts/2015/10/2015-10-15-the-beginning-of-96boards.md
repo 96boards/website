@@ -7,8 +7,8 @@ link: https://www.96boards.org/blog/the-beginning-of-96boards/
 slug: the-beginning-of-96boards
 image:
     featured: true
-    path: /assets/images/blog/96boards-blog1.jpg
-    name: 96boards-blog1.jpg
+    path: /assets/images/blog/boards-blog1.jpg
+    name: boards-blog1.jpg
 title: The beginning of 96Boards
 wordpress_id: 8724
 categories:

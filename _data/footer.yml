@@ -1,5 +1,7 @@
 # include: members.html
-
+footer-image: /assets/images/Linaro-Sprinkle.png
+footer-image-url: /
+company-copyright-text: Linaro Limited
 columns:
     - title: Shop and Learn
       url: /products/
