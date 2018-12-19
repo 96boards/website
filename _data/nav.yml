@@ -4,10 +4,13 @@ search:
 universal-nav: true
 brand:
     text: 96Boards
+    # image:
+    #     enabled: true
+    #     svg: true
+    #     name: logo.html
     image:
         enabled: true
-        svg: true
-        name: logo.html
+        path: /assets/images/content/96boards-festive.png
     url: /
 pages:
     - title: About
