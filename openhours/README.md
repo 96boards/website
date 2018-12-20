@@ -13,13 +13,13 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<a href="http://linaro.co/openhoursjoin" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
-<a href="https://www.youtube.com/c/96Boards/live" class="btn blog-read-more-btn center-block">Set YouTube Reminder</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=dmtkZzI1aG5tMzYzbXBsamk5cjUwbG81ajBfMjAxODEyMTNUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
+<a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=YmMxMDM4bzVnMXZlMjI3cjRubmtnMmJxbzhfMjAxODEyMjBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-**This week**, we will be meeting with [Douglas Esteves](https://www.instagram.com/_douglasesteves/), who is the Co-founder [IoTMakers](https://www.instagram.com/iotmakers/), member of [Hackerspace in Brazil]() (Laboratório Hacker de Campinas "LHC"), Computer Engineer, Ehthusiast with IoT, and Maker/Hackerspace evangelist! Joining us from across the world, welcome Douglas to our latest OpenHours livestream! We will hear about his many initiatives and work, speeches, contests, groups and educational courses. Brew some coffee (tea or beer) and join us at the end of the countdown.
+**This week**, we will be having a surprise holiday special. Technical showcase, coffee and pumpkin spice creamer! Bring your show and tell, let's have some fun during one of the last OpenHours of 2018.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
