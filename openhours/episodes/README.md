@@ -10,13 +10,12 @@ layout: container-breadcrumb-tabs
 | Episode | Date           | Guest(s)                  | Topic(s)                                | YouTube                                                 |
 |:-------:|:--------------:|:-------------------------:|:----------------------------------------|:--------------------------------------------------------|
 | 132     | 27 Dec 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
-| 131     | 20 Dec 2018    | Jon "maddog" Hall         | maddog holiday special                  | N/A                                                     |
-| 130     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | N/A                                                     |
-| 129     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | N/A                                                     |
-| 128     | 29 Nov 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
-| 127     | 22 Nov 2018    | TBD                       | TBD                                     | N/A                                                     |
-| 126     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | N/A                                                     |
-| 125     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Set Reminder](https://www.youtube.com/c/96boards/live) |
+| 131     | 20 Dec 2018    | 96Boards Team             | Holiday special                         | [Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxODEyMjBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org)                                                     |
+| 130     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | [Watch Video](https://youtu.be/Avb4HnyLIEw)             |
+| 129     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | [Watch Video](https://youtu.be/JK1ZC-p1Qq4)             |
+| 127     | 29 Nov 2018    | TRONBet                   | TRONBet                                 | [Watch Video](https://youtu.be/E1aqA4vGEWA)             |
+| 126     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | [Watch Video](https://youtu.be/9eK2kOqEr7E)             |
+| 125     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Watch Video](https://youtu.be/XFaxHzfQ5Ek)             |
 | 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Watch Video](https://youtu.be/wH_gkCemir4)             |
 | 123     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | [Watch Video](https://youtu.be/kcFHrGUnqe4)             |
 | 122     | 18 Oct 2018    | The Coding Blonde         | Coding Blonde, Mission and more!        | [Watch Video](https://youtu.be/gkHVyvL9qao)             |
