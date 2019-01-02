@@ -13,13 +13,21 @@ js-package: openhours
 <br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
-<a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join BlueJeans Channel</a>
+<a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=YmMxMDM4bzVnMXZlMjI3cjRubmtnMmJxbzhfMjAxODEyMjBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
-**This week**, we will be having a surprise holiday special. Technical showcase, coffee and pumpkin spice creamer! Bring your show and tell, let's have some fun during one of the last OpenHours of 2018.
+**This week**, we will talk Arm Servers with Ed Vielmetti from [Packet](https://www.packet.com/).
+
+Ed is an Internet veteran with over 30 years experience.
+
+He has extensive experience with networks at all levels - physical, logical, technical, social, political, and financial.  He is a graduate of the University of Michigan, and an alumnus of Cisco Systems and Arbor Networks.
+
+At Packet, Ed leads outreach to a wide variety of software ecosystems, from open source to the Enterprise.   His main project is [WorksOnARM](https://www.worksonarm.com/), which helps to bring cloud native and data center software to ARMv8 servers.
+
+When he's not opening issues on Github, Ed can be found on the amateur radio bands as W8EMV, tinkering with a pile of Raspberry Pis, or co-working at Ann Arbor's Workantile.
 
 The show is also broadcasted live on the 96Boards [Facebook](https://www.facebook.com/96Boards/) and [YouTube](https://www.youtube.com/c/96Boards/live) channels.
 
