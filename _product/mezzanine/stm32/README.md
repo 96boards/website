@@ -57,11 +57,12 @@ access to the ARM® mbedTM on-line resources.
 ## Features
 
 - Based on STM32F446 MCU ARM® Cortex® -M4 180MHz in LQFP100 package
-- Compliant with the 96Boards CE standard
+- Compliant with the 96Boards Mezzanine guidelines
 - Two types of extension resources:
    – 96Boards high/low-speed connectivity
    – ArduinoTM Uno Revision 3 and GroveTM connectivity
-- ARM® mbedTM -enabled (see http://mbed.org) planned for the first quarter of 2016
+- ARM® mbedTM -enabled (see http://mbed.org)
+- Zephyr RTOS support
 - Integrated MEMS sensors:
    – 9-axis accelerometer/gyroscope/magnetometer
    – Pressure, microphone
