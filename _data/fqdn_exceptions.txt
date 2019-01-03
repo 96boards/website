@@ -1,5 +1,2 @@
 www.allwinnertech.com
-<<<<<<< HEAD
-=======
 www.tier4.jp
->>>>>>> a0bdddde532592ab791e330b61c9ef3bf99d44f2
