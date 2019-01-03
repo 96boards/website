@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/carbon-rover.jpg
     name: iew-2018.jpg
-    thumb: carbon-rover.jpg
+    thumb: carbon-rover-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, Automotive, Conference, ElectronicsForU, EFY, Machine Learning
 ---

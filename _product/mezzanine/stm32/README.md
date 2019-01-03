@@ -6,14 +6,15 @@ shortname: stm32
 description: |-
     The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A)
 display_product: true
-product_tab_menu:
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/stm32/
-      tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
+tab_menu:
+  - tab_title: STM32 Sensor Board
+    tab_link: /product/stm32/
+    active: true
+  - tab_title: Documentation
+    tab_link: /documentation/mezzanine/stm32/
+  - tab_title: Support
+    tab_link: https://discuss.96boards.org/c/products/mezzanine
+    tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
 product_long_desc: |-
@@ -56,11 +57,12 @@ access to the ARM® mbedTM on-line resources.
 ## Features
 
 - Based on STM32F446 MCU ARM® Cortex® -M4 180MHz in LQFP100 package
-- Compliant with the 96Boards CE standard
+- Compliant with the 96Boards Mezzanine guidelines
 - Two types of extension resources:
    – 96Boards high/low-speed connectivity
    – ArduinoTM Uno Revision 3 and GroveTM connectivity
-- ARM® mbedTM -enabled (see http://mbed.org) planned for the first quarter of 2016
+- ARM® mbedTM -enabled (see http://mbed.org)
+- Zephyr RTOS support
 - Integrated MEMS sensors:
    – 9-axis accelerometer/gyroscope/magnetometer
    – Pressure, microphone

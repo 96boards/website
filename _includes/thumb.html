@@ -1,0 +1,8 @@
+<!-- <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/{{resized[0].path}}" 
+class="img-responsive lazyload"> -->
+<picture>
+    {% for i in resized %}
+        <source media="(min-width: {{ i.width }}px)" data-srcset="/{{ i.path }}">
+    {% endfor %}
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ fullpath }}" class="{{class}} center-block img-responsive lazyload">
+</picture>

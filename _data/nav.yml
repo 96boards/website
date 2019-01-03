@@ -1,19 +1,16 @@
-# Navbar Configuration
-# - Add your navigation structure to this File
-# - Toggle brand image output
-# - Toggle Search Bar.
-# Search Config
 search:
     enabled: true
     label: 96Boards
-
 universal-nav: true
-
 brand:
     text: 96Boards
+    # image:
+    #     enabled: true
+    #     svg: true
+    #     name: logo.html
     image:
         enabled: true
-        name: logo.svg
+        path: /assets/images/content/96boards-festive.png
     url: /
 pages:
     - title: About

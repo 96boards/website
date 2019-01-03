@@ -14,7 +14,10 @@ is_featured: true
 product_images:
   - rock960-front-sd.png
   - rock960-back-sd.png
-product_tab_menu:
+tab_menu:
+    - tab_title: Rock960 (Vamrs)
+      tab_link: /product/rock960/
+      active: true
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
       tab_position: 1
@@ -45,11 +48,11 @@ product_more_info:
       link: https://www.96rocks.com/
 product_os:
   - title: AOSP
-    link: https://source.android.com/setup/
+    link: /documentation/consumer/rock/downloads/android.md.html
   - title: Debian
-    link: /documentation/consumer/rock960/downloads/debian.md.html
+    link: /documentation/consumer/rock/downloads/debian.md.html
   - title: Ubuntu
-    link: /documentation/consumer/rock960/downloads/ubuntu.md.html
+    link: /documentation/consumer/rock/downloads/ubuntu.md.html
 product_middleware:
   - title: Coming Soon...
 product_third_party_images:

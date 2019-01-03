@@ -6,7 +6,7 @@ image:
     featured: true
     path: /assets/images/blog/OpenHours.png
     name: OpenHours.png
-    thumb: OpenHours-02-150x150.png
+    thumb: OpenHours.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech, OpenHours, Open Hours, sdrobertw, 
 ---
