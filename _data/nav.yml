@@ -8,6 +8,9 @@ brand:
         enabled: true
         svg: true
         name: logo.html
+    # image:
+    #     enabled: true
+    #     path: /assets/images/content/96boards-festive.png
     url: /
 pages:
     - title: About

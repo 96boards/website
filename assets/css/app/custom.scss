@@ -456,3 +456,9 @@ div#tabbed-nav-bar {
     left: 0;
     z-index: 10000;
 }
+@media (max-width: 1200px){
+    #brand-image {
+        height: 66px !important;
+        width: auto;
+    }
+}

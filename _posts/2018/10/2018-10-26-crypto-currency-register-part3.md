@@ -8,6 +8,7 @@ image:
     name: goal.png
     thumb: goal.png
 categories: blog
+series: CryptonNode on 96Boards
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Dragonboard410c, Crypto, Mining, Node, Business, QR, UCSD, Cryptocurrency, LCD
 ---
 	

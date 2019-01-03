@@ -1,6 +1,7 @@
 ---
 title: CryptonNode on 96Boards - Part 9
 author: Garam An
+series: CryptonNode on 96Boards
 date: 2018-12-06 00:00:01+00:00
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Dragonboard410c, Crypto, Mining, Node, Business, QR, UCSD, Cryptocurrency, LCD
