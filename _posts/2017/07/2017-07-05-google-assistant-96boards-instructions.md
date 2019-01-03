@@ -6,6 +6,7 @@ layout: post
 link: https://www.96boards.org/blog/google-assistant-96boards-instructions/
 slug: google-assistant-96boards-instructions
 title: Instructions for Google Assistant on 96Boards
+series: Google Assistant on 96Boards
 image:
     featured: true
     path: /assets/images/blog/google-assistant-96boards.jpg
