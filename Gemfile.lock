@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.4.2)
+    autoprefixer-rails (9.4.4)
       execjs
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -78,7 +78,7 @@ GEM
       jekyll
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jumbo-jekyll-theme (3.1.0)
+    jumbo-jekyll-theme (3.2.2)
       autoprefixer-rails (~> 9.0, >= 9.0.0)
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
@@ -96,6 +96,7 @@ GEM
       jekyll-sitemap (~> 1.1)
       jekyll-theme-assets-updated (~> 1.1)
       jekyll-tidy (~> 0.2.2)
+      jekyll-watch (~> 2.1.1)
       rack (>= 1.6.11)
       sprockets (~> 3.7.2)
       uglifier (> 0)
@@ -133,7 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 3.1.0)
+  jumbo-jekyll-theme (= 3.2.2)
 
 BUNDLED WITH
    1.17.1
