@@ -45,7 +45,7 @@ We have already received confirmation from several winning teams:
 - Teamato: Farmaid Plant Disease Detection Robot
    - [Visit Project Page](https://www.hackster.io/teamato/farmaid-plant-disease-detection-robot-55eeb1)
    - [Watch Video](https://m.youtube.com/watch?feature=youtu.be&v=12BvNxfrQ7k)
-   - [Visit Social #1](https://twitter.com/DAVGtech) | [Visit Social #2](https://twitter.com/ArifSohaib1)
+   - [Visit Social #1](https://twitter.com/DAVGtech), [Visit Social #2](https://twitter.com/ArifSohaib1)
 
 Sooooooo... Brew a nice cup or coffee or tea, and join us at the end of the countdown! We will see you on Zoom or YouTube.
 
