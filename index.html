@@ -237,6 +237,9 @@ jumbotron:
         <div id="latest-blogs" class="hidden-xs">
             <div class="row">
                 {% for post in site.posts limit:4 %}
+                    {% assign timeframe = 604800 %}
+                    {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+                    {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                 {% assign author = site.authors | where: "username", post.author | first %}
                     <div class="col-sm-3 blog-post">
                         <div class="row image">
@@ -321,6 +324,9 @@ jumbotron:
                                     {{post.date |  date: "%B %-d, %Y"}}
                                 </span>
                                 {% endif %}
+                                {% if post_in_seconds > recent_posts %}
+                                    <span class="new-post" title="Post added in the last week.">New</span>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -329,6 +335,9 @@ jumbotron:
         </div>
         <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">  
             {% for post in site.posts limit:4 %}
+                {% assign timeframe = 604800 %}
+                {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+                {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
             {% assign author = site.authors | where: "username", post.author | first %}
             <div class="owl-item__inner">
                 <div class="col-xs-12 no-padding visible-xs">
@@ -414,6 +423,9 @@ jumbotron:
                             <span class="date">
                                 {{post.date |  date:  "%B %-d, %Y"}}
                             </span>
+                            {% endif %}
+                            {% if post_in_seconds > recent_posts %}
+                                <span class="new-post" title="Post added in the last week.">New</span>
                             {% endif %}
                         </div>
                     </div>
