@@ -15,7 +15,7 @@ js-package: openhours
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=YmMxMDM4bzVnMXZlMjI3cjRubmtnMmJxbzhfMjAxODEyMjBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMTBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **OpenHours**
 
@@ -81,16 +81,26 @@ The 96Boards Team
 
 Every Thursday at 4pm UTC
 
-### How to Join
+### How to Join on Zoom
 
-**To join the Meeting:**
-[http://link.linaro.org/openhoursjoin](http://link.linaro.org/openhoursjoin)
+1) Wait for the countdown to almost end<br>
+2) Waiting room will open ~30 minutes before end of countdown<br>
+3) Join from a PC, Mac, iPad, iPhone or Android device!<br>
+
+**To join the Meeting with from PC:**
+
+[https://zoom.us/j/544757552](https://zoom.us/j/544757552)
 
 **To join via phone :**
-1\. Dial: +1.408.740.7256 or 943216362
-2\. Enter the meeting ID: 943216362
 
-([More numbers](http://bluejeans.com/numbers?ll=en) +1.888.240.2560 or +1.408.317.9253)
+1) US: +1 646 558 8656 or +1 720 707 2699 or +1 877 853 5247 (Toll Free) or +1 888 788 0099 (Toll Free)<br>
+2) Webinar ID: 544 757 552 <br>
+3) International numbers available: https://zoom.us/u/aAw7FDxid <br>
+
+### How to Join on YouTube (view only)
+
+1) Wait for the countdown to almost end<br>
+2) Go to [YouTube Livestream](https://www.youtube.com/c/96Boards/live)!<br>
 
 * * *
 
