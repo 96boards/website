@@ -83,24 +83,24 @@ Every Thursday at 4pm UTC
 
 ### How to Join on Zoom
 
-1) Wait for the countdown to almost end
-2) Waiting room will open ~30 minutes before end of countdown
-3) Join from a PC, Mac, iPad, iPhone or Android device!
+1) Wait for the countdown to almost end<br>
+2) Waiting room will open ~30 minutes before end of countdown<br>
+3) Join from a PC, Mac, iPad, iPhone or Android device!<br>
 
 **To join the Meeting with from PC:**
 
-- [https://zoom.us/j/544757552](https://zoom.us/j/544757552)
+[https://zoom.us/j/544757552](https://zoom.us/j/544757552)
 
 **To join via phone :**
 
-- US: +1 646 558 8656 or +1 720 707 2699 or +1 877 853 5247 (Toll Free) or +1 888 788 0099 (Toll Free)
-- Webinar ID: 544 757 552 
-- International numbers available: https://zoom.us/u/aAw7FDxid 
+1) US: +1 646 558 8656 or +1 720 707 2699 or +1 877 853 5247 (Toll Free) or +1 888 788 0099 (Toll Free)<br>
+2) Webinar ID: 544 757 552 <br>
+3) International numbers available: https://zoom.us/u/aAw7FDxid <br>
 
 ### How to Join on YouTube (view only)
 
-1) Wait for the countdown to almost end
-2) Go to [YouTube Livestream](https://www.youtube.com/c/96Boards/live)!
+1) Wait for the countdown to almost end<br>
+2) Go to [YouTube Livestream](https://www.youtube.com/c/96Boards/live)!<br>
 
 * * *
 
