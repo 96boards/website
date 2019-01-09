@@ -267,13 +267,13 @@ pages:
       - title: Getting Started
         url: /documentation/consumer/dragonboard410c/getting-started/
       - title: Documentation
-        url: /documentation/consumer/dragonboard410c/
+        url: /documentation/consumer/dragonboard/dragonboard410c/
         sub-pages: true
       - title: Support
         url: https://discuss.96boards.org/c/products/dragonboard410c/
         right: true
     sub-pages-enabled: true
-    urls: [/documentation/consumer/dragonboard410c/]
+    urls: [/documentation/consumer/dragonboard/dragonboard410c/]
     # -------- Chameleon96 -----------
   - list:
       - title: Chameleon96
