@@ -9,20 +9,23 @@ layout: container-breadcrumb-tabs
 
 | Episode | Date           | Guest(s)                  | Topic(s)                                | YouTube                                                 |
 |:-------:|:--------------:|:-------------------------:|:----------------------------------------|:--------------------------------------------------------|
-| 132     | 27 Dec 2018    | Q&A                       | Scheduled Q&A                           | N/A                                                     |
-| 131     | 20 Dec 2018    | 96Boards Team             | Holiday special                         | [Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxODEyMjBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org)                                                     |
-| 130     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | [Watch Video](https://youtu.be/Avb4HnyLIEw)             |
-| 129     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | [Watch Video](https://youtu.be/JK1ZC-p1Qq4)             |
-| 127     | 29 Nov 2018    | TRONBet                   | TRONBet                                 | [Watch Video](https://youtu.be/E1aqA4vGEWA)             |
-| 126     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | [Watch Video](https://youtu.be/9eK2kOqEr7E)             |
-| 125     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Watch Video](https://youtu.be/XFaxHzfQ5Ek)             |
-| 124     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Watch Video](https://youtu.be/wH_gkCemir4)             |
-| 123     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | [Watch Video](https://youtu.be/kcFHrGUnqe4)             |
-| 122     | 18 Oct 2018    | The Coding Blonde         | Coding Blonde, Mission and more!        | [Watch Video](https://youtu.be/gkHVyvL9qao)             |
-| 121     | 11 Oct 2018    | Brandy Morgan             | Creators Code                           | [Watch Video](https://youtu.be/DBW42kte3vA)             |
-| 120     | 4 Oct 2018     | Ondrej Adamek             | NextBio Mezzanine                       | [Watch Video](https://youtu.be/1pSRE6oJDOU)             |
-| 119     | 27 Sept 2018   | 96Boards Team             | Scheduled Q&A & Demo                    | [Watch Video](https://youtu.be/mMGR2KRHGqE)             |
-| 118     | 20 Sept 2018   | 96Boards & Partners       | OpenHours Live in Vancouver - Canada    | [Watch Video](https://youtu.be/eQKwIozskrk)             |
+| 130     | 10 Jan 2019    | Arm Contest Winners       | Arm Robotics Challenge - Winners Interview| [Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMTBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org)   |
+| 129     | 03 Jan 2019    | Ed Vielmetti              | Arm Servers and Packet                  | [Watch Video](https://youtu.be/4u9G9SBM1oE)                                  |
+|         | 27 Dec 2018    | N/A                       | End of Year Break                       | N/A                                                     |
+| 128     | 20 Dec 2018    | 96Boards Team             | Holiday special                         | [Watch Video](https://youtu.be/or11jB6D-mI)                                     |
+| 127     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | [Watch Video](https://youtu.be/Avb4HnyLIEw)             |
+| 126     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | [Watch Video](https://youtu.be/JK1ZC-p1Qq4)             |
+| 125     | 29 Nov 2018    | TRONBet                   | TRONBet                                 | [Watch Video](https://youtu.be/E1aqA4vGEWA)             |
+|         | 22 Nov 2018    | N/A                       | Thanksgiving Break                      | N/A
+| 124     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | [Watch Video](https://youtu.be/9eK2kOqEr7E)             |
+| 123     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Watch Video](https://youtu.be/XFaxHzfQ5Ek)             |
+| 122     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Watch Video](https://youtu.be/wH_gkCemir4)             |
+| 121     | 25 Oct 2018    | Susanna Harris            | A day in the SciCom Community Part 2    | [Watch Video](https://youtu.be/kcFHrGUnqe4)             |
+| 120     | 18 Oct 2018    | The Coding Blonde         | Coding Blonde, Mission and more!        | [Watch Video](https://youtu.be/gkHVyvL9qao)             |
+| 119     | 11 Oct 2018    | Brandy Morgan             | Creators Code                           | [Watch Video](https://youtu.be/DBW42kte3vA)             |
+| 118     | 4 Oct 2018     | Ondrej Adamek             | NextBio Mezzanine                       | [Watch Video](https://youtu.be/1pSRE6oJDOU)             |
+| 117     | 27 Sept 2018   | 96Boards Team             | Scheduled Q&A & Demo                    | [Watch Video](https://youtu.be/mMGR2KRHGqE)             |
+| 116     | 20 Sept 2018   | 96Boards & Partners       | OpenHours Live in Vancouver - Canada    | [Watch Video](https://youtu.be/eQKwIozskrk)             |
 | 115     | 13 Sept 2018   | Maciej Halasz             | Embedded Linux security                 | [Watch Video](https://youtu.be/FBBp7iq27cI)             |
 | 114     | 6 Sept 2018    | S. Alex Martin            | A day in the SciCom Community Part 1    | [Watch Video](https://youtu.be/SzeuRdGodTs)             |
 | 113     | 30 Aug 2018    | 96Boards Team             | Scheduled Q&A                           | [Watch Video](https://youtu.be/_2br2YnBL2g)             |
