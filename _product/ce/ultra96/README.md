@@ -82,7 +82,7 @@ product_accessories:
   - title: Misc
     link: /product/misc/
   - title: More...
-    link: /product/accessories/
+    link: /_product/accessories/
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
