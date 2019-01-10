@@ -44,11 +44,10 @@ product_buy_links:
     link-price: "&#xa5;899.00"
     link-price-currency: CNY
 product_os:
-  - title: Linux
-    link: /documentation/consumer/sophon-edge/downloads/
-product_third_party_images:
-  - title: Coming Soon...
-    link:
+  - title: Source SDK
+    link: https://github.com/BM1880-BIRD/bm1880-system-sdk
+  - title: Source Program
+    link: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
 product_more_info:
   - title: Sophon
     link: https://sophon.ai/
