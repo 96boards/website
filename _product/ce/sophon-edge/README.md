@@ -49,8 +49,8 @@ product_os:
   - title: Source Program
     link: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
 product_more_info:
-  - title: Sophon
-    link: https://sophon.ai/
+  - title: Sophon - Getting Started
+    link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
 product_accessories:
   - title: Power
     link: /product/power/
