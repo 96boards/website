@@ -268,7 +268,7 @@ span.buy-price {
 		margin-top: 5px;
 	}
 }
-#product-filters button.btn.btn-default.dropdown-toggle {
+#product-filters button.btn.btn-default {
     background-color: #f5f5f5;
     color: #333333;
     border-color: #c5c5c5;
@@ -397,3 +397,54 @@ ul.dropdown-menu.buy-dropup-menu li:last-child a {
 #wrapper .vertical-block ul a li {
     color: $brand-primary;
 }
+
+.checkbox {
+    text-align: center;
+    display: b;
+}
+
+.checkbox label {
+    display: block;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#wrapper input.board-checkbox {
+    margin: auto auto;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+// #compare-table * {
+//   box-sizing: border-box;
+// }
+// #compare-table table {
+//   border-collapse: collapse;
+//   background: white;
+//   table-layout: fixed;
+//   width: 100%;
+// }
+// #compare-table th, #compare-table td {
+//   padding: 8px 16px;
+//   border: 1px solid #ddd;
+//   width: 160px;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// }
+// #compare-table .pane {
+//   background: #eee;
+// }
+// #compare-table .pane-hScroll {
+//   overflow: auto;
+//   width: 100%;
+// }
+// #compare-table .pane-vScroll {
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   height: 300px;
+//   background: red;
+// }
+
+// #compare-table table {border-bottom: 0px;margin-bottom: 0px;}
