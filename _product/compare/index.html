@@ -48,7 +48,7 @@ layout: jumbotron-container
                 {% assign found = "false" %}
                 {% for each in board-details.attributes %}
                     {% if attr == each.name %}
-                        <td>{{each.value | lstrip: '"' | rstrip: '"' }}</td>
+                        <td>{{each.value}}</td>
                         {% assign found = "true" %}
                         {% break %}
                     {% endif %}
