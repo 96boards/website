@@ -50,6 +50,11 @@ seo:
            </ul>
          </div>
     </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" data-toggle="dropdown" data-toggle="tooltip" data-placement="top" title="Compare your selected 96Boards">
+            Compare 96Boards
+        </button>
+    </div>
 </div>        
 <div id="grid" class="mixitup-container">
 {% assign products_array = site.product | ascending %}
@@ -84,6 +89,12 @@ seo:
                 </div>
                 <div class="product-short-description">
                     {{ product.product_short_desc | slice: 0, 50 }}...
+                </div>
+                <div class="checkbox">
+                    <label>
+                        Compare
+                    </label>
+                    <input type="checkbox" class="board-checkbox" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                 </div>
                 <div class="separator clear-left">
                     <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
