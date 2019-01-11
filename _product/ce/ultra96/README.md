@@ -82,7 +82,7 @@ product_accessories:
   - title: Misc
     link: /product/misc/
   - title: More...
-    link: /_product/accessories/
+    link: /products/accessories/
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -92,8 +92,8 @@ product_mezzanine:
     link: /product/uartserial/
   - title: Sensors Mezzanine
     link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
+  - title: More...
+    link: /products/mezzanine/
 product_kits:
   - title: Coming Soon...
 product: true
