@@ -2,6 +2,7 @@
 title: Compare 96Boards
 permalink: /products/compare/
 layout: jumbotron-container
+css-package: products
 ---
 {% assign products_array = site.product | ascending %}
 {% assign products_array = products_array | where: "display_product", "true" %}
@@ -31,34 +32,34 @@ layout: jumbotron-container
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-<div class="table-responsive">
-<table class="table">
-    <thead>
-        <th>Board</th>
-        {% for attr in tags %}
-        <th> {{attr}} </th>
-        {% endfor %}
-    </thead>
-    <tbody>
-        {% for board in products_array %}
-        <tr>
-            <td><a href="{{board.url}}">{{board.title}}</a></td>
-            {% assign board-details = site.data.board-details | where: "id", board.url | first %}
-            {% for attr in tags %}
-                {% assign found = "false" %}
-                {% for each in board-details.attributes %}
-                    {% if attr == each.name %}
-                        <td>{{each.value}}</td>
-                        {% assign found = "true" %}
-                        {% break %}
-                    {% endif %}
-                {% endfor %}
-                {% if found == "false" %}
-                    <td> - </td>
-                {% endif  %}
+<div id="compare-table">
+    <table>
+        <thead>
+            <th>Atrributes</th>
+            {% for board in products_array %}
+                <th data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
             {% endfor %}
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            {% for attr in tags %}
+                <tr>
+                    <td>{{attr}}</td>
+                    {% for board in products_array %}
+                        {% assign board-details = site.data.board-details | where: "id", board.url | first %}
+                        {% assign found = "false" %}
+                        {% for each in board-details.attributes %}
+                            {% if each.name == attr %}
+                                <td data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value}}</td>
+                                {% assign found = "true" %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if found == "false" %}
+                            <td> - </td>
+                        {% endif  %}
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </div>
