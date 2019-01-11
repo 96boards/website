@@ -96,7 +96,7 @@ product_mezzanine:
     link: /products/mezzanine/
 product_kits:
   - title: Delta Camera Kit
-    link: /documentation/consumer/ultra96/kits/delta-camera.md
+    link: /documentation/consumer/ultra96/kits/delta-camera.md.html
   - title: More...
     link: /documentation/consumer/ultra96/kits/
 product: true
