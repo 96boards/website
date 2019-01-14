@@ -14,11 +14,12 @@ $(window).on('load', function () {
     }
     // Get all the Url Vars
     var params = getUrlVars();
+    var validBoards = [];
     // Get vars from table
-    $("[data-board*='board']").each(function(){
-        console.log($(this).data("board"));
+    $("th.board").each(function(){
+        validBoards.push($(this).data("board"));
     });
-
+    console.log(validBoards);
 });
 
 $(document).ready(function(){
