@@ -62,21 +62,25 @@ $(window).on('load', function () {
         var compareBoardsUrl = "/products/compare/?boards=";
         // Empty the board list
         $(".boards-to-compare").empty();
-        // Add the selected boards to the url
-        $.each(selectedBoards, function(index,value){
-            var isLastElement = index == selectedBoards.length -1;
-            if (isLastElement) {
-                compareBoardsUrl = compareBoardsUrl + value;
-            }
-            else{
-                compareBoardsUrl = compareBoardsUrl + value + ",";
-            }
-        });
-        $.each(selectedBoardsTitles, function(index,value){
-            $(".boards-to-compare").append("<li class='list-group-item'>" + value + "</li>");
-        });
-        // Set the Get params for the compare boards button in the modal
-        $("#compare-btn").attr("href", compareBoardsUrl);
+        $(".boards-to-compare").append("No 96Boards currently selected!");
+        if(selectedBoards.length > 0 ){
+            $(".boards-to-compare").empty();
+            // Add the selected boards to the url
+            $.each(selectedBoards, function (index, value) {
+                var isLastElement = index == selectedBoards.length - 1;
+                if (isLastElement) {
+                    compareBoardsUrl = compareBoardsUrl + value;
+                }
+                else {
+                    compareBoardsUrl = compareBoardsUrl + value + ",";
+                }
+            });
+            $.each(selectedBoardsTitles, function (index, value) {
+                $(".boards-to-compare").append("<li class='list-group-item'>" + value + "</li>");
+            });
+            // Set the Get params for the compare boards button in the modal
+            $("#compare-btn").attr("href", compareBoardsUrl);
+        }
         // Toggle the modal
         $("#compare-boards-modal").modal("show");
     });
