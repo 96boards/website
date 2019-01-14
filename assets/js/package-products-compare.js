@@ -4,6 +4,7 @@
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/featherlight
+//= require vendor/jquery.doubleScroll
 
 //= require app/main
 //= requrie app/search
