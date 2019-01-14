@@ -12,6 +12,9 @@ ul.boards-to-compare {
 #compare-table i.fa.fa-times {
     float: right;
 }
+li.multiselect-item.multiselect-all a {
+    background-color: black;
+}
 #compare-boards-modal a.btn.btn-default {
     border-radius: 0px;
     color: black;
@@ -35,4 +38,50 @@ li.multiselect-item.multiselect-group {
 
 li.multiselect-item.multiselect-group{
     min-width: 225px;
+}
+
+// Search filter
+li.multiselect-item.multiselect-all a {
+    background-color: black;
+}
+
+li.multiselect-item.multiselect-filter:hover {
+    background-color:black;
+}
+li.multiselect-item.multiselect-filter .input-group {
+    background-color:black;
+    margin:0px;
+}
+
+li.multiselect-item.multiselect-filter span.input-group-addon {
+    background-color:black;
+    border:0;
+    border-radius:0px;
+    color:white;
+}
+
+input.form-control.multiselect-search {
+    background-color:black;
+    border:0;
+    color:white;
+}
+input.form-control.multiselect-search:focus {
+    outline:none;
+}
+
+button.btn.btn-default.multiselect-clear-filter {
+    background-color: black;
+    border:0;
+}
+button.btn.btn-default.multiselect-clear-filter:hover {
+    background-color: black;
+    border:0;
+    color:#32917a;
+}
+#compare-table a.btn.btn-default.btn-xs {
+    background-color: #544492;
+}
+#compare-table a.btn.btn-default.btn-xs:hover {
+    background-color: #544492;
+    color:black;
 }
