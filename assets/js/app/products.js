@@ -54,6 +54,22 @@ $(window).on('load', function () {
         }
     });
     $("#compare-boards-btn").on("click", function(){
+        var compareBoardsUrl = "/products/compare/?board=";
+        // Add the selected boards to the modal list
+        $.each(selectedBoards, function(index,value){
+            $(".boards-to-compare").append("<li class='list-group-item'>" + value + "</li>");
+            var isLastElement = index == selectedBoards.length -1;
+            if (isLastElement) {
+                compareBoardsUrl = compareBoardsUrl + value;
+            }
+            else{
+                compareBoardsUrl = compareBoardsUrl + value + ",";
+            }
+        });
+        // Set the Get params for the compare boards button in the modal
+        $("#compare-btn").attr("href", compareBoardsUrl);
+        // Toggle the modal
+        $("#compare-boards-modal").modal("show");
         console.log("Comparing the following boards:");
         console.log(selectedBoards);
     });
