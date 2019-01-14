@@ -90,11 +90,11 @@ seo:
                 <div class="product-short-description">
                     {{ product.product_short_desc | slice: 0, 50 }}...
                 </div>
-                <div class="checkbox" data-board="board-checkbox {{product.url | replace: "/product/", "" | replace: "/", ""}}">
+                <div class="checkbox" data-board="board-checkbox {{product.permalink | replace: "/product/", "" | replace: "/", ""}}">
                     <label>
                         Compare
                     </label>
-                    <input type="checkbox" class="board-checkbox" data-board="{{product.url | replace: "/product/", "" | replace: "/", ""}}">
+                    <input type="checkbox" class="board-checkbox" data-board="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">
                 </div>
                 <div class="separator clear-left">
                     <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
