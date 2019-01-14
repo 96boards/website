@@ -4,6 +4,7 @@ permalink: /products/compare/
 layout: jumbotron-container
 css-package: products
 js-package: products-compare
+edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_data/board-details.yml
 ---
 <select id="compare-96boards-select" multiple="multiple">
     <optgroup label="Consumer Edition" class="consumer-edition-group">
@@ -68,7 +69,7 @@ js-package: products-compare
         <thead>
             <th>Atrributes</th>
             {% for board in products_array %}
-                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
+                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}} <a href="{{page.edit-link}}"><i class="fa fa-github"></i></a></th>
             {% endfor %}
         </thead>
         <tbody>
