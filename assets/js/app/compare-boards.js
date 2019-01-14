@@ -1,6 +1,17 @@
 $(window).on('load', function () {
     // Enabled the multiselect plugin
-    $("#compare-96boards-select").multiselect();
+    $("#compare-96boards-select").multiselect({
+        nonSelectedText: 'Select 96Boards',
+        enableCollapsibleOptGroups: true,
+        onChange: function (option, checked, select) {
+            if(checked == true){
+                $("[data-board='" + $(option).val() + "'").css("display", "table-cell");
+            }
+            else{
+                $("[data-board='" + $(option).val() + "'").css("display", "none");
+            }
+        }
+    });
     // Get URL param function
     function getUrlVars()
     {
@@ -22,9 +33,19 @@ $(window).on('load', function () {
         validBoards.push($(this).data("board"));
     });
     $.each(boardParams, function(index, value){
+        console.log(value);
         if($.inArray(value, validBoards)){
+            // Select the relevant options in the Boostrap Multiselect
+            $("#compare-96boards-select").multiselect('select', value);
+            // Get the data-board selector
             var boardSelector = "[data-board='" + value + "']";
+            console.log(boardSelector);
+            // Toggle cells based on the board selector from display:none; to display:table-cell;
             $(boardSelector).css("display","table-cell");
+        }
+        else{
+            console.log(value + "is not in the valid Boards array");
+            console.log(validBoards);
         }
     });
 });
@@ -34,7 +55,11 @@ function isOverflown(element) {
 }
 
 $(window).on("scroll", function(){
-    if(isOverflown($("#compare-table"))){
+    if(isOverflown(document.getElementById("compare-table"))){
         $(".double-scroll").doubleScroll();
+        console.log("overflow!!!");
+    }
+    else{
+        console.log("not overflown");
     }
 });
