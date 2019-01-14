@@ -17,3 +17,19 @@ ul.boards-to-compare {
 label.checkbox {
     text-align: left;
 }
+span.caret-container {
+    width: 100%;
+    display: inline-block;
+}
+
+li.multiselect-item.multiselect-group {
+    overflow: hidden;
+}
+
+#wrapper b.caret {
+    transform: scale(2);
+}
+
+li.multiselect-item.multiselect-group{
+    min-width: 225px;
+}
