@@ -11,6 +11,7 @@ ul.boards-to-compare {
 }
 #compare-table i.fa.fa-times {
     float: right;
+    cursor:pointer;
 }
 li.multiselect-item.multiselect-all a {
     background-color: black;
