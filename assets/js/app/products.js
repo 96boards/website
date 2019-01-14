@@ -39,7 +39,7 @@ if($('.mixitup-container').length) {
 
 
 $(window).on('load', function () {
-    $(".checkbox").change(function () {
+    $(".board-checkbox").change(function () {
         if (this.checked) {
             console.log($(this).data("board"));
         }
