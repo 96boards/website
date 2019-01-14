@@ -35,12 +35,13 @@ if($('.mixitup-container').length) {
         mixer.filter(this.value);
     });
 }
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip({container: 'body'});
-    if($("#compare-table").length > 0){
-        $('.pane-hScroll').scroll(function () {
-            $('.pane-vScroll').width($('.pane-hScroll').width() + $('.pane-hScroll').scrollLeft());
-        });
-    } 
-});
 
+
+
+$(window).on('load', function () {
+    $(".checkbox").change(function () {
+        if (this.checked) {
+            console.log($(this).data("board"));
+        }
+    });
+});
