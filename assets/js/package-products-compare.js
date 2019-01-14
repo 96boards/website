@@ -1,5 +1,6 @@
 //= require vendor/jquery
 //= require vendor/bootstrap
+//= require vendor/bootstrap-multiselect
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/featherlight
