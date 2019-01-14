@@ -1,10 +1,6 @@
 $(window).on('load', function () {
     // Enabled the multiselect plugin
     $("#compare-96boards-select").multiselect();
-
-
-
-
     // Get URL param function
     function getUrlVars()
     {
@@ -19,20 +15,27 @@ $(window).on('load', function () {
         return vars;
     }
     // Get all the Url Vars
-    var params = getUrlVars();
+    var boardParams = getUrlVars()["boards"].split(",");
     var validBoards = [];
     // Get vars from table
     $("th.board").each(function(){
         validBoards.push($(this).data("board"));
     });
-    console.log(validBoards);
+    $.each(boardParams, function(index, value){
+        if($.inArray(value, validBoards)){
+            var boardSelector = "[data-board='" + value + "']";
+            console.log(boardSelector);
+            $(boardSelector).css("display","table-cell");
+        }
+    });
 });
 
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip({container: 'body'});
-    if($("#compare-table").length > 0){
-        $('.pane-hScroll').scroll(function () {
-            $('.pane-vScroll').width($('.pane-hScroll').width() + $('.pane-hScroll').scrollLeft());
-        });
-    } 
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+
+$(window).on("scroll", function(){
+    if(isOverflown($("#compare-table"))){
+        $(".double-scroll").doubleScroll();
+    }
 });
