@@ -57,7 +57,7 @@ $(window).on('load', function () {
             }
         }
     });
-    $("#compare-boards-btn").on("click", function(){
+    $(".compare-boards-btn").on("click", function(){
         // Url to add to compare button
         var compareBoardsUrl = "/products/compare/?boards=";
         // Empty the board list
@@ -79,7 +79,5 @@ $(window).on('load', function () {
         $("#compare-btn").attr("href", compareBoardsUrl);
         // Toggle the modal
         $("#compare-boards-modal").modal("show");
-        console.log("Comparing the following boards:");
-        console.log(selectedBoards);
     });
 });
