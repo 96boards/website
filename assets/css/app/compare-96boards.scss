@@ -86,3 +86,29 @@ button.btn.btn-default.multiselect-clear-filter:hover {
     background-color: #544492;
     color:black;
 }
+// Board prices
+span.left {
+    background-color: #333333;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+span.right {
+    background-color: #564693;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+.item-purchase-link {
+    width: auto;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+tr:hover > td{
+    background-color:#d0d0d0;
+}
