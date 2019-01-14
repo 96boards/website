@@ -57,13 +57,22 @@ $(window).on('load', function () {
             }
         }
     });
-    $(".compare-boards-btn").on("click", function(){
+    // define a handler
+    function doc_keyUp(e) {
+
+        // this would test for whichever key is 40 and the ctrl key at the same time
+        if (e.keyCode == 16 && e.keycode == 17 && e.keyCode == 40) {
+            // call your function to do the thing
+            compareBoards(selectedBoards, selectedBoards);
+        }
+    }
+    function compareBoards(selectedBoards, selectedBoardsTitles){
         // Url to add to compare button
         var compareBoardsUrl = "/products/compare/?boards=";
         // Empty the board list
         $(".boards-to-compare").empty();
         $(".boards-to-compare").append("No 96Boards currently selected!");
-        if(selectedBoards.length > 0 ){
+        if (selectedBoards.length > 0) {
             $(".boards-to-compare").empty();
             // Add the selected boards to the url
             $.each(selectedBoards, function (index, value) {
@@ -83,5 +92,10 @@ $(window).on('load', function () {
         }
         // Toggle the modal
         $("#compare-boards-modal").modal("show");
+    }
+    // register the handler 
+    document.addEventListener('keyup', doc_keyUp, false);
+    $(".compare-boards-btn").on("click", function(){
+       compareBoards(selectedBoards, selectedBoardsTitles);
     });
 });
