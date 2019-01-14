@@ -32,12 +32,13 @@ css-package: products
 		{% endunless %}
 	{% endif %}
 {% endfor %}
+
 <div id="compare-table">
     <table>
         <thead>
             <th>Atrributes</th>
             {% for board in products_array %}
-                <th data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
+                <th data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
             {% endfor %}
         </thead>
         <tbody>
@@ -49,13 +50,13 @@ css-package: products
                         {% assign found = "false" %}
                         {% for each in board-details.attributes %}
                             {% if each.name == attr %}
-                                <td data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value}}</td>
+                                <td data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value | replace: '"', '' }}</td>
                                 {% assign found = "true" %}
                                 {% break %}
                             {% endif %}
                         {% endfor %}
                         {% if found == "false" %}
-                            <td> - </td>
+                            <td data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}"> - </td>
                         {% endif  %}
                     {% endfor %}
                 </tr>
