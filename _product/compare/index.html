@@ -72,7 +72,9 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
         <thead>
             <th>Atrributes</th>
             {% for board in products_array %}
-                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</th>
+                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
+                    {{board.title}} <a class="btn btn-default" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                </th>
             {% endfor %}
         </thead>
         <tbody>
