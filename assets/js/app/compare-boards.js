@@ -2,6 +2,19 @@ $(window).on('load', function () {
     // Enabled the multiselect plugin
     $("#compare-96boards-select").multiselect({
         nonSelectedText: 'Select 96Boards',
+        includeSelectAllOption: true,
+        nSelectedText: ' boards selected',
+        selectAllText: 'Compare all 96Boards',
+        onSelectAll: function () {
+            $("[data-board]").each(function(){
+                $(this).css("display", "table-cell");
+            });
+        },
+        onDeselectAll: function () {
+            $("[data-board]").each(function(){
+                $(this).css("display", "none");
+            });
+        },
         enableCollapsibleOptGroups: true,
         onChange: function (option, checked, select) {
             if(checked == true){
