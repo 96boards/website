@@ -361,6 +361,9 @@ img.filter-thumbnail {
     margin: auto;
     object-fit: contain;
 }
+button.btn.btn-primary.dropdown-toggle.btn-buy:hover {
+    border-color:#329062;
+}
 a.btn.btn-buy {
     background-color: white;
     border: 2px solid #000;
@@ -374,6 +377,7 @@ button.btn.btn-primary.dropdown-toggle.btn-buy {
 }
 a.btn.btn-buy:hover {
     background-color: black;
+
     color: white !important;
 }
 .row.ai-footer {
