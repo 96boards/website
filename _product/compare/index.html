@@ -73,7 +73,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
             <th>Atrributes</th>
             {% for board in products_array %}
                 <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                    {{board.title}} <a class="btn btn-default" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                    {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
                 </th>
             {% endfor %}
         </thead>
@@ -86,7 +86,8 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                         {% assign found = "false" %}
                         {% for each in board-details.attributes %}
                             {% if each.name == attr %}
-                                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value | replace: '"', '' }}</td>
+                                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
+                                 class="data">{{each.value | replace: '"', '' }}</td>
                                 {% assign found = "true" %}
                                 {% break %}
                             {% endif %}
