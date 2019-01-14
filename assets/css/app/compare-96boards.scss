@@ -6,3 +6,14 @@ th.board {display: none;}
 div#compare-boards-modal {
     z-index: 999999;
 }
+ul.boards-to-compare {
+    padding-left: 0;
+}
+#compare-boards-modal a.btn.btn-default {
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+}
+label.checkbox {
+    text-align: left;
+}
