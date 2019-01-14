@@ -9,6 +9,9 @@ div#compare-boards-modal {
 ul.boards-to-compare {
     padding-left: 0;
 }
+#compare-table i.fa.fa-times {
+    float: right;
+}
 #compare-boards-modal a.btn.btn-default {
     border-radius: 0px;
     color: black;

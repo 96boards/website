@@ -91,7 +91,7 @@ $background_color_6: #333333;
 }
 .dropdown-container.btn-group {
 	a.btn-read-more {
-		width: 60%;
+		width: 50%;
 		height: 42px;
 		transition: all .5s ease;
 		&:hover {
@@ -124,15 +124,25 @@ $background_color_6: #333333;
 		}
 	}
 }
+.product-title h5 {
+    height: 20px;
+}
+#wrapper input.board-checkbox {
+    margin: auto auto;
+    position: relative;
+    width: 10%;
+    float:right;
+    top: 10px;
+}
 .product-short-description {
-	min-height: 105px;
     height: auto;
     text-align: center;
-	font-size: 12px;
-	font-style: italic;
-	line-height: 18px;
-	padding: 10px;
-	min-height: 117px;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
 }
 .button-icon {
 	vertical-align: middle;
