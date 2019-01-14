@@ -40,24 +40,30 @@ if($('.mixitup-container').length) {
 
 $(window).on('load', function () {
     var selectedBoards = [];
+    var selectedBoardsTitles = [];
     $(".board-checkbox").change(function () {
-        var board = $(this).data("board");
+        var boardUid = $(this).data("board");
+        var boardTitle = $(this).data("board-title");
         if (this.checked) {
-            if($.inArray(board, selectedBoards) === -1){
-                selectedBoards.push(board);
+            if ($.inArray(boardUid, selectedBoards) === -1){
+                selectedBoards.push(boardUid);
+                selectedBoardsTitles.push(boardTitle);
             }
         }
         else{
-            if ($.inArray(board, selectedBoards) != -1) {
-                selectedBoards.splice($.inArray(board, selectedBoards), 1);
+            if ($.inArray(boardUid, selectedBoards) != -1) {
+                selectedBoards.splice($.inArray(boardUid, selectedBoards), 1);
+                selectedBoardsTitles.splice($.inArray(boardTitle, selectedBoards), 1);
             }
         }
     });
     $("#compare-boards-btn").on("click", function(){
-        var compareBoardsUrl = "/products/compare/?board=";
-        // Add the selected boards to the modal list
+        // Url to add to compare button
+        var compareBoardsUrl = "/products/compare/?boards=";
+        // Empty the board list
+        $(".boards-to-compare").empty();
+        // Add the selected boards to the url
         $.each(selectedBoards, function(index,value){
-            $(".boards-to-compare").append("<li class='list-group-item'>" + value + "</li>");
             var isLastElement = index == selectedBoards.length -1;
             if (isLastElement) {
                 compareBoardsUrl = compareBoardsUrl + value;
@@ -65,6 +71,9 @@ $(window).on('load', function () {
             else{
                 compareBoardsUrl = compareBoardsUrl + value + ",";
             }
+        });
+        $.each(selectedBoardsTitles, function(index,value){
+            $(".boards-to-compare").append("<li class='list-group-item'>" + value + "</li>");
         });
         // Set the Get params for the compare boards button in the modal
         $("#compare-btn").attr("href", compareBoardsUrl);
