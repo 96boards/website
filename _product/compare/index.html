@@ -5,6 +5,36 @@ layout: jumbotron-container
 css-package: products
 js-package: products-compare
 ---
+<select id="compare-96boards-select" multiple="multiple">
+    <optgroup label="Consumer Edition" class="consumer-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ce" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="Enterprise Edition" class="enterprise-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ee" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="IoT Edition" class="iot-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ie" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="Mezzanine Edition" class="mezzanine-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "mezzanine" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+</select>
 {% assign products_array = site.product | ascending %}
 {% assign products_array = products_array | where: "display_product", "true" %}
 
@@ -33,38 +63,6 @@ js-package: products-compare
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-
-<select id="compare-96boards-select" multiple="multiple">
-    <optgroup label="Consumer Edition" class="consumer-edition-group">
-        {% assign products_array = site.product | where: "product_specification", "ce" %}
-        {% assign products_array = products_array | where: "display_product", "true" %}
-        {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}" selected="selected">{{product.title}}</option>
-        {% endfor %}
-    </optgroup>
-    <optgroup label="Enterprise Edition" class="enterprise-edition-group">
-        {% assign products_array = site.product | where: "product_specification", "ee" %}
-        {% assign products_array = products_array | where: "display_product", "true" %}
-        {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}" selected="selected">{{product.title}}</option>
-        {% endfor %}
-    </optgroup>
-    <optgroup label="IoT Edition" class="iot-edition-group">
-        {% assign products_array = site.product | where: "product_specification", "iot" %}
-        {% assign products_array = products_array | where: "display_product", "true" %}
-        {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}" selected="selected">{{product.title}}</option>
-        {% endfor %}
-    </optgroup>
-    <optgroup label="Mezzanine Edition" class="mezzanine-edition-group">
-        {% assign products_array = site.product | where: "product_specification", "mezzanine" %}
-        {% assign products_array = products_array | where: "display_product", "true" %}
-        {% for product in products_array %}
-        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}" selected="selected">{{product.title}}</option>
-        {% endfor %}
-    </optgroup>
-</select>
-
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
