@@ -24,7 +24,6 @@ $(window).on('load', function () {
     $.each(boardParams, function(index, value){
         if($.inArray(value, validBoards)){
             var boardSelector = "[data-board='" + value + "']";
-            console.log(boardSelector);
             $(boardSelector).css("display","table-cell");
         }
     });
