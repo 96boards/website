@@ -4,6 +4,9 @@ function isOverflown(element) {
 }
 
 $(window).on('load', function () {
+    // Enabled all tooltips
+    $('[data-toggle="tooltip"]').tooltip();
+    // Check if table is overflown
     if (isOverflown(document.getElementById("compare-table"))) {
         $(".double-scroll").doubleScroll();
     }
