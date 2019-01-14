@@ -1,4 +1,10 @@
 $(window).on('load', function () {
+    // Enabled the multiselect plugin
+    $("#compare-96boards-select").multiselect();
+
+
+
+
     // Get URL param function
     function getUrlVars()
     {
