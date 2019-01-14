@@ -83,19 +83,21 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                 {% for board in products_array %}
                     {% assign product-url = board.permalink | split: "/" %}
                     <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
-                        {% capture image_path
-                        %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
-                        {% capture full_path
-                        %}../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
-                        {% responsive_image_block %}
-                        template: _includes/thumb.html
-                        path: {{ image_path }}
-                        fullpath: {{ full_path }}
-                        {% if board.title %}
-                        title: {{ board.title}}
-                        alt: {{ board.title }}
-                        {% endif %}
-                        {% endresponsive_image_block %}
+                        <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}">
+                            {% capture image_path
+                            %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
+                            {% capture full_path
+                            %}../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
+                            {% responsive_image_block %}
+                            template: _includes/thumb.html
+                            path: {{ image_path }}
+                            fullpath: {{ full_path }}
+                            {% if board.title %}
+                            title: {{ board.title}}
+                            alt: {{ board.title }}
+                            {% endif %}
+                            {% endresponsive_image_block %}
+                        </a>
                     </td>
                 {% endfor %}
             </tr>
@@ -104,24 +106,27 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                 {% for board in products_array %}
                 <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
                     {% for buy_link in board.product_buy_links %}
-                    <div class="item-purchase-link" {% if buy_link.from %}data-toggle="tooltip" data-placement="top" title="Buy from {{buy_link.from}}"{% endif %}>
-                        <a href="{{ buy_link.link-url }}">
-                            <span class="left">
-                                {% if buy_link.type == "package" %}Package Deal{% endif %}
-                                {% if buy_link.type == "board" %}Board{% endif %}
-                            </span>
-                            {% if buy_link.link-price %}
-                            <span class="right">
-                                {% if buy_link.link-price-currency %}
-                                {% if buy_link.link-price-currency == "JPY" %}JP&yen;
-                                {% else %}
-                                {{buy_link.link-price-currency}}
+                    <div class="block">
+                        <div class="item-purchase-link" {% if buy_link.from %}data-toggle="tooltip" data-placement="top" title="Buy from {{buy_link.from}}"
+                            {% endif %}>
+                            <a href="{{ buy_link.link-url }}">
+                                {% if buy_link.link-price %}
+                                <span class="left">
+                                    {% if buy_link.link-price-currency %}
+                                    {% if buy_link.link-price-currency == "JPY" %}JP&yen;
+                                    {% else %}
+                                    {{buy_link.link-price-currency}}
+                                    {% endif %}
+                                    {% endif %}
+                                    {{buy_link.link-price}}
+                                </span>
                                 {% endif %}
-                                {% endif %}
-                                {{buy_link.link-price}}
-                            </span>
-                            {% endif %}
-                        </a>
+                                <span class="right">
+                                    {% if buy_link.type == "package" %}Package Deal{% endif %}
+                                    {% if buy_link.type == "board" %}Board{% endif %}
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     {% endfor %}
                 </td>
