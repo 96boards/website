@@ -1,5 +1,5 @@
 ---
-title: Sophon edge
+title: Sophon Edge
 layout: ai-product
 permalink: /product/sophon-edge/ai/
 shortname: sophon-edge
