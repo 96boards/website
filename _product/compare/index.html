@@ -64,12 +64,15 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
 		{% endunless %}
 	{% endif %}
 {% endfor %}
+<p>
+    See any issues? Then please feel free to submit a PR after changing <a href="{{page.edit-link}}">this file</a>.
+</p>
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
             <th>Atrributes</th>
             {% for board in products_array %}
-                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}} <a href="{{page.edit-link}}"><i class="fa fa-github"></i></a></th>
+                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</th>
             {% endfor %}
         </thead>
         <tbody>
