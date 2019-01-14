@@ -39,9 +39,22 @@ if($('.mixitup-container').length) {
 
 
 $(window).on('load', function () {
+    var selectedBoards = [];
     $(".board-checkbox").change(function () {
+        var board = $(this).data("board");
         if (this.checked) {
-            console.log($(this).data("board"));
+            if($.inArray(board, selectedBoards) === -1){
+                selectedBoards.push(board);
+            }
         }
+        else{
+            if ($.inArray(board, selectedBoards) != -1) {
+                selectedBoards.splice($.inArray(board, selectedBoards), 1);
+            }
+        }
+    });
+    $("#compare-boards-btn").on("click", function(){
+        console.log("Comparing the following boards:");
+        console.log(selectedBoards);
     });
 });
