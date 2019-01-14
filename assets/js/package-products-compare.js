@@ -6,5 +6,5 @@
 
 //= require app/main
 //= requrie app/search
-//= require app/products-compare
+//= require app/compare-boards
 //= require app/custom
