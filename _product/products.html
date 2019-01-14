@@ -90,7 +90,7 @@ seo:
                 <div class="product-short-description">
                     {{ product.product_short_desc | slice: 0, 50 }}...
                 </div>
-                <div class="checkbox {{board.url | replace: "/product/", "" | replace: "/", ""}}">
+                <div class="checkbox" data-board="board-checkbox {{board.url | replace: "/product/", "" | replace: "/", ""}}">
                     <label>
                         Compare
                     </label>
