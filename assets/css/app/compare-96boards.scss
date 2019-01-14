@@ -1,4 +1,5 @@
 // Set all boards to display none
-[data-board*="board"] {display: none;}
+td.board {display: none;}
+th.board {display: none;}
 // [data-board*="dragonboard410c"] {display: table-cell;}
 // [data-board*="ultra96"] {display: table-cell;}
