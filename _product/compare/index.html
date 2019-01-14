@@ -39,7 +39,7 @@ js-package: products-compare
         <thead>
             <th>Atrributes</th>
             {% for board in products_array %}
-                <th data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
+                <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"><a href="{{board.url}}">{{board.title}}</a></th>
             {% endfor %}
         </thead>
         <tbody>
@@ -51,13 +51,13 @@ js-package: products-compare
                         {% assign found = "false" %}
                         {% for each in board-details.attributes %}
                             {% if each.name == attr %}
-                                <td data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value | replace: '"', '' }}</td>
+                                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data" data-toggle="tooltip" data-placement="top" title="{{each.value}}">{{each.value | replace: '"', '' }}</td>
                                 {% assign found = "true" %}
                                 {% break %}
                             {% endif %}
                         {% endfor %}
                         {% if found == "false" %}
-                            <td data-board="board {{board.url | replace: "/product/", "" | replace: "/", ""}}"> - </td>
+                            <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"> - </td>
                         {% endif  %}
                     {% endfor %}
                 </tr>
