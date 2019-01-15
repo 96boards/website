@@ -70,7 +70,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
-            <th>Atrributes</th>
+            <th class="attr">Atrributes</th>
             {% for board in products_array %}
                 <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                     {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
@@ -79,7 +79,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
         </thead>
         <tbody>
             <tr>
-                <td> Image </td>
+                <td class="attr"> Image </td>
                 {% for board in products_array %}
                     {% assign product-url = board.permalink | split: "/" %}
                     <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
@@ -102,7 +102,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                 {% endfor %}
             </tr>
             <tr>
-                <td> Price </td>
+                <td class="attr"> Price </td>
                 {% for board in products_array %}
                 <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
                     {% for buy_link in board.product_buy_links %}
@@ -135,7 +135,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                         
             {% for attr in tags %}
                 <tr>
-                    <td>{{attr}}</td>
+                    <td class="attr">{{attr}}</td>
                     {% for board in products_array %}
                         {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                         {% assign found = "false" %}
