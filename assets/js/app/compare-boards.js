@@ -1,15 +1,6 @@
-
-function isOverflown(element) {
-    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
-}
-
 $(window).on('load', function () {
     // Enabled all tooltips
     $('[data-toggle="tooltip"]').tooltip();
-    // Check if table is overflown
-    if (isOverflown(document.getElementById("compare-table"))) {
-        $(".double-scroll").doubleScroll();
-    }
     // Enabled the multiselect plugin
     $("#compare-96boards-select").multiselect({
         nonSelectedText: 'Select 96Boards',
@@ -30,15 +21,16 @@ $(window).on('load', function () {
         },
         enableCollapsibleOptGroups: true,
         onChange: function (option, checked, select) {
-            if (isOverflown(document.getElementById("compare-table"))) {
-                $(".double-scroll").doubleScroll();
-            }
             if(checked == true){
                 $("[data-board='" + $(option).val() + "'").css("display", "table-cell");
             }
             else{
                 $("[data-board='" + $(option).val() + "'").css("display", "none");
             }
+            $(".double-scroll").doubleScroll({
+                resetOnWindowResize: true,
+                onlyIfScroll: true
+            });
         }
     });
     // Get URL param function
@@ -90,10 +82,9 @@ $(window).on('load', function () {
             }
         });
     }
-});
-
-$(window).on("scroll", function(){
-    if(isOverflown(document.getElementById("compare-table"))){
-        $(".double-scroll").doubleScroll();
-    }
+    // Enable double scroll bars on table
+    $(".double-scroll").doubleScroll({
+        resetOnWindowResize: true,
+        onlyIfScroll: true
+    });
 });
