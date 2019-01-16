@@ -79,8 +79,8 @@ pages:
       options:
           - text: Services
             url: /services/
-          - text: Join our Slack!
-            url: http://link.linaro.org/96Boards-slack
+          - text: Join our Discord!
+            url: https://discord.gg/CJ5vhKT
             external: true
           - text: Discussion Forum
             url: https://discuss.96boards.org/
