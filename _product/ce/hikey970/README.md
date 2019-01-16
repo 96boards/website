@@ -12,6 +12,8 @@ tab_menu:
     - tab_title: HiKey970
       tab_link: /product/hikey970/
       active: true
+    - tab_title: AI
+      tab_link: /product/hikey970/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/hikey970/getting-started/
     - tab_title: Documentation
