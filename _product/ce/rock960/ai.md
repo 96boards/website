@@ -11,8 +11,8 @@ product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
 tab_menu:
     - tab_title: Rock960
       tab_link: /product/rock960/
-    - tab_title: AI
       active: true
+    - tab_title: AI
       tab_link: /product/rock960/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
