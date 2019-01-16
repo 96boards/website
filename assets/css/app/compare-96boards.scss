@@ -117,3 +117,7 @@ tr:hover > td{
     color: #333333;
     border-color: #c5c5c5;
 }
+#wrapper td.attr {
+    background-color: $brand-primary;
+    color: white;
+}
