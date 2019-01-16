@@ -81,6 +81,8 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
+  - title: More...
+    link: /products/accessories/
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -90,10 +92,13 @@ product_mezzanine:
     link: /product/uartserial/
   - title: Sensors Mezzanine
     link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
+  - title: More...
+    link: /products/mezzanine/
 product_kits:
-  - title: Coming Soon...
+  - title: Delta Camera Kit
+    link: /documentation/consumer/ultra96/kits/delta-camera.md.html
+  - title: More...
+    link: /documentation/consumer/ultra96/kits/
 product: true
 ---
 Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.

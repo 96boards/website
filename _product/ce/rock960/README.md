@@ -18,15 +18,14 @@ tab_menu:
     - tab_title: Rock960 (Vamrs)
       tab_link: /product/rock960/
       active: true
+    - tab_title: AI
+      tab_link: /product/rock960/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
-      tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/consumer/rock960/
-      tab_position: 2
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/rock960/
-      tab_position: 4
       tab_align_right: true
 product_buy_links:
   -
