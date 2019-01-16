@@ -121,9 +121,8 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                                     {{buy_link.link-price}}
                                 </span>
                                 {% endif %}
-                                <span class="right">
-                                    {% if buy_link.type == "package" %}Package Deal{% endif %}
-                                    {% if buy_link.type == "board" %}Board{% endif %}
+                                {% if buy_link.type == "package" %}<span class="right">Package Deal</span>{% endif %}
+                                {% if buy_link.type == "board" %}<span class="right">Board</span>{% endif %}
                                 </span>
                             </a>
                         </div>
