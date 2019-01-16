@@ -26,6 +26,8 @@ pages:
           - text: News
             url: /news/
     - title: Products
+      active_paths:
+        - /product/
       options:
           - text: All Boards
             url: /products/
