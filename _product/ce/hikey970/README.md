@@ -12,12 +12,12 @@ tab_menu:
     - tab_title: HiKey970
       tab_link: /product/hikey970/
       active: true
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/hikey970/getting-started/
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey970/
-      tab_position: 1
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/hikey970
-      tab_position: 2
       tab_align_right: true
 featured_product_order: 1
 is_featured: true
