@@ -1,6 +1,6 @@
 ---
 title: Compare 96Boards
-permalink: /product/compare/
+permalink: /products/compare/
 layout: jumbotron-container
 css-package: products
 js-package: products-compare
@@ -87,7 +87,7 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
                             {% capture image_path
                             %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
                             {% capture full_path
-                            %}../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
+                            %}../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
                             {% responsive_image_block %}
                             template: _includes/thumb.html
                             path: {{ image_path }}
