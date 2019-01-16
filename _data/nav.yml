@@ -38,7 +38,7 @@ pages:
           - text: Mezzanine Products
             url: /products/mezzanine/
           - text: Compare 96Boards
-            url: /products/compare/
+            url: /product/compare/
           - text: Accessories
             url: /products/accessories/
     - title: Projects
