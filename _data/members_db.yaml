@@ -2,159 +2,159 @@ members:
     steering_committee:
           - name: Actions
             image: actions.jpg
-            url: https://www.linaro.org/company/actions/
+            url: https://www.linaro.org/membership/actions/
           - name: Advantech
             image: advantech.jpg
-            url: https://www.linaro.org/company/advantech/
+            url: https://www.linaro.org/membership/advantech/
           - name: Arm
             image: arm.jpg
-            url: https://www.linaro.org/company/arm/
+            url: https://www.linaro.org/membership/arm/
           - name: Arrow Electronics
             image: arrow.jpg
-            url: https://www.linaro.org/company/arrow/
+            url: https://www.linaro.org/membership/arrow/
           - name: Analog Devices
             image: adi.png
             padded: padded-member-md
-            url: https://www.linaro.org/company/analog-devices/
+            url: https://www.linaro.org/membership/analog-devices/
           - name: Bitmain
             image: bitmain_logo.png
             padded: padded-member-md
-            url: https://www.linaro.org/company/bitmain/
+            url: https://www.linaro.org/membership/bitmain/
           - name: Google
             image: google.png
-            url: https://www.linaro.org/company/google/
+            url: https://www.linaro.org/membership/google/
           - name: Hisilicon
             image: hisilicon.jpg
-            url: https://www.linaro.org/company/hisilicon/
+            url: https://www.linaro.org/membership/hisilicon/
           - name: HopeRun
             image: hoperun.jpg
-            url: https://www.linaro.org/company/hoperun/
+            url: https://www.linaro.org/membership/hoperun/
           - name: MediaTek
             image: mediatek.jpg
-            url: https://www.linaro.org/company/mediatek/
+            url: https://www.linaro.org/membership/mediatek/
           - name: Mstar
             image: mstar.png
-            url: https://www.linaro.org/company/mstar/
+            url: https://www.linaro.org/membership/mstar/
           - name: NXP
             image: nxp.jpg
-            url: https://www.linaro.org/company/nxp/
+            url: https://www.linaro.org/membership/nxp/
           - name: Redhat
             image: redhat.jpg
-            url: https://www.linaro.org/company/red-hat/
+            url: https://www.linaro.org/membership/red-hat/
           - name: Rockchip
             image: rockchip.png
             url: http://www.rock-chips.com
           - name: Socionext
             image: socionext.png
-            url: https://www.linaro.org/company/socionext/
+            url: https://www.linaro.org/membership/socionext/
           - name: SoftBank
             image: softbank.jpg
             url: https://www.softbank.jp/en/
           - name: SpreadTrum
             image: spreadtrum.png
-            url: https://www.linaro.org/company/spreadtrum/
+            url: https://www.linaro.org/membership/spreadtrum/
           - name: ST
             image: st.png
-            url: https://www.linaro.org/company/st/
+            url: https://www.linaro.org/membership/st/
           - name: Texas Instruments
             image: texas-instruments.png
-            url: https://www.linaro.org/company/texas-instruments/
+            url: https://www.linaro.org/membership/texas-instruments/
           - name: Tier IV
             image: tier4.png
             url: https://www.tier4.jp/
           - name: ThunderSoft
             image: thunder-soft.png
-            url: https://www.linaro.org/company/thundersoft/
+            url: https://www.linaro.org/membership/thundersoft/
           - name: Xilinx
             image: xilinx.jpg
-            url: https://www.linaro.org/company/xilinx/
+            url: https://www.linaro.org/membership/xilinx/
     manufacturing_partners:
         - name: Archer Mind
           image: archermind.jpg
-          url: https://www.linaro.org/company/archermind/
+          url: https://www.linaro.org/membership/archermind/
         - name: Arrow Electronics
           image: arrow.jpg
-          url: https://www.linaro.org/company/arrow/
+          url: https://www.linaro.org/membership/arrow/
         - name: Avnet
           padded: padded-member
           image: Avnet.png
-          url: https://www.linaro.org/company/avnet/
+          url: https://www.linaro.org/membership/avnet/
         - name: Black Whale Technology
           image: Blackwhale.png
-          url: https://www.linaro.org/company/blackwhale/
+          url: https://www.linaro.org/membership/blackwhale/
         - name: BPI
           image: bpi.jpg
-          url: https://www.linaro.org/company/bipai/
+          url: https://www.linaro.org/membership/bipai/
         - name: Deltavision
           image: deltavision.png
-          url: https://www.linaro.org/company/deltavision/
+          url: https://www.linaro.org/membership/deltavision/
         - name: Element 14
           image: element14.png
-          url: https://www.linaro.org/company/element14/
+          url: https://www.linaro.org/membership/element14/
         - name: Fab to Lab
           image: fab-to-lab.jpg
-          url: https://www.linaro.org/company/fab-to-lab/
+          url: https://www.linaro.org/membership/fab-to-lab/
         - name: Fujitsu Electronics
           image: fujitsu.jpg
-          url: https://www.linaro.org/company/fujitsu-electronics/
+          url: https://www.linaro.org/membership/fujitsu-electronics/
         - name: Global Scale
           image: globalscale.jpg
-          url: https://www.linaro.org/company/globalscale/
+          url: https://www.linaro.org/membership/globalscale/
         - name: Geniatech
           image: geniatech.jpg
           url: https://www.geniatech.com/
         - name: Gumstix
           image: gumstix.jpg
-          url: https://www.linaro.org/company/gumstix/
+          url: https://www.linaro.org/membership/gumstix/
         - name: Gigabyte
           image: gigabyte.jpg
-          url: https://www.linaro.org/company/gigabyte/
+          url: https://www.linaro.org/membership/gigabyte/
         - name: Hoperun
           image: hoperun.jpg
-          url: https://www.linaro.org/company/hoperun/
+          url: https://www.linaro.org/membership/hoperun/
         - name: Huaqin
           image: huaqin.jpg
-          url: https://www.linaro.org/company/huaqin/
+          url: https://www.linaro.org/membership/huaqin/
         - name: LeMaker
           image: lemaker.jpg
-          url: https://www.linaro.org/company/lemaker/
+          url: https://www.linaro.org/membership/lemaker/
         - name: NovTech
           image: novtech.jpg
           url: http://www.novtech.com/
         - name: Seeed
           image: seeed.png
-          url: https://www.linaro.org/company/seeed/
+          url: https://www.linaro.org/membership/seeed/
         - name: Shapedmedia
           image: shapedmedia.png
-          url: https://www.linaro.org/company/shapedmedia/
+          url: https://www.linaro.org/membership/shapedmedia/
         - name: Shiratech
           image: shiratech.png
           padded: padded-member-md
           url: http://www.shiratech.com
         - name: Thundersoft
           image: thunder-soft.png
-          url: https://www.linaro.org/company/thundersoft/
+          url: https://www.linaro.org/membership/thundersoft/
         - name: ToCoding
           image: tocoding.png
-          url: https://www.linaro.org/company/tocoding/
+          url: https://www.linaro.org/membership/tocoding/
         - name: UcRobotics
           image: ucrobotics.png
           padded: padded-member-md
-          url: https://www.linaro.org/company/ucrobotics/
+          url: https://www.linaro.org/membership/ucrobotics/
         - name: vamrs
           image: vamrs.jpg
-          url: https://www.linaro.org/company/vamrs/
+          url: https://www.linaro.org/membership/vamrs/
         - name: Witstek
           image: witstek.png
           # url: http://witstech.cn/
           padded: padded-member
         - name: Xunlong
           image: xunlong.png
-          url: https://www.linaro.org/company/xunlong/
+          url: https://www.linaro.org/membership/xunlong/
     mezzanine_partners:
         - name: Qwerty
           image: qwerty.png
-          url: https://www.linaro.org/company/qwerty/
+          url: https://www.linaro.org/membership/qwerty/
         - name: Rohm
           image: rohm.png
-          url: https://www.linaro.org/company/rohm/
+          url: https://www.linaro.org/membership/rohm/
