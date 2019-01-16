@@ -25,13 +25,13 @@ header-image: hikey970-front-sd-min.png
 footer-image: hikey970-back-sd-min.png
 product_specification: ce
 verticals:
-    - title: Machine Learning (Verticle 1)
+    - title: Machine Learning Verticle 1
       description: >-
           Provide Verticle Description
-    - title: Automotive (Verticle 2)
+    - title: Automotive Verticle 2
       description: >-
           Provide Verticle Description
-    - title: Industrial IoT (Verticle 3)
+    - title: Industrial IoT Verticle 3
       description: >-
           Provide Verticle Description
 call-to-action: Platform to build for Machine Learning / Automotive / Industrial IoT
