@@ -36,6 +36,7 @@ $(window).on('load', function () {
         });
     }
     if($(".compare-boards-btn").length){
+        $('[data-toggle="tooltip"]').tooltip();
         var selectedBoards = [];
         var selectedBoardsTitles = [];
         $(".board-checkbox").change(function () {
