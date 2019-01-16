@@ -55,6 +55,7 @@ secondary-verticals:
         - title: Caffe
           url: http://caffe.berkeleyvision.org/
 demos: ""
+documentation:
     - title: Hardware user guide
       url: https://www.96boards.org/documentation/consumer/rock/rock960/hardware-docs/hardware-user-manual.md.html
     - title: Board schematics Download
