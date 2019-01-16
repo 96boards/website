@@ -4,7 +4,6 @@ permalink: /products/compare/
 layout: jumbotron-container
 css-package: products
 js-package: products-compare
-edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_data/board-details.yml
 ---
 <select id="compare-96boards-select" multiple="multiple">
     <optgroup label="Consumer Edition" class="consumer-edition-group">
@@ -64,9 +63,6 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-<p>
-    See any issues with the data below? Then please feel free to submit a pull request on GitHub after ammending <a href="{{page.edit-link}}">this file</a>.
-</p>
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
