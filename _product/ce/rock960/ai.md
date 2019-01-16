@@ -25,13 +25,13 @@ header-image: rock960-front-sd.png
 footer-image: rock960-back-sd.png
 product_specification: ce
 verticals:
-    - title: Machine Learning verticle 1
+    - title: Machine Learning
       description: >-
           Give a description of how it applies to the verticle.
-    - title: Automotive verticle 2
+    - title: Automotive
       description: >-
           Give a description of how it applies to the verticle.
-    - title: Industrial IoT verticle 3
+    - title: Industrial IoT
       description: >-
           Give a description of how it applies to the verticle.
 call-to-action: Platform to build for Machine Learning / Automotive / Industrial IoT
