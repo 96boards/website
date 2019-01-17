@@ -7,11 +7,8 @@ css-package: projects
     {% include 96boards-tab-bar.html %}
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                {{content}}
-            </div>
             {% if page.images %}
-            <div class="col-md-4">
+            <div class="col-xs-12 col-md-4 col-md-push-8">
                 <div class="owl-carousel owl-theme" id="product-image">
                     {% for project_image in page.images %}
                         {% assign page-uri = page.permalink | split: "/" %}
@@ -35,6 +32,9 @@ css-package: projects
                 </div>
             </div>
             {% endif %}
+            <div class="col-sm-12 col-md-8 col-md-pull-4">
+                {{content}}
+            </div>
         </div>
     </div>
 </div>
