@@ -10,6 +10,8 @@ js-package: openhours
 
 <div class="col-md-6" markdown="1">
 
+<iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
+
 Coming Soon...
 
 <a href="https://www.arrow.com/en/campaigns/arrow-96-boards" class="btn blog-read-more-btn center-block">Arrow - Discover 96boards</a>
@@ -50,8 +52,6 @@ Coming Soon...
 </div>
 <div class="col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
-
-<iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
 
 ### When
 
