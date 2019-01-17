@@ -1,0 +1,123 @@
+// Set all boards to display none
+td.board {display: none;}
+th.board {display: none;}
+// [data-board*="dragonboard410c"] {display: table-cell;}
+// [data-board*="ultra96"] {display: table-cell;}
+div#compare-boards-modal {
+    z-index: 999999;
+}
+ul.boards-to-compare {
+    padding-left: 0;
+}
+#compare-table i.fa.fa-times {
+    float: right;
+    cursor:pointer;
+}
+li.multiselect-item.multiselect-all a {
+    background-color: black;
+}
+#compare-boards-modal a.btn.btn-default {
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+}
+label.checkbox {
+    text-align: left;
+}
+span.caret-container {
+    width: 100%;
+    display: inline-block;
+}
+
+li.multiselect-item.multiselect-group {
+    overflow: hidden;
+}
+
+#wrapper b.caret {
+    transform: scale(2);
+}
+
+li.multiselect-item.multiselect-group{
+    min-width: 225px;
+}
+
+// Search filter
+li.multiselect-item.multiselect-all a {
+    background-color: black;
+}
+
+li.multiselect-item.multiselect-filter:hover {
+    background-color:black;
+}
+li.multiselect-item.multiselect-filter .input-group {
+    background-color:black;
+    margin:0px;
+}
+
+li.multiselect-item.multiselect-filter span.input-group-addon {
+    background-color:black;
+    border:0;
+    border-radius:0px;
+    color:white;
+}
+
+input.form-control.multiselect-search {
+    background-color:black;
+    border:0;
+    color:white;
+}
+input.form-control.multiselect-search:focus {
+    outline:none;
+}
+
+button.btn.btn-default.multiselect-clear-filter {
+    background-color: black;
+    border:0;
+}
+button.btn.btn-default.multiselect-clear-filter:hover {
+    background-color: black;
+    border:0;
+    color:#32917a;
+}
+#compare-table a.btn.btn-default.btn-xs {
+    background-color: #544492;
+}
+#compare-table a.btn.btn-default.btn-xs:hover {
+    background-color: #544492;
+    color:black;
+}
+// Board prices
+span.left {
+    background-color: #333333;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+span.right {
+    background-color: #564693;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+.item-purchase-link {
+    width: auto;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+tr:hover > td{
+    background-color:#d0d0d0;
+}
+.compare-boards-btn {
+    background-color: #f5f5f5;
+    color: #333333;
+    border-color: #c5c5c5;
+}
+#wrapper td.attr {
+    background-color: $brand-primary;
+    color: white;
+}
