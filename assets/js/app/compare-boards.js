@@ -1,27 +1,20 @@
-
-function isOverflown(element) {
-    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
-}
-
 $(window).on('load', function () {
     // Enabled all tooltips
     $('[data-toggle="tooltip"]').tooltip();
-    // Check if table is overflown
-    if (isOverflown(document.getElementById("compare-table"))) {
-        $(".double-scroll").doubleScroll();
-    }
     // Enabled the multiselect plugin
     $("#compare-96boards-select").multiselect({
         nonSelectedText: 'Select 96Boards',
         includeSelectAllOption: true,
         enableFiltering: true,
+        enableCaseInsensitiveFiltering: true,
         nSelectedText: ' boards selected',
         allSelectedText: 'All 96Boards',
         selectAllText: 'Compare all 96Boards',
         onSelectAll: function () {
+            $(".double-scroll").doubleScroll({
+            });
             $("[data-board]").each(function(){
                 $(this).css("display", "table-cell");
-            });
         },
         onDeselectAll: function () {
             $("[data-board]").each(function(){
@@ -30,15 +23,16 @@ $(window).on('load', function () {
         },
         enableCollapsibleOptGroups: true,
         onChange: function (option, checked, select) {
-            if (isOverflown(document.getElementById("compare-table"))) {
-                $(".double-scroll").doubleScroll();
-            }
             if(checked == true){
                 $("[data-board='" + $(option).val() + "'").css("display", "table-cell");
             }
             else{
                 $("[data-board='" + $(option).val() + "'").css("display", "none");
             }
+            $(".double-scroll").doubleScroll({
+                resetOnWindowResize: true,
+                onlyIfScroll: true
+            });
         }
     });
     // Get URL param function
@@ -63,7 +57,11 @@ $(window).on('load', function () {
     // Check to see if there are in boards in GET params
     if (typeof getUrlVars()["boards"] === 'undefined'){
         // If not then select all boards
-        $("#compare-96boards-select").multiselect('selectAll', true);
+        $("#compare-96boards-select").multiselect('selectAll', false);
+        $('#compare-96boards-select').multiselect('updateButtonText', "All 96Boards");
+        $("[data-board]").each(function () {
+            $(this).css("display", "table-cell");
+        });
     }
     else {
         // parse the boards param and display boards
@@ -90,10 +88,9 @@ $(window).on('load', function () {
             }
         });
     }
-});
-
-$(window).on("scroll", function(){
-    if(isOverflown(document.getElementById("compare-table"))){
-        $(".double-scroll").doubleScroll();
-    }
+    // Enable double scroll bars on table
+    $(".double-scroll").doubleScroll({
+        resetOnWindowResize: true,
+        onlyIfScroll: true
+    });
 });

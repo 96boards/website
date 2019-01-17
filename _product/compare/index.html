@@ -4,7 +4,6 @@ permalink: /products/compare/
 layout: jumbotron-container
 css-package: products
 js-package: products-compare
-edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_data/board-details.yml
 ---
 <select id="compare-96boards-select" multiple="multiple">
     <optgroup label="Consumer Edition" class="consumer-edition-group">
@@ -64,13 +63,10 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-<p>
-    See any issues? Then please feel free to submit a PR after changing <a href="{{page.edit-link}}">this file</a>.
-</p>
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
-            <th>Atrributes</th>
+            <th class="attr">Atrributes</th>
             {% for board in products_array %}
                 <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                     {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
@@ -78,9 +74,63 @@ edit-link: https://github.com/kylekirkby/website/blob/feature/compare-96boards/_
             {% endfor %}
         </thead>
         <tbody>
+            <tr>
+                <td class="attr"> Image </td>
+                {% for board in products_array %}
+                    {% assign product-url = board.permalink | split: "/" %}
+                    <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
+                        <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}">
+                            {% capture image_path
+                            %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
+                            {% capture full_path
+                            %}../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
+                            {% responsive_image_block %}
+                            template: _includes/thumb.html
+                            path: {{ image_path }}
+                            fullpath: {{ full_path }}
+                            {% if board.title %}
+                            title: {{ board.title}}
+                            alt: {{ board.title }}
+                            {% endif %}
+                            {% endresponsive_image_block %}
+                        </a>
+                    </td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td class="attr"> Price </td>
+                {% for board in products_array %}
+                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
+                    {% for buy_link in board.product_buy_links %}
+                    <div class="block">
+                        <div class="item-purchase-link" {% if buy_link.from %}data-toggle="tooltip" data-placement="top" title="Buy from {{buy_link.from}}"
+                            {% endif %}>
+                            <a href="{{ buy_link.link-url }}">
+                                {% if buy_link.link-price %}
+                                <span class="left">
+                                    {% if buy_link.link-price-currency %}
+                                    {% if buy_link.link-price-currency == "JPY" %}JP&yen;
+                                    {% else %}
+                                    {{buy_link.link-price-currency}}
+                                    {% endif %}
+                                    {% endif %}
+                                    {{buy_link.link-price}}
+                                </span>
+                                {% endif %}
+                                {% if buy_link.type == "package" %}<span class="right">Package Deal</span>{% endif %}
+                                {% if buy_link.type == "board" %}<span class="right">Board</span>{% endif %}
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </td>
+                {% endfor %}
+            </tr>
+                        
             {% for attr in tags %}
                 <tr>
-                    <td>{{attr}}</td>
+                    <td class="attr">{{attr}}</td>
                     {% for board in products_array %}
                         {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                         {% assign found = "false" %}

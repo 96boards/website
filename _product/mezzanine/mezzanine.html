@@ -3,6 +3,7 @@ layout: container-breadcrumb-tabs
 title: Mezzanine Products
 permalink: "/products/mezzanine/"
 css-package: products
+js-package: products
 description: |-
     96Boards mezzanine products let you expand your Consumer Edition or Enterprise
     Edition 96Boards with new interfaces for IoT, industrial control, and other
@@ -21,7 +22,31 @@ specification-logo: 96Boards-Logo_Partner-small.png
           <img id="collection-image" class="img-responsive center-block hidden-sm hidden-xs" src="{% asset_path '{{ page.specification-logo }}'%}" alt="96Boards logo small.">
     </div>
 </div>
-
+<div class="btn-group">
+    <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown"
+        data-toggle="tooltip" data-placement="top" title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
+        Compare 96Boards
+    </button>
+</div>
+<div id="compare-boards-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Compare selected 96Boards</h4>
+            </div>
+            <div class="modal-body">
+                <p>Select boards by clicking the checkbox next to each board and press the "Compare" button below to
+                    compare your selected 96Boards!</p>
+                <ul class="boards-to-compare"></ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <a id="compare-btn" class="btn btn-primary" href="/products/compare/">Compare</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <div id="grid">
     {% assign products_array = site.product | where: "product_specification", "mezzanine"%}
     {% assign products_array =  products_array | where: "display_product", "true" %}
@@ -66,9 +91,10 @@ specification-logo: 96Boards-Logo_Partner-small.png
                               <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
                               {% endfor %}
                           </ul>
+                            <input type="checkbox" class="board-checkbox" data-board-specification="{{product.product_specification}}"
+                                data-board-title="{{product.title}}" data-board="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">
                         </div>
                     </div>
-
                     <div class="clearfix">
                     </div>
                 </div>
@@ -77,3 +103,7 @@ specification-logo: 96Boards-Logo_Partner-small.png
     {% endfor %}
     </div>
 </div>
+<button id="compare-boards-btn-2" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown"
+    data-toggle="tooltip" data-placement="top" title="Compare your selected 96Boards">
+    Compare 96Boards
+</button>
