@@ -3,10 +3,17 @@ title: Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/
-layout: container-breadcrumb-tabs
+layout: jumbotron
 css-package: about
 js-package: about
+jumbotron:
+    animation: fade
+    background-image: /assets/images/content/96boards-banner-5.jpg
 ---
+{% include sticky-tab-bar.html %}
+<div class="row">
+<div class="container" id="content-container" markdown="1">
+
 96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program. The following Compliance topics are covered in this document:
 
 1.  [Availability of Documentation](#Availability)
@@ -153,5 +160,8 @@ A 96Boards product **shall** provide at least one of the following distributions
 
 </div><!--End Tab Content-->
 </div><!--End Tabs-->
+
+</div>
+</div>
 
 {% include members.html %}

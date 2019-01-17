@@ -5,8 +5,16 @@ description: |-
 permalink: /membership/
 status: active
 css-package: members
-layout: container-breadcrumb-tabs
+layout: jumbotron
+jumbotron:
+    animation: fade
+    background-image: /assets/images/content/96boards-banner-4.jpg
 ---
+{% include sticky-tab-bar.html %}
+
+<div class="row">
+<div class="container" id="content-container" markdown="1">
+
 96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 
 Anyone can build and deliver products designed to the specification. Products using the 96Boards brand may be featured on the 96Boards.org website and supported on the 96Boards.org forums. These must meet certain standards including compliance testing (if required). Further information on 96Boards compliance is available on the [Compliance tab](/compliance/) of this page.
@@ -93,5 +101,8 @@ Community builds are 96Boards compliant builds created by the community and host
 
 
 <small id="SMALL_156">Issue 1.01 / Date February 9, 2016</small>
+
+</div>
+</div>
 
 {% include members.html %}

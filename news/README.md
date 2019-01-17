@@ -1,8 +1,18 @@
 ---
 title: News
 permalink: /news/
-layout: container-breadcrumb-tabs
+description: >
+    Here you can find all the latest news articles featuring 96Boards including Linaro press releases and external sources.
+layout: jumbotron
+jumbotron:
+    animation: fade
+    background-image: /assets/images/content/96boards-banner-3.jpg
 ---
+{% include sticky-tab-bar.html %}
+
+<div class="row">
+<div class="container" id="content-container" markdown="1">
+
 <div class="col-md-6">
     <div class="list-group">
         <a class="list-group-item active">
@@ -26,4 +36,6 @@ layout: container-breadcrumb-tabs
     </div>
 </div>
 
+</div>
+</div>
 {% include members.html %}
