@@ -10,9 +10,9 @@ jumbotron:
     animation: fade
     background-image: /assets/images/content/96boards-banner-5.jpg
 ---
+<div class="row" id="content-container">
 {% include sticky-tab-bar.html %}
-<div class="row">
-<div class="container" id="content-container" markdown="1">
+<div class="container"  markdown="1">
 
 96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program. The following Compliance topics are covered in this document:
 

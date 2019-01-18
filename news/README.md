@@ -8,11 +8,10 @@ jumbotron:
     animation: fade
     background-image: /assets/images/content/96boards-banner-3.jpg
 ---
+
+<div class="row" id="content-container">
 {% include sticky-tab-bar.html %}
-
-<div class="row">
-<div class="container" id="content-container" markdown="1">
-
+<div class="container" markdown="1">
 <div class="col-md-6">
     <div class="list-group">
         <a class="list-group-item active">
