@@ -8,7 +8,7 @@ layout: jumbotron
 css-package: about
 jumbotron:
     animation: fade
-    background-image: /assets/images/content/96boards-banner-5.jpg
+    background-image: /assets/images/content/96boards-banner-2.jpg
 ---
 <div class="row" id="content-container">
 {% include sticky-tab-bar.html %}
