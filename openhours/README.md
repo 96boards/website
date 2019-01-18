@@ -1,13 +1,21 @@
 ---
 title: OpenHours
 description: |-
-    96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
-    Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
+    96Boards OpenHours, sponsored by Linaro, welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
+    Bring your coffee, questions, demos and feedback! Together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: container-breadcrumb-tabs
+layout: jumbotron
 css-package: openhours
 js-package: openhours
+jumbotron:
+    animation: fade
+    carousel-images:
+        - /assets/images/content/96boards-banner-openhours-1.jpg
+        - /assets/images/content/96boards-banner-openhours-2.jpg
 ---
+<div class="row" id="content-container">
+{% include sticky-tab-bar.html %}
+<div class="container">
 
 <div class="col-md-6" markdown="1">
 <br>
@@ -100,6 +108,9 @@ Every Thursday at 4pm UTC
 
 {% include image.html alt="OpenHours" name="OpenHours.png" %}
 
+
+</div>
+</div>
 
 </div>
 </div>
