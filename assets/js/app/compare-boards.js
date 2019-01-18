@@ -17,6 +17,7 @@ $(window).on('load', function () {
             });
             $("[data-board]").each(function(){
                 $(this).css("display", "table-cell");
+            });
         },
         onDeselectAll: function () {
             $("[data-board]").each(function(){
