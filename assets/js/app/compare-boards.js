@@ -12,6 +12,8 @@ $(window).on('load', function () {
         selectAllText: 'Compare all 96Boards',
         onSelectAll: function () {
             $(".double-scroll").doubleScroll({
+                resetOnWindowResize: true,
+                onlyIfScroll: false
             });
             $("[data-board]").each(function(){
                 $(this).css("display", "table-cell");
