@@ -132,8 +132,8 @@ pages:
   - list:
       - title: Sophon Edge
         url: /product/sophon-edge/
-      # - title: AI
-      #   url: /product/sophon-edge/ai/
+      - title: AI
+        url: /product/sophon-edge/ai/
       - title: Getting Started
         url: /documentation/consumer/sophon-edge/getting-started/
       - title: Documentation
@@ -148,8 +148,8 @@ pages:
   - list:
       - title: Rock960
         url: /product/rock960/
-      # - title: AI
-      #   url: /product/rock960/ai/
+      - title: AI
+        url: /product/rock960/ai/
       - title: Getting Started
         url: /documentation/consumer/rock960/getting-started/
       - title: Documentation
@@ -206,8 +206,8 @@ pages:
   - list:
       - title: HiKey970
         url: /product/hikey970/
-      # - title: AI
-      #   url: /product/hikey970/ai/
+      - title: AI
+        url: /product/hikey970/ai/
       - title: Getting Started
         url: /documentation/consumer/hikey970/getting-started/
       - title: Documentation
