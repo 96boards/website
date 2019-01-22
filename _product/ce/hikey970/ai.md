@@ -64,9 +64,6 @@ documentation:
       url: https://www.96boards.org/documentation/consumer/hikey/hikey970/hardware-docs/files/hikey970-schematics.pdf
 whats-in-the-box:
     - HiKey970 board
-    - 16 GB microSD card
-    - SDSoC license voucher
-    - Quick start card
 buy-now: 
     title: Buy Now
     url: https://www.96boards.org/product/hikey970/
