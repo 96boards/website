@@ -1,6 +1,37 @@
 $(window).on('load', function () {
     // Enabled all tooltips
     $('[data-toggle="tooltip"]').tooltip();
+    // Insantiate the attribute multiselect
+    $("#compare-96boards-attribute-select").multiselect({
+        nonSelectedText: 'Select Attributes',
+        includeSelectAllOption: true,
+        nSelectedText: ' attributes selected',
+        allSelectedText: 'All Attributes',
+        selectAllText: 'Show all attributes',
+        onSelectAll: function () {
+            $("[data-attr]").each(function () {
+                $(this).css("display", "table-cell");
+            });
+        },
+        onDeselectAll: function () {
+            $("[data-attr]").each(function () {
+                $(this).css("display", "none");
+            });
+        },
+        onChange: function (option, checked, select) {
+            if (checked == true) {
+                $("[data-attr='" + $(option).val() + "'").css("display", "table-cell");
+            }
+            else {
+                $("[data-attr='" + $(option).val() + "'").css("display", "none");
+            }
+        }
+    });
+    $("#compare-96boards-attribute-select").multiselect('selectAll', false);
+    $('#compare-96boards-attribute-select').multiselect('updateButtonText', "All Attributes");
+    $("[data-attr]").each(function () {
+        $(this).css("display", "table-cell");
+    });
     // Enabled the multiselect plugin
     $("#compare-96boards-select").multiselect({
         nonSelectedText: 'Select 96Boards',
@@ -12,9 +43,12 @@ $(window).on('load', function () {
         selectAllText: 'Compare all 96Boards',
         onSelectAll: function () {
             $(".double-scroll").doubleScroll({
+                resetOnWindowResize: true,
+                onlyIfScroll: false
             });
-            $("[data-board]").each(function(){
+            $("[data-board]").each(function () {
                 $(this).css("display", "table-cell");
+            });
         },
         onDeselectAll: function () {
             $("[data-board]").each(function(){
@@ -53,6 +87,12 @@ $(window).on('load', function () {
         var boardSelector = "[data-board='" + $(this).parent().data("board") + "']";
         $(boardSelector).css("display", "none");
         $("#compare-96boards-select").multiselect('deselect', $(this).parent().data("board"));
+    });
+    // Pop board off the table with x icon in th
+    $("i.fa.fa-times.removeAttribute").on("click",function(){
+        var attributeSelector = "[data-attr='" + $(this).parent().data("attr") + "']";
+        $(attributeSelector).css("display", "none");
+        $("#compare-96boards-attribute-select").multiselect('deselect', $(this).parent().data("attr"));
     });
     // Check to see if there are in boards in GET params
     if (typeof getUrlVars()["boards"] === 'undefined'){
