@@ -30,7 +30,7 @@ tab_menu:
 product_buy_links:
   -
     link-title: Rock960 (SeeedStudio)
-    link-url: "https://www.seeedstudio.com/Rock-960-Board-RK3399-solution-2G-Version-p-3036.html"
+    link-url: "https://www.seeedstudio.com/ROCK960-Board-RK3399-solution-2G-Version-p-3036.html"
     from: SeeedStudio.com
     type: board
     link-price: "$99.00"

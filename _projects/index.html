@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb-tabs
+layout: jumbotron
 title: Projects with 96Boards
 permalink: "/projects/"
 description: |-
@@ -7,7 +7,15 @@ description: |-
     Click on the links to find out more about the projects.
 css-package: projects
 js-package: projects
+jumbotron:
+    animation: fade
+    carousel-images:
+        - /assets/images/content/96boards-banner-project-2.jpg
+        - /assets/images/content/96boards-banner-project-1.jpg
 ---
+<div class="row" id="content-container">
+{% include sticky-tab-bar.html %}
+<div class="container" markdown="1">
 <p>
     This projects listed on this page are from the <a href="https://github.com/96boards-projects">96Boards Projects Github</a> where you can submit a project to be listed on here by creating a pull request. Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please <a href="/projects/submit/" target="_blank">click here.</a>
 </p>
@@ -96,4 +104,7 @@ js-package: projects
                 {% assign order = order | plus: 1 %}
         {% endif %}
     {% endfor %}
+</div>
+
+</div>
 </div>
