@@ -121,3 +121,7 @@ tr:hover > td{
     background-color: $brand-primary;
     color: white;
 }
+#compare-table {
+    height: 900px;
+    overflow-y: scroll !important;
+}

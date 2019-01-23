@@ -35,6 +35,8 @@ js-package: products-compare
         {% endfor %}
     </optgroup>
 </select>
+
+
 {% assign products_array = site.product | ascending %}
 {% assign products_array = products_array | where: "display_product", "true" %}
 
@@ -63,10 +65,19 @@ js-package: products-compare
 		{% endunless %}
 	{% endif %}
 {% endfor %}
+
+<select id="compare-96boards-attribute-select" multiple="multiple">
+    <option value="price">Price</option>
+    <option value="image">Image</option>
+    {% for attr in tags %}
+        <option value="{{attr}}">{{attr}}</option>
+    {% endfor %}
+</select>
+
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
-            <th class="attr">Atrributes</th>
+            <th data-attr="attr" class="attr">Atrributes</th>
             {% for board in products_array %}
                 <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                     {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
@@ -74,11 +85,11 @@ js-package: products-compare
             {% endfor %}
         </thead>
         <tbody>
-            <tr>
-                <td class="attr"> Image </td>
+            <tr data-attr-row="image">
+                <td class="attr" data-attr="image"> Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
                 {% for board in products_array %}
                     {% assign product-url = board.permalink | split: "/" %}
-                    <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
+                    <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
                         <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}">
                             {% capture image_path
                             %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{% endcapture %}
@@ -97,10 +108,10 @@ js-package: products-compare
                     </td>
                 {% endfor %}
             </tr>
-            <tr>
-                <td class="attr"> Price </td>
+            <tr data-attr-row="price">
+                <td class="attr" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
                 {% for board in products_array %}
-                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
+                <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
                     {% for buy_link in board.product_buy_links %}
                     <div class="block">
                         <div class="item-purchase-link" {% if buy_link.from %}data-toggle="tooltip" data-placement="top" title="Buy from {{buy_link.from}}"
@@ -127,23 +138,22 @@ js-package: products-compare
                 </td>
                 {% endfor %}
             </tr>
-                        
             {% for attr in tags %}
-                <tr>
-                    <td class="attr">{{attr}}</td>
+                <tr data-attr-row="{{attr}}">
+                    <td data-attr="{{attr}}" class="attr">{{attr}} <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
                     {% for board in products_array %}
                         {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                         {% assign found = "false" %}
                         {% for each in board-details.attributes %}
                             {% if each.name == attr %}
-                                <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
+                                <td class="board" data-attr="{{attr}}" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                  class="data">{{each.value | replace: '"', '' }}</td>
                                 {% assign found = "true" %}
                                 {% break %}
                             {% endif %}
                         {% endfor %}
                         {% if found == "false" %}
-                            <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"> - </td>
+                            <td class="board" data-attr="{{attr}}" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"> - </td>
                         {% endif  %}
                     {% endfor %}
                 </tr>
