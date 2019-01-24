@@ -147,6 +147,12 @@ p{
     font-size: 18px;
     line-height: 40px;
 }
+@media(max-width: $screen-sm-min){
+    #spaced-para {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
 
 // Paragraphs that are justified.
 p .justified{

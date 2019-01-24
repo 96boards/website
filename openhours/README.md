@@ -1,13 +1,21 @@
 ---
 title: OpenHours
 description: |-
-    96Boards OpenHours – Sponsored by Linaro welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
-    Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
+    96Boards OpenHours, sponsored by Linaro, welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
+    Bring your coffee, questions, demos and feedback! Together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: container-breadcrumb-tabs
+layout: jumbotron
 css-package: openhours
 js-package: openhours
+jumbotron:
+    animation: fade
+    carousel-images:
+        - /assets/images/content/96boards-banner-openhours-1.jpg
+        - /assets/images/content/96boards-banner-openhours-2.jpg
 ---
+<div class="row" id="content-container">
+{% include sticky-tab-bar.html %}
+<div class="container">
 
 <div class="col-md-6" markdown="1">
 <br>
@@ -17,15 +25,11 @@ js-package: openhours
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMTBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Talking FPGAs on OpenHours with Adam Taylor**
+**Whats new with Arrow Electronics? Let's talk about it!**
 
-Adam Taylor is a Chartered Engineer and Fellow of the Institute of Engineering and Technology. And better known for the very popular MicroZed Chronicles based on using the Xilinx Zynq SoC.
+In this episode of 96Boards OpenHours, we are going to talk about the new Arrow 96Boards product page! We will walk through the product line and announce a great new initiative which will bring to light so many fun projects in the coming months.
 
-Throughout his career he has implemented a wide variety of solutions from RADAR to Safety Critical Control Systems, with interesting stops in Image Processing and Cryptography along the way.
-
-Over the years he written for a number of publications and presented at a number of conferences including EE Times, Programmable Planet, Xilinx Xcell Journal and Xilinx Xcell Daily Blog. His website, [ADIUVO Engineering](http://adiuvoengineering.com/) collates them all into a single archive.
-
-So bring all your FPGA related queries and join us for an exciting episode of OpenHours with Adam Taylor.
+Tune in for more information. As always, 96Boards questions and conversation is welcome.
 
 We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
 
@@ -100,6 +104,9 @@ Every Thursday at 4pm UTC
 
 {% include image.html alt="OpenHours" name="OpenHours.png" %}
 
+
+</div>
+</div>
 
 </div>
 </div>
