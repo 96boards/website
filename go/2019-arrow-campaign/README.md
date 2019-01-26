@@ -2,7 +2,7 @@
 title: Arrow Campaign - 2019
 description: |-
     96Boards 2019 Arrow Campaign
-permalink: /go/2018-arrow-campaign/
+permalink: /go/2019-arrow-campaign/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
