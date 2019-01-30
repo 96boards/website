@@ -93,6 +93,8 @@ product_third_party_images:
     link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
   - title: Ubuntu Core
     link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+  - title: Fedora
+    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
   - title: More Downloads
     link: /documentation/consumer/dragonboard410c/downloads/
 

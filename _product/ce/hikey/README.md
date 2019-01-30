@@ -71,6 +71,9 @@ product_os:
     title: Debian
   - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
     title: OpenEmbedded
+product_third_party_images:
+  - title: Fedora
+    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
 product_more_info:
   - title: DIY Root of Trust using ARM Trusted Firmware
   - link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
