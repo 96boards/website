@@ -35,6 +35,7 @@ product_more_info:
   - title: B901-96 Guides on Github
     link: https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901
 product: true
+archived: false
 ---
 
 This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.

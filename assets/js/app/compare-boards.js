@@ -104,6 +104,10 @@ $(window).on('load', function () {
         });
     }
     else {
+        // Hide all attr
+        $("[data-attr]").each(function () {
+            $(this).css("display", "none");
+        });
         // parse the boards param and display boards
         var boardParams = getUrlVars()["boards"].split(",");
         var validBoards = [];
@@ -121,6 +125,14 @@ $(window).on('load', function () {
                 console.log(boardSelector);
                 // Toggle cells based on the board selector from display:none; to display:table-cell;
                 $(boardSelector).css("display", "table-cell");
+                // Make Attributes visible for selected boards
+                $(boardSelector + "[data-attr]").each(function () {
+                    $(this).css("display", "table-cell");
+                });
+                // Display attr headings
+                $(".attr-heading").each(function () {
+                    $(this).css("display", "table-cell");
+                });
             }
             else {
                 console.log(value + " is not in the valid Boards array");

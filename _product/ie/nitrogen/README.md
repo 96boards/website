@@ -37,6 +37,7 @@ product_os:
   - title: Zephyr
     link: /documentation/iot/nitrogen/build/linux/
 product: true
+archived: false
 ---
 Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
 
