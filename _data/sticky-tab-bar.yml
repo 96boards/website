@@ -42,7 +42,7 @@ pages:
         url: /products/mezzanine/
       - title: Accessories
         url: /products/accessories/
-    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/]
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/]
   - list:
       - title: Projects
         url: /projects/

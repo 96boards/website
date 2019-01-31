@@ -77,7 +77,7 @@ js-package: products-compare
 <div id="compare-table" class="double-scroll">
     <table>
         <thead>
-            <th data-attr="attr" class="attr">Atrributes</th>
+            <th data-attr="attr" class="attr attr-heading">Atrributes</th>
             {% for board in products_array %}
                 <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                     {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
@@ -86,7 +86,7 @@ js-package: products-compare
         </thead>
         <tbody>
             <tr data-attr-row="image">
-                <td class="attr" data-attr="image"> Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
+                <td class="attr attr-heading" data-attr="image"> Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
                 {% for board in products_array %}
                     {% assign product-url = board.permalink | split: "/" %}
                     <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
@@ -109,7 +109,7 @@ js-package: products-compare
                 {% endfor %}
             </tr>
             <tr data-attr-row="price">
-                <td class="attr" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
+                <td class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
                 {% for board in products_array %}
                 <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}" class="data">
                     {% for buy_link in board.product_buy_links %}
@@ -140,7 +140,7 @@ js-package: products-compare
             </tr>
             {% for attr in tags %}
                 <tr data-attr-row="{{attr}}">
-                    <td data-attr="{{attr}}" class="attr">{{attr}} <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
+                    <td data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
                     {% for board in products_array %}
                         {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                         {% assign found = "false" %}

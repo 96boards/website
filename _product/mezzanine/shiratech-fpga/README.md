@@ -33,6 +33,7 @@ product_more_info:
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
   - title: Shiratech
     link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
+archived: false
 ---
 The Shiratech FPGA Mezzanine for 96Boards adds configurability to your embedded environment using the Intel MAX-10 FPGA. With the CPU and FPGA combo, you can connect to any interface and add real time performance to your project. It offers unparalleled design flexibility through the use of Rasberry Pi, Arduino & Grove connectors, which allow you to use any combination of 3rd party sensors and actuators.
 

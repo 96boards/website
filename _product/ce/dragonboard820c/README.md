@@ -74,6 +74,7 @@ product_mezzanine:
 product_kits:
   - title: Coming Soon...
 product: true
+archived: false
 ---
 The DragonBoard 820c development board is based on the Qualcomm® Snapdragon™ 820E embedded
 platform with the custom 64-bit Qualcomm® Kryo™ quad-core CPU and is compliant with the 96Boards
