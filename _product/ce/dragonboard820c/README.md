@@ -49,7 +49,8 @@ product_os:
 product_middleware:
   - title: Coming Soon...
 product_third_party_images:
-  - title: Coming Soon...
+  - title: Fedora
+    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
 product_accessories:
   - title: Power
     link: /product/power/

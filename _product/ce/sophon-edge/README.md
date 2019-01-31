@@ -19,6 +19,8 @@ tab_menu:
     - tab_title: Sophon Edge
       tab_link: /product/sophon-edge/
       active: true
+    - tab_title: AI
+      tab_link: /product/sophon-edge/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/sophon-edge/getting-started/
     - tab_title: Documentation
@@ -44,14 +46,13 @@ product_buy_links:
     link-price: "&#xa5;899.00"
     link-price-currency: CNY
 product_os:
-  - title: Linux
-    link: /documentation/consumer/sophon-edge/downloads/
-product_third_party_images:
-  - title: Coming Soon...
-    link:
+  - title: Source SDK
+    link: https://github.com/BM1880-BIRD/bm1880-system-sdk
+  - title: Source Program
+    link: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
 product_more_info:
-  - title: Sophon
-    link: https://sophon.ai/
+  - title: Sophon - Getting Started
+    link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
 product_accessories:
   - title: Power
     link: /product/power/
