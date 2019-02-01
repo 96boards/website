@@ -34,8 +34,7 @@ To use the 96Boards brand and logo companies must participate at one of the foll
 For SoC vendors, 96Boards vendors or other community members who wish to help manage and influence the direction of the 96Boards program | For manufacturers of 96Boards branded processor board products | For 96Boards vendors, mezzanine & module vendors, community software projects and other related companies |
 Includes participation in the 96Boards Steering Committee, Meets monthly and in person at Linaro Connect, Manages the evolution of published 96Boards specifications, Recommends new specifications | Required to ship a 96Boards branded processor board product | Required to ship a 96Boards Partner branded product |
 Logo & Company information on 96Boards.org site | Logo & Company information on 96Boards.org site | Logo & Company information on 96Boards.org site |
-Product pages including where to buy, software downloads (if applicable) etc., community forum for 96Boards product vendors | Product pages including where to buy, software downloads (if applicable) etc. for board, mezzanine & module vendors |
-Includes ticket and no-charge tabletop demonstration area for Linaro Connect | Includes ticket to Linaro Connect | Includes ticket to Linaro Connect |
+Product pages including where to buy, software downloads (if applicable) etc., community forum for 96Boards product vendors | Product pages including where to buy, software downloads (if applicable) etc. for board, mezzanine & module vendors ||
 Requires signing the 96Boards membership agreement | Requires signing the 96Boards manufacturing agreement including per board fee to cover 96Boards.org costs | [Requires signing the 96Boards partner agreement](/partner/) |
 
 <a name="Developing"></a>
