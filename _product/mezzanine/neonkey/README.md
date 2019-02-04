@@ -27,6 +27,9 @@ product_buy_links:
   -
     link-title: Ali Express
     link-url: "https://linaro.co/neonkey-buy"
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
 product_more_info:
   - title: AOSP Sensors Documentation
     link: https://source.android.com/devices/sensors/

@@ -27,6 +27,9 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.arrow.com/en/products/114990332/seeed-technology-limited
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/audio-mezzanine-dragonboard
 tab_menu:
   - tab_title: Audio Mezzanine
     tab_link: /product/audio-mezzanine/

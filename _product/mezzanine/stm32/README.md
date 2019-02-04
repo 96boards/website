@@ -35,6 +35,9 @@ product_buy_links:
   -
     link-title: Future Electronics
     link-url: https://linaro.co/stm32futureelectronics
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/stm32-mezzanine-board
 product_more_info:
   - title: Read More on ST.com
     link: http://linaro.co/stm32f446

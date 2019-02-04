@@ -35,6 +35,9 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/d3-mezzanine-camera-board
 tab_menu:
   - tab_title: D3Camera
     tab_link: /product/d3camera/

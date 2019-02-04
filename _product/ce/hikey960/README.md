@@ -92,6 +92,13 @@ product_buy_links:
     link-price-currency: JPY
     from: Switch-Science.com
     type: board
+  -
+    link-title: "FabToLab (India)"
+    link-price: 29,885
+    link-url: "https://www.fabtolab.com/boards/96boards/hikey-960"
+    link-price-currency: INR
+    from: fabtolab.com
+    type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
 product: true
 ---

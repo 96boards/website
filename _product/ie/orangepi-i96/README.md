@@ -63,6 +63,7 @@ Think of the things you can build...
 ## Buy Now
 
 - [AliExpress](https://linaro.co/orangepi-i96-buy)
+- [FabToLab (India)](https://www.fabtolab.com/boards/96boards/orange-pi-i96)
 
 ***
 

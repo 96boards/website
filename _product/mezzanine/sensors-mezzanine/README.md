@@ -44,6 +44,9 @@ product_buy_links:
   -
     link-title: Grove Starter Kit for 96Boards
     link-url: http://linaro.co/1KnV9TA
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/96boards-sensor-adapter
 product_more_info:
   - title: Getting-Started PDF
     link: http://linaro.co/sensorkitpdf

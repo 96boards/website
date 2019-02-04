@@ -51,6 +51,9 @@ product_buy_links:
   -
     link-title: Seeed
     link-url: https://linaro.co/uart-seeed
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/96boards-UART
 product_more_info:
   - title: User Guide
     link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
