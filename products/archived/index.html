@@ -1,7 +1,7 @@
 ---
 layout: container-breadcrumb-tabs
-title:  All 96Boards
-permalink: /products/
+title:  Archived 96Boards
+permalink: /products/archived/
 status: active
 description: |-
     96Boards includes Consumer Edition, Enterprise Edition, IoT Edition, Mezzanine Products and Accessories.
@@ -77,7 +77,7 @@ seo:
 </div>        
 <div id="grid" class="mixitup-container">
 {% assign products_array = site.product | ascending %}
-{% assign products_array =  products_array | where: "display_product", "true" %}
+{% assign products_array =  products_array | where: "archived", "true" %}
 <div class="row">
 {% assign order = 1 %}
 {% for product in products_array %}

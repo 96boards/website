@@ -25,6 +25,7 @@ product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 product_support_link: "https://discuss.96boards.org/c/products/hikey/"
 product: true
 product_specification: ce
+archived: true
 ---
 The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  this 1GB developer board available from CircuitCo. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
 
