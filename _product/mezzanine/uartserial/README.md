@@ -67,6 +67,7 @@ product_includes:
   - quantity: 2
     name: 2mm shunts
 product: true
+archived: false
 ---
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 

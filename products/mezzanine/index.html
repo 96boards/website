@@ -49,7 +49,7 @@ specification-logo: 96Boards-Logo_Partner-small.png
 </div><!-- /.modal -->
 <div id="grid">
     {% assign products_array = site.product | where: "product_specification", "mezzanine"%}
-    {% assign products_array =  products_array | where: "display_product", "true" %}
+    {% assign products_array =  products_array | where: "archived", "false" %}
     <div class="row">
     {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}

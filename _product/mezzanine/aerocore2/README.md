@@ -80,6 +80,7 @@ product_includes:
 product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
 product: true
+archived: false
 ---
 Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://www.gumstix.com/geppetto). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 

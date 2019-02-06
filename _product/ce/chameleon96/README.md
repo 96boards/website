@@ -82,6 +82,7 @@ product_mezzanine:
 product_kits:
     - title: Coming Soon...
 product: true
+archived: false
 ---
 The Chameleon96™ board, based on Intel® Cyclone V SoC FPGA, is a member of 96Boards community and complies with Consumer Edition board specifications. The Chameleon96™ meets all 96Boards mandatory specifications (excluding MIPI DSI Interface) and most optional specifications. The Chameleon96™ features Dual ARM Cortex-A9 processors and a set of peripherals allow direct interfacing and connecting to MMC/SD card, HDMI out, USB, WLAN and BLE. Two expansion connectors provide additional interfaces to cameras, USB, UARTs, I2C, SPI and GPIOs. The use of the FPGA fabric for the video processing allows development of custom IPU/GPU/VPU solutions on this platform.
 
