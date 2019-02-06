@@ -33,6 +33,10 @@ product_buy_links:
     link-title: "Buy Nitrogen"
     link-price: $27.95
     link-url: "https://linaro.co/nitrogen-buy"
+  -
+    link-title: "Buy Carbon"
+    link-price: ₹2,985
+    link-url: "https://www.fabtolab.com/boards/96boards/ble-nitrogen"
 product_os:
   - title: Zephyr
     link: /documentation/iot/nitrogen/build/linux/
