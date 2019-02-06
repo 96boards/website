@@ -48,12 +48,26 @@ product_buy_links:
     link-price: "$75.00"
     link-price-currency: USD
   -
+    link-title: DragonBoard410c (Basic Kit)
+    link-url: "https://www.fabtolab.com/boards/96boards/dragon-board-410c"
+    from: FabToLab
+    type: board
+    link-price: "₹10,985.00"
+    link-price-currency: INR
+  -
     link-title: "DragonBoard410c + Audio Kit"
     link-url: "https://www.96boards.org/product/audio-mezzanine/"
     from: Arrow.com
     type: package
     link-price: "$89.00"
     link-price-currency: USD
+  -
+    link-title: "DragonBoard410c + Audio Kit"
+    link-url: "https://www.fabtolab.com/boards/96boards/audio-96boards-dragonboard-410C"
+    from: FabToLab
+    type: package
+    link-price: "₹10,985.00"
+    link-price-currency: INR
   -
     link-title: "DragonBoard410c + Camera Kit"
     link-url: "https://linaro.co/96b-db410c-camera"
@@ -68,6 +82,13 @@ product_buy_links:
     type: package
     link-price: "$84.99"
     link-price-currency: USD
+  -
+    link-title: DragonBoard410c + AWS IoT Kit
+    link-url: "https://www.fabtolab.com/boards/96boards/arrow-aws-dragon-board"
+    from: FabToLab
+    type: board
+    link-price: "₹9,985.00"
+    link-price-currency: INR
 
 # Right Sidepanel links
 product_os:

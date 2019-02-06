@@ -100,6 +100,13 @@ product_buy_links:
     link-price-currency: GBP
     from: Amazon.co.uk
     type: board
+  -
+    link-title: "FabToLab (India)"
+    link-price: "£34,885"
+    link-url: "https://www.fabtolab.com/boards/96boards/hikey-970"
+    link-price-currency: INR
+    from: fabtolab.com
+    type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
 archived: false

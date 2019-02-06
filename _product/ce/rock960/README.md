@@ -42,6 +42,13 @@ product_buy_links:
     type: board
     link-price: "$99.00"
     link-price-currency: USD
+  -
+    link-title: Rock960 (FabToLab)
+    link-url: "https://www.fabtolab.com/boards/96boards/rock-960-board-rk3399"
+    from: fabtolab.com
+    type: board
+    link-price: "₹12,285"
+    link-price-currency: INR
 product_more_info:
     - title: 96Rocks
       link: https://www.96rocks.com/
