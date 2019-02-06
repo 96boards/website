@@ -101,6 +101,7 @@ product_buy_links:
     type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
 product: true
+archived: false
 ---
 The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™ processor with four ARM Cortex®-A73 and four Cortex-A53
 cores with 3GB of LPDDR4 SDRAM memory, 32GB of UFS 2.0 flash storage, and the latest generation Mali™ G71 MP8 graphics processor. The board is provided by

@@ -51,6 +51,7 @@ tab_menu:
     tab_position: 2
     tab_align_right: true
 product: true
+archived: false
 ---
 96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
 ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.

@@ -33,6 +33,7 @@ product_more_info:
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-datasheet.pdf/
   - title: User Guide
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-user-guide.pdf/
+archived: false
 ---
 
 The TRESOR Mezzanine Board is a solution that enables the 96Boards to implement different security elements in the projects. The Board consists of three key components. The SLB9670x provides Trusted Plat- form Module (TPM) 2.0 functionality through SPI communication on the standard 96Boards LS expansion connector. For more compatibility the board contains the SLB9645x chip as well for supporting the TPM 1.2 Standard through I2C communication on the standard 96Boards LS expansion connector. The third secure element is the SLS32AIA020A TRUST-E authentication chip, sharing the same I2C bus with the TPM 1.2 module. This authentication functionality is mainly dedicated to the 96Boards IoT Edition platforms.

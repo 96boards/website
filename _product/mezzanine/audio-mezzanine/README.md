@@ -42,6 +42,7 @@ tab_menu:
     tab_position: 2
     tab_align_right: true
 product: true
+archived: false
 ---
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 You can connect 96Boards to various modules easily with this expansion board. There are six

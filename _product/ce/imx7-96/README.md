@@ -66,6 +66,7 @@ product_kits:
   - title: AWS IoT Kit
     link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
 product: true
+archived: false
 ---
 The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within

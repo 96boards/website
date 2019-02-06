@@ -45,6 +45,7 @@ product_os:
   - title: Explore
     link: /documentation/iot/bpi96/downloads/
 product: true
+archived: false
 ---
 The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 

@@ -150,6 +150,7 @@ product_kits:
   - title: AWS IoT Kit
     link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 product: true
+archived: false
 ---
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced
 processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.

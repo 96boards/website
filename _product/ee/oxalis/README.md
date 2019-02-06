@@ -66,6 +66,7 @@ product_mezzanine:
 product_kits:
   - title: Coming Soon...
 product: true
+archived: false
 ---
 
 Near ubiquitous broadband Internet connecting a multitude of distributed embedded systems in the IoT world, introduces new challenges in data transfer performance and communication security.
