@@ -443,8 +443,8 @@ jumbotron:
     </div>
 </div>
 <div class="row content">
-    <div class="container">
     <div id="projects-row">
+        <div class="container">
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
         {% for each in projects %}
