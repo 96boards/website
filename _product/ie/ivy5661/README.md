@@ -1,4 +1,3 @@
----
 title: Ivy5661
 layout: product-display-page
 permalink: /product/ivy5661/
@@ -62,7 +61,6 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
-
 ---
 
 The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by
