@@ -6,7 +6,6 @@ image:
     featured: true
     path: /assets/images/blog/sophon.png
     name: sophon.png
-    thumb: sophon-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Bitmain, BM1880, Edge, Mining, ASIC, Mainlining, Devicetree, Serial, IRQCHIP, Timer, Clocksource, Interrupts, Sophon
 ---
