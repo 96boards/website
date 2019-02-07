@@ -4,7 +4,7 @@ layout: product-display-page
 permalink: /product/ivy5661/
 shortname: ivy5661
 description: |-
-	The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by uCRobotics. IVY5661 follows the Linaro 96boards IoT hardware design specification. Utilizing the 28nm UniSoC UWP5661 SoC, it has an embedded ARM Cortex-M4 CPU with a frequency range of 416MHz. Built-in 32Mbit storage space; supports Wi-Fi IEEE 802.11ac 2x2 and Bluetooth 5. High-capacity storage and rich RF capabilities help users develop more complex and diverse IoT software
+    The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by uCRobotics. IVY5661 follows the Linaro 96boards IoT hardware design specification. Utilizing the 28nm UniSoC UWP5661 SoC, it has an embedded ARM Cortex-M4 CPU with a frequency range of 416MHz. Built-in 32Mbit storage space; supports Wi-Fi IEEE 802.11ac 2x2 and Bluetooth 5. High-capacity storage and rich RF capabilities help users develop more complex and diverse IoT software
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, RAK5205, wistrio, rakwireless, wireless, rak, ucrobotics, unisoc, ivy5661, iot
 product_short_desc: "The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by uCRobotics."
@@ -62,7 +62,6 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
-
 ---
 
 The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by
