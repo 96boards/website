@@ -23,19 +23,15 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMzFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAyMDdUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Fedora IoT with Peter Robinson!**
+**Onwards with Arrow and the FPGA Mezzanine!**
 
-This week, we will be joined by Peter Robinson of RedHat to talk about Fedora and Fedora IoT! We plan on speaking with Peter about all the work he is doing in the Fedora community as well as with 96Boards and several other collaborations. Join us at the end of the countdown for a great interview with one of our favorite guests! 
+**This week**, we will be talking about the [Arrow FPGA Mezzanine by Shiratech](https://www.96boards.org/product/shiratech-fpga/)! This mezzanine bridges the 96Boards, RPi and Arduino ecosystems allowing the use of Arduin and RPi shields and hats on your 96Boards! This one mezzanine brings it all together! Sahaj (resident 96Boards engineer) will be showcasing a variety of Arduino shields running through a 96Boards Consumer Edition baseboard through this awesome mezzanine.
 
-From the [Fedora Internet of Things website](https://iot.stg.fedoraproject.org/), Fedora IoT is a variant of Fedora focused on IoT ecosystems. Whether you're working on a home assistant, industrial gateways, or data storage and analytics, Fedora IoT provides a trusted open source platform to build on. Fedora IoT produces a monthly rolling release to help you keep your ecosystem up-to-date.
+We will showcase the mezzanine by first talking about it and going over the spec, then we will show some demos! The floor will be open for conversation and of course any of 96Boards questions. Bring your coffee or tea, and join us for some fun tech talk :-)
 
-Of course, there will plenty of 96Boards discussion and a change for Q&A!
-
-We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
-
-[OpenHours spent the entire month of May talking all about Women in STEM!](https://www.96boards.org/go/wistem-2018/) Each week, we had interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest joined us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
+Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics! 
 
 ### What is 96Boards OpenHours?
 
