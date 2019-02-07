@@ -32,6 +32,10 @@ product_buy_links:
     link-title: "Buy Carbon (Seeed)"
     link-price: $27.95
     link-url: "http://linaro.co/carbon-buy"
+  -
+    link-title: "Buy Carbon (FabToLab)"
+    link-price: ₹2,985.00
+    link-url: "https://www.fabtolab.com/boards/96boards/ble-carbon"
 product_os:
   - title: Zephyr
     link: /documentation/iot/carbon/downloads/zephyr.md.html

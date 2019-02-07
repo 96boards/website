@@ -42,6 +42,13 @@ product_buy_links:
     type: board
     link-price: "$199.00"
     link-price-currency: USD
+  -
+    link-title: DragonBoard820c (Basic Kit)
+    link-url: "https://www.fabtolab.com/boards/96boards/dragonboard-820c"
+    from: fabtolab.com
+    type: board
+    link-price: "₹24,250.00"
+    link-price-currency: INR
 # Right Sidepanel links
 product_os:
   - title: Debian
