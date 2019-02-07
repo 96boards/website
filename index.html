@@ -7,6 +7,7 @@ layout: jumbotron
 css-package: home
 js-package: home
 jumbotron:
+    triangle-divider: true
     carousel-images:
         - /assets/images/content/96boards-home-image-2.jpg
         - /assets/images/content/96boards-home-image-3.jpg
@@ -441,7 +442,8 @@ jumbotron:
         <h2 class="text-center">Projects with 96Boards</h2>
     </div>
 </div>
-<div class="row content"> 
+<div class="row content">
+    <div class="container">
     <div id="projects-row">
         {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
         {% capture order %}1{% endcapture %}
@@ -495,6 +497,7 @@ jumbotron:
             </a>
         {% endfor %}
     </div>
+</div>
 </div>
 <div class="row content">
     <div class="col-xs-12 text-center">
