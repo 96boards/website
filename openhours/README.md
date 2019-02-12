@@ -25,7 +25,7 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMTRUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**The Story of Oxalis!**
+**Fall in love with the Oxalis!**
 
 **This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest Arrow Electronics 96Boards, the Oxalis! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
 
