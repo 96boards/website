@@ -23,15 +23,19 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAyMDdUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMTRUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Onwards with Arrow and the FPGA Mezzanine!**
+**The Story of Oxalis!**
 
-**This week**, we will be talking about the [Arrow FPGA Mezzanine by Shiratech](https://www.96boards.org/product/shiratech-fpga/)! This mezzanine bridges the 96Boards, RPi and Arduino ecosystems allowing the use of Arduin and RPi shields and hats on your 96Boards! This one mezzanine brings it all together! Sahaj (resident 96Boards engineer) will be showcasing a variety of Arduino shields running through a 96Boards Consumer Edition baseboard through this awesome mezzanine.
+**This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest Arrow Electronics 96Boards, the Oxalis! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
 
-We will showcase the mezzanine by first talking about it and going over the spec, then we will show some demos! The floor will be open for conversation and of course any of 96Boards questions. Bring your coffee or tea, and join us for some fun tech talk :-)
+Near ubiquitous broadband internet connections and a multitude of distributed embedded systems, in the IoT world introduces new challenges in data transfer performance and communication security.
 
-Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics! 
+The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
+
+We will discuss this board at a high level, exploring the many technologies that went into making it possible. Then, we will meet with engineers from companies that made it, and discuss a wide variety of potential use-cases. Before the end of the show, we will also see a live demo of the Oxalis in action. We hope you are as excited as we are, so make sure to tune in!
+
+Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics!
 
 ### What is 96Boards OpenHours?
 
