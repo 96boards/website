@@ -10,21 +10,21 @@ js-package: products-compare
         {% assign products_array = site.product | where: "product_specification", "ce" %}
         {% assign products_array = products_array | where: "display_product", "true" %}
         {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
         {% endfor %}
     </optgroup>
     <optgroup label="Enterprise Edition" class="enterprise-edition-group">
         {% assign products_array = site.product | where: "product_specification", "ee" %}
         {% assign products_array = products_array | where: "display_product", "true" %}
         {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
         {% endfor %}
     </optgroup>
     <optgroup label="IoT Edition" class="iot-edition-group">
         {% assign products_array = site.product | where: "product_specification", "ie" %}
         {% assign products_array = products_array | where: "display_product", "true" %}
         {% for product in products_array %}
-            <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
         {% endfor %}
     </optgroup>
     <optgroup label="Mezzanine Edition" class="mezzanine-edition-group">
@@ -45,10 +45,10 @@ js-package: products-compare
 {% assign rawtags = "" %}
 
 {% for product in product_specs %}
-    {% for attr in product.attributes %}
-        {% assign ttags = attr.name | join:'|' | append:'|' %}
-        {% assign rawtags = rawtags | append:ttags %}
-    {% endfor %}
+{% for attr in product.attributes %}
+{% assign ttags = attr.name | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
 {% endfor %}
 
 
@@ -56,21 +56,21 @@ js-package: products-compare
 
 {% assign tags = "" %}
 {% for tag in rawtags %}
-	{% if tag != "" %}
-		{% if tags == "" %}
-			{% assign tags = tag | split:'|' %}
-		{% endif %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-		{% endunless %}
-	{% endif %}
+{% if tag != "" %}
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
 {% endfor %}
 
 <select id="compare-96boards-attribute-select" multiple="multiple">
     <option value="price">Price</option>
     <option value="image">Image</option>
     {% for attr in tags %}
-        <option value="{{attr}}">{{attr}}</option>
+    <option value="{{attr}}">{{attr}}</option>
     {% endfor %}
 </select>
 
@@ -78,20 +78,16 @@ js-package: products-compare
 <div role="tabpanel">
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active" >
+        <li role="presentation" class="active">
             <a href="#compare-vertical" aria-controls="compare-vertical" role="tab" data-toggle="tab">
-                <img class="lazyload img-responsive" 
-                data-src="/assets/images/content/table-icon-horizontal.png" 
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                 alt="Horizontal Compare Table" data-toggle="tooltip" data-placement="top" title="Display Boards Vertically"/>
+                <img class="lazyload img-responsive" data-src="/assets/images/content/table-icon-horizontal.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    alt="Horizontal Compare Table" data-toggle="tooltip" data-placement="top" title="Display Boards Vertically" />
             </a>
         </li>
         <li role="presentation">
             <a href="#compare-horizontal" aria-controls="compare-horizontal" role="tab" data-toggle="tab">
-                <img class="lazyload img-responsive" 
-                data-src="/assets/images/content/table-icon-vertical.png" 
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                 alt="Vertical Compare Table" data-toggle="tooltip" data-placement="right" title="Display Boards Horizontally"/>
+                <img class="lazyload img-responsive" data-src="/assets/images/content/table-icon-vertical.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    alt="Vertical Compare Table" data-toggle="tooltip" data-placement="right" title="Display Boards Horizontally" />
             </a>
         </li>
     </ul>
@@ -105,19 +101,20 @@ js-package: products-compare
                         <th class="attr attr-heading" data-attr="image">
                             Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
                         </th>
-                        <th class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top" title="Remove Attribute"
-                                class="fa fa-times removeAttribute"></i> </th>
-                        {% for attr in tags %}
-                        <th data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip" data-placement="top"
+                        <th class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top"
                                 title="Remove Attribute" class="fa fa-times removeAttribute"></i> </th>
+                        {% for attr in tags %}
+                        <th data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip"
+                                data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                        </th>
                         {% endfor %}
                     </thead>
                     <tbody>
                         {% for board in products_array %}
                         <tr>
                             <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                                {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip"
-                                    data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                                {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
+                                    data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
                             </td>
                             {% assign product-url = board.permalink | split: "/" %}
                             <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
@@ -143,24 +140,24 @@ js-package: products-compare
                             <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">
                                 <div class="btn-group" role="group">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
                                         Buy Links
                                         <span class="caret"></span>
                                     </button>
                                     <ul class="dropdown-menu">
                                         {% for buy_link in board.product_buy_links %}
-                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}" {%
-                                            endif %}>
+                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
+                                            {% endif %}>
                                             <a href="{{ buy_link.link-url }}">
                                                 {% if buy_link.link-price %}
-                                                    {% if buy_link.link-price-currency %}
-                                                        {% if buy_link.link-price-currency == "JPY" %}
-                                                            JP&yen;
-                                                        {% else %}
-                                                            {{buy_link.link-price-currency}}
-                                                        {% endif %}
-                                                    {% endif %}
+                                                {% if buy_link.link-price-currency %}
+                                                {% if buy_link.link-price-currency == "JPY" %}
+                                                JP&yen;
+                                                {% else %}
+                                                {{buy_link.link-price-currency}}
+                                                {% endif %}
+                                                {% endif %}
                                                 {% endif %}
                                                 {{buy_link.link-price}}
                                                 {% if buy_link.type == "package" %}(Package Deal){% endif %}
@@ -201,15 +198,15 @@ js-package: products-compare
                         <th data-attr="attr" class="attr attr-heading"></th>
                         {% for board in products_array %}
                         <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                            {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i data-toggle="tooltip"
-                                data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                            {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
+                                data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
                         </th>
                         {% endfor %}
                     </thead>
                     <tbody>
                         <tr data-attr-row="image">
-                            <td class="attr attr-heading" data-attr="image"> Image <i data-toggle="tooltip" data-placement="top"
-                                    title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
+                            <td class="attr attr-heading" data-attr="image"> Image <i data-toggle="tooltip"
+                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
                             {% for board in products_array %}
                             {% assign product-url = board.permalink | split: "/" %}
                             <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
@@ -235,32 +232,33 @@ js-package: products-compare
                             {% endfor %}
                         </tr>
                         <tr data-attr-row="price">
-                            <td class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top"
-                                    title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
+                            <td class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip"
+                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                            </td>
                             {% for board in products_array %}
                             <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">
                                 <div class="btn-group" role="group">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
                                         Buy Links
                                         <span class="caret"></span>
                                     </button>
                                     <ul class="dropdown-menu">
-                                    {% for buy_link in board.product_buy_links %}
-                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right"
-                                            title="Buy from {{buy_link.from}}" {% endif %}>
+                                        {% for buy_link in board.product_buy_links %}
+                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
+                                            {% endif %}>
                                             <a href="{{ buy_link.link-url }}">
                                                 {% if buy_link.link-price %}
-                                                    {% if buy_link.link-price-currency %}
-                                                        {% if buy_link.link-price-currency == "JPY" %}
-                                                            JP&yen;
-                                                        {% else %}
-                                                            {{buy_link.link-price-currency}}
-                                                        {% endif %}
-                                                    {% endif %}
+                                                {% if buy_link.link-price-currency %}
+                                                {% if buy_link.link-price-currency == "JPY" %}
+                                                JP&yen;
+                                                {% else %}
+                                                {{buy_link.link-price-currency}}
                                                 {% endif %}
-                                                {{buy_link.link-price}} 
+                                                {% endif %}
+                                                {% endif %}
+                                                {{buy_link.link-price}}
                                                 {% if buy_link.type == "package" %}(Package Deal){% endif %}
                                                 {% if buy_link.type == "board" %}(Board){% endif %}
                                             </a>
@@ -273,8 +271,9 @@ js-package: products-compare
                         </tr>
                         {% for attr in tags %}
                         <tr data-attr-row="{{attr}}">
-                            <td data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip" data-placement="top"
-                                    title="Remove Attribute" class="fa fa-times removeAttribute"></i> </td>
+                            <td data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip"
+                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                            </td>
                             {% for board in products_array %}
                             {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                             {% assign found = "false" %}
@@ -299,9 +298,3 @@ js-package: products-compare
         </div>
     </div>
 </div>
-
-
-
-
-
-
