@@ -32,7 +32,7 @@ product_more_info:
   - title: Product Brief
     link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-quick-start.pdf
   - title: User Manual
-    link: /documentation/mezzanine/shiratech-bosch-sensor/files/shiratech-bosch-sensors-user-manual.pdf
+    link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-user-manual.pdf
   - title: Shiratech Solutions
     link: http://www.shiratech-solutions.com/products/bosch-sensor/
 archived: false
