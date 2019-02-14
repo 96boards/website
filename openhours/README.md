@@ -27,7 +27,7 @@ jumbotron:
 
 **Fall in love with the Oxalis!**
 
-**This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest Arrow Electronics 96Boards, the Oxalis! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
+**This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest [Arrow Electronics](https://www.arrow.com/) 96Boards, [the Oxalis](https://www.96boards.org/product/oxalis/)! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
 
 Near ubiquitous broadband internet connections and a multitude of distributed embedded systems, in the IoT world introduces new challenges in data transfer performance and communication security.
 
