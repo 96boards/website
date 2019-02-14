@@ -104,7 +104,9 @@ seo:
     
                 {% if page.product_documents %}
                     <ul class="list-group">
-                        <li href="#" class="list-group-item active"><b title="Documents and Resources">Documents / Resources</b></li>
+                        <li href="#" class="list-group-item active"><b title="Documents and Resources">Documents / Resources</b>
+                        <i class="fa fa-file-text pull-right" aria-hidden="true"></i>
+                        </li>
                         {% for doc in page.product_documents %}
                             <li class="list-group-item">
                                 <a href="{{ doc.link }}">
@@ -118,7 +120,9 @@ seo:
     
                 {% if page.product_os %}
                     <ul class="list-group">
-                        <li href="#" class="list-group-item active"><b title="Operating Systems">OS</b></li>
+                        <li href="#" class="list-group-item active"><b title="Operating Systems">OS</b>
+                        <i class="fa fa-terminal pull-right" aria-hidden="true"></i>
+                        </li>
                         {% for os in page.product_os %}
                             <li class="list-group-item">
                                 <a href="{{ os.link }}">
@@ -132,7 +136,9 @@ seo:
     
                 {% if page.product_middleware %}
                     <ul class="list-group">
-                        <li href="#" class="list-group-item active"><b title="Operating Systems">Middleware/SDKS</b></li>
+                        <li href="#" class="list-group-item active"><b title="Operating Systems">Middleware & SDKS</b>
+                        <i class="fa fa-code pull-right" aria-hidden="true"></i>
+                        </li>
                         {% for middleware in page.product_middleware %}
                             <li class="list-group-item">
                                 <a href="{{ middleware.link }}">
@@ -145,7 +151,10 @@ seo:
     
                 {% if page.product_third_party_images %}
                     <ul class="list-group">
-                        <li href="#" class="list-group-item active"><b>Third Party Images</b></li>
+                        <li href="#" class="list-group-item active">
+                            <b>Third Party Images</b>
+                            <i class="fa fa-external-link-square pull-right" aria-hidden="true"></i>
+                        </li>
                             {% for image in page.product_third_party_images %}
                                 <li class="list-group-item">
                                     <a href="{{ image.link }}">
@@ -158,14 +167,16 @@ seo:
     
                 {% if page.product_more_info %}
                     <ul class="list-group">
-                        <li href="#" class="list-group-item active"><b>More Info</b></li>
-                            {% for info in page.product_more_info %}
-                                <li class="list-group-item">
-                                    <a href="{{ info.link }}">
-                                        <span class="text-left">{{ info.title }}</span>
-                                    </a>
-                                </li>
-                            {% endfor %}
+                        <li href="#" class="list-group-item active"><b>More Info</b>
+                        <i class="fa fa-info-circle pull-right" style="margin-top:8px;"></i>
+                    </li>
+                    {% for info in page.product_more_info %}
+                        <li class="list-group-item">
+                            <a href="{{ info.link }}">
+                                <span class="text-left">{{ info.title }}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
                     </ul>
                 {% endif %}
     
@@ -185,11 +196,7 @@ seo:
                             {% endfor %}
                     </ul>
                 {% endif %}
-    
-    
-    
                 <!--Side Panel END---------------------------->
-    
             </div>
             <div class="col-sm-12 col-md-8 col-md-pull-4">
                 {{content}}

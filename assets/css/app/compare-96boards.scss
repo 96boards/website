@@ -128,16 +128,15 @@ tr td.board:first-child {
     background-color: #32917a;
     color: white;
 }
-.nav-tabs img.img-responsive {
+#compare-boards-tabs img.img-responsive {
     height: 40px;
 }
-.nav-tabs > li {
+#compare-boards-tabs > li {
     float:none;
     display:inline-block;
     zoom:1;
 }
-
-.nav-tabs {
+#compare-boards-tabs {
     text-align:center;
 }
 table img {
