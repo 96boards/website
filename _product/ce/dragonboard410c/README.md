@@ -4,11 +4,11 @@ layout: product-display-page
 shortname: dragonboard410c
 permalink: /product/dragonboard410c/
 description: |-
-    DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® Snapdragon™ 410 processor. Low-Cost Product Development Platform
+    DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® APQ8016E processor. Low-Cost Product Development Platform
 keywords: |-
-    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
+    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+product_short_desc: "Board based on Qualcomm® APQ8016E processor and it's the size of a credit card."
 product_specification: ce
 featured_product_order: 2
 is_featured: true
@@ -152,7 +152,7 @@ product_kits:
 product: true
 archived: false
 ---
-The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced
+The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
 processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
 
 ***
@@ -161,7 +161,7 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm Snapdragon 410E                                                                         |
+|  SoC                 | Qualcomm APQ8016E                                                                         |
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.2 GHz per core                                                  |
 |  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
 |  RAM                 | 1GB LPDDR3 SDRAM @ 533MHz                                                                        |
