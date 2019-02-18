@@ -3,7 +3,6 @@ title: Sophon Edge Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2019-02-04 01:01:54+00:00
 image:
-    featured: true
     path: /assets/images/blog/sophon.png
     name: sophon.png
 categories: blog

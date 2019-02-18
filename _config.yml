@@ -1,5 +1,7 @@
 # Email address
 email: kyle.kirkby@linaro.org
+# Company logo for schema.org structured data - jekyll-seo-tag plugin
+logo: /assets/images/content/96boards-logo-300x109.png
 #OpenHours Setup
 openhours:
     hour: 16 # 4pm UTC
