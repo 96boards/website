@@ -100,8 +100,16 @@ product_buy_links:
     link-price-currency: GBP
     from: Amazon.co.uk
     type: board
+  -
+    link-title: "FabToLab (India)"
+    link-price: "£34,885"
+    link-url: "https://www.fabtolab.com/boards/96boards/hikey-970"
+    link-price-currency: INR
+    from: fabtolab.com
+    type: board
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
+archived: false
 ---
 HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers, looking maximize accelerated AI capabilities not found in most other development platforms!
 

@@ -121,7 +121,33 @@ tr:hover > td{
     background-color: $brand-primary;
     color: white;
 }
-#compare-table {
+.multiselect {
+    margin-bottom: 5px;
+}
+tr td.board:first-child {
+    background-color: #32917a;
+    color: white;
+}
+#compare-boards-tabs img.img-responsive {
+    height: 40px;
+}
+#compare-boards-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+#compare-boards-tabs {
+    text-align:center;
+}
+table img {
+    width: 200px !important;
+    display: block;
+    max-width: 250px !important;
+}
+#compare-horizontal, #compare-vertical {
     height: 900px;
     overflow-y: scroll !important;
+}
+.multiselect {
+    margin-bottom: 5px;
 }

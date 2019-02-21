@@ -27,6 +27,9 @@ product_buy_links:
   -
     link-title: Ali Express
     link-url: "https://linaro.co/neonkey-buy"
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
 product_more_info:
   - title: AOSP Sensors Documentation
     link: https://source.android.com/devices/sensors/
@@ -48,6 +51,7 @@ tab_menu:
     tab_position: 2
     tab_align_right: true
 product: true
+archived: false
 ---
 96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
 ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.

@@ -100,6 +100,7 @@ product_kits:
   - title: More...
     link: /documentation/consumer/ultra96/kits/
 product: true
+archived: false
 ---
 Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
 

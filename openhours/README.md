@@ -23,19 +23,19 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMzFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMTRUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Fedora IoT with Peter Robinson!**
+**Fall in love with the Oxalis!**
 
-This week, we will be joined by Peter Robinson of RedHat to talk about Fedora and Fedora IoT! We plan on speaking with Peter about all the work he is doing in the Fedora community as well as with 96Boards and several other collaborations. Join us at the end of the countdown for a great interview with one of our favorite guests! 
+**This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest [Arrow Electronics](https://www.arrow.com/) 96Boards, [the Oxalis](https://www.96boards.org/product/oxalis/)! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
 
-From the [Fedora Internet of Things website](https://iot.stg.fedoraproject.org/), Fedora IoT is a variant of Fedora focused on IoT ecosystems. Whether you're working on a home assistant, industrial gateways, or data storage and analytics, Fedora IoT provides a trusted open source platform to build on. Fedora IoT produces a monthly rolling release to help you keep your ecosystem up-to-date.
+Near ubiquitous broadband internet connections and a multitude of distributed embedded systems, in the IoT world introduces new challenges in data transfer performance and communication security.
 
-Of course, there will plenty of 96Boards discussion and a change for Q&A!
+The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
 
-We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
+We will discuss this board at a high level, exploring the many technologies that went into making it possible. Then, we will meet with engineers from companies that made it, and discuss a wide variety of potential use-cases. Before the end of the show, we will also see a live demo of the Oxalis in action. We hope you are as excited as we are, so make sure to tune in!
 
-[OpenHours spent the entire month of May talking all about Women in STEM!](https://www.96boards.org/go/wistem-2018/) Each week, we had interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest joined us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
+Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics!
 
 ### What is 96Boards OpenHours?
 
