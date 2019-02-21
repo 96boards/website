@@ -26,7 +26,7 @@ product_images:
 product_buy_links:
   -
     link-title: Arrow (Coming soon...)
-    link-url: "https://www.arrow.com/en/research-and-events/articles/voice-ui-design-for-96boards"
+    link-url: "https://www.arrow.com/en/products/96b-05voiceui-v1.3-est/arrow-development-tools"
 product_more_info:
   - title: Product Brief
     link: /documentation/mezzanine/voice-ui/files/voice-ui-quick-start.pdf
@@ -65,8 +65,8 @@ The Arrow/ADI ADADN8080 Mezzanine reference design board is a high-end voice con
 - Far-field voice capture over multiple digital Pulse-Density Modulation (PDM) microphones
 - Low-power always on voice detection withDSPcorewake-up
 - Low-Latency audio path for high- performance applications
-- Supportforaudiomediarecordand playback
-- TestedwithAVS
+- Support for audio media record and playback
+- Tested with AVS
 - Integrated support for beamforming – Visual LED indicators to identify direction of origin for Voice stream and Voice trigger capture
-- Integratedbarge-inforimprovedvoice trigger capture during music / media playback
-- Linearandcircularmicrophonearrays (4PDM mics) with LEDs
+- Integrated barge-in for improved voice trigger capture during music / media playback
+- Linear and circular microphone arrays (4PDM mics) with LEDs
