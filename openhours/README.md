@@ -23,17 +23,15 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMTRUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMjFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Fall in love with the Oxalis!**
+**Matrix Labs**
 
-**This week** during OpenHours, we will be breaking new records by bringing on an entire line up of industry professionals to talk about one of the newest [Arrow Electronics](https://www.arrow.com/) 96Boards, [the Oxalis](https://www.96boards.org/product/oxalis/)! This new 96Boards addition is an Enterprise board which made its debut earlier this year, and now will have a chance to shine. Grab a hand full of candy hearts and keep your eyes peeled, because you never know when Cupid will strike! Join us for this years Valentines Day OpenHours special event, and fall in love with the Oxalis <3
+**This week** we will be meeting with **Samreen (Community Manager)** and **Alfred (Innovation Manager)** of [Matrix Labs](https://www.matrix.one/) to discuss a plethora of topics, including Matrix Labs and their product line, current developer platforms, the Arm innovators program, and more!
 
-Near ubiquitous broadband internet connections and a multitude of distributed embedded systems, in the IoT world introduces new challenges in data transfer performance and communication security.
+Considering the diverse skill set and experience of our guests, I am sure the conversation will take some fun twists and turns along the way. Wake up early or stay up late, this week's episode of OpenHours is gonna be great! 
 
-The Oxalis meets these challenges head on and provides a high performance IoT gateway solution with low power consumption in a modular architecture.
-
-We will discuss this board at a high level, exploring the many technologies that went into making it possible. Then, we will meet with engineers from companies that made it, and discuss a wide variety of potential use-cases. Before the end of the show, we will also see a live demo of the Oxalis in action. We hope you are as excited as we are, so make sure to tune in!
+[MATRIX Labs](https://www.matrix.one/) is a machine intelligence company converging physical and digital worlds. We have an incredible team of passionate technologists. MATRIX is the world's most advanced Internet of Things device for consumers and businesses.
 
 Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics!
 
