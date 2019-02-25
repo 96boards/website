@@ -88,7 +88,11 @@ seo:
     {% assign dateAdded = "N/A" %}
     {% for board in board-details %}
         {% if board.id == product.permalink %}
-            {% assign dateAdded = board.attributes["Date Added"] | date: "%Y-%m-%d" %}
+            {% for attr in board.attributes %}
+                {% if attr.name == "Date Added" %}
+                    {% assign dateAdded = attr.value | date: "%Y-%m-%d" %}
+                {% endif %}
+            {% endfor %}
         {% endif %}
     {% endfor %}
     <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %}{{os.title | downcase}} {% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
