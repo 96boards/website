@@ -69,6 +69,7 @@ product_mezzanine:
 product_kits:
   - title: Coming Soon...
 product: true
+archived: false
 ---
 
 Hichips-Parrot Board (Allwinner SoC-Only 3-Mic Far-Field Dev Kit) for Amazon AVS

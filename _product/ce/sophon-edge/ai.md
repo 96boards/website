@@ -66,9 +66,6 @@ documentation:
       url: https://www.96boards.org/documentation/consumer/sophon-edge/hardware-docs/files/sophon-edge-bom.pdf
 whats-in-the-box:
     - Sophon Edge board
-    - 16 GB microSD card
-    - SDSoC license voucher
-    - Quick start card
 buy-now:
     title: Buy Now
     url: https://sophon.ai/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html

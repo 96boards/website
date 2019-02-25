@@ -42,7 +42,7 @@ pages:
         url: /products/mezzanine/
       - title: Accessories
         url: /products/accessories/
-    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/]
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/]
   - list:
       - title: Projects
         url: /projects/
@@ -132,8 +132,8 @@ pages:
   - list:
       - title: Sophon Edge
         url: /product/sophon-edge/
-      # - title: AI
-      #   url: /product/sophon-edge/ai/
+      - title: AI
+        url: /product/sophon-edge/ai/
       - title: Getting Started
         url: /documentation/consumer/sophon-edge/getting-started/
       - title: Documentation
@@ -148,8 +148,8 @@ pages:
   - list:
       - title: Rock960
         url: /product/rock960/
-      # - title: AI
-      #   url: /product/rock960/ai/
+      - title: AI
+        url: /product/rock960/ai/
       - title: Getting Started
         url: /documentation/consumer/rock960/getting-started/
       - title: Documentation
@@ -206,8 +206,8 @@ pages:
   - list:
       - title: HiKey970
         url: /product/hikey970/
-      # - title: AI
-      #   url: /product/hikey970/ai/
+      - title: AI
+        url: /product/hikey970/ai/
       - title: Getting Started
         url: /documentation/consumer/hikey970/getting-started/
       - title: Documentation
@@ -298,7 +298,7 @@ pages:
         url: /documentation/consumer/bubblegum-96/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/bubblegum-96/
+        url: https://discuss.96boards.org/c/products/bubblegum96/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/consumer/bubblegum-96/]
@@ -343,7 +343,7 @@ pages:
         url: /documentation/enterprise/poplar-hoperun/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/poplar-hoperun/
+        url: https://discuss.96boards.org/c/products/poplar/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/enterprise/poplar-hoperun/]

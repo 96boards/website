@@ -32,10 +32,15 @@ product_buy_links:
     link-title: "Buy Carbon (Seeed)"
     link-price: $27.95
     link-url: "http://linaro.co/carbon-buy"
+  -
+    link-title: "Buy Carbon (FabToLab)"
+    link-price: ₹2,985.00
+    link-url: "https://www.fabtolab.com/boards/96boards/ble-carbon"
 product_os:
   - title: Zephyr
     link: /documentation/iot/carbon/downloads/zephyr.md.html
 product: true
+archived: false
 ---
 Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
 

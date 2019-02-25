@@ -35,6 +35,9 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/d3-mezzanine-camera-board
 tab_menu:
   - tab_title: D3Camera
     tab_link: /product/d3camera/
@@ -47,6 +50,7 @@ tab_menu:
     tab_position: 2
     tab_align_right: true
 product: true
+archived: false
 ---
 D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c.  Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
 

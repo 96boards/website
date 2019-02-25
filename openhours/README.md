@@ -23,21 +23,17 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMTBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMjFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Talking FPGAs on OpenHours with Adam Taylor**
+**Matrix Labs**
 
-Adam Taylor is a Chartered Engineer and Fellow of the Institute of Engineering and Technology. And better known for the very popular MicroZed Chronicles based on using the Xilinx Zynq SoC.
+**This week** we will be meeting with **Samreen (Community Manager)** and **Alfred (Innovation Manager)** of [Matrix Labs](https://www.matrix.one/) to discuss a plethora of topics, including Matrix Labs and their product line, current developer platforms, the Arm innovators program, and more!
 
-Throughout his career he has implemented a wide variety of solutions from RADAR to Safety Critical Control Systems, with interesting stops in Image Processing and Cryptography along the way.
+Considering the diverse skill set and experience of our guests, I am sure the conversation will take some fun twists and turns along the way. Wake up early or stay up late, this week's episode of OpenHours is gonna be great! 
 
-Over the years he written for a number of publications and presented at a number of conferences including EE Times, Programmable Planet, Xilinx Xcell Journal and Xilinx Xcell Daily Blog. His website, [ADIUVO Engineering](http://adiuvoengineering.com/) collates them all into a single archive.
+[MATRIX Labs](https://www.matrix.one/) is a machine intelligence company converging physical and digital worlds. We have an incredible team of passionate technologists. MATRIX is the world's most advanced Internet of Things device for consumers and businesses.
 
-So bring all your FPGA related queries and join us for an exciting episode of OpenHours with Adam Taylor.
-
-We also take questions through our [OpenHours IRC channels](https://webchat.freenode.net/): **#OpenHours & #96boards**
-
-[OpenHours spent the entire month of May talking all about Women in STEM!](https://www.96boards.org/go/wistem-2018/) Each week, we had interviews from women in fields spanning multiple disciplines. From computer science and engineering, to chemestry, materials and more... Each featured guest joined us to tell their story filled with challenges and triumphs while also taking questions from our OpenHours hosts and the community.
+Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics!
 
 ### What is 96Boards OpenHours?
 

@@ -51,6 +51,9 @@ product_buy_links:
   -
     link-title: Seeed
     link-url: https://linaro.co/uart-seeed
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/96boards-UART
 product_more_info:
   - title: User Guide
     link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
@@ -67,6 +70,7 @@ product_includes:
   - quantity: 2
     name: 2mm shunts
 product: true
+archived: false
 ---
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 

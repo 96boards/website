@@ -29,7 +29,7 @@
       value: PMC / AAC+ / MP3 / WMA
     - name: "Camera"
       value: N/A
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value: >-
         "40 pin low speed expansion connector: UART, SPI, I2S, I2Cx2, GPIOx12, DC Power;
         60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI; 1xJTAG header option"
@@ -100,7 +100,7 @@
         I2S 4Wire interface via expansion connector
     - name: "Camera"
       value: MIPI CSI interface (Mobile Industry Processor Interface - Camera Serial Interface) 2x lane. (requires a custom IP for the FPGA)
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         One 40-pin Low Speed (LS) expansion connector
         UART x2, SPI, I2S, I2C x2, GPIO x12 and DC power.
@@ -164,7 +164,7 @@
         PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
     - name: "Camera"
       value: Integrated ISP with support for image sensors up to 13MP
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
          60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
@@ -228,7 +228,7 @@
         PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
     - name: "Camera"
       value: Integrated Dual ISP with support for 3 image sensors up to 28MP
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "Expansion Connectors:
         1x 96boards 40 pin Low-Speed connector (UART x2, SPI, I2S, I2C x2, GPIO x12, DC power)
@@ -299,7 +299,7 @@
         HDMI output
     - name: "Camera"
       value: One 4-lane MIPI camera serial interface(CSI), one 2-lane MIPI CSI
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
          60 pin high speed expansion connector: SDIO, MIPI_DSI, MIPI_CSI"
@@ -376,7 +376,7 @@
         HDMI output
     - name: "Camera"
       value: 1 x 4-lane MIPI CSI and 1 x 2-lane MIPI CSI
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "40 pin low speed expansion connector: +1.8V, +5V, DC power, GND, 2UART, 2I2C, SPI, I2S, 12xGPIO
          60 pin high speed expansion connector: 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI"
@@ -435,7 +435,7 @@
         "
     - name: "Camera"
       value: 4 line MIPI port, 2 line MIPI port
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "One 40-pin Low Speed (LS) expansion connector
         UART, SPI, I2S, I2C x2, GPIO x12, DC power
@@ -488,7 +488,7 @@
 
     - name: "Camera"
       value: MIPI-CSI (Mobile Industry Processor Interface - Camera Serial Interface)	
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
         60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
@@ -549,11 +549,11 @@
     - name: "Video"
       value:	>-
         "1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8"
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
     - name: "Audio"
       value:	>-
         HDMI output
-    - name: "ExpansionInterface"
+    - name: "Expansion Interface"
       value:	>-
         "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
         60 pin high speed expansion connector: SDIO, MIPI_DSI, MIPI_CSI"
@@ -885,7 +885,7 @@
     - name: "Wireless"
       value: >-
         802.11AC 2*2 with Bluetooth
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         Linaro 96Boards Low Speed Expansion slot
     - name: "Connectors"
@@ -938,7 +938,7 @@
     - name: "Wireless"
       value: >-
         802.11AC 2*2 with Bluetooth
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         Linaro 96Boards Low Speed Expansion slot
     - name: "Connectors"
@@ -1005,7 +1005,7 @@
     - name: "Wireless"
       value: >-
         Quectel BC95-B5/8/20 or BC95-G
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         40pin GPIO
     - name: "Power"
@@ -1040,7 +1040,7 @@
     - name: "USB"
       value: >-
         2 x Micro USB
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "30 pin low speed expansion connector: +3.3V, +5V, VCC, GND, UART, I2C, SPI, GPIO x4"
     - name: "Power"
@@ -1091,7 +1091,7 @@
         USB power supply with fuse protect
         Digital Output (V)	1.8V
         Analog Input (V)	0V - 1.8V
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "40 Pin Low-speed expansion"
     - name: "Connectors"
@@ -1133,7 +1133,7 @@
     - name: "Camera"
       value: >-
         MIPI CSI-2 Connector for camera sensor up to 2MP
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         40 Pins Header
     - name: "LED"
@@ -1169,7 +1169,7 @@
       value: >-
         16uA(sleep mode)
         Support GPS Power-off mode, MCU & Sensor Support sleep mode
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         I2C, GPIOs, UART and ADC
     - name: "Sensors"
@@ -1203,7 +1203,7 @@
     - name: "RAM"
       value: >-
         Memory (SPI FRAM 1MB 1.8V) (SPEC)
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         FTDI FT232RQ USB UART INTERFACE	- Connect to an RS232 serial terminal over USB with the FTDI FT232RQ interface (SPEC)
         FCI 15 PIN FPC CONNECTOR	Raspberry pi CSI2 and DSI connector
@@ -1258,7 +1258,7 @@
         Operating Voltage: 1.8/3.3/5V
         No-load Current: 30mA
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         6 x On-board Grove connector
@@ -1297,7 +1297,7 @@
     - name: "Camera"
       value: >-
         "Two MIPI CSI-2 (2-lane)"
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         Two UART, two SPI, one I2C, one PCM, GPIO.
@@ -1312,7 +1312,7 @@
     - name: "SoC"
       value: >-
         "Atmel’s Hardware Asymmetric Crypto Engine TPM AT97SC3205T"
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         Connected to the 96Boards standard HS expansion connector
@@ -1331,7 +1331,7 @@
     - name: "SoC"
       value: >-
         "MCP3004 ADC chip"
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         The Linker mezzanine card has eight connectors supporting Analog, UART, I2C and GPIO, and two channels of analog input using the MCP3004 ADC chip
@@ -1361,7 +1361,7 @@
         "
 - id: /product/mipiadapter/
   attributes:
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR
@@ -1402,7 +1402,7 @@
         "
         ARM Cortex-M4 @ 100 MHz Maximum
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         40 pin low-speed expansion connector, +1.8V, +5V, GND, UART, I2C, SPI, I2S, SWD, GPIO
@@ -1462,7 +1462,7 @@
         Atmel ATSHA204A
         Atmel ATECC508A
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         40 Pin Low-speed expansion
@@ -1513,7 +1513,7 @@
         "
         Integrated Arduino-compatible ATMEGA328 microcontroller
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         Arduino UNO compatible expansion headers
@@ -1556,7 +1556,7 @@
         "
          Up to 156KB user FLASH memory
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         1 x Raspberry Pi expansion connector
@@ -1585,7 +1585,7 @@
         "
         STM32F446 MCU ARM® Cortex® -M4 180MHz 
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         96Boards high/low-speed connectivity
@@ -1615,7 +1615,7 @@
 - id: /product/shiratech-lte/
   attributes:
 
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         96Boards high/low-speed connectivity
@@ -1643,7 +1643,7 @@
         SLB9645x - Supporting the TPM 1.2 Standard through I2C communication
         SLS32AIA020A TRUST-E Authentication Chip
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         Standard 96Boards LS expansion connector
@@ -1660,7 +1660,7 @@
         "
         USB bus powered. Doesn’t disconnect when base board power is cycled	
         "
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         2 x 20 2.0mm pitch male header	
@@ -1686,7 +1686,7 @@
         "
 - id: /product/xinabox-b901/
   attributes:
-    - name: "Expansion Interfaces"
+    - name: "Expansion Interface"
       value: >-
         "
         2 x xBUS connections to interface with xCHIPS
