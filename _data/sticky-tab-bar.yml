@@ -343,7 +343,7 @@ pages:
         url: /documentation/enterprise/poplar-hoperun/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/poplar-hoperun/
+        url: https://discuss.96boards.org/c/products/poplar/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/enterprise/poplar-hoperun/]
