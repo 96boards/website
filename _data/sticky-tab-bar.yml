@@ -298,7 +298,7 @@ pages:
         url: /documentation/consumer/bubblegum-96/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/bubblegum-96/
+        url: https://discuss.96boards.org/c/products/bubblegum96/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/consumer/bubblegum-96/]
