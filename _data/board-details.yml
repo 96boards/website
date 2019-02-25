@@ -1470,6 +1470,8 @@
       value: "/product/dragonboard410c/"
 - id: /product/ethernetcard/
   attributes:
+    - name: Date Added
+      value: 2017-06-26 09:00:00+00:00
     - name: "Connectivity"
       value: >-
         "Gigabit Ethernet through high speed USB 2.0"
@@ -1930,3 +1932,63 @@
         1 x Linear Mic Array (4Mic)
 
         "
+- id: /product/on-camera/
+  attributes:
+    - name: Date Added
+      value: 2019-02-25 09:00:00+00:00
+    - name: "Camera"
+      value: >-
+        "
+        Support for OnSemi 13 MP AR1337 RAW sensor:
+        MIPI CSI 4-lane interface
+        Optical format 1/3.2” 13Mp (4:3)
+        Active pixels 4208H x 3120V
+        View Angle 74.48° +/-3° Autofocus
+        "
+    - name: "Parent Board"
+      value: "/product/dragonboard410c/"
+- id: /product/shiratech-bosch/
+  attributes:
+    - name: Date Added
+      value: 2019-02-13 09:00:00+00:00
+    - name: "Sensors"
+      value: >
+        The Bosch Sensor Mezzanine includes the following sensors BMP388, BMA456, BME680, BHI160 and BMM150
+    - name: "Power"
+      value: "Supply 1.8v/3.3v"
+    - name: "Other"
+      value: >
+        Add high-performance, highly accurate Bosch sensors to your product
+        Comes with a wide selection of sensors for any IoT/drone application.
+        All sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0 and 6 gpio lines (gpio a,b,c,d,e,f).
+- id: /product/shiratech-bosch/
+  attributes:
+    - name: Date Added
+      value: 2019-02-13 09:00:00+00:00
+    - name: "Sensors"
+      value: >
+        The Bosch Sensor Mezzanine includes the following sensors BMP388, BMA456, BME680, BHI160 and BMM150
+    - name: "Power"
+      value: "Supply 1.8v/3.3v"
+    - name: "Other"
+      value: >
+        Add high-performance, highly accurate Bosch sensors to your product
+        Comes with a wide selection of sensors for any IoT/drone application.
+        All sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0 and 6 gpio lines (gpio a,b,c,d,e,f).
+- id: /product/shiratech-lte/
+  attributes:
+    - name: Date Added
+      value: 2018-05-01 09:00:00+00:00
+    - name: "Sensors"
+      value: >
+        On-Board Sensor Key Features - Bosch BNO055 (3 Sensors in one device - triaxial 16bit gyroscope, triaxial 14bit accelerometor
+        and full performance geomagnetic sensor), Analog Device ADUX1020 (Multifunction photometric sensor and signal conditioning),
+        ST VL53L0CX (940nm Laser VCSEL. VCSEL driver, ranging sensor with advanced embedded micro controller) and Analog Device ADT7410 (High performance temperature sensor)
+    - name: "Other"
+      value: >
+        Cellular Modem Quectel EC25 LTE -
+        LTE CAT 4 Max 150Mbps (DL) 50Mbps (UL).
+        LTE category 4 module optimized for M2M and IoT applications.
+        Worldwaide LTE, UMTS/HSPA+ and GSM/GPRS/EDGE coverage.
+        Multi-constellation GNSS receiver available for applications requiring fast and accurate fixes in any environment.
+        MIMO technology meets demands for data rate and link reliability in modem wireless communication system.
