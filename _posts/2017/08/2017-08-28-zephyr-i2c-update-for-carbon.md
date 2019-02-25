@@ -130,4 +130,4 @@ So now you can build Zephyr for Carbon with I2C_2 support and communicate any sl
 # **Conclusion**
 
 I hope this post has cleared few doubts and provided some information over the Zephyr I2C support for Carbon board. TBH all of the information is supplied
-with the [document](https://github.com/zephyrproject-rtos/zephyr/blob/master/boards/arm/96b_carbon/doc/96b_carbon.rst) itself, we just have to read it thoroughly before working on it :-)
+with the [document](https://github.com/zephyrproject-rtos) itself, we just have to read it thoroughly before working on it :-)
