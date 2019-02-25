@@ -35,10 +35,14 @@ product_buy_links:
   -
     link-title: Future Electronics
     link-url: https://linaro.co/stm32futureelectronics
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/stm32-mezzanine-board
 product_more_info:
   - title: Read More on ST.com
     link: http://linaro.co/stm32f446
 product: true
+archived: false
 ---
 The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A). This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement, pressure and
 sound. It can be plugged directly on top of 96Boards consumer edition (CE) products and supports multiple expansion possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software

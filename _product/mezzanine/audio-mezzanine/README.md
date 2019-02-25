@@ -27,6 +27,9 @@ product_buy_links:
   -
     link-title: Arrow Electronics
     link-url: https://www.arrow.com/en/products/114990332/seeed-technology-limited
+  -
+    link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/audio-mezzanine-dragonboard
 tab_menu:
   - tab_title: Audio Mezzanine
     tab_link: /product/audio-mezzanine/
@@ -39,6 +42,7 @@ tab_menu:
     tab_position: 2
     tab_align_right: true
 product: true
+archived: false
 ---
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 You can connect 96Boards to various modules easily with this expansion board. There are six

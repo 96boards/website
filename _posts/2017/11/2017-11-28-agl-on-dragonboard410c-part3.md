@@ -98,7 +98,7 @@ the docker containers and package them as a Widget and finally deploy it on
 the AGL.
 
 More information on setting up the Docker container can be seen in the
-[AGL SDK Quick Setup Guide](http://docs.automotivelinux.org/docs/getting_started/en/dev/reference/setup-sdk-environment.html).
+AGL SDK Quick Setup Guide.
 Just follow the guide and set up the Docker container with the latest
 prebuilt docker image.
 

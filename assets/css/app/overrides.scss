@@ -10,9 +10,13 @@ $footer-text-color: #717171;
 $sub-footer-color: #E4E4E4;
 // Navbar
 $navbar-text-color: #fff;
+$navbar-hover-text-color: #fff !default;
+$navbar-hover-background-color: $brand-primary !default;
 $navbar-height: 66px;
 $navbar-inverse-bg: #000;
 $navbar-inverse-color: #fff;
+$navbar-submenu-bg-color: #3e3e3e !default;
+$navbar-submenu-color: #fff !default;
 @font-face {
   font-family: 'Lato';
   src: url('/assets/fonts/lato-regular/Lato-regular.eot'); /* IE9 Compat Modes */
@@ -35,3 +39,15 @@ $jumbotron-heading-color: #fff !default;
 $jumbotron-sub-title-font-size-xs: 16px;
 $jumbotron-sub-title-font-size: 18px;
 $jumbotron-sub-title-color: #fff !default;
+// Tabbed Navbar
+$tabbed-nav-bg-color: #f5f5f5 !default;
+$tabbed-nav-text-color: #262626 !default;
+$tabbed-nav-hover-color: $brand-primary !default;
+// Post tags
+$post-tag-bg: #d7d7d7 !default;
+$post-tag-color: #000 !default;
+$post-tag-border: #8b8b8b !default;
+$post-tag-hover-bg: #1f1f1f !default;
+$post-tag-hover-color: #fff !default;
+// Triangle Divider
+$triangle-divider-bg-color: #fff !default;  

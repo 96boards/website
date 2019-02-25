@@ -18,20 +18,19 @@ tab_menu:
     - tab_title: Rock960 (Vamrs)
       tab_link: /product/rock960/
       active: true
+    - tab_title: AI
+      tab_link: /product/rock960/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
-      tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/consumer/rock960/
-      tab_position: 2
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/rock960/
-      tab_position: 4
       tab_align_right: true
 product_buy_links:
   -
     link-title: Rock960 (SeeedStudio)
-    link-url: "https://www.seeedstudio.com/Rock-960-Board-RK3399-solution-2G-Version-p-3036.html"
+    link-url: "https://www.seeedstudio.com/ROCK960-Board-RK3399-solution-2G-Version-p-3036.html"
     from: SeeedStudio.com
     type: board
     link-price: "$99.00"
@@ -43,6 +42,13 @@ product_buy_links:
     type: board
     link-price: "$99.00"
     link-price-currency: USD
+  -
+    link-title: Rock960 (FabToLab)
+    link-url: "https://www.fabtolab.com/boards/96boards/rock-960-board-rk3399"
+    from: fabtolab.com
+    type: board
+    link-price: "₹12,285"
+    link-price-currency: INR
 product_more_info:
     - title: 96Rocks
       link: https://www.96rocks.com/
@@ -80,6 +86,7 @@ product_mezzanine:
 product_kits:
   - title: Coming Soon...
 product: true
+archived: false
 ---
 The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency. This board comes packed with 4GB of RAM, 32GB of on board eMMC storage, USB 3.1 type C with DP, HDMI 2.0 with 4K output, 4 lane M.2 PCI-E 2.1, and so much more! All of this on the 96Boards Consumer Edition Standard form factor, a truely little beast.
 

@@ -4,11 +4,11 @@ layout: product-display-page
 shortname: dragonboard410c
 permalink: /product/dragonboard410c/
 description: |-
-    DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® Snapdragon™ 410 processor. Low-Cost Product Development Platform
+    DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® APQ8016E processor. Low-Cost Product Development Platform
 keywords: |-
-    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
+    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+product_short_desc: "Board based on Qualcomm® APQ8016E processor and it's the size of a credit card."
 product_specification: ce
 featured_product_order: 2
 is_featured: true
@@ -48,12 +48,26 @@ product_buy_links:
     link-price: "$75.00"
     link-price-currency: USD
   -
+    link-title: DragonBoard410c (Basic Kit)
+    link-url: "https://www.fabtolab.com/boards/96boards/dragon-board-410c"
+    from: FabToLab
+    type: board
+    link-price: "₹10,985.00"
+    link-price-currency: INR
+  -
     link-title: "DragonBoard410c + Audio Kit"
     link-url: "https://www.96boards.org/product/audio-mezzanine/"
     from: Arrow.com
     type: package
     link-price: "$89.00"
     link-price-currency: USD
+  -
+    link-title: "DragonBoard410c + Audio Kit"
+    link-url: "https://www.fabtolab.com/boards/96boards/audio-96boards-dragonboard-410C"
+    from: FabToLab
+    type: package
+    link-price: "₹10,985.00"
+    link-price-currency: INR
   -
     link-title: "DragonBoard410c + Camera Kit"
     link-url: "https://linaro.co/96b-db410c-camera"
@@ -68,6 +82,13 @@ product_buy_links:
     type: package
     link-price: "$84.99"
     link-price-currency: USD
+  -
+    link-title: DragonBoard410c + AWS IoT Kit
+    link-url: "https://www.fabtolab.com/boards/96boards/arrow-aws-dragon-board"
+    from: FabToLab
+    type: board
+    link-price: "₹9,985.00"
+    link-price-currency: INR
 
 # Right Sidepanel links
 product_os:
@@ -93,6 +114,8 @@ product_third_party_images:
     link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
   - title: Ubuntu Core
     link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+  - title: Fedora
+    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
   - title: More Downloads
     link: /documentation/consumer/dragonboard410c/downloads/
 
@@ -127,8 +150,9 @@ product_kits:
   - title: AWS IoT Kit
     link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 product: true
+archived: false
 ---
-The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced
+The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
 processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
 
 ***
@@ -137,7 +161,7 @@ processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a boar
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm Snapdragon 410E                                                                         |
+|  SoC                 | Qualcomm APQ8016E                                                                         |
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.2 GHz per core                                                  |
 |  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
 |  RAM                 | 1GB LPDDR3 SDRAM @ 533MHz                                                                        |

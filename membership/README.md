@@ -5,8 +5,15 @@ description: |-
 permalink: /membership/
 status: active
 css-package: members
-layout: container-breadcrumb-tabs
+layout: jumbotron
+jumbotron:
+    animation: fade
+    background-image: /assets/images/content/96boards-banner-4.jpg
 ---
+<div class="row" id="content-container">
+{% include sticky-tab-bar.html %}
+<div class="container"  markdown="1">
+
 96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 
 Anyone can build and deliver products designed to the specification. Products using the 96Boards brand may be featured on the 96Boards.org website and supported on the 96Boards.org forums. These must meet certain standards including compliance testing (if required). Further information on 96Boards compliance is available on the [Compliance tab](/compliance/) of this page.
@@ -27,8 +34,7 @@ To use the 96Boards brand and logo companies must participate at one of the foll
 For SoC vendors, 96Boards vendors or other community members who wish to help manage and influence the direction of the 96Boards program | For manufacturers of 96Boards branded processor board products | For 96Boards vendors, mezzanine & module vendors, community software projects and other related companies |
 Includes participation in the 96Boards Steering Committee, Meets monthly and in person at Linaro Connect, Manages the evolution of published 96Boards specifications, Recommends new specifications | Required to ship a 96Boards branded processor board product | Required to ship a 96Boards Partner branded product |
 Logo & Company information on 96Boards.org site | Logo & Company information on 96Boards.org site | Logo & Company information on 96Boards.org site |
-Product pages including where to buy, software downloads (if applicable) etc., community forum for 96Boards product vendors | Product pages including where to buy, software downloads (if applicable) etc. for board, mezzanine & module vendors |
-Includes ticket and no-charge tabletop demonstration area for Linaro Connect | Includes ticket to Linaro Connect | Includes ticket to Linaro Connect |
+Product pages including where to buy, software downloads (if applicable) etc., community forum for 96Boards product vendors | Product pages including where to buy, software downloads (if applicable) etc. for board, mezzanine & module vendors ||
 Requires signing the 96Boards membership agreement | Requires signing the 96Boards manufacturing agreement including per board fee to cover 96Boards.org costs | [Requires signing the 96Boards partner agreement](/partner/) |
 
 <a name="Developing"></a>
@@ -93,5 +99,8 @@ Community builds are 96Boards compliant builds created by the community and host
 
 
 <small id="SMALL_156">Issue 1.01 / Date February 9, 2016</small>
+
+</div>
+</div>
 
 {% include members.html %}

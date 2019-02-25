@@ -147,6 +147,12 @@ p{
     font-size: 18px;
     line-height: 40px;
 }
+@media(max-width: $screen-sm-min){
+    #spaced-para {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
 
 // Paragraphs that are justified.
 p .justified{
@@ -156,7 +162,7 @@ p .justified{
 
 // Tab Content paragraph
 #content-container p {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     line-height: 1.66em;
 }
@@ -461,4 +467,47 @@ div#tabbed-nav-bar {
         height: 66px !important;
         width: auto;
     }
+}
+a#submit_issue::after {
+    position: absolute;
+   content: "\f188";
+   font: normal normal normal 20px/1 FontAwesome;
+    right: 0px;
+    line-height:45px;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 1;
+    opacity:0;
+    transition: all 400ms ease;
+}
+a#submit_issue:hover::after {
+  opacity:1;
+}
+a#submit_issue{
+  transition:none;
+}
+
+a#edit_on_github:after {
+    position: absolute;
+   content: "\f040";
+   font: normal normal normal 20px/1 FontAwesome;
+    right: 0px;
+    line-height:45px;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 1;
+    opacity:0;
+    transition: all 400ms ease;
+}
+a#edit_on_github:hover::after {
+  opacity:1;
+}
+a#edit_on_github{
+  transition:none;
 }
