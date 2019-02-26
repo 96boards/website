@@ -1,10 +1,9 @@
 {% assign spec = include.specification %}
 <div id="grid" class="mixitup-container">
-    {% if spec == "all" %}
-        {% assign products_array =  site.product | where: "display_product", "true" | where: "archived", "false" %}
-    {% else %}
-        {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
-    {% endif %}
+    {% assign products_array =  site.product | where: "display_product", "true" | where: "archived", "false" %}
+    {% unless spec == "all" %}
+        {% assign products_array =  products_array | where: "product_specification", spec  %}
+    {% endunless %}
     <div class="row">
     {% for product in products_array %}
         {% assign product-url = product.permalink | split: "/" %}
@@ -19,7 +18,7 @@
                 {% endfor %}
             {% endif %}
         {% endfor %}
-    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %}{{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
+    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
     {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}" data-date-added="{{dateAdded}}">
             <div class="col-item">
                 <div class="photo">
@@ -36,6 +35,20 @@
                         {% endif %}
                         {% endresponsive_image_block %}
                     </a>
+                </div>
+                {% assign specification = product.product_specification | downcase %}
+                {% if specification == "ce" %}
+                    {% assign specification_text = "Consumer Edition" %}
+                {% elsif specification == "ee" %}
+                    {% assign specification_text = "Enterprise Edition" %}
+                {% elsif specification == "ie" %}
+                    {% assign specification_text = "IoT Edition" %}
+                {% elsif specification == "mezzanine" %}
+                    {% assign specification_text = "Mezzanine Edition" %}
+                {% endif %}
+                <div class="spec-badge" data-toggle="tooltip" data-position="right" title="{{specification_text}}">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/assets/images/content/tiny-spec-{{specification}}.png" class="img-resposive spec-badge lazyload">
                 </div>
                 <div class="info">
                     <div class="product-title col-md-12 text-center">
