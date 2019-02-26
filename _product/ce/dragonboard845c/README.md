@@ -2,7 +2,7 @@
 title: DragonBoard™ 845c RB3 Robotics Kit (Thundercomm)
 layout: product-display-page
 shortname: dragonboard845c
-permalink: /product/rb3-kit/
+permalink: /product/dragonboard845c/
 description: |-
     The DragonBoard™ 845c development board is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs. The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
 keywords: |-
