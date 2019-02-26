@@ -1,5 +1,5 @@
 ---
-title: DragonBoard™ 845c RB3 Robotics Kit (Arrow)
+title: DragonBoard™ 845c RB3 Robotics Kit (Thundercomm)
 layout: product-display-page
 shortname: dragonboard845c
 permalink: /product/dragonboard845c/
