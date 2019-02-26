@@ -1,66 +1,69 @@
 <div id="product-filters">
     <h3>Filters</h3>
     <div class="btn-group" role="group" aria-label="Product Specification Filters">
-        <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Sort
-                <span class="caret"></span>
+            <button type="button"  data-mixitup-control data-filter="all"" class="btn btn-default">
+                All
             </button>
-            <ul class="dropdown-menu">
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Show all 96Boards"><a href="#" data-mixitup-control type="button" data-filter="all">All</a>
-                </li>
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Sort by Title ACS"><a href="#" data-mixitup-control type="button" data-sort="order:asc"><i
-                            class="glyphicon glyphicon-arrow-up"></i></a></li>
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Sort by Title DESC"><a href="#" data-mixitup-control type="button"
-                        data-sort="order:descending"><i class="glyphicon glyphicon-arrow-down"></i></a></li>
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Sort by Date (oldest first)"><a href="#" data-mixitup-control type="button"
-                        data-sort="date-added:asc">Date <i class="glyphicon glyphicon-arrow-up"></i></a></li>
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Sort by Date (newest first"><a href="#" data-mixitup-control type="button"
-                        data-sort="date-added:descending">Date <i class="glyphicon glyphicon-arrow-down"></i></a></li>
-                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
-                    title="Mix it up!"><a href="#" data-mixitup-control type="button" data-sort="random">Random <i
-                            class="glyphicon glyphicon-random"></i></a></li>
-            </ul>
-        </div>
+            <button type="button" data-mixitup-control data-sort="order:asc" class="btn btn-default">
+                <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="order:descending" class="btn btn-default">
+                <i class="fa fa-sort-alpha-desc" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="date-added:asc" class="btn btn-default">
+                Date (oldest first) <i class="fa fa-calendar" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="date-added:descending" class="btn btn-default">
+                Date (newest first) <i class="fa fa-calendar" aria-hidden="true"></i>
+            </button>
         {% unless include.hide_spec %}
-         <div class="btn-group" role="group">
+        <div class="btn-group">
            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              Specifications
              <span class="caret"></span>
            </button>
            <ul class="dropdown-menu">
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ce" ><img src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ee" ><img src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ie" ><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition"><a href="#" data-mixitup-control  type="button" data-filter=".mezzanine" ><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></a></li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition">
+                <a href="#" data-mixitup-control  type="button" data-filter=".ce">
+                    Consumer<img src="/assets/images/content/tiny-spec-ce.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+            <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition">
+                 <a href="#" data-mixitup-control  type="button" data-filter=".ee">
+                     Enterprise<img src="/assets/images/content/tiny-spec-ee.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition">
+                 <a href="#" data-mixitup-control  type="button" data-filter=".ie">
+                    IoT<img src="/assets/images/content/tiny-spec-iot.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition">
+                <a href="#" data-mixitup-control  type="button" data-filter=".mezzanine">
+                    Mezzanine<img src="/assets/images/content/tiny-spec-mezzanine.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
            </ul>
-         </div>
+        </div>
         {% endunless %}
-        <div class="btn-group" role="group">
+        <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 OS
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".debian">Debian</a>
-                </li>
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".android">AOSP</a>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".debian">Debian</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".android">AOSP</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".windows">Windows</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".ubuntu">Ubuntu</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".fedora">Fedora</a>
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="btn-group">
-        <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown"
-            data-toggle="tooltip" data-placement="top"
+        <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="tooltip" data-placement="top"
             title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
-            Compare 96Boards
+            Compare Selected 96Boards
         </button>
     </div>
 </div>
