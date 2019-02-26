@@ -28,12 +28,12 @@ tab_menu:
       tab_position: 2
       tab_position: 3
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard-845c/
+      tab_link: https://discuss.96boards.org/c/products/dragonboard-845c
       tab_position: 4
       tab_align_right: true
 product_getting_started: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
 product_documentation_link: /documentation/consumer/dragonboard845c/
-product_support_link: "https://discuss.96boards.org/c/products/dragonboard-845c/"
+product_support_link: "https://discuss.96boards.org/c/products/dragonboard-845c"
 
 # Buy Links
 product_buy_links:
@@ -102,6 +102,7 @@ The development board supports new architectures for AI, 4K@60fps H.264/H.265 En
 ***
 
 ## Additional Information
+
 <div style="overflow-x:scroll;" markdown="1">
 	
 |   Component          |   Description |
