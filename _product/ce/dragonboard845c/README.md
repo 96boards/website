@@ -48,7 +48,7 @@ product_buy_links:
 # Right Sidepanel links
 product_os:
   - title: All Downloads
-    link: /documentation/consumer/dragonboard410c/downloads/
+    link: /documentation/consumer/dragonboard845c/downloads/
 
 product_more_info:
   - title: Product Brief
