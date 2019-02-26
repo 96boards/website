@@ -59,6 +59,10 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf
   - title: Quick Start Guide
     link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-quick-start.pdf
+  - title: Engaget Article
+    link: https://www.engadget.com/2019/02/25/qualcomm-robotics-rb3-platform/
+  - title: Linux Gizmos Article
+    link: http://linuxgizmos.com/robotics-kit-runs-linux-on-new-dragonboard-845c-96boards-sbc/
 
 # Bottom Link
 product_accessories:
