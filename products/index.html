@@ -24,7 +24,9 @@ seo:
              <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Show all 96Boards"><a href="#" data-mixitup-control type="button" data-filter="all" >All</a></li>
              <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title ACS"><a href="#" data-mixitup-control  type="button" data-sort="order:asc" ><i class="glyphicon glyphicon-arrow-up"></i></a></li>
              <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="order:descending" ><i class="glyphicon glyphicon-arrow-down"></i></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="random" ><i class="glyphicon glyphicon-random"></i></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Date (oldest first)"><a href="#" data-mixitup-control  type="button" data-sort="date-added:asc" >Date <i class="glyphicon glyphicon-arrow-up"></i></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Date (newest first"><a href="#" data-mixitup-control  type="button" data-sort="date-added:descending">Date <i class="glyphicon glyphicon-arrow-down"></i></a></li>
+             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Mix it up!"><a href="#" data-mixitup-control  type="button" data-sort="random" >Random <i class="glyphicon glyphicon-random"></i></a></li>
            </ul>
          </div>
         <div class="btn-group" role="group">
@@ -82,8 +84,19 @@ seo:
 {% assign order = 1 %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
-    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %}{{os.title | downcase}} {% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
-    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}">
+    {% assign board-details = site.data.board-details %}
+    {% assign dateAdded = "N/A" %}
+    {% for board in board-details %}
+        {% if board.id == product.permalink %}
+            {% for attr in board.attributes %}
+                {% if attr.name == "Date Added" %}
+                    {% assign dateAdded = attr.value | date: "%Y-%m-%d" %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %}{{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
+    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}" data-date-added="{{dateAdded}}">
         <div class="col-item">
             <div class="photo">
                 <a href="{{product.permalink}}">

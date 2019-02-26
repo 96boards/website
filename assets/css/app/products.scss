@@ -463,7 +463,13 @@ ul.dropdown-menu.buy-dropup-menu li:last-child a {
 
 // #compare-table table {border-bottom: 0px;margin-bottom: 0px;}
 
-
 .list-group i.pull-right {
     margin-top: 2px !important;
+}
+#product-filters ul.dropdown-menu {
+    background-color: #e1e1e1;
+    color: black;
+}
+#product-filters ul.dropdown-menu li a {
+    color: #2c2c2c;
 }
