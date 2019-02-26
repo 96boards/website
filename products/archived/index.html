@@ -16,65 +16,96 @@ seo:
     <h3>Filters</h3>
     <div class="btn-group" role="group" aria-label="Product Specification Filters">
         <div class="btn-group" role="group">
-           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Sort
-             <span class="caret"></span>
-           </button>
-           <ul class="dropdown-menu">
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Show all 96Boards"><a href="#" data-mixitup-control type="button" data-filter="all" >All</a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title ACS"><a href="#" data-mixitup-control  type="button" data-sort="order:asc" ><i class="glyphicon glyphicon-arrow-up"></i></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="order:descending" ><i class="glyphicon glyphicon-arrow-down"></i></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Sort by Title DESC"><a href="#" data-mixitup-control  type="button" data-sort="random" ><i class="glyphicon glyphicon-random"></i></a></li>
-           </ul>
-         </div>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Sort
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Show all 96Boards"><a href="#" data-mixitup-control type="button" data-filter="all">All</a>
+                </li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Sort by Title ACS"><a href="#" data-mixitup-control type="button" data-sort="order:asc"><i
+                            class="glyphicon glyphicon-arrow-up"></i></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Sort by Title DESC"><a href="#" data-mixitup-control type="button"
+                        data-sort="order:descending"><i class="glyphicon glyphicon-arrow-down"></i></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Sort by Date (oldest first)"><a href="#" data-mixitup-control type="button"
+                        data-sort="date-added:asc">Date <i class="glyphicon glyphicon-arrow-up"></i></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Sort by Date (newest first"><a href="#" data-mixitup-control type="button"
+                        data-sort="date-added:descending">Date <i class="glyphicon glyphicon-arrow-down"></i></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Mix it up!"><a href="#" data-mixitup-control type="button" data-sort="random">Random <i
+                            class="glyphicon glyphicon-random"></i></a></li>
+            </ul>
+        </div>
         <div class="btn-group" role="group">
-           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Specifications
-             <span class="caret"></span>
-           </button>
-           <ul class="dropdown-menu">
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ce" ><img src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ee" ><img src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition"><a href="#" data-mixitup-control  type="button" data-filter=".ie" ><img src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></a></li>
-             <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition"><a href="#" data-mixitup-control  type="button" data-filter=".mezzanine" ><img src="{% asset_path 'tiny-spec-mezzanine.png' %}" class="filter-thumbnail" /></a></li>
-           </ul>
-         </div>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Specifications
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Consumer Edition"><a href="#" data-mixitup-control type="button" data-filter=".ce"><img
+                            src="{% asset_path 'tiny-spec-ce.png' %}" class="filter-thumbnail" /></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Enterprise Edition"><a href="#" data-mixitup-control type="button" data-filter=".ee"><img
+                            src="{% asset_path 'tiny-spec-ee.png' %}" class="filter-thumbnail" /></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="IoT Edition"><a href="#" data-mixitup-control type="button" data-filter=".ie"><img
+                            src="{% asset_path 'tiny-spec-iot.png' %}" class="filter-thumbnail" /></a></li>
+                <li class="text-center" data-toggle="tooltip" data-container="body" data-placement="right"
+                    title="Mezzanine Edition"><a href="#" data-mixitup-control type="button"
+                        data-filter=".mezzanine"><img src="{% asset_path 'tiny-spec-mezzanine.png' %}"
+                            class="filter-thumbnail" /></a></li>
+            </ul>
+        </div>
         <div class="btn-group" role="group">
-           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             OS
-             <span class="caret"></span>
-           </button>
-           <ul class="dropdown-menu">
-             <li class="text-center"><a href="#" data-mixitup-control  type="button" data-filter=".debian" >Debian</a></li>
-             <li class="text-center"><a href="#" data-mixitup-control  type="button" data-filter=".android" >AOSP</a></li>
-           </ul>
-         </div>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                OS
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".debian">Debian</a>
+                </li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".android">AOSP</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="btn-group">
-        <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown" data-toggle="tooltip" data-placement="top" 
-        title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
+        <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown"
+            data-toggle="tooltip" data-placement="top"
+            title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
             Compare 96Boards
         </button>
     </div>
     <div id="compare-boards-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Compare selected 96Boards</h4>
-            </div>
-            <div class="modal-body">
-                <p>Select boards by clicking the checkbox next to each board and press the "Compare" button below to compare your selected 96Boards!</p>
-                <ul class="boards-to-compare"></ul>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <a id="compare-btn" class="btn btn-primary" href="/products/compare/">Compare</a>
-            </div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Compare selected 96Boards</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Select boards by clicking the checkbox next to each board and press the "Compare" button below to
+                        compare your selected 96Boards!</p>
+                    <ul class="boards-to-compare"></ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a id="compare-btn" class="btn btn-primary" href="/products/compare/">Compare</a>
+                </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-</div>        
+</div>
 <div id="grid" class="mixitup-container">
 {% assign products_array = site.product | ascending %}
 {% assign products_array =  products_array | where: "archived", "true" %}
