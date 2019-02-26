@@ -482,3 +482,16 @@ ul.dropdown-menu.buy-dropup-menu li:last-child a {
     background-color: #403f3e;
     color: white !important;
 }
+img.img-resposive.spec-badge {
+    height: 100%;
+    width: 100%;
+}
+div.spec-badge {
+    background-color: #e6e6e6;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 1px solid #a8a8a8;
+    top: 0;
+    padding: 5px;
+}
