@@ -2,7 +2,7 @@
 title: DragonBoard™ 845c RB3 Robotics Kit (Thundercomm)
 layout: product-display-page
 shortname: dragonboard845c
-permalink: /product/dragonboard845c/
+permalink: /product/rb3-kit/
 description: |-
     The DragonBoard™ 845c development board is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs. The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
 keywords: |-
@@ -28,12 +28,12 @@ tab_menu:
       tab_position: 2
       tab_position: 3
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard845c/
+      tab_link: https://discuss.96boards.org/c/products/dragonboard-845c/
       tab_position: 4
       tab_align_right: true
 product_getting_started: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
 product_documentation_link: /documentation/consumer/dragonboard845c/
-product_support_link: "https://discuss.96boards.org/c/products/dragonboard845c/"
+product_support_link: "https://discuss.96boards.org/c/products/dragonboard-845c/"
 
 # Buy Links
 product_buy_links:
@@ -102,7 +102,8 @@ The development board supports new architectures for AI, 4K@60fps H.264/H.265 En
 ***
 
 ## Additional Information
-
+<div style="overflow-x:scroll;" markdown="1">
+	
 |   Component          |   Description |
 |:---------------------|:--------------|
 |  SoC                 | Qualcomm® Snapdragon™ 845              |
@@ -125,5 +126,7 @@ The development board supports new architectures for AI, 4K@60fps H.264/H.265 En
 |  Power Source        | 12V@2.5A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm              |
 |  OS Support          | LE             |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications              |
+{:.hidden_rows}
+</div>
 
 <a href="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/db845c-hw-compliance.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
