@@ -1,12 +1,11 @@
 {% assign spec = include.specification %}
 <div id="grid" class="mixitup-container">
     {% assign products_array =  site.product | where: "display_product", "true" | where: "archived", "false" %}
-    {% if spec == "all" %}
-        {% assign products_array =  products_array | where: "product_specification", spec  %}
-    {% elsif spec == "archived" %}
-            {% assign products_array =  products_array | where: "archived", "true"  %}
+    {% if spec == "archived" %}
+        {% assign products_array =  products_array | where: "archived", "true"  %}
+    {% elsif spec != "all" %}
+        {% assign products_array =  products_array   %}
     {% endif %}
-
     <div class="row">
     {% for product in products_array %}
         {% assign product-url = product.permalink | split: "/" %}
