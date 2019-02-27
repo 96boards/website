@@ -128,5 +128,3 @@ The development board supports new architectures for AI, 4K@60fps H.264/H.265 En
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
 {:.hidden_rows}
 </div>
-
-<a href="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/db845c-hw-compliance.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
