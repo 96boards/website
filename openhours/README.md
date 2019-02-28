@@ -25,15 +25,13 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMjFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Matrix Labs**
+**96Boards Embedded World 2019 Announcements**
 
-**This week** we will be meeting with **Samreen (Community Manager)** and **Alfred (Innovation Manager)** of [Matrix Labs](https://www.matrix.one/) to discuss a plethora of topics, including Matrix Labs and their product line, current developer platforms, the Arm innovators program, and more!
+**This week on OpenHours** the 96Boards Team covers all the new and shiny 96Boards hardware that was released in the past couple of weeks in lue of Embedded World 2019.
 
-Considering the diverse skill set and experience of our guests, I am sure the conversation will take some fun twists and turns along the way. Wake up early or stay up late, this week's episode of OpenHours is gonna be great! 
+While the 96Boards team wasn't physically present at EW19, we were there in spirit and being well represented by our partners. We've had announcements and board launches from Arrow, Qualcomm, STMicro, NXP, Renesas and many more!
 
-[MATRIX Labs](https://www.matrix.one/) is a machine intelligence company converging physical and digital worlds. We have an incredible team of passionate technologists. MATRIX is the world's most advanced Internet of Things device for consumers and businesses.
-
-Don't forget to check out the new [Arrow Electronics 96Boards Campaign Page](https://www.arrow.com/en/campaigns/arrow-96-boards) for a full list of 96Boards available around the world through Arrow Electronics!
+We'll go through all the new boards, their specifications & purpose and answer any questions from the community!
 
 ### What is 96Boards OpenHours?
 
