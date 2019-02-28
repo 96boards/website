@@ -4,11 +4,11 @@ layout: product-display-page
 shortname: rb3-platform
 permalink: /product/rb3-platform/
 description: |-
-    The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs. The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
+    The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor. The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz  a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation. The development board supports Linux and Robotics Operating System (ROS), while also including support for the Qualcomm® Neural Processing software development kit (SDK) for advanced on-device AI, the Qualcomm® Computer Vision Suite, the Qualcomm® Hexagon DSP SDK, and AWS RoboMaker. The development board supports new architecture for AI, 4K@60fps H.264/H.265 Encode & Decode, rich interfaces, and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work. Note: DragonBoard 845c is ONLY available in the Qualcomm® Robotics RB3 Development Kit.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform."
+product_short_desc: "The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor."
 product_specification: ce
 featured_product_order: 2
 is_featured: true
@@ -98,11 +98,15 @@ product_kits:
 product: true
 archived: false
 ---
-The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs.
+The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor. 
 
-The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
+The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz  a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation.  
 
-> Note: The Qualcomm® Robotics RB3 Development Platform is ONLY available in the RB3 Robotics Kit.
+The development board supports Linux and Robotics Operating System (ROS), while also including support for the Qualcomm® Neural Processing software development kit (SDK) for advanced on-device AI, the Qualcomm® Computer Vision Suite, the Qualcomm® Hexagon DSP SDK, and AWS RoboMaker.
+
+The development board supports new architecture for AI, 4K@60fps H.264/H.265 Encode & Decode, rich interfaces, and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work. 
+
+> Note: DragonBoard 845c is ONLY available in the Qualcomm® Robotics RB3 Development Kit.
 
 ***
 
@@ -111,8 +115,8 @@ The development board supports new architectures for AI, 4K@60fps H.264/H.265 En
 
 |   Component          |   Description                                                                                                                                 |
 |:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm® Snapdragon™ 845                                                                                                                     |
-|  CPU                 | Snapdragon™ 845 embedded platform, custom 64-bit ARM v8-compliant octa-core CPU Up to 2.8 GHz,10nm LPP FinFET process technology              |
+|  SoC                 | Qualcomm SDA845                                                                                                                     |
+|  CPU                 | Qualcomm SDA845 embedded platform, custom 64-bit ARM v8-compliant octa-core CPU Up to 2.8 GHz,10nm LPP FinFET process technology              |
 |  GPU                 | Adreno™ 630 GPU <br>OpenGL™ ES 3.2 + AEP, DX next, Vulkan®2, <br>OpenCL™ 2.0 full profile, RenderScript                                       |
 |  DSP                 | Hexagon™ 685 DSP                                                                                                                              |
 |  RAM                 | 4GB LPDDR4x SDRAM @ 1866 MHz                                                                                                                  |
