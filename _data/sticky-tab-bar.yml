@@ -32,6 +32,8 @@ pages:
   - list:
       - title: All 96Boards
         url: /products/
+      - title: Compare
+        url: /products/compare/
       - title: Consumer Edition
         url: /products/ce/
       - title: Enterprise Edition
@@ -42,7 +44,7 @@ pages:
         url: /products/mezzanine/
       - title: Accessories
         url: /products/accessories/
-    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/]
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/, /products/compare/ ]
   - list:
       - title: Projects
         url: /projects/

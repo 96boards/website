@@ -1,4 +1,9 @@
 $(window).on('load', function () {
+
+    if ($('#product-filters .dropdown-menu a').hasClass('mixitup-control-active')) {
+        $(this).closest("button").addClass("mixitup-control-active");
+    }
+    
     if($(".owl-carousel").length){
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -29,6 +34,9 @@ $(window).on('load', function () {
             animation: {
                 effects: 'fade translateZ(-100px)',
                 duration: 300
+            },
+            load: {
+                sort: 'date-added:descending'
             }
         });
         $filterSelect = $('.filter-select');
