@@ -1,0 +1,69 @@
+<div id="product-filters">
+    <h3>Filters</h3>
+    <div class="btn-group" role="group" aria-label="Product Specification Filters">
+            <button type="button"  data-mixitup-control data-filter="all"" class="btn btn-default">
+                All
+            </button>
+            <button type="button" data-mixitup-control data-sort="order:asc" class="btn btn-default">
+                <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="order:descending" class="btn btn-default">
+                <i class="fa fa-sort-alpha-desc" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="date-added:asc" class="btn btn-default">
+                Date (oldest) <i class="fa fa-calendar" aria-hidden="true"></i>
+            </button>
+            <button type="button" data-mixitup-control data-sort="date-added:descending" class="btn btn-default">
+                Date (newest) <i class="fa fa-calendar" aria-hidden="true"></i>
+            </button>
+        {% unless include.hide_spec %}
+        <div class="btn-group">
+           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Specifications
+             <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu">
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition">
+                <a href="#" data-mixitup-control  type="button" data-filter=".ce">
+                    Consumer<img src="/assets/images/content/tiny-spec-ce.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+            <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition">
+                 <a href="#" data-mixitup-control  type="button" data-filter=".ee">
+                     Enterprise<img src="/assets/images/content/tiny-spec-ee.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition">
+                 <a href="#" data-mixitup-control  type="button" data-filter=".ie">
+                    IoT<img src="/assets/images/content/tiny-spec-ie.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition">
+                <a href="#" data-mixitup-control  type="button" data-filter=".mezzanine">
+                    Mezzanine<img src="/assets/images/content/tiny-spec-mezzanine.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+           </ul>
+        </div>
+        {% endunless %}
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                OS
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".debian">Debian</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".android">AOSP</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".windows">Windows</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".ubuntu">Ubuntu</a></li>
+                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".fedora">Fedora</a>
+                </li>
+            </ul>
+        </div>
+        <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="tooltip" data-placement="top"
+            title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
+            Compare Selected 96Boards
+        </button>
+    </div>
+</div>

@@ -9,6 +9,9 @@ members:
           - name: Arm
             image: arm.jpg
             url: https://www.linaro.org/company/arm/
+          - name: Qualcomm
+            image: qulc.jpg
+            url: https://developer.qualcomm.com/
           - name: Arrow Electronics
             image: arrow.jpg
             url: https://www.linaro.org/company/arrow/
@@ -155,6 +158,9 @@ members:
         - name: Qwerty
           image: qwerty.png
           url: https://www.linaro.org/company/qwerty/
+        - name: WizeIoT
+          image: wizeiot-logo-original.png
+          url: https://wizeiot.com
         - name: Rohm
           image: rohm.png
           url: https://www.linaro.org/company/rohm/
