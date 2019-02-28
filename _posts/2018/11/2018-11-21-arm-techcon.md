@@ -45,7 +45,7 @@ I would like to quickly list out a basic Bill of materials for the kit in questi
 - [Charge Controller](https://www.amazon.com/gp/product/B013HK2OOE/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)
 - [Batteries](https://www.amazon.com/gp/product/B00KC39BE6/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 - [Solar Panels x 2](https://www.amazon.com/gp/product/B00OZC3X1C/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)
-- [Inveter](https://www.amazon.com/gp/product/B0148FOAO4/ref=oh_aui_detailpage_o07_s02?ie=UTF8&psc=1)
+- Inveter
 - [96Boards Base Board - Arrow DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [96Boards Mezzanine - Shiratech LTE](https://www.96boards.org/product/shiratech-lte/)
 - [3D Printer](https://shop.prusa3d.com/en/3d-printers/180-original-prusa-i3-mk3-kit.html#)
