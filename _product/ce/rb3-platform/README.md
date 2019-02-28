@@ -4,11 +4,11 @@ layout: product-display-page
 shortname: rb3-platform
 permalink: /product/rb3-platform/
 description: |-
-    Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs. The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
+    The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs. The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform."
+product_short_desc: "The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform."
 product_specification: ce
 featured_product_order: 2
 is_featured: true
@@ -93,7 +93,7 @@ product_kits:
 product: true
 archived: false
 ---
-Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs.
+The Qualcomm® Robotics RB3 Development Platform is based on the top-tier Qualcomm® Snapdragon™ 845 embedded platform. This Snapdragon processor introduces the new Qualcomm® Hexagon™ 685 Vector DSP architecture, plus GPU and CPU optimizations, that together deliver up to three times faster processing of neural networks running on-device compared to the prior generation SoCs.
 
 The development board supports new architectures for AI, 4K@60fps H.264/H.265 Encode & Decode,rich interfaces,and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
 
