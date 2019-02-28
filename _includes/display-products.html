@@ -4,9 +4,9 @@
     {% if spec == "archived" %}
         {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "true" %}
     {% elsif spec != "all" %}
-        {% assign products_array =  products_array  | where: "display_product", "true" | where: "archived", "false" %}
+        {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
     {% else %}
-        {% assign products_array =  products_array  | where: "product_specification", spec | where: "archived", "false" %}
+        {% assign products_array =  products_array | where: "archived", "false" %}
     {% endif %}
     <div class="row">
     {% for product in products_array %}
