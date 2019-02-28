@@ -8,8 +8,8 @@
 //= require vendor/mixitup
 
 //= require app/main
-//= requrie app/search
 //= require app/products
 //= require app/sticky-tab-bar
 //= require app/tables
 //= require app/custom
+//= require app/search
