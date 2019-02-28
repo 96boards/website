@@ -1,12 +1,10 @@
 ---
 title: Compare 96Boards
 permalink: /products/compare/
-layout: jumbotron-container
+layout: container-breadcrumb-tabs
 css-package: products
 js-package: products-compare
 ---
-{% include 96boards-tab-bar.html %}
-
 <select id="compare-96boards-select" multiple="multiple">
     <optgroup label="Consumer Edition" class="consumer-edition-group">
         {% assign products_array = site.product | where: "product_specification", "ce" %}
