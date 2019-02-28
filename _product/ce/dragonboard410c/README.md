@@ -37,8 +37,6 @@ product_getting_started: /documentation/consumer/dragonboard/dragonboard410c/get
 product_documentation_link: /documentation/consumer/dragonboard410c/
 product_tutorials_link: /tutorials/dragonboard410c/
 product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
-
-# Buy Links
 product_buy_links:
   -
     link-title: DragonBoard410c (Basic Kit)
@@ -89,8 +87,6 @@ product_buy_links:
     type: board
     link-price: "₹9,985.00"
     link-price-currency: INR
-
-# Right Sidepanel links
 product_os:
   - title: Android
     link: /documentation/consumer/dragonboard410c/downloads/android.md.html
@@ -98,7 +94,12 @@ product_os:
     link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
   - title: OpenEmbedded
     link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
-
+  - title: Windows
+    link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
+  - title: Ubuntu
+    link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+  - title: Fedora
+    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
 product_middleware:
   - title: AWS IoT SDK
     link: https://github.com/ArrowElectronics/aws-iot-device-sdk
@@ -108,18 +109,15 @@ product_middleware:
     link: https://github.com/ArrowElectronics/att-iot-device-sdk
   - title: ROS
     link: http://wiki.ros.org/kinetic/Installation/Debian
-
 product_third_party_images:
   - title: Windows 10 IoT Core
-    link: https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1
+    link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
   - title: Ubuntu Core
     link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
   - title: Fedora
     link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
   - title: More Downloads
     link: /documentation/consumer/dragonboard410c/downloads/
-
-# Bottom Link
 product_accessories:
   - title: Power
     link: /product/power/
@@ -129,7 +127,6 @@ product_accessories:
     link: /product/debug/
   - title: Misc
     link: /product/misc/
-
 product_mezzanine:
   - title: D3 Camera Mezzanine
     link: /product/d3camera/
@@ -141,7 +138,6 @@ product_mezzanine:
     link: /product/sensors-mezzanine
   - title: Audio Mezzanine
     link: /product/audio-mezzanine/
-
 product_kits:
   - title: Basic Kit
     link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/

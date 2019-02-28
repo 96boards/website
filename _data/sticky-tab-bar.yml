@@ -32,6 +32,8 @@ pages:
   - list:
       - title: All 96Boards
         url: /products/
+      - title: Compare
+        url: /products/compare/
       - title: Consumer Edition
         url: /products/ce/
       - title: Enterprise Edition
@@ -42,7 +44,7 @@ pages:
         url: /products/mezzanine/
       - title: Accessories
         url: /products/accessories/
-    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/]
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/, /products/compare/ ]
   - list:
       - title: Projects
         url: /projects/
@@ -298,7 +300,7 @@ pages:
         url: /documentation/consumer/bubblegum-96/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/bubblegum-96/
+        url: https://discuss.96boards.org/c/products/bubblegum96/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/consumer/bubblegum-96/]
@@ -343,7 +345,7 @@ pages:
         url: /documentation/enterprise/poplar-hoperun/
         sub-pages: true
       - title: Support
-        url: https://discuss.96boards.org/c/products/poplar-hoperun/
+        url: https://discuss.96boards.org/c/products/poplar/
         right: true
     sub-pages-enabled: true
     urls: [/documentation/enterprise/poplar-hoperun/]
