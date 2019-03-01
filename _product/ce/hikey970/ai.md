@@ -30,7 +30,7 @@ verticals:
           HiKey970 is one of the world‘s first edge AI developing platform with a dedicated Neural-network Processing Unit (NPU). HiKey970 provides frequently used artificial intelligence function APIs，model management APIs and basic operator computing APIs, so developers can focus on developing new AI applications instead of focusing on performance tuning.
     - title: Smart Cities
       description: >-
-          With HiKey970’s dedicated AI processor and rich set of imaging and I/Os, HiKey970 enables developers to build highly integrated flexible products for AI-based intelligent cameras in smart cities. With a powerful NPU and HiAI SDK on HiKey970 makes it easy for developers to transform video into valuable insighs.
+          With HiKey970’s dedicated AI processor and rich set of imaging and I/Os, HiKey970 enables developers to build highly integrated flexible products for AI-based intelligent cameras in smart cities. With a powerful NPU and HiAI SDK on HiKey970 makes it easy for developers to transform video into valuable insights.
     - title: Robotics
       description: >-
           With HiKey970’s excellent AI capabilities and ROS, HiKey970 enables developers to build a robot which is capable of perception, planning, decision autonomously. The robots can even fight with each other automatically by deep reinforcement learning based decision making. The powerful NPU on HiKey970 allows a robot to demonstrate a certain level of intelligence.
