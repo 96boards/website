@@ -1,7 +1,7 @@
 ---
 title: Retraining Tiny Darknet for the Berkley DeepDrive Dataset
 author: Theodore Grey
-date: 2019-07-03 01:01:54+00:00
+date: 2019-03-07 01:01:54+00:00
 image:
     featured: true
     path: /assets/images/blog/darknet-machine-learning.jpg
