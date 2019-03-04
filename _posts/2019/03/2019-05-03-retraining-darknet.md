@@ -4,9 +4,9 @@ author: Theodore Grey
 date: 2019-05-03 01:01:54+00:00
 image:
     featured: true
-    path: /assets/images/blog/darknet-machine-learning.png
-    name: darknet-machine-learning.png
-    thumb: darknet-machine-learning.png
+    path: /assets/images/blog/darknet-machine-learning.jpg
+    name: darknet-machine-learning.jpg
+    thumb: darknet-machine-learning.jpg
 categories: blog
 tags: 96Boards, AI, Object Detection, Darknet, YoloV2, YoloV3, Neural Networks
 ---
