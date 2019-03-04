@@ -6,7 +6,6 @@ image:
     featured: true
     path: /assets/images/blog/darknet-machine-learning.jpg
     name: darknet-machine-learning.jpg
-    thumb: darknet-machine-learning.jpg
 categories: blog
 tags: 96Boards, AI, Object Detection, Darknet, YoloV2, YoloV3, Neural Networks
 ---
