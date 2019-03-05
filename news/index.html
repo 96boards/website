@@ -21,7 +21,10 @@ js-package: news
             <ul class="list-group" id="external-news">
                 {% assign external-news = site.data.news | sort: "date" | reverse %}
                 {% for news in external-news limit: 10 %}
-                    <a target="_blank" href="{{ news.link | capitalize }}" class="list-group-item">{{ news.title }}</a>
+                    <a target="_blank" href="{{ news.link | capitalize }}" class="list-group-item">
+                        <h3>{{ news.title }}</h3>
+                        <span class="date">{{ news.date | date: '%d %B %Y' }}</span>
+                    </a>
                 {% endfor %}
             </ul>
         </div>
