@@ -6,7 +6,6 @@ image:
     featured: true
     path: /assets/images/blog/hikey970.png
     name: hikey970.png
-    thumb: hikey970-thumb.jpg
 categories: blog
 series: HiKey970 Mainlining Update
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, HiKey, HiKey970, SoC, Mainlining, Reset, UFS, SD, MMC, WiFi, Bluetooth, SDIO, Upstreaming, AI, NPU
