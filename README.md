@@ -24,7 +24,7 @@ Below are a few guides that will help when adding content to the 96Boards websit
 - [Adding products](#adding-products)
 - [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
 - [Building the static site](#building-the-static-site)
-- [Adding External 96Boards News](#add-external-news)
+- [Adding External 96Boards News](#adding-96boards-news)
 
 *****
 ## Addding a new page
