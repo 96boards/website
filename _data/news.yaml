@@ -61,95 +61,110 @@
   date: 2016-06-08 09:00:00+00:00   
 # Hikey 960 Launch
 - link: http://linuxgizmos.com/most-powerful-96boards-sbc-yet-offers-m2-expansion/
-  title: Eric Brown – LinuxGizmos
+  source: Eric Brown – LinuxGizmos
   date: 2017-04-26 09:00:00+00:00
   tag: hikey960
 - link: http://www.techrepublic.com/article/raspberry-pi-challenger-huaweis-turbo-charged-board-runs-android-but-at-a-hefty-price/
-  title: Nick Heath – Tech Republic
+  source: Nick Heath – Tech Republic
   date: 2017-04-26 09:00:00+00:00
   tag: hikey960
 - link: http://www.ubergizmo.com/2017/04/huawei-hikey-960-computer-board-for-android/
-  title: Adnan Farooqui – Ubergizmo
+  source: Adnan Farooqui – Ubergizmo
   date: 2017-04-26 09:00:00+00:00
   tag: hikey960
 - link: https://www.phoronix.com/scan.php?page=news_item&px=96Boards-HiKey-960
-  title: Michael Larabel – Phoronix
+  source: Michael Larabel – Phoronix
   date: 2017-04-26 09:00:00+00:00
   tag: hikey960
 - link: http://www.cnx-software.com/2017/04/26/96boards-compliant-hikey-960-arm-cortex-a73-development-board-is-now-available-for-239/
-  title: CNX
+  source: CNX
   date: 2017-04-26 09:00:00+00:00
   tag: hikey960
 - link: https://www.ilsoftware.it/articoli.asp?tag=Huawei-e-Google-presentano-HiKey-960-molto-piu-performante-di-una-Raspberry_15417
-  title: Michele Nasi – ilSoftware.IT
+  source: Michele Nasi – ilSoftware.IT
   tag: hikey960
   date: 2017-04-26 09:00:00+00:00
 - link: https://www.xataka.com/ordenaes/a-la-raspberry-pi-le-sale-un-competidor-potente-la-hikey-960-llega-con-un-kirin-960-y-3-gb-de-ram
-  title: Javier Pastor – Xataka
+  source: Javier Pastor – Xataka
   tag: hikey960
   date: 2017-04-26 09:00:00+00:00
 - link: https://www.adslzone.net/2017/04/26/huawei-hikey-960-un-potente-rival-para-raspberry-pi/
-  title: Claudio Valero – ADSLZone
+  source: Claudio Valero – ADSLZone
   tag: hikey960
   date: 2017-04-26 09:00:00+00:00
 - link: http://www.com-magazin.de/news/hardware/entwicklerboard-hikey-960-kommt-mate-9-chip-1218892.html
-  title: Stefan Bordel – Com! Professional
+  source: Stefan Bordel – Com! Professional
   tag: hikey960
   date: 2017-04-26 09:00:00+00:00
 - link: https://liliputing.com/2017/04/hkey-960-240-android-dev-boardcomputer-kirin-960.html
-  title: Brad Linder – Liliputing
+  source: Brad Linder – Liliputing
   tag: hikey960
+  title: Hkey 960 is a $240 Android dev board/computer with Kirin 960
   date: 2017-04-26 09:00:00+00:00
 - link: http://newatlas.com/linaro-huawei-hikey-960-computer-board/49224/
-  title: Paul Ridden – New Atlas
+  source: Paul Ridden – New Atlas
+  title: Pi-sized dev board packs high performance punch, and a high price tag
   tag: hikey960
   date: 2017-04-26 09:00:00+00:00
 - link: http://www.sciencetimes.com/articles/13576/20170426/android-7-1-new-superfast-computer-huawei-hikey-960-launching.htm
-  title: Soutrik Das – Science Times
+  source: Soutrik Das – Science Times
   tag: hikey960
+  title: Android 7.1 Has New Superfast Computer - Huawei HiKey 960 Launching Soon
   date: 2017-04-26 09:00:00+00:00
 - link: http://www.cnbeta.com/articles/tech/606691.htm
-  title: 威锋网 on – cnBeta.com
+  source: 威锋网 on – cnBeta.com
   tag: hikey960
+  title: Huawei's latest HiKey 960 development board can run Android system at ultra high speed
   date: 2017-04-26 09:00:00+00:00
 - link: http://www.webwire.com/ViewPressRel.asp?aId=208895
-  title: Webwire
+  source: Webwire
+  title: Linaro Announces Latest 96Boards Product for AOSP Development
   tag: hikey960
   date: 2017-04-25 09:00:00+00:00
-- title: SOFTBANK's IoT platform and Linaro's interoperability with the open standard "96Boards" series products for IoT
+- source: SOFTBANK
   link: https://www.softbank.jp/corp/group/sbm/news/press/2017/20170926_01/
+  title: SOFTBANK's IoT platform and Linaro's interoperability with the open standard "96Boards" series products for IoT
   date: 2017-09-26 09:00:00+00:00
-- title: Arrow presents "Sensor-to-Sunset" portfolio at Embedded World
+- source: Arrow presents "Sensor-to-Sunset" portfolio at Embedded World
+  title: Arrow präsentiert „Sensor-to-Sunset“-Portfolio auf der Embedded World
   link: https://www.elektormagazine.de/news/arrow-prasentiert-sensor-to-sunset-portfolio-auf-der-embedded-world
   date: 2018-02-08 09:00:00+00:00   
 - link: https://www.xda-developers.com/huawei-linaro-hikey-970-development-board-kirin-970-soc/
-  title: XDA Developers - HiKey970 Launch! 
+  source: XDA Developers - HiKey970 Launch! 
+  title: Huawei and Linaro launch the HiKey 970 development board with the Kirin 970 SoC
   tag: hikey970
   date: 2018-03-20 09:00:00+00:00
 - link: https://medium.com/syncedreview/huawei-introduces-ai-development-board-hikey-970-763ac996b29a
-  title: Synced Review
+  source: Synced Review
+  title: Huawei Introduces AI Development Board HiKey 970
   tag: hikey970
   date: 2018-03-20 09:00:00+00:00
 - link: https://www.techrepublic.com/article/most-powerful-raspberry-pi-style-board-yet-octa-core-boards-with-8gb-and-dual-sata-revealed/
-  title: Tech Republic
+  source: Tech Republic
+  title: Most powerful Raspberry Pi-style boards yet? Octa-core machines with dual-SATA, PCIe, USB 3.0 and 4K video
   date: 2018-03-20 09:00:00+00:00
   tag: hikey970
 - link: https://www.gizmochina.com/2018/03/20/huawei-launches-hikey-970-development-board-with-ai-a-dedicated-npu-based-on-kirin-970/
-  title: Gizmochina
+  source: Gizmochina
+  title: Huawei Launches HiKey 970 Development Board with AI & A Dedicated NPU Based On Kirin 970
   tag: hikey970
   date: 2018-03-20 09:00:00+00:00
 - link: https://www.androidheadlines.com/2018/03/huawei-linaro-announce-hikey-970-ai-development-board.html
-  title: Android Headlines
+  source: Android Headlines
+  title: Huawei & Linaro Announce HiKey 970 AI Development Board
   tag: hikey970
   date: 2018-03-21 09:00:00+00:00
 - link: http://pocketnow.com/2018/03/21/the-hikey-970-is-a-huawei-infused-hobby-board
-  title: Pocketnow
+  source: Pocketnow
+  title: The HiKey 970 is a Huawei-infused development board
   tag: hikey970
   date: 2018-03-21 09:00:00+00:00
 - link: https://www.cnx-software.com/2018/04/16/hikey-970-development-board-now-up-for-pre-order-for-299-99/
-  title: CNX Software
+  source: CNX Software
+  title: Hikey 970 Development Board is Now Up for Pre-order for $299.99
   tag: hikey970
   date: 2018-04-16 09:00:00+00:00
-- title: Arrow Electronics and Cypress Team up to Provide Ubiquitous IoT Connectivity
+- source: Business Wire
+  title: Arrow Electronics and Cypress Team up to Provide Ubiquitous IoT Connectivity
   link: http://www.businesswire.com/news/home/20171004006231/en/Arrow-Electronics-Cypress-Team-Provide-Ubiquitous-IoT
   date: 2018-10-04 09:00:00+00:00
