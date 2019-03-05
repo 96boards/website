@@ -7,6 +7,25 @@ allJSONData = []
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
 }
+function formatDate(timestamp) {
+    date = new Date(timestamp);
+    var monthNames = [
+        "January", "February", "March",
+        "April", "May", "June", "July",
+        "August", "September", "October",
+        "November", "December"
+    ];
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+    var date_formatted = day + ' ' + monthNames[monthIndex] + ' ' + year;
+    return date_formatted;
+}
+function extractDateString(dateString) {
+    var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
+    var arr = rx.exec(dateString);
+    return arr[0];
+}
 var related_posts = [];
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestNews(results_data, number_of_items) {
@@ -16,6 +35,7 @@ function addLatestNews(results_data, number_of_items) {
         post = results_data[i];
         listItems += '<a href="' + post.url + '" class="list-group-item">';
         listItems += '<h3 class="official-news-title">' + post.title + '</h3>';
+        listItems += '<span class="date">' + formatDate(Date.parse(extractDateString(post.date_published))) + '</span>';
         listItems += '</a>';
     }
     $("#boards-news").html(listItems);
