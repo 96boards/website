@@ -24,6 +24,7 @@ Below are a few guides that will help when adding content to the 96Boards websit
 - [Adding products](#adding-products)
 - [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
 - [Building the static site](#building-the-static-site)
+- [Adding External 96Boards News](#add-external-news)
 
 *****
 ## Addding a new page
@@ -327,6 +328,32 @@ We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is
 ```
 
 __Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
+
+*****
+
+## Adding 96Boards News
+
+### External News
+To add external news to 96boards.org that will show under [/news/](https://www.96boards.org/news/) simply add an entry to the [news.yml](https://github.com/96boards/website/blob/master/_data/news.yaml) file. Below is an example entry:
+
+```
+# Add a link to the external news article.
+- link: https://www.cnx-software.com/2018/04/16/hikey-970-development-board-now-up-for-pre-order-for-299-99/
+  # Add the title of your news post.
+  title: CNX Software
+  # Tag news with a board's permalink for it to show on that boards page.
+  board: /product/hikey970/
+  # Make sure to add the correct date.
+  date: 2019-03-05 09:00:00+00:00
+  tags: hikey970, ce
+```
+
+If you add a `board` with a valid product permalink url then your news will display on the product page as featured news (only the top 10 results will show - newest first).
+
+
+### Internal News
+
+If you'd like to add internal 96Boards news then add a News/Blog to 96Boards.org and tag with `96Boards`. The top 10 most recent posts on Linaro.org that feature 96Boards will then display on /news/.
 
 *****
 
