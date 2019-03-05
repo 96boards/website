@@ -1,6 +1,6 @@
 // News source
 sources = [
-    "https://staging.linaro.org/assets/json/news.json",
+    "https://www.linaro.org/assets/json/news.json",
 ]
 allJSONData = []
 // Sort function which takes the data array, property to sort by and an asc boolean.
@@ -33,7 +33,7 @@ $(document).ready(function(){
     // Check to see if the div we are adding to exists
     if ($("#boards-news").length > 0) {
         $.ajax({
-            url: "https://staging.linaro.org/assets/json/posts.json",
+            url: "https://wwww.linaro.org/assets/json/posts.json",
             dataType: 'json',
             complete: function (jsonResponse) {
                 jsonData = JSON.parse(jsonResponse.responseText);
