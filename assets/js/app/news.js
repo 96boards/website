@@ -33,7 +33,7 @@ $(document).ready(function(){
     // Check to see if the div we are adding to exists
     if ($("#boards-news").length > 0) {
         $.ajax({
-            url: "https://wwww.linaro.org/assets/json/posts.json",
+            url: "https://www.linaro.org/assets/json/posts.json",
             dataType: 'json',
             complete: function (jsonResponse) {
                 jsonData = JSON.parse(jsonResponse.responseText);
