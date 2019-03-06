@@ -92,7 +92,7 @@ $ vim BerkLabel.py
 Add the Following in BerkLabel.py:
 ***
 
-```
+```python
 import argparse
 import json
 
@@ -193,7 +193,7 @@ A python script created in that guide (process.py in the guide, we'll call it Bd
 Create a file called BddProcess.py and add the following.
 
 ***
-```
+```python
 import glob, os
 
 # Current directory
