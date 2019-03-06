@@ -11,8 +11,8 @@ product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
 tab_menu:
     - tab_title: Rock960
       tab_link: /product/rock960/
-      active: true
     - tab_title: AI
+      active: true
       tab_link: /product/rock960/ai/
     - tab_title: Getting Started
       tab_link: /documentation/consumer/rock960/getting-started/
@@ -56,10 +56,10 @@ secondary-verticals:
           url: http://caffe.berkeleyvision.org/
 demos: ""
 documentation:
-    -title: Open AID Whitepaper
-      url: https://dl.vamrs.com/products/rock960/docs/sw/Open_AID-whitepaper.pdf
     - title: Hardware user guide
       url: https://www.96boards.org/documentation/consumer/rock/rock960/hardware-docs/hardware-user-manual.md.html
+    - title: Open AID Whitepaper
+      url: https://dl.vamrs.com/products/rock960/docs/sw/Open_AID-whitepaper.pdf
     - title: Board schematics Download
       url: https://dl.vamrs.com/products/rock960/docs/hw/rock960_sch_v1.1.pdf
 whats-in-the-box:
@@ -73,4 +73,3 @@ buy-now:
     title: Buy Now
     url: https://www.96boards.org/product/rock960/
 ---
-Content goes here
