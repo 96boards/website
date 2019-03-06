@@ -8,7 +8,7 @@
 //= require vendor/mixitup
  
 //= require app/main
-//= requrie app/search
+//= require app/search
 //= require app/projects
 //= require app/sticky-tab-bar
 //= require app/tables
