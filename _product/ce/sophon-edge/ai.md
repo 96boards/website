@@ -56,7 +56,9 @@ secondary-verticals:
           url: https://www.tensorflow.org/
         - title: Caffe
           url: http://caffe.berkeleyvision.org/
-demos: ""
+demos:
+    - title: Sophon Edge Bitmain Demos
+      url: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
 documentation:
     - title: Hardware User Manual
       url: https://www.96boards.org/documentation/consumer/sophon-edge/hardware-docs/files/sophon-hardware-user-manual.pdf
