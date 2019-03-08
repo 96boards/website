@@ -24,23 +24,23 @@ Reasons this is necessary:
 
 By using a dataset which is specialised in autonomous vehicles, accuracy for tasks such as driving at night and in adverse conditions will increase tremendously.
 
-##System Details:
+## System Details:
 This process can be done on any system which [darknet](https://pjreddie.com/darknet/) supports. For this blog the following was used:
 
    - 64 bit computer running Ubuntu 18.04
    - Intel Core i7-8750H CPU 
-##References:
+## References:
    - [Darknet](https://pjreddie.com/darknet/)
    - The [Berkley Deep Drive Dataset](http://bdd-data.berkeley.edu/)
    - The [bdd-data toolkit](https://github.com/ucbdrive/bdd-data.git)
    - A [Guide to Retraining Darknet YoloV2](https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/)
 
-#Berkley DeepDrive Dataset Overview
+# Berkley DeepDrive Dataset Overview
 The Berlkley DeepDrive Dataset (BDD dataset) produced by Fisher Yu is one of the largest and most diverese video datasets for autonomous vehicles. The dataset consists of 100,000 videos, each of which is about 40 seconds long, 720p, 30 fps, and also contains GPS/IMU information recorded from cell-phones.
 
 This dataset contains videos from diverse locations around the United States, in a wide range of weather conditions and settings such as, rainy, overcast, sunny, at night, and during the day. Most importantly for my purpouses this dataset also includes hundreds of thousands of still frames extracted from these videos along with bounding boxes and labels for objects, segmentation, lane lines, etc. 
 
-#Building Darknet
+# Building Darknet
 
 Darknet can be built with several optional settings such as GPU (default off), CUDNN (default off), OPENCV (default off), OpenMP (default off), and Debug (default off). If you wish to change the defaults they are accessible in the Makefile. To download and build darknet do the following 
 
@@ -49,7 +49,7 @@ $ git clone https://github.com/pjreddie/darknet
 $ cd darknet && make
 ```
 
-#Downloading the Berkley DeepDrive Dataset
+# Downloading the Berkley DeepDrive Dataset
 
 In order to access the BDD dataset an account needs to be created on the [bdd-data website](http://bdd-data.berkeley.edu/wad-2018.html).
 
@@ -58,7 +58,7 @@ For the purposes of this blog the Images, and Labels portion of the BDD dataset 
 The BDD dataset has its own nomenclature, and thus is not instantly compatible with the format of darknet, thus some processing needs to be done to extract the relevant information for retraining.
 
 
-#Reformatting the BDD-dataset
+# Reformatting the BDD-dataset
 
 For retraining to take place, darknet requires a .txt file corresponding to each image, and within the txt file there needs to be a line for each object to be detected in the image with the following format: 
 ```
@@ -185,7 +185,7 @@ mv data ~/darknet/data/obj
 ```
 
 
-#Retraining Darknet
+# Retraining Darknet
 The following section is from a [guide](https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/) on training YoloV2 to detect custom objects, and was used as the basis for retrain the tiny darknet dataset. 
 
 A python script created in that guide (process.py in the guide, we'll call it BddProcess.py) will be used to create two text files, train.txt and test.txt which are the training and validation text files respectively. These contain the relative path to each .jpg and .txt file which will be used to train and test the darknet cfg file.
