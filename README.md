@@ -17,9 +17,9 @@ Below are a few guides that will help when adding content to the 96Boards websit
     - [Adding Redirects to the Static Site](#adding-redirects-to-the-static-site)
     - [Building the Static Site](#building-the-static-site)
 - [96Boards.org Specific Guides](#96boards.org-specific-guides)
-    - [Adding External 96Boards News](#adding-96boards-news)
     - [Adding Products](#adding-products)
     - [Adding Projects](#adding-projects)
+    - [Adding 96Boards News](#adding-96boards-news)
     - [Adding Documentation](#adding-documentation)
 
 ******
@@ -195,7 +195,13 @@ product_images:
 __Please note:__ Due to the way product images are include, images **should not include spaces** in the filename otherwise they may not be rendered on the website as expected.
 
 *****
+## Adding Projects
 
+[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Simply clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes are we'll get the git diff and create a new project repo for your project automatically add to the website __if approved__.
+
+## Adding Documentation
+
+The 96Boards.org documentation is maintained in this [repo](https://github.com/96boards/documentation) so if you'd like to modify the documentation for a specific board then please head over to that repo and submit a pull request there.
 
 ## Adding 96Boards News
 
