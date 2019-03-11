@@ -1,4 +1,5 @@
 boards:
+    - all-boards
     - bubblegum-96
     - chameleon96
     - dragonboard410c

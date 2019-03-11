@@ -5,36 +5,29 @@ description: >
     Here you can find all the latest news articles featuring 96Boards including Linaro press releases and external sources.
 layout: jumbotron
 jumbotron:
-animation: fade
-background-image: /assets/images/content/96boards-banner-3.jpg
+    animation: fade
+    background-image: /assets/images/content/96boards-banner-3.jpg
+js-package: news
 ---
-
 <div class="row" id="content-container">
-    {% include sticky-tab-bar.html %}
+{% include sticky-tab-bar.html %}
     <div class="container" markdown="1">
         <div class="col-md-6">
-            <div class="list-group">
-                <a class="list-group-item active">
-                    Linaro 96Boards News
-                </a>
-                {% assign linaro-news = site.data.news.entries | where: "tag","news" %}
-                {% for news in linaro-news %}
-                <a href="{{ news['link'] | capitalize }}" class="list-group-item">{{ news['title'] }}</a>
-                {% endfor %}
-            </div>
+            <h3 class="text-center">Official News</h3>
+            <ul class="list-group" id="boards-news"></ul>
         </div>
         <div class="col-md-6">
-            <div class="list-group">
-                <a href="" class="list-group-item active">
-                    96Boards in the News
-                </a>
-                {% assign external-news = site.data.news.entries | where: "tag","external-news" %}
-                {% for news in external-news %}
-                <a target="_blank" href="{{ news.link | capitalize }}" class="list-group-item">{{ news.title }}</a>
+            <h3 class="text-center">External News</h3>
+            <ul class="list-group" id="external-news">
+                {% assign external-news = site.data.news | sort: "date" | reverse %}
+                {% for news in external-news limit: 10 %}
+                    <a target="_blank" href="{{ news.link | capitalize }}" class="list-group-item">
+                        <h3>{{ news.title }}</h3>
+                        <span class="date">{{ news.date | date: '%d %B %Y' }}</span>
+                    </a>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
-
     </div>
 </div>
 {% include members.html %}
