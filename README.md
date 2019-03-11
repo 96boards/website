@@ -15,12 +15,12 @@ Below are a few guides that will help when adding content to the 96Boards websit
     - [Adding a Page](#adding-a-blog-post)
     - [Adding a Blog Post](#adding-a-blog-post)
     - [Adding Redirects to the Static Site](#adding-redirects-to-the-static-site)
+    - [Building the Static Site](#building-the-static-site)
 - [96Boards.org Specific Guides](#96boards.org-specific-guides)
     - [Adding External 96Boards News](#adding-96boards-news)
     - [Adding Products](#adding-products)
     - [Adding Projects](#adding-projects)
     - [Adding Documentation](#adding-documentation)
-- [Building the Static Site](#building-the-static-site)
 
 ******
 
@@ -29,6 +29,12 @@ We happy to consider any contributions/feature requests that you may have. Pleas
 
 *****
 # Generic Website Guides
+
+- [Adding a Page](#adding-a-blog-post)
+- [Adding a Blog Post](#adding-a-blog-post)
+- [Adding Redirects to the Static Site](#adding-redirects-to-the-static-site)
+- [Building the Static Site](#building-the-static-site)
+
 ## Addding a Page
 
 Please view the theme documentation on adding pages [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-pages).
@@ -46,6 +52,11 @@ Please view the theme documentation on adding redirects [here](https://github.co
 Please view the theme documentation on building the static website [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#building-the-static-site).
 
 # 96Boards.org Specific Guides
+
+- [Adding External 96Boards News](#adding-96boards-news)
+- [Adding Products](#adding-products)
+- [Adding Projects](#adding-projects)
+- [Adding Documentation](#adding-documentation)
 
 ## Adding products
 
