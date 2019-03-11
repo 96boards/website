@@ -4,36 +4,44 @@ The 96Boards website is built using the Jekyll static site generator. It is base
 
 ![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0) 
 
+******
 ## [How to add a blog post!](#adding-a-blog-post)
-
-## Contributions
-We happy to consider any contributions/feature requests that you may have. Please submit a PR with your changes and we will take a look. You can also use the `Github Edit` buttons available on all the website pages to help locate the file you wish to edit/raise and issue about.
-
-## Guides
+******
+## Contents
 
 Below are a few guides that will help when adding content to the 96Boards website.
 
-- [Adding a blog post](#adding-a-blog-post)
-- [Adding products](#adding-products)
-- [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
-- [Building the static site](#building-the-static-site)
-- [Adding External 96Boards News](#adding-96boards-news)
+- [Generic Website Guides](#generic-website-guides)
+    - [Adding a Page](#adding-a-blog-post)
+    - [Adding a Blog Post](#adding-a-blog-post)
+    - [Adding Redirects to the Static Site](#adding-redirects-to-the-static-site)
+- [96Boards.org Specific Guides](#96boards.org-specific-guides)
+    - [Adding External 96Boards News](#adding-96boards-news)
+    - [Adding Products](#adding-products)
+    - [Adding Projects](#adding-projects)
+    - [Adding Documentation](#adding-documentation)
+- [Building the Static Site](#building-the-static-site)
+
+******
+
+# Contributions
+We happy to consider any contributions/feature requests that you may have. Please submit a PR with your changes and we will take a look. You can also use the `Github Edit` buttons available on all the website pages to help locate the file you wish to edit/raise and issue about.
 
 *****
-
-## Addding a new page
+# Generic Website Guides
+## Addding a Page
 
 Please view the theme documentation on adding pages [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-pages).
 
-## Adding a blog post
+## Adding a Blog Post
 
 Please view the theme documentation on adding blog posts [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-posts).
 
-## Adding Redirects to the Static site
+## Adding Redirects to the Static Site
 
 Please view the theme documentation on adding redirects [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-redirects).
 
-## Building the static site
+## Building the Static Site
 
 Please view the theme documentation on building the static website [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#building-the-static-site).
 
