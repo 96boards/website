@@ -3,19 +3,7 @@
         <div class="members-panel panel">
             <div class="panel-heading">96Boards Manufacturing Partners</div>
             <div class="panel-body members-panel-body">
-                <div class="col-md-12 members-panel">
-                    <!--Updated-->
-                    {% assign sorted_manufacturing_partners = site.data.members_db.members.manufacturing_partners | sort: 'name' %}
-                    {% for member in sorted_manufacturing_partners %}
-                            <div class="col-md-3 col-sm-4 col-xs-6">
-                                <a href="{{member.url}}">
-                                    <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="{% if member.padded %}{{member.padded}}{% endif %} img-responsive members-img lazyload center-block"/>
-                                    </a>
-                            </div>
-                    {% endfor %}
-                </div>
+                <div class="col-md-12 members-panel" id="boards-mp"></div>
             </div>
         </div>
     </div>
@@ -25,18 +13,7 @@
             <div class="members-panel panel">
                 <div class="panel-heading">96Boards Steering Committee</div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel">
-                        {% assign sorted_steering_committee = site.data.members_db.members.steering_committee | sort: 'name' %}
-                        {% for member in sorted_steering_committee %}
-                            <div class="col-md-3 col-sm-4 col-xs-6">
-                                <a href="{{member.url}}">
-                                    <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    class="{% if member.padded %}{{member.padded}}{% endif %} img-responsive members-img lazyload center-block"/>
-                                </a>
-                            </div>
-                        {% endfor %}
-                    </div>
+                    <div class="col-md-12 members-panel" id="boards-sc"></div>
                 </div>
             </div>
     </div>
@@ -46,18 +23,7 @@
         <div class="members-panel panel">
             <div class="panel-heading">96Boards Mezzanine Partners</div>
             <div class="panel-body members-panel-body">
-            <div class="col-md-12 members-panel">
-                {% assign sorted_mezzanine_partners = site.data.members_db.members.mezzanine_partners | sort: 'name' %}
-                {% for member in sorted_mezzanine_partners %}
-                    <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="{{member.url}}">
-                            <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            class="img-responsive members-img lazyload center-block"/>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
+            <div class="col-md-12 members-panel" id="boards-mezzanine"></div>
             </div>
         </div>
     </div>
