@@ -90,7 +90,6 @@ In order to reformat BDD datasets labels for darknet, create a new file called B
 $ vim BerkLabel.py
 ```
 Add the Following in BerkLabel.py:
-***
 
 ```python
 import argparse
