@@ -12,4 +12,4 @@
 //= require app/home-custom
 //= require app/tables
 //= require app/custom
-//= requrie app/search
+//= require app/search

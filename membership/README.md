@@ -4,6 +4,7 @@ description: |-
     96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 permalink: /membership/
 status: active
+js-package: members
 css-package: members
 layout: jumbotron
 jumbotron:
