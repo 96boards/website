@@ -25,13 +25,13 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMjFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**96Boards Embedded World 2019 Announcements**
+**96Boards OpenHours and 'Works On Arm' crossover episode!**
 
-**This week on OpenHours** the 96Boards Team covers all the new and shiny 96Boards hardware that was released in the past couple of weeks in lue of Embedded World 2019.
+**This week on OpenHours** the 96Boards Team is joined by the attendees and hosts of the [WorksOnArm](https://www.worksonarm.com/) call.
 
-While the 96Boards team wasn't physically present at EW19, we were there in spirit and being well represented by our partners. We've had announcements and board launches from Arrow, Qualcomm, STMicro, NXP, Renesas and many more!
+Works on Arm is a partnership between [Packet](http://packet.com/) and [Arm](https://www.arm.com/) to help build awareness for (and drive adoption of) Armv8 processors in the data center.  They achieve their goals this by providing CI/CD infrastructure to a wide variety of software projects, and building community around the architecture.
 
-We'll go through all the new boards, their specifications & purpose and answer any questions from the community!
+For This episode we'll be joined by Carl Perry & Ed Vielmetti from Packet and David Tischler from [miniNodes](http://t.co/3AO7MSaF4a).
 
 ### What is 96Boards OpenHours?
 
