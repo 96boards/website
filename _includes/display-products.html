@@ -11,8 +11,12 @@
     <div class="row">
         {% for product in products_array %}
         {% assign product-url = product.permalink | split: "/" %}
-        {% assign board-details = site.data.board-details | where: "id", product.permalink %}
-        {% assign dateAdded = board-details["dateAdded"] %}
+        {% assign board-details = site.data.board-details %}
+        {% for board in board-details %}
+            {% if board.id == product.permalink %}
+                {% assign dateAdded = board.dateAdded %} 
+            {% endif %}
+        {% endfor %}
         <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-md-4 col-lg-3
     {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}"
             data-order="{{order}}" data-date-added="{{dateAdded}}">
