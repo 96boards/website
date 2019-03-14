@@ -1,10 +1,9 @@
 - id: /product/bubblegum-96/
+  dateAdded: 2017-06-26 09:00:00+00:00
   vendor:
     name: uCRobotics
     url: http://www.ucrobotics.com.cn/bubblegum96/
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: Actions - S900
     - name: "CPU"
@@ -54,12 +53,11 @@
         - title: "length"
           value: 85mm 
 - id: /product/chameleon96/
+  dateAdded: 2018-04-18 09:00:00+00:00
   vendor:
     name: NovTech
     url: http://www.novtech.com/chameleon96/
   attributes:
-    - name: Date Added
-      value: 2018-04-18 09:00:00+00:00
     - name: "SoC"
       value: >-
         Intel Cyclone V SoC FPGA
@@ -134,12 +132,11 @@
       - title: "length"
         value:  85mm 
 - id: /product/dragonboard410c/
+  dateAdded: 2017-06-26 09:00:00+00:00
   vendor:
     name: Arrow Electronics
     url: https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         Qualcomm Snapdragon 410E
@@ -196,12 +193,11 @@
       - title: "length"
         value:  85mm 
 - id: /product/dragonboard820c/
+  dateAdded: 2018-02-19 09:00:00+00:00
   vendor:
     name: Arrow Electronics
     url: https://developer.qualcomm.com/hardware/dragonboard-820c
   attributes:
-    - name: Date Added
-      value: 2018-02-19 09:00:00+00:00
     - name: "SoC"
       value: >-
         Qualcomm® Snapdragon™ 820E
@@ -271,12 +267,11 @@
       - title: "length"
         value:  100mm
 - id: /product/hikey/
+  dateAdded: 2017-08-02 09:00:00+00:00
   vendor:
     name: LeMaker
     url: http://www.lenovator.com/product/86.html
   attributes:
-    - name: Date Added
-      value: 2017-08-02 09:00:00+00:00
     - name: "SoC"
       value: >-
         Kirin 620
@@ -338,12 +333,11 @@
       - title: "length"
         value:  85mm 
 - id: /product/hikey960/
+  dateAdded: 2017-08-02 09:00:00+00:00
   vendor:
     name: Archermind and LeMaker
     url: https://www.96boards.org/product/hikey960/
   attributes:
-    - name: Date Added
-      value: 2017-08-02 09:00:00+00:00
     - name: "SoC"
       value: >-
         Kirin 960
@@ -416,9 +410,8 @@
       - title: "length"
         value:  85mm 
 - id: /product/hikey970/
+  dateAdded: 2018-05-12 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-12 09:00:00+00:00
     - name: "SoC"
       value: >-
         HiSilicon Kirin 970 - HiAI Architecture, Dedicated NPU
@@ -481,9 +474,8 @@
     - name: "Environmental"
       value: "Operating Temp: 0°C to +70°C RoHS and Reach compliant"
 - id: /product/imx7-96/
+  dateAdded: 2017-10-24 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-10-24 09:00:00+00:00
     - name: "SoC"
       value: >-
         i.MX7	
@@ -531,9 +523,8 @@
       - title: "length"
         value:  85mm 
 - id: /product/mediatek-x20/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         Helio X20	
@@ -596,9 +587,8 @@
       - title: "length"
         value:  85mm 
 - id: /product/parrot/
+  dateAdded: 2018-12-05 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-12-05 09:00:00+00:00
     - name: "SoC"
       value: >-
         Allwinner R18
@@ -637,9 +627,8 @@
       - title: "length"
         value:  100mm
 - id: /product/rock960/
+  dateAdded: 2018-04-05 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-04-05 09:00:00+00:00
     - name: "SoC"
       value: >-
         Rockchip RK3399
@@ -710,9 +699,8 @@
       - title: "length"
         value:  85mm
 - id: /product/rock960c/
+  dateAdded: 2019-01-17 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-01-17 09:00:00+00:00
     - name: Wireless
       value: "WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas, optional IPEX antenna."
     - name: "SoC"
@@ -771,9 +759,8 @@
       - title: "length"
         value:  85mm
 - id: /product/sophon-edge/
+  dateAdded: 2018-04-05 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-04-05 09:00:00+00:00
     - name: "SoC"
       value: >-
         Sophon BM1880
@@ -814,9 +801,8 @@
       - title: "length"
         value:  85mm
 - id: /product/ultra96/
+  dateAdded: 2018-03-18 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-03-18 09:00:00+00:00
     - name: "SoC"
       value: >-
         Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
@@ -860,9 +846,8 @@
       - title: "length"
         value:  85mm
 - id: /product/developerbox/
+  dateAdded: 2018-05-01 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-01 09:00:00+00:00
     - name: "SoC"
       value: >-
         Socionext SC2A11
@@ -899,9 +884,8 @@
         - title: EDK2 (Firmware)
         - title: Debian
 - id: /product/oxalis/
+  dateAdded: 2018-12-05 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-12-05 09:00:00+00:00
     - name: "SoC"
       value: >-
         NXP Layerscape LS1012A
@@ -942,9 +926,8 @@
       - title: "length"
         value:  160mm
 - id: /product/poplar-hoperun/
+  dateAdded: 2018-05-15 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-15 09:00:00+00:00
     - name: "SoC"
       value: >-
         Hisilicon Hi3798CV200
@@ -994,9 +977,8 @@
       - title: "length"
         value:  160mm
 - id: /product/poplar/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         Hisilicon Hi3798CV200
@@ -1050,9 +1032,8 @@
       - title: "length"
         value:  160mm
 - id: /product/4iot/
+  dateAdded: 2018-05-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         Qualcomm Snapdragon 410E
@@ -1086,9 +1067,8 @@
       - title: "length"
         value:  60mm
 - id: /product/bpi96/
+  dateAdded: 2018-05-24 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-24 09:00:00+00:00
     - name: "SoC"
       value: >-
         STM32F103RCT6 / STM32F103RBT6
@@ -1120,9 +1100,8 @@
       - title: "length"
         value:  60mm
 - id: /product/carbon/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         STMicroelectronics STM32F401RE
@@ -1169,9 +1148,8 @@
       - title: "length"
         value:  60mm
 - id: /product/ivy5661/
+  dateAdded: 2019-02-07 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-02-07 09:00:00+00:00
     - name: "SoC"
       value: >-
         UWP5661@28nm
@@ -1218,9 +1196,8 @@
       - title: "length"
         value:  60mm
 - id: /product/nitrogen/
+  dateAdded: 2017-07-09 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-07-09 09:00:00+00:00
     - name: "SoC"
       value: >-
         nRF52832 microcontroller
@@ -1262,9 +1239,8 @@
       - title: "length"
         value:  60mm
 - id: /product/orangepi-i96/
+  dateAdded: 2017-08-01 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-08-01 09:00:00+00:00
     - name: "SoC"
       value: >-
         RDA8810PL ARM Cortex-A5 32bit
@@ -1312,9 +1288,8 @@
       - title: "length"
         value:  60mm
 - id: /product/wistrio/
-  attributes:
-    - name: Date Added
-      value: 2018-11-27 09:00:00+00:00
+  dateAdded: 2018-11-27 09:00:00+00:00
+  attributes: 
     - name: "SoC"
       value: >-
         RAK5205
@@ -1349,9 +1324,8 @@
       - title: "height"
         value: 11.45 mm
 - id: /product/aerocore2/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         ARM Cortex-M4 Microcontroller
@@ -1378,9 +1352,8 @@
         TEXAS INSTRUMENTS SN65HVD232 CAN TRANSCEIVER	Designed for use with Texas Instruments DSPs with CAN controllers and equivalent devices.
         Provides differential transmit and receive capability at speeds up to 1 Mbps. (SPEC)
 - id: /product/arrow-nextbio/
+  dateAdded: 2018-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         ARM Cortex-M4 Microcontroller
@@ -1411,9 +1384,8 @@
     - name: "Weight"
       value: 18g
 - id: /product/audio-mezzanine/
+  dateAdded: 2017-07-06 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-07-06 09:00:00+00:00
     - name: "Power"
       value: >-
         "Input Voltage: 6.5~18V(DC Input)
@@ -1455,9 +1427,8 @@
         USB to UART conversion for access to the 410c system console
         "
 - id: /product/d3camera/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "Camera"
       value: >-
         "Two MIPI CSI-2 (2-lane)"
@@ -1469,9 +1440,8 @@
     - name: "Parent Board"
       value: "/product/dragonboard410c/"
 - id: /product/ethernetcard/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "Connectivity"
       value: >-
         "Gigabit Ethernet through high speed USB 2.0"
@@ -1490,9 +1460,8 @@
         Allows 96Boards to be powered over the external Ethernet POE+ line by Linear Technology’s LT4276. 
         "
 - id: /product/linkspritesensorkit/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "Connectivity"
       value: >-
         "Gigabit Ethernet through high speed USB 2.0"
@@ -1528,9 +1497,8 @@
         1 × Plastic case
         "
 - id: /product/mipiadapter/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "Expansion Interface"
       value: >-
         "
@@ -1561,9 +1529,8 @@
     - name: "Parent Board"
       value: "/product/dragonboard410c/"
 - id: /product/neonkey/
+  dateAdded: 2017-07-24 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-07-24 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1619,9 +1586,8 @@
       - title: "length"
         value:  60mm
 - id: /product/secure96/
+  dateAdded: 2017-11-28 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-11-28 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1681,9 +1647,8 @@
       - title: "length"
         value:  60mm
 - id: /product/sensors-mezzanine/
+  dateAdded: 2017-07-06 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-07-06 09:00:00+00:00
     - name: "CPU"
       value: >-
         "
@@ -1711,9 +1676,8 @@
         "Reset button
         Power button"
 - id: /product/shiratech-fpga/
+  dateAdded: 2018-12-30 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-12-30 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1757,9 +1721,8 @@
         FPGA programming using Altera standard programming connector.
         "
 - id: /product/stm32/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1793,9 +1756,8 @@
       values:
         - title: Zephyr RTOS support
 - id: /product/shiratech-nb1/
+  dateAdded: 2019-01-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-01-26 09:00:00+00:00
     - name: "Connectivity"
       value: >
         Quectel BG96 LTE Cat M1 & Cat NB1 & EGPRS module
@@ -1822,9 +1784,8 @@
         Low Power
         Compatible with 96Boards CE and EE boards
 - id: /product/tresor/
+  dateAdded: 2019-01-02 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-01-02 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1838,9 +1799,8 @@
         Standard 96Boards LS expansion connector
         "
 - id: /product/uartserial/
+  dateAdded: 2017-06-26 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2017-06-26 09:00:00+00:00
     - name: "SoC"
       value: >-
         "
@@ -1876,9 +1836,8 @@
         Remote control of baseboard reset and power signals	
         "
 - id: /product/xinabox-b901/
+  dateAdded: 2018-06-28 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-06-28 09:00:00+00:00
     - name: "Expansion Interface"
       value: >-
         "
@@ -1895,9 +1854,8 @@
         Provides an interface to support the xCHIP ecosystem, adding support for many additional sensors etc.
         "
 - id: /product/voice-ui/
+  dateAdded: 2019-02-13 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-02-13 09:00:00+00:00
     - name: "LED"
       value: >-
         "
@@ -1933,9 +1891,8 @@
 
         "
 - id: /product/on-camera/
+  dateAdded: 2019-02-25 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-02-25 09:00:00+00:00
     - name: "Camera"
       value: >-
         "
@@ -1948,23 +1905,8 @@
     - name: "Parent Board"
       value: "/product/dragonboard410c/"
 - id: /product/shiratech-bosch/
+  dateAdded: 2019-02-13 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2019-02-13 09:00:00+00:00
-    - name: "Sensors"
-      value: >
-        The Bosch Sensor Mezzanine includes the following sensors BMP388, BMA456, BME680, BHI160 and BMM150
-    - name: "Power"
-      value: "Supply 1.8v/3.3v"
-    - name: "Other"
-      value: >
-        Add high-performance, highly accurate Bosch sensors to your product
-        Comes with a wide selection of sensors for any IoT/drone application.
-        All sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0 and 6 gpio lines (gpio a,b,c,d,e,f).
-- id: /product/shiratech-bosch/
-  attributes:
-    - name: Date Added
-      value: 2019-02-13 09:00:00+00:00
     - name: "Sensors"
       value: >
         The Bosch Sensor Mezzanine includes the following sensors BMP388, BMA456, BME680, BHI160 and BMM150
@@ -1976,9 +1918,8 @@
         Comes with a wide selection of sensors for any IoT/drone application.
         All sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0 and 6 gpio lines (gpio a,b,c,d,e,f).
 - id: /product/shiratech-lte/
+  dateAdded: 2018-05-01 09:00:00+00:00
   attributes:
-    - name: Date Added
-      value: 2018-05-01 09:00:00+00:00
     - name: "Sensors"
       value: >
         On-Board Sensor Key Features - Bosch BNO055 (3 Sensors in one device - triaxial 16bit gyroscope, triaxial 14bit accelerometor
@@ -1992,3 +1933,81 @@
         Worldwaide LTE, UMTS/HSPA+ and GSM/GPRS/EDGE coverage.
         Multi-constellation GNSS receiver available for applications requiring fast and accurate fixes in any environment.
         MIMO technology meets demands for data rate and link reliability in modem wireless communication system.
+- id: /product/rb3-platform/
+  dateAdded: 2018-02-28 09:00:00+00:00
+  vendor:
+    name: thundercomm
+    url: https://www.thundercomm.com/app_en/product/1544580412842651
+  attributes:
+    - name: "SoC"
+      value: >-
+        Qualcomm SDA845
+    - name: "CPU"
+      value: Qualcomm SDA845 embedded platform, custom 64-bit ARM v8-compliant octa-core CPU Up to 2.8 GHz,10nm LPP FinFET process technology
+    - name: "GPU"
+      value: >
+        Adreno™ 630 GPU 
+        OpenGL™ ES 3.2 + AEP, DX next, Vulkan®2, 
+        OpenCL™ 2.0 full profile, RenderScript
+    - name: "RAM"
+      value: 4GB LPDDR4x SDRAM @ 1866 MHz
+    - name: "Wireless"
+      value: >-
+        WLAN 802.11a/b/g/n/ac 2.4/5GHz 2×2 MIMO & Bluetooth 5.0,on-boardWLAN/BT/GPSantennas
+    - name: "Storage"
+      value: 64GB UFS 2.1 on-boardstorage and1 x MicroSD card slot
+    - name: "Ethernet"
+      value: 1x GbE Ethernet
+    - name: "USB"
+      value: >-
+        1 x USB 2.0 Micro B (Debug only ), 
+        1 x USB 3.0 Type C (OTGmode), 
+        2x USB 3.0 Type A (Host mode only)
+    - name: "Display"
+      value: >
+        Two 4-lane DSI, D-PHY 1.2 or C-PHY 1.0; VESA DSC 1.1 
+        1 x HDMI 1.4 (Type A -full) connector
+    - name: "Video"
+      value: >-
+        4K60 decode for H.264 High Profile, H.265 Main 10 Profile and VP9 Profile 2, 
+        4K60 encode for H.264 High Profile, H.265 Main 10 Profile
+    - name: "Audio"
+      value: >-
+        MP3; aacPlus, eAAC; WMA 9/Pro
+    - name: "Camera"
+      value: Qualcomm Spectra™ 280 ISP, dual 14-bit ISP+one Lite ISP, 32 MP 30 fps ZSL with a dual ISP
+    - name: "Expansion Interface"
+      value:	>-
+        HS1:1 x 60 pin High-Speed connector (4L-MIPI DSI, USB 2.0 x2,I2C x2, 2L+4L-MIPI CSI)
+        HS2:1x 60 pin High-Speed connector (4L-MIPI CSI x 2, SSC SPI, PCIe 3.0,USB 3.0 x1, GPIO x 9)
+        LS1:1x 96boards 40 pin Low-Speed connector (UART x2, SPI, I2S, I2C x2, GPIO x12, DC power) 
+        LS2:1x 96boards 40 pin Low-Speed connector(headset, stereospeaker, DMIC I/F x3, CAN, I2S, GPIO x 7, PWM x 2, ADC x 2)
+        LS3:1x 96boards 20 pin Low-Speed connector (SSC SPI x 3, SSC I2C, sensor interrupt x 5)
+    - name: "LED"
+      value: >-
+        	"7 LED indicators:
+          4 - user controllable
+          2 - for radios (BT and WLAN activity)
+          1 - power indicator"
+    - name: "Buttons"
+      value: >-
+        Power ,Volume Up/Down,Force Usb Boot, DipSwitch(6 PIN)
+    - name: "Power"
+      value: >
+        "12V@2.5A adapter with a DC plug:
+        Plug specification is inner diameter 1.75mm and outer diameter 4.75mm"
+    - name: "OS Support"
+      values: 
+        - title: LE
+    - name: "Sensors"
+      value: >
+        Accelerometer + Gyro Sensor/ Proximity sensor
+    - name: "Other"
+      value: >
+        DSP -	Hexagon™ 685 DSP
+    - name: "Dimensions"
+      values:
+      - title: "width"
+        value:  54mm
+      - title: "length"
+        value:  85mm 
