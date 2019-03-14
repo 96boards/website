@@ -1985,10 +1985,10 @@
         LS3:1x 96boards 20 pin Low-Speed connector (SSC SPI x 3, SSC I2C, sensor interrupt x 5)
     - name: "LED"
       value: >-
-        	"7 LED indicators:
-          4 - user controllable
-          2 - for radios (BT and WLAN activity)
-          1 - power indicator"
+        "7 LED indicators:
+        4 - user controllable
+        2 - for radios (BT and WLAN activity)
+        1 - power indicator"
     - name: "Buttons"
       value: >-
         Power ,Volume Up/Down,Force Usb Boot, DipSwitch(6 PIN)
