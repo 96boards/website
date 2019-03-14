@@ -9,9 +9,18 @@
         <div class="row">
             <div id="featured-products-wrapper" class="hidden-xs">
 
-                {% assign featured-products = site.product | where: "product", "true" | sample: 6  %}
-                
-                {% for product in featured-products %}
+                {% assign featuredBoards = site.data.board-details | sort: 'dateAdded' | reverse %}
+                 
+                {% for featuredProduct in featuredBoards limit: 6 %}
+
+                    {% assign products = site.product %}
+                    {% assign product = "" %}
+                    {% for each in products %}
+                        {% if each.permalink == featuredProduct.id %}
+                            {% assign product = each %}
+                        {% endif %}
+                    {% endfor %}
+
                     {% assign url-name = product.permalink | split: "/" %}
                     {% assign url-slug = url-name[2] %}
                     
@@ -58,9 +67,15 @@
             </div>
             
             <div class="home-carousel owl-carousel owl-theme visible-xs" id="homeCarousel">
-                {% assign featured-products = site.product | where: "product", "true" | sample: 6  %}
                 
-                {% for product in featured-products %}
+                {% for featuredProduct in featuredBoards limit: 6 %}
+                    {% assign products = site.product %}
+                    {% assign product = "" %}
+                    {% for each in products %}
+                        {% if each.permalink == featuredProduct.id %}
+                            {% assign product = each %}
+                        {% endif %}
+                    {% endfor %}
                     {% assign url-name = product.permalink | split: "/" %}
                     {% assign url-slug = url-name[2] %}
                     <div class="owl-item__inner">
