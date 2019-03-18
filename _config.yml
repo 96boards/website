@@ -159,7 +159,7 @@ defaults:
         type: "documentation"
     values:
         layout: "documentation-page"
-        toc: true
+        toc: false
   - scope:
         path: "_projects/view"
     values:
