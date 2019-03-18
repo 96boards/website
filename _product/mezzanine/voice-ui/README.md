@@ -17,7 +17,7 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_specification: "mezzanine"
-product: true---
+product: true
 product_short_desc: "The Arrow/ADI ADADN8080 Mezzanine reference design board is a high-end voice control platform that works in conjunction with a Dragonboard 410c board and linear or circular microphone array"
 product_long_desc: |-
     The Arrow/ADI ADADN8080 Mezzanine reference design board is a high-end voice control platform that works in conjunction with a Dragonboard 410c board and linear or circular microphone array. The board is the product of partnership between Arrow, ADI and eSoft Things showcasing the capabilities of ADI ADADN8080 voice platform. It allows quick prototyping of voice control applications and enables deployment of ADADN8080 based end products. With a low-power always-on voice solution with low–latency audio paths, multiple digital microphone inputs can be supported. Efficient and accurate far-field voice detection makes the board a great fit for consumer as well as professional audio applications.

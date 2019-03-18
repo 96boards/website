@@ -2,28 +2,24 @@
 <div id="grid" class="mixitup-container">
     {% assign products_array =  site.product | where: "product", "true" %}
     {% if spec == "archived" %}
-        {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "true" %}
+    {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "true" %}
     {% elsif spec != "all" %}
-        {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
+    {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
     {% else %}
-        {% assign products_array =  products_array | where: "archived", "false" %}
+    {% assign products_array =  products_array | where: "archived", "false" %}
     {% endif %}
     <div class="row">
-    {% for product in products_array %}
+        {% for product in products_array %}
         {% assign product-url = product.permalink | split: "/" %}
         {% assign board-details = site.data.board-details %}
-        {% assign dateAdded = "N/A" %}
         {% for board in board-details %}
             {% if board.id == product.permalink %}
-                {% for attr in board.attributes %}
-                    {% if attr.name == "Date Added" %}
-                        {% assign dateAdded = attr.value | date: "%Y-%m-%d" %}
-                    {% endif %}
-                {% endfor %}
+                {% assign dateAdded = board.dateAdded %} 
             {% endif %}
         {% endfor %}
-    <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-sm-4 col-md-3 col-lg-3
-    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}" data-order="{{order}}" data-date-added="{{dateAdded}}">
+        <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-md-4 col-lg-3
+    {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %}"
+            data-order="{{order}}" data-date-added="{{dateAdded}}">
             <div class="col-item">
                 <div class="photo">
                     <a href="{{product.permalink}}">
@@ -42,17 +38,18 @@
                 </div>
                 {% assign specification = product.product_specification | downcase %}
                 {% if specification == "ce" %}
-                    {% assign specification_text = "Consumer Edition" %}
+                {% assign specification_text = "Consumer Edition" %}
                 {% elsif specification == "ee" %}
-                    {% assign specification_text = "Enterprise Edition" %}
+                {% assign specification_text = "Enterprise Edition" %}
                 {% elsif specification == "ie" %}
-                    {% assign specification_text = "IoT Edition" %}
+                {% assign specification_text = "IoT Edition" %}
                 {% elsif specification == "mezzanine" %}
-                    {% assign specification_text = "Mezzanine Edition" %}
+                {% assign specification_text = "Mezzanine Edition" %}
                 {% endif %}
                 <div class="spec-badge" data-toggle="tooltip" data-position="right" title="{{specification_text}}">
                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="/assets/images/content/tiny-spec-{{specification}}.png" class="img-resposive spec-badge lazyload">
+                        data-src="/assets/images/content/tiny-spec-{{specification}}.png"
+                        class="img-resposive spec-badge lazyload">
                 </div>
                 <div class="info">
                     <div class="product-title col-md-12 text-center">
@@ -64,19 +61,23 @@
                         {{ product.product_short_desc | slice: 0, 50 }}...
                     </div>
                     <div class="separator clear-left">
-                        <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
+                        <div class="dropdown dropdown-container btn-group dropup btn-block"
+                            class="product-buy-dropdown">
                             <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more">View Product</a>
-                            <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
-                            <span class="sr-only">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu buy-dropup-menu">
-                              {% for buy_link in product.product_buy_links %}
-                              <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
-                              {% endfor %}
-                          </ul>
-                             <input type="checkbox" class="board-checkbox" data-board-specification="{{product.product_specification}}"
-                            data-board-title="{{product.title}}" data-board="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">
+                            <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu buy-dropup-menu">
+                                {% for buy_link in product.product_buy_links %}
+                                <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            <input type="checkbox" class="board-checkbox"
+                                data-board-specification="{{product.product_specification}}"
+                                data-board-title="{{product.title}}"
+                                data-board="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">
                         </div>
                     </div>
 
@@ -86,7 +87,7 @@
             </div>
         </div>
         {% assign order = order | plus: 1 %}
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
 <button id="compare-boards-btn-2" type="button" class="btn btn-default compare-boards-btn" data-toggle="dropdown"

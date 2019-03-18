@@ -5,6 +5,8 @@ slogan: Develop &amp; Prototype on the Latest Arm Technology
 # Breadcrumb Settings
 breadcrumb:
     image: banner.jpg
+# Hide last modified at date from showing in the site footer
+hide_last_modified: true
 #Content Repo for static site.
 # Used for the edit on github include
 edit-on-github:
