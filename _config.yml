@@ -158,7 +158,8 @@ defaults:
   - scope:
         type: "documentation"
     values:
-        layout: "container-breadcrumb-tabs"
+        layout: "documentation-page"
+        toc: false
   - scope:
         path: "_projects/view"
     values:

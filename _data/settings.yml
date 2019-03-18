@@ -4,7 +4,7 @@ name: 96Boards
 slogan: Develop &amp; Prototype on the Latest Arm Technology
 # Breadcrumb Settings
 breadcrumb:
-    image: banner.jpg
+    image: breadcrumb-banner.png
 # Hide last modified at date from showing in the site footer
 hide_last_modified: true
 #Content Repo for static site.

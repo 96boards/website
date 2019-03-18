@@ -43,6 +43,7 @@ function addLatestNews(results_data, number_of_items) {
 function checkArrayForKeyword(array, keyword){
     for(i=0;i<array.length;i++){
         var search_item = array[i].toLowerCase();
+        console.log(keyword + " vs " + search_item);
         if (search_item.indexOf(keyword) !== -1){
             return true;
         }
