@@ -34,7 +34,7 @@ $(document).ready(function(){
             for (i = 0; i < requiredMembers["members"].length; i++) {
                 // Create new element based on current member index in loop
                 var memberElement = '<div class="col-md-3 col-sm-4 col-xs-6">';
-                memberElement += '<a href="' + requiredMembers["members"][i].url + '" target="_blank">';
+                memberElement += '<a href="https://www.linaro.org' + requiredMembers["members"][i].url + '" target="_blank">';
                 memberElement += '<img data-src="' + requiredMembers["members"][i].image + '" alt="' + requiredMembers["members"][i].name + '"';
                 memberElement += 'src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="img-responsive members-img center-block lazyload"/>';
                 memberElement += '</a></div>';
