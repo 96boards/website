@@ -6,7 +6,6 @@ image:
     featured: true
     path: /assets/images/blog/arduino.jpg
     name: arduino.jpg
-    thumb: arduino-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
