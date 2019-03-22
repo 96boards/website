@@ -23,15 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bzFsMzZ0ZHYzNGtxbnRqZ3ZucWFuNDR0NW9fMjAxOTAyMjFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAzMjFUMTUwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**96Boards OpenHours and 'Works On Arm' crossover episode!**
+**Linaro Connect BKK19 review! Let's take a look a whats happening...**
 
-**This week on OpenHours** the 96Boards Team is joined by the attendees and hosts of the [WorksOnArm](https://www.worksonarm.com/) call.
-
-Works on Arm is a partnership between [Packet](http://packet.com/) and [Arm](https://www.arm.com/) to help build awareness for (and drive adoption of) Armv8 processors in the data center.  They achieve their goals this by providing CI/CD infrastructure to a wide variety of software projects, and building community around the architecture.
-
-For This episode we'll be joined by Carl Perry & Ed Vielmetti from Packet and David Tischler from [miniNodes](http://t.co/3AO7MSaF4a).
+**This week on OpenHours** the 96Boards Team will comb through the [Linaro Connect website](https://connect.linaro.org/) and talk about the many interesting sessions and Keynotes which will be happening throughout the event. Currently, there are more than eight 96Boards related sessions! Join us for a quick walk through and speculative dive into the upcoming Linaro Connect, which will take place during the first week of April in Bangkok, Thailand.
 
 ### What is 96Boards OpenHours?
 
@@ -39,7 +35,7 @@ For This episode we'll be joined by Carl Perry & Ed Vielmetti from Packet and Da
 
 We’ll begin these sessions with introductions and announcements, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.
 
-These sessions will be held on BlueJeans and recorded so they can be made available after the session. There is a limit to a 100 participants so it will be first come first served initially!
+These sessions will be held on Zoom and recorded so they can be made available after the session. There is a limit to a 100 participants so it will be first come first served initially!
 
 We look forward to talking with you.
 
