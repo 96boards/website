@@ -56,9 +56,6 @@ product_buy_links:
     type: board
     link-price: "2510.00"
     link-price-currency: CNY
-product_more_info:
-    - title: Avnet
-      link: https://linaro.co/ultra96-vendor-avnet
 product_os:
   - title: Linux
     link: /documentation/consumer/ultra96/downloads/
@@ -72,6 +69,9 @@ product_third_party_images:
 product_more_info:
   - title: Avnet Zedboard
     link: http://zedboard.org/product/ultra96
+product_Ultra96_v1:
+    - title: Avnet
+      link: https://linaro.co/ultra96-vendor-avnet
 product_accessories:
   - title: Power
     link: /product/power/
