@@ -25,9 +25,7 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAzMjFUMTUwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Linaro Connect BKK19 review! Let's take a look a whats happening...**
-
-**This week on OpenHours** the 96Boards Team will comb through the [Linaro Connect website](https://connect.linaro.org/) and talk about the many interesting sessions and Keynotes which will be happening throughout the event. Currently, there are more than eight 96Boards related sessions! Join us for a quick walk through and speculative dive into the upcoming Linaro Connect, which will take place during the first week of April in Bangkok, Thailand.
+**No Episode this week! Tune in on April 4th at the end of the countdown for our bi-annual "Live from Linaro Connect" episode.**
 
 ### What is 96Boards OpenHours?
 
