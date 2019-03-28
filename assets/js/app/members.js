@@ -42,6 +42,6 @@ function addMembers(membersData, membersKey, selector){
 $(document).ajaxStop(function () {
     console.log(membersJSONData);
     addMembers(membersJSONData, "boards-sc", "#boards-sc");
-    addMembers(membersJSONData, "boards-partners", "#boards-mezzanine");
+    addMembers(membersJSONData, "boards-partner", "#boards-mezzanine");
     addMembers(membersJSONData, "boards-mp", "#boards-mp");
 });
