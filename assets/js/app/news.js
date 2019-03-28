@@ -28,7 +28,7 @@ function extractDateString(dateString) {
 }
 var related_posts = [];
 // Process all JSON, get the latest news and blog posts and add to the list.
-function addLatestNews(results_data, number_of_items) {
+function addLatestNews(selector, results_data, number_of_items) {
     console.log(results_data);
     var listItems = '';
     for (var i = 0; i < number_of_items; i++) {
@@ -38,7 +38,7 @@ function addLatestNews(results_data, number_of_items) {
         listItems += '<span class="date">' + formatDate(Date.parse(extractDateString(post.date_published))) + '</span>';
         listItems += '</a>';
     }
-    $("#boards-news").html(listItems);
+    $(selector).html(listItems);
 }
 function checkArrayForKeyword(array, keyword){
     for(i=0;i<array.length;i++){
@@ -52,7 +52,7 @@ function checkArrayForKeyword(array, keyword){
 }
 $(document).ready(function(){
     // Check to see if the div we are adding to exists
-    if ($("#boards-news").length > 0) {
+    if ($("#boards-news").length > 0 || $("#boards-news-blog").length > 0) {
         $.ajax({
             url: "https://www.linaro.org/assets/json/posts.json",
             dataType: 'json',
@@ -81,6 +81,12 @@ $(document).ready(function(){
 });
 // Wait for all ajax requests to stop
 $(document).ajaxStop(function () {
-    var sorted_data = related_posts.sort(sort_by_date);
-    addLatestNews(sorted_data, 10);
+    if ($("#boards-news").length > 0) {
+        var sorted_data = related_posts.sort(sort_by_date);
+        addLatestNews("#boards-new", sorted_data, 10);
+    }
+    if ($("#boards-news-blog").length > 0) {
+        var sorted_data = related_posts.sort(sort_by_date);
+        addLatestNews("#boards-news-blog",sorted_data, 5);
+    }
 });
