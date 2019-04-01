@@ -39,17 +39,6 @@ a.footer-heading {
 .footer-strip {
     border-top: 1px #dedede solid;
 }
-//Body
-body {
-    background:transparent;
-    letter-spacing: 0.5px;
-    overflow-x: hidden;
-    font-weight: 300;
-    height  : 100%;
-    overflow: auto;
-    font-family: 'LatoWeb', HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
 
 div#github_controls {
     margin: 10px 0;
@@ -68,15 +57,6 @@ div#github_controls a.btn:hover {
     background-color: #333;
     color: #fff;
 }
-span.top-text {
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-span.bottom-text {
-    display: block;
-    font-size: 11px;
-}
 
 i.icon-github-circled.center-block {
     font-size: 24px;
@@ -86,10 +66,9 @@ i.icon-github-circled.center-block {
 #universal-nav li a {
     height: 36px;
 }
- html {
-     height  : 100%;
-     background-color: #f5f5f5;;
-    //  overflow: hidden; Will break the sticky navbar - be warned
+html {
+    height  : 100%;
+    background-color: #000;;
 }
 
 // For images in documentation section
@@ -119,7 +98,6 @@ td > img {
 }
 //Headings
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'LatoWeb', HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
     font-weight: bold;
     line-height: 1.1;
     color: inherit;
@@ -160,12 +138,6 @@ p .justified{
     text-justify: inter-word;
 }
 
-// Tab Content paragraph
-#content-container p {
-    font-size: 18px;
-    color: black;
-    line-height: 1.66em;
-}
 //Main Container Style margin accounts for Nav
 #main-container{
     margin-top:80px;
@@ -183,8 +155,6 @@ p .justified{
 }
 .content-container ul { font-size:18px; }
 .content-container ol { font-size: 18px;}
-
-
 
 //Homepage Sub Tag
 p.sub-tag {
@@ -518,4 +488,11 @@ h3.official-news-title {
 #external-news h3 {
     font-size: 16px;
     margin-bottom: 5px;
+}
+
+#tabbed-nav-bar.non-sticky-nav button.navbar-toggle {
+    margin-right:0px;
+}
+.sticky-nav#tabbed-nav-bar button.navbar-toggle{
+    margin-right:0px;
 }
