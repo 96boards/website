@@ -26,9 +26,11 @@ jumbotron:
 
 Compliance is tested against the following:
 
-*   [96Boards Consumer Edition Low Cost Hardware Platform Specification](https://linaro.co/ce-specification),
-*   [96Boards Enterprise Edition Low Cost Hardware Platform Specification](https://linaro.co/ee-specification) and     [96Boards TV Platform Specification](https://linaro.co/tv-specification),
-*   [96Boards IoT Edition Low Cost Hardware Platform Specification](https://linaro.co/ie-specification)
+*   [96Boards Consumer Edition Specification](https://linaro.co/ce-specification),
+*   [96Boards Enterprise Edition Specification](https://linaro.co/ee-specification) and     [96Boards TV Platform Specification](https://linaro.co/tv-specification),
+*   [96Boards IoT Edition Specification](https://linaro.co/ie-specification)
+*   [96Boards SoM Specification (Compute)](https://linaro.co/som-spec)
+*   [96Boards SoM Specification (Wireless)](https://linaro.co/som-w-spec)
 *   The requirements specified in the below
 
 ----
