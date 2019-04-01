@@ -15,13 +15,12 @@ jumbotron:
 <div class="container" markdown="1">
 The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features. A fixed set of minimum functions including USB, SD, HDMI and standardized low speed and high speed peripheral connectors are provided. Vendors may add customized hardware and feature sets provided the minimum functions are available. We expect this to extend the platform life, increase the market for add-on hardware, and accelerate open source upstreaming of support for new SoC features.
 
-There are currently five 96Boards specifications:
+There are currently four 96Boards specifications:
 
 * The [Consumer Edition (CE)](https://linaro.co/ce-specification) targets the mobile, embedded and digital home segments.
 * The [Enterprise Edition (EE)](https://linaro.co/ee-specification) targets the networking and server segments.
 * The [IoT Edition (IE)](https://linaro.co/ie-specification) targets the Internet of Things (IoT) and Embedded segments.
-* The [SoM Edition (Compute)](https://linaro.co/som-spec)
-* The [SoM Edition (Wireless)](https://linaro.co/som-w-spec)
+* The SoM Edition (SoM) ([Wireless](https://linaro.co/som-w-spec) and [Compute](https://linaro.co/som-spec)) which encourage the development of reliable and cost-effective embedded platforms for building end-products.
 
 These specifications are intended to foster the delivery of multiple Arm hardware platforms targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification/). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
