@@ -23,7 +23,7 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M3BkdGZvNm9tOGg2c2dtZmI2a25sdnBuM28gcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
 **It's that time of year again! Tomorrow, we go "Live from Linaro Connect" in Bangkok, Thailand**
 
