@@ -23,9 +23,17 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAzMjFUMTUwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="">Add to you Calendar</a>
 
-**No Episode this week! Tune in on April 4th at the end of the countdown for our bi-annual "Live from Linaro Connect" episode.**
+**It's that time of year again! Tomorrow, we go "Live from Linaro Connect" in Bangkok, Thailand**
+
+This Connect happens to be very special in that there are so many table sponsors showcasing a lot of great new 96Boards! That being said, we have decided to do something different... For those of you who have followed our Linaro Connect Livestreams, we usually do a sort of panel. Not this time! Tomorrow, during our stream, we will BOOTH HOP! All of our sponsors have been notified of the stream, and they will be there to "show us what they got".
+
+To give you all an idea of what we will see, we will be speaking with the following sponsors:
+
+[Bitmain](https://www.bitmain.com/), [Rockchips](www.rock-chips.com), [Arm](https://www.arm.com/), [Qualcomm](https://developer.qualcomm.com/), [Arrow](https://www.arrow.com/), [Shiratech](http://www.shiratech-solutions.com/), [Packet](https://www.packet.com/), [Avnet](https://www.avnet.com) and [Xilinx](https://www.xilinx.com/)! Each sponsored table will have 5-7 minutes to tell us about the very cool things on their table, which includes new product showcases and demos.
+
+Hopefully the odd broadcast time doesn't throw you all off too much, we hope as many of our regulars will still be able to tune in. If not, the video will be there waiting on YouTube! Don't forget to check back at some point to watch the recording and tell us what you think.
 
 ### What is 96Boards OpenHours?
 
