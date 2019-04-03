@@ -31,7 +31,7 @@ This Connect happens to be very special in that there are so many table sponsors
 
 To give you all an idea of what we will see, we will be speaking with the following sponsors:
 
-[Bitmain](https://www.bitmain.com/), [Rockchips](www.rock-chips.com), [Arm](https://www.arm.com/), [Qualcomm](https://developer.qualcomm.com/), [Arrow](https://www.arrow.com/), [Shiratech](http://www.shiratech-solutions.com/), [Packet](https://www.packet.com/), [Avnet](https://www.avnet.com) and [Xilinx](https://www.xilinx.com/)! Each sponsored table will have 5-7 minutes to tell us about the very cool things on their table, which includes new product showcases and demos.
+Bitmain, Rockchips, Arm, Qualcomm, Arrow, Shiratech, Packet, Avnet and Xilinx! Each sponsored table will have 5-7 minutes to tell us about the very cool things on their table, which includes new product showcases and demos.
 
 Hopefully the odd broadcast time doesn't throw you all off too much, we hope as many of our regulars will still be able to tune in. If not, the video will be there waiting on YouTube! Don't forget to check back at some point to watch the recording and tell us what you think.
 
