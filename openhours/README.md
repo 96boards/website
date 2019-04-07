@@ -25,13 +25,17 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M3BkdGZvNm9tOGg2c2dtZmI2a25sdnBuM28gcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**It's that time of year again! Tomorrow, we go "Live from Linaro Connect" in Bangkok, Thailand**
+**This week in OpenHours, we will take a look back at Linaro Connect BKK19!**
 
-This Connect happens to be very special in that there are so many table sponsors showcasing a lot of great new 96Boards! That being said, we have decided to do something different... For those of you who have followed our Linaro Connect Livestreams, we usually do a sort of panel. Not this time! Tomorrow, during our stream, we will BOOTH HOP! All of our sponsors have been notified of the stream, and they will be there to "show us what they got".
+Linaro Connect is so much more than any other conference. This is a bi-annual event where top tier OpenSource Engineers get together for an entire week to collaborate, plan, and hack on the many things they are working on. Of course, the event is still true to it's name: "Connect". Many use this event as an opportunity to connect with their fellow engineers from across the world. Linaro is a gloabal company and we only really get to see eachother in person (As a company) twice a year. We like to use this opportunity to plan our the next six months and of course make a wide variety of plans with our many partners.
 
-To give you all an idea of what we will see, we will be speaking with the following sponsors:
+This time around, we had a bunch of sponsors, including: Bitmain, Rockchips, Arm, Qualcomm, Arrow, Shiratech, Packet, Avnet and Xilinx! During last week's episode (Live at Linar Connect - BKK19) we got to speak to all of the representatives from each booth; however, there was so much more going on!
 
-Bitmain, Rockchips, Arm, Qualcomm, Arrow, Shiratech, Packet, Avnet and Xilinx! Each sponsored table will have 5-7 minutes to tell us about the very cool things on their table, which includes new product showcases and demos.
+We decided to spend this upcoming week offering a recap of the event (more specifically 96Boards related activities) and to talk about some of the many action items that came out of this opportunity. We hope you will join us this week for the recap.
+
+ALSO! As we may have mentioned recently in another episode, we will be bringing back interview as a regular thing for the broadcast, stay tuned for a tentative line up of interviewees! :-)
+
+Tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
 Hopefully the odd broadcast time doesn't throw you all off too much, we hope as many of our regulars will still be able to tune in. If not, the video will be there waiting on YouTube! Don't forget to check back at some point to watch the recording and tell us what you think.
 
