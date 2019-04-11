@@ -1853,43 +1853,6 @@
         "
         Provides an interface to support the xCHIP ecosystem, adding support for many additional sensors etc.
         "
-- id: /product/voice-ui/
-  dateAdded: 2019-02-13 09:00:00+00:00
-  attributes:
-    - name: "LED"
-      value: >-
-        "
-        Integrated support for beamforming – Visual LED indicators to identify direction of origin for Voice stream and Voice trigger capture
-        Linear and circular microphone arrays (4PDM mics) with LEDs
-        "
-    - name: "Audio"
-      value: >
-        Integrated barge-in for improved voice trigger capture during music / media playback
-        Far-field voice capture over multiple digital Pulse-Density Modulation (PDM) microphones
-        Low-power always on voice detection withDSPcorewake-up
-        Low-Latency audio path for high- performance applications
-        Support for audio media record and playback
-        Integrated barge-in for improved voice trigger capture during music / media playback
-
-    - name: "Other"
-      value: >-
-        "
-        Far-field voice capture over multiple digital Pulse-Density Modulation (PDM) microphones
-        Low-power always on voice detection withDSPcorewake-up
-        Low-Latency audio path for high- performance applications
-        Support for audio media record and playback
-        Tested with AVS
-        Integrated support for beamforming – Visual LED indicators to identify direction of origin for Voice stream and Voice trigger capture
-        Integrated barge-in for improved voice trigger capture during music / media playback
-        Linear and circular microphone arrays (4PDM mics) with LEDs
-
-        Kit ships with:
-        Mezzanine Board
-        2 x Speakers
-        1 x Circular Mic Array (4Mic)
-        1 x Linear Mic Array (4Mic)
-
-        "
 - id: /product/on-camera/
   dateAdded: 2019-02-25 09:00:00+00:00
   attributes:
