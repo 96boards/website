@@ -56,14 +56,10 @@ product_os:
     link: /documentation/consumer/dragonboard/dragonboard845c/downloads/
 
 product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-product-brief.pdf
   - title: Hardware User Manual
     link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.pdf
   - title: Linux User Guide
     link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf
-  - title: Quick Start Guide
-    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-quick-start.pdf
   - title: Engaget Article
     link: https://www.engadget.com/2019/02/25/qualcomm-robotics-rb3-platform/
   - title: Linux Gizmos Article
