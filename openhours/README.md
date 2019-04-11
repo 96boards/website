@@ -23,9 +23,21 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAzMjFUMTUwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MTFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**No Episode this week! Tune in on April 4th at the end of the countdown for our bi-annual "Live from Linaro Connect" episode.**
+**This week in OpenHours, we will take a look back at Linaro Connect BKK19!**
+
+Linaro Connect is so much more than any other conference. This is a bi-annual event where top tier OpenSource Engineers get together for an entire week to collaborate, plan, and hack on the many things they are working on. Of course, the event is still true to it's name: "Connect". Many use this event as an opportunity to connect with their fellow engineers from across the world. Linaro is a gloabal company and we only really get to see eachother in person (As a company) twice a year. We like to use this opportunity to plan our the next six months and of course make a wide variety of plans with our many partners.
+
+This time around, we had a bunch of sponsors, including: Bitmain, Rockchips, Arm, Qualcomm, Arrow, Shiratech, Packet, Avnet and Xilinx! During last week's episode (Live at Linar Connect - BKK19) we got to speak to all of the representatives from each booth; however, there was so much more going on!
+
+We decided to spend this upcoming week offering a recap of the event (more specifically 96Boards related activities) and to talk about some of the many action items that came out of this opportunity. We hope you will join us this week for the recap.
+
+ALSO! As we may have mentioned recently in another episode, we will be bringing back interview as a regular thing for the broadcast, stay tuned for a tentative line up of interviewees! :-)
+
+Tune in at our regular time of 4:00p UTC on Thursday! See you there.
+
+Hopefully the odd broadcast time doesn't throw you all off too much, we hope as many of our regulars will still be able to tune in. If not, the video will be there waiting on YouTube! Don't forget to check back at some point to watch the recording and tell us what you think.
 
 ### What is 96Boards OpenHours?
 
