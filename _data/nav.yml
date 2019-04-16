@@ -69,6 +69,8 @@ pages:
       options:
           - text: All Documentation
             url: /documentation/
+          - text: Guides
+            url: /documentation/guides/
           - text: Consumer Edition Docs
             url: /documentation/consumer/
           - text: Enterprise Edition Docs
@@ -83,32 +85,13 @@ pages:
             url: /documentation/CONTRIBUTE.md.html
     - title: Support
       options:
-          - text: Services
-            url: /services/
-          - text: Join our Discord!
-            url: https://discord.gg/x5uMn5d
-            external: true
           - text: Discussion Forum
             url: https://discuss.96boards.org/
-          - text: DragonBoard410c
-            url: https://discuss.96boards.org/c/products/dragonboard410c
-          - text: HiKey
-            url: https://discuss.96boards.org/c/products/hikey
-          - text: HiKey 960
-            url: https://discuss.96boards.org/c/products/hikey960
-          - text: MediaTek-X20
-            url: https://discuss.96boards.org/c/products/mediatek-x20
-          - text: Bubblegum-96
-            url: https://discuss.96boards.org/c/products/bubblegum96
-          - text: Poplar
-            url: https://discuss.96boards.org/c/products/poplar
-          - text: DragonBoard820c (Beta)
-            url: https://discuss.96boards.org/c/products/dragonboard820c
-          - text: General
-            url: https://discuss.96boards.org/c/general
-          - text: Specification
-            url: https://discuss.96boards.org/c/specification
-          - text: Login / Register
-            url: https://discuss.96boards.org/login
+          - text: 96Boards Discord
+            url: https://discord.gg/x5uMn5d
+          - text: 96Boards Slack
+            url: https://linaro.co/96Boards-slack
+          - text: Partner Services
+            url: /services/
     - title: Blog
       url: /blog/
