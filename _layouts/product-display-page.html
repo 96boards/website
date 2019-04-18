@@ -163,22 +163,22 @@ seo:
                                 </li>
                             {% endfor %}
                     </ul>
-			    {% if page.ultra96_v1 %}
+                {% endif %}
+			    {% if page.product_previous_version %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active">
-                            <b>Ultra96 v1</b>
+                            <b>{{page.product_previous_version.version}}</b>
                             <i class="fa fa-external-link-square pull-right" aria-hidden="true"></i>
                         </li>
-                            {% for image in page.ultra96_v1 %}
-                                <li class="list-group-item">
-                                    <a href="{{ image.link }}">
-                                        <span class="text-left">{{ image.title }}</span>
-                                    </a>
-                                </li>
-                            {% endfor %}
+                        {% for item in page.product_previous_version.links %}
+                            <li class="list-group-item">
+                                <a href="{{ item.link }}">
+                                    <span class="text-left">{{ item.title }}</span>
+                                </a>
+                            </li>
+                        {% endfor %}
                     </ul>
                 {% endif %}
-    
                 {% if page.product_more_info %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b>More Info</b>
