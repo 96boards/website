@@ -69,7 +69,7 @@ product_third_party_images:
 product_more_info:
   - title: Avnet Zedboard
     link: http://zedboard.org/product/ultra96
-product_Ultra96_v1:
+product_ultra96_v1:
     - title: Avnet
       link: https://linaro.co/ultra96-vendor-avnet
 product_accessories:
