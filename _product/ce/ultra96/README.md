@@ -103,6 +103,8 @@ archived: false
 ---
 The Ultra96-V2 updates and refreshes the Ultra96 product that was released in 2018. Like Ultra96, the Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification. Ultra96-V2 will be available in more countries around the world as it has been designed with a certified radio module from Microchip. Additionally, all components are updated to allow industrial temperature grade options. Additional power control and monitoring will be possible with the included Infineon Pmics.
 
+
+Like Ultra96 (v1 legacy content in side bar), the Ultra96-V2 boots from the provided Delkin 16 GB microSD card. Engineers have options of connecting to Ultra96-V2 through a Webserver using integrated wireless access point capability or to use the provided PetaLinux desktop environment which can be viewed on the integrated Mini DisplayPort video output. Multiple application examples and on-board development options are provided as examples.
 ***
 
 ## Additional Information
