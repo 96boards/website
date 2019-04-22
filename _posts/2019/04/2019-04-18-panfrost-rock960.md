@@ -18,7 +18,7 @@ The Lima driver is the reverse-engineered driver for the lower-end Mali-400 and 
 
 Today I want to talk about Panfrost, and how to try it out on the Rock960.
 
-# What's Panfros?
+# What's Panfrost?
 
 [Panfrost](https://panfrost.freedesktop.org/) is a free and open source driver for Mali Midgard and Bifrost GPUs.
 
@@ -58,12 +58,13 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
 2. Build Dependencies:
     - Basic dependencies
     ```Shell
-    sudo apt update;
+    sudo apt update
     sudo apt dist-upgrade
-    sudo apt build-dep mesa libdrm;  # you may have to edit /etc/apt/sources.list and uncomment deb-src repo
+    sudo apt build-dep mesa libdrm  # you may have to edit /etc/apt/sources.list and uncomment deb-src repo
     sudo apt install bc python-make python3-pip flex bison build-essential libncurses5-dev
 
     ```
+
     - Install Cmake
     ```Shell
     version=3.14
@@ -77,10 +78,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     make -j4
     sudo make install
     ```
+
     - More Dependencies
-    ```Shell
-    sudo pip3 install meson ninja
-    ```
+        - `sudo pip3 install meson ninja`
+    
     > Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
 
 3. Download sources:
@@ -123,6 +124,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
         append  earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait
         ```
         - Reboot
+
     - Drm
         - Compile:
         ```Shell
@@ -132,6 +134,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
         make -j6
         ```
         - Install: `sudo make install`
+
     - Mesa
         - Compile:
         ```Shell
@@ -141,6 +144,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
         ```
         - Drink the coffee you brewed earlier
         - Install: `sudo ninja -C build/ install`
+        
     - kmscube
         - Compile:
         ```Shell
