@@ -164,7 +164,20 @@ seo:
                             {% endfor %}
                     </ul>
                 {% endif %}
-    
+			    {% if page.product_previous_version %}
+                    <ul class="list-group">
+                        <li href="#" class="list-group-item active">
+                            <b>{{page.product_previous_version.version}}</b>
+                        </li>
+                        {% for item in page.product_previous_version.links %}
+                            <li class="list-group-item">
+                                <a href="{{ item.link }}">
+                                    <span class="text-left">{{ item.title }}</span>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
                 {% if page.product_more_info %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b>More Info</b>

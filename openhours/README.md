@@ -23,17 +23,15 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MTFUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MThUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**This week in OpenHours, we will take a look back at Linaro Connect BKK19!**
+**Introduction to Autoware!**
 
-Linaro Connect is so much more than any other conference. This is a bi-annual event where top tier OpenSource Engineers get together for an entire week to collaborate, plan, and hack on the many things they are working on. Of course, the event is still true to it's name: "Connect". Many use this event as an opportunity to connect with their fellow engineers from across the world. Linaro is a gloabal company and we only really get to see eachother in person (As a company) twice a year. We like to use this opportunity to plan our the next six months and of course make a wide variety of plans with our many partners.
+Autoware.AI was originally started in 2015 by Shinpei Kato at Nagoya University, and quickly grew into the worlds first "All-in-One" open-source software stack for autonomous driving. Built on ROS 1, Autoware provides modules for Localization, Detection, Prediction and Planning, as well as Control.
 
-This time around, we had a bunch of sponsors, including: Bitmain, Rockchips, Arm, Qualcomm, Arrow, Shiratech, Packet, Avnet and Xilinx! During last week's episode (Live at Linar Connect - BKK19) we got to speak to all of the representatives from each booth; however, there was so much more going on!
+Autoware.AI is a part of the newly introduced Autoware Foundation, which is a non-profit organisation created to develop a synergy between corporate development and academic research in order to provide access to autonomous driving technology for everyone.
 
-We decided to spend this upcoming week offering a recap of the event (more specifically 96Boards related activities) and to talk about some of the many action items that came out of this opportunity. We hope you will join us this week for the recap.
-
-ALSO! As we may have mentioned recently in another episode, we will be bringing back interview as a regular thing for the broadcast, stay tuned for a tentative line up of interviewees! :-)
+This talk will provide an introduction to the Autoware.AI software stack, as well as an in depth look into its modules.
 
 Tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
