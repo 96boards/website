@@ -23,19 +23,20 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MThUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Introduction to Autoware!**
+**Secure Firmware with David Brown of Linaro!**
 
-Autoware.AI was originally started in 2015 by Shinpei Kato at Nagoya University, and quickly grew into the worlds first "All-in-One" open-source software stack for autonomous driving. Built on ROS 1, Autoware provides modules for Localization, Detection, Prediction and Planning, as well as Control.
+David Brown is a Senior Engineer at Linaro who has been working on ARM Linux since about 2007, as well as general Linux and other kernels for many years before that. He also enjoys learning and working with new programming languages. 
 
-Autoware.AI is a part of the newly introduced Autoware Foundation, which is a non-profit organisation created to develop a synergy between corporate development and academic research in order to provide access to autonomous driving technology for everyone.
+With decades of experience, David is the perfect person to tackle the complex and technical topic that is "Secure Firmware". In this week's episode of OpenHours, we will get a general overview of trusted firmware, discuss the differences between Cortex A and M, and review both setups!
 
-This talk will provide an introduction to the Autoware.AI software stack, as well as an in depth look into its modules.
+- A setup: boot, TF-A, OP-TEE and Linux
+- M setup: mcuboot, TF-M, and work in progress
 
-Tune in at our regular time of 4:00p UTC on Thursday! See you there.
+Of course, the call is open for anyone who would like to join us for a fun hour of tech talk and 96Boards! 
 
-Hopefully the odd broadcast time doesn't throw you all off too much, we hope as many of our regulars will still be able to tune in. If not, the video will be there waiting on YouTube! Don't forget to check back at some point to watch the recording and tell us what you think.
+Bring you coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
 ### What is 96Boards OpenHours?
 
