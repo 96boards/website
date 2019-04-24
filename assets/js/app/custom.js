@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // Check to see if the members section is needed. If so, fetch the 96Boards members from https://www.linaro.org/assets/json/members.json
     if ($("#members-section").length > 0){
         // Store the Members JSON data
         var membersJSONData = [];
@@ -11,16 +12,9 @@ $(document).ready(function(){
                 membersJSONData = membersJSONData.concat(jsonData);
             }
         });
-        // Wait for AJAX request to stop
-        $(document).ajaxStop(function () {
-            console.log(membersJSONData);
-            addMembers(membersJSONData, "boards-sc", "#boards-sc");
-            addMembers(membersJSONData, "boards-mezzanine", "#boards-mezzanine");
-            addMembers(membersJSONData, "boards-mp", "#boards-mp");
-        });
+
         // This functions adds the members to a the selector element
         function addMembers(membersData, membersKey, selector) {
-
             // Required members data
             var requiredMembers = [];
             // Get required members
@@ -42,8 +36,14 @@ $(document).ready(function(){
                 elements += memberElement;
             }
             $(selector).html(elements);
-            console.log(membersKey + ": " + elements);
         }
+        // Wait for AJAX request to stop
+        $(document).ajaxStop(function () {
+            addMembers(membersJSONData, "boards-sc", "#boards-sc");
+            addMembers(membersJSONData, "boards-partner", "#boards-mezzanine");
+            addMembers(membersJSONData, "boards-mp", "#boards-mp");
+            addMembers(membersJSONData, "boards-ai", "#boards-ai");
+        });
 
     }
 });

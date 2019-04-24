@@ -45,28 +45,28 @@ Moreover any other board with a Midgard, or in the near future Bifrost GPUs can 
 
 # How to install Panfrost on Rock960? The quick and dirty way ;)
 
-So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux and kmscube... All we'll do it all natively on the rock960 :evil_laugh:
+So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux and kmscube... and we'll do it all natively on the rock960 :evil_laugh:
 
-1. Setup:
-    - Make sure you have a fresh installation of ubuntu 16.04
-        - [Ubuntu Downloads for ROCK960](https://www.96boards.org/documentation/consumer/rock/downloads/ubuntu.md.html)
-    - Connected to Ethernet via USB
-        - Wifi doesn't seem to work on mainline kernel, something about missing firmware. Idk ask Mani.
-    - Rootfs is expanded:
-        - Follow this [forum link.](https://discuss.96boards.org/t/gpt-pmbr-size-mismatch/5903/2)
+## 1. Setup:
+- Make sure you have a fresh installation of ubuntu 16.04
+    - [Ubuntu Downloads for ROCK960](https://www.96boards.org/documentation/consumer/rock/downloads/ubuntu.md.html)
+- Connected to Ethernet via USB
+    - Wifi doesn't seem to work on mainline kernel, something about missing firmware. Idk ask Mani.
+- Rootfs is expanded:
+    - Follow this [forum link.](https://discuss.96boards.org/t/gpt-pmbr-size-mismatch/5903/2)
 
-2. Build Dependencies:
-    - Basic dependencies
-    ```Shell
+## 2. Build Dependencies:
+- Basic dependencies
+
+    ```shell
     sudo apt update
     sudo apt dist-upgrade
     sudo apt build-dep mesa libdrm  # you may have to edit /etc/apt/sources.list and uncomment deb-src repo
     sudo apt install bc python-make python3-pip flex bison build-essential libncurses5-dev
-
     ```
 
-    - Install Cmake
-    ```Shell
+- Install Cmake
+    ```shell
     version=3.14
     build=1
     mkdir ~/temp
@@ -78,85 +78,114 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     make -j4
     sudo make install
     ```
-
-    - More Dependencies
-        - `sudo pip3 install meson ninja`
+- More Dependencies
+    ```bash
+    sudo pip3 install meson ninja
+    ```
     
-    > Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
+> Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
 
-3. Download sources:
-    - Linux
-        - `git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git --depth=1`
-    - DRM
-        - `git clone git clone https://gitlab.freedesktop.org/mesa/drm.git --depth=1`
-    - Mesa
-        - `git clone git clone https://gitlab.freedesktop.org/mesa/mesa.git --depth=1`
-    - Kmscube
-        - `git clone git clone https://gitlab.freedesktop.org/mesa/kmscube.git --depth=1`
+## 3. Download sources:
+- Linux
+    ```bash
+    git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git --depth=1
+    ```
+- DRM
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/drm.git --depth=1
+    ```
+- Mesa
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/mesa.git --depth=1
+    ```
+- Kmscube
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/kmscube.git --depth=1
+    ```
 
-4. Compile and Install:
-    - Linux:
-        - Setup:
-        ```Shell
-        cd linux-next
-        make defconfig
-        make menuconfig
-        ```
-        - In the menu-config TUI:
-            - Disable loadable modules for simplicity
-            - Navigate to to Drivers -> Graphics
-            - Enable Panfrost
-            - Save and exit
-        - Build: `make -j6`
-        - Brew some coffee.
-        - Install
-        ```Shell
-        sudo mount /dev/mmcblk1p4 /boot
-        sudo cp arch/arm64/boot/Image /boot/
-        sudo cp arch/arm64/boot/dts/rockchip/rk3399-rock960.dtb /boot/
-        ```
-        - Edit extlinux conf: `vi /boot/extlinux/extlinux.conf`
-        - Change the contents to:
-        ```
-        label kernel-4.4
-        kernel /Image
-        fdt /rk3399-rock960.dtb
-        append  earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait
-        ```
-        - Reboot
+## 4. Compile and Install:
+### Linux
+- Setup:
 
-    - Drm
-        - Compile:
-        ```Shell
-        cd drm
-        ./autogen.sh
-        ./configure --prefix=/usr
-        make -j6
-        ```
-        - Install: `sudo make install`
+    ```shell
+    cd linux-next
+    make defconfig
+    make menuconfig
+    ```
 
-    - Mesa
-        - Compile:
-        ```Shell
-        mkdir build
-        meson -Ddri-drivers= -Dvulkan-drivers= -Dgallium-drivers=panfrost,kmsro -Dlibunwind=false -Dplatforms=x11,drm,surfaceless -Dprefix=/usr build/
-        ninja -C build/
-        ```
-        - Drink the coffee you brewed earlier
-        - Install: `sudo ninja -C build/ install`
-        
-    - kmscube
-        - Compile:
-        ```Shell
-        cd kmscube
-        ./autogen.sh
-        ./configure --prefix=/usr
-        make -j6
-        ```
-        - Install: `sudo make install`
-5. Run:
-    - Running `kmscube` should show a rainbow cube rotating.
-    - Now exit using Ctrl+c and the log on the screen should have `renderer: "panfrost"`
+- In the menu-config TUI:
+    - Disable loadable modules for simplicity
+    - Navigate to to Drivers -> Graphics
+    - Enable Panfrost
+    - Save and exit
+- Build: 
+    ```bash
+    make -j6
+    ```
+- Brew some coffee.
+- Install
+
+    ```shell
+    sudo mount /dev/mmcblk1p4 /boot
+    sudo cp arch/arm64/boot/Image /boot/
+    sudo cp arch/arm64/boot/dts/rockchip/rk3399-rock960.dtb /boot/
+    ```
+
+- Edit extlinux conf: 
+    ```bash
+    vi /boot/extlinux/extlinux.conf
+    ```
+- Change the contents to:
+
+    ```
+    label kernel-4.4
+    kernel /Image
+    fdt /rk3399-rock960.dtb
+    append  earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait
+    ```
+
+- Reboot
+
+### Drm
+- Compile:
+    ```shell
+    cd drm
+    ./autogen.sh
+    ./configure --prefix=/usr
+    make -j6
+    ```
+- Install: 
+    ```bash
+    sudo make install
+    ```
+
+### Mesa
+- Compile:
+    ```shell
+    mkdir build
+    meson -Ddri-drivers= -Dvulkan-drivers= -Dgallium-drivers=panfrost,kmsro -Dlibunwind=false -Dplatforms=x11,drm,surfaceless -Dprefix=/usr build/
+    ninja -C build/
+    ```
+- Drink the coffee you brewed earlier
+- Install: 
+    ```bash
+    sudo ninja -C build/ install
+    ```
+### kmscube
+- Compile:
+    ```shell
+    cd kmscube
+    ./autogen.sh
+    ./configure --prefix=/usr
+    make -j6
+    ```
+- Install 
+    ```bash
+    sudo make install
+    ```
+## 5. Run:
+- Running `kmscube` should show a rainbow cube rotating.
+- Now exit using Ctrl+c and the log on the screen should have `renderer: "panfrost"`
 
 # Demo During OpenHours
 
