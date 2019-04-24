@@ -85,13 +85,21 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
 
 ## 3. Download sources:
 - Linux
-    - `git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git --depth=1`
+    ```bash
+    git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git --depth=1
+    ```
 - DRM
-    - `git clone git clone https://gitlab.freedesktop.org/mesa/drm.git --depth=1`
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/drm.git --depth=1
+    ```
 - Mesa
-    - `git clone git clone https://gitlab.freedesktop.org/mesa/mesa.git --depth=1`
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/mesa.git --depth=1
+    ```
 - Kmscube
-    - `git clone git clone https://gitlab.freedesktop.org/mesa/kmscube.git --depth=1`
+    ```bash
+    git clone git clone https://gitlab.freedesktop.org/mesa/kmscube.git --depth=1
+    ```
 
 ## 4. Compile and Install:
 ### Linux
@@ -127,7 +135,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     fdt /rk3399-rock960.dtb
     append  earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait
     ```
-    
+
 - Reboot
 
 ### Drm
