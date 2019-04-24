@@ -9,6 +9,5 @@
 //= require app/fly
 //= require app/sticky-tab-bar
 //= require app/tables
-//= require app/members
 //= require app/custom
 //= require app/search
