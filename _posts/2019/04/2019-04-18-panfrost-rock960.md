@@ -179,7 +179,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install: `sudo make install`
+- Install 
+    ```bash
+    sudo make install
+    ```
 ## 5. Run:
 - Running `kmscube` should show a rainbow cube rotating.
 - Now exit using Ctrl+c and the log on the screen should have `renderer: "panfrost"`
