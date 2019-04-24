@@ -79,7 +79,9 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     sudo make install
     ```
 - More Dependencies
-    - `sudo pip3 install meson ninja`
+    ```bash
+    sudo pip3 install meson ninja
+    ```
     
 > Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
 
@@ -116,7 +118,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     - Navigate to to Drivers -> Graphics
     - Enable Panfrost
     - Save and exit
-- Build: `make -j6`
+- Build: 
+    ```bash
+    make -j6
+    ```
 - Brew some coffee.
 - Install
 
@@ -126,7 +131,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     sudo cp arch/arm64/boot/dts/rockchip/rk3399-rock960.dtb /boot/
     ```
 
-- Edit extlinux conf: `vi /boot/extlinux/extlinux.conf`
+- Edit extlinux conf: 
+    ```bash
+    vi /boot/extlinux/extlinux.conf
+    ```
 - Change the contents to:
 
     ```
@@ -146,7 +154,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install: `sudo make install`
+- Install: 
+    ```bash
+    sudo make install
+    ```
 
 ### Mesa
 - Compile:
@@ -156,8 +167,10 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ninja -C build/
     ```
 - Drink the coffee you brewed earlier
-- Install: `sudo ninja -C build/ install`
-    
+- Install: 
+    ```bash
+    sudo ninja -C build/ install
+    ```
 ### kmscube
 - Compile:
     ```shell
