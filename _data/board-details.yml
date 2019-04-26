@@ -131,6 +131,82 @@
         value:  54mm
       - title: "length"
         value:  85mm 
+- id: /product/avenger96/
+  dateAdded: 2019-04-24 09:00:00+00:00
+  vendor:
+    name: Arrow Electronics
+    url: https://www.arrow.com/en/campaigns/avengers
+  attributes:
+    - name: "SoC"
+      value: >-
+        STM32MP157AAC
+    - name: "CPU"
+      value: >
+        2x ARM®Cortex-A7 up to 650 MHz 
+        1x ARM®Cortex-M4 up to 200 MHz
+    - name: "GPU"
+      value: 1x 3D GPU Vivante® @ 533 MHz -OpenGL® ES 2.0
+    - name: "RAM"
+      value: 1024 Mbyte @ 533MHz
+    - name: "Wireless"
+      value: >-
+        WiFi -  5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac 
+        Bluetooth®v4.2 (BR/EDR/BLE) 
+        PCB Antenna
+    - name: "Storage"
+      value: >
+        "eMMC v4.51: 8 Gbyte 
+        QSPI: 2Mbyte 
+        EEPROM: 128 byte 
+        microSD Socket: UHS-1 v3.01"
+    - name: "Ethernet"
+      value: 10/100/1000 Mbit/s, IEEE 802.3 Compliant
+    - name: "USB"
+      value: >-
+        	"Host: 2x type A, 2.0 high-speed 
+          OTG: 1x type micro-AB, 2.0 high-speed"
+    - name: "Display"
+      value: "HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4"
+    - name: "Video"
+      value: >-
+        ""
+    - name: "Audio"
+      value: >-
+        Over HDMI
+    - name: "Camera"
+      value: ""
+    - name: "Expansion Interface"
+      value:	>-
+        "96Boards Compliant: 
+        40-Pin Low Speed Header 
+        60-Pin High Speed Header"
+    - name: "LED"
+      value: >-
+        "4 x green user controlled LEDs 
+        1 x blue Bluetooth enabled 
+        1 x yellow WiFi enabled 
+        1 x red power supply okay"
+    - name: "Buttons"
+      value: >-
+        Power and Reset
+    - name: "Power"
+      value: >
+        "DC Power Jack: 1.65mm Center Positive 
+        8v - 18v upto 24W"
+    - name: "OS Support"
+      values: 
+        - title: "U-Boot version: U-Boot 2018.09-stm32mp-r2 "
+        - title: "Linux version: Linux stm32mp1-av96 4.14.48"
+        - title: "Linux Distribution: ST OpenSTLinux Weston (A Yocto Project Based Distro)"
+    - name: "Dimensions"
+      values:
+      - title: "width"
+        value:  100mm
+      - title: "length"
+        value:  85mm 
+    - name: "Other"
+      value: >
+        PMIC - STPMIC1A
 - id: /product/dragonboard410c/
   dateAdded: 2017-06-26 09:00:00+00:00
   vendor:
