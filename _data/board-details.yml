@@ -163,8 +163,8 @@
       value: 10/100/1000 Mbit/s, IEEE 802.3 Compliant
     - name: "USB"
       value: >-
-        	"Host: 2x type A, 2.0 high-speed 
-          OTG: 1x type micro-AB, 2.0 high-speed"
+        "Host: 2x type A, 2.0 high-speed 
+        OTG: 1x type micro-AB, 2.0 high-speed"
     - name: "Display"
       value: "HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4"
     - name: "Video"
