@@ -5822,8 +5822,8 @@
                 attrB       = self.getAttributeValue(b, command.attribute);
 
             if (isNaN(attrA * 1) || isNaN(attrB * 1)) {
-                attrA = attrA.toLowerCase();
-                attrB = attrB.toLowerCase();
+                attrA = attrA.toString().toLowerCase();
+                attrB = attrB.toString().toLowerCase();
             } else {
                 attrA = attrA * 1;
                 attrB = attrB * 1;
