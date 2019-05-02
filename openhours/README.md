@@ -25,18 +25,13 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Secure Firmware with David Brown of Linaro!**
+**QnA And Demos with the 96Boards Team | Episode 145**
 
-David Brown is a Senior Engineer at Linaro who has been working on ARM Linux since about 2007, as well as general Linux and other kernels for many years before that. He also enjoys learning and working with new programming languages. 
-
-With decades of experience, David is the perfect person to tackle the complex and technical topic that is "Secure Firmware". In this week's episode of OpenHours, we will get a general overview of trusted firmware, discuss the differences between Cortex A and M, and review both setups!
-
-- A setup: boot, TF-A, OP-TEE and Linux
-- M setup: mcuboot, TF-M, and work in progress
+This week the 96Boards team is open to a few rounds of QnAs, updates on what we've been up to and we'll throw in a few demos while we are at it.
 
 Of course, the call is open for anyone who would like to join us for a fun hour of tech talk and 96Boards! 
 
-Bring you coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
+Bring you burning questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
 ### What is 96Boards OpenHours?
 
