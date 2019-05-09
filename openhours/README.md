@@ -23,13 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA0MjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MDlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**QnA And Demos with the 96Boards Team | Episode 145**
+**Support channel review and resolving issues! | Episode 146**
 
-This week the 96Boards team is open to a few rounds of QnAs, updates on what we've been up to and we'll throw in a few demos while we are at it.
-
-Of course, the call is open for anyone who would like to join us for a fun hour of tech talk and 96Boards! 
+Let's dive into the forums, documentation and website repositories and review issues, maybe even fix a few? Tune in to see us work and fix some of the pressing requests in our various repos and forums. 
 
 Bring you burning questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
