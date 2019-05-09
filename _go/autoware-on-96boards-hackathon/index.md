@@ -1,16 +1,17 @@
 ---
-title: Join us at the Autoware on 96Boards Hackathon
+title: Autoware on 96Boards Hackathon
 permalink: /go/autoware-on-96boards-hackathon/
 description: >
     Hosted by 96Boards at Cranfield University - 28th, 29th and 30th May 2019.
 keywords: Autoware, AI, Hackathon, UK, 96Boards, Dragonboard 845, Hikey970, Machine Learning, TierIV
 layout: jumbotron-container
+image: /assets/images/content/hackathon-mexico.png
 jumbotron:
     image: /assets/images/content/hackaton-text-block.png
     title: ""
     description: ""
     background-image: /assets/images/content/hackaton-bg-image.jpg
-date: 2019-05-28 01:00:00+00:00
+date: 2019-05-09 01:00:00+00:00
 ---
 
 The Autoware Foundation is a non-profit organisation created by TierIV, 96Boards and Apex.AI to initiate, grow, and fund
@@ -56,20 +57,16 @@ of the hackathon we hope to have a distributed Autoware running on a number of 9
 Register below and come join the 96Boards team at Cranfield University:
 
 <div id="eventbrite-widget-container-61627013055"></div>
-
 <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
-
 <script type="text/javascript">
     var exampleCallback = function () {
         console.log('Order complete!');
     };
-
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
         eventId: '61627013055',
         iframeContainerId: 'eventbrite-widget-container-61627013055',
-
         // Optional
         iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed

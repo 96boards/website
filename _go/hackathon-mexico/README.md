@@ -2,8 +2,8 @@
 title: Tecnologico De Monterrey – Smart Cities Hackathon
 permalink: /go/hackathon-mexico/
 layout: container-breadcrumb
-image: /assets/images/content/india-initiative-bg.jpg
 date: 2017-02-24 01:00:00+00:00
+image: /assets/images/content/hackathon-mexico.png
 ---
 
 ### From February 24 - 26, 2017
