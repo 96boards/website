@@ -6,6 +6,8 @@ permalink: /go/2018-arrow-shiratech-hack/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
+image: /assets/images/content/autonomous-robot-challenge.png
+
 ---
 
 <div class="col-md-6" markdown="1">

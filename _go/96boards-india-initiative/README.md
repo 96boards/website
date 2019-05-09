@@ -2,6 +2,7 @@
 title: 96Boards India Initiative
 permalink: /go/96boards-india-initiative/
 layout: container-breadcrumb
+image: /assets/images/content/india-initiative-bg.jpg
 ---
 
 # 96Boards India Initiative
