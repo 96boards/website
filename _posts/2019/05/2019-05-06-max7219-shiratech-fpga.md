@@ -23,7 +23,7 @@ The MAX7219/MAX7221 are compact, serial input/output common-cathode display driv
 - Color : red
 - Dimension : 64.3 × 35.0 × 26.5mm
 
-# How to make it work with the Shiratech FFPGA Mezzanine
+# How to make it work with the Shiratech FPGA Mezzanine
 
 Since the HAT only requirers us to use SPI, and provided that the CS pin on the 96Boards base board is controlled by the SPI driver itself.
 All we need to do enable spi0 pass-through using `i2cset` command like: `sudo i2cset 0 0x6f 0x3a 0x00`
