@@ -9,7 +9,7 @@ jumbotron:
         Join us at the events 96Boards host's and attends.
     background-image: /assets/images/content/hackaton-bg-image.jpg
 ---
-{% assign go_events = site.go | sort: 'date' %}
+{% assign go_events = site.go | sort: 'date' | reverse %}
 {% for go_event in go_events %}
     <div class="col-xs-12 col-sm-4 col-lg-3">
         <a href="{{go_event.url}}">
