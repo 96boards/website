@@ -1,10 +1,9 @@
 ---
 title: 96boards Go Events
 permalink: /go/
-layout: container-breadcrumb
+layout: jumbotron-container
 ---
-# 96boards Go Pages
-
+- [Autoware on 96Boards Hackaton - Cranfield University](/go/autoware-on-96boards-hackathon/)
 - [Women in STEM - 2018](/go/wistem-2018/)
 - [Go Hackathon Mexico](/go/hackathon-mexico/)
 - [Go Hackathon India Summer 2017](/go/hackathon-indiasummer2017/)
