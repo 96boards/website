@@ -7,6 +7,7 @@ layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
 image: /assets/images/content/autonomous-robot-challenge.png
+date: 2018-10-30 01:00:00+00:00
 ---
 
 <div class="col-md-6" markdown="1">

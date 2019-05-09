@@ -6,6 +6,7 @@ permalink: /go/2019-arrow-campaign/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
+date: 2019-01-29 01:00:00+00:00
 ---
 
 <div class="col-md-6" markdown="1">

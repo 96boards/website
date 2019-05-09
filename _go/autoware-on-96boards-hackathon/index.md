@@ -10,6 +10,7 @@ jumbotron:
     title: ""
     description: ""
     background-image: /assets/images/content/hackaton-bg-image.jpg
+date: 2019-05-28 01:00:00+00:00
 ---
 
 The Autoware Foundation is a non-profit organisation created by TierIV, 96Boards and Apex.AI to initiate, grow, and fund

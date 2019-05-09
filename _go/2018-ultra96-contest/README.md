@@ -6,6 +6,7 @@ permalink: /go/2018-ultra96-contest/
 layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
+date: 2018-11-29 01:00:00+00:00
 ---
 
 <div class="col-md-6" markdown="1">
