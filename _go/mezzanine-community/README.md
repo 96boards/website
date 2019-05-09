@@ -4,6 +4,7 @@ description: An intro to the 96Boards Mezzanine Community
 permalink: /go/mezzanine-community/
 layout: container-breadcrumb
 date: 2016-01-01 01:00:00+00:00
+image: /assets/images/content/mezzanine-community-bg.png
 ---
 # By the Community, For the Community
 

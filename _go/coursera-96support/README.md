@@ -5,6 +5,7 @@ description: |-
 permalink: /go/coursera-96support/
 layout: container-breadcrumb
 date: 2016-01-29 01:00:00+00:00
+image: /assets/images/content/coursera-bg.jpg
 ---
 
 ## Coursera - 96Boards Support page
