@@ -59,10 +59,8 @@ pages:
       options:
           - text: OpenHours
             url: /openhours/
-          - text: Mezzanine Community
-            url: /go/mezzanine-community/
-          - text: Women in STEM
-            url: /go/wistem-2018/
+          - text: Go Events
+            url: /go/
           - text: 96Boards Pinout
             url: /pinout/
     - title: Documentation
