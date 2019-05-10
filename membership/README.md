@@ -25,7 +25,7 @@ jumbotron:
                     <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4" type="video/mp4">
                 </video> -->
                 <div class="embed-responsive embed-responsive-16by9" >
-                    <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/4Qu2QI0ISBo"></iframe>
+                    <iframe class="embed-responsive-item"  frameborder="0" allowfullscreen src="https://www.youtube.com/embed/4Qu2QI0ISBo"></iframe>
                 </div>
             </div>
             <div class="col-xs-12 no-padding testimonial-col text-center">
@@ -40,7 +40,7 @@ jumbotron:
                     <source src="https://static.linaro.org/videos/JonMastersTestimonial.mp4" type="video/mp4">
                 </video> -->
                 <div class="embed-responsive embed-responsive-16by9" >
-                    <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/_GpE0P37Res"></iframe>
+                    <iframe class="embed-responsive-item" frameborder="0" allowfullscreen  src="https://www.youtube.com/embed/_GpE0P37Res"></iframe>
                 </div>
             </div>
             <div class="col-xs-12 no-padding testimonial-col text-center">
