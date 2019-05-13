@@ -15,7 +15,7 @@ tab_menu:
       active: true
       tab_link: /product/ultra96/ai/
     - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/getting-started/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
     - tab_title: Documentation
       tab_link: /documentation/consumer/ultra96/
     - tab_title: Support
