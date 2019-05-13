@@ -40,7 +40,7 @@ product_images:
   - 4iot-back-sd.jpg
 product_buy_links:
   -
-    link-title: "4-IoT Developer Board"
+    link-title: "4-IoT (Arrow)"
     link-price: $92.72
     link-url: https://www.arrow.com/en/products/developerboard4-iot/geniatech-inc
 product_os:
@@ -55,10 +55,6 @@ processing power, WLAN, Bluetooth, and GPS, all packed into a board the size of 
 It is designed to support feature-rich functionality, including multimedia,
 with the Adreno™ 306 GPU, integrated ISP with up to 13 MP camera support,
 and 1080p HD video playback and capture with H.264 (AVC).
-
-## Buy Now
-
-Coming soon...
 
 ***
 
