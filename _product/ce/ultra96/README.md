@@ -33,14 +33,14 @@ tab_menu:
     - tab_title: AI
       tab_link: /product/ultra96/ai/
     - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/getting-started/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
     - tab_title: Documentation
-      tab_link: /documentation/consumer/ultra96/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/ultra96/
       tab_align_right: true
-product_getting_started: /documentation/consumer/ultra96/getting-started/
-product_documentation_link: /documentation/consumer/ultra96/
+product_getting_started: /documentation/consumer/ultra96/ultra96-v2/getting-started/
+product_documentation_link: /documentation/consumer/ultra96/ultra96-v2/
 product_buy_links:
   -
     link-title: Ultra96-v2 Developer Board (Pre-Order)
@@ -51,7 +51,7 @@ product_buy_links:
     link-price-currency: USD
 product_os:
   - title: Linux
-    link: /documentation/consumer/ultra96/downloads/
+    link: /documentation/consumer/ultra96/ultra96-v2/downloads/
   - title: Xilinx PYNQ
     link: http://www.pynq.io/board.html
 product_third_party_images:
@@ -68,9 +68,9 @@ product_previous_version:
       - title: View on Avnet
         link: https://linaro.co/ultra96-vendor-avnet
       - title: v1 Documentation
-        link: /documentation/consumer/ultra96/
+        link: /documentation/consumer/ultra96/ultra96-v1/
       - title: v1 Downloads
-        link: /documentation/consumer/ultra96/downloads/
+        link: /documentation/consumer/ultra96/ultra96-v1/downloads/
 product_accessories:
   - title: Power
     link: /product/power/
@@ -95,9 +95,9 @@ product_mezzanine:
     link: /products/mezzanine/
 product_kits:
   - title: Delta Camera Kit
-    link: /documentation/consumer/ultra96/kits/delta-camera.md.html
+    link: /documentation/consumer/ultra96/ultra96-v2/kits/delta-camera.md.html
   - title: More...
-    link: /documentation/consumer/ultra96/kits/
+    link: /documentation/consumer/ultra96/ultra96-v2/kits/
 product: true
 archived: false
 ---
