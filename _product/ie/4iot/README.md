@@ -40,7 +40,9 @@ product_images:
   - 4iot-back-sd.jpg
 product_buy_links:
   -
-    link-title: "Coming soon..."
+    link-title: "4-IoT Developer Board"
+    link-price: $92.72
+    link-url: https://www.arrow.com/en/products/developerboard4-iot/geniatech-inc
 product_os:
   - title: Explore
     link: /documentation/iot/4iot/downloads/
