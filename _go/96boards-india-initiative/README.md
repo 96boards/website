@@ -47,7 +47,7 @@ Following resources are useful for developing IE boards.
 * [Zephyr Developer Guide](http://docs.zephyrproject.org/contribute/contribute_guidelines.html)
 * [Zephyr API Guide](http://docs.zephyrproject.org/api/api.html)
 * Zephyr Porting Guide](https://docs.zephyrproject.org/latest/porting/)
-* [Zephyr Device Driver model](http://docs.zephyrproject.org/devices/drivers/drivers.html)
+* [Zephyr Device Driver model](http://docs.zephyrproject.org/)
 * [Device Tree Usage in Zephyr](http://docs.zephyrproject.org/devices/drivers/drivers.html)
 * [Zephyr Application Development Primer](http://docs.zephyrproject.org/application/application.html)
 
