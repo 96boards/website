@@ -112,7 +112,7 @@ $ make
 ```
 
 Once the application is successfully built, flash the binary onto the
-nRF chip by following this [guide](http://docs.zephyrproject.org/boards/arm/96b_carbon_nrf51/doc/96b_carbon_nrf51.html#programming-and-debugging).
+nRF chip by following this [guide](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html).
 Now, this chip can provide HCI interface to STM32 via SPI.
 
 > Note: You need to execute this section for all Carbon boards to be used as nodes.
@@ -134,7 +134,7 @@ $ cmake -DBOARD=96b_carbon ..
 $ make
 ```
 
-Now, the built binary can be flashed by following this [guide](http://docs.zephyrproject.org/boards/arm/96b_carbon/doc/96b_carbon.html#programming-and-debugging).
+Now, the built binary can be flashed by following this [guide](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html).
 Once the application binary is flashed, connect the UART port of Carbon
 board to the Host machine using USB-A to USB-B Micro cable and bring up
 the serial emulation tool like minicom on the corresponding port.

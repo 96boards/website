@@ -38,7 +38,7 @@ In a nutshell, the configuration of Zephyr happens in below order:
 3. Common devicetree overlays
 4. Device specific devicetree overlays
 
-More information about Kconfig's structure can be found in [Zephyr docs](https://docs.zephyrproject.org/1.3.0/reference/kbuild/kbuild_kconfig.html).
+More information about Kconfig's structure can be found in [Zephyr docs](https://docs.zephyrproject.org/latest/).
 
 # Default Board Configuration Guidelines
 
@@ -58,7 +58,7 @@ interface and has a prompt.
 ## Kconfig.board
 
 This Kconfig option provides board name and the SoC it depends on. For instance,
-below is the `Kconfig.board` content of [96Boards Carbon](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/96b_carbon.html) board.
+below is the `Kconfig.board` content of [96Boards Carbon](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html) board.
 
 ```shell
 # Kconfig - 96boards Carbon STMF401RE board configuration
@@ -84,7 +84,7 @@ to initialize and expose only available interfaces on the board. This will
 be a huge performance factor for an RTOS like Zephyr since exposing all
 unavailable interfaces will waste memory and time.
 
-That's why Zephyr has provided the [default board configuration guidelines](https://docs.zephyrproject.org/latest/porting/board_porting.html#default-board-configuration)
+That's why Zephyr has provided the [default board configuration guidelines](https://docs.zephyrproject.org/latest/)
 for all boards and it makes much sense to adapt to it.
 
 # Adopting 96Boards to Guidelines
@@ -96,11 +96,11 @@ sub-issues were created for tracking the individual board family work. For
 was created and assigned to me at Linaro Connect YVR18 by Erwan. This issue
 requires us to adopt the following supported 96Boards:
 
-1. [96Boards Argonkey](https://docs.zephyrproject.org/latest/boards/arm/96b_argonkey/doc/96b_argonkey.html)
-2. [96Boards Carbon](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/96b_carbon.html)
-3. [96Boards Carbon nRF51](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon_nrf51/doc/96b_carbon_nrf51.html)
-4. [96Boards Neonkey](https://docs.zephyrproject.org/latest/boards/arm/96b_neonkey/doc/96b_neonkey.html)
-5. [96Boards Nitrogen](https://docs.zephyrproject.org/latest/boards/arm/96b_nitrogen/doc/96b_nitrogen.html)
+1. [96Boards Argonkey](https://docs.zephyrproject.org/latest/boards/arm/96b_argonkey/doc/index.html)
+2. [96Boards Carbon](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html)
+3. [96Boards Carbon nRF51](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon_nrf51/doc/index.html)
+4. [96Boards Neonkey](https://docs.zephyrproject.org/latest/boards/arm/96b_neonkey/doc/index.html)
+5. [96Boards Nitrogen](https://docs.zephyrproject.org/latest/boards/arm/96b_nitrogen/doc/index.html)
 
 So I submitted a [Pull Request](https://github.com/zephyrproject-rtos/zephyr/pull/10367)
 to Zephyr GitHub repository and it got accepted after the review. There isn't
