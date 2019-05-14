@@ -23,13 +23,17 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MDlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MTZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Support channel review and resolving issues! | Episode 146**
+**Alex Martin joins us for OpenHours, Episode 147. [Experience Daliona](https://www.instagram.com/experiencedaliona/), Sidewalk Science Centers and science-fiction novels! Don't Miss it!**
 
-Let's dive into the forums, documentation and website repositories and review issues, maybe even fix a few? Tune in to see us work and fix some of the pressing requests in our various repos and forums. 
+**NOTE: This episode of OpenHours will be offset by 2 hours! Instead of our usual 4:00p UTC, we will be going live at 6:00p UTC instead.**
 
-Bring you burning questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
+[Alex Martin](https://www.instagram.com/thescalex.of.science/) is the author of six futuristic science-fiction novels and the founder of Experience Daliona, LLC. The company's flagship program, Sidewalk Science Center, provides free science outreach in public parks virtually every weekend.
+
+In today's episode, Alex will provide an update on the opportunities Experience Daliona and Sidewalk Science Center have recently received, we will explore the impact these programs have had on local communities, and discuss current and future endeavors! 
+
+Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
 ### What is 96Boards OpenHours?
 
