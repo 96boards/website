@@ -83,7 +83,7 @@ $(document).ready(function(){
 $(document).ajaxStop(function () {
     if ($("#boards-news").length > 0) {
         var sorted_data = related_posts.sort(sort_by_date);
-        addLatestNews("#boards-new", sorted_data, 10);
+        addLatestNews("#boards-news", sorted_data, 10);
     }
     if ($("#boards-news-blog").length > 0) {
         var sorted_data = related_posts.sort(sort_by_date);
