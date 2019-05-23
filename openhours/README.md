@@ -25,13 +25,17 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MTZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Alex Martin joins us for OpenHours, Episode 147. [Experience Daliona](https://www.instagram.com/experiencedaliona/), Sidewalk Science Centers and science-fiction novels! Don't Miss it!**
+**WizeIoT Presets the Aiva96 Mezzanine, Episode 148. [Aiva96](https://www.96boards.org/product/aiva-96/), Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.**
 
-**NOTE: This episode of OpenHours will be offset by 2 hours! Instead of our usual 4:00p UTC, we will be going live at 6:00p UTC instead.**
+[WizeIoT](https://wizeiot.com) provides industry focused white-label solution to the enterprise customers.
 
-[Alex Martin](https://www.instagram.com/thescalex.of.science/) is the author of six futuristic science-fiction novels and the founder of Experience Daliona, LLC. The company's flagship program, Sidewalk Science Center, provides free science outreach in public parks virtually every weekend.
+They build IoT platforms with custom hardware design, custom software for device & systems with consulting and support.
 
-In today's episode, Alex will provide an update on the opportunities Experience Daliona and Sidewalk Science Center have recently received, we will explore the impact these programs have had on local communities, and discuss current and future endeavors! 
+WizeIoT AiVA-96 mezzanine board for DragonBoard 410c and 96Boards enables developers of the smart home devices such as smart panels, kitchen equipment and other commercial and industrial electronics products to evaluate and prototype far-field hands-free voice interface using Amazon Alexa, Google Assistant, Microsoft Cortana, IBM Watson voice service. 
+
+Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.
+
+Also, cool Demos on the menu !!!
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
