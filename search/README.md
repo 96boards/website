@@ -2,8 +2,6 @@
 title: Search
 permalink: "/search/"
 layout: container
-js-package: search
-css-package: search
 ---
 <script>
   (function() {
