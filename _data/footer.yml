@@ -1,91 +1,45 @@
-# include: members.html
-footer-image: /assets/images/Linaro-Sprinkle.png
-footer-image-url: /
-company-copyright-text: Linaro Limited
-columns:
-    - title: About
-      url: /about/
-      items:
-        - text: Specifications
-          url : /specifications/
-        - text: Latest News
-          url : /news/
-        - text: Press Info
-          url : /press/
-        - text: Membership
-          url : /membership/
-        - text: Compliance
-          url : /compliance/
-        - text: Careers
-          url : https://www.linaro.org/careers/
-    - title: Products
-      url: /products/
-      items:
-        - text: Consumer Edition
-          url : /products/ce/
-        - text: Enterprise Edition
-          url : /products/ee/
-        - text: IoT Edition
-          url : /products/ie/
-        - text: Mezzanine Products
-          url : /products/mezzanine/
-        - text: Accessories
-          url : /products/accessories/
-        - text: Compare Products
-          url : /products/compare/
-    - title: Documentation
-      url: /documentation/
-      items:
-        - text: Guides
-          url : /documentation/guides/
-        - text: Consumer Edition Docs
-          url : /documentation/consumer/
-        - text: Enterprise Edition Docs
-          url : /documentation/enterprise/
-        - text: IoT Edition Docs
-          url : /documentation/iot/
-        - text: Mezzanine Edition Docs
-          url : /documentation/mezzanine/
-        - text: Specification Docs
-          url : /documentation/Specifications/
-        - text: Contribution Policy
-          url : /documentation/CONTRIBUTE.md.html
-    - title: Specifications
-      url: /specifications/
-      items:
-        - text: Consumer Edition (CE)
-          url : https://linaro.co/ce-specification
-        - text: Enterprise Edition (EE)
-          url : https://linaro.co/ee-specification
-        - text: IoT Edition (IE)
-          url : https://linaro.co/ie-specification
-        - text: SoM Edition (Compute)
-          url : https://linaro.co/som-spec
-        - text: SoM Edition (Wireless)
-          url : https://linaro.co/som-w-spec
-    - title: Support
-      url: https://discuss.96boards.org/
-      items:
-        - text: Hikey 960
-          url : https://discuss.96boards.org/c/products/hikey960
-        - text: DragonBoard410c
-          url : https://discuss.96boards.org/c/products/dragonboard410c
-        - text: MediaTek-X20
-          url : https://discuss.96boards.org/c/products/mediatek-x20
-        - text: Bubblegum-96
-          url : https://discuss.96boards.org/c/products/bubblegum96
-        - text: Carbon
-          url : https://discuss.96boards.org/c/products/carbon
-        - text: Poplar
-          url : https://discuss.96boards.org/c/products/poplar
-        - text: Mezzanine Support
-          url : https://discuss.96boards.org/c/products/mezzanine
-        - text: Join our Slack!
-          url : http://link.linaro.org/96Boards-slack
-companylinks:
+# Copyright text to be displayed at the very bottom of the footer
+copyright-text: Linaro Limited
+# Set this to false if you do not want the Linaro logo in the footer.
+linaro-branding: true
+# Social Media Icons Row
+social-media-icons: true
+# Display the contact details section
+display-contact-details: true
+# These links are displayed at the very bottom of the footer.
+company-links:
     - name: Legal
       url: /legal/
     - name: Contact
       url: /contact/
     - name: Press
       url: /press/
+second-column:
+    title: Latest News & Blogs
+    latest-posts: true
+    # Optionally display another list of items
+    # items:
+    #   - name: 96Boards
+    #     url: https://www.96boards.org
+    #   - name: Linaro Connect
+    #     url: https://connect.linaro.org
+    #   - name: DeviceTree
+    #     url: https://www.devicetree.org
+    #   - name: OP-TEE
+    #     url: https://www.op-tee.org
+    #   - name: Linaro Developer Cloud
+    #     url: https://www.linaro.cloud
+# Custom Col on the right
+third-column:
+    title: Other Projects
+    items:
+      - name: 96Boards
+        url: https://www.96boards.org
+      - name: Linaro Connect
+        url: https://connect.linaro.org
+      - name: DeviceTree
+        url: https://www.devicetree.org
+      - name: OP-TEE
+        url: https://www.op-tee.org
+      - name: Linaro Developer Cloud
+        url: https://www.linaro.cloud
