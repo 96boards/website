@@ -8,7 +8,6 @@
 //= require app/main
 //= require app/fly
 //= require app/sticky-tab-bar
-//= require app/home
 //= require app/home-custom
 //= require app/tables
 //= require app/custom
