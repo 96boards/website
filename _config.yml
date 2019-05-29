@@ -262,3 +262,5 @@ relative_links:
 readme_index:
   enabled:          true
   remove_originals: false
+# Include the _pages source directory
+include: ['_pages']
