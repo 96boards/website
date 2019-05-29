@@ -4,7 +4,7 @@ layout: product-display-page
 permalink: /product/ultra96/
 shortname: ultra96
 description: |-
-    Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
+    The Ultra96-V2 updates and refreshes the Ultra96 product that was released in 2018. Like Ultra96, the Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification. Ultra96-V2 will be available in more countries around the world as it has been designed with a certified radio module from Microchip. Additionally, all components are updated to allow industrial temperature grade options. Additional power control and monitoring will be possible with the included Infineon Pmics.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
 product_short_desc: "Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board"
@@ -33,32 +33,25 @@ tab_menu:
     - tab_title: AI
       tab_link: /product/ultra96/ai/
     - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/getting-started/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
     - tab_title: Documentation
-      tab_link: /documentation/consumer/ultra96/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/ultra96/
       tab_align_right: true
-product_getting_started: /documentation/consumer/ultra96/getting-started/
-product_documentation_link: /documentation/consumer/ultra96/
+product_getting_started: /documentation/consumer/ultra96/ultra96-v2/getting-started/
+product_documentation_link: /documentation/consumer/ultra96/ultra96-v2/
 product_buy_links:
   -
-    link-title: Ultra96 Developer Board (US)
-    link-url: https://linaro.co/ultra96-buy
+    link-title: Ultra96-v2 Developer Board (Pre-Order)
+    link-url: http://avnet.me/NewUltra96V2
     from: Avnet.com
     type: board
     link-price: "$249.00"
     link-price-currency: USD
-  -
-    link-title: Ultra96 Developer Board (CN)
-    link-url: https://cn.element14.com/search?st=ultra96
-    from: element14.com
-    type: board
-    link-price: "2510.00"
-    link-price-currency: CNY
 product_os:
   - title: Linux
-    link: /documentation/consumer/ultra96/downloads/
+    link: /documentation/consumer/ultra96/ultra96-v2/downloads/
   - title: Xilinx PYNQ
     link: http://www.pynq.io/board.html
 product_third_party_images:
@@ -69,9 +62,15 @@ product_third_party_images:
 product_more_info:
   - title: Avnet Zedboard
     link: http://zedboard.org/product/ultra96
-product_Ultra96_v1:
-    - title: Avnet
-      link: https://linaro.co/ultra96-vendor-avnet
+product_previous_version:
+    version: Ultra96 v1
+    links:
+      - title: View on Avnet
+        link: https://linaro.co/ultra96-vendor-avnet
+      - title: v1 Documentation
+        link: /documentation/consumer/ultra96/ultra96-v1/
+      - title: v1 Downloads
+        link: /documentation/consumer/ultra96/ultra96-v1/downloads/
 product_accessories:
   - title: Power
     link: /product/power/
@@ -96,14 +95,16 @@ product_mezzanine:
     link: /products/mezzanine/
 product_kits:
   - title: Delta Camera Kit
-    link: /documentation/consumer/ultra96/kits/delta-camera.md.html
+    link: /documentation/consumer/ultra96/ultra96-v2/kits/delta-camera.md.html
   - title: More...
-    link: /documentation/consumer/ultra96/kits/
+    link: /documentation/consumer/ultra96/ultra96-v2/kits/
 product: true
 archived: false
 ---
-Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based on the Linaro 96Boards Consumer Edition specification. This board boots from the provided Delkin 16 GB microSD card, pre-loaded with Linux.
+The Ultra96-V2 updates and refreshes the Ultra96 product that was released in 2018. Like Ultra96, the Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification. Ultra96-V2 will be available in more countries around the world as it has been designed with a certified radio module from Microchip. Additionally, all components are updated to allow industrial temperature grade options. Additional power control and monitoring will be possible with the included Infineon Pmics.
 
+
+Like Ultra96 (v1 legacy content in side bar), the Ultra96-V2 boots from the provided Delkin 16 GB microSD card. Engineers have options of connecting to Ultra96-V2 through a Webserver using integrated wireless access point capability or to use the provided PetaLinux desktop environment which can be viewed on the integrated Mini DisplayPort video output. Multiple application examples and on-board development options are provided as examples.
 ***
 
 ## Additional Information
@@ -111,7 +112,7 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  SoC                 | Xilinx Zynq UltraScale+ MPSoC ZU3EG A484                                                         |
-|  RAM                 | Micron LPDDR4 memory provides 2 GB of RAM in a 512M x 32 configuration                           |
+|  RAM                 | Micron 2 GB (512M x32) LPDDR4 Memory                                                             |
 |  Storage             | Delkin 16 GB microSD card + adapter                                                              |
 |  Wireless            | 802.11b/g/n Wi-Fi and Bluetooth 4.2 (provides both Bluetooth Classic and Low Energy (BLE))       |
 |  USB                 | 1x USB 3.0 Type Micro-B upstream port<br>2x USB 3.0, 1x USB 2.0 Type A downstream ports          |
@@ -119,5 +120,5 @@ Ultra96 is an Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based o
 |  Expansion Interface | 40-pin 96Boards Low-speed expansion header<br>60-pin 96Boards High speed expansion header        |
 |  LED                 | 4 x user-controllable LEDs                                                                       |
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
-|  OS Support          | Linux                                                                                        |
+|  OS Support          | Linux                                                                                            |
 |  Size                | 85mm x 54mm                                                                                      |

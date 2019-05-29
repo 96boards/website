@@ -67,7 +67,6 @@ blog:
     comments: true
     # Post Side Bar Settings
     sidebar:
-        custom-include: blog-sidebar-include.html
         # Toggle whether or not thumbnails in the sidebar are displayed.
         thumbnails:
             display: true

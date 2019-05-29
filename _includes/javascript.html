@@ -5,7 +5,7 @@
     {% capture js-package %}package-{{layout.js-package}}{% endcapture %}
     <script type="text/javascript" src="{% asset_path {{js-package}}  %}"></script>
 {% else %}
-    <script type="text/javascript" src="{% asset_path package  %}"></script>
+    <script type="text/javascript" src="{% asset_path package-main  %}"></script>
 {% endif %}
 {% if page.permalink == "/go/wistem-2018/" %}
 <script type="text/javascript"> _linkedin_data_partner_id = "330252"; </script>

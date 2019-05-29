@@ -29,7 +29,6 @@ function extractDateString(dateString) {
 var related_posts = [];
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestNews(selector, results_data, number_of_items) {
-    console.log(results_data);
     var listItems = '';
     for (var i = 0; i < number_of_items; i++) {
         post = results_data[i];
@@ -43,7 +42,7 @@ function addLatestNews(selector, results_data, number_of_items) {
 function checkArrayForKeyword(array, keyword){
     for(i=0;i<array.length;i++){
         var search_item = array[i].toLowerCase();
-        console.log(keyword + " vs " + search_item);
+        // console.log(keyword + " vs " + search_item);
         if (search_item.indexOf(keyword) !== -1){
             return true;
         }
@@ -59,9 +58,8 @@ $(document).ready(function(){
             complete: function (jsonResponse) {
                 jsonData = JSON.parse(jsonResponse.responseText);
                 // Find the corresponding key in the JSON data 
-                console.log(jsonData);
+                // console.log(jsonData);
                 $.each(jsonData, function (idx, obj) {
-                    console.log(obj);
                     var post_tags = obj.tags;
                     var post_title = obj.title.toLowerCase();
                     var in_keywords = checkArrayForKeyword(obj, "96boards");
@@ -83,7 +81,7 @@ $(document).ready(function(){
 $(document).ajaxStop(function () {
     if ($("#boards-news").length > 0) {
         var sorted_data = related_posts.sort(sort_by_date);
-        addLatestNews("#boards-new", sorted_data, 10);
+        addLatestNews("#boards-news", sorted_data, 10);
     }
     if ($("#boards-news-blog").length > 0) {
         var sorted_data = related_posts.sort(sort_by_date);

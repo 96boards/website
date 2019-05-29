@@ -5,3 +5,4 @@ node_modules/*
 _site
 _documentation
 build.sh
+.jekyll-metadata

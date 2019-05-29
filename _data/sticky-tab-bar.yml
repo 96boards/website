@@ -121,7 +121,7 @@ pages:
       - title: AI
         url: /product/ultra96/ai/
       - title: Getting Started
-        url: /documentation/consumer/ultra96/getting-started/
+        url: /documentation/consumer/ultra96/ultra96-v2/getting-started/
       - title: Documentation
         url: /documentation/consumer/ultra96/
         sub-pages: true

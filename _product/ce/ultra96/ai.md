@@ -15,7 +15,7 @@ tab_menu:
       active: true
       tab_link: /product/ultra96/ai/
     - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/getting-started/
+      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
     - tab_title: Documentation
       tab_link: /documentation/consumer/ultra96/
     - tab_title: Support
@@ -61,11 +61,11 @@ demos:
       url: https://www.hackster.io/karl-nl/binary-neural-network-demonstration-on-ultra96-6b48e0
 documentation:
     - title: Hardware user guide
-      url: https://www.96boards.org/documentation/consumer/ultra96/hardware-docs/hw-user-manual.md.html
+      url: https://www.96boards.org/documentation/consumer/ultra96/ultra96-v1/hardware-docs/hw-user-manual.md.html
     - title: Board schematics
-      url: https://www.96boards.org/documentation/consumer/ultra96/hardware-docs/files/ultra96-schematics.pdf
+      url: https://www.96boards.org/documentation/consumer/ultra96/ultra96-v1/hardware-docs/files/ultra96-schematics.pdf
     - title: Bill of materials
-      url: https://www.96boards.org/documentation/consumer/ultra96/hardware-docs/files/ultra96-bom.pdf
+      url: https://www.96boards.org/documentation/consumer/ultra96/ultra96-v1/hardware-docs/files/ultra96-bom.pdf
 whats-in-the-box:
     - Ultra96 board
     - 16 GB microSD card

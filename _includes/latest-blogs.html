@@ -1,0 +1,205 @@
+<div class="row content padded-row-30" id="latest-blogs-row">
+    <div class="container">
+        <h2>Latest Blogs & News</h2>
+        <div id="latest-blogs" class="hidden-xs">
+            <div class="row">
+                {% for post in site.posts limit:4 %}
+                    {% assign timeframe = 604800 %}
+                    {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+                    {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+                {% assign author = site.authors | where: "username", post.author | first %}
+                    <div class="col-sm-3 blog-post">
+                        <div class="row image">
+                            <a href="{{post.url}}">
+                            {% if post.image.thumb %}
+                                {% capture image_path %}{{site.blog_images_dir}}thumbs/{{post.image.thumb}}{% endcapture %}
+                                {% capture full_path %}/{{site.blog_images_dir}}thumbs/{{post.image.thumb}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% elsif post.image.name %}
+                                {% capture image_path %}{{site.blog_images_dir}}{{post.image.name}}{% endcapture %}
+                                {% capture full_path %}/{{site.blog_images_dir}}{{post.image.name}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% elsif post.image.path %}
+                                {% capture image_path %}{{post.image.path | remove_first: "/"}}{% endcapture %}
+                                {% capture full_path %}{{post.image.path}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% else %}
+                                {% capture image_path %}{{site.data.settings.placeholder | remove_first: '/'}}{% endcapture %}
+                                {% capture full_path %}{{site.data.settings.placeholder}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% endif %}
+                            </a>
+                        </div>
+                        <div class="row title">
+                            <div class="col-xs-12">
+                                <a href="{{post.url}}">
+                                    <h3 class="blog-featured-title">{{post.title}}</h3>
+                                    <p>
+                                        {{ post.content | strip_html | truncatewords:30 }}
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row author">
+                            <div class="col-xs-3 author-image">
+                                <div class="home-author-image" style="background-image: url('{% if author.image %}
+                        {% asset_path '{{author.image.name}}' %}
+                    {% else %}
+                        {% asset_path 'avatar-placeholder.png' %}
+                    {% endif %}')"></div>
+                            </div>
+                            <div class="col-xs-9">
+                                <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
+                                {% if post.date %}
+                                <span class="date">
+                                    {{post.date |  date: "%B %-d, %Y"}}
+                                </span>
+                                {% endif %}
+                                {% if post_in_seconds > recent_posts %}
+                                    <span class="new-post" title="Post added in the last week.">New</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">  
+            {% for post in site.posts limit:4 %}
+                {% assign timeframe = 604800 %}
+                {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+                {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+            {% assign author = site.authors | where: "username", post.author | first %}
+            <div class="owl-item__inner">
+                <div class="col-xs-12 no-padding visible-xs">
+                <div class="col-xs-12 no-padding blog-post">
+                    <div class="row image">
+                        <a href="{{post.url}}">
+                            {% if post.image.thumb %}
+                                {% capture image_path %}{{site.blog_images_dir}}thumbs/{{post.image.thumb}}{% endcapture %}
+                                {% capture full_path %}/{{site.blog_images_dir}}thumbs/{{post.image.thumb}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% elsif post.image.name %}
+                                {% capture image_path %}{{site.blog_images_dir}}{{post.image.name}}{% endcapture %}
+                                {% capture full_path %}/{{site.blog_images_dir}}{{post.image.name}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% elsif post.image.path %}
+                                {% capture image_path %}{{post.image.path | remove_first: "/"}}{% endcapture %}
+                                {% capture full_path %}{{post.image.path}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% else %}
+                                {% capture image_path %}{{site.data.settings.placeholder | remove_first: '/'}}{% endcapture %}
+                                {% capture full_path %}{{site.data.settings.placeholder}}{% endcapture %}
+                                {% responsive_image_block %}
+                                template: _includes/thumb.html
+                                path: {{ image_path }}
+                                fullpath: {{ full_path }}
+                                class: blog-featured-image-home
+                                {% if post.title %}
+                                title: {{ post.title | slugify: "ascii"}}
+                                alt: {{ post.title | slugify: "ascii"}}
+                                {% endif %}
+                                {% endresponsive_image_block %}
+                            {% endif %}
+                        </a>
+                    </div>
+                    <div class="row title">
+                        <div class="col-xs-12">
+                            <a href="{{post.url}}">
+                                <h3 class="blog-featured-title">{{post.title}}</h3>
+                                <p>
+                                    {{ post.content | strip_html | truncatewords:30 }}
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row author">
+                        <div class="col-xs-3 author-image">
+                            <div class="home-author-image" style="background-image: url('{% if author.image %}
+                    {% asset_path '{{author.image.name}}' %}
+                {% else %}
+                    {% asset_path 'avatar-placeholder.png' %}
+                {% endif %}')"></div>
+                        </div>
+                        <div class="col-xs-9">
+                            <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
+                            {% if post.date %}
+                            <span class="date">
+                                {{post.date |  date:  "%B %-d, %Y"}}
+                            </span>
+                            {% endif %}
+                            {% if post_in_seconds > recent_posts %}
+                                <span class="new-post" title="Post added in the last week.">New</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>                       
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

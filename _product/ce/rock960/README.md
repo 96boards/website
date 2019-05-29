@@ -106,10 +106,10 @@ The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-
 | Ethernet Port       | USB 2.0/3.0 expansion                    |
 | Wireless            | WLAN 802.11 ac/a/b/g/n, 2xMIMO, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
 | USB                 | 1 x USB 3.0 type A and 1 x USB 2.0 type A (host mode only) and 1 x USB 3.0 type C OTG |
-| Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz, 1 x DP 1.2(Type C) up to 4Kx2K@60 |
+| Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 2L, 1 x 4L - MIPI DSI up to 1080p@60Hz, 1 x DP 1.2(Type C) up to 4Kx2K@60 |
 | Video               | Inside decoder: H.264 10bit up to HP level 5.1 - 2160p@60fps (4096x2304), VP9 - 2160p@60fps(4096x2304), H.265/HEVC 10bit - 2160p@60fps(4096x2304),  MPEG-1, MPEG-2, MPEG-4, H.263, VP8, VC-1. |
 | Audio               | HDMI output                              |
-| Camera              | 2 x 4-lane MIPI CSI                      |
+| Camera              | 1 x 4-lane MIPI CSI                      |
 | Expansion Interface | 40 pin low speed expansion connector: +1.8V, +5V, DC power, GND, 2UART, 2I2C, SPI, I2S, 12xGPIO and 60 pin high speed expansion connector: 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI |
 | LED                 | 1 x WiFi activity LED（Yellow), 1 x BT activity LED (Blue) and 4 x User LEDs (Green) |
 | Button              | Reset button, recovery button            |

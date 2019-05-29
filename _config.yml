@@ -2,6 +2,8 @@
 email: kyle.kirkby@linaro.org
 # Company logo for schema.org structured data - jekyll-seo-tag plugin
 logo: /assets/images/content/96boards-logo-300x109.png
+# Company email
+email: contact@linaro.org
 #OpenHours Setup
 openhours:
     hour: 16 # 4pm UTC
@@ -153,6 +155,9 @@ collections:
     authors:
         output: true
         permalink: /:collection/:path/
+    go:
+        output: true
+        permalink: /:collection/:path/
 # Defaults
 defaults:
   - scope:
@@ -257,3 +262,5 @@ relative_links:
 readme_index:
   enabled:          true
   remove_originals: false
+# Include the _pages source directory
+include: ['_pages']

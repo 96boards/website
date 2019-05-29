@@ -84,7 +84,7 @@ The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful De
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  Processor           | Sophon BM1880                                                                                    |
-| System Memory        | LPDDR4 1GB @ 3200Mhz                                                                             |
+| System Memory        | LPDDR4 1GB                                                                                       |
 | Flash Memory         | 8GB eMMC + micro SD card slot                                                                    |
 | Connectivity         | Gigabit Ethernet(RJ-45), Wifi, Bluetooth                                                         |
 | USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       | 
