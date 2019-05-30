@@ -23,19 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MTZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MzBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**WizeIoT Presets the Aiva96 Mezzanine, Episode 148. [Aiva96](https://www.96boards.org/product/aiva-96/), Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.**
+**96Boards Q&A / AMA, a new project and a review**
 
-[WizeIoT](https://wizeiot.com) provides industry focused white-label solution to the enterprise customers.
-
-They build IoT platforms with custom hardware design, custom software for device & systems with consulting and support.
-
-WizeIoT AiVA-96 mezzanine board for DragonBoard 410c and 96Boards enables developers of the smart home devices such as smart panels, kitchen equipment and other commercial and industrial electronics products to evaluate and prototype far-field hands-free voice interface using Amazon Alexa, Google Assistant, Microsoft Cortana, IBM Watson voice service. 
-
-Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.
-
-Also, cool Demos on the menu !!!
+No guest this week! Sorry, no interview this time; however, we will still have some fun stuff to talk about. Sahaj is working on a big new project (featuring the RB3 - DragonBoard 845c), there are some cool new mezzanines and boards in the pipeline to talk about, and Robert might be dropping his Maker Faire review blog. Along with all of this, we will of course take any 96Boards questions, review some burning forum questions and probably go on a few tangents as the show goes on...
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
