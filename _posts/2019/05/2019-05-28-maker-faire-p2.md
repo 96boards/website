@@ -36,15 +36,15 @@ Maker Faire was amazing! Granted, it was raining the entire weekend, but I like 
 
 Rewind, let's start from the beginning, May 16th (booth setup day)... I got dropped off by my Uber on the wrong side of the park *sigh*, it was raining, and I had a large suitcase, a rolling pelican case and my backpack (all filled with electronics!). As I approached what I thought was the entrance of the park, I was quickly stopped by security and asked for my credentials. Unfortunately, I hadn't made it to the check in area yet, so I had nothing. The security on site were not only super nice but very accommodating, a ray of light! Instead of making me walk upwards of 0.5 - 1 mile around the park to the entrance (in the rain with all my stuff), they requested a golf cart for me :-) it was awesome. Pretty much got a sneak peak of the entire park while everyone was setting up, at golf cart speeds. I took plenty of mental notes on where I wanted to go during booth downtimes. Finally, I arrived at the room with all my things (somewhat dry) and began to set up. Folks from Arm and Arrow were already there, we would soon be joined by Qualcomm and our Linaro event manager. Several hours later, we were all set up! Time to relax.
 
-{% include image.html name="mf19-setup5.JPG" alt="Maker Faire Setup" %}
+{% include image.html name="mf19-setup5.png" alt="Maker Faire Setup" %}
 
 **Day 1 of Maker Faire!** Day 1 is kind of a short day, starting late and running on through the afternoon. Either way, entering the park as a sponsor is kind of great. Not only do you get early access (even if it is to set up the booth and begin working...), you also get to see some things from the event side. When I entered the grounds, I had to walk by the main entrance, SO MANY PEOPLE piled together waiting for the gates to open. Unfortunately, I was in a hurry and was unable to to take a picture. Either way, I quickly made it to our zone and began to set up my section of the booth (and almost more importantly my Solar Demo). I don't think I have mentioned the swag yet (or the theme)... This year, we went with an "Asian Market Theme", and while the theme might not have been so noticeable to people who walked by, we really did our best to reiterate this with our swag. We were handing out little take out boxes filled with food shaped erasers (strange but surprisingly cute).
 
 **We had THOUSANDS of these things!**
-{% include image.html name="mf19-swag1.JPG" alt="Maker Faire Setup" %}
+{% include image.html name="mf19-swag1.png" alt="Maker Faire Setup" %}
 
 **Take-out SWAG Pyramid!**
-{% include image.html name="mf19-swag3.JPG" alt="Maker Faire Swag" %}
+{% include image.html name="mf19-swag3.png" alt="Maker Faire Swag" %}
 
 We ran our demos all day (read more about the booth and each partners' demos in the sections below) and the booth space was crowded. As I mentioned above, it was a rainy day, this clearly drove A LOT of traffic inside. To be honest, in the previous years, I had never seen such shoulder to shoulder action as people made their way through the zone. Our booth was popping off with people exploring the floor space, asking questions about the various demos, and then spending a good amount of time observing and playing with the 96Boards wall. Even though it was a short day, it still felt long considering all the conversations and running around that we did. Eventually, when the zones closed, it was time for PAELLA! Every year, Gerard from "Gerard's Paella" gives out what seems like hundreds of pounds of Paella to all the people at the park. All of the people at the booth made our way to the main area to hang out with a bunch of makers and chat about the days to come.
 
@@ -55,7 +55,7 @@ We ran our demos all day (read more about the booth and each partners' demos in 
 The entire faire ground is broken up into "Zones", this is very nice for those who either want to try to see everything or those who must focus fire their time. As you can imagine, there are a lot of things going on all weekend, and the grounds are big! From gigantic robots, submarines and airplanes to workshops, keynotes, there was pretty much something for everyone.
 
 **Instead of trying to completely explain what every zone had, I will just provide this map for you to check out**
-{% include image.html name="mf19-zones.jpg" alt="Maker Faire Swag" %}
+{% include image.html name="mf19-zones.png" alt="Maker Faire Swag" %}
 
 ### Food :-P
 
@@ -83,7 +83,7 @@ Arm was represented (not only by everything else at the booth) but by Matrix Lab
 
 Using these devices, paired with A Raspberry Pi, they built a voice controlled robotic arm! Pretty awesome right? Now, not only were people able to see this voice controlled arm (which was one of the features), but they were also able to play with it through a new UI, which was added recently, according to the representatives who were there showcasing the project. This UI allowed people at the faire to play with a X,Y,Z point on a plane to control the robotic arm to move it around and attempt to pick stuff up. It was actually very fun to try but not as easy as you would think to control.
 
-{% include image.html name="mf19-armdemo.JPG" alt="Maker Faire Arm arm" %}
+{% include image.html name="mf19-armdemo.png" alt="Maker Faire Arm arm" %}
 
 The demo was a lot of fun, and we are very grateful for Arm to include Matrix Labs as part of our arsenal at the booth!
 
@@ -108,7 +108,7 @@ Demo one was a DragonBoard 410c with a USB webcam and a bit red button! The Drag
 - 1 x [Arrow Linksprite Kit](https://www.96boards.org/product/linkspritesensorkit/)
 - 1 x RHOM Sensor Mezzanine and they were all pretty fun! Let's start with the first one
 
-{% include image.html name="mf19-sweepstakes-winners.jpg" alt="Maker Faire Sweepstakes" %}
+{% include image.html name="mf19-sweepstakes-winners.png" alt="Maker Faire Sweepstakes" %}
 
 The other demo which was hosted by Qualcomm was using the [DragonBoard 820c](https://www.96boards.org/product/dragonboard820c/). Now, while this demo did not maximize the potential of such a powerful developer board, it was still a hit attraction as a lot of people had fun playing with it! The board was running a basic Debian image with an old school game Burger Time running on it. People huddled around the game trying to beat eachother scores. And while I do not think anyone got past the 3rd level, it was still fun to try. Even the booth sponsors got in on the action as we tried our best to hold on to the record.
 
