@@ -39,8 +39,10 @@ pages:
             url: /products/ie/
           - text: SoM Edition (SE)
             options:
+              - text: All
+                url: /products/se/
               - text: Carrier Boards
-                url: /products/se/carrier/
+                url: /products/se/carriers/
               - text: Modules
                 url: /products/se/modules/
           - text: Mezzanine Products
