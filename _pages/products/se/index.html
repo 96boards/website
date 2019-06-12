@@ -1,0 +1,30 @@
+---
+layout: jumbotron-container
+title: SoM Edition (SE)
+css-package: products
+js-package: products
+permalink: "/products/se/"
+description: |-
+    The SoM Edition (SoM) (Wireless and Compute) which encourage the development of reliable and cost-effective embedded
+    platforms for building end-products.
+jumbotron:
+    image: /assets/images/content/96Boards-Logo-96 SoM.svg
+    title: ""
+    description: >
+        The SoM Edition (SoM) (Wireless and Compute) which encourage the development of reliable and cost-effective embedded
+        platforms for building end-products.
+    background-color: background-color som
+    buttons:
+        - title: SoM Wireless Specification
+          url: https://linaro.co/som-w-spec
+          class: btn btn-primary
+          icon: fa fa-external
+        - title: SoM Compute Specification
+          url: https://linaro.co/som-spec
+          class: btn btn-primary
+          icon: fa fa-external
+---
+{% include sticky-tab-bar.html %}
+{% include product-filters.html hide_spec="true" %}
+{% include compare-boards-modal.html %}
+{% include display-products.html specification="se" %}
