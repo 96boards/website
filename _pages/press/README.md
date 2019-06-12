@@ -4,7 +4,7 @@ permalink: "/press/"
 layout: container-breadcrumb
 ---
 # Resources for Press
-Thank you for your interest in 96Boards.  If you are not a member of the media and have a question or inquiry, please contact us at [contactus@linaro.org](mailto:contactus@linaro.org). For more information about 96Boards news, please visit our Blog or stay connected with us on Twitter.
+Thank you for your interest in 96Boards.  If you are not a member of the media and have a question or inquiry, please contact us at [contact@linaro.org](mailto:contact@linaro.org). For more information about 96Boards news, please visit our Blog or stay connected with us on Twitter.
 
 ## Press Contacts
 Steve Taylor, Director of Marketing media@linaro.org
@@ -44,7 +44,7 @@ Steve Taylor, Director of Marketing media@linaro.org
 
 <br/>
 
-<a href="/downloads/96Boards-logoSet.zip">
+<a href="/assets/downloads/96Boards-logoSet.zip">
     <button class="btn blog-read-more-btn">Download as Zip <i class="glyphicon glyphicon-save"></i></button>
 </a>
 
