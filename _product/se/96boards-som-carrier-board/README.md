@@ -1,7 +1,7 @@
 ---
 title: 96Boards SoM Carrier Board
 layout: product-display-page
-shortname: tb-96ai
+shortname: 96boards-som-carrier-board
 permalink: /product/96boards-som-carrier-board/
 description: |-
     The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification” 
@@ -21,70 +21,41 @@ product_images:
   - SoM-Carrier-Board-with-Module.png
   - 96-TB-AIoT_Carrier_top1.png
   - CarrierBoard_shipping.jpg
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: SoM Carrier Board
-      tab_link: /product/tb-96ai/
+      tab_link: /product/96boards-som-carrier-board/
       active: true
     - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96ai/getting-started/
+      tab_link: /documentation/som/96boards-som-carrier-board/getting-started/
       tab_position: 1
     - tab_title: Documentation
-      tab_link: /documentation/som/tb-96ai/
+      tab_link: /documentation/som/96boards-som-carrier-board/
       tab_position: 2
       tab_position: 3
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/avenger96
+      tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
       tab_position: 4
       tab_align_right: true
-# Buy Links
 product_buy_links:
   -
-    link-title: Avenger96 (Coming Soon...)
-    link-url: "https://www.arrow.com/en/campaigns/avengers"
-    from: Arrow Electronics
+    link-title: Coming Soon...
+    link-url: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
+    from: BeiqiCloud
     type: board
-    link-price: ""
+    link-price: "TBC"
     link-price-currency: USD
-
-# Right Sidepanel links
 product_os:
   - title: All Downloads
-    link: /documentation/consumer/avenger96/downloads/
-
+    link: /documentation/som/96boards-som-carrier-board/downloads/
 product_more_info:
   - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/consumer/avenger96/hardware-docs/files/avenger96-hardware-user-manual.pdf
+    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-hardware-user-manual.pdf
   - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/consumer/avenger96/hardware-docs/files/avenger96-schematics.pdf
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-
-product_kits:
-  - title: Coming Soon...
-    link: https://www.96boards.org/
+  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-schematics.pdf
 product: true
 archived: false
 ---
-The STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things. Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays an MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE.
+The 96Boards SoM Carrier Board is an Interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification” and “96Boards Enterprise Edition Specification” This carrier board provides as many interfaces as possible to meet the needs of SoM board debugging and testing. This Carrier Board has already been adapted to [TB-96AI](/product/tb-96ai/) SoM and [TB-96AIoT](/product/tb-96aiot/) SoM boards.
 ***
 
 ## Additional Information
@@ -92,22 +63,35 @@ The STM32MP157 is a highly integrated multi-market system-on-chip designed to en
 
 |   Component          |   Description |
 |:---------------------|:--------------|
-|  SoC                 | STM32MP157AAC              |
-|  CPU                 | 2x ARM®Cortex-A7 up to 650 MHz <br> 1x ARM®Cortex-M4 up to 200 MHz                                                     |
-|  GPU                 | 1x 3D GPU Vivante® @ 533 MHz -OpenGL® ES 2.0                                                                           |
-|  PMIC                | STPMIC1A                                                                                                               |
-|  RAM                 | 1024 Mbyte @ 533MHz                                                                                                    |
-|  Storage             | eMMC v4.51: 8 Gbyte <br> QSPI: 2Mbyte <br> EEPROM: 128 byte <br> microSD Socket: UHS-1 v3.01                           |
-|  Ethernet Port       | 10/100/1000 Mbit/s, IEEE 802.3 Compliant                                                                               |
-|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth®v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
-|  USB                 | Host: 2x type A, 2.0 high-speed <br> OTG: 1x type micro-AB, 2.0 high-speed                                             |
-|  Display             | HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4                                                                                |
-|  Audio               | Over HDMI                                                                                                              |
-|  Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |
-|  LED                 | 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay |
-|  Button              | Power and Reset                                                                                                        |
-|  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
-|  OS Support          | U-Boot version: U-Boot 2018.09-stm32mp-r2 <br> Linux version: Linux stm32mp1-av96 4.14.48 <br> Linux Distribution: ST OpenSTLinux Weston (A Yocto Project Based Distro) |
-|  Size                | 100 x 85 mm                                                                                                            |
+|  DC Power(12V 2A)    | Power supply φ5.5mm DC Connector              |
+|  4 Lane MIPI CSI2    | Camera interface for MIPI_RX1 on TB-96AI RK3399Pro Som <br> 4 Lane MIPI CSI <br> AXT530124 on Board |
+|  4 Lane MIPI CSI3    | Camera interface for MIPI_RX in TB-96AIoT RK1808 Som <br> 4 Lane MIPI CSI <br> AXT530124 on Board |
+|  RPI LCD    | Raspberry Pi MIPI LCD Connector for TB-96AI RK3399Pro Som and TB-96AIoT RK1808 Som,1-1734248-5 on board |
+|  RTC    | RTC battery holder |
+|  RPI Camera    | Raspberry Pi Camera Connector for MIPI_RX0 in TB-96AI RK3399PRO Som, 1-1734248-5 on board |
+|  4 Lane MIPI (eDP)    | eDP connector for TB-96AI RK3399Pro Som,MIPI connector for TB-96AIoT RK1808 Som, defined by Rockchip |
+|  Ethernet 1    | 1000Mbps Ethernet Port for TB-96AI RK3399PRO Som |
+|  Ethernet 2    | 1000Mbps Ethernet Port for TB-96AIoT RK1808 Som |
+|  USBx.0    | USB3.0 for TB-96AI RK3399Pro Som |
+|  USBx.0*2    | USB3.0 for TB-96AI RK3399Pro,USB2.0 for TB-96AIoT RK1808 Som |
+|  Fan Connector   | Fan Connector   |
+|  Start mode Switching   | Auto Start mode selection  |
+|  PCIE   | PCIE x4 interface  |
+|  Reset key   | Reset key |
+|  Power ON Key  | Press the sleep or wake up, long press to power down and power on |
+|  User-Defined Key  | The buttons function for User define self |
+|  Speaker  | 8Ω1W Speaker interface |
+|  Phone  | Earphone interface |
+|  MCU JTAG  | MCU JTAG interface |
+|  AP JTAG | AP JTAG interface |
+|  TF Card | TF Card interface |
+|  USER-Defined LED | User-defined leds |
+|  Debug | Debug usb,USB to UART chip FT232RL on board |
+|  2.4G/5G Wifi/BT module | Wifi/BT module AP6356S |
+|  ANT RF | WIFI/BT Antenna interface |
+|  Mezzanine Connector | Mezzanine Connector,contains high speed connector and low speed connector |
+|  CAN | CAN interface |
+|  System LED | System LED |
+|  X1、X2、X3、X4 | Som board Connector |
 {:.hidden_rows}
 </div>
