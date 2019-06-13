@@ -45,6 +45,8 @@
                 {% assign specification_text = "IoT Edition" %}
                 {% elsif specification == "mezzanine" %}
                 {% assign specification_text = "Mezzanine Edition" %}
+                {% elsif specification == "se" %}
+                {% assign specification_text = "SoM Edition" %}
                 {% endif %}
                 <div class="spec-badge" data-toggle="tooltip" data-position="right" title="{{specification_text}}">
                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
