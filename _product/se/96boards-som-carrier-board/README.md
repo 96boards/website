@@ -12,7 +12,7 @@ keywords: |-
 display_product: true
 product_short_desc: "The 96Boards SoM Carrier Board is an interface debugging and testing carrier board."
 product_specification: se
-product_sub_specification: module
+product_sub_specification: carrier
 featured_product_order: 2
 is_featured: true
 product_images:
