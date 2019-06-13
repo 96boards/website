@@ -20,6 +20,8 @@ featured_product_order: 2
 is_featured: true
 product_images:
   - TB-96AI-front.jpg
+  - TB-96AI-rear.jpg
+  - SoM-Carrier-Board-with-Module.jpg
 # Sub Tab Menu Items
 tab_menu:
     - tab_title: TB-96AI
