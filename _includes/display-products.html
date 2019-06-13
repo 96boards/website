@@ -1,5 +1,5 @@
 {% assign spec = include.specification %}
-{% assign subSpec = include.subSpec %}
+{% assign subSpec = include.subSpecification %}
 <div id="grid" class="mixitup-container">
     {% assign products_array =  site.product | where: "product", "true" %}
     {% if spec == "archived" %}
