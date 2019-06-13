@@ -1,10 +1,15 @@
 {% assign spec = include.specification %}
+{% assign subSpec = include.subSpec %}
 <div id="grid" class="mixitup-container">
     {% assign products_array =  site.product | where: "product", "true" %}
     {% if spec == "archived" %}
     {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "true" %}
     {% elsif spec != "all" %}
-    {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
+        {% if subSpec != "" %}
+            {% assign products_array =  products_array | where: "product_specification", spec | where: "product_sub_specification", subSpec | where: "display_product", "true" | where: "archived", "false" %}
+        {% else %}
+            {% assign products_array =  products_array | where: "product_specification", spec | where: "display_product", "true" | where: "archived", "false" %}
+        {% endif %}
     {% else %}
     {% assign products_array =  products_array | where: "archived", "false" %}
     {% endif %}
