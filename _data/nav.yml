@@ -42,7 +42,7 @@ pages:
               - text: All
                 url: /products/se/
               - text: Carrier Boards
-                url: /products/se/carriers/
+                url: /products/se/carrier-boards/
               - text: Modules
                 url: /products/se/modules/
           - text: Mezzanine Products
