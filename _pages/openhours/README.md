@@ -23,11 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MzBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA2MTNUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**96Boards Q&A / AMA, a new project and a review**
+**Live from Snapcraft Summit - Montreal, Canada!**
 
-No guest this week! Sorry, no interview this time; however, we will still have some fun stuff to talk about. Sahaj is working on a big new project (featuring the RB3 - DragonBoard 845c), there are some cool new mezzanines and boards in the pipeline to talk about, and Robert might be dropping his Maker Faire review blog. Along with all of this, we will of course take any 96Boards questions, review some burning forum questions and probably go on a few tangents as the show goes on...
+Who can we get from Snapcraft summit to talk to us live on OpenHours? Tune in to find out! There are folks from all walks of life here working on some of the coolest things. The hope is to speak with one of the event organizers, a representative from the ROS community and a board enablement pro! Come learn about Ubuntu Core, Snapcraft and ROS with us!
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
