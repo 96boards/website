@@ -24,23 +24,28 @@
            </button>
            <ul class="dropdown-menu">
              <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Consumer Edition">
-                <a href="#" data-mixitup-control  type="button" data-filter=".ce">
+                <a href="#/" data-mixitup-control  type="button" data-filter=".ce">
                     Consumer<img src="/assets/images/content/tiny-spec-ce.png" class="filter-thumbnail pull-right" />
                 </a>
             </li>
             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Enterprise Edition">
-                 <a href="#" data-mixitup-control  type="button" data-filter=".ee">
+                 <a href="#/" data-mixitup-control  type="button" data-filter=".ee">
                      Enterprise<img src="/assets/images/content/tiny-spec-ee.png" class="filter-thumbnail pull-right" />
                 </a>
             </li>
              <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="IoT Edition">
-                 <a href="#" data-mixitup-control  type="button" data-filter=".ie">
+                 <a href="#/" data-mixitup-control  type="button" data-filter=".ie">
                     IoT<img src="/assets/images/content/tiny-spec-ie.png" class="filter-thumbnail pull-right" />
                 </a>
             </li>
              <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="Mezzanine Edition">
-                <a href="#" data-mixitup-control  type="button" data-filter=".mezzanine">
+                <a href="#/" data-mixitup-control  type="button" data-filter=".mezzanine">
                     Mezzanine<img src="/assets/images/content/tiny-spec-mezzanine.png" class="filter-thumbnail pull-right" />
+                </a>
+            </li>
+             <li class="text-left" data-toggle="tooltip" data-container="body" data-placement="right" title="SoM Edition">
+                <a href="#/" data-mixitup-control  type="button" data-filter=".se">
+                    SoM<img src="/assets/images/content/tiny-spec-se.png" class="filter-thumbnail pull-right" />
                 </a>
             </li>
            </ul>
@@ -53,14 +58,28 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".debian">Debian</a></li>
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".android">AOSP</a></li>
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".windows">Windows</a></li>
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".ubuntu">Ubuntu</a></li>
-                <li class="text-center"><a href="#" data-mixitup-control type="button" data-filter=".fedora">Fedora</a>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".debian">Debian</a></li>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".android">AOSP</a></li>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".windows">Windows</a></li>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".ubuntu">Ubuntu</a></li>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".fedora">Fedora</a>
                 </li>
             </ul>
         </div>
+        {% if include.som %}
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Sub Category
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".module">Modules</a></li>
+                <li class="text-center"><a href="#/" data-mixitup-control type="button" data-filter=".carrier">Carrier Boards</a></li>
+                </li>
+            </ul>
+        </div>
+        {% endif %}
         <button id="compare-boards-btn" type="button" class="btn btn-default compare-boards-btn" data-toggle="tooltip" data-placement="top"
             title="You can compare the 96Boards that you are interested in by clicking the checkbox next to your selected products and then pressing this button.">
             Compare Selected 96Boards

@@ -23,19 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA1MTZUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA2MTNUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**WizeIoT Presets the Aiva96 Mezzanine, Episode 148. [Aiva96](https://www.96boards.org/product/aiva-96/), Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.**
+**Live from Snapcraft Summit - Montreal, Canada!**
 
-[WizeIoT](https://wizeiot.com) provides industry focused white-label solution to the enterprise customers.
-
-They build IoT platforms with custom hardware design, custom software for device & systems with consulting and support.
-
-WizeIoT AiVA-96 mezzanine board for DragonBoard 410c and 96Boards enables developers of the smart home devices such as smart panels, kitchen equipment and other commercial and industrial electronics products to evaluate and prototype far-field hands-free voice interface using Amazon Alexa, Google Assistant, Microsoft Cortana, IBM Watson voice service. 
-
-Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.
-
-Also, cool Demos on the menu !!!
+Who can we get from Snapcraft summit to talk to us live on OpenHours? Tune in to find out! There are folks from all walks of life here working on some of the coolest things. The hope is to speak with one of the event organizers, a representative from the ROS community and a board enablement pro! Come learn about Ubuntu Core, Snapcraft and ROS with us!
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
