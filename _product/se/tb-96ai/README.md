@@ -33,7 +33,6 @@ tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/som/tb-96ai/
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/tb-96ai
       tab_position: 4
@@ -48,7 +47,7 @@ product_buy_links:
     link-price-currency: USD
 product_os:
   - title: All Downloads
-    link: /documentation/se/tb-96ai/downloads/
+    link: /documentation/som/tb-96ai/downloads/
   - title: Android 8.1
     link: https://developer.android.com/about/versions/oreo/android-8.1
 product_more_info:
