@@ -1,0 +1,25 @@
+---
+layout: jumbotron-container
+title: Enterprise Edition (EE)
+css-package: products
+js-package: products
+permalink: "/products/ee/"
+description: |-
+    The 96Boards Enterprise Edition (EE) specification targets the networking and server segments.
+specification_path: /documentation/Specifications/96Boards-EE-Specification.pdf
+specification_link: https://linaro.co/ee-specification
+specification_image: 96Boards-Logo_Enterprise-small.png
+jumbotron:
+    background-color: background-color ee
+    image: /assets/images/content/96Enterprise.svg
+    title: ""
+    buttons:
+        - title: View the Specification
+          url: https://linaro.co/ee-specification
+          class: btn btn-primary
+          icon: fa fa-external
+---
+{% include sticky-tab-bar.html %}
+{% include product-filters.html hide_spec="true" %}
+{% include compare-boards-modal.html %}
+{% include display-products.html specification="ee" %}

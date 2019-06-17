@@ -37,6 +37,14 @@ pages:
             url: /products/ee/
           - text: IoT Edition (IE)
             url: /products/ie/
+          - text: SoM Edition (SE)
+            options:
+              - text: All
+                url: /products/se/
+              - text: Carrier Boards
+                url: /products/se/carrier-boards/
+              - text: Modules
+                url: /products/se/modules/
           - text: Mezzanine Products
             url: /products/mezzanine/
           - text: Archived 96Boards

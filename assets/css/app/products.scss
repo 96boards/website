@@ -25,6 +25,9 @@ $background_color_6: #333333;
 		}
 	}
 }
+#jumbotron img.img-responsive.center-block {
+    height: 125px;
+}
 .owl-stage-outer {
     height: 300px;
 }
@@ -33,6 +36,12 @@ $background_color_6: #333333;
 	height: 100%;
 	overflow: hidden;
 	display: inline-block;
+}
+#jumbotron.overlay:before {
+    height: 100vh;
+}
+div#jumbotron {
+    height: auto;
 }
 .info {
 	margin-bottom: 5%;

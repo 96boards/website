@@ -30,21 +30,25 @@ pages:
         url: /news/
     urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
   - list:
-      - title: All 96Boards
+      - title: All
         url: /products/
-      - title: Compare
-        url: /products/compare/
       - title: Consumer Edition
         url: /products/ce/
       - title: Enterprise Edition
         url: /products/ee/
       - title: IoT Edition
         url: /products/ie/
-      - title: Mezzanine Products
+      - title: SoM Edition
+        url: /products/se/
+        sub-pages: true
+      - title: Mezzanine
         url: /products/mezzanine/
+      - title: Compare
+        url: /products/compare/
       - title: Accessories
         url: /products/accessories/
-    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,/products/accessories/, /products/archived/, /products/compare/ ]
+    urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,
+    /products/accessories/, /products/archived/, /products/compare/, /products/se/, /products/se/modules/, /products/se/carrier-boards/]
   - list:
       - title: Projects
         url: /projects/

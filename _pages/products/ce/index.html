@@ -1,0 +1,29 @@
+---
+layout: jumbotron-container
+title: Consumer Edition (CE)
+css-package: products
+js-package: products
+permalink: "/products/ce/"
+description: |-
+    The 96Boards Consumer Edition (CE) specification targets the _mobile_, _embedded_ and _digital home_ segments.
+    The boards below are all certified to be compliant with this specification.
+specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
+specification_link: https://linaro.co/ce-specification
+specification_image: 96Boards-Logo_Consumer-small.png
+jumbotron:
+    background-color: background-color ce
+    image: /assets/images/content/96Consumer.svg
+    title: ""
+    description: > 
+        The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
+        The boards below are all certified to be compliant with this specification.
+    buttons:
+        - title: View the Specification
+          url: https://linaro.co/ce-specification
+          class: btn btn-primary
+          icon: fa fa-external
+---
+{% include sticky-tab-bar.html %}
+{% include product-filters.html hide_spec="true" %}
+{% include compare-boards-modal.html %}
+{% include display-products.html specification="ce" %}
