@@ -20,7 +20,11 @@ There are currently four 96Boards specifications:
 * The [Consumer Edition (CE)](https://linaro.co/ce-specification) targets the mobile, embedded and digital home segments.
 * The [Enterprise Edition (EE)](https://linaro.co/ee-specification) targets the networking and server segments.
 * The [IoT Edition (IE)](https://linaro.co/ie-specification) targets the Internet of Things (IoT) and Embedded segments.
+<<<<<<< HEAD:_pages/specifications/README.md
 * The SoM Edition (SoM) ([Wireless](https://linaro.co/som-w-spec) and [Compute](https://linaro.co/som-spec)) is a 96Boards specification which encourages the development of reliable and cost-effective embedded platforms for building end-product's.
+=======
+* The SoM Edition (SoM) ([Wireless](https://linaro.co/som-w-spec) and [Compute](https://linaro.co/som-spec)) which encourage the development of reliable and cost-effective embedded platforms for building end-products.
+>>>>>>> upstream/master:specifications/README.md
 
 These specifications are intended to foster the delivery of multiple Arm hardware platforms targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification/). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
