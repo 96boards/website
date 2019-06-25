@@ -4,12 +4,57 @@ description: |-
     96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost.
 permalink: "/about/"
 status: active
-layout: jumbotron
+layout: flow
 js-package: about
 css-package: about
 jumbotron:
     animation: fade
     background-image: /assets/images/content/96boards-banner-1.jpg
+flow:
+    - type: content_row
+      items:
+        - format: feature_block
+        #   style: text-center text-white
+          content:
+            side_content:
+                position: right
+                type: image
+                # type: video
+                # type: slider
+                content: /assets/images/content/background-image1.jpg
+            title: Featured Block
+            text: page_content
+            text: >
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            buttons:
+                - title: Button 1
+                  url: /about/
+                  class: btn-primary
+                - title: Button 2
+                  url: /about/
+                  class: btn-primary
+        - format: feature_block
+        #   style: text-center text-white
+          content:
+            side_content:
+                position: right
+                type: image
+                # type: video
+                # type: slider
+                content: /assets/images/content/background-image1.jpg
+            title: Featured Block
+            text: page_content
+            text: >
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            buttons:
+                - title: Button 1
+                  url: /about/
+                  class: btn-primary
+                - title: Button 2
+                  url: /about/
+                  class: btn-primary
+    - type: custom_include_row
+      source: members.html
 ---
 <div class="row" id="content-container">
     {% include sticky-tab-bar.html %}
@@ -183,4 +228,4 @@ jumbotron:
         </div>
     </div>
 </div>
-{% include members.html %}
+
