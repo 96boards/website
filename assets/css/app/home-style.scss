@@ -25,9 +25,16 @@
     height: 3em;
     
 }
-#wrapper #latest-blogs p {
-    font-size: 10px;
+#wrapper #latest-blogs {
+     p {
+        font-size: 10px;
+    }
+    .row {
+        padding: 0px;
+        position: static;
+    }
 }
+
 #buttons > a.btn.btn-primary.btn-lg.fade-in-three.bottom-border-five {
     background-color: #060606;
     border-color: #3c3c3c;
