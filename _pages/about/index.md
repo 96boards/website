@@ -12,8 +12,8 @@ jumbotron:
     description: ""
     background-image: /assets/images/content/96boards-banner-1.jpg
 flow:
-    - type: content_row
-      items: 
+    - row: container_row
+      sections: 
         - format: text
           content: >
 
@@ -44,8 +44,8 @@ flow:
                 image:
                     path: /assets/images/content/96Partner.svg
                     alt: Mezzanine Edition Logo
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -56,8 +56,8 @@ flow:
             text: page_content
             text: >
                 The 96Boards Specifications manages to pack an unexpected amount of components and features onto a small form-factor. This small size offers developers and makers a wide range of prototyping options when bringing a project or product to life.
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -68,8 +68,8 @@ flow:
             text: page_content
             text: >
                 Industry wide, the 96Boards standard has attracted many leading chip makers and board manufacturers. Most SoCs which are made available for development on 96Boards are also found in currently shipping mainstream products. You will always find new and exciting features on every 96Boards.
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -80,8 +80,8 @@ flow:
             text: page_content
             text: >
                 Most 96Boards are released with a production plan in mind. The chips used on 96Boards are an ideal option for product development. Most chip makers who choose 96Boards will guarantee the availability of their chips over the long term. This allows for interruption-free development of a project and/or product. The availability of your 96Boards SoC (and/or SoM equivalent) will allow you to, much more easily, bring your product to market. End users can develop and test prototypes on a 96Boards device, then purchase the SoC in large quantities to use in a final product.
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -92,8 +92,8 @@ flow:
             text: page_content
             text: >
                 The family of specifications allows one to choose from a wide range of functionality in a variety of form-factors, catering to different market segments and price points. The availability of compatible add-ons through the mezzanine ecosystem allows product designers to enhance the functionality of the board to cater to their specific application.
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -104,13 +104,13 @@ flow:
             text: page_content
             text: >
                 The 96Boards specification requires exposure of the various I/O interfaces on the SoCs through standard expansion connectors (High and Low speed). This allows any product designed on one board to be fairly portable to other boards in the same family.
-    - type: content_row
-      items: 
+    - row: container_row
+      sections: 
         - format: title
           size: h2
           content: Benefits of the 96Boards ecosystem
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
@@ -145,8 +145,8 @@ flow:
 
                 The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
 
-    - type: content_row
-      items:
+    - row: container_row
+      sections:
         - format: feature_block
           content:
             side_content:
