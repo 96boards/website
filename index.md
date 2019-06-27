@@ -43,12 +43,12 @@ jumbotron:
                 - title: Learn more
                   url: https://www.linaro.org/news/industry-leaders-form-autoware-foundation-to-accelerate-collaboration-in-autonomous-driving/
 flow:
-    - type: custom_include_row
+    - row: custom_include_row
       source: featured-products.html
-    - type: custom_include_row
+    - row: custom_include_row
       source: specifications.html
-    - type: custom_include_row
+    - row: custom_include_row
       source: latest-blogs.html 
-    - type: custom_include_row
+    - row: custom_include_row
       source: projects.html
 ---
