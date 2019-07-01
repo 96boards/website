@@ -1,7 +1,7 @@
 ---
 title: Tecnologico De Monterrey – Smart Cities Hackathon
 permalink: /go/hackathon-mexico/
-layout: container-breadcrumb
+layout: jumbotron-container
 date: 2017-02-24 01:00:00+00:00
 image: /assets/images/content/hackathon-mexico.png
 ---

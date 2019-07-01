@@ -3,7 +3,7 @@ title: Linaro Connect Welcomes San Francisco / Burlingame based Engineers!
 description: |-
     Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards
 permalink: /go/sfo17-connect-reach/
-layout: container-breadcrumb
+layout: jumbotron-container
 image: /assets/images/content/sfo-bg-thumb.png
 date: 2016-01-01 01:00:00+00:00
 ---
