@@ -6,53 +6,19 @@ permalink: /membership/
 status: active
 js-package: members
 css-package: members
-layout: jumbotron
+layout: flow
 jumbotron:
     animation: fade
     background-image: /assets/images/content/96boards-banner-4.jpg
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: custom_include_row
+      source: partner_values.html
+    - row: main_content_row
+    - row: custom_include_row
+      source: members.html
 ---
-<div class="row content-row" id="content-container">
-{% include sticky-tab-bar.html %}
-</div>
-<div class="row content-row padded-row testimonials" id="testimonials">
-    <div class="container">
-        <h2 class="text-center  m-b-30">The value of being a 96Boards Partner</h2>
-        <div class="col-xs-12 col-sm-offset-2 col-sm-4  text-center testimonial-col">
-            <div class="col-xs-12 no-padding">
-                <!-- <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/thomas-molgaard-screen.png" preload="none">
-                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv" type="video/ogg">
-                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm" type="video/webm">
-                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4" type="video/mp4">
-                </video> -->
-                <div class="embed-responsive embed-responsive-16by9" >
-                    <iframe class="embed-responsive-item"  frameborder="0" allowfullscreen src="https://www.youtube.com/embed/4Qu2QI0ISBo"></iframe>
-                </div>
-            </div>
-            <div class="col-xs-12 no-padding testimonial-col text-center">
-                <h4>Avnet - Kevin Keryk </h4>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4  text-center testimonial-col">
-            <div class="col-xs-12 no-padding">
-                <!-- <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/jon-masters-screen.png" preload="none">
-                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.ogv" type="video/ogg">
-                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.webm" type="video/webm">
-                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.mp4" type="video/mp4">
-                </video> -->
-                <div class="embed-responsive embed-responsive-16by9" >
-                    <iframe class="embed-responsive-item" frameborder="0" allowfullscreen  src="https://www.youtube.com/embed/_GpE0P37Res"></iframe>
-                </div>
-            </div>
-            <div class="col-xs-12 no-padding testimonial-col text-center">
-                <h4>Arrow - Attila Ambrus</h4>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-<div class="container"  markdown="1">
-
 96Boards is designed by Linaro as a platform to accelerate the delivery of low cost hardware with the latest SoC technology into the hands of software developers, universities, makers and embedded product OEMs.
 
 Anyone can build and deliver products designed to the specification. Products using the 96Boards brand may be featured on the 96Boards.org website and supported on the 96Boards.org forums. These must meet certain standards including compliance testing (if required). Further information on 96Boards compliance is available on the [Compliance tab](/compliance/) of this page.
@@ -138,8 +104,3 @@ Community builds are 96Boards compliant builds created by the community and host
 
 
 <small id="SMALL_156">Issue 1.01 / Date February 9, 2016</small>
-
-</div>
-</div>
-
-{% include members.html %}
