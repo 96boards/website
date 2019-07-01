@@ -12,6 +12,8 @@ jumbotron:
     description: ""
     background-image: /assets/images/content/96boards-banner-1.jpg
 flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html 
     - row: container_row
       sections: 
         - format: text
@@ -179,6 +181,6 @@ flow:
                 **As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
 
                 A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
-    - type: custom_include_row
+    - row: custom_include_row
       source: members.html
 ---
