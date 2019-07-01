@@ -8,7 +8,6 @@ layout: flow
 js-package: about
 css-package: about
 jumbotron:
-    animation: fade
     description: ""
     background-image: /assets/images/content/96boards-banner-1.jpg
 flow:

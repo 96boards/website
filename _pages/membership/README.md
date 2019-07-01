@@ -8,7 +8,6 @@ js-package: members
 css-package: members
 layout: flow
 jumbotron:
-    animation: fade
     background-image: /assets/images/content/96boards-banner-4.jpg
 flow:
     - row: custom_include_row
