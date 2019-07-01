@@ -18,6 +18,8 @@ flow:
       source: product-filters.html
     - row: custom_include_row
       source: compare-boards-modal.html
-    - row: custom_include_row
-      source: display-products.html
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: display-products.html
 ---
