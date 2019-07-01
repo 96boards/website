@@ -1,9 +1,13 @@
 ---
-layout: jumbotron-container-tabs
+layout: flow
 title: Project Contribution
-permalink: /projects/contribute.md/
+permalink: /projects/contribute/
 description: |-
     96Boards projects is a community driven initiative of hosting the projects made out of 96Boards (CE, EE and IE).Potential projects should be of good quality and should not include basic interfacing exercises of passive componenets.
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
 ---
 Contributing to Projects                           
 ========================
