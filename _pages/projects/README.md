@@ -21,5 +21,5 @@ flow:
           content: >
             This projects listed on this page are from the [96Boards Projects Github](https://github.com/96boards-projects) where you can submit a project to be listed on here by creating a pull request. Project submissions are always welcome. For instructions on how to submit your 96Boards projects and/or contribute to already existing projects, please [click here](/projects/submit/).
     - row: custom_include_row
-      source: disply_projects.html
+      source: display_projects.html
 ---
