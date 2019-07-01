@@ -1,8 +1,12 @@
 ---
 title: OpenHours Impact
 permalink: /openhours/impact/
-layout: container-breadcrumb-tabs
+layout: flow
 css-package: openhours
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
 ---
 # Impact
 

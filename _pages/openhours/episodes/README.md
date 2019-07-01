@@ -1,7 +1,11 @@
 ---
 title: OpenHours Episodes &amp; Guests
 permalink: /openhours/episodes/
-layout: container-breadcrumb-tabs
+layout: flow
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
 ---
 
 # Episodes

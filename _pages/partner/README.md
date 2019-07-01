@@ -1,6 +1,6 @@
 ---
 title: 96boards Partner Program
-layout: container-breadcrumb
+layout: jumbotron-container
 permalink: /partner/
 ---
 <div class="col-md-6" markdown="1">

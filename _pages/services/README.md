@@ -3,7 +3,7 @@ title: 96Boards Partner Services
 description: |-
     96Boards Partner offered services
 permalink: "/services/"
-layout: container-breadcrumb-tabs
+layout: jumbotron-container-tabs
 css-package: openhours
 js-package: openhours
 ---
