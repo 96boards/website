@@ -3,26 +3,25 @@ title: Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/
-layout: jumbotron
+layout: flow
 css-package: about
 js-package: about
 jumbotron:
     animation: fade
     background-image: /assets/images/content/96boards-banner-5.jpg
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
+    - row: custom_include_row
+      source: members.html
 ---
-<div class="row" id="content-container">
-{% include sticky-tab-bar.html %}
-<div class="container"  markdown="1">
-
 96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program. The following Compliance topics are covered in this document:
 
-1.  [Availability of Documentation](#Availability)
-2.  [Binary Licensing](#Binary)
-3.  [Hardware Compliance](#Hardware)
-4.  [Software Compliance](#Software)
-5.  [Functional and Stress Testing](#Functional)
-6.  [Compliance Report](#Compliance)
-7.  [Compliance Services](#Services)
+- [1. Availability of Documentation <a name="Availability"></a>](#1-Availability-of-Documentation-a-name%22Availability%22a)
+- [2. Binary Licensing <a name="Binary"></a>](#2-Binary-Licensing-a-name%22Binary%22a)
+- [3. Hardware Compliance](#3-Hardware-Compliance)
+- [4. Software Compliance <a name="Software"></a>](#4-Software-Compliance-a-name%22Software%22a)
 
 Compliance is tested against the following:
 
@@ -162,8 +161,3 @@ A 96Boards product **shall** provide at least one of the following distributions
 
 </div><!--End Tab Content-->
 </div><!--End Tabs-->
-
-</div>
-</div>
-
-{% include members.html %}
