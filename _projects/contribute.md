@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb-tabs
+layout: jumbotron-container-tabs
 title: Project Contribution
 permalink: /projects/contribute.md/
 description: |-

@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: jumbotron-container
 title: Projects
 description: |-
     The 96Boards projects that have been announced are shown below.

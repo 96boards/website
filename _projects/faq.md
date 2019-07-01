@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb-tabs
+layout: jumbotron-container-tabs
 title: Projects FAQ
 permalink: /projects/faq.md/
 description: |-

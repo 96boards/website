@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb-tabs
+layout: jumbotron-container-tabs
 title: Submit Project
 permalink: "/projects/submit/"
 description: |-
