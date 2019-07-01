@@ -19,5 +19,5 @@ flow:
     - row: custom_include_row
       source: compare-boards-modal.html
     - row: custom_include_row
-      source: display-products.html specification="archived" 
+      source: display-products.html
 ---
