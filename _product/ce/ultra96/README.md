@@ -43,8 +43,8 @@ product_getting_started: /documentation/consumer/ultra96/ultra96-v2/getting-star
 product_documentation_link: /documentation/consumer/ultra96/ultra96-v2/
 product_buy_links:
   -
-    link-title: Ultra96-v2 Developer Board (Pre-Order)
-    link-url: http://avnet.me/NewUltra96V2
+    link-title: Ultra96-v2 Developer Board
+    link-url: https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-ultra96-v2-g-3074457345638646173/
     from: Avnet.com
     type: board
     link-price: "$249.00"
