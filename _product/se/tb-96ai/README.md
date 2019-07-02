@@ -45,6 +45,13 @@ product_buy_links:
     type: board
     link-price: "119.00"
     link-price-currency: USD
+  -
+    link-title: Alibaba
+    link-url: https://www.alibaba.com/product-detail/Wholesales-OEM-ODM-factory-Rockchip-RK3399Pro_62006629076.html?spm=a2747.manage.0.0.5a3e71d23mEE2D
+    from: Alibaba
+    type: board
+    link-price: "149.00"
+    link-price-currency: USD
 product_os:
   - title: All Downloads
     link: /documentation/som/tb-96ai/downloads/
