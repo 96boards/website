@@ -39,11 +39,11 @@ tab_menu:
       tab_align_right: true
 product_buy_links:
   -
-    link-title: Coming Soon...
-    link-url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
-    from: BeiqiCloud
+    link-title: SeeedStudio
+    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-RK3399Pro-AIoT-96Boards-Compute-SoM-p-4075.html
+    from: SeeedStudio
     type: board
-    link-price: "TBC"
+    link-price: "119.00"
     link-price-currency: USD
 product_os:
   - title: All Downloads
@@ -55,6 +55,8 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
   - title: Schematics
   - link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+  - title: Beiqi Cloud
+    link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
 # product_accessories:
 #   - title: Power
 #     link: /product/power/
