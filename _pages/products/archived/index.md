@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb-tabs
+layout: flow
 title:  Archived 96Boards
 permalink: /products/archived/
 status: active
@@ -11,7 +11,15 @@ css-package: products
 js-package: all-products
 seo:
     type: Product
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: container_row
+      sections:
+        - format: custom
+          include_name: product-filters.html
+    - row: custom_include_row
+      source: compare-boards-modal.html
+    - row: main_content_row
 ---
-{% include product-filters.html %}
-{% include compare-boards-modal.html %}
 {% include display-products.html specification="archived" %}

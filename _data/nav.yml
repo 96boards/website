@@ -58,9 +58,9 @@ pages:
           - text: Projects
             url: /projects/
           - text: Contribute
-            url: /projects/contribute.md/
+            url: /projects/contribute/
           - text: FAQ
-            url: /projects/faq.md/
+            url: /projects/faq/
           - text: Submit a Project
             url: /projects/submit/
     - title: Initiatives

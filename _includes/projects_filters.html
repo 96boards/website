@@ -1,0 +1,21 @@
+<div id="project-filters">
+    <div class="btn-group" role="group" aria-label="Project Filter Buttons">
+        <button class="btn btn-default" data-mixitup-control type="button" data-filter="all">All</button>
+        <button class="btn btn-default" data-mixitup-control  type="button" data-sort="order:asc"><i class="glyphicon glyphicon-arrow-up"></i></button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="order:descending"><i class="glyphicon glyphicon-arrow-down"></i></button>
+        <button class="btn btn-default" data-mixitup-control type="button" data-sort="random"><i class="glyphicon glyphicon-random"></i></button>
+    </div>
+    <select class="form-control filter-select" data-mixitup-control>
+        <option value="all">Filter by Board</option>
+        {% assign boards = site.product | where: "display_product", "true" %}
+        {% for board in boards %}
+          <option value=".{{board.shortname}}">{{board.title}}</option>
+        {% endfor %}
+    </select>
+    <select class="form-control filter-select" data-mixitup-control>
+        <option value="all">Filter by Vertical</option>
+        {% for vertical in site.data.verticals %}
+          <option value=".{{vertical}}">{{vertical}}</option>
+        {% endfor %}
+    </select>
+</div>

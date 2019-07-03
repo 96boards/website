@@ -1,22 +1,111 @@
 ---
 title: OpenHours Episodes &amp; Guests
 permalink: /openhours/episodes/
-layout: container-breadcrumb-tabs
+layout: flow
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
 ---
+
 # Episodes
 
-## Phase 2 - Current Phase
+## 2020
 
 | Episode | Date           | Guest(s)                  | Topic(s)                                | YouTube                                                 |
 |:-------:|:--------------:|:-------------------------:|:----------------------------------------|:--------------------------------------------------------|
-| 130     | 10 Jan 2019    | Arm Contest Winners       | Arm Robotics Challenge - Winners Interview| [Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=bHE4dmJpMjlrMW5uNWRpMnI4MWRzZ2s4MWdfMjAxOTAxMTBUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org)   |
-| 129     | 03 Jan 2019    | Ed Vielmetti              | Arm Servers and Packet                  | [Watch Video](https://youtu.be/4u9G9SBM1oE)                                  |
+| 200     | 4 Jun 2019     |                           |                                         | [Watch Video]()                                         |
+| 191     | 28 May 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 21 May 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 14 May 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 7 May 2019     |                           |                                         | [Watch Video]()                                         |
+| 191     | 30 Apr 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 23 Apr 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 16 Apr 2019    |                           |                                         | [Watch Video]()                                         |
+| 191     | 9 Apr 2019     |                           |                                         | [Watch Video]()                                         |
+| 191     | 2 Apr 2019     |                           |                                         | [Watch Video]()                                         |
+| 191     | 26 Mar 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 19 Mar 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 12 Mar 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 5 Mar 2019     |                           |                                         | [Watch Video]()                                         |
+| 181     | 27 Feb 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 20 Feb 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 13 Feb 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 6 Feb 2019     |                           |                                         | [Watch Video]()                                         |
+| 181     | 30 Jan 2019    |                           |                                         | [Watch Video]()                                         |
+| 181     | 23 Jan 2019    |                           |                                         | [Watch Video]()                                         |
+| 180     | 16 Jan 2019    |                           |                                         | [Watch Video]()                                         |
+| 179     | 9 Jan 2019     |                           |                                         | [Watch Video]()                                         |
+| 178     | 2 Jan 2019     |                           |                                         | [Watch Video]()                                         |
+
+## 2019
+
+| Episode | Date           | Guest(s)                | Topic(s)                                 | YouTube                                              |
+|:-------:|:--------------:|:-----------------------:|:-----------------------------------------|:----------------------------------------------------:|
+| 177     | 26 Dec 2019    |                           |                                         | [Watch Video]()                                         |
+| 176     | 19 Dec 2019    |                           |                                         | [Watch Video]()                                         |
+| 175     | 12 Dec 2019    |                           |                                         | [Watch Video]()                                         |
+| 174     | 5 Dec 2019     |                           |                                         | [Watch Video]()                                         |
+| 173     | 28 Nov 2019    |                           |                                         | [Watch Video]()                                         |
+| 172     | 21 Nov 2019    |                           |                                         | [Watch Video]()                                         |
+| 171     | 14 Nov 2019    |                           |                                         | [Watch Video]()                                         |
+| 170     | 7 Nov 2019     |                           |                                         | [Watch Video]()                                         |
+| 169     | 31 Oct 2019    |                           |                                         | [Watch Video]()                                         |
+| 168     | 24 Oct 2019    |                           |                                         | [Watch Video]()                                         |
+| 167     | 17 Oct 2019    |                           |                                         | [Watch Video]()                                         |
+| 166     | 10 Oct 2019    |                           |                                         | [Watch Video]()                                         |
+| 165     | 3 Oct 2019     |                           |                                         | [Watch Video]()                                         |
+| 164     | 26 Sept 2019   | Lianaro Connect Sponsors  | Live From Linaro Connect SAN19          | [Watch Video]()                                         |
+| 163     | 19 Sept 2019   |                           |                                         | [Watch Video]()                                         |
+| 162     | 12 Sept 2019   |                           |                                         | [Watch Video]()                                         |
+| 161     | 5 Sept 2019    |                           |                                         | [Watch Video]()                                         |
+| 160     | 29 Aug 2019    |                           |                                         | [Watch Video]()                                         |
+| 159     | 22 Aug 2019    |                           |                                         | [Watch Video]()                                         |
+| 158     | 15 Aug 2019    |                           |                                         | [Watch Video]()                                         |
+|         | 8 Aug 2019     | N/A                       | Robert is Getting Married               | N/A                                                     |
+|         | 1 Aug 2019     | N/A                       | Robert is Getting Married               | N/A                                                     |
+| 157     | 25 Jul 2019    | String                    |                                         | [Watch Video]()                                         |
+| 156     | 18 Jul 2019    |                           |                                         | [Watch Video]()                                         |
+| 155     | 11 Jul 2019    | ETH Mezzanine by Opsero   |                                         | [Watch Video]()                                         |
+| 154     | 4 Jul 2019     | OpenCV and the RB3        |                                         | [Watch Video]()                                         |
+| 153     | 27 Jun 2019    | Tracis CI                 |                                         | [Watch Video]()                                         |
+| 152     | 20 Jun 2019    | OpenCV and the RB3        |                                         | [Watch Video](https://youtu.be/V9eg-xqu2Js)             |
+| 151     | 13 Jun 2019    | Live at Snapcraft Summit  |                                         | [Watch Video](https://youtu.be/vD0EZsUTv5Y)             |
+| 150     | 6 Jun 2019     | 96Boards AMA              |                                         | [Watch Video](https://youtu.be/egYoASh0ab8)             |
+| 149     | 30 May 2019    | 96Boards AMA              |                                         | [Watch Video](https://youtu.be/45ZdnIMwPCA)             |
+| 148     | 23 May 2019    | AiVA Mezzanine            |                                         | [Watch Video](https://youtu.be/DiFizZKhqKs)             |
+| 147     | 16 May 2019    | Experience Daliona        |                                         | [Watch Video](https://youtu.be/s57GnLcN19s)             |
+| 146     | 9 May 2019     | Arm Laptop & Repo review  |                                         | [Watch Video](https://youtu.be/gZFcTVd3-i8)             |
+| 145     | 2 May 2019     | 96Boards AMA              |                                         | [Watch Video](https://youtu.be/IaAZmscX6Xc)             |
+| 144     | 25 Apr 2019    | Trusted Firmware M.       |                                         | [Watch Video](https://youtu.be/CqXanw9uNCg)             |
+| 143     | 18 Apr 2019    | Intro to Autoware         |                                         | [Watch Video](https://youtu.be/zoHWo6pE9Lo)             |
+| 142     | 11 Apr 2019    | Connect Recap             |                                         | [Watch Video](https://youtu.be/PTnv6B8HIMQ)             |
+| 141     | 4 Apr 2019     | Live from Linaro Connect  | BKK19 - Bangkok, Thailand               | [Watch Video](https://youtu.be/ZJsWSLZKQGk)             |
+|         | 28 Mar 2019    | N/A                       | N/A                                     | N/A                                                     |
+| 140     | 21 Mar 2019    | A look at Linaro Connect  |                                         | [Watch Video](https://youtu.be/t6KCvto1vLs)             |
+| 139     | 14 Mar 2019    | Works On Arm Crossover    |                                         | [Watch Video](https://youtu.be/43lRiBaFyWE)             |
+| 138     | March 7 2019   | Oxalis Demo               |                                         | [Watch Video](https://youtu.be/rPHahahbheo)             |
+| 137     | Feb 28 2019    | A look at Embedded World  |                                         | [Watch Video](https://youtu.be/7C4w-Ll0_uI)             |
+| 136     | Feb 21 2019    | Matrix Labs               |                                         | [Watch Video](https://youtu.be/R4f0g90cnbQ)             |
+| 135     | Feb 14 2019    | Oxalis                    |                                         | [Watch Video](https://youtu.be/NXH6zHFj2Sg)             |
+| 134     | Feb 7 2019     | Arduino on 96Boards       |                                         | [Watch Video](https://youtu.be/PXpzVtW4Fcs)             |
+| 133     | Jan 31 2019    | Fedora IoT                |                                         | [Watch Video](https://youtu.be/o5t_tsyI7hQ)             |
+| 132     | 24 Jan 2019    | Arrow Announcement        |                                         | [Watch Video](https://youtu.be/pooE-3ZpCeM)             |
+| 131     | 17 Jan 2019    | Ultra96 & other projects  |                                         | [Watch Video](https://youtu.be/g3u5jJrqYGI)             |
+| 130     | 10 Jan 2019    | Arm Contest Winners       |Arm Robotics Challenge, Winners Interview| [Watch Video](https://youtu.be/kpFnKzCNJ1k)             |
+| 129     | 03 Jan 2019    | Ed Vielmetti              | Arm Servers and Packet                  | [Watch Video](https://youtu.be/4u9G9SBM1oE)             |
+
+
+## 2018
+
+| Episode | Date           | Guest(s)                | Topic(s)                                 | YouTube                                              |
+|:-------:|:--------------:|:-----------------------:|:-----------------------------------------|:----------------------------------------------------:|
 |         | 27 Dec 2018    | N/A                       | End of Year Break                       | N/A                                                     |
-| 128     | 20 Dec 2018    | 96Boards Team             | Holiday special                         | [Watch Video](https://youtu.be/or11jB6D-mI)                                     |
+| 128     | 20 Dec 2018    | 96Boards Team             | Holiday special                         | [Watch Video](https://youtu.be/or11jB6D-mI)             |
 | 127     | 13 Dec 2018    | Douglas Esteves           | IoT from PoV of a Maker                 | [Watch Video](https://youtu.be/Avb4HnyLIEw)             |
 | 126     | 6 Dec 2018     | Katelyn Stamas            | Software Development                    | [Watch Video](https://youtu.be/JK1ZC-p1Qq4)             |
 | 125     | 29 Nov 2018    | TRONBet                   | TRONBet                                 | [Watch Video](https://youtu.be/E1aqA4vGEWA)             |
-|         | 22 Nov 2018    | N/A                       | Thanksgiving Break                      | N/A
+|         | 22 Nov 2018    | N/A                       | Thanksgiving Break                      | N/A                                                     |
 | 124     | 15 Nov 2018    | Janelle Letzen            | Sushi and Science                       | [Watch Video](https://youtu.be/9eK2kOqEr7E)             |
 | 123     | 8 Nov 2018     | Gordon Kruberg, M.D.      | Gumstix, Geppetto and Board Builder!    | [Watch Video](https://youtu.be/XFaxHzfQ5Ek)             |
 | 122     | 1 Nov 2018     | Max Bradly-Hoover         | 3D Printing and Solidworks              | [Watch Video](https://youtu.be/wH_gkCemir4)             |
@@ -41,11 +130,6 @@ layout: container-breadcrumb-tabs
 | 103     | 21 Jun 2018    | Peter Robinson - RedHat   | Introduction to Fedora IoT              | [Watch Video](https://youtu.be/4vIqCCh-iTE)             |
 | 102     | 14 Jun 2018    | Tom Cubie - Vamrs         | Introduction to the Rock960             | [Watch Video](https://youtu.be/qmdYR-kZt8I)             |
 | 101     | 7 Jun 2018     | UCSD ECE 191 Close out    | 96Boards Q2 UCSD Engineering Mentorship | [Watch Video](https://youtu.be/WfN_n9PT6q4)             |
-
-## Phase 1
-
-| Episode | Date           | Guest(s)                | Topic(s)                                 | YouTube                                              |
-|:-------:|:--------------:|:-----------------------:|:-----------------------------------------|:----------------------------------------------------:|
 | 100     | 26 Apr 2018    | OpenHours Phase 2 Pilot | Introduction to OpenHours Phase 2!       | [Watch Video](https://youtu.be/-eGkRXdkIIE)          |
 |  99     | 12 Apr 2018    | Daniel Thompson         | Socionext Developerbox                   | [Watch Video](https://youtu.be/vjETUXdgEY0)          |
 |  98     | 5 Apr 2018     | 96Boards Team           | Q/A                                      | [Watch Video](https://youtu.be/hAl6bO4ugE0)          |
@@ -62,6 +146,11 @@ layout: container-breadcrumb-tabs
 |  87     | Jan 18 2018    | 96Boards Team           | Q/A                                      | [Watch Video](https://youtu.be/eBzOiF8iKHI)          |
 |  86     | Jan 11 2018    | Joakim Bech             | Addressing Meltdown and Specter          | [Watch Video](https://youtu.be/FiINvzyO5R8)          |
 |  85     | Jan 4 2018     | Sahaj Sarup             | Poplar Gigabit NAS and 96boards Updates  | [Watch Video](https://youtu.be/LZDeWVo_GW0)          |
+
+## 2017
+
+| Episode | Date           | Guest(s)                | Topic(s)                                 | YouTube                                              |
+|:-------:|:--------------:|:-----------------------:|:-----------------------------------------|:----------------------------------------------------:|
 |  84     | 28 Dec 2017    | 96Boards Team           | Forum Talk                               | [Watch Video](https://youtu.be/N9GoyGRZh8g)          |
 |  83     | 21 Dec 2017    | Maddog                  | Holiday Wish list                        | [Watch Video](https://youtu.be/G2qqNVTGaJU)          |
 |  82     | 14 Dec 2017    | 96Boards Team           | Forum Talk                               | [Watch Video](https://youtu.be/eoMNsDhg89w)          |
@@ -112,6 +201,11 @@ layout: container-breadcrumb-tabs
 |  37     | 26 Jan 2017    | Robert Wolff            | HARD Hack review                         | [Watch Video](https://youtu.be/AdtDhraOJTI)          |
 |  36     | 19 Jan 2017    | ST Micro                | ESD protection                           | [Watch Video](https://youtu.be/pgK_JRJtBzY)          |
 |  35     | 5 Jan 2017     | 96Boards Team           | Q&A                                      | [Watch Video](https://youtu.be/VGvJT8xEXvo)          |
+
+## 2016
+
+| Episode | Date           | Guest(s)                | Topic(s)                                 | YouTube                                              |
+|:-------:|:--------------:|:-----------------------:|:-----------------------------------------|:----------------------------------------------------:|
 |  34     | 29 Dec 2016    | 96Boards Team           | Q&A                                      | [Watch Video](https://youtu.be/kowVZBQaEN0)          |
 |  33     | 22 Dec 2016    | Maddog                  | Maddog's Christmas Special               | [Watch Video](https://youtu.be/74LgjEXUR1I)          |
 |  32     | 15 Dec 2016    | Bill Fletcher           | MQTT Demo                                | [Watch Video](https://youtu.be/CTwt9VhzdKE)          |

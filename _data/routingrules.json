@@ -183,6 +183,8 @@
     "^/project/mqtt-demo(/?|/index.html)$ /projects/Mosquitto/ [R,L,NC]",
     "^/project/new(/?|/index.html)$ /projects/submit/ [R,L,NC]",
     "^/project/submit.md(/?|/index.html)$ /projects/submit/ [R,L,NC]",
+    "^/project/faq.md(/?|/index.html)$ /projects/faq/ [R,L,NC]",
+    "^/projects/contribute.md(/?|/index.html)$ /projects/contribute/ [R,L,NC]",
     "^/project/sample-project-demo(/?|/index.html)$ /projects/template.md/ [R,L,NC]",
     "^/register(/?|/index.html)$ https://discuss.96boards.org/login [R,L,NC]",
     "^/secure96(/?|/index.html)$ /product/secure96/ [R,L,NC]",

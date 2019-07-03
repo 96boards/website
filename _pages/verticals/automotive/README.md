@@ -6,7 +6,7 @@ description: |-
   truly change the way our vehicles interact with the environment, both inside and out.
 permalink: /verticals/automotive/
 status: active
-layout: container-breadcrumb
+layout: jumbotron-container
 ---
 
 # Automotive
