@@ -1,15 +1,11 @@
 ---
-layout: flow
+layout: container-breadcrumb-tabs
 title: Project Contribution
-permalink: /projects/contribute/
+permalink: /projects/contribute.md/
 description: |-
     96Boards projects is a community driven initiative of hosting the projects made out of 96Boards (CE, EE and IE).Potential projects should be of good quality and should not include basic interfacing exercises of passive componenets.
-flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
-    - row: main_content_row
 ---
-Contributing to Projects
+Contributing to Projects                           
 ========================
 
 96Boards projects is a community driven initiative of hosting the projects made out of 96Boards (CE, EE and IE).
@@ -37,7 +33,7 @@ The issue should have the following informations:
 Once the issue has been approved by one of our 96Boards team members, projects should be submitted using
 following the [Submit a new Project](/projects/submit/) guide.
 
-If you have any quesitons, please ask in our IRC channel #96Boards or #OpenHours. Also, refer our [FAQ](../faq/) section.
+If you have any quesitons, please ask in our IRC channel #96Boards or #OpenHours. Also, refer our [FAQ](../faq.md) section.
 
 ***
 

@@ -15,18 +15,18 @@
                 {% assign page_base =  page.url | split:'/' %}
                 {% if page.permalink == "/projects/" or
                     page_base[1] == "projects" and page_base[2] or
-                    page.permalink == "/projects/contribute/" or
-                    page.permalink == "/projects/faq/" or
+                    page.permalink == "/projects/contribute.md/" or
+                    page.permalink == "/projects/faq.md/" or
                     page.permalink == "/projects/submit/" %}
                         {% if page_base[2] and
-                         page_base[2] != "faq" and
-                         page_base[2] != "contribute" and
+                         page_base[2] != "faq.md" and
+                         page_base[2] != "contribute.md" and
                          page_base[2] != "submit" %}
                             <li role="presentation" class="active tabbed-nav-btn"><a href="{{page.permalink}}" aria-controls="overview" role="link">{{page.title}}</a></li>
                         {% endif %}
                     <li role="presentation" {% if page.permalink == '/projects/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/" aria-controls="overview" role="link">Projects</a></li>
-                    <li role="presentation" {% if page.permalink == '/projects/contribute/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/contribute/" aria-controls="lswg" role="link">Contribute</a></li>
-                    <li role="presentation" {% if page.permalink == '/projects/faq/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/faq/" aria-controls="lswg" role="link">FAQ</a></li>
+                    <li role="presentation" {% if page.permalink == '/projects/contribute.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/contribute.md/" aria-controls="lswg" role="link">Contribute</a></li>
+                    <li role="presentation" {% if page.permalink == '/projects/faq.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/faq.md/" aria-controls="lswg" role="link">FAQ</a></li>
                     <li role="presentation" class="tabbed-nav-btn"><a href="/openhours/" aria-controls="lswg" role="link">OpenHours</a></li>
                     <li role="presentation" {% if page.permalink == '/projects/submit/' %}class="active tabbed-nav-btn pull-right"{% else %}class="tabbed-nav-btn pull-right"{% endif %}><a href="/projects/submit/" aria-controls="lswg" role="link">Submit a Project</a></li>
                 {% endif %}

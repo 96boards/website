@@ -3,7 +3,7 @@ title: Dragonboard410c Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/dragonboard410c/
-layout: jumbotron-container
+layout: container-breadcrumb
 css-package: about
 
 ---

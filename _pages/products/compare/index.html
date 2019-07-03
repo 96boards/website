@@ -1,3 +1,79 @@
+---
+title: Compare 96Boards
+permalink: /products/compare/
+layout: container-breadcrumb-tabs
+css-package: products
+js-package: products-compare
+---
+<select id="compare-96boards-select" multiple="multiple">
+    <optgroup label="Consumer Edition" class="consumer-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ce" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="Enterprise Edition" class="enterprise-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ee" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="IoT Edition" class="iot-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "ie" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="Mezzanine Edition" class="mezzanine-edition-group">
+        {% assign products_array = site.product | where: "product_specification", "mezzanine" %}
+        {% assign products_array = products_array | where: "display_product", "true" %}
+        {% for product in products_array %}
+        <option value="{{product.permalink | replace: "/product/", "" | replace: "/", ""}}">{{product.title}}</option>
+        {% endfor %}
+    </optgroup>
+</select>
+
+
+{% assign products_array = site.product | ascending %}
+{% assign products_array = products_array | where: "display_product", "true" %}
+
+{% assign product_specs = site.data.board-details %}
+
+{% assign rawtags = "" %}
+
+{% for product in product_specs %}
+{% for attr in product.attributes %}
+{% assign ttags = attr.name | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% endfor %}
+
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+{% if tag != "" %}
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<select id="compare-96boards-attribute-select" multiple="multiple">
+    <option value="price">Price</option>
+    <option value="image">Image</option>
+    {% for attr in tags %}
+    <option value="{{attr}}">{{attr}}</option>
+    {% endfor %}
+</select>
+
 
 <div role="tabpanel">
     <!-- Nav tabs -->

@@ -3,7 +3,7 @@ title: Dragonboard410c Partnership Brazil
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /go/db410c-partnership-brazil/
-layout: jumbotron-container
+layout: container-breadcrumb
 date: 2016-01-29 01:00:00+00:00
 image: /assets/images/content/arrow-dragonboard410c-partnership-brazil-bg.jpg
 ---

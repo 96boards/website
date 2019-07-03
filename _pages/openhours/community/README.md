@@ -1,12 +1,8 @@
 ---
 title: OpenHours Community
 permalink: /openhours/community/
-layout: flow
+layout: container-breadcrumb-tabs
 css-package: openhours
-flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
-    - row: main_content_row
 ---
 # Community
 

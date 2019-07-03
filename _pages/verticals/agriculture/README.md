@@ -6,7 +6,7 @@ description: |-
   challenges when it comes to agriculture is the lack of manpower.
 permalink: /verticals/agriculture/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # Agriculture

@@ -1,7 +1,7 @@
 ---
 title: Hackathon India May 2017
 permalink: /go/hackathon-indiasummer2017/
-layout: jumbotron-container
+layout: container-breadcrumb
 date: 2017-05-29 01:00:00+00:00
 image: /assets/images/content/india-initiative-bg.jpg
 ---

@@ -1,16 +1,32 @@
 ---
-layout: flow
+layout: container-breadcrumb-tabs
 title: Submit Project
 permalink: "/projects/submit/"
 description: |-
     If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community.
-flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
-    - row: custom_include_row
-      source: submit_a_project.html
-    - row: main_content_row
 ---
+# Submit a project
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#submitProject">
+Submit a project
+</button>
+  
+<!-- Modal 2 -->
+<div class="modal fade" id="submitProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Submit a project</h4>
+      </div>
+      <div class="modal-body">
+          <div class="cognito">
+          <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+          <script>Cognito.load("forms", { id: "9" });</script>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community. You may also have a project that you want to invite other people to participate in. Generally, projects will require you to have a project URL, which may new/be on services like GitHub or SourceForge, or something you host yourself. We will regularly check links and will view projects that are no longer accessible or become very out of date.
 
@@ -86,5 +102,5 @@ For more detailed instructions on how to submit a pull request in GitHub, please
 
 ***
 
-- [Contribute to an existing project](../contribute/)
+- [Contribute to an existing project](../contribute.md)
 - [Return to Projects home page](../)
