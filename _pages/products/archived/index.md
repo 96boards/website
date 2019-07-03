@@ -14,12 +14,12 @@ seo:
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html
-    - row: custom_include_row
-      source: product-filters.html
-    - row: custom_include_row
-      source: compare-boards-modal.html
     - row: container_row
       sections:
-        - format: custom_include
-          source: display-products.html
+        - format: custom
+          include_name: product-filters.html
+    - row: custom_include_row
+      source: compare-boards-modal.html
+    - row: main_content_row
 ---
+{% include display-products.html specification="archived" %}
