@@ -4,11 +4,7 @@ layout: product-display-page
 shortname: 96boards-som-carrier-board
 permalink: /product/96boards-som-carrier-board/
 description: |-
-<<<<<<< HEAD
     The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification”
-=======
-    The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification” 
->>>>>>> upstream/master
     and “96Boards Enterprise Edition Specification”. This carrier board provides many interface as possible to meet the needs of Som board debugging an
     testing.
 keywords: |-
@@ -29,7 +25,6 @@ tab_menu:
     - tab_title: SoM Carrier Board
       tab_link: /product/96boards-som-carrier-board/
       active: true
-<<<<<<< HEAD
     - tab_title: Getting Started
       tab_link: /documentation/som/96boards-som-carrier-board/
       tab_position: 1
@@ -57,31 +52,6 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-hardware-user-manual.pdf
   - title: Schematics
   - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-schematics.pdf
-=======
-    - tab_title: Documentation
-      tab_link: /documentation/som/96boards-som-carrier-board/
-      tab_position: 1
-      tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
-      tab_position: 3
-      tab_align_right: true
-product_buy_links:
-  -
-    link-title: SeeedStudio
-    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-CarrierBoard-Kit-For-RK1808-RK3399Pro-p-4076.html
-    from: SeeedStudio
-    type: board
-    link-price: "125.00"
-    link-price-currency: USD
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
-  - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
-  - title: Beiqi Cloud
-    link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
->>>>>>> upstream/master
 product: true
 archived: false
 ---
@@ -124,8 +94,4 @@ The 96Boards SoM Carrier Board is an Interface debugging and testing carrier boa
 |  System LED | System LED |
 |  X1、X2、X3、X4 | Som board Connector |
 {:.hidden_rows}
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> upstream/master
