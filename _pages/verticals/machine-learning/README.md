@@ -5,7 +5,7 @@ description: |-
   identify patterns and create past experience to solve problems.
 permalink: /verticals/machine-learning/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # Machine Learning

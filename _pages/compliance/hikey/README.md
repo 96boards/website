@@ -3,10 +3,10 @@ title: Hikey Compliance
 description: |-
     96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/hikey/
-layout: jumbotron-container
+layout: container-breadcrumb
 css-package: about
----
 
+---
 ## Dragonboard410c Compliance
 <div style="overflow-x:auto;">
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0">

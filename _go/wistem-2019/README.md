@@ -3,7 +3,7 @@ title: Women in STEM - 2019
 description: |-
     We are looking for women to share their "STEM story"!
 permalink: /go/wistem-2019/
-layout: jumbotron-container
+layout: container-breadcrumb
 date: 2019-05-01 01:00:00+00:00
 image: /assets/images/content/wistem-bg.png
 ---

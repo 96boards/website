@@ -4,7 +4,7 @@ description: |-
   Drone technologies today border on that of yesterday’s science fiction. Curiosity and convenience has driven improvements to pretty much every aspect of the drone world.
 permalink: /verticals/drone/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # Drone

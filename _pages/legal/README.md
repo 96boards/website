@@ -1,6 +1,6 @@
 ---
 title: Legal
-layout: jumbotron-container
+layout: container-breadcrumb
 permalink: "/legal/"
 ---
 

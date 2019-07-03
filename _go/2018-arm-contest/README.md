@@ -3,7 +3,7 @@ title: The Autonomous Robot Challenge - Arm 2018
 description: |-
     Ultra96 Contest by Arm and Hackster.io
 permalink: /go/2018-arm-contest/
-layout: jumbotron-container
+layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
 image: /assets/images/content/autonomous-robot-challenge.png

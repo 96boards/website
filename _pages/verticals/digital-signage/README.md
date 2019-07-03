@@ -4,7 +4,7 @@ description: |-
   With the Digital signage market expected to grow huge in the upcoming years, there has been lot of investment in this sector.
 permalink: /verticals/digital-signage/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # Digital Signage

@@ -3,7 +3,7 @@ title: Brazil Partnership - 2018
 description: |-
     Brazil Partnership Program, dedicated community support page.
 permalink: /go/2018-partnership-brazil/
-layout: jumbotron-container
+layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
 date: 2018-05-09 01:00:00+00:00

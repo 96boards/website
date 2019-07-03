@@ -4,7 +4,7 @@ description: |-
   Getting the high end audio devices seemed to be very expensive but with the advent of 96Boards, one can easily construct those devices with ease.
 permalink: /verticals/high-end-audio/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # High End Audio

@@ -6,7 +6,7 @@ description: |-
   development process.
 permalink: /verticals/healthcare/
 status: active
-layout: jumbotron-container
+layout: container-breadcrumb
 ---
 
 # Healthcare

@@ -1,10 +1,10 @@
 ---
-layout: flow
+layout: container-breadcrumb-tabs
 js-package: extended
 css-package: products
 ---
-{% include sticky-tab-bar.html %}
 {% assign accessories =  page.accessories %}
+
 {% assign content = content | strip_newlines %}
 
 {% if content != "" %}
@@ -17,10 +17,13 @@ css-package: products
     </div>
     <hr />
 </div><!-- end row-->
-{% endif %}
 
+{% endif %}
 <div class="row">
+
+
 {% for accessory in accessories %}
+
     <div class="col-md-12">
             <div class="row">
                 <div class="col-md-3">

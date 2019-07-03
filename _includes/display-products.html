@@ -3,7 +3,7 @@
 <div id="grid" class="mixitup-container">
     {% assign products_array =  site.product | where: "product", "true" %}
     {% if spec == "archived" %}
-        {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "false" %}
+    {% assign products_array =  products_array | where: "archived", "true" | where: "display_product", "true" %}
     {% elsif spec != "all" %}
         {% if include.subSpecification %}
             {% assign products_array =  products_array | where: "product_specification", spec | where: "product_sub_specification", subSpec | where: "display_product", "true" | where: "archived", "false" %}
@@ -19,7 +19,7 @@
             {% assign board-details = site.data.board-details %}
             {% for board in board-details %}
                 {% if board.id == product.permalink %}
-                    {% assign dateAdded = board.dateAdded %}
+                    {% assign dateAdded = board.dateAdded %} 
                 {% endif %}
             {% endfor %}
         <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-md-4 col-lg-3

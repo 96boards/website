@@ -3,7 +3,7 @@ title: Arrow / Shiratech - Online Hackathon
 description: |-
     Arrow and Shiratech host an online hackathon around any Arrow/Shiratech 96Boards technologies.
 permalink: /go/2018-arrow-shiratech-hack/
-layout: jumbotron-container
+layout: container-breadcrumb
 css-package: openhours
 js-package: openhours
 date: 2018-09-20 01:00:00+00:00
