@@ -4,7 +4,7 @@ layout: product-display-page
 shortname: 96boards-som-carrier-board
 permalink: /product/96boards-som-carrier-board/
 description: |-
-    The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification” 
+    The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification”
     and “96Boards Enterprise Edition Specification”. This carrier board provides many interface as possible to meet the needs of Som board debugging an
     testing.
 keywords: |-
@@ -26,7 +26,7 @@ tab_menu:
       tab_link: /product/96boards-som-carrier-board/
       active: true
     - tab_title: Getting Started
-      tab_link: /documentation/som/96boards-som-carrier-board/getting-started/
+      tab_link: /documentation/som/96boards-som-carrier-board/
       tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/som/96boards-som-carrier-board/
@@ -46,7 +46,7 @@ product_buy_links:
     link-price-currency: USD
 product_os:
   - title: All Downloads
-    link: /documentation/som/96boards-som-carrier-board/downloads/
+    link: /documentation/som/96boards-som-carrier-board/
 product_more_info:
   - title: Hardware User Manual
     link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-hardware-user-manual.pdf
