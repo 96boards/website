@@ -20,7 +20,6 @@ flow:
                 type: image
                 content: /assets/images/content/96Consumer.svg
             title: Consumer Edition
-            text: page_content
             text: >
                 The 96Boards Consumer Edition (CE) Platform is intended to support Low cost Single Board Computer use, Open Source community software development, Maker community, Embedded System OEMs requiring low cost off-the-shelf CPU modules and Community engineering activities.
             buttons: 
@@ -41,7 +40,6 @@ flow:
                 type: image
                 content: /assets/images/content/96Enterprise.svg
             title: Enterprise Edition
-            text: page_content
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
             buttons: 
@@ -62,7 +60,6 @@ flow:
                 type: image
                 content: /assets/images/content/96IoT.svg
             title: IoT Edition
-            text: page_content
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
             buttons: 
@@ -83,7 +80,6 @@ flow:
                 type: image
                 content: /assets/images/content/96Partner.svg
             title: Mezzanine Guideline
-            text: page_content
             text: >
                 The 96Boards mezzanine guideline allows you to expand your **Consumer Edition** or **Enterprise Edition** 96Boards with new interfaces for IoT, industrial control, and other embedded applications. See the mezzanine guidelines for some helpful resources.
             buttons: 
@@ -104,7 +100,6 @@ flow:
                 type: image
                 content: /assets/images/content/96Boards-Logo-96 SoM.svg
             title: SoM Edition
-            text: page_content
             text: >
                 The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable and cost-effective embedded platforms for building end-products.
             buttons: 
