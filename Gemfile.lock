@@ -3,8 +3,11 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.5.1.1)
+    autoprefixer-rails (9.6.0)
       execjs
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
@@ -60,7 +63,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
-    jekyll-responsive-image (1.5.2)
+    jekyll-responsive-image (1.0.2)
       jekyll (>= 2.0, < 4.0)
       rmagick (>= 2.0, < 3.0)
     jekyll-sass-converter (1.5.2)
@@ -80,11 +83,12 @@ GEM
       nokogiri (~> 1.9)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jumbo-jekyll-theme (4.7.8)
+    jumbo-jekyll-theme (5.5.1)
       autoprefixer-rails (~> 9.0, >= 9.0.0)
-      ffi (~> 1.9.24)
+      bootstrap-sass (~> 3.4.1)
+      ffi (~> 1.9.6)
       hash-joiner (~> 0)
-      jekyll (~> 3.7.4)
+      jekyll (~> 3.7.3)
       jekyll-assets (= 2.4.0)
       jekyll-data (> 0)
       jekyll-feed (> 0)
@@ -93,13 +97,13 @@ GEM
       jekyll-paginate-v2 (> 0)
       jekyll-readme-index (= 0.2)
       jekyll-redirect-from (~> 0.12)
-      jekyll-responsive-image
+      jekyll-responsive-image (~> 1.0.1)
       jekyll-seo-tag (~> 2.2)
       jekyll-sitemap (~> 1.1)
       jekyll-theme-assets-updated (~> 1.1)
       jekyll-tidy (~> 0.2.2)
       jekyll-watch (~> 2.1.1)
-      rack (>= 1.6.11)
+      rack (> 0)
       sprockets (~> 3.7.2)
       uglifier (> 0)
     kramdown (1.17.0)
@@ -115,13 +119,14 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.13)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     rack (1.6.11)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rmagick (2.16.0)
-    rouge (3.3.0)
+    rouge (3.4.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -129,6 +134,9 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -141,7 +149,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-data
   jekyll-toc
-  jumbo-jekyll-theme (= 4.7.8)
+  jumbo-jekyll-theme (= 5.5.1)
 
 BUNDLED WITH
-   1.17.2
+   1.17.3

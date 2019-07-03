@@ -9,7 +9,7 @@ permalink: /verticals/manufacturing/
 keywords: |-
   circuit board manufacturing, printed circuit board, Manufacturing board, Manufacturing development boards,
 status: active
-layout: container-breadcrumb
+layout: jumbotron-container
 ---
 # Manufacturing
 

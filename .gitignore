@@ -6,3 +6,4 @@ _site
 _documentation
 build.sh
 .jekyll-metadata
+assets/resized

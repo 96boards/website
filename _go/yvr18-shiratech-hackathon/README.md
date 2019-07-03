@@ -1,7 +1,7 @@
 ---
 title: Shiratech Hackathon at Linaro Connect Vancouver!
 permalink: /go/yvr18-shiratech-hackathon/
-layout: container-breadcrumb
+layout: jumbotron-container
 date: 2018-09-28 01:00:00+00:00
 image: /assets/images/content/shiratech-hackathon-yvr18.jpg
 ---
