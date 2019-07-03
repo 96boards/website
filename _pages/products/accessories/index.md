@@ -9,6 +9,7 @@ flow:
     - row: custom_include_row
       source: sticky-tab-bar.html
     - row: container_row
+      style: block_row
       sections:
         - format: text
           content: >
@@ -16,58 +17,58 @@ flow:
         - format: block
           style: text-center text-white
           item_width: 3
-          content: 
-              - title: 
+          content:
+              - title:
                     size: h3
                     content: Power
                 url: /product/power/
                 background_image: /assets/images/content/power.jpg
                 text:
-                    content: >  
+                    content: >
                         See our supported power accessories.
                 buttons:
                     - title: View Accessories
                       url: /product/power/
                       icon: fa fa-arrow-right
                       style: btn-primary
-              - title: 
+              - title:
                     size: h3
                     content: USB Adapters
                 url: /product/power/
                 background_image: /assets/images/content/usb-ethernet-adapter.jpg
                 text:
-                    content: >  
+                    content: >
                         See our supported USB Adapter accessories.
                 buttons:
                     - title: View Accessories
                       url: /product/adapter/
                       icon: fa fa-arrow-right
                       style: btn-primary
-              - title: 
+              - title:
                     size: h3
                     content: Debug
                 url: /product/debug/
                 background_image: /assets/images/content/debug.jpg
                 text:
-                    content: >  
+                    content: >
                         See our supported debug accessories.
                 buttons:
                     - title: View Accessories
                       url: /product/debug/
                       icon: fa fa-arrow-right
                       style: btn-primary
-              - title: 
+              - title:
                     size: h3
                     content: Miscellaneous
                 url: /product/misc/
                 background_image: /assets/images/content/misc.jpg
                 text:
-                    content: >  
+                    content: >
                         See our supported miscellaneous accessories.
                 buttons:
                     - title: View Accessories
                       url: /product/misc/
                       icon: fa fa-arrow-right
                       style: btn-primary
-            
+
 ---
