@@ -39,11 +39,26 @@ tab_menu:
       tab_align_right: true
 product_buy_links:
   -
+<<<<<<< HEAD
     link-title: Coming Soon...
     link-url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
     from: BeiqiCloud
     type: board
     link-price: "TBC"
+=======
+    link-title: SeeedStudio
+    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-RK3399Pro-AIoT-96Boards-Compute-SoM-p-4075.html
+    from: SeeedStudio
+    type: board
+    link-price: "119.00"
+    link-price-currency: USD
+  -
+    link-title: Alibaba
+    link-url: https://www.alibaba.com/product-detail/Wholesales-OEM-ODM-factory-Rockchip-RK3399Pro_62006629076.html?spm=a2747.manage.0.0.5a3e71d23mEE2D
+    from: Alibaba
+    type: board
+    link-price: "149.00"
+>>>>>>> upstream/master
     link-price-currency: USD
 product_os:
   - title: All Downloads
@@ -55,6 +70,11 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
   - title: Schematics
   - link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+<<<<<<< HEAD
+=======
+  - title: Beiqi Cloud
+    link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
+>>>>>>> upstream/master
 # product_accessories:
 #   - title: Power
 #     link: /product/power/
