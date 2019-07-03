@@ -25,33 +25,29 @@ tab_menu:
     - tab_title: SoM Carrier Board
       tab_link: /product/96boards-som-carrier-board/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/96boards-som-carrier-board/
-      tab_position: 1
     - tab_title: Documentation
       tab_link: /documentation/som/96boards-som-carrier-board/
+      tab_position: 1
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
-      tab_position: 4
+      tab_position: 3
       tab_align_right: true
 product_buy_links:
   -
-    link-title: Coming Soon...
-    link-url: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
-    from: BeiqiCloud
+    link-title: SeeedStudio
+    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-CarrierBoard-Kit-For-RK1808-RK3399Pro-p-4076.html
+    from: SeeedStudio
     type: board
-    link-price: "TBC"
+    link-price: "125.00"
     link-price-currency: USD
-product_os:
-  - title: All Downloads
-    link: /documentation/som/96boards-som-carrier-board/
 product_more_info:
   - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-hardware-user-manual.pdf
+    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
   - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/hardware-docs/files/96boards-som-carrier-board-schematics.pdf
+  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
+  - title: Beiqi Cloud
+    link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
 product: true
 archived: false
 ---
