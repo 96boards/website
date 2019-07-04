@@ -7,3 +7,4 @@ _documentation
 build.sh
 .jekyll-metadata
 assets/resized
+Gemfile.lock
