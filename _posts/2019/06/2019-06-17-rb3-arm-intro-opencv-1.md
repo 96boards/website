@@ -7,6 +7,7 @@ image:
     path: /assets/images/blog/rb3-arm.jpg
     name: rb3-arm.jpg
 categories: blog
+series: Qualcomm RB3 Robotic Arm Project
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
 
