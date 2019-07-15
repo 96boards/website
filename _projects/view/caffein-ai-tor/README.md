@@ -5,6 +5,10 @@ description: |-
     Double deep learning CNNs with face and motion recognition, feeding predictive machine learning, to bring you the optimal caffein kick.
 images:
   - caffein-ai-tor.png
+categories:
+  - Ultra96
+  - Heathcare
+  - Maker
 
 ---
 # Caffein-AI-Tor
