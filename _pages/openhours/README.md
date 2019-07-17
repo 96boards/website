@@ -25,9 +25,14 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA3MThUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Live from Snapcraft Summit - Montreal, Canada!**
+**Tech AMA Featuring Carl Perry of Packet**
 
-Who can we get from Snapcraft summit to talk to us live on OpenHours? Tune in to find out! There are folks from all walks of life here working on some of the coolest things. The hope is to speak with one of the event organizers, a representative from the ROS community and a board enablement pro! Come learn about Ubuntu Core, Snapcraft and ROS with us!
+This week, we will have Carl Perry as our featured guest! Generally speaking, this will be a tech AMA; however, you can expect this rowdy group of streamers to bring some fun topics of discussion to the table. If you plan to join the call through Zoom, feel free to join in on the conversation! If you have any cool tech lying around, let us know! We are glad to showcase any spur of the moment demos :-)
+
+**If you would like to learn more about Packet and the Works on Arm initiative, please poke throug the resources below:**
+
+- [Packet](https://www.packet.com/)
+- [Works on Arm](https://www.worksonarm.com/)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
