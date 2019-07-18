@@ -4,7 +4,7 @@ permalink: "/projects/ultra96-iot-tempsensor/"
 description: |-
     IoT is a hot topic for Ultra96 developers. This project shows how to connect to IoT infrastructure and integrate with IFTTT.
 images:
-  - 
+  - ultra96-iot-tempsensor.png
 categories:
   - Ultra96
 
