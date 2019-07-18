@@ -1,5 +1,5 @@
 ---
-title: Itegrating Alexa & Ultra96
+title: Integrating Alexa & Ultra96
 permalink: "/projects/alexa-and-ultra96/"
 description: |-
     Voice control using Alexa is popular for a number of applications. This project shows how to connect an Ultra96 (Arm & FPGA) with Alexa.
