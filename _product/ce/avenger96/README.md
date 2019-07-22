@@ -38,11 +38,11 @@ product_support_link: "https://discuss.96boards.org/c/products/avenger96"
 # Buy Links
 product_buy_links:
   -
-    link-title: Avenger96 (Coming Soon...)
-    link-url: "https://www.arrow.com/en/campaigns/avengers"
+    link-title: Avenger96
+    link-url: "https://www.arrow.com/en/products/avenger96/arrow-development-tools"
     from: Arrow Electronics
     type: board
-    link-price: ""
+    link-price: "$149.00"
     link-price-currency: USD
 
 # Right Sidepanel links
@@ -55,6 +55,8 @@ product_more_info:
     link: https://github.com/96boards/documentation/blob/master/consumer/avenger96/hardware-docs/files/avenger96-hardware-user-manual.pdf
   - title: Schematics
   - link: https://github.com/96boards/documentation/blob/master/consumer/avenger96/hardware-docs/files/avenger96-schematics.pdf
+  - title: Arrow Campaign
+    link: https://www.arrow.com/en/campaigns/avengers
 
 # Bottom Link
 product_accessories:
