@@ -5,7 +5,7 @@ description: |-
 keywords: |-
 permalink: /verticals/
 status: active
-layout: container-breadcrumb
+layout: jumbotron-container
 ---
 
 # 96Boards Verticals

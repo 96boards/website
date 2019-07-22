@@ -1,7 +1,11 @@
 ---
 title: 96Boards Service Partners
 permalink: /services/partners/
-layout: container-breadcrumb-tabs
+layout: flow
+flow:
+    - row: custom_include_row
+      source: sticky-tab-bar.html
+    - row: main_content_row
 ---
 All 96Boards services partners are hand picked to address 96Boards specific needs. Most of our service partners will have catered services and solutions geared toward facilitating development for those on their path to product.
 

@@ -70,4 +70,3 @@ Running on the RB3: ![](https://github.com/ric96/website/raw/blog/assets/images/
 
 
 RB3 doesn't break a sweat ;)
-

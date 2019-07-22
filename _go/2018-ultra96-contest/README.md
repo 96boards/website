@@ -3,7 +3,7 @@ title: Ultra96 Contest - 2018
 description: |-
     Ultra96 Contest by Xilinx, Avnets and Hackster.io
 permalink: /go/2018-ultra96-contest/
-layout: container-breadcrumb
+layout: jumbotron-container
 css-package: openhours
 js-package: openhours
 date: 2018-11-29 01:00:00+00:00
