@@ -29,11 +29,18 @@ tab_menu:
       tab_align_right: true 
 product_buy_links:
   -
-    link-title: Developerbox (Chip1Stop)
+    link-title: Developerbox (Full Kit)
     link-url: "http://www.chip1stop.com/web/USA/en/dispDetail.do?partId=SOCI-0000001&cid=SOCIEB"
     from: chip1stop.com
     type: board
     link-price: "$1200.00"
+    link-price-currency: USD
+  -
+    link-title: Developerbox (Board Only)
+    link-url: "https://www.chip1stop.com/USA/en/product/detail?partId=SOCI-0000003&mpn=SC0FQAA-B-000"
+    from: chip1stop.com 
+    type: board
+    link-price: "$462.00"
     link-price-currency: USD
 product_more_info:
     - title: Socionext
