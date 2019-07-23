@@ -100,6 +100,3 @@ To be hosted on the site they must meet the 96Boards Compliance requirements. Ve
 #### **Community Builds**
 
 Community builds are 96Boards compliant builds created by the community and hosted on 96Boards.org as a service to 96Boards users. The provider is expected to provide support for a Community Build.
-
-
-<small id="SMALL_156">Issue 1.01 / Date February 9, 2016</small>
