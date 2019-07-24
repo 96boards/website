@@ -155,6 +155,7 @@ def detect_hsv(frame, lower, upper):
 				data = [c, cX, cY, shape]
 				data_arr.insert(i, data)
 				i = i + 1
+
 		return data_arr
 ```
 
