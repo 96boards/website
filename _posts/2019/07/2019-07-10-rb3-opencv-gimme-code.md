@@ -37,6 +37,7 @@ import cv2
 import imutils
 from imutils.video import WebcamVideoStream
 ```
+
 - `cv2` imports opencv for Python
 - `imutils` is a wrapper around cv2 video i/o libraries to make life easier.
 - `WebcamVideoStream` is a specific function within imutils to get frames from webcam.
@@ -74,6 +75,7 @@ blueUpper = (120, 255, 128)
 ![](https://i2.wp.com/www.relatably.com/m/img/functional-programming-memes/meme-functions.jpg)
 
 ### Shape Detector
+
 ```python
 class ShapeDetector:
 	def __init__(self):
@@ -87,7 +89,6 @@ class ShapeDetector:
 		# if the shape is a triangle, it will have 3 vertices
 		if len(approx) == 3:
 			shape = "triangle"
-
 		# if the shape has 4 vertices, it is either a square or
 		# a rectangle
 		elif len(approx) == 4:
@@ -218,7 +219,6 @@ def main():
 			overlay(frame, shape_red[i], (0,255,0), i)
 
 		cv2.imshow("Frame", frame)
-
 
 		#cv2.imshow("Frame1", framer)
 		key = cv2.waitKey(1) & 0xFF
