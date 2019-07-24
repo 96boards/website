@@ -16,6 +16,8 @@ plugins:
   - jekyll-data
   - jekyll-readme-index
 blog_images_dir: assets/images/blog/
+# Permalink for blogs
+permalink: /blog/:title/
 # Shema.org Setup -> used in the schema.html include.
 schema:
   organisation:
