@@ -1,4 +1,4 @@
-]source "https://rubygems.org"
+source "https://rubygems.org"
 
 gem "jumbo-jekyll-theme", "5.5.3"
 
