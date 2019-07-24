@@ -32,7 +32,7 @@ To install all the dependencies on a Debian Buster build for RB3, run the follow
 
 We start with importing the following libraries:
 
-```Python
+```python
 import cv2
 import imutils
 from imutils.video import WebcamVideoStream
@@ -49,7 +49,7 @@ from imutils.video import WebcamVideoStream
 
 Some quick global variable declaration:
 
-```Python
+```python
 # WebCam Streaming using imutils
 vs = WebcamVideoStream(src=0).start()
 
@@ -74,11 +74,11 @@ blueUpper = (120, 255, 128)
 ![](https://i2.wp.com/www.relatably.com/m/img/functional-programming-memes/meme-functions.jpg)
 
 ### Shape Detector
-```Python
+```python
 class ShapeDetector:
 	def __init__(self):
 		pass
- 
+
 	def detect_shape(self, c):
 		# initialize the shape name and approximate the contour
 		shape = "unidentified"
@@ -87,7 +87,6 @@ class ShapeDetector:
 		# if the shape is a triangle, it will have 3 vertices
 		if len(approx) == 3:
 			shape = "triangle"
- 
 		# if the shape has 4 vertices, it is either a square or
 		# a rectangle
 		elif len(approx) == 4:
@@ -95,19 +94,19 @@ class ShapeDetector:
 			# bounding box to compute the aspect ratio
 			(x, y, w, h) = cv2.boundingRect(approx)
 			ar = w / float(h)
- 
+
 			# a square will have an aspect ratio that is approximately
 			# equal to one, otherwise, the shape is a rectangle
 			shape = "square" if ar >= 0.95 and ar <= 1.05 else "rectangle"
- 
+
 		# if the shape is a pentagon, it will have 5 vertices
 		elif len(approx) == 5:
 			shape = "pentagon"
- 
+
 		# otherwise, we assume the shape is a circle
 		else:
 			shape = "circle"
- 
+
 		# return the name of the shape
 		return shape
 ```
@@ -119,7 +118,7 @@ class ShapeDetector:
 
 ### HSV Detector
 
-```Python
+```python
 def detect_hsv(frame, lower, upper):
 		# resize the frame, blur it, and convert it to the HSV
 		# color space
@@ -154,7 +153,6 @@ def detect_hsv(frame, lower, upper):
 				data = [c, cX, cY, shape]
 				data_arr.insert(i, data)
 				i = i + 1
-		
 		return data_arr
 ```
 
@@ -171,7 +169,7 @@ def detect_hsv(frame, lower, upper):
 
 ### Overlays
 
-```Python
+```python
 def overlay(frame, data, overlay_col, num):
 	try:
 		cv2.drawContours(frame, [data[0]], -1, overlay_col, 2)
@@ -191,7 +189,7 @@ def overlay(frame, data, overlay_col, num):
 ## Main: one loop to rule them all:
 > I honestly couldn't find a meme for this :/
 
-```Python
+```python
 def main():
 	while True:
 		# compute the center of the contour, then detect the name of the
@@ -205,7 +203,7 @@ def main():
 		frame = vs.read()
 
 		shape_blue = detect_hsv(frame, blueLower, blueUpper)
-		shape_green = detect_hsv(frame, greenLower, greenUpper)		
+		shape_green = detect_hsv(frame, greenLower, greenUpper)
 		shape_red = detect_hsv(frame, redLower, redUpper)
 
 		for i in range(len(shape_blue)-1):
@@ -218,7 +216,6 @@ def main():
 			overlay(frame, shape_red[i], (0,255,0), i)
 
 		cv2.imshow("Frame", frame)
-		
 
 		#cv2.imshow("Frame1", framer)
 		key = cv2.waitKey(1) & 0xFF
