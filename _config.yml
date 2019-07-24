@@ -1,95 +1,64 @@
-# Email address
-email: kyle.kirkby@linaro.org
-# Company logo for schema.org structured data - jekyll-seo-tag plugin
-logo: /assets/images/content/96boards-logo-300x109.png
-# Company email
-email: contact@linaro.org
-#OpenHours Setup
-openhours:
-    hour: 16 # 4pm UTC
-    day: 4 #Thursday -  0-6
-# Destination of the Jekyll site upon build of site.
-destination: _site
-# Include the Linaro Jekyll Theme
-theme: jumbo-jekyll-theme
-# jekyll_get:
-#  - data: linaro_news
-#    json: 'https://www.linaro.org/assets/json/news.json'
-#    cache: true
-plugins:
-  - jekyll-data
-  - jekyll-readme-index
-blog_images_dir: assets/images/blog/
-# Permalink for the blog posts of the Jekyll website.
-permalink: /blog/:title/
-
-# Syntax highlighter for 96boards blog
-highlighter: rouge
-
-# Markdown version
-markdown: kramdown
-
-# Shema.org Setup -> used in the schema.html include.
-schema:
-    organisation:
-        name: 96boards
-        url: https://www.96boards.org
-        sameAs:
-            - https://twitter.com/96Boards
-            - https://www.facebook.com/96Boards
-            - https://www.linkedin.com/company/11404995/
-            - https://plus.google.com/106009833460292139774/posts
-            - https://github.com/96boards
-            - http://slideshare.com/96boards
-        address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
-            post_code: CB22 7GG
-            country_code: UK 
-
-# For china build specific settings.
-china_build: false
-
-# production status for robots.txt and files alike.
-production: true
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge # Syntax highlighter for Kramdown.
-
 # Website title - used in the <title> tag of the <head> section of the website.
 title: 96Boards
-
-# Encoding of the files being included in the Jekyll Build.
-encoding: utf-8
-
 # Description of the website used in the Meta Description.
 description: > # this means to ignore newlines until "baseurl:"
   32- and 64-bit ARM Open Platform Specifications. For software developers.
   For the maker community. For embedded OEMs. 64-bit ARM for $129.
-
-# Jekyll configuration for running the site in "Safe" mode.
-safe: false
-
-# Search label setting for site search with e.g. search/?fields.label=96Boards
-search-label: 96Boards
-    - https://twitter.com/96Boards
-    - https://www.facebook.com/96Boards
-    - https://www.linkedin.com/company/6637095
-    - https://plus.google.com/106009833460292139774/posts
-    - https://github.com/96boards
-    - http://slideshare.com/96boards
-# Disqus Comments settings.
-disqus: true
-disqus_shortname: '96boards'
-
 # This is the url that is used when your site is built for canonicals etc.
 url: "https://www.96boards.org"
+# Company logo for schema.org structured data - jekyll-seo-tag plugin
+logo: /assets/images/content/96boards-logo-300x109.png
+# Company email
+email: contact@linaro.org
+# # Destination of the Jekyll site upon build of site.
+# destination: _site
+# Include the Linaro Jekyll Theme
+theme: jumbo-jekyll-theme
+plugins:
+  - jekyll-data
+  - jekyll-readme-index
+blog_images_dir: assets/images/blog/
+# # Permalink for the blog posts of the Jekyll website.
+# permalink: /blog/:title/
+# # Syntax highlighter for 96boards blog
+# highlighter: rouge
+# # Markdown version
+# markdown: kramdown
+# Shema.org Setup -> used in the schema.html include.
+schema:
+  organisation:
+    name: 96boards
+    url: https://www.96boards.org
+    sameAs:
+      - https://twitter.com/96Boards
+      - https://www.facebook.com/96Boards
+      - https://www.linkedin.com/company/11404995/
+      - https://plus.google.com/106009833460292139774/posts
+      - https://github.com/96boards
+      - http://slideshare.com/96boards
+    address:
+      street: Harston Mill, Royston Rd
+      town: Harston
+      county: Cambridge
+      post_code: CB22 7GG
+      country_code: UK
+# production status for robots.txt and files alike.
+production: true
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge # Syntax highlighter for Kramdown.
 
+# # Encoding of the files being included in the Jekyll Build.
+# encoding: utf-8
+# # Jekyll configuration for running the site in "Safe" mode.
+# safe: false
+# Search label setting for site search with e.g. search/?fields.label=96Boards
+search-label: 96Boards
+# Disqus Comments settings.
+disqus: true
+disqus_shortname: "96boards"
 keep_files:
   - pinout
-
 # Files that should be excluded from the Jekyll build.
 exclude:
   - Gemfile
@@ -112,11 +81,11 @@ exclude:
   - package.json
   - _projects/template/
   - build.sh
+  - check-links.sh
+  - CODEOWNERS
   - package-lock.json
-  
 # Google Tag mangager site wide setting - for deployment of site to China.
 google-tag-manager: true
-
 # Social Configuration for the Jekyll SEO plugin.
 social:
   name: 96Boards
@@ -127,10 +96,8 @@ social:
     - https://plus.google.com/106009833460292139774/posts
     - https://github.com/96boards
     - http://slideshare.com/96boards
-    
 twitter:
-    username: 96Boards
-
+  username: 96Boards
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: 96boards
 linkedin_username: 11404995
@@ -139,86 +106,76 @@ facebook_username: 96Boards
 youtube_username: UCjawhk_W1QnJs3pKIsKLJNg/
 twitter_username: 96Boards
 slideshare_username: 96boards
-
-
 # Jekyll Collections configuration - Projects, Products and Documentation.
 collections:
-    product:
-        output: true
-        permalink: /:collection/:path/
-    projects:
-        output: true
-        permalink: /:collection/:path/
-    documentation:
-        output: true
-        permalink: /:collection/:path/
-    authors:
-        output: true
-        permalink: /:collection/:path/
-    go:
-        output: true
-        permalink: /:collection/:path/
+  product:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  documentation:
+    output: true
+    permalink: /:collection/:path/
+  authors:
+    output: true
+    permalink: /:collection/:path/
+  go:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   - scope:
-        type: "documentation"
+      type: "documentation"
     values:
-        layout: "documentation-page"
-        toc: false
+      layout: "documentation-page"
+      toc: false
   - scope:
-        path: "_projects/view"
+      path: "_projects/view"
     values:
-        project: true
+      project: true
   - scope:
-        type: "projects"
+      type: "projects"
     values:
-        page_specific_css: projects-pages
-        layout: project-display-page
+      page_specific_css: projects-pages
+      layout: project-display-page
   - scope:
-        path: "_product"
+      path: "_product"
     values:
-        page_specific_css: products-pages
+      page_specific_css: products-pages
   - scope:
-        path: ""
-        type: "posts"
+      path: ""
+      type: "posts"
     values:
-        layout: post
-        comments: true
-        page_specific_css: blog-pages
+      layout: post
+      comments: true
+      page_specific_css: blog-pages
   - scope:
-        path: ""
-        type: "authors"
+      path: ""
+      type: "authors"
     values:
-        layout: author
+      layout: author
   - scope:
-        path: "/sitemap.xml"
+      path: "/sitemap.xml"
     values:
-        redirect_from: /sitemap/
+      redirect_from: /sitemap/
   - scope:
       path: ""
     values:
       image: /assets/images/social-media-image.png
   - scope:
-        path: ""
-        type: "authors"
+      path: ""
+      type: "authors"
     values:
-        layout: author
-
-
-# Compress the html and beautify it.
-jekyll_tidy: # Compress the html and beautify it.
-    compress_html: true
-    exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
-
-
+      layout: author
 # Jekyll Assets setup
 assets:
-  # Compress JS Assets - uses the uglifier 
+  # Compress JS Assets - uses the uglifier
   compression: true
   gzip: true
   # Autoprefixer default settings
   autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
   # These are the paths to look for assets
   sources:
     - assets/js/
@@ -231,36 +188,21 @@ assets:
     - assets/images/products/
     - assets/images/content/
     - assets/css/
+# # Jekyll Pagination V2 Configuration
+# pagination:
+#     enabled: true
+#     per_page: 9
+#     trail:
+#         before: 2
+#         after: 2
+#     sort_reverse: true
+#     sort_field: 'date'
+# # Jekyll pagination v2 autopages configuration.
+# autopages:
+#   enabled: false
 
-# Sass Configuration for the site styles
-# sass:
-#     style: compressed
-#     load_paths:
-#         - assets/css
-        
-
-paginate_path: /blog/:num/
-
-# Jekyll Pagination V2 Configuration
-pagination:
-    enabled: true
-    per_page: 9
-    trail:
-        before: 2
-        after: 2
-    sort_reverse: true
-    sort_field: 'date'
-
-# Jekyll pagination v2 autopages configuration.
-autopages:
-  enabled: false
-    
-relative_links:
-  enabled:     true
-  collections: false
-  
-readme_index:
-  enabled:          true
-  remove_originals: false
+# readme_index:
+#   enabled:          true
+#   remove_originals: false
 # Include the _pages source directory
-include: ['_pages']
+# include: ['_pages']
