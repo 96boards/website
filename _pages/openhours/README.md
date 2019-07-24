@@ -27,12 +27,11 @@ jumbotron:
 
 **Come meet the String Team on OpenHours**
 
-String early access is open, and we are gonna get the inside scoop from their team! Joined by Meral and Zac (previously known for their work on [HelloCava](https://youtu.be/s_Ice0UbGN0)), we will showcase the new String platform, demo the product, and then do a cool giveaway for our live viewers! We will of course be open for questions and to both the 96Boards team and our featured guests.
+String early access is open, and we are gonna get the inside scoop from their team! Joined by Meral and Zac (previously known for their work on HelloChava), we will showcase the new String platform, demo the product, and then do a cool giveaway for our live viewers and Twitter followers! We will of course be open for community questions for both the 96Boards team and our featured guests.
 
 **If you would like to learn more about String before the show, feel free to poke around the resources below:**
 
 - [String](https://joinstring.com/)
-- [HelloChava Interview](https://youtu.be/s_Ice0UbGN0)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
