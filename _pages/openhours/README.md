@@ -23,16 +23,16 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA3MThUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA3MjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Tech AMA Featuring Carl Perry of Packet**
+**Come meet the String Team on OpenHours**
 
-This week, we will have Carl Perry as our featured guest! Generally speaking, this will be a tech AMA; however, you can expect this rowdy group of streamers to bring some fun topics of discussion to the table. If you plan to join the call through Zoom, feel free to join in on the conversation! If you have any cool tech lying around, let us know! We are glad to showcase any spur of the moment demos :-)
+String early access is open, and we are gonna get the inside scoop from their team! Joined by Meral and Zac (previously known for their work on [HelloCava](https://youtu.be/s_Ice0UbGN0)), we will showcase the new String platform, demo the product, and then do a cool giveaway for our live viewers! We will of course be open for questions and to both the 96Boards team and our featured guests.
 
-**If you would like to learn more about Packet and the Works on Arm initiative, please poke throug the resources below:**
+**If you would like to learn more about String before the show, feel free to poke around the resources below:**
 
-- [Packet](https://www.packet.com/)
-- [Works on Arm](https://www.worksonarm.com/)
+- [String](https://joinstring.com/)
+- [HelloChava Interview](https://youtu.be/s_Ice0UbGN0)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
