@@ -4,7 +4,7 @@ permalink: "/projects/ultra-96-skin-cancer-ai/"
 description: |-
     Using Ultra96 and NCS to detect and classify skin cancer.
 images:
-  - skincancerai.png
+  - skincancerai.PNG
 categories:
   - Ultra96
 
