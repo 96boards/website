@@ -44,15 +44,11 @@ disqus: true
 disqus_shortname: "96boards"
 keep_files:
   - pinout
-# Files that should be excluded from the Jekyll build.
+# Files that should be excluded from the Jekyll build. Files that
+# start with a "." are automatically excluded.
 exclude:
   - Gemfile
   - Gemfile.lock
-  - .gitignore
-  - .git
-  - .asset-cache
-  - .sass-cache
-  - _site
   - help
   - _projects/README.md
   - _product/README.md
@@ -65,10 +61,19 @@ exclude:
   - gulpfile.js
   - package.json
   - _projects/template/
-  - build.sh
+  - build-site.sh
+  - _documentation/build-site.sh
   - check-links.sh
+  - _documentation/check-links.sh
   - CODEOWNERS
+  - _documentation/CODEOWNERS
+  - manifest.csv
+  - _documentation/manifest.csv
   - package-lock.json
+  - README.md
+  - staging.96boards.org
+  - production.96boards.org
+  - merged_sources
 # Google Tag mangager site wide setting - for deployment of site to China.
 google-tag-manager: true
 # Social Configuration for the Jekyll SEO plugin.

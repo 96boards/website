@@ -2,9 +2,10 @@
 node_modules/*
 .asset-cache
 .sass-cache
-_site
 _documentation
-build.sh
 .jekyll-metadata
 assets/resized
 Gemfile.lock
+staging.96boards.org
+production.96boards.org
+merged_sources
