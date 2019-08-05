@@ -1,6 +1,6 @@
 ---
 title: Accelerating Your Ultra96 Developments
-permalink: "/projects/accelerating-your-utra96/"
+permalink: "/projects/accelerating-your-ultra96/"
 description: |-
     Learn how to use SDSoC to accelerate functions from the processors to the logic in the Ultra96!
 images:
@@ -22,7 +22,7 @@ Learn how to use SDSoC to accelerate functions from the processors to the logic 
 - **Project Name:** Accelerating Your Ultra96 Developments
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** MPSoC, Hardware Acceleration
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Introduction
