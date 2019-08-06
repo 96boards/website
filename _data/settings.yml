@@ -29,10 +29,10 @@ tags_enabled: true
 members:
     key: 96boards_members
     excludes: [/contact/]
-    
+
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
-    
+
 # Settings for the home page
 home:
     #Content Background Image E.g. DeviceTree.org
@@ -90,11 +90,12 @@ blog:
         #       display_fields:
         #           title: title
         #           url: url
-                  
+
 #Google analytics
 google:
     tag_manager: GTM-P53JPC
-    
+    analytics: UA-16756069-18
+
 # Shema.org Setup -> used in the schema.html include.
 schema:
     enabled: true
@@ -109,11 +110,11 @@ schema:
             - https://github.com/96boards
             - http://slideshare.com/96boards
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
-            country_code: UK 
+            country_code: UK
 
 # Disqus Comments
 
@@ -123,5 +124,3 @@ disqus:
 
 # Placeholder for Missing Images
 placeholder: /assets/images/placeholder.png
-
-
