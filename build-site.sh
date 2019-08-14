@@ -9,9 +9,13 @@ check_multi_repo() {
   #
   # We then build up a list of mounts for Docker so that it can
   # access those repo copies.
-  declare -a DOCKER_MOUNTS
+  #
+  # Use -g to make this a global variable (i.e. it lasts after
+  # the function finishes).
+  declare -a -g DOCKER_MOUNTS
   DOCKER_MOUNTS=()
   if [ ! -f "manifest.json" ]; then
+    echo "No multi-repo configuration to manage."
     return
   fi
   #
