@@ -1,11 +1,10 @@
-/help/build.sh
 node_modules/*
 .asset-cache
 .sass-cache
-_documentation
 .jekyll-metadata
 assets/resized
 Gemfile.lock
 staging.96boards.org
 production.96boards.org
 merged_sources
+_documentation

@@ -67,10 +67,11 @@ exclude:
   - _documentation/check-links.sh
   - CODEOWNERS
   - _documentation/CODEOWNERS
-  - manifest.csv
-  - _documentation/manifest.csv
+  - manifest.json
+  - _documentation/manifest.json
   - package-lock.json
   - README.md
+  - _documentation/README.md
   - staging.96boards.org
   - production.96boards.org
   - merged_sources
