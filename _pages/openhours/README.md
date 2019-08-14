@@ -23,15 +23,16 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA3MjVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA4MTVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Come meet the String Team on OpenHours**
+**Jeff Johnson and the new four port ETH Mezzanine (Opsero)**
 
-String early access is open, and we are gonna get the inside scoop from their team! Joined by Meral and Zac (previously known for their work on HelloChava), we will showcase the new String platform, demo the product, and then do a cool giveaway for our live viewers and Twitter followers! We will of course be open for community questions for both the 96Boards team and our featured guests.
+Get ready to hear all about the new 96B 4-port ETH Mezzanine by Opsero! In this episode of OpenHours, we will be joined by the creator himself to hear all about this awesome new Mezzanine for the Ultra96. During the course of our stream, we will examine the technical specs of the board, explore a variety of use-cases and possibly get to see a demo.
 
-**If you would like to learn more about String before the show, feel free to poke around the resources below:**
+**If you would like to learn more about Opsero and the new mezzanine before the show, feel free to poke around the resources below:**
 
-- [String](https://joinstring.com/)
+- [Opsero](https://opsero.com/)
+- [96B ETH Mezzanine](https://opsero.com/product/96b-quad-ethernet-mezzanine/)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
