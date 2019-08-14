@@ -182,3 +182,6 @@ assets:
     - assets/images/products/
     - assets/images/content/
     - assets/css/
+# Tell sass where to find the resources.
+sass:
+  sass_dir: assets/css/
