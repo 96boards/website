@@ -41,7 +41,7 @@ check_multi_repo() {
       # Does the value point to a directory?
       if [ -d "$tag_val" ]; then
         # Construct a Docker mount command
-        DOCKER_MOUNTS+=(-v $tag_val:/$tag)
+        DOCKER_MOUNTS+=(-v $tag_val:/srv/$tag)
       fi
     fi
   done
