@@ -7,8 +7,8 @@
 # directory above the current directory, so we have to volume-map the parent
 # directory and tell the tool to check *this* directory.
 
-DIRNAME="$(basename `pwd`)"
-PARENT="$(dirname $(readlink -f .))"
+DIRNAME="$(basename "$(pwd)")"
+PARENT="$(dirname "$(readlink -f .)")"
 
 if [ -z "$LINKCHECK" ]; then
   LINKCHECK=latest
@@ -16,7 +16,7 @@ fi
 
 # Make sure that the script is not in the current directory. The output from Jekyll
 # should be in a sub-directory of the git repository.
-SCRIPTDIR="$(dirname $(readlink -f "$0"))"
+SCRIPTDIR="$(dirname "$(readlink -f "$0")")"
 if [ "$SCRIPTDIR" == "$(pwd)" ]; then
   echo "Script is being run incorrectly. Go into the built site directory and"
   echo "then run:"
@@ -32,6 +32,6 @@ docker run \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
   -u "$(id -u)":"$(id -g)" \
-  -v $PARENT:/srv \
+  -v "$PARENT":/srv \
   linaroits/linkcheck:"$LINKCHECK" \
   -d "$DIRNAME" "$@"
