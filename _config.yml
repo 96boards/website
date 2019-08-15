@@ -15,6 +15,7 @@ theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
   - jekyll-readme-index
+  - jekyll-relative-links
 blog_images_dir: assets/images/blog/
 # Permalink for blogs
 permalink: /blog/:title/
@@ -184,3 +185,7 @@ assets:
 # Tell sass where to find the resources.
 sass:
   sass_dir: assets/css/
+#
+relative_links:
+  enabled: true
+  collections: true
