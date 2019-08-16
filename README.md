@@ -1,6 +1,6 @@
 # 96Boards.org
 
-The 96Boards website is built using the Jekyll static site generator. It is based off of the jumbo-jekyll-theme used for all of the Linaro static sites. With the move from Wordpress to Static we have introduced GitHub/Community driven content that allows 96Boards.org users to submit issues about any of the pages on 96Boards.org through the associated Git respository. This GitHub repository is combined with the 96Boards Documentation repo to build the site. Documentation is copied to the `_documentation` collection upon site builds with [bamboo.linaro.org](https://bamboo.linaro.org). 
+The 96Boards website is built using the Jekyll static site generator. It is based off the jumbo-jekyll-theme used for all of the Linaro static sites. With the move from Wordpress to Static we have introduced GitHub/Community driven content that allows 96Boards.org users to submit issues about any of the pages on 96Boards.org through the associated Git respository. This GitHub repository is combined with the 96Boards Documentation repo to build the site. Documentation is copied to the `_documentation` collection upon site builds with [bamboo.linaro.org](https://bamboo.linaro.org). 
 
 ![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0) 
 
@@ -37,11 +37,11 @@ We happy to consider any contributions/feature requests that you may have. Pleas
 
 ## Addding a Page
 
-Please view the theme documentation on adding pages [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-pages).
+Please view the theme documentation on adding pages [here](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki/AddingPages).
 
 ## Adding a Blog Post
 
-Please view the theme documentation on adding blog posts [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#adding-posts).
+Please view the theme documentation on adding blog posts [here](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki/AddingPosts).
 
 ## Adding Redirects to the Static Site
 
@@ -49,7 +49,7 @@ Please view the theme documentation on adding redirects [here](https://github.co
 
 ## Building the Static Site
 
-Please view the theme documentation on building the static website [here](https://github.com/linaro-marketing/jumbo-jekyll-theme#building-the-static-site).
+Please view the theme documentation on building the static website [here](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki/Building).
 
 # 96Boards.org Specific Guides
 
@@ -192,12 +192,12 @@ product_images:
 
 ```
 
-__Please note:__ Due to the way product images are include, images **should not include spaces** in the filename otherwise they may not be rendered on the website as expected.
+__Please note:__ Due to the way product images are included, images **should not include spaces** in the filename otherwise they may not be rendered on the website as expected.
 
 *****
 ## Adding Projects
 
-[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Simply clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes are we'll get the git diff and create a new project repo for your project automatically add to the website __if approved__.
+[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes. If it is approved, we'll get the git diff and create a new project repo for your project so that it is automatically added to the website.
 
 ## Adding Documentation
 
@@ -235,5 +235,5 @@ If you come across any bugs/issues then please let us know by clicking the Submi
 
 ### Known Issues
 #### Image file names
-Due to the way product images are include, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.
+Due to the way product images are included, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.
 
