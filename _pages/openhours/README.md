@@ -23,16 +23,21 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA4MTVUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA4MjJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Jeff Johnson and the new four port ETH Mezzanine (Opsero)**
+**96Boards Engineer, Sahaj Sarup give us a Robotic Arm update!**
 
-Get ready to hear all about the new 96B 4-port ETH Mezzanine by Opsero! In this episode of OpenHours, we will be joined by the creator himself to hear all about this awesome new Mezzanine for the Ultra96. During the course of our stream, we will examine the technical specs of the board, explore a variety of use-cases and possibly get to see a demo.
+Do you remember when Sahaj updated us on his OpenCV work a few weeks ago? Well, now its time to see his latest progress with the Robotic Arm! As we draw closer to Linaro Connect (SAN19), all of this work will come together in the form of a voice controlled smart robotic arm, and Sahaj is ready to share a cool demo to showcase this progress.
 
-**If you would like to learn more about Opsero and the new mezzanine before the show, feel free to poke around the resources below:**
+**You might want to catch up on the work he has been doing before the show. If so, you can reach his blog series. This series walks you through all the stuff he has been doing in the last few months:
 
-- [Opsero](https://opsero.com/)
-- [96B ETH Mezzanine](https://opsero.com/product/96b-quad-ethernet-mezzanine/)
+- [Introduction to the Robotic Arm](https://www.96boards.org/blog/rb3-arm-intro/)
+- [Part 0 - The Setup](https://www.96boards.org/blog/rb3-setup/)
+- [Part 1 - Intro to OpenCV](https://www.96boards.org/blog/rb3-arm-intro-opencv-1/)
+- [Part 2 - OpenCV Threads](https://www.96boards.org/blog/rb3-arm-opencv-threads/)
+- [Part 3 - Gimme The Code!](https://www.96boards.org/blog/rb3-opencv-gimme-code/)
+- [Part 4 - 1080p OpenCV](https://www.96boards.org/blog/rb3-1080p-opencv/)
+- [Part 5 - Voice and Vision](https://www.96boards.org/blog/rb3-voice-vision/)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
