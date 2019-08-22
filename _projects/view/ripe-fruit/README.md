@@ -1,6 +1,6 @@
 ---
 title: Ripe Fruit Identification
-permalink: "/projects/ripe-fruit-identification/"
+permalink: "/projects/ripe-fruit/"
 description: |-
     Ripe fruit identification using an Ultra96 board and OpenCV.
 images:
