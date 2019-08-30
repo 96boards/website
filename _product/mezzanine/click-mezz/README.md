@@ -5,7 +5,7 @@ permalink: /product/click-mezz/
 shortname: click-mezz
 description: |-
     The 96Boards Click Mezzanine allows engineers to connect their low-speed (LS) mezzanine to Click Boards. The mezzanine breaks out the LS header to two MikroBUS sites, each supporting one Click board. Through common interfaces such as UART, SPI, and I2C, the MikroBUS standard offers many 100’s of sensor, display, storage, timing, mixed-signal, and audio Click boards.
-title: AiVA-96 Mezzanine
+title: Click Mezzanine
 display_product: true
 tab_menu:
   - tab_title: Click Mezzanine
@@ -52,16 +52,16 @@ The 96Boards Click Mezzanine allows engineers to connect their low-speed (LS) me
 - Analog input
 - On-board ADC
 - Additionally, the SK also includes three Click boards that add the following features:
-- 6 Degree-of-Freedom Inertial Measurement - 2x16 Character Display
-- USB-UART
+   - 6 Degree-of-Freedom Inertial Measurement
+   - 2x16 Character Display
+   - USB-UART
 
 ### Kit Includes
 
 - 96Boards Click Mezzanine
-- Additionally, the SK also includes three
-
-**Click boards:**
-
-- MIKROE-1985, USB-UART Click - MIKROE-2453, LCD Mini Click - MIKROE-2731, LSM6DSL Click
+- Additionally, the SK also includes three Click boards:
+   - MIKROE-1985, USB-UART Click
+   - MIKROE-2453, LCD Mini Click
+   - MIKROE-2731, LSM6DSL Click
 
 For more information, please view the [Product Brief](/documentation/mezzanine/click-mezz/files/click-brief.pdf).
