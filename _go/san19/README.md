@@ -55,8 +55,8 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 ## Hackathon Hardware
 
-- [DragonBoard 410c]()
-- [Shiratech FPGA Mezzanine]()
+- [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
+- [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
 
 ***
 
@@ -68,11 +68,11 @@ Coming Soon...
 
 ## Prizes
 
-Coming Soon...
+- First Prize: Showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
 
 ***
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8fBjODoRlq1yUFVa7a1DfGfAGQjQ1hwISZBHuofy757k-pw/viewform?embedded=true" width="640" height="897" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="640" height="897" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
 <div class="col-md-6">
