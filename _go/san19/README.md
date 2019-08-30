@@ -33,8 +33,8 @@ After the keynotes and a few sessions, everyone is invited to attend a private s
 Registration starts now and will remain open until September 23th. To register, please populate the form found on this page (at the bottom). If you have any questions, please do not hesitate to reach out to the following individuals for assistance. We also STRONGLY RECOMMEND joining the 96Boards Discord Server.
 
 - Robert (Linaro / 96Boards): robert.wolff@linaro.org
-- David (UCSD): d1ding@ucsd.edu 
-- 96Boards Discord: https://discord.gg/x5uMn5d
+- David (UCSD): d1ding@ucsd.edu
+- 96Boards Discord: [https://discord.gg/x5uMn5d](https://discord.gg/x5uMn5d)
 
 ***
 
@@ -44,22 +44,22 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 ### Wednesday, September 25th
 
-- 8:30a - 9:15a: Arrival and Check in with Linaro Connect Registration Desk at [Paridise Point Resort](https://paradisepoint.com/resort/)
-- 9:15a - 9:45a: Meet and greet / Coffee time
-- 9:45a - 10:00a: [Daily Notices](https://sched.co/UFLA)
-- 10:00a - 10:30a: [Riken Keynote, A64fx and Fugaku - A Game Changing, HPC / AI Optimized Arm CPU to enable Exascale Performance](https://sched.co/Sufi)
-- 10:30a - 11:00a: [Qualcomm Keynote, The Upstream Bubble](https://sched.co/SwpZ)
-- 11:00a - 11:25a: [Session, The Transformation of Electronic Product Design](https://sched.co/Sucu)
-- 11:25a - 12:00p: COFFEE BREAK
-- 12:00p - 12:25p: [Session, Robotic Arm Control with the Qualcomm RB3](https://sched.co/Sud6)
-- 12:30p - 1:30p: LUNCH
-- 1:30p - 2:00p: Hackathon Sign Up and Hardware Pickup
+- **8:30a - 9:15a**: Arrival and Check in with Linaro Connect Registration Desk at [Paridise Point Resort](https://paradisepoint.com/resort/)
+- **9:15a - 9:45a**: Meet and greet / Coffee time
+- **9:45a - 10:00a**: [Daily Notices](https://sched.co/UFLA)
+- **10:00a - 10:30a**: [Riken Keynote, A64fx and Fugaku - A Game Changing, HPC / AI Optimized Arm CPU to enable Exascale Performance](https://sched.co/Sufi)
+- **10:30a - 11:00a**: [Qualcomm Keynote, The Upstream Bubble](https://sched.co/SwpZ)
+- **11:00a - 11:25a**: [Session, The Transformation of Electronic Product Design](https://sched.co/Sucu)
+- **11:30a - 12:00p**: Private Seminar / Fire Side Chat on Open Source development and collaboration
+- **12:00p - 12:25p**: [Session, Robotic Arm Control with the Qualcomm RB3](https://sched.co/Sud6)
+- **12:30p - 1:30p**: LUNCH
+- **1:30p - 2:00p**: Hackathon Sign Up and Hardware Pickup
 
 ### Friday, September 27th
 
-- 8:00a - 10:00a: Turn in projects between this time range to be judged
-- 11:00a - 12:00p: Winner(s) set up projects in demo hall
-- 12:00p - 2:00p: Demo Showcase and Closing Ceremony
+- **8:00a - 10:00a**: Turn in projects between this time range to be judged
+- **11:00a - 12:00p**: Winner(s) set up projects in demo hall
+- **12:00p - 2:00p**: Demo Showcase and Closing Ceremony
 
 ***
 
@@ -89,6 +89,10 @@ Coming Soon...
 <div class="openhours-panel" markdown="1" id="openhours-panel">
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2265092" frameborder="0"></iframe>
+
+**WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
+**WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
+**HOW?:** Attendees are in charge of their own transportation to and from the event.
 
 1) Must use Arrow and Shiratech, 96Boards technologies
 
