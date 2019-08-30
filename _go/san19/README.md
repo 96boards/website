@@ -57,9 +57,9 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 ### Friday, September 27th
 
-- **8:00a - 10:00a: Turn in projects between this time range to be judged
-- **11:00a - 12:00p: Winner(s) set up projects in demo hall
-- **12:00p - 2:00p: Demo Showcase and Closing Ceremony
+- **8:00a - 10:00a**: Turn in projects between this time range to be judged
+- **11:00a - 12:00p**: Winner(s) set up projects in demo hall
+- **12:00p - 2:00p**: Demo Showcase and Closing Ceremony
 
 ***
 
@@ -90,9 +90,9 @@ Coming Soon...
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2265092" frameborder="0"></iframe>
 
-**WHEN?:**
-**WHERE?:**
-**HOW?:**
+**WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
+**WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
+**HOW?:** Attendees are in charge of their own transportation to and from the event.
 
 1) Must use Arrow and Shiratech, 96Boards technologies
 
