@@ -12,13 +12,23 @@ image: /assets/images/content/autonomous-robot-challenge.png
 
 <div class="col-md-6" markdown="1">
 
+#### You're Invited!
+
 Linaro and 96Boards are happy to invite UCSD Electrical Engineering, Computer Engineering, and Computer Science students to a day at [Linaro Connect](https://connect.linaro.org/), this year in San Diego!
+
+#### Welcome to SAN19
 
 You and your fellow classmates will be welcomed at the [Paridise Point Resort](https://paradisepoint.com/resort/) with coffee and open arms as you prepare to enjoy a day full of professional sessions, breakouts, and Keynotes lead by some of the tech industries greatest minds (including engineers and executives from [Qualcomm](https://sched.co/SwpZ), [Riken](https://sched.co/Sufi), [Linaro](https://sched.co/Sud6), Arm and [Gumstix](https://sched.co/Sucu)).
 
+#### Private Open Source Seminar
+
 After the keynotes and a few sessions, everyone is invited to attend a private seminar put on by experienced/seasoned open source engineers from all around the world. This fire side chat style seminar will include valuable information on the benefits of Open Source collaboration and development as an extracurricular activity. Sub-Topics will include the open source contribution process, exploration of current open source projects and their contribution cycles, and open source and version control as a resume tool.
 
+#### Keynotes, Sessions, and more...
+
 **Keynotes, sessions, free lunch, and a hackathon?!** Yes, you got that right. After the seminar, we will take a short break for lunch. Everyone in attendance will then be invited to check out a 96Boards hardware kit for a "take home" 36 hour hackathon. Turn in for this hackathon will be on Friday at 9:00a local. The winner(s) of this hackathon will get to showcase their project in front of hundreds of engineers and executives from over 30 tech companies from around the world.
+
+#### Make sure you Register!
 
 Registration starts now and will remain open until September 23th. To register, please populate the form found on this page (at the bottom). If you have any questions, please do not hesitate to reach out to the following individuals for assistance. We also STRONGLY RECOMMEND joining the 96Boards Discord Server.
 
