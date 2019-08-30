@@ -57,7 +57,7 @@ product_os:
 
 product_more_info:
   - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.pdf
+    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.PDF
   - title: Linux User Guide
     link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf
   - title: Engaget Article
