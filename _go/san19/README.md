@@ -90,9 +90,9 @@ Coming Soon...
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2265092" frameborder="0"></iframe>
 
-**WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
-**WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
-**HOW?:** Attendees are in charge of their own transportation to and from the event.
+- **WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
+- **WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
+- **HOW?:** Attendees are in charge of their own transportation to and from the event.
 
 1) Must use Arrow and Shiratech, 96Boards technologies
 
