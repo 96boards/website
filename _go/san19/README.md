@@ -68,6 +68,10 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 - [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
 
+- Must use Arrow and Shiratech, 96Boards technologies
+- Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
+- Must include one or more video demonstrations, with explanation of final project.
+
 ***
 
 ## Resources
@@ -93,24 +97,6 @@ Coming Soon...
 - **HOW?:** Attendees are in charge of their own transportation to and from the event.
 
 <iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-1) Must use Arrow and Shiratech, 96Boards technologies
-
-2) Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
-
-3) Must include one or more video demonstrations, with explanation of final project.
-
-***
-
-## Interview with Shiratech - FPGA Mezzanine
-
-{% include media.html media_url="https://youtu.be/zjiPDSecA_M" %}
-
-***
-
-## DragonBoard 410c Playlist
-
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1N-u1hXeJ5PNukSBplbhEE" %}
 
 ***
 
