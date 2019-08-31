@@ -67,22 +67,9 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 - [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
+- First Prize: 96Boards hardware and a chance to showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
 
 ***
-
-## Resources
-
-Coming Soon...
-
-***
-
-## Prizes
-
-- First Prize: Showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
-
-***
-
-<iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="640" height="897" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
 <div class="col-md-6">
@@ -94,23 +81,7 @@ Coming Soon...
 - **WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
 - **HOW?:** Attendees are in charge of their own transportation to and from the event.
 
-1) Must use Arrow and Shiratech, 96Boards technologies
-
-2) Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
-
-3) Must include one or more video demonstrations, with explanation of final project.
-
-***
-
-## Interview with Shiratech - FPGA Mezzanine
-
-{% include media.html media_url="https://youtu.be/zjiPDSecA_M" %}
-
-***
-
-## DragonBoard 410c Playlist
-
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1N-u1hXeJ5PNukSBplbhEE" %}
+<iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ***
 
