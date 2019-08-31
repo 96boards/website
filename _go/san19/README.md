@@ -67,22 +67,7 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 - [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
-
-- Must use Arrow and Shiratech, 96Boards technologies
-- Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
-- Must include one or more video demonstrations, with explanation of final project.
-
-***
-
-## Resources
-
-Coming Soon...
-
-***
-
-## Prizes
-
-- First Prize: Showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
+- First Prize: 96Boards hardware and a chance to showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
 
 ***
 
