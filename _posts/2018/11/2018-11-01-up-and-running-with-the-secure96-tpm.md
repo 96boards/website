@@ -1,6 +1,6 @@
 ---
 title: Up and Running With The Secure96 TPM
-description: Leveraging upstream SPI TPM support for the 96Boards Secure96 mezzanine. 
+description: Leveraging upstream SPI TPM support for the 96Boards Secure96 mezzanine.
 author: Bill Fletcher
 date: 2018-11-01 01:01:54+00:00
 image:
@@ -20,29 +20,29 @@ The 96Boards Secure96 mezzanine by [Hoperun](https://www.hoperun.net/hrtc/) was 
 
 A TPM (Trusted Platform Module) is an international standard for a secure cryptoprocessor <sup>[1]</sup>. The TPM technical specification was written by a computer industry consortium called Trusted Computing Group (TCG) and it’s standardised as ISO/IEC 11889.
 
-One way to think of a TPM is as a cryptographic swiss army knife providing a lot of useful hardware crypto function implementations that might otherwise be difficult to implement and/or secure on a particular system. These crypto functions include: 
+One way to think of a TPM is as a cryptographic swiss army knife providing a lot of useful hardware crypto function implementations that might otherwise be difficult to implement and/or secure on a particular system. These crypto functions include:
 
-* a cryptographically secure random number generator, 
-* a unique secret key embedded in the device, 
-* public-key cryptographic algorithms, 
-* cryptographic hash functions, 
-* symmetric-key algorithms, 
-* digital signature generation and verification, 
+* a cryptographically secure random number generator,
+* a unique secret key embedded in the device,
+* public-key cryptographic algorithms,
+* cryptographic hash functions,
+* symmetric-key algorithms,
+* digital signature generation and verification,
 * ECC-based Direct Anonymous Attestation,
 * secure hash and key storage,
 * key generation and key derivation.
 
-Using these functions allow a developer to establish a hardware root of trust, and then locally carry out key generation and key use with TPM-resident keys, use the TPM as an engine for encryption / decryption and signing, also for hash algorithms and symmetric ciphers and implement non-volatile storage of one-way hashes of messages and measurements of the overall system’s level of modification. 
+Using these functions allow a developer to establish a hardware root of trust, and then locally carry out key generation and key use with TPM-resident keys, use the TPM as an engine for encryption / decryption and signing, also for hash algorithms and symmetric ciphers and implement non-volatile storage of one-way hashes of messages and measurements of the overall system’s level of modification.
 
 Remotely, the system with a TPM can support *remote attestation* in well-defined manner and authorization for functionality provided by the TPM. This means that TPMs can e.g. replace smart cards or VPN tokens for proving that a hardware client is who it claims to be.
 
 [**Remote attestation** is a method by which a host (client) authenticates it's hardware and software configuration to a **remote** host (server). The goal of **remote attestation** is to enable a **remote** system (challenger) to determine the level of trust in the integrity of platform of another system (attestator) *- Stanford Security Lab*]
 
-The TPM has a capability to store a measure of the overall system state in a one-way hash which can be progressively updated (extended) at each boot stage but not rolled back. This extended hash is stored in the TPM’s Platform Configuration Registers (PCRs). The TPM does no measurement of the system state itself. It just provides a cryptographically verifiable storage mechanism. 
+The TPM has a capability to store a measure of the overall system state in a one-way hash which can be progressively updated (extended) at each boot stage but not rolled back. This extended hash is stored in the TPM’s Platform Configuration Registers (PCRs). The TPM does no measurement of the system state itself. It just provides a cryptographically verifiable storage mechanism.
 
 # **Interacting with the Secure96 TPM**
 
-To get the TPM running, you need: 
+To get the TPM running, you need:
 * a Secure96 board
 * a host such as a Dragonboard DB410C with a 1.8V low-speed connector
 * a kernel built with the SPI TPM driver configured
@@ -54,7 +54,7 @@ To get the TPM running, you need:
 
 These instructions are based on the Qualcomm Landing Team kernel 4.14.69, cloned from [http://git.linaro.org/landing-teams/working/qualcomm/kernel.git](http://git.linaro.org/landing-teams/working/qualcomm/kernel.git)
 
-Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html).
+Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
 
 Modifications to the following files are needed to enable the TPM SPI driver and the SPI interface chip select:
 ```
@@ -64,7 +64,7 @@ drivers/spi/spi-qup.c
 ```
 A full description of these changes are described in [this patch](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/db410c_spi_cs.patch) (and also reproduced at the end of this post).
 
-In the kernel config, as a minimum you need the TPM core functionality, the TPM SPI driver and support for the Infineon device. Here’s a TPM-related snippet from the config I used: 
+In the kernel config, as a minimum you need the TPM core functionality, the TPM SPI driver and support for the Infineon device. Here’s a TPM-related snippet from the config I used:
 
 ```
 CONFIG_HW_RANDOM_TPM=m
@@ -85,26 +85,26 @@ CONFIG_TCG_CRB=y
 ```
 
 Modify your config using menuconfig to enable the above options.
-Build the kernel, device tree blobs and modules. 
+Build the kernel, device tree blobs and modules.
 Follow the instructions to create a boot-db410c.img file
 
 I’ve uploaded my boot-db410c.img along with the other files (CS patch, config) at [http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/](http://people.linaro.org/~bill.fletcher/Up_and_running_with_the_Secure96_TPM/).
 
 # **Flashing and Booting the Board**
 
-Start with the Dragonboard with a recent install of Debian using one of the methods [explained here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/)  
+Start with the Dragonboard with a recent install of Debian using one of the methods [explained here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/)
 
 Power off the board and insert the Secure96 mezzanine into the low speed connector on the Dragonboard, taking care before you power on to ensure that it’s aligned and not offset by one or more pins either way. The micro USB connector on the board is connected to UART0 on the low-speed connector. Unfortunately the default console UART is UART1.
 
 Connect your Linux PC to the Dragonboard via the OTG connector and put the Dragonboard in fastboot mode (power off, hold down S4 and power on).
 
-Flashing instructions are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html). 
+Flashing instructions are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
 
 After flashing, remove the OTG cable and reboot the board. Typing
 ```
 $ ls /dev
 ```
-should show that device tpm0 was created and you can use the userspace tools to access the functionality inside the TPM. 
+should show that device tpm0 was created and you can use the userspace tools to access the functionality inside the TPM.
 
 It's worthwhile copying across the modules for a fully functioning system.
 
@@ -136,7 +136,7 @@ There are 3 open source TPM Software Stacks (TSS)  which I previously evaluated 
 </table>
 
 
-I’ve stuck with the IBM TPM 2.0 TSS. It has a companion software TPM simulator which you can also install. Download the code from the link above (tarfile or git). 
+I’ve stuck with the IBM TPM 2.0 TSS. It has a companion software TPM simulator which you can also install. Download the code from the link above (tarfile or git).
 
 To configure it to use the hardware TPM (/dev/tpm0), edit the file tssproperties.c to set TPM_INTERFACE_TYPE_DEFAULT to be “dev”. i.e. add
 ```
@@ -170,7 +170,7 @@ You can invoke the signapp utility with a quoted string as the input to the abov
 $ sudo ./signapp -ic "one two three"
 ```
 
-The code in the IBM TSS stack is not only a toolkit of TPM utilities but also intended to be used as examples on how to develop user space code to leverage the TPM and if necessary can be re-used in your applications. 
+The code in the IBM TSS stack is not only a toolkit of TPM utilities but also intended to be used as examples on how to develop user space code to leverage the TPM and if necessary can be re-used in your applications.
 
 # **TPMs in Real Life**
 
@@ -192,7 +192,7 @@ You can expect to see the log message in dmesg:
 ```
 This is normal according to previous Infineon documentation<sup>[3]</sup>. THis is an RC_Initialize (0x100) caused by missing TPM2_Startup, which should be issued by the boot firmware. It's not an error - as you can also see in the next line "starting up the TPM manually" (thanks to Peter Huewe of Infineon for this).
 
-There is a potential TPM reset issue with the mezzanine.The TPM reset line is connected to a GPIO rather than a reset circuit. I didn’t ultimately see problems with this, but if the TPM doesn’t respond sensibly to the driver initialization attempts, it’s possible to toggle the reset line to the chip via a connected GPIO. One clue that there’s a reset issue is if the SPI driver spins reading zeros from the TPM and then times out. 
+There is a potential TPM reset issue with the mezzanine.The TPM reset line is connected to a GPIO rather than a reset circuit. I didn’t ultimately see problems with this, but if the TPM doesn’t respond sensibly to the driver initialization attempts, it’s possible to toggle the reset line to the chip via a connected GPIO. One clue that there’s a reset issue is if the SPI driver spins reading zeros from the TPM and then times out.
 
 # **Code Changes**
 
@@ -205,7 +205,7 @@ index 4c3dda5f3a83..bc16493ac139 100644
 +++ b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
 @@ -136,10 +136,16 @@
  		};
- 
+
  		spi@78b9000 {
 -		/* On Low speed expansion */
 -			label = "LS-SPI0";
@@ -221,7 +221,7 @@ index 4c3dda5f3a83..bc16493ac139 100644
 +                            reg = <0>;
 +                        };
 +                };
- 
+
  		leds {
  			pinctrl-names = "default";
 diff --git a/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi b/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
@@ -253,18 +253,18 @@ index 974a8ce58b68..072f17cf7e26 100644
 @@ -754,6 +754,7 @@ static int spi_qup_io_config(struct spi_device *spi, struct spi_transfer *xfer)
  	else
  		control &= ~SPI_IO_C_CLK_IDLE_HIGH;
- 
+
 +        config |= SPI_IO_C_MX_CS_MODE;
  	writel_relaxed(control, controller->base + SPI_IO_CONTROL);
- 
+
  	config = readl_relaxed(controller->base + SPI_CONFIG);
 @@ -1113,7 +1114,7 @@ static int spi_qup_probe(struct platform_device *pdev)
  			base + QUP_ERROR_FLAGS_EN);
- 
+
  	writel_relaxed(0, base + SPI_CONFIG);
 -	writel_relaxed(SPI_IO_C_NO_TRI_STATE, base + SPI_IO_CONTROL);
 +        writel_relaxed(SPI_IO_C_NO_TRI_STATE|SPI_IO_C_MX_CS_MODE, base + SPI_IO_CONTROL);
- 
+
  	ret = devm_request_irq(dev, irq, spi_qup_qup_irq,
  			       IRQF_TRIGGER_HIGH, pdev->name, controller);
 
@@ -279,9 +279,3 @@ index 974a8ce58b68..072f17cf7e26 100644
 [2] Intel TXT Boot Sequence https://ebrary.net/24863/computer_science/intel_boot_sequence
 
 [3] Infineon Application Note TPM20_Embedded_SLB_9670_AppNote_Rev1.0_2017-03-16
-
-
-
-
-
-

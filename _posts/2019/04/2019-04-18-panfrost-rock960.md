@@ -49,7 +49,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
 
 ## 1. Setup:
 - Make sure you have a fresh installation of ubuntu 16.04
-    - [Ubuntu Downloads for ROCK960](https://www.96boards.org/documentation/consumer/rock/downloads/ubuntu.md.html)
+    - [Ubuntu Downloads for ROCK960](https://www.96boards.org/documentation/consumer/rock/downloads/ubuntu/)
 - Connected to Ethernet via USB
     - Wifi doesn't seem to work on mainline kernel, something about missing firmware. Idk ask Mani.
 - Rootfs is expanded:
@@ -82,7 +82,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ```bash
     sudo pip3 install meson ninja
     ```
-    
+
 > Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
 
 ## 3. Download sources:
@@ -118,7 +118,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     - Navigate to to Drivers -> Graphics
     - Enable Panfrost
     - Save and exit
-- Build: 
+- Build:
     ```bash
     make -j6
     ```
@@ -131,7 +131,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     sudo cp arch/arm64/boot/dts/rockchip/rk3399-rock960.dtb /boot/
     ```
 
-- Edit extlinux conf: 
+- Edit extlinux conf:
     ```bash
     vi /boot/extlinux/extlinux.conf
     ```
@@ -154,7 +154,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install: 
+- Install:
     ```bash
     sudo make install
     ```
@@ -167,7 +167,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ninja -C build/
     ```
 - Drink the coffee you brewed earlier
-- Install: 
+- Install:
     ```bash
     sudo ninja -C build/ install
     ```
@@ -179,7 +179,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install 
+- Install
     ```bash
     sudo make install
     ```

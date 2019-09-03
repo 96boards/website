@@ -21,11 +21,11 @@ You can find the library at:
     - [https://github.com/96boards-projects/fpga_mezz_lib](https://github.com/96boards-projects/fpga_mezz_lib)
 
 And the documentation can be found at:
-    - [Interfacing with Arduino IO](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/fpga-mezzanine-library.md.html)
+    - [Interfacing with Arduino IO](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/fpga-mezzanine-library/)
 
 We also have a few examples to get the library working with a few shields
-    - [Interfacing with L298n Motor Controler](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/l298n.md.html)
-    - [Interfacing with Relay Shield](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/relay.md.html)
+    - [Interfacing with L298n Motor Controler](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/l298n/)
+    - [Interfacing with Relay Shield](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/relay/)
 
 
 # Demoed on OpenHours

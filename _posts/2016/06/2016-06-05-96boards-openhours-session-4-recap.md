@@ -366,7 +366,7 @@ Thanks
 
 RW
 
-[https://www.96boards.org/documentation/consumer/guides/gpio.md.html](https://www.96boards.org/documentation/consumer/guides/gpio.md.html)
+[https://www.96boards.org/documentation/consumer/guides/gpio.md.html](https://www.96boards.org/documentation/consumer/guides/gpio/)
 
 
 
@@ -558,7 +558,7 @@ I'll be using Linaro
 
 RW
 
-[https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html)
+[https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce/)
 
 
 

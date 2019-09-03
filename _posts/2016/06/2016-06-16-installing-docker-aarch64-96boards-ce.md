@@ -76,7 +76,7 @@ Docker is an exciting technology, and one reason to install and run it on a CE s
 
 I had my own specific further reasons to use Docker on an embedded board. I was looking at some packages that were painful to install and needed specific distros and distro versions. I only wanted to do the installation and configuration once and I didn’t want to have to handle multiple or ‘unsupported’ distros. Docker allows you to save images that you’ve built and also to automate the build steps for an image. Images can be based on top of existing images and all the steps can be recorded in a `Dockerfile` to re-create the image. I was also motivated by what the folks at [http://blog.hypriot.com/](http://blog.hypriot.com/) had acheived even on ARMv7 and wanted some of that too.
 
-**The instructions to re-create my Docker install on 96Boards CE Edition are [here](https://www.96boards.org/documentation/consumer/guides/docker_ce.md.html).**
+**The instructions to re-create my Docker install on 96Boards CE Edition are [here](https://www.96boards.org/documentation/consumer/guides/docker_ce/).**
 
 I aim to be using Docker in the coming months to deploy some applications onto my various CE Edition 96Boards without having to run multiple builds/installations. As a taster, here is a screenshot of 64 Docker containers, each with a separate container instance of Ubuntu, all started up and running on the Dragonboard.
 
