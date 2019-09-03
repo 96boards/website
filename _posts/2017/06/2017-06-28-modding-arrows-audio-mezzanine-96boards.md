@@ -78,7 +78,7 @@ tags:
 ---
 # **Introduction**
 
-**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.96boards.org/product/audio-mezzanine/) is described as,**
+**On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](/product/audio-mezzanine/) is described as,**
 
 “This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards. You can connect 96Boards to various modules easily with this expansion board. There are six grove ports which can be used to connect rich Grove functional modules, which will make your application more complicated and attracting. In addition, this expansion board gets one 3.5 mm audio port and two independent MICs which can be applied into multimedia processing. Since 96Boards I/O voltage is set at 1.8 V, so it cannot be connected directly to embedded world. This expansion board has used voltage converting circuit so that you can choose 3.3V/5V as the output voltage. Other features are also embedded on this expansion board such as USB to Serial circuit and reset button, and so on, all those make 96Boards more conveniently to build applications.”
 
@@ -110,8 +110,8 @@ Before we get started, I would recommend that the person performing this task to
 
 {% include media.html media_url="https://www.youtube.com/embed/SGHHLpLSwko" %}
 
-1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.  
-    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.  
+1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.
+    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.
     ![Modding Arrow Audio Mezz Image 6]({% asset_path "modding-arrows-img-6.png" %}){:class="img-responsive lazyload"}
 2.  Now we can apply ample amount of Flux paste onto the solder pads.
 3.  Following that, sandwich the Solder Wick between the pads on the pcb and you soldering iron and hold the iron in place for a few seconds. This should suck all the excess solder onto the wick and the metal pieces will stick to it as well
@@ -121,12 +121,12 @@ Before we get started, I would recommend that the person performing this task to
 
 # **Conclusion**
 
-Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.  
+Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.
 But, do remember that these board are in a limited supply from arrow, around 750 pcs. In stock at the time of writing this blog, and only a few were and ever will be made.
 
 ![Modding Arrow Audio Mezz Image 7]({% asset_path "modding-arrows-img-7.jpg" %}){:class="img-responsive lazyload"}
 
-**[https://www.96boards.org/product/audio-mezzanine/](https://www.96boards.org/product/audio-mezzanine/)**
+**[https://www.96boards.org/product/audio-mezzanine/](/product/audio-mezzanine/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/0RmwPOo1-Gw" %}
 

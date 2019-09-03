@@ -19,7 +19,7 @@ Control) demo using AGL running on Dragonboard410c.
 Before getting into the blog, here is the quick recap of what happened in
 previous blogs of this series:
 
-1. [Automotive Grade Linux on Dragonboard410c - Part 1](https://www.96boards.org/blog/agl-on-dragonboard410c-part1/) - This
+1. [Automotive Grade Linux on Dragonboard410c - Part 1](/blog/agl-on-dragonboard410c-part1/) - This
 is the introductory blog for the **Automotive Grade Linux on Dragonboard410c**
 blog series. This part introduced AGL and steps required to build and deploy
 it on Dragonboard410c.
@@ -91,4 +91,4 @@ improve. Since all of the instructions and source code is open source, you can
 enhance it and share with the 96Boards community.
 
 Please take a look at the [Contributing guide](https://github.com/96boards-projects/staging/blob/master/CONTRIBUTE.md)
-for more info. Stay tuned for the next part! 
+for more info. Stay tuned for the next part!

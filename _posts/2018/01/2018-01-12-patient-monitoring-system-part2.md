@@ -18,12 +18,12 @@ blog series. In this blog, we are going to see the data exchange between BLE
 mesh network and Gateway using 96Boards. Before jumping in, here is the quick
 recap of what happened in previous parts:
 
-1. [Introducing Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-into/) - This
+1. [Introducing Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-into/) - This
 is the introductory blog for the **Patient Monitoring System using 96Boards**
 blog series which introduced the project, BLE mesh support in Zephyr
 and the project roadmap.
 
-2. [Part 1 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part1/) - This
+2. [Part 1 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part1/) - This
 blog provided the basic usage of BLE mesh in Zephyr by showing the steps
 required to provision and configure the nodes and also the data exchange
 between Server and Client.
@@ -33,7 +33,7 @@ between Server and Client.
 In any IoT enabled systems, it is mandatory to have a gateway to connect
 to the external world. This case applies to BLE mesh network also. Setting
 up a gateway would require us to have an application to interact with the nodes.
-So for the gateway solution, I preferred [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/).
+So for the gateway solution, I preferred [Dragonboard410c](/product/dragonboard410c/).
 But due to the absence of a standard gateway interface to the mesh network, I
 decided to connect the client of the BLE mesh network to the gateway, so
 that we can use the client node to interact with the mesh network and capture
@@ -43,7 +43,7 @@ data.
 ## Hardware Setup
 
 Since the intention of this blog is to demonstrate the data exchange between
-gateway and mesh network, two [Carbon boards](https://www.96boards.org/product/carbon/)
+gateway and mesh network, two [Carbon boards](/product/carbon/)
 are used to form a mesh network and one of them will act as a server and another
 will act as a client. The client node is connected to the gateway via USB to
 UART.
@@ -60,7 +60,7 @@ connected to **PC8**.
 Two carbon board which will act as BLE mesh nodes needs to be provisioned and
 configured using the **meshctl** utility available in Linux. More information
 on this can be found in **Provisioning and Configuring the Nodes** section of
-the [Part 1 blog](https://www.96boards.org/blog/patient-monitoring-system-part1/).
+the [Part 1 blog](/blog/patient-monitoring-system-part1/).
 
 We should only change the binding and publishing information for the server and
 client nodes as below:
@@ -70,7 +70,7 @@ client nodes as below:
 bind 0 1 1100
 bind 0 1 1000
 sub-add 017a c000 1100
-pub-set 017a c000 1 0 0 1100 
+pub-set 017a c000 1 0 0 1100
 pub-set 017a c000 1 0 0 1000
 ```
 

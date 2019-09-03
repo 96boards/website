@@ -37,7 +37,7 @@ Others have also tested:
 
 # What does it mean for for 96Boards?
 
-This means that the [Rock960](https://www.96boards.org/product/rock960/) can already run this driver.
+This means that the [Rock960](/product/rock960/) can already run this driver.
 
 This also means any other 96board that runs on the RK3399 SoC will be able to run this driver with little to no modification to the devicetree.
 
@@ -49,7 +49,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
 
 ## 1. Setup:
 - Make sure you have a fresh installation of ubuntu 16.04
-    - [Ubuntu Downloads for ROCK960](https://www.96boards.org/documentation/consumer/rock/downloads/ubuntu/)
+    - [Ubuntu Downloads for ROCK960](/documentation/consumer/rock/downloads/ubuntu/)
 - Connected to Ethernet via USB
     - Wifi doesn't seem to work on mainline kernel, something about missing firmware. Idk ask Mani.
 - Rootfs is expanded:

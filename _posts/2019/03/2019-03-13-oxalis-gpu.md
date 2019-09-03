@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboa
 
 # The Oxalis
 
-The [96Boards Oxalis](https://www.96boards.org/product/oxalis/) is a Enterprise Edition board powered by the NXP Layerscape LS1012A SoC.
+The [96Boards Oxalis](/product/oxalis/) is a Enterprise Edition board powered by the NXP Layerscape LS1012A SoC.
 The main purpose of the SoC and the board itself is for a IoT Edge Gateway device and other similar usecases like NAS which high-speed data transmission might be required.
 
 However, today let's forget what the main purpose of The Oxalis is... And let's plug in a external gaming GPU!!!
@@ -30,7 +30,7 @@ The two GPUs I tested were:
 
 The ATI Radeon HD4350 has the advantage of working without any firmware related issues due to the driver and device firmware being open and free respectively, this means we can get a console on the display connected to this GPU without much hassle.
 
-The reason behind choosing the Nvidia GT710 was that it was the only GPU I had ever seen running on Arm on the [96Boards DeveloperBox](https://www.96boards.org/product/developerbox/). Part of the reason it works well is that the DeveloperBox as SBBA/SBSA compliant UEFI bios that supports ACPI, and runs qemu to for emulating x86 and running the driver for the Nvidia GPU. And so the GT710 was out of the question for the moment.
+The reason behind choosing the Nvidia GT710 was that it was the only GPU I had ever seen running on Arm on the [96Boards DeveloperBox](/product/developerbox/). Part of the reason it works well is that the DeveloperBox as SBBA/SBSA compliant UEFI bios that supports ACPI, and runs qemu to for emulating x86 and running the driver for the Nvidia GPU. And so the GT710 was out of the question for the moment.
 
 # GPU on MiniPCIe
 

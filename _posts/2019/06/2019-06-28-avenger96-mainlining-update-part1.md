@@ -13,12 +13,12 @@ tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Zephyr, STMicroel
 # Introduction
 
 Hello and Welcome to the blog on "Avenger96 Mainlining Update - Part 1". This
-blog will summarise the recent mainlining efforts for [Avenger96 board](https://www.96boards.org/product/avenger96/) in Linux kernel, U-Boot, Trusted Firmware and
+blog will summarise the recent mainlining efforts for [Avenger96 board](/product/avenger96/) in Linux kernel, U-Boot, Trusted Firmware and
 Zephyr RTOS.
 
 # Avenger96 Board
 
-[Avenger96](https://www.96boards.org/product/avenger96/) board is one of the
+[Avenger96](/product/avenger96/) board is one of the
 96Boards Consumer Edition of the 96Boards platform. Avenger96 board is based
 on STM32MP1 heterogeneous SoC (dual Arm Cortex-A7 cores and an Arm Cortex-M4
 core) from STMicroelectronics. In addition, an extensive set of interfaces and

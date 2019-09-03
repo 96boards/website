@@ -42,7 +42,7 @@ Also, it is architecture independent, ie it can run on Arm... almost. Although t
   ```shell
   sudo ln -s /usr/lib/jvm/java-8-openjdk-arm64/lib/aarch64/libjawt.so /usr/lib/libjawt.so
   ```
-  - [Setup zram swap](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
+  - [Setup zram swap](/documentation/consumer/dragonboard410c/guides/)
 
 
 

@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboa
 
 # The FPGA Mezzanine
 
-[Shiratech FPGA Mezzanine](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/) is a 96Boards compatible mezzanine board accommodating Intel MAX10 FPGA. It is 96Boards compatible board, both consumer addition(CE) and enterprise edition (EE). The mezzanine has Arduino, Raspberry PI and Grove connectors and can serve as HW bridge between those development platforms to 96Boards.
+[Shiratech FPGA Mezzanine](/documentation/mezzanine/shiratech-fpga/) is a 96Boards compatible mezzanine board accommodating Intel MAX10 FPGA. It is 96Boards compatible board, both consumer addition(CE) and enterprise edition (EE). The mezzanine has Arduino, Raspberry PI and Grove connectors and can serve as HW bridge between those development platforms to 96Boards.
 
 For today's blog post we are specifically interested in the Arduino headers for today's blog.
 

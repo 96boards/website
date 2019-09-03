@@ -60,8 +60,8 @@ of parts:
 
 Below is the Bill of Materials (BoM) needed for project recreation.
 
-1. [BLE compatible 96Boards IE hardware - Carbon/Nitrogen](https://www.96boards.org/products/ie/)
-2. [96Boards CE for Gateway](https://www.96boards.org/products/ce/)
+1. [BLE compatible 96Boards IE hardware - Carbon/Nitrogen](/products/ie/)
+2. [96Boards CE for Gateway](/products/ce/)
 3. [TMP102 - Temperature Sensor](https://www.sparkfun.com/products/13314)
 4. [Pulse sensor](https://www.sparkfun.com/products/11574)
 5. [CCS811 Air Quality sensor](https://www.sparkfun.com/products/14193)

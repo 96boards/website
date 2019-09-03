@@ -49,7 +49,7 @@ Enough theory, now we will move onto the practical stuffs :-)
 
   3. [HDMI cable](https://www.seeedstudio.com/1.5M-HDMI-to-HDMI-male-lead-cable-p-1502.html)
 
-  4. [Power adapter](https://www.96boards.org/product/power/)
+  4. [Power adapter](/product/power/)
 
 ## **Packages required**
 
@@ -94,7 +94,7 @@ The build will take quite some time depending on the host machine configuration.
 ## **Flashing AGL onto Dragonboard410c**
 
 Once the build has been completed, we have to flash the boot and rootfs images onto Dragonboard410c. Now, boot Dragonboard
-in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/).
+in fastboot mode by following the instructions [here](/documentation/consumer/dragonboard410c/installation/).
 
 ```shell
 $ cd $AGL_TOP/build/tmp/deploy/images/dragonboard-410c
@@ -105,7 +105,7 @@ Once, flashing is completed reboot the board and the board should boot into AGL 
 
 {% include image.html name="agl.jpg" alt="Your alternate text." %}
 
-Also, you should be able to login via serial console also by plugging an [UART Mezzanine](https://www.96boards.org/product/uartserial/)
+Also, you should be able to login via serial console also by plugging an [UART Mezzanine](/product/uartserial/)
 on top of Dragonboard410c. This will be really handly for debugging purposes.
 
 ## **Workaround for no output**

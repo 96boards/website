@@ -15,7 +15,7 @@ tags: 32-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, WisTrio, LoRa, Lo
 # Introduction
 
 Hello and Welcome to the blog, **CMake support for 96Boards WisTrio**. This
-blog gives a quick summary of the recent CMake support added for [WisTrio IoT board's](https://www.96boards.org/product/wistrio/) SDK
+blog gives a quick summary of the recent CMake support added for [WisTrio IoT board's](/product/wistrio/) SDK
 to help building the firmware on Linux based systems using opensource tools.
 
 # WisTrio SDK

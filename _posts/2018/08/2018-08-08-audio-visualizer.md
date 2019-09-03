@@ -20,12 +20,12 @@ The idea for this project came because I wanted to create a similarly styled Aud
 
 ## DragonBoard410c
 
-This board has a dedicated [Analog Header](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/hardware-docs/hardware-user-manual.md.html#analog-expansion-connector) with two analog microphone inputs... Perfect.
+This board has a dedicated [Analog Header](/documentation/consumer/dragonboard/dragonboard410c/hardware-docs/hardware-user-manual.md.html#analog-expansion-connector) with two analog microphone inputs... Perfect.
 So the idea was simple, use these two analog mic inputs as a single stereo input, feed the raw audio input through a python script that generates the NeoPixel LED pattern. Send the pattern over I2C to an Arduino just like we did for the [Carbon Rover](https://github.com/96boards-projects/carbon_rover#1-hardware).
 
 ## Challenges
 
-- **Voltage Differences:** There is a fair bit of difference between the voltage that's on a "Line-Input" from a Hi-Fi system at +2v/-2v and the mic input on the DragonBoard410c at about +1v8/-1v8. But as I explained in a [previous blog](https://www.96boards.org/blog/line-in-db/), the 96Boards Forum came to my rescue.
+- **Voltage Differences:** There is a fair bit of difference between the voltage that's on a "Line-Input" from a Hi-Fi system at +2v/-2v and the mic input on the DragonBoard410c at about +1v8/-1v8. But as I explained in a [previous blog](/blog/line-in-db/), the 96Boards Forum came to my rescue.
 - **Stereo Input:** Although the analog header has two mic input, both are connected to the same internal ADC ie ADC2, How ever there is a third mic input on the board. Its marked as GM1 on the silkscreen and is on a separate ADC ie ADC1.
 
 ## The Final Setup

@@ -14,13 +14,13 @@ tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, RDA, RDA8810PL, 
 # Introduction
 
 Hello and Welcome to the blog on "OrangePi-i96 Mainlining Update - Part 1". This
-blog will summarise the recent mainlining efforts for [OrangePi-i96 board](https://www.96boards.org/product/orangepi-i96/) in Linux kernel and the reason behind it.
+blog will summarise the recent mainlining efforts for [OrangePi-i96 board](/product/orangepi-i96/) in Linux kernel and the reason behind it.
 
 # OrangePi-i96 - Why no love?
 
 We at 96Boards treat all of our boards equally. But the board which gets
 more vendor support seems to be popular all the time. One prime example is
-the [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/), a
+the [Dragonboard410c](/product/dragonboard410c/), a
 Consumer edition board from Qualcomm. But this OrangePi-i96 board falls into
 the category of vendor ignored boards. As soon as the board launched, there
 was a bit of hype around it but the lack of vendor support made it fall under
@@ -34,7 +34,7 @@ MIPI CSI2 connector and much more.
 # Mainlining Update
 
 Since I'm doing the upstreaming activities in my spare time for other 96Boards
-such as [Bubblegum-96](https://www.96boards.org/product/bubblegum-96/), [MediaTek X20](https://www.96boards.org/product/mediatek-x20/), and [HiKey970](https://www.96boards.org/product/hikey970/),
+such as [Bubblegum-96](/product/bubblegum-96/), [MediaTek X20](/product/mediatek-x20/), and [HiKey970](/product/hikey970/),
 I decided to hunt this one also. A quick look at the current upstream support
 for RDA SoCs revealed that there is none existed in both Linux kernel and U-Boot.
 But, there was a patch series submitted by Andreas Farber from OpenSUSE which

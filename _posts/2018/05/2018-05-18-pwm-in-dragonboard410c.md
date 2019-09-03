@@ -14,7 +14,7 @@ tags: 64-bit, 96Boards, ARM, ARMV8, Aarch64, Dragonboard410c, PWM, Servo Motor
 # Introduction
 
 Hello and Welcome to the blog of **PWM in Dragonboard410c**. This blog
-summarises the recently added on board PWM functionality in [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/),
+summarises the recently added on board PWM functionality in [Dragonboard410c](/product/dragonboard410c/),
 a most popular consumer edition board in 96Boards family.
 
 # PWM

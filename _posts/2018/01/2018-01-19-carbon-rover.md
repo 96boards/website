@@ -13,7 +13,7 @@ tags: 96Boards, ARM, cortex-m4, zephyr, IoT Edition, Carbon, Linaro, RTOS, ultra
 
 # Carbon Rover
 
-In one of my previous blogs titled: [Zephyr RTOS and HC-SR04 Ultrasonic Sensor](https://www.96boards.org/blog/zephyr-hcsr04/), I talked about working with ultrasonic sensors using Zephyr RTOS. That was just one ultrasonic sensors, in this blog we will be talking about running 6 Ultrasonic sensors along with four IR sensors and a motor controller.
+In one of my previous blogs titled: [Zephyr RTOS and HC-SR04 Ultrasonic Sensor](/blog/zephyr-hcsr04/), I talked about working with ultrasonic sensors using Zephyr RTOS. That was just one ultrasonic sensors, in this blog we will be talking about running 6 Ultrasonic sensors along with four IR sensors and a motor controller.
 
 So the goal is simple, to create a rover that wouldn't fall off an edge nor would it hit an obstacle.
 

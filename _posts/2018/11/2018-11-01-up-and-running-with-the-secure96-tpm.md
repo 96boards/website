@@ -54,7 +54,7 @@ To get the TPM running, you need:
 
 These instructions are based on the Qualcomm Landing Team kernel 4.14.69, cloned from [http://git.linaro.org/landing-teams/working/qualcomm/kernel.git](http://git.linaro.org/landing-teams/working/qualcomm/kernel.git)
 
-Details on building the kernel from source for the Dragonboard are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
+Details on building the kernel from source for the Dragonboard are [here](/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
 
 Modifications to the following files are needed to enable the TPM SPI driver and the SPI interface chip select:
 ```
@@ -92,13 +92,13 @@ I’ve uploaded my boot-db410c.img along with the other files (CS patch, config)
 
 # **Flashing and Booting the Board**
 
-Start with the Dragonboard with a recent install of Debian using one of the methods [explained here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/)
+Start with the Dragonboard with a recent install of Debian using one of the methods [explained here](/documentation/consumer/dragonboard/dragonboard410c/installation/)
 
 Power off the board and insert the Secure96 mezzanine into the low speed connector on the Dragonboard, taking care before you power on to ensure that it’s aligned and not offset by one or more pins either way. The micro USB connector on the board is connected to UART0 on the low-speed connector. Unfortunately the default console UART is UART1.
 
 Connect your Linux PC to the Dragonboard via the OTG connector and put the Dragonboard in fastboot mode (power off, hold down S4 and power on).
 
-Flashing instructions are [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
+Flashing instructions are [here](/documentation/consumer/dragonboard/dragonboard410c/build/kernel/).
 
 After flashing, remove the OTG cable and reboot the board. Typing
 ```

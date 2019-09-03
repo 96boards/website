@@ -46,7 +46,7 @@ Carbon is the first board to be certified 96Boards IoT Edition compatible. The C
 
 ## Buy Now
 
-- [Seeed Studio](https://www.96boards.org/carbon-buy)
+- [Seeed Studio](/carbon-buy)
 
 ***
 

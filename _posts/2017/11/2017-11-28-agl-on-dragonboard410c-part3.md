@@ -30,17 +30,17 @@ tags:
 
 Hello and Welcome to **Part 3** of our **Automotive Grade Linux on Dragonboard410c**
 blog series. This is the final part of the blog series and intended to serve as a guide
-for application development using AGL framework. 
+for application development using AGL framework.
 
 Before getting into the blog, here is the quick recap of what happened in
 previous blogs of the series:
 
-1. [Automotive Grade Linux on Dragonboard410c - Part 1](https://www.96boards.org/blog/agl-on-dragonboard410c-part1/) - This
+1. [Automotive Grade Linux on Dragonboard410c - Part 1](/blog/agl-on-dragonboard410c-part1/) - This
 is the introductory blog for the **Automotive Grade Linux on Dragonboard410c**
 blog series. This part introduced AGL and steps required to build and deploy
 it on Dragonboard410c.
 
-2. [Automotive Grade Linux on Dragonboard410c - Part 2](https://www.96boards.org/blog/agl-on-dragonboard410c-part2/) - This
+2. [Automotive Grade Linux on Dragonboard410c - Part 2](/blog/agl-on-dragonboard410c-part2/) - This
 blog demonstrated the **HVAC** (Heat Ventilation and Air Conditioning) using the
 agl-demo-platform GUI with the help of Sensors Mezzanine and Dragonboard410c.
 
@@ -170,8 +170,8 @@ the temperature data from TMP007 sensor and sends it back to the frontend throug
   tmp = (data[0] * 256 + (data[1] & 0xFC)) / 4;
   if(tmp > 8191) {
     tmp -= 16384;
-  }	
-  
+  }
+
   /* convert to celsius */
   val = tmp * 0.03125;
 
@@ -189,8 +189,3 @@ using it. There are N number of possibilities available with AGL since it is bac
 by the Top most Automotive companies and Linux Foundation in particular. If AGL
 continues to grow in the upcoming days, we can expect to see most majority of cars
 powered by it :-)
-
-
-
-
-

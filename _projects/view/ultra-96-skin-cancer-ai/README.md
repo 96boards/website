@@ -20,7 +20,7 @@ Using Ultra96 and NCS to detect and classify skin cancer.
 - **Project Name:** Ultra96 Skin Cancer AI
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Deep Learning, Neural Networks, Computer Vision
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Resources
@@ -34,7 +34,7 @@ Using Ultra96 and NCS to detect and classify skin cancer.
 - Peter Ma: [Hackster.io](https://www.hackster.io/Nyceane)
 - Sarah Han: [Hackster.io](https://www.hackster.io/Sarah_han)
 - Shin Ae Hong: [Hackster.io](https://www.hackster.io/shinae)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 ### Code
 

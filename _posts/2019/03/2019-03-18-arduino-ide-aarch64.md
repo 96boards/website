@@ -27,7 +27,7 @@ I only ended up testing a few boards:
 
 # What does it mean for for 96Boards?
 
-For us it means that we can install the Arduino IDE on Arm64 boards like the DragonBoard, Hikey and others. Not only to flash Arduino boards over USB but also we can now flash the [SeeedStudio Sensors mezzanine](https://www.96boards.org/product/sensors-mezzanine/) directly over UART0 on LS header without using any external host or cables.
+For us it means that we can install the Arduino IDE on Arm64 boards like the DragonBoard, Hikey and others. Not only to flash Arduino boards over USB but also we can now flash the [SeeedStudio Sensors mezzanine](/product/sensors-mezzanine/) directly over UART0 on LS header without using any external host or cables.
 
 # How to flash SeeedStudio Sensors Mezzanine?
 
@@ -40,4 +40,3 @@ For us it means that we can install the Arduino IDE on Arm64 boards like the Dra
 
 Installation instructions for Arduino IDE can be found online, and remain the same as any other linux distro.
 - [Official Installation Instructions](https://www.arduino.cc/en/guide/linux)
-

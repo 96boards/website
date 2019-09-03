@@ -17,22 +17,22 @@ Hello and Welcome to the final **Part 4** of **Patient Monitoring System using 9
 blog series. This blog describes the final implementation of Patient Monitoring System
 project in realtime. Before jumping in, here is the quick recap of what happened in previous parts:
 
-1. [Introducing Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-into/) - This
+1. [Introducing Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-into/) - This
 is the introductory blog for the **Patient Monitoring System using 96Boards**
 blog series which introduced the project, BLE mesh support in Zephyr
 and the project roadmap.
 
-2. [Part 1 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part1/) - This
+2. [Part 1 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part1/) - This
 blog provided the basic usage of BLE mesh in Zephyr by showing the steps
 required to provision and configure the nodes and also the data exchange
 between Server and Client.
 
-3. [Part 2 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part2/) - This
+3. [Part 2 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part2/) - This
 blog demonstrated the data exchange between BLE mesh network and Gateway
 implemented using Dragonboard410c. As a part of this blog, a demonstration
 video was also included.
 
-4. [Part 3 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part3/) - This
+4. [Part 3 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part3/) - This
 blog demonstrated how to setup Thingspeak cloud service for visualizing the
 data from BLE mesh network. This blog also covered how to setup Twilio SMS
 service for triggering alerts.

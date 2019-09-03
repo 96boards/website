@@ -15,7 +15,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Bu
 
 Hello and Welcome to the blog on "Bubblegum96 Mainlining Update - Part 1". This
 blog provides the update on the Mainlining efforts from 96Boards team for the
-[Bubblegum96 board](https://www.96boards.org/product/bubblegum-96/) in Linux kernel.
+[Bubblegum96 board](/product/bubblegum-96/) in Linux kernel.
 
 # Bubblegum96
 

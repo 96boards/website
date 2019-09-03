@@ -144,6 +144,6 @@ for the availability of multiple Linux distributions for this board in the futur
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
 
-Please visit the [HiKey960 Hardware User Manual](https://www.96boards.org/documentation/consumer/hikey960/hardware-docs/hardware-user-manual/) for more information
+Please visit the [HiKey960 Hardware User Manual](/documentation/consumer/hikey960/hardware-docs/hardware-user-manual/) for more information
 
 <a href="/documentation/consumer/hikey/hikey960/hardware-docs/files/compliance-hikey960.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>

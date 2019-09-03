@@ -1,6 +1,6 @@
 ---
 title: CryptoNode on 96Boards
-author: Andrew Betts 
+author: Andrew Betts
 date: 2018-04-20 22:00:00+00:00
 image:
     featured: true
@@ -12,7 +12,7 @@ tags: 64-bit, 96Boards, Crypto, UCSD
 ---
 
 # Introduction
-Hi! 96Boards has partnered with UCSD ECE to begin development into Cryptocurrency space. The project is currently known as cryptonode. This project seeks to deliver a more intuitive userspace to cryptocurrencies and help spread adoption of the crypto platform. In order to do so, the [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/) will be running the different required softwares and present and GUI to the user
+Hi! 96Boards has partnered with UCSD ECE to begin development into Cryptocurrency space. The project is currently known as cryptonode. This project seeks to deliver a more intuitive userspace to cryptocurrencies and help spread adoption of the crypto platform. In order to do so, the [Dragonboard410c](/product/dragonboard410c/) will be running the different required softwares and present and GUI to the user
 
 # Work and Roadmap
 In the past week, a bunch of research has occured. The team has updated their knowledge of the working of cryptocurrencies in hope of establishing a clear path to the end goal of a great user interface. We have tenuosly decided on coin to move forward with. This coin is known as Smart Cash (SMART) low Tx fees, instant payment, and low cost per coin make this a desirable target for implementation of an adoptable platform for users. Furthermore additionaly currency can be generated through masternode operation (requiring an intial investment of 10k coins, around 2k U.S. dollars currently) which is feasible on the Dragonboard 410c. Even if interest pushes this out of the range of a normal investor, its previous ease of payment still make it a prime choice for wallet implementation. Moving forward, work will be done to find cli (command line interface) tools for the coin and implementation of a transaction between people. Additionally, I believe work on the wallet GUI will begin as our team familiarizes themselves with Qt or any other drafting framework (I myself am familiar with Java development w.r.t JFrames as well as the Android interface and a brief amount of PyQt so hopefully it isn't a big stretch. The two tasks can be worked on independently  and the GUI can execute placeholder bash scripts that we will eventually plug and play with the real ones.

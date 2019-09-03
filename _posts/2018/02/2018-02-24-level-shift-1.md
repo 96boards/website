@@ -73,5 +73,5 @@ If you want to take a look at calculations for Pull-Up resistor value with regar
 
 So, how do I level shift 1v8 to 5v on 96Boards?
 
-As far as I2C is concerned stick with [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) Its actually cheaper than many level shifting modules.
+As far as I2C is concerned stick with [Audio Mezzanine](/product/audio-mezzanine/) Its actually cheaper than many level shifting modules.
 For other types of applications, wait for Part 2...

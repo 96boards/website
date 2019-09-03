@@ -23,15 +23,15 @@ permalink: "/legal/"
 
 ## Information about the Linaro 96Boards.org Website
 
-Please refer to: [https://www.96boards.org/about/](https://www.96boards.org/about/)
+Please refer to: [https://www.96boards.org/about/](/about/)
 
 ## Information about Linaro™
 
-The “Linaro 96Boards.org Website” (the “Website”) shall mean the web site operated by or on behalf of Linaro Limited (hereinafter “We/Us/Our”) for your use, whether as a guest or a registered user. Linaro Limited is a private limited company registered in England and Wales with company number 07180318\. VAT No: 990 0273 24\. Registered Office Address:  
-Harston Mill  
-Harston  
-Cambridge  
-CB22 7GG  
+The “Linaro 96Boards.org Website” (the “Website”) shall mean the web site operated by or on behalf of Linaro Limited (hereinafter “We/Us/Our”) for your use, whether as a guest or a registered user. Linaro Limited is a private limited company registered in England and Wales with company number 07180318\. VAT No: 990 0273 24\. Registered Office Address:
+Harston Mill
+Harston
+Cambridge
+CB22 7GG
 United Kingdom.
 
 ## Accessing the Website

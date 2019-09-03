@@ -14,11 +14,11 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Bu
 # Introduction
 
 Hello and Welcome to the blog on "Bubblegum96 Mainlining Update - Part 3". This
-blog will summarise the mainlining efforts for [Bubblegum96 board](https://www.96boards.org/product/bubblegum-96/) in Linux kernel.
+blog will summarise the mainlining efforts for [Bubblegum96 board](/product/bubblegum-96/) in Linux kernel.
 
 # Mainlining Update
 
-The [Part 2 blog](https://www.96boards.org/blog/bubblegum96-mainlining-update-part-2/),
+The [Part 2 blog](/blog/bubblegum96-mainlining-update-part-2/),
 discussed the pinctrl/gpio support for this board. Since then there have been
 so many updates in the kernel world for Bubblegum96. They are listed below:
 

@@ -91,7 +91,7 @@ accel_data[2] = i2c_read_word(i2c, MPU6050_REG_RAW_ACCEL_Z) / MPU6050_ACCEL_SCAL
 
 /* read raw gyro data */
 gyro_data[0] = i2c_read_word(i2c, MPU6050_REG_RAW_GYRO_X) / MPU6050_GYRO_SCALE;
-gyro_data[1] = i2c_read_word(i2c, MPU6050_REG_RAW_GYRO_Y) / MPU6050_GYRO_SCALE;			 
+gyro_data[1] = i2c_read_word(i2c, MPU6050_REG_RAW_GYRO_Y) / MPU6050_GYRO_SCALE;
 gyro_data[2] = i2c_read_word(i2c, MPU6050_REG_RAW_GYRO_Z) / MPU6050_GYRO_SCALE;
 ```
 [libmraa](https://github.com/intel-iot-devkit/mraa) is used to communicate IMU using I2C0 bus.
@@ -134,4 +134,4 @@ showcased the processing capability of 96Boards in a best possible way :-)
 If this post inspired you, please try to implement the same using instructions provided and share your experience with us. We'd
 love to hear from community.
 
-Want more? [Continue on to Part - 2 of the series](https://www.96boards.org/blog/self-balancing-bot-using-96boards-part2/).
+Want more? [Continue on to Part - 2 of the series](/blog/self-balancing-bot-using-96boards-part2/).

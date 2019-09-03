@@ -1,5 +1,5 @@
 ---
-title: MAX7219 LED Matrix RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 1 
+title: MAX7219 LED Matrix RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 1
 author: Sahaj Sarup
 date: 2019-05-06 01:00:00+00:00
 image:
@@ -37,4 +37,4 @@ Compile: `gcc spi.c -o spi.o -lmraa`
 
 You should now see each led on the Matrix light up one after the other.
 
-For a more detailed guide checkout the [Shiratech FPGA Mezzanine Documentation](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/).
+For a more detailed guide checkout the [Shiratech FPGA Mezzanine Documentation](/documentation/mezzanine/shiratech-fpga/guides/).

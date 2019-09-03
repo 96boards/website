@@ -12,7 +12,7 @@ image: /assets/images/content/brazil-partnership-bg.png
 
 <div class="col-md-6" markdown="1">
 
-For the duration of this partnership, 96Boards will host a several support channels and events to compliment the contest and expand on the resources available to all participants. For more information, you can continue to explore this page, and/or [visit last years event page](https://www.96boards.org/go/db410c-partnership-brazil/).
+For the duration of this partnership, 96Boards will host a several support channels and events to compliment the contest and expand on the resources available to all participants. For more information, you can continue to explore this page, and/or [visit last years event page](/go/db410c-partnership-brazil/).
 
 <a href="https://www.96boards.org/go/db410c-partnership-brazil/" class="btn btn-primary">Last Year's Page</a>
 
@@ -28,27 +28,27 @@ For the duration of this partnership, 96Boards will host a several support chann
 
 ## Contest Kit
 
-- [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
+- [DragonBoard 410c](/product/dragonboard410c/)
    - By Arrow, featuring the Qualcomm Snapdragon 410E SoC
-- [Arrow Linksprite Mezzanine Kit](https://www.96boards.org/product/linkspritesensorkit/)
-- [Optional Mezzanine Add-ons](https://www.96boards.org/products/mezzanine/)
+- [Arrow Linksprite Mezzanine Kit](/product/linkspritesensorkit/)
+- [Optional Mezzanine Add-ons](/products/mezzanine/)
 
 ***
 
 ## Resources
 
 - **DragonBoard 410c Landing page**
-   - [96Boards Landing Page](https://www.96boards.org/product/dragonboard410c/)
+   - [96Boards Landing Page](/product/dragonboard410c/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Qualcomm Developer Network (QDN)](https://developer.qualcomm.com/hardware/dragonboard-410c)
 - Projects
    - [Instructables](http://www.instructables.com/howto/dragonboard+qualcomm/)
-   - [96Boards](https://www.96boards.org/projects/)
+   - [96Boards](/projects/)
    - [Qualcomm Developer Network](https://developer.qualcomm.com/project)
 - Workshop presentation
    - [Presentation](http://bit.ly/2lzW7ox)
 - 96Boards OpenHours
-   - [Website](https://www.96boards.org/openhours/)
+   - [Website](/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ***

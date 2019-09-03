@@ -15,7 +15,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Me
 
 Hello and Welcome to the blog on "Mediatek X20 Mainlining Update - Part 1". This
 blog provides the update on the Mainlining efforts from 96Boards team for the
-[Mediatek X20 board](https://www.96boards.org/product/mediatek-x20/) in Linux kernel.
+[Mediatek X20 board](/product/mediatek-x20/) in Linux kernel.
 
 # Reason for Mainlining Mediatek X20 board
 

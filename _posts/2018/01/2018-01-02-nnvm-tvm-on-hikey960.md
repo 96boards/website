@@ -101,7 +101,7 @@ Unzip the **rootfs** image and flash it onto HiKey960 along with **boot** and
 >       [here](https://github.com/96boards-hikey/tools-images-hikey960#base-firmware-files-and-installation).
 >    Next, flash the above-specified images using **fastboot**
 
-Once the HiKey960 boots into debian, enable networking using [this](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
+Once the HiKey960 boots into debian, enable networking using [this](/documentation/consumer/dragonboard410c/guides/)
 guide and note down the IP address using `ifconfig` command.
 
 Next, follow the below steps to install TVM runtime on HiKey960:

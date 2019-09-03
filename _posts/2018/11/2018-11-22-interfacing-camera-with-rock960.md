@@ -69,7 +69,7 @@ not possible to interface dual camera on Model A&B.
 
 The entire instructions about connecting the camera to both boards and basic usage will be
 found in our documentation repo. I have added the [initial camera interfacing
-guide](https://github.com/96boards/documentation/blob/master/consumer/rock/guides/camera-module.md) for Rock960 Model A&B based on [Deltavision MIPI adapter v2.0](https://www.96boards.org/product/mipiadapter/) and OV5645 camera sensor. Soon, the instructions for connecting
+guide](https://github.com/96boards/documentation/blob/master/consumer/rock/guides/camera-module.md) for Rock960 Model A&B based on [Deltavision MIPI adapter v2.0](/product/mipiadapter/) and OV5645 camera sensor. Soon, the instructions for connecting
 different camera modules/expansion boards to both Model A&B and Model C will be
 available in our repo.
 

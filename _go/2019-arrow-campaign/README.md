@@ -47,10 +47,10 @@ Coming Soon...
 - **Projects**
    - Coming Soon...
 - **Blogs**
-   - [96Boards Blogs](https://www.96boards.org/blog/)
+   - [96Boards Blogs](/blog/)
    - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
-   - [Website](https://www.96boards.org/openhours/)
+   - [Website](/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ***

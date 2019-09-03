@@ -14,7 +14,7 @@ tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, ST, STM32, ST-Li
 # Introduction
 
 Hello and Welcome to the blog, **Zephyr on 96Boards WisTrio IoT Board**. This
-blog gives a quick summary of the recent upstreaming efforts for [WisTrio IoT board](https://www.96boards.org/product/wistrio/) in [Zephyr Project](https://github.com/zephyrproject-rtos/zephyr).
+blog gives a quick summary of the recent upstreaming efforts for [WisTrio IoT board](/product/wistrio/) in [Zephyr Project](https://github.com/zephyrproject-rtos/zephyr).
 
 # WisTrio IoT Board
 

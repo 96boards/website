@@ -10,7 +10,7 @@ image:
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, twitter, python, Bot, script
 ---
-- [Checkout Part 1 of the Social media Ticker](https://www.96boards.org/blog/social-ticker/)
+- [Checkout Part 1 of the Social media Ticker](/blog/social-ticker/)
 
 # The 96Boards Social Media Ticker
 

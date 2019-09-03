@@ -14,7 +14,7 @@ tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, ST, STM32, ST-Li
 # Introduction
 
 Hello and Welcome to the blog, "Zephyr on 96Boards STM32 Sensor Mezzanine". This
-blog gives a quick summary of the recent upstreaming efforts for [96Boards Sensor Mezzanine](https://www.96boards.org/product/stm32/) in [Zephyr Project](https://github.com/zephyrproject-rtos/zephyr).
+blog gives a quick summary of the recent upstreaming efforts for [96Boards Sensor Mezzanine](/product/stm32/) in [Zephyr Project](https://github.com/zephyrproject-rtos/zephyr).
 
 # 96Boards STM32 Sensor Mezzanine
 

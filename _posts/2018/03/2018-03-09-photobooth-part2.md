@@ -20,11 +20,11 @@ In this blog we will see how to apply snapchat like filters using OpenCV and
 Before going further, here is the quick recap of what happened in the previous
 blogs of this project:
 
-1. [Introducing 96Boards Photobooth](https://www.96boards.org/blog/photobooth-intro/) - This
+1. [Introducing 96Boards Photobooth](/blog/photobooth-intro/) - This
 is the introductory blog for the **96Boards Photobooth** project which introducted the
 project, roadmap and bill of materials.
 
-2. [Part 1 - 96Boards Photobooth](https://www.96boards.org/blog/photobooth-part1/) - This
+2. [Part 1 - 96Boards Photobooth](/blog/photobooth-part1/) - This
 blog provided the instructions for setting up OpenCV on Dragonboard410c and capturing the
 image using OV5640 camera sensor interfaced using D3 Camera Mezzanine.
 
@@ -32,7 +32,7 @@ image using OV5640 camera sensor interfaced using D3 Camera Mezzanine.
 
 Part 2 is focussed on applying snapchat like filters using OpenCV and a 96Boards watermark
 at the bottom of the image. Before that, we need to setup the hardware for accomplishing
-the task. Comparing the [previous blog](https://www.96boards.org/blog/photobooth-part1/),
+the task. Comparing the [previous blog](/blog/photobooth-part1/),
 we need to connect an extra push button to GPIO 25. This push button will be used for
 scrolling through different overlays.
 
@@ -52,7 +52,7 @@ On a short note, we need the following connections on Dragonboard410c:
 # Software Setup
 
 On the software side, we need to install few python libraries in addition to the ones
-mentioned in [previous blog](https://www.96boards.org/blog/photobooth-part1/).
+mentioned in [previous blog](/blog/photobooth-part1/).
 
 ```shell
 $ sudo apt-get update
@@ -123,18 +123,18 @@ def put_moustache_filter(mst, frame, x, y, w, h):
             for k in range(3):
                 if mst[i-int(0.62857142857*face_height)][j-int(0.29166666666*face_width)][k] <235:
                     frame[y+i][x+j][k] = mst[i-int(0.62857142857*face_height)][j-int(0.29166666666*face_width)][k]
-                                                                                                    
+
     return frame
 
 def put_hat_filter(hat, frame, x, y, w, h):
     face_width = w
     face_height = h
-            
+
     hat_width = face_width+1
     hat_height = int(0.35*face_height)+1
-    
+
     hat = cv2.resize(hat,(hat_width,hat_height))
-                                    
+
     for i in range(hat_height):
         for j in range(hat_width):
             for k in range(3):
@@ -195,7 +195,7 @@ def capture_callback(capture_btn):
 
 def filter_callback(filter_btn):
     global filter_opt
-    
+
     filter_opt += 1
     if filter_opt > 2:
         filter_opt = 1
@@ -244,7 +244,7 @@ filter_btn.isr(mraa.EDGE_RISING, filter_callback, filter_btn)
 
 while 1:
     lock = _thread.allocate_lock()
-    
+
     # Show live preview
     capture_and_show("TAKE", 220, 180)
 
@@ -267,7 +267,7 @@ $ sudo python3 photobooth.py
 ```
 
 > Note: You need to execute the media pipeline instructions mentioned in the
->       [previous blog](https://www.96boards.org/blog/photobooth-part1/) before executing the python script.
+>       [previous blog](/blog/photobooth-part1/) before executing the python script.
 
 # Video Demonstration
 

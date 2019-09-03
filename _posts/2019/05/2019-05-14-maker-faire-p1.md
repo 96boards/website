@@ -14,7 +14,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, 
 
 For the first time ever, 96Boards will have a booth at Maker Faire Bay Area! Joined by a small group of amazing partners ([Qualcomm](https://developer.qualcomm.com/), [Arrow Electronics](https://www.arrow.com/), and [Arm](https://www.arm.com/) featuring the [Arm Innovators Program](https://www.arm.com/why-arm/innovation/innovator-program)), we will be taking over a section of Zone 2.
 
-During this time at Maker Faire, we plan to showcase a wide variety of fun, hands on demos and new technology, most of which are accessible through the [96Boards ecosystem](https://www.96boards.org/). Included in these demos, you will find [Robert Wolff's - @sdrobertw](https://github.com/96boards-projects/96b-sustain-dev-box) Solar Powered Arm Developer Stations, Arrow's newest AI-ML i.MX8 96Boards running crowd prediction models, a facial recognition sweepstakes, and the famous robot arm from [Matrix Labs](https://www.matrix.one/).
+During this time at Maker Faire, we plan to showcase a wide variety of fun, hands on demos and new technology, most of which are accessible through the [96Boards ecosystem](/). Included in these demos, you will find [Robert Wolff's - @sdrobertw](https://github.com/96boards-projects/96b-sustain-dev-box) Solar Powered Arm Developer Stations, Arrow's newest AI-ML i.MX8 96Boards running crowd prediction models, a facial recognition sweepstakes, and the famous robot arm from [Matrix Labs](https://www.matrix.one/).
 
 Please take some time to stop by our booth! There will be representatives from every company there ready to answer you questions and point you in the right online direction if needed.
 
@@ -28,7 +28,7 @@ Please take some time to stop by our booth! There will be representatives from e
 - [Arm](https://www.arm.com/)
 - [Arm Innovators Program](https://www.arm.com/why-arm/innovation/innovator-program)
 - [Matrix Labs](https://www.matrix.one/)
-- [96Boards](https://www.96boards.org/)
+- [96Boards](/)
 
 
 Now is your chance! [Join the 96Boards Discord Server](https://discord.gg/x5uMn5d)!

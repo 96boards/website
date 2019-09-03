@@ -31,13 +31,13 @@ Do you remember when Sahaj updated us on his OpenCV work a few weeks ago? Well, 
 
 **You might want to catch up on the work he has been doing before the show. If so, you can reach his blog series. This series walks you through all the stuff he has been doing in the last few months:
 
-- [Introduction to the Robotic Arm](https://www.96boards.org/blog/rb3-arm-intro/)
-- [Part 0 - The Setup](https://www.96boards.org/blog/rb3-setup/)
-- [Part 1 - Intro to OpenCV](https://www.96boards.org/blog/rb3-arm-intro-opencv-1/)
-- [Part 2 - OpenCV Threads](https://www.96boards.org/blog/rb3-arm-opencv-threads/)
-- [Part 3 - Gimme The Code!](https://www.96boards.org/blog/rb3-opencv-gimme-code/)
-- [Part 4 - 1080p OpenCV](https://www.96boards.org/blog/rb3-1080p-opencv/)
-- [Part 5 - Voice and Vision](https://www.96boards.org/blog/rb3-voice-vision/)
+- [Introduction to the Robotic Arm](/blog/rb3-arm-intro/)
+- [Part 0 - The Setup](/blog/rb3-setup/)
+- [Part 1 - Intro to OpenCV](/blog/rb3-arm-intro-opencv-1/)
+- [Part 2 - OpenCV Threads](/blog/rb3-arm-opencv-threads/)
+- [Part 3 - Gimme The Code!](/blog/rb3-opencv-gimme-code/)
+- [Part 4 - 1080p OpenCV](/blog/rb3-1080p-opencv/)
+- [Part 5 - Voice and Vision](/blog/rb3-voice-vision/)
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 

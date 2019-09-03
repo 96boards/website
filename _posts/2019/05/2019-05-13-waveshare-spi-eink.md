@@ -1,5 +1,5 @@
 ---
-title: Waveshare SPI 2.9inch E-ink RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 2 
+title: Waveshare SPI 2.9inch E-ink RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 2
 author: Sahaj Sarup
 date: 2019-05-13 01:00:00+00:00
 image:
@@ -12,7 +12,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboa
 
 A bit more complex.
 
-In my [last blog](https://www.96boards.org/blog/max7219-shiratech-fpga/) I talked about running a MAX7219 LED matrix HAT using the Shiratech FPGA Mezzanine. In this one we'll talk about using a SPI based E-Ink display.
+In my [last blog](/blog/max7219-shiratech-fpga/) I talked about running a MAX7219 LED matrix HAT using the Shiratech FPGA Mezzanine. In this one we'll talk about using a SPI based E-Ink display.
 
 # [Waveshare E-Ink HAT](https://www.waveshare.com/2.9inch-e-paper-module.htm)
 
@@ -45,7 +45,7 @@ To make life easier I have modified a user-space e-ink display library to do it 
 
 You can try out this library available at [https://github.com/ric96/edp-29-fpga_mezzi](https://github.com/ric96/edp-29-fpga_mezzi).
 
-For a more detailed guide checkout the [Shiratech FPGA Mezzanine Documentation](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/).
+For a more detailed guide checkout the [Shiratech FPGA Mezzanine Documentation](/documentation/mezzanine/shiratech-fpga/guides/).
 
 # Video Demo During OpenHours
 

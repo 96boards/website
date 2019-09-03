@@ -3,7 +3,6 @@ author: jennifer.castelino
 comments: true
 date: 2016-06-05 22:22:23+00:00
 layout: post
-link: https://www.96boards.org/blog/96boards-openhours-session-4-recap/
 slug: 96boards-openhours-session-4-recap
 image:
     featured: true
@@ -74,7 +73,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
   *  Link to YouTube channel: [https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg](https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg)
 
 
-  * Began discussion of this week’s blog topic:  [https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
+  * Began discussion of this week’s blog topic:  [/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 
 
@@ -139,9 +138,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
         6. 28:43 – Question: Is programming GPIO the same for all 96Boards?
 
 
-        7. Robert discussed some documentation that was available on github: [https://www.96boards.org/documentation/consumer/guides/gpio.md.html]()
-
-
+        7. Robert discussed some documentation that was available on github: [/documentation/consumer/guides/mraa/](/documentation/consumer/guides/mraa/)
 
 
 
@@ -162,7 +159,7 @@ Last week the team discussed  available Mezzanine product line with sensors and
 
 The last several minutes of the call there was much discussion on the Dragonboard.  Robert then mentioned next week’s topic and demos that would be given next week.
 
-Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [https://www.96boards.org/openhours/](/openhours/)
+Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [/openhours/](/openhours/)
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
@@ -230,9 +227,9 @@ we can't hear you robert
 
 RW
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-3/](/blog/96boards-box-experience-guide-3/)
+[/blog/96boards-box-experience-guide-3/](/blog/96boards-box-experience-guide-3/)
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
+[/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 [https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
@@ -332,7 +329,7 @@ Is there a download link for that diagram
 
 AT
 
-[https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
+[/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/)
 
 
 
@@ -354,7 +351,7 @@ Pinout
 
 AW
 
-[https://www.96boards.org/pinout/]()
+[/pinout/]()
 
 Thanks
 
@@ -366,7 +363,7 @@ Thanks
 
 RW
 
-[https://www.96boards.org/documentation/consumer/guides/gpio.md.html](https://www.96boards.org/documentation/consumer/guides/gpio/)
+[/documentation/consumer/guides/mraa/](/documentation/consumer/guides/gpio/)
 
 
 
@@ -498,7 +495,7 @@ USB-Ethernet dongle worked well for me. Alternatively have you looked at a seria
 
 RW
 
-[https://www.96boards.org/product/adapter/](/product/adapter/)
+[/product/adapter/](/product/adapter/)
 
 
 
@@ -558,7 +555,7 @@ I'll be using Linaro
 
 RW
 
-[https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce/)
+[/documentation/consumer/guides/compare_96boards_ce/](/documentation/consumer/guides/compare_96boards_ce/)
 
 
 

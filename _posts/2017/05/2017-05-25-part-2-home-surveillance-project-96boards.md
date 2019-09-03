@@ -48,13 +48,13 @@ tags:
 
 Have you thought of implementing face detection on your own? How well it would be if your SBC can identify your face and take action accordingly. And yeah this is the part 2 of ‘**Home surveillance**' blog series about creating a full fledged home monitoring system using 96Boards.
 
-In this blog, we are going to see how to implement the face recognition algorithm using [OpenCV](http://opencv.org/) on 96Boards. Never heard of OpenCV or Image processing stuff? No problem, as this tutorial covers everything right from scratch. As I said in my **[previous blog](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)**, instructions available in this blog series would apply to all of our 96Boards CE family.
+In this blog, we are going to see how to implement the face recognition algorithm using [OpenCV](http://opencv.org/) on 96Boards. Never heard of OpenCV or Image processing stuff? No problem, as this tutorial covers everything right from scratch. As I said in my **[previous blog](/blog/part-1-home-surveillance-project-96boards/)**, instructions available in this blog series would apply to all of our 96Boards CE family.
 
 {% include media.html media_url="https://www.youtube.com/embed/oiEUJ50o_co" %}
 
 **See other blogs from this series:**
 
-  1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)
+  1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](/blog/part-1-home-surveillance-project-96boards/)
 
 # **OpenCV -  Insight and Installation**
 
@@ -190,7 +190,7 @@ Hurray… :D We have just implemented face detection using 96Boards on our own. 
 
 Alright, what's next? Implementing in your home... Yeah.. But hold on, we have plenty to come. So, stay calm and wait for the next blog series. At the end of the series, we would be having a full fledged** Home Surveillance system **using 96Boards.
 
-**Want more? [Continue on to Part - 3 of the series](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)**.
+**Want more? [Continue on to Part - 3 of the series](/blog/part-3-home-surveillance-project-96boards/)**.
 
 * * *
 

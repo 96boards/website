@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, 
 
 # Introduction
 
-In one of my older blog [posts](https://www.96boards.org/blog/sneak-peak-lte-mezzi/), I wrote about the LTE side of things on this Mezzanine. However, in this one, we are going to discuss how to get three of the four on-board sensors working.
+In one of my older blog [posts](/blog/sneak-peak-lte-mezzi/), I wrote about the LTE side of things on this Mezzanine. However, in this one, we are going to discuss how to get three of the four on-board sensors working.
 The LTE mezzanine has the following set of sensors:
 - [Bosch BNO055](https://www.bosch-sensortec.com/bst/products/all_products/bno055): 3 Sensors in one device - triaxial 16bit gyroscope, triaxial 14bit, and full performance geomagnetic sensor.
 - [Analog Device ADUX1020](http://www.analog.com/en/products/optical/optical-sensing-technology/optical-mixed-signal-devices/adux1020.html):

@@ -249,6 +249,6 @@ This is more like a show-off of the object detection working in real time. For t
 
 # Video
 
-This code was presented during [OpenHours](https://www.96boards.org/openhours/) Episode 154.
+This code was presented during [OpenHours](/openhours/) Episode 154.
 
 {% include media.html media_url="https://youtu.be/5L-94a7n_-s" %}

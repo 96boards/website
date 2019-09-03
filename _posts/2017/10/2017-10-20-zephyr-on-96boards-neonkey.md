@@ -28,7 +28,7 @@ tags:
 
 # **Introduction**
 
-[96Boards Neonkey](https://www.96boards.org/product/neonkey/) board has been there for a long time in our Mezzanine family.
+[96Boards Neonkey](/product/neonkey/) board has been there for a long time in our Mezzanine family.
 It is one of the boards which is not advertised highly but possessing great capability. This blog post explains the recently
 added [Zephyr](https://www.zephyrproject.org/) support for this board.
 
@@ -59,7 +59,7 @@ added [Zephyr](https://www.zephyrproject.org/) support for this board.
 * Microphone: SPK0415HM4H-B
 
 Neonkey board is also used to develop new Context Hub features in [AOSP](https://source.android.com/source/devices) by connecting
-it with [Hikey](https://www.96boards.org/product/hikey/) or [Hikey960](https://www.96boards.org/product/hikey960/). This board
+it with [Hikey](/product/hikey/) or [Hikey960](/product/hikey960/). This board
 can be used as a standalone or a Mezzanine board with any of the 96Boards base platforms. Communication to the base board happens
 via UART0, I2C0, SPI0 and I2S.
 
@@ -119,8 +119,8 @@ RST button. Use the Black Magic Debug Probe as an SWD programmer, which can be c
 leads and its 20 Pin JTAG Adapter Board Kit. When plugged into your host PC, the Black Magic Debug Probe enumerates as a
 USB serial device as documented on its Getting started page.
 
-> Note: If you are concerned about buying a dedicated SWD debugger, you can also use [96Boards Carbon](https://www.96boards.org/product/carbon/) for flashing and debugging
->       as shown in [this](https://www.96boards.org/blog/96boards-carbon-self-programming/) blog post.
+> Note: If you are concerned about buying a dedicated SWD debugger, you can also use [96Boards Carbon](/product/carbon/) for flashing and debugging
+>       as shown in [this](/blog/96boards-carbon-self-programming/) blog post.
 
 It also uses the GDB binary provided with the Zephyr SDK, arm-zephyr-eabi-gdb. Other GDB binaries, such as the GDB from
 GCC ARM Embedded, can be used as well.

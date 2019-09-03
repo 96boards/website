@@ -17,14 +17,14 @@ The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect senso
 
 So its basically an Arduino Uno that connects to the 96Boards Low-Speed Connector.
 
-How ever it lacks a USB port to program it, instead the usual way to program it is via UART on the LS as shown [here](https://www.96boards.org/documentation/mezzanine/sensors-mezzanine/#using-atmega-io).
+How ever it lacks a USB port to program it, instead the usual way to program it is via UART on the LS as shown [here](/documentation/mezzanine/sensors-mezzanine/#using-atmega-io).
 
 # Programming it using a PC
 
 In-case you want to program it using Arduino IDE on your PC in order to test the code separately before attaching the mezzanine to any 96Boards. So lets see how we can achieve this:
 
 **Hardware Requirements**
-- [SeeedStudio Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/)
+- [SeeedStudio Sensors Mezzanine](/product/sensors-mezzanine/)
 - [Arduino ISP Programmer](https://www.banggood.com/5V-Micro-USB-Tiny-AVR-ISP-ATtiny44-USBTinyISP-Programmer-For-Arduino-Bootloader-p-1236017.html)
 - Micro-USB to Type-A Cable
 

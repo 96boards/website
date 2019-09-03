@@ -14,7 +14,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Hi
 # Introduction
 
 Hello and Welcome to the blog on "HiKey970 Mainlining Update - Part 2". This
-blog will summarise the recent mainlining efforts for [HiKey970 board](https://www.96boards.org/product/hikey970/) in Linux kernel.
+blog will summarise the recent mainlining efforts for [HiKey970 board](/product/hikey970/) in Linux kernel.
 
 # HiKey970
 

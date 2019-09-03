@@ -57,7 +57,7 @@ The next question (12:28) was regarding the grove sensor board.  Dave asked, "I
 
 Robert then mentioned a great blog by Andy from Qualcomm: [ https://developer.qualcomm.com/blog/dom/andy-clark-blends-mechanics-electronics-software-makes-wonderful-things ](https://developer.qualcomm.com/blog/dom/andy-clark-blends-mechanics-electronics-software-makes-wonderful-things) Great example of what you can build with 96Boards.
 
-The question (24:41) after that was from an attend that wrote "I have a question about using SPI on the Dragonboard. I installed a Debian version including Spidev but when I connect a sensor board to the SPI pins of the Dragonboard I don't see any data. Is there an SPI program to use? Did anyone ever tried interfacing the Dragonboard with SPI?"  Robert gave a link to an instruction set that gives you a way to set this up: [https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi.md.html](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/)
+The question (24:41) after that was from an attend that wrote "I have a question about using SPI on the Dragonboard. I installed a Debian version including Spidev but when I connect a sensor board to the SPI pins of the Dragonboard I don't see any data. Is there an SPI program to use? Did anyone ever tried interfacing the Dragonboard with SPI?"  Robert gave a link to an instruction set that gives you a way to set this up: [https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/](/documentation/consumer/dragonboard410c/guides/enable-spi/)
 
 There was a question on e health sensor serial port communication with dragonbaord? The team did not have the answer to that question but will follow-up.  The next question was "Would be interest to know if anyone has successfully used a camera with the DragonBoard other than a USB one?"  Robert mentioned that he did see this some at Linaro Connect, but it was mostly done with prototype cameras because there are not any on the market right now that do this.  Robert then gave 3 links that have more information about this:  [https://www.96boards.org/product/stm32/](/product/stm32/) , [https://www.96boards.org/product/aerocore2/](/product/aerocore2/)  and [https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf).
 
@@ -802,7 +802,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi.md.html](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/)
+[https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/](/documentation/consumer/dragonboard410c/guides/enable-spi/)
 
 
 
@@ -1511,7 +1511,7 @@ Hi, I have a question about using SPI on the Dragonboard. I installed a Debian v
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi.md.html](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/)
+[https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-spi/](/documentation/consumer/dragonboard410c/guides/enable-spi/)
 
 
 

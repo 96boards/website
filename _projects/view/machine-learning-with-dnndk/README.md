@@ -20,7 +20,7 @@ Programmable logic can accelerate machine learning inference. Let's take a look 
 - **Project Name:** Machine Learning at the Edge with Xilinx DNN Developer Kit
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Machine Learning, Deep Neural Network
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Introduction
@@ -29,7 +29,7 @@ Vision-based machine learning inference is a hot topic, with implementations bei
 
 Due to the complexity of convolutional neural networks, implementing machine learning inference can be computationally intensive. This makes achieving high frame rates challenging using traditional computational architectures. Heterogeneous System on Chips like the Zynq and Zynq MPSoC which combine high performance ARM processors with programmable logic offer solution which can significantly accelerate the performance.
 
-The challenge has previously been creating the programmable logic implementation, which is easy to use and work with common machine learning flows e.g. Caffe and TensorFlow. 
+The challenge has previously been creating the programmable logic implementation, which is easy to use and work with common machine learning flows e.g. Caffe and TensorFlow.
 
 
 ## Resources
@@ -41,7 +41,7 @@ The challenge has previously been creating the programmable logic implementation
 ### Social Media Links
 
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 

@@ -20,7 +20,7 @@ Changing the BSP to stop that pesky fan running at full speed.
 - **Project Name:** Ultra96 Fan Control
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Hardware
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Introduction
@@ -47,7 +47,7 @@ So please only attempt this if you are sure of you abilities, keep an eye on the
 ### Social Media Links
 
 - AndyCap: [Hackster.io](https://www.hackster.io/andycap)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 

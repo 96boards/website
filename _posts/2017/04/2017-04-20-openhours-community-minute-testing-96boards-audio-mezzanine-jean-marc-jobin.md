@@ -51,7 +51,7 @@ tags:
 
 **- With help from guest Author,[ Jean-Marc Jobin](https://twitter.com/jmjobin)**
 
-The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android/), complimented with the [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
+The following notes summarize Jean-Marc's experience with the [DragonBoard 410c](/product/dragonboard410c/), running [Android OS](/documentation/consumer/dragonboard410c/downloads/android/), complimented with the [Audio Mezzanine](/product/audio-mezzanine/) available from Arrow Electronics. Please take time and pair this blog with [last week's OpenHours episode found on YouTube](https://youtu.be/Hixk8R_-ixQ).
 
 {% include media.html media_url="https://www.youtube.com/embed/Hixk8R_-ixQ" %}
 
@@ -63,7 +63,7 @@ The following notes summarize Jean-Marc's experience with the [DragonBoard 410c]
   * [96Boards Compliant power supply](/product/power/)
 
 
-  * [Audio Mezzanine Board](https://www.96boards.org/product/audio-mezzanine/)
+  * [Audio Mezzanine Board](/product/audio-mezzanine/)
 
 
   * [16 pin (2 by 8) 2.0mm pitch connector](https://www.arrow.com/en/products/0877581616/molex)
@@ -75,7 +75,7 @@ The following notes summarize Jean-Marc's experience with the [DragonBoard 410c]
   * USB Type-A Keyboard and mouse
 
 
-  * [Android OS](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/android/)
+  * [Android OS](/documentation/consumer/dragonboard410c/downloads/android/)
 
 
 This mezzanine bring simplicity in connecting sensors to the DragonBoard 410c by adapting the signal levels and protecting the DB410c from shorting or experiencing connection errors from the outside world.

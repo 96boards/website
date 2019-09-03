@@ -15,7 +15,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Ro
 
 After a busy [Linaro Connect YVR](https://connect.linaro.org/resources/yvr18/),
 now it is the time to provide some update on my recent work towards upstreaming
-the [Rock960](https://www.96boards.org/product/rock960/) board from
+the [Rock960](/product/rock960/) board from
 [Vamrs Limited](http://vamrs.com/). This is the 4th board for me to do the
 upstreaming activity but this one lies close to my heart. To know the reason,
 please read below ;-)
@@ -47,7 +47,7 @@ are so happy to see that :)
 Since I said that the SoC is already well supported in OS projects, my focus
 was only on getting the board support merged. So, I started with Linux kernel
 first. While looking into the existing supported boards based on RK3399, I came
-to know that the [Ficus](https://www.96boards.org/documentation/enterprise/ficus/)
+to know that the [Ficus](/documentation/enterprise/ficus/)
 96Boards Enterprise board was already upstreamed by folks from Collabora.
 
 Since both Ficus and Rock960 comes from Vamrs, they share the common design

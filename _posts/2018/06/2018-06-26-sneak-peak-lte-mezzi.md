@@ -22,7 +22,7 @@ You do require an external antenna which will be provided in the box, although i
 Apart from the 4G LTE Connectivity, the mezzanine also has a rather large array of sensors on-board.
 
 If you would like to learn more about this, Shiratech will be announcing this mezzanine on OpenHours on the 5th of July 2018
-> [See OpenHours Episode List](https://www.96boards.org/openhours/episodes/)
+> [See OpenHours Episode List](/openhours/episodes/)
 
 And now for some video demo of the LTE connectivity:
 

@@ -49,8 +49,8 @@ based on **MIT** license where **libgpiod** is based on **LGPL** license. So the
 maintainers didn't favour dependency on incompatible (not much) licensed library.
 
 96Boards team submitted a [Pull Request](https://github.com/intel-iot-devkit/mraa/pull/887)
-to MRAA for adding the chardev support to [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
-and [HiKey](https://www.96boards.org/product/hikey/). Since our release/snapshot images
+to MRAA for adding the chardev support to [Dragonboard410c](/product/dragonboard410c/)
+and [HiKey](/product/hikey/). Since our release/snapshot images
 are based on latest kernel, chardev support will be turned on by default.
 
 # Conclusion

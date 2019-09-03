@@ -17,13 +17,13 @@ Get ready for an A-May-zing month of Women in STEM! If you are here to read more
 
 There will be several surprises and plenty of good times throughout the month of May. We have something planned for each day with many opportunities to participate and engage with everyone who is involved.
 
-96Boards (with the help of many collaborators) will try to host 23 written interviews from Women in a wide variety of STEM fields. Makers and software engineers, mathematicians and material physicists, Students, professionals, evangelists, influencers, and more! We hope to speak with everyone! Each day, one STEM story will be featured as a [96Boards Blog](https://www.96boards.org/blog/) and shared across various social media channels.
+96Boards (with the help of many collaborators) will try to host 23 written interviews from Women in a wide variety of STEM fields. Makers and software engineers, mathematicians and material physicists, Students, professionals, evangelists, influencers, and more! We hope to speak with everyone! Each day, one STEM story will be featured as a [96Boards Blog](/blog/) and shared across various social media channels.
 
-While the written interviews offer a great daily read, a weekly livestream can also be expected! At the [end of the countdown](https://www.96boards.org/openhours/) each week, 96Boards will host a live video chat room for anyone and everyone. The topic of the month is "Women in STEM" and you can expect some amazing featured guests to be joining us. This is everyone's chance to listen in, share your thoughts, and even get your questions answered by a selected panel of core participants and our featured guest of the week.
+While the written interviews offer a great daily read, a weekly livestream can also be expected! At the [end of the countdown](/openhours/) each week, 96Boards will host a live video chat room for anyone and everyone. The topic of the month is "Women in STEM" and you can expect some amazing featured guests to be joining us. This is everyone's chance to listen in, share your thoughts, and even get your questions answered by a selected panel of core participants and our featured guest of the week.
 
 # Schedule
 
-Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](https://www.96boards.org/openhours/) to read about this week's events, and to follow the countdown.
+Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](/openhours/) to read about this week's events, and to follow the countdown.
 
 ### Archived Livestreams
 
@@ -54,23 +54,23 @@ Please consider this schedule as tentative! For the most current information on 
 
 ### Written Interview Archive
 
-- [May 31: Laura Medalia - Software Engineer](https://www.96boards.org/blog/wistem-17/)
-- [May 30: Edith Hernandez - Inflammation In Vivo Research Associate](https://www.96boards.org/blog/wistem-16/)
-- [May 29: Dilesha Stelmach - Group benefits underwriter](https://www.96boards.org/blog/wistem-15/)
-- [May 28: Jumana Mundichipparakkal - SoC Performance Analyst](https://www.96boards.org/blog/wistem-14/)
-- [May 21: Raquel Medina - Software Engineer](https://www.96boards.org/blog/wistem-13/)
-- [May 16: Preeti Gupta - Electronics and Communications Engineer](https://www.96boards.org/blog/wistem-12/)
-- [May 15: Ketal Gandhi - Electronics Engineer](https://www.96boards.org/blog/wistem-11/)
-- [May 14: Rachel Patron - Chemical Engineering](https://www.96boards.org/blog/wistem-10/)
-- [May 11: Kimberly Nguyen - Chemical Engineering](https://www.96boards.org/blog/wistem-09/)
-- [May 10: Michelle Thompson - Information Theory](https://www.96boards.org/blog/wistem-08/)
-- [May 09: Ena Hodzic - Aeronautics and astronautics](https://www.96boards.org/blog/wistem-07/)
-- [May 08: Anastasia Marchenkova - Physics](https://www.96boards.org/blog/wistem-06/)
-- [May 07: Kiara Navarro - Embedded Hardware Engineering](https://www.96boards.org/blog/wistem-05/)
-- [May 04: Laura Abbott - Computer Science](https://www.96boards.org/blog/wistem-04/)
-- [May 03: Shirley Q. - Computer Science - Software Engineer](https://www.96boards.org/blog/wistem-03/)
-- [May 02: Alejandra Muñoz Villalobos - Front End Developer I IT Engineer](https://www.96boards.org/blog/wistem-02/)
-- [May 01: Alveera Ahsan - Electrical Engineer](https://www.96boards.org/blog/wistem-01/)
+- [May 31: Laura Medalia - Software Engineer](/blog/wistem-17/)
+- [May 30: Edith Hernandez - Inflammation In Vivo Research Associate](/blog/wistem-16/)
+- [May 29: Dilesha Stelmach - Group benefits underwriter](/blog/wistem-15/)
+- [May 28: Jumana Mundichipparakkal - SoC Performance Analyst](/blog/wistem-14/)
+- [May 21: Raquel Medina - Software Engineer](/blog/wistem-13/)
+- [May 16: Preeti Gupta - Electronics and Communications Engineer](/blog/wistem-12/)
+- [May 15: Ketal Gandhi - Electronics Engineer](/blog/wistem-11/)
+- [May 14: Rachel Patron - Chemical Engineering](/blog/wistem-10/)
+- [May 11: Kimberly Nguyen - Chemical Engineering](/blog/wistem-09/)
+- [May 10: Michelle Thompson - Information Theory](/blog/wistem-08/)
+- [May 09: Ena Hodzic - Aeronautics and astronautics](/blog/wistem-07/)
+- [May 08: Anastasia Marchenkova - Physics](/blog/wistem-06/)
+- [May 07: Kiara Navarro - Embedded Hardware Engineering](/blog/wistem-05/)
+- [May 04: Laura Abbott - Computer Science](/blog/wistem-04/)
+- [May 03: Shirley Q. - Computer Science - Software Engineer](/blog/wistem-03/)
+- [May 02: Alejandra Muñoz Villalobos - Front End Developer I IT Engineer](/blog/wistem-02/)
+- [May 01: Alveera Ahsan - Electrical Engineer](/blog/wistem-01/)
 
 # Get featured! Please take our Written Interview
 

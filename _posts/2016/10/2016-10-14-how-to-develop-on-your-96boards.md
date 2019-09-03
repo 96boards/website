@@ -219,7 +219,7 @@ Commands:
 # Useful Libraries for C, C++, Python, and Java development
 
 
-I personally recommend using libsoc or mraa libraries, when installed with the 96Boards extension they simplify GPIO and I2C access and make the code the same no matter which 96Board you are using. You can find install instructions at: [https://www.96boards.org/documentation/consumer/guides/mraa/install.md.html]()
+I personally recommend using libsoc or mraa libraries, when installed with the 96Boards extension they simplify GPIO and I2C access and make the code the same no matter which 96Board you are using. You can find install instructions at: [https://www.96boards.org/documentation/consumer/guides/mraa/install/]()
 
 Have fun, unless you manage to need to write some code in assembler coding on ARM is exactly the same as coding on X86. Really now a days there is really very very little reason to consider developing anything using assembler code, if you need tight code that's really fast, use C, there are reasons that C has been called the portable assembler….. If clean tight C is really not fast enough then yes, you might need to learn ARM assembler but the need should be very rare.
 

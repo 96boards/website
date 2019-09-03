@@ -28,7 +28,7 @@ And now, PCIe can be accessed directly from the on-board slot without any issues
 ## Let's see it in action.
 
 ### My setup consists of :
-- [96Boards Poplar](https://www.96boards.org/product/poplar/)
+- [96Boards Poplar](/product/poplar/)
 - A Generic no-name Brand PCIe SATA 3.0 Card: Based on the [ASM1060](http://www.asmedia.com.tw/eng/e_show_products.php?item=118) chipset to provide 2x SATA 3.0 ports.
 - WD 500GB 2.5 inch HDD.
 - 250W PSU (I know it a bit overpowered, but that's what I had)

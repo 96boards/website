@@ -33,6 +33,6 @@ A touchscreen portable media player build kit reference design, that features a 
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) &#124;  [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards)
+- 96Boards: [URL](/) &#124;  [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards)
 
 ***

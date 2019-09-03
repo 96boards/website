@@ -25,8 +25,8 @@ heterogeneous computing accelerated by ACL (Arm Compute Library). OAID is
 a collection of ML libraries such as Caffe, MxNet, Tengine etc... incorporating
 heterogneous computing infrastructure.
 
-Three of our 96Boards platforms [Dragonboard820c](https://www.96boards.org/product/dragonboard820c/),
-[Rock960](https://www.96rocks.com/) and [Hikey960](https://www.96boards.org/product/hikey960/)
+Three of our 96Boards platforms [Dragonboard820c](/product/dragonboard820c/),
+[Rock960](https://www.96rocks.com/) and [Hikey960](/product/hikey960/)
 are already enabled on OAID.
 
 The essence of OAID is ACL. ACL is is a set of functions optimised for both ARM

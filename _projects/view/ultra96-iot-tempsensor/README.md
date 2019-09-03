@@ -20,14 +20,14 @@ IoT is a hot topic for Ultra96 developers. This project shows how to connect to 
 - **Project Name:** IoT Ultra96 Temperature Monitor Using IFTTT
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** IoT
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Introduction
 
 I have a young son who has just turned one, and this summer the UK has been rather unusually hot.
 
-This makes for a great summer however at night when my son is trying to sleep a warm room makes it difficult for him to sleep well. Warm rooms can also be dangerous with respects to Sudden Infant Death Syndrome. 
+This makes for a great summer however at night when my son is trying to sleep a warm room makes it difficult for him to sleep well. Warm rooms can also be dangerous with respects to Sudden Infant Death Syndrome.
 
 
 ## Resources
@@ -39,7 +39,7 @@ This makes for a great summer however at night when my son is trying to sleep a 
 ### Social Media Links
 
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 

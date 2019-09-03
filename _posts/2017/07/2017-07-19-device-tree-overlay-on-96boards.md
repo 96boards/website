@@ -95,7 +95,7 @@ Eventhough, his work has been utilized by most of the popular SBC’s available 
 We have followed the same approach and patched a custom kernel for this feature.
 
 All of the instructions were documented in 96Boards/documentation git repository
-[here](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/dt-overlays/). The changes were included in **configs_overlay** branch of my custom kernel tree. For making it compatible with
+[here](/documentation/consumer/dragonboard410c/guides/dt-overlays/). The changes were included in **configs_overlay** branch of my custom kernel tree. For making it compatible with
 the release branch, you need to merge those changes which is well documented in those instrucitons. For making the
 life easier for developers, example overlays were also provided. User can just modify them according to their needs.
 

@@ -32,10 +32,10 @@ to choose the harware platform. I have some craze for the CSI cameras so
 I planned to use the CSI camera sensor [OV5640](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/OV5640_datasheet.pdf)
 which seemed to be occupying my desk for quite some time. Then, we have to
 choose the base board to interface this camera. With 96Boards we only have
-CSI support (along with V4L2) for linux available in [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/) only.
+CSI support (along with V4L2) for linux available in [Dragonboard410c](/product/dragonboard410c/) only.
 So obviously we have to choose that. For connecting the camera sensor with
 Dragonboard, we opted for [D3 Camera Mezzanine](https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering).
-For this category, we also had the option of chosing [AI Star Vision MIPI adapter](https://www.96boards.org/product/mipiadapter/)
+For this category, we also had the option of chosing [AI Star Vision MIPI adapter](/product/mipiadapter/)
 but due to the board availability and some factors we ended up with D3.
 
 CSI support for Dragonboard410c comes with V4L2 interface which makes it
@@ -65,7 +65,7 @@ of parts:
 
 Below is the Bill of Materials (BoM) needed for project recreation.
 
-1. [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
+1. [Dragonboard410c](/product/dragonboard410c/)
 2. [D3 Camera Mezzanine](https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering)
 3. [OV5640](https://www.arrow.com/en/products/li-ov5640-mipi-af/leopard-imaging)
 4. [LCD Display](https://www.arrow.com/en/products/96boards-display-7/linksprite-technologies-inc)

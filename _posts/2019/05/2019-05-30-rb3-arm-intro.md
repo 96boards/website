@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboa
 
 # Introduction to the Qualcomm RB3
 
-**The [Qualcomm RB3](https://www.96boards.org/product/rb3-platform/) is one of the newly released 96Boards belonging to the [consumer edition](https://www.96boards.org/products/ce/) family based around the Qualcomm® SDA845 processor.**
+**The [Qualcomm RB3](/product/rb3-platform/) is one of the newly released 96Boards belonging to the [consumer edition](/products/ce/) family based around the Qualcomm® SDA845 processor.**
 
 The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa-Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation.
 
@@ -32,7 +32,7 @@ The RB3 board includes the following on-board sensors as well:
 - 6-axis accelerometer/gyroscope: INVENSENSE ICM-42688
 - Light sensor and proximity sensor: LITEON LTR-553ALS-WA
 
-![](https://www.96boards.org/product/ce/rb3-platform/images/rb3-frame2-sd.jpg)
+![](/product/ce/rb3-platform/images/rb3-frame2-sd.jpg)
 
 ***
 
@@ -78,7 +78,7 @@ Planing on using OpenCV for image detection, mostly because of its popularity bu
 
 ## OS
 
-Since a proper Debian release is still WIP by the Qualcomm Landing Team, with good progress so far, I will be using a hacked together Debian build that might not be available to all. 
+Since a proper Debian release is still WIP by the Qualcomm Landing Team, with good progress so far, I will be using a hacked together Debian build that might not be available to all.
 
 However, I will always be tracking the official Debian release progress and change over as it becomes usable.
 
@@ -89,4 +89,3 @@ We are also going to be using Open-Source graphics driver for the Adreno GPU in 
 # Signing Off
 
 So, almost every week from now on, I will be releasing a progress blog either with minor or major project updates with a full blog once it is completed.
-

@@ -20,23 +20,23 @@ full fledged Photobooth project using 96Boards.
 Before going further, here is the quick recap of what happened in the previous
 blogs of this project:
 
-1. [Introducing 96Boards Photobooth](https://www.96boards.org/blog/photobooth-intro/) - This
+1. [Introducing 96Boards Photobooth](/blog/photobooth-intro/) - This
 is the introductory blog for the **96Boards Photobooth** project which introducted the
 project, roadmap and bill of materials.
 
-2. [Part 1 - 96Boards Photobooth](https://www.96boards.org/blog/photobooth-part1/) - This
+2. [Part 1 - 96Boards Photobooth](/blog/photobooth-part1/) - This
 blog provided the instructions for setting up OpenCV on Dragonboard410c and capturing the
 image using OV5640 camera sensor interfaced using D3 Camera Mezzanine.
 
-3. [Part 2 - 96Boards Photobooth](https://www.96boards.org/blog/photobooth-part2/) - This
+3. [Part 2 - 96Boards Photobooth](/blog/photobooth-part2/) - This
 blog demonstrates how to apply snapchat like filters using OpenCV and 96Boards watermark
 to the image captured using Photobooth.
 
 # Hardware Required:
 
-- [Dragonboard410c](https://www.96boards.org/product/dragonboard410c/)
+- [Dragonboard410c](/product/dragonboard410c/)
 - [96Boards Compliant Power Supply](http://www.96boards.org/product/power/)
-- [D3 Mezzanine with OV5640 Camera Sensor](https://www.96boards.org/product/d3camera/)
+- [D3 Mezzanine with OV5640 Camera Sensor](/product/d3camera/)
 - [Push Buttons](https://www.seeedstudio.com/Grove-Button-p-766.html)
 - Connecting Wires
 
@@ -86,4 +86,4 @@ selfies with Moustaches and Hat. Any kind of overlay filters can be used with th
 help of this photobooth. We just need to find the coordinates for it.
 
 If you have any further idea of extending this project, please let us know in
-comments or even submit a PR to our repo. Stay tuned for the next project! 
+comments or even submit a PR to our repo. Stay tuned for the next project!

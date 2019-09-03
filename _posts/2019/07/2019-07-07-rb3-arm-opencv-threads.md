@@ -17,7 +17,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboa
 
 Over the past month, I have mostly dedicated my resources towards testing out the best case scenario for running openCV on the RB3.
 
-Incase you haven't seen my previous blog on **[Introduction to OpenCV on RB3](https://www.96boards.org/blog/rb3-arm-intro-opencv-1/)** I'd recommend giving that a quick read before continuing.
+Incase you haven't seen my previous blog on **[Introduction to OpenCV on RB3](/blog/rb3-arm-intro-opencv-1/)** I'd recommend giving that a quick read before continuing.
 
 ***
 
@@ -47,7 +47,7 @@ Bug reported here: [https://github.com/opencv/opencv/issues/14884](https://githu
 
 After doing multiple experiments with different gcc variants, opencv versions etc, I've come to the conclusion that using tried and tested OpenCv 3.2 with OpenMP enabled is the best solution.
 
-Its not that old of a version and allows your workload to be split across multiple cores, which combined with the powerful Snapdragon 845 on the RB3 means that all but one core are always sitting under 50% utilization. 
+Its not that old of a version and allows your workload to be split across multiple cores, which combined with the powerful Snapdragon 845 on the RB3 means that all but one core are always sitting under 50% utilization.
 
 I mean just look at this screenshot.
 

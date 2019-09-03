@@ -25,7 +25,7 @@ involvement towards it. Since it is backed by the leading Semiconductor
 industries and OpenSource consortiums, the community involvement gets increasing
 day by day. Like many organisations, Linaro is one of the key player in the
 development of Zephyr. 96Boards team also plays a considerable amount of role
-in contributing to Zephyr, since most of our [IoT Edition](https://www.96boards.org/products/ie/)
+in contributing to Zephyr, since most of our [IoT Edition](/products/ie/)
 boards uses Zephyr as the primary RTOS.
 
 By following the OpenSource philosopy of **Consume and Contribute**, we do often
@@ -39,7 +39,7 @@ to access by software. We often need to write a separate driver for controlling
 an LED driver like [LP3943](http://www.ti.com/product/LP3943). And for unifying
 those drivers, we definitely need a proper API and subsystem.
 
-The motivation really comes during the upstream effort of [Neonkey](https://www.96boards.org/product/neonkey/)
+The motivation really comes during the upstream effort of [Neonkey](/product/neonkey/)
 Mezzanine, which has a STM32F4 chip running Zephyr. Along with many onboard
 sensors, this board also packs one LED driver LP3943 for controlling the onboard
 LED's. So, we decided to upstream the LED driver for making the support for our

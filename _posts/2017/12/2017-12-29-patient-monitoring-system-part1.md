@@ -14,9 +14,9 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carb
 # **Introduction**
 
 Hello and Welcome to **Part 1** of **Patient Monitoring System using 96Boards**
-blog series. As specified in the [Introductory blog](https://www.96boards.org/blog/patient-monitoring-system-into/),
+blog series. As specified in the [Introductory blog](/blog/patient-monitoring-system-into/),
 this blog will cover the BLE mesh implementation using [Zephyr](https://github.com/zephyrproject-rtos/zephyr)
-running on [96Boards IE](https://www.96boards.org/products/ie/).
+running on [96Boards IE](/products/ie/).
 
 # **BLE Mesh using Zephyr**
 
@@ -74,7 +74,7 @@ the client, it will send the 'Sensor Status' message in response. Then the clien
 
 # Setting up the Sensor Nodes
 
-For the sake of this blog, I am going to use [96Boards Carbon](https://www.96boards.org/product/carbon/)
+For the sake of this blog, I am going to use [96Boards Carbon](/product/carbon/)
 for the nodes. But you can use either 96Boards Carbon/Nitrogen to
 follow this blog. Both are well supported in Zephyr.
 
@@ -284,7 +284,7 @@ Sensor status sent with OpCode 0x00000052
 
 ```shell
 Sensor status Get request sent with OpCode 0x00008231
-Got the sensor status 
+Got the sensor status
 Sensor ID: 0x2a1f
 Sensor value: 0x001b
 ```

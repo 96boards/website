@@ -22,7 +22,7 @@ Voice control using Alexa is popular for a number of applications. This project 
 - **Project Name:** Integrating Alexa & Ultra96
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** AWS
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Introduction
@@ -46,7 +46,7 @@ To integrate our application with Alexa we are going to use a number of Amazon W
 ### Social Media Links
 
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 

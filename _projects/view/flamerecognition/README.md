@@ -23,7 +23,7 @@ recognition of small area fire achieve accuracy of 90%.
 - **Project Name:** Flame Recognition
 - **Type of Project:** Demo
 - **Project Category:** IoT, Smart Home
-- **Board(s) used:** [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
+- **Board(s) used:** [DragonBoard 410c](/product/dragonboard410c/)
 
 ## Resources
 
@@ -35,7 +35,7 @@ recognition of small area fire achieve accuracy of 90%.
 
 ### Social Media Links
 
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 
 ***

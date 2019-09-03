@@ -14,7 +14,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Pyth
 # **Introduction**
 
 Hello and Welcome to the **Part 1** blog of **96Boards Photobooth** project.
-This fun intented project kicked off with an [Introductory blog](https://www.96boards.org/blog/photobooth-intro/)
+This fun intented project kicked off with an [Introductory blog](/blog/photobooth-intro/)
 last week and today I have arrived with an update on its progress. As like
 the previous blog series, I have partitioned this project into series of
 blog for reporting the progress and at the end of this project, the complete

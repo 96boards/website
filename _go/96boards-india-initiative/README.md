@@ -13,9 +13,9 @@ designing and manufacturing 96Boards in India.
 
 ## Boards to target
 
-1. [96Boards IoT Edition](https://www.96boards.org/products/ie/)
-2. [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
-3. [96Boards Enterprise Edition](https://www.96boards.org/products/ee/)
+1. [96Boards IoT Edition](/products/ie/)
+2. [96Boards Consumer Edition](/products/ce/)
+3. [96Boards Enterprise Edition](/products/ee/)
 
 ## Target 1 - 96Boards IoT Edition
 
@@ -60,7 +60,7 @@ Following resources are useful for developing IE boards.
 #### Generic
 
 * [IE Specification](https://linaro.co/ie-specification)
-* [OpenHours](https://www.96boards.org/openhours/)
+* [OpenHours](/openhours/)
 * [96Boards Projects Org](https://github.com/96boards-projects)
 * IRC: #96Boards #OpenHours #zephyrproject
 * 96Boards India WhatsApp group: http://linaro.co/96boards-whatsapp

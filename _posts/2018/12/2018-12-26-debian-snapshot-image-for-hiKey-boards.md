@@ -20,7 +20,7 @@ for HiKey boards. Why it was needed, how it was done and the future plans.
 # Recap of the State of Debian support for HiKey boards
 
 Before this new snapshot image, there was a Debian snapshot build existed for
-the HiKey boards ([HiKey](https://www.96boards.org/product/hikey/), and [HiKey960](https://www.96boards.org/product/hikey960/)) based on old 4.14 stable Linux Kernel. And we
+the HiKey boards ([HiKey](/product/hikey/), and [HiKey960](/product/hikey960/)) based on old 4.14 stable Linux Kernel. And we
 started to see many queries in our [Support Forum](http://discuss.96boards.org)
 regarding the [HiKey960 UFS issue](https://discuss.96boards.org/t/marginality-with-ufs-chip-change/4450), HiKey960 USB issue and much more. So we decided to spin next version
 of the Debian snapshot image with 4.19.5 recent LTS Kernel, HiKey960 UFS fix,
@@ -48,7 +48,7 @@ image. With this commit, both boards were able to boot fine without any issues.
 # HiKey970 Support
 
 While doing this process, I also thought about including the Debian support for
-[HiKey970](https://www.96boards.org/product/hikey970/) board, which is also from
+[HiKey970](/product/hikey970/) board, which is also from
 HiSilicon but there was no upstream support from the vendor. So, I upstreamed
 the basic bits for this board which enables it to boot mainline Linux kernel with
 a standard distro from UFS. But since most of the patches were merged for 4.20

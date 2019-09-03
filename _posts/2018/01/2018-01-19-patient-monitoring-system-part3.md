@@ -18,17 +18,17 @@ blog series. In this blog, we are going to see how to visualize the data coming
 from BLE mesh network over the cloud for the purpose of remote monitoring and
 also triggering the emergency alert using SMS. Before jumping in, here is a quick recap of what happened in previous parts:
 
-1. [Introducing Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-into/) - This
+1. [Introducing Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-into/) - This
 is the introductory blog for the **Patient Monitoring System using 96Boards**
 blog series which introduced the project, BLE mesh support in Zephyr
 and the project roadmap.
 
-2. [Part 1 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part1/) - This
+2. [Part 1 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part1/) - This
 blog provided the basic usage of BLE mesh in Zephyr by showing the steps
 required to provision and configure the nodes and also the data exchange
 between Server and Client.
 
-3. [Part 2 - Patient Monitoring System using 96Boards](https://www.96boards.org/blog/patient-monitoring-system-part2/) - This
+3. [Part 2 - Patient Monitoring System using 96Boards](/blog/patient-monitoring-system-part2/) - This
 blog demonstrated the data exchange between BLE mesh network and Gateway
 implemented using Dragonboard410c. As a part of this blog, a demonstration
 video was also included.
@@ -297,7 +297,7 @@ The final step is to send the data from mesh network to cloud through Gateway.
 
 # Sending Data from Gateway
 
-Setup the mesh network and Gateway as shown in the [previous blog](https://www.96boards.org/blog/patient-monitoring-system-part1/)
+Setup the mesh network and Gateway as shown in the [previous blog](/blog/patient-monitoring-system-part1/)
 and install Thingspeak python interface by the following command:
 
 ```shell

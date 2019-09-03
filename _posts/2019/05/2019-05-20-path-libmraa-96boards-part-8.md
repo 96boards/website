@@ -23,7 +23,7 @@ Last month we had a pretty interesting discussion in the Linux GPIO Mailing List
 regarding MRAA [Thread](https://lkml.org/lkml/2019/4/18/218). Most of them were
 criticism against the way MRAA is doing GPIO access on Chardev capable linux
 based systems. I already explained the significance of GPIO Chardev support in
-[Previous blog](https://www.96boards.org/blog/path-libmraa-96boards-part-7/).
+[Previous blog](/blog/path-libmraa-96boards-part-7/).
 Kernel developers shared their frustration regarding the MRAA dependent pin
 mapping as it is prone to go wrong when an external gpiochip like GPIO expander
 got probed before the SoC's internal gpiochip.

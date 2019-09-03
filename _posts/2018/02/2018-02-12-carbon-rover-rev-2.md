@@ -14,7 +14,7 @@ tags: Iot, IE, carbon, arduino, neopixels, rgb, leds, robot, rover, zephyr
 
 # Introduction
 
-In one of my previous blogs titled ["Carbon Rover"](https://www.96boards.org/blog/carbon-rover/), I wrote about creating  create a rover that wouldn't fall off an edge nor would it hit an obstacle.
+In one of my previous blogs titled ["Carbon Rover"](/blog/carbon-rover/), I wrote about creating  create a rover that wouldn't fall off an edge nor would it hit an obstacle.
 
 # Riding The RGB Hype-train!
 
@@ -28,7 +28,7 @@ Although the carbon can address the Led's individually, they are virtually divid
 
 As for the IR sensors, the LEDs glow red when the sensors can't detect ground beneath the rover.
 
-Although I am using an Arduino Nano to control the LEDs, It only serves as a dumb controller. All the color and pattern for individual LEDs is calculated by the Carbon on sent over I2C to the Arduino.  
+Although I am using an Arduino Nano to control the LEDs, It only serves as a dumb controller. All the color and pattern for individual LEDs is calculated by the Carbon on sent over I2C to the Arduino.
 
 # Source Code
 

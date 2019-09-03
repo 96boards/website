@@ -31,7 +31,7 @@ My goal was to see what OS I can build, in a reasonable amount of time, using an
   - CLI-only: > 4GB
 3. Storage: >30GB
 
-So from in my collection of Arm SBC's, one matched the requirement... The [Hikey970](https://www.96boards.org/product/hikey970/)
+So from in my collection of Arm SBC's, one matched the requirement... The [Hikey970](/product/hikey970/)
 
 It has an octa-core CPU that does more than 2GHz, 6GB of RAM, so I can comfortably have a CLI-only build and 64GB of UFS Storage.
 

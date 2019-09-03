@@ -21,7 +21,7 @@ Double deep learning CNNs with face and motion recognition, feeding predictive m
 - **Project Name:** Caffein-AI-tor
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Deep Learning, Neural Networks, Computer Vision, Robotic Interfacing
-- **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
+- **Board(s) used:** [Ultra96](/product/ultra96/)
 
 
 ## Resources
@@ -33,7 +33,7 @@ Double deep learning CNNs with face and motion recognition, feeding predictive m
 ### Social Media Links
 
 - David Ng: [Hackster.io](https://www.hackster.io/dnhkng)
-- 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
+- 96Boards: [URL](/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
 ### Code
 

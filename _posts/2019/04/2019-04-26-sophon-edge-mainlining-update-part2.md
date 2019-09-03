@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Bitmain, BM1880, 
 # Introduction
 
 Hello and Welcome to the blog on "Sophon Edge Mainlining Update - Part 2". This
-blog will summarise the recent mainlining efforts for [Sophon Edge board](https://www.96boards.org/product/sophon-edge/) in Linux kernel.
+blog will summarise the recent mainlining efforts for [Sophon Edge board](/product/sophon-edge/) in Linux kernel.
 
 # Sophon Edge Board
 
@@ -42,7 +42,7 @@ board.
 
 ## GPIO
 
-As I mentioned in the [previous blog](https://www.96boards.org/blog/sophon-edge-mainlining-update-part1/), BM1880 SoC has a lot of standard Designware IPs integrated
+As I mentioned in the [previous blog](/blog/sophon-edge-mainlining-update-part1/), BM1880 SoC has a lot of standard Designware IPs integrated
 in it. So it became very easy to upstream those peripherals and GPIO is one among
 them. I had to just add devicetree nodes for the GPIO controllers and it was
 done. Along with that patch I sent one more patch for adding GPIO line names

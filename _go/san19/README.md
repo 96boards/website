@@ -40,7 +40,7 @@ Registration starts now and will remain open until September 23th. To register, 
 
 ## Schedule / Timeline for UCSD Attendees
 
-Attendees will be given a list of sessions and Keynotes they are allowed to attend upon arrival. 
+Attendees will be given a list of sessions and Keynotes they are allowed to attend upon arrival.
 
 ### Wednesday, September 25th
 
@@ -65,8 +65,8 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 ## Hackathon Hardware
 
-- [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
-- [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
+- [DragonBoard 410c](/product/dragonboard410c/)
+- [Shiratech FPGA Mezzanine](/product/shiratech-fpga/)
 - First Prize: 96Boards hardware and a chance to showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
 
 ***

@@ -31,42 +31,42 @@ I'll try to categorize the roadmap based on the projects below.
 
 #### High Priority
 
-* Upstream support for [TB96-AI board](https://www.96boards.org/product/tb-96ai/)
-* Upstream support for [TB96-AI IoT board](https://www.96boards.org/product/tb-96aiot/)
+* Upstream support for [TB96-AI board](/product/tb-96ai/)
+* Upstream support for [TB96-AI IoT board](/product/tb-96aiot/)
 * Improvements for Framos IMX290 Camera Sensor driver
 * Upstream support for Framos IMX296 Camera Sensor driver
-* Improvements for [Avenger96 board](https://www.96boards.org/product/avenger96/)
+* Improvements for [Avenger96 board](/product/avenger96/)
 * Improvements for [i.MX8 AI_ML board](https://www.arrow.com/en/products/imx8-ai-ml/arrow-development-tools)
 * Upstream support for [Thor96 board](https://www.arrow.com/en/products/i.imx8-thor96/arrow-development-tools)
 
 #### Low Priority
 
-* DRM for [Hikey960 board](https://www.96boards.org/product/hikey960/)
-* PCI-E for [Hikey970 board](https://www.96boards.org/product/hikey970/)
-* Improvements for [Bubblegum96 board](https://www.96boards.org/product/bubblegum-96/)
-* Improvements for [OrangePi i96 board](https://www.96boards.org/product/orangepi-i96/)
+* DRM for [Hikey960 board](/product/hikey960/)
+* PCI-E for [Hikey970 board](/product/hikey970/)
+* Improvements for [Bubblegum96 board](/product/bubblegum-96/)
+* Improvements for [OrangePi i96 board](/product/orangepi-i96/)
 
 ## U-Boot
 
 #### High Priority
 
-* Upstream support for [TB96-AI board](https://www.96boards.org/product/tb-96ai/)
-* Upstream support for [TB96-AI IoT board](https://www.96boards.org/product/tb-96aiot/)
-* Improvements for [Avenger96 board](https://www.96boards.org/product/avenger96/)
+* Upstream support for [TB96-AI board](/product/tb-96ai/)
+* Upstream support for [TB96-AI IoT board](/product/tb-96aiot/)
+* Improvements for [Avenger96 board](/product/avenger96/)
 * Upstream support for [i.MX8 AI_ML board](https://www.arrow.com/en/products/imx8-ai-ml/arrow-development-tools)
 * Upstream support for [Thor96 board](https://www.arrow.com/en/products/i.imx8-thor96/arrow-development-tools)
 
 #### Low Priority
 
-* Upstream support for [Hikey960 board](https://www.96boards.org/product/hikey960/)
+* Upstream support for [Hikey960 board](/product/hikey960/)
 * UFS support
 
 ## Zephyr
 
 #### High Priority
 
-* Improvements for [Avenger96 board](https://www.96boards.org/product/avenger96/)
-* Improvements for [Meerkat96 board](https://www.96boards.org/product/imx7-96/)
+* Improvements for [Avenger96 board](/product/avenger96/)
+* Improvements for [Meerkat96 board](/product/imx7-96/)
 
 #### Low Priority
 
@@ -76,9 +76,9 @@ I'll try to categorize the roadmap based on the projects below.
 
 #### High Priority
 
-* Upstream support for [TB96-AI board](https://www.96boards.org/product/tb-96ai/)
-* Upstream support for [TB96-AI IoT board](https://www.96boards.org/product/tb-96aiot/)
-* Upstream support for [Avenger96 board](https://www.96boards.org/product/avenger96/)
+* Upstream support for [TB96-AI board](/product/tb-96ai/)
+* Upstream support for [TB96-AI IoT board](/product/tb-96aiot/)
+* Upstream support for [Avenger96 board](/product/avenger96/)
 * Upstream support for [i.MX8 AI_ML board](https://www.arrow.com/en/products/imx8-ai-ml/arrow-development-tools)
 * Upstream support for [Thor96 board](https://www.arrow.com/en/products/i.imx8-thor96/arrow-development-tools)
 

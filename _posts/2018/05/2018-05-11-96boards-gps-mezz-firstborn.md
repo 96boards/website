@@ -21,7 +21,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, 
 
 # Introduction - Robert Wolff
 
-Welcome to your new favorite 10 minute read! A joint blog between [QWERTY Embedded Design](http://www.qwertyembedded.com/), [GroupGets](https://groupgets.com/) and [96Boards](https://www.96boards.org/)! How could this get any better :-) ?!
+Welcome to your new favorite 10 minute read! A joint blog between [QWERTY Embedded Design](http://www.qwertyembedded.com/), [GroupGets](https://groupgets.com/) and [96Boards](/)! How could this get any better :-) ?!
 
 To be honest, it’s about to… Because in some ways, you are witnessing a bit of history. This week marks a turning point in the 96Boards ecosystem. As many of you may be aware, the 96Boards Community Mezzanine initiative was launched back in mid 2017 and since then, it has gained substantial traction with our community and partners!
 
@@ -34,7 +34,7 @@ So back to YOU witnessing history, here it is… As the title of this blog reads
 
 - [GroupGets](https://groupgets.com/)
 - [QWERTY Embedded Design](http://www.qwertyembedded.com/)
-- [96Boards](https://www.96boards.org/)
+- [96Boards](/)
 - [Mezzanine Community Repository](https://github.com/96boards/mezzanine-community)
 - [GPS Mezzanine on GroupGets](https://groupgets.com/campaigns/426-96boards-gps-mezzanine)
 

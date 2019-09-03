@@ -12,7 +12,7 @@ tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Bitmain, BM1880, 
 # Introduction
 
 Hello and Welcome to the blog on "Sophon Edge Mainlining Update - Part 1". This
-blog will summarise the recent mainlining efforts for [Sophon Edge board](https://www.96boards.org/product/sophon-edge/) in Linux kernel.
+blog will summarise the recent mainlining efforts for [Sophon Edge board](/product/sophon-edge/) in Linux kernel.
 
 # Sophon Edge Board
 

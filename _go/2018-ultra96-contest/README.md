@@ -11,7 +11,7 @@ date: 2018-11-29 01:00:00+00:00
 
 <div class="col-md-6" markdown="1">
 
-[Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](https://www.96boards.org/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
+[Avnet](https://www.avnet.com/wps/portal/us/) and [Xilinx](https://www.xilinx.com/) have teamed up with [Hackster.io](https://www.hackster.io/) to launch a contest around the [Ultra96](/product/ultra96/) (probably why you are here)! For those of you who don't know, the Ultra96 is part of the 96Boards Consumer Edition family, plenty more to read below... Naturally, the 96Boards team wanted to get involved with this exciting event!
 
 <a href="https://www.hackster.io/contests/ultra96" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
 
@@ -29,9 +29,9 @@ date: 2018-11-29 01:00:00+00:00
 
 ## Contest Kit
 
-- [Ultra96](https://www.96boards.org/product/ultra96/)
+- [Ultra96](/product/ultra96/)
    - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
-- [Optional Mezzanine Add-ons](https://www.96boards.org/products/mezzanine/)
+- [Optional Mezzanine Add-ons](/products/mezzanine/)
 
 ***
 
@@ -49,7 +49,7 @@ date: 2018-11-29 01:00:00+00:00
 ## Resources
 
 - **Ultra96 Landing page**
-   - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
+   - [96Boards Landing Page](/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Zed Board](http://zedboard.org/product/ultra96)
    - [Ultra96 Getting Started Guide](http://zedboard.org/sites/default/files/documentations/Ultra96-GSG-v1_0.pdf)
@@ -57,10 +57,10 @@ date: 2018-11-29 01:00:00+00:00
    - [MicroZed Chronicles](http://www.microzedchronicles.com/)
    - [Xilinx Projects](https://www.hackster.io/xilinx/projects)
 - **Blogs**
-   - [96Boards Blogs](https://www.96boards.org/blog/)
+   - [96Boards Blogs](/blog/)
    - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
-   - [Website](https://www.96boards.org/openhours/)
+   - [Website](/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ***

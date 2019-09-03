@@ -35,11 +35,11 @@ Every Thursday at 5:30pm UTC – [ADD TO CALENDAR](https://calendar.google.com/c
 
 ### How to Join
 
-**To join the Meeting:**  
+**To join the Meeting:**
 [http://link.linaro.org/openhoursjoin](http://link.linaro.org/openhoursjoin)
 
-**To join via phone :**  
-1\. Dial: +1.408.740.7256 or 943216362  
+**To join via phone :**
+1\. Dial: +1.408.740.7256 or 943216362
 2\. Enter the meeting ID: 943216362
 
 ([More numbers](http://bluejeans.com/numbers?ll=en) +1.888.240.2560 or +1.408.317.9253)
@@ -54,7 +54,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Optional Addons to help development:**
 
 *   [96Boards LinkSprite Kit](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc)
-*   [96Boards Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/)
+*   [96Boards Audio Mezzanine](/product/audio-mezzanine/)
 *   [96Boards Camera Mezzanine](https://www.arrow.com/en/products/b-f446e-96b01a/stmicroelectronics)
 *   96Boards [Sensors Mezzanine Adapter by Seeed](https://www.seeedstudio.com/item_detail.html?p_id=2617)
 *   96Boards [UART Adapter Board by Seeed](http://www.seeedstudio.com/depot/96Boards-UART-p-2525.html)
@@ -83,7 +83,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 
 **Getting started:**
 
-*   [DragonBoard 410c Landing page](https://www.96boards.org/product/dragonboard410c/) – here you will find getting started documents and more…
+*   [DragonBoard 410c Landing page](/product/dragonboard410c/) – here you will find getting started documents and more…
 *   Linux installation – select the Micro SD card with Linux from your hack kit and follow the instructions in the [DragonBoard 410c Linux User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   Android installation – Android is preloaded on the DragonBoard 410c. If you remove Android and wish to re-install it, visit the Qualcomm table to get a Micro SD card with Android. Then follow the instructions in the [DragonBoard 410c Android User Guide](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf) to install from a microSD card, skipping the initial download steps because we’ve done that work for you.
 *   [Instructables (Previous projects)](http://www.instructables.com/howto/dragonboard+qualcomm/)
@@ -99,16 +99,16 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 *   [GPIO and I2C libraries and installation]()https://www.96boards.org/documentation/consumer/guides/mraa/ are available on GitHub with beginner and advanced instructions for building 96BoardsGPIO, libsoc, libmraa, and libupm. These libraries can be used for GPIO and I2C access.
 *   [Low-speed expansion header tutorial]()https://www.96boards.org/documentation/consumer/guides/mraa/ offers a quick read about the 96Boards low-speed expansion header to get you familiar with the header and the various interfaces available on the header.
 *   Compact getting started blogs:
-    *   [96Boards mezzanine products](https://www.96boards.org/blog/96boards-box-experience-guide-3/)
-    *   [General Purpose Input/Output (GPIO)](https://www.96boards.org/blog/96boards-box-experience-guide-4/)
-    *   [96Boards enabled libraries (libsoc, libmraa,UPM)](https://www.96boards.org/blog/96boards-box-experience-guide-5/)
-    *   [Programing I2C devices with libmraa and libupm](https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/)
+    *   [96Boards mezzanine products](/blog/96boards-box-experience-guide-3/)
+    *   [General Purpose Input/Output (GPIO)](/blog/96boards-box-experience-guide-4/)
+    *   [96Boards enabled libraries (libsoc, libmraa,UPM)](/blog/96boards-box-experience-guide-5/)
+    *   [Programing I2C devices with libmraa and libupm](/blog/programing-i2c-devices-libmraa-libupm/)
 *   Instructions for [getting started with AT&T M2X](https://github.com/ArrowElectronics/att-iot-device-sdk) on the DragonBoard 410c are available on GitHub
 
 **Documentation:**
 
-*   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
-*   Release Notes for [Linaro Linux](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/) based on Ubuntu
+*   Visit 96Boards.org for [DragonBoard 410c documentation](/product/dragonboard410c/)
+*   Release Notes for [Linaro Linux](/documentation/consumer/dragonboard410c/guides/) based on Ubuntu
 *   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf)
 
 **Support:**

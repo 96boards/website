@@ -25,7 +25,7 @@ temperature)
 - 3-axis MEMS sensor LIS3DH (accelerometer).
 - Supports rechargeable battery through micro USB or 5V solar charging ports.
 
-For more info take a look at out documentation page [here](https://www.96boards.org/documentation/iot/wistrio/).
+For more info take a look at out documentation page [here](/documentation/iot/wistrio/).
 
 And take a look at the unboxing to see whats in the box ;)
 

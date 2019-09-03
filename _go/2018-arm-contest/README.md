@@ -14,7 +14,7 @@ date: 2018-10-30 01:00:00+00:00
 
 [Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted our participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
 
- Participants will be able to develop and create on the [Ultra96](https://www.96boards.org/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!). 
+ Participants will be able to develop and create on the [Ultra96](/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!).
 
 <a href="https://www.hackster.io/contests/arm2018" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
 <a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>
@@ -31,9 +31,9 @@ date: 2018-10-30 01:00:00+00:00
 
 ## Contest Kit
 
-- [Ultra96](https://www.96boards.org/product/ultra96/)
+- [Ultra96](/product/ultra96/)
    - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
-- [Optional Mezzanine Add-ons](https://www.96boards.org/products/mezzanine/)
+- [Optional Mezzanine Add-ons](/products/mezzanine/)
 
 ***
 
@@ -61,7 +61,7 @@ date: 2018-10-30 01:00:00+00:00
 ## Resources
 
 - **Ultra96 Landing page**
-   - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
+   - [96Boards Landing Page](/product/ultra96/)
    - [Documentation](https://github.com/96boards/documentation)
    - [Zed Board](http://zedboard.org/product/ultra96)
 - **Projects**
@@ -69,11 +69,11 @@ date: 2018-10-30 01:00:00+00:00
 - **Workshop**
    - Coming soon...
 - **Blogs**
-   - [96Boards Blogs](https://www.96boards.org/blog/)
+   - [96Boards Blogs](/blog/)
    - [MicroZED Chronicles](https://blog.hackster.io/microzed-chronicles-a-look-at-the-ultra96-board-c5b8f7a02209)
    - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
-   - [Website](https://www.96boards.org/openhours/)
+   - [Website](/openhours/)
    - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
 ***
