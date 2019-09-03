@@ -88,7 +88,7 @@ pages:
           - text: Specification Docs
             url: /documentation/Specifications/
           - text: Contribution Policy
-            url: /documentation/CONTRIBUTE.md.html
+            url: /documentation/contribute/
     - title: Support
       options:
           - text: Discussion Forum
