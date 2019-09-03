@@ -1,8 +1,8 @@
 # 96Boards.org
 
-The 96Boards website is built using the Jekyll static site generator. It is based off the jumbo-jekyll-theme used for all of the Linaro static sites. With the move from Wordpress to Static we have introduced GitHub/Community driven content that allows 96Boards.org users to submit issues about any of the pages on 96Boards.org through the associated Git respository. This GitHub repository is combined with the 96Boards Documentation repo to build the site. Documentation is copied to the `_documentation` collection upon site builds with [bamboo.linaro.org](https://bamboo.linaro.org). 
+The 96Boards website is built using the Jekyll static site generator. It is based off the jumbo-jekyll-theme used for all of the Linaro static sites. With the move from Wordpress to Static we have introduced GitHub/Community driven content that allows 96Boards.org users to submit issues about any of the pages on 96Boards.org through the associated Git respository. This GitHub repository is combined with the 96Boards Documentation repo to build the site. Documentation is copied to the `_documentation` collection upon site builds with [bamboo.linaro.org](https://bamboo.linaro.org).
 
-![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0) 
+![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0)
 
 ******
 ## [How to add a blog post!](#adding-a-blog-post)
@@ -62,7 +62,7 @@ Please view the theme documentation on building the static website [here](https:
 
 ### Step 1 - Duplicate similiar product folder
 
-In order to add a product copy one of the products currently in the [_product folder](https://github.com/96boards/website/tree/master/_product). Products are organsied in the _product folder into the 96Boards specifcations that are avaialble ([ce](https://github.com/96boards/website/tree/master/_product/ce), [ee](https://github.com/96boards/website/tree/master/_product/ee), [ie](https://github.com/96boards/website/tree/master/_product/ie), and [mezzaanine](https://github.com/96boards/website/tree/master/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly. 
+In order to add a product copy one of the products currently in the [_product folder](https://github.com/96boards/website/tree/master/_product). Products are organsied in the _product folder into the 96Boards specifcations that are avaialble ([ce](https://github.com/96boards/website/tree/master/_product/ce), [ee](https://github.com/96boards/website/tree/master/_product/ee), [ie](https://github.com/96boards/website/tree/master/_product/ie), and [mezzaanine](https://github.com/96boards/website/tree/master/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly.
 
 ### Step 2 - Modify the front matter
 
@@ -77,7 +77,7 @@ title: Sophon Edge
 # The layout to be used - below is the layout that you should use unless
 # you have been directed otherwise by one of the 96Boards team.
 layout: product-display-page
-# This is the url that your product will be available at. 
+# This is the url that your product will be available at.
 # You should stick to the format /product/product-title
 # Please use dashes between words to keep the format consistent.
 permalink: /product/sophon-edge/
@@ -93,8 +93,8 @@ keywords: |-
 # Product Short Description -  this is used on the product index page to provide a brief
 # overview of your product.
 product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
-# Product Specification - This is the 96Boards specification of your product and is used 
-# by Jekyll when collectin products of a certain specification. 
+# Product Specification - This is the 96Boards specification of your product and is used
+# by Jekyll when collectin products of a certain specification.
 # Please use either ee, ce, mezzanine or iot
 product_specification: ce
 # Display Product - this a boolean value that is used to determine if your product should be displayed.
@@ -197,7 +197,7 @@ __Please note:__ Due to the way product images are included, images **should not
 *****
 ## Adding Projects
 
-[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes. If it is approved, we'll get the git diff and create a new project repo for your project so that it is automatically added to the website.
+[96Boards.org/projects](/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes. If it is approved, we'll get the git diff and create a new project repo for your project so that it is automatically added to the website.
 
 ## Adding Documentation
 
@@ -206,7 +206,7 @@ The 96Boards.org documentation is maintained in this [repo](https://github.com/9
 ## Adding 96Boards News
 
 ### External News
-To add external news to 96boards.org that will show under [/news/](https://www.96boards.org/news/) simply add an entry to the [news.yml](https://github.com/96boards/website/blob/master/_data/news.yaml) file. Below is an example entry:
+To add external news to 96boards.org that will show under [/news/](/news/) simply add an entry to the [news.yml](https://github.com/96boards/website/blob/master/_data/news.yaml) file. Below is an example entry:
 
 ```
 # Add a link to the external news article.
@@ -230,10 +230,9 @@ If you'd like to add internal 96Boards news then add a News/Blog to 96Boards.org
 *****
 
 
-## Issues 
+## Issues
 If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
 
 ### Known Issues
 #### Image file names
 Due to the way product images are included, images should not include spaces in the filename otherwise it may not be rendered on the website as expected.
-
