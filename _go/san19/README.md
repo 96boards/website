@@ -24,6 +24,10 @@ You and your fellow classmates will be welcomed at the [Paridise Point Resort](h
 
 After the keynotes and a few sessions, everyone is invited to attend a private seminar put on by experienced/seasoned open source engineers from all around the world. This fire side chat style seminar will include valuable information on the benefits of Open Source collaboration and development as an extracurricular activity. Sub-Topics will include the open source contribution process, exploration of current open source projects and their contribution cycles, and open source and version control as a resume tool.
 
+#### Bring your resume! (optional)
+
+While this is NOT a recruiting event, several of our partners have expressed interest in accepting resumes on site. Please feel free to bring your resumes with you, and you should be prepared to talk about some of the stuff you are working on at UCSD (within your respected major). Keep in mind, you are in very welcoming company! Feel free to ask questions and absorb as much as possible from the industry professionals you are surrounded by. 
+
 #### Keynotes, Sessions, and more...
 
 **Keynotes, sessions, free lunch, and a hackathon?!** Yes, you got that right. After the seminar, we will take a short break for lunch. Everyone in attendance will then be invited to check out a 96Boards hardware kit for a "take home" 36 hour hackathon. Turn in for this hackathon will be on Friday at 9:00a local. The winner(s) of this hackathon will get to showcase their project in front of hundreds of engineers and executives from over 30 tech companies from around the world.
@@ -49,8 +53,7 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 - **9:45a - 10:00a**: [Daily Notices](https://sched.co/UFLA)
 - **10:00a - 10:30a**: [Riken Keynote, A64fx and Fugaku - A Game Changing, HPC / AI Optimized Arm CPU to enable Exascale Performance](https://sched.co/Sufi)
 - **10:30a - 11:00a**: [Qualcomm Keynote, The Upstream Bubble](https://sched.co/SwpZ)
-- **11:00a - 11:25a**: [Session, The Transformation of Electronic Product Design](https://sched.co/Sucu)
-- **11:30a - 12:00p**: Private Seminar / Fire Side Chat on Open Source development and collaboration
+- **11:00a - 11:55p**: Private Seminar / Fire Side Chat on Open Source development and collaboration
 - **12:00p - 12:25p**: [Session, Robotic Arm Control with the Qualcomm RB3](https://sched.co/Sud6)
 - **12:30p - 1:30p**: LUNCH
 - **1:30p - 2:00p**: Hackathon Sign Up and Hardware Pickup
@@ -67,22 +70,9 @@ Attendees will be given a list of sessions and Keynotes they are allowed to atte
 
 - [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [Shiratech FPGA Mezzanine](https://www.96boards.org/product/shiratech-fpga/)
+- First Prize: 96Boards hardware and a chance to showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
 
 ***
-
-## Resources
-
-Coming Soon...
-
-***
-
-## Prizes
-
-- First Prize: Showcase winning project in front of hundreds of engineers and executive leadership from companies around around the world during the Linaro Connect SAN19 Demo Friday event and closing ceremonies.
-
-***
-
-<iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="640" height="897" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
 <div class="col-md-6">
@@ -90,27 +80,11 @@ Coming Soon...
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2265092" frameborder="0"></iframe>
 
-**WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
-**WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
-**HOW?:** Attendees are in charge of their own transportation to and from the event.
+- **WHEN?:** September 25th from 8:30a to 2:00p ([Add to Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2VwOTVhMm9mcjhsYXJ0dmZyM3FqaWlxNzAgcm9iZXJ0LndvbGZmQGxpbmFyby5vcmc&tmsrc=robert.wolff%40linaro.org))
+- **WHERE?:** [Paridise Point Resort](https://paradisepoint.com/resort/) ([View on Map](https://www.google.com/maps/place/Paradise+Point+Resort+%26+Spa/@32.7751735,-117.2409917,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaa7406679e99:0x3938534cc22f65e!8m2!3d32.775169!4d-117.238803))
+- **HOW?:** Attendees are in charge of their own transportation to and from the event.
 
-1) Must use Arrow and Shiratech, 96Boards technologies
-
-2) Final project must be published to the [96Boards Projects Org](https://github.com/96boards-projects)
-
-3) Must include one or more video demonstrations, with explanation of final project.
-
-***
-
-## Interview with Shiratech - FPGA Mezzanine
-
-{% include media.html media_url="https://youtu.be/zjiPDSecA_M" %}
-
-***
-
-## DragonBoard 410c Playlist
-
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1N-u1hXeJ5PNukSBplbhEE" %}
+<iframe src="https://forms.gle/bM7GABY2Gp4VF31t7" width="550" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ***
 
