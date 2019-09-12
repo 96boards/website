@@ -6,7 +6,7 @@ jumbotron:
     title: Search
     description: >
         Search Linaro's sites for a specific page/resource.
-    background-image: /assets/images/content/bkk19-group-photo.jpg
+    background-image: /assets/images/content/96boards-home-image-2.jpg
 description: |-
     Search the 96Boards Website.
 css-package: search
