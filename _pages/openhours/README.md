@@ -23,21 +23,11 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA4MjJUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**96Boards Engineer, Sahaj Sarup give us a Robotic Arm update!**
+**It is easy to call yourself a coder, computer scientist, and/or software engineer, but are you code blooded?**
 
-Do you remember when Sahaj updated us on his OpenCV work a few weeks ago? Well, now its time to see his latest progress with the Robotic Arm! As we draw closer to Linaro Connect (SAN19), all of this work will come together in the form of a voice controlled smart robotic arm, and Sahaj is ready to share a cool demo to showcase this progress.
-
-**You might want to catch up on the work he has been doing before the show. If so, you can reach his blog series. This series walks you through all the stuff he has been doing in the last few months:
-
-- [Introduction to the Robotic Arm](https://www.96boards.org/blog/rb3-arm-intro/)
-- [Part 0 - The Setup](https://www.96boards.org/blog/rb3-setup/)
-- [Part 1 - Intro to OpenCV](https://www.96boards.org/blog/rb3-arm-intro-opencv-1/)
-- [Part 2 - OpenCV Threads](https://www.96boards.org/blog/rb3-arm-opencv-threads/)
-- [Part 3 - Gimme The Code!](https://www.96boards.org/blog/rb3-opencv-gimme-code/)
-- [Part 4 - 1080p OpenCV](https://www.96boards.org/blog/rb3-1080p-opencv/)
-- [Part 5 - Voice and Vision](https://www.96boards.org/blog/rb3-voice-vision/)
+**[Ana Caro Mexia](https://www.instagram.com/codebloodedbitch/)** is, and she is going to be joining us this week on OpenHours to tell us her story. Ana has offered to answer questions about her life as a software engineer at Linkedin, her personal journey into coding (first code blood infusion), and any other fun topics that may pop up. The 96Boards team will of course be in attendance should any product questions arise.
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
