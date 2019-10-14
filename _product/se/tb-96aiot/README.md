@@ -42,9 +42,9 @@ tab_menu:
       tab_align_right: true
 product_buy_links:
   -
-    link-title: Alibaba
+    link-title: AliExpress
     link-url: https://www.aliexpress.com/item/4000077522928.html?spm=a2g0o.detail.1000060.1.2f06707aWhHbSi&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=ac42b496-15d6-4877-9984-ec6744713cbd
-    from: Alibaba
+    from: AliExpress
     type: board
     link-price: "78.99"
     link-price-currency: USD
