@@ -47,7 +47,7 @@ product_buy_links:
     link-price-currency: USD
   -
     link-title: Alibaba
-    link-url: https://www.alibaba.com/product-detail/Wholesales-OEM-ODM-factory-Rockchip-RK3399Pro_62006629076.html?spm=a2747.manage.0.0.5a3e71d23mEE2D
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
     from: Alibaba
     type: board
     link-price: "149.00"

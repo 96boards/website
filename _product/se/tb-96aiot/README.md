@@ -2,7 +2,7 @@
 title: TB-96AIoT
 layout: product-display-page
 shortname: tb-96aiot
-permalink: /product/tb-96aiot/  
+permalink: /product/tb-96aiot/
 description: |-
     The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a
     powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference
@@ -42,11 +42,11 @@ tab_menu:
       tab_align_right: true
 product_buy_links:
   -
-    link-title: Coming Soon...
-    link-url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AIoT
-    from: BeiqiCloud
+    link-title: Alibaba
+    link-url: https://www.aliexpress.com/item/4000077522928.html?spm=a2g0o.detail.1000060.1.2f06707aWhHbSi&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=ac42b496-15d6-4877-9984-ec6744713cbd
+    from: Alibaba
     type: board
-    link-price: "TBC"
+    link-price: "78.99"
     link-price-currency: USD
 product_os:
   - title: All Downloads
