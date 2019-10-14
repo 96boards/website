@@ -46,11 +46,32 @@ product_buy_links:
     link-price: "119.00"
     link-price-currency: USD
   -
-    link-title: AliExpress
+    link-title: 3G DDR3+16G eMMC  Core Board
     link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
     from: AliExpress
     type: board
-    link-price: "149.00"
+    link-price: "144.99"
+    link-price-currency: USD
+  -
+    link-title: 6G DDR3+16G eMMC  Core Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "209.99"
+    link-price-currency: USD
+  -
+    link-title: 3G DDR3+16G eMMC  Core Board + SoM Carrier Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "299.99"
+    link-price-currency: USD
+  -
+    link-title: 6G DDR3+16G eMMC  Core Board + SoM Carrier Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "374.99"
     link-price-currency: USD
 product_os:
   - title: All Downloads
