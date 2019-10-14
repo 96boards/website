@@ -46,48 +46,49 @@ product_buy_links:
     link-price: "119.00"
     link-price-currency: USD
   -
-    link-title: Alibaba
-    link-url: https://www.alibaba.com/product-detail/Wholesales-OEM-ODM-factory-Rockchip-RK3399Pro_62006629076.html?spm=a2747.manage.0.0.5a3e71d23mEE2D
-    from: Alibaba
+    link-title: 3G DDR3+16G eMMC  Core Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
     type: board
-    link-price: "149.00"
+    link-price: "144.99"
+    link-price-currency: USD
+  -
+    link-title: 6G DDR3+16G eMMC  Core Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "209.99"
+    link-price-currency: USD
+  -
+    link-title: 3G DDR3+16G eMMC  Core Board + SoM Carrier Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "299.99"
+    link-price-currency: USD
+  -
+    link-title: 6G DDR3+16G eMMC  Core Board + SoM Carrier Board
+    link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902
+    from: AliExpress
+    type: board
+    link-price: "374.99"
     link-price-currency: USD
 product_os:
   - title: All Downloads
     link: /documentation/som/tb-96ai/downloads/
   - title: Android 8.1
     link: https://developer.android.com/about/versions/oreo/android-8.1
+  - title: NPU SDK
+    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=36
 product_more_info:
   - title: Hardware User Manual
     link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
   - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+    link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+  - title: NPU SDK
+    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=36
   - title: Beiqi Cloud
     link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
-# product_accessories:
-#   - title: Power
-#     link: /product/power/
-#   - title: Adapter
-#     link: /product/adapter/
-#   - title: Debug
-#     link: /product/debug/
-#   - title: Misc
-#     link: /product/misc/
-# product_mezzanine:
-#   - title: D3 Camera Mezzanine
-#     link: /product/d3camera/
-#   - title: Link Sprite Sensor Kit
-#     link: /product/linkspritesensorkit/
-#   - title: UART Serial
-#     link: /product/uartserial/
-#   - title: Sensors Mezzanine
-#     link: /product/sensors-mezzanine
-#   - title: Audio Mezzanine
-#     link: /product/audio-mezzanine/
-
-# product_kits:
-#   - title: Coming Soon...
-#     link: https://www.96boards.org/
 product: true
 archived: false
 ---
@@ -130,3 +131,35 @@ The following features are quoted from RockChip. If you have any questions, plea
 |  Size                | 50mm x 85 mm                                                                                                            |
 {:.hidden_rows}
 </div>
+
+### Six-core High-performance AI Core Board
+
+Adopts the high-performance AI processor RK3399Pro, integrated neural network processor NPU with computing power up to 3.0Tops, TB-96AI core board can be combined with the carrier board to form a complete industrial application board, which enable it to be applied flexibly on a variety of smart products.
+
+### High-performance AI Processor RK3399Pro
+
+Adopts big and little core processor architecture of ARM dual-core Cortex-A72 and quad-core Cortex-A53 at a high frequency as 1.8GHz, integrated Mali-T860 MP4 quad-core graphics processor with powerful general-purpose computing performance.
+
+### AI Neural Network Processor NPU
+
+Integrates AI neural network processor NPU, supports 8Bit/16Bit operation with computing power up to 3.0Tops to meet various visual and audio AI applications.
+
+### Powerful Hardware Decoding Capability
+
+Supports multiple display output interfaces of DP1.2, HDMI 2.0, MIPI-DSI, eDP, Embed two VOPs, support dual-screen simultaneous/dual-screen display, supports 4K VP9, 4K 10bits H265/H264 and 1080P multi-format (VC-1, MPEG- 1/2/4, VP8) video decoding, 1080P (H.264, VP8 format) video coding
+
+### Support Multiple AI Framework
+
+Compatible with multiple AI frameworks, supports TensorFlow Lite/Android NN API, AI software tools support import, mapping, and optimization of Caffe / TensorFlow models, allowing developers to use AI technology easily.
+
+### Rich Extension Interfaces
+
+Rich in interfaces such as I2C, SPI, UART, ADC, PWM, GPIO, PCIe, USB3.0, I2S
+
+### Form Industrial Main Board
+
+TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi Technology Co., Ltd. can form a complete development board or evaluation board; and the board customized by customers according to actual needs can directly form the industry application motherboard.
+
+### Application
+
+Widely used in AI applications such as Industrial automation, UAV, image detection, face recognition, edge computing gateway, cluster server, Intelligent Quotient display, automatic driving, medicine. Application needs of market segments such as health care equipment, robots and intelligent retail.
