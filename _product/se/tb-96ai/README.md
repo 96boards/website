@@ -85,30 +85,6 @@ product_more_info:
   - link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
   - title: Beiqi Cloud
     link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
-# product_accessories:
-#   - title: Power
-#     link: /product/power/
-#   - title: Adapter
-#     link: /product/adapter/
-#   - title: Debug
-#     link: /product/debug/
-#   - title: Misc
-#     link: /product/misc/
-# product_mezzanine:
-#   - title: D3 Camera Mezzanine
-#     link: /product/d3camera/
-#   - title: Link Sprite Sensor Kit
-#     link: /product/linkspritesensorkit/
-#   - title: UART Serial
-#     link: /product/uartserial/
-#   - title: Sensors Mezzanine
-#     link: /product/sensors-mezzanine
-#   - title: Audio Mezzanine
-#     link: /product/audio-mezzanine/
-
-# product_kits:
-#   - title: Coming Soon...
-#     link: https://www.96boards.org/
 product: true
 archived: false
 ---
@@ -151,3 +127,35 @@ The following features are quoted from RockChip. If you have any questions, plea
 |  Size                | 50mm x 85 mm                                                                                                            |
 {:.hidden_rows}
 </div>
+
+### Six-core High-performance AI Core Board
+
+Adopts the high-performance AI processor RK3399Pro, integrated neural network processor NPU with computing power up to 3.0Tops, TB-96AI core board can be combined with the carrier board to form a complete industrial application board, which enable it to be applied flexibly on a variety of smart products.
+
+### High-performance AI Processor RK3399Pro
+
+Adopts big and little core processor architecture of ARM dual-core Cortex-A72 and quad-core Cortex-A53 at a high frequency as 1.8GHz, integrated Mali-T860 MP4 quad-core graphics processor with powerful general-purpose computing performance.
+
+### AI Neural Network Processor NPU
+
+Integrates AI neural network processor NPU, supports 8Bit/16Bit operation with computing power up to 3.0Tops to meet various visual and audio AI applications.
+
+### Powerful Hardware Decoding Capability
+
+Supports multiple display output interfaces of DP1.2, HDMI 2.0, MIPI-DSI, eDP, Embed two VOPs, support dual-screen simultaneous/dual-screen display, supports 4K VP9, 4K 10bits H265/H264 and 1080P multi-format (VC-1, MPEG- 1/2/4, VP8) video decoding, 1080P (H.264, VP8 format) video coding
+
+### Support Multiple AI Framework
+
+Compatible with multiple AI frameworks, supports TensorFlow Lite/Android NN API, AI software tools support import, mapping, and optimization of Caffe / TensorFlow models, allowing developers to use AI technology easily.
+
+### Rich Extension Interfaces
+
+Rich in interfaces such as I2C, SPI, UART, ADC, PWM, GPIO, PCIe, USB3.0, I2S
+
+### Form Industrial Main Board
+
+TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi Technology Co., Ltd. can form a complete development board or evaluation board; and the board customized by customers according to actual needs can directly form the industry application motherboard.
+
+### Application
+
+Widely used in AI applications such as Industrial automation, UAV, image detection, face recognition, edge computing gateway, cluster server, Intelligent Quotient display, automatic driving, medicine. Application needs of market segments such as health care equipment, robots and intelligent retail.
