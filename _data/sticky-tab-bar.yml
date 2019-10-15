@@ -280,6 +280,22 @@ pages:
         right: true
     sub-pages-enabled: true
     urls: [/documentation/consumer/dragonboard/dragonboard410c/]
+    # -------- DragonBoard™ 845c (Arrow) -----------
+  - list:
+      - title: Qualcomm® Robotics RB3 Development Platform
+        url: /product/rb3-platform/
+      - title: Getting Started
+        url: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
+        tab_position: 1
+      - title: Documentation
+        url: /documentation/consumer/dragonboard/dragonboard845c/
+        sub-pages: true
+      - title: Support
+        url: https://discuss.96boards.org/c/products/dragonboard-845c
+        tab_position: 4
+        right: true
+    sub-pages-enabled: true
+    urls: [/documentation/consumer/dragonboard/dragonboard845c/]
     # -------- Chameleon96 -----------
   - list:
       - title: Chameleon96
