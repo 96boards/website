@@ -25,9 +25,9 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**It is easy to call yourself a coder, computer scientist, and/or software engineer, but are you code blooded?**
+**Cool new 96Boards from Linaro Connect SAN19**
 
-**[Ana Caro Mexia](https://www.instagram.com/codebloodedbitch/)** is, and she is going to be joining us this week on OpenHours to tell us her story. Ana has offered to answer questions about her life as a software engineer at Linkedin, her personal journey into coding (first code blood infusion), and any other fun topics that may pop up. The 96Boards team will of course be in attendance should any product questions arise.
+As we say farewell and Best of luck to our now ex-host Robert Wolff, in this week's episode we focus of cool new 96Boards that were announced and/or launched during the San Diego Linaro Connect event last month. We'll do en elaborate unboxing and take a deep dive at whats on the actual board and have a nice casual talk while we are at it.
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
