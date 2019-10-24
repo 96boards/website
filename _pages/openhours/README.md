@@ -25,9 +25,9 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Cool new 96Boards from Linaro Connect SAN19**
+**What is the 96Boards SOM Specification?**
 
-As we say farewell and Best of luck to our now ex-host Robert Wolff, in this week's episode we focus of cool new 96Boards that were announced and/or launched during the San Diego Linaro Connect event last month. We'll do en elaborate unboxing and take a deep dive at whats on the actual board and have a nice casual talk while we are at it.
+In this episode we take a deep dive into the 96boards SOM (System On Module) specification. The goal is to get the community familiarized and interested with the latest 96Boards endeavour. 
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
