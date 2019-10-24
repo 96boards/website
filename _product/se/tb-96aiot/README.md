@@ -86,6 +86,8 @@ product_buy_links:
 product_os:
   - title: All Downloads
     link: /documentation/som/tb-96aiot/downloads/
+  - title: NPU SDK
+    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
 product_more_info:
   - title: Hardware User Manual
     link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-hardware-user-manual.pdf

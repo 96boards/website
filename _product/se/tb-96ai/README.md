@@ -79,14 +79,14 @@ product_os:
   - title: Android 8.1
     link: https://developer.android.com/about/versions/oreo/android-8.1
   - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=36
+    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
 product_more_info:
   - title: Hardware User Manual
     link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
   - title: Schematics
     link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
   - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=36
+    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
   - title: Beiqi Cloud
     link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
 product: true
