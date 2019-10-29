@@ -95,8 +95,6 @@ pages:
             url: https://discuss.96boards.org/
           - text: 96Boards Discord
             url: https://discord.gg/x5uMn5d
-          - text: 96Boards Slack
-            url: https://linaro.co/96Boards-slack
           - text: Partner Services
             url: /services/
     - title: Blog
