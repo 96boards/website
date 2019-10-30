@@ -7,8 +7,10 @@ description: |-
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html
-    - row: custom_include_row
-      source: submit_a_project.html
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: submit_a_project.html
     - row: main_content_row
 ---
 
