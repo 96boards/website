@@ -92,9 +92,8 @@ blog:
         #           url: url
 
 #Google analytics
-google:
-    tag_manager: GTM-P53JPC
-    analytics: UA-16756069-18
+google_analytics:
+    production: UA-16756069-18
 
 # Shema.org Setup -> used in the schema.html include.
 schema:
