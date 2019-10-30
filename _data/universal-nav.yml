@@ -1,17 +1,20 @@
-- title: Linaro
-  url: https://www.linaro.org/
-- title: Connect
-  url: https://connect.linaro.org
-- title: 96Boards
-  url: https://www.96boards.org
-  active: true
-- title: Developer Cloud
-  url: https://linaro.cloud
-- title: Projects
-  options:
-    - title: 96Boards.ai
-      url: https://www.96boards.ai
-    - title: OP-TEE
-      url: https://www.op-tee.org
-    - title: DeviceTree.org
-      url: https://www.devicetree.org
+items:
+  - title: Linaro
+    url: https://www.linaro.org/
+  - title: Connect
+    url: https://connect.linaro.org
+  - title: 96Boards
+    url: https://www.96boards.org
+    active: true
+  - title: Developer Cloud
+    url: https://linaro.cloud
+  - title: Projects
+    options:
+      - title: 96Boards.ai
+        url: https://www.96boards.ai
+      - title: OP-TEE
+        url: https://www.op-tee.org
+      - title: DeviceTree.org
+        url: https://www.devicetree.org
+      - title: OpenAMP
+        url: https://www.openampproject.org

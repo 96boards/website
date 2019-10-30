@@ -1,19 +1,70 @@
-#content-container .fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
-    background-color: #19937a;
-    border: 1px solid #19937a;
+#content-container .fessWrapper .pagination > .active > a, #content-container .fessWrapper .pagination > .active > a:focus, #content-container .fessWrapper .pagination > .active > a:hover, #content-container .fessWrapper .pagination > .active > span, #content-container .fessWrapper .pagination > .active > span:focus, #content-container .fessWrapper .pagination > .active > span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+#content-container .fessWrapper .pagination > li > a, #content-container .fessWrapper .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.5;
+    color: #808080;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+#content-container .fessWrapper a {
+    color: $brand-primary;
+    text-decoration: none;
+}
+#content-container .fessWrapper #result .body cite {
+    color: #a7a7a7;
+    font-style: normal;
+}
+button.searchButton.btn.btn-primary {
+    width: 100%;
+    height: 44px;
+    background-color: $brand-primary;
+    border: none;
 }
 
-#content-container .fessWrapper .pagination > li > a, .fessWrapper .pagination > li > span {
-    background-color: white;
-    color: #989898;
+.fessForm table {
+    border-bottom: none;
 }
 
-#content-container .fessWrapper .pagination > li > a:focus, .fessWrapper .pagination > li > a:hover, .fessWrapper .pagination > li > span:focus, .fessWrapper .pagination > li > span:hover {
+.fessResult table {
+    border-bottom: none;
+}
+
+.fessWrapper #result .title a {
+    color: $brand-primary;
+}
+
+.fessWrapper #result .title a:visited {
+    color: #b84db8;
+}
+
+.fessWrapper #result .body cite {
+    color: #c54db8;
+}
+
+input.query.form-control.center-block:focus {
+    border-color: $brand-primary;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px $brand-primary;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px $brand-primary;
+}
+
+#subfooter li.active a {
     color: white;
-    background-color: black;
-    border:1px solid black;
+    background-color: $brand-primary;
+    border: 1px solid $brand-primary;
 }
-
-#content-container .fessWrapper .pagination > .active > a, .fessWrapper .pagination > .active > a:focus, .fessWrapper .pagination > .active > a:hover, .fessWrapper .pagination > .active > span, .fessWrapper .pagination > .active > span:focus, .fessWrapper .pagination > .active > span:hover {
-    color: white;
+#subfooter li a {
+    color: $brand-primary;
+    background-color: #fff;
+    border: 1px solid $brand-primary;
 }
