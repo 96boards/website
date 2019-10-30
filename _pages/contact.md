@@ -7,7 +7,7 @@ description: >-
 jumbotron:
     background-image: /assets/images/content/96boards-home-image-2.jpg
     title: Contact
-    animation: fade
+    darken: true
 ---
 
 Membership & General Enquiries: [contact@linaro.org](mailto:contact@linaro.org?subject=96Boards.org)

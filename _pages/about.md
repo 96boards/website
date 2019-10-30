@@ -9,6 +9,7 @@ js-package: about
 css-package: about
 jumbotron:
     description: ""
+    darken: true
     background-image: /assets/images/content/96boards-banner-1.jpg
 flow:
     - row: custom_include_row

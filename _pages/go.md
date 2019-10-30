@@ -4,6 +4,7 @@ permalink: /go/
 layout: jumbotron-container
 css-package: go-events
 jumbotron:
+    darken: true
     title : 96Boards Go Events
     description: >
         Join us at the events 96Boards host's and attends.

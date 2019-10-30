@@ -7,6 +7,7 @@ layout: flow
 css-package: about
 js-package: about
 jumbotron:
+    darken: true
     background-image: /assets/images/content/96boards-banner-5.jpg
 flow:
     - row: custom_include_row
