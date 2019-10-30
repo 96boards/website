@@ -46,7 +46,7 @@ The Goal was to provide a demonstrative use-case for the RB3. It will cover the 
 - Vision: A 1080/30p or 720/60p video input will be used for object recognition using OpenCV
 - Voice: Voice commands will be used to instruct the Arm to perform a set of actions.
 
-Brining it all together:
+Bringing it all together:
 - A camera will be used to detect objects placed on a table.
 - The user will send a voice command to pick and place a particular object.
 - The Robotic Arm then works along with the camera to track the object and perform the requested action.
@@ -58,7 +58,7 @@ Brining it all together:
 - USD 450: [96Boards RB3 CE Board by Qualcomm](https://www.96boards.org/product/rb3-platform/)
 - USD 130: [LewanSoul 6DOF Robotic Arm Kit](https://www.amazon.com/dp/B074T6DPKX/)
 - USD 17: [PCA9685 Based Servo Driver](https://www.amazon.com/Adafruit-16-Channel-12-bit-Servo-Driver/dp/B01G61MZF4/)
-- An I2C voltage Level shifter is required, either on of the following can be used:
+- An I2C voltage Level shifter is required, either one of the following can be used:
     - USD 5: [Audio Mezzanine](https://www.96boards.org/product/audio-mezzanine/)
     - [Sensors Mezzanine](https://www.96boards.org/product/sensors-mezzanine/)
     - [LinkSprite Mezzanine](https://www.96boards.org/product/linkspritesensorkit/)
@@ -77,12 +77,12 @@ Brining it all together:
 
 **Image Recognition:**
 - Once the arm gets the object that the user wanted to pickup, it's next job is to find the object in it's field of view.
-- The Robotic Arm has a front mounted camera on it's grabber. It uses OpenCV to first detect its color using separating the HSV color space based on pre-defined values.
+- The Robotic Arm has a front mounted camera on its grabber. It uses OpenCV to first detect its color using separating the HSV color space based on pre-defined values.
 - Once it has different blobs of the requested color, it uses edge detection to detect the shape.
 - The RB3 can do this at about 15-20 FPS.
 
 **Picking up the object**
-- Once the Robotic Arm has detected the object requested by the user, it how has the job to grab and pick up the object.
+- Once the Robotic Arm has detected the object requested by the user, it now has the job to grab and pick up the object.
 - The Robotic arm is made up of 6 simple Servos that have a range of 160 degrees of motion, these servos are controlled by pwm signals with 0% being 0 degree and 100% being 160 degrees.
 - The PWM signals are generated with a PCA9586 IC that generates PWM signals over 16 channels and it is connected to the RB3 over i2c. So the RB3 has direct control of the servos over i2c.
 - The Robotic Arm first makes sure that the object is near the center of the grabber, it does by moving the arm in the X and Y axis till the object is correctly centred.
