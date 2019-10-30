@@ -1,7 +1,7 @@
 ---
 title: 96boards Go Events
 permalink: /go/
-layout: jumbotron-container
+layout: flow
 css-package: go-events
 jumbotron:
     darken: true
@@ -9,14 +9,9 @@ jumbotron:
     description: >
         Join us at the events 96Boards host's and attends.
     background-image: /assets/images/content/hackaton-bg-image.jpg
+flow:
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: go_events.html
 ---
-{% assign go_events = site.go | sort: 'date' | reverse %}
-{% for go_event in go_events %}
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-        <a href="{{go_event.url}}">
-            <div class="go_event_block flex-container" style="background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(25, 147, 122)), url({{go_event.image}})">
-                <h3 class="flex-center">{{go_event.title}}</h3>
-            </div>
-        </a>
-    </div>
-{% endfor %}
