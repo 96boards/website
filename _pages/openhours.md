@@ -25,9 +25,9 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**What is the 96Boards SOM Specification?**
+**Community Hour**
 
-In this episode we take a deep dive into the 96boards SOM (System On Module) specification. The goal is to get the community familiarized and interested with the latest 96Boards endeavour.
+This episode is filled with community QnA, forum overview and upcoming and WIP projects, maybe even some live coding.
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
