@@ -8,7 +8,7 @@ description: |-
 css-package: projects
 js-package: projects
 jumbotron:
-    animation: fade
+    darken: true
     carousel-images:
         - /assets/images/content/96boards-banner-project-2.jpg
         - /assets/images/content/96boards-banner-project-1.jpg

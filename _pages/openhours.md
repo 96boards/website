@@ -8,7 +8,7 @@ layout: jumbotron
 css-package: openhours
 js-package: openhours
 jumbotron:
-    animation: fade
+    darken: true
     carousel-images:
         - /assets/images/content/96boards-banner-openhours-1.jpg
         - /assets/images/content/96boards-banner-openhours-2.jpg
@@ -27,7 +27,7 @@ jumbotron:
 
 **What is the 96Boards SOM Specification?**
 
-In this episode we take a deep dive into the 96boards SOM (System On Module) specification. The goal is to get the community familiarized and interested with the latest 96Boards endeavour. 
+In this episode we take a deep dive into the 96boards SOM (System On Module) specification. The goal is to get the community familiarized and interested with the latest 96Boards endeavour.
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 

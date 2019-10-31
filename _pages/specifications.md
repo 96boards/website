@@ -7,6 +7,7 @@ status: active
 layout: flow
 css-package: about
 jumbotron:
+    darken: true
     background-image: /assets/images/content/96boards-banner-6.jpg
 flow:
     - row: custom_include_row
@@ -14,11 +15,10 @@ flow:
     - row: container_row
       sections:
         - format: feature_block
-          content:
-            side_content:
-                position: right
-                type: image
-                content: /assets/images/content/96Consumer.svg
+          feature_block_content:
+            position: right
+            type: image
+            image_content_path: /assets/images/content/96Consumer.svg
             title: Consumer Edition
             text: >
                 The 96Boards Consumer Edition (CE) Platform is intended to support Low cost Single Board Computer use, Open Source community software development, Maker community, Embedded System OEMs requiring low cost off-the-shelf CPU modules and Community engineering activities.
@@ -34,11 +34,10 @@ flow:
     - row: container_row
       sections:
         - format: feature_block
-          content:
-            side_content:
-                position: left
-                type: image
-                content: /assets/images/content/96Enterprise.svg
+          feature_block_content:
+            position: left
+            type: image
+            image_content_path: /assets/images/content/96Enterprise.svg
             title: Enterprise Edition
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
@@ -54,11 +53,10 @@ flow:
     - row: container_row
       sections:
         - format: feature_block
-          content:
-            side_content:
-                position: right
-                type: image
-                content: /assets/images/content/96IoT.svg
+          feature_block_content:
+            position: right
+            type: image
+            image_content_path: /assets/images/content/96IoT.svg
             title: IoT Edition
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
@@ -74,11 +72,10 @@ flow:
     - row: container_row
       sections:
         - format: feature_block
-          content:
-            side_content:
-                position: left
-                type: image
-                content: /assets/images/content/96Partner.svg
+          feature_block_content:
+            position: left
+            type: image
+            image_content_path: /assets/images/content/96Partner.svg
             title: Mezzanine Guideline
             text: >
                 The 96Boards mezzanine guideline allows you to expand your **Consumer Edition** or **Enterprise Edition** 96Boards with new interfaces for IoT, industrial control, and other embedded applications. See the mezzanine guidelines for some helpful resources.
@@ -94,11 +91,10 @@ flow:
     - row: container_row
       sections:
         - format: feature_block
-          content:
-            side_content:
-                position: right
-                type: image
-                content: /assets/images/content/96Boards-Logo-96 SoM.svg
+          feature_block_content:
+            position: right
+            type: image
+            image_content_path: /assets/images/content/96Boards-Logo-96 SoM.svg
             title: SoM Edition
             text: >
                 The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable and cost-effective embedded platforms for building end-products.
