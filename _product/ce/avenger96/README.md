@@ -42,7 +42,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/avenger96/arrow-development-tools"
     from: Arrow Electronics
     type: board
-    link-price: "$149.00"
+    link-price: "$129.99"
     link-price-currency: USD
 
 # Right Sidepanel links

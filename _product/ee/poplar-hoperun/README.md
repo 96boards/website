@@ -30,8 +30,8 @@ product_images:
 product_buy_links:
   -
     link-title: "HiHope"
-    link-url: "http://hihope.org/product/Poplar"
-    link-price: "$99.00"
+    link-url: "http://www.hihope.org/product/detail/poplar"
+    link-price: "￥800.0"
 product_os:
   - title: Build from Source
     link: /documentation/enterprise/poplar-hoperun/build/
@@ -42,7 +42,7 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 
 ## Buy Now
 
-- [HiHope](http://hihope.org/product/Poplar)
+- [HiHope](http://www.hihope.org/product/detail/poplar)
 
 ***
 
@@ -63,7 +63,7 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 |  EXPANSION INTERFACE | Linaro 96Boards Low Speed Expansion slot                                                         |
 |  DIMENSION           | Standard 160×120 mm 96Boards Enterprice Edition form factor                                      |
 |  WIFI                | 802.11AC 2*2 with Bluetooth                                                                      |
-|  CONNECTORS          | One connector for Smart Card One connector for TSI                                               
+|  CONNECTORS          | One connector for Smart Card One connector for TSI
 {:.hidden_rows}
 
 </div>
