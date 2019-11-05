@@ -1,0 +1,10 @@
+---
+permalink: /assets/json/blog.json
+---
+{% assign ai_powered_boards = site.product | where: 'ai_board', 'true' %}
+[{% for product in ai_powered_boards %}{
+"id": "{{ product.shortname }}",
+"title": {{ product.title | smartify | jsonify }},
+"url": "{{ site.url }}{{ product.url }}",
+"summary": {{ product.description | smartify | jsonify }},
+}{% unless forloop.last == true %},{% endunless %}{% endfor %}]
