@@ -7,7 +7,7 @@ permalink: /assets/json/ai_boards.json
 "title": {{ product.title | smartify | jsonify }},
 {% assign url-name = page.permalink | split: "/" %}
 {% assign url-name-new = url-name[2] %}
-{% capture product_image %}{{site.url}}/product/{{product.product_specification}}/{{url-name-new}}/images/{{ product.product_images[0]] }}{% endcapture %}
+{% capture product_image %}{{site.url}}/product/{{product.product_specification}}/{{url-name-new}}/images/{{ product.product_images[0] }}{% endcapture %}
 "image": {{ product_image }},
 "url": "{{ site.url }}{{ product.url }}",
 "summary": {{ product.description | smartify | jsonify }},
