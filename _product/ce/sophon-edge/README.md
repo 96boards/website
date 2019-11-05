@@ -3,6 +3,8 @@ title: Sophon Edge
 layout: product-display-page
 permalink: /product/sophon-edge/
 shortname: sophon-edge
+#Set this to true and the board will be visible on 96boards.ai
+ai_board: true
 description: |-
     The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
 keywords: |-
@@ -87,12 +89,12 @@ The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful De
 | System Memory        | LPDDR4 1GB                                                                                       |
 | Flash Memory         | 8GB eMMC + micro SD card slot                                                                    |
 | Connectivity         | Gigabit Ethernet(RJ-45), Wifi, Bluetooth                                                         |
-| USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       | 
+| USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       |
 | I/O Expansion        | 40-pin 96Boards low-speed expansion header                                                       |
 | Audio                | I2S x 2 (included in 40-pin header)                                                              |
 | H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
 | Power                | 12V@2A                                                                                           |
-| OS                   | Linux                                                                                            | 
+| OS                   | Linux                                                                                            |
 | Dimensions           | 85mm x 54mm                                                                                      |
 
 **NOTE:** Many compliance items for this board were waived due to the nature of the chipset being used and the uniqueness of the board. The Edge BM1880 TPU ASIC accels in its AI and deep learning abilities, for this reason, the following items were waived in order to accomodate the Sophon Edge into the 96Boards ecosystem:

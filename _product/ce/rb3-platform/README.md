@@ -3,6 +3,8 @@ title: Qualcomm® Robotics RB3 Development Platform
 layout: product-display-page
 shortname: rb3-platform
 permalink: /product/rb3-platform/
+#Set this to true and the board will be visible on 96boards.ai
+ai_board: true
 description: |-
     The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor. The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz  a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation. The development board supports Linux and Robotics Operating System (ROS), while also including support for the Qualcomm® Neural Processing software development kit (SDK) for advanced on-device AI, the Qualcomm® Computer Vision Suite, the Qualcomm® Hexagon DSP SDK, and AWS RoboMaker. The development board supports new architecture for AI, 4K@60fps H.264/H.265 Encode & Decode, rich interfaces, and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work. Note: DragonBoard 845c is ONLY available in the Qualcomm® Robotics RB3 Development Kit.
 keywords: |-
@@ -94,13 +96,13 @@ product_kits:
 product: true
 archived: false
 ---
-The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor. 
+The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor.
 
-The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz  a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation.  
+The Qualcomm SDA845 processor is a heterogeneous computing architecture and integrates an Octa Core Qualcomm® Kryo™ CPU with performance up to 2.8GHz  a Qualcomm® Adreno™ 630 Visual Processing Subsystem (including GPU, VPU and DPU), and a Qualcomm® Hexagon™ 685 DSP with Hexagon Vector Extensions (HVX) delivering sophisticated, on-device AI processing and mobile-optimized computer vision (CV) capabilities for perception, navigation and manipulation.
 
 The development board supports Linux and Robotics Operating System (ROS), while also including support for the Qualcomm® Neural Processing software development kit (SDK) for advanced on-device AI, the Qualcomm® Computer Vision Suite, the Qualcomm® Hexagon DSP SDK, and AWS RoboMaker.
 
-The development board supports new architecture for AI, 4K@60fps H.264/H.265 Encode & Decode, rich interfaces, and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work. 
+The development board supports new architecture for AI, 4K@60fps H.264/H.265 Encode & Decode, rich interfaces, and many I/O expansion headers. It is an ideal platform for developers to quickly start the product development work.
 
 > Note: DragonBoard 845c is ONLY available in the Qualcomm® Robotics RB3 Development Kit.
 
