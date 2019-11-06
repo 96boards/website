@@ -113,7 +113,6 @@ The following pages all fall under website content:
 12. News [/news/](https://www.96boards.org/news/) [Source](https://github.com/96boards/website/blob/master/news/README.md) [Data](https://github.com/96boards/website/blob/master/_data/news.yaml)
 13. OpenHours [/openhours/](https://www.96boards.org/openhours/) [Source](https://github.com/96boards/website/blob/master/openhours/README.md)
 14. Partner [/partner/](https://www.96boards.org/partner/) [Source](https://github.com/96boards/website/blob/master/partner/README.md)
-15. Press [/press/](https://www.96boards.org/press/) [Source](https://github.com/96boards/website/blob/master/press/README.md)
 16. Search [/search/](https://www.96boards.org/search/) [Source](https://github.com/96boards/website/blob/master/search/README.md)
 17. Specifications [/specifications/](https://www.96boards.org/specifications/) [Source](https://github.com/96boards/website/blob/master/specifications/README.md)
 18. Tutorials [/tutorials/](http://www.96boards.org/tutorials/dragonboard410c/) [Source](https://github.com/96boards/website/blob/master/tutorials/dragonboard410c/README.md)
