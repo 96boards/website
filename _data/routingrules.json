@@ -105,6 +105,7 @@
     "^/OPENHOURS(/?|/index.html)$ /openhours/ [R,L]",
     "^/poplar(/?|/index.html)$ /product/poplar/ [R,L,NC]",
     "^/product(/?|/index.html)$ /products/ [R,L,NC]",
+    "^/press(/?|/index.html)$ /contact/ [R,L,NC]",
     "^/product/aerocore(/?|/index.html)$ /product/aerocore2/ [R,L,NC]",
     "^/product/audiomezz(/?|/index.html)$ /product/audio-mezzanine/ [R,L,NC]",
     "^/product/b2260(/?|/index.html)$ /products/ce/ [R,L,NC]",
