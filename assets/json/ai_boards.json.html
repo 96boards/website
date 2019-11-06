@@ -1,0 +1,14 @@
+---
+permalink: /assets/json/ai_boards.json
+---
+{% assign ai_powered_boards = site.product | where: 'ai_board', 'true' %}
+[{% for product in ai_powered_boards %}{
+"id": "{{ product.shortname }}",
+"title": {{ product.title | smartify | jsonify }},
+{% assign url-name = product.permalink | split: "/" %}
+{% assign url-name-new = url-name[2] %}
+{% capture product_image %}{{site.url}}/product/{{product.product_specification}}/{{url-name-new}}/images/{{ product.product_images[0] }}{% endcapture %}
+"image": "{{ product_image }}",
+"url": "{{ site.url }}{{ product.url }}",
+"summary": {{ product.description | smartify | jsonify }}
+}{% unless forloop.last == true %},{% endunless %}{% endfor %}]
