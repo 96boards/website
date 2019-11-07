@@ -25,9 +25,11 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**Community Hour**
+**A new 96Boards, some drone talk and more!!!**
 
-This episode is filled with community QnA, forum overview and upcoming and WIP projects, maybe even some live coding.
+We look at the newly announced Akebi96, a TV platform board designed using a rather powerful Socionext SoC and has a rather interesting heatsink design.
+
+We'll also look at a drone platform based on zephyr that is a WIP and then take in some community questions.
 
 Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
 
