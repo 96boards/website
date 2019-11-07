@@ -5,6 +5,8 @@ permalink: /product/hikey970/
 shortname: hikey970
 #Set this to true and the board will be visible on 96boards.ai
 ai_board: true
+ai_board_desc: >
+    HiKey970 is one of the world‘s first edge AI developing platform with a dedicated Neural-network Processing Unit (NPU).
 description: |-
     HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers looking maximize accelerated AI capabilities not found in most other development platforms!
 keywords: hikey 970, hikey970, aosp, aosp developement board, boards, linux, ai, artificial intelligence
