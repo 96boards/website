@@ -10,5 +10,5 @@ permalink: /assets/json/ai_boards.json
 {% capture product_image %}{{site.url}}/product/{{product.product_specification}}/{{url-name-new}}/images/{{ product.product_images[0] }}{% endcapture %}
 "image": "{{ product_image }}",
 "url": "{{ site.url }}{{ product.url }}",
-"summary": {{ product.description | smartify | jsonify }}
+"summary": {{ product.ai_board_desc | smartify | jsonify }}
 }{% unless forloop.last == true %},{% endunless %}{% endfor %}]
