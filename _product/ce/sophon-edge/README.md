@@ -5,6 +5,8 @@ permalink: /product/sophon-edge/
 shortname: sophon-edge
 #Set this to true and the board will be visible on 96boards.ai
 ai_board: true
+ai_board_desc: >
+    The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development.
 description: |-
     The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
 keywords: |-
