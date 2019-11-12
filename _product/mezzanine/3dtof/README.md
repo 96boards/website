@@ -44,7 +44,8 @@ product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
 product_more_info:
-  - title: Product Brief
+  - link-title: Product Brief
+    link-url: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
 product: true
 archived: false
 ---
