@@ -1,0 +1,4 @@
+[submodule "_documentation"]
+	path = _documentation
+	url = https://github.com/96boards/documentation.git
+	branch = master
