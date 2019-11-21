@@ -25,14 +25,12 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**A new 96Boards, some drone talk and more!!!**
+**News, QnA and Forum Posts, TechTalk style!!!**
 
-We look at the newly announced Akebi96, a TV platform board designed using a rather powerful Socionext SoC and has a rather interesting heatsink design.
+This week we'll take a look at some interesting 96Boards and Arm news over the week, go through some forum posts and take some viewer QnA.
 
-We'll also look at a drone platform based on zephyr that is a WIP and then take in some community questions.
-
-Bring you questions & coffee and/or beer (water or juice :-P) and tune in at our regular time of 4:00p UTC on Thursday! See you there.
-
+Hope to see you all soon!
+ 
 ### What is 96Boards OpenHours?
 
 **96Boards OpenHours – Sponsored by Linaro** welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience. Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
