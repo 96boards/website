@@ -12,7 +12,7 @@ tab_menu:
     tab_link: /product/3dtof/
     active: true
   - tab_title: Documentation
-    tab_link: /documentation/mezzanine/
+    tab_link: /documentation/mezzanine/3dtof/
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
@@ -44,8 +44,8 @@ product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
 product_more_info:
-  - link-title: Product Brief
-    link-url: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
+  - title: Product Brief
+    link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
 product: true
 archived: false
 ---
