@@ -19,6 +19,7 @@ boards:
     - poplar-hoperun
     - poplar
 mezzanines:
+    - 3dtof
     - 4iot
     - bpi96
     - carbon

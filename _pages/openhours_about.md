@@ -36,7 +36,7 @@ We look forward to talking with you.
    * There will be live streaming over YouTube and Facebook but your presence will only be recorded in Bluejeans. We also take questions from YouTube and Facebook comments.
 8. **How do I get BlueJeans?**
    * There are two options available:
-      * You can join us directly and participate in the livestream on [Blejeans App](https://www.bluejeans.com/downloads)
+      * You can join us directly and participate in the livestream on [Zoom](https://zoom.us/j/544757552)
       * You can watch the livestream on [YouTube](https://www.youtube.com/96boards)
       * Or you can watch the livestream on [Facebook](https://www.facebook.com/96Boards/)
 9. **How long is OpenHours?**
@@ -53,20 +53,17 @@ We look forward to talking with you.
 <div class="container">
 <div class="row">
 <div class="col-sm-3">
-<div class="openhours-about-image" style="background-image:url({% asset_path 'robert-small.jpg' %});"></div>
+<div class="openhours-about-image" style="background-image:url({% asset_path 'sahaj-small.jpg' %});"></div>
 <ul class="name-and-title text-center">
-<li>Robert Wolf</li>
+<li>Sahaj Sarup</li>
 <li>OpenHours Host</li>
 </ul>
 </div>
 <div class="col-sm-9" markdown="1">
-Robert Wolff is a technical writer, open source evangelist, community leader and engineer with a history of working in and around esteemed academic institutions and STEAM (science, technology, engineering, art and mathematics) based educational programs. Right now, Robert works as community manager for 96Boards at Linaro. He maintains several of 96Boards’ Open Source orgs and repositories, runs a variety of community driven projects/initiatives, and hosts his own live, weekly online video “podcast” dubbed “96Boards OpenHours”.
-
-Robert graduated from University of California, San Diego with a bachelor's degree in Electrical Engineering. During his undergrad, he was heavily involved with the Global Teams in Engineering Services (TIES) program. He participated in several humanitarian engineering projects, working in multi-disciplinary teams, to deliver useful prototypes to promote STEM education for underprivileged communities around his hometown of San Diego, California. It was during this time Robert began to develop an interest in open source, embedded systems, and IoT. 
-
-Prior to his work with Linaro/96Boards, he worked for the Qualcomm Institute at UCSD creating an extensive online specialization for the DragonBoard 410c. These six courses are hosted by Coursera.org and contain upward of 500 educational videos.
 </div>
+Sahaj has a background in Computer Applications engineering and have previously worked as an intern at SUSE. Before Linaro, he was a major contributor to the android-rpi, project that aimed to provide AOSP support for the Raspberry Pi, and also was the owner and maintainer of the official forums for the same. In his free time, he likes to Vlog (Video Blog) about his adventures in the world of Open Source and SBCs on his YouTube Channel (Geek Till it Hertz), where he likes to discuss new ARM hardware and unusual operating systems.
 </div>
+
 
 <div class="row">
 <div class="col-sm-3">
@@ -86,22 +83,6 @@ Around the same time (age 12) he also started teaching himself how to build webs
 
 </div>
 </div>
-
-
-
-<div class="row">
-<div class="col-sm-3">
-<div class="openhours-about-image" style="background-image:url({% asset_path 'sahaj-small.jpg' %});"></div>
-<ul class="name-and-title text-center">
-<li>Sahaj Sarup</li>
-<li>Producer & 96Boards Specialist</li>
-</ul>
-</div>
-<div class="col-sm-9" markdown="1">
-Sahaj has a background in Computer Applications engineering and have previously worked as an intern at SUSE. Before Linaro, he was a major contributor to the android-rpi, project that aimed to provide AOSP support for the Raspberry Pi, and also was the owner and maintainer of the official forums for the same. In his free time, he likes to Vlog (Video Blog) about his adventures in the world of Open Source and SBCs on his YouTube Channel (Geek Till it Hertz), where he likes to discuss new ARM hardware and unusual operating systems.
-</div>
-</div>
-
 
 
 <div class="row">

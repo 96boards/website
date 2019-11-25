@@ -10,13 +10,7 @@ pages:
         url: /openhours/
       - title: About
         url: /openhours/about/
-      - title: Episodes
-        url: /openhours/episodes/
-      - title: Impact
-        url: /openhours/impact/
-      - title: Community
-        url: /openhours/community/
-    urls: [/openhours/,/openhours/about/,/openhours/episodes/,/openhours/impact/,/openhours/community/]
+    urls: [/openhours/,/openhours/about/]
   - list:
       - title: Overview
         url: /about/

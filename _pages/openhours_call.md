@@ -8,7 +8,7 @@ layout: jumbotron-container
 css-package: openhours
 ---
 <div class="col-md-12">
-    <object type="text/html" data="https://bluejeans.com/711957081/browser" style="width:100%; height:800px">
+    <object type="text/html" data="https://zoom.us/j/544757552" style="width:100%; height:800px">
     <p>backup content</p>
     </object>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 3DToF Mezzanine
+title: Analog Device’s 3D Time Of Flight Mezzanine Stack
 layout: product-display-page
 permalink: /product/3dtof/
 shortname: 3dtof
@@ -8,11 +8,11 @@ description: |-
 display_product: true
 product_support_link: https://discuss.96boards.org/c/products/mezzanine
 tab_menu:
-  - tab_title: 3DToF Mezzanine
+  - tab_title: Analog Device’s 3D Time Of Flight Mezzanine Stack
     tab_link: /product/3dtof/
     active: true
   - tab_title: Documentation
-    tab_link: /documentation/mezzanine/
+    tab_link: /documentation/mezzanine/3dtof/
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
@@ -25,7 +25,7 @@ product_long_desc: |-
 product_images:
   - 3dtof-side.jpg
 mezzanine_features:
- - 96Boards mezzanine card
+ - 96Boards mezzanine card stack
  - DragonBoard 410C support
  - 6m range, up to 1% accuracy
  - Finisar 940 nm wavelength VCSEL, up to 40W output
@@ -44,11 +44,15 @@ product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
 product_more_info:
-  - link-title: Product Brief
-    link-url: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
+  - title: Product Brief
+    link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
+  - title: Wiki
+    link: https://wiki.analog.com/resources/eval/user-guides/ad-96tof1-ebz
 product: true
 archived: false
 ---
+
+# Analog Device’s 3D Time Of Flight Mezzanine Stack
 
 3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications. The development platform comes with everything a user needs to start working immediately on 3DToF applications, enabling the development of high value features and functions that create product differentiation.
 
