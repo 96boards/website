@@ -60,7 +60,6 @@ We look forward to talking with you.
 <div class="col-sm-9" markdown="1">
 Sahaj has a background in Computer Applications engineering and have previously worked as an intern at SUSE. Before Linaro, he was a major contributor to the android-rpi, project that aimed to provide AOSP support for the Raspberry Pi, and also was the owner and maintainer of the official forums for the same. In his free time, he likes to Vlog (Video Blog) about his adventures in the world of Open Source and SBCs on his YouTube Channel (Geek Till it Hertz), where he likes to discuss new ARM hardware and unusual operating systems.
 </div>
-</div>
 
 
 <div class="row">
