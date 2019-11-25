@@ -86,7 +86,7 @@ product_buy_links:
   -
     link-title: "HiHope"
     link-price: "$299.00"
-    link-url: "http://hihope.org/product/HiKey970"
+    link-url: "https://www.devestimator.com/hihope/product/hikey970/"
     link-price-currency: USD
     from: HiHope.com
     type: board
@@ -122,7 +122,7 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 - [Amazon](https://amzn.to/2vJM8mO)
 - [Lenovator](http://www.lenovator.com/product/135.html)
 - [SeeedStudio](https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426)
-- [HiHope](http://hihope.org/product/HiKey970)
+- [HiHope](https://www.devestimator.com/hihope/product/hikey970/)
 - [Amazon Kit](https://www.amazon.com/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X)
 - [Amazon Kit (UK)](https://www.amazon.co.uk/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X)
 

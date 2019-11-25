@@ -20,7 +20,7 @@ All the code in this blog is available at : [https://github.com/ric96/RB3-Roboti
 And once the project is finalized will be pushed to : [https://github.com/96boards-projects/RB3-RoboticArm](https://github.com/96boards-projects/RB3-RoboticArm)
 
 To install all the dependencies on a Debian Buster build for RB3, run the following script:
-[install-opencv.sh](https://github.com/ric96/RB3-RoboticArm/raw/master/install-opencv.sh)
+[install-opencv.sh](https://github.com/ric96/RB3-RoboticArm/raw/master/install.sh)
 
 You will also need to install the following pip packages.
 `sudo pip3 install SpeechRecognition pymemcached`
