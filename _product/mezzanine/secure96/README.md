@@ -34,12 +34,12 @@ product_images:
   - secure96-port-hd.jpg
 product_buy_links:
   -
-    link-title: Amazon
-    link-price: 31.99
-    from: amazon.com
+    link-title: DevEstimator
+    link-price: 35
+    from: DevEstimator
     type: board
     link-price-currency: USD
-    link-url: "https://amzn.to/2qWN1CC"
+    link-url: "https://www.devestimator.com/hihope/product/secure-96/"
 product_more_info:
   - title: Schematics (View)
     link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
