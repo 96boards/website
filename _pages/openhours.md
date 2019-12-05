@@ -25,9 +25,9 @@ jumbotron:
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
 
-**News, QnA and Forum Posts, TechTalk style!!!**
+**Walkthrough of developing Linux app using Vitis for the Ultra96**
 
-This week we'll take a look at some interesting 96Boards and Arm news over the week, go through some forum posts and take some viewer QnA.
+This week we'll take a look at setting up and developing a simple Hello World app using Vitis and running that under PetaLinux dstribution running on the Ultra96 devboard.
 
 Hope to see you all soon!
  
