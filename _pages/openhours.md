@@ -23,7 +23,7 @@ jumbotron:
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
-<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWJjMGc3ZXMwYmh1NGFvMWhzNjJraGg5ZWdfMjAxOTA5MTlUMTYwMDAwWiByb2JlcnQud29sZmZAbGluYXJvLm9yZw&tmsrc=robert.wolff%40linaro.org">Add to you Calendar</a>
+<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTl0cDh0N2p2ZnMwb2U3aThocG9xbGxubmhfMjAxOTEyMDVUMTYwMDAwWiBzYWhhai5zYXJ1cEBsaW5hcm8ub3Jn&tmsrc=sahaj.sarup%40linaro.org&scp=ALL">Add to you Calendar</a>
 
 **Walkthrough of developing Linux app using Vitis for the Ultra96**
 
@@ -85,8 +85,8 @@ Every Thursday at 4pm UTC
 **96Boards**
 [Twitter](https://twitter.com/96Boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/96boards)
 
-**Robert Wolff (Host):**
-[Twitter](https://twitter.com/sdrobertw) | [Linkedin](https://www.linkedin.com/in/sdrobertw)
+**Sahaj Sarup (Host):**
+[Twitter](https://twitter.com/sahajsarup)
 
 **Watch Live on YouTube**
 
