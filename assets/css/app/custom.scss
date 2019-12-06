@@ -536,4 +536,7 @@ div#flow_wrapper #content-container {
     b, strong {
         font-weight: 700;
     }
+    #content-container {
+	word-break: break-word;
+    }
 }
