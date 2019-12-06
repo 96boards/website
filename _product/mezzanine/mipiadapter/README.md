@@ -26,7 +26,7 @@ mezzanine_features:
   - "Two CSI2 channels support(CSI0:4lane;CSI1:2lane)"
   - "Camera module supported:OV5645/OV5640"
   - "Raspberry PI camera supported:OV5647,IMX219"
-  - "Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR"
+  - "Cameras supported by IPEX connector: OV7251, OV9281, OV8865, OV13850, MT9V024, MT9M031, AR0134, AR0144, IMX185, AR0230WDR"
   - "UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs"
 product_buy_links:
   -
@@ -88,7 +88,7 @@ surveillance, video conference and even robots projects. It provides multiple in
 - Two CSI2 channels support(CSI0:4lane;CSI1:2lane)
 - Camera module supported:OV5645/OV5640
 - Raspberry PI camera supported:OV5647,IMX219
-- Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR
+- Cameras supported by IPEX connector: OV7251, OV9281, OV8865, OV13850, MT9V024, MT9M031, AR0134, AR0144, IMX185, AR0230WDR
 - UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs
 
 ***
