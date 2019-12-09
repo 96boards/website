@@ -15,7 +15,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro,
 
 The 96boards drone platform is an experimental smart drone platform with the following objectives:
 
-1: Continuously Evolving
+1. Continuously Evolving
 2: OpenSource 
 3: Test-bed
 
