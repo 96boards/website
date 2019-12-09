@@ -17,7 +17,7 @@ The 96boards drone platform is an experimental smart drone platform with the fol
 
 1. Continuously Evolving
 2. OpenSource 
-3: Test-bed
+3. Test-bed
 
 ## Continuously Evolving
 
