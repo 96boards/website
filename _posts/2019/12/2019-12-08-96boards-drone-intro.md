@@ -37,7 +37,7 @@ These updates are planned to be done by leveraging our partnership with our memb
 
 ## OpenSource
 
-All code every written for this platform will be completely open-sourced and the entire project will be made reproduce-able.
+All code ever written for this platform will be completely open-sourced and the entire project will be made reproducible.
 
 Current firmware is written for the Zephyr RTOS that runs on the STM32 Mezzanine. It is still under heavy WIP. ( Stay tuned for Part-1 of this Blog ;-) )
 
