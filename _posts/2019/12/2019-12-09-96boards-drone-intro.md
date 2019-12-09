@@ -1,5 +1,5 @@
 ---
-title: "The 96boards Drone Project"
+title: "The 96boards Drone Project: Introduction Blog"
 author: Sahaj Sarup
 date: 2019-12-09 01:00:00+00:00
 image:
