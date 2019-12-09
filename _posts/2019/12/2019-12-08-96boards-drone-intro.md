@@ -22,7 +22,7 @@ The 96boards drone platform is an experimental smart drone platform with the fol
 ## Continuously Evolving
 
 I am starting out small with this platform. Right now it comprises of mostly DIY grade parts for a small drone:
-- 10 inch Wheel Base drone body made od wood and reinforced with carbon fiber sheets.
+- 10 inch Wheel Base drone body made of wood and reinforced with carbon fiber sheets.
 - Racerstar Racing Edition 2205 BR2205 2300KV Motors
 - 5 inch Rotors
 - [96Boards STM32 Mezzanine](https://www.96boards.org/product/stm32/) as the onboard controller.
