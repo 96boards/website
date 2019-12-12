@@ -1,7 +1,7 @@
 ---
 title: "96boards: Autoware everywhere | Bridging .AI and .Auto in the Hikey970"
 author: Servando German Serrano
-date: 2019-12-10 01:00:00+00:00
+date: 2019-12-12 01:00:00+00:00
 image:
     featured: true
     path: /assets/images/blog/awf_white.png
