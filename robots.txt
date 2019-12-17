@@ -1,10 +1,9 @@
 ---
 ---
-{% if site.production %}
 User-agent: *
+{% if site.production %}
 Allow: /
 Sitemap: {{site.url}}/sitemap.xml
 {% else %}
-User-agent: *
 Disallow: /
 {% endif %}
