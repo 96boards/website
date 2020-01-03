@@ -1,3 +1,4 @@
+{% assign boards_mp = site.data.members | where: 'id', "boards-mp" %}
 <div id="members-section">
     <div class="row">
         <div class="container">
@@ -8,7 +9,16 @@
                     </h3>
                 </div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel" id="boards-mp"></div>
+                    <div class="col-md-12 members-panel" id="boards-mp">
+                        {% for member in boards_mp %}
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <a href="https://www.linaro.org" target="_blank">
+                                <img data-src="" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img center-block lazyload" />
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
