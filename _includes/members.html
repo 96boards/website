@@ -1,3 +1,14 @@
+{% for group in site.data.members %}
+    {% if group.id == "boards-mp" %}
+        {% assign boards_mp = group.members %}
+    {% elsif group.id == "boards-sc" %}
+        {% assign boards_sc = group.members %}
+    {% elsif group.id == "boards-partner" %}
+        {% assign boards_partners = group.members %}
+    {% elsif group.id == "boards-ai" %}
+        {% assign boards_ai = group.members %}
+    {% endif %}
+{% endfor %}
 <div id="members-section">
     <div class="row">
         <div class="container">
@@ -8,7 +19,16 @@
                     </h3>
                 </div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel" id="boards-mp"></div>
+                    <div class="col-md-12 members-panel" id="boards-mp">
+                        {% for member in boards_mp %}
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <a href="https://www.linaro.org{{member.url}}" target="_blank">
+                                <img data-src="{{member.image}}" alt="{{member.name}} logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img center-block lazyload" />
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -22,7 +42,17 @@
                     </h3>
                 </div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel" id="boards-sc"></div>
+                    <div class="col-md-12 members-panel" id="boards-sc">
+                        {% for member in boards_sc %}
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <a href="https://www.linaro.org{{member.url}}" target="_blank">
+                                <img data-src="{{member.image}}" alt="{{member.name}} logo"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img center-block lazyload" />
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +66,17 @@
                     </h3>
                 </div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel" id="boards-mezzanine"></div>
+                    <div class="col-md-12 members-panel" id="boards-mezzanine">
+                        {% for member in boards_partners %}
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <a href="https://www.linaro.org{{member.url}}" target="_blank">
+                                <img data-src="{{member.image}}" alt="{{member.name}} logo"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img center-block lazyload" />
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,7 +90,17 @@
                     </h3>
                 </div>
                 <div class="panel-body members-panel-body">
-                    <div class="col-md-12 members-panel" id="boards-ai"></div>
+                    <div class="col-md-12 members-panel" id="boards-ai">#
+                        {% for member in boards_ai %}
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <a href="https://www.linaro.org{{member.url}}" target="_blank">
+                                <img data-src="{{member.image}}" alt="{{member.name}} logo"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img center-block lazyload" />
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
