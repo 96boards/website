@@ -22,7 +22,7 @@ Then click "Propose file change" button. Maintainers of this website repo will t
 
 If you'd like a more detailed guide on making changes on GitHub then view the GitHub documentation [here](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository).
 
-### Using a the git CLI
+### Using the git CLI
 
 If you're familiar with using the git cli then you can simply fork this repository and clone your fork. Then submit pull request on a `new` branch based off of the `develop` branch. This is due to the 96Boards.org website repo following the [Git flow](https://danielkummer.github.io/git-flow-cheatsheet/) methodology. Push your changes to your fork and then create a pull request via the GitHub UI.
 
