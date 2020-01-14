@@ -2,7 +2,7 @@
 
 ![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0)
 
-The 96Boards website is built using the [Jekyll](https://jekyllrb.com/) static site generator. It uses the Linaro [jumbo-jekyll-theme](https://github.com/linaro-marketing/jumbo-jekyll-theme) (which is used for all of the Linaro static websites). With the source for the source for the 96Boards.org website available on GitHub in this repo, it makes it easy for community/technical contributors to submit content. The 96Boards documentation repo is synced into the _documentation directory during site builds that occur on our Atlassian Bamboo CI instance.
+The 96Boards website is built using the [Jekyll](https://jekyllrb.com/) static site generator. It uses the Linaro [jumbo-jekyll-theme](https://github.com/linaro-marketing/jumbo-jekyll-theme) (which is used for all of the Linaro static websites). With the source for the source for the 96Boards.org website available on GitHub in this repo, it makes it easy for community/technical contributors to submit content. The 96Boards documentation repo is synced into the _\_documentation_ directory during site builds that occur on our Atlassian Bamboo CI instance.
 
 ## Contributions
 
