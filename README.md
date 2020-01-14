@@ -146,7 +146,7 @@ keywords: |-
 # overview of your product.
 product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
 # Product Specification - This is the 96Boards specification of your product and is used
-# by Jekyll when collectin products of a certain specification.
+# by Jekyll when collecting products of a certain specification.
 # Please use either ee, ce, mezzanine or iot
 product_specification: ce
 # Display Product - this a boolean value that is used to determine if your product should be displayed.
