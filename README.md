@@ -29,7 +29,7 @@ If you're familiar with using the git cli then you can simply fork this reposito
 ### Building the Website
 
 To make it easier to contribute to the content, Linaro provides a couple of Docker containers for building and checking the site. All you need is Docker installed on your computer and enough RAM and disc space.
-Z
+
 To build the site:
 
 ```
@@ -58,14 +58,14 @@ For more information, please see the [build container wiki](https://github.com/l
 
 ## Contents
 
-Below are a few guides that will help you edit/add new content to the website:
+Below are a few guides that will help you edit/add new content to the website. If these guides are missing anything or you are struggling to get something working then feel free to open an issue [here](https://github.com/96boards/website/issues/new).
 
 - [Pages](#pages)
 - [Blog Posts](#blog-posts)
 - [Products](#products)
 - [Projects](#projects)
 - [96Boards News](#adding-96boards-news)
-- [Documentation](#adding-documentation)
+- [Documentation](#documentation)
 - [Adding Redirects to the Static Site](#adding-redirects-to-the-static-site)
 
 ******
@@ -78,21 +78,27 @@ Below are basic guides on editing/adding pages but for a more in depth guide ple
 
 ### Editing a Page
 
-Find the page you are looking to edit in the _pages directory. Modify any content you wish.
+Find the page you are looking to edit in the [_pages](https://github.com/96boards/website/tree/develop/_pages) directory. Modify the content that you would like to make changes to and then follow the instructions in the [Contributions](#Contributions) section. If you have any queries then feel free to post an issue in this repo.
 
 ### Adding a Page
 
-Pages are located in the _pages directory within this repo.
+Locate the [_pages](https://github.com/96boards/website/tree/develop/_pages) directory and create a new markdown file in the format of `page_name.md`. Jekyll pages consist of a front matter block and main content. We are using a custom layout for most of these pages but you can simply copy the content from another page and change the title and permalink accordingly. Then follow the instructions in the [Contributions](#Contributions) section. If you have any queries then feel free to post an issue in this repo.
 
 ******
 
 ## Blog Posts
 
-Below are basic guides on ediitng/adding blog posts but for a more in-depth guide then please view the theme documentation on adding blog posts [here](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki/AddingPosts).
+Posts are located in the [_posts](https://github.com/96boards/website/tree/develop/_posts) directory of this repo and are organised in year / month directories. Posts are written in markdown and contain a front matter block which provides metadata for a given page.
+
+Below are basic guides on editing/adding blog posts but for a more in-depth guide then please view the theme documentation on adding blog posts [here](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki/AddingPosts).
 
 ### Editing a Blog Post
 
+Locate the blog post you wish to make changes to in the [_posts](https://github.com/96boards/website/tree/develop/_posts) folder. Make your changes as required and then follow the [contribution guide](#Contributions).
+
 ### Adding a Blog Post
+
+The easiest way to add a blog post is to copy a previous post and edit/remove the front matter to your requirements. Make sure to change the date specified in the file name since posts are organised/displayed based on this data (e.g 2020-01-13-your-blog-title.md). Update the date, title, tags and other front matter fields as required. Add a high resolution image to the /assets/images/blog directory and then update the image field with the path to your image. Once ready, follow the [contribution guide](#Contributions) to create a pull request with your new blog post.
 
 ******
 
@@ -100,13 +106,17 @@ Below are basic guides on ediitng/adding blog posts but for a more in-depth guid
 
 ### Editing a product
 
+In order to edit a product you must first locate the product that you wish to edit. Products are located in the [_product folder](https://github.com/96boards/website/tree/develop/_product) and are organised by the specification of the board. Each board has their own designated folder. Within the product folder is an images directory and a `README.md`. Edit the product details accordingly in this `README.md` and then follow the [contribution guide](#Contributions).
+
 ### Adding a product
 
-### Step 1 - Duplicate similiar product folder
+Adding products is best to do from the git command line interface. If unfamiliar with this process then see the _Using the git cli_ section under [Contributions](#Contributions).
 
-In order to add a product copy one of the products currently in the [_product folder](https://github.com/96boards/website/tree/master/_product). Products are organsied in the _product folder into the 96Boards specifcations that are avaialble ([ce](https://github.com/96boards/website/tree/master/_product/ce), [ee](https://github.com/96boards/website/tree/master/_product/ee), [ie](https://github.com/96boards/website/tree/master/_product/ie), and [mezzaanine](https://github.com/96boards/website/tree/master/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly.
+#### Step 1 - Duplicate similiar product folder
 
-### Step 2 - Modify the front matter
+In order to add a product copy one of the products currently in the [_product folder](https://github.com/96boards/website/tree/develop/_product). Products are organised in the _product folder into the 96Boards specifications that are available ([ce](https://github.com/96boards/website/tree/develop/_product/ce), [ee](https://github.com/96boards/website/tree/develop/_product/ee), [ie](https://github.com/96boards/website/tree/develop/_product/ie), and [mezzanine](https://github.com/96boards/website/tree/develop/_product/mezzanine)). Please duplicate a product folder from one of these specification sub folders and modify accordingly.
+
+#### Step 2 - Modify the front matter
 
 We use the Jekyll front matter (YAML) values to help render your product on our Jekyll site. Please look at the other products README.md's for reference on how to structure the front matter (YAML).
 
@@ -124,7 +134,7 @@ layout: product-display-page
 # Please use dashes between words to keep the format consistent.
 permalink: /product/sophon-edge/
 # The description of your product is used for the web pages description meta tag
-# and on page content where a description of your product is need. To maximise the
+# and on page content where a description of your product is need. To maximize the
 # effectiveness of your description please choose a powerful starting sentence.
 description: |-
     The Bitmain Sophon™ Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!
@@ -158,7 +168,7 @@ product_tab_menu:
       tab_link: https://discuss.96boards.org/c/products/sophon-edge/
       tab_position: 4
       tab_align_right: true
-# Product buy links - these links let you customise the buy links available for your product.
+# Product buy links - these links let you customize the buy links available for your product.
 product_buy_links:
   -
     # Title of your buy link
@@ -217,11 +227,11 @@ product: true
 ---
 ```
 
-### Step 3 - Add product images
+#### Step 3 - Add product images
 
 Please add product images to the images/ sub folder inside the folder for your board. Make sure to `optimize` these images as best as possible to reduce the overhead on users when loading your product page. The first image that you add to the front matter will be the one that is used on the homepage/product index pages. Therefore you should ensure that this image is optimized whilst also being a relatively high resolution so that your product is displayed correctly.
 
-Below you can see example of the product_images front matter value that you need to change to match your product images that you add to the images subfolder.
+Below you can see example of the product_images front matter value that you need to change to match your product images that you add to the images sub-folder.
 
 ```yaml
 ---
@@ -238,9 +248,17 @@ __Please note:__ Due to the way product images are included, images **should not
 
 ******
 
-## Adding Projects
+## Projects
 
-[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organisation](https://github.com/96boards-projects). Clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes. If it is approved, we'll get the git diff and create a new project repo for your project so that it is automatically added to the website.
+96boards projects are submitted by engineers that are developing hardware and software applications using 96Boards. You can view the current list of 96Boards projects here - [96Boards.org/projects](https://www.96boards.org/projects/). See below for details on editing or adding a project.
+
+### Editing a Project
+
+If you already own a project then you can make changes to your 96boards-projects org repo. If you don't own the project but notice some things you would like to change then locate the relevant project in this org and then open an appropriate GitHub issue.
+
+### Adding a Project
+
+[96Boards.org/projects](https://www.96boards.org/projects/) are maintained in the [96boards-projects GitHub organization](https://github.com/96boards-projects). Clone the [template repo](https://github.com/96boards-projects/template). Submit a pull request with your changes. If it is approved, we'll create a new project repo for your project so that it can be added to the website.
 
 ******
 
@@ -270,7 +288,7 @@ If you'd like to add internal 96Boards news then add a News/Blog to 96Boards.org
 
 ******
 
-## Adding Documentation
+## Documentation
 
 The 96Boards.org documentation is maintained in this [repo](https://github.com/96boards/documentation) so if you'd like to modify the documentation for a specific board then please head over to that repo and submit a pull request there.
 
