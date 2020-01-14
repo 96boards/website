@@ -24,7 +24,7 @@ If you'd like a more detailed guide on making changes on GitHub then view the Gi
 
 ### Using the git CLI
 
-If you're familiar with using the git cli then you can simply fork this repository and clone your fork. Then submit pull request on a `new` branch based off of the `develop` branch. This is due to the 96Boards.org website repo following the [Git flow](https://danielkummer.github.io/git-flow-cheatsheet/) methodology. Push your changes to your fork and then create a pull request via the GitHub UI.
+If you're familiar with using the git CLI then you can simply fork this repository and clone your fork. Then submit pull request on a `new` branch based off of the `develop` branch. This is due to the 96Boards.org website repo following the [Git flow](https://danielkummer.github.io/git-flow-cheatsheet/) methodology. Push your changes to your fork and then create a pull request via the GitHub UI.
 
 ### Building the Website
 
