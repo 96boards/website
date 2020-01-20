@@ -54,9 +54,7 @@ product_more_info:
   - title: Hardware User Manual
     link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-hw-user-manual.pdf
   - title: Schematics
-  - link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
-  - title: Arrow Campaign
-    link: https://www.arrow.com/en/campaigns/avengers
+    link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
 
 # Bottom Link
 product_accessories:
