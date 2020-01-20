@@ -82,6 +82,80 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-02-19 09:00:00+00:00
+vendor:
+  name: Arrow Electronics
+  url: https://developer.qualcomm.com/hardware/dragonboard-820c
+attributes:
+  - name: "SoC"
+    value: >-
+      Qualcomm® Snapdragon™ 820E
+  - name: "CPU"
+    value: Snapdragon 820E embedded platform, custom 64-bit Kryo quad-core CPU up to 2.15GHz , 14nm FinFET process technology
+  - name: "GPU"
+    value: Adreno™ 530 GPU OpenGL ES 3.1 + AEP, OpenCL2.0, Vulcan, Renderscript, 64-bit virtual addressing
+  - name: "RAM"
+    value: Quad-channel, 16bit, 3GB PoP LPDDR4 SDRAM designed for 1866 MHz clock rate
+  - name: "Wireless"
+    value: >-
+      WLAN 802.11ac and Bluetooth 4.2
+  - name: "Storage"
+    value: UFS2.0 gear 3 (1-lane) 32GB , and SD3.0
+  - name: "Ethernet"
+    value: GbE Ethernet connection
+  - name: "USB"
+    value: >-
+      One USB 2.0 micro B (device mode only)
+      Two USB 3.0 (host mode only)
+  - name: "Display"
+    value: >-
+      4k60 FPS decode 10-bit over HDMI 2.0 4K30
+      Miracast 2.0 streaming HEVC 10-bit and VP9
+      decode Direct Stream Video for Wireless
+      Display, 3:1 Frame Buffer Compression ratio
+  - name: "Video"
+    value: >-
+      4K UltraHD@30fps video playback and capture with H.264 (AVC) and H.265 (HEVC)
+  - name: "Audio"
+    value: >-
+      PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
+  - name: "Camera"
+    value: Integrated Dual ISP with support for 3 image sensors up to 28MP
+  - name: "Expansion Interface"
+    value: >-
+      "Expansion Connectors:
+      1x 96boards 40 pin Low-Speed connector (UART x2, SPI, I2S, I2C x2, GPIO x12, DC power)
+      1x 96boards 60 pin High-Speed connector (4L-MIPI DSI, USB,I2C x2, 2L+4L-MIPI CSI)
+      2x Analog expansion connector (headset, speaker via sound-wire interface, microphones, line-outs)
+      1x 60 pin High-Speed connector (secondary 4L-MIPI DSI, SSC serial busses, TSIF – connection available only in hardware)
+      I/O Interfaces:
+      HDMI Full-size Type A connector (4K@60fps)
+      1x USB 2.0 micro B (device mode only), 2x USB 2.0 type A (host mode only), micro SD card slot
+      1x GbE RJ45, 1x PCIe HMC, headset"
+  - name: "LED"
+    value: >-
+      "6 LED indicators
+        4 - user controllable
+        2 - for radios (BT and WLAN activity)"
+  - name: "Buttons"
+    value: >-
+      Power/Reset
+      Volume Up
+      Volume down
+  - name: "Power"
+    value: 96Boards compliant power supply
+  - name: "OS Support"
+    values:
+      - title: Linux Debian today
+      - title: Linux OpenEmbedded – later 2018
+  - name: "Dimensions"
+    text: Meets 96Boards™ Consumer Edition ’extended’ dimensions specifications.
+    values:
+      - title: "width"
+        value: 85mm
+      - title: "length"
+        value: 100mm
+
 ---
 The DragonBoard 820c development board is based on the Qualcomm® Snapdragon™ 820E embedded
 platform with the custom 64-bit Qualcomm® Kryo™ quad-core CPU and is compliant with the 96Boards

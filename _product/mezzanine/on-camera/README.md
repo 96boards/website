@@ -34,6 +34,20 @@ product_more_info:
   - title: Explore MM-Solution
     link: https://www.mm-sol.com/
 archived: false
+dateAdded: 2019-02-25 09:00:00+00:00
+attributes:
+  - name: "Camera"
+    value: >-
+      "
+      Support for OnSemi 13 MP AR1337 RAW sensor:
+      MIPI CSI 4-lane interface
+      Optical format 1/3.2” 13Mp (4:3)
+      Active pixels 4208H x 3120V
+      View Angle 74.48° +/-3° Autofocus
+      "
+  - name: "Parent Board"
+    value: "/product/dragonboard410c/"
+
 ---
 
 - Designed to work with Arrow DragonBoardTM 410c development platform and Android OS

@@ -62,6 +62,54 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2019-02-07 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      UWP5661@28nm
+  - name: "CPU"
+    value: >-
+      ARM Cortex-M4 Daul Core (416MHz)
+  - name: "RAM"
+    value: >-
+      N/A
+  - name: "Storage"
+    value: >-
+      32Mbit
+  - name: "USB"
+    value: >-
+      2 x MicroUSB
+  - name: "Wireless"
+    value: >-
+      IEEE802.11ac 2x2
+  - name: "Bluetooth"
+    value: >-
+      Bluetooth 5
+  - name: "Buttons"
+    value: >-
+      2 Reset and User button
+  - name: "LED"
+    value: >-
+      4 user LED
+  - name: "Expansion Interface"
+    value: >-
+      "UART/I2C/SPI/I2S/GPIO"
+  - name: "Power"
+    value: >-
+      "Micro USB"
+  - name: "OS Support"
+    value: >-
+      "Zephyr"
+  - name: "OS Support"
+    values:
+      - title: Zephyr
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 
 The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufactured by

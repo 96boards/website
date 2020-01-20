@@ -71,6 +71,43 @@ product_includes:
     name: 2mm shunts
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+      FT230X USB to UART adapter chip
+      "
+  - name: "Power"
+    value: >-
+      "
+      USB bus powered. Doesn’t disconnect when base board power is cycled
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      2 x 20 2.0mm pitch male header
+      "
+  - name: "LED"
+    value: >-
+      "
+      TX and RX LEDs
+      User LED connected to GPIOB (GPIOA on v1.0 of the adapter) which attaches to 96Boards low-speed (LS) expansion connector
+      "
+  - name: "Buttons"
+    value: >-
+      "
+      Base board reset button
+
+      "
+  - name: "Other"
+    value: >-
+      "
+      Switchable between LS UART0 and UART1. (UART1 is the default console)
+      CTS/RTS with using UART0
+      Remote control of baseboard reset and power signals
+      "
+
 ---
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 
@@ -101,10 +138,10 @@ Since it uses the FT230X chip from FTDI, when it is connected to your PC over US
 |  Switchable between LS UART0 and UART1. (UART1 is the default console) |                                                                                                  |
 |  CTS/RTS with using UART0                                              |                                                                                                  |
 |  TX and RX LEDs                                                        |                                                                                                  |
-|  Remote control of baseboard reset and power signals                   |                                                                                                  |        
-|  Base board reset button                                               |                                                                                                  |        
-|  TX and RX LEDs                                                        |                                                                                                  |        
-|  User LED connected to GPIOB (GPIOA on v1.0 of the adapter)            |                                                                                                  |        
+|  Remote control of baseboard reset and power signals                   |                                                                                                  |
+|  Base board reset button                                               |                                                                                                  |
+|  TX and RX LEDs                                                        |                                                                                                  |
+|  User LED connected to GPIOB (GPIOA on v1.0 of the adapter)            |                                                                                                  |
 {:.hidden_rows}
 
 ## Parts list

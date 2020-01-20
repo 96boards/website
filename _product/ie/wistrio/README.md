@@ -56,6 +56,42 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-11-27 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      RAK5205
+  - name: "CPU"
+    value: >-
+      RAK5205
+  - name: "Power"
+    value: >-
+      16uA(sleep mode)
+      Support GPS Power-off mode, MCU & Sensor Support sleep mode
+  - name: "Expansion Interface"
+    value: >-
+      I2C, GPIOs, UART and ADC
+  - name: "Sensors"
+    value: LIS3DH & BME680 inside
+  - name: "Wireless"
+    value: >-
+      SMA & iPEX can be switched
+      Support the Global Multiple Bands
+  - name: "OS Support"
+    values:
+      - title: Android
+      - title: Ubuntu
+      - title: Debian
+      - title: Android
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+      - title: "height"
+        value: 11.45 mm
+
 ---
 
 WisTrio LORA Tracker by RAK Wireless is based on the RK5205 chipset. This extremely low power consumption device supports multiple global bands, contains a variety of onboard sensors, offers standard IO (I2C, GPIO, UART and ADC) and several antenna options (SMA & IPEX). All of this on the 96Boards IoT Edition standard footprint!

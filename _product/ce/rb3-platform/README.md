@@ -97,6 +97,84 @@ product_kits:
     link: https://www.thundercomm.com/app_en/product/1544580412842651
 product: true
 archived: false
+dateAdded: 2019-02-28 09:00:00+00:00
+vendor:
+  name: thundercomm
+  url: https://www.thundercomm.com/app_en/product/1544580412842651
+attributes:
+  - name: "SoC"
+    value: >-
+      Qualcomm SDA845
+  - name: "CPU"
+    value: Qualcomm SDA845 embedded platform, custom 64-bit ARM v8-compliant octa-core CPU Up to 2.8 GHz,10nm LPP FinFET process technology
+  - name: "GPU"
+    value: >
+      Adreno™ 630 GPU
+      OpenGL™ ES 3.2 + AEP, DX next, Vulkan®2,
+      OpenCL™ 2.0 full profile, RenderScript
+  - name: "RAM"
+    value: 4GB LPDDR4x SDRAM @ 1866 MHz
+  - name: "Wireless"
+    value: >-
+      WLAN 802.11a/b/g/n/ac 2.4/5GHz 2×2 MIMO & Bluetooth 5.0,on-boardWLAN/BT/GPSantennas
+  - name: "Storage"
+    value: 64GB UFS 2.1 on-boardstorage and1 x MicroSD card slot
+  - name: "Ethernet"
+    value: 1x GbE Ethernet
+  - name: "USB"
+    value: >-
+      1 x USB 2.0 Micro B (Debug only ),
+      1 x USB 3.0 Type C (OTGmode),
+      2x USB 3.0 Type A (Host mode only)
+  - name: "Display"
+    value: >
+      Two 4-lane DSI, D-PHY 1.2 or C-PHY 1.0; VESA DSC 1.1
+      1 x HDMI 1.4 (Type A -full) connector
+  - name: "Video"
+    value: >-
+      4K60 decode for H.264 High Profile, H.265 Main 10 Profile and VP9 Profile 2,
+      4K60 encode for H.264 High Profile, H.265 Main 10 Profile
+  - name: "Audio"
+    value: >-
+      MP3; aacPlus, eAAC; WMA 9/Pro
+  - name: "Camera"
+    value: Qualcomm Spectra™ 280 ISP, dual 14-bit ISP+one Lite ISP, 32 MP 30 fps ZSL with a dual ISP
+  - name: "Expansion Interface"
+    value: >-
+      HS1:1 x 60 pin High-Speed connector (4L-MIPI DSI, USB 2.0 x2,I2C x2, 2L+4L-MIPI CSI)
+      HS2:1x 60 pin High-Speed connector (4L-MIPI CSI x 2, SSC SPI, PCIe 3.0,USB 3.0 x1, GPIO x 9)
+      LS1:1x 96boards 40 pin Low-Speed connector (UART x2, SPI, I2S, I2C x2, GPIO x12, DC power)
+      LS2:1x 96boards 40 pin Low-Speed connector(headset, stereospeaker, DMIC I/F x3, CAN, I2S, GPIO x 7, PWM x 2, ADC x 2)
+      LS3:1x 96boards 20 pin Low-Speed connector (SSC SPI x 3, SSC I2C, sensor interrupt x 5)
+  - name: "LED"
+    value: >-
+      "7 LED indicators:
+      4 - user controllable
+      2 - for radios (BT and WLAN activity)
+      1 - power indicator"
+  - name: "Buttons"
+    value: >-
+      Power ,Volume Up/Down,Force Usb Boot, DipSwitch(6 PIN)
+  - name: "Power"
+    value: >
+      "12V@2.5A adapter with a DC plug:
+      Plug specification is inner diameter 1.75mm and outer diameter 4.75mm"
+  - name: "OS Support"
+    values:
+      - title: LE
+  - name: "Sensors"
+    value: >
+      Accelerometer + Gyro Sensor/ Proximity sensor
+  - name: "Other"
+    value: >
+      DSP -	Hexagon™ 685 DSP
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor.
 

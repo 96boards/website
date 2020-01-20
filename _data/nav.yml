@@ -53,20 +53,22 @@ pages:
             url: /products/compare/
           - text: Accessories
             url: /products/accessories/
-    - title: Projects
-      options:
-          - text: Projects
-            url: /projects/
-          - text: Contribute
-            url: /projects/contribute/
-          - text: FAQ
-            url: /projects/faq/
-          - text: Submit a Project
-            url: /projects/submit/
     - title: Initiatives
       options:
+          - text: Blog
+            url: /blog/
           - text: OpenHours
             url: /openhours/
+          - text: Projects
+            options:
+              - text: Projects
+                url: /projects/
+              - text: Contribute
+                url: /projects/contribute/
+              - text: FAQ
+                url: /projects/faq/
+              - text: Submit a Project
+                url: /projects/submit/
           - text: Go Events
             url: /go/
           - text: 96Boards Pinout
@@ -97,5 +99,3 @@ pages:
             url: https://discord.gg/x5uMn5d
           - text: Partner Services
             url: /services/
-    - title: Blog
-      url: /blog/

@@ -61,6 +61,35 @@ product_includes:
     link: https://linaro.co/20n34bc
 product: true
 archived: false
+dateAdded: 2017-07-06 09:00:00+00:00
+attributes:
+  - name: "CPU"
+    value: >-
+      "
+      Integrated Arduino-compatible ATMEGA328 microcontroller
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      Arduino UNO compatible expansion headers
+      9 Grove connectors for 96Boards IO (mixed 3.3V and 5V; all 5V tolerant): 5x GPIO, and 4x I2C
+      9 Grove connectors for ATMEGA328 IO (all 5V): 5x GPIO, 3x ADC, and 1x I2C
+      2 6-pin SPI headers
+      "
+  - name: "USB"
+    value: >-
+      "
+      MicroUSB interface to 96Boards console serial port
+      "
+  - name: "LED"
+    value: >-
+      "1 Power LED
+        3 user LEDs"
+  - name: "Buttons"
+    value: >-
+      "Reset button
+      Power button"
+
 ---
 The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running
 on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.

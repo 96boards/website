@@ -72,6 +72,38 @@ tab_menu:
     tab_align_right: true
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "Expansion Interface"
+    value: >-
+      "
+      Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR
+      UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs
+      "
+  - name: "Camera"
+    value: >-
+      "
+      Camera module supported:OV5645/OV5640
+      Raspberry PI camera supported:OV5647,IMX219
+      Cameras supported by IPEX connector:OV7251,OV9281,OV8865,OV13850,MT9V024,MT9M031,AR0134,AR0144,IMX185,AR0230WDR
+      UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs
+      "
+  - name: "Power"
+    value: >-
+      "
+      There are bidirectional voltage-level translators which allows for low-voltage bidirectional
+      translation between any of the 1.2-V,1.5-V, 1.8-V, 2.5-V, 3.3-V, and 5-V voltage nodes.
+      So it is compatible with 3.3V or 5V modules and makes connecting peripherals easy.
+      You just plug a jumper onto JP9 to select which input voltage you need.
+      "
+  - name: "Other"
+    value: >-
+      "
+      Two CSI2 channels support(CSI0:4lane;CSI1:2lane)
+      "
+  - name: "Parent Board"
+    value: "/product/dragonboard410c/"
+
 ---
 This MIPI adapter board is primarily designed for Dragonboard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for
 surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.

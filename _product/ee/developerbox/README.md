@@ -26,7 +26,7 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/developerbox/
       tab_position: 4
-      tab_align_right: true 
+      tab_align_right: true
 product_buy_links:
   -
     link-title: Developerbox (Full Kit)
@@ -38,7 +38,7 @@ product_buy_links:
   -
     link-title: Developerbox (Board Only)
     link-url: "https://www.chip1stop.com/USA/en/product/detail?partId=SOCI-0000003&mpn=SC0FQAA-B-000"
-    from: chip1stop.com 
+    from: chip1stop.com
     type: board
     link-price: "$462.00"
     link-price-currency: USD
@@ -72,6 +72,44 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-05-01 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Socionext SC2A11
+  - name: "CPU"
+    value: >-
+      SC2A11 (multi-core chip with 24 cores of Arm® Cortex-A53)
+  - name: "RAM"
+    value: >-
+      1 x 4GB DDR4-2133 UDIMM without ECC (up to 4 x 16GB DDR4-2133 RDIMM with ECC)
+  - name: "Connectivity"
+    value: >-
+      1ch 1Gbps
+  - name: "PCIe I/F"
+    value: >-
+      "Two of 1 Lane per slot, one 16 Lanes slot: 1 for PCIe Graphics card, 1 for PCIe IO Extension, 2x USB3.0/2.0 + 2x SATA"
+  - name: "USB"
+    value: >-
+      2 x USB 3.0/2.0
+  - name: "Display"
+    value: >-
+      Mini DisplayPort (MiniDP or mDP)
+  - name: "Expansion Interface"
+    value: >-
+      40pin LS Expansion Connector
+  - name: "External Form"
+    value: >-
+      Standard MicroATX Form Factor
+  - name: "Power"
+    value: >-
+      It is possible to construct a high integrated and low power consumption server system.
+      It is so highly efficient chip that it supports from cloud computing to edge computing, which is the key to IoT era.
+  - name: "OS Support"
+    values:
+      - title: EDK2 (Firmware)
+      - title: Debian
+
 ---
 SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”.
 "SC2A11" is a multi-core chip with 24 cores of ARM® Cortex-A53. It is possible to construct a high integrated and low power consumption server system. It is so highly efficient chip that it supports from cloud computing to edge computing, which is the key to IoT era.

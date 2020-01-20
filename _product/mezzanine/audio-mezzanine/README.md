@@ -43,6 +43,49 @@ tab_menu:
     tab_align_right: true
 product: true
 archived: false
+dateAdded: 2017-07-06 09:00:00+00:00
+attributes:
+  - name: "Power"
+    value: >-
+      "Input Voltage: 6.5~18V(DC Input)
+      Operating Voltage: 1.8/3.3/5V
+      No-load Current: 30mA
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      6 x On-board Grove connector
+        2x I2C
+        1x UART
+        3x GPIO
+      Access to the low-speed expansion connector
+        Level shifted to 3.3V or 5V levels (selection switch)
+        Access to level shifted signals on 2.54mm (0.1”) 40-pin connector for ease of connectivity
+        Switch to disable level shifters for pass-through applications
+        Signals available at 1.8V levels on 2mm connector
+      Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB
+      "
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+  - name: "Weight"
+    value: 28g
+  - name: "Audio"
+    value: >-
+      Access to the Analog Audio on the 410c board
+      3.5mm headset jack
+      Analog Mic
+      Digital Mic
+      Speaker connection
+  - name: "Other"
+    value: >-
+      "
+      USB to UART conversion for access to the 410c system console
+      "
+
 ---
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 You can connect 96Boards to various modules easily with this expansion board. There are six

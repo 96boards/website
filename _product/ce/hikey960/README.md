@@ -102,6 +102,83 @@ product_buy_links:
 product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
 product: true
 archived: false
+dateAdded: 2017-08-02 09:00:00+00:00
+vendor:
+  name: Archermind and LeMaker
+  url: https://www.96boards.org/product/hikey960/
+attributes:
+  - name: "SoC"
+    value: >-
+      Kirin 960
+  - name: "CPU"
+    value: 4 Cortex A73 + 4 Cortex A53 Big.Little CPU architecture
+  - name: "GPU"
+    value: ARM Mali G71 MP8
+  - name: "RAM"
+    value: 3GB LPDDR4 SDRAM
+  - name: "PMU"
+    value: Hi6421GWCV530 PMU
+  - name: "Wireless"
+    value: >-
+      WiFi (2.4- and 5-GHz dual band with two antennas) and Bluetooh 4.1
+  - name: "Storage"
+    value: 32GB UFS Flash Storage
+  - name: "Ethernet"
+    value: USB2.0 expansion
+  - name: "USB"
+    value: >-
+      2 x USB 3.0 type A (host mode only)
+      1 x USB 2.0 type C OTG
+  - name: "Display"
+    value: >-
+      1 x HDMI 1.4 (Type A - full), 1 x 4L-MIPI DSI and HDMI output up to FHD 1080P
+  - name: "Video"
+    value: >-
+      "
+      Inside Encoder:
+        H.265/H.264 3840 x 2400 @ 30fps
+        4 x 1080p @ 30 fps
+      Inside Decoder:
+        H.265, HEVC MP/High Tier
+        Main 10/High Tier
+        H.264 BP/MP/HP
+        MPEG1/2/4
+        VC-1
+        VP6/8
+        "
+  - name: "Audio"
+    value: >-
+      HDMI output
+  - name: "Camera"
+    value: 1 x 4-lane MIPI CSI and 1 x 2-lane MIPI CSI
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, DC power, GND, 2UART, 2I2C, SPI, I2S, 12xGPIO
+       60 pin high speed expansion connector: 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI"
+  - name: "LED"
+    value: >-
+      "1 x WiFi activity LED（Yellow)
+       1 x BT activity LED (Blue)
+       4 x User LEDs (Green)"
+  - name: "Buttons"
+    value: >-
+      "
+      Power Button：
+         Button Power on/off & Reset the system
+      "
+  - name: "Power"
+    value: Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant)
+  - name: "OS Support"
+    values:
+      - title: AOSP
+      - title: Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 55mm
+      - title: "length"
+        value: 85mm
+
 ---
 The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™ processor with four ARM Cortex®-A73 and four Cortex-A53
 cores with 3GB of LPDDR4 SDRAM memory, 32GB of UFS 2.0 flash storage, and the latest generation Mali™ G71 MP8 graphics processor. The board is provided by

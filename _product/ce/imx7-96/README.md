@@ -67,12 +67,61 @@ product_kits:
     link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
 product: true
 archived: false
+dateAdded: 2017-10-24 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      i.MX7
+  - name: "CPU"
+    value: Dual ARM® Cortex®-A7 at 1.2 GHz / Cortex-M4 at 200 MHz
+  - name: "RAM"
+    value: 512 MB DRAM
+  - name: "Wireless"
+    value: >-
+      802.11 b/g/n + BT / 2.4 GHz 802.11 b/g/n / BT 2.1+EDR (Enhanced Data Rate), BLE 4.1 / LSR Sterling-LWB
+  - name: "USB"
+    value: >-
+      2 x USB 2.0 Host
+      1 x USB 2.0 OTG
+  - name: "Display"
+    value: >-
+      MIPI-DSI (Display Serial Interface)
+
+  - name: "Camera"
+    value: MIPI-CSI (Mobile Industry Processor Interface - Camera Serial Interface)
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
+      60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
+  - name: "LED"
+    value: >-
+      "6 x LED:
+         4 x User controlled,
+         2 x Radio(BT and WLAN activity)
+         "
+  - name: "Buttons"
+    value: >-
+      "
+      Power/Reset
+      "
+  - name: "Power"
+    value: "8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm / 250 μW standby power	"
+  - name: "OS Support"
+    values:
+      - title: Android
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The iMX7-96 Development Board is a 96Boards compliant Consumer Edition board based on the i.MX7 series of SoCs. The i.MX7
 series is a highly integrated multi-market applications processor designed to enable secure and portable applications within
 the Internet of Things. iMX7-96 board features Dual-core ARM Cortex-A7 processors operating at up to 1.2GHz, Single-core
 ARM Cortex M4 operating up to 200MHz.  In addition, an extensive set of interfaces and connectivity peripherals are included
-to interface to cameras, touch-screen displays ,MMC/SD cards and Media processor engine. It also fully supports wireless 
+to interface to cameras, touch-screen displays ,MMC/SD cards and Media processor engine. It also fully supports wireless
 communication, including WLAN and BLE.
 
 ## Buy Now
