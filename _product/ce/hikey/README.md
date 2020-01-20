@@ -80,6 +80,72 @@ product_more_info:
 product_support_link: https://discuss.96boards.org/c/products/hikey/
 product: true
 archived: false
+dateAdded: 2017-08-02 09:00:00+00:00
+vendor:
+  name: LeMaker
+  url: http://www.lenovator.com/product/86.html
+attributes:
+  - name: "SoC"
+    value: >-
+      Kirin 620
+  - name: "CPU"
+    value: ARM® CortexTM-A53 Octa-core 64-bit up to 1.2GHz (ARM v8 instruction set)
+  - name: "GPU"
+    value: ARM Mali 450-MP4, supporting 3D graphics processing, OpenGL ES 1.1/2.0, OpenVG 1.1, 2000Mega@500 MHz, 110M triangle@500 MHz, and 32G flops@500MHz
+  - name: "RAM"
+    value: 1GB/2GB LPDDR3 SDRAM @ 800MHz
+  - name: "Wireless"
+    value: >-
+      Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy
+  - name: "Storage"
+    value: 8GB eMMC on board storage MicroSD card slot
+  - name: "Ethernet"
+    value: USB2.0 expansion
+  - name: "USB"
+    value: >-
+      2 x USB 2.0 Host
+      1 x USB 2.0 OTG
+  - name: "Display"
+    value: >-
+      1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P
+  - name: "Video"
+    value: >-
+      1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD
+      video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8
+  - name: "Audio"
+    value: >-
+      HDMI output
+  - name: "Camera"
+    value: One 4-lane MIPI camera serial interface(CSI), one 2-lane MIPI CSI
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
+       60 pin high speed expansion connector: SDIO, MIPI_DSI, MIPI_CSI"
+  - name: "LED"
+    value: >-
+      "1 x WiFi activity LED（Yellow）
+       1 x BT activity LED (Blue)
+      4 x User LEDs (Green)"
+  - name: "Buttons"
+    value: >-
+      "
+      Power Button：
+         Button Power on/off & Reset the system
+      "
+  - name: "Power"
+    value: 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
+  - name: "OS Support"
+    values:
+      - title: Android 4.2
+      - title: Debian Linux
+  - name: "Dimensions"
+    text: Meets 96Boards™ Consumer Edition ’extended’ dimensions specifications.
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based
 around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size

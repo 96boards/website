@@ -70,6 +70,46 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-12-05 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Allwinner R18
+  - name: "CPU"
+    value: >-
+      Quad-core Cortex-A53 @ 1.15GHz
+  - name: "GPU"
+    value: Mali400MP2 GPU,Supports OpenGL ES 2.0 , Open VG1.1
+  - name: "RAM"
+    value: "1G Byte DDR3"
+  - name: "Wireless"
+    value: >-
+      Dual band. 2.4GHz, 5GHz
+  - name: "Storage"
+    value: "8GB eMMC"
+  - name: "Bluetooth"
+    value: "BT 4.0"
+  - name: "USB"
+    value: >-
+      USBA, USB-OTG
+  - name: "Power"
+    value: "12V DC"
+  - name: "MIC"
+    value: "3 MIC, 2 AEC"
+  - name: "Hardware Interfaces"
+    value: "HDMI, USBA, USB-OTG, HEADPHONE OUT"
+  - name: "Algorithm Provider"
+    value: "GMEMS"
+  - name: "OS Support"
+    values:
+      - title: Tina Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 85mm
+      - title: "length"
+        value: 100mm
+
 ---
 
 Hichips-Parrot Board (Allwinner SoC-Only 3-Mic Far-Field Dev Kit) for Amazon AVS

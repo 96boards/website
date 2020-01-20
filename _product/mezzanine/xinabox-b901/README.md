@@ -36,6 +36,24 @@ product_more_info:
     link: https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901
 product: true
 archived: false
+dateAdded: 2018-06-28 09:00:00+00:00
+attributes:
+  - name: "Expansion Interface"
+    value: >-
+      "
+      2 x xBUS connections to interface with xCHIPS
+      "
+  - name: "LED"
+    value: >-
+      "
+      Yes
+      "
+  - name: "Other"
+    value: >-
+      "
+      Provides an interface to support the xCHIP ecosystem, adding support for many additional sensors etc.
+      "
+
 ---
 
 This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
@@ -50,5 +68,3 @@ This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboar
 
 - [B901-96 Wiki](https://wiki.xinabox.cc/B901_-_96_Boards_Bridge)
 - [B901-96 Guides on Github](https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901)
-
-

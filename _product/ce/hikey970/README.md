@@ -114,6 +114,70 @@ product_buy_links:
 product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
 product: true
 archived: false
+dateAdded: 2018-05-12 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      HiSilicon Kirin 970 - HiAI Architecture, Dedicated NPU
+  - name: "CPU"
+    value: ARM Cortex-A73 MPCore4 @up to2.36GHz, ARM Cortex-A53 MPCore4 @up to1.8GHz
+  - name: "GPU"
+    value: ARM Mali-G72 MP12 GPU
+  - name: "RAM"
+    value: 6GB LPDDR4X 1866MHz
+  - name: "Connectivity"
+    value: >-
+      Bluetooth/WIFI/GPS
+  - name: "Storage"
+    value: 64GB UFS 2.1, Micro SD
+  - name: "Ethernet"
+    value: USB2.0 expansion
+  - name: "USB"
+    value: >-
+      2 x USB 3.0 type A (host mode only)
+      1 x USB 2.0 type C OTG
+  - name: "Display"
+    value: >-
+      1 x HDMI 1.4 (Type A - full), 1 x 4L-MIPI DSI and HDMI output up to FHD 1080P
+  - name: "Video"
+    value: >-
+      "
+      1080p@60Hz HDMI, 4 line MIPI/LCD port
+      "
+  - name: "Camera"
+    value: 4 line MIPI port, 2 line MIPI port
+  - name: "Expansion Interface"
+    value: >-
+      "One 40-pin Low Speed (LS) expansion connector
+      UART, SPI, I2S, I2C x2, GPIO x12, DC power
+      One 60-pin High Speed (HS) expansion connector
+      4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
+  - name: "LED"
+    value: >-
+      "8 LED indicators
+      4 -user controllable
+      3 -for radios (BT and WLAN and GPS activity)
+      1 – for CAN"
+  - name: "Buttons"
+    value: >-
+      "
+      Power/Reset
+      "
+  - name: "Power"
+    value: "DC Power: +8V to +18V"
+  - name: "OS Support"
+    values:
+      - title: Android
+      - title: Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 100mm
+      - title: "length"
+        value: 105.26mm
+  - name: "Environmental"
+    value: "Operating Temp: 0°C to +70°C RoHS and Reach compliant"
+
 ---
 HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board is made for developers, looking maximize accelerated AI capabilities not found in most other development platforms!
 

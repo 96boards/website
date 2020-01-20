@@ -67,6 +67,48 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-12-05 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      NXP Layerscape LS1012A
+  - name: "CPU"
+    value: >-
+      Cortex-A53
+  - name: "RAM"
+    value: >-
+      1GByte
+  - name: "PMU"
+    value: >-
+      NXP VR5100
+  - name: "Storage"
+    value: >-
+      64MByte SPI Flash for bootloader and RCW + MicroSD Card slot + SATA
+  - name: "Ethernet"
+    value: >-
+      2x 10/100/1000
+  - name: "USB"
+    value: >-
+      2x USB 3.0
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12"
+  - name: "Buttons"
+    value: >-
+      Reset
+  - name: "Power"
+    value: >-
+      12V@2.5A, 2.5mm center pin 8A DC jack connector, CUI Inc PJ-063BH or equivalent
+  - name: "OS Support"
+    values:
+      - title: Debian GNU Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 120mm
+      - title: "length"
+        value: 160mm
+
 ---
 
 Near ubiquitous broadband Internet connecting a multitude of distributed embedded systems in the IoT world, introduces new challenges in data transfer performance and communication security.

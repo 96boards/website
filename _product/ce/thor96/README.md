@@ -54,10 +54,8 @@ product_more_info:
   - title: Hardware User Manual
     link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-hw-user-manual.pdf
   - title: Schematics
-  - link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
-  - title: Arrow Campaign
-    link: https://www.arrow.com/en/campaigns/avengers
-
+    link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
+    
 # Bottom Link
 product_accessories:
   - title: Power
@@ -112,4 +110,6 @@ The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, inco
 |  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
 |  Size                | 100 x 85 mm                                                                                                            |
 {:.hidden_rows}
+
 </div>
+

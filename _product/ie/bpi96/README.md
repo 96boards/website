@@ -46,6 +46,39 @@ product_os:
     link: /documentation/iot/bpi96/downloads/
 product: true
 archived: false
+dateAdded: 2018-05-24 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      STM32F103RCT6 / STM32F103RBT6
+  - name: "CPU"
+    value: >-
+      ARM 32-bit CortexTM-M3
+  - name: "RAM"
+    value: >-
+      SRAM 48KB / 20 KB
+  - name: "Storage"
+    value: >-
+      256KB / 128KB
+  - name: "Wireless"
+    value: >-
+      Quectel BC95-B5/8/20 or BC95-G
+  - name: "Expansion Interface"
+    value: >-
+      40pin GPIO
+  - name: "Power"
+    value: >-
+      Digital Out Voltage - 1.8v
+  - name: "OS Support"
+    values:
+      - title: LiteOS
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 

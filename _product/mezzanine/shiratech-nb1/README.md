@@ -33,6 +33,34 @@ product_more_info:
   - title: Shiratech Solutions
     link: http://www.shiratech-solutions.com/products/lte-cat-m1-nb1-mezzanine/
 archived: false
+dateAdded: 2019-01-26 09:00:00+00:00
+attributes:
+  - name: "Connectivity"
+    value: >
+      Quectel BG96 LTE Cat M1 & Cat NB1 & EGPRS module
+      Modem speed 300Kbps DL / 375Kbps UL
+  - name: "SoC"
+    value: >-
+      "
+      SLB9670x - Trusted Platform Module (TPM) 2.0 functionality
+      SLB9645x - Supporting the TPM 1.2 Standard through I2C communication
+      SLS32AIA020A TRUST-E Authentication Chip
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      Standard 96Boards LS expansion connector
+      "
+  - name: "Power"
+    value: >
+      Low Power
+  - name: "Other"
+    value: >
+      Built in GPS
+      Industrial grade
+      Low Power
+      Compatible with 96Boards CE and EE boards
+
 ---
 Shiratech LTE CAT-M1/NB1 Mezzanine for 96Boards is hosting Quectel BG96 LTE  AT-M1/NB1 modem enabling low power connectivity to cellular networks. A built in Global Positioning System (GPS) device adds location and navigation to your application. The mezzanine enables rapid development and prototyping of industrial grade low power IoT applications requiring LTE connectivity.
 

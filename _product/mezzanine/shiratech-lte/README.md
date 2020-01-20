@@ -32,6 +32,22 @@ product_more_info:
   - title: Product Brief
     link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
 archived: false
+dateAdded: 2018-05-01 09:00:00+00:00
+attributes:
+  - name: "Sensors"
+    value: >
+      On-Board Sensor Key Features - Bosch BNO055 (3 Sensors in one device - triaxial 16bit gyroscope, triaxial 14bit accelerometor
+      and full performance geomagnetic sensor), Analog Device ADUX1020 (Multifunction photometric sensor and signal conditioning),
+      ST VL53L0CX (940nm Laser VCSEL. VCSEL driver, ranging sensor with advanced embedded micro controller) and Analog Device ADT7410 (High performance temperature sensor)
+  - name: "Other"
+    value: >
+      Cellular Modem Quectel EC25 LTE -
+      LTE CAT 4 Max 150Mbps (DL) 50Mbps (UL).
+      LTE category 4 module optimized for M2M and IoT applications.
+      Worldwaide LTE, UMTS/HSPA+ and GSM/GPRS/EDGE coverage.
+      Multi-constellation GNSS receiver available for applications requiring fast and accurate fixes in any environment.
+      MIMO technology meets demands for data rate and link reliability in modem wireless communication system.
+
 ---
 Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 

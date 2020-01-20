@@ -47,6 +47,55 @@ product_os:
     link: /documentation/iot/orangepi-i96/downloads/
 product: true
 archived: false
+dateAdded: 2017-08-01 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      RDA8810PL ARM Cortex-A5 32bit
+  - name: "CPU"
+    value: >-
+      ARM Cortex-A5 32bit
+  - name: "RAM"
+    value: >-
+      256MB LPDDR2 SDRAM
+  - name: "Storage"
+    value: >-
+      TF card / Integrated 500MB 8Bit 1.8V 4K SLC Nand Flash
+  - name: "Wireless"
+    value: >-
+      RDA5991, WIFI+BT
+  - name: "USB"
+    value: >-
+      1 x USB 2.0 HOST
+      1 x USB 2.0 OTG
+  - name: "Camera"
+    value: >-
+      MIPI CSI-2 Connector for camera sensor up to 2MP
+  - name: "Expansion Interface"
+    value: >-
+      40 Pins Header
+  - name: "LED"
+    value: >-
+      Power led
+  - name: "Buttons"
+    value: >-
+      Power Button(SW602)
+  - name: "Power"
+    value: >-
+      USB OTG input can supply power / Battery input can supply power(Optional)
+  - name: "OS Support"
+    values:
+      - title: Android
+      - title: Ubuntu
+      - title: Debian
+      - title: Android
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
 

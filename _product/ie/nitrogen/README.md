@@ -42,6 +42,49 @@ product_os:
     link: /documentation/iot/nitrogen/build/linux/
 product: true
 archived: false
+dateAdded: 2017-07-09 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      nRF52832 microcontroller
+  - name: "CPU"
+    value: >-
+      Cortex-M4 @ 64MHz
+  - name: "RAM"
+    value: >-
+      64KB
+  - name: "Storage"
+    value: >-
+      512KB onboard Flash
+  - name: "Wireless"
+    value: >-
+      nRF51832 Bluetooth with BLE power consumption measurement
+      Onboard chip antenna
+  - name: "Power"
+    value: >-
+      Onboard battery connector and charger
+      USB power supply with fuse protect
+      Digital Output (V)	1.8V
+      Analog Input (V)	0V - 1.8V
+  - name: "Expansion Interface"
+    value: >-
+      "40 Pin Low-speed expansion"
+  - name: "Connectors"
+    value: >-
+      "SWD debug, nRF52832 SWD, nRF52832 UART"
+  - name: "Debugger"
+    value: >-
+      "LPC11U35 on board SWD debugger"
+  - name: "OS Support"
+    values:
+      - title: Zephyr
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
 

@@ -68,6 +68,60 @@ is_featured: true
 product: true
 shortname: bubblegum-96
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+vendor:
+  name: uCRobotics
+  url: http://www.ucrobotics.com.cn/bubblegum96/
+attributes:
+  - name: "SoC"
+    value: Actions - S900
+  - name: "CPU"
+    value: ARM Cortex-A53 Quad-core up to 1.8GHz
+  - name: "GPU"
+    value: Imagination Power VR G6230, OpenGL ES 3.1, OpenGL 3.2, DirectX 10, OpenCL 1.2 EP
+  - name: "RAM"
+    value: 2GB LPDDR3 @ 533MHz
+  - name: "PMU"
+    value: ATC2609
+  - name: "Storage"
+    value: 8GB eMMC 4.51 on board storage MicroSD card slot
+  - name: "Ethernet"
+    value: USB 2.0 expansion
+  - name: "Connectivity"
+    value: Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy
+  - name: "USB"
+    value: 1 x USB2.0, 1 x USB3.0, 1 x USB 2.0 OTG
+  - name: "Display"
+    value: HDMI 1.4b with HDCP (HDMI connector type A/C), up to 4k Ultra
+  - name: "Video"
+    value: 1080p@60fps HD video playback and capture with H.264 (AVC), 4096*2304@30fps playback with H.265 (HEVC)
+  - name: "Audio"
+    value: PMC / AAC+ / MP3 / WMA
+  - name: "Camera"
+    value: N/A
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: UART, SPI, I2S, I2Cx2, GPIOx12, DC Power;
+      60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI; 1xJTAG header option"
+  - name: "LED"
+    value: "6 x LED: 4xUser controlled, 2xRadio(BT and WLAN activity)"
+  - name: "Buttons"
+    value: (SW1) – Reset Key / (SW2) – ON/OFF Key / (SW3) – ADFU Key
+  - name: "Power"
+    value: "6.5V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm"
+  - name: "OS Support"
+    values:
+      - title: Android 5.1
+      - title: Debian Linux
+      - title: Ubuntu Core
+      - title: Android Remix
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all
@@ -109,4 +163,3 @@ TrustZone® security support.
 Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/bubblegum-96/hardware-docs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
 
 <a href="/documentation/consumer/bubblegum-96/hardware-docs/files/compliance-bubblegum96.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
-

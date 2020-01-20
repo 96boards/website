@@ -34,6 +34,51 @@ product_more_info:
   - title: Shiratech
     link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
 archived: false
+dateAdded: 2018-12-30 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+        Intel MAX-10
+      "
+  - name: "CPU"
+    value: >-
+      "
+       Intel MAX-10 FPGA
+      "
+  - name: "RAM"
+    value: >-
+      "
+       189Kb Block memory
+      "
+  - name: "Storage"
+    value: >-
+      "
+       Up to 156KB user FLASH memory
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      1 x Raspberry Pi expansion connector
+      1 x Arduino expansion connector
+      6 x Grove expansion connectors: 4 digital and 2 analog
+      178 GPIO
+      It offers unparalleled design flexibility through the use of Rasberry Pi, Arduino & Grove connectors
+      "
+  - name: "USB"
+    value: >-
+      "
+      MicroUSB interface to 96Boards console serial port
+      "
+  - name: "Other"
+    value: >-
+      "
+      Ordering option to enhance to Intel MAX-10 10M50
+      4K Logic Elements
+      Dual internal configuration
+      FPGA programming using Altera standard programming connector.
+      "
+
 ---
 The Shiratech FPGA Mezzanine for 96Boards adds configurability to your embedded environment using the Intel MAX-10 FPGA. With the CPU and FPGA combo, you can connect to any interface and add real time performance to your project. It offers unparalleled design flexibility through the use of Rasberry Pi, Arduino & Grove connectors, which allow you to use any combination of 3rd party sensors and actuators.
 

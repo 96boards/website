@@ -51,6 +51,18 @@ tab_menu:
     tab_align_right: true
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "Camera"
+    value: >-
+      "Two MIPI CSI-2 (2-lane)"
+  - name: "Expansion Interface"
+    value: >-
+      "
+      Two UART, two SPI, one I2C, one PCM, GPIO.
+      "
+  - name: "Parent Board"
+    value: "/product/dragonboard410c/"
 ---
 D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c.  Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
 

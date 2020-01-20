@@ -540,3 +540,226 @@ div#flow_wrapper #content-container {
       word-break: break-word;
     }
 }
+// Website Revamp 2019
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: initial;
+}
+
+#wrapper {
+  #jumbotron-slider {
+    .slide_type {
+      height: 40px;
+      color: white;
+      position: relative;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      font-weight: 400;
+      font-size: 30px;
+      @media (max-width: $screen-sm-min) {
+        letter-spacing: 4px;
+        font-size: 20px;
+      }
+      & + h2 {
+        margin-top: 0px;
+      }
+      &:before {
+        content: ">";
+        margin-right: 20px;
+        color: #98cc33;
+      }
+      &:after {
+        content: "<";
+        margin-left: 20px;
+        color: #98cc33;
+      }
+    }
+  }
+  #jumbotron {
+    .big-title {
+      font-weight: 100 !important;
+      border: 5px dotted $brand-primary;
+      border-radius: 10px;
+      max-width: 1000px;
+      padding: 20px;
+      font-size: 60px;
+      @media (max-width: $screen-sm-min) {
+        font-size: 38px !important;
+      }
+    }
+  }
+  #main-navigation.navbar-inverse {
+    #navbar-buttons {
+      li {
+        a {
+          font-weight: 100;
+          font-size: 18px;
+        }
+      }
+      .dropdown-menu {
+        li.dropdown-submenu {
+          font-weight: lighter;
+          a {
+            font-size: 18px;
+          }
+          &:hover {
+            > a {
+              color: #000;
+              letter-spacing: 0;
+              background-color: $brand-primary;
+              color: white;
+              font-size: 18px;
+              transition: all 100ms ease-in-out;
+              outline: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  #flow_wrapper {
+    .row.introduction_row {
+      padding-top: 60px;
+      p {
+        font-size: 34px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        line-height: 45px;
+        @media (max-width: $screen-sm-min) {
+          font-size: 28px;
+        }
+      }
+    }
+    .gray_row {
+      background-color: #666666;
+    }
+    .light_gray_row {
+      background-color: #d1d1d1;
+    }
+    .centered_type {
+      p {
+        text-align: center !important;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-align: center !important;
+      }
+    }
+    .larger_type {
+      p {
+        font-size: 60px !important;
+        line-height: 70px !important;
+        @media (max-width: $screen-sm-min) {
+          font-size: 40px !important;
+          line-height: 50px !important;
+        }
+      }
+    }
+    .row.large_type {
+      p {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 46px;
+        font-weight: 100;
+        text-align: left;
+      }
+    }
+    .owl-theme .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px;
+      margin: 5px 2px;
+      background: #ffffff;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 0.2s ease;
+      border-radius: 30px;
+    }
+    .feature_block {
+      video.testimonial_video {
+        display: none;
+      }
+      .row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      h2 {
+        margin-top: 0px;
+      }
+      .buttons {
+        padding-top: 0px;
+      }
+    }
+  }
+  footer {
+    a.btn.btn-social-icon {
+      background-color: #666666;
+      border-radius: 40px;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin: 40px 0;
+    }
+    .row.footer.footer-main {
+      background-color: #00000b !important;
+    }
+    .email {
+      border: none;
+      &:hover {
+        border: none;
+      }
+    }
+    .footer-main .contact-details {
+      text-align: left;
+      address {
+        text-align: left;
+        font-size: 18px;
+      }
+      h3 {
+        text-align: left;
+        color: $brand-primary;
+        margin-top: 0px;
+      }
+      @media (max-width: $screen-sm-min) {
+        padding-left: 35px;
+        text-align: left;
+      }
+    }
+
+    .footer-column {
+      ul {
+        padding-left: 20px;
+        text-align: left;
+        li {
+          text-align: left;
+          a {
+            font-size: 24px;
+            font-weight: normal;
+            small {
+              text-align: left;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+      h3 {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 26px;
+        border-left: 5px solid $brand-primary;
+        padding-left: 15px;
+        @media (max-width: $screen-sm-min) {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

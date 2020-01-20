@@ -48,6 +48,41 @@ product_os:
     link: /documentation/iot/4iot/downloads/
 product: true
 archived: false
+dateAdded: 2018-05-26 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Qualcomm Snapdragon 410E
+  - name: "CPU"
+    value: >-
+      ARM Cortex-A53 Quad-core up to 1.2 GHz per core
+  - name: "GPU"
+    value: >-
+      Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security
+  - name: "RAM"
+    value: 2GB
+  - name: "Storage"
+    value: 16GB eMMC
+  - name: "Wireless"
+    value: WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas
+  - name: "Camera"
+    value: Integrated ISP with up to 13 MP camera support
+  - name: "GPS"
+    value: true
+  - name: "Video"
+    value: "1080p HD video playback and capture with H.264"
+  - name: "OS Support"
+    values:
+      - title: Android
+      - title: Linux
+      - title: Windows 10
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock
 speed per core, capable of 32-bit and 64-bit operation. It supports Android, Linux and Windows 10 and offers advanced
