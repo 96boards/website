@@ -9,7 +9,7 @@
         <div class="row">
             <div id="featured-products-wrapper" class="hidden-xs">
 
-                {% assign featuredBoards = site.data.board-details | sort: 'dateAdded' | reverse %}
+                {% assign featuredBoards = site.product | sort: 'dateAdded' | reverse %}
 
                 {% for featuredProduct in featuredBoards limit: 6 %}
 

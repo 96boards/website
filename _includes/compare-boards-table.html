@@ -93,9 +93,8 @@
                                 </div>
                             </td>
                             {% for attr in tags %}
-                            {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                             {% assign found = "false" %}
-                            {% for each in board-details.attributes %}
+                            {% for each in board.attributes %}
                             {% if each.name == attr %}
                             <td class="board" data-attr="{{attr}}" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">{{each.value
@@ -199,9 +198,8 @@
                                     data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
                             </td>
                             {% for board in products_array %}
-                            {% assign board-details = site.data.board-details | where: "id", board.url | first %}
                             {% assign found = "false" %}
-                            {% for each in board-details.attributes %}
+                            {% for each in board.attributes %}
                             {% if each.name == attr %}
                             <td class="board" data-attr="{{attr}}" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">{{each.value | replace: '"', '' }}</td>
