@@ -144,6 +144,67 @@ product_kits:
     link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+vendor:
+  name: Arrow Electronics
+  url: https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools
+attributes:
+  - name: "SoC"
+    value: >-
+      Qualcomm Snapdragon 410E
+  - name: "CPU"
+    value: ARM Cortex-A53 Quad-core up to 1.2 GHz per core
+  - name: "GPU"
+    value: Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security
+  - name: "RAM"
+    value: 1GB LPDDR3 SDRAM @ 533MHz
+  - name: "Wireless"
+    value: >-
+      WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas
+  - name: "Storage"
+    value: 8GB eMMC 4.51 on board storage and MicroSD card slot
+  - name: "Ethernet"
+    value: USB 2.0 expansion
+  - name: "USB"
+    value: >-
+      2 x USB 2.0 Host
+      1 x USB 2.0 OTG
+  - name: "Display"
+    value: 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P
+  - name: "Video"
+    value: >-
+      1080p@30fps HD video playback and capture with H.264 (AVC), and 720p playback with H.265 (HEVC)
+  - name: "Audio"
+    value: >-
+      PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
+  - name: "Camera"
+    value: Integrated ISP with support for image sensors up to 13MP
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
+       60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
+  - name: "LED"
+    value: >-
+      "6 x LED:
+        4 x User controlled
+        2 x Radio (BT and WLAN activity)"
+  - name: "Buttons"
+    value: >-
+      Power/Reset and Volume Up/down
+  - name: "Power"
+    value: 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
+  - name: "OS Support"
+    values:
+      - title: Android
+      - title: Linux
+      - title: Windows IoT Core
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
 processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.

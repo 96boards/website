@@ -81,6 +81,34 @@ product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      ARM Cortex-M4 Microcontroller
+  - name: "CPU"
+    value: >-
+      ARM Cortex-M4 Microcontroller
+  - name: "RAM"
+    value: >-
+      Memory (SPI FRAM 1MB 1.8V) (SPEC)
+  - name: "Expansion Interface"
+    value: >-
+      FTDI FT232RQ USB UART INTERFACE	- Connect to an RS232 serial terminal over USB with the FTDI FT232RQ interface (SPEC)
+      FCI 15 PIN FPC CONNECTOR	Raspberry pi CSI2 and DSI connector
+      Mating Connectors
+  - name: "USB"
+    value: >-
+      Micro B USB Plug
+  - name: "Sensors"
+    value: >-
+      MAGNETIC BUZZER SMT (5V 30MA 92DBA)	- BUZZER MAGNETIC 5V 12.8MM SMD (SPEC)
+      BAROMETER
+  - name: "Wireless"
+    value: >-
+      TEXAS INSTRUMENTS SN65HVD232 CAN TRANSCEIVER	Designed for use with Texas Instruments DSPs with CAN controllers and equivalent devices.
+      Provides differential transmit and receive capability at speeds up to 1 Mbps. (SPEC)
+
 ---
 Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://www.gumstix.com/geppetto). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 
@@ -117,7 +145,7 @@ in accordance with the ISO 11898 standard.  |
 |  USB DEVICE                                       | Micro B USB Plug                                                                                 |
 |  5-PIN GPS CONNECTOR                              |                                                                                                  |
 |  FCI 15 PIN FPC CONNECTOR                         | Raspberry pi CSI2 and DSI connector                                                              |
-|  MAGNETIC BUZZER SMT (5V 30MA 92DBA)              | BUZZER MAGNETIC 5V 12.8MM SMD ([SPEC](http://www.cui.com/product/resource/ct-1205cl-smt.pdf))    |        
+|  MAGNETIC BUZZER SMT (5V 30MA 92DBA)              | BUZZER MAGNETIC 5V 12.8MM SMD ([SPEC](http://www.cui.com/product/resource/ct-1205cl-smt.pdf))    |
 |  TEXAS INSTRUMENTS SN65HVD232 CAN TRANSCEIVER     | Designed for use with Texas Instruments DSPs with CAN controllers and equivalent devices. Provides differential transmit and receive capability at speeds up to 1 Mbps. ([SPEC](http://www.ti.com/product/sn65hvd232))                                |
 |  FTDI FT232RQ USB UART INTERFACE                  | Connect to an RS232 serial terminal over USB with the FTDI FT232RQ interface ([SPEC](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf))                                                                                  |
 |  MEMORY (SPI FRAM 1MB 1.8V)                       | Memory (SPI FRAM 1MB 1.8V) ([SPEC](http://media.digikey.com/pdf/Data%20Sheets/Fujitsu%20Microelectronics%20America/MB85RS1MT.pdf))                                                                                               |

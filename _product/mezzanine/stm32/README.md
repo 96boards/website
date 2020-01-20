@@ -43,6 +43,41 @@ product_more_info:
     link: http://linaro.co/stm32f446
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+      STM32F446 MCU ARM® Cortex® -M4 180MHz
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      96Boards high/low-speed connectivity
+      ArduinoTM Uno Revision 3 and GroveTM connectivity
+      "
+  - name: "Sensors"
+    value: >-
+      "
+      Integrated MEMS sensors:
+        9-axis accelerometer / gyroscope / magnetometer – Pressure, microphone
+      "
+  - name: "USB"
+    value: >-
+      "
+      USB re-enumeration capability: – Virtual Com port – Mass storage – Debug port
+      "
+  - name: "Other"
+    value: >-
+      "
+      ARM® mbedTM -enabled (see http://mbed.org)
+      On-board ST-LINK/V2-1 debugger/programmer
+      Supported by wide choice of Integrated Development Environments (IDEs) including IARTM, Keil®, GCC-based IDEs, ARM® mbedTM online
+      "
+  - name: "OS Support"
+    values:
+      - title: Zephyr RTOS support
+
 ---
 The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A). This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement, pressure and
 sound. It can be plugged directly on top of 96Boards consumer edition (CE) products and supports multiple expansion possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software

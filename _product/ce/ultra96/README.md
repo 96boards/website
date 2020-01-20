@@ -104,6 +104,51 @@ product_kits:
     link: /documentation/consumer/ultra96/ultra96-v2/kits/
 product: true
 archived: false
+dateAdded: 2018-03-18 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
+  - name: "CPU"
+    value: >-
+      Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
+  - name: "RAM"
+    value: >-
+      Micron LPDDR4 memory provides 2 GB of RAM in a 512M x 32 configuration
+  - name: "Storage"
+    value: >-
+      Delkin 16 GB microSD card + adapter
+  - name: "Wireless"
+    value: >-
+      802.11b/g/n Wi-Fi and Bluetooth 4.2 (provides both Bluetooth Classic and Low Energy (BLE))
+  - name: "USB"
+    value: >-
+      1 x USB 3.0 Type Micro-B upstream port
+      2 x USB 3.0
+      1 x USB 2.0 Type A downstream ports
+  - name: "Display"
+    value: >-
+      Mini DisplayPort (MiniDP or mDP)
+  - name: "Expansion Interface"
+    value: >-
+      40-pin 96Boards Low-speed expansion header
+      60-pin 96Boards High speed expansion header
+  - name: "LED"
+    value: >-
+      4 x user-controllable LEDs
+  - name: "Power"
+    value: >-
+      8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
+  - name: "OS Support"
+    values:
+      - title: Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The Ultra96-V2 updates and refreshes the Ultra96 product that was released in 2018. Like Ultra96, the Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification. Ultra96-V2 will be available in more countries around the world as it has been designed with a certified radio module from Microchip. Additionally, all components are updated to allow industrial temperature grade options. Additional power control and monitoring will be possible with the included Infineon Pmics.
 

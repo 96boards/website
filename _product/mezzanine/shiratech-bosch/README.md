@@ -36,6 +36,19 @@ product_more_info:
   - title: Shiratech Solutions
     link: http://www.shiratech-solutions.com/products/bosch-sensor/
 archived: false
+dateAdded: 2019-02-13 09:00:00+00:00
+attributes:
+  - name: "Sensors"
+    value: >
+      The Bosch Sensor Mezzanine includes the following sensors BMP388, BMA456, BME680, BHI160 and BMM150
+  - name: "Power"
+    value: "Supply 1.8v/3.3v"
+  - name: "Other"
+    value: >
+      Add high-performance, highly accurate Bosch sensors to your product
+      Comes with a wide selection of sensors for any IoT/drone application.
+      All sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0 and 6 gpio lines (gpio a,b,c,d,e,f).
+
 ---
 The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes.
 

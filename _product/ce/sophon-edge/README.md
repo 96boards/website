@@ -77,6 +77,48 @@ product_kits:
   - title: Coming Soon...
 product: true
 archived: false
+dateAdded: 2018-04-05 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Sophon BM1880
+  - name: "CPU"
+    value: >-
+      Sophon BM1880
+  - name: "RAM"
+    value: >-
+      LPDDR4 1GB @ 3200Mhz
+  - name: "Storage"
+    value: >-
+      8GB eMMC + micro SD card slot
+  - name: "Connectivity"
+    value: >-
+      Gigabit Ethernet(RJ-45), Wifi, Bluetooth
+  - name: "USB"
+    value: >-
+      USB 3.0 x 3 (support camera, U- disk..etc)
+  - name: "Expansion Interface"
+    value: >-
+      40-pin 96Boards low-speed expansion header
+  - name: "Audio"
+    value: >-
+      I2S x 2 (included in 40-pin header)
+  - name: "Video"
+    value: >-
+      H.264 decoder, MJPEG encoder/decoder
+  - name: "Power"
+    value: >-
+      12V@2A
+  - name: "OS Support"
+    values:
+      - title: Linux
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 
 The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development. Sophon Edge Developer Board is powered by a BM1880, equipping tailored TPU support DNN/CNN/RNN/LSTM operations and models. This board is compatible with Linaro 96boards while also supporting modules for Arduino and Raspberry Pi. Developers can leverage off-the-shelf modules and develop cutting edge DL/ML applications, like facial detection and recognition, facial expression analysis, object detection and recognition, vehicle license plate recognition, voiceprint recognition, and more!

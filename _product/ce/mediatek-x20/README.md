@@ -88,6 +88,70 @@ product_buy_links:
     type: board
 product: true
 archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      Helio X20
+  - name: "CPU"
+    value: >-
+      2x ARM Cortex-A72 @ 2.1GHz ~ 2.3GHz
+      4x Cortex-A53 @ 1.95GHz
+      4x Cortex-A53 @ 1.4GHz
+  - name: "GPU"
+    value: ARM Mali-T880 GPU operating at up to 800MHz
+  - name: "RAM"
+    value: "2GB LPDDR3"
+  - name: "PMU"
+    value: "MT6351"
+  - name: "Ethernet"
+    value: "USB2.0 expansion"
+  - name: "Storage"
+    value: "8GB eMMC5.1 on board storage MicroSD card slot"
+  - name: "Wireless"
+    value: >-
+      Wi-Fi 802.11 a/b/g/n + Bluetooth 4.1
+  - name: "USB"
+    value: >-
+      2 x USB2.0 Host
+      1 x USB 2.0 OTG
+  - name: "Display"
+    value: >-
+      1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P
+  - name: "Camera"
+    value: One 4-lane MIPI camera serial interface(CSI), one 2-lane MIPI CSI
+  - name: "Video"
+    value: >-
+      "1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8"
+  - name: "Expansion Interface"
+  - name: "Audio"
+    value: >-
+      HDMI output
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
+      60 pin high speed expansion connector: SDIO, MIPI_DSI, MIPI_CSI"
+  - name: "LED"
+    value: >-
+      "1 x WiFi activity LED（Yellow） 1 x BT activity LED (Blue) 4 x User LEDs (Green)"
+  - name: "Buttons"
+    value: >-
+      "
+      Power Button：
+        Button Power on/off & Reset the system
+      "
+  - name: "Power"
+    value: "8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm"
+  - name: "OS Support"
+    values:
+      - title: Android Marshmallow 6.0
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application
 processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
@@ -132,4 +196,3 @@ WLAN, Bluetooth and GPS.
 Please visit the [MediaTek X20 Hardware User Manual](https://www.96boards.org/documentation/consumer/mediatekx20/hardware-docs/) for more information
 
 <a href="/documentation/consumer/mediatekx20/hardware-docs/files/compliance-mediatekx20.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
-
