@@ -53,8 +53,6 @@ product_more_info:
     link: https://www.96boards.org/documentation/consumer/aiml/hardware-docs/files/aiml-hw-user-guide.pdf
   - title: Schematics
     link: https://www.96boards.org/documentation/consumer/aiml/hardware-docs/files/aiml-sch.pdf
-  - title: Arrow Campaign
-    link: https://www.arrow.com/en/campaigns/avengers
 
 # Bottom Link
 product_accessories:
