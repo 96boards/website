@@ -621,3 +621,90 @@ collections:
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
       - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
+  - label: "Consumer Edition Products"
+    name: consumer_edition_products
+    label_singular: 'Product'
+    folder: _product/ce
+    path: '{{shortname}}/README'
+    media_folder: 'images'
+    fields:
+      - {label: Title, name: title, widget: string, required: true}
+      - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
+      - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
+      - {label: Product Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
+      - {label: Layout, name: layout, widget: hidden, default: "product-display-page", required: true}
+      - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
+      - {label: Archived, name: archived, widget: hidden, default: false, required: true}
+      - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
+      - {label: Images, name: product_images, widget: image, required: true}
+      - {label: Permalink, name: permalink, widget: string, default: "/product/{{shortname}}"}
+      - label: Product Tab Menu
+        name: tab_menu
+        widget: list
+        fields:
+          - {label: "Tab Title", name: tab_title, widget: string, required: true}
+          - {label: "Tab URL", name: tab_title, widget: string, required: true}
+          - {label: "Tab Align Right ", name: tab_align_right, widget: boolean, required: false, default: false}
+          - {label: "Tab Active ", name: active, widget: boolean, required: false, default: false, hint: "Toggle this to true for the main product tab."}
+      - label: Technical Attributes
+        name: attributes
+        widget: list
+        fields:
+          - {label: "Attribute Name", name: name, widget: string, required: true}
+          - {label: "Attribute Value", name: value, widget: text, required: false}
+          - label: "Attribute Sub Values"
+            name: values
+            widget: list
+            required: false
+            fields:
+             - {label: "Sub Attribute Title", name: "title", widget: string, required: true}
+             - {label: "Sub Attribute Value", name: "value", widget: string, required: false}
+      - label: Operating System Links
+        name: product_os
+        widget: list
+        required: false
+        fields:
+          - {label: "Title", name: title, widget: string, required: true}
+          - {label: "URL", name: link, widget: string, required: true}
+      - label: Third Party Links / Resources
+        name: product_third_party_images
+        widget: list
+        required: false
+        fields:
+          - {label: "Title", name: title, widget: string, required: true}
+          - {label: "URL", name: link, widget: string, required: true}
+      - label: Accessories
+        name: product_accessories
+        widget: list
+        required: false
+        fields:
+          - {label: "Title", name: title, widget: string, required: true}
+          - {label: "URL", name: link, widget: string, required: true}
+      - label: Accessories
+        name: product_mezzanine
+        widget: list
+        required: false
+        fields:
+          - {label: "Title", name: title, widget: string, required: true}
+          - {label: "URL", name: link, widget: string, required: true}
+      - label: Buy Links
+        name: product_buy_links
+        widget: list
+        required: true
+        hint: "Please provide a link to purchase/pre-order the board."
+        fields:
+          - {label: "Title", name: link-title, widget: string, required: true}
+          - {label: "Price", name: link-price, widget: string, hint: "Please enter the price without the currency symbol", required: true }
+          - {label: "Currency", name: link-price-currency, widget: select, hint: "Please choose the applicable currency", options: ["USD", "INR", "GBP", "JPY", "RMB"], required: true }
+          - {label: "Type", name: type, widget: select, hint: "Please choose the buy link type - i.e package, board", options: [{label: "Board Package", value: "package"},{label: "Single Board", value: "board"}], required: true, default: "board"}
+          - {label: "Vendor", name: from, widget: string, hint: "Please enter the name of the product vendor i.e amazon.com / ebay.com etc", required: true}
+          - {label: "Purchase URL", name: link-url, widget: string, hint: "Please enter the purchase URL.", required: true}
+      - label: "Board Vendor"
+        name: vendor
+        widget: object
+        hint: "The main board vendor"
+        required: false
+        fields:
+         - {label: "Name", name: "name", widget: string, required: true}
+         - {label: "Website", name: "url", widget: string, required: false}
+      - {label: Product Text Content, name: "body", widget: "markdown", hint: "This is the main text content for your board.", required: true}
