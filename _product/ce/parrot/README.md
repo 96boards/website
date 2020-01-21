@@ -2,16 +2,13 @@
 title: Parrot
 layout: product-display-page
 permalink: /product/parrot/
-shortname: parrot
 description: |-
     Hichips-Parrot Board (Allwinner SoC-Only 3-Mic Far-Field Dev Kit) for Amazon AVS with Allwinner R18 chip design. Allwinner SoC-Only 3-Mic Far-Field Dev Kit is Allwinner’s official development board targeting at audio recognition field, which is certified by Amazon. Powered by Allwinner R18 Quad-core CortexTM-A53, Its rich features and cost-effectiveness make audio intelligence further close to our daily life.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880, allwinner
 product_short_desc: "Hichips-Parrot Board is powered by the Allwinner R18"
 product_specification: ce
-featured_product_order: 2
 display_product: true
-is_featured: true
 product_images:
     - hichips-parrot-front-sd.jpg
     - hichips-parrot-back-sd.jpg

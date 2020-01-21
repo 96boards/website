@@ -1,7 +1,6 @@
 ---
 title: TB-96AI
 layout: product-display-page
-shortname: tb-96ai
 permalink: /product/tb-96ai/
 description: |-
     TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi
@@ -16,13 +15,10 @@ display_product: true
 product_short_desc: TB-96AI is a powerful core board for artificial intelligence.
 product_specification: se
 product_sub_specification: module
-featured_product_order: 2
-is_featured: true
 product_images:
   - TB-96AI-front.jpg
   - TB-96AI-rear.jpg
   - SoM-Carrier-Board-with-Module.jpg
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: TB-96AI
       tab_link: /product/tb-96ai/

@@ -1,7 +1,6 @@
 ---
 title: TB-96AIoT
 layout: product-display-page
-shortname: tb-96aiot
 permalink: /product/tb-96aiot/
 description: |-
     The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a
@@ -17,14 +16,11 @@ display_product: true
 product_short_desc: The TB-96AIoT is a low-power, high-powered core board for the AIoT field.
 product_specification: se
 product_sub_specification: module
-featured_product_order: 2
-is_featured: true
 product_images:
   - 96-TB-AIoT_Top.png
   - 96-TB-AIoT_Bottom.png
   - 96-TB-AIoT_Carrier_top1.png
   - 96-TB-AIoT_Carrier_top2.png
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: TB-96AIoT
       tab_link: /product/tb-96aiot/

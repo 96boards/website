@@ -2,8 +2,6 @@
 title: Rock960 (Vamrs)
 layout: product-display-page
 permalink: /product/rock960/
-shortname: rock960
-#Set this to true and the board will be visible on 96boards.ai
 ai_board: true
 ai_board_desc: >
     The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency.
@@ -12,9 +10,7 @@ description: |-
 keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, rockchip, rk3399, processor, low cost, Product, Development, Platform, arm
 product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
 product_specification: ce
-featured_product_order: 2
 display_product: true
-is_featured: true
 product_images:
   - rock960-front-sd.png
   - rock960-back-sd.png

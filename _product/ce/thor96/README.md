@@ -1,7 +1,6 @@
 ---
 title: Thor96
 layout: product-display-page
-shortname: thor96
 permalink: /product/thor96/
 description: |-
     The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
@@ -10,12 +9,9 @@ keywords: |-
 display_product: true
 product_short_desc: "The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O."
 product_specification: ce
-featured_product_order: 1
-is_featured: true
 product_images:
   - thor96-sd-front.jpg
   - thor96-sd-back.jpg
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: Thor96
       tab_link: /product/thor96/
@@ -55,7 +51,7 @@ product_more_info:
     link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-hw-user-manual.pdf
   - title: Schematics
     link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
-    
+
 # Bottom Link
 product_accessories:
   - title: Power
@@ -112,4 +108,3 @@ The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, inco
 {:.hidden_rows}
 
 </div>
-

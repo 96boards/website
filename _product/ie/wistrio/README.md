@@ -2,16 +2,16 @@
 title: WisTrio
 layout: product-display-page
 permalink: /product/wistrio/
-shortname: wistrio
+product: true
+archived: false
+dateAdded: 2018-11-27 09:00:00+00:00
 description: |-
     WisTrio LORA Tracker by RAK Wireless is based on the RK5205 chipset. This extremely low power consumption device supports multiple global bands, contains a variety of onboard sensors, offers standard IO (I2C, GPIO, UART and ADC) and several antenna options (SMA & IPEX). All of this on the 96Boards IoT Edition standard footprint!
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, RAK5205, wistrio, rakwireless, wireless, rak
 product_short_desc: "RAK Wireless IoT Board is powered by the RK5205"
 product_specification: ie
-featured_product_order: 6
 display_product: true
-is_featured: true
 product_images:
   - wistrio-antenna-sd-front.png
   - wistrio-antenna-sd-back.png
@@ -54,9 +54,6 @@ product_accessories:
     link: /product/misc/
 product_kits:
   - title: Coming Soon...
-product: true
-archived: false
-dateAdded: 2018-11-27 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

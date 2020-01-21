@@ -2,8 +2,6 @@
 title: Ultra96
 layout: product-display-page
 permalink: /product/ultra96/
-shortname: ultra96
-#Set this to true and the board will be visible on 96boards.ai
 ai_board: true
 ai_board_desc: >
     Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
@@ -13,9 +11,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
 product_short_desc: "Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board"
 product_specification: ce
-featured_product_order: 2
 display_product: true
-is_featured: true
 product_images:
   - ultra96-front-sd.png
   - ultra96-back-sd.png

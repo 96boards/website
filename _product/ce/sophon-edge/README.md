@@ -2,8 +2,6 @@
 title: Sophon Edge
 layout: product-display-page
 permalink: /product/sophon-edge/
-shortname: sophon-edge
-#Set this to true and the board will be visible on 96boards.ai
 ai_board: true
 ai_board_desc: >
     The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development.
@@ -13,9 +11,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
 product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
 product_specification: ce
-featured_product_order: 2
 display_product: true
-is_featured: true
 product_images:
     - sophon-front-sd.png
     - sophon-back-sd.png
