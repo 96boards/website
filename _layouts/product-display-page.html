@@ -122,11 +122,11 @@ seo:
                         {% for section in page.product_bottom_section %}
                             <div class="col-md-4">
                                 <ul class="list-group">
-                                    <a href="{{section.url}}">
+                                    {% if section.url %}<a href="{{section.url}}">{% endif %}
                                         <li class="list-group-item active">
                                             <b>{{section.title}}</b>
                                         </li>
-                                    </a>
+                                    {% if section.url %}</a>{% endif %}
                                     {% for item in section.items %}
                                         <li class="list-group-item">
                                             <a href="{{item.link}}">{{ item.title }}</a>
