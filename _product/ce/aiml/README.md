@@ -123,11 +123,7 @@ attributes:
       - title: "width"
         value: 85mm
       - title: "length"
-<<<<<<< HEAD
         value: 100mm
-=======
-        value: 100mm
->>>>>>> 1a89b4182d8ace48ee66f6962dc2f93142acb6b0
 ---
 
 ## Do More with i.MX 8X SoC
@@ -135,10 +131,7 @@ attributes:
 The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
 
 ## Feel Secure with the i.MX 8X SoC
-<<<<<<< HEAD
 
-=======
->>>>>>> 1a89b4182d8ace48ee66f6962dc2f93142acb6b0
 The i.MX 8X SoC boasts a wide range of security features for ensuring device integrity, making it ideal for applications involving sensitive data (such as IoT). Security features built into the i.MX 8X include HAB, SRTC, TrustZone, SHA_256, 3DES, ARC4, MD5, Tamper and Inline Enc Engine.Connect to the World with the AI_ML When it comes to connectivity, the AI_ML demonstrates its dominance in the single-board computer market. One low-speed 40pin and one high-speed 60-pin connector allow the AI_ML to be easily expanded and connected to external circuitry and systems.
 
 ***
