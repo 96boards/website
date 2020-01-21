@@ -1,6 +1,11 @@
 ---
 title: 4IoT - Geniatech
 layout: product-display-page
+display_product: true
+product_specification: ie
+product: true
+archived: false
+dateAdded: 2018-05-26 09:00:00+00:00
 permalink: /product/4iot/
 shortname: 4iot
 description: |-
@@ -23,18 +28,8 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/4iot
       tab_position: 2
       tab_align_right: true
-featured_product_order: 5
-display_product: true
-is_featured: true
-product_specification: ie
+
 product_short_desc: "Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock speed per core, capable of 32-bit and 64-bit operation."
-product_long_desc: |-
-    Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock
-    speed per core, capable of 32-bit and 64-bit operation. It supports Android, Linux and Windows 10 and offers advanced
-    processing power, WLAN, Bluetooth, and GPS, all packed into a board the size of a credit card.
-    It is designed to support feature-rich functionality, including multimedia,
-    with the Adreno™ 306 GPU, integrated ISP with up to 13 MP camera support,
-    and 1080p HD video playback and capture with H.264 (AVC).
 product_images:
   - 4iot-front-sd.jpg
   - 4iot-back-sd.jpg
@@ -46,9 +41,6 @@ product_buy_links:
 product_os:
   - title: Explore
     link: /documentation/iot/4iot/downloads/
-product: true
-archived: false
-dateAdded: 2018-05-26 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

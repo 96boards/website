@@ -1,8 +1,10 @@
 ---
-title: AeroCore 2 for 96Boards
+title: AeroCore 2
 layout: product-display-page
 permalink: /product/aerocore2/
-shortname: aerocore2
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
@@ -20,8 +22,6 @@ tab_menu:
       tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
-product_long_desc: |-
-    Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O. Add functionality or remove unused components with the ease of a drag-and-drop interface.
 product_images:
   - "AeroCore-2-Mezzanine-front.jpg"
   - "AeroCore-2-Mezzanine-back.jpg"
@@ -79,9 +79,6 @@ product_includes:
     id: MS5611
 product_video:
   - https://www.youtube.com/embed/LIH0tpi9KwE
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

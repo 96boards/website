@@ -2,7 +2,10 @@
 title: UART Serial
 layout: product-display-page
 permalink: /product/uartserial/
-shortname: uartserial
+product_specification: "mezzanine"
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 display_product: true
@@ -16,16 +19,7 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-featured_product_order: 9
-is_featured: true
-product_specification: "mezzanine"
 product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
-product_long_desc: |-
-    Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
-
-    It makes it easy to connect your PC to the serial console on the 96Boards low-speed expansion connector, without worrying about pinout or level shifting for 1.8V IO. It also provides remote control of the power button and reset signals so that the base board can be completely controlled over a single USB cable.
-
-    Since it uses the FT230X chip from FTDI, when it is connected to your PC over USB, it appears as a normal UART interface on a PC, Macintosh or Linux computer with an FTDI UART driver installed.
 product_images:
   - uart-mezzanine-front-sd.png
   - uart-mezzanine-back-sd.png
@@ -69,9 +63,6 @@ product_includes:
     id: 96B-05UART-V1.1
   - quantity: 2
     name: 2mm shunts
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

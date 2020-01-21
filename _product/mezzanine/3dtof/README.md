@@ -2,11 +2,11 @@
 title: Analog Devices 3D Time Of Flight Mezzanine Stack
 layout: product-display-page
 permalink: /product/3dtof/
-shortname: 3dtof
+product: true
+archived: false
 description: |-
     3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications.
 display_product: true
-product_support_link: https://discuss.96boards.org/c/products/mezzanine
 tab_menu:
   - tab_title: Analog Devices 3D Time Of Flight Mezzanine Stack
     tab_link: /product/3dtof/
@@ -16,12 +16,8 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-featured_product_order: 1
-is_featured: true
 product_specification: "mezzanine"
 product_short_desc: "3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications."
-product_long_desc: |-
-    Available now from Arrow: 3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications. The development platform comes with everything a user needs to start working immediately on 3DToF applications, enabling the development of high value features and functions that create product differentiation.
 product_images:
   - 3dtof-side.jpg
 mezzanine_features:
@@ -48,15 +44,14 @@ product_more_info:
     link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
   - title: Wiki
     link: https://wiki.analog.com/resources/eval/user-guides/ad-96tof1-ebz
-product: true
-archived: false
 ---
 
-# Analog Devices 3D Time Of Flight Mezzanine Stack
+## Analog Devices 3D Time Of Flight Mezzanine Stack
 
 3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications. The development platform comes with everything a user needs to start working immediately on 3DToF applications, enabling the development of high value features and functions that create product differentiation.
 
 ## Applications
+
 - **INDUSTRIAL**
  - Automated vehicles
  - Safe zone operation

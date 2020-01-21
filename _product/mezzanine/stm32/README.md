@@ -2,10 +2,13 @@
 title: STM32 Sensor Mezzanine Board
 layout: product-display-page
 permalink: /product/stm32/
-shortname: stm32
+product: true
+product_specification: "mezzanine"
+archived: false
+display_product: true
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A)
-display_product: true
 tab_menu:
   - tab_title: STM32 Sensor Board
     tab_link: /product/stm32/
@@ -15,14 +18,7 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-product_specification: "mezzanine"
 product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
-product_long_desc: |-
-    The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A).
-    This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement,
-    pressure and sound. It can be plugged directly on top of 96Boards consumer edition (ce) products and supports multiple expansion
-    possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software development,
-    drag-and-drop programming and provides direct access to the ARM mbed on-line resources.
 product_images:
   - STM32_Front.png
 product_buy_links:
@@ -41,9 +37,7 @@ product_buy_links:
 product_more_info:
   - title: Read More on ST.com
     link: http://linaro.co/stm32f446
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
+
 attributes:
   - name: "SoC"
     value: >-

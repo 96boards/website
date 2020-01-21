@@ -2,6 +2,9 @@
 title: Bubblegum-96
 layout: product-display-page
 permalink: /product/bubblegum-96/
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
     Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
@@ -70,9 +73,6 @@ product_buy_links:
     type: board
     link-price-currency: USD
     link-url: "https://linaro.co/bubblegum96-buy"
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
 vendor:
   name: uCRobotics
   url: http://www.ucrobotics.com.cn/bubblegum96/

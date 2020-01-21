@@ -2,7 +2,8 @@
 title: Akebi96
 layout: product-display-page
 permalink: /product/akebi96/
-shortname: akebi96
+product: true
+archived: false
 description: |-
     High-definition, high-performance, low-cost TV systems are realized with the latest 4K/8K technology such as HDR processing. And by adding an 8K decoder externally, it can also be extended to an 8K TV system.
 display_product: true
@@ -19,8 +20,6 @@ tab_menu:
       tab_align_right: true
 product_specification: ee
 product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
-product_long_desc: |-
-    Available Now -  High-definition, high-performance, low-cost TV systems are realized with the latest 4K/8K technology such as HDR processing. And by adding an 8K decoder externally, it can also be extended to an 8K TV system. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 product_images:
   - akebi96-top-sd.png
   - akebi96-bottom-sd.png
@@ -32,8 +31,6 @@ product_buy_links:
 product_os:
   - title: Build from Source
     link: /documentation/enterprise/akebi96/build/
-product: true
-archived: false
 ---
 High-definition, high-performance, low-cost TV systems are realized with the latest 4K/8K technology such as HDR processing. And by adding an 8K decoder externally, it can also be extended to an 8K TV system. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 

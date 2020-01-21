@@ -1,17 +1,17 @@
 ---
-title: DragonBoard™ 820c (Arrow)
+title: DragonBoard™ 820c
 layout: product-display-page
 permalink: /product/dragonboard820c/
-shortname: dragonboard820c
+product: true
+archived: false
+dateAdded: 2018-02-19 09:00:00+00:00
+display_product: true
 description: |-
     DragonBoard 820c by Arrow Electronics, development board based on the top-tier Qualcomm® Snapdragon™ 820E processor. Low-Cost Product Development Platform
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, Snapdragon 410, processor, low cost, Product, Development, Platform
-display_product: true
 product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
 product_specification: ce
-featured_product_order: 2
-is_featured: true
 product_images:
   - dragonboard820c-front-sd.png
   - dragonboard820c-back-sd.png
@@ -30,10 +30,6 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
       tab_position: 4
       tab_align_right: true
-product_getting_started: /documentation/consumer/dragonboard820c/getting-started/
-product_documentation_link: /documentation/consumer/dragonboard820c/
-product_tutorials_link: /tutorials/dragonboard820c/
-product_support_link: "https://discuss.96boards.org/c/products/dragonboard820c/"
 product_buy_links:
   -
     link-title: DragonBoard820c (Basic Kit)
@@ -49,40 +45,42 @@ product_buy_links:
     type: board
     link-price: "₹24,250.00"
     link-price-currency: INR
-# Right Sidepanel links
-product_os:
-  - title: Debian
-    link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
-product_middleware:
-  - title: Coming Soon...
-product_third_party_images:
-  - title: Fedora
-    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Coming Soon...
-product: true
-archived: false
-dateAdded: 2018-02-19 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Debian
+          link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Fedora
+          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 vendor:
   name: Arrow Electronics
   url: https://developer.qualcomm.com/hardware/dragonboard-820c

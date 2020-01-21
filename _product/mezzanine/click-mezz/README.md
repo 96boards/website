@@ -2,7 +2,6 @@
 title: Click Mezzanine
 layout: product-display-page
 permalink: /product/click-mezz/
-shortname: click-mezz
 description: |-
     The 96Boards Click Mezzanine allows engineers to connect their low-speed (LS) mezzanine to Click Boards. The mezzanine breaks out the LS header to two MikroBUS sites, each supporting one Click board. Through common interfaces such as UART, SPI, and I2C, the MikroBUS standard offers many 100’s of sensor, display, storage, timing, mixed-signal, and audio Click boards.
 title: Click Mezzanine
@@ -19,8 +18,6 @@ tab_menu:
 product_specification: "mezzanine"
 product: true
 product_short_desc: "The 96Boards Click Mezzanine allows engineers to connect their low-speed (LS) mezzanine to Click Boards. The mezzanine breaks out the LS header to two MikroBUS sites, each supporting one Click board. Through common interfaces such as UART, SPI, and I2C, the MikroBUS standard offers many 100’s of sensor, display, storage, timing, mixed-signal, and audio Click boards."
-product_long_desc: |-
-    The 96Boards Click Mezzanine allows engineers to connect their low-speed (LS) mezzanine to Click Boards. The mezzanine breaks out the LS header to two MikroBUS sites, each supporting one Click board. Through common interfaces such as UART, SPI, and I2C, the MikroBUS standard offers many 100’s of sensor, display, storage, timing, mixed-signal, and audio Click boards.
 product_images:
   - click-front-sd.png
   - click-back-sd.png

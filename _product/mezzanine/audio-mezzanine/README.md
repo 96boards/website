@@ -2,18 +2,14 @@
 title: Audio Mezzanine
 layout: product-display-page
 permalink: /product/audio-mezzanine/
-shortname: audio-mezzanine
+product: true
+archived: false
+dateAdded: 2017-07-06 09:00:00+00:00
 description: |-
     The 96Boards Sensors starter kit contains everything you need to wire up sensors and devices to a 96Boards single board computer. It contains the 96Boards Sensors mezzanine board with a selection of Grove modules that you can use to start experimenting and prototyping with the 96Boards platform.
 display_product: true
-product_support_link: https://discuss.96boards.org/c/products/mezzanine
 product_specification: "mezzanine"
 product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
-product_long_desc: |-
-    This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
-    You can connect 96Boards to various modules easily with this expansion board. There are six
-    grove ports which can be used to connect rich Grove functional modules, which will make your
-    application more complicated and attracting.
 product_images:
   - "audio-mezzanine.png"
 mezzanine_features:
@@ -41,9 +37,6 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
-product: true
-archived: false
-dateAdded: 2017-07-06 09:00:00+00:00
 attributes:
   - name: "Power"
     value: >-

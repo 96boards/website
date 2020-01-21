@@ -2,7 +2,9 @@
 title: Poplar
 layout: product-display-page
 permalink: /product/poplar/
-shortname: poplar
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
 display_product: true
@@ -19,11 +21,6 @@ tab_menu:
       tab_align_right: true
 product_specification: ee
 product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
-product_long_desc: |-
-    Available Now -  Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
-    Developed by HiSilicon, the board features the Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53 processor and high
-    performance Mali T720 GPU, making it capable of running any commercial set-top solution based on Linux or Android. Its high performance
-    specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second.
 product_images:
   - Poplar-Board-Front-Web-500x330.jpg
   - Poplar-Board-Side-Web-500x330.jpg
@@ -36,9 +33,6 @@ product_buy_links:
 product_os:
   - title: Build from Source
     link: /documentation/enterprise/poplar/build/
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

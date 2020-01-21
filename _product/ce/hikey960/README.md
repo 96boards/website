@@ -23,15 +23,6 @@ tab_menu:
       tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
-product_long_desc: |-
-    The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™
-    processor with four ARM Cortex®-A73 and four Cortex-A53 cores with 3GB of LPDDR4 SDRAM memory, 32GB of UFS 2.0 flash
-    storage, and the latest generation Mali™ G71 MP8 graphics processor. The board is provided by Archermind and LeMaker
-    through multiple channels (see links on right).
-
-    Initial software support for the board is provided in the AOSP source tree based on the Android Common Kernel using the Linux 4.4 kernel release.
-    Linaro and Huawei are also working on the Linux 4.9 based Android Common kernel and maintaining support for the Kirin 960 SoC in the mainline kernel.org
-    tree, allowing for the availability of multiple Linux distributions for this board in the future.
 product_images:
   - hikey-960-SD-front.jpg
   - hikey-960-SD-back.jpg

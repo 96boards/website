@@ -1,8 +1,10 @@
 ---
-title: DragonBoard™ 410c (Arrow)
+title: DragonBoard™ 410c
 layout: product-display-page
-shortname: dragonboard410c
 permalink: /product/dragonboard410c/
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     DragonBoard 410c by Arrow Electronics, development board based on the mid-tier Qualcomm® APQ8016E processor. Low-Cost Product Development Platform
 keywords: |-
@@ -10,12 +12,9 @@ keywords: |-
 display_product: true
 product_short_desc: "Board based on Qualcomm® APQ8016E processor and it's the size of a credit card."
 product_specification: ce
-featured_product_order: 2
-is_featured: true
 product_images:
   - DragonBoard-UpdatedImages-front.png
   - DragonBoard-UpdatedImages-back.png
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: DragonBoard™ 410c (Arrow)
       tab_link: /product/dragonboard410c/
@@ -84,67 +83,77 @@ product_buy_links:
     type: board
     link-price: "₹9,985.00"
     link-price-currency: INR
-product_os:
-  - title: Android
-    link: /documentation/consumer/dragonboard410c/downloads/android.md.html
-  - title: Debian
-    link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
-  - title: OpenEmbedded
-    link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
-  - title: Windows
-    link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
-  - title: Ubuntu
-    link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
-  - title: Fedora
-    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-product_middleware:
-  - title: AWS IoT SDK
-    link: https://github.com/ArrowElectronics/aws-iot-device-sdk
-  - title: IBM Watson IoT Platform
-    link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
-  - title: AT&T M2X
-    link: https://github.com/ArrowElectronics/att-iot-device-sdk
-  - title: ROS
-    link: http://wiki.ros.org/kinetic/Installation/Debian
-product_third_party_images:
-  - title: Windows 10 IoT Core
-    link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
-  - title: Ubuntu Core
-    link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
-  - title: Fedora
-    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-  - title: More Downloads
-    link: /documentation/consumer/dragonboard410c/downloads/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Basic Kit
-    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
-  - title: Audio Kit
-    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/audio-kit/
-  - title: AWS IoT Kit
-    link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Android
+          link: /documentation/consumer/dragonboard410c/downloads/android.md.html
+        - title: Debian
+          link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
+        - title: OpenEmbedded
+          link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
+        - title: Windows
+          link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
+        - title: Ubuntu
+          link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+        - title: Fedora
+          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Windows 10 IoT Core
+          link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
+        - title: Ubuntu Core
+          link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
+        - title: Fedora
+          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
+        - title: More Downloads
+          link: /documentation/consumer/dragonboard410c/downloads/
+    - title: Middleware & SDK's
+      icon: fa-code
+      items:
+        - title: AWS IoT SDK
+          link: https://github.com/ArrowElectronics/aws-iot-device-sdk
+        - title: IBM Watson IoT Platform
+          link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
+        - title: AT&T M2X
+          link: https://github.com/ArrowElectronics/att-iot-device-sdk
+        - title: ROS
+          link: http://wiki.ros.org/kinetic/Installation/Debian
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+    - title: Kits
+      items:
+        - title: Basic Kit
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
+        - title: Audio Kit
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/audio-kit/
+        - title: AWS IoT Kit
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 vendor:
   name: Arrow Electronics
   url: https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools

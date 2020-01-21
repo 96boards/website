@@ -2,10 +2,13 @@
 title: X in a Box B901
 layout: product-display-page
 permalink: /product/xinabox-b901/
-shortname: B901
+product: true
+archived: false
+display_product: true
+dateAdded: 2018-06-28 09:00:00+00:00
+product_specification: "mezzanine"
 description: |-
     This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
-display_product: true
 product_support_link: https://discuss.96boards.org/c/products/mezzanine
 tab_menu:
   - tab_title: X in a Box B901
@@ -16,12 +19,7 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-featured_product_order: 9
-is_featured: true
-product_specification: "mezzanine"
 product_short_desc: "This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc."
-product_long_desc: |-
-    This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
 product_images:
   - xinabox-b901-front-sd.png
   - xinabox-b901-back-sd.png
@@ -34,9 +32,6 @@ product_more_info:
     link: https://wiki.xinabox.cc/B901_-_96_Boards_Bridge
   - title: B901-96 Guides on Github
     link: https://github.com/96boards/documentation/tree/master/mezzanine/xinabox-b901
-product: true
-archived: false
-dateAdded: 2018-06-28 09:00:00+00:00
 attributes:
   - name: "Expansion Interface"
     value: >-
@@ -56,7 +51,7 @@ attributes:
 
 ---
 
-This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
+This ☒CHIP is designed to interface with the 96 Boards, such as the DragonBoard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
 
 ## Buy Now
 

@@ -2,11 +2,11 @@
 title: Shiratech Bosch Sensor Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-bosch/
-shortname: shiratech-bosch
+display_product: true
+archived: false
+dateAdded: 2019-02-13 09:00:00+00:00
 description: |-
     The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes.
-title: Shiratech Bosch Sensor Mezzanine
-display_product: true
 tab_menu:
   - tab_title: Shiratech Bosch Sensor Mezzanine
     tab_link: /product/shiratech-bosch/
@@ -19,8 +19,6 @@ tab_menu:
 product_specification: "mezzanine"
 product: true
 product_short_desc: "The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes."
-product_long_desc: |-
-    The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes. The following Bosch sensors are assembled on the mezzanine: BHI160 – Sensor HUB with integrated IMU, BMM150 – Geomagnetic sensor, BMP388 – Digital pressure sensor, BME680 – Gas, pressure, temperature and humidity sensor, BMA456 – Triaxial acceleration sensor
 product_images:
   - shiratech-bosch-front-sd.jpg
   - shiratech-bosch-back-sd.jpg
@@ -35,8 +33,6 @@ product_more_info:
     link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-user-manual.pdf
   - title: Shiratech Solutions
     link: http://www.shiratech-solutions.com/products/bosch-sensor/
-archived: false
-dateAdded: 2019-02-13 09:00:00+00:00
 attributes:
   - name: "Sensors"
     value: >

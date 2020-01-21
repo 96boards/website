@@ -2,7 +2,9 @@
 title: Mediatek X20 Development Board
 layout: product-display-page
 permalink: /product/mediatek-x20/
-shortname: mediatek-x20
+product: true
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application
     processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
@@ -20,21 +22,9 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/mediatek-x20
       tab_position: 2
       tab_align_right: true
-featured_product_order: 4
-is_featured: true
 product_specification: ce
 display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"
-date_released: 2017
-product_available: true
-product_long_desc: |-
-    The Mediatek X20 Development Board is a 96Boards compliant community board
-    based on the MediaTek X20 series of SoCs. X20 is a highly integrated application processor that
-    includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53
-    processors operating at up to 1.95GHz, Quad-core ARM Cortex-A53 processors operating at up to
-    1.4GHz and a Mali T880 GPU operating at up to 800MHz . In addition, an extensive set of interfaces
-    and connectivity peripherals are included to interface to cameras, touch-screen displays and
-    MMC/SD cards. It also fully supports wireless communication, including WLAN, Bluetooth and GPS.
 product_images:
   - Helio-X20-front.png
   - Helio-X20-back.png
@@ -86,9 +76,6 @@ product_buy_links:
     link-url: "https://linaro.co/mediatekx20-ali"
     from: AliExpress.com
     type: board
-product: true
-archived: false
-dateAdded: 2017-06-26 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

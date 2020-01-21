@@ -2,10 +2,13 @@
 title: Sensors
 layout: product-display-page
 permalink: /product/sensors-mezzanine/
-shortname: sensors-mezzanine
+product: true
+archived: false
+dateAdded: 2017-07-06 09:00:00+00:00
+product_specification: "mezzanine"
+display_product: true
 description: |-
     The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
-display_product: true
 tab_menu:
   - tab_title: Sensors
     tab_link: /product/sensors-mezzanine/
@@ -15,12 +18,7 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-product_specification: "mezzanine"
 product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
-product_long_desc: |-
-    The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
-
-    On the board you will find sockets for 18 Grove modules, an Arduino-compatible shield socket, and two SPI headers. It also includes an ATMega328 microcontroller which can be programmed from the Arduino IDE and will run most Arduino UNO sketches unchanged. The shield connector and half of the Grove sockets are controlled by the microcontroller, while the remaining Grove sockets are controlled directly by the baseboard. This makes it a flexible prototyping platform which supports both direct control of devices from application software, and offload to a microcontroller. It also provides a USB-UART interface to access the base board’s serial console.
 product_images:
     - 96Boards-Sensors-2.jpg
     - 96Boards-Sensors-3.jpg
@@ -59,9 +57,6 @@ product_includes:
     name: Sensors Mezzanine Board
     id: 96B-05GROVE-C
     link: https://linaro.co/20n34bc
-product: true
-archived: false
-dateAdded: 2017-07-06 09:00:00+00:00
 attributes:
   - name: "CPU"
     value: >-
