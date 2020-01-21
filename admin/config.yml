@@ -688,6 +688,12 @@ collections:
         fields:
           - {label: "Title", name: title, widget: string, required: true}
           - {label: "URL", name: link, widget: string, required: true}
+      - label: "Product Sidebar Sections"
+        name: product_sidebar_sections
+        widget: list
+        fields:
+          - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
+          - {label: "Icon", name: "icon", widget: select, hint: "The icon displayed in the sidebar section header.", options: [{label: "Documents Icon", value: "fa-file-text"}, {label: "Documents Icon", value: "fa-file-text"}] required: true}
       - label: Buy Links
         name: product_buy_links
         widget: list
