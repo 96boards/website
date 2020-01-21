@@ -556,7 +556,7 @@ collections:
       - {label: "Page Content", name: "body", widget: "markdown", required: false}
   - label: 'Blog Posts'
     name: 'blog'
-    folder: '_posts/current/blog'
+    folder: '_posts'
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
