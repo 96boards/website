@@ -4,7 +4,7 @@ layout: product-display-page
 shortname: aiml
 permalink: /product/aiml/
 description: |-
-    The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video and high processor requirements, including robotics local AI systems, monitoring and drones. 
+    The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video and high processor requirements, including robotics local AI systems, monitoring and drones.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, imx8, AI, processor, low cost, Product, Development, Platform
 display_product: true
@@ -82,13 +82,66 @@ product_kits:
     link: https://www.96boards.org/
 product: true
 archived: false
+
+dateAdded: 2020-01-20 09:00:00+00:00
+attributes:
+  - name: "SoC"
+    value: >-
+      NXP i.MX 8X
+  - name: "CPU"
+    value: >-
+      Arm A35 Quad-Core 64-bit @ 1.2 GHz <br> Cortex-M4F Core
+  - name: "GPU"
+    value: >-
+      1x 3D GPU Vivante® GC7000Lite
+  - name: "RAM"
+    value: >-
+      2 GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron
+  - name: "Storage"
+    value: >-
+      microSD Socket <br> 512 Mb NOR FLASH on Octal-SPI <br> 256 Kb EEPROM
+  - name: "Ethernet"
+    value: 10/100/1000 Mbit/s
+  - name: "Wireless"
+    value: >-
+      Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity
+  - name: "USB"
+    value: >-
+      Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed
+  - name: "Display"
+    value: >-
+      HDMI Output <br> Dual MIPI DSI Support
+  - name: "Expansion Interface"
+    value: >-
+      96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header
+  - name: "LED"
+    value: >-
+      4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay
+  - name: "Buttons"
+    value: >-
+      Power and Reset
+  - name: "Power"
+    value: >-
+      DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W
+  - name: "OS Support"
+    values:
+      - title: Linux
+  - name: "Other"
+    value: >
+      DSP -	Tensilica HiFi 4 DSP Core
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 85mm
+      - title: "length"
+        value: 100mm                                                                           
 ---
 
 ## Do More with i.MX 8X SoC
 The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
 
 ## Feel Secure with the i.MX 8X SoC
-The i.MX 8X SoC boasts a wide range of security features for ensuring device integrity, making it ideal for applications involving sensitive data (such as IoT). Security features built into the i.MX 8X include HAB, SRTC, TrustZone, SHA_256, 3DES, ARC4, MD5, Tamper and Inline Enc Engine.Connect to the World with the AI_ML When it comes to connectivity, the AI_ML demonstrates its dominance in the single-board computer market. One low-speed 40pin and one high-speed 60-pin connector allow the AI_ML to be easily expanded and connected to external circuitry and systems. 
+The i.MX 8X SoC boasts a wide range of security features for ensuring device integrity, making it ideal for applications involving sensitive data (such as IoT). Security features built into the i.MX 8X include HAB, SRTC, TrustZone, SHA_256, 3DES, ARC4, MD5, Tamper and Inline Enc Engine.Connect to the World with the AI_ML When it comes to connectivity, the AI_ML demonstrates its dominance in the single-board computer market. One low-speed 40pin and one high-speed 60-pin connector allow the AI_ML to be easily expanded and connected to external circuitry and systems.
 
 ***
 
