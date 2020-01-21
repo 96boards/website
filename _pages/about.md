@@ -130,7 +130,6 @@ flow:
                 url: /membership/
                 class: btn-primary
             title: Vendors
-            text: page_content
             text: >
 
                 **As a Vendor** you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
