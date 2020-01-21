@@ -625,6 +625,7 @@ collections:
     name: consumer_edition_products
     label_singular: 'Product'
     folder: _product/ce
+    create: true
     path: '{{shortname}}/README'
     media_folder: 'images'
     fields:
@@ -637,7 +638,7 @@ collections:
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
       - {label: Images, name: product_images, widget: image, required: true}
-      - {label: Permalink, name: permalink, widget: string, default: "/product/{{shortname}}"}
+      - {label: Permalink, name: permalink, widget: hidden, default: "/product/{{slug}}"}
       - label: Product Tab Menu
         name: tab_menu
         widget: list
