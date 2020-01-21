@@ -3,7 +3,11 @@ title: Bubblegum-96
 layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
-    Bubblegum-96 Board based on Actions Semi S900 Processor
+    The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
+    Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
+    The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity,
+    all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
+    In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
 display_product: true
 tab_menu:
     - tab_title: Bubblegum-96
@@ -14,48 +18,50 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/bubblegum96
       tab_align_right: true
-featured_product_order: 3
 product_specification: ce
 product_short_desc: Board based on Actions Semi S900 Processor
-product_long_desc: |-
-    The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
-    Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
-    The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity,
-    all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
-    In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output,
-    Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
 product_images:
   - 96b-0-bubblegum96-actions-ucrobotics-1.png
   - 96b-0-bubblegum96-actions-ucrobotics-4.png
   - 96b-0-bubblegum96-actions-ucrobotics-5.png
-product_os:
-  - title: Debian
-    link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
-product_third_party_images:
-  - title: Phoenix
-    link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
-  - title: Remix
-    link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
-  - title: Ubuntu Core
-    link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: Link Sprite
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Debian
+          link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Phoenix
+          link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+        - title: Remix
+          link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+        - title: Ubuntu Core
+          link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 product_buy_links:
   -
     link-title: Buy Bubblegum-96
@@ -64,9 +70,7 @@ product_buy_links:
     type: board
     link-price-currency: USD
     link-url: "https://linaro.co/bubblegum96-buy"
-is_featured: true
 product: true
-shortname: bubblegum-96
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 vendor:
@@ -129,11 +133,13 @@ packed into a board the size of a credit card. This board is expected to deliver
 
 In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM
 TrustZone® security support.
+
 ## Buy Now
 
 - [uCRobotics](http://linaro.co/bubblegum96-buy)
 
 ## Additional Information
+
 <div style="overflow-x:scroll;" markdown="1">
 
 |   Component          |   Description                                                                                          |
