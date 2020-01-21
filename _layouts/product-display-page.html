@@ -27,7 +27,7 @@ seo:
                         {% endif %}
                     </div>
                 </div>
-    
+
                 {% if page.product_buy_links %}
                 {% if page.out-of-stock == true %}
                     <ul class="list-group buy-links">
@@ -66,7 +66,7 @@ seo:
                     </ul>
                     {% endif %}
                 {% endif %}
-    
+
                 <!--Side Panel Start------------------------------->
                 <!-- {% if page.product_buy_links %}
                 <ul class="list-group">
@@ -80,7 +80,7 @@ seo:
                     {% endfor %}
                 </ul>
                 {% endif %} -->
-    
+
                 {% if page.product_video[0] %}
                     <div class="row">
                         <div class="embed-responsive embed-responsive-16by9">
@@ -101,7 +101,7 @@ seo:
                     </div>
                     <br />
                 {% endif %}
-    
+
                 {% if page.product_documents %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b title="Documents and Resources">Documents / Resources</b>
@@ -117,7 +117,7 @@ seo:
                     </ul>
                     <br />
                 {% endif %}
-    
+
                 {% if page.product_os %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b title="Operating Systems">OS</b>
@@ -132,8 +132,8 @@ seo:
                         {% endfor %}
                     </ul>
                 {% endif %}
-    
-    
+
+
                 {% if page.product_middleware %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b title="Operating Systems">Middleware & SDKS</b>
@@ -148,7 +148,7 @@ seo:
                         {% endfor %}
                     </ul>
                 {% endif %}
-    
+
                 {% if page.product_third_party_images %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active">
@@ -192,12 +192,12 @@ seo:
                     {% endfor %}
                     </ul>
                 {% endif %}
-    
+
                 {% if page.product_media_highlights %}
                 {% assign url-product-name = page.permalink | split: "/" %}
                 {% assign url-product-name = url-product-name[2] %}
-    
-                {% assign media-highlights = site.data.news.entries | where: "tag", url-product-name %}
+
+                {% assign media-highlights = site.data.news.items | where: "tag", url-product-name %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b>Media Highlights</b></li>
                             {% for info in media-highlights %}
@@ -216,7 +216,7 @@ seo:
             </div>
         </div><!-- end row-->
         <div class="row">
-    
+
         <div class="col-md-8">
             <!--Main Section Start---------------------------->
             {% if page.product_accessories %}
@@ -226,9 +226,9 @@ seo:
             {% elsif page.product_mezzanine %}
             <hr/>
             {% endif %}
-    
+
             <div class="row product-bottom-panel">
-    
+
                 {% if page.product_accessories %}
                 <div class="col-md-4">
                     <ul class="list-group" id="features-list">
@@ -241,7 +241,7 @@ seo:
                     </ul>
                 </div>
                 {% endif %}
-    
+
                 {% if page.product_mezzanine %}
                 <div class="col-md-4">
                     <ul class="list-group" id="features-list">
@@ -254,7 +254,7 @@ seo:
                     </ul>
                 </div>
                 {% endif %}
-    
+
                 {% if page.product_kits %}
                 <div class="col-md-4">
                     <ul class="list-group" id="features-list">
@@ -268,9 +268,8 @@ seo:
                 </div>
                 {% endif %}
             </div>
-            <!--Main Section END--------------------------->    
-        </div>    
+            <!--Main Section END--------------------------->
+        </div>
         </div>
     </div>
 </div>
-
