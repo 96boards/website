@@ -29,10 +29,6 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 3
       tab_align_right: true
-product_getting_started: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
-product_documentation_link: /documentation/consumer/dragonboard410c/
-product_tutorials_link: /tutorials/dragonboard410c/
-product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
 product_buy_links:
   -
     link-title: DragonBoard410c (Basic Kit)

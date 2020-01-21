@@ -2,6 +2,9 @@
 title: HiKey970
 layout: product-display-page
 permalink: /product/hikey970/
+product: true
+archived: false
+dateAdded: 2018-05-12 09:00:00+00:00
 ai_board: true
 ai_board_desc: >
     HiKey970 is one of the world‘s first edge AI developing platform with a dedicated Neural-network Processing Unit (NPU).
@@ -28,33 +31,39 @@ product_short_desc: "Board based on the HiSilicon Kirin 970"
 product_images:
   - hikey970-front-sd-min.png
   - hikey970-back-sd-min.png
-product_mezzanine:
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine/
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Case with Fan
-    link: http://smartfire.cn/thread-843-1-1.html
-product_os:
-  - title: Coming soon...
-product_third_party_images:
-  - title: AOSP
-    link: /documentation/consumer/hikey970/downloads/aosp.md.html
-  - title: Lubuntu (LeMaker Ubuntu)
-    link: http://www.lemaker.org/product-hikey970-download-84.html
-  - title: Lebian (LeMaker Debian)
-    link: http://www.lemaker.org/product-hikey970-download-85.html
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Case with Fan
+          link: http://smartfire.cn/thread-843-1-1.html
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine/
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+product_sidebar_sections:
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: AOSP
+          link: /documentation/consumer/hikey970/downloads/aosp.md.html
+        - title: Lubuntu (LeMaker Ubuntu)
+          link: http://www.lemaker.org/product-hikey970-download-84.html
+        - title: Lebian (LeMaker Debian)
+          link: http://www.lemaker.org/product-hikey970-download-85.html
 product_buy_links:
   -
     link-title: "Amazon"
@@ -105,10 +114,7 @@ product_buy_links:
     link-price-currency: INR
     from: fabtolab.com
     type: board
-product_support_link: "https://discuss.96boards.org/c/products/hikey970/"
-product: true
-archived: false
-dateAdded: 2018-05-12 09:00:00+00:00
+
 attributes:
   - name: "SoC"
     value: >-

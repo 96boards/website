@@ -27,8 +27,6 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/oxalis/
       tab_align_right: true
-product_getting_started: /documentation/enterprise/oxalis/getting-started/
-product_documentation_link: /documentation/enterprise/oxalis/
 product_buy_links:
   -
     link-title: Oxalis
@@ -37,34 +35,40 @@ product_buy_links:
     type: board
     link-price: "$440.33"
     link-price-currency: USD
-product_os:
-  - title: Linux
-    link: /documentation/enterprise/oxalis/downloads/
-product_third_party_images:
-  - title: Coming Soon...
-product_more_info:
-  - title: Oxalis (Arrow)
-    link: https://www.arrow.com/en/campaigns/arrow-oxalis
-  - title: Oxalis (Systart)
-    link: https://www.ebs-systart.com/oxalis
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-product_kits:
-  - title: Coming Soon...
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Linux
+          link: /documentation/enterprise/oxalis/downloads/
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Oxalis (Arrow)
+          link: https://www.arrow.com/en/campaigns/arrow-oxalis
+        - title: Oxalis (Systart)
+          link: https://www.ebs-systart.com/oxalis
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
 attributes:
   - name: "SoC"
     value: >-

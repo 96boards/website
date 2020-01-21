@@ -3,6 +3,9 @@ title: Qualcomm® Robotics RB3 Development Platform
 layout: product-display-page
 permalink: /product/rb3-platform/
 #Set this to true and the board will be visible on 96boards.ai
+product: true
+archived: false
+dateAdded: 2019-02-28 09:00:00+00:00
 ai_board: true
 ai_board_desc: >
     The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor.
@@ -21,7 +24,6 @@ product_images:
   - rb3-som-sd.jpg
   - rb3-acc1-sd.jpeg
   - rb3-acc2-sd.jpg
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: Qualcomm® Robotics RB3 Development Platform
       tab_link: /product/rb3-platform/
@@ -37,11 +39,6 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/dragonboard-845c
       tab_position: 4
       tab_align_right: true
-product_getting_started: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
-product_documentation_link: /documentation/consumer/dragonboard845c/
-product_support_link: "https://discuss.96boards.org/c/products/dragonboard-845c"
-
-# Buy Links
 product_buy_links:
   -
     link-title: Qualcomm® Robotics RB3 Development Platform (RB3 Kit)
@@ -50,51 +47,52 @@ product_buy_links:
     type: board
     link-price: "$449.99"
     link-price-currency: USD
-
-# Right Sidepanel links
-product_os:
-  - title: All Downloads
-    link: /documentation/consumer/dragonboard/dragonboard845c/downloads/
-
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.PDF
-  - title: Linux User Guide
-    link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf
-  - title: Engaget Article
-    link: https://www.engadget.com/2019/02/25/qualcomm-robotics-rb3-platform/
-  - title: Linux Gizmos Article
-    link: http://linuxgizmos.com/robotics-kit-runs-linux-on-new-dragonboard-845c-96boards-sbc/
-
-# Bottom Link
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-
-product_kits:
-  - title: RB3 Robotics Kit
-    link: https://www.thundercomm.com/app_en/product/1544580412842651
-product: true
-archived: false
-dateAdded: 2019-02-28 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: All Downloads
+          link: /documentation/consumer/dragonboard/dragonboard845c/downloads/
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.PDF
+        - title: Linux User Guide
+          link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf
+        - title: Engaget Article
+          link: https://www.engadget.com/2019/02/25/qualcomm-robotics-rb3-platform/
+        - title: Linux Gizmos Article
+          link: http://linuxgizmos.com/robotics-kit-runs-linux-on-new-dragonboard-845c-96boards-sbc/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+    - title: Kits
+      items:
+        - title: RB3 Robotics Kit
+          link: https://www.thundercomm.com/app_en/product/1544580412842651
 vendor:
   name: thundercomm
   url: https://www.thundercomm.com/app_en/product/1544580412842651

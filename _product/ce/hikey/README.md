@@ -42,38 +42,48 @@ product_images:
   - HiKey_LeMaker_angle3.jpg
   - HiKey_LeMaker_angle2.jpg
   - HiKey_LeMaker_angle.jpg
-product_mezzanine:
-  - title: LinkSprite
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_os:
-  - link: /documentation/consumer/hikey/downloads/aosp.md.html
-    title: AOSP
-  - link: /documentation/consumer/hikey/downloads/debian.md.html
-    title: Debian
-  - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
-    title: OpenEmbedded
-product_third_party_images:
-  - title: Fedora
-    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-product_more_info:
-  - title: DIY Root of Trust using ARM Trusted Firmware
-  - link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
-
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - link: /documentation/consumer/hikey/downloads/aosp.md.html
+          title: AOSP
+        - link: /documentation/consumer/hikey/downloads/debian.md.html
+          title: Debian
+        - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
+          title: OpenEmbedded
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Fedora
+          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
+    - title: More Info
+      items:
+        - title: DIY Root of Trust using ARM Trusted Firmware
+          link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 vendor:
   name: LeMaker
   url: http://www.lenovator.com/product/86.html

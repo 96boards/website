@@ -28,13 +28,16 @@ product_buy_links:
     link-title: "Amazon"
     link-url: "https://www.amazon.com/dp/B07RSWW429"
     link-price: ""
-product_os:
-  - title: Build from Source
-    link: /documentation/enterprise/akebi96/build/
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Build from Source
+          link: /documentation/enterprise/akebi96/build/
 ---
 High-definition, high-performance, low-cost TV systems are realized with the latest 4K/8K technology such as HDR processing. And by adding an 8K decoder externally, it can also be extended to an 8K TV system. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 
-***
+******
 
 ## Additional Information
 <div style="overflow-x:scroll;" markdown="1">

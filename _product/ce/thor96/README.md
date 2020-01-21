@@ -2,6 +2,8 @@
 title: Thor96
 layout: product-display-page
 permalink: /product/thor96/
+product: true
+archived: false
 description: |-
     The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
 keywords: |-
@@ -27,11 +29,6 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/
       tab_position: 4
       tab_align_right: true
-product_getting_started: /documentation/consumer/thor96/getting-started/
-product_documentation_link: /documentation/consumer/thor96/
-product_support_link: "https://discuss.96boards.org/c/products/"
-
-# Buy Links
 product_buy_links:
   -
     link-title: Thor96
@@ -40,46 +37,43 @@ product_buy_links:
     type: board
     link-price: "$368.25"
     link-price-currency: USD
-
-# Right Sidepanel links
-product_os:
-  - title: All Downloads
-    link: /documentation/consumer/thor96/downloads/
-
-product_more_info:
-  - title: Hardware User Manual
-    link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-hw-user-manual.pdf
-  - title: Schematics
-    link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
-
-# Bottom Link
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-
-product_kits:
-  - title: Coming Soon...
-    link: https://www.96boards.org/
-product: true
-archived: false
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: All Downloads
+          link: /documentation/consumer/thor96/downloads/
+    - title: More Info
+      items:
+        - title: Hardware User Manual
+          link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-hw-user-manual.pdf
+        - title: Schematics
+          link: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 ---
 
 The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.

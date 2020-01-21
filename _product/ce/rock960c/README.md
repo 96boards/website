@@ -8,6 +8,9 @@ keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, bo
 product_short_desc: "The Rock960c is a development board based on the RK3399 SoC"
 product_specification: ce
 display_product: true
+product: true
+archived: false
+dateAdded: 2019-01-17 09:00:00+00:00
 product_images:
   - rock960c-front-sd.png
   - rock960c-back-sd.png
@@ -33,45 +36,47 @@ product_buy_links:
     type: board
     link-price: "$69.00 / $79.00 / $99.00"
     link-price-currency: USD
-product_more_info:
-    - title: 96Rocks
-      link: https://www.96rocks.com/
-product_os:
-  - title: AOSP
-    link: /documentation/consumer/rock/downloads/android.md.html
-  - title: Debian
-    link: /documentation/consumer/rock/downloads/debian.md.html
-  - title: Ubuntu
-    link: /documentation/consumer/rock/downloads/ubuntu.md.html
-product_middleware:
-  - title: Coming Soon...
-product_third_party_images:
-  - title: Coming Soon...
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Coming Soon...
-product: true
-archived: false
-dateAdded: 2019-01-17 09:00:00+00:00
+
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: AOSP
+          link: /documentation/consumer/rock/downloads/android.md.html
+        - title: Debian
+          link: /documentation/consumer/rock/downloads/debian.md.html
+        - title: Ubuntu
+          link: /documentation/consumer/rock/downloads/ubuntu.md.html
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: 96Rocks
+          link: https://www.96rocks.com/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 attributes:
   - name: Wireless
     value: "WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas, optional IPEX antenna."

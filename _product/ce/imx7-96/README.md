@@ -7,6 +7,9 @@ description: |-
 display_product: true
 product_short_desc: The iMX7-96 Development Board is a 96Boards compliant CE board based on the i.MX7 series of SoCs.
 product_specification: ce
+product: true
+archived: false
+dateAdded: 2017-10-24 09:00:00+00:00
 product_images:
   - iMX7-96-front.jpg
   - iMX7-96-back.jpg
@@ -32,39 +35,45 @@ product_buy_links:
     type: board
     link-price: "$109.00"
     link-price-currency: USD
-product_os:
-  - title: Android
-    link: /documentation/consumer/imx7-96/downloads/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Basic Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
-  - title: Audio Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
-  - title: AWS IoT Kit
-    link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
-product: true
-archived: false
-dateAdded: 2017-10-24 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Android
+          link: /documentation/consumer/imx7-96/downloads/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
+    - title: Kits
+      items:
+        - title: Basic Kit
+          link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+        - title: Audio Kit
+          link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+        - title: AWS IoT Kit
+          link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
 attributes:
   - name: "SoC"
     value: >-

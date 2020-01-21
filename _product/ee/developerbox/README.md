@@ -42,34 +42,40 @@ product_buy_links:
     type: board
     link-price: "$462.00"
     link-price-currency: USD
-product_more_info:
-    - title: Socionext
-      link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
-product_os:
-  - title: EDK2 (Firmware)
-    link: /documentation/enterprise/developerbox/downloads/edk2.md.html
-  - title: Debian
-    link: /documentation/enterprise/developerbox/downloads/debian.md.html
-product_third_party_images:
-  - title: Coming Soon...
-product_accessories:
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Coming Soon...
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: EDK2 (Firmware)
+          link: /documentation/enterprise/developerbox/downloads/edk2.md.html
+        - title: Debian
+          link: /documentation/enterprise/developerbox/downloads/debian.md.html
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Socionext
+          link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 attributes:
   - name: "SoC"
     value: >-

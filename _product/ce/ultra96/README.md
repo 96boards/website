@@ -2,6 +2,9 @@
 title: Ultra96
 layout: product-display-page
 permalink: /product/ultra96/
+product: true
+archived: false
+dateAdded: 2018-03-18 09:00:00+00:00
 ai_board: true
 ai_board_desc: >
     Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
@@ -39,8 +42,6 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/ultra96/
       tab_align_right: true
-product_getting_started: /documentation/consumer/ultra96/ultra96-v2/getting-started/
-product_documentation_link: /documentation/consumer/ultra96/ultra96-v2/
 product_buy_links:
   -
     link-title: Ultra96-v2 Developer Board
@@ -49,58 +50,65 @@ product_buy_links:
     type: board
     link-price: "$249.00"
     link-price-currency: USD
-product_os:
-  - title: Linux
-    link: /documentation/consumer/ultra96/ultra96-v2/downloads/
-  - title: Xilinx PYNQ
-    link: http://www.pynq.io/board.html
-product_third_party_images:
-  - title: OpenSUSE
-    link: https://en.opensuse.org/HCL:Ultra96
-  - title: X-Ware
-    link: http://www.ultra96.org/node/26011
-product_more_info:
-  - title: Avnet Zedboard
-    link: http://zedboard.org/product/ultra96
-product_previous_version:
-    version: Ultra96 v1
-    links:
-      - title: View on Avnet
-        link: https://linaro.co/ultra96-vendor-avnet
-      - title: v1 Documentation
-        link: /documentation/consumer/ultra96/ultra96-v1/
-      - title: v1 Downloads
-        link: /documentation/consumer/ultra96/ultra96-v1/downloads/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-  - title: More...
-    link: /products/accessories/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: More...
-    link: /products/mezzanine/
-product_kits:
-  - title: Delta Camera Kit
-    link: /documentation/consumer/ultra96/ultra96-v2/kits/delta-camera.md.html
-  - title: More...
-    link: /documentation/consumer/ultra96/ultra96-v2/kits/
-product: true
-archived: false
-dateAdded: 2018-03-18 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Linux
+          link: /documentation/consumer/ultra96/ultra96-v2/downloads/
+        - title: Xilinx PYNQ
+          link: http://www.pynq.io/board.html
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: OpenSUSE
+          link: https://en.opensuse.org/HCL:Ultra96
+        - title: X-Ware
+          link: http://www.ultra96.org/node/26011
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Avnet Zedboard
+          link: http://zedboard.org/product/ultra96
+    - title: Ultra96 v1
+      items:
+        - title: View on Avnet
+          link: https://linaro.co/ultra96-vendor-avnet
+        - title: v1 Documentation
+          link: /documentation/consumer/ultra96/ultra96-v1/
+        - title: v1 Downloads
+          link: /documentation/consumer/ultra96/ultra96-v1/downloads/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: More...
+          link: /products/mezzanine/
+    - title: Kits
+      items:
+        - title: Delta Camera Kit
+          link: /documentation/consumer/ultra96/ultra96-v2/kits/delta-camera.md.html
+        - title: More...
+          link: /documentation/consumer/ultra96/ultra96-v2/kits/
 attributes:
   - name: "SoC"
     value: >-

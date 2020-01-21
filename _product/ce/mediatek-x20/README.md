@@ -30,27 +30,35 @@ product_images:
   - Helio-X20-back.png
   - Helio-X20-side-one.png
   - Helio-X20-side-two.png
-product_third_party_images:
-  - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
-    title: AOSP
-product_mezzanine:
-  - title: LinkSprite
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
+product_sidebar_sections:
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
+          title: AOSP
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 product_buy_links:
   -
     link-title: "Buy MediaTek X20"
