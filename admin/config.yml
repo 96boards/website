@@ -632,7 +632,7 @@ collections:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
       - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
-      - {label: Keywords, name: keywords, widget: list, default: ["Consumer Edition"], required: true}
+      - {label: Keywords, name: keywords, widget: list, default: ["Consumer Edition"], required: false}
       - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
       - {label: Images, name: product_images, widget: image, required: true}
       - label: 'Social Media Share Image'
@@ -679,6 +679,7 @@ collections:
              - {label: "Sub Attribute Value", name: "value", widget: string, required: false}
       - label: "Product Sidebar Sections"
         name: product_sidebar_sections
+        required: false
         widget: list
         fields:
           - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
@@ -700,6 +701,7 @@ collections:
               - {label: "Link", name: link, widget: string, required: false}
       - label: "Product Bottom Sections"
         name: product_bottom_section
+        required: false
         widget: list
         fields:
           - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
