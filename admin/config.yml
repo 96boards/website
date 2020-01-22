@@ -558,7 +558,7 @@ collections:
     name: 'blog'
     folder: '_posts'
     create: true
-    sort: "date:desc" # Default is title:asc
+    sort: "date:asc"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: "/blog/{{title}}/"
     description: >
