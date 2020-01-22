@@ -639,10 +639,10 @@ collections:
       - {label: Images, name: product_images, widget: image, required: true}
       - label: 'Social Media Share Image'
         name: 'image'
-        widget: 'image'
-        hint: "This is the image that will appear when sharing your product page on social media channels."
+        widget: 'string'
+        hint: "This is path to the image that will appear when sharing your product page on social media channels."
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
-        required: true
+        required: false
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
       - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
       - {label: Shortname, name: shortname, widget: hidden, default: "{{slug}}", required: true}
@@ -656,7 +656,7 @@ collections:
         required: false
         fields:
           - {label: Video URL, name: url, widget: string, hint: "The embed URL for the YouTube video i.e https://www.youtube.com/embed/nosQO0K60YM?feature=oembed"}
-      - {label: AI Board, name: ai_board, widget: boolean, default: false, hint: "Toggle if this board has AI capabilities.", required: true}
+      - {label: AI Board, name: ai_board, widget: boolean, default: false, hint: "Toggle if this board has AI capabilities.", required: false}
       - label: Product Tab Menu
         name: tab_menu
         widget: list
