@@ -26,7 +26,6 @@ tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/dragonboard820c/
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
       tab_position: 4
