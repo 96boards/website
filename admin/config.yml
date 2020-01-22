@@ -722,7 +722,7 @@ collections:
         hint: "The main board vendor"
         required: false
         fields:
-         - {label: "Name", name: "name", widget: string, required: true}
+         - {label: "Name", name: "name", widget: string, required: false}
          - {label: "Website", name: "url", widget: string, required: false}
       - label: Buy Links
         name: product_buy_links
