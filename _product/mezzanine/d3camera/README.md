@@ -31,8 +31,8 @@ product_sidebar_sections:
         - title: "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
         - title: "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
 product_video:
-    - https://www.youtube.com/embed/nosQO0K60YM?feature=oembed
-    - https://www.youtube.com/embed/1gpMbZf4x8w?feature=oembed
+    - url: https://www.youtube.com/embed/nosQO0K60YM?feature=oembed
+    - url: https://www.youtube.com/embed/1gpMbZf4x8w?feature=oembed
 product_buy_links:
   -
     link-title: Arrow Electronics

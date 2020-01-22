@@ -13,7 +13,7 @@ product: true
 archived: false
 dateAdded: 2017-08-02 09:00:00+00:00
 product_video:
-- https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
+- url: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
 tab_menu:
     - tab_title: HiKey 960
       tab_link: /product/hikey960/

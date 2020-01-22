@@ -75,7 +75,7 @@ product_buy_links:
     link-title: Arrow
     link-url: https://linaro.co/aerocore2-buy-arrow
 product_video:
-  - https://www.youtube.com/embed/LIH0tpi9KwE
+  - url: https://www.youtube.com/embed/LIH0tpi9KwE
 attributes:
   - name: "SoC"
     value: >-
