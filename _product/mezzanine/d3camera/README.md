@@ -3,6 +3,7 @@ title: D3Camera
 layout: product-display-page
 permalink: /product/d3camera/
 product: true
+shortname: d3camera
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

@@ -3,6 +3,7 @@ title: Parrot
 layout: product-display-page
 permalink: /product/parrot/
 product: true
+shortname: parrot
 archived: false
 dateAdded: 2018-12-05 09:00:00+00:00
 description: |-

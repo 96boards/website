@@ -3,6 +3,7 @@ title: Nitrogen
 layout: product-display-page
 permalink: /product/nitrogen/
 display_product: true
+shortname: nitrogen
 product_specification: ie
 product: true
 archived: false

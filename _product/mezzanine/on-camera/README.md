@@ -3,6 +3,7 @@ title: On Camera Mezzanine
 layout: product-display-page
 permalink: /product/on-camera/
 archived: false
+shortname: on-camera
 display_product: true
 product_specification: "mezzanine"
 product: true

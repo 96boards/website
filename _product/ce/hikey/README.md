@@ -7,6 +7,7 @@ description: |-
 display_product: true
 product: true
 archived: false
+shortname: hikey
 dateAdded: 2017-08-02 09:00:00+00:00
 product_specification: ce
 product_short_desc: Board based on HiSilicon Kirin 6220 processor

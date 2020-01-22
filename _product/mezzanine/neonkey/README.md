@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/neonkey/
 product: true
 archived: false
+shortname: neonkey
 dateAdded: 2017-07-24 09:00:00+00:00
 description: |-
     96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.

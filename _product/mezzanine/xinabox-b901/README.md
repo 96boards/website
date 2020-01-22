@@ -5,6 +5,7 @@ permalink: /product/xinabox-b901/
 product: true
 archived: false
 display_product: true
+shortname: xinabox-b901
 dateAdded: 2018-06-28 09:00:00+00:00
 product_specification: "mezzanine"
 description: |-

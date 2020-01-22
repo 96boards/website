@@ -5,6 +5,7 @@ permalink: /product/ultra96/
 product: true
 archived: false
 dateAdded: 2018-03-18 09:00:00+00:00
+shortname: ultra96
 ai_board: true
 ai_board_desc: >
     Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.

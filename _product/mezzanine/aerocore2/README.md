@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/aerocore2/
 product: true
 archived: false
+shortname: aerocore2
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.

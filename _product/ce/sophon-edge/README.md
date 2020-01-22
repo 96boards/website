@@ -6,6 +6,7 @@ product: true
 archived: false
 dateAdded: 2018-04-05 09:00:00+00:00
 ai_board: true
+shortname: sophon-edge
 ai_board_desc: >
     The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development.
 description: |-

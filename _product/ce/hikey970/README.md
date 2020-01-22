@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/hikey970/
 product: true
 archived: false
+shortname: hikey970
 dateAdded: 2018-05-12 09:00:00+00:00
 ai_board: true
 ai_board_desc: >

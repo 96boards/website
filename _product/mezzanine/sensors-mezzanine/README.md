@@ -3,6 +3,7 @@ title: Sensors
 layout: product-display-page
 permalink: /product/sensors-mezzanine/
 product: true
+shortname: sensors-mezzanine
 archived: false
 dateAdded: 2017-07-06 09:00:00+00:00
 product_specification: "mezzanine"

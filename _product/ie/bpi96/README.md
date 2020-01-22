@@ -2,6 +2,7 @@
 title: BPi96 NB-IoT
 layout: product-display-page
 product: true
+shortname: bpi96
 archived: false
 dateAdded: 2018-05-24 09:00:00+00:00
 permalink: /product/bpi96/

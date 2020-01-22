@@ -3,6 +3,7 @@ title: WisTrio
 layout: product-display-page
 permalink: /product/wistrio/
 product: true
+shortname: wistrio
 archived: false
 dateAdded: 2018-11-27 09:00:00+00:00
 description: |-

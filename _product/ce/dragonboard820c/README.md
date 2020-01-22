@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/dragonboard820c/
 product: true
 archived: false
+shortname: dragonboard820c
 dateAdded: 2018-02-19 09:00:00+00:00
 display_product: true
 description: |-

@@ -3,6 +3,7 @@ title: Oxalis
 layout: product-display-page
 permalink: /product/oxalis/
 product: true
+shortname: oxalis
 archived: false
 dateAdded: 2018-12-05 09:00:00+00:00
 description: |-

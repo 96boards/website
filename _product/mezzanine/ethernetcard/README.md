@@ -3,6 +3,7 @@ title: Ethernet Card
 layout: product-display-page
 permalink: /product/ethernetcard/
 product: true
+shortname: ethernetcard
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

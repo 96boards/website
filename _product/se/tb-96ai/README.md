@@ -3,6 +3,7 @@ title: TB-96AI
 layout: product-display-page
 product: true
 archived: false
+shortname: tb-96ai
 dateAdded: 2019-06-13 09:00:00+00:00
 permalink: /product/tb-96ai/
 description: |-

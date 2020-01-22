@@ -6,6 +6,7 @@ description: |-
     Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
 display_product: true
 product: true
+shortname: poplar-hoperun
 archived: false
 dateAdded: 2018-05-15 09:00:00+00:00
 tab_menu:

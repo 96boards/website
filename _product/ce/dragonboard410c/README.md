@@ -3,6 +3,7 @@ title: DragonBoard™ 410c
 layout: product-display-page
 permalink: /product/dragonboard410c/
 product: true
+shortname: dragonboard410c
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

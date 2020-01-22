@@ -3,6 +3,7 @@ title: Shiratech FPGA Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-fpga/
 display_product: true
+shortname: shiratech-fpga
 archived: false
 dateAdded: 2018-12-30 09:00:00+00:00
 description: |-

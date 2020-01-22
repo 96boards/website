@@ -6,6 +6,7 @@ product: true
 display_product: true
 product_specification: ce
 archived: false
+shortname: avenger96
 dateAdded: 2019-04-24 09:00:00+00:00
 description: |-
     The STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things. Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays an MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE.

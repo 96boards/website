@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/orangepi-i96/
 display_product: true
 product_specification: ie
+shortname: orangepi-i96
 product: true
 archived: false
 dateAdded: 2017-08-01 09:00:00+00:00

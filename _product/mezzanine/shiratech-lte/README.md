@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/shiratech-lte/
 product_specification: "mezzanine"
 archived: false
+shortname: shiratech-lte
 dateAdded: 2018-05-01 09:00:00+00:00
 product: true
 display_product: true

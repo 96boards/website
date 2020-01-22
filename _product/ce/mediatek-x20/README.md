@@ -3,6 +3,7 @@ title: Mediatek X20 Development Board
 layout: product-display-page
 permalink: /product/mediatek-x20/
 product: true
+shortname: mediatek-x20
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

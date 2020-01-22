@@ -13,6 +13,7 @@ product_short_desc: "The 96Boards SoM Carrier Board is an interface debugging an
 product_specification: se
 product_sub_specification: carrier
 product: true
+shortname: 96boards-som-carrier-board
 archived: false
 dateAdded: 2019-06-13 09:00:00+00:00
 product_images:

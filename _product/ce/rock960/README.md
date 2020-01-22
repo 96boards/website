@@ -3,6 +3,7 @@ title: Rock960 (Vamrs)
 layout: product-display-page
 permalink: /product/rock960/
 product: true
+shortname: rock960
 archived: false
 dateAdded: 2018-04-05 09:00:00+00:00
 ai_board: true

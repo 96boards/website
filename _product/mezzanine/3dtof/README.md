@@ -3,6 +3,7 @@ title: Analog Devices 3D Time Of Flight Mezzanine Stack
 layout: product-display-page
 permalink: /product/3dtof/
 product: true
+shortname: 3dtof
 archived: false
 description: |-
     3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications.

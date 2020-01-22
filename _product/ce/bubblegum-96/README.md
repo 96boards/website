@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/bubblegum-96/
 product: true
 archived: false
+shortname: bubblegum-96
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,

@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/audio-mezzanine/
 product: true
 archived: false
+shortname: audio-mezzanine
 dateAdded: 2017-07-06 09:00:00+00:00
 description: |-
     The 96Boards Sensors starter kit contains everything you need to wire up sensors and devices to a 96Boards single board computer. It contains the 96Boards Sensors mezzanine board with a selection of Grove modules that you can use to start experimenting and prototyping with the 96Boards platform.

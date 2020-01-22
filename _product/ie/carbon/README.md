@@ -3,6 +3,7 @@ title: Carbon
 layout: product-display-page
 permalink: /product/carbon/
 product: true
+shortname: carbon
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

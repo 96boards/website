@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/hikey-circuitco/
 product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 product: true
+shortname: hikey-circuitco
 product_specification: ce
 archived: true
 description: |-

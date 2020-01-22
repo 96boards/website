@@ -3,6 +3,7 @@ title: Akebi96
 layout: product-display-page
 permalink: /product/akebi96/
 product: true
+shortname: akebi96
 archived: false
 description: |-
     High-definition, high-performance, low-cost TV systems are realized with the latest 4K/8K technology such as HDR processing. And by adding an 8K decoder externally, it can also be extended to an 8K TV system.

@@ -3,6 +3,7 @@ title: Shiratech LTE CAT-M1/NB1 Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-nb1/
 display_product: true
+shortname: shiratech-nb1
 product_specification: "mezzanine"
 archived: false
 dateAdded: 2019-01-26 09:00:00+00:00

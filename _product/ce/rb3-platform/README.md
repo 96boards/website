@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/rb3-platform/
 #Set this to true and the board will be visible on 96boards.ai
 product: true
+shortname: rb3-platform
 archived: false
 dateAdded: 2019-02-28 09:00:00+00:00
 ai_board: true

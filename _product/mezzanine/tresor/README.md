@@ -2,8 +2,8 @@
 title: Tresor Mezzanine
 layout: product-display-page
 permalink: /product/tresor/
-shortname: tresor
 archived: false
+shortname: tresor
 product_specification: "mezzanine"
 product: true
 display_product: true

@@ -3,6 +3,7 @@ title: Developerbox (Socionext)
 layout: product-display-page
 permalink: /product/developerbox/
 product: true
+shortname: developerbox
 archived: false
 dateAdded: 2018-05-01 09:00:00+00:00
 description: |-

@@ -4,6 +4,7 @@ layout: product-display-page
 display_product: true
 product_specification: ie
 product: true
+shortname: 4iot
 archived: false
 dateAdded: 2018-05-26 09:00:00+00:00
 permalink: /product/4iot/

@@ -3,6 +3,7 @@ title: Link Sprite
 layout: product-display-page
 permalink: /product/linkspritesensorkit/
 product: true
+shortname: linkspritesensorkit
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-

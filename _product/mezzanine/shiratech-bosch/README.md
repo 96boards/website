@@ -3,6 +3,7 @@ title: Shiratech Bosch Sensor Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-bosch/
 display_product: true
+shortname: shiratech-bosch
 archived: false
 dateAdded: 2019-02-13 09:00:00+00:00
 description: |-

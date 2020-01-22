@@ -8,6 +8,7 @@ keywords: processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, bo
 product_short_desc: "The Rock960c is a development board based on the RK3399 SoC"
 product_specification: ce
 display_product: true
+shortname: rock960c
 product: true
 archived: false
 dateAdded: 2019-01-17 09:00:00+00:00

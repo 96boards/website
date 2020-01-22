@@ -4,6 +4,7 @@ layout: product-display-page
 permalink: /product/uartserial/
 product_specification: "mezzanine"
 product: true
+shortname: uartserial
 archived: false
 dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
