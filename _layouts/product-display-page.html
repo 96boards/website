@@ -84,9 +84,9 @@ seo:
                             </li>
                             {% for item in section.items %}
                                 <li class="list-group-item">
-                                    <a href="{{ item.link }}">
+                                    {% if item.link %}<a href="{{ item.link }}">{% endif %}
                                         <span class="text-left">{{ item.title }}</span>
-                                    </a>
+                                    {% if item.link %}</a>{% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
