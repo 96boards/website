@@ -20,30 +20,34 @@ product_specification: "mezzanine"
 product_short_desc: "3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications."
 product_images:
   - 3dtof-side.jpg
-mezzanine_features:
- - 96Boards mezzanine card stack
- - DragonBoard 410C support
- - 6m range, up to 1% accuracy
- - Finisar 940 nm wavelength VCSEL, up to 40W output
- - VGA resolution up to 30fps
- - 90° x 69.2° FOV
- - CCD sensor, 640x480
- - USB, Ethernet or Wi-Fi to connect to a host computer
- - 13.8mm removeable lens
- - V4L2 capture driver
- - Native/Host SDK
- - Support for multiple host OSs: Linux, Windows, MacOS
- - OpenCV, python and MATLAB wrapper support
- - Evaluation software plus limited demo applications and algorithms included
- - Depth mode, IR mode
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: 96Boards mezzanine card stack
+        - title: DragonBoard 410C support
+        - title: 6m range, up to 1% accuracy
+        - title: Finisar 940 nm wavelength VCSEL, up to 40W output
+        - title: VGA resolution up to 30fps
+        - title: 90° x 69.2° FOV
+        - title: CCD sensor, 640x480
+        - title: USB, Ethernet or Wi-Fi to connect to a host computer
+        - title: 13.8mm removable lens
+        - title: V4L2 capture driver
+        - title: Native/Host SDK
+        - title: "Support for multiple host OSs: Linux, Windows, MacOS"
+        - title: OpenCV, python and MATLAB wrapper support
+        - title: Evaluation software plus limited demo applications and algorithms included
+        - title: Depth mode, IR mode
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
+        - title: Wiki
+          link: https://wiki.analog.com/resources/eval/user-guides/ad-96tof1-ebz
 product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf
-  - title: Wiki
-    link: https://wiki.analog.com/resources/eval/user-guides/ad-96tof1-ebz
 ---
 
 ## Analog Devices 3D Time Of Flight Mezzanine Stack

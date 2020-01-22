@@ -26,13 +26,16 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-bosch/shiratech"
-product_more_info:
-  - title: Product Brief
-    link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-quick-start.pdf
-  - title: User Manual
-    link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-user-manual.pdf
-  - title: Shiratech Solutions
-    link: http://www.shiratech-solutions.com/products/bosch-sensor/
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-quick-start.pdf
+        - title: User Manual
+          link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-user-manual.pdf
+        - title: Shiratech Solutions
+          link: http://www.shiratech-solutions.com/products/bosch-sensor/
 attributes:
   - name: "Sensors"
     value: >

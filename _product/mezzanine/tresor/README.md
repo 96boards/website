@@ -27,11 +27,14 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/tresor/arrow-development-tools"
-product_more_info:
-  - title: Datasheet
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-datasheet.pdf/
-  - title: User Guide
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-user-guide.pdf/
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Datasheet
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-datasheet.pdf/
+        - title: User Guide
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-user-guide.pdf/
 attributes:
   - name: "SoC"
     value: >-

@@ -26,11 +26,16 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-fpga/shiratech"
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
-  - title: Shiratech
-    link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
+
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
+        - title: Shiratech
+          link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
+
 attributes:
   - name: "SoC"
     value: >-

@@ -34,10 +34,12 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/stm32-mezzanine-board
-product_more_info:
-  - title: Read More on ST.com
-    link: http://linaro.co/stm32f446
-
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Read More on ST.com
+          link: http://linaro.co/stm32f446
 attributes:
   - name: "SoC"
     value: >-

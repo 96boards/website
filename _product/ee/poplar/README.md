@@ -25,14 +25,17 @@ product_images:
   - Poplar-Board-Front-Web-500x330.jpg
   - Poplar-Board-Side-Web-500x330.jpg
   - Poplar-Board-Back-Web-500x330.jpg
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Build from Source
+          link: /documentation/enterprise/poplar/build/
 product_buy_links:
   -
     link-title: "Aliexpress"
     link-url: "https://linaro.co/poplar-ali"
     link-price: "$79.00"
-product_os:
-  - title: Build from Source
-    link: /documentation/enterprise/poplar/build/
 attributes:
   - name: "SoC"
     value: >-

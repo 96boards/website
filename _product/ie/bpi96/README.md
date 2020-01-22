@@ -39,9 +39,12 @@ product_buy_links:
     link-title: "BPi NB-IoT (FabToLab)"
     link-price: ₹3,465
     link-url: "https://www.fabtolab.com/boards/96boards/orange-pi-i96"
-product_os:
-  - title: Explore
-    link: /documentation/iot/bpi96/downloads/
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Explore
+          link: /documentation/iot/bpi96/downloads/
 attributes:
   - name: "SoC"
     value: >-

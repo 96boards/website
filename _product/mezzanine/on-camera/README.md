@@ -26,12 +26,14 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/oncameramezzaninear1337/arrow-development-tools"
-product_more_info:
-  - title: Product Brief
-    link: /documentation/mezzanine/on-camera/files/on-camera-quick-start.pdf
-  - title: Explore MM-Solution
-    link: https://www.mm-sol.com/
-
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: /documentation/mezzanine/on-camera/files/on-camera-quick-start.pdf
+        - title: Explore MM-Solution
+          link: https://www.mm-sol.com/
 attributes:
   - name: "Camera"
     value: >-

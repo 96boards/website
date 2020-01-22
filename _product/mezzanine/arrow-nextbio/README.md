@@ -28,11 +28,14 @@ product_buy_links:
 -
   link-title: Arrow
   link-url: "https://www.arrow.com/en/products/nbdk-2023-s2-vaix-db/next-biometrics-group-asa"
-product_more_info:
-- title: Product Brief
-  link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf
-- title: User Guide
-  link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/nbdk-2023-s2-vaix-db-development-kit-user-guide-v1.2.pdf
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf
+        - title: User Guide
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/nbdk-2023-s2-vaix-db-development-kit-user-guide-v1.2.pdf
 attributes:
   - name: "SoC"
     value: >-

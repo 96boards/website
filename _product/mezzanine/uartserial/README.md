@@ -9,7 +9,6 @@ dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 display_product: true
-product_support_link: https://discuss.96boards.org/c/products/mezzanine
 tab_menu:
   - tab_title: UART Serial
     tab_link: /product/uartserial/
@@ -30,17 +29,32 @@ product_images:
   - UARTplugIMG_3673.jpg
   - 96boards-uarts-seed4-crop.jpg
   - 96boards-uarts-seed4.jpg
-mezzanine_features:
-  - Attaches to 96Boards low-speed (LS) expansion connector
-  - FT230X USB to UART adapter chip
-  - USB bus powered. Doesn’t disconnect when base board power is cycled
-  - Switchable between LS UART0 and UART1. (UART1 is the default console)
-  - CTS/RTS with using UART0
-  - TX and RX LEDs
-  - Remote control of baseboard reset and power signals
-  - Base board reset button
-  - TX and RX LEDs
-  - User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: Attaches to 96Boards low-speed (LS) expansion connector
+        - title: FT230X USB to UART adapter chip
+        - title: USB bus powered. Doesn’t disconnect when base board power is cycled
+        - title: Switchable between LS UART0 and UART1. (UART1 is the default console)
+        - title: CTS/RTS with using UART0
+        - title: TX and RX LEDs
+        - title: Remote control of baseboard reset and power signals
+        - title: Base board reset button
+        - title: TX and RX LEDs
+        - title: User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
+    - title: Product Includes
+      items:
+        - title: 1 x  96Boards UART (96B-05UART-V1.1)
+        - title: 2 x 2mm shunts
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: User Guide
+          link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
+        - title: Schematic
+          link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart.pdf
+        - title: GitHub
+          link: https://github.com/96boards/96boards-uart
 product_buy_links:
   -
     link-title: Seeed
@@ -48,21 +62,6 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/96boards-UART
-product_more_info:
-  - title: User Guide
-    link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
-  - title: Schematic
-    link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart.pdf
-  - title: GitHub
-    link: https://github.com/96boards/96boards-uart
-product_bottom_text: |-
-    The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
-product_includes:
-  - quantity: 1
-    name: 96Boards UART
-    id: 96B-05UART-V1.1
-  - quantity: 2
-    name: 2mm shunts
 attributes:
   - name: "SoC"
     value: >-

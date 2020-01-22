@@ -12,13 +12,15 @@ product_specification: "mezzanine"
 product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 product_images:
   - "audio-mezzanine.png"
-mezzanine_features:
-  - "6 x On-board Grove connector"
-  - "USB to UART conversion for access to the 410c system console."
-  - "Access to the Analog Audio on the 410c board"
-  - "Access to the low-speed expansion connector"
-  - "Power and Reset/Volume down buttons"
-  - "Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB"
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: "6 x On-board Grove connector"
+        - title: "USB to UART conversion for access to the 410c system console."
+        - title: "Access to the Analog Audio on the 410c board"
+        - title: "Access to the low-speed expansion connector"
+        - title: "Power and Reset/Volume down buttons"
+        - title: "Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB"
 product_buy_links:
   -
     link-title: Arrow Electronics

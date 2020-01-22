@@ -29,8 +29,6 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/wistrio/
     tab_position: 4
     tab_align_right: true
-product_getting_started: /documentation/iot/wistrio/getting-started/
-product_documentation_link: /documentation/iot/wistrio/
 product_buy_links:
   -
     link-title: WisTrio
@@ -39,21 +37,27 @@ product_buy_links:
     type: board
     link-price: "$49.50"
     link-price-currency: USD
-product_os:
-  - title: Explore
-    link: /documentation/iot/wistrio/downloads/
-product_more_info:
-  - title: RAK Wireless
-    link: https://www.rakwireless.com/
-  - title: WisTrio Beta
-    link: https://www.rakwireless.com/en/beta-wistrio
-product_accessories:
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_kits:
-  - title: Coming Soon...
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Explore
+          link: /documentation/iot/wistrio/downloads/
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: RAK Wireless
+          link: https://www.rakwireless.com/
+        - title: WisTrio Beta
+          link: https://www.rakwireless.com/en/beta-wistrio
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
 attributes:
   - name: "SoC"
     value: >-

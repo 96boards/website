@@ -4,6 +4,9 @@ layout: product-display-page
 permalink: /product/orangepi-i96/
 display_product: true
 product_specification: ie
+product: true
+archived: false
+dateAdded: 2017-08-01 09:00:00+00:00
 product_short_desc: "Cortex-A5 chip with 96Boards IE Specification"
 description: |-
     The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
@@ -29,20 +32,20 @@ product_buy_links:
     link-title: "Orange Pi i96 (Ali Express)"
     link-price: $8.80
     link-url: "https://linaro.co/orangepi-i96-buy"
-product_os:
-  - title: Debian
-    link: /documentation/iot/orangepi-i96/downloads/
-  - title: Ubuntu Server
-    link: /documentation/iot/orangepi-i96/downloads/
-  - title: Android Nand
-    link: /documentation/iot/orangepi-i96/downloads/
-  - title: Android Tcard
-    link: /documentation/iot/orangepi-i96/downloads/
-  - title: Raspbian Server
-    link: /documentation/iot/orangepi-i96/downloads/
-product: true
-archived: false
-dateAdded: 2017-08-01 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Debian
+          link: /documentation/iot/orangepi-i96/downloads/
+        - title: Ubuntu Server
+          link: /documentation/iot/orangepi-i96/downloads/
+        - title: Android Nand
+          link: /documentation/iot/orangepi-i96/downloads/
+        - title: Android Tcard
+          link: /documentation/iot/orangepi-i96/downloads/
+        - title: Raspbian Server
+          link: /documentation/iot/orangepi-i96/downloads/
 attributes:
   - name: "SoC"
     value: >-

@@ -12,6 +12,9 @@ display_product: true
 product_short_desc: "The 96Boards SoM Carrier Board is an interface debugging and testing carrier board."
 product_specification: se
 product_sub_specification: carrier
+product: true
+archived: false
+dateAdded: 2019-06-13 09:00:00+00:00
 product_images:
   - SoM-Carrier-Board-Front.png
   - SoM-Carrier-Board-Rear.png
@@ -38,16 +41,16 @@ product_buy_links:
     type: board
     link-price: "125.00"
     link-price-currency: USD
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
-  - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
-  - title: Beiqi Cloud
-    link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
-product: true
-archived: false
-dateAdded: 2019-06-13 09:00:00+00:00
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
+        - title: Schematics
+        - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
+        - title: Beiqi Cloud
+          link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
 vendor:
   name: BeiqiCloud
   url: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard

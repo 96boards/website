@@ -25,11 +25,14 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/aiva-96/wizeiot-inc"
-product_more_info:
-  - title: Product Brief
-    link: /documentation/mezzanine/aiva-96/files/aiva96-brief.pdf
-  - title: Explore WizeIoT
-    link: https://wizeiot.com/
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: /documentation/mezzanine/aiva-96/files/aiva96-brief.pdf
+        - title: Explore WizeIoT
+          link: https://wizeiot.com/
 archived: false
 ---
 

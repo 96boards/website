@@ -14,18 +14,21 @@ product_images:
   - "Camera_Mezzanine_Board_OV5640_front.jpg"
   - "Camera Mezzanine Board OV5640_back.jpg"
   - "D3-DesignCore.jpg"
-product_documents:
-    - title: D3 Engineering website
-      link: http://www.d3engineering.com/solutions/embedded-vision
-    - title: D3 DesignCore Mezzanine Wiki
-      link: https://github.com/D3Engineering/410c_camera_support/wiki
-    - title: Data Sheet
-      link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
-    - title: Quickstart Guide and Schematics
-      link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
-mezzanine_features:
-  - "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
-  - "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
+product_sidebar_sections:
+    - title: Documents
+      items:
+        - title: D3 Engineering website
+          link: http://www.d3engineering.com/solutions/embedded-vision
+        - title: D3 DesignCore Mezzanine Wiki
+          link: https://github.com/D3Engineering/410c_camera_support/wiki
+        - title: Data Sheet
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
+        - title: Quickstart Guide and Schematics
+          link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+    - title: Features
+      items:
+        - title: "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
+        - title: "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
 product_video:
     - https://www.youtube.com/embed/nosQO0K60YM?feature=oembed
     - https://www.youtube.com/embed/1gpMbZf4x8w?feature=oembed

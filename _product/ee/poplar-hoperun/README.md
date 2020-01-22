@@ -29,9 +29,12 @@ product_buy_links:
     link-title: "HiHope"
     link-url: "http://www.hihope.org/product/detail/poplar"
     link-price: "￥800.0"
-product_os:
-  - title: Build from Source
-    link: /documentation/enterprise/poplar-hoperun/build/
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Build from Source
+          link: /documentation/enterprise/poplar-hoperun/build/
 attributes:
   - name: "SoC"
     value: >-

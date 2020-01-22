@@ -28,11 +28,13 @@ product_buy_links:
   -
     link-title: Avnet (Bundle)
     link-url: "http://avnet.me/click-mezz-bundle"
-product_more_info:
-  - title: Product Brief
-    link: /documentation/mezzanine/click-mezz/files/click-brief.pdf
-  - title: Explore Avnet
-    link: https://www.avnet.com/
+product_sidebar_sections:
+    - title: More Info
+      items:
+        - title: Product Brief
+          link: /documentation/mezzanine/click-mezz/files/click-brief.pdf
+        - title: Explore Avnet
+          link: https://www.avnet.com/
 archived: false
 ---
 

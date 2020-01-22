@@ -33,9 +33,12 @@ product_buy_links:
     link-title: "Buy Carbon (FabToLab)"
     link-price: ₹2,985.00
     link-url: "https://www.fabtolab.com/boards/96boards/ble-carbon"
-product_os:
-  - title: Zephyr
-    link: /documentation/iot/carbon/downloads/zephyr.md.html
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Zephyr
+          link: /documentation/iot/carbon/downloads/zephyr.md.html
 attributes:
   - name: "SoC"
     value: >-

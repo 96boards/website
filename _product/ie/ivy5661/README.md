@@ -29,8 +29,6 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/ivy5661/
     tab_position: 4
     tab_align_right: true
-product_getting_started: /documentation/iot/ivy5661/getting-started/
-product_documentation_link: /documentation/iot/ivy5661/
 product_buy_links:
   -
     link-title: Ivy5661
@@ -39,27 +37,33 @@ product_buy_links:
     type: board
     link-price: "$35.00"
     link-price-currency: USD
-product_os:
-  - title: Explore
-    link: /documentation/iot/ivy5661/downloads/
-product_more_info:
-  - title: More Information
-    link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
-  - title: Schematics
-    link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-schematics.pdf
-  - title: UDP5661 Product Brief
-    link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
-  - title: Zephyr Github
-    link: https://github.com/zephyrproject-rtos/meta-zephyr-sdk
-  - title: Unisoc Github
-    link: https://unisoc.github.io/unisoc.github.io/
-product_accessories:
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_kits:
-  - title: Coming Soon...
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Explore
+          link: /documentation/iot/ivy5661/downloads/
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: More Information
+          link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
+        - title: Schematics
+          link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-schematics.pdf
+        - title: UDP5661 Product Brief
+          link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
+        - title: Zephyr Github
+          link: https://github.com/zephyrproject-rtos/meta-zephyr-sdk
+        - title: Unisoc Github
+          link: https://unisoc.github.io/unisoc.github.io/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
 attributes:
   - name: "SoC"
     value: >-

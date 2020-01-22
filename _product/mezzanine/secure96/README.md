@@ -38,15 +38,18 @@ product_buy_links:
     type: board
     link-price-currency: USD
     link-url: "https://www.devestimator.com/hihope/product/secure-96/"
-product_more_info:
-  - title: Schematics (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Schematics (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Getting Started Guide (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
-  - title: Getting Started Guide (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Schematics (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Schematics (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Getting Started Guide (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+        - title: Getting Started Guide (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
 attributes:
   - name: "SoC"
     value: >-

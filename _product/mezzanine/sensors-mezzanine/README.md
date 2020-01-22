@@ -23,18 +23,6 @@ product_images:
     - 96Boards-Sensors-2.jpg
     - 96Boards-Sensors-3.jpg
     - 96Boards-Sensors-1.jpg
-mezzanine_features:
-  - "Compatible with 96Boards ce and EE baseboards"
-  - "Integrated Arduino-compatible ATMEGA328 microcontroller"
-  - "Arduino UNO compatible expansion headers"
-  - "9 Grove connectors for 96Boards IO (mixed 3.3V and 5V; all 5V tolerant): 5x GPIO, and 4x I2C"
-  - "9 Grove connectors for ATMEGA328 IO (all 5V): 5x GPIO, 3x ADC, and 1x I2C"
-  - "26-pin SPI headers"
-  - "MicroUSB interface to 96Boards console serial port"
-  - "1 Power LED"
-  - "3 user LEDs"
-  - "Reset button"
-  - "Power button"
 product_buy_links:
   -
     link-title: 96Boards Sensors
@@ -45,18 +33,31 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/96boards-sensor-adapter
-product_more_info:
-  - title: Getting-Started PDF
-    link: http://linaro.co/sensorkitpdf
-  - title: Github
-    link: https://github.com/96boards/Starter_Kit_for_96Boards
-product_bottom_text: |-
-    The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
-product_includes:
-  - quantity: 1
-    name: Sensors Mezzanine Board
-    id: 96B-05GROVE-C
-    link: https://linaro.co/20n34bc
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: "Compatible with 96Boards ce and EE baseboards"
+        - title: "Integrated Arduino-compatible ATMEGA328 microcontroller"
+        - title: "Arduino UNO compatible expansion headers"
+        - title: "9 Grove connectors for 96Boards IO (mixed 3.3V and 5V; all 5V tolerant): 5x GPIO, and 4x I2C"
+        - title: "9 Grove connectors for ATMEGA328 IO (all 5V): 5x GPIO, 3x ADC, and 1x I2C"
+        - title: "26-pin SPI headers"
+        - title: "MicroUSB interface to 96Boards console serial port"
+        - title: "1 Power LED"
+        - title: "3 user LEDs"
+        - title: "Reset button"
+        - title: "Power button"
+    - title: Product Includes
+      items:
+        - title: "1 x Sensors Mezzanine Board (96B-05GROVE-C)"
+          link: https://linaro.co/20n34bc
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Getting-Started PDF
+          link: http://linaro.co/sensorkitpdf
+        - title: Github
+          link: https://github.com/96boards/Starter_Kit_for_96Boards
 attributes:
   - name: "CPU"
     value: >-

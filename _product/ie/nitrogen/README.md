@@ -7,7 +7,6 @@ product_specification: ie
 product: true
 archived: false
 dateAdded: 2017-07-09 09:00:00+00:00
-shortname: nitrogen
 description: |-
     The BLE Nitrogen is joint efforts by 96Boards and Seeed, aims to provide economic and compact  BLE solutions for IoT projects.
 
@@ -36,9 +35,12 @@ product_buy_links:
     link-title: "Buy Carbon"
     link-price: ₹2,985
     link-url: "https://www.fabtolab.com/boards/96boards/ble-nitrogen"
-product_os:
-  - title: Zephyr
-    link: /documentation/iot/nitrogen/build/linux/
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Zephyr
+          link: /documentation/iot/nitrogen/build/linux/
 attributes:
   - name: "SoC"
     value: >-

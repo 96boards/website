@@ -30,15 +30,18 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
-product_more_info:
-  - title: AOSP Sensors Documentation
-    link: https://source.android.com/devices/sensors/
-  - title: AOSP NeonKey Documentation
-    link: https://source.android.com/source/devices#neonkey
-  - title: Schematics
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
-  - title: NeonKey on Tocoding
-    link: http://en.tocoding.com/index.php/96boards-neonkey/
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: AOSP Sensors Documentation
+          link: https://source.android.com/devices/sensors/
+        - title: AOSP NeonKey Documentation
+          link: https://source.android.com/source/devices#neonkey
+        - title: Schematics
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
+        - title: NeonKey on Tocoding
+          link: http://en.tocoding.com/index.php/96boards-neonkey/
 tab_menu:
   - tab_title: NeonKey
     tab_link: /product/neonkey/
