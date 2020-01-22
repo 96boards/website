@@ -640,7 +640,7 @@ collections:
       - label: 'Social Media Share Image'
         name: 'image'
         widget: 'string'
-        hint: "This is path to the image that will appear when sharing your product page on social media channels."
+        hint: "This is the path to the image that will appear when sharing your product page on social media channels."
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
