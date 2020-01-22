@@ -625,6 +625,8 @@ collections:
     name: consumer_edition_products
     label_singular: 'Product'
     folder: _product/ce
+    editor:
+      preview: false
     create: true
     path: '{{shortname}}/README'
     media_folder: 'images'
@@ -632,7 +634,7 @@ collections:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
       - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
-      - {label: Keywords, name: keywords, widget: list, default: ["Consumer Edition"], required: false}
+      - {label: Keywords, name: keywords, widget: list, default: ["Consumer Edition"], required: true}
       - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
       - {label: Images, name: product_images, widget: image, required: true}
       - label: 'Social Media Share Image'
@@ -640,7 +642,7 @@ collections:
         widget: 'image'
         hint: "This is the image that will appear when sharing your product page on social media channels."
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
-        required: false
+        required: true
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
       - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
       - {label: Shortname, name: shortname, widget: hidden, default: "{{slug}}", required: true}
@@ -667,6 +669,7 @@ collections:
       - label: Technical Product Attributes
         name: attributes
         widget: list
+        required: true
         fields:
           - {label: "Attribute Name", name: name, widget: string, required: true}
           - {label: "Attribute Value", name: value, widget: text, required: false}
