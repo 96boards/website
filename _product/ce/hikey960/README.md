@@ -1,14 +1,19 @@
 ---
-title: HiKey 960
+title: HiKey960
 layout: product-display-page
 permalink: /product/hikey960/
-shortname: hikey960
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
 keywords: hikey 960, hikey960, aosp, aosp developement board, boards
 display_product: true
+shortname: hikey960
 product_media_highlights: true
-product_video: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
+product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
+product: true
+archived: false
+dateAdded: 2017-08-02 09:00:00+00:00
+product_video:
+- url: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
 tab_menu:
     - tab_title: HiKey 960
       tab_link: /product/hikey960/
@@ -20,42 +25,11 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/hikey960
       tab_align_right: true
-featured_product_order: 1
-is_featured: true
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
-product_long_desc: |-
-    The HiKey 960 development platform is based around the Huawei Kirin 960 octa-core ARM® big.LITTLE™
-    processor with four ARM Cortex®-A73 and four Cortex-A53 cores with 3GB of LPDDR4 SDRAM memory, 32GB of UFS 2.0 flash
-    storage, and the latest generation Mali™ G71 MP8 graphics processor. The board is provided by Archermind and LeMaker
-    through multiple channels (see links on right).
-
-    Initial software support for the board is provided in the AOSP source tree based on the Android Common Kernel using the Linux 4.4 kernel release.
-    Linaro and Huawei are also working on the Linux 4.9 based Android Common kernel and maintaining support for the Kirin 960 SoC in the mainline kernel.org
-    tree, allowing for the availability of multiple Linux distributions for this board in the future.
 product_images:
   - hikey-960-SD-front.jpg
   - hikey-960-SD-back.jpg
-product_mezzanine:
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine/
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_third_party_images:
-    - link: /documentation/consumer/hikey960/downloads/aosp.md.html
 product_buy_links:
   -
     link-title: "Amazon (USA)"
@@ -99,10 +73,35 @@ product_buy_links:
     link-price-currency: INR
     from: fabtolab.com
     type: board
-product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
-product: true
-archived: false
-dateAdded: 2017-08-02 09:00:00+00:00
+product_sidebar_sections:
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: AOSP
+          link: /documentation/consumer/hikey960/downloads/aosp.md.html
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine/
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 vendor:
   name: Archermind and LeMaker
   url: https://www.96boards.org/product/hikey960/

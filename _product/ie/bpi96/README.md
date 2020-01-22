@@ -1,8 +1,11 @@
 ---
 title: BPi96 NB-IoT
 layout: product-display-page
-permalink: /product/bpi96/
+product: true
 shortname: bpi96
+archived: false
+dateAdded: 2018-05-24 09:00:00+00:00
+permalink: /product/bpi96/
 description: |-
     The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 keywords: |-
@@ -18,13 +21,9 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/bpi96
       tab_align_right: true
-featured_product_order: 5
 display_product: true
-is_featured: true
 product_specification: ie
 product_short_desc: "The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board."
-product_long_desc: |-
-    The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 product_images:
   - bpi96-front-sd.jpg
   - bpi96-back-sd.jpg
@@ -41,12 +40,12 @@ product_buy_links:
     link-title: "BPi NB-IoT (FabToLab)"
     link-price: ₹3,465
     link-url: "https://www.fabtolab.com/boards/96boards/orange-pi-i96"
-product_os:
-  - title: Explore
-    link: /documentation/iot/bpi96/downloads/
-product: true
-archived: false
-dateAdded: 2018-05-24 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Explore
+          link: /documentation/iot/bpi96/downloads/
 attributes:
   - name: "SoC"
     value: >-
