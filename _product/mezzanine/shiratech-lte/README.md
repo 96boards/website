@@ -2,11 +2,14 @@
 title: Shiratech LTE Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-lte/
+product_specification: "mezzanine"
+archived: false
 shortname: shiratech-lte
+dateAdded: 2018-05-01 09:00:00+00:00
+product: true
+display_product: true
 description: |-
     Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
-title: Shiratech LTE Mezzanine
-display_product: true
 tab_menu:
   - tab_title: Shiratech LTE
     tab_link: /product/shiratech-lte/
@@ -16,11 +19,7 @@ tab_menu:
   - tab_title: Support
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-product_specification: "mezzanine"
-product: true
 product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
-product_long_desc: |-
-    Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 product_images:
     - shiratech-lte-front-sd.jpg
     - shiratech-lte-back-sd.jpg
@@ -28,11 +27,12 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-lte-a/arrow-development-tools"
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
-archived: false
-dateAdded: 2018-05-01 09:00:00+00:00
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
 attributes:
   - name: "Sensors"
     value: >

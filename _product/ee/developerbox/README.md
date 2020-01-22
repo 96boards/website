@@ -2,14 +2,15 @@
 title: Developerbox (Socionext)
 layout: product-display-page
 permalink: /product/developerbox/
+product: true
 shortname: developerbox
+archived: false
+dateAdded: 2018-05-01 09:00:00+00:00
 description: |-
     SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”
 display_product: true
 product_short_desc: "SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”"
 product_specification: ee
-featured_product_order: 2
-is_featured: true
 product_images:
   - developerbox-front-sd.png
   - developerbox-back-sd.png
@@ -42,37 +43,40 @@ product_buy_links:
     type: board
     link-price: "$462.00"
     link-price-currency: USD
-product_more_info:
-    - title: Socionext
-      link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
-product_os:
-  - title: EDK2 (Firmware)
-    link: /documentation/enterprise/developerbox/downloads/edk2.md.html
-  - title: Debian
-    link: /documentation/enterprise/developerbox/downloads/debian.md.html
-product_third_party_images:
-  - title: Coming Soon...
-product_accessories:
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: D3 Camera Mezzanine
-    link: /product/d3camera/
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_kits:
-  - title: Coming Soon...
-product: true
-archived: false
-dateAdded: 2018-05-01 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: EDK2 (Firmware)
+          link: /documentation/enterprise/developerbox/downloads/edk2.md.html
+        - title: Debian
+          link: /documentation/enterprise/developerbox/downloads/debian.md.html
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Socionext
+          link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: D3 Camera Mezzanine
+          link: /product/d3camera/
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 attributes:
   - name: "SoC"
     value: >-

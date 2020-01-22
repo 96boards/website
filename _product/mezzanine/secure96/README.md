@@ -2,15 +2,16 @@
 title: Secure96 Mezzanine Board
 layout: product-display-page
 permalink: /product/secure96/
+display_product: true
+product: true
+archived: false
 shortname: secure96
+dateAdded: 2017-11-28 09:00:00+00:00
 description: |-
     This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets.
 image:
     path: /assets/images/products/secure96-social-media.jpg
     name: secure96-social-media.jpg
-featured_product_order: 8
-is_featured: true
-display_product: true
 tab_menu:
   - tab_title: Secure96
     tab_link: /product/secure96/
@@ -22,8 +23,6 @@ tab_menu:
     tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets."
-product_long_desc: |-
-    This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
 product_images:
   - secure96-front-hd.jpg
   - secure96-back-hd.jpg
@@ -40,18 +39,18 @@ product_buy_links:
     type: board
     link-price-currency: USD
     link-url: "https://www.devestimator.com/hihope/product/secure-96/"
-product_more_info:
-  - title: Schematics (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Schematics (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Getting Started Guide (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
-  - title: Getting Started Guide (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
-product: true
-archived: false
-dateAdded: 2017-11-28 09:00:00+00:00
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Schematics (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Schematics (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Getting Started Guide (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+        - title: Getting Started Guide (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
 attributes:
   - name: "SoC"
     value: >-

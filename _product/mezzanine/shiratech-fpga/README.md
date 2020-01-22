@@ -2,11 +2,12 @@
 title: Shiratech FPGA Mezzanine
 layout: product-display-page
 permalink: /product/shiratech-fpga/
+display_product: true
 shortname: shiratech-fpga
+archived: false
+dateAdded: 2018-12-30 09:00:00+00:00
 description: |-
     Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface.
-title: Shiratech FPGA Mezzanine
-display_product: true
 tab_menu:
   - tab_title: Shiratech FPGA
     tab_link: /product/shiratech-fpga/
@@ -19,8 +20,6 @@ tab_menu:
 product_specification: "mezzanine"
 product: true
 product_short_desc: "Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface."
-product_long_desc: |-
-    Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface.
 product_images:
     - shiratech-fpga-front-sd.jpg
     - shiratech-fpga-back-sd.jpg
@@ -28,13 +27,16 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-fpga/shiratech"
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
-  - title: Shiratech
-    link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
-archived: false
-dateAdded: 2018-12-30 09:00:00+00:00
+
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
+        - title: Shiratech
+          link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
+
 attributes:
   - name: "SoC"
     value: >-

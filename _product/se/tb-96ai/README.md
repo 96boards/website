@@ -1,7 +1,10 @@
 ---
 title: TB-96AI
 layout: product-display-page
+product: true
+archived: false
 shortname: tb-96ai
+dateAdded: 2019-06-13 09:00:00+00:00
 permalink: /product/tb-96ai/
 description: |-
     TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi
@@ -16,13 +19,10 @@ display_product: true
 product_short_desc: TB-96AI is a powerful core board for artificial intelligence.
 product_specification: se
 product_sub_specification: module
-featured_product_order: 2
-is_featured: true
 product_images:
   - TB-96AI-front.jpg
   - TB-96AI-rear.jpg
   - SoM-Carrier-Board-with-Module.jpg
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: TB-96AI
       tab_link: /product/tb-96ai/
@@ -73,25 +73,27 @@ product_buy_links:
     type: board
     link-price: "374.99"
     link-price-currency: USD
-product_os:
-  - title: All Downloads
-    link: /documentation/som/tb-96ai/downloads/
-  - title: Android 8.1
-    link: https://developer.android.com/about/versions/oreo/android-8.1
-  - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
-  - title: Schematics
-    link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
-  - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
-  - title: Beiqi Cloud
-    link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
-product: true
-archived: false
-dateAdded: 2019-06-13 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: All Downloads
+          link: /documentation/som/tb-96ai/downloads/
+        - title: Android 8.1
+          link: https://developer.android.com/about/versions/oreo/android-8.1
+        - title: NPU SDK
+          link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
+        - title: Schematics
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+        - title: NPU SDK
+          link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
+        - title: Beiqi Cloud
+          link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
 vendor:
   name: BeiqiCloud
   url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
