@@ -32,7 +32,7 @@ collections:
               - {label: "Title", name: "title", widget: string, hint: "The title of the external news post."}
               - {label: "Link", name: "link", widget: string, hint: "The url to the external news post."}
               - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-              - { label: 'Tag', name: 'tag', widget: 'select', options: ["hikey970", "hikey970"], hint: "The short name for a board that this article is about.", required: false}
+              - { label: 'Tag', name: 'tag', widget: 'select', options: ["hikey970", "hikey960"], hint: "The short name for a board that this article is about.", required: false}
       - label: "Universal Navbar"
         name: "universal_navbar"
         file: "_data/universal-nav.yml"
@@ -621,15 +621,16 @@ collections:
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
       - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
-  - label: "Consumer Edition Products"
-    name: consumer_edition_products
+  - label: "Products"
+    name: products
     label_singular: 'Product'
-    folder: _product/ce
+    folder: _product
     editor:
       preview: false
     create: true
-    path: '{{shortname}}/README'
+    path: '{{product_specification}}/{{shortname}}/README'
     media_folder: 'images'
+    filter: {field: "product", value: true}
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
