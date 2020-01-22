@@ -634,7 +634,7 @@ collections:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
       - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
-      - {label: Keywords, name: keywords, widget: list, default: ["Consumer Edition"], required: true}
+      - {label: Keywords, name: keywords, widget: text, hint: "Please enter a comma separated list of keywords.", required: true}
       - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
       - {label: Images, name: product_images, widget: image, required: true}
       - label: 'Social Media Share Image'
