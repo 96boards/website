@@ -78,9 +78,7 @@
                         </div>
                         <div class="row author">
                             <div class="col-xs-3 author-image">
-                                <div class="home-author-image" style="background-image: url('{% if author.image %}
-                        {% asset_path '{{author.image_path}}' %}
-                    {% else %}
+                                <div class="home-author-image" style="background-image: url('{% if author.image_path %}{{author.image_path}}{% else %}
                         {% asset_path 'avatar-placeholder.png' %}
                     {% endif %}')"></div>
                             </div>
@@ -178,9 +176,7 @@
                     </div>
                     <div class="row author">
                         <div class="col-xs-3 author-image">
-                            <div class="home-author-image" style="background-image: url('{% if author.image %}
-                    {% asset_path '{{author.image_path}}' %}
-                {% else %}
+                            <div class="home-author-image" style="background-image: url('{% if author.image_path %}{{author.image_path}}{% else %}
                     {% asset_path 'avatar-placeholder.png' %}
                 {% endif %}')"></div>
                         </div>
