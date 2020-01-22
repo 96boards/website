@@ -630,9 +630,15 @@ collections:
     media_folder: 'images'
     fields:
       - {label: Title, name: title, widget: string, required: true}
-      - label: 'Image'
+      - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
+      - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
+      - {label: Keywords, name: keywords, widget: list, required: true}
+      - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
+      - {label: Images, name: product_images, widget: image, required: true}
+      - label: 'Social Media Share Image'
         name: 'image'
         widget: 'image'
+        hint: "This is the image that will appear when sharing your product page on social media channels."
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
@@ -642,27 +648,23 @@ collections:
       - {label: Product, name: product, widget: hidden, default: true, required: true}
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
       - {label: Permalink, name: permalink, widget: hidden, default: "/product/{{slug}}"}
-      - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
-      - {label: Keywords, name: keywords, widget: list, required: true}
       - label: "Product Videos"
         name: "product_video"
         widget: list
         required: false
         fields:
           - {label: Video URL, name: url, widget: string, hint: "The embed URL for the YouTube video i.e https://www.youtube.com/embed/nosQO0K60YM?feature=oembed"}
-      - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
-      - {label: Product Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
       - {label: AI Board, name: ai_board, widget: boolean, default: false, hint: "Toggle if this board has AI capabilities.", required: true}
-      - {label: Images, name: product_images, widget: image, required: true}
       - label: Product Tab Menu
         name: tab_menu
         widget: list
+        required: true
         fields:
           - {label: "Tab Title", name: tab_title, widget: string, required: true}
           - {label: "Tab URL", name: tab_link, widget: string, required: true}
           - {label: "Tab Align Right ", name: tab_align_right, widget: boolean, required: false, default: false}
           - {label: "Tab Active ", name: active, widget: boolean, required: false, default: false, hint: "Toggle this to true for the main product tab."}
-      - label: Technical Attributes
+      - label: Technical Product Attributes
         name: attributes
         widget: list
         fields:
@@ -699,7 +701,14 @@ collections:
             fields:
               - {label: "Title", name: title, widget: string, required: true}
               - {label: "Link", name: link, widget: string, required: false}
-
+      - label: "Board Vendor"
+        name: vendor
+        widget: object
+        hint: "The main board vendor"
+        required: false
+        fields:
+         - {label: "Name", name: "name", widget: string, required: true}
+         - {label: "Website", name: "url", widget: string, required: false}
       - label: Buy Links
         name: product_buy_links
         widget: list
@@ -712,12 +721,4 @@ collections:
           - {label: "Type", name: type, widget: select, hint: "Please choose the buy link type - i.e package, board", options: [{label: "Board Package", value: "package"},{label: "Single Board", value: "board"}], required: true, default: "board"}
           - {label: "Vendor", name: from, widget: string, hint: "Please enter the name of the product vendor i.e amazon.com / ebay.com etc", required: true}
           - {label: "Purchase URL", name: link-url, widget: string, hint: "Please enter the purchase URL.", required: true}
-      - label: "Board Vendor"
-        name: vendor
-        widget: object
-        hint: "The main board vendor"
-        required: false
-        fields:
-         - {label: "Name", name: "name", widget: string, required: true}
-         - {label: "Website", name: "url", widget: string, required: false}
       - {label: Product Text Content, name: "body", widget: "markdown", hint: "This is the main text content for your board.", required: true}
