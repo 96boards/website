@@ -32,7 +32,7 @@ collections:
               - {label: "Title", name: "title", widget: string, hint: "The title of the external news post."}
               - {label: "Link", name: "link", widget: string, hint: "The url to the external news post."}
               - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-              - { label: 'Tag', name: 'tag', widget: 'select', options: ["hikey970", "hikey970"], hint: "The short name for a board that this article is about.", required: false}
+              - { label: 'Tag', name: 'tag', widget: 'select', options: ["hikey970", "hikey960"], hint: "The short name for a board that this article is about.", required: false}
       - label: "Universal Navbar"
         name: "universal_navbar"
         file: "_data/universal-nav.yml"
@@ -558,7 +558,7 @@ collections:
     name: 'blog'
     folder: '_posts'
     create: true
-    sort: "date:desc" # Default is title:asc
+    sort: "date:asc"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: "/blog/{{title}}/"
     description: >
@@ -621,24 +621,27 @@ collections:
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
       - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
-  - label: "Consumer Edition Products"
-    name: consumer_edition_products
+  - label: "Products"
+    name: products
     label_singular: 'Product'
-    folder: _product/ce
+    folder: _product
+    editor:
+      preview: false
     create: true
-    path: '{{shortname}}/README'
+    path: '{{product_specification}}/{{shortname}}/README'
     media_folder: 'images'
+    filter: {field: "product", value: true}
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
       - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
-      - {label: Keywords, name: keywords, widget: list, required: true}
+      - {label: Keywords, name: keywords, widget: text, hint: "Please enter a comma separated list of keywords.", required: true}
       - {label: Release Date, name: dateAdded, widget: datetime, format: "YYYY-MM-DD hh:mm:ss",required: true}
       - {label: Images, name: product_images, widget: image, required: true}
       - label: 'Social Media Share Image'
         name: 'image'
-        widget: 'image'
-        hint: "This is the image that will appear when sharing your product page on social media channels."
+        widget: 'string'
+        hint: "This is the path to the image that will appear when sharing your product page on social media channels."
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Product Specification, name: product_specification, widget: hidden, default: "ce", required: true}
@@ -654,7 +657,7 @@ collections:
         required: false
         fields:
           - {label: Video URL, name: url, widget: string, hint: "The embed URL for the YouTube video i.e https://www.youtube.com/embed/nosQO0K60YM?feature=oembed"}
-      - {label: AI Board, name: ai_board, widget: boolean, default: false, hint: "Toggle if this board has AI capabilities.", required: true}
+      - {label: AI Board, name: ai_board, widget: boolean, default: false, hint: "Toggle if this board has AI capabilities.", required: false}
       - label: Product Tab Menu
         name: tab_menu
         widget: list
@@ -667,6 +670,7 @@ collections:
       - label: Technical Product Attributes
         name: attributes
         widget: list
+        required: true
         fields:
           - {label: "Attribute Name", name: name, widget: string, required: true}
           - {label: "Attribute Value", name: value, widget: text, required: false}
@@ -679,10 +683,20 @@ collections:
              - {label: "Sub Attribute Value", name: "value", widget: string, required: false}
       - label: "Product Sidebar Sections"
         name: product_sidebar_sections
+        required: false
         widget: list
         fields:
           - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
-          - {label: "Icon", name: "icon", widget: select, hint: "The icon displayed in the sidebar section header.", options: [{label: "Documents Icon", value: "fa-file-text"}, {label: "Documents Icon", value: "fa-file-text"}], required: true}
+          - label: "Icon"
+            name: "icon"
+            widget: select
+            hint: "The icon displayed in the sidebar section header."
+            required: true
+            options:
+              - {label: "Documents Icon", value: "fa-file-text"}
+              - {label: "Terminal Icon", value: "fa-terminal"}
+              - {label: "External Links", value: "fa-external-link-square"}
+              - {label: "Code", value: "fa-code"}
           - label: Items
             name: items
             widget: list
@@ -691,6 +705,7 @@ collections:
               - {label: "Link", name: link, widget: string, required: false}
       - label: "Product Bottom Sections"
         name: product_bottom_section
+        required: false
         widget: list
         fields:
           - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
@@ -707,7 +722,7 @@ collections:
         hint: "The main board vendor"
         required: false
         fields:
-         - {label: "Name", name: "name", widget: string, required: true}
+         - {label: "Name", name: "name", widget: string, required: false}
          - {label: "Website", name: "url", widget: string, required: false}
       - label: Buy Links
         name: product_buy_links

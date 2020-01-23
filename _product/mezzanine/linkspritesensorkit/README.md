@@ -11,11 +11,6 @@ description: |-
     96Boards.
 display_product: true
 product_specification: "mezzanine"
-tab_menu:
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
 product_short_desc: 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card.
 product_images:
     - linksprite-mezzanine-kit-front-sd.png
