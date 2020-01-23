@@ -18,7 +18,7 @@ keywords: >-
   Product, Development, Platform, Qualcomm, high-speed connector,  functional
   modules
 dateAdded: '2020-01-23 04:13:57'
-product_images: images/96Boards-Logo_v-Consumer.png
+product_images: images/96boards-banner-project-2.jpg
 image: /assets/images/content/96Boards-Logo_v-Consumer.png
 display_product: true
 layout: product-display-page
