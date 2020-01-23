@@ -28,6 +28,7 @@ collections:
     filter: {field: "product", value: true}
     fields:
       - {label: Title, name: title, widget: string, required: true}
+      - {label: Shortname, name: shortname, widget: string, required: true, hint: "Provide a URL friendly slug for your product. I.e A slug for 'Dev Board v3' could be  'dev-board-v3'", pattern: ['^[0-9a-z-]*', "The shortname must contain just lower case characters(a-z), dashes(-) and numbers(0-9)."]}
       - {label: Product Specification, name: product_specification, widget: select, options: [{label: "Consumer Edition", value: "ce"},{label: "Enterprise Edition", value: "ee"},{label: "IoT Edition", value: "ie"},{label: "Mezzanine Edition", value: "mezzanine"},{label: "SoM Edition", value: "se"}], default: "ce", required: true}
       - {label: Product Sub Specification, name: product_sub_specification, widget: select, options: [{label: "Carrier Board", value: "carrier"},{label: "Module", value: "module"}], required: false, hint: "Choose a sub specification for your product. Currently only applies to SoM edition boards."}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
@@ -42,7 +43,6 @@ collections:
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
-      - {label: Shortname, name: shortname, widget: hidden, default: "{{slug}}", required: true}
       - {label: Layout, name: layout, widget: hidden, default: "product-display-page", required: true}
       - {label: Product, name: product, widget: hidden, default: true, required: true}
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
@@ -80,6 +80,7 @@ collections:
         name: product_sidebar_sections
         required: false
         widget: list
+        hint: "Add sidebar sections to your product page. Choose a title, icon(optional) and add items"
         fields:
           - {label: "Title", name: "title", widget: string, hint: "The title of the sidebar section i.e Documents / Middleware & SDK's etc", required: true}
           - label: "Icon"
@@ -100,6 +101,7 @@ collections:
               - {label: "Link", name: link, widget: string, required: false}
       - label: "Product Bottom Sections"
         name: product_bottom_section
+        hint: "Add sections beneath the main product text. Choose a title and add items"
         required: false
         widget: list
         fields:
