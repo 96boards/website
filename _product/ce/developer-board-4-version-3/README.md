@@ -67,7 +67,7 @@ product_buy_links:
     type: board
   - from: Sophon.ai
     link-price: '899.00'
-    link-price-currency: HKD
+    link-price-currency: CNY
     link-title: Sophon Edge (CN)
     link-url: 'https://sophon.cn/product/view/00020181017110652CiJsd2n6aOcHr4a/view.html'
     type: board
