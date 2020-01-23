@@ -69,7 +69,43 @@ collections:
         widget: list
         required: true
         fields:
-          - {label: "Attribute Name", name: name, widget: string, required: true}
+          - label: "Attribute Name"
+            name: "name"
+            widget: select
+            options:
+             - Processor
+             - Audio
+             - Bluetooth
+             - Buttons
+             - CPU
+             - Camera
+             - Connectivity
+             - Console
+             - Dimensions
+             - Display
+             - Ethernet
+             - Expansion Interface
+             - GPS
+             - GPU
+             - Hardware Interfaces
+             - JTAG
+             - LED's
+             - MIC
+             - OS Support
+             - Other
+             - PCIe
+             - PMU
+             - Parent Board
+             - Power
+             - RAM
+             - Sensors
+             - SoC
+             - Storage
+             - USB
+             - Video
+             - Weight
+             - Wireless
+            required: true
           - {label: "Attribute Value", name: value, widget: text, required: false}
           - label: "Attribute Sub Values"
             name: values
