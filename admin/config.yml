@@ -56,12 +56,13 @@ collections:
       - label: Product Tab Menu
         name: tab_menu
         widget: list
+        hint: "Add product page tab menu items here."
         required: true
         fields:
           - {label: "Tab Title", name: tab_title, widget: string, required: true}
-          - {label: "Tab URL", name: tab_link, widget: string, required: true}
+          - {label: "Tab URL", name: tab_link, hint: "The link your tab will go to. For the current page use ./ ", widget: string, required: true}
           - {label: "Tab Align Right ", name: tab_align_right, widget: boolean, required: false, default: false}
-          - {label: "Tab Active ", name: active, widget: boolean, required: false, default: false, hint: "Toggle this to true for the main product tab."}
+          - {label: "Tab Active ", name: active, widget: boolean, required: false, default: false, hint: "Toggle this for the main product tab."}
       - label: Technical Product Attributes
         name: attributes
         widget: list
