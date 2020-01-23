@@ -29,6 +29,7 @@ collections:
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Product Specification, name: product_specification, widget: select, options: [{label: "Consumer Edition", value: "ce"},{label: "Enterprise Edition", value: "ee"},{label: "IoT Edition", value: "ie"},{label: "Mezzanine Edition", value: "mezzanine"},{label: "SoM Edition", value: "se"}], default: "ce", required: true}
+      - {label: Product Sub Specification, name: product_sub_specification, widget: select, options: [{label: "Carrier Board", value: "carrier"},{label: "Module", value: "module"}], required: false, hint: "Choose a sub specification for your product. Currently only applies to SoM edition boards."}
       - {label: Description, name: description, widget: text, hint: "Please add a suitable description for your product. This will show in search engine results.", required: true}
       - {label: Short Description, name: product_short_desc, widget: text, hint: "Please add a shorter description for your product. This will be used in product index pages.", required: true}
       - {label: Keywords, name: keywords, widget: text, hint: "Please enter a comma separated list of keywords.", required: true}
@@ -45,7 +46,6 @@ collections:
       - {label: Layout, name: layout, widget: hidden, default: "product-display-page", required: true}
       - {label: Product, name: product, widget: hidden, default: true, required: true}
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
-      - {label: Permalink, name: permalink, widget: hidden, default: "/product/{{slug}}"}
       - label: "Product Videos"
         name: "product_video"
         widget: list
@@ -577,8 +577,8 @@ collections:
           valueField: 'username'
         }
       - { label: 'Post Content', name: 'body', widget: 'markdown'}
-  - name: 'authors'
-    label: 'Authors'
+  - label: 'Authors'
+    name: 'authors'
     folder: '_authors'
     label_singular: 'Author'
     preview_path: "/authors/{{slug}}/"
