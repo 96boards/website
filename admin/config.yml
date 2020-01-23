@@ -558,7 +558,8 @@ collections:
     name: 'blog'
     folder: '_posts'
     create: true
-    sort: "date:asc"
+    label_singular: 'Blog Post'
+    sort: "date:desc"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: "/blog/{{title}}/"
     description: >
@@ -602,6 +603,7 @@ collections:
   - name: 'authors'
     label: 'Authors'
     folder: '_authors'
+    label_singular: 'Author'
     preview_path: "/authors/{{slug}}/"
     create: true
     identifier_field: name
