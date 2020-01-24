@@ -3,7 +3,7 @@ permalink: /assets/json/ai_boards.json
 ---
 {% assign ai_powered_boards = site.product | where: 'ai_board', 'true' %}
 [{% for product in ai_powered_boards %}{
-"id": "{{ product.shortname }}",
+"id": "{{ product.title | slugify }}",
 "title": {{ product.title | smartify | jsonify }},
 {% assign url-name = product.permalink | split: "/" %}
 {% assign url-name-new = url-name[2] %}

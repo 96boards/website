@@ -2,9 +2,11 @@
 title: Sophon Edge
 layout: product-display-page
 permalink: /product/sophon-edge/
-shortname: sophon-edge
-#Set this to true and the board will be visible on 96boards.ai
+product: true
+archived: false
+dateAdded: 2018-04-05 09:00:00+00:00
 ai_board: true
+shortname: sophon-edge
 ai_board_desc: >
     The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development.
 description: |-
@@ -13,9 +15,7 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform, bitmain, sophon, edge, bm1880
 product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880"
 product_specification: ce
-featured_product_order: 2
 display_product: true
-is_featured: true
 product_images:
     - sophon-front-sd.png
     - sophon-back-sd.png
@@ -32,8 +32,6 @@ tab_menu:
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/sophon-edge/
       tab_align_right: true
-product_getting_started: /documentation/consumer/sophon-edge/getting-started/
-product_documentation_link: /documentation/consumer/sophon-edge/
 product_buy_links:
   -
     link-title: Sophon Edge (US)
@@ -49,35 +47,48 @@ product_buy_links:
     type: board
     link-price: "&#xa5;899.00"
     link-price-currency: CNY
-product_os:
-  - title: Source SDK
-    link: https://github.com/BM1880-BIRD/bm1880-system-sdk
-  - title: Source Program
-    link: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
-product_more_info:
-  - title: Sophon - Getting Started
-    link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_mezzanine:
-  - title: Link Sprite Sensor Kit
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-product_kits:
-  - title: Coming Soon...
-product: true
-archived: false
-dateAdded: 2018-04-05 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: Source SDK
+          link: https://github.com/BM1880-BIRD/bm1880-system-sdk
+        - title: Source Program
+          link: https://github.com/BM1880-BIRD/bm1880-ai-demo-program
+    - title: More Info
+      items:
+        - title: Sophon - Getting Started
+          link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Phoenix
+          link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+        - title: Remix
+          link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html
+        - title: Ubuntu Core
+          link: /documentation/consumer/bubblegum-96/downloads/ubuntu-core.md.html
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite Sensor Kit
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
 attributes:
   - name: "SoC"
     value: >-

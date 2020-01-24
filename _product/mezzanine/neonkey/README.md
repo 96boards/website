@@ -2,23 +2,16 @@
 title: NeonKey
 layout: product-display-page
 permalink: /product/neonkey/
+product: true
+archived: false
 shortname: neonkey
+dateAdded: 2017-07-24 09:00:00+00:00
 description: |-
     96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
     ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 display_product: true
-tab_menu:
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/neonkey/
-      tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more"
-product_long_desc: |-
-    96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products. ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 product_images:
   - neonkey-front-sd.JPG
   - neonkey-frontangle1-sd.JPG
@@ -30,15 +23,18 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
-product_more_info:
-  - title: AOSP Sensors Documentation
-    link: https://source.android.com/devices/sensors/
-  - title: AOSP NeonKey Documentation
-    link: https://source.android.com/source/devices#neonkey
-  - title: Schematics
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
-  - title: NeonKey on Tocoding
-    link: http://en.tocoding.com/index.php/96boards-neonkey/
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: AOSP Sensors Documentation
+          link: https://source.android.com/devices/sensors/
+        - title: AOSP NeonKey Documentation
+          link: https://source.android.com/source/devices#neonkey
+        - title: Schematics
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
+        - title: NeonKey on Tocoding
+          link: http://en.tocoding.com/index.php/96boards-neonkey/
 tab_menu:
   - tab_title: NeonKey
     tab_link: /product/neonkey/
@@ -50,9 +46,6 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
-product: true
-archived: false
-dateAdded: 2017-07-24 09:00:00+00:00
 attributes:
   - name: "SoC"
     value: >-

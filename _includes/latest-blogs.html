@@ -78,9 +78,7 @@
                         </div>
                         <div class="row author">
                             <div class="col-xs-3 author-image">
-                                <div class="home-author-image" style="background-image: url('{% if author.image %}
-                        {% asset_path '{{author.image.name}}' %}
-                    {% else %}
+                                <div class="home-author-image" style="background-image: url('{% if author.image_path %}{{author.image_path}}{% else %}
                         {% asset_path 'avatar-placeholder.png' %}
                     {% endif %}')"></div>
                             </div>
@@ -100,7 +98,7 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">  
+        <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">
             {% for post in site.posts limit:4 %}
                 {% assign timeframe = 604800 %}
                 {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
@@ -178,9 +176,7 @@
                     </div>
                     <div class="row author">
                         <div class="col-xs-3 author-image">
-                            <div class="home-author-image" style="background-image: url('{% if author.image %}
-                    {% asset_path '{{author.image.name}}' %}
-                {% else %}
+                            <div class="home-author-image" style="background-image: url('{% if author.image_path %}{{author.image_path}}{% else %}
                     {% asset_path 'avatar-placeholder.png' %}
                 {% endif %}')"></div>
                         </div>
@@ -196,7 +192,7 @@
                             {% endif %}
                         </div>
                     </div>
-                </div>                       
+                </div>
                 </div>
             </div>
             {% endfor %}

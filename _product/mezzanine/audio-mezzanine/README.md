@@ -2,27 +2,26 @@
 title: Audio Mezzanine
 layout: product-display-page
 permalink: /product/audio-mezzanine/
+product: true
+archived: false
 shortname: audio-mezzanine
+dateAdded: 2017-07-06 09:00:00+00:00
 description: |-
     The 96Boards Sensors starter kit contains everything you need to wire up sensors and devices to a 96Boards single board computer. It contains the 96Boards Sensors mezzanine board with a selection of Grove modules that you can use to start experimenting and prototyping with the 96Boards platform.
 display_product: true
-product_support_link: https://discuss.96boards.org/c/products/mezzanine
 product_specification: "mezzanine"
 product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
-product_long_desc: |-
-    This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
-    You can connect 96Boards to various modules easily with this expansion board. There are six
-    grove ports which can be used to connect rich Grove functional modules, which will make your
-    application more complicated and attracting.
 product_images:
   - "audio-mezzanine.png"
-mezzanine_features:
-  - "6 x On-board Grove connector"
-  - "USB to UART conversion for access to the 410c system console."
-  - "Access to the Analog Audio on the 410c board"
-  - "Access to the low-speed expansion connector"
-  - "Power and Reset/Volume down buttons"
-  - "Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB"
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: "6 x On-board Grove connector"
+        - title: "USB to UART conversion for access to the 410c system console."
+        - title: "Access to the Analog Audio on the 410c board"
+        - title: "Access to the low-speed expansion connector"
+        - title: "Power and Reset/Volume down buttons"
+        - title: "Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the AMB"
 product_buy_links:
   -
     link-title: Arrow Electronics
@@ -41,9 +40,6 @@ tab_menu:
     tab_link: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
-product: true
-archived: false
-dateAdded: 2017-07-06 09:00:00+00:00
 attributes:
   - name: "Power"
     value: >-

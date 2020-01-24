@@ -1,8 +1,11 @@
 ---
 title: TB-96AIoT
 layout: product-display-page
-shortname: tb-96aiot
 permalink: /product/tb-96aiot/
+product: true
+archived: false
+shortname: tb-96aiot
+dateAdded: 2019-06-13 09:00:00+00:00
 description: |-
     The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a
     powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference
@@ -17,14 +20,11 @@ display_product: true
 product_short_desc: The TB-96AIoT is a low-power, high-powered core board for the AIoT field.
 product_specification: se
 product_sub_specification: module
-featured_product_order: 2
-is_featured: true
 product_images:
   - 96-TB-AIoT_Top.png
   - 96-TB-AIoT_Bottom.png
   - 96-TB-AIoT_Carrier_top1.png
   - 96-TB-AIoT_Carrier_top2.png
-# Sub Tab Menu Items
 tab_menu:
     - tab_title: TB-96AIoT
       tab_link: /product/tb-96aiot/
@@ -35,7 +35,6 @@ tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/som/tb-96aiot/
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/tb-96aiot
       tab_position: 4
@@ -83,19 +82,21 @@ product_buy_links:
     type: board
     link-price: "289.49"
     link-price-currency: USD
-product_os:
-  - title: All Downloads
-    link: /documentation/som/tb-96aiot/downloads/
-  - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-hardware-user-manual.pdf
-  - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-schematics.pdf
-product: true
-archived: false
-dateAdded: 2019-06-13 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - title: All Downloads
+          link: /documentation/som/tb-96aiot/downloads/
+        - title: NPU SDK
+          link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-hardware-user-manual.pdf
+        - title: Schematics
+        - link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-schematics.pdf
 vendor:
   name: BeiqiCloud
   url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI

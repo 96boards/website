@@ -1,7 +1,6 @@
 ---
 title: 96Boards SoM Carrier Board
 layout: product-display-page
-shortname: 96boards-som-carrier-board
 permalink: /product/96boards-som-carrier-board/
 description: |-
     The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification”
@@ -13,8 +12,10 @@ display_product: true
 product_short_desc: "The 96Boards SoM Carrier Board is an interface debugging and testing carrier board."
 product_specification: se
 product_sub_specification: carrier
-featured_product_order: 2
-is_featured: true
+product: true
+shortname: 96boards-som-carrier-board
+archived: false
+dateAdded: 2019-06-13 09:00:00+00:00
 product_images:
   - SoM-Carrier-Board-Front.png
   - SoM-Carrier-Board-Rear.png
@@ -27,7 +28,6 @@ tab_menu:
       active: true
     - tab_title: Documentation
       tab_link: /documentation/som/96boards-som-carrier-board/
-      tab_position: 1
       tab_position: 2
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
@@ -41,16 +41,16 @@ product_buy_links:
     type: board
     link-price: "125.00"
     link-price-currency: USD
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
-  - title: Schematics
-  - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
-  - title: Beiqi Cloud
-    link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
-product: true
-archived: false
-dateAdded: 2019-06-13 09:00:00+00:00
+product_sidebar_sections:
+    - title: More Info
+      icon: fa-external-link-square
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
+        - title: Schematics
+        - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
+        - title: Beiqi Cloud
+          link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
 vendor:
   name: BeiqiCloud
   url: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard

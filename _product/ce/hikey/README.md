@@ -1,11 +1,16 @@
 ---
-title: HiKey (LeMaker)
+title: HiKey
 layout: product-display-page
 permalink: /product/hikey/
-shortname: hikey
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
 display_product: true
+product: true
+archived: false
+shortname: hikey
+dateAdded: 2017-08-02 09:00:00+00:00
+product_specification: ce
+product_short_desc: Board based on HiSilicon Kirin 6220 processor
 tab_menu:
     - tab_title: HiKey (LeMaker)
       tab_link: /product/hikey/
@@ -19,9 +24,6 @@ tab_menu:
       tab_link: https://discuss.96boards.org/c/products/hikey
       tab_position: 2
       tab_align_right: true
-is_featured: false
-product_specification: ce
-product_short_desc: Board based on HiSilicon Kirin 6220 processor
 product_buy_links:
   - link-title: Buy HiKey(1GB RAM)
     link-url: https://linaro.co/hikey-lenovator-buy-1gb
@@ -41,46 +43,48 @@ product_images:
   - HiKey_LeMaker_angle3.jpg
   - HiKey_LeMaker_angle2.jpg
   - HiKey_LeMaker_angle.jpg
-product_long_desc: |-
-    The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,
-    1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also
-    delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size
-    of a credit card.
-product_mezzanine:
-  - title: LinkSprite
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
-product_os:
-  - link: /documentation/consumer/hikey/downloads/aosp.md.html
-    title: AOSP
-  - link: /documentation/consumer/hikey/downloads/debian.md.html
-    title: Debian
-  - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
-    title: OpenEmbedded
-product_third_party_images:
-  - title: Fedora
-    link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-product_more_info:
-  - title: DIY Root of Trust using ARM Trusted Firmware
-  - link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
-product_support_link: https://discuss.96boards.org/c/products/hikey/
-product: true
-archived: false
-dateAdded: 2017-08-02 09:00:00+00:00
+product_sidebar_sections:
+    - title: OS
+      icon: fa-terminal
+      items:
+        - link: /documentation/consumer/hikey/downloads/aosp.md.html
+          title: AOSP
+        - link: /documentation/consumer/hikey/downloads/debian.md.html
+          title: Debian
+        - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
+          title: OpenEmbedded
+    - title: Third Party Images
+      icon: fa-external-link-square
+      items:
+        - title: Fedora
+          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
+    - title: More Info
+      items:
+        - title: DIY Root of Trust using ARM Trusted Firmware
+          link: https://casualhacking.io/blog/2018/7/8/diy-root-of-trust-using-arm-trusted-firmware-on-the-96boards-hikey
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 vendor:
   name: LeMaker
   url: http://www.lenovator.com/product/86.html
