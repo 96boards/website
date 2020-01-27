@@ -4,7 +4,7 @@ author: Servando German Serrano
 date: 2019-12-13 01:00:00+00:00
 image:
     featured: true
-    path: /assets/images/blog/awf_white.png
+    path: /assets/images/blog/awf_hikey970.png
     name: awf_white.png
 categories: blog
 series: "96boards: Autoware everywhere"
