@@ -3,6 +3,7 @@ title: Thor96
 layout: product-display-page
 permalink: /product/thor96/
 product: true
+dateAdded: 2020-01-12 09:00:00+00:00
 archived: false
 shortname: thor96
 description: |-
@@ -74,6 +75,51 @@ product_bottom_section:
           link: /product/sensors-mezzanine
         - title: Audio Mezzanine
           link: /product/audio-mezzanine/
+attributes:
+  - name: "SoC"
+    value: >-
+      e NXP i.MX 8M
+  - name: "CPU"
+    value: >-
+      Arm Cortex-A53 Quad-Core 64-bit @ 1.5 GHz Cortex-M4F Core @ 266MHze
+  - name: "GPU"
+    value: >-
+      1x 3D GPU Vivante® GC7000Lite
+  - name: "RAM"
+    value: >-
+      1 2-GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron
+  - name: "Storage"
+    value: >-
+      microSD Socket: UHS-1 v3.01
+  - name: "Ethernet"
+    value: 10/100/1000 Mbit/s
+  - name: "Wireless"
+    value: >-
+      Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity
+  - name: "USB"
+    value: >-
+      Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed
+  - name: "Display"
+    value: >-
+      HDMI Output and DSI to HDMI
+  - name: "Expansion Interface"
+    value: >-
+      96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header
+  - name: "LED"
+    value: >-
+      4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay
+  - name: "Buttons"
+    value: >-
+      Power and Reset
+  - name: "Power"
+    value: >-
+      DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 85mm
+      - title: "length"
+        value: 100mm
 ---
 
 The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.

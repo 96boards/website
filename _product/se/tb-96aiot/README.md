@@ -35,7 +35,6 @@ tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/som/tb-96aiot/
       tab_position: 2
-      tab_position: 3
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/tb-96aiot
       tab_position: 4

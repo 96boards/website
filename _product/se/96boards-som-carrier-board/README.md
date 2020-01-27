@@ -28,7 +28,6 @@ tab_menu:
       active: true
     - tab_title: Documentation
       tab_link: /documentation/som/96boards-som-carrier-board/
-      tab_position: 1
       tab_position: 2
     - tab_title: Support
       tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
