@@ -55,7 +55,7 @@ check_environment_variables() {
     export JEKYLL_ENV=staging
   fi
   if [ -z "$JEKYLL_PORT" ]; then
-  JEKYLL_PORT=4000
+    JEKYLL_PORT=4000
   fi
   if [ "$JEKYLL_ACTION" = "serve" ]; then
     PORTS="-p $JEKYLL_PORT:4000"
