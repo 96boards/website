@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, dragonb
 
 # Introduction
 
-In this blog post we will look at how we can bind certain Autoware.AI nodes to specific cores in our hardware. This is of special interest when we use different type of CPUs on the same board, as happens with the [Hikey970](https://www.96boards.org/product/hikey970/) and the [Qualcomm® Robotics (RB3) Dragonboard-845c Development Platform](https://www.96boards.org/product/rb3-platform/). We will focus on the `ndt_matching` node from Autoware.AI.
+In this blog post we will look at how we can bind certain Autoware.AI nodes to specific cores in our hardware. This is of special interest when we use different type of CPUs on the same board, as happens with the [Hikey970](https://www.96boards.org/product/hikey970/) and the [Qualcomm® Robotics (RB3) Dragonboard-845c Development Platform](https://www.96boards.org/product/rb3-platform/). We will focus on the `ndt_matching` node from Autoware.AI on the RB3 board.
 
 It is worth mentioning that the presented method is not specific to Autoware alone and has been extracted from [this question](https://answers.ros.org/question/202712/how-to-bind-a-node-to-a-specific-cpu-core/) in [ROS answers](https://answers.ros.org/questions/).
 
@@ -22,15 +22,16 @@ The post is organized as follows:
 - [Identifying CPUs](#identifying-cpus)
 - [Binding nodes to CPUs](#binding-nodes-to-cpus)
   - [Modifying my_localization.launch](#modifying-my_localizationlaunch)
+  - [RB3 Results](#rb3-results)
 
 ***
 
 ## Requirements
 
 The main requirements for the steps on this blogs are:
-- Have a board where different CPU cores live together (i.e. Hikey970 or RB3).
+- Have a board where different CPU cores live together.
 - Have your board running with Docker installed.
-- Be familiar with the work that we conducted previously within the "Autoware everywhere" series on Autoware.AI for your [Hikey970](https://www.96boards.org/blog/autoware.auto_hikey970/) or [RB3](https://www.96boards.org/blog/autoware.ai_rb3/).
+- Be familiar with the work that we conducted previously within the "Autoware everywhere" series on Autoware.AI for the [Hikey970](https://www.96boards.org/blog/autoware.auto_hikey970/) or the [RB3](https://www.96boards.org/blog/autoware.ai_rb3/).
 
 For the remaining of the blog it is assumed that you are able to successfully run the rosbag demo on your board as outlined in previous posts.
 
@@ -56,23 +57,6 @@ CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE MAXMHZ    MINMHZ
 ```
 
 which shows that the most capable CPUs are identified by numbers 4 to 7. These are the ones we will bind Autoware.AI's ndt_matching nodes in the next section.
-
-If we do the same on the Hikey970, we get:
-
-```
-$ lscpu -e
-CPU NODE SOCKET CORE ONLINE
-0   0    0      0    yes
-1   0    0      1    yes
-2   0    0      2    yes
-3   0    0      3    yes
-4   0    1      4    yes
-5   0    1      5    yes
-6   0    1      6    yes
-7   0    1      7    yes
-```
-
-which does not provide the `MAXMHZ` column information to identify which CPUs are more powerful. We will do a little of trial and error to identify it later.
 
 ## Binding nodes to CPUs
 
@@ -165,17 +149,17 @@ We can see that the `ndt_matching` node is located inside the `lidar_localizer` 
 
 This launch file takes some parameters and starts the `ndt_matching` node. If you went through our [Autoware.AI in RB3 blog](https://www.96boards.org/blog/autoware.ai_rb3/) you might recall that this is the file we had to change to select the OpenMP implementation of the `ndt_matching` node to successfully localize with the RB3.
 
-
-
-For quick test we can directly modify the installed launch file by doing:
+For a quick test we can directly modify the installed launch file by doing:
 ```
-$ sed -i 's\<node pkg="lidar_localizer"\<node launch-prefix="taskset -c 0-3" pkg="lidar_localizer"\g' ~/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
+$ sed -i 's\<node pkg="lidar_localizer"\<node launch-prefix="taskset -c 4-7" pkg="lidar_localizer"\g' ~/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
 ```
+We have chosen CPU IDs 4 to 7 since we have seen above that those are the ones with higher capacity.
 
+### RB3 Results
 
 This time we will use 3 terminals:
 
-- Terminal 1: to load all nodes
+- Terminal 1: to load all nodes.
 
 ```
 $ roscore &
@@ -187,31 +171,28 @@ $ roslaunch lidar_localizer ndt_matching_monitor.launch &
 $ rostopic echo /ndt_monitor/ndt_status
 ```
 
-- Terminal 2: to control the rosbag replay
+- Terminal 2: to control the rosbag replay.
 
 ```
 $ rosbag play --pause ~/shared_dir/sample_moriyama_150324.bag --clock
 ```
 
-- Terminal 3: to visualize core load with `htop`
+- Terminal 3: to visualize core load with `htop`.
 
 ```
 $ htop
 ```
 
-### RB3 test
+First we are going to check whether adding the `taskset` prefix makes a difference to the CPU load. So, instead of selecting CPU IDs 4 to 7 we are setting just the CPU with ID 5. The image below shows that the CPU with number 6 in `htop`, which is the one ID 5 belongs to is more loaded than the rest when executing the demo.
 
+![](/assets/images/blog/rb3_cpu_5.png)
 
+For normal execution we have assigned the `ndt_matching` to run on CPUs with ID 4 to 7, without using the OpenMP implementation. We can see below that with this configuration the `ndt_matching` algorithm has managed to output the correct localization as per `ndt_status` topic.
 
-
-
-```
-$ roslaunch autoware_quickstart_examples my_localization.launch
-```
-
+![](/assets/images/blog/rb3_cpu_4_7.png)
 
 ***
 
 # Conclusion
 
-With this post we now have 2 different boards ([Hikey970](https://www.96boards.org/product/hikey970/) and [Qualcomm® Robotics (RB3) Dragonboard-845c Development Platform](https://www.96boards.org/product/rb3-platform/)) that we can use for development of Autoware.
+In this post we have shown how we can assign different nodes to run on specific CPUs in the board. This opens the possibility to start looking into splitting Autoware loads when looking at distributing the different nodes on different boards.
