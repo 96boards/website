@@ -29,7 +29,7 @@ In this blog I'd like to cover what is the current situation of the DIY Drone ec
 
 ### The control flow:
 - Transmitter:
-    - Each stick, knob ar a button on the transmitter has a dedicated channel(s) on the 2.4GHz radio. So if their are 8 different controls, the transmitter would have 8 channels.
+    - Each stick, knob or button on the transmitter has a dedicated channel(s) on the 2.4GHz radio. So if there are 8 different controls, the transmitter would have 8 channels.
     - The position of the stick determines the PWM signal that is sent over its dedicated channel(s).
 - Receiver:
     - Also tuned at 2.4GHz and has the same number of channels as the transmitter.
