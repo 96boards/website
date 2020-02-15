@@ -51,7 +51,7 @@ In this blog I'd like to cover what is the current situation of the DIY Drone ec
     - An individual ESC is switched on, till it beeps a tune to indicate that it is in calibration mode.
     - Move the throttle to its lowest position and wait for the beep.
     - Move the throttle to its highest position and wait for the beep.
-    - Power off the esc.
+    - Power off the ESC.
     - Repeat the steps for all the other ESCs.
 - Flying:
     - Turn on the transmitter and the receiver.
