@@ -11,7 +11,7 @@ series: "96boards Drone Project"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, real time, drones, aerocore2
 ---
 
-In this blog I'd like to cover what current situation of the DIY Drone ecosystem. What I like and don't like about it and how we can improve it.
+In this blog I'd like to cover what is the current situation of the DIY Drone ecosystem. What I like and don't like about it and how we can improve it.
 
 # Digital Technology Stuck In A Analogue Ecosystem
 
