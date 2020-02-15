@@ -129,7 +129,7 @@ Here's a few things I can thing about that can happen if we go digital:
         - Motor Temps
     - These in flight status will allow the main controller to decide if it can over-drive the motors or if it should limit the stress and under-drive them, and do this dynamically in real time.
     - In case of active ESC and Motor cooling, the main controller will be able to regulate that as well.
-    - This will further help set different flight profile, similar to that of a modern day sports car:
+    - This will further help set different flight profiles, similar to that of a modern day sports car:
         - Long Range mode will under-drive the motors so that they don't waste too much energy on heat.
         - Balanced mode: as it says a nice balance between range and performance.
         - Race mode: Pushes the motors to their absolute limits and disregards flight time.
