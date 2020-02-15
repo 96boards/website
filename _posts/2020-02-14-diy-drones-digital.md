@@ -18,7 +18,7 @@ In this blog I'd like to cover what is the current situation of the DIY Drone ec
 ### The current setup with a bog standard "DIY Drone Kit" is something along the lines of:
 - The user's equipment:
     - A 8-16 channel 2.4GHz "Radio" Transmitter
-- One the drone:
+- On the drone:
     - A 8-16 channel receiver
     - 1 ESC Per Motor
         - ESC's usually use a stm32f4 or similar 32bit MCU
