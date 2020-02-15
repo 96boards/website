@@ -162,7 +162,7 @@ The all digital drone dream would need to be very price competitive from the beg
 
 The Idea of a fully digital interface drone came about when I was building out my first drone, I was looking at the ESCs and thought to myself that a stm32 part on something as simple as a ESC is probably way too overkill and since then I was always under the impression that the ESC was able to do a lot more. And of course I was disappointed, when I finally started building the drone and was face to face with the limited functionality of the ESC.
 
-Since then, I've had this idea of a Drone ESC Mezzanine that would provide a much smarter ESC which would in-turn enable us too make a fully automated and pilot-less drones for close the the price of a FPV Drone.
+Since then, I've had this idea of a Drone ESC Mezzanine that would provide a much smarter ESC which would in-turn enable us too make a fully automated and pilot-less drones for close the price of a FPV Drone.
 The 96Boards Drone project is a step in this direction, it has allowed me to analyse the current situation of DIY drones and provides a platform to carry out various tests and work towards a fully PWM free Drone.
 
 There are some efforts along similar lines, most notable ArduPilot and PX4, but even they rely on PWM based ESCs.
