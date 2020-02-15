@@ -76,7 +76,7 @@ Whereas in a digital communication standard, the data is transmitted in bits and
 
 **Why is it closer to analogue?**
 Sample rate doesn't matter... as much.
-If the sample rate of the transmitter is 100HZ and the receiver is polling at 1KHZ, it can still interpret the PWM signal perfectly. Its is a bit less lenient if the receiver is polling at a lower frequency, but as long as its not too far off, say 90Hz in this example. The receiver can still interpret accurately.
+If the sample rate of the transmitter is 100HZ and the receiver is polling at 1KHZ, it can still interpret the PWM signal perfectly. It is a bit less lenient if the receiver is polling at a lower frequency, but as long as it's not too far off, say 90Hz in this example. The receiver can still interpret accurately.
 Whereas in a digital communication standard, data transmitted at 9600 baud cannot be read by the receiver at 115200 baud and if the receiver is set to 9599 baud, it still won't be able to read it.
 
 ***
