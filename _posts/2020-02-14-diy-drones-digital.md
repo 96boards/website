@@ -105,7 +105,7 @@ Modern MCUs (TBH even decade old MCUs) provide a bunch of full and half-duplex I
 - UART
 - SPI etc
 
-Any one of them can be used to provide high speed IO to and fro the ESC.
+Any one of them can be used to provide high speed IO to and from the ESC.
 
 This will allow us to create register based communication so we can write target RPM value to a register, say over i2c, and the ESC adjusts the throttle accordingly.
 
