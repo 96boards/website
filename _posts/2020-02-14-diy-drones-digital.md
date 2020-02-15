@@ -60,7 +60,7 @@ In this blog I'd like to cover what is the current situation of the DIY Drone ec
     - Repeat for all ESCs one at a time.
     - At this point you can start flying the drone.
 
-So As you just read, even though the ESC itself is a 32bit Micro, the way it functions and the limitations it possess are all affected by the fact that every thing is controlled over a single PWM signal.
+So, as you just read, even though the ESC itself is a 32bit Micro, the way it functions and the limitations it possesses are all affected by the fact that everything is controlled over a single PWM signal.
 
 ***
 ***
