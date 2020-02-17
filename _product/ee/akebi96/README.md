@@ -20,7 +20,7 @@ tab_menu:
       tab_position: 2
       tab_align_right: true
 product_specification: ee
-product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
+product_short_desc: "Board based on Socionext LD20"
 product_images:
   - akebi96-top-sd.png
   - akebi96-bottom-sd.png
