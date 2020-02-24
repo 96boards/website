@@ -12,14 +12,14 @@ seo:
         </div>
     </div>
     <!-- AI HERO Banner --->
-    {% capture header-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.header-image}}{% endcapture %}
-    {% capture footer-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/images/{{page.footer-image}}{% endcapture %}
+    {% capture header-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/{{page.header-image}}{% endcapture %}
+    {% capture footer-image-url %}../../{{page.product_specification}}/{{page.permalink | replace: '/product/', '' | replace: '/ai/', ''}}/{{page.footer-image}}{% endcapture %}
     <div class="row padded-row-30 ai-header" style="background-image:url(/assets/images/content/ai-bg.png);">
         <div class="container text-center">
             <h1>{{page.title}}</h1>
             <div class="col-xs-12 header-image">
-                <img class="img-responsive lazyload" alt="{{page.title}} header image" 
-                data-src="{{header-image-url}}" 
+                <img class="img-responsive lazyload" alt="{{page.title}} header image"
+                data-src="{{header-image-url}}"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
             </div>
             <a href="{{page.buy-now.url}}" class="btn btn-buy">
@@ -52,7 +52,7 @@ seo:
                                     {% for item in vertical.list %}
                                         {% if item.url %}
                                             <a href="{{item.url}}">
-                                               <li>{{item.title}}</li> 
+                                               <li>{{item.title}}</li>
                                             </a>
                                         {% else %}
                                             <li>{{item.title}}</li>
@@ -83,7 +83,7 @@ seo:
                                     {% for item in vertical.list %}
                                         {% if item.url %}
                                             <a href="{{item.url}}">
-                                               <li>{{item.title}}</li> 
+                                               <li>{{item.title}}</li>
                                             </a>
                                         {% else %}
                                             <li>{{item.title}}</li>
@@ -101,8 +101,8 @@ seo:
     <div class="row padded-row-30 ai-footer">
         <div class="container">
            <div class="col-sm-6 board-footer-image">
-                <img class="img-responsive lazyload" alt="{{page.title}} footer image" 
-                data-src="{{footer-image-url}}" 
+                <img class="img-responsive lazyload" alt="{{page.title}} footer image"
+                data-src="{{footer-image-url}}"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
            </div>
            <div class="col-sm-6 board-footer-text text-center-mob">
@@ -111,7 +111,7 @@ seo:
                     <ul>
                         {% for link in page.documentation %}
                             <a href="{{link.url}}">
-                                <li>{{link.title}}</li>   
+                                <li>{{link.title}}</li>
                             </a>
                         {% endfor %}
                     </ul>
@@ -121,7 +121,7 @@ seo:
                     <ul>
                         {% for demo in page.demos %}
                             <a href="{{demo.url}}">
-                                <li>{{demo.title}}</li>   
+                                <li>{{demo.title}}</li>
                             </a>
                         {% endfor %}
                     </ul>
@@ -130,7 +130,7 @@ seo:
                     <h3>What's in the box?</h3>
                     <ul>
                         {% for item in page.whats-in-the-box %}
-                            <li>{{item}}</li>   
+                            <li>{{item}}</li>
                         {% endfor %}
                     </ul>
                {% endif %}

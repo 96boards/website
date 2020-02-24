@@ -1,6 +1,6 @@
 ---
 title: Nitrogen
-layout: product-display-page
+layout: product
 permalink: /product/nitrogen/
 display_product: true
 shortname: nitrogen
@@ -25,8 +25,8 @@ tab_menu:
       tab_align_right: true
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
 product_images:
-  - nitrogen-front-web.jpg
-  - nitrogen-back-web.jpg
+  - images/nitrogen-front-web.jpg
+  - images/nitrogen-back-web.jpg
 product_buy_links:
   -
     link-title: "Buy Nitrogen"

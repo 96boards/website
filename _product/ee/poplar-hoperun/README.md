@@ -1,6 +1,6 @@
 ---
 title: Poplar (Hoperun)
-layout: product-display-page
+layout: product
 permalink: /product/poplar-hoperun/
 description: |-
     Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification.
@@ -23,8 +23,8 @@ tab_menu:
 product_specification: ee
 product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
 product_images:
-  - poplar-hoperun-front-sd.jpg
-  - poplar-hoperun-back-sd.jpg
+  - images/poplar-hoperun-front-sd.jpg
+  - images/poplar-hoperun-back-sd.jpg
 product_buy_links:
   -
     link-title: "HiHope"

@@ -1,6 +1,6 @@
 ---
 title: TB-96AI
-layout: product-display-page
+layout: product
 product: true
 archived: false
 shortname: tb-96ai
@@ -20,9 +20,9 @@ product_short_desc: TB-96AI is a powerful core board for artificial intelligence
 product_specification: se
 product_sub_specification: module
 product_images:
-  - TB-96AI-front.jpg
-  - TB-96AI-rear.jpg
-  - SoM-Carrier-Board-with-Module.jpg
+  - images/TB-96AI-front.jpg
+  - images/TB-96AI-rear.jpg
+  - images/SoM-Carrier-Board-with-Module.jpg
 tab_menu:
     - tab_title: TB-96AI
       tab_link: /product/tb-96ai/

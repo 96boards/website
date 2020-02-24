@@ -1,6 +1,6 @@
 ---
 title: Ultra96
-layout: product-display-page
+layout: product
 permalink: /product/ultra96/
 product: true
 archived: false
@@ -17,19 +17,19 @@ product_short_desc: "Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSo
 product_specification: ce
 display_product: true
 product_images:
-  - ultra96-front-sd.png
-  - ultra96-back-sd.png
-  - ultra96-angle1-sd.png
-  - ultra96-angle2-sd.png
-  - ultra96-angle3-sd.png
-  - ultra96-angle4-sd.png
-  - ultra96-angle5-sd.png
-  - ultra96-angle6-sd.png
-  - ultra96-angle7-sd.png
-  - ultra96-angle8-sd.png
-  - ultra96-angle9-sd.png
-  - ultra96-angle10-sd.png
-  - ultra96-angle11-sd.png
+  - images/ultra96-front-sd.png
+  - images/ultra96-back-sd.png
+  - images/ultra96-angle1-sd.png
+  - images/ultra96-angle2-sd.png
+  - images/ultra96-angle3-sd.png
+  - images/ultra96-angle4-sd.png
+  - images/ultra96-angle5-sd.png
+  - images/ultra96-angle6-sd.png
+  - images/ultra96-angle7-sd.png
+  - images/ultra96-angle8-sd.png
+  - images/ultra96-angle9-sd.png
+  - images/ultra96-angle10-sd.png
+  - images/ultra96-angle11-sd.png
 tab_menu:
     - tab_title: Ultra96
       tab_link: /product/ultra96/

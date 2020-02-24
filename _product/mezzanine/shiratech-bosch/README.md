@@ -1,6 +1,6 @@
 ---
 title: Shiratech Bosch Sensor Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-bosch/
 display_product: true
 shortname: shiratech-bosch
@@ -21,8 +21,8 @@ product_specification: "mezzanine"
 product: true
 product_short_desc: "The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes."
 product_images:
-  - shiratech-bosch-front-sd.jpg
-  - shiratech-bosch-back-sd.jpg
+  - images/shiratech-bosch-front-sd.jpg
+  - images/shiratech-bosch-back-sd.jpg
 product_buy_links:
   -
     link-title: Arrow

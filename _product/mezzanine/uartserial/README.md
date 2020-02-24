@@ -1,6 +1,6 @@
 ---
 title: UART Serial
-layout: product-display-page
+layout: product
 permalink: /product/uartserial/
 product_specification: "mezzanine"
 product: true
@@ -21,15 +21,15 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
 product_images:
-  - uart-mezzanine-front-sd.png
-  - uart-mezzanine-back-sd.png
-  - 96boards-uarts-seed3.jpg
-  - 96boards-uarts-seed2.jpg
-  - 96boards-uarts-seed.jpg
-  - 96boards-uarts-seed-for-accesories-page.jpg
-  - UARTplugIMG_3673.jpg
-  - 96boards-uarts-seed4-crop.jpg
-  - 96boards-uarts-seed4.jpg
+  - images/uart-mezzanine-front-sd.png
+  - images/uart-mezzanine-back-sd.png
+  - images/96boards-uarts-seed3.jpg
+  - images/96boards-uarts-seed2.jpg
+  - images/96boards-uarts-seed.jpg
+  - images/96boards-uarts-seed-for-accesories-page.jpg
+  - images/UARTplugIMG_3673.jpg
+  - images/96boards-uarts-seed4-crop.jpg
+  - images/96boards-uarts-seed4.jpg
 product_sidebar_sections:
     - title: Features
       items:

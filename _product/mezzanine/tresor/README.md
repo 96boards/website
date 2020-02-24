@@ -1,6 +1,6 @@
 ---
 title: Tresor Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/tresor/
 archived: false
 shortname: tresor
@@ -21,8 +21,8 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "The TRESOR Mezzanine Board is a solution that enables the 96Boards to implement different security elements in the projects."
 product_images:
-    - tresor-front-sd.png
-    - tresor-back-sd.png
+  - images/tresor-front-sd.png
+  - images/tresor-back-sd.png
 product_buy_links:
   -
     link-title: Arrow

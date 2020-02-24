@@ -1,6 +1,6 @@
 ---
 title: Sophon Edge
-layout: product-display-page
+layout: product
 permalink: /product/sophon-edge/
 product: true
 archived: false
@@ -17,8 +17,8 @@ product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM
 product_specification: ce
 display_product: true
 product_images:
-    - sophon-front-sd.png
-    - sophon-back-sd.png
+  - images/sophon-front-sd.png
+  - images/sophon-back-sd.png
 tab_menu:
     - tab_title: Sophon Edge
       tab_link: /product/sophon-edge/

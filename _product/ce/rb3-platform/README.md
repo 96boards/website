@@ -1,6 +1,6 @@
 ---
 title: Qualcomm® Robotics RB3 Development Platform
-layout: product-display-page
+layout: product
 permalink: /product/rb3-platform/
 #Set this to true and the board will be visible on 96boards.ai
 product: true
@@ -18,13 +18,13 @@ display_product: true
 product_short_desc: "The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor."
 product_specification: ce
 product_images:
-  - db845c-front-sd.png
-  - db845c-back-sd.png
-  - rb3-frame1-sd.jpg
-  - rb3-frame2-sd.jpg
-  - rb3-som-sd.jpg
-  - rb3-acc1-sd.jpeg
-  - rb3-acc2-sd.jpg
+  - images/db845c-front-sd.png
+  - images/db845c-back-sd.png
+  - images/rb3-frame1-sd.jpg
+  - images/rb3-frame2-sd.jpg
+  - images/rb3-som-sd.jpg
+  - images/rb3-acc1-sd.jpeg
+  - images/rb3-acc2-sd.jpg
 tab_menu:
     - tab_title: Qualcomm® Robotics RB3 Development Platform
       tab_link: /product/rb3-platform/

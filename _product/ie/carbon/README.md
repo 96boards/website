@@ -1,6 +1,6 @@
 ---
 title: Carbon
-layout: product-display-page
+layout: product
 permalink: /product/carbon/
 product: true
 shortname: carbon
@@ -23,8 +23,8 @@ display_product: true
 product_specification: ie
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
 product_images:
-  - Carbon_Front-SD.png
-  - Carbon-Back-web.png
+  - images/Carbon_Front-SD.png
+  - images/Carbon-Back-web.png
 product_buy_links:
   -
     link-title: "Buy Carbon (Seeed)"
