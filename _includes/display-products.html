@@ -25,8 +25,8 @@
             <div class="col-item">
                 <div class="photo">
                     <a href="{{product.permalink}}">
-                        {% capture image_path %}_product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
-                        {% capture full_path %}/product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
+                        {% capture image_path %}_product/{{product.product_specification}}/{{product-url[2]}}/{{ product.product_images[0]}}{% endcapture %}
+                        {% capture full_path %}/product/{{product.product_specification}}/{{product-url[2]}}/{{ product.product_images[0]}}{% endcapture %}
                         {% responsive_image_block %}
                         template: _includes/thumb.html
                         path: {{ image_path }}

@@ -21,8 +21,8 @@
                         <div class="col-sm-4 featured-product">
                             <h3 class="featured-product-title">{{product.title}}</h3>
                             {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
-                            {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
-                            {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
+                            {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
+                            {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
                             {% responsive_image_block %}
                             template: _includes/thumb.html
                             path: {{ image_path }}
@@ -40,8 +40,8 @@
                         <div class="col-sm-4 featured-product bottom">
                             <h3 class="featured-product-title">{{product.title}}</h3>
                             {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
-                            {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
-                            {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
+                            {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
+                            {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
                             {% responsive_image_block %}
                             template: _includes/thumb.html
                             path: {{ image_path }}
@@ -76,8 +76,8 @@
                                 <h3 class="featured-product-title">{{product.title}}</h3>
                                 {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From
                                     {{product.product_buy_links[0].link-price}}</span>{% endif %}
-                                {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
-                                {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/images/{{ product.product_images[0]}}{% endcapture %}
+                                {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
+                                {% capture full_path %}/product/{{product.product_specification}}/{{url-slug}}/{{ product.product_images[0]}}{% endcapture %}
                                 {% responsive_image_block %}
                                 template: _includes/thumb.html
                                 path: {{ image_path }}
