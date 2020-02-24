@@ -17,9 +17,9 @@ seo:
                                 {% assign url-name = page.permalink | split: "/" %}
                                 {% assign url-name-new = url-name[2] %}
                                 <div class="activity-block item">
-                                    <a href="#" data-featherlight="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}">
+                                    <a href="#" data-featherlight="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}">
                                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                         data-src="../{{page.product_specification}}/{{url-name-new}}/images/{{ product_image }}"
+                                         data-src="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}"
                                          class="owl-lazy lazyload img-responsive" alt="{{product_image}}" />
                                     </a>
                                 </div>

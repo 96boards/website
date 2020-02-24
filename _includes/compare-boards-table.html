@@ -43,12 +43,12 @@
                             {% assign product-url = board.permalink | split: "/" %}
                             <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">
-                                <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}">
+                                <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}">
                                     {% capture image_path
-                                    %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{%
+                                    %}_product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}{%
                                     endcapture %}
                                     {% capture full_path
-                                    %}../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{%
+                                    %}../../product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}{%
                                     endcapture %}
                                     {% responsive_image_block %}
                                     template: _includes/thumb.html
@@ -134,12 +134,12 @@
                             {% assign product-url = board.permalink | split: "/" %}
                             <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">
-                                <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}">
+                                <a href="#" data-featherlight="../../product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}">
                                     {% capture image_path
-                                    %}_product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{%
+                                    %}_product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}{%
                                     endcapture %}
                                     {% capture full_path
-                                    %}../../product/{{board.product_specification}}/{{product-url[2]}}/images/{{board.product_images[0]}}{%
+                                    %}../../product/{{board.product_specification}}/{{product-url[2]}}/{{board.product_images[0]}}{%
                                     endcapture %}
                                     {% responsive_image_block %}
                                     template: _includes/thumb.html
