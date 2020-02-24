@@ -14,8 +14,8 @@ product_short_desc: "The IVY5661, which measures only 6cm x 3cm, is a micro-deve
 product_specification: ie
 display_product: true
 product_images:
-  - ivy5661-sd-front.png
-  - ivy5661-sd-back.png
+  - images/ivy5661-sd-front.png
+  - images/ivy5661-sd-back.png
 tab_menu:
   - tab_title: Ivy5661
     tab_link: /product/ivy5661/

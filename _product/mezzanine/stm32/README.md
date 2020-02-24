@@ -21,7 +21,7 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
 product_images:
-  - STM32_Front.png
+  - images/STM32_Front.png
 product_buy_links:
   -
     link-title: Arrow Electronics

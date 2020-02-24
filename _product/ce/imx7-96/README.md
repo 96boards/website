@@ -12,8 +12,8 @@ shortname: imx7-96
 archived: false
 dateAdded: 2017-10-24 09:00:00+00:00
 product_images:
-  - iMX7-96-front.jpg
-  - iMX7-96-back.jpg
+  - images/iMX7-96-front.jpg
+  - images/iMX7-96-back.jpg
 tab_menu:
     - tab_title: iMX7-96 Development Board
       tab_link: /product/imx7-96/

@@ -14,8 +14,8 @@ display_product: true
 product_short_desc: "The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O."
 product_specification: ce
 product_images:
-  - thor96-sd-front.jpg
-  - thor96-sd-back.jpg
+  - images/thor96-sd-front.jpg
+  - images/thor96-sd-back.jpg
 tab_menu:
     - tab_title: Thor96
       tab_link: /product/thor96/

@@ -21,7 +21,7 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "Shiratech LTE CAT-M1/NB1 Mezzanine for 96Boards is hosting Quectel BG96 LTE  AT-M1/NB1 modem enabling low power connectivity to cellular networks."
 product_images:
-  - shiratech-nb1-front-sd.jpg
+  - images/shiratech-nb1-front-sd.jpg
 product_buy_links:
   -
     link-title: Arrow

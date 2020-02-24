@@ -14,8 +14,8 @@ product: true
 dateAdded: 2020-01-20 09:00:00+00:00
 archived: false
 product_images:
-  - aiml-sd-front.jpg
-  - aiml-sd-back.jpg
+  - images/aiml-sd-front.jpg
+  - images/aiml-sd-back.jpg
 tab_menu:
     - tab_title: AI_ML
       tab_link: /product/aiml/

@@ -19,8 +19,8 @@ product_specification: "mezzanine"
 product: true
 product_short_desc: "WizeIoT AiVA-96 mezzanine board for DragonBoard 410c and 96Boards enables developers of the smart home devices such as smart panels, kitchen equipment and other commercial and industrial electronics products to evaluate and prototype far-field hands-free voice interface using Amazon Alexa, Google Assistant, Microsoft Cortana, IBM Watson voice service."
 product_images:
-  - aiva96-front-sd.png
-  - aiva96-back-sd.png
+  - images/aiva96-front-sd.png
+  - images/aiva96-back-sd.png
 product_buy_links:
   -
     link-title: Arrow

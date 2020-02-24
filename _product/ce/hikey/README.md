@@ -38,11 +38,11 @@ product_buy_links:
     from: Lenovator.com
     type: board
 product_images:
-  - Hikey-Lemaker-front-web.png
-  - HiKey_LeMaker_back.jpg
-  - HiKey_LeMaker_angle3.jpg
-  - HiKey_LeMaker_angle2.jpg
-  - HiKey_LeMaker_angle.jpg
+  - images/Hikey-Lemaker-front-web.png
+  - images/HiKey_LeMaker_back.jpg
+  - images/HiKey_LeMaker_angle3.jpg
+  - images/HiKey_LeMaker_angle2.jpg
+  - images/HiKey_LeMaker_angle.jpg
 product_sidebar_sections:
     - title: OS
       icon: fa-terminal

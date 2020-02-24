@@ -153,8 +153,8 @@ product_specification: ce
 display_product: true
 # Product Images - These are the images of your board. The first image is the image that is featured on index pages/homepage.
 product_images:
-    - sophon-front-sd.png
-    - sophon-back-sd.png
+    - images/sophon-front-sd.png
+    - images/sophon-back-sd.png
 # Product Tab Menu - this is where you configure the tabs of the product tab bar.
 product_tab_menu:
     - tab_title: Getting Started
@@ -237,8 +237,8 @@ Below you can see example of the product_images front matter value that you need
 ---
 ...
 product_images:
-    - sophon-front-sd.png
-    - sophon-back-sd.png
+    - images/sophon-front-sd.png
+    - images/sophon-back-sd.png
 ...
 ---
 

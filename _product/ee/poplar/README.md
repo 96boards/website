@@ -23,9 +23,9 @@ tab_menu:
 product_specification: ee
 product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
 product_images:
-  - Poplar-Board-Front-Web-500x330.jpg
-  - Poplar-Board-Side-Web-500x330.jpg
-  - Poplar-Board-Back-Web-500x330.jpg
+  - images/Poplar-Board-Front-Web-500x330.jpg
+  - images/Poplar-Board-Side-Web-500x330.jpg
+  - images/Poplar-Board-Back-Web-500x330.jpg
 product_sidebar_sections:
     - title: OS
       icon: fa-terminal

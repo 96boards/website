@@ -32,16 +32,16 @@ product_sidebar_sections:
       items:
         - title: 1 x MIPI Adapter Board
 product_images:
-  - "MIPI-adapter-Front.png"
-  - "MIPI adapter-Back.png"
-  - "MIPI adapter with Dual module.png"
-  - "MIPI adapter with OV7251.png"
-  - "MIPI adapter with OV8865.png"
-  - "MIPI adapter with OV13850.png"
-  - "MIPI adapter with mipi bridge.png"
-  - "MIPI adapter with V024.png"
-  - "MIPI adapter with PI.png"
-  - "MIPI adapter with AR0130-134.png"
+  - images/MIPI-adapter-Front.png
+  - images/MIPI adapter-Back.png
+  - images/MIPI adapter with Dual module.png
+  - images/MIPI adapter with OV7251.png
+  - images/MIPI adapter with OV8865.png
+  - images/MIPI adapter with OV13850.png
+  - images/MIPI adapter with mipi bridge.png
+  - images/MIPI adapter with V024.png
+  - images/MIPI adapter with PI.png
+  - images/MIPI adapter with AR0130-134.png
 product_buy_links:
   -
     link-title: 96Boards MIPI Adapter (Board only)

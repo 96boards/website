@@ -21,8 +21,8 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc."
 product_images:
-  - xinabox-b901-front-sd.png
-  - xinabox-b901-back-sd.png
+  - images/xinabox-b901-front-sd.png
+  - images/xinabox-b901-back-sd.png
 product_buy_links:
   -
     link-title: X in a Box

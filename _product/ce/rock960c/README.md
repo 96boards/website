@@ -13,8 +13,8 @@ product: true
 archived: false
 dateAdded: 2019-01-17 09:00:00+00:00
 product_images:
-  - rock960c-front-sd.png
-  - rock960c-back-sd.png
+  - images/rock960c-front-sd.png
+  - images/rock960c-back-sd.png
 tab_menu:
     - tab_title: Rock960c (Vamrs)
       tab_link: /product/rock960c/

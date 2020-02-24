@@ -17,11 +17,11 @@ shortname: 96boards-som-carrier-board
 archived: false
 dateAdded: 2019-06-13 09:00:00+00:00
 product_images:
-  - SoM-Carrier-Board-Front.png
-  - SoM-Carrier-Board-Rear.png
-  - SoM-Carrier-Board-with-Module.png
-  - 96-TB-AIoT_Carrier_top1.png
-  - CarrierBoard_shipping.jpg
+  - images/SoM-Carrier-Board-Front.png
+  - images/SoM-Carrier-Board-Rear.png
+  - images/SoM-Carrier-Board-with-Module.png
+  - images/96-TB-AIoT_Carrier_top1.png
+  - images/CarrierBoard_shipping.jpg
 tab_menu:
     - tab_title: SoM Carrier Board
       tab_link: /product/96boards-som-carrier-board/

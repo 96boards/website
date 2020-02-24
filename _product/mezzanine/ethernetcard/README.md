@@ -12,20 +12,20 @@ display_product: true
 product_specification: "mezzanine"
 product_short_desc: The PoE Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet.
 product_images:
-  - "ethernet-card-high-res.png"
-  - "DB410c_Mezz_Front_Angle.jpg"
-  - "DB410c_Mezz_Front2.jpg"
-  - "Ethernet_Back.jpg"
-  - "Ethernet_Front.jpg"
-  - "Front_Angle_Ethernet.jpg"
-  - "Front_Angle_Side.jpg"
-  - "Front_Angle_Side2.jpg"
-  - "Front_Angle_Side3.jpg"
-  - "Front_Angle_Side4.jpg"
-  - "Front_Angle_Side5.jpg"
-  - "Front_Angle_Side6.jpg"
-  - "Front_Angle_Side7.jpg"
-  - "Front_Angle_Side8.jpg"
+  - images/ethernet-card-high-res.png
+  - images/DB410c_Mezz_Front_Angle.jpg
+  - images/DB410c_Mezz_Front2.jpg
+  - images/Ethernet_Back.jpg
+  - images/Ethernet_Front.jpg
+  - images/Front_Angle_Ethernet.jpg
+  - images/Front_Angle_Side.jpg
+  - images/Front_Angle_Side2.jpg
+  - images/Front_Angle_Side3.jpg
+  - images/Front_Angle_Side4.jpg
+  - images/Front_Angle_Side5.jpg
+  - images/Front_Angle_Side6.jpg
+  - images/Front_Angle_Side7.jpg
+  - images/Front_Angle_Side8.jpg
 product_buy_links:
   -
     link-title: Arrow.com

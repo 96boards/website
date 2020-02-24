@@ -22,8 +22,8 @@ tab_menu:
 product_specification: ee
 product_short_desc: "Board based on Socionext LD20"
 product_images:
-  - akebi96-top-sd.png
-  - akebi96-bottom-sd.png
+  - images/akebi96-top-sd.png
+  - images/akebi96-bottom-sd.png
 product_buy_links:
   -
     link-title: "Amazon"

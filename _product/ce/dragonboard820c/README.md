@@ -14,8 +14,8 @@ keywords: |-
 product_short_desc: "Board based on Qualcomm® Snapdragon™ 820E processor and it's the size of a credit card."
 product_specification: ce
 product_images:
-  - dragonboard820c-front-sd.png
-  - dragonboard820c-back-sd.png
+  - images/dragonboard820c-front-sd.png
+  - images/dragonboard820c-back-sd.png
 tab_menu:
     - tab_title: DragonBoard™ 820c (Arrow)
       tab_link: /product/dragonboard820c/

@@ -14,8 +14,8 @@ product_short_desc: "RAK Wireless IoT Board is powered by the RK5205"
 product_specification: ie
 display_product: true
 product_images:
-  - wistrio-antenna-sd-front.png
-  - wistrio-antenna-sd-back.png
+  - images/wistrio-antenna-sd-front.png
+  - images/wistrio-antenna-sd-back.png
 tab_menu:
   - tab_title: WisTrio
     tab_link: /product/wistrio/

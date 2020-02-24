@@ -16,8 +16,8 @@ product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
 product_specification: ce
 display_product: true
 product_images:
-  - rock960-front-sd.png
-  - rock960-back-sd.png
+  - images/rock960-front-sd.png
+  - images/rock960-back-sd.png
 tab_menu:
     - tab_title: Rock960 (Vamrs)
       tab_link: /product/rock960/

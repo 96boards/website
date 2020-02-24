@@ -13,9 +13,9 @@ display_product: true
 product_specification: "mezzanine"
 product_short_desc: "The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more"
 product_images:
-  - neonkey-front-sd.JPG
-  - neonkey-frontangle1-sd.JPG
-  - neonkey-back-sd.JPG
+  - images/neonkey-front-sd.JPG
+  - images/neonkey-frontangle1-sd.JPG
+  - images/neonkey-back-sd.JPG
 product_buy_links:
   -
     link-title: Ali Express

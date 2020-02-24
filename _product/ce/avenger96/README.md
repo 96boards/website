@@ -14,8 +14,8 @@ keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 product_short_desc: "The STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things."
 product_images:
-  - avenger96-front-sd.png
-  - avenger96-back-sd.png
+  - images/avenger96-front-sd.png
+  - images/avenger96-back-sd.png
 tab_menu:
     - tab_title: Avenger96
       tab_link: /product/avenger96/

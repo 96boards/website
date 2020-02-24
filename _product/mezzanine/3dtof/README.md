@@ -20,7 +20,7 @@ tab_menu:
 product_specification: "mezzanine"
 product_short_desc: "3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications."
 product_images:
-  - 3dtof-side.jpg
+  - images/3dtof-side.jpg
 product_sidebar_sections:
     - title: Features
       items:

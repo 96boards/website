@@ -25,9 +25,9 @@ tab_menu:
       tab_position: 2
       tab_align_right: true
 product_images:
-  - orangepi-i96_front-sd.jpg
-  - orangepi-i96_back-sd.jpg
-  - orangepi-i96_angle-sd.jpg
+  - images/orangepi-i96_front-sd.jpg
+  - images/orangepi-i96_back-sd.jpg
+  - images/orangepi-i96_angle-sd.jpg
 product_buy_links:
   -
     link-title: "Orange Pi i96 (Ali Express)"

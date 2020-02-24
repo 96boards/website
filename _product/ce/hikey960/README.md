@@ -28,8 +28,8 @@ tab_menu:
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
 product_images:
-  - hikey-960-SD-front.jpg
-  - hikey-960-SD-back.jpg
+  - images/hikey-960-SD-front.jpg
+  - images/hikey-960-SD-back.jpg
 product_buy_links:
   -
     link-title: "Amazon (USA)"

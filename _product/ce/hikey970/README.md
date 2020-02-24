@@ -30,8 +30,8 @@ tab_menu:
 product_specification: ce
 product_short_desc: "Board based on the HiSilicon Kirin 970"
 product_images:
-  - hikey970-front-sd-min.png
-  - hikey970-back-sd-min.png
+  - images/hikey970-front-sd-min.png
+  - images/hikey970-back-sd-min.png
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/
