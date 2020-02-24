@@ -19,7 +19,7 @@ seo:
                             {% if page.product_images.first %}
                                 {% assign product_images = page.product_images %}
                             {% else %}
-                                {% assign product_images = product_images | push: page.product_images %}
+                                {% assign product_images = product_images | push: page.product_image %}
                             {% endif %}
                             {% for product_image in product_images %}
                                 <div class="activity-block item">
