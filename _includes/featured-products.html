@@ -16,10 +16,10 @@
                     {% assign url-name = product.permalink | split: "/" %}
                     {% assign url-slug = url-name[2] %}
 
-                    {% if page.product_images.first %}
-                        {% assign product_image = page.product_images.first %}
+                    {% if product.product_images.first %}
+                        {% assign product_image = product.product_images.first %}
                     {% else %}
-                        {% assign product_image = page.product_images %}
+                        {% assign product_image = product.product_images %}
                     {% endif %}
 
                     {% if forloop.index < 4 %}
