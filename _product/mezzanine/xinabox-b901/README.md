@@ -1,6 +1,6 @@
 ---
 title: X in a Box B901
-layout: product-display-page
+layout: product
 permalink: /product/xinabox-b901/
 product: true
 archived: false

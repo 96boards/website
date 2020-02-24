@@ -1,6 +1,6 @@
 ---
 title: Shiratech FPGA Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-fpga/
 display_product: true
 shortname: shiratech-fpga

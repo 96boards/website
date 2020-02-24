@@ -1,6 +1,6 @@
 ---
 title: NeonKey
-layout: product-display-page
+layout: product
 permalink: /product/neonkey/
 product: true
 archived: false

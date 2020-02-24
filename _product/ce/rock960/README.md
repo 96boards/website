@@ -1,6 +1,6 @@
 ---
 title: Rock960 (Vamrs)
-layout: product-display-page
+layout: product
 permalink: /product/rock960/
 product: true
 shortname: rock960

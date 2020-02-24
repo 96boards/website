@@ -1,6 +1,6 @@
 ---
 title: Parrot
-layout: product-display-page
+layout: product
 permalink: /product/parrot/
 product: true
 shortname: parrot

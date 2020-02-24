@@ -1,6 +1,6 @@
 ---
 title: Akebi96
-layout: product-display-page
+layout: product
 permalink: /product/akebi96/
 product: true
 shortname: akebi96

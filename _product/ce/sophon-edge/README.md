@@ -1,6 +1,6 @@
 ---
 title: Sophon Edge
-layout: product-display-page
+layout: product
 permalink: /product/sophon-edge/
 product: true
 archived: false

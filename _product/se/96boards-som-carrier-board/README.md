@@ -1,6 +1,6 @@
 ---
 title: 96Boards SoM Carrier Board
-layout: product-display-page
+layout: product
 permalink: /product/96boards-som-carrier-board/
 description: |-
     The 96Boards SoM Carrier Board is an interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification”

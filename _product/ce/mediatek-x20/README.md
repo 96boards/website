@@ -1,6 +1,6 @@
 ---
 title: Mediatek X20 Development Board
-layout: product-display-page
+layout: product
 permalink: /product/mediatek-x20/
 product: true
 shortname: mediatek-x20

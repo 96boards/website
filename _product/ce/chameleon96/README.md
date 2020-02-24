@@ -1,6 +1,6 @@
 ---
 title: Chameleon96
-layout: product-display-page
+layout: product
 permalink: /product/chameleon96/
 product: true
 archived: false

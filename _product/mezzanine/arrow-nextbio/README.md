@@ -1,6 +1,6 @@
 ---
 title: Arrow NextBio
-layout: product-display-page
+layout: product
 permalink: /product/arrow-nextbio/
 archived: false
 shortname: arrow-nextbio

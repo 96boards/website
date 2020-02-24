@@ -1,6 +1,6 @@
 ---
 title: Carbon
-layout: product-display-page
+layout: product
 permalink: /product/carbon/
 product: true
 shortname: carbon

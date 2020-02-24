@@ -1,6 +1,6 @@
 ---
 title: Analog Devices 3D Time Of Flight Mezzanine Stack
-layout: product-display-page
+layout: product
 permalink: /product/3dtof/
 product: true
 shortname: 3dtof

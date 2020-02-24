@@ -1,6 +1,6 @@
 ---
 title: UART Serial
-layout: product-display-page
+layout: product
 permalink: /product/uartserial/
 product_specification: "mezzanine"
 product: true

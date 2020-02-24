@@ -1,6 +1,6 @@
 ---
 title: Ethernet Card
-layout: product-display-page
+layout: product
 permalink: /product/ethernetcard/
 product: true
 shortname: ethernetcard

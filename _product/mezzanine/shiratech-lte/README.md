@@ -1,6 +1,6 @@
 ---
 title: Shiratech LTE Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-lte/
 product_specification: "mezzanine"
 archived: false

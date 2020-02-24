@@ -1,6 +1,6 @@
 ---
 title: Bubblegum-96
-layout: product-display-page
+layout: product
 permalink: /product/bubblegum-96/
 product: true
 archived: false

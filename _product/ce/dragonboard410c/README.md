@@ -1,6 +1,6 @@
 ---
 title: DragonBoard™ 410c
-layout: product-display-page
+layout: product
 permalink: /product/dragonboard410c/
 product: true
 shortname: dragonboard410c

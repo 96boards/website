@@ -1,6 +1,6 @@
 ---
 title: Click Mezzanine
-layout: product-display-page
+layout: product
 shortname: click-mezz
 permalink: /product/click-mezz/
 description: |-

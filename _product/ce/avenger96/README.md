@@ -1,6 +1,6 @@
 ---
 title: Avenger96
-layout: product-display-page
+layout: product
 permalink: /product/avenger96/
 product: true
 display_product: true

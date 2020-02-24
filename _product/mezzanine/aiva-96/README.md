@@ -1,6 +1,6 @@
 ---
 title: AiVA-96
-layout: product-display-page
+layout: product
 permalink: /product/aiva-96/
 shortname: aiva-96
 description: |-

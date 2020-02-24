@@ -1,6 +1,6 @@
 ---
 title: Poplar
-layout: product-display-page
+layout: product
 permalink: /product/poplar/
 product: true
 shortname: poplar

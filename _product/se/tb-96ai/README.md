@@ -1,6 +1,6 @@
 ---
 title: TB-96AI
-layout: product-display-page
+layout: product
 product: true
 archived: false
 shortname: tb-96ai

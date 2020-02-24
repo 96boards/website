@@ -1,6 +1,6 @@
 ---
 title: Thor96
-layout: product-display-page
+layout: product
 permalink: /product/thor96/
 product: true
 dateAdded: 2020-01-12 09:00:00+00:00

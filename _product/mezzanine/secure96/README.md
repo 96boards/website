@@ -1,6 +1,6 @@
 ---
 title: Secure96 Mezzanine Board
-layout: product-display-page
+layout: product
 permalink: /product/secure96/
 display_product: true
 product: true

@@ -1,6 +1,6 @@
 ---
 title: Tresor Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/tresor/
 archived: false
 shortname: tresor

@@ -1,6 +1,6 @@
 ---
 title: STM32 Sensor Mezzanine Board
-layout: product-display-page
+layout: product
 permalink: /product/stm32/
 product: true
 shortname: stm32

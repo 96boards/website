@@ -1,6 +1,6 @@
 ---
 title: HiKey970
-layout: product-display-page
+layout: product
 permalink: /product/hikey970/
 product: true
 archived: false

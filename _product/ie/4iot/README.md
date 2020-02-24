@@ -1,6 +1,6 @@
 ---
 title: 4IoT - Geniatech
-layout: product-display-page
+layout: product
 display_product: true
 product_specification: ie
 product: true

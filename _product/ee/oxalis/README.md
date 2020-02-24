@@ -1,6 +1,6 @@
 ---
 title: Oxalis
-layout: product-display-page
+layout: product
 permalink: /product/oxalis/
 product: true
 shortname: oxalis

@@ -1,6 +1,6 @@
 ---
 title: Link Sprite
-layout: product-display-page
+layout: product
 permalink: /product/linkspritesensorkit/
 product: true
 shortname: linkspritesensorkit

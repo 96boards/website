@@ -1,6 +1,6 @@
 ---
 title: Orange Pi i96
-layout: product-display-page
+layout: product
 permalink: /product/orangepi-i96/
 display_product: true
 product_specification: ie

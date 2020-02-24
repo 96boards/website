@@ -1,6 +1,6 @@
 ---
 title: D3Camera
-layout: product-display-page
+layout: product
 permalink: /product/d3camera/
 product: true
 shortname: d3camera

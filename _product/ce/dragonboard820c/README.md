@@ -1,6 +1,6 @@
 ---
 title: DragonBoard™ 820c
-layout: product-display-page
+layout: product
 permalink: /product/dragonboard820c/
 product: true
 archived: false

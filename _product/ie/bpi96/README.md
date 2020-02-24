@@ -1,6 +1,6 @@
 ---
 title: BPi96 NB-IoT
-layout: product-display-page
+layout: product
 product: true
 shortname: bpi96
 archived: false

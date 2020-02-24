@@ -1,6 +1,6 @@
 ---
 title: AI_ML
-layout: product-display-page
+layout: product
 permalink: /product/aiml/
 description: |-
     The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video and high processor requirements, including robotics local AI systems, monitoring and drones.

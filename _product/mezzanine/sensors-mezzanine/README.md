@@ -1,6 +1,6 @@
 ---
 title: Sensors
-layout: product-display-page
+layout: product
 permalink: /product/sensors-mezzanine/
 product: true
 shortname: sensors-mezzanine

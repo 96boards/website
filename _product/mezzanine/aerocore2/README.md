@@ -1,6 +1,6 @@
 ---
 title: AeroCore 2
-layout: product-display-page
+layout: product
 permalink: /product/aerocore2/
 product: true
 archived: false

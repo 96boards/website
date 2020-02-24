@@ -1,6 +1,6 @@
 ---
 title: Qualcomm® Robotics RB3 Development Platform
-layout: product-display-page
+layout: product
 permalink: /product/rb3-platform/
 #Set this to true and the board will be visible on 96boards.ai
 product: true

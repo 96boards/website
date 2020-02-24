@@ -1,6 +1,6 @@
 ---
 title: Ivy5661
-layout: product-display-page
+layout: product
 product: true
 archived: false
 shortname: ivy5661

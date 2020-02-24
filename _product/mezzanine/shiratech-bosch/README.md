@@ -1,6 +1,6 @@
 ---
 title: Shiratech Bosch Sensor Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-bosch/
 display_product: true
 shortname: shiratech-bosch

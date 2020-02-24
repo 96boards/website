@@ -1,6 +1,6 @@
 ---
 title: HiKey (CircuitCo)
-layout: product-display-page
+layout: product
 permalink: /product/hikey-circuitco/
 product_short_desc: "Board based on HiSilicon Kirin 6220 processor"
 product: true

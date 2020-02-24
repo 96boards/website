@@ -1,6 +1,6 @@
 ---
 title: MIPI Adapter Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/mipiadapter/
 product: true
 archived: false

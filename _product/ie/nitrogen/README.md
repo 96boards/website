@@ -1,6 +1,6 @@
 ---
 title: Nitrogen
-layout: product-display-page
+layout: product
 permalink: /product/nitrogen/
 display_product: true
 shortname: nitrogen

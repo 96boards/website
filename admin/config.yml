@@ -44,7 +44,7 @@ collections:
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
-      - {label: Layout, name: layout, widget: hidden, default: "product-display-page", required: true}
+      - {label: Layout, name: layout, widget: hidden, default: "product", required: true}
       - {label: Product, name: product, widget: hidden, default: true, required: true}
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
       - label: "Product Videos"
