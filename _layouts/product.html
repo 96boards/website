@@ -19,7 +19,7 @@ seo:
                             {% if page.product_images.first %}
                                 {% assign product_images = page.product_images %}
                             {% else %}
-                                {% assign product_images = product_images | push: page.product_image %}
+                                {% assign product_images = product_images | push: page.product_images %}
                             {% endif %}
                             {% for product_image in product_images %}
                                 <div class="activity-block item">
@@ -116,6 +116,42 @@ seo:
             </div>
             <div class="col-sm-12 col-md-8 col-md-pull-4">
                 {{content}}
+                {% if page.display_attributes_table %}
+                    <table>
+                        <thead>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </thead>
+                        <tbody>
+                        {% for attribute in page.attributes %}
+                            <tr>
+                                <td>{{attribute.name}}</td>
+                                <td>
+                                    {% if attribute.values %}
+                                        {% for value in attribute.values %}
+                                        <span class="val">
+                                            {% if value.title %}
+                                                {{value.title}}
+                                                {% if value.value %}
+                                                    ({{value.value}})
+                                                {% endif %}
+                                            {% else %}
+                                                {{value}}
+                                            {% endif %}
+                                        </span>
+                                        {% endfor %}
+                                    {% elsif attribute.value %}
+                                        <span class="val">
+                                            {{attribute.value}}
+                                        </span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                {% endif %}
             </div>
         </div><!-- end row-->
         {% if page.product_bottom_section %}
