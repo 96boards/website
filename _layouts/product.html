@@ -5,6 +5,8 @@ css-package: products
 seo:
     type: Product
 ---
+{% assign url-name = page.permalink | split: "/" %}
+{% assign url-name-new = url-name[2] %}
 <div class="row" id="content-container">
     {% include 96boards-tab-bar.html %}
     <div class="container">
@@ -13,14 +15,18 @@ seo:
                 <div id="product-image-carousel">
                     <div class="owl-carousel owl-theme">
                         {% if page.product_specification %}
-                            {% for product_image in page.product_images %}
-                                {% assign url-name = page.permalink | split: "/" %}
-                                {% assign url-name-new = url-name[2] %}
+                            {% assign product_images = "" | split: ',' %}
+                            {% if page.product_images.first %}
+                                {% assign product_images = page.product_images %}
+                            {% else %}
+                                {% assign product_images = product_images | push: page.product_images %}
+                            {% endif %}
+                            {% for product_image in product_images %}
                                 <div class="activity-block item">
                                     <a href="#" data-featherlight="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}">
                                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                         data-src="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}"
-                                         class="owl-lazy lazyload img-responsive" alt="{{product_image}}" />
+                                            data-src="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}"
+                                            class="owl-lazy lazyload img-responsive" alt="{{product_image}}" />
                                     </a>
                                 </div>
                             {% endfor %}
@@ -94,10 +100,8 @@ seo:
                     {% endfor %}
                 {% endif %}
                 {% if page.product_media_highlights %}
-                    {% assign url-product-name = page.permalink | split: "/" %}
-                    {% assign url-product-name = url-product-name[2] %}
 
-                    {% assign media-highlights = site.data.news.items | where: "tag", url-product-name %}
+                    {% assign media-highlights = site.data.news.items | where: "tag", url-name-new %}
                     <ul class="list-group">
                         <li href="#" class="list-group-item active"><b>Media Highlights</b></li>
                             {% for info in media-highlights %}
