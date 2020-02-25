@@ -1,6 +1,6 @@
 ---
 title: Sensors
-layout: product-display-page
+layout: product
 permalink: /product/sensors-mezzanine/
 product: true
 shortname: sensors-mezzanine
@@ -21,9 +21,9 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
 product_images:
-    - 96Boards-Sensors-2.jpg
-    - 96Boards-Sensors-3.jpg
-    - 96Boards-Sensors-1.jpg
+  - images/96Boards-Sensors-2.jpg
+  - images/96Boards-Sensors-3.jpg
+  - images/96Boards-Sensors-1.jpg
 product_buy_links:
   -
     link-title: 96Boards Sensors

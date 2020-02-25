@@ -1,6 +1,6 @@
 ---
 title: Bubblegum-96
-layout: product-display-page
+layout: product
 permalink: /product/bubblegum-96/
 product: true
 archived: false
@@ -25,9 +25,9 @@ tab_menu:
 product_specification: ce
 product_short_desc: Board based on Actions Semi S900 Processor
 product_images:
-  - 96b-0-bubblegum96-actions-ucrobotics-1.png
-  - 96b-0-bubblegum96-actions-ucrobotics-4.png
-  - 96b-0-bubblegum96-actions-ucrobotics-5.png
+  - images/96b-0-bubblegum96-actions-ucrobotics-1.png
+  - images/96b-0-bubblegum96-actions-ucrobotics-4.png
+  - images/96b-0-bubblegum96-actions-ucrobotics-5.png
 product_sidebar_sections:
     - title: OS
       icon: fa-terminal

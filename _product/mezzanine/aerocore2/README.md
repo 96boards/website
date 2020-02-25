@@ -1,6 +1,6 @@
 ---
 title: AeroCore 2
-layout: product-display-page
+layout: product
 permalink: /product/aerocore2/
 product: true
 archived: false
@@ -24,12 +24,12 @@ tab_menu:
 product_specification: "mezzanine"
 product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
 product_images:
-  - "AeroCore-2-Mezzanine-front.jpg"
-  - "AeroCore-2-Mezzanine-back.jpg"
-  - "AeroCore-2-Mezzanine-angle.jpg"
-  - "AeroCore-2-Mezzanine-additional3.jpg"
-  - "AeroCore-2-Mezzanine-additional2.jpg"
-  - "AeroCore-2-Mezzanine-additional.jpg"
+  - images/AeroCore-2-Mezzanine-front.jpg
+  - images/AeroCore-2-Mezzanine-back.jpg
+  - images/AeroCore-2-Mezzanine-angle.jpg
+  - images/AeroCore-2-Mezzanine-additional3.jpg
+  - images/AeroCore-2-Mezzanine-additional2.jpg
+  - images/AeroCore-2-Mezzanine-additional.jpg
 product_bottom_section:
     - title: Product Includes
       items:

@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/audio-mezzanine/
 product: true
 archived: false
@@ -12,7 +12,7 @@ display_product: true
 product_specification: "mezzanine"
 product_short_desc: This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 product_images:
-  - "audio-mezzanine.png"
+  - images/audio-mezzanine.png
 product_sidebar_sections:
     - title: Features
       items:

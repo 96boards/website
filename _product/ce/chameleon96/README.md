@@ -1,6 +1,6 @@
 ---
 title: Chameleon96
-layout: product-display-page
+layout: product
 permalink: /product/chameleon96/
 product: true
 archived: false
@@ -14,8 +14,8 @@ display_product: true
 product_short_desc: "The Chameleon96 is a development board based on the Intel Cyclone V SoC FPGA"
 product_specification: ce
 product_images:
-    - chameleon96-front-small.png
-    - chameleon96-back-small.png
+  - images/chameleon96-front-small.png
+  - images/chameleon96-back-small.png
 tab_menu:
         - tab_title: Chameleon96
           tab_link: /product/chameleon96/

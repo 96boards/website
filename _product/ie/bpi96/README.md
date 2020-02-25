@@ -1,6 +1,6 @@
 ---
 title: BPi96 NB-IoT
-layout: product-display-page
+layout: product
 product: true
 shortname: bpi96
 archived: false
@@ -25,8 +25,8 @@ display_product: true
 product_specification: ie
 product_short_desc: "The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board."
 product_images:
-  - bpi96-front-sd.jpg
-  - bpi96-back-sd.jpg
+  - images/bpi96-front-sd.jpg
+  - images/bpi96-back-sd.jpg
 product_buy_links:
   -
     link-title: "BPi NB-IoT (Ali Express)"

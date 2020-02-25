@@ -1,6 +1,6 @@
 ---
 title: Oxalis
-layout: product-display-page
+layout: product
 permalink: /product/oxalis/
 product: true
 shortname: oxalis
@@ -14,10 +14,10 @@ product_short_desc: "Oxalis Board based on the NXP Layerscape LS1012A Processor"
 product_specification: ee
 display_product: true
 product_images:
-    - oxalis-front-sd.JPG
-    - oxalis-back-sd.JPG
-    - oxalis-som-front-sd.JPG
-    - oxalis-som-back-sd.JPG
+  - images/oxalis-front-sd.JPG
+  - images/oxalis-back-sd.JPG
+  - images/oxalis-som-front-sd.JPG
+  - images/oxalis-som-back-sd.JPG
 tab_menu:
     - tab_title: Oxalis
       tab_link: /product/oxalis/

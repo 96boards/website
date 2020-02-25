@@ -1,6 +1,6 @@
 ---
 title: DragonBoard™ 410c
-layout: product-display-page
+layout: product
 permalink: /product/dragonboard410c/
 product: true
 shortname: dragonboard410c
@@ -14,8 +14,8 @@ display_product: true
 product_short_desc: "Board based on Qualcomm® APQ8016E processor and it's the size of a credit card."
 product_specification: ce
 product_images:
-  - DragonBoard-UpdatedImages-front.png
-  - DragonBoard-UpdatedImages-back.png
+  - images/DragonBoard-UpdatedImages-front.png
+  - images/DragonBoard-UpdatedImages-back.png
 tab_menu:
     - tab_title: DragonBoard™ 410c (Arrow)
       tab_link: /product/dragonboard410c/

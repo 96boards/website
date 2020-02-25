@@ -1,6 +1,6 @@
 ---
 title: Shiratech LTE Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-lte/
 product_specification: "mezzanine"
 archived: false
@@ -21,8 +21,8 @@ tab_menu:
     tab_align_right: true
 product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
 product_images:
-    - shiratech-lte-front-sd.jpg
-    - shiratech-lte-back-sd.jpg
+  - images/shiratech-lte-front-sd.jpg
+  - images/shiratech-lte-back-sd.jpg
 product_buy_links:
   -
     link-title: Arrow

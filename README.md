@@ -128,7 +128,7 @@ Below we will step through each front matter(yaml) setting and explain what each
 title: Sophon Edge
 # The layout to be used - below is the layout that you should use unless
 # you have been directed otherwise by one of the 96Boards team.
-layout: product-display-page
+layout: product
 # This is the url that your product will be available at.
 # You should stick to the format /product/product-title
 # Please use dashes between words to keep the format consistent.
@@ -153,8 +153,8 @@ product_specification: ce
 display_product: true
 # Product Images - These are the images of your board. The first image is the image that is featured on index pages/homepage.
 product_images:
-    - sophon-front-sd.png
-    - sophon-back-sd.png
+    - images/sophon-front-sd.png
+    - images/sophon-back-sd.png
 # Product Tab Menu - this is where you configure the tabs of the product tab bar.
 product_tab_menu:
     - tab_title: Getting Started
@@ -190,15 +190,15 @@ product_buy_links:
     type: board
     link-price: "&#xa5;899.00"
     link-price-currency: CNY
-# Product OS - This setting is used in the product-display-page layout to specify what operating systems are available for your board.
+# Product OS - This setting is used in the product layout to specify what operating systems are available for your board.
 product_os:
   - title: Linux
     link: /documentation/consumer/sophon-edge/downloads/
-# Third part images - This setting is used in the product-display-page to show what third party images there are available for your board. If you have no third party images then please omit.
+# Third part images - This setting is used in the product to show what third party images there are available for your board. If you have no third party images then please omit.
 product_third_party_images:
   - title: Coming Soon...
     link:
-# Product more info - This setting is used in the product-display-page to link to any other sources for more information about this board e.g vendor site, vendor documentation.
+# Product more info - This setting is used in the product to link to any other sources for more information about this board e.g vendor site, vendor documentation.
 product_more_info:
   - title: Sophon
     link: https://sophon.ai/
@@ -237,8 +237,8 @@ Below you can see example of the product_images front matter value that you need
 ---
 ...
 product_images:
-    - sophon-front-sd.png
-    - sophon-back-sd.png
+    - images/sophon-front-sd.png
+    - images/sophon-back-sd.png
 ...
 ---
 

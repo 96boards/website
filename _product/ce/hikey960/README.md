@@ -1,6 +1,6 @@
 ---
 title: HiKey960
-layout: product-display-page
+layout: product
 permalink: /product/hikey960/
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
@@ -28,8 +28,8 @@ tab_menu:
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
 product_images:
-  - hikey-960-SD-front.jpg
-  - hikey-960-SD-back.jpg
+  - images/hikey-960-SD-front.jpg
+  - images/hikey-960-SD-back.jpg
 product_buy_links:
   -
     link-title: "Amazon (USA)"
