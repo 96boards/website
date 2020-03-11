@@ -1,6 +1,6 @@
 ---
 title: Stinger96 IoT Box Giveaway
-permalink: /stinger96-iot-box-giveaway/
+permalink: /iot-box-giveaway/
 description: >
     We are giving away Stinger96 IoT Boxes to the first 500 people to fill out this form! Tell us why you want one and what you will create with it for a chance to win a free Stinger96 IoT Box!
 layout: flow
