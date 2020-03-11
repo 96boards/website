@@ -1,5 +1,5 @@
 ---
-title: Stinger96 IoT Box Giveaway
+title: IoT Box Giveaway
 permalink: /iot-box-giveaway/
 description: >
     We are giving away Stinger96 IoT Boxes to the first 500 people to fill out this form! Tell us why you want one and what you will create with it for a chance to win a free Stinger96 IoT Box!
@@ -8,10 +8,9 @@ jumbotron:
     title: Stinger96 IoT Box Giveaway
     description: >
         We are giving away Stinger96 IoT Boxes to the first 500 people to fill out this form! Tell us why you want one and what you will create with it for a chance to win a free Stinger96 IoT Box!
-    background-image: /assets/images/content/shiratech-iotbox.png
     buttons:
         - title: View Spec
-          class: btn-primary
+          class: btn btn-primary
           url: /assets/pdf/IoTBoX_BasedOn_STM32MP1.pdf
 flow:
     - row: container_row
@@ -32,6 +31,10 @@ flow:
                 - External sensors connectors
                 - Running Linux (Yocto)
                 - Battery powered
+        - format: title
+          title_content:
+            size: h2
+            text: Win an IoT Box!
         - format: custom_include
           source: stinger96_giveaway.html
 ---
