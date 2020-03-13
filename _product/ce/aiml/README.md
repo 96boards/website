@@ -36,6 +36,8 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/i.imx8x-ai-ml/arrow-development-tools"
     from: Arrow Electronics
     type: board
+    link-price: "$390.00"
+    link-price-currency: USD
 product_sidebar_sections:
     - title: OS
       icon: fa-terminal
