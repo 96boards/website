@@ -44,7 +44,7 @@ collections:
         default: /assets/images/content/96Boards-Logo_v-Consumer.png
         required: false
       - {label: Display Product, name: display_product, widget: hidden, default: true, required: true}
-      - {label: Layout, name: layout, widget: hidden, default: "product-display-page", required: true}
+      - {label: Layout, name: layout, widget: hidden, default: "product", required: true}
       - {label: Product, name: product, widget: hidden, default: true, required: true}
       - {label: Archived, name: archived, widget: hidden, default: false, required: true}
       - label: "Product Videos"
@@ -64,6 +64,7 @@ collections:
           - {label: "Tab URL", name: tab_link, hint: "The link your tab will go to. For the current page use ./ ", widget: string, required: true}
           - {label: "Tab Align Right ", name: tab_align_right, widget: boolean, required: false, default: false}
           - {label: "Tab Active ", name: active, widget: boolean, required: false, default: false, hint: "Toggle this for the main product tab."}
+      - {label: "Display Attribute Table", name: display_attributes_table, widget: boolean, default: false, hint: "Changing to True will result in the product attributes, which you can add below, showing in a table on your product's page. Set to False if you are adding a custom table in the 'Product Text Content' section. "}
       - label: Technical Product Attributes
         name: attributes
         widget: list

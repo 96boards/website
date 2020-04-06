@@ -1,6 +1,6 @@
 ---
 title: HiKey
-layout: product-display-page
+layout: product
 permalink: /product/hikey/
 description: |-
     The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size of a credit card.
@@ -38,11 +38,11 @@ product_buy_links:
     from: Lenovator.com
     type: board
 product_images:
-  - Hikey-Lemaker-front-web.png
-  - HiKey_LeMaker_back.jpg
-  - HiKey_LeMaker_angle3.jpg
-  - HiKey_LeMaker_angle2.jpg
-  - HiKey_LeMaker_angle.jpg
+  - images/Hikey-Lemaker-front-web.png
+  - images/HiKey_LeMaker_back.jpg
+  - images/HiKey_LeMaker_angle3.jpg
+  - images/HiKey_LeMaker_angle2.jpg
+  - images/HiKey_LeMaker_angle.jpg
 product_sidebar_sections:
     - title: OS
       icon: fa-terminal

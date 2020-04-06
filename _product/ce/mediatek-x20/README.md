@@ -1,6 +1,6 @@
 ---
 title: Mediatek X20 Development Board
-layout: product-display-page
+layout: product
 permalink: /product/mediatek-x20/
 product: true
 shortname: mediatek-x20
@@ -25,10 +25,10 @@ product_specification: ce
 display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"
 product_images:
-  - Helio-X20-front.png
-  - Helio-X20-back.png
-  - Helio-X20-side-one.png
-  - Helio-X20-side-two.png
+  - images/Helio-X20-front.png
+  - images/Helio-X20-back.png
+  - images/Helio-X20-side-one.png
+  - images/Helio-X20-side-two.png
 product_sidebar_sections:
     - title: Third Party Images
       icon: fa-external-link-square

@@ -1,6 +1,6 @@
 ---
 title: Arrow NextBio
-layout: product-display-page
+layout: product
 permalink: /product/arrow-nextbio/
 archived: false
 shortname: arrow-nextbio
@@ -22,8 +22,8 @@ tab_menu:
 product_specification: "mezzanine"
 product_short_desc: "The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module is a fingerprint development shield for the DragonBoard 410c development board by Arrow Electronics."
 product_images:
-- nextbio-back-sd.jpg
-- nextbio-front-sd.jpg
+  - images/nextbio-back-sd.jpg
+  - images/nextbio-front-sd.jpg
 product_buy_links:
 -
   link-title: Arrow
