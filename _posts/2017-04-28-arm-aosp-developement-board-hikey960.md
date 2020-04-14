@@ -97,7 +97,7 @@ Information about the HiKey 960 board and Running Android on it will be availabl
 <td> <strong>Connectivity</strong>
 </td>
 
-<td >Dual-band 802.11 b/g/n/ac WiFi and Bluetooth 4.1 with on board antennas
+<td >Dual-band 802.11 b/g/n/ac WiFi and <em>Bluetooth</em> ® wireless technology 4.1 with on board antennas
 </td>
 </tr>
 <tr >

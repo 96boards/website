@@ -8,7 +8,7 @@ date: 2017-07-31 12:00:00+00:00
 # Layout for the Post
 layout: post
 # Title of the blog post.
-title: Bringing the Carbon to life - Bluetooth
+title: Bringing the Carbon to life - Bluetooth® wireless technology
 # This is the featured background image of the blog which resides under _assets/
 image:
     featured: true
@@ -27,7 +27,7 @@ Last year I got my hands on the 96Boards Carbon by SeeedStudio thanks to a givea
 
 I did nothing of that sort however and the board gathered dust until earlier this year, when Kushal and I talked about getting micropython up on the Carbon. I finally dusted off my Carbon and built micropython on it and demonstrated the board at FOSSAsia during a session [Kushal Das](https://kushaldas.in/) did on micropython and NodeMCU. Kushal then followed up with a [blog post](https://kushaldas.in/posts/running-micropython-on-96boards-carbon.html) with a nicer Hello World blinky program than I wrote.
 
-We still did not get the bluetooth working on the Carbon and after a lot of searching I found out that it needed flashing the nRF51 chip on the board. I am a relative noob in the embedded world, and after quite a bit of struggling I found out that the cheapest way for me to do that was to purchase an [ST-Link V2](http://www.amazon.in/ST-Link-V2-automatic-Downloader-Programmer/dp/B00GD2S30S) programmer and use it to flash.  I did the purchase and once again by the time the programmer arrived, life had taken over and now it was the programmer’s turn to gather dust.
+We still did not get the _Bluetooth_ ® wireless technology working on the Carbon and after a lot of searching I found out that it needed flashing the nRF51 chip on the board. I am a relative noob in the embedded world, and after quite a bit of struggling I found out that the cheapest way for me to do that was to purchase an [ST-Link V2](http://www.amazon.in/ST-Link-V2-automatic-Downloader-Programmer/dp/B00GD2S30S) programmer and use it to flash.  I did the purchase and once again by the time the programmer arrived, life had taken over and now it was the programmer’s turn to gather dust.
 
 This was until the reserved-bit makerspace started hosting IoT meetups and I did the Hello World demo with the Carbon. I finally had the inspiration I needed to bring the Carbon to life to make it do what it was supposed to do - talk to other devices over Bluetooth.
 
@@ -36,12 +36,12 @@ This was until the reserved-bit makerspace started hosting IoT meetups and I did
 The 96Boards Carbon is manufactured by SeeedStudio and has two chips on it, an ARM Cortex M4 for your programs and an nRF51 chip for the BLE, 512K of on-board flash and a 30-pin expansion header capable of 3.3V digital and analog GPIO.  The board is supported by the Zephyr Project, which is what we will use to bring the board to life.
 
 - For this post, we will do two very simple things:
-   - Enable bluetooth on the Carbon
+   - Enable Bluetooth on the Carbon
    - Make the Carbon into a simple beacon
 
 # Bluetooth on the Carbon
 
-The Zephyr project has a number of bluetooth examples in their sample projects but none of them work out of the box for the Carbon because the nRF51 chip has not been programmed to talk to the main controller. That is the first thing we need to do and it is quite straightforward to do if you have the right support equipment. What you need are:
+The Zephyr project has a number of Bluetooth examples in their sample projects but none of them work out of the box for the Carbon because the nRF51 chip has not been programmed to talk to the main controller. That is the first thing we need to do and it is quite straightforward to do if you have the right support equipment. What you need are:
 
 
 - An ST-Link V2 programmer.  There are different variants available, so choose one that’s cheapest and most easily available in your region
@@ -117,7 +117,7 @@ Info : using stlink api v2
 Info : Target voltage: 3.254881
 Info : nrf51.cpu: hardware has 4 breakpoints, 2 watchpoints
 Info : accepting 'telnet' connection on tcp/4444
-target halted due to debug-request, current mode: Thread 
+target halted due to debug-request, current mode: Thread
 xPSR: 0xc1000000 pc: 0x0000b1c0 msp: 0x20007ff8
 ** Programming Started **
 ```
@@ -135,7 +135,7 @@ That’s it, your nRF51 chip should now be configured to talk to your main chip,
 
 # A Beacon of life!
 
-Now that the bluetooth firmware is alive, proceed to build the beacon sample program in the `samples/bluetooth/beacon` directory in zephyr, but for the Carbon board and not the nRF51 chip:
+Now that the Bluetooth firmware is alive, proceed to build the beacon sample program in the `samples/bluetooth/beacon` directory in zephyr, but for the Carbon board and not the nRF51 chip:
 
 `make -C samples/bluetooth/beacon BOARD=96b_carbon`
 

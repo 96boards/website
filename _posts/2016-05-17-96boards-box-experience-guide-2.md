@@ -64,7 +64,7 @@ There will be a lot to cover in this part of the blog series. Let’s talk about
   * Includes 8GB eMMC Flash Storage, and SD card slot for extra storage
 
 
-  * Built in Bluetooth and WiFi
+  * Built in _Bluetooth_ ® wireless technology and WiFi
 
 
   * ARM Mali 450-MP4 GPU

@@ -34,8 +34,7 @@ Following are the features of the board:
 **Storage:** eMMC v4.51: 8 Gbyte
          microSD Socket: UHS-1 v3.01
 **Ethernet Port:** 10/100/1000 Mbit/s, IEEE 802.3 Compliant
-**Wireless:** WiFi 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac
-          Bluetooth®v4.2 (BR/EDR/BLE)
+**Wireless:** WiFi 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac _Bluetooth_ ® wireless technology v4.2 (BR/EDR/BLE)
 **USB:** 2x Type A (USB 2.0) Host and 1x Micro B (USB 2.0) OTG
 **Display:** HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4
 **LED:** 4x User LED, 1x WiFi LED, 1x BT LED

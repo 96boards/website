@@ -13,7 +13,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carb
 
 # Carbon Rover Part 3
 
-In this final revision of the Carbon Rover Project I'll be mostly taking about adding Bluetooth control, using a not-so-expected method.
+In this final revision of the Carbon Rover Project I'll be mostly taking about adding _Bluetooth_ ® wireless technology control, using a not-so-expected method.
 
 ### So what changed:
 - Bluetooth Control
