@@ -251,7 +251,7 @@ The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is 
 |  VPU                 | 1080p@60P H.264 Decoder,1080p@30P H.264 Encoder                                                           |
 |  RAM                 | Optional configuration with the following options: 1GB LPDDR3 / 2GB LPDDR3 / 4GB LPDDR3 |
 |  Storage             | Optional configuration with the following options: 16GB eMMC /32GB eMMC /64GB eMMC /128GB eMMC         |
-|  Wifi/Bluetooth      | Built-in WiFi/BT module, reserved antenna holder, can be directly inserted into the antenna     |
+|  Wifi/_Bluetooth_ ® wireless technology      | Built-in WiFi/BT module, reserved antenna holder, can be directly inserted into the antenna     |
 |  Ethernet Port       | Built-in Gigabit Ethernet PHY chip, 10/100/1000Mbps adaptive                                                                    |
 |  USB                 | USB2.0 HOST ×1 - USB3.0 DRM ×1                            |
 |  Display             | One MIPI-DSI interface, up to 1920×1080@60fps display output |

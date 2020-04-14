@@ -732,7 +732,7 @@ J
 
 Particle is WIFI
 
-This will be Bluetooth as I understood
+This will be _Bluetooth_ ® wireless technology as I understood
 
 Bluetooth LE
 

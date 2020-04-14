@@ -14,7 +14,7 @@ categories:
 ---
 # Tourmalet
 
-A touchscreen portable media player build kit reference design, that features a 5” diagonal, full HD resolution touchscreen incorporating Synaptics’ 4322 Touch-Display Driver Integration (TDDI) IC.  The reference design leverages Qualcomm’s Android-ready Dragonboard 410c development board and will enable hobbyists to build a fully functional portable Android media player with WiFi and Bluetooth networking capabilities.
+A touchscreen portable media player build kit reference design, that features a 5” diagonal, full HD resolution touchscreen incorporating Synaptics’ 4322 Touch-Display Driver Integration (TDDI) IC.  The reference design leverages Qualcomm’s Android-ready Dragonboard 410c development board and will enable hobbyists to build a fully functional portable Android media player with WiFi and _Bluetooth_® wireless technology networking capabilities.
 
 ## Project Details
 

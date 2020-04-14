@@ -96,7 +96,7 @@ D3: Yes. Right now it requires a custom boot and root file system images which y
 We are actually working on getting this board support into our Linaro release. You can expect these boards will work out of the box in next or one after release,
 
 15:28 - Continuation of demo from D3:
-Shows the gstreamer example by executing a script on custom image setup and also points out the performance limitation as of now with UYUV Video Encoding format.  
+Shows the gstreamer example by executing a script on custom image setup and also points out the performance limitation as of now with UYUV Video Encoding format.
 Executes another example and shows improved video performance with YUV:420 format with 17-20 fps using custom OpenGL ES shader. Also shows some of the patterns built into the image sensor and toggling between switching ON/OFF autofocus.
 All instructions are available on Wiki and source code is embedded into the image itself.
 
@@ -708,7 +708,7 @@ marouane - M
 can the mezzanine camera support custom lenses and will there be a development of one that could be used in photography
 
 CEZAR - C
-Hi, It's a very cool mezzanine. Nicely designed PCB, I noticed.Two Questions I have:[1] Why did you choose the shorter border of the Mezzanine (54mm) to align the cameras? Wouldn't it be better to use the longer border (85mm)?[2] Why didn't you leave the Mezzanine are close to the DragonBoard 410C RF antennas region clear of ground planes or metal parts? Didn't it compromise the RF performance of WiFi, Bluetooth or GPS of the DragonBoard 410C?
+Hi, It's a very cool mezzanine. Nicely designed PCB, I noticed.Two Questions I have:[1] Why did you choose the shorter border of the Mezzanine (54mm) to align the cameras? Wouldn't it be better to use the longer border (85mm)?[2] Why didn't you leave the Mezzanine are close to the DragonBoard 410C RF antennas region clear of ground planes or metal parts? Didn't it compromise the RF performance of WiFi, _Bluetooth_ ® wireless technology or GPS of the DragonBoard 410C?
 
 Todd Thal - TT
 What's the URL for the embedded video consultants?

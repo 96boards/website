@@ -206,6 +206,6 @@ We now repeat the GDB steps above, finishing them with a "load" command which wi
 Few seconds later, you're done self-programming BLE part of the Carbon!
 
 # **Conclusion**
-You can now build and flash any Bluetooth sample application for the main chip (BOARD=96b_carbon) in the normal way
+You can now build and flash any _Bluetooth_ ® wireless technology sample application for the main chip (BOARD=96b_carbon) in the normal way
 (using DFU and/or stm32flash). This will of course overwrite Black Magic Probe firmware, so next time you want to upgrade
 firmware for the nRF51 chip, you will need to start again with flashing it as the first step.

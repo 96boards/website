@@ -106,7 +106,7 @@ Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economi
 |  Storage             | 512KB onboard Flash                                                                              |
 |  Battery             | Onboard battery connector and charger                                                            |
 |  Debugger            | LPC11U35 on board SWD debugger                                                                   |
-|  Wireless            | nRF51832 Bluetooth with BLE power consumption measurement                                        |
+|  Wireless            | nRF51832 _Bluetooth_ ® wireless technology with BLE power consumption measurement                                        |
 |  Connectors          | SWD debug, nRF52832 SWD, nRF52832 UART                                                           |
 |  Expansion Interface | 40 Pin Low-speed expansion                                                                       |
 |  Digital Output (V)  | 1.8V                                                                                             |

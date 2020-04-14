@@ -25,7 +25,7 @@ Hardware;
 
 - [96Boards Hikey](http://www.96boards.org/product/hikey/)
 - USB Webcam
-- Bluetooth Speaker
+- _Bluetooth_ ® wireless technology Speaker
 - Computer with OpenFace Installed (for classifier training)
 
 References:
@@ -108,12 +108,12 @@ This will create a classifier.pkl file in the features directory which will be r
 
 Espeak
 
-In this demo a tool called Espeak was used in conjunction with a bluetooth speaker to have the recognized name, or unrecognized unknown said aloud through a speaker.
+In this demo a tool called Espeak was used in conjunction with a Bluetooth speaker to have the recognized name, or unrecognized unknown said aloud through a speaker.
 
 First download Espeak:
 `$ sudo apt-get install espeak`
 
-Espeak can be used through the command line with the command `$ espeak ‘text’` , or it can be used through the use of its python api. 
+Espeak can be used through the command line with the command `$ espeak ‘text’` , or it can be used through the use of its python api.
 
 In order to make the demo say the recognized name, we must add a few lines to the classifier_webcam.py file in OpenFace.
 
@@ -121,7 +121,7 @@ In order to make the demo say the recognized name, we must add a few lines to th
 
 Add the following line to the import statements:
 
-`from espeak import speak` 
+`from espeak import speak`
 
 Next above the while statement on line 192, add the following variable tempname:
 
@@ -133,11 +133,11 @@ if  str(persons) != tempName:
 	espeak.synth(str(persons))
 	tempName = str(persons)
 ```
-This causes Espeak to produce the identifier it contains in persons, as long as the confidence is above 50%. 
+This causes Espeak to produce the identifier it contains in persons, as long as the confidence is above 50%.
 
 **Linking to a Bluetooth Speaker**
 
-In order to link to a bluetooth speaker it is much easier to use a keyboard and mouse and do so through the desktop display. Click on the bluetooth icon on the bottom right hand corner of the screen and turn bluetooth on. Next click Setup New Device and pair it with your bluetooth speaker.
+In order to link to a Bluetooth speaker it is much easier to use a keyboard and mouse and do so through the desktop display. Click on the Bluetooth icon on the bottom right hand corner of the screen and turn Bluetooth on. Next click Setup New Device and pair it with your Bluetooth speaker.
 
 To test that your speaker is working type the following in the command line:
 
@@ -156,7 +156,7 @@ For linaro connect demo use:
 
 **Problems With Bluetooth**
 
-If bluetooth is on, but not producing any noise, go to the Sound & Video tab and click on PulseAudio Volume Control. Under the Output Device tab your bluetooth speaker should appear. Make sure that the icon with the green circle and white checkmark on the right, labeled set as fallback, is set.
+If Bluetooth is on, but not producing any noise, go to the Sound & Video tab and click on PulseAudio Volume Control. Under the Output Device tab your Bluetooth speaker should appear. Make sure that the icon with the green circle and white checkmark on the right, labeled set as fallback, is set.
 
 
 **Visualizations of the Output Feature Maps of Each Layer**

@@ -323,7 +323,7 @@ css-package: about
 
 <tr id="TR_239">
 
-<td id="TD_241">Bluetooth 4.0 LE</td>
+<td id="TD_241"><em>Bluetooth</e>® wireless technology 4.0 LE</td>
 
 <td id="TD_242">Yes</td>
 
@@ -1101,7 +1101,7 @@ css-package: about
 
 <tr id="TR_933">
 
-<td id="TD_935">Audio playback support for AV media files via A2DP Bluetooth and display audio</td>
+<td id="TD_935">Audio playback support for AV media files via A2DP Bluetooth® and display audio</td>
 
 <td id="TD_936">Yes</td>
 
@@ -1139,7 +1139,7 @@ css-package: about
 
 <tr id="TR_960">
 
-<td id="TD_962">Appropriate activity LEDs (e.g. Bluetooth, WiFi)</td>
+<td id="TD_962">Appropriate activity LEDs (e.g. Bluetooth®, WiFi)</td>
 
 <td id="TD_963">Yes</td>
 

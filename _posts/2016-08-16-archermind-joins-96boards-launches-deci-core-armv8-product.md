@@ -57,7 +57,7 @@ HDMI Full-size Type-A, support 1080P@ 30 fps
 _Wireless_
 MT6631 chip
 WLAN 802.11a/b/g/n 2.4GHz and 5GHz(On-board BT and WLAN antenna)
-Bluetooth 4.1 +HS compliant
+_Bluetooth_ ® wireless technology 4.1 +HS compliant
 GPS (with antenna connector)
 
 _USB interface_
