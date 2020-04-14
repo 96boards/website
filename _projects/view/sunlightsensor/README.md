@@ -14,7 +14,7 @@ This project measures Ultra Violet (UV) index, infrared and visible light using 
 
 ### Objective
 
-The Sunlight Sensor project was created during an IoT Hackathon challenge organized by Qualcomm Technologies, Inc. in Brazil. The goal of the project was to create an application that spreads awareness about health hazards caused by harmful UV radiations in our environment and allow users to take appropriate precautions. As an extension to the application, users can also use the daylight information to control Bluetooth LED lamps to optimize energy usage, hence contributing towards a smart home / smart city concept.
+The Sunlight Sensor project was created during an IoT Hackathon challenge organized by Qualcomm Technologies, Inc. in Brazil. The goal of the project was to create an application that spreads awareness about health hazards caused by harmful UV radiations in our environment and allow users to take appropriate precautions. As an extension to the application, users can also use the daylight information to control _Bluetooth_® wireless technology LED lamps to optimize energy usage, hence contributing towards a smart home / smart city concept.
 
 ## Project Details
 

@@ -19,7 +19,7 @@ the patients in hospital using BLE Mesh functionality provided by 96Boards.
 
 # **BLE Mesh**
 
-According to Wikipedia, "Bluetooth mesh networking, conceived in 2015, adopted
+According to Wikipedia, "_Bluetooth_ ® wireless technology mesh networking, conceived in 2015, adopted
 on July 13, 2017 is a protocol based upon Bluetooth Low Energy (BLE) that
 allows for many-to-many communication over Bluetooth radio. It has been
 defined in Mesh Profile Specification and Mesh Model Specification."

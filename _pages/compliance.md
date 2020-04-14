@@ -108,14 +108,16 @@ Software compliance testing **shall** include (but is not limited to):
 
 <div role="tabpanel" class="tab-pane active" id="firmware" markdown="1">
 While open source implementations are preferred, the following software will be accepted as binary blobs if necessary:
-*   Power management or other modules that execute on the SoC or board (PSCI, MCU or system control block firmware for example)
-*   Firmware and/or user space libraries for:
-*   GPU
-*   Multimedia accelerator
-*   DSP/coprocessor
-*   Camera ISP
-*   Baseband processor
-*   Bluetooth and WiFi firmware
+
+* Power management or other modules that execute on the SoC or board (PSCI, MCU or system control block firmware for example)
+* Firmware and/or user space libraries for:
+* GPU
+* Multimedia accelerator
+* DSP/coprocessor
+* Camera ISP
+* Baseband processor
+* _Bluetooth_ ® wireless technology and WiFi firmware
+
 Note that Linux kernel modules **must not** be provided as binary firmware blobs.
 The GPLv2 licence prohibits this.
 </div>

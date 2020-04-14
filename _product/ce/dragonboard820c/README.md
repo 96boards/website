@@ -180,7 +180,7 @@ a commercial product.
 |  RAM                 | Quad-channel, 16bit, 3GB PoP LPDDR4 SDRAM designed for 1866 MHz clock rate                                              |
 |  Storage             | UFS2.0 gear 3 (1-lane) 32GB , and SD3.0                                              |
 |  Ethernet Port       | GbE Ethernet connection                                                        |
-|  Wireless            | WLAN 802.11ac and Bluetooth 4.2                                                |
+|  Wireless            | WLAN 802.11ac and _Bluetooth_ ® wireless technology 4.2                                                |
 |  USB                 | One USB 2.0 micro B (device mode only)<br>Two USB 3.0 (host mode only)                                                                 |
 |  Display             | 4k60 FPS decode 10-bit over HDMI 2.0 4K30<br>Miracast 2.0 streaming HEVC 10-bit and VP9<br>decode Direct Stream Video for Wireless<br>Display, 3:1 Frame Buffer Compression ratio       |
 |  Video               | 4K UltraHD@30fps video playback and capture with H.264 (AVC) and H.265 (HEVC)  |

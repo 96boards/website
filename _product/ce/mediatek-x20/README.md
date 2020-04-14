@@ -151,7 +151,7 @@ The Mediatek X20 Development Board is a 96Boards compliant community board based
 processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
 core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz. In addition, an extensive set of interfaces and
 connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including
-WLAN, Bluetooth and GPS.
+WLAN, _Bluetooth_ ® wireless technology and GPS.
 
 ## Buy Now
 

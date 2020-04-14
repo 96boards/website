@@ -87,7 +87,7 @@ Now here’s what you will need in order to get the Google Assistant up and runn
 
 1.  [96Boards Consumer Edition DragonBoard 410c](/product/dragonboard410c/)
 2.  [USB Mic](https://www.amazon.com/Kinobo-Microphone-Desktop-Recognition-Software/dp/B00IR8R7WQ/ref=sr_1_1?s=pc&ie=UTF8&qid=1497040889&sr=1-1&keywords=adafruit+usb+microphone)
-3.  Speakers (Any Bluetooth speakers would work)
+3.  Speakers (Any _Bluetooth_ ® wireless technology speakers would work)
 4.  I/O Devices such as Mouse, Keyboard and a Monitor.
 
 **That’s all!**

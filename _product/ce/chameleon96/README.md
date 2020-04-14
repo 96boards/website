@@ -93,7 +93,7 @@ attributes:
   - name: "Connectivity"
     value: >-
       WLAN 802.11 b/g/n 2.4GHz
-      Bluetooth 4.1
+      Bluetooth® wireless technology 4.1
       One USB 2.0 OTG micro AB 1
       Two USB 2.0 HOST
       1 USB 2.0 Host via expansion connector
