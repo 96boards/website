@@ -168,7 +168,7 @@ Like Ultra96 (v1 legacy content in side bar), the Ultra96-V2 boots from the prov
 |  SoC                 | Xilinx Zynq UltraScale+ MPSoC ZU3EG A484                                                         |
 |  RAM                 | Micron 2 GB (512M x32) LPDDR4 Memory                                                             |
 |  Storage             | Delkin 16 GB microSD card + adapter                                                              |
-|  Wireless            | 802.11b/g/n Wi-Fi and Bluetooth 4.2 (provides both Bluetooth Classic and Low Energy (BLE))       |
+|  Wireless            | 802.11b/g/n Wi-Fi and _Bluetooth_ ® wireless technology 4.2 (provides both Bluetooth Classic and Low Energy (BLE))       |
 |  USB                 | 1x USB 3.0 Type Micro-B upstream port<br>2x USB 3.0, 1x USB 2.0 Type A downstream ports          |
 |  Display             | Mini DisplayPort (MiniDP or mDP)                                                                 |
 |  Expansion Interface | 40-pin 96Boards Low-speed expansion header<br>60-pin 96Boards High speed expansion header        |

@@ -80,7 +80,7 @@ attributes:
 ---
 Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock
 speed per core, capable of 32-bit and 64-bit operation. It supports Android, Linux and Windows 10 and offers advanced
-processing power, WLAN, Bluetooth, and GPS, all packed into a board the size of a credit card.
+processing power, WLAN, _Bluetooth_ ® wireless technology, and GPS, all packed into a board the size of a credit card.
 It is designed to support feature-rich functionality, including multimedia,
 with the Adreno™ 306 GPU, integrated ISP with up to 13 MP camera support,
 and 1080p HD video playback and capture with H.264 (AVC).

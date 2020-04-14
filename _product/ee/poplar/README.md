@@ -122,7 +122,7 @@ Poplar is the first development board compliant with the 96Boards Enterprise Edi
 |  JTAG                | 8-Pin JTAG                                                                                       |
 |  EXPANSION INTERFACE | Linaro 96Boards Low Speed Expansion slot                                                         |
 |  DIMENSION           | Standard 160×120 mm 96Boards Enterprice Edition form factor                                      |
-|  WIFI                | 802.11AC 2*2 with Bluetooth                                                                      |
+|  WIFI                | 802.11AC 2*2 with _Bluetooth_ ® wireless technology                                                                      |
 |  CONNECTORS          | One connector for Smart Card One connector for TSI                                               |
 {:.hidden_rows}
 

@@ -96,7 +96,7 @@ attributes:
   - name: "Wireless"
     value: >-
       WiFi -  5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac
-      Bluetooth®v4.2 (BR/EDR/BLE)
+      Bluetooth® v4.2 (BR/EDR/BLE)
       PCB Antenna
   - name: "Storage"
     value: >
@@ -170,7 +170,7 @@ The STM32MP157 is a highly integrated multi-market system-on-chip designed to en
 |  RAM                 | 1024 Mbyte @ 533MHz                                                                                                    |
 |  Storage             | eMMC v4.51: 8 Gbyte <br> QSPI: 2Mbyte <br> EEPROM: 128 byte <br> microSD Socket: UHS-1 v3.01                           |
 |  Ethernet Port       | 10/100/1000 Mbit/s, IEEE 802.3 Compliant                                                                               |
-|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth®v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
+|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth® v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
 |  USB                 | Host: 2x type A, 2.0 high-speed <br> OTG: 1x type micro-AB, 2.0 high-speed                                             |
 |  Display             | HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4                                                                                |
 |  Audio               | Over HDMI                                                                                                              |

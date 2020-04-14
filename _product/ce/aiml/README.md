@@ -7,7 +7,7 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, imx8, AI, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "The AI_ML Board is a single-board computer powered by the NXP i.MX 8X SoC, incorporating a quad-core 64-bit Arm-A35, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O."
+product_short_desc: "The AI_ML Board is a single-board computer powered by the NXP i.MX 8X SoC, incorporating a quad-core 64-bit Arm-A35, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth® wireless technology and a wide range of I/O."
 product_specification: ce
 shortname: aiml
 product: true

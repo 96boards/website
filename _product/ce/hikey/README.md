@@ -100,7 +100,7 @@ attributes:
     value: 1GB/2GB LPDDR3 SDRAM @ 800MHz
   - name: "Wireless"
     value: >-
-      Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy
+      Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode Bluetooth and Bluetooth low energy
   - name: "Storage"
     value: 8GB eMMC on board storage MicroSD card slot
   - name: "Ethernet"
@@ -152,7 +152,7 @@ attributes:
 
 ---
 The HiKey board was the first board to be certified 96Boards Consumer Edition compatible,  1GB and 2GB variants are available from LeMaker. The board is based
-around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a board the size
+around the HiSilicon Kirin 620  SoC and also delivers high performance 3D graphics support, Wi-Fi, and _Bluetooth_ ® wireless technology connectivity, all packed into a board the size
 of a credit card.
 
 Hikey relaunched by Lemaker
@@ -177,7 +177,7 @@ Hikey relaunched by Lemaker
 |  PMU                 | HI6553V100                                                                                       |
 |  Storage             | 8GB eMMC on board storage MicroSD card slot	                                                     |
 |  Ethernet Port       | USB2.0 expansion                                                                                 |
-|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                           |
+|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode Bluetooth and Bluetooth low energy                           |
 |  USB                 | 2 x USB2.0 Host 1 x USB 2.0 OTG                                                                  |
 |  Display             | 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P                            |
 |  Video               | 1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8                                                        |
