@@ -418,7 +418,7 @@ Vendor response: This will be fixed in next batch of production units.</td>
 </tr>
 <tr>
 <td></td>
-<td data-sheets-value="{'1':2,'2':'Bluetooth 4.0 LE'}">Bluetooth 4.0 LE</td>
+<td data-sheets-value="{'1':2,'2':'Bluetooth 4.0 LE'}"><em>Bluetooth</e>® wireless technology 4.0 LE</td>
 <td data-sheets-value="{'1':2,'2':'Yes'}">
 <div>
 <div>Yes</div>
