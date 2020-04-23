@@ -14,7 +14,7 @@ categories:
 ---
 # Emulating BLE Heart Rate Sensor
 
-This project shows how to read values from a Bluetooth Low Energy device CSR1010 using DragonBoard™ 410c from Arrow Electronics. In this example, the CSR1010
+This project shows how to read values from a _Bluetooth_ ® wireless technology Low Energy device CSR1010 using DragonBoard™ 410c from Arrow Electronics. In this example, the CSR1010
 is emulating a heart rate sensor.
 
 The main objective of this project is to utilize Bluetooth Low Energy devices and understand how different Generic Attribute Profiles (GATT) are implemented to

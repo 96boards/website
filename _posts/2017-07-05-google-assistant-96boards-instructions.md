@@ -93,7 +93,7 @@ In today’s blog we will discuss the steps required in order to set up the proj
 1.  DragonBoard410c with access to internet
 2.  Keyboard, mouse and a monitor
 3.  USB Microphone
-4.  Bluetooth Speakers
+4.  _Bluetooth_ ® wireless technology Speakers
 
 ### **Interface hardware with the DragonBoard**
 

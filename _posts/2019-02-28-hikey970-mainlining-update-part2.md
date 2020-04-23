@@ -21,7 +21,7 @@ blog will summarise the recent mainlining efforts for [HiKey970 board](https://w
 HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai
 initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI
 Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB
-UFS 2.1 storage, Bluetooth, WIFI, GPS among many other features, this board
+UFS 2.1 storage, _Bluetooth_ ® wireless technology, WIFI, GPS among many other features, this board
 is made for developers, looking maximize accelerated AI capabilities. Since
 this board falls under the CE Extended Edition form factor, it offers
 interfaces such as Ethernet port, PCIE-Mini connector, PCIE M.2 connector,

@@ -44,7 +44,7 @@ we will skim through the basic concepts of BLE mesh.
 Mesh network is a common terminology in the networking world. It involves the way of
 inter-connecting devices (a.k.a nodes) in a network with each other directly and
 indirectly. The non-hierarchial way of connecting devices to each other makes
-this mesh network special among other networking topologies. Bluetooth uses this
+this mesh network special among other networking topologies. _Bluetooth_ ® wireless technology uses this
 topology to connect nodes within a network so that it can extend its coverage and
 efficiently communicate with each node in a network.
 
@@ -284,7 +284,7 @@ Sensor status sent with OpCode 0x00000052
 
 ```shell
 Sensor status Get request sent with OpCode 0x00008231
-Got the sensor status 
+Got the sensor status
 Sensor ID: 0x2a1f
 Sensor value: 0x001b
 ```

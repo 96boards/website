@@ -880,7 +880,7 @@ J
 
 
 
-I do something like that with bluetooth <BLE
+I do something like that with _Bluetooth_ ® wireless technology <BLE
 
 
 

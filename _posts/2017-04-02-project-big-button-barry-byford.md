@@ -63,7 +63,7 @@ I am sure you are all wondering… What happened in this week’s OpenHours?! Es
 
 That being said, this week we spoke with [Barry Byford](https://twitter.com/uk_baz)! An amazing 96Boards (more specifically DragonBoard 410c) enthusiast who came to us all the way from England. After announcements (see below for announcements) and taking a look back at last week’s episode, we went right into introductions.
 
-As mentioned, Barry came to us via OpenHours conference call from England, where he lives. In the beginning of the episode, Barry spoke to us about himself, explaining how he ended up getting involved with 96Boards and the DragonBoard 410c. For a long time now, it has been a goal to get Bluetooth Low Energy usable on Linux Single Board Computers from within the Python programming language to interact with peripheral devices. Barry explained about some of the false starts he has had with this goal although with this project good progress seems to have been made to his goal.
+As mentioned, Barry came to us via OpenHours conference call from England, where he lives. In the beginning of the episode, Barry spoke to us about himself, explaining how he ended up getting involved with 96Boards and the DragonBoard 410c. For a long time now, it has been a goal to get _Bluetooth_ ® wireless technology Low Energy usable on Linux Single Board Computers from within the Python programming language to interact with peripheral devices. Barry explained about some of the false starts he has had with this goal although with this project good progress seems to have been made to his goal.
 
 
 # **Announcements**

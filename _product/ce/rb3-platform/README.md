@@ -195,7 +195,7 @@ The development board supports new architecture for AI, 4K@60fps H.264/H.265 Enc
 |  RAM                 | 4GB LPDDR4x SDRAM @ 1866 MHz                                                                                                                  |
 |  Storage             | 64GB UFS 2.1 on-boardstorage and1 x MicroSD card slot                                                                                         |
 |  Ethernet Port       | 1x GbE Ethernet                                                                                                                               |
-|  Wireless            | WLAN 802.11a/b/g/n/ac 2.4/5GHz 2×2 MIMO & Bluetooth 5.0,on-boardWLAN/BT/GPSantennas                                                           |
+|  Wireless            | WLAN 802.11a/b/g/n/ac 2.4/5GHz 2×2 MIMO & _Bluetooth_ ® wireless technology 5.0,on-boardWLAN/BT/GPSantennas                                                           |
 |  USB                 | 1 x USB 2.0 Micro B (Debug only ), <br> 1 x USB 3.0 Type C (OTGmode), <br> 2x USB 3.0 Type A (Host mode only)                                 |
 |  Display             | Two 4-lane DSI, D-PHY 1.2 or C-PHY 1.0; VESA DSC 1.1<br>1 x HDMI 1.4 (Type A -full) connector                                                 |
 |  Video               | 4K60 decode for H.264 High Profile, H.265 Main 10 Profile and VP9 Profile 2, <br>4K60 encode for H.264 High Profile, H.265 Main 10 Profile    |

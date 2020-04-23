@@ -118,7 +118,7 @@ The IVY5661, which measures only 6cm x 3cm, is a micro-development board manufac
 uCRobotics. IVY5661 follows the Linaro 96boards IoT hardware design specification. Utilizing
 the 28nm UniSoC UWP5661 SoC, it has an embedded ARM Cortex-M4 CPU with a frequency
 range of 416MHz. Built-in 32Mbit storage space; supports Wi-Fi IEEE 802.11ac 2x2 and
-Bluetooth 5. High-capacity storage and rich RF capabilities help users develop more complex
+_Bluetooth_ ® wireless technology 5. High-capacity storage and rich RF capabilities help users develop more complex
 and diverse IoT software
 
 ***

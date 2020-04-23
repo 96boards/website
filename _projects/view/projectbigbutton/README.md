@@ -12,7 +12,7 @@ categories:
 ---
 # Project BIG Button
 
-Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver board, some BIG buttons and various miscellaneous wires and tools, this set of instructions will walk you through setting up your very own BIG Button Game! This particular application focuses on the use of both onboard Bluetooth modules (DragonBoard and micro:bit) as well as Python for the base programming language.
+Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver board, some BIG buttons and various miscellaneous wires and tools, this set of instructions will walk you through setting up your very own BIG Button Game! This particular application focuses on the use of both onboard _Bluetooth_ ® wireless technology modules (DragonBoard and micro:bit) as well as Python for the base programming language.
 
 ## Project Details
 

@@ -9,7 +9,7 @@ dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
     Actions has been working with Linaro to finalize the software support and ensure the best possible performance.
-    The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity,
+    The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth® connectivity,
     all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
     In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
 display_product: true
@@ -93,7 +93,7 @@ attributes:
   - name: "Ethernet"
     value: USB 2.0 expansion
   - name: "Connectivity"
-    value: Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy
+    value: Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode Bluetooth and Bluetooth low energy
   - name: "USB"
     value: 1 x USB2.0, 1 x USB3.0, 1 x USB 2.0 OTG
   - name: "Display"
@@ -152,7 +152,7 @@ TrustZone® security support.
 |  PMU                 | ATC2609                                                                                                |
 |  Storage             | 8GB eMMC 4.51 on board storage MicroSD card slot	                                                |
 |  Ethernet Port       | USB 2.0 expansion                                                                                      |
-|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                                 |
+|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode Bluetooth and Bluetooth low energy                                 |
 |  USB                 | 1 x USB2.0, 1 x USB3.0, 1 x USB 2.0 OTG                                                                |
 |  Display             | HDMI 1.4b with HDCP (HDMI connector type A/C), up to 4k Ultra                                          |
 |  Video               | 1080p@60fps HD video playback and capture with H.264 (AVC), 4096*2304@30fps playback with H.265 (HEVC) |
