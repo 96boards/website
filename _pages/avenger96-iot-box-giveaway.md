@@ -22,18 +22,22 @@ flow:
                 image:
                     path: https://static.linaro.org/common/member-logos/arrow.jpg
                     alt: Arrow Logo
+                url: https://www.arrow.com/
               - name: ST
                 image:
                     path: https://static.linaro.org/common/member-logos/st.jpg
                     alt: ST Logo
+                url: https://www.st.com/content/st_com/en.html
               - name: Shiratech
                 image:
                     path: https://static.linaro.org/common/member-logos/shiratech.jpg
                     alt: Shiratech Logo
+                url: https://www.shiratech-solutions.com/
               - name: 96Boards Logo
                 image:
                     path: /assets/images/content/96Boards-Logo-black.svg
                     alt: 96Boards Logo
+                url: /
     - row: custom_include_row
       source: giveaway_board_slider.html
     - row: custom_include_row
@@ -68,7 +72,7 @@ flow:
 
                 Key features:
 
-                - LTE NB-IOT, WiFi and BT connectivity
+                - LTE NB-IOT, WiFi and _Bluetooth_® wireless connectivity
                 - External sensors connectors
                 - Running Linux (Yocto)
                 - Battery powered
