@@ -4,12 +4,12 @@ permalink: /avenger96-iot-box-giveaway/
 js-package: giveaway
 css-package: giveaway
 description: >
-    96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. All you have to do is tell us what you would build with it!
+    96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
 layout: flow
 jumbotron:
     title: Avenger96 / IoT Box Giveaway
     description: >
-        96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. All you have to do is tell us what you would build with it!
+        96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
 flow:
     - row: container_row
       sections:
@@ -36,6 +36,8 @@ flow:
                     alt: 96Boards Logo
     - row: custom_include_row
       source: giveaway_board_slider.html
+    - row: custom_include_row
+      source: giveaway_mezzanine_select.html
     - row: container_row
       style: bg-gray
       sections:
@@ -80,7 +82,7 @@ flow:
         - format: title
           title_content:
             size: h2
-            text: Tell us what you would build!
+            text: Submit your project!
         - format: custom_include
           source: board_giveaway.html
 ---
