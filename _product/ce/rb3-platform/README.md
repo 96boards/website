@@ -156,7 +156,7 @@ attributes:
       Plug specification is inner diameter 1.75mm and outer diameter 4.75mm"
   - name: "OS Support"
     values:
-      - title: LE
+      - title: LE 
   - name: "Sensors"
     value: >
       Accelerometer + Gyro Sensor/ Proximity sensor
@@ -206,7 +206,7 @@ The development board supports new architecture for AI, 4K@60fps H.264/H.265 Enc
 |  LED                 | 7 LED indicators:<br>4 - user controllable<br>2 - for radios (BT and WLAN activity)<br>1 - power indicator                                    |
 |  Button              | Power ,Volume Up/Down,Force Usb Boot, DipSwitch(6 PIN)                                                                                        |
 |  Power Source        | 12V@2.5A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                     |
-|  OS Support          | LE                                                                                                                                            |
+|  OS Support          | Thundersoft LE, Linaro Linux builds with Debian or OpenEmbedded / Yocto Project, AOSP                                                                                                                                            |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
 {:.hidden_rows}
 </div>
