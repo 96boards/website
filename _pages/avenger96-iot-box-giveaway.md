@@ -1,15 +1,15 @@
 ---
-title: Avenger96/IoT Box Giveaway
-permalink: /avenger96-iot-box-giveaway/
+title: Avenger96/Stinger96 Giveaway
+permalink: /avenger96-stinger96-giveaway/
 js-package: giveaway
 css-package: giveaway
 description: >
-    96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
+    96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or Stinger96. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
 layout: flow
 jumbotron:
-    title: Avenger96 / IoT Box Giveaway
+    title: Avenger96 / Stinger96 Giveaway
     description: >
-        96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or IoT Box. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
+        96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or Stinger96. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
 flow:
     - row: container_row
       sections:
@@ -64,10 +64,10 @@ flow:
           feature_block_content:
             position: right
             type: image
-            image_content_path: /assets/images/content/stinger96-iot-box.png
-            title: The IoT Box
+            image_content_path: /assets/images/content/stinger96-front.jpg
+            title: Stinger96
             text: |-
-                The IoT Box is a general purpose IoT gateway for connecting your sensors and actuators to the cloud. The commercial _edge_ device
+                The Stinger96 is a general purpose IoT gateway for connecting your sensors and actuators to the cloud. The commercial _edge_ device
                 is based on a combination of a Stinger96 baseboard + proprietary mezzanine.
 
                 Key features:
