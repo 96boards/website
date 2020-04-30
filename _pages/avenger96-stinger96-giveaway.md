@@ -67,18 +67,21 @@ flow:
             image_content_path: /assets/images/content/stinger96-front.jpg
             title: Stinger96
             text: |-
-                The Stinger96 is a general purpose IoT gateway for connecting your sensors and actuators to the cloud. The commercial _edge_ device
-                is based on a combination of a Stinger96 baseboard + proprietary mezzanine.
+                Shiratech's NEW 96Boards IoT solution based on ST STM32MP157 MCU + QUECTEL BG96 NB-IOT modem.
+
+                The Board is 96Boards IoT Edition Extended Compatible (IE extended).
+                Full support for 96Boards IoT Edition (IE) Low Speed expansion connector.
+
 
                 Key features:
 
-                - LTE NB-IOT, WiFi and _Bluetooth_® wireless connectivity
-                - External sensors connectors
-                - Running Linux (Yocto)
-                - Battery powered
+                - 32-bit dual-core Arm® Cortex®-A7
+                - External DDR memory – DDR3 – 256M X 32Bit
+                - Secure boot, TrustZone® IPs, active tamper
+                - Full 96 IOT LS connector Interface (1.8V interface)
             buttons:
               - title: More Info
-                url: https://www.shiratech-solutions.com/products/iot-box/
+                url: https://www.shiratech-solutions.com/products/stinger96/
                 class: btn-primary
                 icon: fa fa-external
     - row: container_row
