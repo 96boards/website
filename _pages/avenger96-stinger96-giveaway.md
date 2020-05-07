@@ -77,7 +77,6 @@ flow:
 
                 - 32-bit dual-core Arm® Cortex®-A7
                 - External DDR memory – DDR3 – 256M X 32Bit
-                - Secure boot, TrustZone® IPs, active tamper
                 - Full 96 IOT LS connector Interface (1.8V interface)
             buttons:
               - title: More Info
