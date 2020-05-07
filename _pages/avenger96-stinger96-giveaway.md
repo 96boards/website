@@ -25,7 +25,7 @@ flow:
                 url: https://www.arrow.com/
               - name: ST
                 image:
-                    path: https://static.linaro.org/common/member-logos/st.jpg
+                    path: /assets/images/members/ST_2020.svg
                     alt: ST Logo
                 url: https://www.st.com/content/st_com/en.html
               - name: Shiratech
