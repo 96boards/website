@@ -1,6 +1,7 @@
 ---
 title: Avenger96/Stinger96 Giveaway
 permalink: /avenger96-stinger96-giveaway/
+image: /assets/images/content/96boards_giveaway_social_image.png
 js-package: giveaway
 css-package: giveaway
 description: >
