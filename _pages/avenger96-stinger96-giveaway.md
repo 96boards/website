@@ -1,6 +1,7 @@
 ---
 title: Avenger96/Stinger96 Giveaway
 permalink: /avenger96-stinger96-giveaway/
+image: /assets/images/content/96boards_giveaway_social_image.png
 js-package: giveaway
 css-package: giveaway
 description: >
@@ -8,6 +9,7 @@ description: >
 layout: flow
 jumbotron:
     title: Avenger96 / Stinger96 Giveaway
+    background-image: /assets/images/content/96boards_giveaway_social_image.png
     description: >
         96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or Stinger96. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
 flow:
