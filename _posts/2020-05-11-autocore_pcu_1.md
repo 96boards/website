@@ -26,7 +26,7 @@ This post is organized as follows:
 
 ## AutoCore's PCU
 
-AutoCore announced their PCU publicly on January 21<sup>st</sup> through [this ROS Discourse post](https://discourse.ros.org/t/open-source-and-free-software-for-autocores-pcu/12418). The PCU is the first reference design of the Autoware.IO project.
+AutoCore announced their PCU publicly on January 21<sup>st</sup> through [this ROS Discourse post](https://discourse.ros.org/t/open-source-and-free-software-for-autocores-pcu/12418). The PCU is the first reference design of the [Autoware.IO](https://www.autoware.io/) project.
 
 A full description of the PCU specification can be found [here](https://github.com/autocore-ai/autocore_pcu_doc/blob/master/docs/Pcu_specification.md). As a summary, it features a heterogeneous architecture with a lock-step MCU and a high performance MPU. Based on the MCU-MPU architecture, different ADAS/AD or relevant functions can be integrated with different functional safety levels up to ASIL D after ISO 26262. A wide variety of interfaces are provided to support vehicle networks connection, sensors and peripherals. Furthermore, additional hardware accelerator could be connected via PCIe to provide additional computing power.
 
