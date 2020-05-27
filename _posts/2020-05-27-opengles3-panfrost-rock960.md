@@ -7,7 +7,7 @@ image:
     path: /assets/images/blog/kmscube.jpg
     name: kmscube.jpg
 categories: blog
-tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, protein folding, aerocore2
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, rock960, Linaro, Linux, arm64, panfrost, gpu, open-source, mali
 ---
 
 Hi all,
