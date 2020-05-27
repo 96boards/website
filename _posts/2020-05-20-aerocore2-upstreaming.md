@@ -61,7 +61,6 @@ Pretty much everything broken out from the STM32 MCU works and is enabled. Bette
 
 At the end, I'd like to thank the maintainers of the Zephyr RTOS project and Gumstix for helping out along the way.
 
-You can check out the Aerocore2's Dedicated page at ZepherRTOS at: [https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html](https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html)
-
+You can check out the Aerocore2's Dedicated page at Zephyr RTOS at: [https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html](https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html)
 
 
