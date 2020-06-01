@@ -6,6 +6,7 @@ archived: false
 shortname: tb-96ai
 dateAdded: 2019-06-13 09:00:00+00:00
 permalink: /product/tb-96ai/
+ai_board: true
 description: |-
     TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi
     Technology Co., Ltd. can form a complete development board or evaluation board; and the board
