@@ -13,6 +13,7 @@ shortname: aiml
 product: true
 dateAdded: 2020-01-20 09:00:00+00:00
 archived: false
+ai_board: true
 product_images:
   - images/aiml-sd-front.jpg
   - images/aiml-sd-back.jpg
