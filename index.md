@@ -15,6 +15,9 @@ jumbotron:
         96Boards have teamed up with Arrow, ST and Shiratech to give you the chance to get a free Avenger96 or Stinger96. This is an online campaign dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards.
       darken: true
       image: /assets/images/content/96boards_giveaway_social_image.png
+      buttons:
+        - title: Get a free Avenger96 / Stinger96
+          url: /avenger96-stinger96-giveaway/
     - title: Develop & Prototype on the Latest Arm Technology
       title-class: big-title
       description: >
