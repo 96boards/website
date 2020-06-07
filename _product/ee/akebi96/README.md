@@ -35,6 +35,60 @@ product_sidebar_sections:
       items:
         - title: Build from Source
           link: /documentation/enterprise/akebi96/build/
+attributes:
+  - name: "SoC"
+    value: >-
+      Socionext LD20
+  - name: "CPU"
+    value: >-
+      Quad-core 64-bit, 2x ARM Cortex-A53, 2x ARM Cortex-A72
+  - name: "GPU"
+    value: >-
+      Mali™-T820MP3(2Gpixel/s)
+  - name: "RAM"
+    value: >-
+      3GB DDR3 1866MHz
+  - name: "Storage"
+    value: >-
+      microSD Socket <br> 16GB eMMC
+  - name: "Ethernet"
+    value: 10/100/1000 Mbit/s
+  - name: "Wireless"
+    value: >-
+      WiFi : Dual-band 2T2R 802.11a/b/g/n/ac <br> BT : Ver.4.1 <br> Chipset : RTL8822BU(REALTEK) <br> Module : FN-LINK 6222D-UUB
+  - name: "USB"
+    value: >-
+      USB3.0 x1, USB2.0 x1, micro USB x 2(for Debugging)
+  - name: "Display"
+    value: >-
+      HDMI Output
+  - name: "Expansion Interface"
+    value: >-
+      96Boards EE Compliant: <br> 40-Pin Low Speed Header
+  - name: "LED"
+    value: >-
+      4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay
+  - name: "Buttons"
+    value: >-
+      Power and Reset
+  - name: "Power"
+    value: >-
+      DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W
+  - name: "OS Support"
+    values:
+      - title: Linux
+  - name: "PCIe"
+    values: >-
+      One PCIe x1 2.0 interface
+  - name: "Other"
+    value: >
+      DSP -	Tensilica HiFi 4 DSP Core
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 85mm
+      - title: "length"
+        value: 100mm
 ---
 High-definition, high-performance, low-cost TV systems are realized with the latest 4K technology such as HDR processing. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 

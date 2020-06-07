@@ -7,6 +7,8 @@ dateAdded: 2020-01-12 09:00:00+00:00
 archived: false
 shortname: thor96
 ai_board: true
+ai_board_desc: >
+    The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth ® wireless technology and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps.
 description: |-
     The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
 keywords: |-
