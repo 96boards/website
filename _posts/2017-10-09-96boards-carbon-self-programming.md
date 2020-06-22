@@ -117,7 +117,7 @@ LS-08 to BLE_SWD-3 (CLK)."
 
 Short and precise, but one picture is worth many words:
 
-{% include image.html name="96boards-carbon-self-programming.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/96boards-carbon-self-programming.jpg" alt="Your alternate text." %}
 
 It shows which receptacles of Low-Speed (LS) connector should be used, and which thru-holes of the nRF51 SWD connector
 they should go to. One thing to note is that wire go in criss-cross manner: left LS pin goes to right SWD pin, and

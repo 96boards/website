@@ -77,7 +77,7 @@ tags:
 This year in April, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB microphone and speakers.
 
 
-{% include image.html name="google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
+{% include image.html path="/assets/images/blog/google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
 
 # **Bill Of Materials**
 

@@ -51,7 +51,7 @@ and [TMP102](http://www.ti.com/product/TMP102) are connected **I2C_1** of the se
 to get the Air Quality and Temperature data along with one additional push button
 connected to **PC8**.
 
-{% include image.html name="patient_monitoring_2.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/patient_monitoring_2.jpg" alt="Your alternate text." %}
 
 ## Setting up the Nodes and Gateway
 

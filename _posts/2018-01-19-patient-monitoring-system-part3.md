@@ -347,7 +347,7 @@ $ python pyserial.py
 
 After executing the script, you can see the values in Thingspeak dashboard as below:
 
-{% include image.html name="patient_monitoring_3.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/patient_monitoring_3.jpg" alt="Your alternate text." %}
 
 For triggering an alert, push the button connected to Server node.
 

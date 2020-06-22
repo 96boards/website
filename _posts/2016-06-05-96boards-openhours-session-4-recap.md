@@ -340,7 +340,7 @@ AT
 
 RW
 
-{% include image.html name="96Boards_LS_pinout.jpg"%}
+{% include image.html path="/assets/images/blog/96Boards_LS_pinout.jpg"%}
 
 Pinout
 

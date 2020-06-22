@@ -44,7 +44,7 @@ Adding the Ground Plane
 
 Dia 7.1: Basic overview of Pbcnew
 
-{% include image.html name="so-pcb-idea-img-1.png" alt="Dia 7.1: Basic overview of Pbcnew" %}
+{% include image.html path="/assets/images/blog/so-pcb-idea-img-1.png" alt="Dia 7.1: Basic overview of Pbcnew" %}
 
 #### Opening Pcbnew
 
@@ -66,7 +66,7 @@ If you’re designing a board which you want to work with another, the board and
 
 Dia 7.2: Layer selector with Edge.Cuts highlighted
 
-{% include image.html name="so-pcb-idea-img-2.png" alt="Dia 7.2: Layer selector with Edge.Cuts highlighted" %}
+{% include image.html path="/assets/images/blog/so-pcb-idea-img-2.png" alt="Dia 7.2: Layer selector with Edge.Cuts highlighted" %}
 
 
 
@@ -74,13 +74,13 @@ If you’re not so lucky to have a template you can use, it’s relatively simpl
 
 Dia 7.3: Add Graphic or Polygon icon
 
-{% include image.html name="so-pcb-idea-img-3.png" alt="Dia 7.3: Add Graphic or Polygon icon" %}
+{% include image.html path="/assets/images/blog/so-pcb-idea-img-3.png" alt="Dia 7.3: Add Graphic or Polygon icon" %}
 
 
 Once selected (you should have a large white cross behind your cursor) you can start drawing the board outline. I recommend drawing one line at a time, hitting ESC to stop drawing, then while your cursor is hovering over the line, hit E. This will bring up _Line Properties_, and you can then input X & Y coordinates for your line, and specify lengths. This will allow you to ensure your board specs are 100% accurate (as long as your math is correct!).
 
 Dia 7.4: Selection pop-up window
-{% include image.html name="so-pcb-idea-img-4.png" alt="Dia 7.4: Selection pop-up window" %}
+{% include image.html path="/assets/images/blog/so-pcb-idea-img-4.png" alt="Dia 7.4: Selection pop-up window" %}
 
 Similarly with your fixed-position components, if you pop them anywhere on the board, then hit E (if you get a little menu pop up like in dia 7.4, click the option that says _Footprint_), it will open _Footprint Properties_ where you can once again input specific coordinates.
 
@@ -158,7 +158,7 @@ Now that you have a layout you are happy to send to production, all you need to 
 Drill files are where the manufacturer need to drill holes, and the position files tell the pick-and-place machine (which the manufacturer will use) where to place SMD components on the board.
 
 Dia 8.1: Submenu showing the fabrication outputs
-{% include image.html name="so-pcb-idea-img-5.png" alt="Dia 8.1: Submenu showing the fabrication outputs" %}
+{% include image.html path="/assets/images/blog/so-pcb-idea-img-5.png" alt="Dia 8.1: Submenu showing the fabrication outputs" %}
 
 
 Assuming you still have Pcbnew open, click File > Fabrication Outputs. In the submenu you will see the options for the .pos, .drl and BOM files. Click on each one and save in an appropriate location. I personally recommend popping them all in a new folder together to keep things organised.

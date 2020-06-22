@@ -15,7 +15,7 @@ Last month, I had the opportunity to go to Arm TechCon in San Jose, CA. While th
 
 Let's start from the beginning... For the better part of the last decade, I have enjoyed building solar kits/generators (big and small) for personal and academic use. While completing my B.S. I worked on several teams, and we delivered a variety of these generators. One was built into a shipping container, one into a trailer, another in a rolling case, and yet another into an educational wall. Finally I decided to build a couple personal ones, this ultimately led me to wanting a hand held version of this technology. Renewable energy in a light weight and portable case. After being hired at Linaro, I finally acted on this pet project and built my original kit, to be showcased at Linaro Connect (BKK16). Since the original (we will call V.1, see image below), I have experimented with a few other designs and sizes. Fast-forward a couple years and ...
 
-{% include image.html name="box-v1.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/box-v1.jpg" alt="Your alternate text." %}
 
 A few quarters ago, while mentoring an Electrical Engineering senior design course at UCSD, I proposed my group of students re-design and build my original hand held solar kit. This new design would be intended for Arm developers, and more specifically 96Boards. After 10 weeks, the students delivered a decent bill of materials and completed a mostly working prototype! This was impressive; however, the kit would still require plenty more modifications to optimize performance and efficiency. This was something I planned on doing over time, but had no idea when I would do this, until...
 
@@ -34,7 +34,7 @@ As I mentioned in the introduction, this project was a collaboration between 96B
 
 The original kit (created by our previously mentioned UCSD students) was small and outfitted with a wood interior. This is something that Gabe and I quickly wanted to replace. We booked it to Home Depot and picked out a new box, wires, glue, velcro, tape and a variety of tools. With this, a 3D printer, and some filiment, we would create a V.3 masterpiece!
 
-{% include image.html name="box-v3.JPG" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/box-v3.JPG" alt="Your alternate text." %}
 
 I would like to quickly list out a basic Bill of materials for the kit in question:
 

@@ -31,7 +31,7 @@ Solder the ISP Programmer to the Mezzanine. The ISP pins on the mezzanine are la
 
 Once its done it should look something like this:
 
-{% include image.html name="sensors-pc.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/sensors-pc.jpg" alt="Your alternate text." %}
 
 **Software Setup**
 

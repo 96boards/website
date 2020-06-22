@@ -77,23 +77,23 @@ The first version of the GPS mezzanine was prototyped using PCBs, generously don
 
 #### R0 Schematic
 
-{% include image.html name="collab-firstborn-1.png" alt="R0 Schematic"%}
-{% include image.html name="collab-firstborn-2.png" alt="R0 Prototype"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-1.png" alt="R0 Schematic"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-2.png" alt="R0 Prototype"%}
 
 Once the bare PCBs and parts arrived, the first 3 units were hand assembled and tested. The units were all functional with only a few component footprint tweaks needed for the revision. The software setup was a breeze following along with a Raspi tutorial on Adafruit’s site. [https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up)
 
-{% include image.html name="collab-firstborn-3.png" alt="Mezzanine on 96Boards"%}
-{% include image.html name="collab-firstborn-4.png" alt="Multiple mezzanine on show"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-3.png" alt="Mezzanine on 96Boards"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-4.png" alt="Multiple mezzanine on show"%}
 
 After showing off a bit on social media, two of the boards were shipped of to Linaro to find them good homes.
 
 #### Scope capture of the PPS signal
 
-{% include image.html name="collab-firstborn-5.png" alt="Scope capture of the PPS signal"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-5.png" alt="Scope capture of the PPS signal"%}
 
 #### R0 PCB shown off at Linaro Connect
 
-{% include image.html name="collab-firstborn-6.png" alt="R0 PCB shown off at Linaro Connect"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-6.png" alt="R0 PCB shown off at Linaro Connect"%}
 
 After introducing 96boards and the mezzanine initiative to Groupgets they were all in. We decided to foster growth in the initiative by providing a path to production for contributions to the repository. Seeing as we had a working prototype for the GPS mezzanine in hand it seemed the logical choice for the first campaign.
 
@@ -103,11 +103,11 @@ For even more flexibility, we also threw in a few breakout headers for some sign
 
 #### R1 3D rendering
 
-{% include image.html name="collab-firstborn-7.png" alt="R1 3D rendering"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-7.png" alt="R1 3D rendering"%}
 
 #### R1 Schematic
 
-{% include image.html name="collab-firstborn-8.png" alt="R1 Schematic"%}
+{% include image.html path="/assets/images/blog/collab-firstborn-8.png" alt="R1 Schematic"%}
 
 This being the first campaign forwarded from the community mezzanine initiative, we decided to go with 25 units to test the waters. If the campaign goes well we hope to bump up the number of units to reduce the unit cost.
 

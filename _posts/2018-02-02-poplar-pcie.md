@@ -15,7 +15,7 @@ I am very excited to let our readers know that finally, thanks to some developme
 
 Late last year, we saw the release of Linux 4.9 for the Poplar, which brought in support for PCIe. But even then we noticed that an externally powered PCIe Riser, like the one shown below, was required for most PCIe card to power up and get detected.
 
-{% include image.html name="poplar-pcie-riser.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/poplar-pcie-riser.jpg" alt="Your alternate text." %}
 
 However, within days of reporting this bug, the issue of the 12v rail being inactive was fixed with these two commits:
 - https://github.com/96boards-poplar/linux/commit/6f2c493d9a0f54e1545f673fe72ab985fb02751f
@@ -31,7 +31,7 @@ And now, PCIe can be accessed directly from the on-board slot without any issues
 - WD 500GB 2.5 inch HDD.
 - 250W PSU (I know it a bit overpowered, but that's what I had)
 
-{% include image.html name="poplar-pcie-testbench.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/poplar-pcie-testbench.jpg" alt="Your alternate text." %}
 
 ### The test :
 

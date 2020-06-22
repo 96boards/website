@@ -37,7 +37,7 @@ Netlist Generator
 #### DRC
 
 DRC Icon
-{% include image.html name="pcb-netlist-img-1.png" alt="DRC Icon"%}
+{% include image.html path="/assets/images/blog/pcb-netlist-img-1.png" alt="DRC Icon"%}
 
 Before you create the netlist, it’s a good idea to run the DRC tool, though this is not mandatory. DRC stands for Design Rules Check, and it will check for any missing annotations and similar errors. Click the icon (in the top toolbar, looks like a ladybird with a green tick), then click Run. If there are any errors, they will appear in the Messages box and Error list box. If the DRC comes clean, you’re ready to make the Netlist.
 * Eeschema has an automatic annotation tool which will appear when you run the Netlist generator if any components are unlabeled. If these are the only errors that appear when you run DRC, you can ignore the errors and proceed to generating the setlist.

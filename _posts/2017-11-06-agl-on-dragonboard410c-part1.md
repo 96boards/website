@@ -101,7 +101,7 @@ $ sudo fastboot flash rootfs agl-demo-platform-dragonboard-410c.ext4
 ```
 Once, flashing is completed reboot the board and the board should boot into AGL and the homescreen shuld be visible as below:
 
-{% include image.html name="agl.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/agl.jpg" alt="Your alternate text." %}
 
 Also, you should be able to login via serial console also by plugging an [UART Mezzanine](https://www.96boards.org/product/uartserial/)
 on top of Dragonboard410c. This will be really handly for debugging purposes.

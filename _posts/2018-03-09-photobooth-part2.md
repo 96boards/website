@@ -45,7 +45,7 @@ On a short note, we need the following connections on Dragonboard410c:
                     (GPIO25)
 4. Dragonboard410c ---------> Push Button 2
 
-{% include image.html name="photobooth_part2_setup.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/photobooth_part2_setup.jpg" alt="Your alternate text." %}
 
 # Software Setup
 

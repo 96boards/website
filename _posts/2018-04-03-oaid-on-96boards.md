@@ -140,7 +140,7 @@ plain OpenCV.
 
 Below is the output when it identified myself :P
 
-{% include image.html name="oaid-face-recognition.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/oaid-face-recognition.png" alt="Your alternate text." %}
 
 # Conclusion
 

@@ -18,7 +18,7 @@ In one of my previous blogs titled ["Carbon Rover"](https://www.96boards.org/blo
 
 In the Rev 2 of the Carbon Rover I decided to add some RGB NeoPixels. Now these LEDs don't generate random colors, they are in fact synced to the IR and Ultrasonic Sensors.
 
-{% include image.html name="rover-2.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/rover-2.jpg" alt="Your alternate text." %}
 
 The NeoPixel strips are placed on the front and the back edge of the rover, 11 on each side for a total of 22 LEDs.
 

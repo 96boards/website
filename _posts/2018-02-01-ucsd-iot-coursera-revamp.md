@@ -20,9 +20,9 @@ In 2015 the University of California, San Diego - [Qualcomm Institute (CALIT2)](
 
 Back in June of 2015, I received my first DragonBoard 410c. I remember this moment very clearly, opening the box and pulling out a small, colorful, credit card sized, single board computer (later I would find out, this was my first introduction to 96Boards!). I held it in front of me and tried to analyze what I was seeing, rotating it in my hands, squinting at all of the small components, and counting the many ports and headers. It only took me a few minutes to realize I was overflowing with questions about this board, I had to start tinkering. Three months with the DragonBoard went by in a flash, and at this point it was time to record my efforts.
 
-{% include image.html name="DragonBoard-UpdatedImages-front.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/DragonBoard-UpdatedImages-front.png" alt="Your alternate text." %}
 
-{% include image.html name="DragonBoard-UpdatedImages-side.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/DragonBoard-UpdatedImages-side.png" alt="Your alternate text." %}
 
 The [Qualcomm Institute at University of California San Diego](http://qi.ucsd.edu/) put me in a team, and gave us a lab with an AV crew. We were promptly tasked with creating an online specialization around the DragonBoard 410c. Over the next year, our team developed six courses jam-packed with IoT related material. We pumped out hundreds of bite sized videos, covered topics spanning multiple skill levels, and offered it online, on demand, for the masses to watch. It turns out this was only the beginning, the course would soon finds ways to evolve.
 

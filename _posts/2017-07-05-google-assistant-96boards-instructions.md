@@ -97,7 +97,7 @@ In today’s blog we will discuss the steps required in order to set up the proj
 
 To begin hardware connections, make sure the DragonBoard is powered off. Connect the USB Microphone onto one of the USB ports on the DragonBoard. If you are using USB Speakers, connect them as well. Since the DragonBoard has two USB ports, you may use a USB hub in order to connect the input devices such as mouse and keyboard. Then connect the monitor using the HDMI port and power on the DragonBoard 410c with 96Boards compliant power supply.
 
-{% include image.html name="ga-img-1.jpg" alt="New title" %}
+{% include image.html path="/assets/images/blog/ga-img-1.jpg" alt="New title" %}
 
 
 If you want to use Bluetooth speakers, keep them switched on. When the system boots, open Bluetooth Manager from the Application Menu. Click on search so that the DragonBoard can start scanning for nearby devices. Once the device appears, right click on it and select pair. Finally, after pairing, click on connect. To make sure the microphone and speakers are connected successfully, go to Application Menu - Sound & Video - PulseAudio Volume Control and check the input and output devices.
