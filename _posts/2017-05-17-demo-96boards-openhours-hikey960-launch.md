@@ -32,17 +32,20 @@ As part of one of the special OpenHours session for HiKey960 launch, we did a de
 
 We saw that HiKey could decode and render the video with an average load of ~50% on the board. HiKey was running at 960Mhz and occasionally dropping to 729 Mhz for most part of the video playback with all 8 cores getting actively used. Below is the graphical representation of CPU usage on HiKey while playing the clip:
 
-![Demo 96boards Openhours Hikey960 launch Image 1]({% asset_path "demo-96boards-openhours-hikey960-launch-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/demo-96boards-openhours-hikey960-launch-img-1.png" alt="Demo 96boards Openhours Hikey960 launch Image 1" class="img-fluid" %}
+
 
 One can see that there is portion of the timeline where the load has reduced but during which there were frame drops happening as system was trying to catchup.
 
 We captured the CPU usage for the same portion of the clip on HiKey960. We saw that the load was less than 10% consistently. HiKey960 was running at 533 Mhz for most part of the video playback and occasionally frequency jumped to 999 Mhz.
 
-![Demo 96boards Openhours Hikey960 launch Image 2]({% asset_path "demo-96boards-openhours-hikey960-launch-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/demo-96boards-openhours-hikey960-launch-img-2.png" alt="Demo 96boards Openhours Hikey960 launch Image 2" class="img-fluid" %}
+
 
 We further tried to stress the boards by trying to play a [1080p/60fps](http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4) video but there were too many frame drops and stutters on HiKey where as HiKey960 was able to play the video smoothly with an average load of ~35% at 999Mhz consistently:
 
-![Demo 96boards Openhours Hikey960 launch Image 3]({% asset_path "demo-96boards-openhours-hikey960-launch-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/demo-96boards-openhours-hikey960-launch-img-3.png" alt="Demo 96boards Openhours Hikey960 launch Image 3" class="img-fluid" %}
+
 
 We have used a debug build of [VLC player](https://wiki.videolan.org/AndroidCompile/) and [Android Monitor](https://developer.android.com/studio/profile/android-monitor.html) for the above demo. Users can follow the instructions available on [source.android.com](https://source.android.com/source/devices) on how to build AOSP for HiKey960
 
@@ -74,7 +77,7 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

@@ -110,7 +110,7 @@ For the sake of this blog, I assume that the reader has an AWS account ready to 
 [AWS S3](https://aws.amazon.com/s3/) (Amazon Simple Storage Service) is a Cloud service based on objects offered by Amazon. It incorporates simple web interface for accessing the objects and manipulating them. It could be used as a primary storage for cloud native applications, a data lake for doing Big data analysis, as a Backup/recovery system and much more… Let's see how to setup S3 for streaming data from Dragonboard 410c.
 
 
-![Amazon S3 Image]({% asset_path "aws_s3.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/aws_s3.png" alt="Amazon S3 Image" class="img-fluid" %}
 
 
 
@@ -188,8 +188,7 @@ For the sake of this blog, I assume that the reader has an AWS account ready to 
   * Policy is essential for creating/modifying objects in the bucket. The above shown policy is just for demonstration purpose as it allows all AWS users to gain full access to the created bucket.
 
 
-
-![Amazon S3 policy image]({% asset_path "policy-s3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/policy-s3.png" alt="Amazon S3 policy image" class="img-fluid" %}
 
 **Setup Boto SDK**
 
@@ -264,7 +263,7 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

@@ -102,7 +102,7 @@ _**Note: The display is optional, we can also display the temperature by using a
 
 When running Android on the DragonBoard 410c, the easiest way (if not the only way) to program the AVR ATMega 238 chip is to use a USBTinyISP programmer. Before connecting any cables, be sure to identify the location of PIN 1 on the P6 connector on your Sensor Mezzanine. This connector can be found between your "I2C0" and "EF" Grove connectors toward the bottom middle of your board.
 
-![Sensors Mezzanine Image Step 1]({% asset_path "Step1-sensors-mezzanine.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Step1-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 1" class="img-fluid" %}
 
 
 ### **Step 2: Provide power to your Sensor Mezzanine (without baseboard 96Boards)**
@@ -112,7 +112,7 @@ The power (5VDC) will be supplied by the programmer itself, no need to connect y
 
 Please note: In this example, the USBTinyISP Jean-Marc is using, it has a tiny yellow jumper. This jumper (when connected) will provide power to the mezzanine. If you decided to use a 96Boards (as baseboard for your mezzanine) you will need to remove this jumper.
 
-![Sensors Mezzanine Image Step 2]({% asset_path "Step2-sensors-mezzanine.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Step2-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 2" class="img-fluid" %}
 
 
 ### **Step 3: (RECOMMENDED STEP) Remove resistor R4 from your Sensor Mezzanine**
@@ -120,7 +120,8 @@ Please note: In this example, the USBTinyISP Jean-Marc is using, it has a tiny y
 
 If anyone plans to use their mezzanine excursively and with the Android OS in the future, Jean-Marc recommends you remove resistor R5. This resistor is connected to the serial port UART0 RTS (request to send) and will reset the ATMega328 when programming the mezzanine with DragonBoard under Linux.
 
-![Sensors Mezzanine Image Screenshot]({% asset_path "Screenshot-sensors-mezzanine.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Screenshot-sensors-mezzanine.png" alt="Sensors Mezzanine Image Screenshot" class="img-fluid" %}
+
 
 Not knowing the state of the 96UART0_RTS with Android, this may reset our ATMega328 permanently.
 
@@ -153,7 +154,7 @@ Note: Once your Android IDE is installed and setup, check to see if you can find
 ### **Step 6: Connect the temperature sensor to A_I2C. This is the Grove connector located at P9.**
 
 
-![Sensors Mezzanine Image Step 6]({% asset_path "Step6-sensors-mezzanine.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Step6-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 6" class="img-fluid" %}
 
 This sensor uses the I2C protocol. Arduino has several libraries for this sensor, though you will have to install this one. Please refer to the Arduino tutorial for instructions on how to install.
 
@@ -176,7 +177,7 @@ In this case, he has connected it to the Arduino GPIOs and used the 4 bit parall
 
 You can check out [**this link**](https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay) to read more about the required cabling.
 
-![Sensors Mezzanine Image Step 7]({% asset_path "Step7-sensors-mezzanine.png"%}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Step7-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 7" class="img-fluid" %}
 
 
 ### **Step 8: Open the Arduino IDE on your host machine and copy the sketch code below.**
@@ -284,7 +285,7 @@ At this point you should be done!
 
 It is possible to add a USB to Serial port FTDI and plug it into the Arduino connector (P2, Pin 1 and 2). Doing this, you will also be able to test the serial port. Please take some time to look over the above code.
 
-![Sensors Mezzanine Image END]({% asset_path "END-sensors-mezzanine.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/END-sensors-mezzanine.jpg" alt="Sensors Mezzanine Image END" class="img-fluid" %}
 
 
 * * *
@@ -300,7 +301,7 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the **[96Boards forums](https://discuss.96boards.org/)**, **[96Boards documentation landing page](https://github.com/96boards/documentation/)**, and/or **[Freenode IRC](http://webchat.freenode.net/?channels=%2396boards)** channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
 

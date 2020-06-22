@@ -64,7 +64,9 @@ Maybe,  just maybe, you don’t want a case that looks like it was made from co
 **Bring on the lasers!**
 
 Laser cutters are computer controller cutting machines that can cut sheet material to very tight tolerances. Not all sheet material can be cut by laser. Some materials catch fire before they can be cut through, some give of toxic fumes and some simply reflect all the laser energy without leaving even a mark. However there still remains a wide range of materials that cut really work well with lasers. The king of these is acrylic sheet. It comes in a wide variety of gloss and matt finishes and covers the spectrum from (almost) totally opaque to more transparent than glass. Even better, as a thermoplastic it cuts, very nicely with a laser and leaves behind a neat polished finish.
-![Laser Cutting Image 1]({% asset_path "laser-cutting-img-1.png" %}){:class="img-responsive lazyload"}
+
+{% include image.html path="/assets/images/blog/laser-cutting-img-1.png" alt="Laser Cutting Image 1" class="img-fluid" %}
+
 
 
 _From top to bottom this case has a layer of clear acryilic, five layers of transparent green side pieces, a layer of laser cut plywood and a final layer of green. I _**_love_**_ the way the green sides suck in the light… in the flesh they always seem to be glowing._
@@ -124,7 +126,7 @@ The most important thing when designing a case for a board is to know the geomet
 
 However that’s not quite enough. Maybe you have a 96boards-uart plugged into the LS connector or perhaps you need access to the Hikey jumper header or the boot select switches on the bottom of a Dragonboard 410C. To get those cut out we need to get some measurements of the board itself to translate them into cuts. Digital verniers are great for this (go on treat yourself…basic ones can be picked up for around $5) and make completing the inital sketches very easy.
 
-![Laser Cutting Image 2]({% asset_path "laser-cutting-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/laser-cutting-img-2.png" alt="Laser Cutting Image 2" class="img-fluid" %}
 
 # **Instructions**
 
@@ -145,11 +147,11 @@ Once I have the final artwork then we’re ready to go. We can ether send it out
 
 **It’s an astonishingly rewarding process turning this:**
 
-![Laser Cutting Image 3]({% asset_path "laser-cutting-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/laser-cutting-img-3.png" alt="Laser Cutting Image 3" class="img-fluid" %}
 
 **Into this:**
 
-![Laser Cutting Image 4]({% asset_path "laser-cutting-img-4.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/laser-cutting-img-4.png" alt="Laser Cutting Image 4" class="img-fluid" %}
 
 Have a go!
 
@@ -169,7 +171,7 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

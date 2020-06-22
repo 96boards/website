@@ -66,7 +66,7 @@ GPIO (General Purpose Input Output) is one of the most common subsystem present 
     |     Low       |     Pull Down |
     ---------------------------------
 
-![Pull Up Down Image]({% asset_path "pull-up-down.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/pull-up-down.png" alt="Pull Up Down Image" class="img-fluid"%}
 
 You might be wondering about the need of Pull-up/down modes in input, since we are only sampling the pin. But there are times when you would want the input pin to be in a stable state (High/Low) in order to detect an event.
 
@@ -175,7 +175,7 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

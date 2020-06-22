@@ -241,7 +241,9 @@ This is why we will be very careful when connecting our mezzanine board. Whether
   * Once we pull down the sample code, we will be able to choose which GPIOs we want to use for our two sensors.
 
 
-![Screen Shot 2016-06-08 at 12.33.49 AM]({% asset_path "oob-experience-img-1.png" %}){:class="img-responsive lazyload"}  ![Screen Shot 2016-06-08 at 12.33.29 AM]({% asset_path "oob-experience-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/oob-experience-img-1.png" alt="oob experience image 1" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/oob-experience-img-2.png" alt="oob experience image 2" class="img-fluid" %}
 
 **Left:** Mezzanine connected to 96Boards baseboard
 **Right:** Top view of 96Boards Sensors kit board with GPIO location enclosed in red boxes.
@@ -389,7 +391,7 @@ Hopefully this basic walkthrough has helped you gain a better understanding of h
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 

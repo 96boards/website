@@ -116,7 +116,7 @@ So I ordered a few items from SparkFun, since I’m known for letting the magic 
 </tr>
 </tbody>
 </table>
-![Coins and board image]({% asset_path "96boards-ce-temp-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-1.jpg" alt="Coins and board image" class="img-fluid" %}
 
 First I started with the BOB-12009 Logic Level Converter, it’s documented to work from 1.2v - 5.5v it’s bidirectional which is a requirement for ic2 communications. It’s a tiny Red board with a total of 12 holes to be hooked up if desired. There are 6 holes on the high voltage side (high voltage being higher than the low voltage side) and 6 holes on the low voltage side. Since I am using this on a breadboard, out comes my soldering iron and I reach into my electronics junk kit for some single in line snap off pins. Snap off 2 6 pin segments and pop that into my breadboard to hold it for soldering. Now some folks are afraid of soldering and I can understand that, hot metal, smoke, plastic melts when you don’t want it too, etc. But in this case it’s easy, you are not soldering components on just the 12 pins. I won’t say impossible to mess up but it is difficult.
 
@@ -132,7 +132,7 @@ OK, soldering done, I plugged the device into my working breadboard, you need to
 
 I want to use the i2c(0) bus so let’s get that hooked up, you will need to plug jumper wires into pins 15 (SCL 0) and 17 (SDA 0) of the 96Boards, plug those into the LV1 (SCL) and LV2 (SDA) pins on the level shifter. I’m going to use the Grove-LCD RGB Backlight device and to make it easy I’m going to plug a grove wiring bundle into the Grove connector. The Grove wire bundle is Black (Ground), Red (5v), White (SDA), and Yellow (SCL). So plug 2 jumper wires into the 5v and ground rails and plug them to the red and black wires as appropriate. Plug a wire into HV1 (SCL) and the other end into the Yellow wire in the Grove wiring bundle and plug another wire into HV2 and the other end into the White Wire in the Grove wiring bundle. Now you are set, have a look at the below video of me wiring up the hardware and make sure yours looks somewhat like mine, the actual jumper cable colors are not really important, they just help getting the right wire into the right connection.
 
-![Image 2]({% asset_path "96boards-ce-temp-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-2.png" alt="Image 2" class="img-fluid" %}
 
 Next the software to drive the Grove-LCD RGB Backlight. Akira Tsukamoto wrote an excellent blog on using the Grove-LCD with the sensor board, I’ll show you how to hook up the Grove-LCD without using the sensor board, just using the level shifter. The software he wrote will just work. So you can read about it here: [https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](/blog/programing-i2c-devices-libmraa-libupm/) I’ve copied the files that you’ll need here into a new repository called: HomeAutomationBlogSeries.
 
@@ -144,7 +144,7 @@ First make sure your 96Boards is not powered up, pull the power connector out.
 
 To complete this step you will need a breadboard kit like the one found here on [Amazon](https://smile.amazon.com/Arduino-Starter-Kuman-Solderless-Breadboard/dp/B016D5LB8U/ref=sr_1_11?ie=UTF8&qid=1486599042&sr=8-11&keywords=breadboard+kit). It does not have to be this exact kit but you will need a breadboard and some wires to do cross connects with. This style of breadboard has 2 power rails on the outside of the breadboard and the center of the board has a series of holes running in rows down the board (my board it’s from 1 to 63 rows, and a - j across each row). Please read the description below and also watch the video so that you don’t plug the wires into the wrong places, that would be really bad and could result in the total destruction of the 96Boards, level shifter and any other electronic hardware attached.
 
-![Coins and board]({% asset_path "96boards-ce-temp-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-1.jpg" alt="Coins and board" class="img-fluid" %}
 
 Plug the BOB-12009 level shifter into rows 1 - 6 one set of pins will go into column **d** and the other set of pins will go into column **f** (watch the video) Make sure the side of the level shifter with the lv pins is plugged into column **d** and the hv pins are in column** f** this is critical.
 
@@ -152,15 +152,15 @@ Next we need to bring power over from the CE 96Boards, the low speed connector h
 
 Next we power up the level shifter. You will need 2 black jumper wires and 2 red jumpers. Look at the center 2 pins on each side of the level shifter on the low power side they will be labeled lv and ground and on the high power side they will be hv and ground. Attach a red wire to the lv pin and connect it to the 1.8v rail. Connect a black wire to the pin next to the lv pin labeled ground and attach it to the blue ground rail. With these wires in place the level shifter will power up when the 96Boards is powered up.
 
-![OpenHours Image]({% asset_path "96boards-ce-temp-img-3.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-3.jpg" alt="OpenHours Image" class="img-fluid" %}
 
 Next we bring out the i2c lines from the 96Board. We need to bring out pins 15 (SCL) and 17 (SDA) from the low speed connector.
 
-![OpenHours Image]({% asset_path "96boards-ce-temp-img-4.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-4.jpg" alt="OpenHours Image" class="img-fluid" %}
 
 SInce we are going to plug into a grove cable at some point we might as well use the same colors that the Grove cable uses, yellow and white. Plug the yellow wire into pin 15 and bring it over to the level shifter and plug it into lv1 pin. Plug the white wire into pin 17 and bring it over to the level shifter and plug it into the lv2 pin. Now we have the 1.8v i2c 0 bus attached to the low side of the level shifter. Grab 2 more yellow and white wires, we are going to connect them to the other side of the level shifter board. Plug the yellow wire into the hv1 pin of the level shifter board and plug the other end into the yellow wire of a grove wire harness. Next plug the white wire into the hv2 pin of the level shifter and plug the other end into the white wire of the grove wire harness.
 
-![OpenHours Image]({% asset_path "96boards-ce-temp-img-5.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-5.jpg" alt="OpenHours Image" class="img-fluid" %}
 
 Now check everything, make sure it’s wired correctly, in the video I did the wiring with the board powered on, that was not the smartest thing I’ve ever done, it’s a good way to let the magic white smoke out of something. Just plug a wire in the wrong hole and it could be over. Once you are sure you have all the wires connected correctly plug your 96Boards into power, once it boots log in and get a text console, then move on to step 3: Updating your system.
 
@@ -226,9 +226,12 @@ The LCD will show some sample messages and the backlight will cycle between red,
 
 **Note:** Press ctr-c to stop the program.
 
-![Blue LCD]({% asset_path "96boards-ce-temp-blue.jpg" %}){:class="img-responsive lazyload"}
-![Green LCD]({% asset_path "96boards-ce-temp-green.jpg" %}){:class="img-responsive lazyload"}
-![Red LCD]({% asset_path "96boards-ce-temp-red.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-blue.jpg" alt="Blue LCD" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-ce-temp-green.jpg" alt="Green LCD" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-ce-temp-red.jpg" alt="Red LCD" class="img-fluid" %}
+
 
 {% include media.html media_url="https://www.youtube.com/embed/mauUkSEbUrE?list=PL-NF6S9MM_W3jC6vE9XtdbZvMWAMX2E8" %}
 
@@ -242,7 +245,7 @@ Great, you have done some soldering and wiring and tested the i2c through a leve
 
 Now on to a temperature sensor, there are a lot of them out there, I’m starting with the Digital Temperature Sensor Breakout Board - TMP102 part number SEN-11931 from Sparkfun.
 
-![What Temp is it? Image.]({% asset_path "96boards-ce-temp-img-6.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-6.jpg" alt="What Temp is it? Image." class="img-fluid" %}
 
 The device is a TI part, it can run on a variety of voltages from 1.4v - 3.6v so 1.8v is clearly within it’s range. It is an i2c part and it’s really pretty easy to communicate with. It’s actually quite tiny, if you look at the picture above it’s the little black square in the center just below the TMP102 lettering. It’s smaller than the surface mount capacitor and pull up resistors! And the entire breakout board is smaller than a US quarter or a 2 Euro piece. It’s a 12 or 13 bit device, for the purposes of this blog I’m only going to use the 12 bit mode and continuous reading otherwise known as the power on default mode. It can respond on 4 different i2c addresses depending on where you have the add0 line tied to. The choices are ground, vcc, sda, scl, read the datasheet for more information. It can measure from –40°C to +125°C so it’s got a pretty good range. To get a temp, you poke the sensor and then read 2 bytes, then combine the 2 bites in a specific way and you have the temp. Not hard at all, unless you are trying to read a negative number, the explanation in the datasheet is confusing. If the most significant bit (MSB) is set to 1 we are looking at a normal negative number but it’s 12 bits not the normal 16, 32 or 64 bits we normally see stored on a computer. So if you just shove this info into a variable on the 96Boards the negative temperatures don’t work. Why? Because on the 96Boards the MSB is not the 12 bit but the 16th, 32th, or 64th bit so the computer does not see the data as a negative number, even though all 12 bits are set correctly as a negative number. Easy to fix with a quick test, check is the “number” & 0x800 are true, if it’s true you need to set all the high bits (regardless of how many there are) to one. In C it looks like `if ( temp & 0x800 ) { temp |= (~0x7FF);}`. In binary 12 bit math `1110 0111 0000` is `-25°C` but when you put that pattern into a 16 bit variable it looks like 0000 1110 0111 0000 so by using `0x7FF` and bitwise inverting it we end up with a mask of 1111 0000 0000 0000 which when or’ed with 0000 1110 0111 0000 becomes 1111 1110 0111 0000 or a 16 bit negative number that equals -25°C. One last thing, the reason I used an inverted bit mask is that I could have hard coded 0xF000 but that would only work if the variable I was using was 16 bits in size, by using `~0x7FF` that converts to whatever size number in use on the computer with all of the high bits set and the lower bits at 0. On a 16 bit machine it looks like: “1111 0000 0000 0000” and on a 32 bit machine it looks like: `1111 1111 1111 1111 1111 0000 0000 0000` which is the expected and proper mask for a 32 bit machine.
 
@@ -254,9 +257,9 @@ Sorry about the minor binary math refresh, but I looked at a lot of code on the 
 
 It’s time to plug the TMP102 into the breadboard, holding the TMP102 so the pins are vertical and are on the left side of the board plug it into position 1e on the breadboard. It will take up positions 1e, 2e, 3e, 4e, 5e, and 6e. You will need 5 jumper wires, 2 Black (one long one short), a long Orange/Purple, long White and long Yellow. (The colors don’t matter but that is what I’m using) First hook the short black jumper wire to pin 2a on the breadboard, and hook the other end to pin 6c on the breadboard. When the sensor is fully hooked up that will put the address line to ground. Next hook the long black wire into pin 39 on the low speed connector, that is ground, plug the other end into pin 2c of the breadboard. Next hook the orange jumper into pin 35 on the low speed connector, that is 1.8v, plug the other end into pin 1c. That completes the power to the temperature sensor. It also pulled the add0 line to ground. Next hook the yellow wire to pin 15 on the low speed connector on the 96Boards, that’s SCL, plug the other end into pin 4c on the breadboard. Next hook the white wire to pin 17 on the low speed connector on the 96Boards, that’s SDA, plug the other end into 3c on the breadboard.
 
-![Hooking up the TMP Sensor image 1]({% asset_path "96boards-ce-temp-img-7.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-7.jpg" alt="Hooking up the TMP Sensor image 1" class="img-fluid" %}
 
-![Hooking up the TMP Sensor image 2]({% asset_path "96boards-ce-temp-img-8.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-8.png" alt="Hooking up the TMP Sensor image 2" class="img-fluid" %}
 
 Verify all of your connections and when you are sure you have them correct plug your 96Boards into power and let it boot. Log in and get a text console.
 
@@ -342,7 +345,7 @@ Enough of this, I just wanted to see if I could get the temperature from the TMP
 
 Put the first BOB-12009 low voltage side into column d pins 1-6 of the breadboard, the high voltage pins will end up in column f pins 1-6. Put the second BOB-12009 low voltage side into the same column d but in pins 8-13 and again the high voltage pins will end up in column f pins 8-13 and finally place the TMP102 into column f pins 15-20 The add0 pin will be in pin 15f.
 
-![Hooking up the BOB-12009 Image]({% asset_path "96boards-ce-temp-img-9.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-img-9.png" alt="Hooking up the BOB-12009 Image" class="img-fluid" %}
 
 **Next we wire up the connections:**
 
@@ -445,9 +448,11 @@ $ sudo ./**temp_display**
 
 That’s it, here are the still pictures and the video
 
-![Blue LCD Wired Up]({% asset_path "96boards-ce-temp-blue-2.jpg" %}){:class="img-responsive lazyload"}
-![Green LCD Wired Up]({% asset_path "96boards-ce-temp-green-2.jpg" %}){:class="img-responsive lazyload"}
-![Red LCD Wired Up]({% asset_path "96boards-ce-temp-red-2.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-ce-temp-blue-2.jpg" alt="Blue LCD Wired Up" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-ce-temp-green-2.jpg" alt="Green LCD Wired Up" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-ce-temp-red-2.jpg" alt="Red LCD Wired Up" class="img-fluid" %}
 
 {% include media.html media_url="https://www.youtube.com/embed/iyPDdRblVVI?list=PL-NF6S9MM_W3jC6vE9XtdbZvMWAMX2E8"%}
 

@@ -44,7 +44,7 @@ If you are like me, you have hundreds if not thousands of photos, music, and mov
 
 Setting up a home media server is quite easy, but there are a few things to remember, and do somewhat differently than you might for a trade show demo.  So starting from the beginning.
 
-![96boards Media Server]({% asset_path "ReadyMediaServer.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/ReadyMediaServer.png" alt="96boards Media Server" class="img-fluid" %}
 
 * * *
 
@@ -1156,21 +1156,23 @@ So now I have a media server, how hard is it to get devices around my home worki
 
 I had some success and some failures connecting to the media server, overall it is a success.  I first tested my “smart” Samsung TV’s, yep they have a media app that saw the server on the home network and “just worked”.  No fuss no muss, click on the app, and then click on the dm home server icon.  All the pictures displayed, my mp3’s just worked as expected, the videos from both my phone and my small hand held camera played perfectly. Yea.  Now some of the video was “interesting”  I shot some in a vertical format (with my cell phone) and some in a horizontal format (the normal way video should be shot).  For the TV app’s it did not matter, the video shot in the vertical was shown vertical and the video shot horizontally was shown that way, just as you would expect (I’ll come back to this later).
 
-![96boards Media Server Image 1]({% asset_path "96boards-media-server-img-1.jpg" %}){:class="img-responsive lazyload"}
-![96boards Media Server Image 2]({% asset_path "96boards-media-server-img-2.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-media-server-img-1.jpg" alt="96boards Media Server Image 1" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-media-server-img-2.jpg" alt="96boards Media Server Image 2" class="img-fluid" %}
 
 The first failure was my TIVO’s, they currently just don’t do DLNA currently.  Now I’ve read online that by next year they will, we shall see.  I “think” it might have worked to some degree if I had files that were in the correct format for a TIVO, but I could not be bothered to convert the files.
 
 Next I jumped to my Roku boxes.  Here like my smart TV’s I had immediate success, there was an app that I clicked on and it saw the media server.  Again no fuss no muss (sort of).  When I clicked on it I got the expected display of pictures, music, and video, the pictures and the music all worked exactly as expected.  BUT when I clicked on the video I got an unpleasant surprise. Video shot horizontally (the normal video format) just worked as expected, video shot in the vertical format did indeed play but in a horizontal format UGH, there is my son and the band he plays with playing his Sax on his side, not quite what I expected or wanted.  I could not find a setting that fixed that.  I’ll have to spend more time in the Roku forums to see if there is a better app that might work as expected.
 
 
-![96boards Media Server Image 4]({% asset_path "96boards-media-server-img-4.jpg" %}){:class="img-responsive lazyload"}
-![96boards Media Server Image 5]({% asset_path "96boards-media-server-img-5.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-media-server-img-4.jpg" alt="96boards Media Server Image 4" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/96boards-media-server-img-5.jpg" alt="96boards Media Server Image 5" class="img-fluid" %}
 
 
 Next my office MacPro Laptop, now to be fair I don’t use the Mac like most people do, I’ve stripped most of the Mac software off and replaced it with Open Source equivalents.  And sure enough there is an application called VLC that is cross platform for the Mac, Linux and Windows.  I installed the Mac version and it just worked.  Everything including the vertical videos just played with no hiccups.
 
-![96boards Media Server Image 3]({% asset_path "96boards-media-server-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-media-server-img-3.png" alt="96boards Media Server Image 3" class="img-fluid" %}
 
 On to my Linux Laptop, I again installed VLC and again it just worked with no issues. Wow this simpler then I expected.  Ha,  then I tried to install VLC on a Linux desktop machine, no joy it installed fine but could not find the DLNA server, then I installed kodi and everything went fine and video, audio and images all work as expected from the DLNA server. I have no idea why… some day I’ll look into it, but kodi works really nicely.
 

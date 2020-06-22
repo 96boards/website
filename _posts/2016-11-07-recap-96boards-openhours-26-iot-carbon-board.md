@@ -1837,7 +1837,7 @@ Just spotted a typo in the pinout diagram. There's 2 lots of I2C1 on PB6 and PB8
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

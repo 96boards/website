@@ -950,5 +950,5 @@ ok thanks, I would have used the ubuntu.... now I know better
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 [n](/blog/installing-docker-aarch64-96boards-ce/)

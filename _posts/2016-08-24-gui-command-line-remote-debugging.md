@@ -99,7 +99,7 @@ Using your prefered text editor create the file ~/.gdbinit and put a single line
 
 `$ vim .gdbinit`
 
-![insidegdbinitfromhome]({% asset_path "gui-cli-debug-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-1.png" alt="insidegdbinitfromhome" class="img-fluid" %}
 
 
 #### Step 3: Create init file for gdb in your workspace directory
@@ -112,7 +112,8 @@ In /home/[your_home_dir]/workspace/test-64/Debug/.gdbinit add the following line
 `set architecture aarch64
 target remote [IP Address]:2345`
 
-![insidegdbinitworkspace]({% asset_path "gui-cli-debug-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-2.png" alt="insidegdbinitworkspace" class="img-fluid" %}
+
 
 And save the file. Now anytime you start gdb-multiarch in this directory it will load this init file and know to use 64 bit ARM op codes, and that the remote machine is at the IP and Port info supplied.
 
@@ -153,7 +154,7 @@ $ gdbserver localhost:2345 [name of your binary to be tested]`
 “Listening on port 2345”
 `
 
-![runninggdbserverARMsystem]({% asset_path "gui-cli-debug-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-3.png" alt="runninggdbserverARMsystem" class="img-fluid" %}
 
 Congratulations you have successfully fired up gdbserver, next step is back on your X86 linux system. It is important to leave the server running on your 96Boards while proceeding to the next section of this blog, “Starting gdb-multiarch”. In this next section the server you just ran on your 96Boards will be accessed by your host machine.
 
@@ -170,7 +171,8 @@ $ gdb-multiarch [name of your ARM binary]`
 
 Once gdb starts you should see lots of text and after all the text the last line should say “(gdb)”. Look and make sure one of the lines reads “The target architecture is assumed to be aarch64” if you see that all is well. A quick test:
 
-![rungdbmultiarchonhost]({% asset_path "gui-cli-debug-img-4.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-4.png" alt="rungdbmultiarchonhost" class="img-fluid" %}
+
 
 **Commands:**
 
@@ -184,7 +186,8 @@ This command will set a break at line 17 within the source code. This is optiona
 
 You should see a listing of the first lines of your source code. If you hit enter again you should see more source code. Back on the ARM 96Boards you should see another line of text: “Remote debugging from host [ip address]” where the IP address is the X86 linux system you are running gdb-multiarch on.
 
-![Screenshot from 2016-08-24 14-35-54]({% asset_path "gui-cli-debug-img-5.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-5.png" alt="Screenshot from 2016-08-24 14-35-54" class="img-fluid" %}
+
 
 **Commands:**
 
@@ -194,11 +197,11 @@ You should now see that gdb read in a bunch of library info from the remote 96Bo
 
 **Continue with “break” at 17**
 
-![Screenshot from 2016-08-24 14-36-04]({% asset_path "gui-cli-debug-img-6.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-6.png" alt="Screenshot from 2016-08-24 14-36-04" class="img-fluid" %}
 
 **Continue without “break”**
 
-![runcontongdbmultiarch]({% asset_path "gui-cli-debug-img-7.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-7.png" alt="runcontongdbmultiarch" class="img-fluid" %}
 
 **Commands:**
 
@@ -208,7 +211,7 @@ In the left terminal image you will see the ARM 96Boards terminating the program
 
 **Continue post “break” at 17**
 
-![Screenshot from 2016-08-24 14-36-19]({% asset_path "gui-cli-debug-img-8.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-8.png" alt="Screenshot from 2016-08-24 14-36-19" class="img-fluid" %}
 
 You are now set for command line gdb debugging.
 
@@ -226,11 +229,11 @@ You must have gotten the command line debugging with gdb-multiarch working befor
 
 You should see your source code in the top window, a (gdb) prompt in the bottom window, and on the remote ARM 96Boards you should see the “Remote debugging from host {IP Address]”.
 
-![1]({% asset_path "gui-cli-debug-img-9.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-9.png" alt="gui-cli debug" class="img-fluid" %}
 
 _**Note: Here you can Close the “Tip of the Day” window and proceed to the DDD GUI.**_
 
-![2]({% asset_path "gui-cli-debug-img-10.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/gui-cli-debug-img-10.png" alt="gui-cli debug" class="img-fluid" %}
 
 If you get an hourglass prompt that never clears, exit ddd, and cd to your home directory, you have a hidden directory called .ddd and something is wrong in a saved session, do an rm -rf .ddd and then go back to your working directory.
 
@@ -249,7 +252,7 @@ Restart gdbserver on your 96Boards, it will have exited when you exited ddd
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC channel](http://webchat.freenode.net/?channels=%2396boards) #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 

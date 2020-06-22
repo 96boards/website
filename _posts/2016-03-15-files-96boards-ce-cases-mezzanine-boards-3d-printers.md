@@ -34,9 +34,9 @@ I appreciate it for people updating the files or enhancing them.
 
 Please have fun developing controlling application on 96Boards with this cases and enjoy building cool prototypes.
 
-![96boards Image 1]({% asset_path "96boards-3d-printer-img-1.png" %}){:class="img-responsive lazyload"}
-![96boards Image 2]({% asset_path "96boards-3d-printer-img-2.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 3]({% asset_path "96boards-3d-printer-img-3.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 4]({% asset_path "96boards-3d-printer-img-4.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 5]({% asset_path "96boards-3d-printer-img-5.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 6]({% asset_path "96boards-3d-printer-img-6.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-1.png" alt="96Boards 3D Printer Image 1" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-2.png" alt="96Boards 3D Printer Image 2" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-3.png" alt="96Boards 3D Printer Image 3" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-4.png" alt="96Boards 3D Printer Image 4" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-5.png" alt="96Boards 3D Printer Image 5" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-6.png" alt="96Boards 3D Printer Image 6" class="img-fluid" %}

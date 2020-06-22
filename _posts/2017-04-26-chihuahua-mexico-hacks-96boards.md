@@ -53,7 +53,7 @@ Each team was asked to provide an elevator pitch video submission, the recreatio
 
 ## Team PassMe wins first place
 
-![Chihuahua Mexico hacks image 1]({% asset_path "chihuahua-mexico-hacks-96boards-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/chihuahua-mexico-hacks-96boards-img-1.jpg" alt="Chihuahua Mexico hacks image 1" class="img-fluid" %}
 
 Photograph sent by: Prof. Aldo Cortes from Tecnologico de Monterrey
 

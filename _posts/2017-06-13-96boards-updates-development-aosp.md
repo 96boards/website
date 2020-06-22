@@ -84,7 +84,7 @@ There’s also been lots of smaller things, like +[Vishal Bhoj](https://plus.goo
 
 So yea, its been busy of late! And as always, everyone has been doing amazing work to collaborate together, so many thanks to everyone (explicitly called out or not) involved!
 
-![Hikey 960 Front Image]({% asset_path "hikey-960-SD-front.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/hikey-960-SD-front.jpg" alt="Hikey 960 Front Image" class="img-fluid" %}
 
 
 [Find John Stultz on Google+](https://plus.google.com/111524780435806926688)

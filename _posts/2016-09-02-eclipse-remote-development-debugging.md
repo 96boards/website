@@ -79,14 +79,9 @@ I’m going to start a new project and create a C project and set it up for remo
 
 $ ~/eclipse/cpp-neon/eclipse/eclipse &
 
-![01_NewEclipse]({% asset_path "eclipse-remote-dev-img-1.png" %}){:class="img-responsive lazyload"}
-
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-1.png" alt="01_NewEclipse" class="img-fluid" %}
 
 ## Step 2: In Eclipse create new ARM project
-
-
-
-
 
 
   * File -> New -> C-Project
@@ -113,7 +108,7 @@ $ ~/eclipse/cpp-neon/eclipse/eclipse &
   * Click the “Next” button
 
 
-![02_NewCProject]({% asset_path "eclipse-remote-dev-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-2.png" alt="02_NewCProject" class="img-fluid" %}
 
 
 
@@ -131,8 +126,7 @@ $ ~/eclipse/cpp-neon/eclipse/eclipse &
   * Click the “Next” button
 
 
-![04_Copyright]({% asset_path "eclipse-remote-dev-img-3.png" %}){:class="img-responsive lazyload"}
-
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-3.png" alt="04_Copyright" class="img-fluid" %}
 
 ## Step 5: Select Configurations
 
@@ -147,7 +141,7 @@ $ ~/eclipse/cpp-neon/eclipse/eclipse &
   * Click the “Next” button
 
 
-![03_SelectConfig]({% asset_path "eclipse-remote-dev-img-4.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-4.png" alt="03_SelectConfig" class="img-fluid" %}
 
 
 ## Step 6: Set Cross GCC Command
@@ -166,7 +160,7 @@ $ ~/eclipse/cpp-neon/eclipse/eclipse &
   * Click the “Finish” button
 
 
-![05_ConfigureCrossGCC]({% asset_path "eclipse-remote-dev-img-5.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-5.png" alt="05_ConfigureCrossGCC" class="img-fluid" %}
 
 
 ## Step 7: Compile the source code to a binary file
@@ -182,11 +176,12 @@ This is critical to be done now, **do not skip this step or wait until later**, 
 
 If you expand the project you will see you have a binary file. Now setting up remote execution and remote debugging will work. Again I have no idea why this is critical but it is… (I did edit the source code a bit to add an int variable and a char array and changed the cputs to printf, just to make the debugger display a bit more interesting.)
 
-![06_NoBinary]({% asset_path "eclipse-remote-dev-img-6.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-6.png" alt="06_NoBinary" class="img-fluid" %}
 
-![07_BuildFirstBinary]({% asset_path "eclipse-remote-dev-img-7.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-7.png" alt="07_BuildFirstBinary" class="img-fluid" %}
 
-![08_BinaryMade]({% asset_path "eclipse-remote-dev-img-8.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-8.png" alt="08_BinaryMade" class="img-fluid" %}
+
 
 
 ## Step 8: Setup Remote Execution
@@ -199,10 +194,9 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
 
   * Click on the RUN -> Run Configurations... you will get a menu
 
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-9.png" alt="09_RunConfigMenu" class="img-fluid" %}
 
-![09_RunConfigMenu]({% asset_path "eclipse-remote-dev-img-9.png" %}){:class="img-responsive lazyload"}
-
-![10_RunConfigPanel]({% asset_path "eclipse-remote-dev-img-10.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-10.png" alt="10_RunConfigPanel" class="img-fluid" %}
 
 
 ### Create, manage, and run configurations pane
@@ -215,9 +209,7 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
   * In the left window double click C/C++ Remote Application, that will generate a test-64 item below the C/C++ Remote Application selection and the highlight will switch there and a pane will open on the right side.
 
 
-![11_RemoteHostRunConfig]({% asset_path "eclipse-remote-dev-img-11.png" %}){:class="img-responsive lazyload"}
-
-
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-11.png" alt="11_RemoteHostRunConfig" class="img-fluid" %}
 
 
   * The name will be test-64 Debug
@@ -235,7 +227,7 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
   * Change Connection type: to be SSH (Click OK)
 
 
-![12_SSHNewConnection]({% asset_path "eclipse-remote-dev-img-12.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-12.png" alt="12_SSHNewConnection" class="img-fluid" %}
 
 
 
@@ -261,10 +253,7 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
     * Click on the Finish button.
 
 
-
-
-
-![13_96BoardUSBEthernet]({% asset_path "eclipse-remote-dev-img-13.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-13.png" alt="13_96BoardUSBEthernet" class="img-fluid" %}
 
 
 
@@ -272,7 +261,7 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
   * Click on the Browse button for the “Remote Absolute File Path for C/C++ Application” This will open a pane showing the remote file system on the 96Boards. Select the directory where you want the application you want it to run in. I’m using the linaro user home dir. Once you select the path just click on the x at the top right corner, it does not give you an OK button for some reason, the path will be carried back into the New Connection Pane, and will look something like “/home/linaro/test-64”
 
 
-![14_BrowseRemoteFileSystem]({% asset_path "eclipse-remote-dev-img-14.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-14.png" alt="14_BrowseRemoteFileSystem" class="img-fluid" %}
 
 
 
@@ -282,10 +271,9 @@ Now we will setup remote execution, Eclipse will copy the binary file over to th
 
   * Click on the Run button, and then look in your Console pane (double click on the Console tab if the window is too small to expand it) and you will see “!!!Hello World!!! and logout
 
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-15.png" alt="15_FinalRemoteRunConfig" class="img-fluid" %}
 
-![15_FinalRemoteRunConfig]({% asset_path "eclipse-remote-dev-img-15.png" %}){:class="img-responsive lazyload"}
-
-![16_RemoteRunScreenCap]({% asset_path "eclipse-remote-dev-img-16.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-16.png" alt="16_RemoteRunScreenCap" class="img-fluid" %}
 
 **Congratulations, you have succeeded in remotely running the Hello World application.**
 
@@ -304,8 +292,7 @@ Now we will setup remote debugging, Eclipse will copy the binary file over to th
 
   * Click on the RUN ->Debug Configurations... menu
 
-
-![17_DebugConfigMenu]({% asset_path "eclipse-remote-dev-img-17.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-17.png" alt="17_DebugConfigMenu" class="img-fluid" %}
 
 
 ###
@@ -332,7 +319,7 @@ Now we will setup remote debugging, Eclipse will copy the binary file over to th
   * The C/C++ Application should be Debug/test-64 if it is not, click on the Search Project button and select the test-64 project when you come back it will be set.
 
 
-![18_DebugConfigPanel]({% asset_path "eclipse-remote-dev-img-18.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-18.png" alt="18_DebugConfigPanel" class="img-fluid" %}
 
 
 
@@ -382,7 +369,7 @@ Now we will setup remote debugging, Eclipse will copy the binary file over to th
   * **You’ll see a line with:** “GDB command file:” and it will be set to “.gdbinit” just erase the file name completely, you don’t need it.
 
 
-![19_DebugConfigPanelGDB]({% asset_path "eclipse-remote-dev-img-19.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-19.png" alt="19_DebugConfigPanelGDB" class="img-fluid" %}
 
 
 
@@ -393,7 +380,7 @@ Now we will setup remote debugging, Eclipse will copy the binary file over to th
   * Click on the Debug button, and Eclipse will change to the debugging perspective or ask you if it’s OK to switch to the Debugging perspective, if it does ask say yes. Now you can step through the code just like a debugging a local program.
 
 
-![20_RemoteDebugging]({% asset_path "eclipse-remote-dev-img-20.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-remote-dev-img-20.png" alt="20_RemoteDebugging" class="img-fluid" %}
 
 **Congratulations,** you have succeeded in remotely debugging the Hello World application.
 To run the debugger remotely from the C/C++ perspective now that you have this setup you go to the bar with the Icon’s in it, look for the bug (it is just to the left of the white arrow green circle run button). Just to the right of that Icon is a down arrow, click on that you should see test-64 Debug configuration. Click on it and the code will be compiled if need be and copied to the 96Boards and the debugger setup and the IDE will switch to the debugging pane. You can test the code any time you want this way.
@@ -404,7 +391,7 @@ Another quirk is that you really need to use the “Run as” and “Debug as”
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 

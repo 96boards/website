@@ -1998,7 +1998,7 @@ Here so some inspirational ideas on how to use 96Boards or even DtagonBaordshttp
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

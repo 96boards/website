@@ -35,8 +35,9 @@ Since I started with Linaro/96Boards I have had the fortunate opportunity to par
 
 When I first heard of this mezzanine, I was of course excited. Who wouldn’t want to add two camera sensors to their 96Boards projects? Now you can.
 
-![D3 Deisgncore Image 1]({% asset_path "designcore-img-1.jpg" %}){:class="img-responsive lazyload"}
-![D3 Deisgncore Image 1]({% asset_path "designcore-img-2.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/designcore-img-1.jpg" alt="D3 Deisgncore Image 2" class="img-fluid"%}
+
+{% include image.html path="/assets/images/blog/designcore-img-2.jpg" alt="D3 Deisgncore Image 2" class="img-fluid" %}
 
 Not only does this mezzanine offer the possibility of adding multiple camera sensors to your 96Boards, but it also breaks out the many I/O coming from the low-speed expansion header. Basically, bringing up all the signals you are used to using straight from the low-speed header or through other 96Boards mezzanines. On this header you will have access to the following two UARTs, two SPIs, two I2Cs and 12 GPIOs. An on built on reset and power button add to the functionality of this board
 
@@ -44,7 +45,7 @@ Not only does this mezzanine offer the possibility of adding multiple camera sen
 
 This board is shipped clean directly from [Arrow Electronics](https://www.arrow.com/), and from what I can tell there are a couple of options when purchasing this mezzanine for yourself. While poking through the D3 website, I came across a “DragonBoard 410c Camera Kit” and a “D3 DesignCore Camera Mezzanine Board OV5640” option. Both come with product descriptions and “Buy Now” links for Arrow. These items can be found under the “[Embedded Vision](http://www.d3engineering.com/solutions/embedded-vision)” section of the website along with other cool D3 products.
 
-![D3 Deisgncore Image 3]({% asset_path "designcore-img-3.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/designcore-img-3.jpg" alt="D3 Deisgncore Image 3" class="img-fluid" %}
 
 The **“**[**DragonBoard 410c Camera Kit**](https://www.arrow.com/en/products/dragonboard410ccamera/d3-engineering)**”** includes a 96Boards DragonBoard 410c, the D3 DesignCore Camera Mezzanine, a 5MP OV5640 camera module, and a 96Boards compliant power supply (12V, 2000mA).
 
@@ -90,6 +91,6 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
