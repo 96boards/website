@@ -10,7 +10,7 @@ pagination:
     sort_reverse: false
     trail:
         before: 4
-        after: 4 
+        after: 4
 css-package: blog
 redirect_from:
 - /author/

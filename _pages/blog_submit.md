@@ -9,7 +9,7 @@ layout: jumbotron-container
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#submitBlogPost">
 Submit
 </button>
-  
+
 <!-- Modal 2 -->
 <div class="modal fade" id="submitBlogPost" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -29,5 +29,5 @@ Submit
 <h2>Submit a Blog Post through Github</h2>
 
 <p>
-    If you would like to submit a blog post through Github then please follow <a href="">these instructions.</a> 
+    If you would like to submit a blog post through Github then please follow <a href="">these instructions.</a>
 </p>

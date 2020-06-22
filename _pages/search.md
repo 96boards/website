@@ -4,12 +4,12 @@ permalink: /search/
 layout: flow
 jumbotron:
     title: Search
-    description: >
-        Search Linaro's sites for a specific page/resource.
-    background-image: /assets/images/content/96boards-home-image-2.jpg
+    inner_class: dotted
+    description: ""
+    image: /assets/images/content/96boards-home-image-2.jpg
 description: |-
-    Search the 96Boards Website.
-css-package: search
+    Search the Linaro Website.
+css_bundle: search
 ---
 <script>
   (function() {
@@ -21,7 +21,7 @@ css-package: search
     fess.charset = 'utf-8';
     fess.setAttribute('id', 'fess-ss');
     fess.setAttribute('enable-order', 'true');
-    fess.setAttribute('link-target', '\_self');
+    fess.setAttribute('link-target', '\_blank');
     fess.setAttribute('enable-labels', 'true');
     // fess-url is URL for Fess Server
     fess.setAttribute('fess-url', 'https://search.linaro.org/json/');
