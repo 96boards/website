@@ -2,9 +2,7 @@
 title: Carbon Rover Rev 2 | NeoPixels
 author: Sahaj Sarup
 date: 2018-02-12 01:01:54+00:00
-image: /assets/images/blog/carbon-rover-rev-2-thumb.jpg
-image_name: carbon-rover-rev-2.jpg
-image_thumb: carbon-rover-rev-2-thumb.jpg
+image: /assets/images/blog/carbon-rover-rev-2.jpg
 categories: blog
 tags: Iot, IE, carbon, arduino, neopixels, rgb, leds, robot, rover, zephyr
 

@@ -30,7 +30,7 @@ jumbotron:
 This week we'll take a look at setting up and developing a simple Hello World app using Vitis and running that under PetaLinux dstribution running on the Ultra96 devboard.
 
 Hope to see you all soon!
- 
+
 ### What is 96Boards OpenHours?
 
 **96Boards OpenHours – Sponsored by Linaro** welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience. Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
@@ -98,7 +98,7 @@ Every Thursday at 4pm UTC
 
 * * *
 
-{% include image.html alt="OpenHours" name="OpenHours.png" %}
+{% include image.html  path="/assets/images/blog/OpenHours.png" alt="OpenHours" class="img-fluid"  %}
 
 
 </div>

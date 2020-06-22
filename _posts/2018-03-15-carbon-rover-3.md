@@ -2,13 +2,10 @@
 title: Carbon Rover Part 3
 author: Sahaj Sarup
 date: 2018-03-15 01:01:54+00:00
-image: /assets/images/carbon-rover.jpg
-image_name: iew-2018.jpg
-image_thumb: carbon-rover-thumb.jpg
+image: /assets/images/blog/carbon-rover.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, Automotive, Conference, ElectronicsForU, EFY, Machine Learning
 ---
-
 # Carbon Rover Part 3
 
 In this final revision of the Carbon Rover Project I'll be mostly taking about adding _Bluetooth_ ® wireless technology control, using a not-so-expected method.

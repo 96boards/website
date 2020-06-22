@@ -2,9 +2,7 @@
 title: UCSD ECE 191 - 4 Week Summary
 author: ECE 191 Team I Winter 2018
 date: 2018-02-01 01:01:54+00:00
-image: /assets/images/Build-Internet-Things.png
-image_name: Build-Internet-Things.png
-image_thumb: coursera-logo-thumb.png
+image: /assets/images/content/Build-Internet-Things.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditek, dragonboard, coursera, iot, mooc, massive open online course, ucsd, calit2, qualcomm, qualcomm institute, cloud, aws, amazon web services
 
