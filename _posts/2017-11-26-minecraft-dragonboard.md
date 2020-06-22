@@ -2,11 +2,9 @@
 title: Full PC Version of Minecraft on Dragonboard 410c
 author: Sahaj Sarup
 date: 2017-11-26 00:00:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/minecraft.png
-    name: minecraft.png
-    thumb: minecraft_thumb.png
+image: /assets/images/blog/minecraft.png
+image_name: minecraft.png
+image_thumb: minecraft_thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, Gaming, Mesa, dragonboard410c, Linux Gaming, minecraft, db410c, LWJGL, OpenGL, libjawt
 featured-products: dragonboard410c

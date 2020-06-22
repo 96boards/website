@@ -2,11 +2,9 @@
 title: Rock960 Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2018-09-28 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rock960_front.jpg
-    name: rock960_front.jpg
-    thumb: rock960_thumb.png
+image: /assets/images/blog/rock960_front.jpg
+image_name: rock960_front.jpg
+image_thumb: rock960_thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Rockchip, RK3399, Rock960, Ficus, Vamrs, U-Boot, SoC, Enterprise, Mainlining, Devicetree
 ---

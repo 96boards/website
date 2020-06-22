@@ -5,10 +5,8 @@ date: 2016-10-14 21:53:38+00:00
 layout: post
 link: https://www.96boards.org/blog/how-to-develop-on-your-96boards/
 slug: how-to-develop-on-your-96boards
-image:
-    featured: true
-    path: /assets/images/blog/17-1.jpg
-    name: 17-1.jpg
+image: /assets/images/blog/17-1.jpg
+image_name: 17-1.jpg
 title: How to develop on your 96Boards
 wordpress_id: 17758
 categories:

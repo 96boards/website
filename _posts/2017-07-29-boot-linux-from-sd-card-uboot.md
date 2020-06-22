@@ -6,11 +6,9 @@ layout: post
 link: https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/
 slug: boot-linux-from-sd-card-uboot
 title: Booting Linux from SD card using U-Boot
-image:
-    featured: true
-    path: /assets/images/blog/boot-linux-from-sd-card-uboot.jpg
-    name: boot-linux-from-sd-card-uboot.jpg
-    thumb: boot-linux-from-sd-card-uboot-thumb.jpg
+image: /assets/images/blog/boot-linux-from-sd-card-uboot.jpg
+image_name: boot-linux-from-sd-card-uboot.jpg
+image_thumb: boot-linux-from-sd-card-uboot-thumb.jpg
 categories:
 - blog
 tags:

@@ -5,10 +5,8 @@ date: 2016-06-10 17:18:42+00:00
 layout: post
 link: https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/
 slug: programing-i2c-devices-libmraa-libupm
-image:
-    featured: true
-    path: /assets/images/blog/akira-blog-image.jpg
-    name: akira-blog-image.jpg
+image: /assets/images/blog/akira-blog-image.jpg
+image_name: akira-blog-image.jpg
 title: Programing I2C devices with libmraa and libupm
 wordpress_id: 15078
 categories:

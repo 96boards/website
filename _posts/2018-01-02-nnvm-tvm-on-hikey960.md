@@ -2,11 +2,9 @@
 title: NNVM/TVM on HiKey960
 author: Manivannan Sadhasivam
 date: 2018-01-02 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/nnvm.jpg
-    name: nnvm.jpg
-    thumb: nnvm-thumb.jpg
+image: /assets/images/blog/nnvm.jpg
+image_name: nnvm.jpg
+image_thumb: nnvm-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey960, Linaro, Linux, NNVM, TVM, AI, TensorFlow, MxNet
 ---

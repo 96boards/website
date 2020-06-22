@@ -8,10 +8,8 @@ link: https://www.96boards.org/blog/96boards-magic-8-ball-digital-hourglass/
 slug: 96boards-magic-8-ball-digital-hourglass
 title: Story of a 96Boards Magic 8-Ball and Digital Hourglass
 wordpress_id: 20519
-image:
-    featured: true
-    path: /assets/images/blog/8-ball-feature.jpg
-    name: 8-ball-feature.jpg
+image: /assets/images/blog/8-ball-feature.jpg
+image_name: 8-ball-feature.jpg
 categories:
 - blog
 tags:

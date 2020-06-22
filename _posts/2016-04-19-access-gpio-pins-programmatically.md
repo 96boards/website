@@ -5,10 +5,8 @@ date: 2016-04-19 13:50:53+00:00
 layout: post
 link: https://www.96boards.org/blog/access-gpio-pins-programmatically/
 slug: access-gpio-pins-programmatically
-image:
-    featured: true
-    path: /assets/images/blog/Linaro-ELC-2-e1461073837775.jpg
-    name: Linaro-ELC-2-e1461073837775.jpg
+image: /assets/images/blog/Linaro-ELC-2-e1461073837775.jpg
+image_name: Linaro-ELC-2-e1461073837775.jpg
 title: How do you access the GPIO pins programmatically?
 wordpress_id: 13586
 categories:
@@ -174,7 +172,7 @@ int main()
     }
     last_touch = touch;
     usleep(1);
-  }  
+  }
   if(gpio_led || gpio_button)
   {
     printf("apply gpio resource fail!\n");

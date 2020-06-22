@@ -2,11 +2,9 @@
 title: 96Boards GPS Mezzanine - "The First Born"
 author: Michael Welling, Ron Justin & Robert Wolff
 date: 2018-05-11 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/collab-firstborn-7.png
-    name: collab-firstborn-7.png
-    thumb: collab-firstborn-thumb.png
+image: /assets/images/blog/collab-firstborn-7.png
+image_name: collab-firstborn-7.png
+image_thumb: collab-firstborn-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, stem, michael welling, mezzanine, gps, initiative, community, groupgets, qwerty embedded, crowd funding, crowdfunding, ron justin, dragonboard, qualcomm, snapdragon, huawei, actions semi, soc, system on chip, GetSparked
 ---

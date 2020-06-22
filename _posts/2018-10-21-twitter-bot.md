@@ -2,11 +2,9 @@
 title: 96Boards Twitter Bot
 author: Sahaj Sarup
 date: 2018-10-21 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/twitter.png
-    name: twitter.png
-    thumb: twitter-thumb.jpg
+image: /assets/images/blog/twitter.png
+image_name: twitter.png
+image_thumb: twitter-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, twitter, python, Bot, script
 ---

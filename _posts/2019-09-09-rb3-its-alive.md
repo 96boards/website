@@ -2,10 +2,8 @@
 title: It's ALIVE | OpenCV on RB3 Pt. 6 | Qualcomm RB3 Robotic Arm Project
 author: Sahaj Sarup
 date: 2019-09-09 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rb3-arm.jpg
-    name: rb3-arm.jpg
+image: /assets/images/blog/rb3-arm.jpg
+image_name: rb3-arm.jpg
 categories: blog
 series: Qualcomm RB3 Robotic Arm Project
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shield, hat
@@ -59,12 +57,12 @@ char a;
 - Integers i, j and k are declared with default position values for the serve, these value will later be used to track the servos.
 	- i: is used for the base
 	- j: is used for the up-down wrist servo
-	- k: is used for the shoulder and 
+	- k: is used for the shoulder and
 
 
 **Setup**
 ```c++
-void setup() 
+void setup()
 {
 Serial.begin(115200);
 pwm.begin();

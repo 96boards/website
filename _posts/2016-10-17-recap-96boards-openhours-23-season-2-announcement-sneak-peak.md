@@ -5,10 +5,8 @@ date: 2016-10-17 23:14:29+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-96boards-openhours-23-season-2-announcement-sneak-peak/
 slug: recap-96boards-openhours-23-season-2-announcement-sneak-peak
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 23 - Season 2 announcement and sneak peak
 wordpress_id: 17799
 Boards:

@@ -2,11 +2,9 @@
 title: Debian Snapshot Image for HiKey boards
 author: Manivannan Sadhasivam
 date: 2018-12-26 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/hikey-deb.png
-    name: hikey-deb.png
-    thumb: hikey-deb-thumb.png
+image: /assets/images/blog/hikey-deb.png
+image_name: hikey-deb.png
+image_thumb: hikey-deb-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, HiSilicon, HiKey, HiKey620, HiKey960, HiKey970, Debian, UEFI, Tianocore, USB, HDMI, WiFi, Bluetooth, UFS, eMMC, SD
 ---

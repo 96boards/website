@@ -3,10 +3,8 @@ author: Robert Wolff
 comments: true
 date: 2017-01-06 01:07:05+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
-    name: 1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
+image: /assets/images/blog/1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
+image_name: 1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
 link: /blog/welcome-2017-year-96boards/
 slug: welcome-2017-year-96boards
 title: Welcome to 2017, Year of the 96Boards!

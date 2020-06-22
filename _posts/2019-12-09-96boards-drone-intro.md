@@ -2,10 +2,8 @@
 title: "The 96boards Drone Project: Introduction Blog"
 author: Sahaj Sarup
 date: 2019-12-09 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/drone.png
-    name: drone.png
+image: /assets/images/blog/drone.png
+image_name: drone.png
 categories: blog
 series: "96boards Drone Project"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, real time, ROS2, Autoware
@@ -16,7 +14,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro,
 The 96boards drone platform is an experimental smart drone platform with the following objectives:
 
 1. Continuously Evolving
-2. OpenSource 
+2. OpenSource
 3. Test-bed
 
 ## Continuously Evolving

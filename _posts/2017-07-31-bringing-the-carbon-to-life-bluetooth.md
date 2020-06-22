@@ -10,10 +10,8 @@ layout: post
 # Title of the blog post.
 title: Bringing the Carbon to life - Bluetooth® wireless technology
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/bringing-carbon-to-life-featured.jpg
-    name: bringing-carbon-to-life-featured.jpg
+image: /assets/images/blog/bringing-carbon-to-life-featured.jpg
+image_name: bringing-carbon-to-life-featured.jpg
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

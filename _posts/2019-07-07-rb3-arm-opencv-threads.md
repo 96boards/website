@@ -2,10 +2,8 @@
 title: Threads got complicated | OpenCV on RB3 Pt. 2 | Qualcomm RB3 Robotic Arm Project
 author: Sahaj Sarup
 date: 2019-07-07 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rb3-arm.jpg
-    name: rb3-arm.jpg
+image: /assets/images/blog/rb3-arm.jpg
+image_name: rb3-arm.jpg
 categories: blog
 series: Qualcomm RB3 Robotic Arm Project
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
@@ -47,7 +45,7 @@ Bug reported here: [https://github.com/opencv/opencv/issues/14884](https://githu
 
 After doing multiple experiments with different gcc variants, opencv versions etc, I've come to the conclusion that using tried and tested OpenCv 3.2 with OpenMP enabled is the best solution.
 
-Its not that old of a version and allows your workload to be split across multiple cores, which combined with the powerful Snapdragon 845 on the RB3 means that all but one core are always sitting under 50% utilization. 
+Its not that old of a version and allows your workload to be split across multiple cores, which combined with the powerful Snapdragon 845 on the RB3 means that all but one core are always sitting under 50% utilization.
 
 I mean just look at this screenshot.
 

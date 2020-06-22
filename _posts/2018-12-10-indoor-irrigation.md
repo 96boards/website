@@ -2,11 +2,9 @@
 title: Automated Indoor Irrigation
 author: Sahaj Sarup
 date: 2018-12-10 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/indoor.png
-    name: indoor.png
-    thumb: indoor-thumb.png
+image: /assets/images/blog/indoor.png
+image_name: indoor.png
+image_thumb: indoor-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, irrigation, python, Bot, script, mraa, automation, ADC
 ---

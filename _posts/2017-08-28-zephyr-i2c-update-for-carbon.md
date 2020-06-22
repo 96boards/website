@@ -3,11 +3,9 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-28 01:01:54+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/96b-carbon-front.png
-    name: 96b-carbon-front.png
-    thumb: carbon-zephyr-i2c-thumb.jpg
+image: /assets/images/blog/96b-carbon-front.png
+image_name: 96b-carbon-front.png
+image_thumb: carbon-zephyr-i2c-thumb.jpg
 title: Zephyr I2C Update for Carbon
 categories:
 - blog

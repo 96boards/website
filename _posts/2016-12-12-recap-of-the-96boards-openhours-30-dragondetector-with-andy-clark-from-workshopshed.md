@@ -6,10 +6,8 @@ layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/
 slug: recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed
 title: Recap of the 96Boards OpenHours 30 - DragonDetector with Andy Clark from Workshopshed
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-02.png
-    name: OpenHours-02.png
+image: /assets/images/blog/OpenHours-02.png
+image_name: OpenHours-02.png
 wordpress_id: 18992
 Boards:
 - DragonBoard 410c

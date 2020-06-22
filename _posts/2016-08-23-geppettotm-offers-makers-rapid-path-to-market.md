@@ -5,10 +5,8 @@ date: 2016-08-23 09:29:37+00:00
 layout: post
 link: https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
 slug: geppettotm-offers-makers-rapid-path-to-market
-image:
-    featured: true
-    path: /assets/images/blog/Geppetto_blank_base.png
-    name: Geppetto_blank_base.png
+image: /assets/images/blog/Geppetto_blank_base.png
+image_name: Geppetto_blank_base.png
 title: GEPPETTOTMOffers Makers Rapid Path to Market
 wordpress_id: 16643
 categories:

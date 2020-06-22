@@ -8,10 +8,8 @@ link: https://www.96boards.org/blog/96boards-updates-different-regions/
 slug: 96boards-updates-different-regions
 title: Some 96Boards updates from different Regions
 wordpress_id: 20519
-image:
-    featured: true
-    path: /assets/images/blog/globe.png
-    name: globe.png
+image: /assets/images/blog/globe.png
+image_name: globe.png
 categories:
 - blog
 tags:

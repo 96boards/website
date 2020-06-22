@@ -5,11 +5,9 @@ date: 2017-07-19 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/device-tree-overlay-on-96Boards/
 slug: device-tree-overlay-on-96Boards
-image:
-    featured: true
-    path: /assets/images/blog/devicetree.png
-    name: devicetree.png
-    thumb: devicetree-thumb.png
+image: /assets/images/blog/devicetree.png
+image_name: devicetree.png
+image_thumb: devicetree-thumb.png
 title: Device Tree Overlay on 96Boards
 wordpress_id: 20365
 categories:
@@ -91,7 +89,7 @@ The support for device tree overlay was already merged into kernel. But there is
 the mainline kernel to load device tree from userspace. **Pantelis Antoniou**, proposed a way of inserting device
 overlays using configfs dynamically. But due to some security concerns it was not manlined.
 
-Eventhough, his work has been utilized by most of the popular SBC’s available in market, for instance *Capemgr* in BBB.  
+Eventhough, his work has been utilized by most of the popular SBC’s available in market, for instance *Capemgr* in BBB.
 We have followed the same approach and patched a custom kernel for this feature.
 
 All of the instructions were documented in 96Boards/documentation git repository

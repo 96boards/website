@@ -2,11 +2,9 @@
 title: Dedicated YouTube Playlists for Boards
 author: Sahaj Sarup
 date: 2018-05-22 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/youtube-featured.png
-    name: youtube-feature.png
-    thumb:  youtube-thumb.png
+image: /assets/images/blog/youtube-featured.png
+image_name: youtube-feature.png
+image_thumb:  youtube-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, hiKey, MRAA, GPIO, I2C, UART, qt5
 ---

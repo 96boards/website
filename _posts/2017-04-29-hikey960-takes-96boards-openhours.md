@@ -5,10 +5,8 @@ date: 2017-04-29 01:30:06+00:00
 layout: post
 link: https://www.96boards.org/blog/hikey960-takes-96boards-openhours/
 slug: hikey960-takes-96boards-openhours
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-348.png
-    name: Screenshot-348.png
+image: /assets/images/blog/Screenshot-348.png
+image_name: Screenshot-348.png
 title: HiKey960 takes over 96Boards and OpenHours!
 wordpress_id: 20337
 categories:

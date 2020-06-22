@@ -5,10 +5,8 @@ date: 2016-07-06 12:41:02+00:00
 layout: post
 link: https://www.96boards.org/blog/reference-software-platform-16-06-release/
 slug: reference-software-platform-16-06-release
-image:
-    featured: true
-    path: /assets/images/blog/youtube-banner.jpg
-    name: youtube-banner.jpg
+image: /assets/images/blog/youtube-banner.jpg
+image_name: youtube-banner.jpg
 title: Reference Software Platform 16.06 Release!
 wordpress_id: 15630
 categories:

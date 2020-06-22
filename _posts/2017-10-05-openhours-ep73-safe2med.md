@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 73 Recap - Safe2Med
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -71,7 +69,7 @@ Saúde Certa(Safe2Med) is a project that aims to minimize the error in the admin
 Robert Wolff - RW
 Hello Ilo!
 I can heary ou
-I can hear you 
+I can hear you
 Good to see you, my friend!
 
 Ilo Rivero - IR
@@ -82,7 +80,7 @@ Great, I am excited. I useually do not turn my camera an mic on until a couple m
 Ilo Rivero - IR
 Glad to be here!
 Ok!
-Video and audio are coming in clear though, so that is good. Feel free to keep testing. 
+Video and audio are coming in clear though, so that is good. Feel free to keep testing.
 
 Ilo Rivero - IR
 Thanks!

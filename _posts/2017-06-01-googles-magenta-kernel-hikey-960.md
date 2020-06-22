@@ -7,10 +7,8 @@ link: https://www.96boards.org/blog/googles-magenta-kernel-hikey-960/
 slug: googles-magenta-kernel-hikey-960
 title: Google’s Magenta Kernel On The Hikey 960
 wordpress_id: 20437
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-360.png
-    name: Screenshot-360.png
+image: /assets/images/blog/Screenshot-360.png
+image_name: Screenshot-360.png
 categories:
 - blog
 tags:

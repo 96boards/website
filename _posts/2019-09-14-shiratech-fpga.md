@@ -1,11 +1,9 @@
 ---
-title: Getting Started Resource - Shiratech FFPGA Mezzanine  
+title: Getting Started Resource - Shiratech FFPGA Mezzanine
 author: Sahaj Sarup
 date: 2019-09-14 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/fpga-mezz.jpg
-    name: fpga-mezz.jpg
+image: /assets/images/blog/fpga-mezz.jpg
+image_name: fpga-mezz.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
@@ -82,4 +80,3 @@ This library was specifically designed to make it easy to port over arduino code
 
 - [Getting Started with FPGA Programming](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/fpga-getting-started.md.html)
 - Incase you want to revert back to Factory Firmware: [Restore Factory Firmware](https://www.96boards.org/documentation/mezzanine/shiratech-fpga/guides/restore-factory-firmware.md.html)
-

@@ -4,10 +4,8 @@ comments: true
 date: 2016-08-10 13:40:37+00:00
 layout: post
 slug: whywait-invent-off-episode-1-tortoise-hare
-image:
-    featured: true
-    path: /assets/images/blog/qualcomm-invent-off-dragonboard410x.jpg
-    name: qualcomm-invent-off-dragonboard410x.jpg
+image: /assets/images/blog/qualcomm-invent-off-dragonboard410x.jpg
+image_name: qualcomm-invent-off-dragonboard410x.jpg
 title: 'The #WhyWait Invent-Off - Episode 1 - The Tortoise & The Hare'
 wordpress_id: 16311
 categories:

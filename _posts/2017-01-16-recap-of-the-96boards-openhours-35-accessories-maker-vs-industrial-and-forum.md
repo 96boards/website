@@ -3,10 +3,8 @@ author: linaro
 comments: true
 date: 2017-01-16 21:36:59+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-02.png
-    name: OpenHours-02.png
+image: /assets/images/blog/OpenHours-02.png
+image_name: OpenHours-02.png
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-35-accessories-maker-vs-industrial-and-forum/
 slug: recap-of-the-96boards-openhours-35-accessories-maker-vs-industrial-and-forum
 title: Recap of the 96Boards OpenHours 35 - Accessories, Maker VS. Industrial and

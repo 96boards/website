@@ -1,11 +1,9 @@
 ---
-title: MAX7219 LED Matrix RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 1 
+title: MAX7219 LED Matrix RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 1
 author: Sahaj Sarup
 date: 2019-05-06 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/max7219.jpg
-    name: max7219.jpg
+image: /assets/images/blog/max7219.jpg
+image_name: max7219.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---

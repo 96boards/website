@@ -2,11 +2,9 @@
 title: 1v8 to 5v Level Shifting Diaries - Part 1 - Open Drain ICs
 author: Sahaj Sarup
 date: 2018-02-18 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/level-shift-1.png
-    name: level-shift-1.png
-    thumb: level-shift-1-thumb.png
+image: /assets/images/blog/level-shift-1.png
+image_name: level-shift-1.png
+image_thumb: level-shift-1-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux, Audio Mezzanine
 ---

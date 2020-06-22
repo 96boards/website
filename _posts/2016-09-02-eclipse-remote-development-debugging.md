@@ -5,10 +5,8 @@ date: 2016-09-02 22:34:57+00:00
 layout: post
 link: https://www.96boards.org/blog/eclipse-remote-development-debugging/
 slug: eclipse-remote-development-debugging
-image:
-    featured: true
-    path: /assets/images/blog/20_RemoteDebugging-1.png
-    name: 20_RemoteDebugging-1.png
+image: /assets/images/blog/20_RemoteDebugging-1.png
+image_name: 20_RemoteDebugging-1.png
 title: Eclipse remote development and debugging
 wordpress_id: 16973
 categories:

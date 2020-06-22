@@ -2,10 +2,8 @@
 title: Speech Recognition and Combining Voice with Vision | OpenCV on RB3 Pt. 5 | Qualcomm RB3 Robotic Arm Project
 author: Sahaj Sarup
 date: 2019-08-15 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rb3-arm.jpg
-    name: rb3-arm.jpg
+image: /assets/images/blog/rb3-arm.jpg
+image_name: rb3-arm.jpg
 categories: blog
 series: Qualcomm RB3 Robotic Arm Project
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
@@ -38,12 +36,12 @@ We start with importing the following libraries:
 ```python
 import json
 from pymemcache.client import base
-import speech_recognition as sr 
-from difflib import get_close_matches 
+import speech_recognition as sr
+from difflib import get_close_matches
 ```
 
 - `json` Used to parse data in json format. This helps us to share lists over memcached since memcached can only handle string values.
-- `pymemcached` is a data caching and sharing frontend for python using memcached. 
+- `pymemcached` is a data caching and sharing frontend for python using memcached.
 - `speech_recognition` is a collection of speech recognition libraries under one roof.
 - `difflib` is a library dedicated to showing the diff of two or more strings but can do other things as well like showing closest match from a list. We use for basic language processing.
 
@@ -64,13 +62,13 @@ shape_data = json.loads(shape_data_str)
 print(shape_data)
 
 sample_rate = 48000
- 
+
 chunk_size = 2048
 
-#Initialize the recognizer 
-r = sr.Recognizer() 
+#Initialize the recognizer
+r = sr.Recognizer()
 
-mic = sr.Microphone() 
+mic = sr.Microphone()
 
 color_pattern = ['blue', 'green', 'yellow', 'red']
 action_pattern = ['pickup', 'drop', 'dance']
@@ -93,7 +91,7 @@ obj_pattern = ['cube', 'square', 'cuboid', 'rectangle', 'triangle', 'prism', 'co
 ```python
 def closeMatches(patterns, word):
 	data = word.split()
-	for temp in data: 
+	for temp in data:
 		match_list = get_close_matches(temp, patterns)
 		if len(match_list) != 0:
 			return match_list[0]
@@ -108,26 +106,26 @@ This is a basic language processor that diffs voice input against the various li
 
 ```python
 def detect():
-	with mic as source: 
-		#wait for a second to let the recognizer adjust the 
-		#energy threshold based on the surrounding noise level 
-		r.adjust_for_ambient_noise(source) 
+	with mic as source:
+		#wait for a second to let the recognizer adjust the
+		#energy threshold based on the surrounding noise level
+		r.adjust_for_ambient_noise(source)
 		print("Say Something")
-		#listens for the user's input 
-		audio = r.listen(source) 
-			
-		try: 
-			text = r.recognize_google(audio) 
+		#listens for the user's input
+		audio = r.listen(source)
+
+		try:
+			text = r.recognize_google(audio)
 			print("you said: " + text)
-			return text 
-		
-		#error occurs when google could not understand what was said 
-		
-		except sr.UnknownValueError: 
+			return text
+
+		#error occurs when google could not understand what was said
+
+		except sr.UnknownValueError:
 			print("Google Speech Recognition could not understand audio")
-			return 1 
-		
-		except sr.RequestError as e: 
+			return 1
+
+		except sr.RequestError as e:
 			print("Could not request results from Google Speech Recognition service; {0}".format(e))
 			return -1
 ```

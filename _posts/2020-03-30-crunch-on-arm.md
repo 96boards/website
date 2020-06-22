@@ -2,17 +2,15 @@
 title: "Protein Folding on Arm Devices | Helping with COVID-19 Research"
 author: Sahaj Sarup
 date: 2020-03-29 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/fold.png
-    name: fold.png
+image: /assets/images/blog/fold.png
+image_name: fold.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, protein folding, aerocore2
 ---
 
 For the last couple of weeks I have been spending my spare cycles, along with a few other friends form the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic.
 
-And I'm happy to announce that [Rosetta@home](https://boinc.bakerlab.org/) has officially announced the availability of Linux-ARM support, you can read more about it here: [https://boinc.bakerlab.org/rosetta/forum_thread.php?id=13702#93153](https://boinc.bakerlab.org/rosetta/forum_thread.php?id=13702#93153) 
+And I'm happy to announce that [Rosetta@home](https://boinc.bakerlab.org/) has officially announced the availability of Linux-ARM support, you can read more about it here: [https://boinc.bakerlab.org/rosetta/forum_thread.php?id=13702#93153](https://boinc.bakerlab.org/rosetta/forum_thread.php?id=13702#93153)
 
 # Protein folding and Its relation to curing COVID-19
 
@@ -32,7 +30,7 @@ The study is usually carried out on very, very, very small timescales to capture
 
 # Arm and Rosetta@Home
 
-About a week ago, [David Tischler](https://community.arm.com/members/david-tischler) and [Rex St. John](https://www.rexstjohn.com/) contacted me to join what later became the "Rosetta on Arm Task Force" and help in porting and testing Rosetta on the Arm architecture. I was also joined by members of the [The Baker Lab, University of Washington](https://www.bakerlab.org/) ie the creators and maintainers of the Rosetta@Home Project, and developers from [Neocortix](https://www.neocortix.com/). 
+About a week ago, [David Tischler](https://community.arm.com/members/david-tischler) and [Rex St. John](https://www.rexstjohn.com/) contacted me to join what later became the "Rosetta on Arm Task Force" and help in porting and testing Rosetta on the Arm architecture. I was also joined by members of the [The Baker Lab, University of Washington](https://www.bakerlab.org/) ie the creators and maintainers of the Rosetta@Home Project, and developers from [Neocortix](https://www.neocortix.com/).
 
 The Idea was to get developers working in the arm ecosystem, who like many of us have mounds of arm development hardware sitting in their closet, to join Rosetta and donate spare CPU cycles to protein folding efforts. Now more than ever.
 

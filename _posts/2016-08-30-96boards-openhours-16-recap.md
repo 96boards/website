@@ -5,10 +5,8 @@ date: 2016-08-30 01:36:35+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-16-recap/
 slug: 96boards-openhours-16-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 16
 wordpress_id: 16856
 Boards:

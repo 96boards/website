@@ -8,10 +8,8 @@ link: https://www.96boards.org/blog/modding-arrows-audio-mezzanine-96boards/
 slug: modding-arrows-audio-mezzanine-96boards
 title: Modding Arrow’s Audio Mezzanine for 96Boards
 wordpress_id: 20519
-image:
-    featured: true
-    path: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
-    name: modding-arrow-audio-mezz-img-1.jpg
+image: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
+image_name: modding-arrow-audio-mezz-img-1.jpg
 categories:
 - blog
 tags:
@@ -110,8 +108,8 @@ Before we get started, I would recommend that the person performing this task to
 
 {% include media.html media_url="https://www.youtube.com/embed/SGHHLpLSwko" %}
 
-1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.  
-    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.  
+1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.
+    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.
     ![Modding Arrow Audio Mezz Image 6]({% asset_path "modding-arrows-img-6.png" %}){:class="img-responsive lazyload"}
 2.  Now we can apply ample amount of Flux paste onto the solder pads.
 3.  Following that, sandwich the Solder Wick between the pads on the pcb and you soldering iron and hold the iron in place for a few seconds. This should suck all the excess solder onto the wick and the metal pieces will stick to it as well
@@ -121,7 +119,7 @@ Before we get started, I would recommend that the person performing this task to
 
 # **Conclusion**
 
-Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.  
+Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.
 But, do remember that these board are in a limited supply from arrow, around 750 pcs. In stock at the time of writing this blog, and only a few were and ever will be made.
 
 ![Modding Arrow Audio Mezz Image 7]({% asset_path "modding-arrows-img-7.jpg" %}){:class="img-responsive lazyload"}

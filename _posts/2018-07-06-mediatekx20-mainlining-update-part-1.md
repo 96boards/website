@@ -2,11 +2,9 @@
 title: Mediatek X20 Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2018-07-06 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/Helio-X20-front.png
-    name: Helio-X20-front.png
-    thumb: Helio-X20-front.png
+image: /assets/images/blog/Helio-X20-front.png
+image_name: Helio-X20-front.png
+image_thumb: Helio-X20-front.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Mediatek X20, MediaTek, Helio X20, SoC, Mainlining, Devicetree, DecaCore
 ---

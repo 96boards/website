@@ -6,10 +6,8 @@ layout: post
 link: https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/
 slug: diy-drone-featuring-gumstix-96boards-take-flight-openhours
 title: DIY Drone featuring Gumstix! 96Boards take flight on OpenHours
-image:
-    featured: true
-    path: /assets/images/blog/drone_knoll.png
-    name: drone_knoll.png
+image: /assets/images/blog/drone_knoll.png
+image_name: drone_knoll.png
 wordpress_id: 18309
 categories:
 - blog

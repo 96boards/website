@@ -2,11 +2,9 @@
 title: Carbon Rover Part 3
 author: Sahaj Sarup
 date: 2018-03-15 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/carbon-rover.jpg
-    name: iew-2018.jpg
-    thumb: carbon-rover-thumb.jpg
+image: /assets/images/carbon-rover.jpg
+image_name: iew-2018.jpg
+image_thumb: carbon-rover-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, Automotive, Conference, ElectronicsForU, EFY, Machine Learning
 ---

@@ -5,10 +5,8 @@ date: 2017-05-17 15:23:02+00:00
 layout: post
 link: https://www.96boards.org/blog/demo-96boards-openhours-hikey960-launch/
 slug: demo-96boards-openhours-hikey960-launch
-image:
-    featured: true
-    path: /assets/images/blog/image006.png
-    name: image006.png
+image: /assets/images/blog/image006.png
+image_name: image006.png
 title: Demo during 96Boards OpenHours, HiKey960 launch
 wordpress_id: 20375
 categories:

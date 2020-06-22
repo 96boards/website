@@ -4,10 +4,8 @@ comments: true
 date: 2017-10-27 00:00:00+00:00
 layout: post
 slug: neonkey-aosp
-image:
-    featured: true
-    path: /assets/images/blog/neonkey.jpg
-    name: neonkey.jpg
+image: /assets/images/blog/neonkey.jpg
+image_name: neonkey.jpg
 title: Implementing Neonkey Sensor Mezzanine on AOSP
 categories:
 - blog

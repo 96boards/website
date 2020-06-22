@@ -2,11 +2,9 @@
 title: Media Server Revisited
 author: Sahaj Sarup
 date: 2017-12-19 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/mediaserver2.jpg
-    name: mediaserver2.jpg
-    thumb: media-server-thumb.jpg
+image: /assets/images/blog/mediaserver2.jpg
+image_name: mediaserver2.jpg
+image_thumb: media-server-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech
 ---

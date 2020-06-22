@@ -2,11 +2,9 @@
 title: Programming The SeeedStudio Sensors Mezzanine using a PC
 author: Sahaj Sarup
 date: 2018-08-28 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/sensors-pc.jpg
-    name: sensors-pc.jpg
-    thumb: sensors-pc-thumb.jpg
+image: /assets/images/blog/sensors-pc.jpg
+image_name: sensors-pc.jpg
+image_thumb: sensors-pc-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Devconf, Enterprise Edition, IoT, product, single board computer, linaro, linux, open source, openhours, software, embedded, mezzanine, community, Ardiono, IDE, ISP, ISCP
 ---

@@ -2,10 +2,8 @@
 title: Automotive Grade Linux on Dragonboard410c - Part 1
 author: Manivannan Sadhasivam
 date: 2017-11-06 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/agl.jpg
-    name: agl.jpg
+image: /assets/images/blog/agl.jpg
+image_name: agl.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
 ---

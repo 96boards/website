@@ -2,10 +2,8 @@
 title: "OpenGLES 3 Demo on the Rock960 running Panfrost drivers"
 author: Sahaj Sarup
 date: 2020-05-27 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/kmscube.jpg
-    name: kmscube.jpg
+image: /assets/images/blog/kmscube.jpg
+image_name: kmscube.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, rock960, Linaro, Linux, arm64, panfrost, gpu, open-source, mali
 ---

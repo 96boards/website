@@ -2,11 +2,7 @@
 title: Carbon Rover
 author: Sahaj Sarup
 date: 2018-01-19 01:00:00+00:00
-image:
-    path: /assets/images/blog/carbon-rover.jpg
-    name: carbon-rover.jpg
-    thumb: carbon-rover-thumb.jpg
-    featured: carbon-rover-thumb.jpg
+image: /assets/images/blog/carbon-rover.jpg
 categories: blog
 tags: 96Boards, ARM, cortex-m4, zephyr, IoT Edition, Carbon, Linaro, RTOS, ultrasonic
 ---

@@ -5,10 +5,8 @@ date: 2015-11-09 15:08:06+00:00
 layout: post
 link: https://www.96boards.org/blog/dragonboard-410c-demos/
 slug: dragonboard-410c-demos
-image:
-    featured: true
-    path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
-    name: DragonBoard-UpdatedImages-front.png
+image: /assets/images/blog/DragonBoard-UpdatedImages-front.png
+image_name: DragonBoard-UpdatedImages-front.png
 title: DragonBoard 410c and demos
 wordpress_id: 9137
 Boards:

@@ -8,10 +8,8 @@ link: https://www.96boards.org/blog/d3-designcore-camera-mezzanine-and-openhours
 slug: d3-designcore-camera-mezzanine-and-openhours
 title: D3 DesignCore™ Camera Mezzanine Board on OpenHours
 wordpress_id: 20519
-image:
-    featured: true
-    path: /assets/images/blog/d3-camera-img-1.jpg
-    name: d3-camera-img-1.jpg
+image: /assets/images/blog/d3-camera-img-1.jpg
+image_name: d3-camera-img-1.jpg
 categories:
 - blog
 tags:

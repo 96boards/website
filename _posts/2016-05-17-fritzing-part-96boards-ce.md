@@ -5,10 +5,8 @@ date: 2016-05-17 00:42:41+00:00
 layout: post
 link: https://www.96boards.org/blog/fritzing-part-96boards-ce/
 slug: fritzing-part-96boards-ce
-image:
-    featured: true
-    path: /assets/images/blog/breadboard.png
-    name: breadboard.png
+image: /assets/images/blog/breadboard.png
+image_name: breadboard.png
 title: Fritzing part for 96boards CE
 wordpress_id: 14421
 Boards:
@@ -53,7 +51,7 @@ Sketch example using the part created:
 
 
 Connecting a DS18B20 digital temperature sensor, using a level shifter (compatible with HiKey, Dragonboard410c and Bubblegum-96)
-![Sketch]({% asset_path "fritzing-img-5.png" %}){:class="img-responsive lazyload"}  
+![Sketch]({% asset_path "fritzing-img-5.png" %}){:class="img-responsive lazyload"}
 
 Feel free to get in contact if you got ideas or requests to extend this effort. I also hope to include extra parts covering the other specifications we have (e.g. [Enterprise](https://linaro.co/ee-specification)), including the mezzanine products, but those will have to wait for another cold weekend :-)
 

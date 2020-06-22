@@ -2,11 +2,9 @@
 title: PCI Express On the 96Boards Poplar Enterprise Edition Board
 author: Sahaj Sarup
 date: 2018-02-02 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/poplar-pcie-thumb.jpg
-    name: poplar-pcie.jpg
-    thumb: poplar-pcie-thumb.jpg
+image: /assets/images/poplar-pcie-thumb.jpg
+image_name: poplar-pcie.jpg
+image_thumb: poplar-pcie-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Enterprise Edition, EE, Poplar, pcie, sata, usb
 

@@ -5,10 +5,8 @@ date: 2017-05-30 14:03:55+00:00
 layout: post
 link: https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/
 slug: part-3-home-surveillance-project-96boards
-image:
-    featured: true
-    path: /assets/images/blog/Pic2.jpg
-    name: Pic2.jpg
+image: /assets/images/blog/Pic2.jpg
+image_name: Pic2.jpg
 title: Part 3 - Webcam Tracking using 96Boards Sensor Mezzanine
 wordpress_id: 20430
 categories:

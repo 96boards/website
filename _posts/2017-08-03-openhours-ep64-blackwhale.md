@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 64 Recap - Blackwhale (HIJ) and 96Boards
 # This is the featured background image of the blog which resides under assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit

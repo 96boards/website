@@ -5,10 +5,8 @@ date: 2017-04-26 16:15:14+00:00
 layout: post
 link: https://www.96boards.org/blog/chihuahua-mexico-hacks-96boards/
 slug: chihuahua-mexico-hacks-96boards
-image:
-    featured: true
-    path: /assets/images/blog/SmartCitiesHackathonMEXINVITE.png
-    name: SmartCitiesHackathonMEXINVITE.png
+image: /assets/images/blog/SmartCitiesHackathonMEXINVITE.png
+image_name: SmartCitiesHackathonMEXINVITE.png
 title: Chihuahua, Mexico hacks 96Boards
 wordpress_id: 20180
 categories:

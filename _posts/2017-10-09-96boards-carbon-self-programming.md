@@ -5,10 +5,8 @@ date: 2017-10-09 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-carbon-self-programming/
 slug: 96boards-carbon-self-programming
-image:
-    featured: true
-    path: /assets/images/blog/96boards-carbon-self-programming.jpg
-    name: 96boards-carbon-self-programming.jpg
+image: /assets/images/blog/96boards-carbon-self-programming.jpg
+image_name: 96boards-carbon-self-programming.jpg
 title: Self Programming Using 96Boards Carbon
 categories:
 - blog

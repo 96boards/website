@@ -5,10 +5,8 @@ date: 2015-12-18 15:13:11+00:00
 layout: post
 link: https://www.96boards.org/blog/pin-x-is-y-or-libsoc-patches/
 slug: pin-x-is-y-or-libsoc-patches
-image:
-    featured: true
-    path: /assets/images/blog/pinx-y-libsoc.png
-    name: pinx-y-libsoc.png
+image: /assets/images/blog/pinx-y-libsoc.png
+image_name: pinx-y-libsoc.png
 title: Pin X is Y or libsoc patches
 wordpress_id: 10163
 categories:
@@ -29,7 +27,7 @@ With the new feature enabled, you can now avoid code comments like “_//Pin X i
      GPIO_A = libsoc_board_gpio_id(config, "GPIO_A");
      libsoc_board_free(config);
      }
-     
+
 ```
 
 This snippet might look a little too clever, but it takes advantage of the “constructor” attribute in glibc to do module-type initialization. At program startup this snippet will load the board config, assign GPIO’s based on the defined mapping, and free the board config.

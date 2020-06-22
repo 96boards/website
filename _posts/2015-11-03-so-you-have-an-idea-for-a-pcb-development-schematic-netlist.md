@@ -5,10 +5,8 @@ date: 2015-11-03 20:00:21+00:00
 layout: post
 link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb-development-schematic-netlist/
 slug: so-you-have-an-idea-for-a-pcb-development-schematic-netlist
-image:
-    featured: true
-    path: /assets/images/blog/pcb-idea-image.png
-    name: pcb-idea-image.png
+image: /assets/images/blog/pcb-idea-image.png
+image_name: pcb-idea-image.png
 title: So you have an idea for a PCB? - Development (Schematic)
 wordpress_id: 8946
 categories:

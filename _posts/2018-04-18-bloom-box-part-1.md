@@ -2,11 +2,9 @@
 title: Bloom Box - Part 1
 author: Joy Nwarueze
 date: 2018-04-18 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
-    name: DragonBoard-UpdatedImages-front.png
-    thumb:  self-balancing-bot-thumb.jpg
+image: /assets/images/blog/DragonBoard-UpdatedImages-front.png
+image_name: DragonBoard-UpdatedImages-front.png
+image_thumb:  self-balancing-bot-thumb.jpg
 categories: blog
 tags: Bloom Box, 96boards, arm, ucsd, university of california san diego, sustainability, renewable energy, education, academia, STEM, science, technology, engineering, mathematics, developer, engineer, electrical engineer, electronics
 ---
@@ -46,17 +44,15 @@ Our team is tasked with designing a developer workstation that comes with as man
 incorporate to create a self-sustainable, portable kit to help introduce participants to the world of Open Source, clean/renewable
 energy and technologies and product development. Or in other words, a box that’ll help you build your electronic systems wherever and
 whenever. Except underwater. We are not responsible for whatever happens if you turn the system on underwater. And in space too I
-guess. Actually, scratch that. I would like to know what’ll happen to this kit if it was opened in space. 
+guess. Actually, scratch that. I would like to know what’ll happen to this kit if it was opened in space.
 
 # Why Are We Doing This
 This is for underprivileged youth to foster an interest in engineering circuits and systems. This is for long-time developers who
 want to always be able to construct and test their own designs on-the-go. This is for those that are curious about how much
 information can be found just from their environment. This is for anybody who wants to build their own ideas and tell the world, “I
-made this.” And Team I (better name still pending) has been tasked with making this possible. 
+made this.” And Team I (better name still pending) has been tasked with making this possible.
 
 **Wish Us Luck (and hopefully we won’t break anything important).**
 
 Warmly,
 Joy
-
-

@@ -2,11 +2,9 @@
 title: Part 3 - Patient Monitoring System using 96Boards
 author: Manivannan Sadhasivam
 date: 2018-01-19 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/patient_monitoring_3.jpg
-    name: patient_monitoring.jpg
-    thumb: patient_thumb.jpg
+image: /assets/images/blog/patient_monitoring_3.jpg
+image_name: patient_monitoring.jpg
+image_thumb: patient_thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech
 ---

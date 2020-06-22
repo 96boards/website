@@ -2,10 +2,8 @@
 title: Testing the Arduino IDE v1.8.9 for aarch64 on the DragonBoard 410c
 author: Sahaj Sarup
 date: 2019-03-13 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/arduino.jpg
-    name: arduino.jpg
+image: /assets/images/blog/arduino.jpg
+image_name: arduino.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
@@ -40,4 +38,3 @@ For us it means that we can install the Arduino IDE on Arm64 boards like the Dra
 
 Installation instructions for Arduino IDE can be found online, and remain the same as any other linux distro.
 - [Official Installation Instructions](https://www.arduino.cc/en/guide/linux)
-

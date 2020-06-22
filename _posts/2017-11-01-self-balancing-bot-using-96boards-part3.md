@@ -2,10 +2,8 @@
 title: Self Balancing Bot using 96Boards - Rev 2
 author: Manivannan Sadhasivam
 date: 2017-11-01 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/self_balancing_bot.png
-    name: self_balancing_bot.png
+image: /assets/images/blog/self_balancing_bot.png
+image_name: self_balancing_bot.png
 categories: blog
 tags: 64-bit, aarch64, ARM, ARMv8, B2260, bubblegum-96, Consumer Edition, Consumer IoT, DB410c, dragonboard410c, F-Cue, HiKey, I Squared C, I2C, Linaro, Linux, MediaTek X20, Bot, Self balancing Bot, Robotics, Digital Motion Processor, DMP, MPU6050
 

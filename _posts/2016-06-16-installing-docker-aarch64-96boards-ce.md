@@ -5,10 +5,8 @@ date: 2016-06-16 19:28:03+00:00
 layout: post
 link: https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/
 slug: installing-docker-aarch64-96boards-ce
-image:
-    featured: true
-    path: /assets/images/blog/Docker_410c_projected.jpg
-    name: Docker_410c_projected.jpg
+image: /assets/images/blog/Docker_410c_projected.jpg
+image_name: Docker_410c_projected.jpg
 title: Installing Docker on aarch64 with the Reference Platform Build on a 96Boards
   CE-edition
 wordpress_id: 15213

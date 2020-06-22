@@ -5,10 +5,8 @@ date: 2017-05-23 03:00:48+00:00
 layout: post
 link: https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/
 slug: part-1-home-surveillance-project-96boards
-image:
-    featured: true
-    path: /assets/images/blog/96Boards-Web-Cam.jpg
-    name: 96Boards-Web-Cam.jpg
+image: /assets/images/blog/96Boards-Web-Cam.jpg
+image_name: 96Boards-Web-Cam.jpg
 title: Part 1 - Introduction to ‘Home Surveillance’ using 96Boards
 wordpress_id: 20389
 categories:

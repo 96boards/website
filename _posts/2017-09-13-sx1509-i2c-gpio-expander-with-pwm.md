@@ -4,10 +4,8 @@ comments: true
 date: 2017-09-13 12:00:00+00:00
 layout: post
 title: SX1509 i2c GPIO Expander with 8bit PWM Support
-image:
-    featured: true
-    path: /assets/images/blog/sx1509.jpg
-    name: sx1509.jpg
+image: /assets/images/blog/sx1509.jpg
+image_name: sx1509.jpg
 tags:
 - 64-Bit
 - 96Boards
@@ -56,4 +54,3 @@ So it is very easy to short the 1v8 with the 5v, I did it and my Dragonboard sur
 ### Demo Video:
 
 {% include media.html media_url="https://youtu.be/_RPqBBij43g" %}
-
