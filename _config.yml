@@ -249,3 +249,12 @@ asset_pipeline:
   compress: true
   output_path: assets/js
   gzip: true
+# # Mailchimp settings
+# mailchimp:
+#     enabled: true
+#     id: e3d2abc041
+#     unsubscribe-url: https://96boards.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=e3d2abc041
+# # Footer Newsletter toggle.
+# newsletter:
+#     enabled: true
+#     url: https://96boards.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=e3d2abc041
