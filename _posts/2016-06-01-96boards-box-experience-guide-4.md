@@ -76,9 +76,9 @@ Since each SoC has different GPIO values I had uploaded several of these diagram
 **96Boards**
 {% include image.html path="/assets/images/blog/96Boards_LS_pinout-1.jpg" alt="Lettered" %}
 **HiKey**
-{% include image.html path="/assets/images/blog/HiKey_Debian_pinout.jpg" alt="Debian" %}
+{% include image.html path="/assets/images/products/HiKey_Debian_pinout.jpg" alt="Debian" %}
 **DragonBoard 410c**
-{% include image.html path="/assets/images/blog/DB410c_Debian_pinout.jpg" alt="Debian" %}
+{% include image.html path="/assets/images/content/DB410c_Debian_pinout.jpg" alt="Debian" %}
 
  ([Debian]()  / [Android]() )
 **Bubblegum-96** ([Debian]() )
