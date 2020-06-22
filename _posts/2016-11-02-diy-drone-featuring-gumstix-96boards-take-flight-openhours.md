@@ -254,7 +254,7 @@ With these initial steps complete, it’s time to make a drone.  
 
 You will want your boards securely attached to the frame of your drone.  Unfortunately, MAV frames don’t all come with universal mounting points so some creativity is required to get these boards mounted.  In the following example photos, a small, sturdy cardboard box is zip-tied to the frame and risers are attached, to which the Dragonboard is attached.  
 
-{% include image.html path="/assets/images/blog/diy-drone-img-3.png" alt="box 2" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/diy-drone-img-3.jpg" alt="box 2" class="img-fluid" %}
 
 The box proved to be handy in concealing the excess wiring for the PWMs, power and webcam.
 

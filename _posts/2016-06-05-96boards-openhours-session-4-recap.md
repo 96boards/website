@@ -340,7 +340,7 @@ AT
 
 RW
 
-{% include image.html path="/assets/images/blog/96Boards_LS_pinout.jpg"%}
+{% include image.html path="/assets/images/content/96Boards_LS_pinout.jpg"%}
 
 Pinout
 
