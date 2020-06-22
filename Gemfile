@@ -7,5 +7,5 @@ group :jekyll_plugins do
     gem "nokogiri"
     gem "jekyll-readme-index", "0.3.0"
     gem "jekyll-toc"
-    gem "jekyll-relative-links"
+    gem "jekyll-relative-links", "0.6.1"
 end
