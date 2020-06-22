@@ -74,7 +74,7 @@ Looking at the green columns in the diagram, we see the GPIOs valued from A to L
 Since each SoC has different GPIO values I had uploaded several of these diagrams, one or more for each 96Boards.
 
 **96Boards**
-{% include image.html path="/assets/images/blog/96Boards_LS_pinout.jpg" alt="Lettered" %}
+{% include image.html path="/assets/images/blog/96Boards_LS_pinout-1.jpg" alt="Lettered" %}
 **HiKey**
 {% include image.html path="/assets/images/blog/HiKey_Debian_pinout.jpg" alt="Debian" %}
 **DragonBoard 410c**
