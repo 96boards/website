@@ -2,7 +2,7 @@
 title: Dedicated YouTube Playlists for Boards
 author: Sahaj Sarup
 date: 2018-05-22 01:01:54+00:00
-image: /assets/images/blog/youtube-featured.png
+image: /assets/images/blog/youtube-feature.png
 image_name: youtube-feature.png
 image_thumb:  youtube-thumb.png
 categories: blog
