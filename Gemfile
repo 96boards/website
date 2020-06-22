@@ -5,6 +5,7 @@ gem 'jumbo-jekyll-theme', "6.0.0.5"
 group :jekyll_plugins do
     gem "closure-compiler"
     gem "nokogiri"
+    gem "jekyll-readme-index"
     gem "jekyll-toc"
     gem "jekyll-relative-links"
 end
