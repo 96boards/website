@@ -14,8 +14,8 @@ images:
   - visual1.png
 image:
     path: /assets/images/projects/bengala-iot-thumb.png
-    name: bengala-iot-thumb.png
-    thumb: bengala-iot-thumb.png
+  image_name: bengala-iot-thumb.png
+  image_thumb:  bengala-iot-thumb.png
 categories:
 - Robotics
 ---

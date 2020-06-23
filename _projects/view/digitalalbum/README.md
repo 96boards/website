@@ -9,8 +9,8 @@ images:
   - DigitalAlbum_FrontPage2.png
 image:
     path: /assets/images/projects/digitalalbum-thumb.png
-    name: digitalalbum-thumb.png
-    thumb: digitalalbum-thumb.png
+  image_name: digitalalbum-thumb.png
+  image_thumb:  digitalalbum-thumb.png
 categories:
 - dragonboard410c
 ---

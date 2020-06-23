@@ -8,8 +8,8 @@ images:
 - green-grass-thumb.png
 image:
     path: /assets/images/projects/green-grass-thumb.png
-    name: green-grass-thumb.png
-    thumb: green-grass-thumb.png
+  image_name: green-grass-thumb.png
+  image_thumb:  green-grass-thumb.png
 categories:
 - dragonboard410c
 ---

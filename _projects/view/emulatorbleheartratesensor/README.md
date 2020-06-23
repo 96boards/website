@@ -7,8 +7,8 @@ images:
   - EmulatingBLEHeartRateSensor_FrontPage.png
 image:
     path: /assets/images/projects/ehrs-thumb.png
-    name: ehrs-thumb.png
-    thumb: ehrs-thumb.png
+  image_name: ehrs-thumb.png
+  image_thumb:  ehrs-thumb.png
 categories:
 - dragonboard410c
 ---

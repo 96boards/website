@@ -7,8 +7,8 @@ images:
   - AutoLuminosity_FrontPage.png
 image:
     path: /assets/images/projects/al-thumb.png
-    name: al-thumb.png
-    thumb: al-thumb.png
+  image_name: al-thumb.png
+  image_thumb:  al-thumb.png
 categories:
 - dragonboard410c
 ---

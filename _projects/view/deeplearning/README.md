@@ -6,10 +6,9 @@ description: |-
 images:
   - deeplearn1.jpg
   - deeplearn2.jpg
-image:
-  path: /assets/images/projects/deeplearning-thumb.png
-  name: deeplearning-thumb.png
-  thumb: deeplearning-thumb.png
+image: /assets/images/projects/deeplearning-thumb.png
+image_name: deeplearning-thumb.png
+image_thumb:  deeplearning-thumb.png
 ---
 
 # Deep learning with Snapdragon in Linux Debian

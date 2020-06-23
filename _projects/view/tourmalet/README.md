@@ -7,8 +7,8 @@ images:
   - tourmalet_share_image.png
 image:
     path: /assets/images/projects/tourmalet_share_image.png
-    name: tourmalet_share_image.png
-    thumb: tourmalet_share_image.png
+  image_name: tourmalet_share_image.png
+  image_thumb:  tourmalet_share_image.png
 categories:
 - dragonboard410c
 ---

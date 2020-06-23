@@ -9,8 +9,8 @@ images:
   - BreakerBall_Image2.png
 image:
     path: /assets/images/projects/breakerball-thumb.png
-    name: breakerball-thumb.png
-    thumb: breakerball-thumb.png
+  image_name: breakerball-thumb.png
+  image_thumb:  breakerball-thumb.png
 categories:
 - dragonboard410c
 ---

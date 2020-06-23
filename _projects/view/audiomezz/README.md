@@ -7,8 +7,8 @@ images:
   - AudioMezz_FrontPage.png
 image:
     path: /assets/images/projects/audiomezz-thumb.png
-    name: audiomezz-thumb.png
-    thumb: audiomezz-thumb.png
+  image_name: audiomezz-thumb.png
+  image_thumb:  audiomezz-thumb.png
 categories:
 - dragonboard410c
 ---

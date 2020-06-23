@@ -8,8 +8,8 @@ images:
   - CurrentTracking_FrontPage.png
 image:
     path: /assets/images/projects/currenttracking-thumb.png
-    name: currenttracking-thumb.png
-    thumb: currenttracking-thumb.png
+  image_name: currenttracking-thumb.png
+  image_thumb:  currenttracking-thumb.png
 categories:
 - dragonboard410c
 ---

@@ -7,10 +7,9 @@ description: |-
 images:
   - DLNAServer_FrontPage1.png
   - DLNAServer_FrontPage2.png
-image:
-  path: /assets/images/projects/dlnamediaserver-thumb.png
-  name: dlnamediaserver-thumb.png
-  thumb: dlnamediaserver-thumb.png
+image: /assets/images/projects/dlnamediaserver-thumb.png
+image_name: dlnamediaserver-thumb.png
+image_thumb:  dlnamediaserver-thumb.png
 ---
 # DLNA Media Server / Client Solutions
 

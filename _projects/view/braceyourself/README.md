@@ -7,10 +7,9 @@ images:
   - BraceYourself_FrontPage.png
   - BraceYourself_Video_Demo.png
   - BraceYourself_Video_Presentation.png
-image:
-  path: /assets/images/projects/braceyourself-thumb.png
-  name: braceyourself-thumb.png
-  thumb: braceyourself-thumb.png
+image: /assets/images/projects/braceyourself-thumb.png
+image_name: braceyourself-thumb.png
+image_thumb:  braceyourself-thumb.png
 categories:
 - dragonboard410c
 - IoT
@@ -30,10 +29,11 @@ This guide will walk you through the steps required to build an "S.O.S.“, a br
 ## Videos
 
 ### Brace Yourself Video Submission
-{% include image.html name="BraceYourself_Video_Demo.png" alt="Brace Yourself Video Submission" url="https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+
+{% include image.html path="_projects/view/braceyourself/images/BraceYourself_Video_Demo.png" alt="Brace Yourself Video Submission" class="img-fluid" url="https://youtu.be/DKViSRuLNhI?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ### Brace Yourself Presentation and Demo
-{% include image.html name="BraceYourself_Video_Presentation.png" alt="Brace Yourself Presentation and Demo" url="https://youtu.be/9fxtDixKr-8?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/braceyourself/images/BraceYourself_Video_Presentation.png" alt="Brace Yourself Presentation and Demo" class="img-fluid" url="https://youtu.be/9fxtDixKr-8?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
 
 ## Resources
 

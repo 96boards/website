@@ -9,8 +9,8 @@ description: |-
     you'll learn about ROS, snaps, and Ubuntu Core.
 image:
     path: /assets/images/projects/ros-thumb.png
-    name: ros-thumb.png
-    thumb: ros-thumb.png
+  image_name: ros-thumb.png
+  image_thumb:  ros-thumb.png
 ---
 # ROS prototype to production on Ubuntu Core
 
