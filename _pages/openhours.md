@@ -24,12 +24,6 @@ jumbotron:
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTl0cDh0N2p2ZnMwb2U3aThocG9xbGxubmhfMjAxOTEyMDVUMTYwMDAwWiBzYWhhai5zYXJ1cEBsaW5hcm8ub3Jn&tmsrc=sahaj.sarup%40linaro.org&scp=ALL">Add to you Calendar</a>
-
-**Walkthrough of developing Linux app using Vitis for the Ultra96**
-
-This week we'll take a look at setting up and developing a simple Hello World app using Vitis and running that under PetaLinux dstribution running on the Ultra96 devboard.
-
-Hope to see you all soon!
  
 ### What is 96Boards OpenHours?
 
@@ -42,16 +36,6 @@ These sessions will be held on Zoom and recorded so they can be made available a
 We look forward to talking with you.
 
 The 96Boards Team
-
-### New Board Launch Event
-
-[View on YouTube](https://youtu.be/-6AVlw4VwRQ)
-
-{% include media.html media_url="https://www.youtube.com/embed/-6AVlw4VwRQ" %}
-
-</div>
-<div class="col-md-6">
-<div class="openhours-panel" markdown="1" id="openhours-panel">
 
 ### When
 

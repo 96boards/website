@@ -7,6 +7,8 @@ shortname: tb-96ai
 dateAdded: 2019-06-13 09:00:00+00:00
 permalink: /product/tb-96ai/
 ai_board: true
+ai_board_desc: >
+    The TB-96AI is a low-power, high-powered core board for the AIoT field. It is equipped with a powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference models such as caffe and tensor flow.
 description: |-
     TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi
     Technology Co., Ltd. can form a complete development board or evaluation board; and the board
