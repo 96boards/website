@@ -4,7 +4,7 @@ layout: ai-product
 permalink: /product/thor96/ai/
 shortname: thor96
 description: |-
-    The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth ® wireless technology and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
+    The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth® wireless technology and a wide range of I/O. The iMX 8M SoC is a feature-rich system containing a quad-core, 64-bit Arm A53 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 60 fps. These features alone make the Thor96 board highly capable in a wide range of applications involving video and high processor requirements, including robotics, local AI systems, monitoring and drones.
 keywords: |-
     imx8M, etnaviv, nxp, vulkan, gpu, zigbee, iot, multimedia
     
@@ -31,7 +31,7 @@ verticals:
           The Thor96 supports low latency digital audio to multiple microphone arrays and speakers using A2B® technology by Analog Devices. Running both power and multi-channel digital audio over a single unshielded twisted pair of cables reduces weight, cost and complexity while enabling advanced voice recognition and active noise cancelation applications.
     - title: Smart Cities
       description: >-
-          While Wi-Fi and Ethernet are now commonplace in single-board computers, the Thor96 takes the lead with the Cypress’ WICED Wi-Fi + Bluetooth combos solution which integrates IEEE 802.11a/b/g/n/ac WLAN and Bluetooth in a single-chip solution to enable small-form-factor IoT designs, 1,000-Mbps Ethernet support, CAN bus, Zigbee, Thread, and a debug UART port. Along with the wide range of communication ports.
+          While Wi-Fi and Ethernet are now commonplace in single-board computers, the Thor96 takes the lead with the Cypress’ WICED Wi-Fi + Bluetooth® combos solution which integrates IEEE 802.11a/b/g/n/ac WLAN and Bluetooth® in a single-chip solution to enable small-form-factor IoT designs, 1,000-Mbps Ethernet support, CAN bus, Zigbee, Thread, and a debug UART port. Along with the wide range of communication ports.
     - title: Robotics
       description: >-
           The iMX 8M SoC integrates a secondary generic Arm Cortex-M4 that can run firmware when in low-power mode as well as for real-time processing of I/O. Unlike other competitor single-board computers, the Thor96 can process I/O at a superior speed without affecting normal operation or performance.

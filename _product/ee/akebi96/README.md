@@ -67,7 +67,7 @@ attributes:
       96Boards EE Compliant: <br> 40-Pin Low Speed Header
   - name: "LED"
     value: >-
-      4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay
+      4x green user controlled LEDs <br> 1x blue Bluetooth® enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay
   - name: "Buttons"
     value: >-
       Power and Reset
