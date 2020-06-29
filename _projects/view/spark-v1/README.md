@@ -5,6 +5,7 @@ description: |-
     This mezzanine board enables Ultra96 to be used as 1U universal networking device router/switch/tester with 6x SFP+ interfaces
 images:
   - Spark_v1_FrontPage.png
+  - Spark_v1_PCB.png
 image:
     path: /assets/images/projects/spark-v1-thumb.png
     name: spark-v1-thumb.png
