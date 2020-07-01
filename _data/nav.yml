@@ -45,6 +45,16 @@ pages:
                 url: /products/se/carrier-boards/
               - text: Modules
                 url: /products/se/modules/
+          - text: Auto Edition (AE)
+            options:
+              - text: All
+                url: /products/ae/
+              - text: PCU
+                url: /products/ae/pcu/
+              - text: CCU
+                url: /products/ae/ccu/
+              - text: Drone
+                url: /products/ae/drone/
           - text: Mezzanine Products
             url: /products/mezzanine/
           - text: Archived 96Boards

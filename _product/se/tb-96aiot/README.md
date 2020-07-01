@@ -6,6 +6,8 @@ product: true
 archived: false
 shortname: tb-96aiot
 ai_board: true
+ai_board_desc: >
+    The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference models such as caffe and tensor flow.
 dateAdded: 2019-06-13 09:00:00+00:00
 description: |-
     The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a
