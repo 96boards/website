@@ -10,9 +10,9 @@ image: /assets/images/content/arrow-dragonboard410c-partnership-brazil-bg.jpg
 ## Dragonboard410c Partnership Brazil
 
 <div class="center-block" markdown="1">
-{% include image.html name="BrazilPartnershipGoImg1.jpg" alt="Dragonboard410c Partnership Brazil Image 1"%}
+{% include image.html path="/assets/images/content/BrazilPartnershipGoImg1.jpg" alt="Dragonboard410c Partnership Brazil Image 1"  class="img-fluid"%}
 
-{% include image.html name="BrazilPartnershipGoImg2.jpg" alt="Dragonboard410c Partnership Brazil Image 2"%}
+{% include image.html path="/assets/images/content/BrazilPartnershipGoImg2.jpg" alt="Dragonboard410c Partnership Brazil Image 2" class="img-fluid"%}
 
 <a href="http://link.linaro.org/openhoursjoin" class="btn btn-primary">Click Here to Join Partnership Open Forum</a>
 </div>
@@ -35,11 +35,11 @@ Every Thursday at 5:30pm UTC – [ADD TO CALENDAR](https://calendar.google.com/c
 
 ### How to Join
 
-**To join the Meeting:**  
+**To join the Meeting:**
 [http://link.linaro.org/openhoursjoin](http://link.linaro.org/openhoursjoin)
 
-**To join via phone :**  
-1\. Dial: +1.408.740.7256 or 943216362  
+**To join via phone :**
+1\. Dial: +1.408.740.7256 or 943216362
 2\. Enter the meeting ID: 943216362
 
 ([More numbers](http://bluejeans.com/numbers?ll=en) +1.888.240.2560 or +1.408.317.9253)
@@ -119,12 +119,12 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 *   [Coursera training](https://www.coursera.org/specializations/internet-of-things)
 
 
-{% include image.html name="BrazilPartnershipGoImg4.jpg" alt="Dragonboard410c Partnership Brazil Image 4"%}
+{% include image.html path="/assets/images/content/BrazilPartnershipGoImg4.jpg" alt="Dragonboard410c Partnership Brazil Image 4" class="img-fluid"%}
 
 </div>
 
 <div class="col-md-3" markdown="1">
-{% include image.html name="BrazilPartnershipGoImg3.jpg" alt="Dragonboard410c Partnership Brazil Image 3"%}
+{% include image.html path="/assets/images/content/BrazilPartnershipGoImg3.jpg" alt="Dragonboard410c Partnership Brazil Image 3" class="img-fluid"%}
 
 {% include media.html media_url="https://www.youtube.com/embed/kIZd8CDgsWE?feature=oembed" %}
 

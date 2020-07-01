@@ -9,9 +9,7 @@ shortname: secure96
 dateAdded: 2017-11-28 09:00:00+00:00
 description: |-
     This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets.
-image:
-    path: /assets/images/products/secure96-social-media.jpg
-    name: secure96-social-media.jpg
+image: /assets/images/products/secure96-social-media.jpg
 tab_menu:
   - tab_title: Secure96
     tab_link: /product/secure96/

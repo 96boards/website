@@ -7,10 +7,9 @@ images:
 - alexalifxbulb-thumb.png
 categories:
 - dragonboard410c
-image:
-    path: /assets/images/projects/alexalifxbulb-thumb.png
-  image_name: alexalifxbulb-thumb.png
-  image_thumb:  alexalifxbulb-thumb.png
+image: /assets/images/projects/alexalifxbulb-thumb.png
+image_name: alexalifxbulb-thumb.png
+image_thumb: alexalifxbulb-thumb.png
 ---
 # Integrated Alexa and LIFX Bulb
 

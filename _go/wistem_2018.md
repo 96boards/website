@@ -9,7 +9,7 @@ image: /assets/images/content/wistem-bg.png
 ---
 # May is the month for Women in STEM!
 
-{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
+{% include image.html path="/assets/images/content/wistem-banner-2.jpg" alt="Women In STEM Banner" class="img-fluid"%}
 
 Get ready for an A-May-zing month of Women in STEM! If you are here to read more about the initiative, please continue! You can also skip straight to taking our written interview by scrolling down or [clicking here](https://goo.gl/forms/ZBFy8ldtXtJ7kHHx1)
 

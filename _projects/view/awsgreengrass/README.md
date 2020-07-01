@@ -6,10 +6,9 @@ description: |-
 permalink: "/projects/AWSGreengrass/"
 images:
 - green-grass-thumb.png
-image:
-    path: /assets/images/projects/green-grass-thumb.png
-  image_name: green-grass-thumb.png
-  image_thumb:  green-grass-thumb.png
+image: /assets/images/projects/green-grass-thumb.png
+image_name: green-grass-thumb.png
+image_thumb: green-grass-thumb.png
 categories:
 - dragonboard410c
 ---

@@ -6,10 +6,9 @@ description: |-
     Do you want to know if a device went haywire or working just fine? In this project, a simple AI system is used to show that with current metering, you can find it, and be informed when something goes wrong.
 images:
   - CurrentTracking_FrontPage.png
-image:
-    path: /assets/images/projects/currenttracking-thumb.png
-  image_name: currenttracking-thumb.png
-  image_thumb:  currenttracking-thumb.png
+image: /assets/images/projects/currenttracking-thumb.png
+image_name: currenttracking-thumb.png
+image_thumb: currenttracking-thumb.png
 categories:
 - dragonboard410c
 ---

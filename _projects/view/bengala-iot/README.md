@@ -12,10 +12,9 @@ images:
   - schematics.png
   - team.png
   - visual1.png
-image:
-    path: /assets/images/projects/bengala-iot-thumb.png
-  image_name: bengala-iot-thumb.png
-  image_thumb:  bengala-iot-thumb.png
+image: /assets/images/projects/bengala-iot-thumb.png
+image_name: bengala-iot-thumb.png
+image_thumb: bengala-iot-thumb.png
 categories:
 - Robotics
 ---

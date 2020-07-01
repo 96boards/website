@@ -15,7 +15,7 @@ image: /assets/images/content/wistem-bg.png
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2182683" frameborder="0"></iframe><br />
 <a href="https://www.96boards.org/go/wistem-2018/" class="btn blog-read-more-btn center-block">Go to WISTEM 2018!</a>
 
-{% include image.html name="wistem-banner-2.jpg" alt="Women In STEM Banner"%}
+{% include image.html path="/assets/images/content/wistem-banner-2.jpg" alt="Women In STEM Banner" class="img-fluid"%}
 
 # Get featured! Please take our Written Interview
 
