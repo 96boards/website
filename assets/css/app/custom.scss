@@ -307,7 +307,7 @@
 // .jumbotron.contact {
 //   margin-bottom: 0;
 //   margin-top: 0;
-//   background-color: $brand-primary !important;
+//   background-color: $primary !important;
 //   background: none;
 // }
 // .container .jumbotron,
@@ -331,13 +331,13 @@
 //   padding: 6px;
 // }
 // .blog-read-more-btn:hover {
-//   background-color: $brand-primary;
+//   background-color: $primary;
 //   color: white;
 //   transition: all 1s ease;
 // }
 // .blog-read-more-btn:active,
 // .blog-read-more-btn:focus {
-//   background-color: $brand-primary;
+//   background-color: $primary;
 //   color: white;
 //   transition: all 1s ease;
 // }
@@ -377,7 +377,7 @@
 // }
 // //Blockquotes
 // blockquote {
-//   border-left: 5px solid $brand-primary;
+//   border-left: 5px solid $primary;
 // }
 // .embed-responsive.embed-responsive-16by9 {
 //   margin-bottom: 10px;
@@ -424,7 +424,7 @@
 // // CSS for the email button.
 // #wrapper .email {
 //   height: 50px;
-//   background-color: $brand-primary;
+//   background-color: $primary;
 //   width: 200px;
 //   line-height: 30px;
 //   text-align: center;
@@ -616,7 +616,7 @@
 //   #jumbotron {
 //     .big-title {
 //       font-weight: 100 !important;
-//       border: 5px dotted $brand-primary;
+//       border: 5px dotted $primary;
 //       border-radius: 10px;
 //       max-width: 1000px;
 //       padding: 20px;
@@ -644,7 +644,7 @@
 //             > a {
 //               color: #000;
 //               letter-spacing: 0;
-//               background-color: $brand-primary;
+//               background-color: $primary;
 //               color: white;
 //               font-size: 18px;
 //               transition: all 100ms ease-in-out;
@@ -770,7 +770,7 @@
 //       }
 //       h3 {
 //         text-align: left;
-//         color: $brand-primary;
+//         color: $primary;
 //         margin-top: 0px;
 //       }
 //       @media (max-width: $screen-sm-min) {

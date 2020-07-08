@@ -5,7 +5,7 @@ $color_4: #adadad;
 $color_5: #19947b;
 $color_6: #8c8c8c;
 $background_color_1: rgba(0, 0, 0, 0.8);
-$background_color_2: $brand-primary;
+$background_color_2: $primary;
 $background_color_3: #f8f8f8;
 $background_color_4: white;
 $background_color_5: #d0ece7;
@@ -364,7 +364,7 @@ img.filter-thumbnail {
 }
 // AI Layout
 .call-to-action{
-    background-color: $brand-primary;
+    background-color: $primary;
     padding: 40px 0;
     font-size: 34px;
     color: white;
@@ -395,7 +395,7 @@ a.btn.btn-buy:hover {
     color: white !important;
 }
 .row.ai-footer {
-    background-color: $brand-primary;
+    background-color: $primary;
 }
 #wrapper .ai-footer h3 {
     color: white;
@@ -423,7 +423,7 @@ ul.dropdown-menu.buy-dropup-menu li:last-child a {
     color: black;
 }
 #wrapper .vertical-block ul a li {
-    color: $brand-primary;
+    color: $primary;
 }
 
 .checkbox {
