@@ -6,7 +6,6 @@ description: |-
 permalink: "/openhours/"
 layout: jumbotron
 css-package: openhours
-js-package: openhours
 jumbotron:
     darken: true
     carousel-images:

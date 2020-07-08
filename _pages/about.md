@@ -5,12 +5,9 @@ description: |-
 permalink: "/about/"
 status: active
 layout: flow
-js-package: about
-css-package: about
 jumbotron:
-    description: ""
-    darken: true
-    background-image: /assets/images/content/96boards-banner-1.jpg
+    title: About
+    image: /assets/images/content/96boards-banner-1.jpg
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html

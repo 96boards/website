@@ -5,8 +5,6 @@ description: >-
 permalink: "/"
 keywords: Arm, Silicon, AI, Developer Boards, Developers, Makers, SoC, Consumer, IoT, Enterprise
 layout: flow
-css-package: home
-js-package: home
 jumbotron:
   slider:
     - title: Develop & Prototype on the Latest Arm Technology

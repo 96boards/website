@@ -5,7 +5,6 @@ description: |-
 permalink: /membership/
 status: active
 js-package: members
-css-package: members
 layout: flow
 jumbotron:
     darken: true
