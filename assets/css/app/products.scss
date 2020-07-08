@@ -297,7 +297,7 @@ span.buy-price {
     border-color: #c5c5c5;
 }
 
-@media(max-width:$screen-sm-min){
+@include media-breakpoint-only(xs){
     .product-short-description {
         min-height: 0px;
     }
@@ -345,7 +345,7 @@ select.form-control.filter-select {
 img.filter-thumbnail {
 	height: 18px;
 }
-@media (max-width:$screen-sm-min) {
+@include media-breakpoint-only(xs){
 	.product-short-description {
 		min-height: 0px;
 		min-height: 0px;
