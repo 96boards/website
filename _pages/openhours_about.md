@@ -53,7 +53,7 @@ We look forward to talking with you.
 <div class="container">
 <div class="row">
 <div class="col-sm-3">
-{% picture "people/sahaj-small.jpg" alt="Sahaj Profile picture" %}
+{% picture "/assets/images/people/sahaj-small.jpg" alt="Sahaj Profile picture" %}
 <ul class="name-and-title text-center">
 <li>Sahaj Sarup</li>
 <li>OpenHours Host</li>
@@ -85,7 +85,7 @@ Around the same time (age 12) he also started teaching himself how to build webs
 
 <div class="row">
 <div class="col-sm-3">
-{% picture "people/mani-small.jpg" alt="Mani Profile picture" %}
+{% picture "/assets/images/people/mani-small.jpg" alt="Mani Profile picture" %}
 <ul class="name-and-title text-center">
 <li>Manivannan Sadhasivam</li>
 <li>96Boards Specialist</li>
@@ -98,7 +98,7 @@ Mani has a Bachelors degree in Electronics and Communication Engineering from KS
 
 <div class="row">
 <div class="col-sm-3">
-{% picture "people/daniel-small.jpg" alt="Daniel Thompson Profile picture" %}
+{% picture "/assets/images/people/daniel-small.jpg" alt="Daniel Thompson Profile picture" %}
 <ul class="name-and-title text-center">
 <li>Daniel Thompson</li>
 <li>96Boards Specialist and Support</li>
