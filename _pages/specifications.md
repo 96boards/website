@@ -18,7 +18,7 @@ flow:
           feature_block_content:
             position: right
             type: image
-            image_content_path: /assets/images/content/96Consumer.svg
+            image_content_path: /assets/images/content/96Boards-Logo_v-Consumer-200x200.png
             title: Consumer Edition
             text: >
                 The 96Boards Consumer Edition (CE) Platform is intended to support Low cost Single Board Computer use, Open Source community software development, Maker community, Embedded System OEMs requiring low cost off-the-shelf CPU modules and Community engineering activities.
@@ -37,7 +37,7 @@ flow:
           feature_block_content:
             position: left
             type: image
-            image_content_path: /assets/images/content/96Enterprise.svg
+            image_content_path: /assets/images/content/96Boards-Logo_v-Enterprise-200x200.png
             title: Enterprise Edition
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
@@ -56,7 +56,7 @@ flow:
           feature_block_content:
             position: right
             type: image
-            image_content_path: /assets/images/content/96IoT.svg
+            image_content_path: /assets/images/content/96Boards-Logo_v-IoT-200x200.png
             title: IoT Edition
             text: >
                 The Enterprise Edition (EE) targets the networking and server segments.
@@ -75,7 +75,7 @@ flow:
           feature_block_content:
             position: left
             type: image
-            image_content_path: /assets/images/content/96Partner.svg
+            image_content_path: /assets/images/content/96Boards-Logo_v-Partner-200x200.png
             title: Mezzanine Guideline
             text: >
                 The 96Boards mezzanine guideline allows you to expand your **Consumer Edition** or **Enterprise Edition** 96Boards with new interfaces for IoT, industrial control, and other embedded applications. See the mezzanine guidelines for some helpful resources.
@@ -94,7 +94,7 @@ flow:
           feature_block_content:
             position: right
             type: image
-            image_content_path: /assets/images/content/96Boards-Logo-96 SoM.svg
+            image_content_path: /assets/images/content/96Boards-Logo_96SoM.png
             title: SoM Edition
             text: >
                 The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable and cost-effective embedded platforms for building end-products.

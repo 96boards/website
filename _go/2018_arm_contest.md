@@ -5,7 +5,6 @@ description: |-
 permalink: /go/2018-arm-contest/
 layout: jumbotron-container
 css-package: openhours
-js-package: openhours
 image: /assets/images/content/autonomous-robot-challenge.png
 date: 2018-10-30 01:00:00+00:00
 ---
@@ -14,7 +13,7 @@ date: 2018-10-30 01:00:00+00:00
 
 [Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted our participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
 
- Participants will be able to develop and create on the [Ultra96](https://www.96boards.org/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!). 
+ Participants will be able to develop and create on the [Ultra96](https://www.96boards.org/product/ultra96/) by [Avnet](https://www.avnet.com/wps/portal/us/), featuring the [Xilinx](https://www.xilinx.com/) UltraScale+ MPSoC (that's an FPGA dev board with some real power!).
 
 <a href="https://www.hackster.io/contests/arm2018" class="btn blog-read-more-btn center-block">Return to official Hackster.io Contest Page</a>
 <a href="https://www.96boards.org/go/2018-ultra96-contest/" class="btn blog-read-more-btn center-block">Use your Ultra96 in another contest! (Switch to Xilinx / Avnet page)</a>

@@ -4,8 +4,6 @@ description: |-
     96Boards Partner offered services
 permalink: "/services/"
 layout: flow
-css-package: openhours
-js-package: openhours
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html

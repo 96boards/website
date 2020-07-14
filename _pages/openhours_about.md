@@ -67,7 +67,7 @@ Sahaj has a background in Computer Applications engineering and have previously 
 
 <div class="row">
 <div class="col-sm-3">
-{% picture "avatar-placeholder.jpg" alt="Profile picture" %}
+{% picture "/assets/images/avatar-placeholder.jpg" alt="Profile picture" %}
 <ul class="name-and-title text-center">
 <li>Kyle Kirkby</li>
 <li>Web Developer and Backend Support</li>

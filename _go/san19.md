@@ -5,7 +5,6 @@ description: |-
 permalink: /go/san19-community/
 layout: jumbotron-container
 css-package: openhours
-js-package: openhours
 date: 2019-08-29 01:00:00+00:00
 image: /assets/images/content/autonomous-robot-challenge.png
 ---
@@ -26,7 +25,7 @@ After the keynotes and a few sessions, everyone is invited to attend a private s
 
 #### Bring your resume! (optional)
 
-While this is NOT a recruiting event, several of our partners have expressed interest in accepting resumes on site. Please feel free to bring your resumes with you, and you should be prepared to talk about some of the stuff you are working on at UCSD (within your respected major). Keep in mind, you are in very welcoming company! Feel free to ask questions and absorb as much as possible from the industry professionals you are surrounded by. 
+While this is NOT a recruiting event, several of our partners have expressed interest in accepting resumes on site. Please feel free to bring your resumes with you, and you should be prepared to talk about some of the stuff you are working on at UCSD (within your respected major). Keep in mind, you are in very welcoming company! Feel free to ask questions and absorb as much as possible from the industry professionals you are surrounded by.
 
 #### Keynotes, Sessions, and more...
 
@@ -44,7 +43,7 @@ Registration starts now and will remain open until September 23th. To register, 
 
 ## Schedule / Timeline for UCSD Attendees
 
-Attendees will be given a list of sessions and Keynotes they are allowed to attend upon arrival. 
+Attendees will be given a list of sessions and Keynotes they are allowed to attend upon arrival.
 
 ### Wednesday, September 25th
 

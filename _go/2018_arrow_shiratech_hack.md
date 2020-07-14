@@ -4,8 +4,6 @@ description: |-
     Arrow and Shiratech host an online hackathon around any Arrow/Shiratech 96Boards technologies.
 permalink: /go/2018-arrow-shiratech-hack/
 layout: jumbotron-container
-css-package: openhours
-js-package: openhours
 date: 2018-09-20 01:00:00+00:00
 image: /assets/images/content/autonomous-robot-challenge.png
 ---
@@ -13,9 +11,9 @@ image: /assets/images/content/autonomous-robot-challenge.png
 <div class="col-md-6" markdown="1">
 
 We invite Linaro developers and Linaro Connect attendees to join us for a fun and challenging Hackathon based on 96Boards, made by [Arrow Electronics](https://www.arrow.com/) and [Shiratech-solutions](http://www.shiratech-solutions.com/).
- 
+
 The accepted Hackathon participants will each receive a kit consisting of an Arrow Dragonboard and three Shiratech 96Boards Mezzanines to take home and develop on. The Hackathon will end on November 13th.
- 
+
 Registration starts now and will remain open until September 19th. To register, please populate the form found on this page. You can enter the hackathon as an individual or a team with up to four members.
 
 - Attila: aambrus@arroweurope.com
@@ -30,7 +28,7 @@ Great prizes for the three winning projects!
 
 - Every participant will receive a kit (free of charge) that contains the following parts:
 - Arrow Dragonboard 410C
-- **LTE Mezzanine**:  An LTE CAT4 cell modem with on-board 9-axis orientation, gesture, proximity, range and temperature sensors.   
+- **LTE Mezzanine**:  An LTE CAT4 cell modem with on-board 9-axis orientation, gesture, proximity, range and temperature sensors.
 - **FPGA Mezzanine**: based on Intel Max10 FPGA with an onboard and Arduino expansion connectors
 - **Bosch Sensor Mezzanine**:  includes pressure and environmental sensors, accelerometer and magnetometer.
 

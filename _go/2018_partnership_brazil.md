@@ -4,8 +4,6 @@ description: |-
     Brazil Partnership Program, dedicated community support page.
 permalink: /go/2018-partnership-brazil/
 layout: jumbotron-container
-css-package: openhours
-js-package: openhours
 date: 2018-05-09 01:00:00+00:00
 image: /assets/images/content/brazil-partnership-bg.png
 ---
