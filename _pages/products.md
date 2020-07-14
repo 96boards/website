@@ -1,5 +1,5 @@
 ---
-layout: jumbotron-container
+layout: flow
 title: All 96Boards
 permalink: /products/
 status: active
