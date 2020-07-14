@@ -3,6 +3,7 @@
     "^/2016(/?|/index.html)$ /blog/ [R,L,NC]",
     "^/2017(/?|/index.html)$ /blog/ [R,L,NC]",
     "^/about/program(/?|/index.html)$ /membership/ [R,L,NC]",
+    "^/authors(/?|/index.html)$ /blog/ [R,L,NC]",
     "^/activity(/?|/index.html)$ /news/ [R,L,NC]",
     "^/armada(/?|/index.html)$ /products/ [R,L,NC]",
     "^/blog/96boards-3d-printable-ce-cases(/?|/index.html)$ /blog/3d-printable-ce-cases/ [R,L,NC]",
