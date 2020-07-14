@@ -1,14 +1,15 @@
 <div class="row content padded-row-30" id="featured-products-row">
     <div class="container">
         <div class="row">
-            <h2 id="featured-boards">
-                Each board has its own <strong>unique features</strong>, you can <strong>pick and choose</strong><br />
-                one based on the project you are working on.
-            </h2>
+            <div class="col col-12 text-center">
+                <h2 id="featured-boards">
+                    Each board has its own <strong>unique features</strong>, you can <strong>pick and choose</strong><br />
+                    one based on the project you are working on.
+                </h2>
+            </div>
         </div>
         <div class="row">
             <div id="featured-products-wrapper" class="hidden-xs">
-
                 {% assign featuredBoards = site.product | sort: 'dateAdded' | reverse %}
 
                 {% for product in featuredBoards limit: 6 %}
@@ -23,25 +24,25 @@
                     {% endif %}
 
                     {% if forloop.index < 4 %}
+                    <div class="col col-12 col-sm-4 featured-product">
                     <a href="{{product.url}}">
-                        <div class="col-sm-4 featured-product">
                             <h3 class="featured-product-title">{{product.title}}</h3>
                             {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                             {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                             {% capture image_alt %}{{ product.title }} image{% endcapture %}
                             {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                     {% else %}
+                    <div class="col col-12 col-sm-4 featured-product bottom">
                     <a href="{{product.url}}">
-                        <div class="col-sm-4 featured-product bottom">
                             <h3 class="featured-product-title">{{product.title}}</h3>
                             {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                             {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                             {% capture image_alt %}{{ product.title }} image{% endcapture %}
                             {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                     {% endif %}
                 {% endfor %}
             </div>
@@ -67,7 +68,7 @@
 
                     <a href="{{product.url}}">
                         <div class="owl-item__inner">
-                            <div class="col-xs-12 visible-xs">
+                            <div class="col col-12 visible-xs">
                                 <h3 class="featured-product-title">{{product.title}}</h3>
                                 {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From
                                     {{product.product_buy_links[0].link-price}}</span>{% endif %}
@@ -82,8 +83,8 @@
 
         </div>
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <a id="explore-boards" class="btn explore-btn" href="/products/">Explore Boards</a>
+            <div class="col col-12 text-center">
+                <a id="explore-boards" class="btn btn-primary" href="/products/">Explore Boards</a>
             </div>
         </div>
     </div>
