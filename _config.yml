@@ -110,6 +110,7 @@ defaults:
       is_post: true
       comments: true
       image: /assets/images/content/code_banner.jpg
+      category: Blog
   - scope:
       path: ""
       type: "authors"
