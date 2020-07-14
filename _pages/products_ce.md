@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: Consumer Edition (CE)
 css-package: products
 js-package: products

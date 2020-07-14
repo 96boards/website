@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: Auto Edition (AE)
 css-package: products
 js-package: products
@@ -7,7 +6,7 @@ permalink: "/products/ae/"
 description: |-
     coming Soon...
 jumbotron:
-    image: /assets/images/content/96Automotive.svg
+    inner_image: /assets/images/content/96Automotive.svg
     title: ""
     description: >
         Coming Soon...

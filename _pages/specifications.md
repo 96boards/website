@@ -7,8 +7,8 @@ status: active
 layout: flow
 css-package: about
 jumbotron:
-    darken: true
-    background-image: /assets/images/content/96boards-banner-6.jpg
+    title: Specifications
+    image: /assets/images/content/96boards-banner-6.jpg
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html

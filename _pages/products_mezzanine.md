@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: Mezzanine Products
 permalink: "/products/mezzanine/"
 css-package: products
@@ -10,7 +9,7 @@ description: |-
     embedded applications. See the mezzanine guidelines for some helpful resources.
 specification-logo: 96Boards-Logo_Partner-small.png
 jumbotron:
-    image: /assets/images/content/96Boards-Logo_horizontal-white.svg
+    inner_image: /assets/images/content/96Boards-Logo_horizontal-white.svg
     title: ""
     background-color: background-color mezzanine
     buttons:

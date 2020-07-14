@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: SoM Edition (SE)
 css-package: products
 js-package: products
@@ -8,7 +7,7 @@ description: |-
     The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable
     and cost-effective embedded platforms for building end-products.
 jumbotron:
-    image: /assets/images/content/96Boards-Logo-96 SoM.svg
+    inner_image: /assets/images/content/96Boards-Logo-96 SoM.svg
     title: ""
     description: >
         The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable

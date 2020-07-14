@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: SoM Edition - Modules (SE-M)
 css-package: products
 js-package: products
@@ -11,7 +10,7 @@ specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
 specification_link: https://linaro.co/ce-specification
 specification_image: 96Boards-Logo_Consumer-small.png
 jumbotron:
-    image: /assets/images/content/96Boards-Logo-96 SoM.svg
+    inner_image: /assets/images/content/96Boards-Logo-96 SoM.svg
     title: "Modules"
     background-color: background-color som
     buttons:

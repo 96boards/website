@@ -11,7 +11,7 @@ js-package: all-products
 seo:
     type: Product
 jumbotron:
-    image: /assets/images/content/96Boards-Logo_horizontal-white.svg
+    inner_image: /assets/images/content/96Boards-Logo_horizontal-white.
     title: ""
     description: >
         Products built with the latest silicon, based on open platform specifications for developers, makers and businesses.

@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: Enterprise Edition (EE)
 css-package: products
 js-package: products

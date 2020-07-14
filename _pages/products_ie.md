@@ -1,5 +1,4 @@
 ---
-layout: jumbotron-container
 title: Internet of Things Edition
 css-package: products
 js-package: products
@@ -11,7 +10,7 @@ specification_link: https://linaro.co/ie-specification
 specification_image: 96Boards-Logo_IoT.png
 keywords: Developement Boards, IoT Production Boards, hackers, Makers, Arm, linux, diy, tiny, small
 jumbotron:
-    image: /assets/images/content/96IoT.svg
+    inner_image: /assets/images/content/96IoT.svg
     title: ""
     background-color: background-color ie
     buttons:
