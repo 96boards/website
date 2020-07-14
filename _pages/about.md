@@ -9,8 +9,6 @@ jumbotron:
     title: About
     image: /assets/images/content/96boards-banner-1.jpg
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: container_row
       sections:
         - format: text
