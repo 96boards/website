@@ -1,3 +1,16 @@
+.display-5 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+@include media-breakpoint-down(sm){
+    .display-4, .display-5{
+        font-size: 2rem;
+    }
+}
+.contain_images img {
+    object-fit: contain !important;
+}
 // div#featured-jumbotron {
 //   padding-bottom: 30px;
 // }
