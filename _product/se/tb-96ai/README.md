@@ -92,7 +92,7 @@ product_sidebar_sections:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
         - title: Schematics
-          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-schematics.pdf
         - title: NPU SDK
           link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
         - title: Beiqi Cloud
