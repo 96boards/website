@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: 96boards/website
-  branch: develop
+  branch: master
   use_graphql: true
   preview_context: "Deploy preview"
   open_authoring: true
