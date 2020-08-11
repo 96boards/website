@@ -296,6 +296,11 @@ We can log into the guest VM using the `root` username as shown in the image bel
 
 ![](/assets/images/blog/arm_auto_pcu_3.png)
 
+## Video demo
+
+We have posted a video demo of the steps to get the arm-autonomy software stack running on the PCU below.
+
+{% include media.html media_url=" https://www.youtube.com/watch?v=zQTMo0EkmLI" %}
 
 ***
 
