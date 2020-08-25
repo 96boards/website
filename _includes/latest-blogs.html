@@ -8,39 +8,28 @@
                     {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
                     {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                     {% assign author = site.authors | where: "username", post.author | first %}
-                    <div class="col-sm-3 blog-post">
-                        <div class="row image">
-                            <a href="{{post.url}}">
-                                {% capture image_path%}{{post.image}}{%endcapture %}
-                                {% capture image_alt %}{{ post.title }} image{% endcapture %}
-                                {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                            </a>
-                        </div>
-                        <div class="row title">
-                            <div class="col-xs-12">
-                                <a href="{{post.url}}">
-                                    <h3 class="blog-featured-title">{{post.title}}</h3>
-                                    <p>
-                                        {{ post.content | strip_html | truncatewords:30 }}
-                                    </p>
-                                </a>
+                    <div class="card" style="width: 18rem;">
+                        {% capture image_path%}{{post.image}}{%endcapture %}
+                        {% capture image_alt %}{{ post.title }} image{% endcapture %}
+                        {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{post.title}}</h5>
+                            <p class="card-text">{{ post.content | strip_html | truncatewords:30 }}</p>
+                            <div class="media">
+                                <img class="mr-3 rounded-circle" src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}" alt="Author image">
+                                <div class="media-body">
+                                    <h5 class="mt-0">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
+                                    {% if post.date %}
+                                    <span class="date">
+                                        {{post.date |  date: "%B %-d, %Y"}}
+                                    </span>
+                                    {% endif %}
+                                    {% if post_in_seconds > recent_posts %}
+                                    <span class="new-post" title="Post added in the last week.">New</span>
+                                    {% endif %}
+                                </div>
                             </div>
-                        </div>
-                        <div class="row author">
-                            <div class="col-xs-3 author-image">
-                                <div class="home-author-image" style="background-image: url('{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}')"></div>
-                            </div>
-                            <div class="col-xs-9">
-                                <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
-                                {% if post.date %}
-                                <span class="date">
-                                    {{post.date |  date: "%B %-d, %Y"}}
-                                </span>
-                                {% endif %}
-                                {% if post_in_seconds > recent_posts %}
-                                <span class="new-post" title="Post added in the last week.">New</span>
-                                {% endif %}
-                            </div>
+                            <a href="{{post.url}}" class="btn btn-primary">Read</a>
                         </div>
                     </div>
                 {% endfor %}
@@ -53,42 +42,31 @@
                 {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                 {% assign author = site.authors | where: "username", post.author | first %}
                 <div class="owl-item__inner">
-                    <div class="col-xs-12 no-padding visible-xs">
-                        <div class="col-xs-12 no-padding blog-post">
-                            <div class="row image">
-                                <a href="{{post.url}}">
-                                    {% capture image_path%}{{post.image}}{%endcapture %}
-                                    {% capture image_alt %}{{ post.title }} image{% endcapture %}
-                                    {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                                </a>
-                            </div>
-                            <div class="row title">
-                                <div class="col-xs-12">
-                                    <a href="{{post.url}}">
-                                        <h3 class="blog-featured-title">{{post.title}}</h3>
-                                        <p>
-                                            {{ post.content | strip_html | truncatewords:30 }}
-                                        </p>
-                                    </a>
+                    <div class="col-12 no-padding d-block d-sm-none">
+                        <div class="card" style="width: 18rem;">
+                            {% capture image_path%}{{post.image}}{%endcapture %}
+                            {% capture image_alt %}{{ post.title }} image{% endcapture %}
+                            {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
+                            <div class="card-body">
+                                <h5 class="card-title">{{post.title}}</h5>
+                                <p class="card-text">{{ post.content | strip_html | truncatewords:30 }}</p>
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle"
+                                        src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}"
+                                        alt="Author image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
+                                        {% if post.date %}
+                                        <span class="date">
+                                            {{post.date |  date: "%B %-d, %Y"}}
+                                        </span>
+                                        {% endif %}
+                                        {% if post_in_seconds > recent_posts %}
+                                        <span class="new-post" title="Post added in the last week.">New</span>
+                                        {% endif %}
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row author">
-                                <div class="col-xs-3 author-image">
-                                <div class="home-author-image"
-                                    style="background-image: url('{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}')">
-                                </div>
-                                </div>
-                                <div class="col-xs-9">
-                                    <h3>{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h3>
-                                    {% if post.date %}
-                                    <span class="date">
-                                        {{post.date |  date:  "%B %-d, %Y"}}
-                                    </span>
-                                    {% endif %}
-                                    {% if post_in_seconds > recent_posts %}
-                                    <span class="new-post" title="Post added in the last week.">New</span>
-                                    {% endif %}
-                                </div>
+                                <a href="{{post.url}}" class="btn btn-primary">Read</a>
                             </div>
                         </div>
                     </div>
