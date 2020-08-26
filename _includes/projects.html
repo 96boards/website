@@ -4,30 +4,32 @@
     </div>
 </div>
 <div class="row content">
-    <div id="projects-row">
         <div class="container">
-        {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
-        {% capture order %}1{% endcapture %}
-        {% for each in projects %}
-            {% assign project-uri = each.permalink | split: "/" %}
-            {% assign project-uri = project-uri[2] | downcase  %}
-            <a href="{{each.url}}">
-                <div class="home-page-project-image img-responsive center-block col-xs-6 col-sm-3 lazyloaded">
-                    {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
-                    {% capture image_alt %}{{ each.title }} image{% endcapture %}
-                    {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                    <div class="overlay"></div>
-                    <div class="project-title">
-                        {{each.title}}
+            <div class="row">
+                {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
+                {% capture order %}1{% endcapture %}
+                {% for each in projects %}
+                    {% assign project-uri = each.permalink | split: "/" %}
+                    {% assign project-uri = project-uri[2] | downcase  %}
+                    <div class="col col-6 col-xl-3 mb-3">
+                        <a href="{{each.url}}">
+                        <div class="card h-100">
+                            {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
+                            {% capture image_alt %}{{ each.title }} image{% endcapture %}
+                            {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title text-dark font-weight-bold">{{each.title}}</h5>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        </a>
                     </div>
-                </div>
-            </a>
-        {% endfor %}
-    </div>
-</div>
+                {% endfor %}
+            </div>
+        </div>
 </div>
 <div class="row content">
-    <div class="col-xs-12 text-center">
-        <a id="explore-projects" class="btn explore-btn" href="/projects/">All Projects</a>
+    <div class="col col-12 text-center">
+        <a id="explore-projects" class="btn btn-primary explore-btn" href="/projects/">All Projects</a>
     </div>
 </div>
