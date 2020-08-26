@@ -1,61 +1,25 @@
 <div class="row content padded-row-30" id="latest-blogs-row">
     <div class="container">
-        <h2>Latest Blogs & News</h2>
-        <div id="latest-blogs" class="hidden-xs">
+        <h2 class="text-center">Latest Blogs & News</h2>
+        <div id="latest-blogs" class="d-none d-sm-block">
             <div class="row">
                 {% for post in site.posts limit:4 %}
                     {% assign timeframe = 604800 %}
                     {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
                     {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                     {% assign author = site.authors | where: "username", post.author | first %}
-                    <div class="card" style="width: 18rem;">
-                        {% capture image_path%}{{post.image}}{%endcapture %}
-                        {% capture image_alt %}{{ post.title }} image{% endcapture %}
-                        {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                        <div class="card-body">
-                            <h5 class="card-title">{{post.title}}</h5>
-                            <p class="card-text">{{ post.content | strip_html | truncatewords:30 }}</p>
-                            <div class="media">
-                                <img class="mr-3 rounded-circle" src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}" alt="Author image">
-                                <div class="media-body">
-                                    <h5 class="mt-0">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
-                                    {% if post.date %}
-                                    <span class="date">
-                                        {{post.date |  date: "%B %-d, %Y"}}
-                                    </span>
-                                    {% endif %}
-                                    {% if post_in_seconds > recent_posts %}
-                                    <span class="new-post" title="Post added in the last week.">New</span>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            <a href="{{post.url}}" class="btn btn-primary">Read</a>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="blog-carousel owl-carousel owl-theme visible-xs" id="homeBlogCarousel">
-            {% for post in site.posts limit:4 %}
-                {% assign timeframe = 604800 %}
-                {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
-                {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
-                {% assign author = site.authors | where: "username", post.author | first %}
-                <div class="owl-item__inner">
-                    <div class="col-12 no-padding d-block d-sm-none">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col col-12 col-sm-6 col-xl-3">
+                        <div class="card">
                             {% capture image_path%}{{post.image}}{%endcapture %}
                             {% capture image_alt %}{{ post.title }} image{% endcapture %}
                             {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                            <div class="card-body">
-                                <h5 class="card-title">{{post.title}}</h5>
-                                <p class="card-text">{{ post.content | strip_html | truncatewords:30 }}</p>
+                            <div class="card-body h-100">
+                                <h5 class="card-title font-weight-bold">{{post.title}}</h5>
+                                <p class="card-text">{{ post.content | strip_html | truncate: 160 }}</p>
                                 <div class="media">
-                                    <img class="mr-3 rounded-circle"
-                                        src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}"
-                                        alt="Author image">
+                                    <img class="mr-3 rounded-circle" style="height:40px; width:40px" src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}" alt="Author image">
                                     <div class="media-body">
-                                        <h5 class="mt-0">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
+                                        <h5 class="mt-0" style="font-size:1.2rem;">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
                                         {% if post.date %}
                                         <span class="date">
                                             {{post.date |  date: "%B %-d, %Y"}}
@@ -66,7 +30,46 @@
                                         {% endif %}
                                     </div>
                                 </div>
-                                <a href="{{post.url}}" class="btn btn-primary">Read</a>
+                                <a href="{{post.url}}" class="btn btn-primary mx-auto d-block mt-2">Read</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="blog-carousel owl-carousel slider_block owl-theme d-block d-sm-none" id="homeBlogCarousel">
+            {% for post in site.posts limit:4 %}
+                {% assign timeframe = 604800 %}
+                {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+                {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+                {% assign author = site.authors | where: "username", post.author | first %}
+                <div class="owl-item__inner">
+                    <div class="col col-12 col-sm-6 col-xl-3 no-padding d-block d-sm-none">
+                        <div class="card h-100">
+                            {% capture image_path%}{{post.image}}{%endcapture %}
+                            {% capture image_alt %}{{ post.title }} image{% endcapture %}
+                            {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">{{post.title}}</h5>
+                                <p class="card-text">{{ post.content | strip_html |truncate: 160 }}</p>
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle"
+                                     style="height:40px; width:40px"
+                                        src="{% if author.image %}{{author.image}}{% else %}/assets/images/avatar-placeholder.jpg{% endif %}"
+                                        alt="Author image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0" style="font-size:1.2rem;">{% if author.username %}{{author.username}}{% else %}{{post.author}}{% endif %}</h5>
+                                        {% if post.date %}
+                                        <span class="date">
+                                            {{post.date |  date: "%B %-d, %Y"}}
+                                        </span>
+                                        {% endif %}
+                                        {% if post_in_seconds > recent_posts %}
+                                        <span class="new-post" title="Post added in the last week.">New</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <a href="{{post.url}}" class="btn btn-primary mx-auto d-block mt-2">Read</a>
                             </div>
                         </div>
                     </div>
