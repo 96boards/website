@@ -2,7 +2,7 @@
 <div class="col col-12">
     <div class="row">
         <div class="container">
-            <div class="row">
+            <div class="row products_wrapper">
             {% assign featuredBoards = site.product | sort: 'dateAdded' | reverse %}
 
             {% for product in featuredBoards limit: 6 %}
@@ -19,7 +19,7 @@
                 {% if forloop.index < 4 %}
                 <div class="col col-12 col-sm-4 featured-product">
                 <a href="{{product.url}}">
-                        <h3 class="featured-product-title">{{product.title}}</h3>
+                        <h3 class="featured-product-title text-dark">{{product.title}}</h3>
                         {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                         {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                         {% capture image_alt %}{{ product.title }} image{% endcapture %}
@@ -29,7 +29,7 @@
                 {% else %}
                 <div class="col col-12 col-sm-4 featured-product bottom">
                 <a href="{{product.url}}">
-                        <h3 class="featured-product-title">{{product.title}}</h3>
+                        <h3 class="featured-product-title text-dark">{{product.title}}</h3>
                         {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                         {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                         {% capture image_alt %}{{ product.title }} image{% endcapture %}
@@ -61,7 +61,7 @@
 
                             <a href="{{product.url}}">
                                 <div class="owl-item__inner">
-                                    <div class="col col-12 visible-xs">
+                                    <div class="col col-12">
                                         <h3 class="featured-product-title">{{product.title}}</h3>
                                         {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From
                                             {{product.product_buy_links[0].link-price}}</span>{% endif %}
