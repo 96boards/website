@@ -3,13 +3,55 @@
     font-weight: 300;
     line-height: 1.2;
 }
-@include media-breakpoint-down(sm){
-    .display-4, .display-5{
+@include media-breakpoint-down(sm) {
+    .display-4,
+    .display-5 {
         font-size: 2rem;
     }
 }
 .contain_images img {
     object-fit: contain !important;
+}
+
+#wrapper {
+    .products_wrapper {
+        overflow: auto;
+        border: 1px solid;
+        border-radius: 15px;
+    }
+    .featured-product {
+        height: 250px;
+        text-align: center;
+        overflow: hidden;
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 4;
+            bottom: -30px;
+            left: 0;
+            pointer-events: none;
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 90%);
+            width: 100%;
+            height: 3em;
+        }
+        .card-img-top {
+            object-fit: contain;
+            width: auto;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 250px;
+            top: 50px;
+            position: relative;
+            transition: all 1s ease-in-out;
+        }
+        &:hover {
+            .card-img-top {
+                top: -40px;
+                transition: all 500ms ease-in-out;
+            }
+        }
+    }
 }
 // div#featured-jumbotron {
 //   padding-bottom: 30px;
