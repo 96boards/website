@@ -31,7 +31,7 @@ flow:
           text: |
             Each board has its own **unique features**, you can **pick and choose**
             one based on the project you are working on.
-      - format: include
+      - format: custom_include
         source: products/featured_products.html
       - format: buttons
         style: text-center
