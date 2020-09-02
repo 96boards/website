@@ -30,21 +30,21 @@
                                         {% endif %}
                                     </div>
                                 </div>
-                                <a href="{{post.url}}" class="btn btn-primary mx-auto d-block mt-2">Read</a>
+                                <a href="{{post.url}}" class="btn btn-secondary mx-auto d-block mt-2">Read</a>
                             </div>
                         </div>
                     </div>
                 {% endfor %}
             </div>
         </div>
-        <div class="blog-carousel owl-carousel slider_block owl-theme d-block d-sm-none" id="homeBlogCarousel">
+        <div class="blog-carousel owl-carousel slider_block owl-theme d-block d-sm-none" id="homeBlogCarousel" data-xs-number="1" data-sm-number="1">
             {% for post in site.posts limit:4 %}
                 {% assign timeframe = 604800 %}
                 {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
                 {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                 {% assign author = site.authors | where: "username", post.author | first %}
                 <div class="owl-item__inner">
-                    <div class="col col-12 col-sm-6 col-xl-3 no-padding d-block d-sm-none">
+                    <div class="col col-12 no-padding d-block d-sm-none">
                         <div class="card h-100">
                             {% capture image_path%}{{post.image}}{%endcapture %}
                             {% capture image_alt %}{{ post.title }} image{% endcapture %}
@@ -69,7 +69,7 @@
                                         {% endif %}
                                     </div>
                                 </div>
-                                <a href="{{post.url}}" class="btn btn-primary mx-auto d-block mt-2">Read</a>
+                                <a href="{{post.url}}" class="btn btn-secondary mx-auto d-block mt-2">Read</a>
                             </div>
                         </div>
                     </div>
