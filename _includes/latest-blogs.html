@@ -9,11 +9,11 @@
                     {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
                     {% assign author = site.authors | where: "username", post.author | first %}
                     <div class="col col-12 col-sm-6 col-xl-3">
-                        <div class="card">
+                        <div class="card h-100">
                             {% capture image_path%}{{post.image}}{%endcapture %}
                             {% capture image_alt %}{{ post.title }} image{% endcapture %}
                             {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                            <div class="card-body h-100">
+                            <div class="card-body ">
                                 <h5 class="card-title font-weight-bold">{{post.title}}</h5>
                                 <p class="card-text">{{ post.content | strip_html | truncate: 160 }}</p>
                                 <div class="media">
