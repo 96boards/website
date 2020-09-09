@@ -9,7 +9,7 @@ product_specification: "mezzanine"
 product: true
 dateAdded: 2020-09-09 09:00:00+00:00
 description: |-
-    "Designed to work with Arrow DragonBoard 410c development platform and Android OS  and follows 96Boards Consumer Edition specification. Support includes the following OnSemi 13 MP AR1337 RAW sensor: F13M02A Modul-201 Camera module, MIPI CSI 4-lane interface, Optical format 1/3.2” 13Mp (4:3), Active pixels 4208H x 3120V, View Angle 74.48° +/-3° Autofocus."
+    "**e-con Systems** mezzanine board allows evaluation and integration of econ systems’ camera product family with Rock960c (Vamrs) board. The Mezzanine board follows the 96boards consumer edition specification. The board allows integration of up to 2 cameras using the MIPI CSI interface."
 tab_menu:
   - tab_title: e-con Systems Camera Mezzanine
     tab_link: /product/e-con-systems-camera/
