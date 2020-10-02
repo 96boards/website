@@ -1,4 +1,4 @@
-# 96Boards.org
+# 96Boards.org An Amazing Project
 
 ![Build Status](https://bamboo.linaro.org/plugins/servlet/wittified/build-status/BOARDS-BUILDDEV0)
 
