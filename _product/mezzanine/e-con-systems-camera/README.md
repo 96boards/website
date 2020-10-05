@@ -27,7 +27,7 @@ product_images:
 product_buy_links:
   -
     link-title: e-consystems
-    link-url: "https://www.e-consystems.com/webstore-inr.asp#rock96"
+    link-url: "https://www.e-consystems.com/webstore.asp#rock96"
 product_sidebar_sections:
     - title: More Info
       icon: fa-external-link-square
