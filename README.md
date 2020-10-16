@@ -296,7 +296,7 @@ The 96Boards.org documentation is maintained in this [repo](https://github.com/9
 
 If you come across any bugs/issues then please let us know by clicking the Submit an Issue button located at the bottom of every 96Boards.org web page. Alternatively you may open an issue [here](https://github.com/96boards/website/issues/new) but please provide precise details on how to reproduce the bug/issue so that we can act on the issue as soon as possible.
 
-### Known Issues
+### Known the Issues
 
 #### Image file names
 
