@@ -222,6 +222,6 @@ The above figure shows that the k8s infrastructure does not impact the outcome o
 
 # Conclusion
 
-In this post we have shown how to deploy Cyclone DDS based applications using k8s to manage the infrastructure and whether the k8s infrastructure impacted the performance of Cyclone DDS.
+In this post we have shown how to deploy Cyclone DDS based applications on Autocore's PCU using k8s to manage the infrastructure and whether the k8s infrastructure impacted the performance of Cyclone DDS.
 
-Taking this initial setup as reference we are now ready to take it further with other configurations, such as increasing the number of applications (e.g. Autoware packages) or the amount of worker nodes using a range of 96Boards.
+Taking this initial setup as reference we are now ready to take it further with other configurations, such as increasing the number of applications (e.g. Autoware packages) or the amount of worker nodes using a wider range of 96Boards.
