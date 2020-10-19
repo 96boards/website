@@ -265,6 +265,11 @@
                 "image": "https://static.linaro.org/common/member-logos/caiqi.jpg",
                 "name": "Caiqi Eletronics",
                 "url": "/membership/caiqi/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/avnet.jpg",
+                "name": "Avnet",
+                "url": "/membership/avnet/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
