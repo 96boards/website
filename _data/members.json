@@ -107,6 +107,11 @@
                 "image": "https://static.linaro.org/common/member-logos/navinfo.jpg",
                 "name": "NavInfo",
                 "url": "/membership/navinfo/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/dronecode.jpg",
+                "name": "Dronecode",
+                "url": "/membership/dronecode/"
             }
         ],
         "membership_group_name": "96Boards Steering Committee Members",
