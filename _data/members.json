@@ -14,11 +14,6 @@
                 "url": "/membership/st/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/texas-instruments.jpg",
-                "name": "Texas Instruments",
-                "url": "/membership/texas-instruments/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
                 "name": "HiSilicon",
                 "url": "/membership/hisilicon/"
