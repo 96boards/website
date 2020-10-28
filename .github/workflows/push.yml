@@ -1,0 +1,101 @@
+name: PushAction
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Cancel previous runs
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch git repository
+        uses: actions/checkout@v2
+
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - run: env
+
+      - name: Directory push/pop
+        uses: linaro-its/directory-push-and-pop@v1.1
+        with:
+          cacheDirectory: /srv/site-builds
+          namedDirectory: ${{ env.SITE_URL }}
+
+      - name: Build site
+        run: /srv/github-action-scripts/build-jekyll-site.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  check-links:
+    needs: build
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Check links
+        run: /srv/github-action-scripts/check-links.sh /srv/site-builds/${{ env.SITE_URL }}
+
+  test-routing-rules:
+    needs: check-links
+    runs-on: self-hosted
+    steps:
+      - name: Check routing rules
+        run: /srv/github-action-scripts/test-routing-rules.sh
+
+  sync-to-s3-staging:
+    needs:  test-routing-rules
+    runs-on: self-hosted
+    steps:
+      - name: Make staging directory
+        run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
+
+      - name: Sync build to staging directory
+        run: rsync -crui /srv/site-builds/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+
+  update-to-s3:
+    needs: sync-to-s3-staging
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Upload to S3
+        run: /srv/github-action-scripts/upload-to-s3-root.sh
+
+  set-up-lambda-redirect:
+    needs: update-to-s3
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Set up Lambda redirect
+        run: /srv/github-action-scripts/set-up-lambda-redirect.sh /srv/site-builds/${{ env.SITE_URL }}
+
+  set-up-security-headers:
+    needs: set-up-lambda-redirect
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Set up security headers
+        run: cd /srv/github-action-scripts && pipenv run python lambda-security-headers.py
+
+  invalidate-cloudfront:
+    needs: set-up-security-headers
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Invalidate CloudFront cache
+        run: /srv/github-action-scripts/invalidate-cloudfront.sh

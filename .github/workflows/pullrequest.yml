@@ -1,0 +1,54 @@
+name: PullRequestAction
+
+on:
+  pull_request_target:
+    branches: [ main, master, develop ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Cancel previous runs
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch git repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Initialise environment
+        run: cat ".github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+
+      - run: env
+
+      - name: Initialise status
+        run: /srv/github-action-scripts/init-deploy-preview.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge test branch
+        uses: linaro-its/merge-test-branch@v1
+
+      - name: Build site
+        run: /srv/github-action-scripts/build-jekyll-site.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  check-links:
+    needs: build
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat ".github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+
+      - name: Check links
+        run: /srv/github-action-scripts/check-links.sh
+
+  test-routing-rules:
+    needs: check-links
+    runs-on: self-hosted
+    steps:
+      - name: Check routing rules
+        run: /srv/github-action-scripts/test-routing-rules.sh
