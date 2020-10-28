@@ -20,7 +20,7 @@ jobs:
       - name: Fetch docs repository
         uses: actions/checkout@v2
         with:
-          repository: https://github.com/96boards/documentation
+          repository: 96boards/documentation
 
       - name: Initialise environment
         run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
