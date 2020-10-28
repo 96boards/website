@@ -41,7 +41,7 @@ jobs:
         run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Check links
-        run: /srv/github-action-scripts/check-links.sh /srv/site-builds/${{ env.SITE_URL }}
+        run: /srv/github-action-scripts/check-links.sh /srv/site-builds/${{ env.SITE_URL }} --skip-dns-check /srv/site-builds/${{ env.SITE_URL }}/_data/fqdn_exceptions.txt --no-external-errors
 
   test-routing-rules:
     needs: check-links
