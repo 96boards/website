@@ -13,13 +13,21 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch git repository
+      - name: Fetch website repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          path: website
+
+      - name: Fetch docs repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          repository: 96boards/documentation
+          path: documentation
 
       - name: Initialise environment
-        run: cat ".github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
 
       - run: env
 
@@ -41,7 +49,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Initialise environment
-        run: cat ".github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
 
       - name: Check links
         run: /srv/github-action-scripts/check-links.sh
