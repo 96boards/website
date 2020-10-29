@@ -21,7 +21,7 @@ jobs:
       # This hack can be removed once the website is upgraded to use the
       # newer theme, which processes images differently.
       - name: Preserve merged_sources
-        run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" ""$GITHUB_WORKSPACE"; fi
+        run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE"; fi
 
       - name: Fetch website repository
         uses: actions/checkout@v2
@@ -30,7 +30,7 @@ jobs:
 
       # HACK!
       - name: Restore merged_sources
-        run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" ""$GITHUB_WORKSPACE/website"; fi
+        run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE/website"; fi
 
       - name: Fetch docs repository
         uses: actions/checkout@v2
