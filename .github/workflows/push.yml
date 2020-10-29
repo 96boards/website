@@ -14,10 +14,23 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # HACK! 96Boards is currently using an old Jekyll theme that caches
+      # built images inside the source directory which gets reset when the
+      # fetch occurs so let's move it out of the way briefly ...
+      #
+      # This hack can be removed once the website is upgraded to use the
+      # newer theme, which processes images differently.
+      - name: Preserve merged_sources
+        run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" ""$GITHUB_WORKSPACE"; fi
+
       - name: Fetch website repository
         uses: actions/checkout@v2
         with:
           path: website
+
+      # HACK!
+      - name: Restore merged_sources
+        run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" ""$GITHUB_WORKSPACE/website"; fi
 
       - name: Fetch docs repository
         uses: actions/checkout@v2
