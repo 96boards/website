@@ -38,7 +38,7 @@ jobs:
           destinationDirectory: ${{ github.workspace }}/website
 
       - name: Build site
-        run: /srv/github-action-scripts/build-jekyll-site.sh
+        run: NSBREPO1=${{ github.workspace }}/website NSBREPO2=${{ github.workspace }}/documentation /srv/github-action-scripts/build-jekyll-site.sh
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
