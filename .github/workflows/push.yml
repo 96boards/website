@@ -55,35 +55,35 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # check-links:
-  #   needs: build
-  #   runs-on: self-hosted
-  #   steps:
-  #     - name: Initialise environment
-  #       run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+  check-links:
+    needs: build
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
-  #     - name: Check links
-  #       run: /srv/github-action-scripts/check-links.sh /srv/site-builds/${{ env.SITE_URL }}
+      - name: Check links
+        run: /srv/github-action-scripts/check-links.sh /srv/site-builds/${{ env.SITE_URL }}
 
-  # test-routing-rules:
-  #   needs: check-links
-  #   runs-on: self-hosted
-  #   steps:
-  #     - name: Check routing rules
-  #       run: /srv/github-action-scripts/test-routing-rules.sh
+  test-routing-rules:
+    needs: check-links
+    runs-on: self-hosted
+    steps:
+      - name: Check routing rules
+        run: /srv/github-action-scripts/test-routing-rules.sh
 
-  # sync-to-s3-staging:
-  #   needs:  test-routing-rules
-  #   runs-on: self-hosted
-  #   steps:
-  #     - name: Initialise environment
-  #       run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+  sync-to-s3-staging:
+    needs:  test-routing-rules
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
-  #     - name: Make staging directory
-  #       run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
+      - name: Make staging directory
+        run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
 
-  #     - name: Sync build to staging directory
-  #       run: rsync -crui /srv/site-builds/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+      - name: Sync build to staging directory
+        run: rsync -crui /srv/site-builds/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
 
   # update-to-s3:
   #   needs: sync-to-s3-staging
