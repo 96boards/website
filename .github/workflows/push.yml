@@ -65,10 +65,10 @@ jobs:
         run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Check links
-        run: >
+        run: >-
           /srv/github-action-scripts/check-links.sh
             /srv/site-builds/${{ env.SITE_URL }}
-            --skip-dns-check ${bamboo.build.working.directory}/${bamboo.jekyll_staging_dir}/_data/fqdn_exceptions.txt
+            --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
             --no-external-errors
             --create-github-issue https://api.github.com/repos/${{ github.event.repository.organization }}/${{ github.event.repository.name }}/issues
             --assign-github-issue '["pcolmer"]'
