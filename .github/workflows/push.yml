@@ -60,7 +60,7 @@ jobs:
       - name: Check links
         run: >-
           /srv/github-action-scripts/check-links.sh
-          /srv/site-builds/${{ env.SITE_URL }}
+          ${{ github.workspace }}/website/${{ env.SITE_URL }}
           --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
           --create-github-issue https://api.github.com/repos/96boards/website/issues
           --assign-github-issue '["ric96", "Yang-96Boards"]'
@@ -73,7 +73,7 @@ jobs:
         run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
 
       - name: Sync build to staging directory
-        run: rsync -crui /srv/site-builds/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+        run: rsync -crui ${{ github.workspace }}/website/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
 
       - name: Upload to S3
         run: /srv/github-action-scripts/upload-to-s3-root.sh
