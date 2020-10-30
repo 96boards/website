@@ -71,9 +71,7 @@ jobs:
           /srv/github-action-scripts/check-links.sh
           /srv/site-builds/${{ env.SITE_URL }}
           --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
-          --create-github-issue https://api.github.com/repos/96boards/website/issues
-          --assign-github-issue '["ric96", "Yang-96Boards"]'
-          --github-access-token ${{ secrets.GITHUB_TOKEN }}
+          --no-external-errors
 
   test-routing-rules:
     needs: check-links
