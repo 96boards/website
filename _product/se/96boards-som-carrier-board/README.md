@@ -48,7 +48,7 @@ product_sidebar_sections:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf
         - title: Schematics
-        - link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
+          link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-schematics.pdf
         - title: Beiqi Cloud
           link: http://www.beiqicloud.com/product_detail.html?pid=CarrierBoard
 vendor:
