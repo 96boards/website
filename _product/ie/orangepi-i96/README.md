@@ -41,11 +41,7 @@ product_sidebar_sections:
           link: /documentation/iot/orangepi-i96/downloads/
         - title: Ubuntu Server
           link: /documentation/iot/orangepi-i96/downloads/
-        - title: Android Nand
-          link: /documentation/iot/orangepi-i96/downloads/
-        - title: Android Tcard
-          link: /documentation/iot/orangepi-i96/downloads/
-        - title: Raspbian Server
+        - title: Android
           link: /documentation/iot/orangepi-i96/downloads/
 attributes:
   - name: "SoC"

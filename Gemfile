@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem "jekyll-data"
   gem "jekyll-toc"
   gem "jekyll-relative-links"
+  gem "kramdown-parser-gfm"
 end

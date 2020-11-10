@@ -7,8 +7,8 @@ backend:
   open_authoring: true
 publish_mode: editorial_workflow
 logo_url: https://www.96boards.org/assets/images/content/96Boards-Logo-black.svg
-site_url: https://staging.96boards.org
-display_url: https://staging.96boards.org
+site_url: https://www.96boards.org
+display_url: https://www.96boards.org
 show_preview_links: true
 slug:
   encoding: "ascii"
@@ -646,7 +646,7 @@ collections:
     identifier_field: name
     description: >
       This collection allows you to add/edit/delete authors. These are dynamically pulled in when writing
-      posts. When deleting authors the change is made directly to the develop branch (which causes a staging.linaro.org build).
+      posts. When deleting authors the change is made directly to the master branch (which causes a 96boards.org build).
     editor:
       preview: false
     fields:

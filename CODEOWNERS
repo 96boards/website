@@ -1,6 +1,8 @@
-build-site.sh   @pcolmer @morancj
-check-links.sh  @pcolmer @morancj
-CODEOWNERS      @pcolmer @morancj
-Gemfile         @pcolmer @morancj
-manifest.json   @pcolmer @morancj
-_data/routingrules.json  @pcolmer @morancj
+build-site.sh           @pcolmer @kylekirkby
+check-links.sh          @pcolmer @kylekirkby
+CODEOWNERS              @pcolmer @kylekirkby
+Gemfile                 @pcolmer @kylekirkby
+.github-env-master      @pcolmer @kylekirkby
+.github/workflows       @pcolmer @kylekirkby
+manifest.json           @pcolmer @kylekirkby
+_data/routingrules.json @pcolmer @kylekirkby
