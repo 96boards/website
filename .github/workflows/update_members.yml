@@ -1,7 +1,7 @@
 name: UpdateMembers
 
 on:
-  workflow_dispatch:
+  repository_dispatch:
 
 jobs:
   website:
