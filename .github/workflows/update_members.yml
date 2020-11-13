@@ -17,4 +17,4 @@ jobs:
       - name: Update website repo
         run: cd /srv/github-action-scripts && pipenv run python update_members.py 96Boards
         env:
-          TOKEN: ${{ secrets.LINARO_BUILD_KEY }}
+          TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}
