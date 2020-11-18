@@ -61,9 +61,9 @@ secondary-verticals:
 demos: ""
 documentation:
     - title: Hardware user guide
-      url: https://www.96boards.org/documentation/ce/thor96/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/
     - title: Board schematics
-      url: https://www.96boards.org/documentation/ce/thor96/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/
 whats-in-the-box:
     - Thor96 board
 buy-now: 

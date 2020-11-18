@@ -55,8 +55,6 @@ product_sidebar_sections:
           link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
         - title: Zephyr Github
           link: https://github.com/zephyrproject-rtos/meta-zephyr-sdk
-        - title: Unisoc Github
-          link: https://unisoc.github.io/unisoc.github.io/
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/

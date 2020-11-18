@@ -25,7 +25,7 @@ As long as the client and the server are connected to the same LAN - Local Area 
 We have tested three media players
  - [VLC](https://www.videolan.org/index.html)
  - [Kodi](https://kodi.tv/)
- - [Media House](https://play.google.com/store/apps/details?id=com.dbapp.android.mediahouse&hl=en)
+ - Media House
 
  {% include media.html media_url="https://youtu.be/ldwtO2wN0zU" %}
 

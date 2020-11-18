@@ -104,11 +104,11 @@ attributes:
       Provides differential transmit and receive capability at speeds up to 1 Mbps. (SPEC)
 
 ---
-Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://www.gumstix.com/geppetto). Add functionality or remove unused components with the ease of a drag-and-drop interface.
+Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://geppetto.gumstix.com). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 
 - [Clone and kickstart your customized AreoCore 2 expansion board design for 96Boards](https://geppetto.gumstix.com/#!/design/1130/)
 - [Explore and create a customized expansion board from scratch](https://geppetto.gumstix.com/)
-- [Learn more about Geppetto](https://www.gumstix.com/geppetto)
+- [Learn more about Geppetto](https://geppetto.gumstix.com)
 
 ** Software support for the AeroCore 2 for 96Boards limited to Yocto Linux **
 

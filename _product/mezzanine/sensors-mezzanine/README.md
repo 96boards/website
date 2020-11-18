@@ -124,7 +124,7 @@ control of devices from application software, and offload to a microcontroller. 
 - 1 x [Grove – Buzzer](http://www.seeedstudio.com/depot/grove-buzzer-p-768.html?cPath=156_159)
 - 1 x [Grove – Sound Sensor](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144_148)
 - 1 x [Grove – Touch Sensor](http://www.seeedstudio.com/depot/grove-touch-sensor-p-747.html?cPath=156_160)
-- 1 x [Grove – Rotary Angle Sensor](http://www.seeedstudio.com/depot/grove-rotary-angle-sensor-p-p-1242.html?cPath=156_160)
+- 1 x [Grove – Rotary Angle Sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-P.html)
 - 1 x [Grove – Temperature Sensor](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=144_147)
 - 1 x [Grove – LED](http://www.seeedstudio.com/depot/Grove-LED-p-767.html?cPath=81_35)
 - 1 x [Grove – Light Sensor](http://www.seeedstudio.com/depot/Grove-Light-Sensor-p-746.html?cPath=25_27)

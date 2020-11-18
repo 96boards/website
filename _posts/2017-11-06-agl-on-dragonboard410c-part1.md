@@ -36,8 +36,10 @@ AGL is officially supported on [Dragonboard410c](https://at.projects.genivi.org/
 board support for AGL is not that much difficult since AGL is based on [Yocto Project](https://www.yoctoproject.org/).
 Only the meta-layer of the corresponding board and some tweaks are required.
 
-For Dragonboard410c, meta layer used is the [meta-qcom](https://git.automotivelinux.org/AGL/AGL-distro/tree/meta-qcom) from
-OE. It has the recipies for the full software stack to make it functional.
+~~For Dragonboard410c, meta layer used is the meta-qcom https://git.automotivelinux.org/AGL/AGL-distro/tree/meta-qcom from
+OE. It has the recipies for the full software stack to make it functional~~
+
+meta-qcom is now synced automatically and uses [upstream yocto repository](https://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom/). 
 
 Enough theory, now we will move onto the practical stuffs :-)
 
