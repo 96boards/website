@@ -1,32 +1,15 @@
 # Copyright text to be displayed at the very bottom of the footer
 copyright_text: Linaro Limited
 # Set this to false if you do not want the Linaro logo in the footer.
-linaro_branding: true
-# Social Media Icons Row
-social_media_icons: true
-# Display the contact details section
-display_contact_details: true
+footer_brand:
+  url: https://www.linaro.org
+  alt: Linaro Logo
+  path: /assets/images/Linaro-logo-white.png
 # These links are displayed at the very bottom of the footer.
 company_links:
-    - name: Legal
-      url: /legal/
-    - name: Cookies
-      url: /cookies/
-    - name: Contact
-      url: /contact/
-second_column:
-    title: Latest News & Blogs
-    latest-posts: true
-third_column:
-    title: Other Projects
-    items:
-      - name: 96Boards
-        url: https://www.96boards.org
-      - name: Linaro Connect
-        url: https://connect.linaro.org
-      - name: DeviceTree
-        url: https://www.devicetree.org
-      - name: OP-TEE
-        url: https://www.op-tee.org
-      - name: Linaro Developer Cloud
-        url: https://www.linaro.cloud
+  - name: Legal
+    url: /legal/
+  - name: Cookies
+    url: /cookies/
+  - name: Contact
+    url: /contact/

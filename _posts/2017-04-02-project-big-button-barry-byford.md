@@ -107,7 +107,7 @@ Barry shared with us how he does STEM outreach to get the next generation intere
   * **Micro:bit**
 
 
-    * For this project we used a pre-built image that exposes all the interesting [micro:bit Bluetooth services](https://lancaster-university.github.io/microbit-docs/resources/bluetooth/bluetooth_profile.html). The pre-built image is available from the [Bitty Software](http://www.bittysoftware.com/downloads.html#microbit_blue) website. We used the version that does not require pairing because we valued simplicity over security for this project.
+    * For this project we used a pre-built image that exposes all the interesting [micro:bit Bluetooth services](https://lancaster-university.github.io/microbit-docs/resources/bluetooth/bluetooth_profile.html). ~~The pre-built image is available from the Bitty Software http://www.bittysoftware.com/downloads.html#microbit_blue website. We used the version that does not require pairing because we valued simplicity over security for this project.~~
 
 
 

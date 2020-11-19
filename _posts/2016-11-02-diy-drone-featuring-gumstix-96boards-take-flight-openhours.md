@@ -201,7 +201,7 @@ Before we get started, there are a few things you’ll need to take care of.
     * Make sure you have libgstreamer1.0, gstreamer1.0-tools and libgstreamer-plugins-base1.0-dev installed.
 
 
-    * Download and install Qt 5.5.1 from[ http://download.qt.io/archive/qt/5.5/5.5.1/](http://download.qt.io/archive/qt/5.5/5.5.1/)
+    * Download and install Qt 5.5.1 from[http://download.qt.io/archive/qt/5.9/5.9.1/](http://download.qt.io/archive/qt/5.9/5.9.1/)
 
 
     * Clone and build QGC from [https://github.com/mavlink/qgroundcontrol](https://github.com/mavlink/qgroundcontrol)

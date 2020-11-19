@@ -72,7 +72,7 @@ Geppetto D2O is a web app, requiring no software other than your browser.  Ente
 
 The other tabs and elements within the interface are explained in video tutorials supplied by Gumstix at:
 
-[https://www.gumstix.com/geppetto-knowledge-base/](https://www.gumstix.com/geppetto-knowledge-base/)
+[https://geppetto.gumstix.com/welcome/quickstart.html](https://geppetto.gumstix.com/welcome/quickstart.html)
 
 {% include image.html path="/assets/images/blog/geppetto-gif.gif" alt="Geppetto Gif" class="img-fluid" %}
 

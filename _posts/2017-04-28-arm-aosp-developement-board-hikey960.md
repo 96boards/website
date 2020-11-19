@@ -195,7 +195,7 @@ Buy Now
   * [Alpha Star](http://linaro.co/hikey960buy-alpha)
 
 
-  * [Ali express](http://linaro.co/hikey960-ali) – US $239.00
+  * ~~[Ali express] – US $239.00~~
 
 
   * [Switch Science](http://linaro.co/hikey960-switch) (Japan)

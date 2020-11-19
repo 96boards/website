@@ -35,7 +35,7 @@ product_sidebar_sections:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
         - title: Shiratech
-          link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
+          link: https://www.arrow.com/en/products/srt-96b-mez-fpga/shiratech
 
 attributes:
   - name: "SoC"

@@ -1,0 +1,20 @@
+name: UpdateMembers
+
+on:
+  repository_dispatch:
+
+jobs:
+  website:
+    runs-on: self-hosted
+    steps:
+      - name: Fetch git repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.LINARO_BUILD_KEY }}
+          path: website
+
+      - name: Update website repo
+        run: cd /srv/github-action-scripts && pipenv run python update_members.py 96Boards
+        env:
+          TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}

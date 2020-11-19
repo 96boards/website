@@ -49,8 +49,8 @@ product_sidebar_sections:
       items:
         - title: RAK Wireless
           link: https://www.rakwireless.com/
-        - title: WisTrio Beta
-          link: https://www.rakwireless.com/en/beta-wistrio
+        - title: WisTrio
+          link: https://store.rakwireless.com/products/rak5205-lpwan-tracker
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/

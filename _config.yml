@@ -6,7 +6,7 @@ description: |-
   For the maker community. For embedded OEMs. 64-bit ARM for $129.
 destination: _site
 permalink: /:categories/:title/
-theme: jumbo-jekyll-theme
+theme: linaro-jekyll-theme
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -193,12 +193,12 @@ social_media_channels:
     url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
-    enabled: true
-    shortname: 96boards
+  enabled: true
+  shortname: 96boards
 # Edit on GitHub Settings
 edit-on-github:
-    enabled: true
-    repo: https://www.github.com/96Boards/website
+  enabled: true
+  repo: https://www.github.com/96Boards/website
 # Shema.org settings used in the schema.html include.
 schema:
   "@type": "Corporation"

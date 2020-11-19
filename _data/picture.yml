@@ -6,11 +6,11 @@
 # - To build the 'sizes' attribute
 # - When given alternate source images, specify which sizes to generate.
 media_presets:
-  xl: 'min-width: 1200px'
-  lg: 'max-width: 1199.98px'
-  md: 'max-width: 991.98px'
-  sm: 'max-width: 767.98px'
-  xs: 'max-width: 575.98px'
+  xl: "min-width: 1200px"
+  lg: "max-width: 1199.98px"
+  md: "max-width: 991.98px"
+  sm: "max-width: 767.98px"
+  xs: "max-width: 575.98px"
 # Markup presets allow you to group settings together, and select one of them by name in your jekyll
 # tag. All settings are optional.
 markup_presets:
@@ -72,11 +72,25 @@ markup_presets:
     attributes:
       img: 'class="lazyload img-fluid blog_content_image "'
     formats: [webp, original]
-    widths: [400,800,1200]
+    widths: [400, 800, 1200]
+  members_image:
+    markup: data_picture
+    attributes:
+      img: 'class="lazyload img-fluid members_image "'
+    formats: [webp, original]
+    widths: [100, 200, 300, 400]
   header_image:
     markup: data_auto
     attributes:
       img: 'class="lazyload header_background_image"'
+    formats: [webp, original]
+    widths: [576, 768, 992, 1200]
+    fallback_format: webp
+    fallback_width: 1920
+  content_image:
+    markup: data_auto
+    attributes:
+      img: 'class="lazyload img-fluid content_image"'
     formats: [webp, original]
     widths: [576, 768, 992, 1200]
     fallback_format: webp
@@ -87,43 +101,43 @@ markup_presets:
       source: 'class="owl-lazy"'
       img: 'class="owl-lazy header_background_image"'
     formats: [webp, original]
-    widths: [400,800,1200,1920]
+    widths: [400, 800, 1200, 1920]
   card_block_image:
     markup: data_picture
     attributes:
       img: 'class="lazyload card-img-top"'
     formats: [webp, original]
-    widths: [400,600]
+    widths: [400, 600]
   feature_block_image:
     markup: data_picture
     attributes:
       img: 'class="lazyload img-fluid"'
     formats: [webp, original]
-    widths: [400,600,900, 1400]
+    widths: [400, 600, 900, 1400]
   featured_blog_image:
     markup: data_picture
     attributes:
-      img: 'class="lazyload img-fluid"'
+      img: 'class="lazyload img-fluid post_index_header_image"'
     formats: [webp, original]
-    widths: [400,600,900,1400]
+    widths: [400, 600, 900, 1400]
   slider_block_image:
     markup: data_picture
     attributes:
       img: 'class="lazyload img-fluid"'
     formats: [webp, original]
-    widths: [400,600,900, 1400]
+    widths: [400, 600, 900, 1400]
   youtube_poster_image:
     markup: direct_url
     attributes:
       img: 'class="lazyload img-fluid"'
     formats: [webp, original]
-    widths: [400,600,900,1400]
+    widths: [400, 600, 900, 1400]
   author_thumbnail:
     markup: data_picture
     attributes:
       img: 'class="lazyload rounded-circle"'
     formats: [webp, original]
-    widths: [50,100]
+    widths: [50, 100]
   author_thumbnail_small:
     markup: data_picture
     attributes:
