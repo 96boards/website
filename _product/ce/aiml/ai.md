@@ -20,7 +20,7 @@ tab_menu:
     - tab_title: Documentation
       tab_link: /documentation/consumer/aiml/
     - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/aiml/
+      tab_link: https://discuss.96boards.org/c/products/
       tab_align_right: true
 header-image: aiml-sd-front.jpg
 footer-image: aiml-sd-back.jpg
@@ -58,9 +58,9 @@ secondary-verticals:
 demos: ""
 documentation:
     - title: Hardware user guide
-      url: https://www.96boards.org/documentation/ce/aiml/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/aiml/hardware-docs/
     - title: Board schematics
-      url: https://www.96boards.org/documentation/ce/aiml/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/aiml/hardware-docs/
 whats-in-the-box:
     - AI_ML board
 buy-now: 

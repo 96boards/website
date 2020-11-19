@@ -31,14 +31,6 @@ product_images:
   - images/secure96-button-hd.jpg
   - images/secure96-angle1-hd.jpg
   - images/secure96-port-hd.jpg
-product_buy_links:
-  -
-    link-title: DevEstimator
-    link-price: 35
-    from: DevEstimator
-    type: board
-    link-price-currency: USD
-    link-url: "https://www.devestimator.com/hihope/product/secure-96/"
 product_sidebar_sections:
     - title: More Info
       icon: fa-external-link-square

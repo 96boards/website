@@ -192,7 +192,7 @@ The year started out strong with January seeing a plethora of announcements and 
     * Check out some of the cool 96Boards Tweets ([Tweet 1](https://twitter.com/96Boards/status/717382096994443265), [Tweet 2](https://twitter.com/96Boards/status/717396496589545472), [Tweet 3](https://twitter.com/jrwyngaard/status/717376650908819456))
 
 
-    * [David Mandala talk 96Boards](https://openiotelc2016.sched.com/event/6biO/from-96boards-to-the-cloud-david-mandala-linaro) and the Cloud ([View Slides](http://events.linuxfoundation.org/sites/events/files/slides/From%2096Boards%20to%20the%20Cloud.pdf))
+    * [David Mandala talk 96Boards](https://openiotelc2016.sched.com/event/6biO/from-96boards-to-the-cloud-david-mandala-linaro)
 
 
 
@@ -453,9 +453,6 @@ The year started out strong with January seeing a plethora of announcements and 
 
 
   * [TechDesign blogs](https://blog.techdesign.com/96board/) on the purpose and direction of 96Boards
-
-
-  * [Gumstix blogs](https://www.gumstix.com/blog/5752/) on Geppetto D20 mezzanine customization for all 96Boards
 
 
   * [Fujitsu issues press release](http://www.fujitsu.com/jp/group/fei/en/resources/news/2016/20161025.html) on F-Cue 96Boards

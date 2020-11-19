@@ -40,7 +40,7 @@ Like everything else these days, the answerer lies within BlockChain :p
 
 Jokes aside, the GPU crypto mining rage brought with it many creative ways to add as many GPU's as possible in as little space as possible. And one of the products was a mini-PCIe to x16 dongle with external power pins which fits perfectly for our use case.
 
-[Something like this.](https://www.newegg.com/Product/Product.aspx?Item=17Z-0007-003E6)
+[Something like this.](https://www.amazon.in/Graphics-Laptop-miniPCI-Riser-Adapter/dp/B06X9Y53WC)
 
 # The drivers and woes
 

@@ -27,7 +27,7 @@ At this stage, I am using only the two required APIs from GitHub and Twitter tha
 
 **Python3 Modules**
 - [Tweepy](http://www.tweepy.org/): An easy-to-use Python library for accessing the Twitter API.
-- [weather-api](https://pypi.org/project/weather-api/): A Python wrapper for the Yahoo Weather XML RSS feed.
+- [weather-api](https://pypi.org/project/python3-weather-api/): A Python wrapper for the Yahoo Weather XML RSS feed.
 - [datetime](https://docs.python.org/3/library/datetime.html#module-datetime): module supplies classes for manipulating dates and times in both simple and complex ways.
 - [pytz](https://pypi.org/project/pytz/): World timezone definitions, modern and historical
 - [systemd](https://pypi.org/project/systemd/): Python systemd wrapper.
