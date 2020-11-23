@@ -68,6 +68,7 @@ collections:
   documentation:
     output: true
     permalink: /:collection/:path/
+    layout: documentation
   authors:
     output: true
     permalink: /:collection/:path/
@@ -80,8 +81,9 @@ defaults:
   - scope:
       type: "documentation"
     values:
-      layout: "documentation-page"
-      toc: false
+      layout: "documentation"
+      toc: true
+      sticky_tab_bar: true
   - scope:
       path: "_projects/view"
     values:
@@ -140,6 +142,7 @@ http2_resources:
   - rel: preload
     as: font
     type: font/woff2
+    crossorigin: true
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
   enabled: true
@@ -177,6 +180,8 @@ blog_filler_element: blog/blog_filler_element.html
 avatar_placeholder: /assets/images/avatar-placeholder.jpg
 # Blog Post Image Placeholder
 post_placeholder: /assets/images/content/linaro-logo.png
+# Breadcrumb banner
+breadcrumb_banner: /assets/images/breadcrumb-banner.png
 # Social Media Links
 social_media_channels:
   github:
@@ -259,3 +264,13 @@ asset_pipeline:
 # newsletter:
 #     enabled: true
 #     url: https://96boards.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=e3d2abc041
+# jekyll-toc
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_class: list-group docs_nav sticky-top
+  sublist_class: "list-group"
+  item_class: toc-entry
+  item_prefix: toc-
