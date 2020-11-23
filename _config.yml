@@ -111,6 +111,8 @@ defaults:
       layout: post
       is_post: true
       comments: true
+      tags_enabled: true
+      strap_image: /assets/images/content/code_banner.jpg
       image: /assets/images/content/code_banner.jpg
       category: Blog
   - scope:

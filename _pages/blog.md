@@ -9,11 +9,11 @@ flow:
         - format: custom_include
           source: blog/post_search.html
           payload:
-              name: url
-              data: /assets/json/posts.json
-              category: Blog
+            name: url
+            search_label: 96Boards
+            category: blog
           # category: News
         - format: custom_include
           source: blog/display_latest_posts.html
-          category: Blog
+          category: blog
 ---
