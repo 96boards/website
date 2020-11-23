@@ -2,10 +2,9 @@
 title: 96Boards Verticals
 description: |-
   Boards for DIY Projects. ARM Boards for Hobbyist hacks. Powerful Open Source Boards for Maker community
-keywords: |-
 permalink: /verticals/
 status: active
-layout: jumbotron-container
+layout: flow
 ---
 
 # 96Boards Verticals

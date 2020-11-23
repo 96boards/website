@@ -4,13 +4,12 @@ permalink: /go/autoware-on-96boards-hackathon/
 description: >
     Hosted by 96Boards at Cranfield University - 28th, 29th and 30th May 2019.
 keywords: Autoware, AI, Hackathon, UK, 96Boards, Dragonboard 845, Hikey970, Machine Learning, TierIV
-layout: jumbotron-container
+layout: flow
 image: /assets/images/content/hackathon-mexico.png
 jumbotron:
-    image: /assets/images/content/hackaton-text-block.png
-    title: ""
+    title: Autoware on 96Boards Hackathon
     description: ""
-    background-image: /assets/images/content/hackaton-bg-image.jpg
+    image: /assets/images/content/hackaton-bg-image.jpg
 date: 2019-05-09 01:00:00+00:00
 ---
 

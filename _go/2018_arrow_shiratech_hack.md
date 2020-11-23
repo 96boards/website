@@ -3,11 +3,11 @@ title: Arrow / Shiratech - Online Hackathon
 description: |-
     Arrow and Shiratech host an online hackathon around any Arrow/Shiratech 96Boards technologies.
 permalink: /go/2018-arrow-shiratech-hack/
-layout: jumbotron-container
+layout: flow
 date: 2018-09-20 01:00:00+00:00
 image: /assets/images/content/autonomous-robot-challenge.png
 ---
-
+<div class="row">
 <div class="col-md-6" markdown="1">
 
 We invite Linaro developers and Linaro Connect attendees to join us for a fun and challenging Hackathon based on 96Boards, made by [Arrow Electronics](https://www.arrow.com/) and [Shiratech-solutions](http://www.shiratech-solutions.com/).
@@ -120,5 +120,6 @@ Note: If required, for EU based participants we can provide an EU LTE Mezzanine 
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
+</div>
 </div>
 </div>

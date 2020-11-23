@@ -4,7 +4,7 @@ description: |-
   Getting the high end audio devices seemed to be very expensive but with the advent of 96Boards, one can easily construct those devices with ease.
 permalink: /verticals/high-end-audio/
 status: active
-layout: jumbotron-container
+layout: flow
 ---
 
 # High End Audio
@@ -12,7 +12,6 @@ layout: jumbotron-container
 ## Introduction
 
 Getting the high end audio devices seemed to be very expensive but with the advent of 96Boards, one can easily construct those devices with ease. High end audio usually refers to the high quality in recording as well as playback. The ‘audiophiles’ are  more interested in getting quality in recording the sound rather than playing back. The recording of the sound depends on various factors such as Microphone, Audio filter, In-built amplifier and so on.
-
 
 ## How can you get involved?
 

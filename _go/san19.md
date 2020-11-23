@@ -3,7 +3,7 @@ title: SAN19 Linaro Connect - Community Day
 description: |-
     Linaro Connect (Linaro and 96Boards) will host UCSD students from the Electrical Engineering, Computer Engineering and Computer Science programs for a day packed full professions sessions, keynotes, a private seminar, lunch and a hackathon!
 permalink: /go/san19-community/
-layout: jumbotron-container
+layout: flow
 css-package: openhours
 date: 2019-08-29 01:00:00+00:00
 image: /assets/images/content/autonomous-robot-challenge.png

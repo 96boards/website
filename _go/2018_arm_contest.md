@@ -3,13 +3,14 @@ title: The Autonomous Robot Challenge - Arm 2018
 description: |-
     Ultra96 Contest by Arm and Hackster.io
 permalink: /go/2018-arm-contest/
-layout: jumbotron-container
+layout: flow
 css-package: openhours
 image: /assets/images/content/autonomous-robot-challenge.png
 date: 2018-10-30 01:00:00+00:00
+flow:
+ - row: main_content_row
 ---
-
-<div class="col-md-6" markdown="1">
+<div class="col col-12 col-md-6" markdown="1">
 
 [Arm](https://www.arm.com/) has launched a contest with [Hackster.io](https://www.hackster.io/) around building autonomous robots! While the contest has been live for some time now, we at 96Boards have only recently debuted our participation. So... If you are here, it is because you either accidentally stumbled across this digital gold, or because you are already thinking about participating in this amazing opportunity.
 
@@ -78,7 +79,7 @@ date: 2018-10-30 01:00:00+00:00
 ***
 
 </div>
-<div class="col-md-6">
+<div class="col col-12 col-md-6">
 <div class="openhours-panel" markdown="1" id="openhours-panel">
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2219515" frameborder="0"></iframe>
