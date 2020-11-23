@@ -155,3 +155,9 @@ markup_presets:
     fallback_format: webp
     fallback_width: 400
     widths: [400]
+  breadcrumb_banner:
+    markup: data_picture
+    attributes:
+      img: 'class="lazyload breadcrumb_image"'
+    formats: [webp, original]
+    widths: [1000, 1200, 2000]
