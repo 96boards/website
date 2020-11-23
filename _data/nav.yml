@@ -1,101 +1,105 @@
 search:
-    enabled: true
-    label: 96Boards
+  enabled: true
+  label: 96Boards
 universal_nav: true
+expand_breakpoint: lg
+brand:
+  path: /assets/images/logo.svg
+  alt: 96Boards logo
 pages:
-    - title: About
-      options:
-          - text: Overview
-            url: /about/
-          - text: Specifications
-            url: /specifications/
-          - text: Compliance
-            url: /compliance/
-          - text: Membership
-            url: /membership/
-          - text: News
-            url: /news/
-    - title: Products
-      active_paths:
-        - /product/
-      options:
-          - text: All Boards
-            url: /products/
-          - text: Consumer Edition (CE)
-            url: /products/ce/
-          - text: Enterprise Edition (EE)
-            url: /products/ee/
-          - text: IoT Edition (IE)
-            url: /products/ie/
-          - text: SoM Edition (SE)
-            options:
-              - text: All
-                url: /products/se/
-              - text: Carrier Boards
-                url: /products/se/carrier-boards/
-              - text: Modules
-                url: /products/se/modules/
-          - text: Auto Edition (AE)
-            options:
-              - text: All
-                url: /products/ae/
-              - text: PCU
-                url: /products/ae/pcu/
-              - text: CCU
-                url: /products/ae/ccu/
-              - text: Drone
-                url: /products/ae/drone/
-          - text: Mezzanine Products
-            url: /products/mezzanine/
-          - text: Archived 96Boards
-            url: /products/archived/
-          - text: Compare 96Boards
-            url: /products/compare/
-          - text: Accessories
-            url: /products/accessories/
-    - title: Initiatives
-      options:
-          - text: Blog
-            url: /blog/
-          - text: OpenHours
-            url: /openhours/
+  - title: About
+    options:
+      - text: Overview
+        url: /about/
+      - text: Specifications
+        url: /specifications/
+      - text: Compliance
+        url: /compliance/
+      - text: Membership
+        url: /membership/
+      - text: News
+        url: /news/
+  - title: Products
+    active_paths:
+      - /product/
+    options:
+      - text: All Boards
+        url: /products/
+      - text: Consumer Edition (CE)
+        url: /products/ce/
+      - text: Enterprise Edition (EE)
+        url: /products/ee/
+      - text: IoT Edition (IE)
+        url: /products/ie/
+      - text: SoM Edition (SE)
+        options:
+          - text: All
+            url: /products/se/
+          - text: Carrier Boards
+            url: /products/se/carrier-boards/
+          - text: Modules
+            url: /products/se/modules/
+      - text: Auto Edition (AE)
+        options:
+          - text: All
+            url: /products/ae/
+          - text: PCU
+            url: /products/ae/pcu/
+          - text: CCU
+            url: /products/ae/ccu/
+          - text: Drone
+            url: /products/ae/drone/
+      - text: Mezzanine Products
+        url: /products/mezzanine/
+      - text: Archived 96Boards
+        url: /products/archived/
+      - text: Compare 96Boards
+        url: /products/compare/
+      - text: Accessories
+        url: /products/accessories/
+  - title: Initiatives
+    options:
+      - text: Blog
+        url: /blog/
+      - text: OpenHours
+        url: /openhours/
+      - text: Projects
+        options:
           - text: Projects
-            options:
-              - text: Projects
-                url: /projects/
-              - text: Contribute
-                url: /projects/contribute/
-              - text: FAQ
-                url: /projects/faq/
-              - text: Submit a Project
-                url: /projects/submit/
-          - text: Go Events
-            url: /go/
-          - text: 96Boards Pinout
-            url: /pinout/
-    - title: Documentation
-      options:
-          - text: All Documentation
-            url: /documentation/
-          - text: Guides
-            url: /documentation/guides/
-          - text: Consumer Edition Docs
-            url: /documentation/consumer/
-          - text: Enterprise Edition Docs
-            url: /documentation/enterprise/
-          - text: IoT Edition Docs
-            url: /documentation/iot/
-          - text: Mezzanine Products Docs
-            url: /documentation/mezzanine/
-          - text: Specification Docs
-            url: /documentation/Specifications/
-          - text: Contribution Policy
-            url: /documentation/CONTRIBUTE.md.html
-    - title: Support
-      options:
-          - text: Discussion Forum
-            url: https://discuss.96boards.org/
-          - text: 96Boards Discord
-            url: https://discord.gg/x5uMn5d
-          - text: Partner Services
-            url: /services/
+            url: /projects/
+          - text: Contribute
+            url: /projects/contribute/
+          - text: FAQ
+            url: /projects/faq/
+          - text: Submit a Project
+            url: /projects/submit/
+      - text: Go Events
+        url: /go/
+      - text: 96Boards Pinout
+        url: /pinout/
+  - title: Documentation
+    options:
+      - text: All Documentation
+        url: /documentation/
+      - text: Guides
+        url: /documentation/guides/
+      - text: Consumer Edition Docs
+        url: /documentation/consumer/
+      - text: Enterprise Edition Docs
+        url: /documentation/enterprise/
+      - text: IoT Edition Docs
+        url: /documentation/iot/
+      - text: Mezzanine Products Docs
+        url: /documentation/mezzanine/
+      - text: Specification Docs
+        url: /documentation/Specifications/
+      - text: Contribution Policy
+        url: /documentation/CONTRIBUTE.md.html
+  - title: Support
+    options:
+      - text: Discussion Forum
+        url: https://discuss.96boards.org/
+      - text: 96Boards Discord
+        url: https://discord.gg/x5uMn5d
+      - text: Partner Services
+        url: /services/
