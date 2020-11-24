@@ -1,7 +1,7 @@
 ---
-layout: jumbotron
+layout: flow
 js-package: products
-css-package: products
+css_bundle: products
 seo:
     type: Product
 ---
@@ -11,7 +11,7 @@ seo:
     {% include 96boards-tab-bar.html %}
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-4 col-md-push-8" >
+            <div class="col col-12 col-md-4 order-md-2" >
                 <div id="product-image-carousel">
                     <div class="owl-carousel owl-theme">
                         {% if page.product_specification %}
@@ -114,7 +114,7 @@ seo:
                     </ul>
                 {% endif %}
             </div>
-            <div class="col-sm-12 col-md-8 col-md-pull-4">
+            <div class="col col-12 col-md-8 order-md-1">
                 {{content}}
                 {% if page.display_attributes_table %}
                     <table>
@@ -156,11 +156,11 @@ seo:
         </div><!-- end row-->
         {% if page.product_bottom_section %}
             <div class="row">
-                <div class="col-md-8">
+                <div class="col col-12 col-md-8">
                     <hr>
                     <div class="row product-bottom-panel">
                         {% for section in page.product_bottom_section %}
-                            <div class="col-md-4">
+                            <div class="col col-12 col-md-4">
                                 <ul class="list-group">
                                     {% if section.url %}<a href="{{section.url}}">{% endif %}
                                         <li class="list-group-item active">
