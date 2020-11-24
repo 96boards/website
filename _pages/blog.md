@@ -7,7 +7,7 @@ flow:
     - row: container_row
       sections:
         - format: custom_include
-          source: blog/post_search.html
+          source: blog/post_search_fess.html
           payload:
             name: url
             search_label: 96Boards
