@@ -10,8 +10,7 @@ title: Some 96Boards updates from different Regions
 wordpress_id: 20519
 image: /assets/images/blog/globe.png
 image_name: globe.png
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
 image_name: Screen-Shot-2017-01-20-at-1.57.58-PM-1.png
 title: ST, System Level ESD Protection and OpenHours
 wordpress_id: 19616
-categories:
-- blog
+category: blog
 ---
 
 It all started with an email and a referral, and before you know it, the 96Boards OpenHours team was ready to meet with the great minds of **[STMicroelectronics](http://www.st.com)**. **The topic you ask?** None other than **System Level ESD(Electro Static Discharge) protection**. Believe it or not, I am a novice at the subject and was very excited to learn about anything these guys were willing to teach. That being said, while going through their presentation and hearing about how much work actually goes into these chips and devices, I was mesmerized and overwhelmed with flashbacks of the many hours spent on paper engineering in my undergrad. Transmission lines, impedance matching, circuit design and calculation, so many disciplines for solving a single, yet very important problem. My PTSD faded as the ST Engineers pointed out **[a wonderful online tool](http://www.st.com/tvs-smartselector)** that does everything for you! Not only will this tool help you with the many calculations that come with this process, but it will even recommend parts and help you buy them. It is clear, a lot of work went into this software. So much so,  the process has been forever changed. Anyone who would like to integrate professional levels of ESD protection into their devices can now visit this website and get started:

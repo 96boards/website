@@ -9,8 +9,7 @@ image: /assets/images/blog/Screen-Shot-2016-06-08-at-12.33.49-AM-1.png
 image_name: Screen-Shot-2016-06-08-at-12.33.49-AM-1.png
 title: How to use the Arduino IDE with the Sensors Mezzanine Board under Linux
 wordpress_id: 17425
-categories:
-- blog
+category: blog
 ---
 
 I was asked the other day to write a blog about using using the Arduino IDE with the Sensors Mezzanine Board. It’s pretty easy to use, there are some steps you need to do to make it work but nothing too hard.

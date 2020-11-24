@@ -7,8 +7,7 @@ image: /assets/images/blog/agl-demo.jpg
 image_name: agl-demo.jpg
 image_thumb: agl-demo-thumb.jpg
 title: Automotive Grade Linux on Dragonboard410c - Part 3
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

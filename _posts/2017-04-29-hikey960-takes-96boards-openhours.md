@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-348.png
 image_name: Screenshot-348.png
 title: HiKey960 takes over 96Boards and OpenHours!
 wordpress_id: 20337
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - ADSLzone

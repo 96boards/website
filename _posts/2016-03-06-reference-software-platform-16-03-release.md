@@ -9,8 +9,7 @@ image: /assets/images/blog/youtube-banner.jpg
 image_name: youtube-banner.jpg
 title: Reference Software Platform 16.03 Release!
 wordpress_id: 12396
-categories:
-- blog
+category: blog
 ---
 
 We are happy to announce the 16.03 release for the Reference Software

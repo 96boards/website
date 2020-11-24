@@ -10,8 +10,7 @@ image_name: devicetree.png
 image_thumb: devicetree-thumb.png
 title: Device Tree Overlay on 96Boards
 wordpress_id: 20365
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

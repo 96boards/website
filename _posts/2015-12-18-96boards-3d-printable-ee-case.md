@@ -9,8 +9,7 @@ image: /assets/images/blog/96boards-3d-case.jpg
 image_name: 96boards-3d-case.jpg
 title: 96Boards 3D printable EE case
 wordpress_id: 10181
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

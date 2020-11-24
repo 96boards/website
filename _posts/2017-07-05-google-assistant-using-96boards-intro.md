@@ -5,8 +5,7 @@ date: 2017-07-05 09:00:00+00:00
 title: Introduction to Google Assistant using 96Boards
 series: Google Assistant on 96Boards
 image: /assets/images/blog/google-assistant-96boards-feature.jpg
-categories:
-- blog
+category: blog
 tags:
 - 64-Bit
 - 96Boards

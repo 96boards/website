@@ -9,8 +9,7 @@ image: /assets/images/blog/akira-blog-image.jpg
 image_name: akira-blog-image.jpg
 title: Programing I2C devices with libmraa and libupm
 wordpress_id: 15078
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

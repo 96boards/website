@@ -10,8 +10,7 @@ image_name: Example_of_Canadian_Cross_scheme.png
 title: How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa
   libraries
 wordpress_id: 15399
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

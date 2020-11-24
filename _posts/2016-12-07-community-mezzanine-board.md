@@ -9,8 +9,7 @@ image: /assets/images/blog/CommunityBoard.png
 image_name: CommunityBoard.png
 title: Community Mezzanine Board
 wordpress_id: 18920
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

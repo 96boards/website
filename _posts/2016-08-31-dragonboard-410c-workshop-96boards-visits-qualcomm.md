@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-118.png
 image_name: Screenshot-118.png
 title: DragonBoard 410c Workshop - 96Boards visits Qualcomm
 wordpress_id: 16897
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

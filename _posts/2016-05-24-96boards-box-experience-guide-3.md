@@ -12,9 +12,7 @@ wordpress_id: 14690
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 3D print
 - 3D printed case

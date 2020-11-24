@@ -9,8 +9,7 @@ image: /assets/images/blog/3D-Case-SensorBoard-s.png
 image_name: 3D-Case-SensorBoard-s.png
 title: Files of 96Boards CE Cases with Mezzanine Boards for 3D printers
 wordpress_id: 12788
-categories:
-- blog
+category: blog
 post_format:
 - Gallery
 ---

@@ -9,8 +9,7 @@ image: /assets/images/blog/Geppetto_blank_base.png
 image_name: Geppetto_blank_base.png
 title: GEPPETTOTMOffers Makers Rapid Path to Market
 wordpress_id: 16643
-categories:
-- blog
+category: blog
 ---
 
 # GEPPETTOTM Offers Makers Rapid Path to Market

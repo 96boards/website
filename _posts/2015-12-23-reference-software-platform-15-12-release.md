@@ -12,8 +12,7 @@ wordpress_id: 10213
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - dragonboard410c
 - enterprise

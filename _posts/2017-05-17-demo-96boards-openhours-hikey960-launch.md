@@ -9,8 +9,7 @@ image: /assets/images/blog/image006.png
 image_name: image006.png
 title: Demo during 96Boards OpenHours, HiKey960 launch
 wordpress_id: 20375
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - HiKey

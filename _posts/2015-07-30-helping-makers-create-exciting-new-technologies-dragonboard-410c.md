@@ -11,8 +11,7 @@ title: Helping Makers Create Exciting New Technologies with the DragonBoard 410c
 wordpress_id: 16302
 Boards:
   - DragonBoard 410c
-categories:
-  - Tutorials
+category: blog
 tags:
   - dragonboard410c
 ---

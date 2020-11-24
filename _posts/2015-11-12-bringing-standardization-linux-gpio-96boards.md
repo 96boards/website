@@ -11,8 +11,7 @@ title: Bringing Standardization to Linux GPIO for 96Boards
 wordpress_id: 9175
 Boards:
 - DragonBoard 410c
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

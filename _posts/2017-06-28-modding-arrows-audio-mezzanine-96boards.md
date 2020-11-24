@@ -10,8 +10,7 @@ title: Modding Arrow’s Audio Mezzanine for 96Boards
 wordpress_id: 20519
 image: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
 image_name: modding-arrow-audio-mezz-img-1.jpg
-categories:
-- blog
+category: blog
 tags:
 - 64-Bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-356.png
 image_name: Screenshot-356.png
 title: Part 2 - Facial recognition using OpenCV on 96Boards
 wordpress_id: 20398
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - ARM

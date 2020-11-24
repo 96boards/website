@@ -7,8 +7,7 @@ slug: basic-threads-zephyr
 image: /assets/images/blog/zephyr.jpg
 image_name: zephyr.jpg
 title: Basic Threads on Zephyr RTOS
-categories:
-- blog
+category: blog
 tags:
 - Cortex-M4
 - 96Boards

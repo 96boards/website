@@ -9,8 +9,7 @@ image: /assets/images/blog/youtube-banner.jpg
 image_name: youtube-banner.jpg
 title: Reference Software Platform 16.06 Release!
 wordpress_id: 15630
-categories:
-- blog
+category: blog
 tags:
 - '16.06'
 - 64-bit

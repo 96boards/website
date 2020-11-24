@@ -9,9 +9,7 @@ image: /assets/images/blog/Screen-Shot-2016-06-08-at-12.33.49-AM.png
 image_name: Screen-Shot-2016-06-08-at-12.33.49-AM.png
 title: 96Boards Out of box experience guide - part 5
 wordpress_id: 15029
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards

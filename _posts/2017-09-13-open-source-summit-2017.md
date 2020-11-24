@@ -9,8 +9,7 @@ image: /assets/images/blog/ossummit-2017-feature.JPG
 image_name: ossummit-2017-feature.JPG
 image_thumb: ossummit-2017-feature-thumb.JPG
 title: Open Source Summit - 2017
-categories:
-- blog
+category: blog
 tags:
 - open source summit
 - ossummit

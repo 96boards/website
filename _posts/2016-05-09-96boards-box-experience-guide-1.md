@@ -9,9 +9,7 @@ image: /assets/images/blog/20160506_144220.jpg
 image_name: 20160506_144220.jpg
 title: 96Boards Out of box experience guide - part 1
 wordpress_id: 13925
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards

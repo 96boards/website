@@ -10,8 +10,7 @@ image_name: DB410cAudioMezz.jpg
 title: OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine with Jean-Marc
   Jobin
 wordpress_id: 20233
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

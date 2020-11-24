@@ -9,8 +9,7 @@ title: DIY Drone featuring Gumstix! 96Boards take flight on OpenHours
 image: /assets/images/blog/drone_knoll.png
 image_name: drone_knoll.png
 wordpress_id: 18309
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Aerocore 2

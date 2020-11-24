@@ -9,8 +9,7 @@ image: /assets/images/blog/Screen-Shot-2016-03-15-at-14.04.26.png
 image_name: Screen-Shot-2016-03-15-at-14.04.26.png
 title: Qualcomm Maker Month Contest
 wordpress_id: 12800
-categories:
-- blog
+category: blog
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/2GwN--2sDMw" %}

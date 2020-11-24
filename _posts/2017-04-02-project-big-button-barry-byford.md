@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-328.png
 image_name: Screenshot-328.png
 title: '"Project BIG Button" with Barry Byford'
 wordpress_id: 20139
-categories:
-- blog
+category: blog
 tags:
 - 2016 review
 - 64-bit

@@ -11,9 +11,7 @@ title: Running a KVM guest on HiKey
 wordpress_id: 17013
 Boards:
 - HiKey
-categories:
-- blog
-- Tutorials
+category: blog
 tags:
 - 96Board
 - HiKey

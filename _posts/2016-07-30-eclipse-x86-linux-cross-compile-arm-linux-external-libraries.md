@@ -10,8 +10,7 @@ image_name: Example_of_Canadian_Cross_scheme.png
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external
   libraries
 wordpress_id: 16096
-categories:
-- blog
+category: blog
 ---
 
 In my [last blog](/blog/cross-compile-files-x86-linux-to-96boards/) I showed how to install Eclipse for C & C++ development for basic cross compilation. This time I’ll show you how to setup an ssh key so Eclipse can automatically copy an ARM binary over to your 96Boards development system, and I’ll show you how to use external libraries ([libsoc](https://github.com/jackmitch/libsoc) and [mraa](https://github.com/intel-iot-devkit/mraa)). My next blog will cover remote debugging.

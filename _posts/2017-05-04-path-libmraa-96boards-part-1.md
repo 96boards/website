@@ -9,8 +9,7 @@ image: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
 image_name: path-libmraa-96boards-part-2-featured.png
 title: Our path to libmraa on 96Boards - Part 1
 wordpress_id: 20355
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - ARM

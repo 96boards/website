@@ -9,8 +9,7 @@ image: /assets/images/blog/2.png
 image_name: 2.png
 title: Gui & command line remote debugging
 wordpress_id: 16751
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

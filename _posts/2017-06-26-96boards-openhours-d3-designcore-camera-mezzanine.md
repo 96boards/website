@@ -10,8 +10,7 @@ title: 96Boards OpenHours#59 and the D3 DesignCore Camera Mezzanine announcement
 wordpress_id: 20519
 image: /assets/images/blog/d3-openhours-img-1.png
 image_name: d3-openhours-img-1.png
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

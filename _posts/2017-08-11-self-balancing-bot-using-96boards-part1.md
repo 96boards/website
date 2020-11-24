@@ -6,8 +6,7 @@ layout: post
 image: /assets/images/blog/mpu6050.jpg
 image_name: mpu6050.jpg
 title: Self Balancing Bot using 96Boards - Part 1
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

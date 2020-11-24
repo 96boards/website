@@ -8,8 +8,7 @@ slug: google-assistant-96boards-instructions
 series: Google Assistant on 96Boards
 title: Instructions for Google Assistant on 96Boards
 image: /assets/images/blog/google-assistant-96boards.jpg
-categories:
-- blog
+category: blog
 tags:
 - 64-Bit
 - 96Boards

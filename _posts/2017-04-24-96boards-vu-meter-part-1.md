@@ -9,8 +9,7 @@ image: /assets/images/blog/IMG20170420145210.jpg
 image_name: IMG20170420145210.jpg
 title: 96Boards VU Meter - Part 1
 wordpress_id: 20259
-categories:
-- blog
+category: blog
 ---
 
 # **Introduction**

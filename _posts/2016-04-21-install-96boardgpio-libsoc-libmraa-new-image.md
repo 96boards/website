@@ -9,8 +9,7 @@ image: /assets/images/blog/lcelc-elc-edited2.jpg
 image_name: lcelc-elc-edited2.jpg
 title: How do you install 96BoardGPIO, libsoc and libmraa on a new image?
 wordpress_id: 13778
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - Android

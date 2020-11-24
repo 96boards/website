@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-39.png
 image_name: Screenshot-39.png
 title: Ramblings of Mezzanine boards
 wordpress_id: 17252
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

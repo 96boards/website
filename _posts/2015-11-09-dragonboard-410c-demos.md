@@ -11,8 +11,7 @@ title: DragonBoard 410c and demos
 wordpress_id: 9137
 Boards:
 - DragonBoard 410c
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

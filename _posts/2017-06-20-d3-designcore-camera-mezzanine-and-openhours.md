@@ -10,8 +10,7 @@ title: D3 DesignCore™ Camera Mezzanine Board on OpenHours
 wordpress_id: 20519
 image: /assets/images/blog/d3-camera-img-1.jpg
 image_name: d3-camera-img-1.jpg
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/screenshot355.png
 image_name: screenshot355.png
 title: Laser cutting for 96Boards with Daniel T.
 wordpress_id: 20167
-categories:
-- blog
+category: blog
 tags:
 - 2016 review
 - 64-bit

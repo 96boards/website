@@ -9,8 +9,7 @@ image: /assets/images/blog/Pic2.jpg
 image_name: Pic2.jpg
 title: Part 3 - Webcam Tracking using 96Boards Sensor Mezzanine
 wordpress_id: 20430
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

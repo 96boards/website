@@ -7,8 +7,7 @@ slug: neonkey-aosp
 image: /assets/images/blog/neonkey.jpg
 image_name: neonkey.jpg
 title: Implementing Neonkey Sensor Mezzanine on AOSP
-categories:
-- blog
+category: blog
 tags:
 - Cortex-M4
 - 96Boards

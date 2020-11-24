@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-193.png
 image_name: Screenshot-193.png
 title: '96Boards Survey: What do 96Boards users care about?'
 wordpress_id: 18632
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

@@ -9,8 +9,7 @@ image: /assets/images/blog/Xenomai-96Boards.jpg
 image_name: Xenomai-96Boards.jpg
 title: Xenomai on the 96Boards
 wordpress_id: 9103
-categories:
-- blog
+category: blog
 tags:
 - embedded
 - pwm

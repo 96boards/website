@@ -9,8 +9,7 @@ image: /assets/images/blog/Poplar-Board-Front-Web.jpg
 image_name: Poplar-Board-Front-Web.jpg
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board
 wordpress_id: 16962
-categories:
-- blog
+category: blog
 tags:
 - HiSilicon
 - Poplar

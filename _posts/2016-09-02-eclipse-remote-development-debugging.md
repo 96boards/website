@@ -9,8 +9,7 @@ image: /assets/images/blog/20_RemoteDebugging-1.png
 image_name: 20_RemoteDebugging-1.png
 title: Eclipse remote development and debugging
 wordpress_id: 16973
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

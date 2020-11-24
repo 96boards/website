@@ -10,8 +10,7 @@ image_name: path-libmraa-96boards-part-2-featured.png
 image_thumb: path-libmraa-96boards-part-2-featured-thumb.png
 title: Our path to libmraa on 96Boards – Part 6
 wordpress_id:
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/pcb-idea.png
 image_name: pcb-idea.png
 title: So you have an idea for a PCB?
 wordpress_id: 8888
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - DRC

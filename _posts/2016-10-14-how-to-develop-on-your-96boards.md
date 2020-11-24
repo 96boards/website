@@ -9,8 +9,7 @@ image: /assets/images/blog/17-1.jpg
 image_name: 17-1.jpg
 title: How to develop on your 96Boards
 wordpress_id: 17758
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

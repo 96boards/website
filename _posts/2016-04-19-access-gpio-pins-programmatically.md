@@ -9,8 +9,7 @@ image: /assets/images/blog/Linaro-ELC-2-e1461073837775.jpg
 image_name: Linaro-ELC-2-e1461073837775.jpg
 title: How do you access the GPIO pins programmatically?
 wordpress_id: 13586
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

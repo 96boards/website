@@ -10,8 +10,7 @@ title: Story of a 96Boards Magic 8-Ball and Digital Hourglass
 wordpress_id: 20519
 image: /assets/images/blog/8-ball-feature.jpg
 image_name: 8-ball-feature.jpg
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

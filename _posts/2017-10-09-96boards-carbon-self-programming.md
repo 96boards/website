@@ -8,8 +8,7 @@ slug: 96boards-carbon-self-programming
 image: /assets/images/blog/96boards-carbon-self-programming.jpg
 image_name: 96boards-carbon-self-programming.jpg
 title: Self Programming Using 96Boards Carbon
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/neonkey-hd.jpg
 image_name: neonkey-hd.jpg
 image_thumb: neonkey.jpg
 title: Zephyr on 96Boards Neonkey
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

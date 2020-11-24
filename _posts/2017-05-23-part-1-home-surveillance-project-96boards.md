@@ -9,8 +9,7 @@ image: /assets/images/blog/96Boards-Web-Cam.jpg
 image_name: 96Boards-Web-Cam.jpg
 title: Part 1 - Introduction to ‘Home Surveillance’ using 96Boards
 wordpress_id: 20389
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - ARM

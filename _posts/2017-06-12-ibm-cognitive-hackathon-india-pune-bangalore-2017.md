@@ -9,8 +9,7 @@ slug: ibm-cognitive-hackathon-india-pune-bangalore-2017
 title: IBM Cognitive Hackathon in India (Pune and Bangalore) - 2017
 wordpress_id: 20500
 image: /assets/images/blog/ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

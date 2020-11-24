@@ -9,8 +9,7 @@ image: /assets/images/blog/banner_850x510_D-696x418-1.jpg
 image_name: banner_850x510_D-696x418-1.jpg
 title: 96Boards in Brazil - Country wide IoT Partnership Program!
 wordpress_id: 20176
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Arrow

@@ -9,8 +9,7 @@ image: /assets/images/blog/110060157-1.jpg
 image_name: 110060157-1.jpg
 title: 96Boards Consumer Edition, IoT and using sensors
 wordpress_id: 19770
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

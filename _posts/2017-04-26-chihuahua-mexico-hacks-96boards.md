@@ -9,8 +9,7 @@ image: /assets/images/blog/SmartCitiesHackathonMEXINVITE.png
 image_name: SmartCitiesHackathonMEXINVITE.png
 title: Chihuahua, Mexico hacks 96Boards
 wordpress_id: 20180
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - brace yourself

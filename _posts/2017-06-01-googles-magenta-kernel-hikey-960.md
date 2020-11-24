@@ -9,8 +9,7 @@ title: Google’s Magenta Kernel On The Hikey 960
 wordpress_id: 20437
 image: /assets/images/blog/Screenshot-360.png
 image_name: Screenshot-360.png
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -9,8 +9,7 @@ image: /assets/images/blog/boards-blog1.jpg
 image_name: boards-blog1.jpg
 title: The beginning of 96Boards
 wordpress_id: 8724
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

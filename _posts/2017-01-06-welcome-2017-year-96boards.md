@@ -9,8 +9,7 @@ link: /blog/welcome-2017-year-96boards/
 slug: welcome-2017-year-96boards
 title: Welcome to 2017, Year of the 96Boards!
 wordpress_id: 19285
-categories:
-- blog
+category: blog
 tags:
 - 2016 review
 - 64-bit

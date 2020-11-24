@@ -9,8 +9,7 @@ image: /assets/images/blog/Featureimage.jpg
 image_name: Featureimage.jpg
 title: Playing on the 96Boards Sensors Mezzanine with Jean-Marc Jobin
 wordpress_id: 20320
-categories:
-- blog
+category: blog
 tags:
 - '960'
 - 96Boards

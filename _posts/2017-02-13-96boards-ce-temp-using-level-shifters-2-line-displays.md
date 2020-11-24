@@ -9,8 +9,7 @@ image: /assets/images/blog/2BOBRed.jpg
 image_name: 2BOBRed.jpg
 title: 96Boards CE what temp is it? Using level shifters and 2-line displays
 wordpress_id: 19924
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit Linux

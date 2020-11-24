@@ -12,8 +12,7 @@ wordpress_id: 14421
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - bubblegum-96

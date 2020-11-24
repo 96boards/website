@@ -9,8 +9,7 @@ image: /assets/images/blog/blog-archermind-96boards.jpg
 image_name: blog-archermind-96boards.jpg
 title: ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product
 wordpress_id: 16476
-categories:
-- blog
+category: blog
 post_format:
 - Link
 ---

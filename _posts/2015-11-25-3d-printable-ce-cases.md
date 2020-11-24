@@ -12,8 +12,7 @@ wordpress_id: 9804
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - Android

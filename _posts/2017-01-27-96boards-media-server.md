@@ -9,8 +9,7 @@ image: /assets/images/blog/ReadyMediaServer.png
 image_name: ReadyMediaServer.png
 title: Setting up a home 96Boards media server
 wordpress_id: 19681
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

@@ -9,8 +9,7 @@ image: /assets/images/blog/96Boardsbackground2HD1.jpg
 image_name: 96Boardsbackground2HD1.jpg
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux
 wordpress_id: 15744
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit

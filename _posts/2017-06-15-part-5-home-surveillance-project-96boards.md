@@ -11,8 +11,7 @@ wordpress_id: 20519
 image: /assets/images/blog/surveillance-152097_960_720-1.png
 image_name: surveillance-152097_960_720-1.png
 
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

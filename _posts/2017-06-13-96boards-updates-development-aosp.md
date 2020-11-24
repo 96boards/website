@@ -10,8 +10,7 @@ image: /assets/images/blog/hikey-960-SD-front-500x330.jpg
 image_name: hikey-960-SD-front-500x330.jpg
 title: 96Boards Updates on development in AOSP
 wordpress_id: 20504
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Android

@@ -9,8 +9,7 @@ image: /assets/images/blog/aws_s3.png
 image_name: aws_s3.png
 title: Part 4 - Setting up your Amazon Web Service (AWS) Cloud Service
 wordpress_id: 20460
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

@@ -12,8 +12,7 @@ wordpress_id: 11072
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - daughterboard

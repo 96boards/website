@@ -9,8 +9,7 @@ image: /assets/images/blog/Screenshot-327.png
 image_name: Screenshot-327.png
 title: 96Boards for 96Brews - Automated Home Brewing
 wordpress_id: 20129
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
