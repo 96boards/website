@@ -15,6 +15,9 @@ $universal_navbar_bg_color: $primary;
 $navbar_height_padding: 5px;
 $navbar_text_color: #fff;
 $navbar_bg_color: #000;
+// Breakpoint at which navbars are expanded
+// Also set in the _data/nav.yml file - both are needed
+$nav_expand_point: "lg";
 // Jumbotron
 $jumbotron_bg_color: lightgray;
 $jumbotron_height: 350px;

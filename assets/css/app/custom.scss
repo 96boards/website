@@ -1,57 +1,98 @@
 .display-5 {
-    font-size: 2.6rem;
-    font-weight: 300;
-    line-height: 1.2;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 @include media-breakpoint-down(sm) {
-    .display-4,
-    .display-5 {
-        font-size: 2rem;
-    }
+  .display-4,
+  .display-5 {
+    font-size: 2rem;
+  }
 }
 .contain_images img {
-    object-fit: contain !important;
+  object-fit: contain !important;
 }
 
 #wrapper {
-    .products_wrapper {
-        overflow: auto;
-        border: 1px solid;
-        border-radius: 15px;
+  .jumbotron.ce {
+    background-color: #4e0a0d;
+  }
+  .jumbotron.ee {
+    background-color: #003808;
+  }
+  .jumbotron.ie {
+    background-color: #783b00;
+  }
+  .jumbotron.mezzanine {
+    background-color: #1b1b1b;
+  }
+  .jumbotron.som {
+    background-color: #450044;
+  }
+  .jumbotron.all {
+    background-color: #404040;
+  }
+  img.members-img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    padding: 5px;
+  }
+  table {
+    background: white;
+    border-radius: 0px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    animation: float 5s infinite;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.5px;
+    border-bottom: 5px #19937a solid;
+    margin-bottom: 40px;
+  }
+  .products_wrapper {
+    overflow: auto;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+  .featured-product {
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 4;
+      bottom: -30px;
+      left: 0;
+      pointer-events: none;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        #fff 90%
+      );
+      width: 100%;
+      height: 3em;
     }
-    .featured-product {
-        height: 250px;
-        text-align: center;
-        overflow: hidden;
-        &::after {
-            content: "";
-            position: absolute;
-            z-index: 4;
-            bottom: -30px;
-            left: 0;
-            pointer-events: none;
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 90%);
-            width: 100%;
-            height: 3em;
-        }
-        .card-img-top {
-            object-fit: contain;
-            width: auto;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 250px;
-            top: 50px;
-            position: relative;
-            transition: all 1s ease-in-out;
-        }
-        &:hover {
-            .card-img-top {
-                top: -40px;
-                transition: all 500ms ease-in-out;
-            }
-        }
+    .card-img-top {
+      object-fit: contain;
+      width: auto;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 250px;
+      top: 50px;
+      position: relative;
+      transition: all 1s ease-in-out;
     }
+    &:hover {
+      .card-img-top {
+        top: -40px;
+        transition: all 500ms ease-in-out;
+      }
+    }
+  }
 }
 // div#featured-jumbotron {
 //   padding-bottom: 30px;
@@ -595,25 +636,25 @@
 // div#submitProject {
 //   z-index: 999999;
 // }
-// #jumbotron.background-color.overlay:before {
+// .overlay:before {
 //   opacity: 0.8;
 // }
-// #jumbotron.background-color.ce {
+// .ce {
 //   background-color: #4e0a0d;
 // }
-// #jumbotron.background-color.ee {
+// .ee {
 //   background-color: #003808;
 // }
-// #jumbotron.background-color.ie {
+// .ie {
 //   background-color: #783b00;
 // }
-// #jumbotron.background-color.mezzanine {
+// .mezzanine {
 //   background-color: #1b1b1b;
 // }
-// #jumbotron.background-color.som {
+// .som {
 //   background-color: #450044;
 // }
-// #jumbotron.background-color.all {
+// .all {
 //   background-color: #1b1b1b;
 // }
 // div#flow_wrapper #content-container {
