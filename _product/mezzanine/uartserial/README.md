@@ -48,7 +48,7 @@ product_sidebar_sections:
         - title: 1 x  96Boards UART (96B-05UART-V1.1)
         - title: 2 x 2mm shunts
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: User Guide
           link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf

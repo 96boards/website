@@ -57,7 +57,7 @@ product_bottom_section:
           link: /product/audio-mezzanine/
 product_sidebar_sections:
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: AOSP
           link: /documentation/consumer/hikey970/downloads/aosp.md.html

@@ -45,14 +45,14 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: EDK2 (Firmware)
           link: /documentation/enterprise/developerbox/downloads/edk2.md.html
         - title: Debian
           link: /documentation/enterprise/developerbox/downloads/debian.md.html
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Socionext
           link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/

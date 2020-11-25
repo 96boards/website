@@ -28,7 +28,7 @@ product_images:
   - images/Poplar-Board-Back-Web-500x330.jpg
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Build from Source
           link: /documentation/enterprise/poplar/build/

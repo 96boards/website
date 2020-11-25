@@ -49,12 +49,12 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/consumer/dragonboard/dragonboard845c/downloads/
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.PDF

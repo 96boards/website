@@ -39,7 +39,7 @@ product_buy_links:
     link-url: https://www.arrow.com/en/products/hd96-trusted-platform/arrow-development-tools
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/shield96/downloads/

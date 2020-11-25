@@ -45,7 +45,7 @@ product_images:
   - images/HiKey_LeMaker_angle.jpg
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - link: /documentation/consumer/hikey/downloads/aosp.md.html
           title: AOSP
@@ -54,7 +54,7 @@ product_sidebar_sections:
         - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
           title: OpenEmbedded
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards

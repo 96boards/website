@@ -40,12 +40,12 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/ivy5661/downloads/
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: More Information
           link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf

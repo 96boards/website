@@ -25,7 +25,7 @@ product_buy_links:
     link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: AOSP Sensors Documentation
           link: https://source.android.com/devices/sensors/

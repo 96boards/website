@@ -43,7 +43,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/consumer/thor96/downloads/

@@ -44,7 +44,7 @@ product_buy_links:
     link-price-currency: RMB
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/consumer/parrot/downloads/

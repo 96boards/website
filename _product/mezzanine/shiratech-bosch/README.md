@@ -29,7 +29,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-bosch/shiratech"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: /documentation/mezzanine/shiratech-bosch-sensors/files/shiratech-bosch-sensors-quick-start.pdf

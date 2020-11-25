@@ -53,7 +53,7 @@ product_sidebar_sections:
         - title: "1 x Sensors Mezzanine Board (96B-05GROVE-C)"
           link: https://linaro.co/20n34bc
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Getting-Started PDF
           link: http://linaro.co/sensorkitpdf

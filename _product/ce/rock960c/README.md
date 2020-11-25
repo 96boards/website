@@ -40,7 +40,7 @@ product_buy_links:
 
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: AOSP
           link: /documentation/consumer/rock/downloads/android.md.html
@@ -49,7 +49,7 @@ product_sidebar_sections:
         - title: Ubuntu
           link: /documentation/consumer/rock/downloads/ubuntu.md.html
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: 96Rocks
           link: https://www.96rocks.com/

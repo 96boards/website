@@ -40,7 +40,7 @@ product_sidebar_sections:
         - title: Evaluation software plus limited demo applications and algorithms included
         - title: Depth mode, IR mode
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/documentation/raw/master/mezzanine/3dtof/files/3dtof-brief.pdf

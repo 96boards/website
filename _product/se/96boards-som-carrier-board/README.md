@@ -43,7 +43,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf

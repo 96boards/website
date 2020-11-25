@@ -31,7 +31,7 @@ product_images:
   - images/secure96-port-hd.jpg
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Schematics (View)
           link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf

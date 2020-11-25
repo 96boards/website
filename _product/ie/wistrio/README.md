@@ -40,12 +40,12 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/wistrio/downloads/
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: RAK Wireless
           link: https://www.rakwireless.com/

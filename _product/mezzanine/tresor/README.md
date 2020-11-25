@@ -29,7 +29,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/tresor/arrow-development-tools"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Datasheet
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/tresor/files/tresor-datasheet.pdf/

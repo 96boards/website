@@ -37,7 +37,7 @@ product_buy_links:
     link-url: https://www.fabtolab.com/boards/96boards/stm32-mezzanine-board
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Read More on ST.com
           link: http://linaro.co/stm32f446

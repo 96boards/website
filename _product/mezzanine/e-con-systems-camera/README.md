@@ -30,7 +30,7 @@ product_buy_links:
     link-url: "https://www.e-consystems.com/webstore.asp#rock96"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Introduction Video Link
           link: https://www.youtube.com/embed/LnrZPWTnyxw?controls=1

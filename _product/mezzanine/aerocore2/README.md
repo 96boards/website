@@ -53,7 +53,7 @@ product_sidebar_sections:
         - title: "USB Device - Micro B USB Plug"
         - title: "5-PIN GPS Connector"
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         -
           title: Technical Specification

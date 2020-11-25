@@ -47,12 +47,12 @@ product_buy_links:
     link-price-currency: INR
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Debian
           link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards

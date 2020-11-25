@@ -39,7 +39,7 @@ product_buy_links:
     link-url: https://www.arrow.com/en/products/srt-iot-cube-box/shiratech
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/stinger96/downloads/

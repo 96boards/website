@@ -35,7 +35,7 @@ product_buy_links:
     link-url: "https://linaro.co/orangepi-i96-buy"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Debian
           link: /documentation/iot/orangepi-i96/downloads/

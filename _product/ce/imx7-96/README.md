@@ -38,7 +38,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Android
           link: /documentation/consumer/imx7-96/downloads/

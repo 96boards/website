@@ -78,7 +78,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/som/tb-96ai/downloads/
@@ -87,7 +87,7 @@ product_sidebar_sections:
         - title: NPU SDK
           link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf

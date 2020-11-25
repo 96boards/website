@@ -32,7 +32,7 @@ product_buy_links:
     link-price: "￥800.0"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Build from Source
           link: /documentation/enterprise/poplar-hoperun/build/

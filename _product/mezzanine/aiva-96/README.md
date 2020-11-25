@@ -27,7 +27,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/aiva-96/wizeiot-inc"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: /documentation/mezzanine/aiva-96/files/aiva96-brief.pdf

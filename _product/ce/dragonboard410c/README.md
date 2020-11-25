@@ -82,7 +82,7 @@ product_buy_links:
     link-price-currency: INR
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Android
           link: /documentation/consumer/dragonboard410c/downloads/android.md.html
@@ -97,7 +97,7 @@ product_sidebar_sections:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Windows 10 IoT Core
           link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
@@ -108,7 +108,7 @@ product_sidebar_sections:
         - title: More Downloads
           link: /documentation/consumer/dragonboard410c/downloads/
     - title: Middleware & SDK's
-      icon: fa-code
+      icon: icon-file-code
       items:
         - title: AWS IoT SDK
           link: https://github.com/ArrowElectronics/aws-iot-device-sdk

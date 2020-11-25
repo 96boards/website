@@ -53,21 +53,21 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/consumer/ultra96/ultra96-v2/downloads/
         - title: Xilinx PYNQ
           link: http://www.pynq.io/board.html
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: OpenSUSE
           link: https://en.opensuse.org/HCL:Ultra96
         - title: X-Ware
           link: http://www.ultra96.org/node/26011
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Avnet Zedboard
           link: http://zedboard.org/product/ultra96

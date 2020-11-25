@@ -49,7 +49,7 @@ product_buy_links:
     link-price-currency: CNY
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Source SDK
           link: https://github.com/BM1880-BIRD/bm1880-system-sdk
@@ -60,7 +60,7 @@ product_sidebar_sections:
         - title: Sophon - Getting Started
           link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Phoenix
           link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html

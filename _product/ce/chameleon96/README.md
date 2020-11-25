@@ -40,7 +40,7 @@ product_buy_links:
         link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/consumer/chameleon96/installation/

@@ -30,12 +30,12 @@ product_images:
   - images/96b-0-bubblegum96-actions-ucrobotics-5.png
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Debian
           link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Phoenix
           link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html

@@ -42,7 +42,7 @@ product_buy_links:
     link-url: "https://www.fabtolab.com/boards/96boards/orange-pi-i96"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/bpi96/downloads/

@@ -40,7 +40,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/consumer/avenger96/hardware-docs/files/avenger96-hardware-user-manual.pdf
@@ -49,7 +49,7 @@ product_sidebar_sections:
         - title: Arrow Campaign
           link: https://www.arrow.com/en/campaigns/avengers
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/consumer/avenger96/downloads/

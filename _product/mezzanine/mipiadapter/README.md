@@ -20,7 +20,7 @@ product_sidebar_sections:
         - title: "Cameras supported by IPEX connector: OV7251, OV9281, OV8865, OV13850, MT9V024, MT9M031, AR0134, AR0144, IMX185, AR0230WDR"
         - title: "UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs"
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         -
           title: Github Repository

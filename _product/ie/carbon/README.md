@@ -36,7 +36,7 @@ product_buy_links:
     link-url: "https://www.fabtolab.com/boards/96boards/ble-carbon"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Zephyr
           link: /documentation/iot/carbon/downloads/zephyr.md.html

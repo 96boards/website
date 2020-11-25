@@ -30,7 +30,7 @@ product_buy_links:
 
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf

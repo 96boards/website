@@ -29,7 +29,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/oncameramezzaninear1337/arrow-development-tools"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: /documentation/mezzanine/on-camera/files/on-camera-quick-start.pdf

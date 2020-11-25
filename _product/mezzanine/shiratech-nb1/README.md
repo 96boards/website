@@ -28,7 +28,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-catm1nb1/shiratech"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-nb1/files/shiratech-brief-nb1.pdf

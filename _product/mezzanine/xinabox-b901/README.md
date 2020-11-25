@@ -31,7 +31,7 @@ product_buy_links:
     link-price-currency: GBP
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: B901-96 Wiki
           link: https://wiki.xinabox.cc/B901_-_96_Boards_Bridge

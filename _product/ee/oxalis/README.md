@@ -38,12 +38,12 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/enterprise/oxalis/downloads/
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Oxalis (Arrow)
           link: https://www.arrow.com/en/campaigns/arrow-oxalis

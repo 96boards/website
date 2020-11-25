@@ -31,7 +31,7 @@ product_buy_links:
     link-price: ""
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Build from Source
           link: /documentation/enterprise/akebi96/build/

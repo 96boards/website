@@ -75,7 +75,7 @@ product_buy_links:
     type: board
 product_sidebar_sections:
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: AOSP
           link: /documentation/consumer/hikey960/downloads/aosp.md.html

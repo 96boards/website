@@ -30,7 +30,7 @@ product_buy_links:
   link-url: "https://www.arrow.com/en/products/nbdk-2023-s2-vaix-db/next-biometrics-group-asa"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf

@@ -31,7 +31,7 @@ product_images:
   - images/Helio-X20-side-two.png
 product_sidebar_sections:
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
           title: AOSP
