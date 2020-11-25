@@ -95,7 +95,8 @@ defaults:
   - scope:
       path: "_product"
     values:
-      page_specific_css: products-pages
+      sticky_tab_bar: true
+      breadcrumb: true
   - scope:
       path: ""
     values:
@@ -182,6 +183,13 @@ blog_filler_element: blog/blog_filler_element.html
 avatar_placeholder: /assets/images/avatar-placeholder.jpg
 # Blog Post Image Placeholder
 post_placeholder: /assets/images/content/linaro-logo.png
+# Toggle the animated navbar dropdown feature
+# Navbar dropdowns will open on hover
+hover_nav_dropdowns: true
+# Set the class used to animate dropdowns e.g. fade-up / fade-down
+nav_dropdowns_animation_class: fade-down
+# The bootstrap breakpoint at which the navbars will expand
+nav_expand_breakpoint: lg
 # Breadcrumb banner
 breadcrumb_banner: /assets/images/breadcrumb-banner.png
 # Social Media Links
