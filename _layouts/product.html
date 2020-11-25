@@ -4,11 +4,12 @@ js-package: products
 css_bundle: products
 seo:
     type: Product
+sticky_tab_bar: true
+breadcrumb: true
 ---
 {% assign url-name = page.permalink | split: "/" %}
 {% assign url-name-new = url-name[2] %}
 <div class="row" id="content-container">
-    {% include 96boards-tab-bar.html %}
     <div class="container">
         <div class="row">
             <div class="col col-12 col-md-4 order-md-2" >
