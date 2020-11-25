@@ -1,17 +1,17 @@
 ---
 title: Auto Edition - PCU
-css-package: products
+css_bundle: products
 js-package: products
 permalink: "/products/ae/pcu/"
 description: |-
     Coming soon...
+sticky_tab_bar: true
 jumbotron:
-    inner_image: /assets/images/content/96Automotive.svg
+    inner-image: /assets/images/content/96Automotive.svg
     title: "PCU"
-    background-color: background-color som
+    class: background-color som text-center products_jumbotron text-white
 
 ---
-{% include sticky-tab-bar.html %}
 {% include product-filters.html hide_spec="true" %}
 {% include compare-boards-modal.html %}
 {% include display-products.html specification="ae" subSpecification="pcu" %}

@@ -1,6 +1,7 @@
 ---
 title: Internet of Things Edition
-css-package: products
+css_bundle: products
+sticky_tab_bar: true
 js-package: products
 permalink: "/products/ie/"
 description: |-
@@ -10,16 +11,14 @@ specification_link: https://linaro.co/ie-specification
 specification_image: 96Boards-Logo_IoT.png
 keywords: Developement Boards, IoT Production Boards, hackers, Makers, Arm, linux, diy, tiny, small
 jumbotron:
-    inner_image: /assets/images/content/96IoT.svg
-    title: ""
-    background-color: background-color ie
+    inner-image: /assets/images/content/96IoT.svg
+    class: background-color ie text-center products_jumbotron text-white
     buttons:
         - title: View the Specification
           url: https://linaro.co/ie-specification
           class: btn btn-primary
-          icon: fa fa-external
+          icon: icon-link-ext-alt
 ---
-{% include sticky-tab-bar.html %}
 {% include product-filters.html hide_spec="true" %}
 {% include compare-boards-modal.html %}
 {% include display-products.html specification="ie" %}

@@ -5,13 +5,15 @@ description: |-
 permalink: /specifications/
 status: active
 layout: flow
-css-package: about
+css_bundle: about
+sticky_tab_bar: true
 jumbotron:
+    class: text-center text-white
+    description: >
+      The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features.
     title: Specifications
     image: /assets/images/content/96boards-banner-6.jpg
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: container_row
       sections:
         - format: feature_block
@@ -26,11 +28,11 @@ flow:
                 - title: View Specification
                   url: https://linaro.co/ce-specification
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Browse 96Boards
                   url: /products/ce/
                   class: btn-primary
-                  icon: fa fa-microchip
+                  icon: icon-microchip
     - row: container_row
       sections:
         - format: feature_block
@@ -45,11 +47,11 @@ flow:
                 - title: View Specification
                   url: https://linaro.co/ee-specification
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Browse 96Boards
                   url: /products/ee/
                   class: btn-primary
-                  icon: fa fa-microchip
+                  icon: icon-microchip
     - row: container_row
       sections:
         - format: feature_block
@@ -64,11 +66,11 @@ flow:
                 - title: View Specification
                   url: https://linaro.co/ie-specification
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Browse 96Boards
                   url: /products/ie/
                   class: btn-primary
-                  icon: fa fa-microchip
+                  icon: icon-microchip
     - row: container_row
       sections:
         - format: feature_block
@@ -83,11 +85,11 @@ flow:
                 - title: See Guidelines
                   url: https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Browse 96Boards
                   url: /products/mezzanine/
                   class: btn-primary
-                  icon: fa fa-microchip
+                  icon: icon-microchip
     - row: container_row
       sections:
         - format: feature_block
@@ -102,15 +104,15 @@ flow:
                 - title: Wireless Specification
                   url: https://linaro.co/som-w-spec
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Compute Specification
                   url: https://linaro.co/som-spec
                   class: btn-primary
-                  icon: fa fa-book
+                  icon: icon-book
                 - title: Browse 96Boards
                   url: /products/se/
                   class: btn-primary
-                  icon: fa fa-microchip
+                  icon: icon-microchip
     - row: custom_include_row
       source: members.html
 ---

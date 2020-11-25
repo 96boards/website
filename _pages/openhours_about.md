@@ -2,7 +2,7 @@
 title: About OpenHours
 permalink: /openhours/about/
 layout: flow
-css-package: openhours
+css_bundle: openhours
 flow:
     - row: custom_include_row
       source: sticky-tab-bar.html

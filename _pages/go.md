@@ -2,7 +2,7 @@
 title: 96boards Go Events
 permalink: /go/
 layout: flow
-css-package: go-events
+css_bundle: go-events
 jumbotron:
     darken: true
     title : 96Boards Go Events

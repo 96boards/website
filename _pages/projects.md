@@ -5,7 +5,7 @@ permalink: "/projects/"
 description: |-
     The 96Boards projects that have been announced are shown below.
     Click on the links to find out more about the projects.
-css-package: projects
+css_bundle: projects
 js-package: projects
 jumbotron:
     darken: true

@@ -5,7 +5,7 @@ description: |-
     Bring your coffee, questions, demos and feedback! Together we can make a difference for everyone!
 permalink: "/openhours/"
 layout: jumbotron
-css-package: openhours
+css_bundle: openhours
 jumbotron:
     darken: true
     carousel-images:

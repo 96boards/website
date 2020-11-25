@@ -1,7 +1,8 @@
 ---
 title: SoM Edition - Modules (SE-M)
-css-package: products
+css_bundle: products
 js-package: products
+sticky_tab_bar: true
 permalink: "/products/se/modules/"
 description: |-
     The SoM Edition (SoM) (Wireless and Compute) is a 96Boards specification which encourages the development of reliable
@@ -10,20 +11,19 @@ specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
 specification_link: https://linaro.co/ce-specification
 specification_image: 96Boards-Logo_Consumer-small.png
 jumbotron:
-    inner_image: /assets/images/content/96Boards-Logo-96 SoM.svg
+    inner-image: /assets/images/content/96Boards-Logo_v-96 SoM.svg
     title: "Modules"
-    background-color: background-color som
+    class: background-color som text-center products_jumbotron text-white
     buttons:
         - title: SoM Wireless Specification
           url: https://linaro.co/som-w-spec
           class: btn btn-primary
-          icon: fa fa-external
+          icon: icon-link-ext-alt
         - title: SoM Compute Specification
           url: https://linaro.co/som-spec
           class: btn btn-primary
-          icon: fa fa-external
+          icon: icon-link-ext-alt
 ---
-{% include sticky-tab-bar.html %}
 {% include product-filters.html hide_spec="true" %}
 {% include compare-boards-modal.html %}
 {% include display-products.html specification="se" subSpecification="module" %}

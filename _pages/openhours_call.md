@@ -5,7 +5,7 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/call/"
 layout: flow
-css-package: openhours
+css_bundle: openhours
 ---
 <div class="col-md-12">
     <object type="text/html" data="https://zoom.us/j/544757552" style="width:100%; height:800px">

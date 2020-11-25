@@ -5,6 +5,7 @@ description: |-
 permalink: "/about/"
 status: active
 layout: flow
+sticky_tab_bar: true
 jumbotron:
     title: About
     image: /assets/images/content/96boards-banner-1.jpg
@@ -85,8 +86,9 @@ flow:
     - row: container_row
       sections:
         - format: title
-          size: h2
-          content: Benefits of the 96Boards ecosystem
+          title_content:
+            size: h2
+            text: Benefits of the 96Boards ecosystem
     - row: container_row
       sections:
         - format: feature_block
