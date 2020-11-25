@@ -23,13 +23,13 @@
                     <thead>
                         <th></th>
                         <th class="attr attr-heading" data-attr="image">
-                            Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                            Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
                         </th>
                         <th class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top"
-                                title="Remove Attribute" class="fa fa-times removeAttribute"></i> </th>
+                                title="Remove Attribute" class="icon-cancel removeAttribute"></i> </th>
                         {% for attr in tags %}
                         <th data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip"
-                                data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                                data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
                         </th>
                         {% endfor %}
                     </thead>
@@ -43,7 +43,7 @@
                         <tr>
                             <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                                 {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
-                                    data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                                    data-toggle="tooltip" data-placement="top" title="Remove Board" class="icon-cancel"></i>
                             </td>
                             {% assign product-url = board.permalink | split: "/" %}
                             <td class="board" data-attr="image" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
@@ -117,14 +117,14 @@
                         {% for board in products_array %}
                         <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
                             {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
-                                data-toggle="tooltip" data-placement="top" title="Remove Board" class="fa fa-times"></i>
+                                data-toggle="tooltip" data-placement="top" title="Remove Board" class="icon-cancel"></i>
                         </th>
                         {% endfor %}
                     </thead>
                     <tbody>
                         <tr data-attr-row="image">
                             <td class="attr attr-heading" data-attr="image"> Image <i data-toggle="tooltip"
-                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i></td>
+                                    data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i></td>
                             {% for board in products_array %}
                                 {% if board.product_images.first %}
                                     {% assign product_image = board.product_images.first %}
@@ -146,7 +146,7 @@
                         </tr>
                         <tr data-attr-row="price">
                             <td class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip"
-                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                                    data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
                             </td>
                             {% for board in products_array %}
                             <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
@@ -185,7 +185,7 @@
                         {% for attr in tags %}
                         <tr data-attr-row="{{attr}}">
                             <td data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip"
-                                    data-placement="top" title="Remove Attribute" class="fa fa-times removeAttribute"></i>
+                                    data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
                             </td>
                             {% for board in products_array %}
                             {% assign found = "false" %}
