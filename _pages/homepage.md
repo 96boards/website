@@ -6,6 +6,7 @@ permalink: "/"
 keywords: Arm, Silicon, AI, Developer Boards, Developers, Makers, SoC, Consumer, IoT, Enterprise
 layout: flow
 js-package: home
+css_bundle: home
 jumbotron:
   slider:
     - title: Develop & Prototype on the Latest Arm Technology
@@ -31,15 +32,17 @@ flow:
           - title: Explore Boards
             url: /products/
             style: btn-primary
-  - row: container_row
+  - row: container_row 
     sections:
       - format: title
         style: text-center
         title_content:
           size: h2
           text: The Specifications
+      - format: custom_include
+        source: specifications.html
       - format: block
-        style: text-center contain_images
+        style: text-center contain_images d-none d-sm-block specifications
         item_width: "6"
         block_section_content:
           blocks:

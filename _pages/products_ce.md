@@ -13,7 +13,6 @@ specification_image: 96Boards-Logo_Consumer-small.png
 jumbotron:
     inner-image: /assets/images/content/96Consumer.svg
     class: background-color ce text-center products_jumbotron text-white
-    title: ""
     description: >
         The 96Boards Consumer Edition (CE) specification targets the mobile, embedded and digital home segments.
         The boards below are all certified to be compliant with this specification.

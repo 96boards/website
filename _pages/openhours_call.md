@@ -5,6 +5,7 @@ description: |-
     Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
 permalink: "/openhours/call/"
 layout: flow
+breadcrumb: true
 css_bundle: openhours
 ---
 <div class="col-md-12">

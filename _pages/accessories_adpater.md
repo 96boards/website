@@ -2,6 +2,8 @@
 title: USB Ethernet adapter Accessories
 permalink: /product/adapter/
 layout: accessory-display-page
+breadcrumb: true
+sticky_tab_bar: true
 description: USB Ethernet adapter Accessories for 96Boards
 accessories:
 - accessory_permalink: /product/adapter/

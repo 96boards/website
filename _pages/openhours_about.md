@@ -3,9 +3,9 @@ title: About OpenHours
 permalink: /openhours/about/
 layout: flow
 css_bundle: openhours
+sticky_tab_bar: true
+breadcrumb: true
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: main_content_row
 ---
 # What is OpenHours?

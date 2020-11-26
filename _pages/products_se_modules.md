@@ -11,7 +11,7 @@ specification_path: /documentation/Specifications/96Boards-CE-Specification.pdf
 specification_link: https://linaro.co/ce-specification
 specification_image: 96Boards-Logo_Consumer-small.png
 jumbotron:
-    inner-image: /assets/images/content/96Boards-Logo_v-96 SoM.svg
+    inner-image:  /assets/images/content/96Boards-Logo-96 SoM.svg
     title: "Modules"
     class: background-color som text-center products_jumbotron text-white
     buttons:

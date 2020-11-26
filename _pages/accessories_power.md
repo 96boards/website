@@ -2,6 +2,8 @@
 title: Power Accessories
 permalink: /product/power/
 layout: accessory-display-page
+breadcrumb: true
+sticky_tab_bar: true
 description: Power Accessories for 96Boards
 accessories:
   - accessory_permalink: /product/power/

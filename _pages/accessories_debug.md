@@ -2,6 +2,8 @@
 title: Debug Accessories
 permalink: /product/debug/
 layout: accessory-display-page
+breadcrumb: true
+sticky_tab_bar: true
 description: Debug Accessories for 96Boards
 accessories:
 - accessory_permalink: /product/debug/

@@ -7,14 +7,13 @@ description: |-
     Click on the links to find out more about the projects.
 css_bundle: projects
 js-package: projects
+sticky_tab_bar: true
 jumbotron:
-    darken: true
-    carousel-images:
-        - /assets/images/content/96boards-banner-project-2.jpg
-        - /assets/images/content/96boards-banner-project-1.jpg
+    title: Projects with 96Boards
+    description: >
+      The 96Boards projects that have been announced are shown below. Click on the links to find out more about the projects.
+    image: /assets/images/content/96boards-banner-project-2.jpg
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: container_row
       sections:
         - format: text

@@ -13,6 +13,7 @@ keywords: Developement Boards, IoT Production Boards, hackers, Makers, Arm, linu
 jumbotron:
     inner-image: /assets/images/content/96IoT.svg
     class: background-color ie text-center products_jumbotron text-white
+    description: The IoT Edition (IE) 96Boards specification is designed to support development in the Internet of Things (IoT) space.
     buttons:
         - title: View the Specification
           url: https://linaro.co/ie-specification

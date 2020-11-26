@@ -4,9 +4,9 @@ title: Submit Project
 permalink: "/projects/submit/"
 description: |-
     If you would like to share a project that uses 96Boards through the 96Boards website, please submit it here. Projects might include open designs for cases that can be 3D printed, designs for mezzanine boards or software repositories that you maintain and would like to share with and/or get contributions from the 96Boards community.
+sticky_tab_bar: true
+breadcrumb: true
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: container_row
       sections:
         - format: custom_include

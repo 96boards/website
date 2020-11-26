@@ -11,7 +11,6 @@ description: |-
 specification-logo: 96Boards-Logo_Partner-small.png
 jumbotron:
     inner-image: /assets/images/content/96Boards-Logo_horizontal-white.svg
-    title: ""
     class: background-color mezzanine text-center products_jumbotron text-white
     buttons:
         - title: View the Guidelines
