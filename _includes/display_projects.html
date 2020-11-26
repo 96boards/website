@@ -1,31 +1,33 @@
 <div class="row content-row">
     <div id="grid" class="container mixitup-container">
-        {% assign projects = site.projects | where: "project", "true" %}
-        {% assign order = 1 %}
-        {% for each in projects %}
-            {% assign project-uri = each.permalink | split: "/" %}
-            {% assign project-uri = project-uri[2] | downcase  %}
-            {% if each.title %}
-                {% assign page_base = each.permalink | split: "/" %}
-                    <div data-name="{{each.title}}" class="{% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %}project_block project-item mix all col-md-3 col-sm-4 col-xs-12" data-order="{{order}}">
-                            <a href="{{each.permalink}}">
-                                {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
-                                {% capture image_alt %}{{ each.title}} image{% endcapture %}
-                                {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                            </a>
-                            <a href="{{each.permalink}}">
-                                <h5 class="project_title">{{each.title | truncate: 30}}</h5>
-                            </a>
-                            <p class="project_description">
-                                {% if each.description %}
-                                    {{each.description | truncatewords: 20 }}
-                                {% else %}
-                                    {{ each.content | strip_html | truncatewords:20 }}
-                                {% endif %}
-                            </p>
-                    </div>
-                    {% assign order = order | plus: 1 %}
-            {% endif %}
-        {% endfor %}
+        <div class="row">
+            {% assign projects = site.projects | where: "project", "true" %}
+            {% assign order = 1 %}
+            {% for each in projects %}
+                {% assign project-uri = each.permalink | split: "/" %}
+                {% assign project-uri = project-uri[2] | downcase  %}
+                {% if each.title %}
+                    {% assign page_base = each.permalink | split: "/" %}
+                        <div data-name="{{each.title}}" class="{% if each.categories %}{% for tag in each.categories %}{{tag}} {% endfor %}{% endif %}project_block project-item mix all col-md-3 col-sm-4 col-xs-12" data-order="{{order}}">
+                                <a href="{{each.permalink}}">
+                                    {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
+                                    {% capture image_alt %}{{ each.title}} image{% endcapture %}
+                                    {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
+                                </a>
+                                <a href="{{each.permalink}}">
+                                    <h5 class="project_title">{{each.title | truncate: 30}}</h5>
+                                </a>
+                                <p class="project_description">
+                                    {% if each.description %}
+                                        {{each.description | truncatewords: 20 }}
+                                    {% else %}
+                                        {{ each.content | strip_html | truncatewords:20 }}
+                                    {% endif %}
+                                </p>
+                        </div>
+                        {% assign order = order | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>
