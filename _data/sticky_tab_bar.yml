@@ -1,5 +1,18 @@
 pages:
   - list:
+      - title: __current_page__
+        url: __current_page__
+      - title: Projects
+        url: /projects/
+      - title: Contribute
+        url: /projects/contribute/
+      - title: FAQ
+        url: /projects/faq/
+      - title: OpenHours
+        url: /openhours/
+    sub-pages-enabled: true
+    urls: [/projects/]
+  - list:
       - title: About
         url: /services/
       - title: Partners
@@ -60,14 +73,11 @@ pages:
         right: true
     urls: [/projects/,/projects/contribute/,/projects/faq/,/projects/submit/]
   - list:
-      - title: HiKey 960
-        url: /product/hikey960/
+      - title: Thor96
+        url: /product/thor96/
       - title: Documentation
-        url: /documentation/consumer/hikey960/
-      - title: Support
-        url: https://discuss.96boards.org/c/products/hikey960
-        right: true
-    urls: [/product/hikey960/,/documentation/consumer/hikey960/]
+        url: /documentation/consumer/thor96/
+    urls: [/product/thor96/,/documentation/consumer/thor96/]
   - list:
       - title: All Accessories
         url: /products/accessories/
