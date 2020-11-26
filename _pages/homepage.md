@@ -8,12 +8,12 @@ layout: flow
 js-package: home
 css_bundle: home
 jumbotron:
+  class: text-center
   slider:
     - title: Develop & Prototype on the Latest Arm Technology
       title-class: big-title
       description: >
         Products built with the latest silicon, based on open platform specifications for developers, makers and businesses
-      darken: true
       image: /assets/images/content/96boards-home-image-2.jpg
 flow:
   - row: container_row
