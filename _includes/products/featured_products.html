@@ -1,8 +1,8 @@
 
 <div class="col col-12">
     <div class="row">
-        <div class="container">
-            <div class="row products_wrapper">
+        <div class="container ">
+            <div class="row products_wrapper d-none d-sm-flex">
             {% assign featuredBoards = site.product | sort: 'dateAdded' | reverse %}
 
             {% for product in featuredBoards limit: 6 %}

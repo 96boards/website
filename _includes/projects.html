@@ -3,7 +3,7 @@
         <h2 class="text-center">Projects with 96Boards</h2>
     </div>
 </div>
-<div class="row content">
+<div class="row content" id="projects-row">
         <div class="container">
             <div class="row">
                 {% assign projects = site.projects | where: "project", "true" | sample: 8 %}
@@ -17,9 +17,8 @@
                             {% capture image_path %}_projects/view/{{project-uri}}/images/{{each.images[0]}}{% endcapture %}
                             {% capture image_alt %}{{ each.title }} image{% endcapture %}
                             {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title text-dark font-weight-bold">{{each.title}}</h5>
-                                <a href="#" class="btn btn-primary">View Project</a>
+                            <div class="card-body d-flex flex-column justify-content-between text-center">
+                                <h5 class="card-title text-white font-weight-bold">{{each.title}}</h5>
                             </div>
                         </div>
                         </a>
