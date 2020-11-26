@@ -1,17 +1,16 @@
 ---
 layout: flow
-css-package: products
+css_bundle: products
 ---
-{% include sticky-tab-bar.html %}
 {% assign accessories =  page.accessories %}
 {% assign content = content | strip_newlines %}
 
 {% if content != "" %}
 <div class="row">
-    <div class="col-md-8">
+    <div class="col col-12 col-md-8">
         {{content}}
     </div>
-    <div class="col-md-4 hidden-sm hidden-xs">
+    <div class="col col-12 col-md-4 hidden-sm hidden-xs">
         <img id="collection-image" class="img-responsive center-block" src="/assets/images/content/96boards-logo-300x109.png" alt="96Boards Specification image.">
     </div>
     <hr />
@@ -20,12 +19,12 @@ css-package: products
 
 <div class="row">
 {% for accessory in accessories %}
-    <div class="col-md-12">
+    <div class="col col-12">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col col-12 col-md-3">
                     <img class="img-responsive center-block accessory-image" src="/assets/images/content/{{ accessory.accessory_images[0]}}" alt="{{accessory.accessory_title}}">
                 </div>
-                <div class="col-md-6">
+                <div class="col col-12 col-md-6">
                     <h3>{{accessory.accessory_title}}</h3>
                     <p>
                         {% if accessory.accessory_description%}
@@ -41,7 +40,7 @@ css-package: products
                         {% endif %}
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col col-12 col-md-3">
                     <div class="dropdown dropdown-container btn-group dropup btn-block text-center product-buy-dropdown">
                         <div class="text-center">
                             <a href="{{accessory.accessory_order_link[0]}}" class="btn btn-primary btn-read-more">Order Here</a>

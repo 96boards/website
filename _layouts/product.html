@@ -118,7 +118,8 @@ breadcrumb: true
             <div class="col col-12 col-md-8 order-md-1">
                 {{content}}
                 {% if page.display_attributes_table %}
-                    <table>
+                <div class="table-responsive">
+                    <table class="table">
                         <thead>
                             <th>Attribute</th>
                             <th>Description</th>
@@ -151,7 +152,7 @@ breadcrumb: true
                         {% endfor %}
                         </tbody>
                     </table>
-
+                </div>
                 {% endif %}
             </div>
         </div><!-- end row-->
