@@ -74,7 +74,7 @@
                             </button>
                             <ul class="dropdown-menu buy-dropup-menu">
                                 {% for buy_link in product.product_buy_links %}
-                                <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
+                                <li class="dropdown-item"><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
                                 {% endfor %}
                             </ul>
                             <input type="checkbox" class="board-checkbox"
