@@ -88,6 +88,8 @@ defaults:
       path: "_projects/view"
     values:
       project: true
+      sticky_tab_bar: true
+      breadcrumb: true
   - scope:
       type: "projects"
     values:
@@ -113,9 +115,9 @@ defaults:
       is_post: true
       comments: true
       tags_enabled: true
-      strap_image: /assets/images/content/code_banner.jpg
+      strap_image: false
       image: /assets/images/content/code_banner.jpg
-      category: Blog
+      category: blog
   - scope:
       path: ""
       type: "authors"
