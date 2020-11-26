@@ -12,6 +12,10 @@ specification-logo: 96Boards-Logo_Partner-small.png
 jumbotron:
     inner-image: /assets/images/content/96Boards-Logo_horizontal-white.svg
     class: background-color mezzanine text-center products_jumbotron text-white
+    description: >
+        96Boards mezzanine products let you expand your Consumer Edition or Enterprise
+        Edition 96Boards with new interfaces for IoT, industrial control, and other
+        embedded applications. See the mezzanine guidelines for some helpful resources.
     buttons:
         - title: View the Guidelines
           url: https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf
