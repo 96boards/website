@@ -503,6 +503,13 @@ span.new-post {
   margin-bottom: 10px;
   display: inline-block;
 }
-#wrapper h2.slide-title.big-title {
-  color: theme-color("success");
+#wrapper .jumbotron .big-title {
+  font-weight: bolder !important;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  color: theme-color("success") !important;
+  @include media-breakpoint-only(xs) {
+    font-size: 30px !important;
+  }
 }
