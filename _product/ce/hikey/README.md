@@ -47,11 +47,11 @@ product_sidebar_sections:
     - title: OS
       icon: icon-terminal
       items:
-        - link: /documentation/consumer/hikey/downloads/aosp.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/aosp.md.html
           title: AOSP
-        - link: /documentation/consumer/hikey/downloads/debian.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/debian.md.html
           title: Debian
-        - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/open-embedded.md.html
           title: OpenEmbedded
     - title: Third Party Images
       icon: icon-link-ext-alt
