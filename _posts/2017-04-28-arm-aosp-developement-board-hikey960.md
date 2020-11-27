@@ -200,4 +200,4 @@ Buy Now
   * [Switch Science](http://linaro.co/hikey960-switch) (Japan)
 
 
-[Documentation](/documentation/consumer/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)
+[Documentation](/documentation/consumer/hikey/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)

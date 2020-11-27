@@ -15,15 +15,15 @@ dateAdded: 2017-08-02 09:00:00+00:00
 product_video:
 - url: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
 sticky_tab_bar:
-    - title: HiKey 960
-      url: /product/hikey960/
+    - tab_title: HiKey 960
+      tab_link: /product/hikey960/
       active: true
-    - title: Getting Started
-      url: /documentation/consumer/hikey960/getting-started/
-    - title: Documentation
-      url: /documentation/consumer/hikey960/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/hikey960
+    - tab_title: Getting Started
+      tab_link: /documentation/consumer/hikey/hikey960/getting-started/
+    - tab_title: Documentation
+      tab_link: /documentation/consumer/hikey/hikey960/
+    - tab_title: Support
+      tab_link: https://discuss.96boards.org/c/products/hikey960
       tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
@@ -78,7 +78,7 @@ product_sidebar_sections:
       icon: icon-link-ext-alt
       items:
         - title: AOSP
-          link: /documentation/consumer/hikey960/downloads/aosp.md.html
+          link: /documentation/consumer/hikey/hikey960/downloads/aosp.md.html
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/
@@ -220,6 +220,6 @@ for the availability of multiple Linux distributions for this board in the futur
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
 
-Please visit the [HiKey960 Hardware User Manual](https://www.96boards.org/documentation/consumer/hikey960/hardware-docs/hardware-user-manual.md.html) for more information
+Please visit the [HiKey960 Hardware User Manual](https://www.96boards.org/documentation/consumer/hikey/hikey960/hardware-docs/hardware-user-manual.md.html) for more information
 
 <a href="/documentation/consumer/hikey/hikey960/hardware-docs/files/compliance-hikey960.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>

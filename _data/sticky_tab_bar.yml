@@ -236,9 +236,9 @@ pages:
       - title: HiKey 960
         url: /product/hikey960/
       - title: Getting Started
-        url: /documentation/consumer/hikey960/getting-started/
+        url: /documentation/consumer/hikey/hikey960/getting-started/
       - title: Documentation
-        url: /documentation/consumer/hikey960/
+        url: /documentation/consumer/hikey/hikey960/
         sub-pages: true
       - title: Support
         url: https://discuss.96boards.org/c/products/hikey960/
