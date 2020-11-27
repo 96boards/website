@@ -222,9 +222,9 @@ pages:
       - title: AI
         url: /product/hikey970/ai/
       - title: Getting Started
-        url: /documentation/consumer/hikey970/getting-started/
+        url: /documentation/consumer/hikey/hikey970/getting-started/
       - title: Documentation
-        url: /documentation/consumer/hikey970/
+        url: /documentation/consumer/hikey/hikey970/
         sub-pages: true
       - title: Support
         url: https://discuss.96boards.org/c/products/hikey970/

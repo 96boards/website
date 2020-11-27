@@ -21,9 +21,9 @@ sticky_tab_bar:
     - title: AI
       url: /product/hikey970/ai/
     - title: Getting Started
-      url: /documentation/consumer/hikey970/getting-started/
+      url: /documentation/consumer/hikey/hikey970/getting-started/
     - title: Documentation
-      url: /documentation/consumer/hikey970/
+      url: /documentation/consumer/hikey/hikey970/
     - title: Support
       url: https://discuss.96boards.org/c/products/hikey970
       tab_align_right: true
@@ -60,7 +60,7 @@ product_sidebar_sections:
       icon: icon-link-ext-alt
       items:
         - title: AOSP
-          link: /documentation/consumer/hikey970/downloads/aosp.md.html
+          link: /documentation/consumer/hikey/hikey970/downloads/aosp.md.html
         - title: Lubuntu (LeMaker Ubuntu)
           link: http://www.lemaker.org/product-hikey970-download-84.html
         - title: Lebian (LeMaker Debian)

@@ -15,9 +15,9 @@ sticky_tab_bar:
       active: true
       url: /product/hikey970/ai/
     - title: Getting Started
-      url: /documentation/consumer/hikey970/getting-started/
+      url: /documentation/consumer/hikey/hikey970/getting-started/
     - title: Documentation
-      url: /documentation/consumer/hikey970/
+      url: /documentation/consumer/hikey/hikey970/
     - title: Support
       url: https://discuss.96boards.org/c/products/hikey970/
       tab_align_right: true
