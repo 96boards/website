@@ -12,15 +12,15 @@ description: |-
     The Shield96 reference platform, based on the ATSAMA5D2 processor from Microchip, provides a secure solution applicable across all IoT verticals. This trusted Linux turn-key solution addresses hardware security by design. This hardware allows users the ability to design a solution as needed to fit their custom needs.
 keywords: |-
     Secure, IoT, Hardware Encryption, Secure Boot, Trusted Firmware, OPTEE, Trust Zone, EmSPARK, Crypto, Crypto Authentication, HelmsDeep, Shield96
-tab_menu:
-    - tab_title: Shield96 - Arrow
-      tab_link: /product/shield96/
+sticky_tab_bar:
+    - title: Shield96 - Arrow
+      url: /product/shield96/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/iot/shield96/
+    - title: Documentation
+      url: /documentation/iot/shield96/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_position: 2
       tab_align_right: true
 product_short_desc: "Arrow's Shield96 Boards are based on the ATSAMA5D2 Security first SoC from Microchip and boasts features such as Secure Boot, Hardware crypto engines, Arm® TrustZone® etc"

@@ -16,18 +16,18 @@ display_product: true
 product_images:
   - images/wistrio-antenna-sd-front.png
   - images/wistrio-antenna-sd-back.png
-tab_menu:
-  - tab_title: WisTrio
-    tab_link: /product/wistrio/
+sticky_tab_bar:
+  - title: WisTrio
+    url: /product/wistrio/
     active: true
-  - tab_title: Getting Started
-    tab_link: /documentation/iot/wistrio/getting-started/
+  - title: Getting Started
+    url: /documentation/iot/wistrio/getting-started/
     tab_position: 1
-  - tab_title: Documentation
-    tab_link: /documentation/iot/wistrio/
+  - title: Documentation
+    url: /documentation/iot/wistrio/
     tab_position: 2
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/wistrio/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/wistrio/
     tab_position: 4
     tab_align_right: true
 product_buy_links:

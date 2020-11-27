@@ -28,18 +28,18 @@ product_images:
   - images/96-TB-AIoT_Bottom.png
   - images/96-TB-AIoT_Carrier_top1.png
   - images/96-TB-AIoT_Carrier_top2.png
-tab_menu:
-    - tab_title: TB-96AIoT
-      tab_link: /product/tb-96aiot/
+sticky_tab_bar:
+    - title: TB-96AIoT
+      url: /product/tb-96aiot/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96aiot/getting-started/
+    - title: Getting Started
+      url: /documentation/som/tb-96aiot/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96aiot/
+    - title: Documentation
+      url: /documentation/som/tb-96aiot/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/tb-96aiot
+    - title: Support
+      url: https://discuss.96boards.org/c/products/tb-96aiot
       tab_position: 4
       tab_align_right: true
 product_buy_links:

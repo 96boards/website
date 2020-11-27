@@ -19,18 +19,18 @@ ai_board_desc: >
 product_images:
   - images/aiml-sd-front.jpg
   - images/aiml-sd-back.jpg
-tab_menu:
-    - tab_title: AI_ML
-      tab_link: /product/aiml/
+sticky_tab_bar:
+    - title: AI_ML
+      url: /product/aiml/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/aiml/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/aiml/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/aiml/
+    - title: Documentation
+      url: /documentation/consumer/aiml/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_position: 4
       tab_align_right: true
 product_buy_links:

@@ -12,15 +12,15 @@ description: |-
     STINGER96 is a 96Boards IoT Edition compatible (IE extended) base board from Shiratech. The board provides full support for 96Boards IoT Edition (IE) mezzanines via the Low Speed expansion connector, and features LTE connectivity using the Quectel BG96 NB-IoT modem. Quectel BG96 LTE, an ultra-low power consumption LTE Cat-M1/NB1/EGPRS module delivering 375Kbps downlink and 375Kbps uplink data rates. Also provides pin-to-pin compatibility with Quectel LTE module EG91/EG95, Cat NB1 (NB-IoT) module BC95, UMTS/HSPA module UG95/UG96 and GSM/GPRS module M95.
 keywords: |-
     Secure, IoT, LTE, NB-IoT, NB-LTE, BG96, Stinger96
-tab_menu:
-    - tab_title: Stinger96 - Shiratech's
-      tab_link: /product/stinger96/
+sticky_tab_bar:
+    - title: Stinger96 - Shiratech's
+      url: /product/stinger96/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/iot/stinger96/
+    - title: Documentation
+      url: /documentation/iot/stinger96/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_position: 2
       tab_align_right: true
 product_short_desc: "Shiratech's STINGER96 is a 96Boards IoT Edition compatible (IE extended) base board from Shiratech. The board provides full support for 96Boards IoT Edition (IE) mezzanines via the Low Speed expansion connector, and features LTE connectivity using the Quectel BG96 NB-IoT modem."

@@ -16,18 +16,18 @@ product_short_desc: "The STM32MP157 is a highly integrated multi-market system-o
 product_images:
   - images/avenger96-front-sd.png
   - images/avenger96-back-sd.png
-tab_menu:
-    - tab_title: Avenger96
-      tab_link: /product/avenger96/
+sticky_tab_bar:
+    - title: Avenger96
+      url: /product/avenger96/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/avenger96/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/avenger96/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/avenger96/
+    - title: Documentation
+      url: /documentation/consumer/avenger96/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/avenger96
+    - title: Support
+      url: https://discuss.96boards.org/c/products/avenger96
       tab_position: 4
       tab_align_right: true
 product_buy_links:

@@ -10,14 +10,14 @@ dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 display_product: true
-tab_menu:
-  - tab_title: UART Serial
-    tab_link: /product/uartserial/
+sticky_tab_bar:
+  - title: UART Serial
+    url: /product/uartserial/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/uartserial/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/uartserial/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
 product_images:

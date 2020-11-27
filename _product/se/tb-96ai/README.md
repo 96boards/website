@@ -26,18 +26,18 @@ product_images:
   - images/TB-96AI-front.jpg
   - images/TB-96AI-rear.jpg
   - images/SoM-Carrier-Board-with-Module.jpg
-tab_menu:
-    - tab_title: TB-96AI
-      tab_link: /product/tb-96ai/
+sticky_tab_bar:
+    - title: TB-96AI
+      url: /product/tb-96ai/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96ai/getting-started/
+    - title: Getting Started
+      url: /documentation/som/tb-96ai/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96ai/
+    - title: Documentation
+      url: /documentation/som/tb-96ai/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/tb-96ai
+    - title: Support
+      url: https://discuss.96boards.org/c/products/tb-96ai
       tab_position: 4
       tab_align_right: true
 product_buy_links:

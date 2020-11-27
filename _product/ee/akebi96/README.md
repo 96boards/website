@@ -8,15 +8,15 @@ archived: false
 description: |-
     High-definition, high-performance, low-cost TV systems are realized with the latest 4K technology such as HDR processing. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 display_product: true
-tab_menu:
-    - tab_title: Akebi96
-      tab_link: /product/akebi96/
+sticky_tab_bar:
+    - title: Akebi96
+      url: /product/akebi96/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/enterprise/akebi96/
+    - title: Documentation
+      url: /documentation/enterprise/akebi96/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_position: 2
       tab_align_right: true
 product_specification: ee

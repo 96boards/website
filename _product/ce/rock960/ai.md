@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, rockchip, rk3399, processor, low cost, Product, Development, Platform, arm
 product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
-tab_menu:
-    - tab_title: Rock960
-      tab_link: /product/rock960/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: Rock960
+      url: /product/rock960/
+    - title: AI
       active: true
-      tab_link: /product/rock960/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/rock960/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/rock960/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/rock960/
+      url: /product/rock960/ai/
+    - title: Getting Started
+      url: /documentation/consumer/rock960/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/rock960/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/rock960/
       tab_align_right: true
 header-image: rock960-front-sd.png
 footer-image: rock960-back-sd.png

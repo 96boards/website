@@ -17,15 +17,15 @@ description: |-
     and 1080p HD video playback and capture with H.264 (AVC).
 keywords: |-
     Build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos, geniatech
-tab_menu:
-    - tab_title: 4IoT - Geniatech
-      tab_link: /product/4iot/
+sticky_tab_bar:
+    - title: 4IoT - Geniatech
+      url: /product/4iot/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/iot/4iot/
+    - title: Documentation
+      url: /documentation/iot/4iot/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/4iot
+    - title: Support
+      url: https://discuss.96boards.org/c/products/4iot
       tab_position: 2
       tab_align_right: true
 product_short_desc: "Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock speed per core, capable of 32-bit and 64-bit operation."

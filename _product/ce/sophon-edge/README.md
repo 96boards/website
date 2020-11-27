@@ -19,18 +19,18 @@ display_product: true
 product_images:
   - images/sophon-front-sd.png
   - images/sophon-back-sd.png
-tab_menu:
-    - tab_title: Sophon Edge
-      tab_link: /product/sophon-edge/
+sticky_tab_bar:
+    - title: Sophon Edge
+      url: /product/sophon-edge/
       active: true
-    - tab_title: AI
-      tab_link: /product/sophon-edge/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/sophon-edge/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/sophon-edge/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/sophon-edge/
+    - title: AI
+      url: /product/sophon-edge/ai/
+    - title: Getting Started
+      url: /documentation/consumer/sophon-edge/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/sophon-edge/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/sophon-edge/
       tab_align_right: true
 product_buy_links:
   -

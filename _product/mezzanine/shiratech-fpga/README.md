@@ -8,14 +8,14 @@ archived: false
 dateAdded: 2018-12-30 09:00:00+00:00
 description: |-
     Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface.
-tab_menu:
-  - tab_title: Shiratech FPGA
-    tab_link: /product/shiratech-fpga/
+sticky_tab_bar:
+  - title: Shiratech FPGA
+    url: /product/shiratech-fpga/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/shiratech-fpga/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/shiratech-fpga/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_specification: "mezzanine"
 product: true

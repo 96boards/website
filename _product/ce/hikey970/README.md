@@ -14,18 +14,18 @@ description: |-
 keywords: hikey 970, hikey970, aosp, aosp developement board, boards, linux, ai, artificial intelligence
 display_product: true
 product_media_highlights: true
-tab_menu:
-    - tab_title: HiKey970
-      tab_link: /product/hikey970/
+sticky_tab_bar:
+    - title: HiKey970
+      url: /product/hikey970/
       active: true
-    - tab_title: AI
-      tab_link: /product/hikey970/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/hikey970/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey970/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey970
+    - title: AI
+      url: /product/hikey970/ai/
+    - title: Getting Started
+      url: /documentation/consumer/hikey970/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/hikey970/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/hikey970
       tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on the HiSilicon Kirin 970"

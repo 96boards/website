@@ -16,18 +16,18 @@ product_specification: ce
 product_images:
   - images/dragonboard820c-front-sd.png
   - images/dragonboard820c-back-sd.png
-tab_menu:
-    - tab_title: DragonBoard™ 820c (Arrow)
-      tab_link: /product/dragonboard820c/
+sticky_tab_bar:
+    - title: DragonBoard™ 820c (Arrow)
+      url: /product/dragonboard820c/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/dragonboard820c/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/dragonboard820c/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/dragonboard820c/
+    - title: Documentation
+      url: /documentation/consumer/dragonboard820c/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard820c/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/dragonboard820c/
       tab_position: 4
       tab_align_right: true
 product_buy_links:

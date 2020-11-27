@@ -63,15 +63,15 @@ product_buy_links:
     link-url: http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650
     from: ebay
     type: board
-tab_menu:
-  - tab_title: MIPI Adapter Mezzanine
-    tab_link: /product/mipiadapter/
+sticky_tab_bar:
+  - title: MIPI Adapter Mezzanine
+    url: /product/mipiadapter/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/mipiadapter/
+  - title: Documentation
+    url: /documentation/mezzanine/mipiadapter/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

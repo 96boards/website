@@ -16,15 +16,15 @@ display_product: true
 product_images:
   - images/hichips-parrot-front-sd.jpg
   - images/hichips-parrot-back-sd.jpg
-product_tab_menu:
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/parrot/getting-started/
+product_sticky_tab_bar:
+    - title: Getting Started
+      url: /documentation/consumer/parrot/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/parrot/
+    - title: Documentation
+      url: /documentation/consumer/parrot/
       tab_position: 3
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/parrot/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/parrot/
       tab_position: 4
       tab_align_right: true
 product_buy_links:

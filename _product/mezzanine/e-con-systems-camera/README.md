@@ -10,14 +10,14 @@ product: true
 dateAdded: 2020-09-09 09:00:00+00:00
 description: |-
     "**e-con Systems** mezzanine board allows evaluation and integration of econ systems’ camera product family with Rock960c (Vamrs) board. The Mezzanine board follows the 96boards consumer edition specification. The board allows integration of up to 2 cameras using the MIPI CSI interface."
-tab_menu:
-  - tab_title: e-con Systems Camera Mezzanine
-    tab_link: /product/e-con-systems-camera/
+sticky_tab_bar:
+  - title: e-con Systems Camera Mezzanine
+    url: /product/e-con-systems-camera/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/e-con-systems-camera/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/e-con-systems-camera/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_short_desc: "**e-con Systems**  mezzanine board allows evaluation and integration of econ systems’ camera product family with Rock960c (Vamrs) board. The Mezzanine board follows the 96boards consumer edition specification. The board allows integration of up to 2 cameras using the MIPI CSI interface."
 product_images:

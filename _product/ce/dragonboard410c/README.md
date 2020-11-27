@@ -16,18 +16,18 @@ product_specification: ce
 product_images:
   - images/DragonBoard-UpdatedImages-front.png
   - images/DragonBoard-UpdatedImages-back.png
-tab_menu:
-    - tab_title: DragonBoard™ 410c (Arrow)
-      tab_link: /product/dragonboard410c/
+sticky_tab_bar:
+    - title: DragonBoard™ 410c (Arrow)
+      url: /product/dragonboard410c/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/dragonboard/dragonboard410c/
+    - title: Documentation
+      url: /documentation/consumer/dragonboard/dragonboard410c/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 3
       tab_align_right: true
 product_buy_links:

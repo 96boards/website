@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     NPU, AI, DSP, Arm, Rockchip, RK1808, SoM
 product_short_desc: " "
-tab_menu:
-    - tab_title: TB-96AIoT
-      tab_link: /product/tb-96aiot/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: TB-96AIoT
+      url: /product/tb-96aiot/
+    - title: AI
       active: true
-      tab_link: /product/tb-96aiot/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96aiot/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96aiot/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/som/products/tb-96aiot/
+      url: /product/tb-96aiot/ai/
+    - title: Getting Started
+      url: /documentation/som/tb-96aiot/getting-started/
+    - title: Documentation
+      url: /documentation/som/tb-96aiot/
+    - title: Support
+      url: https://discuss.96boards.org/som/products/tb-96aiot/
       tab_align_right: true
 header-image: TB-96AIoT-Top.jpg
 footer-image: TB-96AIoT-Bottom.jpg

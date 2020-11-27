@@ -25,18 +25,18 @@ product_images:
   - images/rb3-som-sd.jpg
   - images/rb3-acc1-sd.jpeg
   - images/rb3-acc2-sd.jpg
-tab_menu:
-    - tab_title: Qualcomm® Robotics RB3 Development Platform
-      tab_link: /product/rb3-platform/
+sticky_tab_bar:
+    - title: Qualcomm® Robotics RB3 Development Platform
+      url: /product/rb3-platform/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/dragonboard/dragonboard845c/
+    - title: Documentation
+      url: /documentation/consumer/dragonboard/dragonboard845c/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard-845c
+    - title: Support
+      url: https://discuss.96boards.org/c/products/dragonboard-845c
       tab_position: 4
       tab_align_right: true
 product_buy_links:

@@ -20,18 +20,18 @@ product_specification: ce
 product_images:
   - images/thor96-sd-front.jpg
   - images/thor96-sd-back.jpg
-tab_menu:
-    - tab_title: Thor96
-      tab_link: /product/thor96/
+sticky_tab_bar:
+    - title: Thor96
+      url: /product/thor96/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/thor96/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/thor96/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/thor96/
+    - title: Documentation
+      url: /documentation/consumer/thor96/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_position: 4
       tab_align_right: true
 product_buy_links:

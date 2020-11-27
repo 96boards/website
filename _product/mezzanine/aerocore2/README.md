@@ -10,15 +10,15 @@ description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
 display_product: true
-tab_menu:
-    - tab_title: AeroCore 2 for 96Boards
-      tab_link: /product/aerocore2/
+sticky_tab_bar:
+    - title: AeroCore 2 for 96Boards
+      url: /product/aerocore2/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/aerocore2/
+    - title: Documentation
+      url: /documentation/mezzanine/aerocore2/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
+    - title: Support
+      url: https://discuss.96boards.org/c/products/mezzanine
       tab_position: 2
       tab_align_right: true
 product_specification: "mezzanine"

@@ -14,16 +14,16 @@ archived: false
 dateAdded: 2017-08-02 09:00:00+00:00
 product_video:
 - url: https://www.youtube.com/embed/-6AVlw4VwRQ?feature=oembed
-tab_menu:
-    - tab_title: HiKey 960
-      tab_link: /product/hikey960/
+sticky_tab_bar:
+    - title: HiKey 960
+      url: /product/hikey960/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/hikey960/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey960/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey960
+    - title: Getting Started
+      url: /documentation/consumer/hikey960/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/hikey960/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/hikey960
       tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
