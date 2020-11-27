@@ -199,7 +199,7 @@ In next week’s blog we will continue to explore the 96boards GPIO interfaces. 
 
 --
 
-[**In this series**](/openhours/)
+**In this series**](/openhours/)
 
 
 

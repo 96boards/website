@@ -117,7 +117,7 @@ In next week’s blog we will focus on a particularly important part of the 96Bo
 
 --
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

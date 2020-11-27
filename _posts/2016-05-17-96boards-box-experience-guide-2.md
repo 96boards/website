@@ -175,7 +175,7 @@ In next week’s blog we will dive deeper into the 96Boards add-ons such as the 
 {% include media.html media_url="https://www.youtube.com/embed/EJutUfI8WRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

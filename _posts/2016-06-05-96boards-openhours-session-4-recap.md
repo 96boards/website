@@ -596,7 +596,7 @@ this is all new, great start!
 
 
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

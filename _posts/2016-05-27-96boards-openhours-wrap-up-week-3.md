@@ -120,7 +120,7 @@ Be sure to stay tune in next week where we will focus on a particularly importan
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-[**In this series**](/blog/tag/)
+**In this series**
 
   * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 

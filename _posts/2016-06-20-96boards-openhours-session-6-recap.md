@@ -193,7 +193,7 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours image" class="img-fluid" %}
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

@@ -395,7 +395,7 @@ Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will
 
 --
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

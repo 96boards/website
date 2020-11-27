@@ -96,7 +96,7 @@ To learn more the 96Boards team are going to start a [weekly OpenHours session]
 
 {% include media.html media_url="https://www.youtube.com/embed/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
-[**In this series**](/blog/tag/)
+**In this series**
 
   * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/) (This)
   * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
