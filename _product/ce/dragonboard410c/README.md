@@ -85,11 +85,11 @@ product_sidebar_sections:
       icon: icon-terminal
       items:
         - title: Android
-          link: /documentation/consumer/dragonboard410c/downloads/android.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/android.md.html
         - title: Debian
-          link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/debian.md.html
         - title: OpenEmbedded
-          link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/open-embedded.md.html
         - title: Windows
           link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
         - title: Ubuntu
@@ -106,7 +106,7 @@ product_sidebar_sections:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
         - title: More Downloads
-          link: /documentation/consumer/dragonboard410c/downloads/
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/
     - title: Middleware & SDK's
       icon: icon-file-code
       items:

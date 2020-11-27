@@ -108,7 +108,7 @@ You may also visit [BlueJeans to download the application](https://www.bluejeans
 **Documentation:**
 
 *   Visit 96Boards.org for [DragonBoard 410c documentation](https://www.96boards.org/product/dragonboard410c/)
-*   Release Notes for [Linaro Linux](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/) based on Ubuntu
+*   Release Notes for [Linaro Linux](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/guides/) based on Ubuntu
 *   Release Notes for [Android](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf)
 
 **Support:**

@@ -281,7 +281,7 @@ DM
 
 
 
-Just wanted to report one 404 link in 96boards [/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
+Just wanted to report one 404 link in 96boards [/documentation/consumer/dragonboard/dragonboard410c/getting-started/](/documentation/consumer/dragonboard/dragonboard410c/getting-started/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
 
 
 
@@ -469,7 +469,7 @@ DM
 
 
 
-[/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)
+[/documentation/consumer/dragonboard/dragonboard410c/getting-started/](/documentation/consumer/dragonboard/dragonboard410c/getting-started/)
 
 
 

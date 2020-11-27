@@ -94,7 +94,7 @@ The build will take quite some time depending on the host machine configuration.
 ## **Flashing AGL onto Dragonboard410c**
 
 Once the build has been completed, we have to flash the boot and rootfs images onto Dragonboard410c. Now, boot Dragonboard
-in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/).
+in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/).
 
 ```shell
 $ cd $AGL_TOP/build/tmp/deploy/images/dragonboard-410c

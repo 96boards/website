@@ -113,7 +113,7 @@ Here it is important to note the GPIO pins are configurable, and can be set as a
 
 Okay! You should know enough about the GPIO, I think it’s time to get your hands dirty. In this next part you will be working directly on your 96Boards. Regardless of the 96Boards you are using, you should be able to follow these steps by making sure to use the correct GPIO_# corresponding to the GPIO pin you wish to toggle (Remember: usable GPIOs occupy the same pins on all 96Boards, the GPIO_# is what changes).
 
-The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
+The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
 
 
 

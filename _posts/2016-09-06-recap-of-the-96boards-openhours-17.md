@@ -1895,7 +1895,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/)
+[https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/downloads/](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/downloads/)
 
 
 

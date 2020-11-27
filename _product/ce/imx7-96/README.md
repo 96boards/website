@@ -70,11 +70,11 @@ product_bottom_section:
     - title: Kits
       items:
         - title: Basic Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
         - title: Audio Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/audio-kit/
         - title: AWS IoT Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 attributes:
   - name: "SoC"
     value: >-
