@@ -211,7 +211,6 @@
     "^/verticals/DigitalSignage(/?|/index.html)$ /verticals/digital-signage/ [R,L,NC]",
     "^/verticals/HighEndAudio(/?|/index.html)$ /verticals/high-end-audio/ [R,L,NC]",
     "^/verticals/MachineLearning(/?|/index.html)$ /verticals/machine-learning/ [R,L,NC]",
-    "^/verticals/Maker(/?|/index.html)$ /verticals/maker/ [R,L,NC]",
     "^/verticals/Robotics(/?|/index.html)$ /verticals/robotics/ [R,L,NC]",
     "^/verticals/VirtualReality(/?|/index.html)$ /verticals/virtual-reality/ [R,L,NC]",
     "^/video/whywait-invent-off-episode-2-crucible(/?|/index.html)$ /blog/whywait-invent-off-episode-2-crucible/ [R,L,NC]",
