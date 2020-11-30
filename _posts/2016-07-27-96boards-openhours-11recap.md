@@ -5,18 +5,14 @@ date: 2016-07-27 22:15:11+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-11recap/
 slug: 96boards-openhours-11recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: 96Boards OpenHours 11Recap
 wordpress_id: 16021
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -686,5 +682,5 @@ It looked to me like Android will dynamically choose profile (e.g. if its a phon
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 [n](/blog/installing-docker-aarch64-96boards-ce/)

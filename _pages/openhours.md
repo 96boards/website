@@ -4,27 +4,21 @@ description: |-
     96Boards OpenHours, sponsored by Linaro, welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience.
     Bring your coffee, questions, demos and feedback! Together we can make a difference for everyone!
 permalink: "/openhours/"
-layout: jumbotron
-css-package: openhours
-js-package: openhours
+layout: flow
+css_bundle: openhours
+sticky_tab_bar: true
 jumbotron:
-    darken: true
-    carousel-images:
-        - /assets/images/content/96boards-banner-openhours-1.jpg
-        - /assets/images/content/96boards-banner-openhours-2.jpg
+    title: OpenHours
+    description: >
+        96Boards OpenHours, sponsored by Linaro, welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience. Bring your coffee, questions, demos and feedback! Together we can make a difference for everyone!
+    image: /assets/images/content/96boards-banner-openhours-1.jpg
 ---
-<div class="row" id="content-container">
-{% include sticky-tab-bar.html %}
-<div class="container">
-
-<div class="col-md-6" markdown="1">
-<br>
 <h3>Weekly Show</h3>
 <iframe width="350" height="120" src="https://w2.countingdownto.com/2050235" frameborder="0"></iframe><br />
 <a href="https://zoom.us/j/544757552" class="btn blog-read-more-btn center-block">Click Here to Join Zoom Webinar</a>
 <a href="https://www.youtube.com/c/96Boards/" class="btn blog-read-more-btn center-block">Visit YouTube</a>
 <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTl0cDh0N2p2ZnMwb2U3aThocG9xbGxubmhfMjAxOTEyMDVUMTYwMDAwWiBzYWhhai5zYXJ1cEBsaW5hcm8ub3Jn&tmsrc=sahaj.sarup%40linaro.org&scp=ALL">Add to you Calendar</a>
- 
+
 ### What is 96Boards OpenHours?
 
 **96Boards OpenHours – Sponsored by Linaro** welcomes you every week at 4:00pm UTC to participate in the ultimate community driven experience. Bring your coffee and questions, demos and feedback, together we can make a difference for everyone!
@@ -82,11 +76,5 @@ Every Thursday at 4pm UTC
 
 * * *
 
-{% include image.html alt="OpenHours" name="OpenHours.png" %}
+{% include image.html  path="/assets/images/blog/OpenHours.png" alt="OpenHours" class="img-fluid"  %}
 
-
-</div>
-</div>
-
-</div>
-</div>

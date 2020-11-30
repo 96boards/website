@@ -30,15 +30,15 @@ product_buy_links:
   -
     link-title: Arrow.com
     link-url: https://www.arrow.com/en/products/scheda-usb-eth-v1/rushup
-tab_menu:
-  - tab_title: Ethernet Card
-    tab_link: /product/ethernetcard/
+sticky_tab_bar:
+  - title: Ethernet Card
+    url: /product/ethernetcard/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/ethernetcard/
+  - title: Documentation
+    url: /documentation/mezzanine/ethernetcard/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

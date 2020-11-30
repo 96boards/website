@@ -5,10 +5,8 @@ date: 2016-08-10 13:43:18+00:00
 layout: post
 link: https://www.96boards.org/video/whywait-invent-off-episode-2-crucible/
 slug: whywait-invent-off-episode-2-crucible
-image:
-    featured: true
-    path: /assets/images/blog/invent-off-ep2.jpg
-    name: invent-off-ep2.jpg
+image: /assets/images/blog/invent-off-ep2.jpg
+image_name: invent-off-ep2.jpg
 title: 'The #WhyWait Invent-Off - Episode 2 - The Crucible'
 wordpress_id: 16315
 Boards:

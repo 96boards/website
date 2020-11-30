@@ -9,18 +9,18 @@ keywords: |-
     video, ai, imx, nxp, security, trust zone, optee.
 
 product_short_desc: " "
-tab_menu:
-    - tab_title: AI_ML
-      tab_link: /product/aiml/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: AI_ML
+      url: /product/aiml/
+    - title: AI
       active: true
-      tab_link: /product/aiml/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/aiml/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/aiml/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/
+      url: /product/aiml/ai/
+    - title: Getting Started
+      url: /documentation/consumer/aiml/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/aiml/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/
       tab_align_right: true
 header-image: aiml-sd-front.jpg
 footer-image: aiml-sd-back.jpg

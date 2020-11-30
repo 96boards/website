@@ -2,10 +2,8 @@
 title: Poplar NAS | A Daily Driver NAS Setup
 author: Sahaj Sarup
 date: 2019-07-22 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/poplar-nas.jpg
-    name: poplar-nas.jpg
+image: /assets/images/blog/poplar-nas.jpg
+image_name: poplar-nas.jpg
 categories: blog
 series: Poplar NAS
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shield, hat

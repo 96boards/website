@@ -6,14 +6,11 @@ layout: post
 featured_blog: true
 link: https://www.96boards.org/blog/96boards-updates-development-aosp/
 slug: 96boards-updates-development-aosp
-image:
-    featured: true
-    path: /assets/images/blog/hikey-960-SD-front-500x330.jpg
-    name: hikey-960-SD-front-500x330.jpg
+image: /assets/images/blog/hikey-960-SD-front-500x330.jpg
+image_name: hikey-960-SD-front-500x330.jpg
 title: 96Boards Updates on development in AOSP
 wordpress_id: 20504
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Android
@@ -86,7 +83,7 @@ There’s also been lots of smaller things, like +[Vishal Bhoj](https://plus.goo
 
 So yea, its been busy of late! And as always, everyone has been doing amazing work to collaborate together, so many thanks to everyone (explicitly called out or not) involved!
 
-![Hikey 960 Front Image]({% asset_path "hikey-960-SD-front.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/hikey-960-SD-front.jpg" alt="Hikey 960 Front Image" class="img-fluid" %}
 
 
 [Find John Stultz on Google+](https://plus.google.com/111524780435806926688)

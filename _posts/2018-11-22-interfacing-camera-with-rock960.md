@@ -2,11 +2,9 @@
 title: Interfacing Camera with Rock960
 author: Manivannan Sadhasivam
 date: 2018-11-22 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rock960_front.jpg
-    name: rock960_front.jpg
-    thumb: rock960_thumb.png
+image: /assets/images/blog/rock960_front.jpg
+image_name: rock960_front.jpg
+image_thumb: rock960_thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Rockchip, RK3399, Rock960, Vamrs, Camera, MIPI-CSI, CSI2, DPHY, ISP, Image Signal Processor, V4L2, OV5645, OmniVision, IPEX, Deltavision, MIPI adapter
 ---

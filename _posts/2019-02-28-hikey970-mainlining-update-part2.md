@@ -2,10 +2,8 @@
 title: HiKey970 Mainlining Update - Part 2
 author: Manivannan Sadhasivam
 date: 2019-02-28 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/hikey970.png
-    name: hikey970.png
+image: /assets/images/blog/hikey970.png
+image_name: hikey970.png
 categories: blog
 series: HiKey970 Mainlining Update
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, HiKey, HiKey970, SoC, Mainlining, Reset, UFS, SD, MMC, WiFi, Bluetooth, SDIO, Upstreaming, AI, NPU

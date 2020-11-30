@@ -2,11 +2,9 @@
 title: Zephyr on 96Boards WisTrio IoT Board
 author: Manivannan Sadhasivam
 date: 2019-01-11 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/96b_stm32_sensor_mez.png
-    name: wistrio.jpg
-    thumb: wistrio-thumb.jpg
+image: /assets/images/blog/96b_stm32_sensor_mez.png
+image_name: wistrio.jpg
+image_thumb: wistrio-thumb.jpg
 categories: blog
 tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, ST, STM32, ST-Link, Zephyr, Debugging, I2C, SPI, Clock, Sensor, LoRa, LoRaWAN, GPS, RTOS, RAKWireless
 ---

@@ -2,11 +2,9 @@
 title: OrangePi-i96 Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2018-11-28 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/i96-front.jpg
-    name: i96-front.jpg
-    thumb: i96-thumb.jpg
+image: /assets/images/blog/i96-front.jpg
+image_name: i96-front.jpg
+image_thumb: i96-thumb.jpg
 categories: blog
 tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, RDA, RDA8810PL, UniSoC, OrangePi, OrangePi-i96,  Mainlining, Devicetree, Serial, IRQCHIP, Timer, Clocksource, Interrupts
 ---

@@ -2,10 +2,7 @@
 title: "96boards: Autoware everywhere | meta-arm-autonomy in AutoCore's PCU"
 author: Servando German Serrano
 date: 2020-08-07 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/pcu_top_view.png
-    name: pcu_top_view.png
+image: /assets/images/blog/pcu_top_view.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Linaro, Linux, arm64, real time, ROS2, Autoware, AutoCore, PCU, arm-autonomy
@@ -17,15 +14,18 @@ In our [previous post](https://www.96boards.org/blog/autocore_pcu_1/) of the "96
 In this post we will show how to set up the arm-autonomy software stack to be used on the PCU.
 
 This post is organized as follows:
-- [arm-autonomy Yocto layer](#arm-autonomy-yocto-layer)
-- [Yocto Images build](#yocto-images-build)
-  - [Getting the sources](#getting-the-sources)
-  - [Patching the sources](#patching-the-sources)
-  - [Guest image](#guest-image)
-  - [Host image](#host-image)
-- [SD card setup](#sd-card-setup)
-- [Booting the PCU](#booting-the-pcu)
-- [Creating the domU and logging in](#creating-the-domu-and-logging-in)
+- [Introduction](#introduction)
+  - [arm-autonomy Yocto layer](#arm-autonomy-yocto-layer)
+  - [Yocto Images build](#yocto-images-build)
+    - [Getting the sources](#getting-the-sources)
+    - [Patching the sources](#patching-the-sources)
+    - [Guest image](#guest-image)
+    - [Host image](#host-image)
+  - [SD card setup](#sd-card-setup)
+  - [Booting the PCU](#booting-the-pcu)
+  - [Creating the domU and logging in](#creating-the-domu-and-logging-in)
+  - [Video demo](#video-demo)
+- [Conclusion](#conclusion)
 
 ***
 

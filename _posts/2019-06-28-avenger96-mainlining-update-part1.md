@@ -2,9 +2,8 @@
 title: Avenger96 Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2019-06-28 01:01:54+00:00
-image:
-    path: /assets/images/blog/avenger96.png
-    name: avenger96.png
+image: /assets/images/blog/avenger96.png
+image_name: avenger96.png
 categories: blog
 series: Avenger96 Mainlining Update
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Zephyr, STMicroelectronics, STM32MP1, U-Boot, TF-A, Mainlining, Devicetree, Pinctrl, GPIO, Upstream, Avenger96, ARMv7, Cortex-M4

@@ -2,11 +2,9 @@
 title: Standardizing 96Boards Support in Zephyr
 author: Manivannan Sadhasivam
 date: 2018-10-12 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/zephyr.jpg
-    name: zephyr.jpg
-    thumb: zephyr-thumb.png
+image: /assets/images/blog/zephyr.jpg
+image_name: zephyr.jpg
+image_thumb: zephyr-thumb.png
 categories: blog
 tags: 32-bit, 96Boards, Cortex-M, ARM, ARMv7, IoT Edition, Zephyr, Carbon, Nitrogen, Argonkey, Neonkey, Kconfig, Devicetree, Mezzanines, IoT, BLE
 ---
@@ -53,7 +51,7 @@ Kconfig definitions of a particular board is provided in 3 different ways:
 This Kconfig file provides configuration values for invisible Kconfig symbols.
 Invisible option means, it is not configurable by the user and it has no prompt.
 Visible in the sense that this option can be configured from the `menuconfig`
-interface and has a prompt. 
+interface and has a prompt.
 
 ## Kconfig.board
 

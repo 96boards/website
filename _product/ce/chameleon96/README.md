@@ -16,18 +16,18 @@ product_specification: ce
 product_images:
   - images/chameleon96-front-small.png
   - images/chameleon96-back-small.png
-tab_menu:
-        - tab_title: Chameleon96
-          tab_link: /product/chameleon96/
+sticky_tab_bar:
+        - title: Chameleon96
+          url: /product/chameleon96/
           active: true
-        - tab_title: Getting Started
-          tab_link: /documentation/consumer/chameleon96/getting-started/
+        - title: Getting Started
+          url: /documentation/consumer/chameleon96/getting-started/
           tab_position: 1
-        - tab_title: Documentation
-          tab_link: /documentation/consumer/chameleon96/
+        - title: Documentation
+          url: /documentation/consumer/chameleon96/
           tab_position: 2
-        - tab_title: Support
-          tab_link: https://discuss.96boards.org/c/products/chameleon96/
+        - title: Support
+          url: https://discuss.96boards.org/c/products/chameleon96/
           tab_position: 4
           tab_align_right: true
 product_buy_links:
@@ -40,7 +40,7 @@ product_buy_links:
         link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/consumer/chameleon96/installation/

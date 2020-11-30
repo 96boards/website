@@ -1,11 +1,9 @@
 ---
-title: Waveshare SPI 2.9inch E-ink RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 2 
+title: Waveshare SPI 2.9inch E-ink RaspberryPi HAT - Shiratech FFPGA Mezzanine and RPi HAts Pt. 2
 author: Sahaj Sarup
 date: 2019-05-13 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/eink.jpg
-    name: eink.jpg
+image: /assets/images/blog/eink.jpg
+image_name: eink.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---

@@ -14,18 +14,18 @@ dateAdded: 2017-10-24 09:00:00+00:00
 product_images:
   - images/iMX7-96-front.jpg
   - images/iMX7-96-back.jpg
-tab_menu:
-    - tab_title: iMX7-96 Development Board
-      tab_link: /product/imx7-96/
+sticky_tab_bar:
+    - title: iMX7-96 Development Board
+      url: /product/imx7-96/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/imx7-96/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/imx7-96/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/imx7-96/
+    - title: Documentation
+      url: /documentation/consumer/imx7-96/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/imx7-96/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/imx7-96/
       tab_position: 3
       tab_align_right: true
 product_buy_links:
@@ -38,7 +38,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Android
           link: /documentation/consumer/imx7-96/downloads/
@@ -70,11 +70,11 @@ product_bottom_section:
     - title: Kits
       items:
         - title: Basic Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/basic-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
         - title: Audio Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/audio-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/audio-kit/
         - title: AWS IoT Kit
-          link: /documentation/consumer/dragonboard410c/getting-started/aws-kit/
+          link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/aws-kit/
 attributes:
   - name: "SoC"
     value: >-

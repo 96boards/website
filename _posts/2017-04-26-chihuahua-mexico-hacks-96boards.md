@@ -5,14 +5,11 @@ date: 2017-04-26 16:15:14+00:00
 layout: post
 link: https://www.96boards.org/blog/chihuahua-mexico-hacks-96boards/
 slug: chihuahua-mexico-hacks-96boards
-image:
-    featured: true
-    path: /assets/images/blog/SmartCitiesHackathonMEXINVITE.png
-    name: SmartCitiesHackathonMEXINVITE.png
+image: /assets/images/blog/SmartCitiesHackathonMEXINVITE.png
+image_name: SmartCitiesHackathonMEXINVITE.png
 title: Chihuahua, Mexico hacks 96Boards
 wordpress_id: 20180
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - brace yourself
@@ -55,7 +52,7 @@ Each team was asked to provide an elevator pitch video submission, the recreatio
 
 ## Team PassMe wins first place
 
-![Chihuahua Mexico hacks image 1]({% asset_path "chihuahua-mexico-hacks-96boards-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/chihuahua-mexico-hacks-96boards-img-1.jpg" alt="Chihuahua Mexico hacks image 1" class="img-fluid" %}
 
 Photograph sent by: Prof. Aldo Cortes from Tecnologico de Monterrey
 

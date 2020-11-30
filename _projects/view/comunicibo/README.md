@@ -8,10 +8,9 @@ images:
   - ComuniCibo_Video_Demo.png
   - ComuniCibo_Video_Pesentation2.png
   - ComuniCibo_Video_Presentation1.png
-image:
-  path: /assets/images/projects/comunicibo-thumb.png
-  name: comunicibo-thumb.png
-  thumb: comunicibo-thumb.png
+image: /assets/images/projects/comunicibo-thumb.png
+image_name: comunicibo-thumb.png
+image_thumb:  comunicibo-thumb.png
 categories:
 - dragonboard410c
 ---
@@ -34,13 +33,13 @@ Making the refrigerator-concept for a public space helps people confront the rea
 ## Videos
 
 ### ComuniCibo Video Submission
-{% include image.html name="ComuniCibo_Video_Demo.png" alt="ComuniCibo Video Submission" url="https://youtu.be/vI0JuVktJ9o?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Demo.png" alt="ComuniCibo Video Submission" url="https://youtu.be/vI0JuVktJ9o?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### ComuniCibo Presentation and Demo Part 1/2
-{% include image.html name="ComuniCibo_Video_Presentation1.png" alt="ComuniCibo Presentation and Demo Part 1/2" url="https://youtu.be/n4Q2v6P-RZE?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Presentation1.png" alt="ComuniCibo Presentation and Demo Part 1/2" url="https://youtu.be/n4Q2v6P-RZE?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### ComuniCibo Presentation and Demo Part 2/2
-{% include image.html name="ComuniCibo_Video_Pesentation2.png" alt="ComuniCibo Presentation and Demo Part 2/2" url="https://youtu.be/gQLgcpw-ADQ?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Pesentation2.png" alt="ComuniCibo Presentation and Demo Part 2/2" url="https://youtu.be/gQLgcpw-ADQ?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ## Resources
 

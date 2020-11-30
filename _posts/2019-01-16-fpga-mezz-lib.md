@@ -2,11 +2,9 @@
 title: WIP FPGA Mezzanine GPIO Library
 author: Sahaj Sarup
 date: 2019-01-16 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/fpga-mezz.jpg
-    name: fpga-mezz.jpg
-    thumb: fpga-mezz-thumb.jpg
+image: /assets/images/blog/fpga-mezz.jpg
+image_name: fpga-mezz.jpg
+image_thumb: fpga-mezz-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---

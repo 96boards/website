@@ -2,11 +2,7 @@
 title: Coursera Revamp! UCSD's IoT Specialization featuring 96Boards
 author: Robert Wolff
 date: 2018-02-01 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/Build-Internet-Things.png
-    name: Build-Internet-Things.png
-    thumb: coursera-logo-thumb.png
+image: /assets/images/content/Build-Internet-Things.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditek, dragonboard, coursera, iot, mooc, massive open online course, ucsd, calit2, qualcomm, qualcomm institute, cloud, aws, amazon web services
 
@@ -22,9 +18,9 @@ In 2015 the University of California, San Diego - [Qualcomm Institute (CALIT2)](
 
 Back in June of 2015, I received my first DragonBoard 410c. I remember this moment very clearly, opening the box and pulling out a small, colorful, credit card sized, single board computer (later I would find out, this was my first introduction to 96Boards!). I held it in front of me and tried to analyze what I was seeing, rotating it in my hands, squinting at all of the small components, and counting the many ports and headers. It only took me a few minutes to realize I was overflowing with questions about this board, I had to start tinkering. Three months with the DragonBoard went by in a flash, and at this point it was time to record my efforts.
 
-{% include image.html name="DragonBoard-UpdatedImages-front.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/DragonBoard-UpdatedImages-front.png" alt="Your alternate text." %}
 
-{% include image.html name="DragonBoard-UpdatedImages-side.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/DragonBoard-UpdatedImages-side.png" alt="Your alternate text." %}
 
 The [Qualcomm Institute at University of California San Diego](http://qi.ucsd.edu/) put me in a team, and gave us a lab with an AV crew. We were promptly tasked with creating an online specialization around the DragonBoard 410c. Over the next year, our team developed six courses jam-packed with IoT related material. We pumped out hundreds of bite sized videos, covered topics spanning multiple skill levels, and offered it online, on demand, for the masses to watch. It turns out this was only the beginning, the course would soon finds ways to evolve.
 
@@ -36,19 +32,19 @@ So here I am, just about three years later, writing a blog about the DragonBoard
 
 The original specialization has six courses, and can still be found on Coursera.org. Each course has its own theme and arsenal of videos, supplemental reading and assessments. In this little subsections, I wanted to give everyone an overview of the original launches curriculum.
 
-**Course 1** - [Internet of Things - How did we get here?](https://www.coursera.org/learn/internet-of-things-history): In this course, we will explore the convergence of multiple disciplines leading to todays’ Smartphones.  You will learn about the birth and evolution of Telephony Networks, Broadcast Networks (TV and Radio) and Consumer Electronics.  We will discuss the impact of Internet, (multimedia) content, smartphones and apps on everyday lives. We will then look at how this emerging platform called the Internet of Things – wherein billions and trillions of devices communicating with each other and “the cloud” – could enable unprecedented, innovative products and services.   Take this course if you want to understand what great new advances in mobile-enabled products will be coming our way! 
+**Course 1** - [Internet of Things - How did we get here?](https://www.coursera.org/learn/internet-of-things-history): In this course, we will explore the convergence of multiple disciplines leading to todays’ Smartphones.  You will learn about the birth and evolution of Telephony Networks, Broadcast Networks (TV and Radio) and Consumer Electronics.  We will discuss the impact of Internet, (multimedia) content, smartphones and apps on everyday lives. We will then look at how this emerging platform called the Internet of Things – wherein billions and trillions of devices communicating with each other and “the cloud” – could enable unprecedented, innovative products and services.   Take this course if you want to understand what great new advances in mobile-enabled products will be coming our way!
 
-**Course 2** - [Internet of Things - Setting up your DragonBoard 410c Development Platform](https://www.coursera.org/learn/internet-of-things-dragonboard): This is the first in a series of courses where you will learn both the theory and get the hands-on development practice needed to prototype Internet of Things products.  This course is suitable for a broad range of learners. 
+**Course 2** - [Internet of Things - Setting up your DragonBoard 410c Development Platform](https://www.coursera.org/learn/internet-of-things-dragonboard): This is the first in a series of courses where you will learn both the theory and get the hands-on development practice needed to prototype Internet of Things products.  This course is suitable for a broad range of learners.
 
-**Course 3** - [Internet of Things - Sensing and Actuation from Devices](https://www.coursera.org/learn/internet-of-things-sensing-actuation): In this course, you will learn to interface common sensors and actuators to the DragonBoard™ 410c hardware. You will then develop software to acquire sensory data, process the data and actuate stepper motors, LEDs, etc. for use in mobile-enabled products. Along the way, you’ll learn to apply both analog-to-digital and digital-to-analog conversion concepts. 
+**Course 3** - [Internet of Things - Sensing and Actuation from Devices](https://www.coursera.org/learn/internet-of-things-sensing-actuation): In this course, you will learn to interface common sensors and actuators to the DragonBoard™ 410c hardware. You will then develop software to acquire sensory data, process the data and actuate stepper motors, LEDs, etc. for use in mobile-enabled products. Along the way, you’ll learn to apply both analog-to-digital and digital-to-analog conversion concepts.
 
-**Course 4** - [Internet of Things - Communication Technologies](https://www.coursera.org/learn/internet-of-things-communication): In this course, you will learn how VoIP systems like Skype work and implement your own app for voice calls and text messages.  You will start by using the Session Initiation Protocol (SIP) for session management. Next, you will learn how voice codecs such as Adaptive Multi Rate (AMR) are used in 3G networks and use them for voice traffic in your app. 
+**Course 4** - [Internet of Things - Communication Technologies](https://www.coursera.org/learn/internet-of-things-communication): In this course, you will learn how VoIP systems like Skype work and implement your own app for voice calls and text messages.  You will start by using the Session Initiation Protocol (SIP) for session management. Next, you will learn how voice codecs such as Adaptive Multi Rate (AMR) are used in 3G networks and use them for voice traffic in your app.
 
-**Course 5** - [Internet of Things - Multimedia Technologies](https://www.coursera.org/learn/internet-of-things-multimedia): In this course, you will learn the principles of video and audio codecs used for media content in iTunes, Google Play, YouTube, Netflix, etc.  You will learn the file formats and codec settings for optimizing quality and media bandwidth and apply them in developing a basic media player application. 
+**Course 5** - [Internet of Things - Multimedia Technologies](https://www.coursera.org/learn/internet-of-things-multimedia): In this course, you will learn the principles of video and audio codecs used for media content in iTunes, Google Play, YouTube, Netflix, etc.  You will learn the file formats and codec settings for optimizing quality and media bandwidth and apply them in developing a basic media player application.
 
-**Course 6** - [Capstone - Build a Mobile Surveillance System](https://www.coursera.org/learn/internet-of-things-capstone): In the Capstone project for the Internet of Things specialization, you will design and build your own system that uses at least 2 sensors, at least 1 communication protocol and at least 1 actuator. You will have a chance to revisit and apply what you have learned in our courses to achieve a robust, practical and/or fun-filled project. 
+**Course 6** - [Capstone - Build a Mobile Surveillance System](https://www.coursera.org/learn/internet-of-things-capstone): In the Capstone project for the Internet of Things specialization, you will design and build your own system that uses at least 2 sensors, at least 1 communication protocol and at least 1 actuator. You will have a chance to revisit and apply what you have learned in our courses to achieve a robust, practical and/or fun-filled project.
 
-As you can see this specialization consists of six full courses, totaling more than 55 hours of content! This includes hundreds of educational videos, hands on exercises with bleeding edge hardware, peer reviewed content and submission, discussion sessions, supplemental reading and of course facetime with the students and mentors behind the course on a weekly basis through an online program called “[OpenHours](https://www.96boards.org/openhours/)”. 
+As you can see this specialization consists of six full courses, totaling more than 55 hours of content! This includes hundreds of educational videos, hands on exercises with bleeding edge hardware, peer reviewed content and submission, discussion sessions, supplemental reading and of course facetime with the students and mentors behind the course on a weekly basis through an online program called “[OpenHours](https://www.96boards.org/openhours/)”.
 
 Now while this course seemed to have a lot, it still lacked in some key areas, hence the reason for a revamp! In the following sections I will talk about some the issues we had with the first iteration of the course, and how we set out to fix them.
 
@@ -85,10 +81,10 @@ Finally, the reason you are here! You want to hear about these so called “big 
 - **Course 3**
    - Complete content overhaul
    - All new content, now focusing on Cloud Services and implementation
-   - Focus on understanding and using AWS (Amazon Web Services) 
+   - Focus on understanding and using AWS (Amazon Web Services)
    - Focus on implementing AWS with DragonBoard 410c
-  
-Don't forget to stop by OpenHours, this week (Feb 1st) at 4:00p UTC to meet with representatives from UCSD, Qualcomm and 96Boards to get a complete walkthrought of the new content! 
+
+Don't forget to stop by OpenHours, this week (Feb 1st) at 4:00p UTC to meet with representatives from UCSD, Qualcomm and 96Boards to get a complete walkthrought of the new content!
 
 Simply join any of our channels at the end of the countdown: [https://www.96boards.org/openhours/](https://www.96boards.org/openhours/)
 

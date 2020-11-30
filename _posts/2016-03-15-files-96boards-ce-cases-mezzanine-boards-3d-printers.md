@@ -5,14 +5,11 @@ date: 2016-03-15 11:56:13+00:00
 layout: post
 link: https://www.96boards.org/blog/files-96boards-ce-cases-mezzanine-boards-3d-printers/
 slug: files-96boards-ce-cases-mezzanine-boards-3d-printers
-image:
-    featured: true
-    path: /assets/images/blog/3D-Case-SensorBoard-s.png
-    name: 3D-Case-SensorBoard-s.png
+image: /assets/images/blog/3D-Case-SensorBoard-s.png
+image_name: 3D-Case-SensorBoard-s.png
 title: Files of 96Boards CE Cases with Mezzanine Boards for 3D printers
 wordpress_id: 12788
-categories:
-- blog
+category: blog
 post_format:
 - Gallery
 ---
@@ -36,9 +33,9 @@ I appreciate it for people updating the files or enhancing them.
 
 Please have fun developing controlling application on 96Boards with this cases and enjoy building cool prototypes.
 
-![96boards Image 1]({% asset_path "96boards-3d-printer-img-1.png" %}){:class="img-responsive lazyload"}
-![96boards Image 2]({% asset_path "96boards-3d-printer-img-2.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 3]({% asset_path "96boards-3d-printer-img-3.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 4]({% asset_path "96boards-3d-printer-img-4.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 5]({% asset_path "96boards-3d-printer-img-5.jpg" %}){:class="img-responsive lazyload"}
-![96boards Image 6]({% asset_path "96boards-3d-printer-img-6.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-1.png" alt="96Boards 3D Printer Image 1" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-2.jpg" alt="96Boards 3D Printer Image 2" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-3.jpg" alt="96Boards 3D Printer Image 3" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-4.jpg" alt="96Boards 3D Printer Image 4" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-5.jpg" alt="96Boards 3D Printer Image 5" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-3d-printer-img-6.jpg" alt="96Boards 3D Printer Image 6" class="img-fluid" %}

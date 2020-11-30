@@ -2,11 +2,9 @@
 title: Zephyr on 96Boards STM32 Sensor Mezzanine
 author: Manivannan Sadhasivam
 date: 2018-12-11 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/96b_stm32_sensor_mez.png
-    name: 96b_stm32_sensor_mez.png
-    thumb: 96b_stm32_sensor_mez_tn.jpg
+image: /assets/images/blog/96b_stm32_sensor_mez.png
+image_name: 96b_stm32_sensor_mez.png
+image_thumb: 96b_stm32_sensor_mez_tn.jpg
 categories: blog
 tags: 32-bit, 96Boards, ARM, ARMv7, IoT Edition, Kernel, Linux, ST, STM32, ST-Link, Zephyr, Debugging, PWM, I2C, SPI, Clock, Sensor, Mezzanine
 ---

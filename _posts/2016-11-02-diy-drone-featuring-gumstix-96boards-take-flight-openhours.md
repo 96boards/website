@@ -6,13 +6,10 @@ layout: post
 link: https://www.96boards.org/blog/diy-drone-featuring-gumstix-96boards-take-flight-openhours/
 slug: diy-drone-featuring-gumstix-96boards-take-flight-openhours
 title: DIY Drone featuring Gumstix! 96Boards take flight on OpenHours
-image:
-    featured: true
-    path: /assets/images/blog/drone_knoll.png
-    name: drone_knoll.png
+image: /assets/images/blog/drone_knoll.png
+image_name: drone_knoll.png
 wordpress_id: 18309
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Aerocore 2
@@ -68,7 +65,7 @@ These instructions will -- as briefly as possible -- help you set up a DragonBoa
 
 The parts used to construct this quad-copter drone are listed below, with storefront links to each of them.
 
-![Diy Drone Image 1]({% asset_path "diy-drone-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-1.png" alt="Diy Drone Image 1" class="img-fluid" %}
 
 
 
@@ -186,7 +183,7 @@ Before we get started, there are a few things you’ll need to take care of.
 
 
 
-    ![soldering highlight]({% asset_path "diy-drone-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-2.png" alt="soldering highlight" class="img-fluid" %}
 
 
 
@@ -256,26 +253,28 @@ With these initial steps complete, it’s time to make a drone.  
 
 You will want your boards securely attached to the frame of your drone.  Unfortunately, MAV frames don’t all come with universal mounting points so some creativity is required to get these boards mounted.  In the following example photos, a small, sturdy cardboard box is zip-tied to the frame and risers are attached, to which the Dragonboard is attached.  
 
-![box 2]({% asset_path "diy-drone-img-3.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-3.jpg" alt="box 2" class="img-fluid" %}
 
 The box proved to be handy in concealing the excess wiring for the PWMs, power and webcam.
 
-![box 1]({% asset_path "diy-drone-img-4.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-4.jpg" alt="box 1" class="img-fluid" %}
 
 Attach the Dragonboard,  the satellite receiver, and the camera to the frame and the Aerocore to the Dragonboard.
 
-![Dragonboard mounted]({% asset_path "diy-drone-img-5.jpg" %}){:class="img-responsive lazyload"}
-![Screenshot]({% asset_path "diy-drone-img-6.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-5.jpg" alt="Dragonboard mounted" class="img-fluid" %}
+
+{% include image.html path="/assets/images/blog/diy-drone-img-6.png" alt="screenshot drone" class="img-fluid" %}
+
 
 
 ## Step 2: Connect Wiring
 
 
-![Screenshot 2]({% asset_path "diy-drone-img-7.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-7.png" alt="Screenshot 2" class="img-fluid" %}
 
 There are a few wires and cables that must be attached to get your drone working: the PWM connections for the electronic speed controllers (ESCs), the DSM satellite receiver, power and camera. Finding the right sequence by which the PWMs should be attached is tedious if this is your first quadcopter build so the graphic below illustrates the PWM pin-out.
 
-![ac24db_pwm]({% asset_path "diy-drone-img-8.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-8.png" alt="ac24db_pwm" class="img-fluid" %}
 
 Now it’s time to deal with the software.
 
@@ -299,7 +298,7 @@ The final pre-flight step is to configure your software.  There are three steps
 
 Flashing the firmware is made trivial by QGroundControl’s built-in flashing utility.  Open up the program and go to the setup tab ().  Along the left-hand side will be a button labeled “Firmware”. When you click on this button and then connect the Areocore 2’s “stm console”, QGC will guide you through the flash process.
 
-![microcontroller-console]({% asset_path "diy-drone-img-9.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-9.png" alt="microcontroller-console" class="img-fluid" %}
 
 The rest of the pre-flight work can be done over WiFi on the Dragonboard. Going wire-free will also make calibration a little easier.
 
@@ -309,7 +308,7 @@ mavproxy.py --master=/dev/ttyMSM1 --baudrate 115200 --out xxx.xxx.xxx.xxx:14550 
 
 Once the MAVlink command interface comes up on the Dragonboard, QGC should be able to connect to your drone. If it does not connect correctly, you may have to add a UDP connection to QGC’s settings.  The setup screen should look simmilar to the following screenshot:Where xxx.xxx.xxx.xxx is the IP address of your PC.
 
-![drone-setup]({% asset_path "diy-drone-img-10.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/diy-drone-img-10.png" alt="drone 96Boards" class="img-fluid" %}
 
 If this is the first time your aerocore has been configured, the cicles that appear green in this shot will be red and you will not be able to deploy your drone until they all appear green.
 
@@ -339,10 +338,6 @@ gst-launch-1.0 uvch264src initial-bitrate=1000000 average-bitrate=1000000 iframe
 
 
 
-
-![selection_015]({% asset_path "diy-drone-img-11.png" %}){:class="img-responsive lazyload"}
-
-
  With both the proxy and the video feed running on the Dragonboard, your flight screen will look something like this:
 
 If you have added a Pre-GO GPS module, your drone’s location will appear in the navigation map seen here in the inset. You can switch the primary view between the video stream and the navigation map by clicking on the inset in the bottom left-hand corner.
@@ -370,6 +365,6 @@ This completes the demonstration walkthrough.  Having followed these steps you 
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-![openhours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

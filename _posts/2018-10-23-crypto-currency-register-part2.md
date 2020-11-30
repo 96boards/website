@@ -2,19 +2,17 @@
 title: CryptonNode on 96Boards - Part 2
 author: Garam An
 date: 2018-10-23 00:00:01+00:00
-image:
-    featured: true
-    path: /assets/images/blog/goal.png
-    name: goal.png
-    thumb: goal.png
+image: /assets/images/blog/goal.png
+image_name: goal.png
+image_thumb: goal.png
 categories: blog
 series: CryptonNode on 96Boards
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Dragonboard410c, Crypto, Mining, Node, Business, QR, UCSD, Cryptocurrency, LCD
 ---
-	
+
 # Introductions
 
-Hello! Welcome to the blog  Cyptocurrency register part 2. 96Boards pairing up with the UCSD ECE department to develop a register that will allow store owners to accept cryptocurrency. We will be using the dragon board 410c to control the register. 
+Hello! Welcome to the blog  Cyptocurrency register part 2. 96Boards pairing up with the UCSD ECE department to develop a register that will allow store owners to accept cryptocurrency. We will be using the dragon board 410c to control the register.
 
 # Goal
 
@@ -42,5 +40,3 @@ Thermal Receipt Printer
 # Conclusion
 
 We were focusing to understand concept, made overall plan, gathering ideas, and trying to be closed with tools and software until now, we are focusing for the software and hardware design since now. It was not easy to understand whole concepts, make overall plan, but we are going to work for week goal, get sweat sleep after going through changes.
-
-

@@ -19,18 +19,18 @@ display_product: true
 product_images:
   - images/sophon-front-sd.png
   - images/sophon-back-sd.png
-tab_menu:
-    - tab_title: Sophon Edge
-      tab_link: /product/sophon-edge/
+sticky_tab_bar:
+    - title: Sophon Edge
+      url: /product/sophon-edge/
       active: true
-    - tab_title: AI
-      tab_link: /product/sophon-edge/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/sophon-edge/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/sophon-edge/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/sophon-edge/
+    - title: AI
+      url: /product/sophon-edge/ai/
+    - title: Getting Started
+      url: /documentation/consumer/sophon-edge/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/sophon-edge/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/sophon-edge/
       tab_align_right: true
 product_buy_links:
   -
@@ -49,7 +49,7 @@ product_buy_links:
     link-price-currency: CNY
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Source SDK
           link: https://github.com/BM1880-BIRD/bm1880-system-sdk
@@ -60,7 +60,7 @@ product_sidebar_sections:
         - title: Sophon - Getting Started
           link: https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Phoenix
           link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html

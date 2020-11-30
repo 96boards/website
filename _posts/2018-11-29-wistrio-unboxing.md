@@ -2,11 +2,9 @@
 title: Unboxing the WisTrio IoT Board
 author: Sahaj Sarup
 date: 2018-11-29 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/wistrio.jpg
-    name: wistrio.jpg
-    thumb: wistrio-thumb.jpg
+image: /assets/images/blog/wistrio.jpg
+image_name: wistrio.jpg
+image_thumb: wistrio-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, twitter, python, Bot, script
 ---

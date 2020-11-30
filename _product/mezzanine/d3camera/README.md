@@ -40,15 +40,15 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/d3-mezzanine-camera-board
-tab_menu:
-  - tab_title: D3Camera
-    tab_link: /product/d3camera/
+sticky_tab_bar:
+  - title: D3Camera
+    url: /product/d3camera/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/d3camera/
+  - title: Documentation
+    url: /documentation/mezzanine/d3camera/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

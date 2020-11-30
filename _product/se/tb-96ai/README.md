@@ -26,18 +26,18 @@ product_images:
   - images/TB-96AI-front.jpg
   - images/TB-96AI-rear.jpg
   - images/SoM-Carrier-Board-with-Module.jpg
-tab_menu:
-    - tab_title: TB-96AI
-      tab_link: /product/tb-96ai/
+sticky_tab_bar:
+    - title: TB-96AI
+      url: /product/tb-96ai/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96ai/getting-started/
+    - title: Getting Started
+      url: /documentation/som/tb-96ai/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96ai/
+    - title: Documentation
+      url: /documentation/som/tb-96ai/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/tb-96ai
+    - title: Support
+      url: https://discuss.96boards.org/c/products/tb-96ai
       tab_position: 4
       tab_align_right: true
 product_buy_links:
@@ -78,7 +78,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/som/tb-96ai/downloads/
@@ -87,7 +87,7 @@ product_sidebar_sections:
         - title: NPU SDK
           link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf

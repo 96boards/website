@@ -7,10 +7,7 @@ description: |-
 images:
   - 96Brews_FrontPage.png
   - 96Brews_Video_OpenHours.png
-image:
-    path: /assets/images/projects/96brews-thumb.png
-    name: 96brews-thumb.png
-    thumb: 96brews-thumb.png
+image: /assets/images/projects/96brews-thumb.png
 categories:
 - Robotics
 ---
@@ -30,8 +27,8 @@ makes brewing the perfect beer much easier and streamlined
 - **Project Category:** Demo/robotics/drone, robotics project or similar probably involving both hardware and software components
 - **Board(s) used:** [96Boards Consumer Edition](https://www.96boards.org/products/ce/)
 
-## Videos   
-{% include image.html name="96Brews_Video_OpenHours.png" alt="96brews image" url="https://youtu.be/dFh5p-LHfNI"%}
+## Videos
+{% include image.html path="_projects/view/96brews/images/96Brews_Video_OpenHours.png" alt="96brews image" class="img-fluid" url="https://youtu.be/dFh5p-LHfNI" %}
 
 ## Resources
 

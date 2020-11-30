@@ -2,11 +2,9 @@
 title: Full PC Version of Minecraft on Dragonboard 410c
 author: Sahaj Sarup
 date: 2017-11-26 00:00:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/minecraft.png
-    name: minecraft.png
-    thumb: minecraft_thumb.png
+image: /assets/images/blog/minecraft.png
+image_name: minecraft.png
+image_thumb: minecraft_thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, Gaming, Mesa, dragonboard410c, Linux Gaming, minecraft, db410c, LWJGL, OpenGL, libjawt
 featured-products: dragonboard410c
@@ -42,7 +40,7 @@ Also, it is architecture independent, ie it can run on Arm... almost. Although t
   ```shell
   sudo ln -s /usr/lib/jvm/java-8-openjdk-arm64/lib/aarch64/libjawt.so /usr/lib/libjawt.so
   ```
-  - [Setup zram swap](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
+  - [Setup zram swap](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/guides/)
 
 
 

@@ -22,15 +22,15 @@ product_images:
   - images/SoM-Carrier-Board-with-Module.png
   - images/96-TB-AIoT_Carrier_top1.png
   - images/CarrierBoard_shipping.jpg
-tab_menu:
-    - tab_title: SoM Carrier Board
-      tab_link: /product/96boards-som-carrier-board/
+sticky_tab_bar:
+    - title: SoM Carrier Board
+      url: /product/96boards-som-carrier-board/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/som/96boards-som-carrier-board/
+    - title: Documentation
+      url: /documentation/som/96boards-som-carrier-board/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/96boards-som-carrier-board
+    - title: Support
+      url: https://discuss.96boards.org/c/products/96boards-som-carrier-board
       tab_position: 3
       tab_align_right: true
 product_buy_links:
@@ -43,7 +43,7 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/96boards-som-carrier-board/files/96boards-som-carrier-board-hardware-user-manual.pdf

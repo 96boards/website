@@ -28,18 +28,18 @@ product_images:
   - images/96-TB-AIoT_Bottom.png
   - images/96-TB-AIoT_Carrier_top1.png
   - images/96-TB-AIoT_Carrier_top2.png
-tab_menu:
-    - tab_title: TB-96AIoT
-      tab_link: /product/tb-96aiot/
+sticky_tab_bar:
+    - title: TB-96AIoT
+      url: /product/tb-96aiot/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96aiot/getting-started/
+    - title: Getting Started
+      url: /documentation/som/tb-96aiot/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96aiot/
+    - title: Documentation
+      url: /documentation/som/tb-96aiot/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/tb-96aiot
+    - title: Support
+      url: https://discuss.96boards.org/c/products/tb-96aiot
       tab_position: 4
       tab_align_right: true
 product_buy_links:
@@ -87,14 +87,14 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: All Downloads
           link: /documentation/som/tb-96aiot/downloads/
         - title: NPU SDK
           link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Hardware User Manual
           link: https://github.com/96boards/documentation/blob/master/som/tb-96aiot/hardware-docs/files/tb-96aiot-hardware-user-manual.pdf

@@ -12,15 +12,15 @@ description: |-
     The BLE Nitrogen is joint efforts by 96Boards and Seeed, aims to provide economic and compact  BLE solutions for IoT projects.
 
     Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economic and compact BLE solutions for a variety of IoT projects. This board features the nRF52832 microcontroller by Nordic, 64kb of RAM and 512kb of onboard flash storage. An easily accessible 40 pin low-speed expansion connector and onboard antenna offer a wide variety of IO on the much desired 96Boards IoT form factor.
-tab_menu:
-    - tab_title: Carbon
-      tab_link: /product/carbon/
+sticky_tab_bar:
+    - title: Carbon
+      url: /product/carbon/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/iot/nitrogen/
+    - title: Documentation
+      url: /documentation/iot/nitrogen/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/nitrogen
+    - title: Support
+      url: https://discuss.96boards.org/c/products/nitrogen
       tab_position: 2
       tab_align_right: true
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
@@ -38,7 +38,7 @@ product_buy_links:
     link-url: "https://www.fabtolab.com/boards/96boards/ble-nitrogen"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Zephyr
           link: /documentation/iot/nitrogen/build/linux/

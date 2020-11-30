@@ -10,14 +10,14 @@ dateAdded: 2018-06-28 09:00:00+00:00
 product_specification: "mezzanine"
 description: |-
     This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.
-tab_menu:
-  - tab_title: X in a Box B901
-    tab_link: /product/xinabox-b901/
+sticky_tab_bar:
+  - title: X in a Box B901
+    url: /product/xinabox-b901/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/xinabox-b901/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/xinabox-b901/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_short_desc: "This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc."
 product_images:
@@ -31,7 +31,7 @@ product_buy_links:
     link-price-currency: GBP
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: B901-96 Wiki
           link: https://wiki.xinabox.cc/B901_-_96_Boards_Bridge

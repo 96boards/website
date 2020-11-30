@@ -2,9 +2,8 @@
 title: 96Boards Upstreaming Summary
 author: Manivannan Sadhasivam
 date: 2019-07-15 01:01:54+00:00
-image:
-    path: /assets/images/blog/96boards-logo.png
-    name: 96boards-logo.png
+image: /assets/images/blog/96boards-logo.png
+image_name: 96boards-logo.png
 categories: blog
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Zephyr, STMicroelectronics, STM32MP1, U-Boot, TF-A, Mainlining, Devicetree, Pinctrl, GPIO, Upstream, Avenger96, ARMv7, Cortex-M4
 ---

@@ -2,11 +2,9 @@
 title: Bubblegum96 Mainlining Update - Part 3
 author: Manivannan Sadhasivam
 date: 2018-10-17 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/bubblegum96.png
-    name: bubblegum96.png
-    thumb: bubblegum96-thumb.png
+image: /assets/images/blog/bubblegum96.png
+image_name: bubblegum96.png
+image_thumb: bubblegum96-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Bubblegum96, Actions, S900, SoC, Mainlining, DMA, DMAEngine, Reset, Clock, Owl, Upstreaming
 ---

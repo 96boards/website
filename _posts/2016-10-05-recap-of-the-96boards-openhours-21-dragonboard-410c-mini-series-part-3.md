@@ -5,18 +5,14 @@ date: 2016-10-05 17:53:18+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3/
 slug: recap-of-the-96boards-openhours-21-dragonboard-410c-mini-series-part-3
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 21 - DragonBoard 410c Mini-Series Part 3
 wordpress_id: 17633
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -789,7 +785,7 @@ Sorry I was distracted, didnt someone asked about Opensource hardware ?
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

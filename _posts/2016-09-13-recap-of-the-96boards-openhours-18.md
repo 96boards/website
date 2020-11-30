@@ -5,18 +5,14 @@ date: 2016-09-13 23:17:32+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-18/
 slug: recap-of-the-96boards-openhours-18
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 18
 wordpress_id: 17301
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -1876,7 +1872,7 @@ L
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

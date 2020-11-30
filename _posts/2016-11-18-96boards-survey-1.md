@@ -5,14 +5,11 @@ date: 2016-11-18 17:45:35+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-survey-1/
 slug: 96boards-survey-1
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-193.png
-    name: Screenshot-193.png
+image: /assets/images/blog/Screenshot-193.png
+image_name: Screenshot-193.png
 title: '96Boards Survey: What do 96Boards users care about?'
 wordpress_id: 18632
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit
@@ -30,17 +27,17 @@ It’s interesting, a few weeks ago the 96Boards team sent out a survey to our e
 
 First thing, was folks interested in 96Boards are overwhelming male (90%+), while over 60% of our total sample group are between 30 and 49 years of age. This was a bit surprising, somehow we expected a younger crowd between around 20 and 30. The charts below show our results more accurately:
 
-![96boards Survey Image 1]({% asset_path "96boards-survey-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-survey-img-1.png" alt="96boards Survey Image 1" class="img-fluid" %}
 
-![96boards Survey Image 2]({% asset_path "96boards-survey-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-survey-img-2.png" alt="96boards Survey Image 2" class="img-fluid" %}
 
 Another area of interest was how long most of you have been working with single board computers, there is a lot of experience in this group. Almost 40% of you have worked with SBC’s for more than a year and less than 5 years, while another 30% that have been using SBC’s between 5 - 20 years! The real eye opener to me is that 15% of you have been using SBC’s for more than 20 years!!! Talk about experience. I wish we could all go into a room for a day or two and talk about our experiences. There really is a huge depth of knowledge in this group.
 
-![96boards Survey Image 3]({% asset_path "96boards-survey-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-survey-img-3.png" alt="96boards Survey Image 3" class="img-fluid" %}
 
 Most of you own a 96Boards, in fact a bunch of  you own more than one! Those of you that don’t have a 96Boards are mostly interested in 64 Bit architecture and don’t seem to care about 32 bit. As to the OS it’s running, the winner by a long shot is some form of Linux followed by some form of Android, and bringing up the rear was Windows 10 IoT Core.  It was interesting to see that currently at least one person is running FreeBSD and there are at least seven more people who would like to run it!  Interesting stuff.
 
-![96boards Survey Image 4]({% asset_path "96boards-survey-img-4.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-survey-img-4.png" alt="96boards Survey Image 4" class="img-fluid" %}
 
 Regarding important features, (1-5 where 1 least important and 5 most important) it was mixed. It is pretty clear you all really cared about open source bootloaders and cared even more about your open source kernel being fully upstream. You care about having a community and one source hardware, following that, you really want onboard Ethernet.
 
@@ -52,7 +49,7 @@ Finally, it looks like most of you knew about electrical and software cross comp
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 

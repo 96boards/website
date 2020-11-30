@@ -2,11 +2,9 @@
 title: NNVM/TVM on HiKey960
 author: Manivannan Sadhasivam
 date: 2018-01-02 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/nnvm.jpg
-    name: nnvm.jpg
-    thumb: nnvm-thumb.jpg
+image: /assets/images/blog/nnvm.jpg
+image_name: nnvm.jpg
+image_thumb: nnvm-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey960, Linaro, Linux, NNVM, TVM, AI, TensorFlow, MxNet
 ---
@@ -101,7 +99,7 @@ Unzip the **rootfs** image and flash it onto HiKey960 along with **boot** and
 >       [here](https://github.com/96boards-hikey/tools-images-hikey960#base-firmware-files-and-installation).
 >    Next, flash the above-specified images using **fastboot**
 
-Once the HiKey960 boots into debian, enable networking using [this](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/)
+Once the HiKey960 boots into debian, enable networking using [this](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/guides/)
 guide and note down the IP address using `ifconfig` command.
 
 Next, follow the below steps to install TVM runtime on HiKey960:

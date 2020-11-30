@@ -2,11 +2,9 @@
 title: 96Boards Photobooth - Part 3
 author: Manivannan Sadhasivam
 date: 2018-03-28 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/photobooth_front.jpg
-    name: photobooth_front.jpg
-    thumb: photobooth-thumb.png
+image: /assets/images/blog/photobooth_front.jpg
+image_name: photobooth_front.jpg
+image_thumb: photobooth-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux
 ---
@@ -86,4 +84,4 @@ selfies with Moustaches and Hat. Any kind of overlay filters can be used with th
 help of this photobooth. We just need to find the coordinates for it.
 
 If you have any further idea of extending this project, please let us know in
-comments or even submit a PR to our repo. Stay tuned for the next project! 
+comments or even submit a PR to our repo. Stay tuned for the next project!

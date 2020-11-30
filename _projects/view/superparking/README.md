@@ -23,10 +23,10 @@ This project is for the Smart Cities Hackathon. The main point of doing this pro
 ## Videos
 
 ### Super Parking Video Submission
-{% include image.html name="SuperParking_Video_Demo.png" alt="Super Parking Video Submission" url="https://youtu.be/fIBGxbARHo4?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/superparking/images/SuperParking_Video_Demo.png" alt="Super Parking Video Submission" url="https://youtu.be/fIBGxbARHo4?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid"%}
 
 ### Super Parking Presentation and Demo
-{% include image.html name="SuperParking_Video_Presentation.png" alt="Super Parking Presentation and Demo" url="https://youtu.be/rbnxT9H8iHY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/superparking/images/SuperParking_Video_Presentation.png" alt="Super Parking Presentation and Demo" url="https://youtu.be/rbnxT9H8iHY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid"%}
 
 ## Resources
 

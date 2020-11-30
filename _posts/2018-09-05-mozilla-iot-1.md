@@ -2,11 +2,9 @@
 title: Mozilla IoT on 96Boards | Part 1
 author: Sahaj Sarup
 date: 2018-09-05 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/sensors-pc.jpg
-    name: sensors-pc.jpg
-    thumb: sensors-pc-thumb.jpg
+image: /assets/images/blog/sensors-pc.jpg
+image_name: sensors-pc.jpg
+image_thumb: sensors-pc-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Devconf, Enterprise Edition, IoT, product, single board computer, linaro, linux, open source, openhours, software, embedded, mezzanine, community, Ardiono, IDE, ISP, ISCP
 ---

@@ -4,13 +4,8 @@ featured_blog: true
 date: 2017-07-05 09:00:00+00:00
 title: Introduction to Google Assistant using 96Boards
 series: Google Assistant on 96Boards
-image:
-    featured: true
-    path: /assets/images/blog/google-assistant-96boards-feature.jpg
-    name: google-assistant-96boards-feature.jpg
-    thumb: google-assistant-96boards-thumb.jpg
-categories:
-- blog
+image: /assets/images/blog/google-assistant-96boards-feature.jpg
+category: blog
 tags:
 - 64-Bit
 - 96Boards
@@ -79,7 +74,7 @@ tags:
 This year in April, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB microphone and speakers.
 
 
-{% include image.html name="google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
+{% include image.html path="/assets/images/blog/google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
 
 # **Bill Of Materials**
 
@@ -123,6 +118,6 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

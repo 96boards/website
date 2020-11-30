@@ -2,10 +2,8 @@
 title: Panfrost Open-Source GPU Driver on the Rock960
 author: Sahaj Sarup
 date: 2019-04-18 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/kmscube.jpg
-    name: kmscube.jpg
+image: /assets/images/blog/kmscube.jpg
+image_name: kmscube.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
@@ -82,7 +80,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ```bash
     sudo pip3 install meson ninja
     ```
-    
+
 > Note: These are to the best of my knowledge all the dependencies, if others may arise, hunt them down.
 
 ## 3. Download sources:
@@ -118,7 +116,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     - Navigate to to Drivers -> Graphics
     - Enable Panfrost
     - Save and exit
-- Build: 
+- Build:
     ```bash
     make -j6
     ```
@@ -131,7 +129,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     sudo cp arch/arm64/boot/dts/rockchip/rk3399-rock960.dtb /boot/
     ```
 
-- Edit extlinux conf: 
+- Edit extlinux conf:
     ```bash
     vi /boot/extlinux/extlinux.conf
     ```
@@ -154,7 +152,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install: 
+- Install:
     ```bash
     sudo make install
     ```
@@ -167,7 +165,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ninja -C build/
     ```
 - Drink the coffee you brewed earlier
-- Install: 
+- Install:
     ```bash
     sudo ninja -C build/ install
     ```
@@ -179,7 +177,7 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
     ./configure --prefix=/usr
     make -j6
     ```
-- Install 
+- Install
     ```bash
     sudo make install
     ```

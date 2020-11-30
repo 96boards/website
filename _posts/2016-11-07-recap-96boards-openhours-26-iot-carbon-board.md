@@ -6,17 +6,13 @@ layout: post
 link: https://www.96boards.org/blog/recap-96boards-openhours-26-iot-carbon-board/
 slug: recap-96boards-openhours-26-iot-carbon-board
 title: Recap of the 96Boards OpenHours 26 - IoT and Carbon Board
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 wordpress_id: 18437
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -1839,7 +1835,7 @@ Just spotted a typo in the pinout diagram. There's 2 lots of I2C1 on PB6 and PB8
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

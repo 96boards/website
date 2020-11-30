@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 72 Recap - Live from Linaro Connect SFO17
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -51,7 +49,7 @@ tags:
 
 Panel of industry professionals including Gumstix, Qualcomm, Arm, 96Boards, QWERTY Embedded and Red Hat!
 
-Sponsored by Linaro - We welcomed everyone (on site and online) to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017. 
+Sponsored by Linaro - We welcomed everyone (on site and online) to participate in the ultimate community driven experience. This special LIVE broadcast will take place over the BlueJeans video conferencing tool, in front of a live audience at the first Linaro Connect of 2017.
 
 We started this episode with some fun 96Boards OpenHours facts, interesting bits about the history of OpenHours. After the initial ice breakers, we move into panel introductions and then started taking questions. Onsite participants had plenty of questions as well as some from those who joined us on BlueJeans. An hour of questions later and it was time for a short demo from uCRobotics on the Bubblegum96 board. Don't miss this exciting episode, video and some resources are available below.
 
@@ -150,7 +148,7 @@ What's all the SWAG everyone has?...t-shirts? Hats? Bags?
 
 trevor - T
 Message from trevor: i'm assuming the red hats are probably RedHat hats ? :-)
-i'm assuming the red hats are probably RedHat hats ? 
+i'm assuming the red hats are probably RedHat hats ?
 
 Todd Thal - TT
 Message from Todd Thal: Show the SWAG!!!...; )
@@ -210,7 +208,7 @@ Can you see?
 You sent: Make sure your camera are on too
 Make sure your camera are on too
 You sent: So audience can see you :)
-So audience can see you 
+So audience can see you
 You sent: Pretty please
 Pretty please
 You sent: hehe
@@ -312,7 +310,7 @@ Is there a URL with the list of the speakers; their bios; n contact information
 You sent: Panelists:Gordon Kruberg - GumstixLawrence King - QualcommPeter Robinson - Red HatGrant Likely - ARMDaniel Thompson - LinaroMichael Welling - QWERTY Embedded & Community Leader
 Panelists:Gordon Kruberg - GumstixLawrence King - QualcommPeter Robinson - Red HatGrant Likely - ARMDaniel Thompson - LinaroMichael Welling - QWERTY Embedded & Community Leader
 You sent: Google is your best friend for now :)
-Google is your best friend for now 
+Google is your best friend for now
 You sent: We will provide more detail in the later blog
 We will provide more detail in the later blog
 
@@ -352,7 +350,7 @@ jean marc!!
 
 jean.marc - J
 Message from jean.marc: Hello Robert :-)
-Hello Robert 
+Hello Robert
 
 trevor - T
 Message from trevor: why does g+ say "Mike Levine" opens OpenHours?
@@ -376,7 +374,7 @@ sound?
 
 davidlt - D
 Message from davidlt: audio issues :/
-audio issues 
+audio issues
 You sent: Robeet
 Robeet
 You sent: leave it
@@ -642,7 +640,7 @@ I do
 
 trevor - T
 Message from trevor: robert: move away from the camera :-)
-robert: move away from the camera 
+robert: move away from the camera
 You sent: https://mlh.io/
 https://mlh.io/
 You sent: can you guys see the demo?

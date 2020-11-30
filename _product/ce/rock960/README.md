@@ -18,18 +18,18 @@ display_product: true
 product_images:
   - images/rock960-front-sd.png
   - images/rock960-back-sd.png
-tab_menu:
-    - tab_title: Rock960 (Vamrs)
-      tab_link: /product/rock960/
+sticky_tab_bar:
+    - title: Rock960 (Vamrs)
+      url: /product/rock960/
       active: true
-    - tab_title: AI
-      tab_link: /product/rock960/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/rock960/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/rock960/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/rock960/
+    - title: AI
+      url: /product/rock960/ai/
+    - title: Getting Started
+      url: /documentation/consumer/rock/rock960/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/rock/rock960/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/rock960/
       tab_align_right: true
 product_buy_links:
   -
@@ -55,7 +55,7 @@ product_buy_links:
     link-price-currency: INR
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: AOSP
           link: /documentation/consumer/rock/downloads/android.md.html
@@ -64,7 +64,7 @@ product_sidebar_sections:
         - title: Ubuntu
           link: /documentation/consumer/rock/downloads/ubuntu.md.html
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: 96Rocks
           link: https://www.96rocks.com/

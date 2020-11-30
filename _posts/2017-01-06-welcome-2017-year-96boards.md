@@ -3,16 +3,13 @@ author: Robert Wolff
 comments: true
 date: 2017-01-06 01:07:05+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
-    name: 1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
+image: /assets/images/blog/1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
+image_name: 1727AC87-0FF1-4A4C-A492-8B660422C9CE.jpg
 link: /blog/welcome-2017-year-96boards/
 slug: welcome-2017-year-96boards
 title: Welcome to 2017, Year of the 96Boards!
 wordpress_id: 19285
-categories:
-- blog
+category: blog
 tags:
 - 2016 review
 - 64-bit
@@ -555,7 +552,7 @@ Remember, you are all the reason this is possible. Please join us in welcoming a
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience. All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is YOUR channel and a means to bring up interesting and possibly controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also join to hang out and have a quick chat while you enjoy your morning coffee or tea :D
 
-{% include image.html alt="OpenHours" name="OpenHours.png" %}
+{% include image.html  path="/assets/images/blog/OpenHours.png" alt="OpenHours" class="img-fluid"  %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
 

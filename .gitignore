@@ -9,3 +9,5 @@ production.96boards.org
 merged_sources
 _documentation
 _site
+.jekyll-cache
+.asset_pipeline

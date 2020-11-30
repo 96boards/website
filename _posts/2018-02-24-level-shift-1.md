@@ -2,11 +2,9 @@
 title: 1v8 to 5v Level Shifting Diaries - Part 1 - Open Drain ICs
 author: Sahaj Sarup
 date: 2018-02-18 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/level-shift-1.png
-    name: level-shift-1.png
-    thumb: level-shift-1-thumb.png
+image: /assets/images/blog/level-shift-1.png
+image_name: level-shift-1.png
+image_thumb: level-shift-1-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux, Audio Mezzanine
 ---
@@ -21,11 +19,11 @@ In this part I'll try to stick to TXS0108 and open-drain applications.
 
 **Output pins can be driven in three(but not limited to) different modes:**
 - **Open Drain** - a transistor connects to low and nothing else
-  {% include image.html name="open-drain.jpg" alt="open-drain" %}
+  {% include image.html path="/assets/images/blog/open-drain.jpg" alt="open-drain" %}
 - **Open Drain, with Pull-Up** - a transistor connects to low, and a resistor connects to high
-  {% include image.html name="opned-drain-pullup.png" alt="open-drain-pullup" %}
+  {% include image.html path="/assets/images/blog/opned-drain-pullup.png" alt="open-drain-pullup" %}
 - **Push-Pull** - a transistor connects to high, and a transistor connects to low (only one is operated at a time)
-  {% include image.html name="push-pull.png" alt="push-pull" %}
+  {% include image.html path="/assets/images/blog/push-pull.png" alt="push-pull" %}
 
 **Input pins can be a gate input with a:**
 - **Pull-Up** - a resistor connected to high
@@ -42,7 +40,7 @@ that an external resistor is not needed. While this device is designed for open-
 
 Remember how I said that I got the TXS0108E module instead of the TXB0108 module... well here it is:
 
-{% include image.html name="txs0108-module.jpg" alt="txs0108-module" %}
+{% include image.html path="/assets/images/blog/txs0108-module.jpg" alt="txs0108-module" %}
 
 So here are my findings on this chip:
 - **Purpose Built:** This is a very purpose built chip, its meant to sit between two CMOS chips, at close proximity and on a PCB, and act as a logic level translator. For example, between a controller and SRAM, between a microprocessor and emmc etc.

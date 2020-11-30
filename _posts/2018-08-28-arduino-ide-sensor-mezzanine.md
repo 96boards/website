@@ -2,11 +2,9 @@
 title: Programming The SeeedStudio Sensors Mezzanine using a PC
 author: Sahaj Sarup
 date: 2018-08-28 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/sensors-pc.jpg
-    name: sensors-pc.jpg
-    thumb: sensors-pc-thumb.jpg
+image: /assets/images/blog/sensors-pc.jpg
+image_name: sensors-pc.jpg
+image_thumb: sensors-pc-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Devconf, Enterprise Edition, IoT, product, single board computer, linaro, linux, open source, openhours, software, embedded, mezzanine, community, Ardiono, IDE, ISP, ISCP
 ---
@@ -33,7 +31,7 @@ Solder the ISP Programmer to the Mezzanine. The ISP pins on the mezzanine are la
 
 Once its done it should look something like this:
 
-{% include image.html name="sensors-pc.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/sensors-pc.jpg" alt="Your alternate text." %}
 
 **Software Setup**
 

@@ -5,18 +5,14 @@ date: 2016-06-05 22:22:23+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-4-recap/
 slug: 96boards-openhours-session-4-recap
-image:
-    featured: true
-    path: /assets/images/blog/96Boards_LS_pinout-1.jpg
-    name: 96Boards_LS_pinout-1.jpg
+image: /assets/images/blog/96Boards_LS_pinout-1.jpg
+image_name: 96Boards_LS_pinout-1.jpg
 title: 96Boards OpenHours Session 4 Recap
 wordpress_id: 14970
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -166,7 +162,7 @@ Be sure to stay tune in next week where we will continue to explore the 96boards
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 **_Transcript from the Chat during the call:  Please see below for a lot of great detailed references_**
 
@@ -342,7 +338,7 @@ AT
 
 RW
 
-{% include image.html name="96Boards_LS_pinout.jpg"%}
+{% include image.html path="/assets/images/content/96Boards_LS_pinout.jpg"%}
 
 Pinout
 
@@ -600,7 +596,7 @@ this is all new, great start!
 
 
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

@@ -7,13 +7,8 @@ link: https://www.96boards.org/blog/google-assistant-96boards-instructions/
 slug: google-assistant-96boards-instructions
 series: Google Assistant on 96Boards
 title: Instructions for Google Assistant on 96Boards
-image:
-    featured: true
-    path: /assets/images/blog/google-assistant-96boards.jpg
-    name: google-assistant-96boards.jpg
-    thumb: google-assistant-96boards-thumb.jpg
-categories:
-- blog
+image: /assets/images/blog/google-assistant-96boards.jpg
+category: blog
 tags:
 - 64-Bit
 - 96Boards
@@ -99,7 +94,7 @@ In today’s blog we will discuss the steps required in order to set up the proj
 
 To begin hardware connections, make sure the DragonBoard is powered off. Connect the USB Microphone onto one of the USB ports on the DragonBoard. If you are using USB Speakers, connect them as well. Since the DragonBoard has two USB ports, you may use a USB hub in order to connect the input devices such as mouse and keyboard. Then connect the monitor using the HDMI port and power on the DragonBoard 410c with 96Boards compliant power supply.
 
-{% include image.html name="ga-img-1.jpg" alt="New title" %}
+{% include image.html path="/assets/images/blog/ga-img-1.jpg" alt="New title" %}
 
 
 If you want to use Bluetooth speakers, keep them switched on. When the system boots, open Bluetooth Manager from the Application Menu. Click on search so that the DragonBoard can start scanning for nearby devices. Once the device appears, right click on it and select pair. Finally, after pairing, click on connect. To make sure the microphone and speakers are connected successfully, go to Application Menu - Sound & Video - PulseAudio Volume Control and check the input and output devices.
@@ -125,7 +120,7 @@ Open the [Activity Controls Page](https://myaccount.google.com/activitycontrols)
 3.  Device Information
 4.  Voice and Audio Activity
 
-![Google Assistant Instruction for 96boards Image 2](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="img-responsive lazyload" data-src="{% asset_path 'ga-img-2.png' %}}
+{% include image.html path="/assets/images/blog/ga-img-2.png" alt="Google Assistant Instruction for 96boards Image 2" class="img-fluid"%}
 
 # **Software Dependencies**
 

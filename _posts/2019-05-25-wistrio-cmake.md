@@ -2,11 +2,9 @@
 title: CMake support for 96Boards WisTrio
 author: Manivannan Sadhasivam
 date: 2019-05-25 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/wistrio.jpg
-    name: wistrio.jpg
-    thumb: wistrio-thumb.jpg
+image: /assets/images/blog/wistrio.jpg
+image_name: wistrio.jpg
+image_thumb: wistrio-thumb.jpg
 categories: blog
 series: Our path to libmraa with 96Boards
 tags: 32-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, WisTrio, LoRa, LoRaWAN, CMAKE, GCC, Newlib, Newlib-nano, FPU, Floating-point, Cortex-M3, ST, GDB

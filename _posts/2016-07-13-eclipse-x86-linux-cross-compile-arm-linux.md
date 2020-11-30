@@ -5,14 +5,11 @@ date: 2016-07-13 20:02:54+00:00
 layout: post
 link: https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/
 slug: eclipse-x86-linux-cross-compile-arm-linux
-image:
-    featured: true
-    path: /assets/images/blog/96Boardsbackground2HD1.jpg
-    name: 96Boardsbackground2HD1.jpg
+image: /assets/images/blog/96Boardsbackground2HD1.jpg
+image_name: 96Boardsbackground2HD1.jpg
 title: Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux
 wordpress_id: 15744
-categories:
-- blog
+category: blog
 tags:
 - 32-bit Linux
 - 64-bit
@@ -98,15 +95,15 @@ Before moving on to the next sections, you will need to install the latest versi
 
 To do this we will need to dig our way through download buttons. Using your preferred web browser, go to “[www.eclipse.org](http://www.eclipse.org)” and click the Download button located at the top-right.
 
-![Screenshot (87)]({% asset_path "eclipse-cc-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-cc-img-1.png" alt="Screenshot (87)" class="img-fluid" %}
 
 Once again click the yellow Download button.
 
-![Screenshot (88)]({% asset_path "eclipse-cc-img-2.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-cc-img-2.png" alt="Screenshot (88)" class="img-fluid" %}
 
 Finally, you will see a box with download mirror and button. You can change your mirror, or simply download from the suggested mirror by clicking this last Download button.
 
-![Screenshot (89)]({% asset_path "eclipse-cc-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/eclipse-cc-img-3.png" alt="Screenshot (89)" class="img-fluid" %}
 
 Once download is complete proceed to next step.
 
@@ -317,7 +314,7 @@ Congratulations, you have successfully used Eclipse to cross compile a C applica
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 

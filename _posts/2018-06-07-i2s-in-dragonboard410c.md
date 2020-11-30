@@ -2,11 +2,9 @@
 title: I2S In Dragonboard410c
 author: Manivannan Sadhasivam
 date: 2018-06-07 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
-    name: DragonBoard-UpdatedImages-front.png
-    thumb: DragonBoard-UpdatedImages-front.png
+image: /assets/images/blog/DragonBoard-UpdatedImages-front.png
+image_name: DragonBoard-UpdatedImages-front.png
+image_thumb: DragonBoard-UpdatedImages-front.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Dragonboard410c, Qualcomm, I2S, Audio, ALSA
 ---

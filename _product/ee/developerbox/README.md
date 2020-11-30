@@ -14,18 +14,18 @@ product_specification: ee
 product_images:
   - images/developerbox-front-sd.png
   - images/developerbox-back-sd.png
-tab_menu:
-    - tab_title: Developerbox (Socionext)
-      tab_link: /product/developerbox/
+sticky_tab_bar:
+    - title: Developerbox (Socionext)
+      url: /product/developerbox/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/enterprise/developerbox/getting-started/
+    - title: Getting Started
+      url: /documentation/enterprise/developerbox/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/enterprise/developerbox
+    - title: Documentation
+      url: /documentation/enterprise/developerbox
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/developerbox/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/developerbox/
       tab_position: 4
       tab_align_right: true
 product_buy_links:
@@ -45,14 +45,14 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: EDK2 (Firmware)
           link: /documentation/enterprise/developerbox/downloads/edk2.md.html
         - title: Debian
           link: /documentation/enterprise/developerbox/downloads/debian.md.html
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Socionext
           link: https://www.socionext.com/en/products/assp/SynQuacer/Edge/
