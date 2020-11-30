@@ -50,7 +50,7 @@ product_sidebar_sections:
       icon: icon-terminal
       items:
         - title: Debian
-          link: /documentation/consumer/dragonboard820c/downloads/debian.md.html
+          link: /documentation/consumer/dragonboard/dragonboard820c/downloads/debian.md.html
     - title: Third Party Images
       icon: icon-link-ext-alt
       items:

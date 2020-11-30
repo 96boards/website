@@ -264,9 +264,9 @@ pages:
       - title: DragonBoard™ 820c (Arrow)
         url: /product/dragonboard820c/
       - title: Getting Started
-        url: /documentation/consumer/dragonboard820c/getting-started/
+        url: /documentation/consumer/dragonboard/dragonboard820c/getting-started/
       - title: Documentation
-        url: /documentation/consumer/dragonboard820c/
+        url: /documentation/consumer/dragonboard/dragonboard820c/
         sub-pages: true
       - title: Support
         url: https://discuss.96boards.org/c/products/dragonboard820c/
