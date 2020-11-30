@@ -21,10 +21,10 @@ sticky_tab_bar:
       url: /product/dragonboard820c/
       active: true
     - title: Getting Started
-      url: /documentation/consumer/dragonboard820c/getting-started/
+      url: /documentation/consumer/dragonboard/dragonboard820c/getting-started/
       tab_position: 1
     - title: Documentation
-      url: /documentation/consumer/dragonboard820c/
+      url: /documentation/consumer/dragonboard/dragonboard820c/
       tab_position: 2
     - title: Support
       url: https://discuss.96boards.org/c/products/dragonboard820c/
