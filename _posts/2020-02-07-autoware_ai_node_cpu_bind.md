@@ -2,10 +2,8 @@
 title: "96boards: Autoware everywhere | Binding Autoware.AI nodes to CPUs"
 author: Servando German Serrano
 date: 2020-02-07 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/awf_96boards.png
-    name: awf_96boards.png
+image: /assets/images/blog/awf_96boards.png
+image_name: awf_96boards.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, dragonboard-845c, rb3, Linaro, Linux, arm64, real time, ROS2, Autoware

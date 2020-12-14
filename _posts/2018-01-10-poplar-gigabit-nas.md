@@ -2,11 +2,9 @@
 title: Gigabit NAS using Poplar
 author: Sahaj Sarup
 date: 2018-01-10 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/poplar-gigabit-nas.jpg
-    name: poplar-gigabit-nas.jpg
-    thumb: poplar-gigabit-nas-thumb.jpg
+image: /assets/images/blog/poplar-gigabit-nas.jpg
+image_name: poplar-gigabit-nas.jpg
+image_thumb: poplar-gigabit-nas-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Enterprise Edition, Poplar, Linaro, Linux, gigabit, nas, arm64, aarch64
 ---

@@ -1,12 +1,10 @@
 ---
 title: CryptoNode on 96Boards
-author: Andrew Betts 
+author: Andrew Betts
 date: 2018-05-16 22:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/ucsd.png
-    name: ucsd.png
-    thumb: ucsd-thumb.png
+image: /assets/images/blog/ucsd.png
+image_name: ucsd.png
+image_thumb: ucsd-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, Crypto, UCSD
 ---
@@ -25,7 +23,7 @@ It's been a while since the last update but welcome back to the CryptoNode proje
 3. Display
 	* 16x4 Serial Display has been ordered to display info without using the hdmi out
 	* Driver board that came with the display works over IIC
-	
+
 # Cryptofunctions
 More in depth into the implementation of the Crypto Wallet.
 

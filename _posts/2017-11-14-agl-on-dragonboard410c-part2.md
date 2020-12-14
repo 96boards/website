@@ -2,10 +2,8 @@
 title: Automotive Grade Linux on Dragonboard410c - Part 2
 author: Manivannan Sadhasivam
 date: 2017-11-14 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/agl.jpg
-    name: agl.jpg
+image: /assets/images/blog/agl.jpg
+image_name: agl.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
 ---
@@ -91,4 +89,4 @@ improve. Since all of the instructions and source code is open source, you can
 enhance it and share with the 96Boards community.
 
 Please take a look at the [Contributing guide](https://github.com/96boards-projects/staging/blob/master/CONTRIBUTE.md)
-for more info. Stay tuned for the next part! 
+for more info. Stay tuned for the next part!

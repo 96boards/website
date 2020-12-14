@@ -8,12 +8,8 @@ link: https://www.96boards.org/blog/ibm-cognitive-hackathon-india-pune-bangalore
 slug: ibm-cognitive-hackathon-india-pune-bangalore-2017
 title: IBM Cognitive Hackathon in India (Pune and Bangalore) - 2017
 wordpress_id: 20500
-image:
-    name: ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg
-    featured: true
-    path: /assets/images/blog/ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg
-categories:
-- blog
+image: /assets/images/blog/ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -118,7 +114,7 @@ Bangalore hackathon held at Persistent Systems office in Eco Space, Bellandur. F
   * Third place - Smart Agriculture - DXC
 
 
-![IBM Cognitive Hackathon India]({% asset_path "ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/ibm-cognitive-hackathon-india-pune-bangalore-2017.jpeg" alt="IBM Cognitive Hackathon India" class="img-fluid" %}
 
 
 # Hackathon resources
@@ -214,6 +210,6 @@ For those of you who prefer a mailing list, we have just the one for you! You ca
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

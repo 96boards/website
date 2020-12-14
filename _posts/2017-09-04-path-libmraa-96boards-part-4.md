@@ -5,14 +5,11 @@ date: 2017-09-04 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/path-libmraa-96boards-part-4/
 slug: path-libmraa-96boards-part-4
-image:
-    featured: true
-    path: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
-    name: path-libmraa-96boards-part-2-featured.png
-    thumb: path-libmraa-96boards-part-2-featured-thumb.png
+image: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
+image_name: path-libmraa-96boards-part-2-featured.png
+image_thumb: path-libmraa-96boards-part-2-featured-thumb.png
 title: Our path to libmraa on 96Boards – Part 4
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -52,7 +49,7 @@ tags:
 # **Introduction**
 
 Welcome to **Part - 4** of **Our path to libmraa with 96Boards** series. In this blog, I'll give an update on recently
-added(yet to be merged) support for using onboard LED's on all platforms in [libmraa](https://github.com/intel-iot-devkit/mraa/). 
+added(yet to be merged) support for using onboard LED's on all platforms in [libmraa](https://github.com/intel-iot-devkit/mraa/).
 This has been one of the support missing in [libmraa](https://github.com/intel-iot-devkit/mraa/)
 interms of peripherals for some time, but now we have addressed.
 
@@ -112,13 +109,13 @@ disk activity. The default trigger for LED's would be mentioned in the device tr
 Following is the list of triggers available in Dragonboard410c:
 
 ```
-none kbd-scrolllock kbd-numlock kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock mmc 
+none kbd-scrolllock kbd-numlock kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock mmc
 ```
 
 # **LED support in libmraa**
 
-A [Pull Request](https://github.com/intel-iot-devkit/mraa/pull/811) has been opened for adding LED support to libmraa. It is 
-still under review but looks like will make its way through. Programming interface for accessing LED's in libmraa are 
+A [Pull Request](https://github.com/intel-iot-devkit/mraa/pull/811) has been opened for adding LED support to libmraa. It is
+still under review but looks like will make its way through. Programming interface for accessing LED's in libmraa are
 C, C++ and Python. No Node.js & Java support has been added till now.
 
 ### Source code organization

@@ -2,10 +2,8 @@
 title: "DIY Drones need to go Digital"
 author: Sahaj Sarup
 date: 2020-02-14 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/drone.png
-    name: drone.png
+image: /assets/images/blog/drone.png
+image_name: drone.png
 categories: blog
 series: "96boards Drone Project"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, real time, drones, aerocore2
@@ -144,7 +142,7 @@ Here's a few things I can thing about that can happen if we go digital:
 
 - Some other things like:
     - **Firmware-less ESC:** where the ESC firmware is loaded by the main controller during boot.
-    - **Encrypted Transceivers:** where the commutation channel between the hand held controller and the drone can be encrypted.  
+    - **Encrypted Transceivers:** where the commutation channel between the hand held controller and the drone can be encrypted.
 
 ***
 

@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, xilinx, fpga, processor, low cost, Product, Development, Platform
 product_short_desc: "Ultra96™ is an Arm-based, Xilinx Zynq UltraScale+™ MPSoC development board"
-tab_menu:
-    - tab_title: Ultra96
-      tab_link: /product/ultra96/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: Ultra96
+      url: /product/ultra96/
+    - title: AI
       active: true
-      tab_link: /product/ultra96/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/ultra96/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/ultra96/
+      url: /product/ultra96/ai/
+    - title: Getting Started
+      url: /documentation/consumer/ultra96/ultra96-v2/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/ultra96/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/ultra96/
       tab_align_right: true
 header-image: ultra96-front-sd.png
 footer-image: ultra96-back-sd.png

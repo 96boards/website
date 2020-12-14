@@ -5,17 +5,14 @@ date: 2016-02-02 17:08:26+00:00
 layout: post
 link: https://www.96boards.org/blog/new-96boards-mezzanine-template-for-kicad/
 slug: new-96boards-mezzanine-template-for-kicad
-image:
-    featured: true
-    path: /assets/images/blog/test-project2-1.png
-    name: test-project2-1.png
+image: /assets/images/blog/test-project2-1.png
+image_name: test-project2-1.png
 title: 'New: 96Boards Mezzanine template for KiCad'
 wordpress_id: 11072
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - daughterboard

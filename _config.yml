@@ -1,50 +1,19 @@
-# Website title - used in the <title> tag of the <head> section of the website.
 title: 96Boards
-# Description of the website used in the Meta Description.
-description: > # this means to ignore newlines until "baseurl:"
+url: https://www.96boards.org
+baseurl: ""
+description: |-
   32- and 64-bit ARM Open Platform Specifications. For software developers.
   For the maker community. For embedded OEMs. 64-bit ARM for $129.
-# This is the url that is used when your site is built for canonicals etc.
-url: "https://www.96boards.org"
-# Company logo for schema.org structured data - jekyll-seo-tag plugin
-logo: /assets/images/content/96boards-logo-300x109.png
-# Company email
-email: contact@linaro.org
-# Include the Linaro Jekyll Theme
-theme: jumbo-jekyll-theme
-plugins:
-  - jekyll-data
-  - jekyll-readme-index
-  - jekyll-relative-links
-blog_images_dir: assets/images/blog/
-# Permalink for blogs
-permalink: /blog/:title/
-# Shema.org Setup -> used in the schema.html include.
-schema:
-  organisation:
-    name: 96boards
-    url: https://www.96boards.org
-    sameAs:
-      - https://twitter.com/96Boards
-      - https://www.facebook.com/96Boards
-      - https://www.linkedin.com/company/11404995/
-      - https://plus.google.com/106009833460292139774/posts
-      - https://github.com/96boards
-      - http://slideshare.com/96boards
-    address:
-      street: Harston Mill, Royston Rd
-      town: Harston
-      county: Cambridge
-      post_code: CB22 7GG
-      country_code: UK
-# production status for robots.txt and files alike.
-production: true
-search-label: 96Boards
-# Disqus Comments settings.
-disqus: true
-disqus_shortname: "96boards"
-keep_files:
-  - pinout
+destination: _site
+permalink: /:categories/:title/
+theme: linaro-jekyll-theme
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+encoding: utf-8
+safe: false
 # Files that should be excluded from the Jekyll build. Files that
 # start with a "." are automatically excluded.
 exclude:
@@ -75,28 +44,19 @@ exclude:
   - staging.96boards.org
   - production.96boards.org
   - merged_sources
-# Google Tag mangager site wide setting - for deployment of site to China.
-google-tag-manager: true
-# Social Configuration for the Jekyll SEO plugin.
-social:
-  name: 96Boards
-  links:
-    - https://twitter.com/96Boards
-    - https://www.facebook.com/96Boards
-    - https://www.linkedin.com/company/11404995
-    - https://plus.google.com/106009833460292139774/posts
-    - https://github.com/96boards
-    - http://slideshare.com/96boards
-twitter:
-  username: 96Boards
-# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
-github_username: 96boards
-linkedin_username: 11404995
-google_plus_username: 106009833460292139774
-facebook_username: 96Boards
-youtube_username: UCjawhk_W1QnJs3pKIsKLJNg/
-twitter_username: 96Boards
-slideshare_username: 96boards
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
+plugins:
+  - japr
+  - jekyll_picture_tag
+  - jekyll-tidy
+  - jekyll-readme-index
+  - jekyll-relative-links
+# Files Jekyll should include in the output
+keep_files:
+  - pinout
 # Jekyll Collections configuration - Projects, Products and Documentation.
 collections:
   product:
@@ -108,84 +68,222 @@ collections:
   documentation:
     output: true
     permalink: /:collection/:path/
+    layout: documentation
   authors:
     output: true
     permalink: /:collection/:path/
   go:
     output: true
     permalink: /:collection/:path/
-# Defaults
+liquid:
+  error_mode: strict
 defaults:
   - scope:
       type: "documentation"
     values:
-      layout: "documentation-page"
-      toc: false
+      layout: "documentation"
+      toc: true
+      sticky_tab_bar: true
   - scope:
       path: "_projects/view"
     values:
       project: true
+      sticky_tab_bar: true
+      breadcrumb: true
   - scope:
       type: "projects"
     values:
-      page_specific_css: projects-pages
       layout: project-display-page
   - scope:
       path: "_product"
     values:
-      page_specific_css: products-pages
+      sticky_tab_bar: true
+      breadcrumb: true
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
+  - scope:
+      path: "_pages"
+    values:
+      layout: flow
+  - scope:
+      type: posts
+      path: "_posts"
+    values:
+      layout: post
+      is_post: true
+      comments: true
+      tags_enabled: false
+      strap_image: false
+      image: /assets/images/content/code_banner.jpg
+      category: blog
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
+      image: /assets/images/social-media-image.png
   - scope:
       path: ""
       type: "posts"
     values:
       layout: post
       comments: true
-      page_specific_css: blog-pages
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: author
-  - scope:
-      path: "/sitemap.xml"
-    values:
-      redirect_from: /sitemap/
-  - scope:
-      path: ""
-    values:
-      image: /assets/images/social-media-image.png
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: author
-# Jekyll Assets setup
-assets:
-  # Compress JS Assets - uses the uglifier
-  compress:
-    js: true
-  gzip: true
-  # Autoprefixer default settings
-  autoprefixer:
-    browsers: ["last 2 versions", "> 5%", "IE 9"]
-  # These are the paths to look for assets
-  sources:
-    - assets/js/
-    - assets/js/vendor/
-    - assets/js/app/
-    - assets/images/
-    - assets/images/authors/
-    - assets/images/blog/
-    - assets/images/blog/thumbs/
-    - assets/images/members/
-    - assets/images/projects/
-    - assets/images/products/
-    - assets/images/content/
-    - assets/css/
-# Tell sass where to find the resources.
-sass:
-  sass_dir: assets/css/
-#
+include: ["_pages"]
+# ----------- THEME / WEBSITE CONFIG ---------------------
+# Blog images/thumbs dir
+blog_images_dir: assets/images/blog/
+# Email
+email: contact@linaro.org
+# Company Address
+address:
+  - Harston Mill
+  - Royston Rd, Harston
+  - Cambridge, United Kingdom
+  - CB22 7GG
+# Support for http2 preload features
+http2_resources:
+  - rel: preload
+    as: font
+    type: font/woff2
+    crossorigin: true
+    href: /assets/fonts/lato/Lato-regular.woff2
+google_analytics:
+  enabled: true
+  code: GTM-XXXXX
+  cookies:
+    necessary:
+      - name: cookieControl
+        description: >
+          This is used to control the display of the preferences pop up. Without this, we wouldn't know if you've clicked Accept!
+      - name: cookieControlPrefs
+        description: >
+          This is used to store your cookie preferences. Without this we wouldn't know which cookies you want!
+    marketing:
+      - name: _ga
+        description: >
+          2 years - Used to distinguish users.
+      - name: _gid
+        description: >
+          24 hours - Used to distinguish users.
+      - name: _gat
+        description: >
+          1 minute - Used to throttle request rate.
+      - name: HotJar
+        description: >
+          We use hotjar to help us understand how we can improve our end-user experience. For a list of cookies HotJar uses please see [https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script](https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script)
+# Set the site-wide default social media share image.
+social_media_share_image: /assets/images/social-media-image.png
+# Set the default favicon
+favicon: /assets/images/favicon.png
+# Site Name - your brand name
+name: Jumbo Jekyll Theme
+# The blog filler element
+blog_filler_element: blog/blog_filler_element.html
+# Placeholder avatar
+avatar_placeholder: /assets/images/avatar-placeholder.jpg
+# Blog Post Image Placeholder
+post_placeholder: /assets/images/content/linaro-logo.png
+# Toggle the animated navbar dropdown feature
+# Navbar dropdowns will open on hover
+hover_nav_dropdowns: true
+# Set the class used to animate dropdowns e.g. fade-up / fade-down
+nav_dropdowns_animation_class: fade-down
+# The bootstrap breakpoint at which the navbars will expand
+nav_expand_breakpoint: lg
+# Breadcrumb banner
+breadcrumb_banner: /assets/images/breadcrumb-banner.png
+# Social Media Links
+social_media_channels:
+  github:
+    url: https://github.com/96boards
+  linkedin:
+    url: https://www.linkedin.com/company/11404995
+  facebook:
+    url: http://facebook.com/96Boards
+  youtube:
+    url: https://www.youtube.com/96boards/
+  twitter:
+    url: https://twitter.com/96Boards
+  instagram:
+    url: https://instagram.com/linaroorg
+# Disqus Comments Setup
+disqus:
+  enabled: true
+  shortname: 96boards
+# Edit on GitHub Settings
+edit-on-github:
+  enabled: true
+  docs: https://www.github.com/96Boards/documentation
+  repo: https://www.github.com/96Boards/website
+# Shema.org settings used in the schema.html include.
+schema:
+  "@type": "Corporation"
+  "name": "96Boards"
+  "url": "https://www.96Boards.org"
+  "logo": "https://www.96boards.org/assets/images/content/96boards-logo.png"
+  "contactPoint":
+    "@type": "ContactPoint"
+    "telephone": "01223 400060"
+    "contactType": "customer service"
+    "availableLanguage": "en"
+  "sameAs":
+    - "https://facebook.com/96Boards"
+    - "https://twitter.com/96Boards"
+    - "https://www.instagram.com/96Boards/"
+    - "https://www.linkedin.com/company/11404995/"
+    - "https://youtube.com/96boards"
+    - "https://github.com/96Boards"
+    - "https://www.96boards.org"
+# FESS search label
+search_label: 96boards
+# ----------- JEKYLL PLUGINS ---------------------
+# -------- jekyll-tidy --------
+jekyll_tidy:
+  # Toggle compression of HTML
+  compress_html: true
+  # JS Path added to exclude to stop errors.
+  exclude: ["assets/**/*.js", "robots.txt", "admin/config.yml"]
+# -------- jekyll_relative_links --------
+jekyll_relative_links:
+  process_all_collections: true
+  verbose: 1
 relative_links:
   enabled: true
   collections: true
+# -------- jekyll_relative_links --------
+readme_index:
+  enabled: true
+  remove_originals: false
+# -------- jekyll_picture_tag --------
+picture:
+  nomarkdown: false
+  # source: "assets/images"
+  output: "assets/images"
+  relative_url: true
+# -------- japr --------
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets/js
+  gzip: true
+# # Mailchimp settings
+# mailchimp:
+#     enabled: true
+#     id: e3d2abc041
+#     unsubscribe-url: https://96boards.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=e3d2abc041
+# # Footer Newsletter toggle.
+# newsletter:
+#     enabled: true
+#     url: https://96boards.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=e3d2abc041
+# jekyll-toc
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_class: list-group docs_nav sticky-top
+  sublist_class: "list-group"
+  item_class: toc-entry
+  item_prefix: toc-

@@ -10,10 +10,8 @@ layout: post
 # Title of the blog post.
 title: Bringing the Carbon to life - Bluetooth® wireless technology
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/bringing-carbon-to-life-featured.jpg
-    name: bringing-carbon-to-life-featured.jpg
+image: /assets/images/blog/bringing-carbon-to-life-featured.jpg
+image_name: bringing-carbon-to-life-featured.jpg
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -74,13 +72,13 @@ That is it, you now have a Zephyr image that you can flash onto the nRF51 chip.
 
 The connections from the board to the programmer are pretty straightforward.  The programmer I used has a pinout on the side like so:
 
-{% include image.html name="bringing-carbon-to-life-image-1.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/bringing-carbon-to-life-image-1.jpg" alt="Your alternate text." %}
 
 The programmer connects to the upper row of pins (we’ll call it the BLE header) next to the Reset and Boot buttons on the BLE Carbon. The row can be identified by the BLE written on the top left corner of that row.
 
 The pins 1, 2, 4, 6, 8 (i.e. RST, SWDIO, GND, SWCLK and 3.3V) on the programmer to the BLE header from right to left. The names should match, so RST to RST, SWDIO to DIO and so on.  Here is how the connection looks like in the end:
 
-{% include image.html name="bringing-carbon-to-life-featured.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/bringing-carbon-to-life-featured.jpg" alt="Your alternate text." %}
 
 Once you have this connection and your programmer plugged into your laptop, you’re ready to program the nRF51 chip.
 
@@ -164,7 +162,7 @@ Once that ends successfully, reset the board and you have a working beacon!
 
 You can verify that the beacon works by using one of the many Locator apps in Android.  Here’s what mine shows; I modified the URL to (shamelessly) promote our local makerspace.
 
-{% include image.html name="bringing-carbon-to-life-image-3.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/bringing-carbon-to-life-image-3.png" alt="Your alternate text." %}
 
 # Conclusion
 

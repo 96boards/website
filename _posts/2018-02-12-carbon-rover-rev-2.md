@@ -2,11 +2,7 @@
 title: Carbon Rover Rev 2 | NeoPixels
 author: Sahaj Sarup
 date: 2018-02-12 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/carbon-rover-rev-2-thumb.jpg
-    name: carbon-rover-rev-2.jpg
-    thumb: carbon-rover-rev-2-thumb.jpg
+image: /assets/images/blog/carbon-rover-rev-2.jpg
 categories: blog
 tags: Iot, IE, carbon, arduino, neopixels, rgb, leds, robot, rover, zephyr
 
@@ -20,7 +16,7 @@ In one of my previous blogs titled ["Carbon Rover"](https://www.96boards.org/blo
 
 In the Rev 2 of the Carbon Rover I decided to add some RGB NeoPixels. Now these LEDs don't generate random colors, they are in fact synced to the IR and Ultrasonic Sensors.
 
-{% include image.html name="rover-2.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/rover-2.jpg" alt="Your alternate text." %}
 
 The NeoPixel strips are placed on the front and the back edge of the rover, 11 on each side for a total of 22 LEDs.
 
@@ -28,7 +24,7 @@ Although the carbon can address the Led's individually, they are virtually divid
 
 As for the IR sensors, the LEDs glow red when the sensors can't detect ground beneath the rover.
 
-Although I am using an Arduino Nano to control the LEDs, It only serves as a dumb controller. All the color and pattern for individual LEDs is calculated by the Carbon on sent over I2C to the Arduino.  
+Although I am using an Arduino Nano to control the LEDs, It only serves as a dumb controller. All the color and pattern for individual LEDs is calculated by the Carbon on sent over I2C to the Arduino.
 
 # Source Code
 

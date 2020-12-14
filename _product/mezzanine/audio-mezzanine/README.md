@@ -29,15 +29,15 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/audio-mezzanine-dragonboard
-tab_menu:
-  - tab_title: Audio Mezzanine
-    tab_link: /product/audio-mezzanine/
+sticky_tab_bar:
+  - title: Audio Mezzanine
+    url: /product/audio-mezzanine/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/audio-mezzanine/
+  - title: Documentation
+    url: /documentation/mezzanine/audio-mezzanine/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

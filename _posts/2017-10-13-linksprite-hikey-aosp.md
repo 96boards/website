@@ -4,10 +4,8 @@ comments: true
 date: 2017-10-13 12:00:00+00:00
 layout: post
 title: Linksprite Touch Display enabled on AOSP for HiKey and HiKey960
-image:
-    featured: true
-    path: /assets/images/blog/96boards-display-7-img1.jpg
-    name: 96boards-display-7-img1.jpg
+image: /assets/images/blog/96boards-display-7-img1.jpg
+image_name: 96boards-display-7-img1.jpg
 tags:
 - Hikey
 - Hikey960
@@ -25,7 +23,7 @@ tags:
 
 ### Introduction
 
-{% include image.html name="96boards-display-7-img1.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/96boards-display-7-img1.jpg" alt="Your alternate text." %}
 
 This 7-inch LCD capacitive touch screen from LinkSprite features an HDMI interface and uses standard HID protocol. The screen features an 800 x 480 resolution, back light control for lower power consumption, and it supports HDMI for display and USB for touch control.
 

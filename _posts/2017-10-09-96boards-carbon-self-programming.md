@@ -5,13 +5,10 @@ date: 2017-10-09 01:01:54+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-carbon-self-programming/
 slug: 96boards-carbon-self-programming
-image:
-    featured: true
-    path: /assets/images/blog/96boards-carbon-self-programming.jpg
-    name: 96boards-carbon-self-programming.jpg
+image: /assets/images/blog/96boards-carbon-self-programming.jpg
+image_name: 96boards-carbon-self-programming.jpg
 title: Self Programming Using 96Boards Carbon
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -119,7 +116,7 @@ LS-08 to BLE_SWD-3 (CLK)."
 
 Short and precise, but one picture is worth many words:
 
-{% include image.html name="96boards-carbon-self-programming.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/96boards-carbon-self-programming.jpg" alt="Your alternate text." %}
 
 It shows which receptacles of Low-Speed (LS) connector should be used, and which thru-holes of the nRF51 SWD connector
 they should go to. One thing to note is that wire go in criss-cross manner: left LS pin goes to right SWD pin, and

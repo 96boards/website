@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 70 Recap - The 96Boards Project Cycle
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -156,7 +154,7 @@ Robert Wolff - RW
 https://github.com/96boards-projects
 
 Christine Jorgensen - CJ
-His is a much more fun role! 
+His is a much more fun role!
 (Says his boss)
 
 Robert Wolff - RW
@@ -261,7 +259,7 @@ Mike Levine - ML
 Great call and look forward to meeting you Rajan and Christine.   I need to drop off.
 
 CEZAR - C
-I though it was a snowboard 
+I though it was a snowboard
 
 maddog - M
 If the kit had a "position for every component" it would be relatively easy to check, and the rental would over "checkin", with replacement being extra if necessary.

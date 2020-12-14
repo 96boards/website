@@ -7,3 +7,7 @@ url: "https://www.96boards.org"
 destination: production.96boards.org
 # Production boolean used in layouts / includes
 production: true
+# Google Analytics
+google_analytics:
+  enabled: true
+  code: GTM-P53JPC

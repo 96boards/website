@@ -3,14 +3,11 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-11-28 01:01:54+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/agl-demo.jpg
-    name: agl-demo.jpg
-    thumb: agl-demo-thumb.jpg
+image: /assets/images/blog/agl-demo.jpg
+image_name: agl-demo.jpg
+image_thumb: agl-demo-thumb.jpg
 title: Automotive Grade Linux on Dragonboard410c - Part 3
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -30,7 +27,7 @@ tags:
 
 Hello and Welcome to **Part 3** of our **Automotive Grade Linux on Dragonboard410c**
 blog series. This is the final part of the blog series and intended to serve as a guide
-for application development using AGL framework. 
+for application development using AGL framework.
 
 Before getting into the blog, here is the quick recap of what happened in
 previous blogs of the series:
@@ -170,8 +167,8 @@ the temperature data from TMP007 sensor and sends it back to the frontend throug
   tmp = (data[0] * 256 + (data[1] & 0xFC)) / 4;
   if(tmp > 8191) {
     tmp -= 16384;
-  }	
-  
+  }
+
   /* convert to celsius */
   val = tmp * 0.03125;
 
@@ -189,8 +186,3 @@ using it. There are N number of possibilities available with AGL since it is bac
 by the Top most Automotive companies and Linux Foundation in particular. If AGL
 continues to grow in the upcoming days, we can expect to see most majority of cars
 powered by it :-)
-
-
-
-
-

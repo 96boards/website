@@ -20,15 +20,15 @@ product_buy_links:
   -
     link-title: Arrow
     link-url: https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc
-tab_menu:
-  - tab_title: Link Sprite
-    tab_link: /product/linkspritesensorkit/
+sticky_tab_bar:
+  - title: Link Sprite
+    url: /product/linkspritesensorkit/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/linkspritesensorkit/
+  - title: Documentation
+    url: /documentation/mezzanine/linkspritesensorkit/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

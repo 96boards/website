@@ -5,18 +5,14 @@ date: 2016-09-06 20:01:17+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-17/
 slug: recap-of-the-96boards-openhours-17
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 17
 wordpress_id: 17143
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -1899,7 +1895,7 @@ RW
 
 
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/)
+[https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/downloads/](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/downloads/)
 
 
 
@@ -2020,7 +2016,7 @@ For barometric pressure BMP280 or BME280 modules work well via I2C
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

@@ -2,10 +2,8 @@
 title: "96boards: Autoware everywhere | Bridging .AI and .Auto in the Hikey970"
 author: Servando German Serrano
 date: 2019-12-13 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/awf_hikey970.png
-    name: awf_hikey970.png
+image: /assets/images/blog/awf_hikey970.png
+image_name: awf_hikey970.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, real time, ROS2, Autoware

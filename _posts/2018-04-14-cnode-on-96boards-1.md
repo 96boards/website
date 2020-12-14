@@ -1,12 +1,10 @@
 ---
 title: CryptoNode on 96Boards
-author: Andrew Betts 
+author: Andrew Betts
 date: 2018-04-13 17:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/ucsd.png
-    name: ucsd.png
-    thumb: ucsd-thumb.png
+image: /assets/images/blog/ucsd.png
+image_name: ucsd.png
+image_thumb: ucsd-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, Crypto, UCSD
 ---

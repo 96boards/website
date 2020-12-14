@@ -1,10 +1,9 @@
 source "https://rubygems.org"
-
-gem "jumbo-jekyll-theme", "5.6.9.2"
-
+# Jekyll Theme
+gem 'linaro-jekyll-theme', "4.2.0"
+# Jekyll Plugins
 group :jekyll_plugins do
-  gem "jekyll-data"
-  gem "jekyll-toc"
-  gem "jekyll-relative-links"
-  gem "kramdown-parser-gfm"
+    gem "nokogiri"
+    gem "jekyll-readme-index", "0.3.0"
+    gem "jekyll-relative-links", "0.6.1"
 end

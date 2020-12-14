@@ -5,18 +5,14 @@ date: 2016-06-20 22:31:54+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-6-recap/
 slug: 96boards-openhours-session-6-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: 96Boards OpenHours Session 6 Recap
 wordpress_id: 15272
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -195,9 +191,9 @@ Be sure to stay tune in next week  [https://www.96boards.org/openhours/](/openh
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours image" class="img-fluid" %}
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

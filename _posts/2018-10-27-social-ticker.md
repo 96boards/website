@@ -2,11 +2,9 @@
 title: 96Boards Social Media Ticker Part 1
 author: Sahaj Sarup
 date: 2018-10-21 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/social-media.jpg
-    name: social-media.jpg
-    thumb: social-media-thumb.jpg
+image: /assets/images/blog/social-media.jpg
+image_name: social-media.jpg
+image_thumb: social-media-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, twitter, python, Bot, script
 ---

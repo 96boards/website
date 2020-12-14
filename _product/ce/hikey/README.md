@@ -11,17 +11,17 @@ shortname: hikey
 dateAdded: 2017-08-02 09:00:00+00:00
 product_specification: ce
 product_short_desc: Board based on HiSilicon Kirin 6220 processor
-tab_menu:
-    - tab_title: HiKey (LeMaker)
-      tab_link: /product/hikey/
+sticky_tab_bar:
+    - title: HiKey (LeMaker)
+      url: /product/hikey/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/hikey/hikey620/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey/hikey620/
+    - title: Getting Started
+      url: /documentation/consumer/hikey/hikey620/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/hikey/hikey620/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey
+    - title: Support
+      url: https://discuss.96boards.org/c/products/hikey
       tab_position: 2
       tab_align_right: true
 product_buy_links:
@@ -45,16 +45,16 @@ product_images:
   - images/HiKey_LeMaker_angle.jpg
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
-        - link: /documentation/consumer/hikey/downloads/aosp.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/aosp.md.html
           title: AOSP
-        - link: /documentation/consumer/hikey/downloads/debian.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/debian.md.html
           title: Debian
-        - link: /documentation/consumer/hikey/downloads/open-embedded.md.html
+        - link: /documentation/consumer/hikey/hikey620/downloads/open-embedded.md.html
           title: OpenEmbedded
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards

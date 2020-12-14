@@ -5,14 +5,11 @@ date: 2016-12-07 19:23:59+00:00
 layout: post
 link: https://www.96boards.org/blog/community-mezzanine-board/
 slug: community-mezzanine-board
-image:
-    featured: true
-    path: /assets/images/blog/CommunityBoard.png
-    name: CommunityBoard.png
+image: /assets/images/blog/CommunityBoard.png
+image_name: CommunityBoard.png
 title: Community Mezzanine Board
 wordpress_id: 18920
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -149,14 +146,13 @@ I really think the purpose of the sensors board was to allow people to easily ex
 
 ## **Hand Drawn Sketch of my proposal**
 
-
-![Communtiy Board Image]({% asset_path "community-mezzanine-board-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/community-mezzanine-board-img-1.png" alt="Communtiy Board Image" class="img-fluid" %}
 
 The community board idea was discussed on [last week's episode of OpenHours](https://youtu.be/LJzHpvpMEMY)! Please visit our Y[ouTube channel for other 96Boards videos](https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg).
 
 Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 

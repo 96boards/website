@@ -1,5 +1,5 @@
 ---
 name: Bill Fletcher
 username: Bill Fletcher
-image_path: /assets/images/authors/BillFletcher.jpg
+image: /assets/images/authors/BillFletcher.jpg
 ---

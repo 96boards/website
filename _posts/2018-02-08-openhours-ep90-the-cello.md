@@ -2,11 +2,9 @@
 title: OpenHours ep 90 - A look at the 96Boards Cello
 author: Robert Wolff
 date: 2018-02-08 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 categories: blog
 tags: 64-Bit, 96Boards, Bubblegum96, HiKey, DragonBoard 410c, Linux, Linaro, ARM, SBC, Single Board Computer, AOSP, Android, Red Hat, Redhat, fedora, Open Source, deep learning, robert wolff, tensorflow, i.mx7, meerkat, NXP, qualcomm, technology, computer, community, Timesys, Maciej Halasz, IIoT
 

@@ -2,9 +2,8 @@
 title: Sophon Edge Mainlining Update - Part 1
 author: Manivannan Sadhasivam
 date: 2019-02-04 01:01:54+00:00
-image:
-    path: /assets/images/blog/sophon.png
-    name: sophon.png
+image: /assets/images/blog/sophon.png
+image_name: sophon.png
 categories: blog
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Bitmain, BM1880, Edge, Mining, ASIC, Mainlining, Devicetree, Serial, IRQCHIP, Timer, Clocksource, Interrupts, Sophon
 ---

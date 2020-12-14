@@ -129,9 +129,9 @@ collections:
             required: true
             options:
               - {label: "Documents Icon", value: "fa-file-text"}
-              - {label: "Terminal Icon", value: "fa-terminal"}
-              - {label: "External Links", value: "fa-external-link-square"}
-              - {label: "Code", value: "fa-code"}
+              - {label: "Terminal Icon", value: "icon-terminal"}
+              - {label: "External Links", value: "icon-link-ext-alt"}
+              - {label: "Code", value: "icon-file-code"}
           - label: Items
             name: items
             widget: list

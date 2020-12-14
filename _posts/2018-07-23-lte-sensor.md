@@ -2,11 +2,9 @@
 title: Playing with the Sensors | ShiraTech LTE and Sensor Mezzanine
 author: Sahaj Sarup
 date: 2018-07-27 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/ltesensor.jpg
-    name: ltesensor.jpg
-    thumb: ltesensor-thumb.jpg
+image: /assets/images/blog/ltesensor.jpg
+image_name: ltesensor.jpg
+image_thumb: ltesensor-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, groupgets, qwerty, embedded, crowd fund, mezzanine, community
 ---

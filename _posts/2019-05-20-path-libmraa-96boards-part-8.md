@@ -2,11 +2,9 @@
 title: Our path to libmraa with 96Boards – Part 8
 author: Manivannan Sadhasivam
 date: 2019-05-20 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
-    name: path-libmraa-96boards-part-2-featured.png
-    thumb: path-libmraa-96boards-part-2-featured-thumb.png
+image: /assets/images/blog/path-libmraa-96boards-part-2-featured.png
+image_name: path-libmraa-96boards-part-2-featured.png
+image_thumb: path-libmraa-96boards-part-2-featured-thumb.png
 categories: blog
 series: Our path to libmraa with 96Boards
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, MRAA, GPIO, I2C, UART, Chardev, SysFS, Linux, Kernel

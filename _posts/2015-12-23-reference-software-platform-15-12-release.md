@@ -5,17 +5,14 @@ date: 2015-12-23 03:42:19+00:00
 layout: post
 link: https://www.96boards.org/blog/reference-software-platform-15-12-release/
 slug: reference-software-platform-15-12-release
-image:
-    featured: true
-    path: /assets/images/blog/96boards-socialmedia.jpg
-    name: 96boards-socialmedia.jpg
+image: /assets/images/blog/96boards-socialmedia.jpg
+image_name: 96boards-socialmedia.jpg
 title: Reference Software Platform 15.12 Release!
 wordpress_id: 10213
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
+category: blog
 tags:
 - dragonboard410c
 - enterprise

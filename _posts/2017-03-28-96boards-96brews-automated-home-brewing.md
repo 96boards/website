@@ -5,14 +5,11 @@ date: 2017-03-28 05:49:10+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-96brews-automated-home-brewing/
 slug: 96boards-96brews-automated-home-brewing
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-327.png
-    name: Screenshot-327.png
+image: /assets/images/blog/Screenshot-327.png
+image_name: Screenshot-327.png
 title: 96Boards for 96Brews - Automated Home Brewing
 wordpress_id: 20129
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -370,7 +367,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 

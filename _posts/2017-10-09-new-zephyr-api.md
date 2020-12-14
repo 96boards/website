@@ -4,10 +4,8 @@ comments: true
 date: 2017-10-09 12:00:00+00:00
 layout: post
 title: New Zephyr Socket API
-image:
-    featured: true
-    path: /assets/images/blog/zephyr.jpg
-    name: zephyr.jpg
+image: /assets/images/blog/zephyr.jpg
+image_name: zephyr.jpg
 tags:
 - Zephyr
 - 96Boards
@@ -45,7 +43,7 @@ Extending that idea a bit further, some people say that IoT differs from classic
 
 To show the difference, let’s survey how native networking API works. First of all, it’s callback-based: you install a callback function, and when packet is received, this function will be called. That means there’s no sequential program flow, and application needs to be designed correspondingly. If that design didn’t work out well, it may become a Callback Hell. This callback function will receive data packet by packet, and that never should be underestimated. For a protocol like TCP, data may be fragmented arbitrarily among packets. You think that you will receive a complete HTTP request in a single packet? You just made a typical mistake when programming with such an API model. Not only an HTTP request might not fit in a single packet, even for the first line of request “GET / HTTP/1.0”, you might receive “G” in the first packet, “E”, in the 2nd, “T” in 3rd, etc.
 
-To add more complications optimizations to the above, Zephyr also splits network packets into small, fixed-size data fragments (all in the name of better memory management and zero-copy, of course). So, if you made a mistake above, and didn’t hit it right away, but decided to search for “Host:” header in the request with familiar string searching functions, you can’t: “Ho” may be in one data fragment, and “st:” in the next. 
+To add more complications optimizations to the above, Zephyr also splits network packets into small, fixed-size data fragments (all in the name of better memory management and zero-copy, of course). So, if you made a mistake above, and didn’t hit it right away, but decided to search for “Host:” header in the request with familiar string searching functions, you can’t: “Ho” may be in one data fragment, and “st:” in the next.
 
 ### Zephyr’s BSD Sockets compatible API
 
@@ -64,4 +62,3 @@ The “echo_async” sample was tested and runs well on the Carbon. (“echo” 
 ### Conclusion
 
 The BSD Sockets compatible API is another useful addition to the already wide repertoire of Zephyr APIs, which hopefully will make IoT programmers more productive. Just as Zephyr in general, this API is a work in progress, expected to further evolve in the next versions. To help us along that way, and help smash those bugs which are surely still there, we need your feedback! So, give it a try, and let us know what worked and what didn’t.
-

@@ -5,14 +5,11 @@ date: 2016-08-23 09:29:37+00:00
 layout: post
 link: https://www.96boards.org/blog/geppettotm-offers-makers-rapid-path-to-market/
 slug: geppettotm-offers-makers-rapid-path-to-market
-image:
-    featured: true
-    path: /assets/images/blog/Geppetto_blank_base.png
-    name: Geppetto_blank_base.png
+image: /assets/images/blog/Geppetto_blank_base.png
+image_name: Geppetto_blank_base.png
 title: GEPPETTOTMOffers Makers Rapid Path to Market
 wordpress_id: 16643
-categories:
-- blog
+category: blog
 ---
 
 # GEPPETTOTM Offers Makers Rapid Path to Market
@@ -26,7 +23,9 @@ After the designer completes their online design, they simply click to order a m
 
 This is a significant advance in custom design options for Makers targeting high volume production in the industrial or professional markets and building products such as consumer drones, media players, signage and other Internet of Things (IoT) products.
 
-![The Geppetto workspace]({% asset_path "Geppetto_blank_base.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/Geppetto_blank_base.png" alt="The Geppetto workspace" class="img-fluid" %}
+
+
 The Geppetto workspace
 
 
@@ -61,7 +60,8 @@ Let’s walk through design process of the AeroCore 2 for DragonBoard 410C to de
 
 In order to demonstrate how to use Geppetto, the Aerocore 2 for Dragonboard 410C design will be replicated using the 96Boards mezzanine connector module.
 
-![addr_bar]({% asset_path "addr_bar.gif" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/addr_bar.gif" alt="addr_bar" class="img-fluid" %}
+
 
 
 ### Step 1: Go to Geppetto
@@ -73,8 +73,7 @@ The other tabs and elements within the interface are explained in video tutorial
 
 [https://geppetto.gumstix.com/welcome/quickstart.html](https://geppetto.gumstix.com/welcome/quickstart.html)
 
-![Geppetto Gif]({% asset_path "geppetto-gif.gif" %}){:class="img-responsive lazyload"}
-
+{% include image.html path="/assets/images/blog/geppetto-gif.gif" alt="Geppetto Gif" class="img-fluid" %}
 
 ### Step 2: Add the Connector
 
@@ -104,7 +103,7 @@ Modules can be placed within the shadow (the dark grey outline) of another modul
 
 The M4 requires 3.3V so we need to add a regulator in order to power it from the battery.  The regulator could also take 5V from the Dragonboard but we'll be using that for other modules.
 
-![Geppetto-Selection]({% asset_path "geppetto-gif-selection.gif" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/geppetto-gif-selection.gif" alt="Geppetto-Selection" class="img-fluid" %}
 
 ### Step 5: Finishing the Design
 
@@ -115,10 +114,15 @@ The flight-critical sensors and headers are connected to the microcontroller whi
 
 Compare this design (below) to the original Gumstix engineers’ design (above).
 
-![The Gumstix Aerocore 2 for Dragonboard 410C in Geppetto]({% asset_path "geppetto-selection-image.png" %}){:class="img-responsive lazyload"}  The Gumstix Aerocore 2 for Dragonboard 410C in Geppetto
+
+{% include image.html path="/assets/images/blog/geppetto-selection-image.png" alt="The Gumstix Aerocore 2 for Dragonboard 410C in Geppetto" class="img-fluid" %}
+
+The Gumstix Aerocore 2 for Dragonboard 410C in Geppetto
+
+{% include image.html path="/assets/images/blog/geppetto-selection-image.png" alt="The Gumstix Aerocore 2 for Dragonboard 410C in Geppetto" class="img-fluid" %}
 
 
-![The Gumstix AeroCore 2 for 96Boards in Geppetto]({% asset_path "geppetto-selection-image.png" %}){:class="img-responsive lazyload"}  The Gumstix AeroCore 2 for 96Boards in Geppetto
+The Gumstix AeroCore 2 for 96Boards in Geppetto
 
 
 [Geppetto](https://www.gumstix.com/geppetto/)® is a free online design tool and allows users to compare module cost during design, create multiple projects and share ideas. Log on today to test drive a 96Boards design at [geppetto.gumstix.com](http://geppetto.gumstix.com/).

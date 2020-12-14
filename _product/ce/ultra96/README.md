@@ -30,18 +30,18 @@ product_images:
   - images/ultra96-angle9-sd.png
   - images/ultra96-angle10-sd.png
   - images/ultra96-angle11-sd.png
-tab_menu:
-    - tab_title: Ultra96
-      tab_link: /product/ultra96/
+sticky_tab_bar:
+    - title: Ultra96
+      url: /product/ultra96/
       active: true
-    - tab_title: AI
-      tab_link: /product/ultra96/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/ultra96/ultra96-v2/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/ultra96/ultra96-v2/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/ultra96/
+    - title: AI
+      url: /product/ultra96/ai/
+    - title: Getting Started
+      url: /documentation/consumer/ultra96/ultra96-v2/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/ultra96/ultra96-v2/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/ultra96/
       tab_align_right: true
 product_buy_links:
   -
@@ -53,21 +53,21 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Linux
           link: /documentation/consumer/ultra96/ultra96-v2/downloads/
         - title: Xilinx PYNQ
           link: http://www.pynq.io/board.html
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: OpenSUSE
           link: https://en.opensuse.org/HCL:Ultra96
         - title: X-Ware
           link: http://www.ultra96.org/node/26011
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Avnet Zedboard
           link: http://zedboard.org/product/ultra96

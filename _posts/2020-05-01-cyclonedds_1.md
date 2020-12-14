@@ -2,10 +2,8 @@
 title: "96boards: Autoware everywhere | Defaulting to Cyclone DDS"
 author: Servando German Serrano
 date: 2020-05-01 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/CycloneDDS.png
-    name: CycloneDDS.png
+image: /assets/images/blog/CycloneDDS.png
+image_name: CycloneDDS.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Linaro, Linux, arm64, real time, ROS2, Autoware, cyclonedds

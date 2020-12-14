@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     hikey 970, hikey970, aosp, aosp developement board, boards, linux, ai, artificial intelligence
 product_short_desc: "Provide short product description."
-tab_menu:
-    - tab_title: HiKey970
-      tab_link: /product/hikey970/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: HiKey970
+      url: /product/hikey970/
+    - title: AI
       active: true
-      tab_link: /product/hikey970/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/hikey970/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey970/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey970/
+      url: /product/hikey970/ai/
+    - title: Getting Started
+      url: /documentation/consumer/hikey/hikey970/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/hikey/hikey970/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/hikey970/
       tab_align_right: true
 header-image: hikey970-front-sd-min.png
 footer-image: hikey970-back-sd-min.png

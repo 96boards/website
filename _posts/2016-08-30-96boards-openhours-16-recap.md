@@ -5,18 +5,14 @@ date: 2016-08-30 01:36:35+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-16-recap/
 slug: 96boards-openhours-16-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 16
 wordpress_id: 16856
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -2000,7 +1996,7 @@ Here so some inspirational ideas on how to use 96Boards or even DtagonBaordshttp
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

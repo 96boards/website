@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 69 Recap - DragonBoard & Linaro Team
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -74,7 +72,7 @@ Rafael Christ - RC
 Hello guys
 
 Mani - M
-Robert caught COLD 
+Robert caught COLD
 
 Todd Thal - TT
 Congrats Sahaj !!!!!
@@ -133,7 +131,7 @@ Sahaj Sarup - SS
 half of them are just defconfigs for arm :p, jk
 
 Carl - C
-I willl be trying to install Crystal language per these instructions on my Dragonboard: https://crystal-lang.org/docs/installation/ 
+I willl be trying to install Crystal language per these instructions on my Dragonboard: https://crystal-lang.org/docs/installation/
 probably on the latest Debian build.
 
 Sahaj Sarup - SS
@@ -154,7 +152,7 @@ todd; that size would have been a lot worse without the I/OI restructuring work 
 
 Kurt Taylor - KT
 @todd, keep in mind that several of the kernel contributing companies that you mention (for example IBM) also had assignees into Linaro
-that helped with those contribs  
+that helped with those contribs
 
 Todd Thal - TT
 Thanks maddog...don't even get me started on the fact that the latest Redhat (full enterprise release) is approximately 380 million lines
@@ -213,10 +211,10 @@ and instagram! @sdrobertw
 and youtube /c/96boards
 
 Michael Welling - MW
-even I have upstream patches 
+even I have upstream patches
 
 Mani - M
-me too 
+me too
 Michael: did u co-maintain any subsystems?
 
 Michael Welling - MW

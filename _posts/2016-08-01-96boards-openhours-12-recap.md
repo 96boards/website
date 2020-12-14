@@ -5,18 +5,14 @@ date: 2016-08-01 22:43:35+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-12-recap/
 slug: 96boards-openhours-12-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: 96Boards OpenHours 12 Recap
 wordpress_id: 16110
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -285,7 +281,7 @@ DM
 
 
 
-Just wanted to report one 404 link in 96boards [/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
+Just wanted to report one 404 link in 96boards [/documentation/consumer/dragonboard/dragonboard410c/getting-started/](/documentation/consumer/dragonboard/dragonboard410c/getting-started/)   there linux guide is a 404.. I had shared a friend but did not work .. if we could fix that will help
 
 
 
@@ -473,7 +469,7 @@ DM
 
 
 
-[/documentation/consumer/dragonboard410c/getting-started/](/documentation/consumer/dragonboard410c/getting-started/)
+[/documentation/consumer/dragonboard/dragonboard410c/getting-started/](/documentation/consumer/dragonboard/dragonboard410c/getting-started/)
 
 
 
@@ -952,5 +948,5 @@ ok thanks, I would have used the ubuntu.... now I know better
 
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 [n](/blog/installing-docker-aarch64-96boards-ce/)

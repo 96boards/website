@@ -5,14 +5,11 @@ date: 2016-03-15 14:05:25+00:00
 layout: post
 link: https://www.96boards.org/blog/qualcomm-maker-month-contest/
 slug: qualcomm-maker-month-contest
-image:
-    featured: true
-    path: /assets/images/blog/Screen-Shot-2016-03-15-at-14.04.26.png
-    name: Screen-Shot-2016-03-15-at-14.04.26.png
+image: /assets/images/blog/Screen-Shot-2016-03-15-at-14.04.26.png
+image_name: Screen-Shot-2016-03-15-at-14.04.26.png
 title: Qualcomm Maker Month Contest
 wordpress_id: 12800
-categories:
-- blog
+category: blog
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/2GwN--2sDMw" %}

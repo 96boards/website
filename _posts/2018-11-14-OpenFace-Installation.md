@@ -3,11 +3,9 @@ title: OpenFace Installation On HiKey Lemaker edition 96Boards
 author: Theodore Grey
 
 date: 2018-11-14 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/Pic1-OpenFace-Demo.png
-    name: Pic1-OpenFace-Demo.png
-    thumb: Pic1-OpenFace-Demo.png
+image: /assets/images/blog/Pic1-OpenFace-Demo.png
+image_name: Pic1-OpenFace-Demo.png
+image_thumb: Pic1-OpenFace-Demo.png
 categories: blog
 tags: 96Boards, AI, FacialRecognition, OpenFace, Tensorflow, OpenCV, Installation
 
@@ -207,7 +205,7 @@ Note: For changing the name of the person detected, replace the default “Mani�
 Ex: change ID to
 
 ```
-if(Id ==1): 
+if(Id ==1):
    Id=”Theo”
 ```
 
@@ -217,7 +215,7 @@ If multiple faces need to be detected, add if statements with corresponding Id's
 
 GTK-Warning:
 
-If you run the command $ python dataset.py and receive the following warning causing the program to crash: 
+If you run the command $ python dataset.py and receive the following warning causing the program to crash:
 
 Gtk-WARNING **: cannot open display
 
@@ -257,7 +255,7 @@ $ cmake ../../tools/python
 $ cmake --build . --config Release
 $ sudo cp dlib.so /usr/local/lib/python2.7/dist-packages
 ```
-At this point you should be able to start the python interpreter and successfully run 
+At this point you should be able to start the python interpreter and successfully run
 ```python
 >> import cv2; import dlib
 ```
@@ -368,14 +366,3 @@ From the base openface directory run the following command:
 `$ ./demos/compare.py images/examples/{*lennon-1*,*lennon-2*}`
 
 This should result in a distance of 0.763.
-
-
-
-
-
-
-
-
-
-
-

@@ -2,11 +2,9 @@
 title: Linaro Connect SFO17 - Summary
 author: 96Boards Team
 date: 2017-11-01 12:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/linaro-connect-sfo17.jpg
-    name: linaro-connect-sfo17.jpg
-    thumb: linaro-connect-sfo17-thumb.png
+image: /assets/images/blog/linaro-connect-sfo17.jpg
+image_name: linaro-connect-sfo17.jpg
+image_thumb: linaro-connect-sfo17-thumb.png
 tags: 64-Bit, 96Boards, Bubblegum96, HiKey, DragonBoard 410c, Linux, Linaro, ARM, SBC, Single Board Computer, AOSP, Android, Red Hat, Redhat, fedora, Open Source, deep learning, robert wolff, tensorflow, i.mx7, meerkat, NXP, qualcomm, technology, computer, community, Timesys, Maciej Halasz, IIoT, Connect, SFO17
 
 ---
@@ -32,45 +30,45 @@ The first day of connect. It started with everybody gathering up at the lobby to
 Second day of Linaro Connect began with the Keynote on High Performance Computing by Kanta Vekaria of Linaro.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-200k1/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-200k1/
 
 Followed by the much exciting keynote and demo of the Socionext SynQuacer SC2A11 platform, a multi core CPU which consists of 24 ARM Cortex-A53 cores. The demo includes booting of the SynQuacer with the mainline kernel and showing the system usage with `top` command.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-200k2/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-200k2/
 
 After grabbing coffee, we headed to the talk on ‘Secure Boot on ARM systems’ by Matteo Carlini of ARM. In this talk, Matteo discussed about implementing the complete chain of trust on ARM platforms, right from ROM bootloader to Operating system. He also explained the fundamentals of Trusted Execution Environment (TEE) on ARM.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-201/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-201/
 
 One more talk which was going along in parallel was ‘Enabling the runtime PM centric path for ACPI’ by Ulf Hansson of Linaro. He discussed about the `runtime PM centric path` of ACPI Power Management domain and compared the `direct_complete` path ,`runtime PM centric path` and gave an update on the related work for ACPI PM domain.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-202/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-202/
 
 Next we attended the talk on ‘Linux based Infotainment Systems: Thundersoft Case Study’ by Pengcheng Zou. It focussed on present current Thundersoft practises on Linux based Infotainment systems including their current released projects, 3D UI engine KANZI and also shared some of the common concerns such as Fastboot, Early RVC, Real time support etc…
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-213/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-213/
 
 Next discussion was ‘A Functional Open GPU upon ARM’ by Fabricio Toloczko. He discussed about his design of GPU on the FPGA using ARM instruction set. The driver he adopted was MESA 3D. This talk was also extended to compare the performance impact of using Software model, Native software and hardware (OpenGPU) on FPGA.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-215/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-215/
 
 After this session, we (96Boards team) had lunch together and moved on to next session.
 
 Post lunch session started with a talk on ‘Designing IoT Devices’ by Gordon Kruberg of Gumstix. He discussed about the Geppetto platform and explained how easy is it to develop IoT hardware using it. He also talked bout the device tree overlay generation feature of the Geppetto platform for the designed hardware.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-220/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-220/
 
 Final sessions of the day was occupied by Daniel Lezcano and Mathieu Poirier of Linaro. They gave a talk about the Linux kernel upstreaming process - do and do not’s, why it is important etc…
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-tr02/ 
-   - http://connect.linaro.org/resource/sfo17/sfo17-tr03/   
+   - http://connect.linaro.org/resource/sfo17/sfo17-tr02/
+   - http://connect.linaro.org/resource/sfo17/sfo17-tr03/
 
 # Wednesday
 
@@ -78,27 +76,27 @@ Third day started with the keynote by Matt Grob of Qualcomm on ‘The intelligen
 
 - Resources:
    - http://connect.linaro.org/resource/sfo17/sfo17-300k1/
-   - http://connect.linaro.org/resource/sfo17/sfo17-300k2/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-300k2/
 
 Heather occupied the next session and provided an impressive talk on ‘A Practical guide to Open Source Software Licensing’ which elaborated the internals of Open Source Software licenses and how to use them effectively.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-301/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-301/
 
 Next session was on ‘Device Tree and Secure Firmware’ by Grant Likely of ARM/SecretLab and Dan Handley of ARM. Grant started the discussion with the overview of Devicetree and its updates on Linux kernel support followed by the Dan’s presentation about role of Devicetree in Secure boot involving Secure Firmware.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-310/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-310/
 
 After finishing the session, our 96Boards team had a quick sync to decide on the work to be done for the next 2 Q's and later had lunch together. Next we headed to the presentation by the Arrow delegates Bill Davies and Dieter Kiermaier. They talked about the Arrow’s contributions to 96Boards in terms of Board support. In this presentation they gave an overview of the wide variety of upcoming 96Boards from Arrow.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-tr04/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-tr04/
 
 For wrapping up the day, we attended the session by Daniel thompson and Leo yan of Linaro on ‘Profiling On Hikey960’. They talked about the concept of Power Management on HiKey960.
 
 - Resources:
-   - http://connect.linaro.org/resource/sfo17/sfo17-tr05/ 
+   - http://connect.linaro.org/resource/sfo17/sfo17-tr05/
 
 # Thursday
 
@@ -106,7 +104,7 @@ Thursday started with a keynote by LINK REMOVED talking about project TREBLE for
 
 Thursday was a special day for 96Boards as well, we had two sessions:
 
-The first one being the LINK REMOVED and info session, where Robert talked about past, present and future efforts around the 96Boards mezzanine ecosystem and later in the session Mani talked about his idea to implement Device Tree Overlays for Mezzanine Boards. 
+The first one being the LINK REMOVED and info session, where Robert talked about past, present and future efforts around the 96Boards mezzanine ecosystem and later in the session Mani talked about his idea to implement Device Tree Overlays for Mezzanine Boards.
 
 This was followed by [OpenHours Live from Connect](https://youtu.be/zRVOdFPZmDY), where we had Live audience and a few guest speakers who were kneen to respond to queries raised by our live audience as well as those who attended the session over Bluejeans
 

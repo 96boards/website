@@ -2,10 +2,8 @@
 title: "96Boards Drone Project | Part 3"
 author: Sahaj Sarup
 date: 2020-03-24 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/drone.png
-    name: drone.png
+image: /assets/images/blog/drone.png
+image_name: drone.png
 categories: blog
 series: "96boards Drone Project"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Hikey970, Linaro, Linux, arm64, real time, drones, aerocore2
@@ -18,7 +16,7 @@ In this blog I'd like to cover the hardware and the software specifics of the dr
 ## The Drone
 
 - **The Frame**:
-    - Dimensions: 
+    - Dimensions:
         - Wheelbase: 23.5 cm
         - Arm: 12.7 l
     - Weight: 110g
@@ -29,7 +27,7 @@ In this blog I'd like to cover the hardware and the software specifics of the dr
 
 - **Motors**: Racerstar Racing Edition 2205 BR2205 2300KV 2-4S
     - RPM/V: 2300KV
-    - Dimensions:   
+    - Dimensions:
         - Height: 31.5mm
         - Width: 27.9mm
         - Shaft diameter: M5
@@ -73,7 +71,7 @@ In this blog I'd like to cover the hardware and the software specifics of the dr
     - Charge Rate: 1-3 C (Recommended)
     - Discharge Plug: JST
     - Balance Plug: JST-XH
-    - Dimensions    
+    - Dimensions
         - Length (mm): 102
         - Width (mm): 10
         - Height (mm): 20

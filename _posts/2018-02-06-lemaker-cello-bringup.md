@@ -2,10 +2,7 @@
 title: Bring up of the LeMaker Cello
 author: edolnx - Carl Perry
 date: 2018-02-06 01:01:54+00:00
-image:
-  featured: true
-  path: /assets/images/96boards-lemaker-cello.jpg
-  name: 96boards-lemaker-cello.jpg
+image: /assets/images/blog/96boards-lemaker-cello.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, enterprise edition, Linaro, Linux, iot, cloud, aws, amazon web services, sysadmin, cello,
 

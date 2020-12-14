@@ -2,10 +2,8 @@
 title: "AeroCore2 | Zephyr Porting and Upstreaming Efforts"
 author: Sahaj Sarup
 date: 2020-05-20 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/zephyr.jpg
-    name: fold.png
+image: /assets/images/blog/zephyr.jpg
+image_name: fold.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, gumstix, Mezzanine Edition, stm32, Linaro, zephyr, cortex-m, aerocore2
 ---
@@ -20,7 +18,7 @@ The [AreoCore 2](https://www.96boards.org/product/aerocore2/) for 96Boards provi
 
 ## Why Port to Zephyr RTOS?
 
-The AeroCore2 by default runs the NuttX RTOS with the PX4 autopilot stack on top. The last supported verion that this board runs is 1.8.2 since the PX4 autopilot out-grew the capabilities of the MCU. And at the time of writing this blog, the latest verion is 1.10. 
+The AeroCore2 by default runs the NuttX RTOS with the PX4 autopilot stack on top. The last supported verion that this board runs is 1.8.2 since the PX4 autopilot out-grew the capabilities of the MCU. And at the time of writing this blog, the latest verion is 1.10.
 
 So as it stands, this board does not have an up-to-date RTOS stack avilable. And that is the reason why I wanted to add this board to zephyr as it had a pretty decent MCU and a lot of life left.
 
@@ -62,5 +60,3 @@ Pretty much everything broken out from the STM32 MCU works and is enabled. Bette
 At the end, I'd like to thank the maintainers of the Zephyr RTOS project and Gumstix for helping out along the way.
 
 You can check out the Aerocore2's Dedicated page at Zephyr RTOS at: [https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html](https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html)
-
-

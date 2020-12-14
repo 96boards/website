@@ -2,11 +2,9 @@
 title: Sneak Peak at the Shiratech 4G LTE Mezzanine
 author: Sahaj Sarup
 date: 2018-06-26 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/4g.png
-    name: 4g.png
-    thumb: 4g-thumb.png
+image: /assets/images/blog/4g.png
+image_name: 4g.png
+image_thumb: 4g-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, IoT, Connectivity, 4G, LTE.
 ---

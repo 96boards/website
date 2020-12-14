@@ -10,14 +10,14 @@ dateAdded: 2019-01-26 09:00:00+00:00
 product: true
 description: |-
     Shiratech LTE CAT-M1/NB1 Mezzanine for 96Boards is hosting Quectel BG96 LTE  AT-M1/NB1 modem enabling low power connectivity to cellular networks. A built in Global Positioning System (GPS) device adds location and navigation to your application. The mezzanine enables rapid development and prototyping of industrial grade low power IoT applications requiring LTE connectivity. The Mezzanine is compatible with 96Boards Consumer Edition (CE) and Enterprise Edition (EE) boards.
-tab_menu:
-  - tab_title: Shiratech LTE CAT-M1/NB1
-    tab_link: /product/shiratech-nb1/
+sticky_tab_bar:
+  - title: Shiratech LTE CAT-M1/NB1
+    url: /product/shiratech-nb1/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/shiratech-nb1/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/shiratech-nb1/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_short_desc: "Shiratech LTE CAT-M1/NB1 Mezzanine for 96Boards is hosting Quectel BG96 LTE  AT-M1/NB1 modem enabling low power connectivity to cellular networks."
 product_images:
@@ -28,7 +28,7 @@ product_buy_links:
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-catm1nb1/shiratech"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-nb1/files/shiratech-brief-nb1.pdf

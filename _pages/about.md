@@ -5,15 +5,11 @@ description: |-
 permalink: "/about/"
 status: active
 layout: flow
-js-package: about
-css-package: about
+sticky_tab_bar: true
 jumbotron:
-    description: ""
-    darken: true
-    background-image: /assets/images/content/96boards-banner-1.jpg
+    title: About
+    image: /assets/images/content/96boards-banner-1.jpg
 flow:
-    - row: custom_include_row
-      source: sticky-tab-bar.html
     - row: container_row
       sections:
         - format: text
@@ -24,31 +20,19 @@ flow:
                 Standardized expansion buses for peripheral I/O have led to a wide range of compatible add-on mezzanine boards that will work across a variety of 96Boards products. Users have access to a wide range of boards with different features at various price points. In addition, some SoC vendors have announced long term availability of the SoC to encourage their use in products with long life cycles.
 
                 For the curious, the 96 in 96Boards comes from 32bits + 64bits.
-        - format: members
-          style: zoom
-          members_content:
-            item_width: 5ths
-            items:
-              - name: SoM Edition Logo
-                image:
-                    path: /assets/images/content/96Boards-Logo-96 SoM.svg
-                    alt: SoM Edition Logo
-              - name: Consumer Edition Logo
-                image:
-                    path: /assets/images/content/96Consumer.svg
-                    alt: Consumer Edition Logo
-              - name: Enterprise Edition Logo
-                image:
-                    path: /assets/images/content/96Enterprise.svg
-                    alt: Enterprise Edition Logo
-              - name: IoT Edition Logo
-                image:
-                    path: /assets/images/content/96IoT.svg
-                    alt: IoT Edition Logo
-              - name: Mezzanine Edition Logo
-                image:
-                    path: /assets/images/content/96Partner.svg
-                    alt: Mezzanine Edition Logo
+        # - format: members
+        #   style: zoom
+        #   members_content:
+        #     item_width: 5ths
+        #     items:
+        #       - name: SoM Edition Logo
+        #         image:
+        #             path: /assets/images/content/96Boards-Logo-96 SoM.svg
+        #             alt: SoM Edition Logo
+        #       - name: Consumer Edition Logo
+        #       - name: Enterprise Edition Logo
+        #       - name: IoT Edition Logo
+        #       - name: Mezzanine Edition Logo
     - row: container_row
       sections:
         - format: feature_block
@@ -102,8 +86,9 @@ flow:
     - row: container_row
       sections:
         - format: title
-          size: h2
-          content: Benefits of the 96Boards ecosystem
+          title_content:
+            size: h2
+            text: Benefits of the 96Boards ecosystem
     - row: container_row
       sections:
         - format: feature_block

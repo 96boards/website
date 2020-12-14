@@ -2,11 +2,9 @@
 title: Building on Arm - OpenEmbedded Edition
 author: Sahaj Sarup
 date: 2018-07-11 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/yocto.jpg
-    name: yocto.jpg
-    thumb: yocto-thumb.jpg
+image: /assets/images/blog/yocto.jpg
+image_name: yocto.jpg
+image_thumb: yocto-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, hikey, hikey970, yocto, openembedded, morty, oe
 ---

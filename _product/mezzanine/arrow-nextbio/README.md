@@ -8,15 +8,15 @@ dateAdded: 2018-06-26 09:00:00+00:00
 description: |-
     NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module, producing fingerprint development shield for DragonBoard 410c development board by Arrow Electronics. The kit includes the following: software Development Kit (SDK), which can be downloaded from NEXT Biometrics Support Portal https://support.nextbiometrics.com/. It is primarily supposed that NB-2023-S2 shield board is put together with DragonBoard 410c development board and used as a one solid piece of hardware. Such a set allows to the user easy evaluation of the connected NB-2023-S2-VAIX fingerprint sensor module at ARM Cortex-A53 64-bit powered platform. Please note that NBDK-2023-S2-VAIX-DB Development Kit is delivered without the DragonBoard 410c board. The can be purchased directly from Arrow Electronic: https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools
 display_product: true
-tab_menu:
-  - tab_title: NextBio Mezzanine (Arrow)
-    tab_link: /product/arrow-nextbio/
+sticky_tab_bar:
+  - title: NextBio Mezzanine (Arrow)
+    url: /product/arrow-nextbio/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/arrow-nextbio/
+  - title: Documentation
+    url: /documentation/mezzanine/arrow-nextbio/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 product_specification: "mezzanine"
@@ -30,7 +30,7 @@ product_buy_links:
   link-url: "https://www.arrow.com/en/products/nbdk-2023-s2-vaix-db/next-biometrics-group-asa"
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Product Brief
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/arrow-nextbio/files/productbriefnbdk-2023-s2-vaix-db.pdf
