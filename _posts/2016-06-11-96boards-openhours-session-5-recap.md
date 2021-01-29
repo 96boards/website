@@ -5,18 +5,14 @@ date: 2016-06-11 18:07:43+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-5-recap/
 slug: 96boards-openhours-session-5-recap
-image:
-    featured: true
-    path: /assets/images/blog/akira-blog-image.jpg
-    name: akira-blog-image.jpg
+image: /assets/images/blog/akira-blog-image.jpg
+image_name: akira-blog-image.jpg
 title: 96Boards OpenHours Session 5 Recap
 wordpress_id: 15263
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -107,9 +103,10 @@ Be sure to stay tune in next week where we will discuss installing Docker on aar
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
-[![OpenHours-04]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"} ](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours image" class="img-fluid" %}
 
-[**In this series**](/blog/tag/)
+
+**In this series**
 
 
 

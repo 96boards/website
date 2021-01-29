@@ -2,10 +2,7 @@
 title: Bring up of the LeMaker Cello
 author: edolnx - Carl Perry
 date: 2018-02-06 01:01:54+00:00
-image:
-  featured: true
-  path: /assets/images/96boards-lemaker-cello.jpg
-  name: 96boards-lemaker-cello.jpg
+image: /assets/images/blog/96boards-lemaker-cello.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, enterprise edition, Linaro, Linux, iot, cloud, aws, amazon web services, sysadmin, cello,
 
@@ -198,7 +195,7 @@ FS0:\efi\boot\> bootaa64.efi
 
 # Installing an OS
 
-After I stop jumping for joy, I realize I need an installer. I have this lovely Zalman ZM-VE200 (which is similar to [this device](http://zalman.com/contents/products/view.html?no=20)), which lets me load an ISO on an SSD/HDD and present it as an USB CDROM. It's a lifesaver. So, I drop the stock [Debian Stretch ARM64 DVD](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/) on and plug it in. Then I tell the UEFI shell to reboot and... it works. The Debian installer comes up no problem. So, I power off the board, attach Ethernet and a brand new SATA SSD, and boot again.
+After I stop jumping for joy, I realize I need an installer. I have this lovely Zalman ZM-VE200, which lets me load an ISO on an SSD/HDD and present it as an USB CDROM. It's a lifesaver. So, I drop the stock [Debian Stretch ARM64 DVD](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/) on and plug it in. Then I tell the UEFI shell to reboot and... it works. The Debian installer comes up no problem. So, I power off the board, attach Ethernet and a brand new SATA SSD, and boot again.
 
 This time, things are not as smooth. I use `picocom` as my default serial console of choice, and UEFI doesn't seem to like it. Ironically, `minicom` lets you get through the UEFI menus and prompts without issue, but then the Debian installer is terrible. A little more testing, and I figure out that the UEFI really wants an ANSI serial terminal, and GRUB and Debian prefers a linux/xterm/vt102 terminal. This is a simple fix for picocom where I can start with `TERM=ANSI picocom -b 115200 /dev/ttyUSB0` and later restart without the `TERM=ANSI` and all is well. I had very strange issues with `minicom`, which should come as a surprise to no one.
 

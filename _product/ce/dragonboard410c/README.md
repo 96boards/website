@@ -16,18 +16,18 @@ product_specification: ce
 product_images:
   - images/DragonBoard-UpdatedImages-front.png
   - images/DragonBoard-UpdatedImages-back.png
-tab_menu:
-    - tab_title: DragonBoard™ 410c (Arrow)
-      tab_link: /product/dragonboard410c/
+sticky_tab_bar:
+    - title: DragonBoard™ 410c (Arrow)
+      url: /product/dragonboard410c/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
+    - title: Getting Started
+      url: /documentation/consumer/dragonboard/dragonboard410c/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/dragonboard/dragonboard410c/
+    - title: Documentation
+      url: /documentation/consumer/dragonboard/dragonboard410c/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/dragonboard410c/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 3
       tab_align_right: true
 product_buy_links:
@@ -82,14 +82,14 @@ product_buy_links:
     link-price-currency: INR
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Android
-          link: /documentation/consumer/dragonboard410c/downloads/android.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/android.md.html
         - title: Debian
-          link: /documentation/consumer/dragonboard410c/downloads/debian.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/debian.md.html
         - title: OpenEmbedded
-          link: /documentation/consumer/dragonboard410c/downloads/open-embedded.md.html
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/open-embedded.md.html
         - title: Windows
           link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
         - title: Ubuntu
@@ -97,7 +97,7 @@ product_sidebar_sections:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Windows 10 IoT Core
           link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
@@ -106,9 +106,9 @@ product_sidebar_sections:
         - title: Fedora
           link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
         - title: More Downloads
-          link: /documentation/consumer/dragonboard410c/downloads/
+          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/
     - title: Middleware & SDK's
-      icon: fa-code
+      icon: icon-file-code
       items:
         - title: AWS IoT SDK
           link: https://github.com/ArrowElectronics/aws-iot-device-sdk

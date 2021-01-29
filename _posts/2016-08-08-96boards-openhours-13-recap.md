@@ -5,18 +5,14 @@ date: 2016-08-08 15:28:16+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-13-recap/
 slug: 96boards-openhours-13-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: 96Boards OpenHours 13 Recap
 wordpress_id: 16170
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -147,7 +143,7 @@ MW
 you can buy the sensor board alone from seeed for less than arrow
 ```
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

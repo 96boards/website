@@ -2,11 +2,7 @@
 title: It's a Calendar! It's a Picture Frame!
 author: Sahaj Sarup
 date: 2018-11-19 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/calendar-photoframe-thumb.jpg
-    name: calendar-photoframe.jpg
-    thumb: calendar-photoframe-thumb.jpg
+image: /assets/images/blog/calendar-photoframe.jpg
 categories: blog
 tags: 64-bit, 96Boards, Cortex-M, ARM64, twitter, python, Bot, script
 ---

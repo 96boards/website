@@ -5,15 +5,11 @@ date: 2016-05-09 21:05:26+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-1/
 slug: 96boards-box-experience-guide-1
-image:
-    featured: true
-    path: /assets/images/blog/20160506_144220.jpg
-    name: 20160506_144220.jpg
+image: /assets/images/blog/20160506_144220.jpg
+image_name: 20160506_144220.jpg
 title: 96Boards Out of box experience guide - part 1
 wordpress_id: 13925
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -62,7 +58,7 @@ Luckily your diligence has paid off, and now it is time for some fun. However, l
   * **Anti static mat and gloves (recommended)**
   * **USB to microUSB cable (recommended)**
 
-![20160506_144220]({% asset_path "96boards-box-1-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-box-1-img-1.jpg" class="img-fluid" %}
 
 Now that you’ve gathered your gear, it’s time to remove your board from its packaging and set up a safe workstation. As you may have noticed, your 96Boards comes conveniently wrapped in an anti static bag. Exposed components on the board can be shorted by electrostatic discharge, essentially damaging your board and potentially rendering it unusable. To avoid this, we want to make sure we are careful when removing the board from its safe zone, and placing it in another safe zone nearby (your workstation).
 
@@ -100,7 +96,7 @@ To learn more the 96Boards team are going to start a [weekly OpenHours session]
 
 {% include media.html media_url="https://www.youtube.com/embed/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
-[**In this series**](/blog/tag/)
+**In this series**
 
   * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/) (This)
   * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)

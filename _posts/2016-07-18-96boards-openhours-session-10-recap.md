@@ -5,18 +5,14 @@ date: 2016-07-18 20:15:51+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-session-10-recap/
 slug: 96boards-openhours-session-10-recap
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: 96Boards OpenHours Session 10 Recap
 wordpress_id: 15845
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -133,5 +129,5 @@ I'm a gsoc student in BeagleBoard is interested  board and Embedded
 
 [https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html](https://www.96boards.org/documentation/consumer/guides/compare_96boards_ce.md.html)
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 [n](/blog/installing-docker-aarch64-96boards-ce/)

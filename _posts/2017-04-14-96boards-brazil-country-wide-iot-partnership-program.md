@@ -5,14 +5,11 @@ date: 2017-04-14 15:00:11+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-brazil-country-wide-iot-partnership-program/
 slug: 96boards-brazil-country-wide-iot-partnership-program
-image:
-    featured: true
-    path: /assets/images/blog/banner_850x510_D-696x418-1.jpg
-    name: banner_850x510_D-696x418-1.jpg
+image: /assets/images/blog/banner_850x510_D-696x418-1.jpg
+image_name: banner_850x510_D-696x418-1.jpg
 title: 96Boards in Brazil - Country wide IoT Partnership Program!
 wordpress_id: 20176
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - Arrow
@@ -34,7 +31,8 @@ tags:
 
 On April 10th, Qualcomm Brazil launched a partnership program in IoT Solutions development, using the Qualcomm DragonBoard 410c.
 
-![96Boards in Brazil – Country wide IoT Partnership Image]({% asset_path "96boards-brazil-iot-img-1.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/96boards-brazil-iot-img-1.jpg" alt="96Boards in Brazil – Country wide IoT Partnership Image" class="img-fluid" %}
+
 
 The program will select 20 groups (1 to 3 people) to develop an IoT project using 96Boards outfitted with Qualcomm technologies. While all are welcome to apply for a spot in this amazing partnership program, I am told the organizer will mostly be keeping an eye out for the following types of participants:
 
@@ -115,9 +113,9 @@ We at 96Boards would like to thank Qualcomm Brazil and all of the other partners
 
 Qualcomm, Embarcados, Arrow Electronics, Baita Aceleradora, 96Boards and Linaro
 
-![OpenHours Image]({% asset_path "qualcomm-logo.png" %}){:class="img-responsive lazyload"}
-![OpenHours Image]({% asset_path "arrow_electronics2.png" %}){:class="img-responsive lazyload"}
-![OpenHours Image]({% asset_path "logo-embarcados-escura.png" %}){:class="img-responsive lazyload"}
-![OpenHours Image]({% asset_path "baita_logo_hd.png" %}){:class="img-responsive lazyload"}
-![OpenHours Image]({% asset_path "Linaro_TransparentLogo.png" %}){:class="img-responsive lazyload"}
-![OpenHours Image]({% asset_path "96boards-logo.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/qualcomm-logo.png" alt="96Boards in Brazil partner" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/arrow_electronics2.png" alt="96Boards in Brazil partner" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/logo-embarcados-escura.png" alt="96Boards in Brazil partner" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/baita_logo_hd.png" alt="96Boards in Brazil partner" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/Linaro_TransparentLogo.png" alt="96Boards in Brazil partner" class="img-fluid" %}
+{% include image.html path="/assets/images/blog/96boards-logo.png" alt="96Boards in Brazil partner" class="img-fluid" %}

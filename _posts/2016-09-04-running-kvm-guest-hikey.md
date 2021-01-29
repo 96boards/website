@@ -5,17 +5,13 @@ date: 2016-09-04 12:50:04+00:00
 layout: post
 link: https://www.96boards.org/blog/running-kvm-guest-hikey/
 slug: running-kvm-guest-hikey
-image:
-    featured: true
-    path: /assets/images/blog/kvm-logo.f083d4c9dcb0.png
-    name: kvm-logo.f083d4c9dcb0.png
+image: /assets/images/blog/kvm-logo.f083d4c9dcb0.png
+image_name: kvm-logo.f083d4c9dcb0.png
 title: Running a KVM guest on HiKey
 wordpress_id: 17013
 Boards:
 - HiKey
-categories:
-- blog
-- Tutorials
+category: blog
 tags:
 - 96Board
 - HiKey

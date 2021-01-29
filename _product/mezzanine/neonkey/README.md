@@ -25,7 +25,7 @@ product_buy_links:
     link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
 product_sidebar_sections:
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: AOSP Sensors Documentation
           link: https://source.android.com/devices/sensors/
@@ -35,15 +35,15 @@ product_sidebar_sections:
           link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
         - title: NeonKey on Tocoding
           link: http://en.tocoding.com/index.php/96boards-neonkey/
-tab_menu:
-  - tab_title: NeonKey
-    tab_link: /product/neonkey/
+sticky_tab_bar:
+  - title: NeonKey
+    url: /product/neonkey/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/neonkey/
+  - title: Documentation
+    url: /documentation/mezzanine/neonkey/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

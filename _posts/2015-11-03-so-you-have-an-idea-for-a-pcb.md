@@ -5,14 +5,11 @@ date: 2015-11-03 20:00:45+00:00
 layout: post
 link: https://www.96boards.org/blog/so-you-have-an-idea-for-a-pcb/
 slug: so-you-have-an-idea-for-a-pcb
-image:
-    featured: true
-    path: /assets/images/blog/pcb-idea.png
-    name: pcb-idea.png
+image: /assets/images/blog/pcb-idea.png
+image_name: pcb-idea.png
 title: So you have an idea for a PCB?
 wordpress_id: 8888
-categories:
-- blog
+category: blog
 tags:
 - 96Boards
 - DRC
@@ -54,7 +51,7 @@ To start, I'll briefly describe the outline of how a project would typically pan
   * Prototype/Production: Produce [gerber]() files and specification document, send the design for review, calculate the Bill of Materials
 
 
-{% include image.html name="pcb-idea-img-1.png" alt="Workflow" %}
+{% include image.html path="/assets/images/blog/pcb-idea-img-1.png" alt="Workflow" %}
 
 Not too scary huh? Often the development stage is the longest, since you will revise and rework your design several times before you will be happy with it.
 [Specification→](/blog/so-you-have-an-idea-for-a-pcb-specification/)

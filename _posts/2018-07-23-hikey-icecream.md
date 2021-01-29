@@ -2,11 +2,9 @@
 title: HiKey IceCream | Arm64 Distributive Compilation Cluster
 author: Sahaj Sarup
 date: 2018-07-23 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/hikeyice.jpg
-    name: hikeyice.jpg
-    thumb: hikeyice-thumb.jpg
+image: /assets/images/blog/hikeyice.jpg
+image_name: hikeyice.jpg
+image_thumb: hikeyice-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, groupgets, qwerty, embedded, crowd fund, mezzanine, community
 ---
@@ -57,10 +55,10 @@ The performance gain of course, isn’t very linear. There is a lot more to comp
 
 And finally here is the pic of my ghetto setup on a dirty workbench:
 
-{% include image.html name="icecc3.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/icecc3.jpg" alt="Your alternate text." %}
 
 And a few pics of Icecream Monitor:
 
-{% include image.html name="icecc1.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/icecc1.png" alt="Your alternate text." %}
 
-{% include image.html name="icecc2.png" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/icecc2.png" alt="Your alternate text." %}

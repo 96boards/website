@@ -2,11 +2,9 @@
 title: OpenHours ep 93 - Software Defined Radio on the DragonBoard 820c
 author: Robert Wolff
 date: 2018-02-28 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 categories: blog
 tags: 64-Bit, 96Boards, Bubblegum96, HiKey, DragonBoard 410c, Linux, Linaro, ARM, SBC, Single Board Computer, AOSP, Android, Red Hat, Redhat, fedora, Open Source, deep learning, robert wolff, tensorflow, i.mx7, meerkat, NXP, qualcomm, technology, computer, community, Timesys, Maciej Halasz, IIoT
 
@@ -24,7 +22,7 @@ Episode 93, coming at you loud and clear! This week in OpenHours, we will be spe
 
 ```
 Ragnar. - R
-Hi. Time to update "Episode #90" at some point? 
+Hi. Time to update "Episode #90" at some point?
 
 Mani - M
 @Ragnar: Sorry, we are facing some issues with our website
@@ -130,7 +128,7 @@ KABIRI - K
 i can talk cuz i 'm in library
 
 Robert Wolff (Desk) - R(
-@Kabiri no worries 
+@Kabiri no worries
 
 Ragnar. - R
 In *theory* you should be able to do SDR with just the Dragonboard HW, because that's how the onboard GPS works, if I have understood correctly, right?
@@ -149,7 +147,7 @@ Thanks for the docs link. looks like ~35% difference in max fequency between gol
 
 Dieter - D
 Seems it will not work
-yeah 
+yeah
 will do my best!
 
 Bill - B
@@ -163,7 +161,7 @@ Dieter - D
 it will come with Linaro Debian pre flashed
 
 Sahaj - S
-seems like just yesterday i was playing with a 700mhz 256mb arm sbc 
+seems like just yesterday i was playing with a 700mhz 256mb arm sbc
 
 Alex Telitsine - AT
 From multimedia performance perspective, will be good to know if  H/W H264/5 encode/decode is supported buy APIs like Gtreamer
@@ -193,7 +191,7 @@ yeah no powersupply, bit me initially, had to massacre a laptop charger
 
 Mani - M
 time to leave... See you guys next week
-Happy Holi 
+Happy Holi
 
 Ivan Farkas - IF
 https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/bootable-sd-card.md
@@ -215,7 +213,7 @@ usermod -l new_username old_username
 
 Tyeth - T
 ah pan you beauty, is that an L after the hyphen? I assume you can find a similar stackoverflow debian question.
-after typing startx my knowledge ends, just enough to be dangerous 
+after typing startx my knowledge ends, just enough to be dangerous
 
 Pan - P
 

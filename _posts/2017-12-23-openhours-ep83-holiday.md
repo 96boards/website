@@ -2,13 +2,11 @@
 title: Holiday Special OpenHours Episode 83
 author: Robert Wolff
 date: 2017-12-23 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours.png
 categories: blog
-tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech, OpenHours, Open Hours, sdrobertw, 
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, IoT Edition, Carbon, Nitrogen, DB410c, dragonboard410c, Linaro, Linux, Zephyr, BLE, Mesh, Bluetooth, phrama, phramatech, meditech, OpenHours, Open Hours, sdrobertw,
 ---
 
 # Introduction
@@ -22,7 +20,7 @@ Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.fre
 - Last week’s episode
    - https://youtu.be/eoMNsDhg89w
 - Blogs
-   - https://www.96boards.org/blog/patient-monitoring-system-into/ 
+   - https://www.96boards.org/blog/patient-monitoring-system-into/
    - https://www.96boards.org/blog/media-server-revisited/
 - Forum Reminder
    - https://discuss.96boards.org/
@@ -33,7 +31,7 @@ Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.fre
    - https://youtu.be/mvFNY6-TOLg
    - https://youtu.be/38pGledaUpA
 - Community Form
-   - https://goo.gl/forms/4WkEYgyzuFpmQM6R2 
+   - https://goo.gl/forms/4WkEYgyzuFpmQM6R2
    - CODE: OPENHOLIDAY
 
 # Watch OpenHours #83 on YouTube
@@ -102,7 +100,7 @@ Tyeth - T
 Omg yes, thanks Robert
 
 Robert Wolff (Screencast) - R(
-@Tyeth, very fun game 
+@Tyeth, very fun game
 https://www.amazon.com/Linux-Bible-Christopher-Negus/dp/1118999878/ref=sr_1_3?ie=UTF8&qid=1513662676&sr=8-3&keywords=linux+book
 
 Carl - C
@@ -224,7 +222,7 @@ The Ragnar Community Form: https://goo.gl/forms/4WkEYgyzuFpmQM6R2
 Code: OPENHOLIDAY
 
 Pan - P
-I would like to share a joke. Hope it makes people laugh over the holidays 
+I would like to share a joke. Hope it makes people laugh over the holidays
 What did the Power Ranger say to his patient when he became a doctor?
 
 Loic Poulain - LP
@@ -242,7 +240,7 @@ Hi guys. Anyone going to FOSDEM 2018?
 
 Carl - C
 Perhaps Coursera IoT course could be translated to spanish?
-Great session - happy holidays everyone 
+Great session - happy holidays everyone
 
 Pan - P
 Sorry to spam you guys again: Anyone going to FOSDEM 2018?
@@ -275,7 +273,7 @@ Tyeth - T
 Happy holidays
 
 Pan - P
-it does sound awesome 
+it does sound awesome
 
 Tyeth - T
 Merry Christmas

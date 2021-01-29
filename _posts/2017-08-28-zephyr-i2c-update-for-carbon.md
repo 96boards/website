@@ -3,14 +3,11 @@ author: Manivannan Sadhasivam
 comments: true
 date: 2017-08-28 01:01:54+00:00
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/96b-carbon-front.png
-    name: 96b-carbon-front.png
-    thumb: carbon-zephyr-i2c-thumb.jpg
+image: /assets/images/blog/96b-carbon-front.png
+image_name: 96b-carbon-front.png
+image_thumb: carbon-zephyr-i2c-thumb.jpg
 title: Zephyr I2C Update for Carbon
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -83,7 +80,7 @@ as it got wired to **nRF51822** for BLE support.
 
 ## **Ambiguity on I2C pinout**
 
-When you look at the Carbon's [Zephyr documentation](http://zephyr-docs.s3-website-us-east-1.amazonaws.com/online/dev/boards/arm/96b_carbon/doc/96b_carbon.html),
+When you look at the Carbon's [Zephyr documentation](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html),
 you can see two sets of I2C interfaces as below:
 
    * I2C1_SCL - PB6
@@ -93,7 +90,7 @@ you can see two sets of I2C interfaces as below:
    * I2C1_SDA - PB9
 
 Users often gets confused by this (as like me on first time :P) and fails to see the default pinmux section for I2C on the same
-[document](http://zephyr-docs.s3-website-us-east-1.amazonaws.com/online/dev/boards/arm/96b_carbon/doc/96b_carbon.html#i2c). This
+[document](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html#i2c). This
 confusion can lead to connecting the I2C devices to wrong pins. But the Pinmux section clearly says that the Pinmux has been
 configured for I2C1 on PB6/PB7.
 

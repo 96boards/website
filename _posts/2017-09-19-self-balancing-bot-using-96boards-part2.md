@@ -3,10 +3,8 @@ title: Self Balancing Bot using 96Boards - Rev 1
 categories: blog
 author: Manivannan Sadhasivam
 date: 2017-09-19 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/self_balancing_bot.png
-    name: self_balancing_bot.png
+image: /assets/images/blog/self_balancing_bot.png
+image_name: self_balancing_bot.png
 tags: 64-bit, 96Boards, aarch64, Android, ARM, ARMv8, B2260, bubblegum-96, Consumer Edition, Consumer IoT, DB410c, dragonboard410c, F-Cue, HiKey, I Squared C, I2C, Linaro, Linux, MediaTek X20, Open Embedded, Open Hours, open source, OpenHours, Reference Platform, rpb, U-Boot, Bot, Self balancing Bot, Robotics, IMU, Complimentary Filter, OpenGL, pygame, 3D
 
 ---
@@ -14,11 +12,11 @@ tags: 64-bit, 96Boards, aarch64, Android, ARM, ARMv8, B2260, bubblegum-96, Consu
 # **Introduction**
 
 Welcome to **Part 2** of our **Self Balancing Bot using 96Boards** blog series. In this blog, we are going to see the finished **Self
-Balancing Bot** in action... yay :D . You may notice a huge delay in getting the **Part 2** out, reason for that is explained below. 
+Balancing Bot** in action... yay :D . You may notice a huge delay in getting the **Part 2** out, reason for that is explained below.
 
 In case you missed, here is the quick recap of what happened in previous parts:
 
-1. [Introductory blog](/blog/introducing-self-balancing-bot-using-96boards/) - This is the introductory 
+1. [Introductory blog](/blog/introducing-self-balancing-bot-using-96boards/) - This is the introductory
 blog for the **Self Balancing Bot**. Here we introduced the project, BoM and roadmap.
 
 2. [Part - 1](/blog/self-balancing-bot-using-96boards-part1/) - In this blog, we discussed about
@@ -55,7 +53,7 @@ of components right from the motor to battery charger, my entire project gets de
 In between, the sensor MPU6050 also went bad so I ordered one more from Amazon but the received one was faulty (doesn't have
 few vias present on board). Then I ordered couple more from the trusted vendor and finally able to make it.
 
-Then, as I expected initially tuning PID controller was also tough. It requires more trial and error approach. 
+Then, as I expected initially tuning PID controller was also tough. It requires more trial and error approach.
 
 Because of the above-mentioned reasons, it took a while to get the **Part-2** out.
 
@@ -85,7 +83,7 @@ The video demonstration of the **Self Balancing bot**
 Because of the above-discussed reasons, Bot fails to stabilize for a long time. This can be overcome heavily by using on-chip **DMP**
 in MPU6050. DMP takes care of fusing accel and gyro reading together hence avoiding drift and noise.
 
-So, I'll call the bot which uses DMP as **Rev 2** and the current implementation as **Rev 1**. We are also planned to demonstrate 
+So, I'll call the bot which uses DMP as **Rev 2** and the current implementation as **Rev 1**. We are also planned to demonstrate
 the **Rev 2** of this bot in [Linaro Connect](http://connect.linaro.org/).
 
 # **Conclusion**

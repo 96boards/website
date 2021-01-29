@@ -5,14 +5,11 @@ date: 2015-12-18 15:13:11+00:00
 layout: post
 link: https://www.96boards.org/blog/pin-x-is-y-or-libsoc-patches/
 slug: pin-x-is-y-or-libsoc-patches
-image:
-    featured: true
-    path: /assets/images/blog/pinx-y-libsoc.png
-    name: pinx-y-libsoc.png
+image: /assets/images/blog/pinx-y-libsoc.png
+image_name: pinx-y-libsoc.png
 title: Pin X is Y or libsoc patches
 wordpress_id: 10163
-categories:
-- blog
+category: blog
 ---
 
 There's a tendency to think your problems are unique. When work was started on handling GPIOs for 96Boards this [happened](/blog/bringing-standardization-linux-gpio-96boards/), and we built a 96BoardsGPIO library. A suggestion was made to look at the [libsoc](https://github.com/jackmitch/libsoc/) project as it provided an interface to GPIOs plus other things like i2c. However, when I started playing around with [libsoc test code](https://github.com/jackmitch/libsoc/blob/4d5c5af71e225cc4e792d2166da3f3e432b08735/test/gpio_test.c#L12), I was amused to see _“uses pins P9_42(gpio7)"_. The issue of pin name to GPIO ID mapping might be more annoying on 96Boards since they all have the same pin layout, but it's not unique. Even though libsoc didn’t handle GPIO mappings, we still felt it was important to move as much code as we could out of 96BoardsGPIO and into active upstream project.
@@ -29,7 +26,7 @@ With the new feature enabled, you can now avoid code comments like “_//Pin X i
      GPIO_A = libsoc_board_gpio_id(config, "GPIO_A");
      libsoc_board_free(config);
      }
-     
+
 ```
 
 This snippet might look a little too clever, but it takes advantage of the “constructor” attribute in glibc to do module-type initialization. At program startup this snippet will load the board config, assign GPIO’s based on the defined mapping, and free the board config.

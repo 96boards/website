@@ -5,14 +5,11 @@ date: 2016-08-31 15:18:21+00:00
 layout: post
 link: https://www.96boards.org/blog/dragonboard-410c-workshop-96boards-visits-qualcomm/
 slug: dragonboard-410c-workshop-96boards-visits-qualcomm
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-118.png
-    name: Screenshot-118.png
+image: /assets/images/blog/Screenshot-118.png
+image_name: Screenshot-118.png
 title: DragonBoard 410c Workshop - 96Boards visits Qualcomm
 wordpress_id: 16897
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -64,6 +61,6 @@ I would like to give a big thanks to Qualcomm and everyone involved for inviting
 
 At 96Boards we take pride in our community involvement. Please remember, if you ever get stuck, there are plenty of resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation repository](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we discuss pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

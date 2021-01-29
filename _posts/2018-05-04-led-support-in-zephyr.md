@@ -2,11 +2,9 @@
 title: LED Support in Zephyr
 author: Manivannan Sadhasivam
 date: 2018-05-04 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/zephyr.jpg
-    name: zephyr.jpg
-    thumb: zephyr-thumb.png
+image: /assets/images/blog/zephyr.jpg
+image_name: zephyr.jpg
+image_thumb: zephyr-thumb.png
 categories: blog
 tags: 32-bit, 96Boards, ARM, Cortex M, IoT Edition, Zephyr, RTOS, LED, Neonkey, Upstreaming
 ---

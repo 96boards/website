@@ -3,10 +3,9 @@ title: Dragon Wally
 permalink: "/projects/dragon-wally/"
 images:
     - visual1.png
-image:
-    path: /assets/images/projects/dragonwally-thumb.png
-    name: dragonwally-thumb.png
-    thumb: dragonwally-thumb.png
+image: /assets/images/projects/dragonwally-thumb.png
+image_name: dragonwally-thumb.png
+image_thumb: dragonwally-thumb.png
 categories:
 - dragonboard410c
 ---

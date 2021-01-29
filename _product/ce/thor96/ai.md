@@ -9,18 +9,18 @@ keywords: |-
     imx8M, etnaviv, nxp, vulkan, gpu, zigbee, iot, multimedia
     
 product_short_desc: " "
-tab_menu:
-    - tab_title: Thor96
-      tab_link: /product/thor96/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: Thor96
+      url: /product/thor96/
+    - title: AI
       active: true
-      tab_link: /product/thor96/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/thor96/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/thor96/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/thor96/
+      url: /product/thor96/ai/
+    - title: Getting Started
+      url: /documentation/consumer/thor96/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/thor96/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/thor96/
       tab_align_right: true
 header-image: thor96-sd-front.jpg
 footer-image: thor96-sd-back.jpg
@@ -61,9 +61,9 @@ secondary-verticals:
 demos: ""
 documentation:
     - title: Hardware user guide
-      url: https://www.96boards.org/documentation/ce/thor96/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/
     - title: Board schematics
-      url: https://www.96boards.org/documentation/ce/thor96/hardware-docs/
+      url: https://www.96boards.org/documentation/consumer/thor96/hardware-docs/
 whats-in-the-box:
     - Thor96 board
 buy-now: 

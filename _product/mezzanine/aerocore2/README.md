@@ -10,15 +10,15 @@ description: |-
     Customize the AreoCore 2 for 96Boards to your project’s specific needs in Geppetto D2O.
     Add functionality or remove unused components with the ease of a drag-and-drop interface.
 display_product: true
-tab_menu:
-    - tab_title: AeroCore 2 for 96Boards
-      tab_link: /product/aerocore2/
+sticky_tab_bar:
+    - title: AeroCore 2 for 96Boards
+      url: /product/aerocore2/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/aerocore2/
+    - title: Documentation
+      url: /documentation/mezzanine/aerocore2/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
+    - title: Support
+      url: https://discuss.96boards.org/c/products/mezzanine
       tab_position: 2
       tab_align_right: true
 product_specification: "mezzanine"
@@ -53,7 +53,7 @@ product_sidebar_sections:
         - title: "USB Device - Micro B USB Plug"
         - title: "5-PIN GPS Connector"
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         -
           title: Technical Specification
@@ -104,11 +104,11 @@ attributes:
       Provides differential transmit and receive capability at speeds up to 1 Mbps. (SPEC)
 
 ---
-Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://www.gumstix.com/geppetto). Add functionality or remove unused components with the ease of a drag-and-drop interface.
+Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://geppetto.gumstix.com). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 
 - [Clone and kickstart your customized AreoCore 2 expansion board design for 96Boards](https://geppetto.gumstix.com/#!/design/1130/)
 - [Explore and create a customized expansion board from scratch](https://geppetto.gumstix.com/)
-- [Learn more about Geppetto](https://www.gumstix.com/geppetto)
+- [Learn more about Geppetto](https://geppetto.gumstix.com)
 
 ** Software support for the AeroCore 2 for 96Boards limited to Yocto Linux **
 

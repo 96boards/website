@@ -5,15 +5,11 @@ date: 2016-05-17 15:33:34+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-2/
 slug: 96boards-box-experience-guide-2
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-22.png
-    name: Screenshot-22.png
+image: /assets/images/blog/Screenshot-22.png
+image_name: Screenshot-22.png
 title: 96Boards Out of box experience guide - part 2
 wordpress_id: 14479
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -179,7 +175,7 @@ In next week’s blog we will dive deeper into the 96Boards add-ons such as the 
 {% include media.html media_url="https://www.youtube.com/embed/EJutUfI8WRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
 
-[**In this series**](/blog/tag/)
+**In this series**
 
 
 

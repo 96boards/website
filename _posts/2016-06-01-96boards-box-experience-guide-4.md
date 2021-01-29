@@ -5,18 +5,14 @@ date: 2016-06-01 08:41:42+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-box-experience-guide-4/
 slug: 96boards-box-experience-guide-4
-image:
-    featured: true
-    path: /assets/images/blog/96Boards_LS_pinout-1.jpg
-    name: 96Boards_LS_pinout-1.jpg
+image: /assets/images/blog/96Boards_LS_pinout-1.jpg
+image_name: 96Boards_LS_pinout-1.jpg
 title: 96Boards Out of box experience guide - part 4
 wordpress_id: 14887
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -59,12 +55,12 @@ A 2x20 (read as “two by twenty”) header has 40 pins, two pins in each row, a
 
 **What is a 2.0mm pitch?**
 The pitch is the distance between the center of each pin in either direction. By convention the 2.0mm pitch tells us that devices with a pitch other than 2.0mm should not be used with this header. The voltage will most likely differ.
-{% include image.html name="96boards-box-5-img-1.png" alt="Screen Shot 2016-05-04 at 3.19.00 PM"%}
+{% include image.html path="/assets/images/blog/96boards-box-5-img-1.png" alt="Screen Shot 2016-05-04 at 3.19.00 PM"%}
 
 Below is an image of the DragonBoard™ 410c (one of our 96Boards), and a diagram illustrating the interfaces available on the low-speed expansion header. Even though the DragonBoard 410c is used in this example, all 96Boards can be paired to this diagram.
 
-{% include image.html name="96boards-box-5-img-2.png" alt="Screen Shot 2016-05-05 at 1.25.25 PM" %}
-{% include image.html name="96boards-box-5-img-3.jpg" alt="96Boards_LS_pinout" %}
+{% include image.html path="/assets/images/blog/96boards-box-5-img-2.png" alt="Screen Shot 2016-05-05 at 1.25.25 PM" %}
+{% include image.html path="/assets/images/blog/96boards-box-5-img-3.jpg" alt="96Boards_LS_pinout" %}
 
 
 As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](), [I2C](), [SPI](), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
@@ -76,11 +72,11 @@ Looking at the green columns in the diagram, we see the GPIOs valued from A to L
 Since each SoC has different GPIO values I had uploaded several of these diagrams, one or more for each 96Boards.
 
 **96Boards**
-{% include image.html name="96Boards_LS_pinout.jpg" alt="Lettered" %}
+{% include image.html path="/assets/images/blog/96Boards_LS_pinout-1.jpg" alt="Lettered" %}
 **HiKey**
-{% include image.html name="HiKey_Debian_pinout.jpg" alt="Debian" %}
+{% include image.html path="/assets/images/products/HiKey_Debian_pinout.jpg" alt="Debian" %}
 **DragonBoard 410c**
-{% include image.html name="DB410c_Debian_pinout.jpg" alt="Debian" %}
+{% include image.html path="/assets/images/content/DB410c_Debian_pinout.jpg" alt="Debian" %}
 
  ([Debian]()  / [Android]() )
 **Bubblegum-96** ([Debian]() )
@@ -117,7 +113,7 @@ Here it is important to note the GPIO pins are configurable, and can be set as a
 
 Okay! You should know enough about the GPIO, I think it’s time to get your hands dirty. In this next part you will be working directly on your 96Boards. Regardless of the 96Boards you are using, you should be able to follow these steps by making sure to use the correct GPIO_# corresponding to the GPIO pin you wish to toggle (Remember: usable GPIOs occupy the same pins on all 96Boards, the GPIO_# is what changes).
 
-The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
+The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
 
 
 
@@ -195,7 +191,7 @@ Since the beginning of this series, it has been my goal to take it slow. A good 
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/) or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
@@ -203,7 +199,7 @@ In next week’s blog we will continue to explore the 96boards GPIO interfaces. 
 
 --
 
-[**In this series**](/openhours/)
+**In this series**](/openhours/)
 
 
 

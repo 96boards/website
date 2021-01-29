@@ -2,11 +2,9 @@
 title: Sneak Peak at the Shiratech 4G LTE Mezzanine
 author: Sahaj Sarup
 date: 2018-06-26 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/4g.png
-    name: 4g.png
-    thumb: 4g-thumb.png
+image: /assets/images/blog/4g.png
+image_name: 4g.png
+image_thumb: 4g-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, IoT, Connectivity, 4G, LTE.
 ---
@@ -22,7 +20,6 @@ You do require an external antenna which will be provided in the box, although i
 Apart from the 4G LTE Connectivity, the mezzanine also has a rather large array of sensors on-board.
 
 If you would like to learn more about this, Shiratech will be announcing this mezzanine on OpenHours on the 5th of July 2018
-> [See OpenHours Episode List](https://www.96boards.org/openhours/episodes/)
 
 And now for some video demo of the LTE connectivity:
 

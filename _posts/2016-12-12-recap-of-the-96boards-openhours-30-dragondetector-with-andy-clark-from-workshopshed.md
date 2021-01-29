@@ -6,17 +6,13 @@ layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed/
 slug: recap-of-the-96boards-openhours-30-dragondetector-with-andy-clark-from-workshopshed
 title: Recap of the 96Boards OpenHours 30 - DragonDetector with Andy Clark from Workshopshed
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-02.png
-    name: OpenHours-02.png
+image: /assets/images/blog/OpenHours-02.png
+image_name: OpenHours-02.png
 wordpress_id: 18992
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -49,7 +45,7 @@ tags:
 
 Welcome to our 30th episode of 96Boards OpenHours.  Last week we had a great discussion with David Mandala about creating a community mezzanine board.  David wrote a blog about this and it was posted on the 96Boards site:  [https://www.96boards.org/blog/community-mezzanine-board/](/blog/community-mezzanine-board/).  Check out the blog for more information on this initiative.
 
-Robert then spoke about the announcement that was made last week from Gumstix and Intel regarding the “GO Geppetto®” Intel® Joule™ Design Contest - for more information about this check out their site:  [https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36](https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36)
+Robert then spoke about the announcement that was made last week from Gumstix and Intel regarding the “GO Geppetto®” Intel® Joule™ Design Contest. ~~For more information about this check out their site: https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36~~
 
 **3:20 -** Robert then kicked off this episode's topic by introducing the guest speaker, Andy Clark from Workshopshed.  Andy has a background in Aerospace and Electrical Engineering and has worked in software for more than 20 years.  He works on many of these projects in his free time from his regular job.  Andy then began working on the DragonBoard as part of a competition that he entered and he was sent a DragonBoard to use to work on his project proposal.   Since the contest he has been working with the DragonBoard for other projects.
 

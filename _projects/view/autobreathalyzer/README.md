@@ -6,10 +6,9 @@ description: |-
 images:
   - AutoBreathalyzer_Demo.png
   - AutoBreathalyzer_FrontPage.png
-image:
-  path: /assets/images/projects/ab-thumb.png
-  name: ab-thumb.png
-  thumb: ab-thumb.png
+image: /assets/images/projects/ab-thumb.png
+image_name: ab-thumb.png
+image_thumb:  ab-thumb.png
 categories:
 - dragonboard410c
 ---

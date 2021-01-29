@@ -7,8 +7,6 @@ images:
   - machine-learning-with-dnndk.png
 categories:
   - Ultra96
-
-
 ---
 # Machine Learning at the Edge with Xilinx DNN Developer Kit
 
@@ -29,7 +27,7 @@ Vision-based machine learning inference is a hot topic, with implementations bei
 
 Due to the complexity of convolutional neural networks, implementing machine learning inference can be computationally intensive. This makes achieving high frame rates challenging using traditional computational architectures. Heterogeneous System on Chips like the Zynq and Zynq MPSoC which combine high performance ARM processors with programmable logic offer solution which can significantly accelerate the performance.
 
-The challenge has previously been creating the programmable logic implementation, which is easy to use and work with common machine learning flows e.g. Caffe and TensorFlow. 
+The challenge has previously been creating the programmable logic implementation, which is easy to use and work with common machine learning flows e.g. Caffe and TensorFlow.
 
 
 ## Resources

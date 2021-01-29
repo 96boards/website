@@ -1,11 +1,9 @@
 ---
-title: The Ultimate Quick, Quick Start Guide for DragonBoard410c   
+title: The Ultimate Quick, Quick Start Guide for DragonBoard410c
 author: Sahaj Sarup
 date: 2019-09-21 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
-    name: DragonBoard-UpdatedImages-front.png
+image: /assets/images/blog/DragonBoard-UpdatedImages-front.png
+image_name: DragonBoard-UpdatedImages-front.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shield, hat
 ---
@@ -102,6 +100,3 @@ Well, I guess the users are smart enough to figure out how to connect using the 
 - Photobooth: [https://github.com/96boards-projects/photobooth](https://github.com/96boards-projects/photobooth)
 - Projects By 96Boards Team: [https://github.com/96boards-projects](https://github.com/96boards-projects)
 - Projects By the Community: [https://www.96boards.org/projects/](https://www.96boards.org/projects/)
-
-
-

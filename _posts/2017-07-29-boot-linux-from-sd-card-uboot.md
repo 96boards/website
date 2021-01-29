@@ -6,13 +6,8 @@ layout: post
 link: https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/
 slug: boot-linux-from-sd-card-uboot
 title: Booting Linux from SD card using U-Boot
-image:
-    featured: true
-    path: /assets/images/blog/boot-linux-from-sd-card-uboot.jpg
-    name: boot-linux-from-sd-card-uboot.jpg
-    thumb: boot-linux-from-sd-card-uboot-thumb.jpg
-categories:
-- blog
+image: /assets/images/blog/boot-linux-from-sd-card-uboot.jpg
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -103,7 +98,7 @@ The above variable could be executed by the following command:
 # Booting Linux from SD card
 
 Now, lets get into the detail of booting Linux from SD card using U-Boot. The complete guide containing the instructions is
-avaialbe in [96Boards Documentation repository](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/).
+avaialbe in [96Boards Documentation repository](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/guides/).
 
 First, SD card needs to be formatted in such as way that the first partition should be of **ext4** type. This is the place,
 we will store the RFS (Root File System), Kernel image, dtb, uEnv.txt etc... Usually Kenrel image would be placed in **FAT**
@@ -155,6 +150,6 @@ will be shown in the U-Boot console.
 # **Conclusion**
 
 I hope this blog has provided much information to boot Linux using U-Boot from SD card. More detailed steps are availabe in the
-[Documentation repo](https://www.96boards.org/documentation/consumer/dragonboard410c/guides/).
+[Documentation repo](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/guides/).
 
 As we always say, if you encounter any issues or have any suggestion please report it in comments/forum. We are glad to help you :-)

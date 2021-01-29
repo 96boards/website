@@ -6,17 +6,13 @@ layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-27-op-tee-for-96boards/
 slug: recap-of-the-96boards-openhours-27-op-tee-for-96boards
 title: Recap of the 96Boards OpenHours 27 - OP-TEE for 96Boards
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-02.png
-    name: OpenHours-02.png
+image: /assets/images/blog/OpenHours-02.png
+image_name: OpenHours-02.png
 wordpress_id: 18559
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -759,7 +755,7 @@ RW
 
 
 
-[https://www.op-tee.org/about/](https://www.op-tee.org/about/)
+[https://www.op-tee.org/](https://www.op-tee.org/)
 
 
 

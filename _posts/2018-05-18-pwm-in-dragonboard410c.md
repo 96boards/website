@@ -2,11 +2,9 @@
 title: PWM in Dragonboard410c
 author: Manivannan Sadhasivam
 date: 2018-05-18 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/DragonBoard-UpdatedImages-front.png
-    name: DragonBoard-UpdatedImages-front.png
-    thumb: pwm-thumb.png
+image: /assets/images/blog/DragonBoard-UpdatedImages-front.png
+image_name: DragonBoard-UpdatedImages-front.png
+image_thumb: pwm-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, ARM, ARMV8, Aarch64, Dragonboard410c, PWM, Servo Motor
 ---

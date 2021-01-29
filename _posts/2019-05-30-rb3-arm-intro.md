@@ -2,10 +2,8 @@
 title: Qualcomm RB3 Robotic Arm Project | Introduction
 author: Sahaj Sarup
 date: 2019-05-30 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/rb3-arm.jpg
-    name: rb3-arm.jpg
+image: /assets/images/blog/rb3-arm.jpg
+image_name: rb3-arm.jpg
 categories: blog
 series: Qualcomm RB3 Robotic Arm Project
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
@@ -78,7 +76,7 @@ Planing on using OpenCV for image detection, mostly because of its popularity bu
 
 ## OS
 
-Since a proper Debian release is still WIP by the Qualcomm Landing Team, with good progress so far, I will be using a hacked together Debian build that might not be available to all. 
+Since a proper Debian release is still WIP by the Qualcomm Landing Team, with good progress so far, I will be using a hacked together Debian build that might not be available to all.
 
 However, I will always be tracking the official Debian release progress and change over as it becomes usable.
 
@@ -89,4 +87,3 @@ We are also going to be using Open-Source graphics driver for the Adreno GPU in 
 # Signing Off
 
 So, almost every week from now on, I will be releasing a progress blog either with minor or major project updates with a full blog once it is completed.
-

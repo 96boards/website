@@ -14,18 +14,18 @@ description: |-
 keywords: hikey 970, hikey970, aosp, aosp developement board, boards, linux, ai, artificial intelligence
 display_product: true
 product_media_highlights: true
-tab_menu:
-    - tab_title: HiKey970
-      tab_link: /product/hikey970/
+sticky_tab_bar:
+    - title: HiKey970
+      url: /product/hikey970/
       active: true
-    - tab_title: AI
-      tab_link: /product/hikey970/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/hikey970/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/hikey970/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey970
+    - title: AI
+      url: /product/hikey970/ai/
+    - title: Getting Started
+      url: /documentation/consumer/hikey/hikey970/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/hikey/hikey970/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/hikey970
       tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on the HiSilicon Kirin 970"
@@ -57,10 +57,10 @@ product_bottom_section:
           link: /product/audio-mezzanine/
 product_sidebar_sections:
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: AOSP
-          link: /documentation/consumer/hikey970/downloads/aosp.md.html
+          link: /documentation/consumer/hikey/hikey970/downloads/aosp.md.html
         - title: Lubuntu (LeMaker Ubuntu)
           link: http://www.lemaker.org/product-hikey970-download-84.html
         - title: Lebian (LeMaker Debian)
@@ -86,13 +86,6 @@ product_buy_links:
     link-url: "https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426"
     link-price-currency: USD
     from: seeedstudio.com
-    type: board
-  -
-    link-title: "HiHope"
-    link-price: "$299.00"
-    link-url: "https://www.devestimator.com/hihope/product/hikey970/"
-    link-price-currency: USD
-    from: HiHope.com
     type: board
   -
     link-title: "Amazon Kit"
@@ -187,7 +180,6 @@ HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai ini
 - [Amazon](https://amzn.to/2vJM8mO)
 - [Lenovator](http://www.lenovator.com/product/135.html)
 - [SeeedStudio](https://www.seeedstudio.com/s/HiKey-970-Development-Board-p-3046.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0426)
-- [HiHope](https://www.devestimator.com/hihope/product/hikey970/)
 - [Amazon Kit](https://www.amazon.com/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X)
 - [Amazon Kit (UK)](https://www.amazon.co.uk/SmartFly-info-HiKey-Single-Computer/dp/B07FNLSK2X)
 

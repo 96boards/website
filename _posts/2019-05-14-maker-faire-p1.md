@@ -2,10 +2,8 @@
 title: 96Boards at Maker Faire Bay Area!
 author: Robert Wolff
 date: 2019-05-14 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/makerfaire-banner-2019.jpg
-    name: makerfaire-banner-2019.jpg
+image: /assets/images/blog/makerfaire-banner-2019.jpg
+image_name: makerfaire-banner-2019.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, embedded, crowd fund, mezzanine, community, maker faire, qualcomm, arrow electronics, conference, booth,
 ---

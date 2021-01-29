@@ -5,14 +5,11 @@ date: 2016-08-16 16:52:09+00:00
 layout: post
 link: https://www.96boards.org/blog/archermind-joins-96boards-launches-deci-core-armv8-product/
 slug: archermind-joins-96boards-launches-deci-core-armv8-product
-image:
-    featured: true
-    path: /assets/images/blog/blog-archermind-96boards.jpg
-    name: blog-archermind-96boards.jpg
+image: /assets/images/blog/blog-archermind-96boards.jpg
+image_name: blog-archermind-96boards.jpg
 title: ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product
 wordpress_id: 16476
-categories:
-- blog
+category: blog
 post_format:
 - Link
 ---

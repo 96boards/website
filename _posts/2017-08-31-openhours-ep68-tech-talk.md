@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 68 Recap - Tech Talk
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -73,7 +71,7 @@ Robert Wolff - RW
 https://github.com/96boards/website
 
 Ragnar. - R
-He's looking younger today. 
+He's looking younger today.
 
 Robert Wolff - RW
 Sahaj's last blog on Magenta kernel: https://www.96boards.org/blog/googles-magenta-kernel-hikey-960/
@@ -171,7 +169,7 @@ yup that's me
 Robert Wolff - RW
 Great!
 Just wanted to make sure before I assumed when answering your message
-thanks for connecting ! 
+thanks for connecting !
 
 Carl - C
 thank you
@@ -181,7 +179,7 @@ Tyeth - T
 no to openstack only research. similarly there are starting to bring platform agnostic abstraction libraries for cloud provided services. still lambda is a bit new for that yet
 
 Dieter - D
-Sorry guys, I had to leave! Was a pleasure to listen 
+Sorry guys, I had to leave! Was a pleasure to listen
 
 Robert Wolff - RW
 Thanks, Dieter!

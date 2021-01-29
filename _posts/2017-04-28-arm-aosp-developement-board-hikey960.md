@@ -5,14 +5,11 @@ date: 2017-04-28 09:23:22+00:00
 layout: post
 link: https://www.96boards.org/blog/arm-aosp-developement-board-hikey960/
 slug: arm-aosp-developement-board-hikey960
-image:
-    featured: true
-    path: /assets/images/blog/hikey-aosp.jpg
-    name: hikey-aosp.jpg
+image: /assets/images/blog/hikey-aosp.jpg
+image_name: hikey-aosp.jpg
 title: Linaro Announces Latest 96Boards Product for AOSP Development
 wordpress_id: 20342
-categories:
-- blog
+category: blog
 ---
 
 [[96Boards OpenHours](/openhours/) 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro Ltd, the open source collaborative engineering organization developing software for the ARM® ecosystem, today announced the availability of the [HiKey 960 96Boards](/product/hikey960/) development platform from Linaro Core member Huawei. Designed to provide access to the latest ARM mobile technology for AOSP developers, this new board is now listed on the 96Boards website and is available through global distribution channels.
@@ -197,10 +194,10 @@ Buy Now
   * [Alpha Star](http://linaro.co/hikey960buy-alpha)
 
 
-  * [Ali express](http://linaro.co/hikey960-ali) – US $239.00
+  * ~~[Ali express] – US $239.00~~
 
 
   * [Switch Science](http://linaro.co/hikey960-switch) (Japan)
 
 
-[Documentation](/documentation/consumer/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)
+[Documentation](/documentation/consumer/hikey/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)

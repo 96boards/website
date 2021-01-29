@@ -5,18 +5,14 @@ date: 2016-09-16 20:56:16+00:00
 layout: post
 link: https://www.96boards.org/blog/recap-of-the-96boards-openhours-19/
 slug: recap-of-the-96boards-openhours-19
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours-03.png
-    name: OpenHours-03.png
+image: /assets/images/blog/OpenHours-03.png
+image_name: OpenHours-03.png
 title: Recap of the 96Boards OpenHours 19 - DragonBoard 410c Mini-Series Part 1
 wordpress_id: 17357
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 64-bit
 - 96Boards
@@ -369,7 +365,7 @@ HDMI includes audio too
 
 
 
-DB410c Landing page:[https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
+DB410c Landing page:[https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/)
 
 
 
@@ -380,7 +376,7 @@ DB410c Landing page:[https://www.96boards.org/documentation/consumer/dragonboard
 
 
 
-DB410c Landing page: [https://www.96boards.org/documentation/consumer/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard410c/)
+DB410c Landing page: [https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/)
 
 
 
@@ -1053,7 +1049,7 @@ RW
 I have to leave now. Have a great day...
 
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 
 

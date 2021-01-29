@@ -13,14 +13,14 @@ description: |-
     all packed into a board the size of a credit card. This board is expected to deliver top of the line performance and superior gaming.
     In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM TrustZone® security support.
 display_product: true
-tab_menu:
-    - tab_title: Bubblegum-96
-      tab_link: /product/bubblegum-96/
+sticky_tab_bar:
+    - title: Bubblegum-96
+      url: /product/bubblegum-96/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/bubblegum-96/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/bubblegum96
+    - title: Documentation
+      url: /documentation/consumer/bubblegum-96/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/bubblegum96
       tab_align_right: true
 product_specification: ce
 product_short_desc: Board based on Actions Semi S900 Processor
@@ -30,12 +30,12 @@ product_images:
   - images/96b-0-bubblegum96-actions-ucrobotics-5.png
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Debian
           link: /documentation/consumer/bubblegum-96/downloads/debian.md.html
     - title: Third Party Images
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Phoenix
           link: /documentation/consumer/bubblegum-96/downloads/phoenix-remix.md.html

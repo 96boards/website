@@ -10,14 +10,14 @@ product_specification: "mezzanine"
 display_product: true
 description: |-
     The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.
-tab_menu:
-  - tab_title: Sensors
-    tab_link: /product/sensors-mezzanine/
+sticky_tab_bar:
+  - title: Sensors
+    url: /product/sensors-mezzanine/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/sensors-mezzanine/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/sensors-mezzanine/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
 product_images:
@@ -53,7 +53,7 @@ product_sidebar_sections:
         - title: "1 x Sensors Mezzanine Board (96B-05GROVE-C)"
           link: https://linaro.co/20n34bc
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: Getting-Started PDF
           link: http://linaro.co/sensorkitpdf
@@ -124,7 +124,7 @@ control of devices from application software, and offload to a microcontroller. 
 - 1 x [Grove – Buzzer](http://www.seeedstudio.com/depot/grove-buzzer-p-768.html?cPath=156_159)
 - 1 x [Grove – Sound Sensor](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144_148)
 - 1 x [Grove – Touch Sensor](http://www.seeedstudio.com/depot/grove-touch-sensor-p-747.html?cPath=156_160)
-- 1 x [Grove – Rotary Angle Sensor](http://www.seeedstudio.com/depot/grove-rotary-angle-sensor-p-p-1242.html?cPath=156_160)
+- 1 x [Grove – Rotary Angle Sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-P.html)
 - 1 x [Grove – Temperature Sensor](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=144_147)
 - 1 x [Grove – LED](http://www.seeedstudio.com/depot/Grove-LED-p-767.html?cPath=81_35)
 - 1 x [Grove – Light Sensor](http://www.seeedstudio.com/depot/Grove-Light-Sensor-p-746.html?cPath=25_27)

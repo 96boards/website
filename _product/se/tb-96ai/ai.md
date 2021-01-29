@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     NPU, AI, DSP, Arm, Rockchip, RK3399Pro, SoM
 product_short_desc: " "
-tab_menu:
-    - tab_title: TB-96AI
-      tab_link: /product/tb-96ai/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: TB-96AI
+      url: /product/tb-96ai/
+    - title: AI
       active: true
-      tab_link: /product/tb-96ai/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96ai/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96ai/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/som/products/tb-96ai/
+      url: /product/tb-96ai/ai/
+    - title: Getting Started
+      url: /documentation/som/tb-96ai/getting-started/
+    - title: Documentation
+      url: /documentation/som/tb-96ai/
+    - title: Support
+      url: https://discuss.96boards.org/som/products/tb-96ai/
       tab_align_right: true
 header-image: TB-96AI-front.jpg
 footer-image: TB-96AI-rear.jpg

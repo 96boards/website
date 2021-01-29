@@ -1,9 +1,9 @@
 ---
 title: 96boards Partner Program
-layout: jumbotron-container
+layout: flow
 permalink: /partner/
 ---
-<div class="col-md-6" markdown="1">
+<div class="col col-12 col-md-6" markdown="1">
 
 ## 96Boards Partner Program
 
@@ -14,6 +14,6 @@ The 96Boards Partner Program’s mission is to bring the community together in t
 Please get in touch by filling the form if you are interested to become a 96Boards Partner.
 
 </div>
-<div class="col-md-6">
+<div class="col col-12 col-md-6">
 <iframe height="950px" width="100%" src="https://docs.google.com/forms/d/1r0H__mqXOLT3WcPmyUQo1O0JCU7OyUsEBXi4pH4MBDg/viewform?embedded=true"></iframe>
 </div>

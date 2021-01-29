@@ -16,18 +16,18 @@ display_product: true
 product_images:
   - images/ivy5661-sd-front.png
   - images/ivy5661-sd-back.png
-tab_menu:
-  - tab_title: Ivy5661
-    tab_link: /product/ivy5661/
+sticky_tab_bar:
+  - title: Ivy5661
+    url: /product/ivy5661/
     active: true
-  - tab_title: Getting Started
-    tab_link: /documentation/iot/ivy5661/getting-started/
+  - title: Getting Started
+    url: /documentation/iot/ivy5661/getting-started/
     tab_position: 1
-  - tab_title: Documentation
-    tab_link: /documentation/iot/ivy5661/
+  - title: Documentation
+    url: /documentation/iot/ivy5661/
     tab_position: 2
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/ivy5661/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/ivy5661/
     tab_position: 4
     tab_align_right: true
 product_buy_links:
@@ -40,12 +40,12 @@ product_buy_links:
     link-price-currency: USD
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Explore
           link: /documentation/iot/ivy5661/downloads/
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         - title: More Information
           link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
@@ -55,8 +55,6 @@ product_sidebar_sections:
           link: /documentation/iot/ivy5661/hardware-docs/files/ivy5661-product-brief.pdf
         - title: Zephyr Github
           link: https://github.com/zephyrproject-rtos/meta-zephyr-sdk
-        - title: Unisoc Github
-          link: https://unisoc.github.io/unisoc.github.io/
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/

@@ -4,13 +4,10 @@ comments: true
 date: 2017-10-24 00:00:00+00:00
 layout: post
 slug: basic-threads-zephyr
-image:
-    featured: true
-    path: /assets/images/blog/zephyr.jpg
-    name: zephyr.jpg
+image: /assets/images/blog/zephyr.jpg
+image_name: zephyr.jpg
 title: Basic Threads on Zephyr RTOS
-categories:
-- blog
+category: blog
 tags:
 - Cortex-M4
 - 96Boards
@@ -29,13 +26,13 @@ tags:
 
 [Zephyr](https://www.zephyrproject.org/), a project of The Linux Foundation is a small real-time operating system for connected, resource-constrained devices supporting multiple architectures, and without a doubt, it's Open Source under the Apache License 2.0
 
-One of the features of Zephyr I personally like is the implementation of threads. There have been multiple times that I have wished for my Arduino to support Multi-threading, but sadly that's just not the case until you are willing to put in [a LOT of effort](http://petenpaja.blogspot.in/2013/11/toorums-quest-ii-retro-video-game.html).
+One of the features of Zephyr I personally like is the implementation of threads. There have been multiple times that I have wished for my Arduino to support Multi-threading, but sadly that's just not the case until you are willing to put in a LOT of effort.
 
 So, this means that Zephyr gives us the capability of running multiple threads in parallel on ultra-low powered micro-controller like the ones based on the ARM Cortex-M4 that powers the Carbon and the Nitrogen IoT Boards.
 
 # **3 Threads 1 main()**
 
-Although the [Zephyr Source Code](https://www.zephyrproject.org/downloads) does contain an [example](https://github.com/zephyrproject-rtos/zephyr/tree/master/samples/synchronization) to demonstrate threads, IMO its a bit complicated. In their defense, they intended to show synchronized threads and not just the basic implementation.
+Although the [Zephyr Source Code](https://www.zephyrproject.org/) does contain an [example](https://github.com/zephyrproject-rtos/zephyr/tree/master/samples/synchronization) to demonstrate threads, IMO its a bit complicated. In their defense, they intended to show synchronized threads and not just the basic implementation.
 
 So, let's take a look at my sample which is available on [GitHub](https://github.com/96boards-projects/zephyr_multithread_blinky) as well:
 

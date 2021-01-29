@@ -2,11 +2,9 @@
 title: 96Boards Photobooth - Part 2
 author: Manivannan Sadhasivam
 date: 2018-03-09 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/photobooth.png
-    name: photobooth.png
-    thumb: photobooth-thumb.png
+image: /assets/images/blog/photobooth.png
+image_name: photobooth.png
+image_thumb: photobooth-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux
 ---
@@ -47,7 +45,7 @@ On a short note, we need the following connections on Dragonboard410c:
                     (GPIO25)
 4. Dragonboard410c ---------> Push Button 2
 
-{% include image.html name="photobooth_part2_setup.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/photobooth_part2_setup.jpg" alt="Your alternate text." %}
 
 # Software Setup
 
@@ -123,18 +121,18 @@ def put_moustache_filter(mst, frame, x, y, w, h):
             for k in range(3):
                 if mst[i-int(0.62857142857*face_height)][j-int(0.29166666666*face_width)][k] <235:
                     frame[y+i][x+j][k] = mst[i-int(0.62857142857*face_height)][j-int(0.29166666666*face_width)][k]
-                                                                                                    
+
     return frame
 
 def put_hat_filter(hat, frame, x, y, w, h):
     face_width = w
     face_height = h
-            
+
     hat_width = face_width+1
     hat_height = int(0.35*face_height)+1
-    
+
     hat = cv2.resize(hat,(hat_width,hat_height))
-                                    
+
     for i in range(hat_height):
         for j in range(hat_width):
             for k in range(3):
@@ -195,7 +193,7 @@ def capture_callback(capture_btn):
 
 def filter_callback(filter_btn):
     global filter_opt
-    
+
     filter_opt += 1
     if filter_opt > 2:
         filter_opt = 1
@@ -244,7 +242,7 @@ filter_btn.isr(mraa.EDGE_RISING, filter_callback, filter_btn)
 
 while 1:
     lock = _thread.allocate_lock()
-    
+
     # Show live preview
     capture_and_show("TAKE", 220, 180)
 

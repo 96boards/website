@@ -2,11 +2,9 @@
 title: Introducing 96Boards Photobooth
 author: Manivannan Sadhasivam
 date: 2018-02-18 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/photobooth.png
-    name: photobooth.png
-    thumb: photobooth-thumb.png
+image: /assets/images/blog/photobooth.png
+image_name: photobooth.png
+image_thumb: photobooth-thumb.png
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, CSI, Python, Photobooth, dragonboard410c, Linaro, Linux
 ---

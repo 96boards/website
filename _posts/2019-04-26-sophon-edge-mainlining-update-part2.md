@@ -2,9 +2,8 @@
 title: Sophon Edge Mainlining Update - Part 2
 author: Manivannan Sadhasivam
 date: 2019-04-26 01:01:54+00:00
-image:
-    path: /assets/images/blog/sophon.png
-    name: sophon.png
+image: /assets/images/blog/sophon.png
+image_name: sophon.png
 categories: blog
 series: Sophon Edge Mainlining Update
 tags: 64-bit, 96Boards, ARM, ARMv8, CE Edition, Kernel, Linux, Bitmain, BM1880, Edge, Mining, ASIC, Mainlining, Devicetree, Pinctrl, GPIO, Upstream, Sophon

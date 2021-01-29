@@ -9,10 +9,9 @@ images:
   - BillBreaker_Image1.png
   - BillBreaker_Image2.png
   - BillBreaker_Image3.png
-image:
-  path: /assets/images/projects/ebillbreaker-thumb.png
-  name: ebillbreaker-thumb.png
-  thumb: ebillbreaker-thumb.png
+image: /assets/images/projects/ebillbreaker-thumb.png
+image_name: ebillbreaker-thumb.png
+image_thumb:  ebillbreaker-thumb.png
 categories:
 - dragonboard410c
 ---

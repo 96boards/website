@@ -2,11 +2,9 @@
 title: External PCIe GPU on the Oxalis
 author: Sahaj Sarup
 date: 2019-03-13 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/oxalis-gpu.png
-    name: oxalis-gpu.png
-    thumb: oxalis-gpu-thumb.jpg
+image: /assets/images/blog/oxalis-gpu.png
+image_name: oxalis-gpu.png
+image_thumb: oxalis-gpu-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, fedora, arm64, aarch64, rock960, FPGA, raspberry pi, arduino, shild, hat
 ---
@@ -40,7 +38,7 @@ Like everything else these days, the answerer lies within BlockChain :p
 
 Jokes aside, the GPU crypto mining rage brought with it many creative ways to add as many GPU's as possible in as little space as possible. And one of the products was a mini-PCIe to x16 dongle with external power pins which fits perfectly for our use case.
 
-[Something like this.](https://www.newegg.com/Product/Product.aspx?Item=17Z-0007-003E6)
+[Something like this.](https://www.amazon.in/Graphics-Laptop-miniPCI-Riser-Adapter/dp/B06X9Y53WC)
 
 # The drivers and woes
 

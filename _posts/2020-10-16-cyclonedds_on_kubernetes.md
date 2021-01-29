@@ -2,10 +2,7 @@
 title: "96boards: Autoware everywhere | Running Cyclone DDS on Kubernetes"
 author: Servando German Serrano
 date: 2020-10-16 01:00:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/pcu_top_view.png
-    name: pcu_top_view.png
+image: /assets/images/blog/pcu_top_view.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Linaro, Linux, arm64, real time, ROS2, Autoware, AutoCore, PCU, arm-autonomy
@@ -19,13 +16,14 @@ In this post we explore how to use k8s to deploy two Cyclone DDS based applicati
 
 
 This post is organized as follows:
-- [Testing setup](#testing-setup)
-- [Installing k8s](#installing-k8s)
-- [Running the performance test](#running-the-performance-test)
-  - [Docker containers](#docker-containers)
-  - [Using k8s](#using-k8s)
-  - [Performance comparison](#performance-comparison)
-
+- [Introduction](#introduction)
+  - [Testing setup](#testing-setup)
+  - [Installing k8s](#installing-k8s)
+  - [Running the performance test](#running-the-performance-test)
+    - [Docker containers](#docker-containers)
+    - [Using k8s](#using-k8s)
+    - [Performance comparison](#performance-comparison)
+- [Conclusion](#conclusion)
 
 ***
 

@@ -10,11 +10,9 @@ layout: post
 # Title of the blog post.
 title: OpenHours ep 67 Recap - Live from Denver, Colorado
 # This is the featured background image of the blog which resides under _assets/
-image:
-    featured: true
-    path: /assets/images/blog/OpenHours.png
-    name: OpenHours.png
-    thumb: OpenHours-thumb.png
+image: /assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
 - 64-Bit
@@ -43,7 +41,7 @@ tags:
 ---
 # Introduction
 
-This episode was hosted from the Hyatt Regency hotel lobby in Denver Colorado. The episode caught me slightly off guard since I had just finished attending a conference and was on the way to the airport (headed home). Luckily, there was just enough time to take the call and and enjoy some good last minute conversation before heading off to the airport! 
+This episode was hosted from the Hyatt Regency hotel lobby in Denver Colorado. The episode caught me slightly off guard since I had just finished attending a conference and was on the way to the airport (headed home). Luckily, there was just enough time to take the call and and enjoy some good last minute conversation before heading off to the airport!
 
 The episode didn't focus on anything in particular. We hung out and talked about a couple projects as well as the future episodes that are to come.
 

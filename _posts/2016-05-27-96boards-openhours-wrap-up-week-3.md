@@ -5,18 +5,14 @@ date: 2016-05-27 22:28:45+00:00
 layout: post
 link: https://www.96boards.org/blog/96boards-openhours-wrap-up-week-3/
 slug: 96boards-openhours-wrap-up-week-3
-image:
-    featured: true
-    path: /assets/images/blog/Screenshot-39.png
-    name: Screenshot-39.png
+image: /assets/images/blog/Screenshot-39.png
+image_name: Screenshot-39.png
 title: 96Boards OpenHours Wrap-Up Week 3
 wordpress_id: 14856
 Boards:
 - DragonBoard 410c
 - HiKey
-categories:
-- blog
-- 96Boards OpenHours
+category: blog
 tags:
 - 3D print
 - 3D printed case
@@ -116,28 +112,15 @@ At 21:40 – Introduction of Michael Welling and his  Robo Mezzanine board
 
 At 35:18 – Introduction Joakim Bech and Daniel Thompson – Discussion on Trustzone and security for 96Boards (See more about Linaro trusted application development for TEEs [https://www.youtube.com/watch?v=jWX-B5nM17o](https://www.youtube.com/watch?v=jWX-B5nM17o))
 
-
-
-
-  1. Discussion on encryption
-
-
-  2. At 38:32- question on Hikey security – what does it have?
-
-
-  3. Discussion about security on different boards
-
+1. Discussion on encryption
+2. At 38:32- question on Hikey security – what does it have?
+3. Discussion about security on different boards
 
 Be sure to stay tune in next week where we will focus on a particularly important part of the 96Boards hardware (and software), the [low-speed expansion header]() and it’s many GPIO interfaces. Robert will highlight some great examples and steer you to a bank of resources that will help any hobbyist/developer get started with any 96Boards!  [https://www.96boards.org/openhours/](/openhours/)
 
-[![OpenHours Image]({% asset_path "OpenHours.png" %}){:class="img-responsive lazyload"}](/openhours/)
+{% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-
-
-[**In this series**](/blog/tag/)
-
-
-
+**In this series**
 
   * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 

@@ -5,14 +5,11 @@ date: 2015-10-15 10:17:06+00:00
 layout: post
 link: https://www.96boards.org/blog/the-beginning-of-96boards/
 slug: the-beginning-of-96boards
-image:
-    featured: true
-    path: /assets/images/blog/boards-blog1.jpg
-    name: boards-blog1.jpg
+image: /assets/images/blog/boards-blog1.jpg
+image_name: boards-blog1.jpg
 title: The beginning of 96Boards
 wordpress_id: 8724
-categories:
-- blog
+category: blog
 tags:
 - 64-bit
 - 96Boards

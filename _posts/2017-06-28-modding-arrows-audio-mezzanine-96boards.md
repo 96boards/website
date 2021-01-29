@@ -8,12 +8,9 @@ link: https://www.96boards.org/blog/modding-arrows-audio-mezzanine-96boards/
 slug: modding-arrows-audio-mezzanine-96boards
 title: Modding Arrow’s Audio Mezzanine for 96Boards
 wordpress_id: 20519
-image:
-    featured: true
-    path: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
-    name: modding-arrow-audio-mezz-img-1.jpg
-categories:
-- blog
+image: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
+image_name: modding-arrow-audio-mezz-img-1.jpg
+category: blog
 tags:
 - 64-Bit
 - 96Boards
@@ -88,17 +85,19 @@ Although this board’s main function is to provide an audio interface for the D
 
 This eliminates the need of extra components like Logic Level Shifters to make various sensors and controllers work as most of them are designed to work with Arduino and Raspberry Pi that run on 5v and 3.3v.
 
-![Modding Arrow Audio Mezz Image 1]({% asset_path "modding-arrows-img-1.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/modding-arrows-img-1.png" alt="Modding Arrow Audio Mezz Image 1" class="img-fluid"%}
 
 # **Understanding the Modification**
 
-![Modding Arrow Audio Mezz Image 2]({% asset_path "modding-arrows-img-2.png" %}){:class="img-responsive lazyload"}
-![Modding Arrow Audio Mezz Image 3]({% asset_path "modding-arrows-img-3.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/modding-arrows-img-2.png" alt="Modding Arrow Audio Mezz Image 2" class="img-fluid"%}
+
+{% include image.html path="/assets/images/blog/modding-arrows-img-3.png" alt="Modding Arrow Audio Mezz Image 3" class="img-fluid"%}
 
 On the Dragonboard 410c, just between the Low Speed Header and the barrel jack for power input, lie two rows of make header pins for i2s (Integrated Inter-IC Sound Bus) that the Audio Mezz connects to using matching female headers.
 
-![Modding Arrow Audio Mezz Image 4]({% asset_path "modding-arrows-img-4.png" %}){:class="img-responsive lazyload"}
-![Modding Arrow Audio Mezz Image 5]({% asset_path "modding-arrows-img-5.png" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/modding-arrows-img-4.png" alt="Modding Arrow Audio Mezz Image 4" class="img-fluid"%}
+
+{% include image.html path="/assets/images/blog/modding-arrows-img-5.png" alt="Modding Arrow Audio Mezz Image 5" class="img-fluid"%}
 
 Now this wouldn’t be much of an issue if on the other boards that are was left blank, but unfortunately on the Hikey board there exists a huge input capacitor and on the Hikey 960 there exists a choke or inductor for the inbuilt power supply.
 
@@ -110,9 +109,10 @@ Before we get started, I would recommend that the person performing this task to
 
 {% include media.html media_url="https://www.youtube.com/embed/SGHHLpLSwko" %}
 
-1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.  
-    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.  
-    ![Modding Arrow Audio Mezz Image 6]({% asset_path "modding-arrows-img-6.png" %}){:class="img-responsive lazyload"}
+1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.
+    This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.
+{% include image.html path="/assets/images/blog/modding-arrows-img-6.png" alt="Modding Arrow Audio Mezz Image 6" class="img-fluid"%}
+
 2.  Now we can apply ample amount of Flux paste onto the solder pads.
 3.  Following that, sandwich the Solder Wick between the pads on the pcb and you soldering iron and hold the iron in place for a few seconds. This should suck all the excess solder onto the wick and the metal pieces will stick to it as well
 4.  Quickly remove the wick before it gets too cold and sticks to the PCB, the metal pieces should come off with it as well
@@ -121,10 +121,10 @@ Before we get started, I would recommend that the person performing this task to
 
 # **Conclusion**
 
-Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.  
+Modding the Audio Mezz in this manner defy its primary purpose of providing an audio interface for the Dragonboard 410c, but you gain a board that can level shift all of the GPIOs to either 3.3v or 5v, and that’s not bad for just $5.
 But, do remember that these board are in a limited supply from arrow, around 750 pcs. In stock at the time of writing this blog, and only a few were and ever will be made.
 
-![Modding Arrow Audio Mezz Image 7]({% asset_path "modding-arrows-img-7.jpg" %}){:class="img-responsive lazyload"}
+{% include image.html path="/assets/images/blog/modding-arrows-img-7.jpg" alt="Modding Arrow Audio Mezz Image 7" class="img-fluid"%}
 
 **[https://www.96boards.org/product/audio-mezzanine/](https://www.96boards.org/product/audio-mezzanine/)**
 

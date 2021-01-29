@@ -9,15 +9,15 @@ product: true
 shortname: poplar-hoperun
 archived: false
 dateAdded: 2018-05-15 09:00:00+00:00
-tab_menu:
-    - tab_title: Poplar (Hoperun)
-      tab_link: /product/poplar-hoperun/
+sticky_tab_bar:
+    - title: Poplar (Hoperun)
+      url: /product/poplar-hoperun/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/enterprise/poplar-hoperun/
+    - title: Documentation
+      url: /documentation/enterprise/poplar-hoperun/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/poplar
+    - title: Support
+      url: https://discuss.96boards.org/c/products/poplar
       tab_position: 2
       tab_align_right: true
 product_specification: ee
@@ -32,7 +32,7 @@ product_buy_links:
     link-price: "￥800.0"
 product_sidebar_sections:
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
         - title: Build from Source
           link: /documentation/enterprise/poplar-hoperun/build/

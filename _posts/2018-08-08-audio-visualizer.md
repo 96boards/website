@@ -2,11 +2,9 @@
 title: Audio Visualizer | Playing with the DragonBoard410c Analog Header
 author: Sahaj Sarup
 date: 2018-08-08 00:01:00+00:00
-image:
-    featured: true
-    path: /assets/images/blog/audio-viz.jpg
-    name: audio-viz.jpg
-    thumb: audio-viz-thumb.jpg
+image: /assets/images/blog/audio-viz.jpg
+image_name: audio-viz.jpg
+image_thumb: audio-viz-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, sahaj sarup, podcast, technology, tech, computer, hardware,, embedded, crowd fund, mezzanine, community, audio, visualizer, neopixel, arduino, analog input
 ---

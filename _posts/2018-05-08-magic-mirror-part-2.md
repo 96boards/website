@@ -2,11 +2,9 @@
 title: Magic Mirror Part 2
 author: Sahaj Sarup
 date: 2018-05-08 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/mirror-feature.jpg
-    name: mirror-feature.jpg
-    thumb:  mirror-thumb.jpg
+image: /assets/images/blog/mirror-feature.jpg
+image_name: mirror-feature.jpg
+image_thumb:  mirror-thumb.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, hiKey, MRAA, GPIO, I2C, UART, qt5
 ---

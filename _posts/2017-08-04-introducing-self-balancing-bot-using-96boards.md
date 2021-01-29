@@ -2,11 +2,7 @@
 title: Introducing Self Balancing Bot using 96Boards
 author: Manivannan Sadhasivam
 date: 2017-08-04 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/self-balancing-bot.jpg
-    name: self-balancing-bot.jpg
-    thumb: self-balancing-bot-thumb.jpg
+image: /assets/images/blog/self-balancing-bot.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, Android, ARM, ARMv8, B2260, bubblegum-96, Consumer Edition, Consumer IoT, DB410c, dragonboard410c, F-Cue, HiKey, I Squared C, I2C, Linaro, Linux, MediaTek X20, Open Embedded, Open Hours, open source, OpenHours, Reference Platform, rpb, U-Boot, Bot, Self balancing Bot, Robotics, DC Motor, PID
 

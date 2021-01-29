@@ -5,14 +5,11 @@ date: 2015-11-06 16:37:17+00:00
 layout: post
 link: https://www.96boards.org/blog/xenomai-on-the-96boards/
 slug: xenomai-on-the-96boards
-image:
-    featured: true
-    path: /assets/images/blog/Xenomai-96Boards.jpg
-    name: Xenomai-96Boards.jpg
+image: /assets/images/blog/Xenomai-96Boards.jpg
+image_name: Xenomai-96Boards.jpg
 title: Xenomai on the 96Boards
 wordpress_id: 9103
-categories:
-- blog
+category: blog
 tags:
 - embedded
 - pwm
@@ -35,7 +32,7 @@ And Xenomai enabled all of that to happen while also shortening our time to mark
 
 I won’t go into the architectural details in this blog since it is something that has been widely documented over the years (you can check [www.xenomai.org](http://www.xenomai.org) as well the [archives](http://xenomai.org/pipermail/xenomai/) since 2002 and some [books](http://processors.wiki.ti.com/images/3/3f/Building_Embedded_Linux_Systems.pdf)). Suffice to say that in order to achieve the lowest possible predictable latencies in a _dual kernel_ configuration Xenomai “_must be allowed to handle all incoming interrupts first, before the Linux kernel has had the opportunity to notice them, and it must be able to handle them immediately, regardless of any current attempt from the Linux kernel to lock them out using the CPU interrupt mask. It must also make sure to always enforce the proper priority management for its threads_”. If that statement raises your interest, please check the Xenomai [website](http://www.xenomai.org) for more. And if you are really really interested, you are welcome to help us -the Xenomai team- upstream the Xenomai kernel patches needed to support a dual kernel configuration to kernel.org.
 
-{% include image.html name="xenomai-img-1.jpg" alt="Xenomai Image 1"%}
+{% include image.html path="/assets/images/blog/xenomai-img-1.jpg" alt="Xenomai Image 1"%}
 
 
 Fig 1: Xenomai emulators can run in a Dual Kernel (a.k.a Cobalt) Configuration and in a Single Kernel (a.k.a Mercury) Configuration.

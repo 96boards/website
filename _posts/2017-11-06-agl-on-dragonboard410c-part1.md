@@ -2,10 +2,8 @@
 title: Automotive Grade Linux on Dragonboard410c - Part 1
 author: Manivannan Sadhasivam
 date: 2017-11-06 01:01:54+00:00
-image:
-    featured: true
-    path: /assets/images/blog/agl.jpg
-    name: agl.jpg
+image: /assets/images/blog/agl.jpg
+image_name: agl.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB410c, dragonboard410c, Linaro, Linux, AGL, Automotive
 ---
@@ -36,8 +34,10 @@ AGL is officially supported on [Dragonboard410c](https://at.projects.genivi.org/
 board support for AGL is not that much difficult since AGL is based on [Yocto Project](https://www.yoctoproject.org/).
 Only the meta-layer of the corresponding board and some tweaks are required.
 
-For Dragonboard410c, meta layer used is the [meta-qcom](https://git.automotivelinux.org/AGL/AGL-distro/tree/meta-qcom) from
-OE. It has the recipies for the full software stack to make it functional.
+~~For Dragonboard410c, meta layer used is the meta-qcom https://git.automotivelinux.org/AGL/AGL-distro/tree/meta-qcom from
+OE. It has the recipies for the full software stack to make it functional~~
+
+meta-qcom is now synced automatically and uses [upstream yocto repository](https://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom/). 
 
 Enough theory, now we will move onto the practical stuffs :-)
 
@@ -94,7 +94,7 @@ The build will take quite some time depending on the host machine configuration.
 ## **Flashing AGL onto Dragonboard410c**
 
 Once the build has been completed, we have to flash the boot and rootfs images onto Dragonboard410c. Now, boot Dragonboard
-in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/).
+in fastboot mode by following the instructions [here](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/).
 
 ```shell
 $ cd $AGL_TOP/build/tmp/deploy/images/dragonboard-410c
@@ -103,7 +103,7 @@ $ sudo fastboot flash rootfs agl-demo-platform-dragonboard-410c.ext4
 ```
 Once, flashing is completed reboot the board and the board should boot into AGL and the homescreen shuld be visible as below:
 
-{% include image.html name="agl.jpg" alt="Your alternate text." %}
+{% include image.html path="/assets/images/blog/agl.jpg" alt="Your alternate text." %}
 
 Also, you should be able to login via serial console also by plugging an [UART Mezzanine](https://www.96boards.org/product/uartserial/)
 on top of Dragonboard410c. This will be really handly for debugging purposes.

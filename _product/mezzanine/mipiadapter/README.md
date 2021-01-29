@@ -20,7 +20,7 @@ product_sidebar_sections:
         - title: "Cameras supported by IPEX connector: OV7251, OV9281, OV8865, OV13850, MT9V024, MT9M031, AR0134, AR0144, IMX185, AR0230WDR"
         - title: "UART0/UART1/SPI0/I2C0/I2C1/I2C2 and GPIOs"
     - title: More Info
-      icon: fa-external-link-square
+      icon: icon-link-ext-alt
       items:
         -
           title: Github Repository
@@ -63,15 +63,15 @@ product_buy_links:
     link-url: http://www.ebay.com/itm/OV5645-auto-focus-module/252956491650
     from: ebay
     type: board
-tab_menu:
-  - tab_title: MIPI Adapter Mezzanine
-    tab_link: /product/mipiadapter/
+sticky_tab_bar:
+  - title: MIPI Adapter Mezzanine
+    url: /product/mipiadapter/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/mipiadapter/
+  - title: Documentation
+    url: /documentation/mezzanine/mipiadapter/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
 attributes:

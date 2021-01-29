@@ -7,3 +7,7 @@ url: "https://staging.96boards.org"
 destination: staging.96boards.org
 # Production boolean used in layouts / includes
 production: false
+# Google Analytics
+google_analytics:
+  enabled: false
+  code: GTM-P53JPC
