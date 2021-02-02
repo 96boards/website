@@ -578,7 +578,7 @@ Hehe
 
 RW
 
-[www.96boards.org/documentation](/documentation)
+[www.96boards.org/documentation](/documentation/)
 
 this is the new Carbon
 

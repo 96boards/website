@@ -22,7 +22,7 @@ sticky_tab_bar:
       url: /documentation/enterprise/developerbox/getting-started/
       tab_position: 1
     - title: Documentation
-      url: /documentation/enterprise/developerbox
+      url: /documentation/enterprise/developerbox/
       tab_position: 2
     - title: Support
       url: https://discuss.96boards.org/c/products/developerbox/
@@ -74,7 +74,7 @@ product_bottom_section:
         - title: UART Serial
           link: /product/uartserial/
         - title: Sensors Mezzanine
-          link: /product/sensors-mezzanine
+          link: /product/sensors-mezzanine/
         - title: Audio Mezzanine
           link: /product/audio-mezzanine/
 attributes:
