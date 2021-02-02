@@ -219,7 +219,7 @@ product_mezzanine:
   - title: UART Serial
     link: /product/uartserial/
   - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
+    link: /product/sensors-mezzanine/
 # Product kits - This allows you to add links to any kits that are available for your board.
 product_kits:
   - title: Coming Soon...
