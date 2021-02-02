@@ -312,7 +312,7 @@ Enterprise Edition:
 
 By taking on, and enabling more development boards to stimulate community involvement, a big push has been made to ensure this platform is used by as many 96boards as possible. Highlights can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Extras/Highlights.md). If you would like to contribute to one of the many RPB components, instructions to do so can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Contribute/README.md).
 
-Last week during [OpenHours](/openhours) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
+Last week during [OpenHours](/openhours/) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
 
 {% include media.html media_url="https://www.youtube.com/embed/lB6zpB4pS60?feature=oembed" %}
 
