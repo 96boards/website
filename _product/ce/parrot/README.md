@@ -13,6 +13,7 @@ keywords: |-
 product_short_desc: "Hichips-Parrot Board is powered by the Allwinner R18"
 product_specification: ce
 display_product: true
+
 product_images:
   - images/hichips-parrot-front-sd.jpg
   - images/hichips-parrot-back-sd.jpg
