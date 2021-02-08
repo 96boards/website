@@ -97,9 +97,7 @@ The Orange Pi is an open-source single-board computer built upon the 96Boards Io
 Think of the things you can build...
 - A computer
 - Wireless servers
-- Games and consoles
 - Music and sounds
-- HD video showcases
 - Audio Systems
 - Android Applications
 - Scratch demos
