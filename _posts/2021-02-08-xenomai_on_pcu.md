@@ -116,8 +116,6 @@ $ ./scripts/prepare-kernel.sh --linux=/1046a/flexbuild/packages/linux/linux --ip
 ```
 ![](/assets/images/blog/xenomai_ipipe_patch.gif)
 
-./scripts/prepare-kernel.sh  --linux=/home/servando/96boards/pcu_build/1046a/flexbuild/packages/linux/linux/ --ipipe=/home/servando/96boards/pcu_build/1046a/flexbuild/packages/linux/ipipe-4.14.78-arm64.patch --arch=arm64
-
 ### Building the patched Linux kernel
 
 We are now ready to build the patched kernel for the PCU. As mentioned earlier, we'll use the flex-builder tool. We will build the patched kernel and bootpartition and replace them in the default PCU image.
