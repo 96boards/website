@@ -90,7 +90,7 @@ product_bottom_section:
         - title: UART Serial
           link: /product/uartserial/
         - title: Sensors Mezzanine
-          link: /product/sensors-mezzanine
+          link: /product/sensors-mezzanine/
         - title: Audio Mezzanine
           link: /product/audio-mezzanine/
 attributes:
