@@ -27,15 +27,15 @@ flow:
             buttons:
                 - title: View Specification v2.0
                   url: https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-CE-Specification-v2.0.pdf
-                  class: btn-primary my-2
+                  style: btn-primary my-2
                   icon: icon-book
                 - title: View Specification
                   url: https://linaro.co/ce-specification
-                  class: btn-primary my-2
+                  style: btn-primary my-2
                   icon: icon-book
                 - title: Browse 96Boards
                   url: /products/ce/
-                  class: btn-primary my-2
+                  style: btn-primary my-2
                   icon: icon-microchip
     - row: container_row
       sections:
