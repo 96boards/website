@@ -4,7 +4,7 @@ layout: product
 permalink: /product/qualcomm-robotics-rb5/
 #Set this to true and the board will be visible on 96boards.ai
 product: true
-shortname: rb5-platform
+shortname: qualcomm-robotics-rb5
 archived: false
 dateAdded: 2021-03-17 09:00:00+00:00
 ai_board: true
@@ -36,7 +36,7 @@ product_images:
   - images/rb5-angle.png
 sticky_tab_bar:
     - title: Qualcomm® Robotics RB5 Development Platform
-      url: /product/rb3-platform/
+      url: /product/qualcomm-robotics-rb5/
       active: true
     - title: Documentation
       url: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/
@@ -176,8 +176,8 @@ attributes:
       "12V@2.5A adapter with a DC plug:
       Plug specification is inner diameter 1.75mm and outer diameter 4.75mm"
   - name: "OS Support"
-    values:
-      - title: LE, LU
+    values: >
+      "LE build from Linaro, <br>LU build from Thundercomm"
   - name: "Sensors"
     value: >
       Accelerometer + Gyro Sensor/ Proximity sensor
