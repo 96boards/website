@@ -6,7 +6,7 @@ permalink: /product/qualcomm-robotics-rb5/
 product: true
 shortname: rb5-platform
 archived: false
-dateAdded: 2019-02-28 09:00:00+00:00
+dateAdded: 2021-03-17 09:00:00+00:00
 ai_board: true
 ai_board_desc: >
     Qualcomm® Robotics RB5 Development Kit is based on the Qualcomm® QRB5165 Robotics SoC.
