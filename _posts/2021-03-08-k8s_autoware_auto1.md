@@ -80,4 +80,4 @@ And the Rviz2 visualization on the laptop.
 
 # Conclusion
 
-In this post we have explored a bit further on splitting some Autoware.Auto modules using k8s. In addition we have used different Docker iamges for each deployment as it'll make it easier to update them when the time comes since they are lighter than a fully-built Autoware.Auto image. We will continue exploring what we can do with k8s in the near future so keep an eye to this space.
+In this post we have explored a bit further on splitting some Autoware.Auto modules using k8s. In addition we have used different Docker images for each deployment as it'll make it easier to update them when the time comes since they are lighter than a fully-built Autoware.Auto image. We will continue exploring what we can do with k8s in the near future so keep an eye to this space.
