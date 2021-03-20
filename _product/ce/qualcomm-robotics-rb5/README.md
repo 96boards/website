@@ -212,7 +212,5 @@ Note: Intel® RealSense™ Depth Camera D435i is not included. It can be purchas
 |  Power Source        | 12V@2.5A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                     |
 |  OS Support          | Thundersoft LU, Linaro Linux builds with OpenEmbedded / Yocto Project                                                                                                                                            |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
+{:.hidden_rows}
 </div>
-
-
-
