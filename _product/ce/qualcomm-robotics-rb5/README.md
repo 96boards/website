@@ -1,5 +1,5 @@
 ---
-title: Qualcomm® Robotics RB5 Development Platform
+title: "Qualcomm® Robotics RB5 Development Platform"
 layout: product
 permalink: /product/qualcomm-robotics-rb5/
 #Set this to true and the board will be visible on 96boards.ai
