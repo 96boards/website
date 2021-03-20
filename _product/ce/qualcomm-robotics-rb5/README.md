@@ -108,12 +108,12 @@ attributes:
       Qualcomm® Adreno™ 650 Native 8-bit integer support for efficient GPU DNN
       OpenGL ES 3.2, Vulkan 1.1, DX12 FL 12_1; 
       OpenCL 2.0 full profile
-- name: "DSP"
+  - name: "DSP"
     value: >
       Compute DSP : Hexagon™ DSP with Quad Hexagon™ Vector eXtensions (HVX) V66Q, 1.5 GHz, for machine learning, integrated DNN for advanced VA and Neural Processing SDK
        NPU : Qualcomm Neural Processing Unit (NPU230) for high-performance machine learning use cases
        Sensor DSP : Qualcomm® Sensing Hub for contextual awareness and always-on sensor support
-- name: "RAM"
+  - name: "RAM"
     value: 8 GB LPDDR5 2750 MHz POP
   - name: "Wireless"
     value: >-
@@ -142,7 +142,7 @@ attributes:
       Voice : Essential and advance voice communications package, Voice UI activation package, Voice UI speech enhancement package, 3D audio capture package
       Audio DSP : V66, integrated low power island, 2 MB L2, 1.5 GHz
   - name: "Camera"
-    value: 
+    value: >-
      Performance : 64 MP 30 fps ZSL with a dual ISP. Real-time sensor input resolution: 25 + 25 + 2 + 2 + 2 + 2 + 2 with support for up to 12 cameras by D-PHY and 18 cameras by C-PHY (seven concurrent)
      Interface : MIPI CSI configurable in 4 + 4 + 4 + 4 + 4 + 4 configuration
   - name: "Expansion Interface"
