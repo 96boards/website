@@ -25,13 +25,17 @@ flow:
             text: >
                 The 96Boards Consumer Edition (CE) Platform is intended to support Low cost Single Board Computer use, Open Source community software development, Maker community, Embedded System OEMs requiring low cost off-the-shelf CPU modules and Community engineering activities.
             buttons:
+                - title: View Specification v2.0
+                  url: https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-CE-Specification-v2.0.pdf
+                  style: btn-primary my-2
+                  icon: icon-book
                 - title: View Specification
                   url: https://linaro.co/ce-specification
-                  class: btn-primary my-2
+                  style: btn-primary my-2
                   icon: icon-book
                 - title: Browse 96Boards
                   url: /products/ce/
-                  class: btn-primary my-2
+                  style: btn-primary my-2
                   icon: icon-microchip
     - row: container_row
       sections:
