@@ -1,5 +1,5 @@
 ---
-title: "96boards: Autoware everywhere | Multi-board Autoware.Auto 3D Perception Stack using k8s"
+title: "96boards: Autoware everywhere | Updating Autoware.Auto 3D Perception Stack modules"
 author: Servando German Serrano
 date: 2021-03-31 01:00:00+00:00
 image: /assets/images/blog/k8s_roll_6.gif
