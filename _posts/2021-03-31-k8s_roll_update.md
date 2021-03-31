@@ -2,7 +2,7 @@
 title: "96boards: Autoware everywhere | Updating Autoware.Auto 3D Perception Stack modules"
 author: Servando German Serrano
 date: 2021-03-31 01:00:00+00:00
-image: /assets/images/blog/k8s_roll_6.gif
+image: /assets/images/blog/k8s_roll.png
 categories: blog
 series: "96boards: Autoware everywhere"
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Linaro, Linux, arm64, real time, ROS2, Autoware, AutoCore, PCU
