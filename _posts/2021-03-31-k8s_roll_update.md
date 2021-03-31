@@ -78,7 +78,7 @@ As shown above the `kubectl rollout status` command gets stuck and also k8s keep
 
 ## Visualization
 
-Now that we know how to roll an update for an image let's see what happens when we visualize the lidar pointcloud. Since the default config for the 3D Perception shows the front lidar data we will roll the update to this pod's container. To do so we jsut need to do as above:
+Now that we know how to roll an update for an image let's see what happens when we visualize the lidar pointcloud. Since the default config for the 3D Perception shows the front lidar data we will roll the update to this pod's container. To do so we just need to do as above:
 
 ```
 $ kubectl set image deployment sensing-front-lidar front-lidar-pod=96boards/autoware.auto:sensing-1.0.0_v2
