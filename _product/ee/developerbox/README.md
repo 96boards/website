@@ -50,7 +50,7 @@ product_sidebar_sections:
         - title: EDK2 (Firmware)
           link: /documentation/enterprise/developerbox/downloads/edk2.md.html
         - title: Debian
-          link: /documentation/enterprise/developerbox/downloads/debian.md.html
+          link: /documentation/enterprise/developerbox/installation/#booting-an-operating-system-installer
     - title: More Info
       icon: icon-link-ext-alt
       items:
