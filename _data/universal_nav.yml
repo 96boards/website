@@ -6,8 +6,6 @@ items:
   - title: 96Boards
     url: https://www.96boards.org
     active: true
-  - title: Developer Cloud
-    url: https://linaro.cloud
   - title: Projects
     options:
       - title: 96Boards.ai
