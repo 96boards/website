@@ -1,49 +1,82 @@
-$(document).ready(function(){
-    // Check to see if the members section is needed. If so, fetch the 96Boards members from https://www.linaro.org/assets/json/members.json
-    if ($("#members-section").length > 0){
-        // Store the Members JSON data
-        var membersJSONData = [];
-        // Get the members JSON
-        $.ajax({
-            url: "https://www.linaro.org/assets/json/members.json",
-            dataType: 'json',
-            complete: function (jsonResponse) {
-                jsonData = JSON.parse(jsonResponse.responseText);
-                membersJSONData = membersJSONData.concat(jsonData);
-            }
-        });
+// TwentyTwenty Reveal
+$(document).ready(function () {
+  if ($("#beforeAndAfterContainer").length > 0) {
+    $("#beforeAndAfterContainer").twentytwenty({
+      default_offset_pct: 0.5, // How much of the before image is visible when the page loads
+      //   orientation: "vertical", // Orientation of the before and after images ('horizontal' or 'vertical')
+      before_label: "Stinger96", // Set a custom before label
+      after_label: "Avenger96", // Set a custom after label
+      //   no_overlay: true, //Do not show the overlay with before and after
+      //   move_slider_on_hover: true, // Move slider on mouse hover?
+      //   move_with_handle_only: true, // Allow a user to swipe anywhere on the image to control slider movement.
+      //   click_to_move: false, // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
+    });
+  }
+  if ($("#giveaway_mezzanine").length > 0) {
+    var giveaway_mezzanines = [
+      {
+        name: "On Camera Mezzanine",
+        image: "/assets/images/products/mezzanine/on-camera-front-sd.png",
+      },
+      {
+        name: "Shiratech Bosch Sensor Mezzanine",
+        image: "/assets/images/products/mezzanine/shiratech-bosch-front-sd.jpg",
+      },
+      {
+        name: "Shiratech LTE CAT-M1/NB1",
+        image: "/assets/images/products/mezzanine/shiratech-nb1-front-sd.jpg",
+      },
+      {
+        name: "Tresor Mezzanine",
+        image: "/assets/images/products/mezzanine/tresor-front-sd.png",
+      },
+      {
+        name: "Shiratech FPGA Mezzanine",
+        image: "/assets/images/products/mezzanine/shiratech-fpga-front-sd.jpg",
+      },
+      {
+        name: "Shiratech LTE Mezzanine",
+        image: "/assets/images/products/mezzanine/shiratech-lte-front-sd.jpg",
+      },
+      {
+        name: "Audio Mezzanine",
+        image: "/assets/images/products/mezzanine/audio-mezzanine.png",
+      },
+      {
+        name: "AiVA-96",
+        image: "/assets/images/products/mezzanine/aiva96-front-sd.png",
+      },
+      {
+        name: "D3Camera",
+        image:
+          "/assets/images/products/mezzanine/Camera_Mezzanine_Board_OV5640_front.jpg",
+      },
+      {
+        name: "Ethernet Card",
+        image: "/assets/images/products/mezzanine/Ethernet_Front.jpg",
+      },
+      {
+        name: "Link Sprite",
+        image:
+          "/assets/images/products/mezzanine/linksprite-mezzanine-kit-front-sd.png",
+      },
+      {
+        name: "STM32 Sensor Mezzanine Board",
+        image: "/assets/images/products/mezzanine/STM32_Front.png",
+      },
+      {
+        name: "Analog Devices 3D Time Of Flight Mezzanine Stack",
+        image: "/assets/images/products/mezzanine/3dtof-side.jpg",
+      },
+    ];
 
-        // This functions adds the members to a the selector element
-        function addMembers(membersData, membersKey, selector) {
-            // Required members data
-            var requiredMembers = [];
-            // Get required members
-            for (i = 0; i < membersData.length; i++) {
-                if (membersData[i]["id"] === membersKey) {
-                    requiredMembers = membersData[i];
-                }
-            }
-            var elements = "";
-            // Loop through the members
-            for (i = 0; i < requiredMembers["members"].length; i++) {
-                // Create new element based on current member index in loop
-                var memberElement = '<div class="col-md-3 col-sm-4 col-xs-6">';
-                memberElement += '<a href="https://www.linaro.org' + requiredMembers["members"][i].url + '" target="_blank">';
-                memberElement += '<img data-src="' + requiredMembers["members"][i].image + '" alt="' + requiredMembers["members"][i].name + '"';
-                memberElement += 'src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="img-responsive members-img center-block lazyload"/>';
-                memberElement += '</a></div>';
-                // Append to elements
-                elements += memberElement;
-            }
-            $(selector).html(elements);
+    $("#mezz_select").change(function (e) {
+      var board_name = e.target.value;
+      for (i = 0; i < giveaway_mezzanines.length; i += 1) {
+        if (giveaway_mezzanines[i].name === board_name) {
+          $("#mezz_image").attr("src", giveaway_mezzanines[i].image);
         }
-        // Wait for AJAX request to stop
-        $(document).ajaxStop(function () {
-            addMembers(membersJSONData, "boards-sc", "#boards-sc");
-            addMembers(membersJSONData, "boards-partner", "#boards-mezzanine");
-            addMembers(membersJSONData, "boards-mp", "#boards-mp");
-            addMembers(membersJSONData, "boards-ai", "#boards-ai");
-        });
-
-    }
+      }
+    });
+  }
 });

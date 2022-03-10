@@ -1,66 +1,63 @@
 ---
 title: Mediatek X20 Development Board
-layout: product-display-page
+layout: product
 permalink: /product/mediatek-x20/
+product: true
 shortname: mediatek-x20
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application
     processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
     core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz.
-description: |-
-    The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs.
-tab_menu:
-    - tab_title: Mediatek X20 Development Board
-      tab_link: /product/mediatek-x20/
+sticky_tab_bar:
+    - title: Mediatek X20 Development Board
+      url: /product/mediatek-x20/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/mediatekx20/
+    - title: Documentation
+      url: /documentation/consumer/mediatekx20/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mediatek-x20
+    - title: Support
+      url: https://discuss.96boards.org/c/products/mediatek-x20
       tab_position: 2
       tab_align_right: true
-featured_product_order: 4
-is_featured: true
 product_specification: ce
 display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"
-date_released: 2017
-product_available: true
-product_long_desc: |-
-    The Mediatek X20 Development Board is a 96Boards compliant community board
-    based on the MediaTek X20 series of SoCs. X20 is a highly integrated application processor that
-    includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53
-    processors operating at up to 1.95GHz, Quad-core ARM Cortex-A53 processors operating at up to
-    1.4GHz and a Mali T880 GPU operating at up to 800MHz . In addition, an extensive set of interfaces
-    and connectivity peripherals are included to interface to cameras, touch-screen displays and
-    MMC/SD cards. It also fully supports wireless communication, including WLAN, Bluetooth and GPS.
 product_images:
-  - Helio-X20-front.png
-  - Helio-X20-back.png
-  - Helio-X20-side-one.png
-  - Helio-X20-side-two.png
-product_third_party_images:
-  - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
-    title: AOSP
-product_mezzanine:
-  - title: LinkSprite
-    link: /product/linkspritesensorkit/
-  - title: UART Serial
-    link: /product/uartserial/
-  - title: Sensors Mezzanine
-    link: /product/sensors-mezzanine
-  - title: Audio Mezzanine
-    link: /product/audio-mezzanine/
-product_accessories:
-  - title: Power
-    link: /product/power/
-  - title: Adapter
-    link: /product/adapter/
-  - title: Debug
-    link: /product/debug/
-  - title: Misc
-    link: /product/misc/
+  - images/Helio-X20-front.png
+  - images/Helio-X20-back.png
+  - images/Helio-X20-side-one.png
+  - images/Helio-X20-side-two.png
+product_sidebar_sections:
+    - title: Third Party Images
+      icon: icon-link-ext-alt
+      items:
+        - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
+          title: AOSP
+product_bottom_section:
+    - title: Accessories
+      url: /products/accessories/
+      items:
+        - title: Power
+          link: /product/power/
+        - title: Adapter
+          link: /product/adapter/
+        - title: Debug
+          link: /product/debug/
+        - title: Misc
+          link: /product/misc/
+    - title: Mezzanine
+      url: /products/mezzanine/
+      items:
+        - title: Link Sprite
+          link: /product/linkspritesensorkit/
+        - title: UART Serial
+          link: /product/uartserial/
+        - title: Sensors Mezzanine
+          link: /product/sensors-mezzanine/
+        - title: Audio Mezzanine
+          link: /product/audio-mezzanine/
 product_buy_links:
   -
     link-title: "Buy MediaTek X20"
@@ -86,14 +83,75 @@ product_buy_links:
     link-url: "https://linaro.co/mediatekx20-ali"
     from: AliExpress.com
     type: board
-product: true
-archived: false
+attributes:
+  - name: "SoC"
+    value: >-
+      Helio X20
+  - name: "CPU"
+    value: >-
+      2x ARM Cortex-A72 @ 2.1GHz ~ 2.3GHz
+      4x Cortex-A53 @ 1.95GHz
+      4x Cortex-A53 @ 1.4GHz
+  - name: "GPU"
+    value: ARM Mali-T880 GPU operating at up to 800MHz
+  - name: "RAM"
+    value: "2GB LPDDR3"
+  - name: "PMU"
+    value: "MT6351"
+  - name: "Ethernet"
+    value: "USB2.0 expansion"
+  - name: "Storage"
+    value: "8GB eMMC5.1 on board storage MicroSD card slot"
+  - name: "Wireless"
+    value: >-
+      Wi-Fi 802.11 a/b/g/n + Bluetooth 4.1
+  - name: "USB"
+    value: >-
+      2 x USB2.0 Host
+      1 x USB 2.0 OTG
+  - name: "Display"
+    value: >-
+      1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P
+  - name: "Camera"
+    value: One 4-lane MIPI camera serial interface(CSI), one 2-lane MIPI CSI
+  - name: "Video"
+    value: >-
+      "1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8"
+  - name: "Expansion Interface"
+  - name: "Audio"
+    value: >-
+      HDMI output
+  - name: "Expansion Interface"
+    value: >-
+      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
+      60 pin high speed expansion connector: SDIO, MIPI_DSI, MIPI_CSI"
+  - name: "LED"
+    value: >-
+      "1 x WiFi activity LED（Yellow） 1 x BT activity LED (Blue) 4 x User LEDs (Green)"
+  - name: "Buttons"
+    value: >-
+      "
+      Power Button：
+        Button Power on/off & Reset the system
+      "
+  - name: "Power"
+    value: "8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm"
+  - name: "OS Support"
+    values:
+      - title: Android Marshmallow 6.0
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 54mm
+      - title: "length"
+        value: 85mm
+
 ---
 The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application
 processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad
 core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz. In addition, an extensive set of interfaces and
 connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including
-WLAN, Bluetooth and GPS.
+WLAN, _Bluetooth_ ® wireless technology and GPS.
 
 ## Buy Now
 
@@ -132,4 +190,3 @@ WLAN, Bluetooth and GPS.
 Please visit the [MediaTek X20 Hardware User Manual](https://www.96boards.org/documentation/consumer/mediatekx20/hardware-docs/) for more information
 
 <a href="/documentation/consumer/mediatekx20/hardware-docs/files/compliance-mediatekx20.pdf" class="btn blog-read-more-btn center-block">Download Compliance Report</a>
-

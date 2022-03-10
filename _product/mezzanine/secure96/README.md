@@ -1,56 +1,106 @@
 ---
 title: Secure96 Mezzanine Board
-layout: product-display-page
+layout: product
 permalink: /product/secure96/
+display_product: true
+product: true
+archived: false
 shortname: secure96
+dateAdded: 2017-11-28 09:00:00+00:00
 description: |-
     This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets.
-image:
-    path: /assets/images/products/secure96-social-media.jpg
-    name: secure96-social-media.jpg
-featured_product_order: 8
-is_featured: true
-display_product: true
-tab_menu:
-  - tab_title: Secure96
-    tab_link: /product/secure96/
+image: /assets/images/products/secure96-social-media.jpg
+sticky_tab_bar:
+  - title: Secure96
+    url: /product/secure96/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/secure96/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/secure96/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets."
-product_long_desc: |-
-    This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
 product_images:
-  - secure96-front-hd.jpg
-  - secure96-back-hd.jpg
-  - secure96-angle3-hd.jpg
-  - secure96-angle2-hd.jpg
-  - secure96-button-hd.jpg
-  - secure96-angle1-hd.jpg
-  - secure96-port-hd.jpg
-product_buy_links:
-  -
-    link-title: Amazon
-    link-price: 31.99
-    from: amazon.com
-    type: board
-    link-price-currency: USD
-    link-url: "https://amzn.to/2qWN1CC"
-product_more_info:
-  - title: Schematics (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Schematics (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
-  - title: Getting Started Guide (View)
-    link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
-  - title: Getting Started Guide (Download)
-    link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
-product: true
-archived: false
+  - images/secure96-front-hd.jpg
+  - images/secure96-back-hd.jpg
+  - images/secure96-angle3-hd.jpg
+  - images/secure96-angle2-hd.jpg
+  - images/secure96-button-hd.jpg
+  - images/secure96-angle1-hd.jpg
+  - images/secure96-port-hd.jpg
+product_sidebar_sections:
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: Schematics (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Schematics (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/files/secure96-schematics.pdf
+        - title: Getting Started Guide (View)
+          link: https://github.com/96boards/documentation/blob/master/mezzanine/secure96/guides/secure96-guide.pdf
+        - title: Getting Started Guide (Download)
+          link: https://github.com/96boards/documentation/raw/master/mezzanine/secure96/guides/secure96-guide.pdf
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+      Infineon SLB9670
+      Atmel ATSHA204A
+      Atmel ATECC508A
+      "
+  - name: "CPU"
+    value: >-
+      "
+      Infineon SLB9670
+      Atmel ATSHA204A
+      Atmel ATECC508A
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      40 Pin Low-speed expansion
+      "
+  - name: "Power"
+    value: >-
+      "
+      Digital Output (V) - 1.8V
+      Analog Input (V) - 0V-1.8V
+      "
+  - name: "RAM"
+    value: >-
+      "
+      SRAM	128 Kbytes
+      "
+  - name: "Storage"
+    value: >-
+      "
+      512 Kbytes flash
+      "
+  - name: "Sensors"
+    value: >-
+      "
+      Temp/Humidity, Pressure, ALS/Proximity, Geomagnetic, Accel/Gyro, Microphone
+      "
+  - name: "Other"
+    value: >-
+      "
+      Two CSI2 channels support(CSI0:4lane;CSI1:2lane)
+      "
+  - name: "Parent Board"
+    value: "/product/dragonboard410c/"
+  - name: "LED"
+    value: "15 x General purpose LEDs, 4 User LEDs"
+  - name: "Buttons"
+    value: "RST (Reset the STM32), USR (boot into bootloader mode for flashing)"
+
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 This mezzanine board is intended for security development on 96Boards and features the Infineon SLB9670, Atmel ATSHA204A, and the Atmel ATECC508A chip sets. With 128Kb of onboard storage, a PC TPM/embedded TPM chip, and a FT230XS-R UART connector for debug, it is an ideal addition to your 96Boards tool box.
 

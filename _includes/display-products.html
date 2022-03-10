@@ -16,29 +16,24 @@
     <div class="row">
         {% for product in products_array %}
             {% assign product-url = product.permalink | split: "/" %}
-            {% assign board-details = site.data.board-details %}
-            {% for board in board-details %}
-                {% if board.id == product.permalink %}
-                    {% assign dateAdded = board.dateAdded %}
-                {% endif %}
-            {% endfor %}
-        <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col-xs-12 col-md-4 col-lg-3
+            {% if product.dateAdded %}
+                {% assign dateAdded = product.dateAdded %}
+            {% endif %}
+            {% assign product_image = "" %}
+            {% if product.product_images.first %}
+                {% assign product_image = product.product_images[0] %}
+            {% else %}
+                {% assign product_image = product.product_images %}
+            {% endif %}
+        <div data-name="{{product.title}}" class="product-item {{product.product_specification | downcase }}  {% if product.product_os %}{% for os in product.product_os %} {{os.title | downcase}}{% endfor %}{% endif %} col col-12 col-md-6 col-lg-4
     {% if product.categories %}{% for tag in product.categories %}{{tag}} {% endfor %}{% endif %} {% if product.product_sub_specification %}{{product.product_sub_specification | downcase }}{% endif %}"
             data-order="{{order}}" data-date-added="{{dateAdded}}">
             <div class="col-item">
                 <div class="photo">
                     <a href="{{product.permalink}}">
-                        {% capture image_path %}_product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
-                        {% capture full_path %}/product/{{product.product_specification}}/{{product-url[2]}}/images/{{ product.product_images[0]}}{% endcapture %}
-                        {% responsive_image_block %}
-                        template: _includes/thumb.html
-                        path: {{ image_path }}
-                        fullpath: {{ full_path }}
-                        {% if product.title %}
-                        title: {{ product.title}}
-                        alt: {{ product.title }}
-                        {% endif %}
-                        {% endresponsive_image_block %}
+                        {% capture image_path %}_product/{{product.product_specification}}/{{product-url[2]}}/{{ product_image }}{% endcapture %}
+                        {% capture image_alt %}{{ product.title}} image{% endcapture %}
+                        {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
                     </a>
                 </div>
                 {% assign specification = product.product_specification | downcase %}
@@ -52,6 +47,8 @@
                 {% assign specification_text = "Mezzanine Edition" %}
                 {% elsif specification == "se" %}
                 {% assign specification_text = "SoM Edition" %}
+                {% elsif specification == "ae" %}
+                {% assign specification_text = "Automotive Edition" %}
                 {% endif %}
                 <div class="spec-badge" data-toggle="tooltip" data-position="right" title="{{specification_text}}">
                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -61,15 +58,14 @@
                 <div class="info">
                     <div class="product-title col-md-12 text-center">
                         <a href="{{product.permalink}}">
-                            <h5>{{ product.title }}</h5>
+                            <h5 class="text-dark my-4">{{ product.title }}</h5>
                         </a>
                     </div>
                     <div class="product-short-description">
                         {{ product.product_short_desc | slice: 0, 50 }}...
                     </div>
                     <div class="separator clear-left">
-                        <div class="dropdown dropdown-container btn-group dropup btn-block"
-                            class="product-buy-dropdown">
+                        <div class="dropdown dropdown-container btn-group dropup btn-block product-buy-dropdown d-flex flex-row align-items-center justify-content-center">
                             <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more">View Product</a>
                             <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
@@ -78,7 +74,7 @@
                             </button>
                             <ul class="dropdown-menu buy-dropup-menu">
                                 {% for buy_link in product.product_buy_links %}
-                                <li><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
+                                <li class="dropdown-item"><a href="{{ buy_link.link-url }}">{{ buy_link.link-title }}</a></li>
                                 {% endfor %}
                             </ul>
                             <input type="checkbox" class="board-checkbox"

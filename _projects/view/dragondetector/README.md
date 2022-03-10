@@ -10,10 +10,9 @@ images:
   - DragonDetector_Image3.png
   - DragonDetector_Video_Demo.png
   - DragonDetector_Video_OpenHours.png
-image:
-  path: /assets/images/projects/dragondetector-thumb.png
-  name: dragondetector-thumb.png
-  thumb: dragondetector-thumb.png
+image: /assets/images/projects/dragondetector-thumb.png
+image_name: dragondetector-thumb.png
+image_thumb:  dragondetector-thumb.png
 categories:
 - dragonboard410c
 ---
@@ -32,10 +31,10 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 ## Videos
 
 ### DragonDetector demo
-{% include image.html name="DragonDetector_Video_Demo.png" alt="DragonDetector demo" url="https://youtu.be/9NGkGyWplvQ"%}
+{% include image.html path="_projects/view/dragondetector/images/DragonDetector_Video_Demo.png" alt="DragonDetector demo" url="https://youtu.be/9NGkGyWplvQ" class="img-fluid"%}
 
 ### Andy Clark demos the DragonDetector on OpenHours ep. #30
-{% include image.html name="DragonDetector_Video_OpenHours.png" alt="Andy Clark demos the DragonDetector on OpenHours ep.30" url="https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk"%}
+{% include image.html path="_projects/view/dragondetector/images/DragonDetector_Video_OpenHours.png" alt="Andy Clark demos the DragonDetector on OpenHours ep.30" url="https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" class="img-fluid" %}
 
 ## Resources
 

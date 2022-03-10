@@ -9,10 +9,9 @@ images:
     - visual-2.png
     - visual-3.png
     - visual-4.png
-image:
-    path: /assets/images/projects/beeinformed-thumb.png
-    name: beeinformed-thumb.png
-    thumb: beeinformed-thumb.png
+image: /assets/images/projects/beeinformed-thumb.png
+image_name: beeinformed-thumb.png
+image_thumb: beeinformed-thumb.png
 ---
 # BeeInformed
 

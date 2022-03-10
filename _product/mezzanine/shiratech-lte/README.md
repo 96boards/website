@@ -1,37 +1,53 @@
 ---
 title: Shiratech LTE Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-lte/
+product_specification: "mezzanine"
+archived: false
 shortname: shiratech-lte
+dateAdded: 2018-05-01 09:00:00+00:00
+product: true
+display_product: true
 description: |-
     Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
-title: Shiratech LTE Mezzanine
-display_product: true
-tab_menu:
-  - tab_title: Shiratech LTE
-    tab_link: /product/shiratech-lte/
+sticky_tab_bar:
+  - title: Shiratech LTE
+    url: /product/shiratech-lte/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/shiratech-lte/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/shiratech-lte/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-product_specification: "mezzanine"
-product: true
 product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
-product_long_desc: |-
-    Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 product_images:
-    - shiratech-lte-front-sd.jpg
-    - shiratech-lte-back-sd.jpg
+  - images/shiratech-lte-front-sd.jpg
+  - images/shiratech-lte-back-sd.jpg
 product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-lte-a/arrow-development-tools"
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
-archived: false
+product_sidebar_sections:
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-lte/files/shiratech-brief.pdf
+attributes:
+  - name: "Sensors"
+    value: >
+      On-Board Sensor Key Features - Bosch BNO055 (3 Sensors in one device - triaxial 16bit gyroscope, triaxial 14bit accelerometor
+      and full performance geomagnetic sensor), Analog Device ADUX1020 (Multifunction photometric sensor and signal conditioning),
+      ST VL53L0CX (940nm Laser VCSEL. VCSEL driver, ranging sensor with advanced embedded micro controller) and Analog Device ADT7410 (High performance temperature sensor)
+  - name: "Other"
+    value: >
+      Cellular Modem Quectel EC25 LTE -
+      LTE CAT 4 Max 150Mbps (DL) 50Mbps (UL).
+      LTE category 4 module optimized for M2M and IoT applications.
+      Worldwaide LTE, UMTS/HSPA+ and GSM/GPRS/EDGE coverage.
+      Multi-constellation GNSS receiver available for applications requiring fast and accurate fixes in any environment.
+      MIMO technology meets demands for data rate and link reliability in modem wireless communication system.
+
 ---
 Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 

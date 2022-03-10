@@ -8,18 +8,18 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, rockchip, rk3399, processor, low cost, Product, Development, Platform, arm
 product_short_desc: "The Rock960 is a development board based on the RK3399 SoC"
-tab_menu:
-    - tab_title: Rock960
-      tab_link: /product/rock960/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: Rock960
+      url: /product/rock960/
+    - title: AI
       active: true
-      tab_link: /product/rock960/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/rock960/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/rock960/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/rock960/
+      url: /product/rock960/ai/
+    - title: Getting Started
+      url: /documentation/consumer/rock/rock960/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/rock/rock960/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/rock960/
       tab_align_right: true
 header-image: rock960-front-sd.png
 footer-image: rock960-back-sd.png
@@ -30,10 +30,10 @@ verticals:
           Rockchip collaborated with Open AI Lab to port Open AID onto the ROCK960 allowing for easier development of Vision and Speech recognition on the Edge. Open AID brings Domain Libraries for Vision and Speech inferences along with a unified API for developers, Tengine with improved DL frameworks on Caffe, MXNet and TensorFlow for inference, and Heterogeneous Computing Library (HCL) for optimized Arm CPU and Mali GPU utilization.
     - title: Consumer Electronics
       description: >-
-          With the Domain Library provided by Open AID, comes several applications provided including face detection/recognition, gesture recognition, tracking and speech recognition. These libraries in conjunction with the Rock960's Rockchip RK3399Pro and NPU, make the Rock960 an ideal platform for consumers looking to develop machine learning applications on the edge.
+          With the Domain Library provided by Open AID, comes several applications provided including face detection/recognition, gesture recognition, tracking and speech recognition. These libraries in conjunction with the Rock960's Rockchip RK3399 and NPU, make the Rock960 an ideal platform for consumers looking to develop machine learning applications on the edge.
     - title: Automotive
       description: >-
-          With the Rock960's Rockchip RK3399Pro and NPU, and the Domain Library which provides applications for Vision Detection, the Rock960 is an excellent platform for developing cutting edge Machine Learning applications which are integral to the Autonomous Vehicle industry.
+          With the Rock960's Rockchip RK3399, and the Domain Library which provides applications for Vision Detection, the Rock960 is an excellent platform for developing cutting edge Machine Learning applications which are integral to the Autonomous Vehicle industry.
 call-to-action: Platform to build for Machine Learning / Automotive / Industrial IoT
 secondary-verticals:
     - title: Software

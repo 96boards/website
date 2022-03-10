@@ -33,11 +33,9 @@
 {% assign products_array = site.product | ascending %}
 {% assign products_array = products_array | where: "display_product", "true" %}
 
-{% assign product_specs = site.data.board-details %}
-
 {% assign rawtags = "" %}
 
-{% for product in product_specs %}
+{% for product in products_array %}
 {% for attr in product.attributes %}
 {% assign ttags = attr.name | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}

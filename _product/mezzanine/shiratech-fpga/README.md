@@ -1,39 +1,86 @@
 ---
 title: Shiratech FPGA Mezzanine
-layout: product-display-page
+layout: product
 permalink: /product/shiratech-fpga/
+display_product: true
 shortname: shiratech-fpga
+archived: false
+dateAdded: 2018-12-30 09:00:00+00:00
 description: |-
     Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface.
-title: Shiratech FPGA Mezzanine
-display_product: true
-tab_menu:
-  - tab_title: Shiratech FPGA
-    tab_link: /product/shiratech-fpga/
+sticky_tab_bar:
+  - title: Shiratech FPGA
+    url: /product/shiratech-fpga/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/shiratech-fpga/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/shiratech-fpga/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
 product_specification: "mezzanine"
 product: true
 product_short_desc: "Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface."
-product_long_desc: |-
-    Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface.
 product_images:
-    - shiratech-fpga-front-sd.jpg
-    - shiratech-fpga-back-sd.jpg
+  - images/shiratech-fpga-front-sd.jpg
+  - images/shiratech-fpga-back-sd.jpg
 product_buy_links:
   -
     link-title: Arrow
     link-url: "https://www.arrow.com/en/products/srt-96b-mez-fpga/shiratech"
-product_more_info:
-  - title: Product Brief
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
-  - title: Shiratech
-    link: http://www.shiratech-solutions.com/products/fpga-mezzanine-2/
-archived: false
+
+product_sidebar_sections:
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: Product Brief
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/shiratech-fpga/files/shiratech-fpga-brief.pdf
+        - title: Shiratech
+          link: https://www.arrow.com/en/products/srt-96b-mez-fpga/shiratech
+
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+        Intel MAX-10
+      "
+  - name: "CPU"
+    value: >-
+      "
+       Intel MAX-10 FPGA
+      "
+  - name: "RAM"
+    value: >-
+      "
+       189Kb Block memory
+      "
+  - name: "Storage"
+    value: >-
+      "
+       Up to 156KB user FLASH memory
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      1 x Raspberry Pi expansion connector
+      1 x Arduino expansion connector
+      6 x Grove expansion connectors: 4 digital and 2 analog
+      178 GPIO
+      It offers unparalleled design flexibility through the use of Rasberry Pi, Arduino & Grove connectors
+      "
+  - name: "USB"
+    value: >-
+      "
+      MicroUSB interface to 96Boards console serial port
+      "
+  - name: "Other"
+    value: >-
+      "
+      Ordering option to enhance to Intel MAX-10 10M50
+      4K Logic Elements
+      Dual internal configuration
+      FPGA programming using Altera standard programming connector.
+      "
+
 ---
 The Shiratech FPGA Mezzanine for 96Boards adds configurability to your embedded environment using the Intel MAX-10 FPGA. With the CPU and FPGA combo, you can connect to any interface and add real time performance to your project. It offers unparalleled design flexibility through the use of Rasberry Pi, Arduino & Grove connectors, which allow you to use any combination of 3rd party sensors and actuators.
 

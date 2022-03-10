@@ -25,10 +25,10 @@ Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard
 ## Videos
 
 ### GadgetDrone Flight Test (Drone view)
-{% include image.html name="GadgetDrone_VideoImage_OnboardCameraFlight.png" alt="GadgetDrone Flight Test (Drone view)" url="https://youtu.be/XK0PIaZMKJY"%}
+{% include image.html path="_projects/view/gadgetdrone/images/GadgetDrone_VideoImage_OnboardCameraFlight.png" alt="GadgetDrone Flight Test (Drone view)" url="https://youtu.be/XK0PIaZMKJY" class="img-fluid" %}
 
 ### Live drone demo on OpenHours ep.25
-{% include image.html name="GadgetDrone_VideoImage_OpenHours.png" alt="Live drone demo on OpenHours ep.25" url="https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk"%}
+{% include image.html path="_projects/view/gadgetdrone/images/GadgetDrone_VideoImage_OpenHours.png" alt="Live drone demo on OpenHours ep.25" url="https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" class="img-fluid" %}
 
 ## Resources
 

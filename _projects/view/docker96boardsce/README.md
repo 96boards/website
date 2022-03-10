@@ -7,10 +7,9 @@ description: |-
 images:
   - Docker_FrontPage.jpg
   - Docker_Video_OpenHours.png
-image:
-    path: /assets/images/projects/docker96-thumb.png
-    name: docker96-thumb.png
-    thumb: docker96-thumb.png
+image: /assets/images/projects/docker96-thumb.png
+image_name: docker96-thumb.png
+image_thumb: docker96-thumb.png
 ---
 # Docker on AArch64 96Boards Consumer Edition
 
@@ -33,7 +32,7 @@ Docker is “an open source project to pack, ship and run any application as a l
 
 ### Bill Fletcher demos Docker on 96Boards on OpenHours ep.6
 
-{% include image.html name="Docker_Video_OpenHours.png" alt="Bill Fletcher demos Docker on 96Boards on OpenHours ep.6" url="https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk"%}
+{% include image.html path="_projects/view/docker96boardsce/images/Docker_Video_OpenHours.png" alt="Bill Fletcher demos Docker on 96Boards on OpenHours ep.6" url="https://youtu.be/lvv7CbXOHtw?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" class="img-fluid" %}
 
 ## Resources
 

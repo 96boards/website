@@ -9,7 +9,7 @@ images:
 ---
 # Smart Boiler
 
-Smart Boiler is a Technological project developed in Tecnológico de Monterrey (Campus Chihuahua) by a group of students currently becoming Mechatronic Engineers. This prototype allows the user to start a house-hold boiler from a smartphone application, via Bluetooth. The Dragonboard 410c not only starts and shuts down the boiler at users will; it also saves energy by preventing it from running all day long. The system includes a temperature sensor to indicate the user the moment hot water is ready. Always concerned about user's safety, the pressure sensor is capable to trigger an alarm notifying a person in case a gas leak is detected.
+Smart Boiler is a Technological project developed in Tecnológico de Monterrey (Campus Chihuahua) by a group of students currently becoming Mechatronic Engineers. This prototype allows the user to start a house-hold boiler from a smartphone application, via _Bluetooth_ ® wireless technology. The Dragonboard 410c not only starts and shuts down the boiler at users will; it also saves energy by preventing it from running all day long. The system includes a temperature sensor to indicate the user the moment hot water is ready. Always concerned about user's safety, the pressure sensor is capable to trigger an alarm notifying a person in case a gas leak is detected.
 
 ## Project Details
 
@@ -22,7 +22,7 @@ Smart Boiler is a Technological project developed in Tecnológico de Monterrey (
 ## Videos
 
 ### Smart Boiler Video Submission
-{% include image.html name="SmartBoiler_Video_Demo.png" alt="Smart Boiler Video Submission" url="https://youtu.be/EeY8mxL8CmY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/smartboiler/images/SmartBoiler_Video_Demo.png" alt="Smart Boiler Video Submission" url="https://youtu.be/EeY8mxL8CmY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid"%}
 
 ## Resources
 

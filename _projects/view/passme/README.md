@@ -10,7 +10,7 @@ images:
 ---
 # PassMe
 
-The intention of this project was to build a smart network for private neighborhoods so residents can send a signal by Bluetooth or Internet to their guests. This will give quick access, without any information exchange.
+The intention of this project was to build a smart network for private neighborhoods so residents can send a signal by _Bluetooth_ ® wireless technology or Internet to their guests. This will give quick access, without any information exchange.
 
 ## Project Details
 
@@ -23,10 +23,10 @@ The intention of this project was to build a smart network for private neighborh
 ## Videos
 
 ### PassMe Video Submission
-{% include image.html name="PassMe_Video_Demo.png" alt="PassMe Video Submission" url="https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/passme/images/PassMe_Video_Demo.png" alt="PassMe Video Submission" url="https://youtu.be/Piy_z29fouU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### PassMe Presentation and Demo
-{% include image.html name="PassMe_Video_Presentation.png" alt="PassMe Presentation and Demo" url="https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5"%}
+{% include image.html path="_projects/view/passme/images/PassMe_Video_Presentation.png" alt="PassMe Presentation and Demo" url="https://youtu.be/YRgCJN0UC6c?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ## Resources
 

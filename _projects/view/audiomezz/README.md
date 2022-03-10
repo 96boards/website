@@ -5,10 +5,9 @@ description: |-
     This project uses the 96Boards Audio Mezzanine Board and Alexa Voice Services to highlight the audio functionality of the DragonBoard™ 410c.
 images:
   - AudioMezz_FrontPage.png
-image:
-    path: /assets/images/projects/audiomezz-thumb.png
-    name: audiomezz-thumb.png
-    thumb: audiomezz-thumb.png
+image: /assets/images/projects/audiomezz-thumb.png
+image_name: audiomezz-thumb.png
+image_thumb: audiomezz-thumb.png
 categories:
 - dragonboard410c
 ---
@@ -17,7 +16,7 @@ categories:
 This project uses the 96Boards Audio Mezzanine Board and Alexa Voice Services to highlight the audio functionality of the DragonBoard™ 410c.
 
 Objective
-To showcase audio use cases and functionality of the DragonBoard 410c, the project captures audio from the headset microphone jack on the audio mezzanine board (AMB), then uses Alexa Voice Services for voice recognition, and then plays an audio response to a Bluetooth-paired speaker.
+To showcase audio use cases and functionality of the DragonBoard 410c, the project captures audio from the headset microphone jack on the audio mezzanine board (AMB), then uses Alexa Voice Services for voice recognition, and then plays an audio response to a _Bluetooth_ ® wireless technology speaker.
 
 The audio mezzanine board includes:
 

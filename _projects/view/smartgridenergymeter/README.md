@@ -14,7 +14,7 @@ categories:
 ---
 # Smart Grids and Energy Meters
 
-This project aims to implement a smart grid system using DragonBoard™ 410c, Bluetooth® Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.
+This project aims to implement a smart grid system using DragonBoard™ 410c, _Bluetooth_® wireless technology Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.
 
 ### Objective
 

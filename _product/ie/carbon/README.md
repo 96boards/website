@@ -1,32 +1,30 @@
 ---
 title: Carbon
-layout: product-display-page
+layout: product
 permalink: /product/carbon/
+product: true
 shortname: carbon
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
-tab_menu:
-    - tab_title: Carbon
-      tab_link: /product/carbon/
+sticky_tab_bar:
+    - title: Carbon
+      url: /product/carbon/
       active: true
-    - tab_title: Documentation
-      tab_link: /documentation/iot/carbon/
+    - title: Documentation
+      url: /documentation/iot/carbon/
       tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/carbon
+    - title: Support
+      url: https://discuss.96boards.org/c/products/carbon
       tab_position: 2
       tab_align_right: true
-featured_product_order: 6
-is_featured: true
 display_product: true
 product_specification: ie
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"
-product_long_desc: |-
-    Carbon is the first board to be certified 96Boards IoT Edition compatible.
-    The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
 product_images:
-  - Carbon_Front-SD.png
-  - Carbon-Back-web.png
+  - images/Carbon_Front-SD.png
+  - images/Carbon-Back-web.png
 product_buy_links:
   -
     link-title: "Buy Carbon (Seeed)"
@@ -36,13 +34,61 @@ product_buy_links:
     link-title: "Buy Carbon (FabToLab)"
     link-price: ₹2,985.00
     link-url: "https://www.fabtolab.com/boards/96boards/ble-carbon"
-product_os:
-  - title: Zephyr
-    link: /documentation/iot/carbon/downloads/zephyr.md.html
-product: true
-archived: false
+product_sidebar_sections:
+    - title: OS
+      icon: icon-terminal
+      items:
+        - title: Zephyr
+          link: /documentation/iot/carbon/downloads/zephyr.md.html
+attributes:
+  - name: "SoC"
+    value: >-
+      STMicroelectronics STM32F401RE
+  - name: "CPU"
+    value: >-
+      Cortex-M4
+  - name: "RAM"
+    value: >-
+      SRAM 96KB
+  - name: "Storage"
+    value: >-
+      512KB onboard Flash
+  - name: "Wireless"
+    value: >-
+      nRF51822 Bluetooth
+  - name: "USB"
+    value: >-
+      2 x Micro USB
+  - name: "Expansion Interface"
+    value: >-
+      "30 pin low speed expansion connector: +3.3V, +5V, VCC, GND, UART, I2C, SPI, GPIO x4"
+  - name: "Power"
+    value: >-
+      Micro-USB Power Source
+      Digital Out Voltage - 3.3v
+      Analog In Voltage	 - 0-3.3v
+  - name: "LED"
+    value: >-
+      1 x UART Tx
+      1 x UART Rx
+      1 x Power
+      1 x Bluetooth
+      2 x User LEDs
+  - name: "Buttons"
+    value: >-
+      RST (Reset the STM32F4), BOOT0 (Boot into bootloader for flashing)
+  - name: "OS Support"
+    values:
+      - title: Zephyr
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
-Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in Bluetooth, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
+Carbon is the first board to be certified 96Boards IoT Edition compatible. The Carbon packs a Cortex-M4 chip, 512KB onboard flash, built in _Bluetooth_ ® wireless technology, and a 30-pin low speed expansion header capable of up to 3.3V digital and analog GPIO. Carbon currently runs Zephyr, which is a small, scalable, real-time OS for use on resource-constrained systems.
 
 ## Buy Now
 

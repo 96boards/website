@@ -1,0 +1,185 @@
+---
+layout: flow
+js-package: products
+css_bundle: products
+seo:
+    type: Product
+sticky_tab_bar: true
+breadcrumb: true
+---
+{% assign url-name = page.permalink | split: "/" %}
+{% assign url-name-new = url-name[2] %}
+<div class="row" id="content-container">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-md-4 order-md-2" >
+                <div id="product-image-carousel">
+                    <div class="owl-carousel owl-theme">
+                        {% if page.product_specification %}
+                            {% assign product_images = "" | split: ',' %}
+                            {% if page.product_images.first %}
+                                {% assign product_images = page.product_images %}
+                            {% else %}
+                                {% assign product_images = product_images | push: page.product_images %}
+                            {% endif %}
+                            {% for product_image in product_images %}
+                                <div class="activity-block item">
+                                    <a href="#" data-featherlight="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="../{{page.product_specification}}/{{url-name-new}}/{{ product_image }}"
+                                            class="owl-lazy lazyload img-responsive" alt="{{product_image}}" />
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+
+                {% if page.product_buy_links %}
+                    <ul class="list-group buy-links">
+                        <li href="#" class="list-group-item active">
+                            <b title="Buy Now">Buy Now</b>
+                            <i class="glyphicon glyphicon-shopping-cart pull-right" style="margin-top:8px;"></i>
+                        </li>
+                        {% for buy_link in page.product_buy_links %}
+                            <li class="list-group-item">
+                                <a href="{{ buy_link.link-url }}">
+                                    <span class="text-left">{{ buy_link.link-title }}</span>
+                                    {% if buy_link.link-price %}
+                                        <span class="pull-right buy-price">
+                                            {% if buy_link.link-price-currency %}
+                                                {% if buy_link.link-price-currency == "JPY" %}
+                                                    JP&yen;
+                                                {% else %}
+                                                    {{buy_link.link-price-currency}}
+                                                {% endif %}
+                                            {% endif %}
+                                            {{buy_link.link-price}}
+                                        </span>
+                                    {% endif %}
+                                </a>
+                                <small>
+                                    {% if buy_link.type == "package" %}<span>Package Deal</span>{% endif %}
+                                    {% if buy_link.type == "board" %}<span>Board</span>{% endif %}
+                                    {% if buy_link.from %}<a href="{{ buy_link.link-url }}">Buy from {{buy_link.from}}</a>{% endif %}
+                                </small>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if page.product_video %}
+                    {% for video in page.product_video %}
+                        <div class="row">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="lazyload embed-responsive-item"
+                                data-src="{{ video.url }}">
+                                </iframe>
+                            </div>
+                        </div>
+                        <br />
+                    {% endfor %}
+                {% endif %}
+
+                {% if page.product_sidebar_sections %}
+                    {% for section in page.product_sidebar_sections %}
+                        <ul class="list-group">
+                            <li href="#" class="list-group-item active"><b title="{{section.title}}">{{section.title}}</b>
+                                {% if section.icon %}
+                                    <i class="fa {{section.icon}} pull-right" aria-hidden="true"></i>
+                                {% endif %}
+                            </li>
+                            {% for item in section.items %}
+                                <li class="list-group-item">
+                                    {% if item.link %}<a href="{{ item.link }}">{% endif %}
+                                        <span class="text-left">{{ item.title }}</span>
+                                    {% if item.link %}</a>{% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                        <br />
+                    {% endfor %}
+                {% endif %}
+                {% if page.product_media_highlights %}
+
+                    {% assign media-highlights = site.data.news.items | where: "tag", url-name-new %}
+                    <ul class="list-group">
+                        <li href="#" class="list-group-item active"><b>Media Highlights</b></li>
+                            {% for info in media-highlights %}
+                                <li class="list-group-item">
+                                    <a href="{{ info.link }}">
+                                        <span class="text-left">{{ info.title }}</span>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+            <div class="col col-12 col-md-8 order-md-1">
+                {{content}}
+                {% if page.display_attributes_table %}
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </thead>
+                        <tbody>
+                        {% for attribute in page.attributes %}
+                            <tr>
+                                <td>{{attribute.name}}</td>
+                                <td>
+                                    {% if attribute.values %}
+                                        {% for value in attribute.values %}
+                                        <span class="val">
+                                            {% if value.title %}
+                                                {{value.title}}
+                                                {% if value.value %}
+                                                    ({{value.value}})
+                                                {% endif %}
+                                            {% else %}
+                                                {{value}}
+                                            {% endif %}
+                                        </span>
+                                        {% endfor %}
+                                    {% elsif attribute.value %}
+                                        <span class="val">
+                                            {{attribute.value}}
+                                        </span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% endif %}
+            </div>
+        </div><!-- end row-->
+        {% if page.product_bottom_section %}
+            <div class="row">
+                <div class="col col-12 col-md-8">
+                    <hr>
+                    <div class="row product-bottom-panel">
+                        {% for section in page.product_bottom_section %}
+                            <div class="col col-12 col-md-4">
+                                <ul class="list-group">
+                                    {% if section.url %}<a href="{{section.url}}">{% endif %}
+                                        <li class="list-group-item active">
+                                            <b>{{section.title}}</b>
+                                        </li>
+                                    {% if section.url %}</a>{% endif %}
+                                    {% for item in section.items %}
+                                        <li class="list-group-item">
+                                            <a href="{{item.link}}">{{ item.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>

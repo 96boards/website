@@ -1,28 +1,21 @@
 ---
 title: NeonKey
-layout: product-display-page
+layout: product
 permalink: /product/neonkey/
+product: true
+archived: false
 shortname: neonkey
+dateAdded: 2017-07-24 09:00:00+00:00
 description: |-
     96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
     ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 display_product: true
-tab_menu:
-    - tab_title: Documentation
-      tab_link: /documentation/mezzanine/neonkey/
-      tab_position: 1
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more"
-product_long_desc: |-
-    96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products. ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.
 product_images:
-  - neonkey-front-sd.JPG
-  - neonkey-frontangle1-sd.JPG
-  - neonkey-back-sd.JPG
+  - images/neonkey-front-sd.JPG
+  - images/neonkey-frontangle1-sd.JPG
+  - images/neonkey-back-sd.JPG
 product_buy_links:
   -
     link-title: Ali Express
@@ -30,28 +23,85 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/prc-96boards-neonkey
-product_more_info:
-  - title: AOSP Sensors Documentation
-    link: https://source.android.com/devices/sensors/
-  - title: AOSP NeonKey Documentation
-    link: https://source.android.com/source/devices#neonkey
-  - title: Schematics
-    link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
-  - title: NeonKey on Tocoding
-    link: http://en.tocoding.com/index.php/96boards-neonkey/
-tab_menu:
-  - tab_title: NeonKey
-    tab_link: /product/neonkey/
+product_sidebar_sections:
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: AOSP Sensors Documentation
+          link: https://source.android.com/devices/sensors/
+        - title: AOSP NeonKey Documentation
+          link: https://source.android.com/source/devices#neonkey
+        - title: Schematics
+          link: https://github.com/96boards/website/blob/master/_product/mezzanine/neonkey/files/neonkey-schematics.pdf
+        - title: NeonKey on Tocoding
+          link: http://en.tocoding.com/index.php/96boards-neonkey/
+sticky_tab_bar:
+  - title: NeonKey
+    url: /product/neonkey/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/neonkey/
+  - title: Documentation
+    url: /documentation/mezzanine/neonkey/
     tab_position: 1
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_position: 2
     tab_align_right: true
-product: true
-archived: false
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+      STMicroelectronics STM32F411CE
+      "
+  - name: "CPU"
+    value: >-
+      "
+      ARM Cortex-M4 @ 100 MHz Maximum
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      40 pin low-speed expansion connector, +1.8V, +5V, GND, UART, I2C, SPI, I2S, SWD, GPIO
+      "
+  - name: "Power"
+    value: >-
+      "
+      Digital Out Voltage	1.8V
+      Analog In Voltage	3.3V
+      "
+  - name: "RAM"
+    value: >-
+      "
+      SRAM	128 Kbytes
+      "
+  - name: "Storage"
+    value: >-
+      "
+      512 Kbytes flash
+      "
+  - name: "Sensors"
+    value: >-
+      "
+      Temp/Humidity, Pressure, ALS/Proximity, Geomagnetic, Accel/Gyro, Microphone
+      "
+  - name: "Other"
+    value: >-
+      "
+      Two CSI2 channels support(CSI0:4lane;CSI1:2lane)
+      "
+  - name: "Parent Board"
+    value: "/product/dragonboard410c/"
+  - name: "LED"
+    value: "15 x General purpose LEDs, 4 User LEDs"
+  - name: "Buttons"
+    value: "RST (Reset the STM32), USR (boot into bootloader mode for flashing)"
+
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 96Boards Neonkey is the sensor hub platform for all 96Boards compliant family products.
 ​The Neonkey packs a Cortex-M4 chip, 512 Kbytes flash, 128 Kbytes SRAM, and more details of SPEC as below.

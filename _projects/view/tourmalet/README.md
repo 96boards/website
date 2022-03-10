@@ -5,16 +5,15 @@ description: Portable Multimedia player with a 1080p touchscreen using Dragonboa
 images:
   - thumb.jpg
   - tourmalet_share_image.png
-image:
-    path: /assets/images/projects/tourmalet_share_image.png
-    name: tourmalet_share_image.png
-    thumb: tourmalet_share_image.png
+image: /assets/images/projects/tourmalet_share_image.png
+image_name: tourmalet_share_image.png
+image_thumb: tourmalet_share_image.png
 categories:
 - dragonboard410c
 ---
 # Tourmalet
 
-A touchscreen portable media player build kit reference design, that features a 5” diagonal, full HD resolution touchscreen incorporating Synaptics’ 4322 Touch-Display Driver Integration (TDDI) IC.  The reference design leverages Qualcomm’s Android-ready Dragonboard 410c development board and will enable hobbyists to build a fully functional portable Android media player with WiFi and Bluetooth networking capabilities.
+A touchscreen portable media player build kit reference design, that features a 5” diagonal, full HD resolution touchscreen incorporating Synaptics’ 4322 Touch-Display Driver Integration (TDDI) IC.  The reference design leverages Qualcomm’s Android-ready Dragonboard 410c development board and will enable hobbyists to build a fully functional portable Android media player with WiFi and _Bluetooth_® wireless technology networking capabilities.
 
 ## Project Details
 

@@ -1,52 +1,61 @@
 ---
 title: UART Serial
-layout: product-display-page
+layout: product
 permalink: /product/uartserial/
+product_specification: "mezzanine"
+product: true
 shortname: uartserial
+archived: false
+dateAdded: 2017-06-26 09:00:00+00:00
 description: |-
     This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 display_product: true
-product_support_link: https://discuss.96boards.org/c/products/mezzanine
-tab_menu:
-  - tab_title: UART Serial
-    tab_link: /product/uartserial/
+sticky_tab_bar:
+  - title: UART Serial
+    url: /product/uartserial/
     active: true
-  - tab_title: Documentation
-    tab_link: /documentation/mezzanine/uartserial/
-  - tab_title: Support
-    tab_link: https://discuss.96boards.org/c/products/mezzanine
+  - title: Documentation
+    url: /documentation/mezzanine/uartserial/
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
     tab_align_right: true
-featured_product_order: 9
-is_featured: true
-product_specification: "mezzanine"
 product_short_desc: "Available now: a USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board."
-product_long_desc: |-
-    Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
-
-    It makes it easy to connect your PC to the serial console on the 96Boards low-speed expansion connector, without worrying about pinout or level shifting for 1.8V IO. It also provides remote control of the power button and reset signals so that the base board can be completely controlled over a single USB cable.
-
-    Since it uses the FT230X chip from FTDI, when it is connected to your PC over USB, it appears as a normal UART interface on a PC, Macintosh or Linux computer with an FTDI UART driver installed.
 product_images:
-  - uart-mezzanine-front-sd.png
-  - uart-mezzanine-back-sd.png
-  - 96boards-uarts-seed3.jpg
-  - 96boards-uarts-seed2.jpg
-  - 96boards-uarts-seed.jpg
-  - 96boards-uarts-seed-for-accesories-page.jpg
-  - UARTplugIMG_3673.jpg
-  - 96boards-uarts-seed4-crop.jpg
-  - 96boards-uarts-seed4.jpg
-mezzanine_features:
-  - Attaches to 96Boards low-speed (LS) expansion connector
-  - FT230X USB to UART adapter chip
-  - USB bus powered. Doesn’t disconnect when base board power is cycled
-  - Switchable between LS UART0 and UART1. (UART1 is the default console)
-  - CTS/RTS with using UART0
-  - TX and RX LEDs
-  - Remote control of baseboard reset and power signals
-  - Base board reset button
-  - TX and RX LEDs
-  - User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
+  - images/uart-mezzanine-front-sd.png
+  - images/uart-mezzanine-back-sd.png
+  - images/96boards-uarts-seed3.jpg
+  - images/96boards-uarts-seed2.jpg
+  - images/96boards-uarts-seed.jpg
+  - images/96boards-uarts-seed-for-accesories-page.jpg
+  - images/UARTplugIMG_3673.jpg
+  - images/96boards-uarts-seed4-crop.jpg
+  - images/96boards-uarts-seed4.jpg
+product_sidebar_sections:
+    - title: Features
+      items:
+        - title: Attaches to 96Boards low-speed (LS) expansion connector
+        - title: FT230X USB to UART adapter chip
+        - title: USB bus powered. Doesn’t disconnect when base board power is cycled
+        - title: Switchable between LS UART0 and UART1. (UART1 is the default console)
+        - title: CTS/RTS with using UART0
+        - title: TX and RX LEDs
+        - title: Remote control of baseboard reset and power signals
+        - title: Base board reset button
+        - title: TX and RX LEDs
+        - title: User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
+    - title: Product Includes
+      items:
+        - title: 1 x  96Boards UART (96B-05UART-V1.1)
+        - title: 2 x 2mm shunts
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: User Guide
+          link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
+        - title: Schematic
+          link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart.pdf
+        - title: GitHub
+          link: https://github.com/96boards/96boards-uart
 product_buy_links:
   -
     link-title: Seeed
@@ -54,23 +63,42 @@ product_buy_links:
   -
     link-title: FabToLab (India)
     link-url: https://www.fabtolab.com/boards/96boards/96boards-UART
-product_more_info:
-  - title: User Guide
-    link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart-userguide.pdf
-  - title: Schematic
-    link: https://github.com/96boards/96boards-uart/raw/master/96boards-uart.pdf
-  - title: GitHub
-    link: https://github.com/96boards/96boards-uart
-product_bottom_text: |-
-    The user guide, schematic and other design files are available on GitHub. The UART adapter board is Open Hardware designed using KiCad and all of the design files will be provided under a BSD license. Information on accessing the design files is included in the user guide.
-product_includes:
-  - quantity: 1
-    name: 96Boards UART
-    id: 96B-05UART-V1.1
-  - quantity: 2
-    name: 2mm shunts
-product: true
-archived: false
+attributes:
+  - name: "SoC"
+    value: >-
+      "
+      FT230X USB to UART adapter chip
+      "
+  - name: "Power"
+    value: >-
+      "
+      USB bus powered. Doesn’t disconnect when base board power is cycled
+      "
+  - name: "Expansion Interface"
+    value: >-
+      "
+      2 x 20 2.0mm pitch male header
+      "
+  - name: "LED"
+    value: >-
+      "
+      TX and RX LEDs
+      User LED connected to GPIOB (GPIOA on v1.0 of the adapter) which attaches to 96Boards low-speed (LS) expansion connector
+      "
+  - name: "Buttons"
+    value: >-
+      "
+      Base board reset button
+
+      "
+  - name: "Other"
+    value: >-
+      "
+      Switchable between LS UART0 and UART1. (UART1 is the default console)
+      CTS/RTS with using UART0
+      Remote control of baseboard reset and power signals
+      "
+
 ---
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 
@@ -101,10 +129,10 @@ Since it uses the FT230X chip from FTDI, when it is connected to your PC over US
 |  Switchable between LS UART0 and UART1. (UART1 is the default console) |                                                                                                  |
 |  CTS/RTS with using UART0                                              |                                                                                                  |
 |  TX and RX LEDs                                                        |                                                                                                  |
-|  Remote control of baseboard reset and power signals                   |                                                                                                  |        
-|  Base board reset button                                               |                                                                                                  |        
-|  TX and RX LEDs                                                        |                                                                                                  |        
-|  User LED connected to GPIOB (GPIOA on v1.0 of the adapter)            |                                                                                                  |        
+|  Remote control of baseboard reset and power signals                   |                                                                                                  |
+|  Base board reset button                                               |                                                                                                  |
+|  TX and RX LEDs                                                        |                                                                                                  |
+|  User LED connected to GPIOB (GPIOA on v1.0 of the adapter)            |                                                                                                  |
 {:.hidden_rows}
 
 ## Parts list

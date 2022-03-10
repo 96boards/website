@@ -8,10 +8,9 @@ images:
 categories:
 - dragonboard410c
 - Alexa
-image:
-    path: /assets/images/projects/alexavd-thumb.png
-    name: alexavd-thumb.png
-    thumb: alexavd-thumb.png
+image: /assets/images/projects/alexavd-thumb.png
+image_name: alexavd-thumb.png
+image_thumb: alexavd-thumb.png
 ---
 # Amazon Alexa Virtual Device
 

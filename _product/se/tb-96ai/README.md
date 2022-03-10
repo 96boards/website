@@ -1,8 +1,14 @@
 ---
 title: TB-96AI
-layout: product-display-page
+layout: product
+product: true
+archived: false
 shortname: tb-96ai
+dateAdded: 2019-06-13 09:00:00+00:00
 permalink: /product/tb-96ai/
+ai_board: true
+ai_board_desc: >
+    The TB-96AI is a low-power, high-powered core board for the AIoT field. It is equipped with a powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference models such as caffe and tensor flow.
 description: |-
     TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi
     Technology Co., Ltd. can form a complete development board or evaluation board; and the board
@@ -16,25 +22,22 @@ display_product: true
 product_short_desc: TB-96AI is a powerful core board for artificial intelligence.
 product_specification: se
 product_sub_specification: module
-featured_product_order: 2
-is_featured: true
 product_images:
-  - TB-96AI-front.jpg
-  - TB-96AI-rear.jpg
-  - SoM-Carrier-Board-with-Module.jpg
-# Sub Tab Menu Items
-tab_menu:
-    - tab_title: TB-96AI
-      tab_link: /product/tb-96ai/
+  - images/TB-96AI-front.jpg
+  - images/TB-96AI-rear.jpg
+  - images/SoM-Carrier-Board-with-Module.jpg
+sticky_tab_bar:
+    - title: TB-96AI
+      url: /product/tb-96ai/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/som/tb-96ai/getting-started/
+    - title: Getting Started
+      url: /documentation/som/tb-96ai/getting-started/
       tab_position: 1
-    - tab_title: Documentation
-      tab_link: /documentation/som/tb-96ai/
+    - title: Documentation
+      url: /documentation/som/tb-96ai/
       tab_position: 2
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/tb-96ai
+    - title: Support
+      url: https://discuss.96boards.org/c/products/tb-96ai
       tab_position: 4
       tab_align_right: true
 product_buy_links:
@@ -73,24 +76,154 @@ product_buy_links:
     type: board
     link-price: "374.99"
     link-price-currency: USD
-product_os:
-  - title: All Downloads
-    link: /documentation/som/tb-96ai/downloads/
-  - title: Android 8.1
-    link: https://developer.android.com/about/versions/oreo/android-8.1
-  - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
-product_more_info:
-  - title: Hardware User Manual
-    link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
-  - title: Schematics
-    link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/avenger96-schematics.pdf
-  - title: NPU SDK
-    link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
-  - title: Beiqi Cloud
-    link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
-product: true
-archived: false
+product_sidebar_sections:
+    - title: OS
+      icon: icon-terminal
+      items:
+        - title: All Downloads
+          link: /documentation/som/tb-96ai/downloads/
+        - title: Android 8.1
+          link: https://developer.android.com/about/versions/oreo/android-8.1
+        - title: NPU SDK
+          link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-hardware-user-manual.pdf
+        - title: Schematics
+          link: https://github.com/96boards/documentation/blob/master/som/tb-96ai/hardware-docs/files/tb-96ai-schematics.pdf
+        - title: NPU SDK
+          link: http://t.rock-chips.com/en/wiki.php?mod=view&id=85
+        - title: Beiqi Cloud
+          link: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
+vendor:
+  name: BeiqiCloud
+  url: http://www.beiqicloud.com/product_detail.html?pid=TB-96AI
+attributes:
+  - name: "SoC"
+    value: >-
+      Rockchip RK3399Pro
+  - name: "CPU"
+    value: >
+      "Dual-core Cortex-A72 up to 1.8GHz
+      Quad-core Cortex-A53 up to 1.4GHz
+      NPU - Support 8bit/16bit computing, AI computing power up to 3.0TOPs
+      - Full load computing power, low load operation power consumption
+      is low
+      - Compatible with Caffe/Mxnet/TensorFlow model, support multi-
+      class framework, support mainstream layer type, easy to add custom layer
+      - Provides easy-to-use development tools, PC-based model
+      conversion, performance estimation, and accuracy verification
+      - Provide AI application development interface: support Android NN
+      API, provide RKNN cross-platform API, Linux support TensorFlow
+      development
+      VPU - Support 4K VP9 and 4K 10bits H265/H264 video decoding, up to 60fps
+      - 1080P multi-format video decoding (WMV, MPEG-1/2/4, VP8)
+      - 1080P video encoding, support H.264, VP8 format
+      - Video post processor: de-interlacing, denoising, edge/detail/color optimization"
+  - name: "GPU"
+    value: >
+      "ARM® Mali-T860 MP4 Quad-core GPU
+      - Support OpenGL ES1.1/2.0/3.0/3.1, OpenVG1.1, OpenCL, DX11
+      - Support AFBC (frame buffer compression)"
+  - name: "RAM"
+    value: >
+      "
+        Optional configuration with the following two options:
+        - 3GB LPDRR3(CPU 2GB + NPU 1GB);
+        - 8GB LPDDR3(CPU 4GB + NPU 4GB);
+      "
+  - name: "Wireless"
+    value: >-
+      TBD
+  - name: "Storage"
+    value: >
+      "
+      Optional configuration with the following options:
+      - 16GB eMMC
+      - 32GB eMMC
+      - 64GB eMMC
+      - 128GB eMMC
+      "
+  - name: "Ethernet"
+    value: Built-in Gigabit Ethernet PHY chip, 10/100/1000Mbps adaptive
+  - name: "USB"
+    value: >-
+      Type-C - USB3.0/DisplayPort 1.2,OTG
+      USB3.0×1 (according to RK3399Pro design, NPU needs to be
+      mounted on USB3.0, so USB3.0 needs to connect back to NPU, if
+      you need to expand USB3.0 interface, you need external HUB);
+      USB2.0×2, HOST;
+  - name: "Display"
+    value: On SoM Carrier Board
+  - name: "Audio"
+    value: >-
+      "
+      I2S0:
+      - Support user extended use
+      I2S1:
+      - Speaker×1
+      - Headphone×1
+      - MIC×1
+      I2S2:
+      - HDMI interface audio output;
+      - DP interface audio output;
+      "
+  - name: "Camera"
+    value: MIPI-CSI×2,Dual camera interface (built-in dual hardware ISP, up to single 13Mpixel or dual 8Mpixel)
+  - name: "Expansion Interface"
+    value: >-
+      "
+      - 4 Panasonic 100PIN high speed connectors, type AXK6S00437YG (PIN spacing 0.5mm)
+      - SDMMC(TF Card)×1;
+      - SPI×1;
+      - UART×3,One of the CPU Debug UARTs, one NPU Debug UART;
+      - I2C×6;
+      - SDIO×1;
+      - PCIe×1;
+      - PWM×2;
+      - GPIO,For detailed GPIO definitions, please refer to the interface definition;
+      - ADC×3,One for buttons, one for headset microphone detection,
+      and one for user-definable use;
+      "
+  - name: "LED"
+    value: On SoM Carrier Board
+  - name: "Buttons"
+    value: >-
+      On SoM Carrier Board
+  - name: "Power"
+    value: >
+      DC 5V
+  - name: "OS Support"
+    values:
+      - title: Android8.1;
+      - title: Linux version - fedora 2.8, kernel 4.4
+  - name: "Other"
+    value: >
+      "
+      Software Support
+      - Support 8bit/16bit computing, AI computing power up to 3.0TOPs;
+      - Full load computing power, low load operation power consumption
+      is low;
+
+      - Compatible with Caffe/Mxnet/TensorFlow model, support multi-
+      class framework, support mainstream layer type, easy to add
+
+      custom layer;
+      - Provide easy-to-use development tools, PC-side model
+      conversion, performance estimation, and accuracy verification;
+      - Provide AI application development interface: support Android NN
+      API, provide RKNN cross-platform API, Linux support TensorFlow
+      development;
+      "
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 50mm
+      - title: "length"
+        value: 85mm
+
 ---
 TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi Technology Co., Ltd. can form a complete development board or evaluation board; and the board customized by customers according to actual needs can directly form the industry application motherboard, which can meet industrial automation, UAV, image detection, face recognition, edge computing gateway, cluster server, Intelligent Quotient display, automatic driving, medicine. Application needs of market segments such as health care equipment, robots and intelligent retail.
 

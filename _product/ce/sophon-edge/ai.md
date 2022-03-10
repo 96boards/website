@@ -8,18 +8,18 @@ description: |-
 keywords: |-
       Deep Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Long Short Term Memory Models Profiling, Deep Learning, Machine Learning, Facial Detection and Recognition, Facial Expression Analysis, Object Detection and Recogntion, Vehicle License Plate Recognition, Voiceprint Recognition, Development, board, low cost
 product_short_desc: "Bitmain Sophon™ Edge Developer Board is powered by the BM1880, and equipped with TPU support for DNN/CNN/RNN/LSTM operations and models."
-tab_menu:
-    - tab_title: Sophon Edge
-      tab_link: /product/sophon-edge/
-    - tab_title: AI
+sticky_tab_bar:
+    - title: Sophon Edge
+      url: /product/sophon-edge/
+    - title: AI
       active: true
-      tab_link: /product/sophon-edge/ai/
-    - tab_title: Getting Started
-      tab_link: /documentation/consumer/sophon-edge/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/consumer/sophon-edge/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/sophon-edge/
+      url: /product/sophon-edge/ai/
+    - title: Getting Started
+      url: /documentation/consumer/sophon-edge/getting-started/
+    - title: Documentation
+      url: /documentation/consumer/sophon-edge/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/sophon-edge/
       tab_align_right: true
 header-image: sophon-front-sd.png
 footer-image: sophon-back-sd.png

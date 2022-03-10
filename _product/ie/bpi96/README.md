@@ -1,33 +1,32 @@
 ---
 title: BPi96 NB-IoT
-layout: product-display-page
-permalink: /product/bpi96/
+layout: product
+product: true
 shortname: bpi96
+archived: false
+dateAdded: 2018-05-24 09:00:00+00:00
+permalink: /product/bpi96/
 description: |-
     The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 keywords: |-
     Build computer at home, create Wireless servers, build Games consoles, make Music sounds products, create HD video showcases hardware, build Audio Systems from scratch, Android hardware Applications board, Raspberry Pi Scratch game demos
-tab_menu:
-    - tab_title: BPi96 NB-IoT
-      tab_link: /product/bpi96/
+sticky_tab_bar:
+    - title: BPi96 NB-IoT
+      url: /product/bpi96/
       active: true
-    - tab_title: Getting Started
-      tab_link: /documentation/iot/bpi96/getting-started/
-    - tab_title: Documentation
-      tab_link: /documentation/iot/bpi96/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/bpi96
+    - title: Getting Started
+      url: /documentation/iot/bpi96/getting-started/
+    - title: Documentation
+      url: /documentation/iot/bpi96/
+    - title: Support
+      url: https://discuss.96boards.org/c/products/bpi96
       tab_align_right: true
-featured_product_order: 5
 display_product: true
-is_featured: true
 product_specification: ie
 product_short_desc: "The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board."
-product_long_desc: |-
-    The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 product_images:
-  - bpi96-front-sd.jpg
-  - bpi96-back-sd.jpg
+  - images/bpi96-front-sd.jpg
+  - images/bpi96-back-sd.jpg
 product_buy_links:
   -
     link-title: "BPi NB-IoT (Ali Express)"
@@ -41,11 +40,44 @@ product_buy_links:
     link-title: "BPi NB-IoT (FabToLab)"
     link-price: ₹3,465
     link-url: "https://www.fabtolab.com/boards/96boards/orange-pi-i96"
-product_os:
-  - title: Explore
-    link: /documentation/iot/bpi96/downloads/
-product: true
-archived: false
+product_sidebar_sections:
+    - title: OS
+      icon: icon-terminal
+      items:
+        - title: Explore
+          link: /documentation/iot/bpi96/downloads/
+attributes:
+  - name: "SoC"
+    value: >-
+      STM32F103RCT6 / STM32F103RBT6
+  - name: "CPU"
+    value: >-
+      ARM 32-bit CortexTM-M3
+  - name: "RAM"
+    value: >-
+      SRAM 48KB / 20 KB
+  - name: "Storage"
+    value: >-
+      256KB / 128KB
+  - name: "Wireless"
+    value: >-
+      Quectel BC95-B5/8/20 or BC95-G
+  - name: "Expansion Interface"
+    value: >-
+      40pin GPIO
+  - name: "Power"
+    value: >-
+      Digital Out Voltage - 1.8v
+  - name: "OS Support"
+    values:
+      - title: LiteOS
+  - name: "Dimensions"
+    values:
+      - title: "width"
+        value: 30mm
+      - title: "length"
+        value: 60mm
+
 ---
 The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 
