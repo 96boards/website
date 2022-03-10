@@ -15,36 +15,37 @@ image_name: OpenHours.png
 image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
-- 64-Bit
-- 96Boards
-- OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
-- Bubblegum96
-- HiKey
-- DragonBoard 410c
-- Linux
-- Linaro
-- ARM
-- SBC
-- Single Board Computer
-- AOSP
-- Android
-- Red Hat
-- Redhat
-- fedora
-- Open Source
-- Connect
-- SFO17
-- San Francisco
-- Live show
-- Red Hat
-- Gumstix
-- Fedora
-- QWERTY Embedded
-- Community
-- Panel
-- Michael Welling
-- Qualcomm
+  - 64-Bit
+  - 96Boards
+  - OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
+  - Bubblegum96
+  - HiKey
+  - DragonBoard 410c
+  - Linux
+  - Linaro
+  - ARM
+  - SBC
+  - Single Board Computer
+  - AOSP
+  - Android
+  - Red Hat
+  - Redhat
+  - fedora
+  - Open Source
+  - Connect
+  - SFO17
+  - San Francisco
+  - Live show
+  - Red Hat
+  - Gumstix
+  - Fedora
+  - QWERTY Embedded
+  - Community
+  - Panel
+  - Michael Welling
+  - Qualcomm
 ---
+
 # Introduction
 
 Panel of industry professionals including Gumstix, Qualcomm, Arm, 96Boards, QWERTY Embedded and Red Hat!
@@ -265,9 +266,9 @@ Can we get more of you on camera?
 
 Todd Thal - TT
 Message from Todd Thal: Now it has it earlier in day didn't
-https://www.96boards.org/openhours/?utm_medium=email&utm_source=other&utm_campaign=opencourse.H9j3VizfEeW-zwq84wShFQ.announcements~opencourse.H9j3VizfEeW-zwq84wShFQ.NfZWy1HgEeeqKgpTZZjjFg
+https://www.96boards.org/?utm_medium=email&utm_source=other&utm_campaign=opencourse.H9j3VizfEeW-zwq84wShFQ.announcements~opencourse.H9j3VizfEeW-zwq84wShFQ.NfZWy1HgEeeqKgpTZZjjFg
 Now it has it earlier in day didn't
-https://www.96boards.org/openhours/?utm_medium=email&utm_source=other&utm_campaign=opencourse.H9j3VizfEeW-zwq84wShFQ.announcements~opencourse.H9j3VizfEeW-zwq84wShFQ.NfZWy1HgEeeqKgpTZZjjFg
+https://www.96boards.org/?utm_medium=email&utm_source=other&utm_campaign=opencourse.H9j3VizfEeW-zwq84wShFQ.announcements~opencourse.H9j3VizfEeW-zwq84wShFQ.NfZWy1HgEeeqKgpTZZjjFg
 
 trevor - T
 Message from trevor: a minute ago we were able to use a slider to slide between robert's and the web countdown, could that come back with robert and shovan's views so we can slide between them?

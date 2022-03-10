@@ -15,8 +15,6 @@ pages:
         url: /specifications/
       - text: Compliance
         url: /compliance/
-      - text: Membership
-        url: /membership/
       - text: News
         url: /news/
   - title: Products
@@ -61,8 +59,6 @@ pages:
     options:
       - text: Blog
         url: /blog/
-      - text: OpenHours
-        url: /openhours/
       - text: Projects
         options:
           - text: Projects

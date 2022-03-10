@@ -11,59 +11,56 @@ title: HiKey960 takes over 96Boards and OpenHours!
 wordpress_id: 20337
 category: blog
 tags:
-- 96Boards
-- ADSLzone
-- Alpha star
-- Android
-- Android authority
-- AOSP
-- Archermind
-- ARM
-- arm32
-- arm64
-- Bluejeans
-- cnBeta.com
-- CNX
-- embedded
-- Embedded systems
-- Google
-- HiKey
-- HiKey960
-- huawei
-- Kirin
-- kirin 960
-- Lemaker
-- liliputing
-- Linaro
-- Linux
-- LinuxGizmos
-- New atlas
-- Open Hours
-- OpenHours
-- Phoronix
-- Product release
-- Robert Wolff
-- Science times
-- Tech Republic
-- Ubergizmo
-- UFS
-- universal flash storage
-- Webwire
-- Xataka
+  - 96Boards
+  - ADSLzone
+  - Alpha star
+  - Android
+  - Android authority
+  - AOSP
+  - Archermind
+  - ARM
+  - arm32
+  - arm64
+  - Bluejeans
+  - cnBeta.com
+  - CNX
+  - embedded
+  - Embedded systems
+  - Google
+  - HiKey
+  - HiKey960
+  - huawei
+  - Kirin
+  - kirin 960
+  - Lemaker
+  - liliputing
+  - Linaro
+  - Linux
+  - LinuxGizmos
+  - New atlas
+  - Open Hours
+  - OpenHours
+  - Phoronix
+  - Product release
+  - Robert Wolff
+  - Science times
+  - Tech Republic
+  - Ubergizmo
+  - UFS
+  - universal flash storage
+  - Webwire
+  - Xataka
 ---
 
 # Introduction
 
-
-On April 25th, 2017 [96Boards OpenHours](/openhours/) broke away from it's usual broadcast time to offer a special announcement episode via their regular BlueJeans channel. This surprise gathering brought people in from all around the world with the hopes of hearing about a new 96Boards product release. Joined by community members and 96Boards partners, the 45 minute long episode started out with a bang as the [HiKey960](/product/hikey960/) was officially announced within the first few minutes.
+On April 25th, 2017 [96Boards OpenHours](/) broke away from it's usual broadcast time to offer a special announcement episode via their regular BlueJeans channel. This surprise gathering brought people in from all around the world with the hopes of hearing about a new 96Boards product release. Joined by community members and 96Boards partners, the 45 minute long episode started out with a bang as the [HiKey960](/product/hikey960/) was officially announced within the first few minutes.
 
 {% include media.html media_url="https://www.youtube.com/embed/-6AVlw4VwRQ" %}
 
 Keep reading to get a closer breakdown of the show...
 
-
 # The Show - OpenHours Announcement
-
 
 "Recording has started" - Yes, OpenHours attendees beware, our episodes are recorded and posted on YouTube! This is how it started, my usual disclaimer and on to the good stuff...
 
@@ -95,83 +92,53 @@ Keep reading to get a closer breakdown of the show...
 
 **44:20 - 45:59 :** Closing statements
 
-
 # HiKey960 Specs, News and Resources
-
 
 So many have already talked about and outlined HiKey960's specs. I think it is best I forward you to these many outlets and provide you with some excellent weekend reading material!
 
 **News**:
 
+- [Eric Brown – LinuxGizmos](http://linuxgizmos.com/most-powerful-96boards-sbc-yet-offers-m2-expansion/)
 
+- [Nick Heath – Tech Republic](http://www.techrepublic.com/article/raspberry-pi-challenger-huaweis-turbo-charged-board-runs-android-but-at-a-hefty-price/)
 
+- [Adnan Farooqui – Ubergizmo](http://www.ubergizmo.com/2017/04/huawei-hikey-960-computer-board-for-android/)
 
-  * [Eric Brown – LinuxGizmos](http://linuxgizmos.com/most-powerful-96boards-sbc-yet-offers-m2-expansion/)
+- [Michael Larabel – Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=96Boards-HiKey-960)
 
+- [CNX](http://www.cnx-software.com/2017/04/26/96boards-compliant-hikey-960-arm-cortex-a73-development-board-is-now-available-for-239/)
 
-  * [Nick Heath – Tech Republic](http://www.techrepublic.com/article/raspberry-pi-challenger-huaweis-turbo-charged-board-runs-android-but-at-a-hefty-price/)
+- [Michele Nasi – ilSoftware.IT](https://www.ilsoftware.it/articoli.asp?tag=Huawei-e-Google-presentano-HiKey-960-molto-piu-performante-di-una-Raspberry_15417)
 
+- [Javier Pastor – Xataka](https://www.xataka.com/ordenadores/a-la-raspberry-pi-le-sale-un-competidor-potente-la-hikey-960-llega-con-un-kirin-960-y-3-gb-de-ram)
 
-  * [Adnan Farooqui – Ubergizmo](http://www.ubergizmo.com/2017/04/huawei-hikey-960-computer-board-for-android/)
+- [Claudio Valero – ADSLZone](https://www.adslzone.net/2017/04/26/huawei-hikey-960-un-potente-rival-para-raspberry-pi/)
 
+- [Stefan Bordel – Com! Professional](http://www.com-magazin.de/news/hardware/entwicklerboard-hikey-960-kommt-mate-9-chip-1218892.html)
 
-  * [Michael Larabel – Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=96Boards-HiKey-960)
+- [Brad Linder – Liliputing](https://liliputing.com/2017/04/hkey-960-240-android-dev-boardcomputer-kirin-960.html)
 
+- [Paul Ridden – New Atlas](http://newatlas.com/linaro-huawei-hikey-960-computer-board/49224/)
 
-  * [CNX](http://www.cnx-software.com/2017/04/26/96boards-compliant-hikey-960-arm-cortex-a73-development-board-is-now-available-for-239/)
+- [Soutrik Das – Science Times](http://www.sciencetimes.com/articles/13576/20170426/android-7-1-new-superfast-computer-huawei-hikey-960-launching.htm)
 
+- [威锋网 on – cnBeta.com](http://www.cnbeta.com/articles/tech/606691.htm)
 
-  * [Michele Nasi – ilSoftware.IT](https://www.ilsoftware.it/articoli.asp?tag=Huawei-e-Google-presentano-HiKey-960-molto-piu-performante-di-una-Raspberry_15417)
+- [IT.com.cn]()
 
+- [Webwire](http://www.webwire.com/ViewPressRel.asp?aId=208895)
 
-  * [Javier Pastor – Xataka](https://www.xataka.com/ordenadores/a-la-raspberry-pi-le-sale-un-competidor-potente-la-hikey-960-llega-con-un-kirin-960-y-3-gb-de-ram)
-
-
-  * [Claudio Valero – ADSLZone](https://www.adslzone.net/2017/04/26/huawei-hikey-960-un-potente-rival-para-raspberry-pi/)
-
-
-  * [Stefan Bordel – Com! Professional](http://www.com-magazin.de/news/hardware/entwicklerboard-hikey-960-kommt-mate-9-chip-1218892.html)
-
-
-  * [Brad Linder – Liliputing](https://liliputing.com/2017/04/hkey-960-240-android-dev-boardcomputer-kirin-960.html)
-
-
-  * [Paul Ridden – New Atlas](http://newatlas.com/linaro-huawei-hikey-960-computer-board/49224/)
-
-
-  * [Soutrik Das – Science Times](http://www.sciencetimes.com/articles/13576/20170426/android-7-1-new-superfast-computer-huawei-hikey-960-launching.htm)
-
-
-  * [威锋网 on – cnBeta.com](http://www.cnbeta.com/articles/tech/606691.htm)
-
-
-  * [IT.com.cn]()
-
-
-  * [Webwire](http://www.webwire.com/ViewPressRel.asp?aId=208895)
-
-
-  * [Android Authority](http://www.androidauthority.com/huawei-hikey-960-specs-price-release-date-767719/)
-
+- [Android Authority](http://www.androidauthority.com/huawei-hikey-960-specs-price-release-date-767719/)
 
 **Resource Links:**
 
+- [HiKey960 Landing page](/product/hikey960/)
 
+- [Announcement video](https://youtu.be/-6AVlw4VwRQ)
 
-
-  * [HiKey960 Landing page](/product/hikey960/)
-
-
-  * [Announcement video](https://youtu.be/-6AVlw4VwRQ)
-
-
-  * [Followup on HiKey960 and AOSP](https://youtu.be/wiPVYK5MYok)
-
-
-
+- [Followup on HiKey960 and AOSP](https://youtu.be/wiPVYK5MYok)
 
 # Other Resources
-
 
 For 96Boards announcements and fun, be sure to visit and follow all of our social media channels!
 
@@ -179,7 +146,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours Image" class="img-fluid" %}
 

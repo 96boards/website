@@ -11,32 +11,32 @@ title: DragonBoard 410c Workshop - 96Boards visits Qualcomm
 wordpress_id: 16897
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- ARM
-- ARMv8
-- Bubblegum
-- bubblegum-96
-- Consumer Edition
-- Consumer IoT
-- Coursera
-- DB410c
-- dragonboard410c
-- General Purpose Input Output
-- GPIO
-- hackathon
-- HiKey
-- I Squared C
-- I2C
-- Internet of things
-- Linux
-- Open Embedded
-- Qualcomm workshop
-- Reference Platform
-- rpb
-- UCSD
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - Bubblegum
+  - bubblegum-96
+  - Consumer Edition
+  - Consumer IoT
+  - Coursera
+  - DB410c
+  - dragonboard410c
+  - General Purpose Input Output
+  - GPIO
+  - hackathon
+  - HiKey
+  - I Squared C
+  - I2C
+  - Internet of things
+  - Linux
+  - Open Embedded
+  - Qualcomm workshop
+  - Reference Platform
+  - rpb
+  - UCSD
 ---
 
 Hello everyone! Welcome to the always fun (to read) and never boring blogs by the [96Boards](/) team here at [Linaro](http://www.linaro.org/). I would like to keep this post short and sweet, since I will be forwarding you to a video and slideshow.
@@ -53,8 +53,6 @@ Unaware they would be filming me, I openly accepted and suddenly grew more nervo
 
 **[Dragon board 410c workshop - slideshow](//www.slideshare.net/96Boards/dragon-board-410c-workshop-slideshow)** from **[96Boards](//www.slideshare.net/96Boards)**
 
-
-
 I hope you will all take some time to check out the video above. If you are a DragonBoard 410c user, I am sure you will find some much desired resources in the slideshow. If you don’t yet own a [DragonBoard 410c](/product/dragonboard410c/) (or for that matter a 96Boards development board), be sure to visit the [96Boards website](/) for more information on all the great product we have available!
 
 I would like to give a big thanks to Qualcomm and everyone involved for inviting me to their San Diego campus to give this presentation, and thank you for allowing 96Boards to share this content with the community.
@@ -63,4 +61,4 @@ At 96Boards we take pride in our community involvement. Please remember, if you 
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we discuss pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we discuss pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

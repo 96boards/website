@@ -11,20 +11,20 @@ title: 96Boards Out of box experience guide - part 1
 wordpress_id: 13925
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- HiKey
-- Linux
-- Open Embedded
-- OpenHours
-- Reference Platform
-- rpb
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - HiKey
+  - Linux
+  - Open Embedded
+  - OpenHours
+  - Reference Platform
+  - rpb
 ---
 
 So your first 96Boards was just delivered, you open the box and find a shiney DragonBoard™ 410c staring right back at you… Ok, well what now? Hopefully you remembered to buy a power supply, in the heat of the moment anyone can miss the fine print:
@@ -37,26 +37,23 @@ Luckily your diligence has paid off, and now it is time for some fun. However, l
 
 **List #1: Things you will need before powering on your 96Boards for the first time**
 
+- **Your favorite [96Boards](https://www.96boards.org)**
 
+  - Currently available: [HiKey](/product/hikey/), [DragonBoard 410c](/product/dragonboard410c/), and [Bubblegum-96](/product/bubblegum-96/)
 
-
-  * **Your favorite [96Boards](https://www.96boards.org)**
-
-
-    * Currently available: [HiKey](/product/hikey/), [DragonBoard 410c](/product/dragonboard410c/), and [Bubblegum-96](/product/bubblegum-96/)
-  * **Power Supply**:
-    * WM24P-12-A-QL from Arrow Electronics is recommended
-  * **HDMI Cable (Full size)**
-    * Best seller from Amazon (US), 6ft HDMI cable
-  * **HDMI monitor/screen**
-  * **USB-A mouse and keyboard**
-    * Recommended by [University of California San Diego IoT Coursera team](https://www.coursera.org/specializations/internet-of-things) for quick board bring up, single USB slot usage and/or portability, on Amazon (US), full size or pocket size
-  * **MicroSD card with at least 8GB**
-    * Far more than what is needed, 32GB microSD, best seller on Amazon (US)
-  * **MicroSD to SD card adapter**
-    * MicroSD to Host computer adapter
-  * **Anti static mat and gloves (recommended)**
-  * **USB to microUSB cable (recommended)**
+- **Power Supply**:
+  - WM24P-12-A-QL from Arrow Electronics is recommended
+- **HDMI Cable (Full size)**
+  - Best seller from Amazon (US), 6ft HDMI cable
+- **HDMI monitor/screen**
+- **USB-A mouse and keyboard**
+  - Recommended by [University of California San Diego IoT Coursera team](https://www.coursera.org/specializations/internet-of-things) for quick board bring up, single USB slot usage and/or portability, on Amazon (US), full size or pocket size
+- **MicroSD card with at least 8GB**
+  - Far more than what is needed, 32GB microSD, best seller on Amazon (US)
+- **MicroSD to SD card adapter**
+  - MicroSD to Host computer adapter
+- **Anti static mat and gloves (recommended)**
+- **USB to microUSB cable (recommended)**
 
 {% include image.html path="/assets/images/blog/96boards-box-1-img-1.jpg" class="img-fluid" %}
 
@@ -64,19 +61,19 @@ Now that you’ve gathered your gear, it’s time to remove your board from its 
 
 **List #2: Workstation setup** - ([Link to more tips](http://www.wikihow.com/Ground-Yourself-to-Avoid-Destroying-a-Computer-with-Electrostatic-Discharge))
 
-  * Find a hard surface to work on
-  * Make sure your monitor is plugged in and ready
-  * If possible, consider using an Electrostatic Discharge(ESD) mat.
-  * If possible, avoid dry environments.
-  * If possible, stay away from static-friendly clothing, cotton is safe.
+- Find a hard surface to work on
+- Make sure your monitor is plugged in and ready
+- If possible, consider using an Electrostatic Discharge(ESD) mat.
+- If possible, avoid dry environments.
+- If possible, stay away from static-friendly clothing, cotton is safe.
 
 Once your workstation is setup, carefully remove your board from the ESD bag and place it in your work station (**TIP: The ESD bag can be used as a safe resting place in your workstation once the board is removed**). It is recommended to use an antistatic glove when handling your board. If you do not have an antistatic glove, don’t worry. Try to grab your board along it’s edges as to avoid any contact with it’s circuit components. With the board safely sitting in your workstation, proceed to plug in some of the peripherals from List #1.
 
 NOTE: Your 96Boards should NOT be powered on yet, this will be the last thing we do in this part of the guide.
 
-  * Plug in your USB mouse and keyboard
-  * Plug in your HDMI cables, and make sure it is plugged into a monitor/screen
-  * Power on your monitor/screen and set to the correct input
+- Plug in your USB mouse and keyboard
+- Plug in your HDMI cables, and make sure it is plugged into a monitor/screen
+- Power on your monitor/screen and set to the correct input
 
 Ok! This is the moment of truth, the first time you power up your 96Boards device. Simply insert the barrel jack into your 96Boards and keep an eye out for the flashing LEDs.
 
@@ -84,20 +81,20 @@ Do not worry if your board does not boot up immediately. 96Boards usually take a
 
 Now, the operating system you initially boot into will depend on your 96Boards choice. The out-of-box experience is different for each board:
 
-  * **HiKey** - Debian
-  * **DragonBoard 410c** - Android
-  * **Bubblegum-96**  - Debian
+- **HiKey** - Debian
+- **DragonBoard 410c** - Android
+- **Bubblegum-96**  - Debian
 
 For the moment, I encourage you to explore your board. Poke around the applications and programs available to you by default, and spend some time getting familiar with the interface. Stay tuned for next week’s blog where we will talk about the different 96Boards and what makes them unique, the various operating systems available to you as a 96Boards user, and how you might go about flashing these operating systems onto your board.
 
-To learn more the 96Boards team are going to start a [weekly OpenHours session](/openhours/) every Thursday at 4pm BST. We’ll begin these sessions with a short demo, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.  [Join](/openhours/)
+To learn more the 96Boards team are going to start a [weekly OpenHours session](/) every Thursday at 4pm BST. We’ll begin these sessions with a short demo, presentation or tutorial and then be open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc.. We don’t promise to answer all the questions immediately and may need to defer answers to a later session, but we’ll try our best to answer during the call.  [Join](/)
 
-**Video from [OpenHours](/openhours/)**
+**Video from [OpenHours](/)**
 
 {% include media.html media_url="https://www.youtube.com/embed/ZTNEXTcsJ2Y?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" %}
 
 **In this series**
 
-  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/) (This)
-  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
-  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
+- [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/) (This)
+- [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
+- [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)

@@ -22,7 +22,7 @@ And once the project is finalized will be pushed to : [https://github.com/96boar
 To install all the dependencies on a Debian Buster build for RB3, run the following script:
 [install-opencv.sh](https://github.com/ric96/RB3-RoboticArm/raw/master/install.sh)
 
-***
+---
 
 ## Import all the things
 
@@ -40,7 +40,7 @@ from imutils.video import WebcamVideoStream
 - `imutils` is a wrapper around cv2 video i/o libraries to make life easier.
 - `WebcamVideoStream` is a specific function within imutils to get frames from webcam.
 
-***
+---
 
 ## Declare all the variables
 
@@ -70,6 +70,7 @@ blueUpper = (120, 255, 128)
 - `greenLower = (10, 140, 100)` `greenUpper = (30, 255, 255)`: Set HSV color space upper and lower limits for contour of green colored objects. And repeat the same for every shade you want to detect.
 
 ## All the functions
+
 ![](https://i2.wp.com/www.relatably.com/m/img/functional-programming-memes/meme-functions.jpg)
 
 ### Shape Detector
@@ -114,7 +115,7 @@ class ShapeDetector:
 - The `ShapeDetector` class and `detect_shape` function is responsible to take in a specific HSV color contour, map out the edges and approximate the number of vertices.
 - Then depending on the number of vertices, return the value as `triangle`, `square` or `rectangle`, `pentagon` or `circle`.
 
-***
+---
 
 ### HSV Detector
 
@@ -166,7 +167,7 @@ def detect_hsv(frame, lower, upper):
 - This entire exercise allows us to detect multiple contours of the same color and multiple contours of different color within the same frame.
 - This also gives us the XY coordinates for each object detected with will help us guide the Robotic Arm.
 
-***
+---
 
 ### Overlays
 
@@ -180,14 +181,15 @@ def overlay(frame, data, overlay_col, num):
 ```
 
 - This function takes in data returned by the `detect_hsv` function and lays it over the frame as a text, this includes;
-	- XY Co-ordinates
-	- Shape of the object
-	- Outline of the contour
-	- Numbering of the object.
+  - XY Co-ordinates
+  - Shape of the object
+  - Outline of the contour
+  - Numbering of the object.
 
-***
+---
 
 ## Main: one loop to rule them all:
+
 > I honestly couldn't find a meme for this :/
 
 ```python
@@ -230,23 +232,24 @@ def main():
 ```
 
 The `main` does the following things in a loop:
+
 - Reads frame from the video stream.
 - Passes said frame and hsv values to `detect_hsv` function:
-	- Repeats for the other two colors
+  - Repeats for the other two colors
 - Saves the return array to `shape_<color>`
 - For each contour in each of the color space, calls the overlay function to add appropriate overlay to the frame.
 - Output the processed from using `imshow` from `imutils`
 
-***
+---
 
 ## Final Thoughts
 
 This is more like a show-off of the object detection working in real time. For the actual Robotic Arm to work all we need is the XY Co-ordinates for the object in order to aim the claw at it.
 
-***
+---
 
 # Video
 
-This code was presented during [OpenHours](https://www.96boards.org/openhours/) Episode 154.
+This code was presented during [OpenHours](https://www.96boards.org/) Episode 154.
 
 {% include media.html media_url="https://youtu.be/5L-94a7n_-s" %}

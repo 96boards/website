@@ -11,70 +11,52 @@ title: Eclipse remote development and debugging
 wordpress_id: 16973
 category: blog
 tags:
-- 32-bit Linux
-- 64-bit
-- 96Boards
-- aarch64
-- ARM
-- armhf
-- ARMv7
-- ARMv8
-- Bubblegum
-- Consumer IoT
-- cross compiler
-- DB410c
-- debugging
-- dragonboard410c
-- Eclipse
-- gdb
-- HiKey
-- Reference Platform
-- remote access
-- remote debugging
-- rpb
+  - 32-bit Linux
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - ARM
+  - armhf
+  - ARMv7
+  - ARMv8
+  - Bubblegum
+  - Consumer IoT
+  - cross compiler
+  - DB410c
+  - debugging
+  - dragonboard410c
+  - Eclipse
+  - gdb
+  - HiKey
+  - Reference Platform
+  - remote access
+  - remote debugging
+  - rpb
 ---
 
 In my [last blog](/blog/gui-command-line-remote-debugging/) I showed how to get command line remote gdb debugging working, and I was also able to get remote source code debugging working with the gui ddd and gdb. The good news is that two people jumped in to help me with Eclipse. I’m happy to give credit to [Michael Welling](https://www.linkedin.com/in/mwelling) and [Michael Casadevall](https://www.linkedin.com/in/michael-casadevall-a7622312) for a fantastic amount of work getting remote debugging to work within Eclipse. I think I was close in last week’s attempts, but was missing several minor, yet critical steps, so I never got it working. Also, just to be clear, [Eclipse](http://www.eclipse.org/) is a moving target, the menu’s change between versions somewhat and what works in one version may be slightly different in another version.
 
-
 # Assumptions
 
+- Have Eclipse Neon for C & C++ development installed and available for use. You do not need any extra software plugins from Eclipse. Have extra software installed won’t hurt (I think) but it is not needed. A plain vanilla install for C & C++ has everything needed on the Eclipse side.
 
+- Knowledge on how to use Eclipse as an Integrated Development Environment (IDE) including the integrated debugger.
 
+- Previously installed command line cross compilation tools as described in a prior blogs entry of mine.
 
+- Previously installed command line debugging tools as described in a prior blogs entry of mine.
 
+- You know how to use the gdb debugger, this is not a tutorial on using gdb, this is instructions on using gdb to remotely debug ARM code inside the Eclipse IDE.
 
-  * Have Eclipse Neon for C & C++ development installed and available for use. You do not need any extra software plugins from Eclipse. Have extra software installed won’t hurt (I think) but it is not needed. A plain vanilla install for C & C++ has everything needed on the Eclipse side.
+- Cross debugging host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools including gdb installed.
 
-
-  * Knowledge on how to use Eclipse as an Integrated Development Environment (IDE) including the integrated debugger.
-
-
-  * Previously installed command line cross compilation tools as described in a prior blogs entry of mine.
-
-
-  * Previously installed command line debugging tools as described in a prior blogs entry of mine.
-
-
-  * You know how to use the gdb debugger, this is not a tutorial on using gdb, this is instructions on using gdb to remotely debug ARM code inside the Eclipse IDE.
-
-
-  * Cross debugging host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools including gdb installed.
-
-
-  * You are debugging for [96Boards](/) - either 32bit or 64bit ARM.
-
-
-
+- You are debugging for [96Boards](/) - either 32bit or 64bit ARM.
 
 # Setup an Eclipse project for remote development and debugging
 
-
 I’m going to start a new project and create a C project and set it up for remote running and debugging on the 96Boards target. I will do this on the 64 bit platform but it will work exactly the same for C++ and/or 32 bit platforms. There are some critical steps that I will call out, you can’t skip them as the remote debugging process will refuse to work. It will look like it “should” work but it won’t. So follow the steps exactly, even if it seems a bit silly.
 
-
 ## Step 1: Open Eclipse
-
 
 $ ~/eclipse/cpp-neon/eclipse/eclipse &
 
@@ -82,96 +64,51 @@ $ ~/eclipse/cpp-neon/eclipse/eclipse &
 
 ## Step 2: In Eclipse create new ARM project
 
-
-  * File -> New -> C-Project
-
-
-
+- File -> New -> C-Project
 
 ## Step 3: Create C Project
 
+- **Project Name:** test-64 if using the 64 bit toolchain or test-32 for the 32 bit toolchain
 
+- **Project Type:** Hello World ANSI C Project
 
+- **Toolchains:** Cross GCC
 
-
-
-  * **Project Name:** test-64 if using the 64 bit toolchain or test-32 for the 32 bit toolchain
-
-
-  * **Project Type:** Hello World ANSI C Project
-
-
-  * **Toolchains:** Cross GCC
-
-
-  * Click the “Next” button
-
+- Click the “Next” button
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-2.png" alt="02_NewCProject" class="img-fluid" %}
 
-
-
-
 ## Step 4: Set Basic Settings
 
+- **Author:** your name
 
-
-
-
-
-  * **Author:** your name
-
-
-  * Click the “Next” button
-
+- Click the “Next” button
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-3.png" alt="04_Copyright" class="img-fluid" %}
 
 ## Step 5: Select Configurations
 
+- Click the “Select all” button
 
-
-
-
-
-  * Click the “Select all” button
-
-
-  * Click the “Next” button
-
+- Click the “Next” button
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-4.png" alt="03_SelectConfig" class="img-fluid" %}
 
-
 ## Step 6: Set Cross GCC Command
 
+- **Cross compiler prefix:** “aarch64-linux-gnu-” for 64 bit or “arm-linux-gnueabihf-” for 32 bit
 
+- **Path:** /usr/bin
 
-
-
-
-  * **Cross compiler prefix:** “aarch64-linux-gnu-” for 64 bit or “arm-linux-gnueabihf-” for 32 bit
-
-
-  * **Path:** /usr/bin
-
-
-  * Click the “Finish” button
-
+- Click the “Finish” button
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-5.png" alt="05_ConfigureCrossGCC" class="img-fluid" %}
 
-
 ## Step 7: Compile the source code to a binary file
-
 
 This is critical to be done now, **do not skip this step or wait until later**, you can’t get remote code execution or remote debugging working without having a binary in place before you run the remote configuration tools! Not sure why, just the way Eclipse works.
 
-
-
-
-  * Single click on the project and then right click and select build project
-
+- Single click on the project and then right click and select build project
 
 If you expand the project you will see you have a binary file. Now setting up remote execution and remote debugging will work. Again I have no idea why this is critical but it is… (I did edit the source code a bit to add an int variable and a char array and changed the cputs to printf, just to make the debugger display a bit more interesting.)
 
@@ -181,94 +118,57 @@ If you expand the project you will see you have a binary file. Now setting up re
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-8.png" alt="08_BinaryMade" class="img-fluid" %}
 
-
-
 ## Step 8: Setup Remote Execution
-
 
 Now we will setup remote execution, Eclipse will copy the binary file over to the 96Boards, execute it and place the output of the file in a local Eclipse pane so you can see it.
 
-
-
-
-  * Click on the RUN -> Run Configurations... you will get a menu
+- Click on the RUN -> Run Configurations... you will get a menu
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-9.png" alt="09_RunConfigMenu" class="img-fluid" %}
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-10.png" alt="10_RunConfigPanel" class="img-fluid" %}
 
-
 ### Create, manage, and run configurations pane
 
-
-
-
-
-
-  * In the left window double click C/C++ Remote Application, that will generate a test-64 item below the C/C++ Remote Application selection and the highlight will switch there and a pane will open on the right side.
-
+- In the left window double click C/C++ Remote Application, that will generate a test-64 item below the C/C++ Remote Application selection and the highlight will switch there and a pane will open on the right side.
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-11.png" alt="11_RemoteHostRunConfig" class="img-fluid" %}
 
+- The name will be test-64 Debug
 
-  * The name will be test-64 Debug
+- The project will be test-64
 
+- The C/C++ Application should be Debug/test-64 if it is not, click on the Search Project button and select the test-64 project when you come back it will be set.
 
-  * The project will be test-64
+- If Connection: is not shown scroll down until you can see it. If this is the first time you’ve done this it will be blank, click on the New… button.
 
-
-  * The C/C++ Application should be Debug/test-64 if it is not, click on the Search Project button and select the test-64 project when you come back it will be set.
-
-
-  * If Connection: is not shown scroll down until you can see it. If this is the first time you’ve done this it will be blank, click on the New… button.
-
-
-  * Change Connection type: to be SSH (Click OK)
-
+- Change Connection type: to be SSH (Click OK)
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-12.png" alt="12_SSHNewConnection" class="img-fluid" %}
 
+- Now fill in the New Connection Pane
 
+  - Connection Name: 96Boards or something specific to the 96Boards you are using right now
 
+  - Host: Put the IP address of the 96Boards here
 
-  * Now fill in the New Connection Pane
+  - User: put the username to log into this board here, if using a standard Linaro image the name will be linaro
 
+  - Select Password based authentication and put in the password to log into the system. If you are using a Linaro image and have not changed the password yet the password it linaro.
 
-    * Connection Name: 96Boards or something specific to the 96Boards you are using right now
+  - You don’t need to make any changes to the Advanced settings.
 
-
-    * Host: Put the IP address of the 96Boards here
-
-
-    * User: put the username to log into this board here, if using a standard Linaro image the name will be linaro
-
-
-    * Select Password based authentication and put in the password to log into the system. If you are using a Linaro image and have not changed the password yet the password it linaro.
-
-
-    * You don’t need to make any changes to the Advanced settings.
-
-
-    * Click on the Finish button.
-
+  - Click on the Finish button.
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-13.png" alt="13_96BoardUSBEthernet" class="img-fluid" %}
 
-
-
-
-  * Click on the Browse button for the “Remote Absolute File Path for C/C++ Application” This will open a pane showing the remote file system on the 96Boards. Select the directory where you want the application you want it to run in. I’m using the linaro user home dir. Once you select the path just click on the x at the top right corner, it does not give you an OK button for some reason, the path will be carried back into the New Connection Pane, and will look something like “/home/linaro/test-64”
-
+- Click on the Browse button for the “Remote Absolute File Path for C/C++ Application” This will open a pane showing the remote file system on the 96Boards. Select the directory where you want the application you want it to run in. I’m using the linaro user home dir. Once you select the path just click on the x at the top right corner, it does not give you an OK button for some reason, the path will be carried back into the New Connection Pane, and will look something like “/home/linaro/test-64”
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-14.png" alt="14_BrowseRemoteFileSystem" class="img-fluid" %}
 
+- Click on the Apply button, congratulations you have used the remote connection to select the run path and it’s ready to use to execute the Application.
 
-
-
-  * Click on the Apply button, congratulations you have used the remote connection to select the run path and it’s ready to use to execute the Application.
-
-
-  * Click on the Run button, and then look in your Console pane (double click on the Console tab if the window is too small to expand it) and you will see “!!!Hello World!!! and logout
+- Click on the Run button, and then look in your Console pane (double click on the Console tab if the window is too small to expand it) and you will see “!!!Hello World!!! and logout
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-15.png" alt="15_FinalRemoteRunConfig" class="img-fluid" %}
 
@@ -280,104 +180,59 @@ To run the program remotely from the C/C++ perspective now that you have this se
 
 **Now on to setting up the remote debugger.**
 
-
 ## Step 9: Setup Remote Debugging
-
 
 Now we will setup remote debugging, Eclipse will copy the binary file over to the 96Boards, start gdbserver, come back and execute gdb-multiarch and bring up the debugging perspective.
 
-
-
-
-  * Click on the RUN ->Debug Configurations... menu
+- Click on the RUN ->Debug Configurations... menu
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-17.png" alt="17_DebugConfigMenu" class="img-fluid" %}
 
-
 ###
-
-
-
 
 ### Create, manage, and run configurations pane
 
+- In the left window double click C/C++ Remote Application, that will create a test-64 Debug item below the C/C++ Remote Application selection and the highlight will switch there and a pane will open on the right side.
 
+- The name will be test-64 Debug
 
+- The project will be test-64
 
-
-
-  * In the left window double click C/C++ Remote Application, that will create a test-64 Debug item below the C/C++ Remote Application selection and the highlight will switch there and a pane will open on the right side.
-
-
-  * The name will be test-64 Debug
-
-
-  * The project will be test-64
-
-
-  * The C/C++ Application should be Debug/test-64 if it is not, click on the Search Project button and select the test-64 project when you come back it will be set.
-
+- The C/C++ Application should be Debug/test-64 if it is not, click on the Search Project button and select the test-64 project when you come back it will be set.
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-18.png" alt="18_DebugConfigPanel" class="img-fluid" %}
 
+- If Connection: is not shown scroll down until you can see it. If you did step 8 above the Connection will be already set to what you created in step 8, If this is the first time you’ve done this it will be blank, click on the New… button.
 
+- Change Connection type: to be SSH (Click OK)
 
+- Now fill in the New Connection Pane
 
-  * If Connection: is not shown scroll down until you can see it. If you did step 8 above the Connection will be already set to what you created in step 8, If this is the first time you’ve done this it will be blank, click on the New… button.
+  - Connection Name: 96Boards or something specific to the 96Boards you are using right now
 
+  - Host: Put the IP address of the 96Boards here
 
-  * Change Connection type: to be SSH (Click OK)
+  - User: put the username to log into this board here, if using a standard Linaro image the name will be linaro
 
+  - Select Password based authentication and put in the password to log into the system. If you are using a Linaro image and have not changed the password yet the password it linaro.
 
-  * Now fill in the New Connection Pane
+  - You don’t need to make any changes to the Advanced settings.
 
+  - Click on the Finish button.
 
-    * Connection Name: 96Boards or something specific to the 96Boards you are using right now
+  - If you did step 8 above this will already be set to your selection in step 8, you don’t need to do it again, if it’s not set click on the Browse button for the “Remote Absolute File Path for C/C++ Application” This will open a pane showing the remote file system on the 96Board. Select the directory where you want the application you want it to run in. I’m using the linaro user home dir. Once you select the path just click on the x at the top right corner, it does not give you an OK button for some reason, the path will be carried back into the New Connection Pane, and will look something like “/home/linaro/test-64”
 
+  - Now click on the Debugger tab
 
-    * Host: Put the IP address of the 96Boards here
+- **You’ll see a line with:** “GDB debugger:” it will be set to gdb, change it to gdb-multiarch. This is critical, as mentioned in my prior blog the standard X86 gdb will have no idea how to debug ARM code.
 
-
-    * User: put the username to log into this board here, if using a standard Linaro image the name will be linaro
-
-
-    * Select Password based authentication and put in the password to log into the system. If you are using a Linaro image and have not changed the password yet the password it linaro.
-
-
-    * You don’t need to make any changes to the Advanced settings.
-
-
-    * Click on the Finish button.
-
-
-    * If you did step 8 above this will already be set to your selection in step 8, you don’t need to do it again, if it’s not set click on the Browse button for the “Remote Absolute File Path for C/C++ Application” This will open a pane showing the remote file system on the 96Board. Select the directory where you want the application you want it to run in. I’m using the linaro user home dir. Once you select the path just click on the x at the top right corner, it does not give you an OK button for some reason, the path will be carried back into the New Connection Pane, and will look something like “/home/linaro/test-64”
-
-
-    * Now click on the Debugger tab
-
-
-
-
-
-
-
-
-  * **You’ll see a line with:** “GDB debugger:” it will be set to gdb, change it to gdb-multiarch. This is critical, as mentioned in my prior blog the standard X86 gdb will have no idea how to debug ARM code.
-
-
-  * **You’ll see a line with:** “GDB command file:” and it will be set to “.gdbinit” just erase the file name completely, you don’t need it.
-
+- **You’ll see a line with:** “GDB command file:” and it will be set to “.gdbinit” just erase the file name completely, you don’t need it.
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-19.png" alt="19_DebugConfigPanelGDB" class="img-fluid" %}
 
+- Click on the Apply button, congratulations you have used the remote connection to select the run path and it’s ready to use to execute the Application.
 
-
-
-  * Click on the Apply button, congratulations you have used the remote connection to select the run path and it’s ready to use to execute the Application.
-
-
-  * Click on the Debug button, and Eclipse will change to the debugging perspective or ask you if it’s OK to switch to the Debugging perspective, if it does ask say yes. Now you can step through the code just like a debugging a local program.
-
+- Click on the Debug button, and Eclipse will change to the debugging perspective or ask you if it’s OK to switch to the Debugging perspective, if it does ask say yes. Now you can step through the code just like a debugging a local program.
 
 {% include image.html path="/assets/images/blog/eclipse-remote-dev-img-20.png" alt="20_RemoteDebugging" class="img-fluid" %}
 
@@ -392,26 +247,18 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 Other Blogs from David Mandala:
 
+- [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
+- [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
+- [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
-  * [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
-  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
-
-
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
-
-
-  * [Gui & command line remote debugging](/blog/gui-command-line-remote-debugging/) (Previous blog)
+- [Gui & command line remote debugging](/blog/gui-command-line-remote-debugging/) (Previous blog)

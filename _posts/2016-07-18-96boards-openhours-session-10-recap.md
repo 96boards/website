@@ -10,47 +10,45 @@ image_name: OpenHours-03.png
 title: 96Boards OpenHours Session 10 Recap
 wordpress_id: 15845
 Boards:
-- DragonBoard 410c
-- HiKey
+  - DragonBoard 410c
+  - HiKey
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- ARM
-- ARMv8
-- Breakout
-- Bubblegum
-- bubblegum-96
-- CE
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- Docker
-- dragonboard410c
-- HiKey
-- Library
-- Linux
-- Low speed expansion header
-- Open Embedded
-- Open Hours
-- OpenHours
-- Reference Platform
-- rpb
-- sensors
-- UART
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - Breakout
+  - Bubblegum
+  - bubblegum-96
+  - CE
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - Docker
+  - dragonboard410c
+  - HiKey
+  - Library
+  - Linux
+  - Low speed expansion header
+  - Open Embedded
+  - Open Hours
+  - OpenHours
+  - Reference Platform
+  - rpb
+  - sensors
+  - UART
 ---
 
 96Boards OpenHours session 10 was a little different than previous calls.  This was an hour to have people hangout and ask whatever questions people may have about 96Boards.  Several of our developers were on the call and ready to answer questions both from those on the call and ones they had seen on the forums.  To watch this weeks’ session go to:
 
 {% include media.html media_url="https://www.youtube.com/embed/ANbKOEejWMY?feature=oembed" %}
 
-
-
 This week began by addressing any questions from last week's session 9 as well as checking in on some guest's projects to see what the status was and if there were any issues or questions they had.  Robert then went through the attendees to see who had questions and if there were any new attendees on the call with questions.  There were some new folks listening in to get more information on what is going on in the community and there were many good resources given in the chat during the call which can be viewed below.   The team also talked about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/ ](http://connect.linaro.org/)   The session continued with an update from David Mandala and the very helpful blog he wrote on cross compiling:  [https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](/blog/eclipse-x86-linux-cross-compile-arm-linux/)  and an instruction set that can be found here: [ https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md](https://github.com/96boards/documentation/blob/master/Extras/CrossCompile/README.md).  Robert wrapped up the session talking about 96Boards documentation and contributions.
 
-Be sure to stay tune in to the next OpenHours  [https://www.96boards.org/openhours/](/openhours/).  Next week during session 11 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
+Be sure to stay tune in to the next OpenHours  [https://www.96boards.org/](/).  Next week during session 11 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
 Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 

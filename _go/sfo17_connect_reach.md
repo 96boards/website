@@ -1,12 +1,13 @@
 ---
 title: Linaro Connect Welcomes San Francisco / Burlingame based Engineers!
 description: |-
-    Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards
+  Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards
 permalink: /go/sfo17-connect-reach/
 layout: flow
 image: /assets/images/content/sfo-bg-thumb.png
 date: 2016-01-01 01:00:00+00:00
 ---
+
 ## Linaro Connect Welcomes San Francisco / Burlingame based Engineers!
 
 **Attend on Thursday 28th of September for no cost to three different sessions all about Linaro and 96Boards**
@@ -39,13 +40,12 @@ date: 2016-01-01 01:00:00+00:00
 
 ## Resources
 
-- About Linaro the parent company of 96Boards:  [https://www.linaro.org/about/](https://www.linaro.org/about/)
+- About Linaro the parent company of 96Boards: [https://www.linaro.org/about/](https://www.linaro.org/about/)
 - About 96Boards: [http://www.96boards.org/about/](http://www.96boards.org/about/)
-- About Openhours:  [http://www.96boards.org/openhours/](http://www.96boards.org/openhours/)
+- About Openhours: [http://www.96boards.org/](http://www.96boards.org/)
 
 We are looking to develop rapports with embedded firmware engineers in San Francisco. This endeavor of ours should lead to more community members for 96Boards to help us accomplish various projects using 96Boards. The event will take place in San Francisco / Burlingame at the Hyatt Regency Hotel, [read more here](http://connect.linaro.org/).
 
-To attend the Thursday the 28th of August sessions free of charge listed above click here to register:  all about Linaro and 96Boards click here:
-
+To attend the Thursday the 28th of August sessions free of charge listed above click here to register: all about Linaro and 96Boards click here:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Ekv-1sJe_57XqUMgIbQMSLXVwDmPXi7ByAP-NghaXl-tNw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

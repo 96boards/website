@@ -10,37 +10,37 @@ image_name: 96Boards_LS_pinout-1.jpg
 title: 96Boards Out of box experience guide - part 4
 wordpress_id: 14887
 Boards:
-- DragonBoard 410c
-- HiKey
+  - DragonBoard 410c
+  - HiKey
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- Breakout
-- Bubblegum
-- bubblegum-96
-- CE
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- GPIO
-- HiKey
-- Library
-- Linux
-- Low speed expansion header
-- Maker
-- Mezzanine
-- Open Embedded
-- Open Hours
-- OpenHours
-- Reference Platform
-- rpb
-- sensors
-- UART
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - Breakout
+  - Bubblegum
+  - bubblegum-96
+  - CE
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - GPIO
+  - HiKey
+  - Library
+  - Linux
+  - Low speed expansion header
+  - Maker
+  - Mezzanine
+  - Open Embedded
+  - Open Hours
+  - OpenHours
+  - Reference Platform
+  - rpb
+  - sensors
+  - UART
 ---
 
 Hello again, and welcome to part 4 of the out of box experience guide. This week we will be looking at the low speed expansion header on your 96Boards. The low-speed expansion header is where all of your “usable” general purpose input/output (GPIO) interfaces are located. In [last week’s blog](/blog/96boards-box-experience-guide-3/) we spoke about the mezzanine product line and sensors, in [open hours](https://youtu.be/k7QR_KlXMRc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk), we talked about how these boards help us to gain physical access to these interfaces. Now, in this part of the series we will access the GPIOs programmatically using the command line on your favorite 96Boards.
@@ -62,7 +62,6 @@ Below is an image of the DragonBoard™ 410c (one of our 96Boards), and a diagra
 {% include image.html path="/assets/images/blog/96boards-box-5-img-2.png" alt="Screen Shot 2016-05-05 at 1.25.25 PM" %}
 {% include image.html path="/assets/images/blog/96boards-box-5-img-3.jpg" alt="96Boards_LS_pinout" %}
 
-
 As you can see, this particular header is home to the many usable GPIO interfaces: [GPIO](), [I2C](), [SPI](), and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter). If you would recall from last week’s blog, members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](https://github.com/96boards/documentation/blob/master/mezzanine/README.md).
 
 In the part of the series, we will only focus on GPIOs (Green columns). In later parts we will go over some of the other interfaces available on this header.
@@ -78,61 +77,42 @@ Since each SoC has different GPIO values I had uploaded several of these diagram
 **DragonBoard 410c**
 {% include image.html path="/assets/images/content/DB410c_Debian_pinout.jpg" alt="Debian" %}
 
- ([Debian]()  / [Android]() )
+([Debian]() / [Android]() )
 **Bubblegum-96** ([Debian]() )
 
 Now that you have gained some familiarity with the low speed expansion header on your 96Boards, it’s time to take a closer look at the GPIO interface. This is the interface we will be interacting with in just a bit.
 
-
 ## **GPIO Defined**
-
 
 General purpose Input/Output pins or GPIO are pins that go generally unused by default and are said to have no defined special purpose. This means the user maintains decisive control over the GPIO pins and their actions. That being said, these GPIO are capable of performing a variety of user driven actions. Below is a list of potential capabilities of the GPIO pins as seen on [https://en.wikipedia.org/wiki/General-purpose_input/output](https://en.wikipedia.org/wiki/General-purpose_input/output)
 
 **GPIO capabilities may include:**
 
+- GPIO pins can be configured to be input or output
 
+- GPIO pins can be enabled/disabled
 
+- Input values are readable (typically high=1, low=0)
 
-  * GPIO pins can be configured to be input or output
+- Output values are writable/readable
 
-
-  * GPIO pins can be enabled/disabled
-
-
-  * Input values are readable (typically high=1, low=0)
-
-
-  * Output values are writable/readable
-
-
-  * Input values can often be used as IRQs (Interrupt), typically for wakeup events
-
+- Input values can often be used as IRQs (Interrupt), typically for wakeup events
 
 Here it is important to note the GPIO pins are configurable, and can be set as an input or output. With that, we see values can be written onto, or read from these interfaces (GPIO), typically as discrete values of 0 and 1 (High or Low). Being able to read and write values to these pins allows simple and quick communication with peripheral devices. These devices in turn help the 96Boards to interpret and communicate with the environment or other devices. All Single Board Computers are not the same, and will usually differ in many ways. 96Boards have 12 GPIO pins, one of which is multi-purpose (note the diagram).
 
-Okay! You should know enough about the GPIO, I think it’s time to get your hands dirty. In this next part you will be working directly on your 96Boards. Regardless of the 96Boards you are using, you should be able to follow these steps by making sure to use the correct GPIO_# corresponding to the GPIO pin you wish to toggle (Remember: usable GPIOs occupy the same pins on all 96Boards, the GPIO_# is what changes).
+Okay! You should know enough about the GPIO, I think it’s time to get your hands dirty. In this next part you will be working directly on your 96Boards. Regardless of the 96Boards you are using, you should be able to follow these steps by making sure to use the correct GPIO*# corresponding to the GPIO pin you wish to toggle (Remember: usable GPIOs occupy the same pins on all 96Boards, the GPIO*# is what changes).
 
 The remainder of this blog will focus on programming GPIOs using the terminal, this will require you to be running Debian Linux on your 96Boards. If you are not already running this OS, please visit your 96Boards landing page for installation instructions. ([HiKey](https://www.96boards.org/documentation/consumer/hikey/installation/), [DragonBoard 410c](https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/), [Bubblegum-96](https://www.96boards.org/documentation/consumer/bubblegum-96/installation/))
 
-
-
-
 ## **Toggle a GPIO using the command line**
-
 
 Your 96Boards should be booted into the Debian Linux desktop environment before you proceed.
 
 **Step 1: Item check list**
 
+- 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
 
-
-
-  * 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
-
-
-  * Mezzanine board with LED ([Blog 3](/blog/96boards-box-experience-guide-3/)) or equivalent. (a multimeter can be used to measure the voltage change when toggling GPIO pin. You can probe the pin directly, use this if you do not have a Mezzanine board. Voltage should toggle between zero and ~1.8 volts)
-
+- Mezzanine board with LED ([Blog 3](/blog/96boards-box-experience-guide-3/)) or equivalent. (a multimeter can be used to measure the voltage change when toggling GPIO pin. You can probe the pin directly, use this if you do not have a Mezzanine board. Voltage should toggle between zero and ~1.8 volts)
 
 **Step 2: Connect the desired device you wish to toggle**
 
@@ -193,24 +173,18 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 In next week’s blog we will continue to explore the 96boards GPIO interfaces. We will take a better look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]()https://www.96boards.org/documentation/consumer/guides/gpio.md.html. Once we have mastered our sample code, we will begin with our next GPIO interface, the [I2C](https://en.wikipedia.org/wiki/I²C).
 
 --
 
-**In this series**](/openhours/)
+**In this series**](/)
 
+- [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 
+- [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
 
+- [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
 
-  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
-
-
-  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
-
-
-  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
-
-
-  * [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/) (This)
+- [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/) (This)

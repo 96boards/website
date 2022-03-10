@@ -19,14 +19,13 @@ Let's start from the beginning... For the better part of the last decade, I have
 
 A few quarters ago, while mentoring an Electrical Engineering senior design course at UCSD, I proposed my group of students re-design and build my original hand held solar kit. This new design would be intended for Arm developers, and more specifically 96Boards. After 10 weeks, the students delivered a decent bill of materials and completed a mostly working prototype! This was impressive; however, the kit would still require plenty more modifications to optimize performance and efficiency. This was something I planned on doing over time, but had no idea when I would do this, until...
 
-One day, I posted a picture of the students' project on Twitter (And spoke about it on [OpenHours](https://www.96boards.org/openhours/)). This was when David Tischler from miniNodes reached out with a great collaboration idea!
+One day, I posted a picture of the students' project on Twitter (And spoke about it on [OpenHours](https://www.96boards.org/)). This was when David Tischler from miniNodes reached out with a great collaboration idea!
 
 We would take the solar box, apply another power source, add connectivity, give it a little makeover, and add a miniNode! All of this in a handheld case which can be carried easily from site to site, or dropped in a remote location to collect data and/or provide users with a means to develop off the grid. To tell the truth, the goal was to not limit the use-cases of this kit. We wanted to create a foundation for innovators, a functional and robust way for people to work on Arm, anywhere!
 
 Before we knew it, plans were set to not only attend Arm TechCon for Linaro and 96Boards, but also to showcase this awesome projects with miniNodes as Arm Innovators at the Arm Innovator Pavilion!
 
 Keep reading to hear more about the different parts of TechCon from my perspective. I will try to share pictures, videos and links when possible. And for anyone who is interested in jumping right to the project repository, [go ahead and click here](https://github.com/96boards-projects/96b-sustain-dev-box)!
-
 
 # More about the Project...
 
@@ -47,8 +46,7 @@ I would like to quickly list out a basic Bill of materials for the kit in questi
 - [96Boards Base Board - Arrow DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
 - [96Boards Mezzanine - Shiratech LTE](https://www.96boards.org/product/shiratech-lte/)
 - [3D Printer](https://shop.prusa3d.com/en/3d-printers/180-original-prusa-i3-mk3-kit.html#)
-- [Fillament](
-https://shop.prusa3d.com/en/filament/159-pla-extrafill-gold-happens-750g.html)
+- [Fillament](https://shop.prusa3d.com/en/filament/159-pla-extrafill-gold-happens-750g.html)
 - Switches
 - Juntions
 - Wires
@@ -64,9 +62,9 @@ The Linaro booth was on the far end of the convention hall, in a well lit and li
 
 At the booth, there were several demos...
 
-1) [DragonBoard 820c OpenCV color tracking demo](https://github.com/dbharbin/OpenCV-color-tracking-demo) by Don Harbin
-2) [The 96Boards SocioNext Synquacer Developerbox](https://www.96boards.org/product/developerbox/)
-3) [ThunderX 2 Work Station!](https://www.avantek.co.uk/store/avantek-thunderx2-arm-workstation-thunderx2station.html)
+1. [DragonBoard 820c OpenCV color tracking demo](https://github.com/dbharbin/OpenCV-color-tracking-demo) by Don Harbin
+2. [The 96Boards SocioNext Synquacer Developerbox](https://www.96boards.org/product/developerbox/)
+3. [ThunderX 2 Work Station!](https://www.avantek.co.uk/store/avantek-thunderx2-arm-workstation-thunderx2station.html)
 
 Anyone lucky enough to stumble across this booth was surely in for a treat, Arm technology and amazing demos for everyone!
 
