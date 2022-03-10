@@ -11,28 +11,28 @@ title: Reference Software Platform 16.06 Release!
 wordpress_id: 15630
 category: blog
 tags:
-- '16.06'
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- ARM
-- ARMv8
-- Cello
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- Enterprise Edition
-- HiKey
-- Lemaker
-- LeMaker Cello
-- Linux
-- Open Embedded
-- Reference Platform
-- Reference Platform Build
-- Reference Software Platform
-- rpb
+  - "16.06"
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - Cello
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - Enterprise Edition
+  - HiKey
+  - Lemaker
+  - LeMaker Cello
+  - Linux
+  - Open Embedded
+  - Reference Platform
+  - Reference Platform Build
+  - Reference Software Platform
+  - rpb
 ---
 
 We are pleased to announce the 16.06 release for the Reference Software Platform project!
@@ -45,274 +45,158 @@ Below is a list of some of this release’s highlights:
 
 Common:
 
+- Kernel:
+
+      * Unified tree shared between the CE and EE builds.
 
 
-
-  * Kernel:
-
-
-    * Unified tree shared between the CE and EE builds.
+      * 4.4.11-based, including some under-review topic branches to extend the features and platform hardware support.
 
 
-    * 4.4.11-based, including some under-review topic branches to extend the features and platform hardware support.
+      * Device-Tree support for CE; ARM ACPI and PCIe support for Enterprise.
 
 
-    * Device-Tree support for CE; ARM ACPI and PCIe support for Enterprise.
+      * Added OP-TEE support
 
 
-    * Added OP-TEE support
-
-
-      * Enabled on HiKey and Juno-r1
+        * Enabled on HiKey and Juno-r1
 
 
 
 
 
-    * Supports Reference HW platforms HiKey and Cello
+      * Supports Reference HW platforms HiKey and Cello
 
 
-      * Other Test Platforms include: Dragonboard 410c, Hisilicon D02 and D03, APM X-Gene, HP Proliant m400, AMD Overdrive, Qualcomm Q2432:ZB, and Cavium ThunderX.
-
-
-
-
-
-    * Single kernel config for all platforms in arch/arm64/configs/distro.config
-Single kernel binary (package) for all platforms
+        * Other Test Platforms include: Dragonboard 410c, Hisilicon D02 and D03, APM X-Gene, HP Proliant m400, AMD Overdrive, Qualcomm Q2432:ZB, and Cavium ThunderX.
 
 
 
 
 
-  * Bootloader:
+      * Single kernel config for all platforms in arch/arm64/configs/distro.config
 
+  Single kernel binary (package) for all platforms
 
-    * UEFI OpenPlatformPkg (upstream) now contains reference implementations for Huawei D02/D03, AMD Overdrive and LeMaker Cello
+- Bootloader:
 
+  - UEFI OpenPlatformPkg (upstream) now contains reference implementations for Huawei D02/D03, AMD Overdrive and LeMaker Cello
 
-    * U-boot support in DB410c images to allow easier handling of images
-
-
-
-
+  - U-boot support in DB410c images to allow easier handling of images
 
 Consumer Edition:
 
+- Reference hardware platform:
 
-  * Reference hardware platform:
+  - LeMaker Hikey
 
+- Other supported test platforms:
 
-    * LeMaker Hikey
+  - Dragonboard 410c
 
+- Overall CE Debian platform features, validated as part of the release:
 
+  - UEFI with DT
 
+  - Upgrade to Debian 8.5 "Jessie"
 
+  - Upgrade to the unified 4.4.11 Linux Kernel
 
-  * Other supported test platforms:
+  - Upgrade graphics components: Mesa 11.1.2 and XServer 1.17.3a
 
+  - Rootfs automatically resized during the first boot
 
-    * Dragonboard 410c
+- CE Debian RPB for HiKey:
 
+  - OP-TEE integrated by default
 
+  - UEFI updated to use the latest development trees based on Tianocore + OpenPlatformPkg
 
+- CE Debian build for DragonBoard™ 410c:
 
+  - U-boot chain-loaded from LK
 
-  * Overall CE Debian platform features, validated as part of the release:
+- CE OE/Yocto RPB:
 
+  - First OpenEmbedded-based RPB, including several changes and components merged from the LHG OE layers
 
-    * UEFI with DT
+  - Dragonboard 410c and HiKey support
 
+  - HiKey features:
 
-    * Upgrade to Debian 8.5 "Jessie"
+    - OP-TEE initial support
 
+    - Mali support for HiKey
 
-    * Upgrade to the unified 4.4.11 Linux Kernel
+  - Dragonboard 410c features:
 
-
-    * Upgrade graphics components: Mesa 11.1.2 and XServer 1.17.3a
-
-
-    * Rootfs automatically resized during the first boot
-
-
-
-
-
-  * CE Debian RPB for HiKey:
-
-
-    * OP-TEE integrated by default
-
-
-    * UEFI updated to use the latest development trees based on Tianocore + OpenPlatformPkg
-
-
-
-
-
-  * CE Debian build for DragonBoard™ 410c:
-
-
-    * U-boot chain-loaded from LK
-
-
-
-
-
-  * CE OE/Yocto RPB:
-
-
-    * First OpenEmbedded-based RPB, including several changes and components merged from the LHG OE layers
-
-
-    * Dragonboard 410c and HiKey support
-
-
-    * HiKey features:
-
-
-      * OP-TEE initial support
-
-
-      * Mali support for HiKey
-
-
-
-
-
-    * Dragonboard 410c features:
-
-
-      * GPU, WLAN, BT, audio, LS I/O, camera and GPS
-
-
-
-
-
-
-
+    - GPU, WLAN, BT, audio, LS I/O, camera and GPS
 
 Enterprise Edition:
 
+- Reference hardware platform:
 
-  * Reference hardware platform:
+  - LeMaker Cello
 
+- Other supported test platforms:
 
-    * LeMaker Cello
+  - AMD Overdrive A0 and B0
 
+  - Hisilicon D02
 
+  - Hisilicon D03 (new)
 
+  - APM X-Gene Mustang
 
+  - HP ProLiant m400
 
-  * Other supported test platforms:
+  - Qualcomm Q2432LZB (new)
 
+  - Cavium ThunderX (new)
 
-    * AMD Overdrive A0 and B0
+- Overall platform features, validated as part of the release:
 
+  - UEFI with ACPI
 
-    * Hisilicon D02
+  - KVM
 
+  - PCIe
 
-    * Hisilicon D03 (new)
+- Firmware:
 
+  - UEFI OpenPlatformPkg (upstream) now contains reference implementation for Huawei D02/D03, AMD Overdrive and LeMaker Cello
 
-    * APM X-Gene Mustang
+- Network Installers:
 
+  - Debian:
 
-    * HP ProLiant m400
+    - Upgrade to Debian 8.5 "Jessie"
 
+    - Use the unified 4.4.11 kernel
 
-    * Qualcomm Q2432LZB (new)
+  - CentOS
 
+    - Based on CentOS 7.2 16.03
 
-    * Cavium ThunderX (new)
+    - Use the unified 4.4.11 kernel
 
+- Enterprise Components:
 
+  - Docker 1.9.1
 
+  - OpenStack Liberty for Debian Jessie and CentOS
 
+  - ODPi 1.0.0 based Hadoop
 
-  * Overall platform features, validated as part of the release:
+  - Spark 1.3.1
 
+  - OpenJDK 8
 
-    * UEFI with ACPI
-
-
-    * KVM
-
-
-    * PCIe
-
-
-
-
-
-  * Firmware:
-
-
-    * UEFI OpenPlatformPkg (upstream) now contains reference implementation for Huawei D02/D03, AMD Overdrive and LeMaker Cello
-
-
-
-
-
-  * Network Installers:
-
-
-    * Debian:
-
-
-      * Upgrade to Debian 8.5 "Jessie"
-
-
-      * Use the unified 4.4.11 kernel
-
-
-
-
-
-    * CentOS
-
-
-      * Based on CentOS 7.2 16.03
-
-
-      * Use the unified 4.4.11 kernel
-
-
-
-
-
-
-
-
-  * Enterprise Components:
-
-
-    * Docker 1.9.1
-
-
-    * OpenStack Liberty for Debian Jessie and CentOS
-
-
-    * ODPi 1.0.0 based Hadoop
-
-
-    * Spark 1.3.1
-
-
-    * OpenJDK 8
-
-
-    * QEMU 2.6
-
-
-
-
+  - QEMU 2.6
 
 By taking on, and enabling more development boards to stimulate community involvement, a big push has been made to ensure this platform is used by as many 96boards as possible. Highlights can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Extras/Highlights.md). If you would like to contribute to one of the many RPB components, instructions to do so can be found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Contribute/README.md).
 
-Last week during [OpenHours](/openhours/) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
+Last week during [OpenHours](/) we had the opportunity to announce the 16.06 release of the Reference Software Platform ([Video #8](https://youtu.be/lB6zpB4pS60?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)). This is the fourth release, and like its predecessors, it has seen quite a few changes and improvements for both Consumer and Enterprise platforms.
 
 {% include media.html media_url="https://www.youtube.com/embed/lB6zpB4pS60?feature=oembed" %}
 
@@ -322,8 +206,7 @@ Please remember, there are plenty of resources all over the [96Boards](http://ww
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 On behalf of the Linaro 96Boards team,
 

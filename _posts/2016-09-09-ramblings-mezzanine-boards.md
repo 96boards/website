@@ -11,27 +11,27 @@ title: Ramblings of Mezzanine boards
 wordpress_id: 17252
 category: blog
 tags:
-- 32-bit Linux
-- 64-bit
-- 96Boards
-- aarch64
-- ARM
-- armhf
-- ARMv7
-- ARMv8
-- Bubblegum
-- Consumer IoT
-- cross compiler
-- DB410c
-- debugging
-- dragonboard410c
-- Eclipse
-- gdb
-- HiKey
-- Reference Platform
-- remote access
-- remote debugging
-- rpb
+  - 32-bit Linux
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - ARM
+  - armhf
+  - ARMv7
+  - ARMv8
+  - Bubblegum
+  - Consumer IoT
+  - cross compiler
+  - DB410c
+  - debugging
+  - dragonboard410c
+  - Eclipse
+  - gdb
+  - HiKey
+  - Reference Platform
+  - remote access
+  - remote debugging
+  - rpb
 ---
 
 In my [last blog](/blog/eclipse-remote-development-debugging/) I showed how to get Eclipse remote running and debugging working for your [96Boards](https://www.96boards.org). In fact it’s been a series of blogs which started with Linux based command line cross compilation, right through to getting [Eclipse](http://www.eclipse.org) to do the remote running and debugging (using the installed command line tools). It’s really been quite the journey for someone who, until this series of blogs, had never used Eclipse ever. I have to say I am impressed with Eclipse at one level, for people who like integrated development environments (IDE’s) Eclipse is a monster, it does just about everything I can imagine and then some. It also needs a huge display to work the easiest, so many panels, so much info to display. Me I’m old school, I like make files, separate editors and debuggers. Part of that is I’m firmly stuck in the past with my editor, I have a specific keyboard layout I prefer (Wordstar from the CP/M days) and the default in Eclipse is not my favorite. Still if I ever need to use an IDE for some reason, I think I’d use Eclipse. I can even use jstar (a joe alias) in a console and Eclipse picks up when I’ve changed the source code, this allows me to use my prefered editor, but I find it easier to use a text console to edit and run make when I feel like it.
@@ -42,31 +42,23 @@ What would everyone think about a series of blogs which used the Sensor Mezzanin
 
 You know, in speaking of the Sensor Mezzanine Board, we now have quite a few Mezzanine boards: [STM32 Sensor mezzanine board](/product/stm32/) (in development), [Linker mezzanine card starter kit](/product/linkspritesensorkit/) (shipping, I have one on my desk), [96Boards UART Serial Adapter](/product/uartserial/) (shipping, I have one on my desk), [Sensors mezzanine](/product/sensors-mezzanine/) (shipping, I have one on my desk) and the [Grove Starter Kit for 96Boards](/product/sensors-mezzanine/) (shipping, contains the sensor board and some sensors, and yes I have a couple), [96Boards Display Mezzanine Kit ](https://www.arrow.com/en/products/96boards-display-7/linksprite-technologies-inc)(back order, I have seen this at a trade show), [Robomezzi](https://github.com/mwelling/96boards-robomezzi) (in active development, I have seen this at a trade show) and last but not least the [AeroCore 2 for 96Boards](https://store.gumstix.com/aerocore-2-for-dragonboard.html) (shipping, I have one on my desk). Those are all the boards I know about, however I would not be surprised if there are more out there in the community which I’ve not heard of yet. In this blog I thought I’d talk a bit about the one’s I’ve used. Of course since I’m not a Android programmer I’ll talk about my experience under Linux (and bare metal for one board). Finally a reminder, all mezzanine cards can be used with all [CE 96Boards](/products/ce/), that is intentional, the 96Boards CE standard insures cross compatibility.
 
-
 # My Experience with Mezzanine Boards
-
 
 [Click here to visit 96Boards Mezzanine products pages](/products/mezzanine/)
 
-
 ## Linker Mezzanine card starter kit
-
 
 [More information here](/product/linkspritesensorkit/)
 
 Nice, well made board. This board connects only to the low speed interface with a hole in the board through which you could reach the high speed interface connector. It has the expected level shifters for the GPIO and I2C and SPI. The level shifters can be 3.3 VDC or 5 VDC, selected by a jumper. The SPI bus has 2 analog to digital converters so you can have analog input and convert it for the 96Boards. It also has the UART on a micro USB connector so you can plug in a USB cable from the board to a PC and get a serial console on the 96Boards, quite nice. It has a bunch of devices it comes with: Button Module, 5mm Red LED Module, LDR Module Thermal Module, Linear/Slide Potentiometer Module, Tilt Module, Touch Sensor Module, Relay Module, and (8) 20cm Connector Cables, and you can get more of them from LinkSprite. This is sold by [Arrow](https://www.arrow.com/en/products/96boards-starter-kit/linksprite-technologies-inc) but produced by [LinkSprite Technologies, Inc.](http://www.linksprite.com/)
 
-
 ## 96Boards UART Serial Adapter
-
 
 [More information here](/product/uartserial/)
 
 This was the first shipping mezzanine boards, it connects only to the low speed connector and it simply provides a level shifter for the serial consoles, bring them out to serial on USB, you select which via jumpers and a reset button. It was very handy back when 96Boards first came out, still handy but several mezzanine cards now include the same functionality so if you are using a Linker mezzanine, a Sensor board mezzanine, or the AeroCore 2 mezzanine you don’t need this board as all three include the functionality. Still, if you need quick access for early console boot access it can’t be beat.
 
-
 ## Sensors Mezzanine & Grove Starter Kit for 96Boards
-
 
 [More information here](/product/sensors-mezzanine/)
 
@@ -78,9 +70,7 @@ Since the UART is directly connected from the 96Boards to the ATMega328 you can 
 
 Lots of options for accessing the real world, and for the ATMega328 both the standard Arduino UNO headers and Grove connectors. It is a slightly complex board to use with onboard co-processor but it really allows great flexibility.
 
-
 ## AeroCore 2 Mezzanine Board
-
 
 [More information here](/product/aerocore2/)
 
@@ -92,26 +82,18 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
+- [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
+- [How do you install 96Boards GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
+- [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
-  * [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
-  * [How do you install 96Boards GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
-
-
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
-
-
-  * [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)
+- [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)

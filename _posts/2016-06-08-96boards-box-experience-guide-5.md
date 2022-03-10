@@ -11,58 +11,51 @@ title: 96Boards Out of box experience guide - part 5
 wordpress_id: 15029
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- Breakout
-- Bubblegum
-- bubblegum-96
-- CE
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- GPIO
-- HiKey
-- I Squared C
-- I2C
-- LED
-- libmraa
-- Library
-- libsoc
-- Linux
-- Low speed expansion header
-- Maker
-- Mezzanine
-- mraaU
-- Open Embedded
-- Open Hours
-- OpenHours
-- Reference Platform
-- rpb
-- sensors
-- UART
-- UPM
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - Breakout
+  - Bubblegum
+  - bubblegum-96
+  - CE
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - GPIO
+  - HiKey
+  - I Squared C
+  - I2C
+  - LED
+  - libmraa
+  - Library
+  - libsoc
+  - Linux
+  - Low speed expansion header
+  - Maker
+  - Mezzanine
+  - mraaU
+  - Open Embedded
+  - Open Hours
+  - OpenHours
+  - Reference Platform
+  - rpb
+  - sensors
+  - UART
+  - UPM
 ---
 
 Congratulations! Four whole blogs down and ready for the fifth. In this last month we have been through a lot of material, I think it deserves a short recap:
 
+- [Part 1](/blog/96boards-box-experience-guide-1/): 96Boards delivery and unboxing, we explored the bare essentials for booting up your 96Boards for the first time!
 
+- [Part 2](/blog/96boards-box-experience-guide-2/): 96Boards Consumer Edition comparison, which 96Boards is best for you? This blog will help you choose!
 
+- [Part 3](/blog/96boards-box-experience-guide-3/): 96Boards add-ons, from mezzanine products to 3D printed accessories and fun! Plenty of resources were handed out during this blog!
 
-  * [Part 1](/blog/96boards-box-experience-guide-1/): 96Boards delivery and unboxing, we explored the bare essentials for booting up your 96Boards for the first time!
-
-
-  * [Part 2](/blog/96boards-box-experience-guide-2/): 96Boards Consumer Edition comparison, which 96Boards is best for you? This blog will help you choose!
-
-
-  * [Part 3](/blog/96boards-box-experience-guide-3/): 96Boards add-ons, from mezzanine products to 3D printed accessories and fun! Plenty of resources were handed out during this blog!
-
-
-  * [Part 4](/blog/96boards-box-experience-guide-4/): General Purpose Input/Output (GPIO) and low speed expansion header, these interfaces help us manipulate and interpret data from the environment using our 96Boards! Diagrams, GPIO examples and plenty more resources can be found through this blog.
-
+- [Part 4](/blog/96boards-box-experience-guide-4/): General Purpose Input/Output (GPIO) and low speed expansion header, these interfaces help us manipulate and interpret data from the environment using our 96Boards! Diagrams, GPIO examples and plenty more resources can be found through this blog.
 
 If you missed any of these sections you can always go back to read them and pair them with their recordings in the [96Boards Open Hours YouTube channel](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
 
@@ -70,16 +63,9 @@ For this particular part of the blog we will not be diverging from the GPIO just
 
 Thanks to a few Linaro engineers, we are now able to use apt-get (in Debian Linux) to retrieve our 96Boards enabled libraries! This means it is no longer necessary to build from source, instead we can execute a simple command in our terminal to download and install the library of our choice. Before jumping into an example, we will first try to provide a small definition for each available library.
 
-
-
-* * *
-
-
-
-
+---
 
 ### [96BoardsGPIO](https://github.com/96Boards/96BoardsGPIO)
-
 
 This is the rudimentary beginnings of the 96BoardGPIO library to control real world hardware via the GPIO on the 96Boards family of boards that confirm to the CE spec.
 One of the cool things about the 96Boards CE project is that all of the boards use the same pins for the Low Speed Expansion Connector so you can plug any expansion board into any 96Board and it will connect electrically BUT there is an issue where GPIO is concerned. Different SoC's have different GPIO pins. So even though electrically the pins are in the same place it takes different code to enable and use the GPIO on pins 23 - 34. Not so fun.
@@ -87,27 +73,21 @@ The 96BoardGPIO library tries to abstract the info so that you can just tell it 
 
 - Summary taken from [96BoardsGPIO github repository](https://github.com/96Boards/96BoardsGPIO)
 
-
 ### [Libsoc](https://github.com/jackmitch/libsoc)
-
 
 Libsoc is a C library to interface with common peripherals found in System on Chips (SoC) through generic Linux Kernel interfaces.
 It is aimed at new Linux users, and intends to be a stepping stone to enable a user to get started quickly. It is optimised for reliability rather than speed. While the library should be fast, no guarantees are made on it's determinism and it should not be used in time critical routines.
 
 - Summary taken from [Libsoc github repository](https://github.com/jackmitch/libsoc)
 
-
 ### [Libmraa](https://github.com/intel-iot-devkit/mraa)
-
 
 Libmraa is a C/C++ library with bindings to Java, Python and JavaScript to interface with the IO on Galileo, Edison & other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of libmraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
 - Summary taken from [Libmraa github repository](https://github.com/intel-iot-devkit/mraa)
 
-
 ### [UPM](https://github.com/intel-iot-devkit/upm)
-
 
 The UPM repository provides software drivers for a wide variety of commonly used sensors and actuators. These software drivers interact with the underlying hardware platform (or microcontroller), as well as with the attached sensors, through calls to [MRAA](https://github.com/intel-iot-devkit/mraa) APIs.
 
@@ -115,56 +95,35 @@ Programmers can access the interfaces for each sensor by including the sensor’
 
 C++ interfaces have been defined for the following sensor/actuator types, but they are subject to change:
 
+- Light controller
 
+- Light sensor
 
+- Temperature sensor
 
-  * Light controller
+- Humidity sensor
 
+- Pressure sensor
 
-  * Light sensor
+- Gas sensor
 
-
-  * Temperature sensor
-
-
-  * Humidity sensor
-
-
-  * Pressure sensor
-
-
-  * Gas sensor
-
-
-  * Analog to digital converter
-
+- Analog to digital converter
 
 The developer community is encouraged to help expand the list of supported sensors and actuators and provide feedback on interface design.
 
 - Summary was taken from [UPM github repository](https://github.com/intel-iot-devkit/upm)
 
-
-
-* * *
-
-
+---
 
 As you may have noticed, a couple of these libraries have dependencies. This is to say, some libraries are unusable without the other:
 
+- 96BoardsGPIO library is dependent on the libsoc library
 
-
-
-  * 96BoardsGPIO library is dependent on the libsoc library
-
-
-  * UPM library is dependent on the libmraa library.
-
+- UPM library is dependent on the libmraa library.
 
 I think that is enough information about the libraries. I would suggest taking some time to check out each repository (provided in the links above), pick through the source, and get familiar with what exactly is happening later. In just a little bit we will install one of those libraries on our 96Boards. Once the library is installed, we will pull down some sample code, build it, and run the program.
 
-
 ## Sample Application using libsoc
-
 
 Let’s get started! As always, we want to make sure we have everything we need to execute our sample code.
 
@@ -172,29 +131,19 @@ _Please note: This example is meant to be run on Debian Linux_
 
 **Step 1: Item check list**
 
+- 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
 
+- [Power Supply](/product/power/)
 
+- HDMI monitor
 
-  * 96Boards booted up into Debian Linux desktop ([Blog P1](/blog/96boards-box-experience-guide-1/), [Blog P2](/blog/96boards-box-experience-guide-2/))
+- USB Keyboard and Mouse
 
+- [Linker Mezzanine kit](/product/linkspritesensorkit/) or [96Boards Sensor Mezzanine kit](/product/sensors-mezzanine/)
 
-  * [Power Supply](/product/power/)
+- 96Boards baseboard mezzanine spacers, these spacers come with either Mezzanine kit
 
-
-  * HDMI monitor
-
-
-  * USB Keyboard and Mouse
-
-
-  * [Linker Mezzanine kit](/product/linkspritesensorkit/) or [96Boards Sensor Mezzanine kit](/product/sensors-mezzanine/)
-
-
-  * 96Boards baseboard mezzanine spacers, these spacers come with either Mezzanine kit
-
-
-  * This example will make use of two sensors: Touch Sensor and LED or Buzzer
-
+- This example will make use of two sensors: Touch Sensor and LED or Buzzer
 
 **Step 2: Safety first!**
 
@@ -206,38 +155,21 @@ This is why we will be very careful when connecting our mezzanine board. Whether
 
 **Step 3: Connect your mezzanine board (must have GPIO breakout, example found in parts list above)**
 
+- Your 96Boards should NOT be plugged into the power
 
+- Screw in all four 96Boards baseboard spacers
 
+  - These spacers will keep the mezzanine board at the perfect distance from the baseboard.
 
-  * Your 96Boards should NOT be plugged into the power
+- Carefully connect your mezzanine board to your 96Boards
 
+  - Make sure all pins are aligned properly! This is very important
 
-  * Screw in all four 96Boards baseboard spacers
+  - If your pins are not aligned properly, the board WILL short when it is plugged into power (magic white smoke warning!)
 
+- Sensors can be plugged into GPIO breakouts on mezzanine (if desired)
 
-    * These spacers will keep the mezzanine board at the perfect distance from the baseboard.
-
-
-
-
-
-  * Carefully connect your mezzanine board to your 96Boards
-
-
-    * Make sure all pins are aligned properly! This is very important
-
-
-    * If your pins are not aligned properly, the board WILL short when it is plugged into power (magic white smoke warning!)
-
-
-
-
-
-  * Sensors can be plugged into GPIO breakouts on mezzanine (if desired)
-
-
-  * Once we pull down the sample code, we will be able to choose which GPIOs we want to use for our two sensors.
-
+- Once we pull down the sample code, we will be able to choose which GPIOs we want to use for our two sensors.
 
 {% include image.html path="/assets/images/blog/oob-experience-img-1.png" alt="oob experience image 1" class="img-fluid" %}
 
@@ -248,22 +180,13 @@ This is why we will be very careful when connecting our mezzanine board. Whether
 
 **Step 4: Connect everything else**
 
+- Connect HDMI cable to 96boards and monitor
 
-
-
-  * Connect HDMI cable to 96boards and monitor
-
-
-  * Connect USB mouse and keyboard
-
+- Connect USB mouse and keyboard
 
 **Step 5: Plug your 96Boards baseboard into power**
 
-
-
-
-  * Once again, it is important to make sure all low speed expansion header pins are lined up properly and flush with spacers between the mezzanine board and baseboard.
-
+- Once again, it is important to make sure all low speed expansion header pins are lined up properly and flush with spacers between the mezzanine board and baseboard.
 
 **Step 6: Open the terminal application on your 96Boards**
 
@@ -275,17 +198,11 @@ The image on your board might be out of date. This is possible even when using t
 
 A few useful commands will help us make sure everything on the board is current:
 
+- **apt-get update:** Downloads package lists from online repositories and "updates" them to get information on the newest versions of packages and their dependencies.
 
+- **apt-get upgrade:** Fetches and installs newest package versions which currently exist on the system. APT must know about these new versions by way of 'apt-get update'
 
-
-  * **apt-get update:** Downloads package lists from online repositories and "updates" them to get information on the newest versions of packages and their dependencies.
-
-
-  * **apt-get upgrade:** Fetches and installs newest package versions which currently exist on the system. APT must know about these new versions by way of 'apt-get update'
-
-
-  * **apt-get dist-upgrade:** In addition to performing the function of upgrade, this option also intelligently handles changing dependencies with new versions of packages
-
+- **apt-get dist-upgrade:** In addition to performing the function of upgrade, this option also intelligently handles changing dependencies with new versions of packages
 
 **Commands:**
 
@@ -309,14 +226,9 @@ $ sudo apt-get install libsoc-dev
 
 **Step 9: Clone the sample code!**
 
+- Create a new folder and `cd` into this new directory, this is where we will clone our sample code.
 
-
-
-  * Create a new folder and `cd` into this new directory, this is where we will clone our sample code.
-
-
-  * Clone code and `cd` into sample code directory
-
+- Clone code and `cd` into sample code directory
 
 **Commands:**
 
@@ -326,20 +238,13 @@ You can check the contents of this directory by executing the `ls` or `ls -la` c
 
 You should have:
 
+- AC-ledGPIO.c (push button led code using 96BoardsGPIO library)
 
+- AC-ledMRAA.cpp (push button led code using libmraa library)
 
+- AC.ledSOC.c (push button led code using libsoc library)
 
-  * AC-ledGPIO.c (push button led code using 96BoardsGPIO library)
-
-
-  * AC-ledMRAA.cpp (push button led code using libmraa library)
-
-
-  * AC.ledSOC.c (push button led code using libsoc library)
-
-
-  * README.md (Readme document with full compilation and run instructions!)
-
+- README.md (Readme document with full compilation and run instructions!)
 
 **Step 10: Check README.md and desired sample code file for more information**
 
@@ -354,7 +259,7 @@ There is one crucial section of code in the AC-ledSOC.c file! This is where we w
 Found on lines 42-47
 
 {
-board_config *config = libsoc_board_init();
+board_config \*config = libsoc_board_init();
 GPIO_BUTTON = libsoc_board_gpio_id(config, "GPIO-A");
 GPIO_LED = libsoc_board_gpio_id(config, "GPIO-C");
 libsoc_board_free(config);
@@ -364,14 +269,9 @@ Here it is important to note the GPIO values that are set by default for this sa
 
 **Step 11: Plug in sensors**
 
+- GPIO_BUTTON should be plugged into GPIO-A on your mezzanine
 
-
-
-  * GPIO_BUTTON should be plugged into GPIO-A on your mezzanine
-
-
-  * GPIO_LED should be plugged into GPIO-C on your mezzanine
-
+- GPIO_LED should be plugged into GPIO-C on your mezzanine
 
 **Step 12: Compile code**
 
@@ -391,25 +291,18 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!
 
 --
 
 **In this series**
 
+- [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
 
+- [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
 
+- [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
 
-  * [96Boards Out of box experience guide – part 1](/blog/96boards-box-experience-guide-1/)
+- [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/)
 
-
-  * [96Boards Out of box experience guide – part 2](/blog/96boards-box-experience-guide-2/)
-
-
-  * [96Boards Out of box experience guide – part 3](/blog/96boards-box-experience-guide-3/)
-
-
-  * [96Boards Out of box experience guide – part 4](/blog/96boards-box-experience-guide-4/)
-
-
-  * [96Boards Out of box experience guide – part 5](/blog/96boards-box-experience-guide-5/) (This)
+- [96Boards Out of box experience guide – part 5](/blog/96boards-box-experience-guide-5/) (This)

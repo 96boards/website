@@ -11,48 +11,47 @@ title: Laser cutting for 96Boards with Daniel T.
 wordpress_id: 20167
 category: blog
 tags:
-- 2016 review
-- 64-bit
-- 96Boards
-- 96Boards case
-- aarch64
-- Android
-- ARM
-- ARMv8
-- B2260
-- bubblegum-96
-- cases
-- computer vision
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- DIY
-- dragonboard410c
-- F-Cue
-- face detection
-- face recognition
-- General Purpose Input Output
-- GPIO
-- HiKey
-- I Squared C
-- I2C
-- kernel virtual machine
-- kvm
-- laser
-- laser cutting
-- Linux
-- MediaTek X20
-- new year
-- Open Embedded
-- OpenCV
-- Reference Platform
-- rpb
-- servo
-- SimpleCV
+  - 2016 review
+  - 64-bit
+  - 96Boards
+  - 96Boards case
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - B2260
+  - bubblegum-96
+  - cases
+  - computer vision
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - DIY
+  - dragonboard410c
+  - F-Cue
+  - face detection
+  - face recognition
+  - General Purpose Input Output
+  - GPIO
+  - HiKey
+  - I Squared C
+  - I2C
+  - kernel virtual machine
+  - kvm
+  - laser
+  - laser cutting
+  - Linux
+  - MediaTek X20
+  - new year
+  - Open Embedded
+  - OpenCV
+  - Reference Platform
+  - rpb
+  - servo
+  - SimpleCV
 ---
 
 # **Introduction**
-
 
 There are myriad ways one could set about designing cases for 96Boards. So far 3D printers have been strongly represented; there are even  two different case designs shared on [https://github.com/96boards](https://github.com/96boards). It makes sense. 3D printers get cheaper everyday and additive manufacturing is really cool right now.
 
@@ -66,29 +65,19 @@ Laser cutters are computer controller cutting machines that can cut sheet materi
 
 {% include image.html path="/assets/images/blog/laser-cutting-img-1.png" alt="Laser Cutting Image 1" class="img-fluid" %}
 
-
-
 _From top to bottom this case has a layer of clear acryilic, five layers of transparent green side pieces, a layer of laser cut plywood and a final layer of green. I _**_love_**_ the way the green sides suck in the light… in the flesh they always seem to be glowing._
 
-
 ### **Commercial service or home manufacturing?**
-
 
 You don’t need any equipment (except your computer) to design laser cut cases. Once you have a design there are a wide variety of outfits, large and small, which can do the cutting for you. They are pretty inexpensive because there’s very little human time needed to get your design from their servers to the cutter.
 
 However commercial services are, quite naturally subject to commercial contraints, this commonly include:
 
+1. Most cutting services have fixed panel sizes (e.g. 100x100mm, 200x100mm, etc) so their staff can load the materials into the cutters very quickly. In order to minimise costs you may have to compromise your designs to fit the panel boundaries.
 
+2. Time is money… designs that tie up the expensive laser equipment for long periods inevitably cost more. This leads to designers have to avoid certain design flourishes.
 
-
-  1. Most cutting services have fixed panel sizes (e.g. 100x100mm, 200x100mm, etc) so their staff can load the materials into the cutters very quickly. In order to minimise costs you may have to compromise your designs to fit the panel boundaries.
-
-
-  2. Time is money… designs that tie up the expensive laser equipment for long periods inevitably cost more. This leads to designers have to avoid certain design flourishes.
-
-
-  3. Engraving requires precise control of the laser power to avoid blowing holes though the material instead of merely marking them. Some comercial services, especially the budget ones, avoid this problem by disallowing engraving entirely and only offering a cutting service.
-
+3. Engraving requires precise control of the laser power to avoid blowing holes though the material instead of merely marking them. Some comercial services, especially the budget ones, avoid this problem by disallowing engraving entirely and only offering a cutting service.
 
 Home manufacturing releases us from all of the above. Time contraints can mostly be ignores because we will be working with small runs and can happily drink coffee whilst the laser does its thing. At least for me, time spent drinking coffee is never wasted!
 
@@ -96,30 +85,21 @@ In truth home manufacturing can be assumed to be entirely free from economic con
 
 If you want to learn loads **and** save money then see if there is a hackspace in your home town!
 
-
 ### **Cutting and engraving**
-
 
 There are three main actions that we can perform with a laser cutter.
 
+1. Cutting is the obvious one. Here we get the laser head to trace the outline of the shape we want to cut. We move the head fairly slowly (maybe 12mm/sec) and set the laser power very high. This cuts though the material. Thermo plastics cut cleanly whilst other materials tend to leave a slightly charred edge which skilled designers will incorporate into their design!
 
+2. Vector engraving is a quick way to add port labels. Again we get the laser head to trace the outline of the shape we want to engrave, we simply get the head moving faster (40 mm/sec or more) and turn the laser power down so we only mark the surface of the material.
 
-
-  1. Cutting is the obvious one. Here we get the laser head to trace the outline of the shape we want to cut. We move the head fairly slowly (maybe 12mm/sec) and set the laser power very high. This cuts though the material. Thermo plastics cut cleanly whilst other materials tend to leave a slightly charred edge which skilled designers will incorporate into their design!
-
-
-  2. Vector engraving is a quick way to add port labels. Again we get the laser head to trace the outline of the shape we want to engrave, we simply get the head moving faster (40 mm/sec or more) and turn the laser power down so we only mark the surface of the material.
-
-
-  3. The final approach is raster engraving. This is used to fill in shapes or to transfer complex imagary and works by running the laser head side to side very fast (250 mm/sec) whilst turning the laser on and off to draw the pattern as we very slowly more the head down theee workpiece. Raster engraving is typically very slow compared to cutting and vector engraving. It is often avoided in comercial designes for this reason. On some systems it is possible to vary the laser intensity during raster engraving. In materials like plywood this allows different black levels to be acheived allowing the rendering of black and white photos.
-
+3. The final approach is raster engraving. This is used to fill in shapes or to transfer complex imagary and works by running the laser head side to side very fast (250 mm/sec) whilst turning the laser on and off to draw the pattern as we very slowly more the head down theee workpiece. Raster engraving is typically very slow compared to cutting and vector engraving. It is often avoided in comercial designes for this reason. On some systems it is possible to vary the laser intensity during raster engraving. In materials like plywood this allows different black levels to be acheived allowing the rendering of black and white photos.
 
 All three actions can be seen in the following video, as you will see the vector engrave is complete in 15 second or so, whilst the raster engrave the follows takes over two minutes.
 
 {% include media.html media_url="https://www.youtube.com/embed/Hixk8R_-ixQ" %}
 
 # **Prerequisites**
-
 
 The most important thing when designing a case for a board is to know the geometry very precisely. We have a big headstart on 96Boards because the specification has drawings for each form factor. This gives use the overall board size together with the location of the mounting holes.
 
@@ -128,7 +108,6 @@ However that’s not quite enough. Maybe you have a 96boards-uart plugged into t
 {% include image.html path="/assets/images/blog/laser-cutting-img-2.png" alt="Laser Cutting Image 2" class="img-fluid" %}
 
 # **Instructions**
-
 
 The design process itself is simply producing a 2D drawing of the desired cut and engravings. Often this is simply different cuts/engraves in different colours although some programs use layers instead.
 
@@ -140,9 +119,7 @@ My full design flow has become, render the functional elements using python. The
 
 Once I have the final artwork then we’re ready to go. We can ether send it out to a cutting services (as I did for my early designs) or we go downstairs and fire up the beast in the cellar.
 
-
 # **Conclusion**
-
 
 **It’s an astonishingly rewarding process turning this:**
 
@@ -154,9 +131,7 @@ Once I have the final artwork then we’re ready to go. We can ether send it out
 
 Have a go!
 
-
 # **Resources**
-
 
 I have published most of my designs on [github](https://github.com/daniel-thompson/laser-lab). Take a look if you are interested in the turtle code or just want to copy some tried and tested designs. Its all there for you to use!
 
@@ -168,9 +143,8 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
-
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

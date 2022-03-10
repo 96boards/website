@@ -12,67 +12,68 @@ image: /assets/images/blog/modding-arrow-audio-mezz-img-1.jpg
 image_name: modding-arrow-audio-mezz-img-1.jpg
 category: blog
 tags:
-- 64-Bit
-- 96Boards
-- Aarch64
-- Android
-- ARM Arm32
-- Arm64
-- ARMv8
-- B2260
-- Breakout
-- Bubblegum
-- Bubblegum-96
-- CE
-- Consumer
-- Edition
-- Consumer
-- IoT
-- DB410c
-- Debugging
-- Docker
-- DragonBoard
-- Dragonboard410c
-- DragonBoard
-- 410c
-- F-Cue
-- Gdb
-- General
-- Purpose
-- Input
-- Output
-- GPIO
-- Gui
-- HiKey
-- I2C
-- I
-- Squared
-- C
-- Library
-- Linaro
-- Linux
-- Low
-- Speed
-- Expansion
-- Header
-- Maker
-- MediaTek
-- X20
-- Mezzanine
-- Open
-- Embedded
-- OpenHours
-- Open
-- Hours
-- Open
-- Source
-- Qualcomm
-- Reference
-- Platform
-- Rpb
-- Sensors
-- UART
+  - 64-Bit
+  - 96Boards
+  - Aarch64
+  - Android
+  - ARM Arm32
+  - Arm64
+  - ARMv8
+  - B2260
+  - Breakout
+  - Bubblegum
+  - Bubblegum-96
+  - CE
+  - Consumer
+  - Edition
+  - Consumer
+  - IoT
+  - DB410c
+  - Debugging
+  - Docker
+  - DragonBoard
+  - Dragonboard410c
+  - DragonBoard
+  - 410c
+  - F-Cue
+  - Gdb
+  - General
+  - Purpose
+  - Input
+  - Output
+  - GPIO
+  - Gui
+  - HiKey
+  - I2C
+  - I
+  - Squared
+  - C
+  - Library
+  - Linaro
+  - Linux
+  - Low
+  - Speed
+  - Expansion
+  - Header
+  - Maker
+  - MediaTek
+  - X20
+  - Mezzanine
+  - Open
+  - Embedded
+  - OpenHours
+  - Open
+  - Hours
+  - Open
+  - Source
+  - Qualcomm
+  - Reference
+  - Platform
+  - Rpb
+  - Sensors
+  - UART
 ---
+
 # **Introduction**
 
 **On the official documentation by [Seeed Studio](https://www.seeedstudio.com/), The [Audio Mezz](https://www.96boards.org/product/audio-mezzanine/) is described as,**
@@ -111,7 +112,7 @@ Before we get started, I would recommend that the person performing this task to
 
 1.  Carefully pry out the plastic part of the i2c header on the audio mezz, using a thin flat head screwdriver between the PCB and header to provide leverage and push out the plastic.
     This should leave you with the bare connector, that look like tiny metal claws, sticking out of the PCB.
-{% include image.html path="/assets/images/blog/modding-arrows-img-6.png" alt="Modding Arrow Audio Mezz Image 6" class="img-fluid"%}
+    {% include image.html path="/assets/images/blog/modding-arrows-img-6.png" alt="Modding Arrow Audio Mezz Image 6" class="img-fluid"%}
 
 2.  Now we can apply ample amount of Flux paste onto the solder pads.
 3.  Following that, sandwich the Solder Wick between the pads on the pcb and you soldering iron and hold the iron in place for a few seconds. This should suck all the excess solder onto the wick and the metal pieces will stick to it as well
@@ -130,7 +131,7 @@ But, do remember that these board are in a limited supply from arrow, around 750
 
 {% include media.html media_url="https://www.youtube.com/embed/0RmwPOo1-Gw" %}
 
-* * *
+---
 
 # Resources
 
@@ -142,6 +143,6 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

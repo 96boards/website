@@ -5,12 +5,12 @@ date: 2018-02-06 01:01:54+00:00
 image: /assets/images/blog/96boards-lemaker-cello.jpg
 categories: blog
 tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, enterprise edition, Linaro, Linux, iot, cloud, aws, amazon web services, sysadmin, cello,
-
 ---
 
-PLEASE NOTE: This post was provided by the community. It has been rendered from it's original found [here](https://gigofham.com/post/2018/02/06-cello/) and is authored by *edolnx - Carl Perry*
+PLEASE NOTE: This post was provided by the community. It has been rendered from it's original found [here](https://gigofham.com/post/2018/02/06-cello/) and is authored by _edolnx - Carl Perry_
 
 Many, many moons ago I pre-ordered the LeMaker Cello. It's a 96boards Enterprise Edition Single Board Computer based on the AMD "Seattle" Opteron A1100 ARM Processor. I was very excited, because unlike many of the boards I already had it sported three key features: Native SATA ports, a full PCI Express 16x mechanical expansion port, and 2x SO-DIMM slots for memory. After many months of delays, we got some bad news: AMD had discontinued the processor and the PCI Express port didn't work. LeMaker offered those of us who pre-ordered to swap our pre-orders for a HiKey 960 board instead based on this news, since that had a PCI Express expansion port. Unfortunately for me, the HiKey 960 doesn't have gigabit ethernet or expandable RAM, so I stuck with my pre-order. I had planned to use them as a pair of Database servers for my hosting company, and the lack of PCI Express expansion wasn't a big deal. Several months later, the boards shipped and then my adventure began.
+
 <!--more-->
 
 # Getting the boards
@@ -47,7 +47,7 @@ The boards sit in a drawer, essentially very expensive paper weights. I've mostl
 
 # Office Hours
 
-Several months, I get involved with the [Works on ARM](http://www.worksonarm.com/) community, and ask there for help. They point me to the [96boards Open Hours](https://www.96boards.org/openhours/) and after a couple of false starts there I'm able to reach out and get some help. Robert from Open Hours gets me in touch with Ard and Ricardo who were engineers on the Cello project. I explain my delemma and learn an important step: on my Rev 003 boards there is another serial port on the board which tells you if the memory can be configured, and there is a power button (YMMV on other board revisions).
+Several months, I get involved with the [Works on ARM](http://www.worksonarm.com/) community, and ask there for help. They point me to the [96boards Open Hours](https://www.96boards.org/) and after a couple of false starts there I'm able to reach out and get some help. Robert from Open Hours gets me in touch with Ard and Ricardo who were engineers on the Cello project. I explain my delemma and learn an important step: on my Rev 003 boards there is another serial port on the board which tells you if the memory can be configured, and there is a power button (YMMV on other board revisions).
 
 # The SCP Serial Port
 
@@ -275,9 +275,9 @@ Once I have the case design done, I will post here for others. It will be CC0 li
 
 If you skipped all the text above, here is what you need to know:
 
-* You will need an IDENTICAL PAIR of ECCx72 SO-DIMM modules, I'm using [8GB modules from memory4less.com](http://www.memory4less.com/micron-8gb-sodimm-pc10600-mt18ksf1g72hz-1g4d1ze)
-* You will need a USB-TTL serial adapter to connect to the SCP FTDI header next to the PCI Express slot in order to see if the SCP manages to configure the memory and other hardware correctly. That serial port operates at 38400bps.
-* If you don't get output from the SCP, you may need to apply firmware to the board. See above, good luck, and let me know if you succeed.
-* If you do get output, then press the "Boot" button. You should get lots more output on the SCP and if memory configuration succeeds, it will boot and in several minutes you can interact with the UEFI console on the integrated USB serial port at 115200bps.
+- You will need an IDENTICAL PAIR of ECCx72 SO-DIMM modules, I'm using [8GB modules from memory4less.com](http://www.memory4less.com/micron-8gb-sodimm-pc10600-mt18ksf1g72hz-1g4d1ze)
+- You will need a USB-TTL serial adapter to connect to the SCP FTDI header next to the PCI Express slot in order to see if the SCP manages to configure the memory and other hardware correctly. That serial port operates at 38400bps.
+- If you don't get output from the SCP, you may need to apply firmware to the board. See above, good luck, and let me know if you succeed.
+- If you do get output, then press the "Boot" button. You should get lots more output on the SCP and if memory configuration succeeds, it will boot and in several minutes you can interact with the UEFI console on the integrated USB serial port at 115200bps.
 
 Hope that helps others, feel free to leave comments below if you have questions or concerns. Thanks a bunch to Ard, Robert, and Ricardo from 96boards for their help getting my Cello boards up and running!

@@ -7,72 +7,72 @@ series: Google Assistant on 96Boards
 image: /assets/images/blog/google-assistant-96boards-feature.jpg
 category: blog
 tags:
-- 64-Bit
-- 96Boards
-- Android
-- ARM Arm32
-- Arm64
-- ARMv8
-- B2260
-- Breakout
-- Bubblegum
-- Bubblegum-96
-- CE
-- Consumer
-- Edition
-- Consumer
-- IoT
-- DB410c
-- Debugging
-- Docker
-- DragonBoard
-- Dragonboard410c
-- DragonBoard
-- 410c
-- F-Cue
-- Gdb
-- General
-- Purpose
-- Input
-- Output
-- GPIO
-- Gui
-- HiKey
-- I2C
-- I
-- Squared
-- C
-- Library
-- Linaro
-- Linux
-- Low
-- Speed
-- Expansion
-- Header
-- Maker
-- MediaTek
-- X20
-- Mezzanine
-- Open
-- Embedded
-- OpenHours
-- Open
-- Hours
-- Open
-- Source
-- Qualcomm
-- Reference
-- Platform
-- Rpb
-- Sensors
-- UART
+  - 64-Bit
+  - 96Boards
+  - Android
+  - ARM Arm32
+  - Arm64
+  - ARMv8
+  - B2260
+  - Breakout
+  - Bubblegum
+  - Bubblegum-96
+  - CE
+  - Consumer
+  - Edition
+  - Consumer
+  - IoT
+  - DB410c
+  - Debugging
+  - Docker
+  - DragonBoard
+  - Dragonboard410c
+  - DragonBoard
+  - 410c
+  - F-Cue
+  - Gdb
+  - General
+  - Purpose
+  - Input
+  - Output
+  - GPIO
+  - Gui
+  - HiKey
+  - I2C
+  - I
+  - Squared
+  - C
+  - Library
+  - Linaro
+  - Linux
+  - Low
+  - Speed
+  - Expansion
+  - Header
+  - Maker
+  - MediaTek
+  - X20
+  - Mezzanine
+  - Open
+  - Embedded
+  - OpenHours
+  - Open
+  - Hours
+  - Open
+  - Source
+  - Qualcomm
+  - Reference
+  - Platform
+  - Rpb
+  - Sensors
+  - UART
 ---
+
 # **Introduction**
 
 **Google Assistant**, developed by Google in May 2016, acts as your virtual personal assistant and is available on a range of devices such as certain smart home appliances, your phone, wearables and more. The job of the assistant is to help the user with tasks such as carrying out searches on the internet, setting reminders or alarms etc. Now, how about implementing this using a DragonBoard? Sounds exciting? Well it is! These two blogs present to you a project that aims at deploying Google Assistant on a DragonBoard 410c by 96Boards.
 
 This year in April, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB microphone and speakers.
-
 
 {% include image.html path="/assets/images/blog/google-assistant-96boards-feature.jpg" alt="Google Assistant with 96boards feature image" %}
 
@@ -97,16 +97,16 @@ By the end of this project you should be able to interface an external microphon
 
 The next blog will provide detailed instructions on how to get started with the project. There are various aspects that need to be taken care of for the proper functioning of the application. We will go through each of them as thoroughly as possible. This should give you an idea of what to expect in the next blog.
 
-* Setup the board with the necessary hardware.
-* Configuring a developer project on Google Cloud Platform as well as the Google account settings.
-* Download all the required packages and software dependencies
-* Finally, integrating the Assistant onto DragonBoard
+- Setup the board with the necessary hardware.
+- Configuring a developer project on Google Cloud Platform as well as the Google account settings.
+- Download all the required packages and software dependencies
+- Finally, integrating the Assistant onto DragonBoard
 
 # **Conclusion**
 
 So that’s all for now. In the next blog we will discuss the initial steps required for this project. So stay tuned!
 
-* * *
+---
 
 # Resources
 
@@ -116,7 +116,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 

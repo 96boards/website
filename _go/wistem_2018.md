@@ -1,12 +1,13 @@
 ---
 title: Women in STEM - 2018
 description: |-
-    We are looking for women to share their "STEM story"!
+  We are looking for women to share their "STEM story"!
 permalink: /go/wistem-2018/
 layout: flow
 date: 2018-05-01 01:00:00+00:00
 image: /assets/images/content/wistem-bg.png
 ---
+
 # May is the month for Women in STEM!
 
 {% include image.html path="/assets/images/content/wistem-banner-2.jpg" alt="Women In STEM Banner" class="img-fluid"%}
@@ -19,38 +20,38 @@ There will be several surprises and plenty of good times throughout the month of
 
 96Boards (with the help of many collaborators) will try to host 23 written interviews from Women in a wide variety of STEM fields. Makers and software engineers, mathematicians and material physicists, Students, professionals, evangelists, influencers, and more! We hope to speak with everyone! Each day, one STEM story will be featured as a [96Boards Blog](https://www.96boards.org/blog/) and shared across various social media channels.
 
-While the written interviews offer a great daily read, a weekly livestream can also be expected! At the [end of the countdown](https://www.96boards.org/openhours/) each week, 96Boards will host a live video chat room for anyone and everyone. The topic of the month is "Women in STEM" and you can expect some amazing featured guests to be joining us. This is everyone's chance to listen in, share your thoughts, and even get your questions answered by a selected panel of core participants and our featured guest of the week.
+While the written interviews offer a great daily read, a weekly livestream can also be expected! At the [end of the countdown](https://www.96boards.org/) each week, 96Boards will host a live video chat room for anyone and everyone. The topic of the month is "Women in STEM" and you can expect some amazing featured guests to be joining us. This is everyone's chance to listen in, share your thoughts, and even get your questions answered by a selected panel of core participants and our featured guest of the week.
 
 # Schedule
 
-Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](https://www.96boards.org/openhours/) to read about this week's events, and to follow the countdown.
+Please consider this schedule as tentative! For the most current information on each week's Livestream, please visit the [OpenHours Website](https://www.96boards.org/) to read about this week's events, and to follow the countdown.
 
 ### Archived Livestreams
 
 - **Featured Guest:** [Estefannie Explains it All](https://www.instagram.com/estefanniegg/)
-   - **Date:** May 31st, 2018
-   - **Time:** 6:30p PST / 8:30p CST
-   - This event has passed, [check out the recording!](https://youtu.be/eovR-Kid9gI)
+  - **Date:** May 31st, 2018
+  - **Time:** 6:30p PST / 8:30p CST
+  - This event has passed, [check out the recording!](https://youtu.be/eovR-Kid9gI)
 - **Featured Guest:** [Silli_Scientist](https://www.instagram.com/silli_scientist/)
-   - **Date:** May 24th, 2018
-   - **Time:** 6:30pm PST
-   - This event has passed, [check out the recording!](https://youtu.be/uVdAjQXQQew)
+  - **Date:** May 24th, 2018
+  - **Time:** 6:30pm PST
+  - This event has passed, [check out the recording!](https://youtu.be/uVdAjQXQQew)
 - **Featured Guest:** [Alejandra Muñoz - girlcodemx](https://www.instagram.com/girlcodemx/)
-   - **Date:** May 24th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/Ou_8LRMzPP0)
+  - **Date:** May 24th, 2018
+  - **Time:** 4:00p UTC / 9:00a PST
+  - This event has passed, [check out the recording!](https://youtu.be/Ou_8LRMzPP0)
 - **Featured Guest:** [Falkyou](https://www.instagram.com/falkyou/)
-   - **Date:** May 17th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/BQ3JvYwQbMY)
+  - **Date:** May 17th, 2018
+  - **Time:** 4:00p UTC / 9:00a PST
+  - This event has passed, [check out the recording!](https://youtu.be/BQ3JvYwQbMY)
 - **Featured Guest:** [Lindsey - The Engineeress](https://www.instagram.com/the_engineeress/)
-   - **Date:** May 3rd, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/kf8XAB0F_QE)
+  - **Date:** May 3rd, 2018
+  - **Time:** 4:00p UTC / 9:00a PST
+  - This event has passed, [check out the recording!](https://youtu.be/kf8XAB0F_QE)
 - **Featured Guest:** [AnaQueenMaker](https://www.instagram.com/anaqueenmaker/)
-   - **Date:** May 10th, 2018
-   - **Time:** 4:00p UTC / 9:00a PST
-   - This event has passed, [check out the recording!](https://youtu.be/IhBme5830Dc)
+  - **Date:** May 10th, 2018
+  - **Time:** 4:00p UTC / 9:00a PST
+  - This event has passed, [check out the recording!](https://youtu.be/IhBme5830Dc)
 
 ### Written Interview Archive
 
