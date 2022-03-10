@@ -31,11 +31,9 @@ pages:
         url: /specifications/
       - title: Compliance
         url: /compliance/
-      - title: Membership
-        url: /membership/
       - title: News
         url: /news/
-    urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
+    urls: [/about/,/specifications/,/compliance/,/news/]
   - list:
       - title: All
         url: /products/

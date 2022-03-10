@@ -15,8 +15,6 @@ pages:
         url: /specifications/
       - text: Compliance
         url: /compliance/
-      - text: Membership
-        url: /membership/
       - text: News
         url: /news/
   - title: Products
