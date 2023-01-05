@@ -15,27 +15,28 @@ image_name: OpenHours.png
 image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
-- 64-Bit
-- 96Boards
-- OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
-- Bubblegum96
-- HiKey
-- DragonBoard 410c
-- Linux
-- Linaro
-- ARM
-- SBC
-- Single Board Computer
-- AOSP
-- Android
+  - 64-Bit
+  - 96Boards
+  - OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
+  - Bubblegum96
+  - HiKey
+  - DragonBoard 410c
+  - Linux
+  - Linaro
+  - ARM
+  - SBC
+  - Single Board Computer
+  - AOSP
+  - Android
 ---
+
 # Introduction
 
 In this week's episode of OpenHours (August 3rd), we spoke with Xingchao and Wing from Blackwhale which is an innovative technology company out of China. Blackwhale focuses on smart audio and voice recognition technologies and recently joined 96Boards / Linaro as a manufacturing partner earlier this year!
 
 This was the first time we ever had guests join us live out of China and besides a few technical difficulties at the beginning, the episode over all was very informative and fun.
 
-We of course started out with our introductions, some talk of [Blackwhale the company](http://hij.ai/), got to see a very cool demo on the [96Boards](/) [Bubblegum-96](/product/bubblegum-96/), and shared several links. Please be sure to scroll down, there you will find this week's episode along with the [BlueJeans](https://www.bluejeans.com/) chat log! We hope to see you [next week](/openhours/).
+We of course started out with our introductions, some talk of [Blackwhale the company](http://hij.ai/), got to see a very cool demo on the [96Boards](/) [Bubblegum-96](/product/bubblegum-96/), and shared several links. Please be sure to scroll down, there you will find this week's episode along with the [BlueJeans](https://www.bluejeans.com/) chat log! We hope to see you [next week](/).
 
 Thank you very much to our guests!
 

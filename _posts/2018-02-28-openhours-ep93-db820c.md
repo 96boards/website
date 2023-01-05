@@ -7,7 +7,6 @@ image_name: OpenHours.png
 image_thumb: OpenHours-thumb.png
 categories: blog
 tags: 64-Bit, 96Boards, Bubblegum96, HiKey, DragonBoard 410c, Linux, Linaro, ARM, SBC, Single Board Computer, AOSP, Android, Red Hat, Redhat, fedora, Open Source, deep learning, robert wolff, tensorflow, i.mx7, meerkat, NXP, qualcomm, technology, computer, community, Timesys, Maciej Halasz, IIoT
-
 ---
 
 # Introduction
@@ -170,7 +169,7 @@ Robert Wolff (Desk) - R(
 IRC: #OpenHours and #96Boards
 join us throughout the week in IRC! :D
 @96Boards on all social media
-Follow the countdown for next week's episode: https://www.96boards.org/openhours/
+Follow the countdown for next week's episode: https://www.96boards.org/
 
 Mani - M
 @Alex: You can raise the questions around 820c on ##linux-msm IRC channel

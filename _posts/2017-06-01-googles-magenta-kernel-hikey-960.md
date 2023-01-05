@@ -11,30 +11,29 @@ image: /assets/images/blog/Screenshot-360.png
 image_name: Screenshot-360.png
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- bubblegum-96
-- Consumer IoT
-- Fuchsia OS
-- HiKey
-- HiKey960
-- Kernel
-- Linaro
-- Linux
-- Magenta
-- Open Embedded
-- Open Hours
-- open source
-- OpenHours
-- Robert Wolff
-- Sahaj Sarup
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - bubblegum-96
+  - Consumer IoT
+  - Fuchsia OS
+  - HiKey
+  - HiKey960
+  - Kernel
+  - Linaro
+  - Linux
+  - Magenta
+  - Open Embedded
+  - Open Hours
+  - open source
+  - OpenHours
+  - Robert Wolff
+  - Sahaj Sarup
 ---
 
 # **Introduction**
-
 
 _**- Written by guest Author, [Sahaj Sarup](https://twitter.com/sahajsarup)**_
 
@@ -46,10 +45,7 @@ Magenta is heavily based on the Little Kernel (LK). However unlike LK which is d
 
 {% include media.html media_url="https://www.youtube.com/embed/Cknc3_A5PLo" %}
 
-
-
 # **Getting it to run on the Hikey 960**
-
 
 With a recent update to the source, Google added initial support for the HiKey960.
 
@@ -57,9 +53,7 @@ And the instructions to get it running on the HiKey960 can be found here:
 
 [https://fuchsia.googlesource.com/zircon/+/master/docs/targets/hikey960.md](https://fuchsia.googlesource.com/zircon/+/master/docs/targets/hikey960.md)
 
-
 # **Prerequisites and Troubleshooting**
-
 
 Before we get started with building Magenta, I would recommend going through the “Getting Started Guide” which would help you setup your build environment.
 
@@ -67,74 +61,45 @@ Before we get started with building Magenta, I would recommend going through the
 
 After that I would recommend cloning the [https://github.com/96boards-hikey/tools-images-hikey960](https://github.com/96boards-hikey/tools-images-hikey960) repository and adding the build-from-source folder to your PATH variable for the mkdtimg command.
 
-
     export PATH=$PATH:<path to tools-images-hikey960>/build-from-source
-
 
 Next, I’ve had issues with running the ./scripts/flash-hikey script using sudo, for some reason it cannot find the mkdtimg command even though it is in the env PATH.
 
 To resolve that we need to run the script without using sudo and for that we need to add sudo at the beginning of the last three in in the <work dir>/scripts/flash-hikey file where it executes the fastboot command.
 
-
 # **What works and what doesn’t**
-
 
 At the moment the implementation of the Magenta kernel on the HiKey960 is at a very early stage, keeping that in mind:
 
 **What works:**
 
+1. Boots up to shell
 
-
-
-  1. Boots up to shell
-
-
-  2. UART
-
+2. UART
 
 **What Doesn’t:**
 
+1. HDMI
 
+2. USB
 
+3. Wifi / Bt
 
-  1. HDMI
+4. Everything else not mentioned above
 
-
-  2. USB
-
-
-  3. Wifi / Bt
-
-
-  4. Everything else not mentioned above
-
-
-
-
-
-* * *
-
-
-
-
+---
 
 # Resources
 
-
 For 96Boards announcements and fun, be sure to visit and follow all of our social media channels!
 
+- **Sahaj Sarup:** [Twitter](https://twitter.com/sahajsarup) &#124;[YouTube](http://youtube.com/sahajsarup) &#124;[Blog](http://geektillithertz.com/wordpress)
 
-
-
-  * **Sahaj Sarup:** [Twitter](https://twitter.com/sahajsarup) &#124;[YouTube](http://youtube.com/sahajsarup) &#124;[Blog](http://geektillithertz.com/wordpress)
-
-
-  * **96Boards:** [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
-
+- **96Boards:** [Twitter](https://twitter.com/96Boards) &#124;[Linkedin](https://www.linkedin.com/company/6637095?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A6637095%2Cidx%3A1-1-1%2CtarId%3A1483603913878%2Ctas%3A96boards) &#124;[Facebook](https://www.facebook.com/96Boards/) &#124;[YouTube](https://www.youtube.com/c/96boards)
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 

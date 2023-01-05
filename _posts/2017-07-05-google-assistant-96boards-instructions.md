@@ -10,67 +10,68 @@ title: Instructions for Google Assistant on 96Boards
 image: /assets/images/blog/google-assistant-96boards.jpg
 category: blog
 tags:
-- 64-Bit
-- 96Boards
-- Aarch64
-- Android
-- ARM Arm32
-- Arm64
-- ARMv8
-- B2260
-- Breakout
-- Bubblegum
-- Bubblegum-96
-- CE
-- Consumer
-- Edition
-- Consumer
-- IoT
-- DB410c
-- Debugging
-- Docker
-- DragonBoard
-- Dragonboard410c
-- DragonBoard
-- 410c
-- F-Cue
-- Gdb
-- General
-- Purpose
-- Input
-- Output
-- GPIO
-- Gui
-- HiKey
-- I2C
-- I
-- Squared
-- C
-- Library
-- Linaro
-- Linux
-- Low
-- Speed
-- Expansion
-- Header
-- Maker
-- MediaTek
-- X20
-- Mezzanine
-- Open
-- Embedded
-- OpenHours
-- Open
-- Hours
-- Open
-- Source
-- Qualcomm
-- Reference
-- Platform
-- Rpb
-- Sensors
-- UART
+  - 64-Bit
+  - 96Boards
+  - Aarch64
+  - Android
+  - ARM Arm32
+  - Arm64
+  - ARMv8
+  - B2260
+  - Breakout
+  - Bubblegum
+  - Bubblegum-96
+  - CE
+  - Consumer
+  - Edition
+  - Consumer
+  - IoT
+  - DB410c
+  - Debugging
+  - Docker
+  - DragonBoard
+  - Dragonboard410c
+  - DragonBoard
+  - 410c
+  - F-Cue
+  - Gdb
+  - General
+  - Purpose
+  - Input
+  - Output
+  - GPIO
+  - Gui
+  - HiKey
+  - I2C
+  - I
+  - Squared
+  - C
+  - Library
+  - Linaro
+  - Linux
+  - Low
+  - Speed
+  - Expansion
+  - Header
+  - Maker
+  - MediaTek
+  - X20
+  - Mezzanine
+  - Open
+  - Embedded
+  - OpenHours
+  - Open
+  - Hours
+  - Open
+  - Source
+  - Qualcomm
+  - Reference
+  - Platform
+  - Rpb
+  - Sensors
+  - UART
 ---
+
 # **Introduction**
 
 **This blog is subject to going out of date. Please** [visit this project](https://github.com/96boards-projects/google_assistant) **in the** [96Boards Projects Org](https://github.com/96boards-projects) **for the most up to date instruction set.**
@@ -95,7 +96,6 @@ In today’s blog we will discuss the steps required in order to set up the proj
 To begin hardware connections, make sure the DragonBoard is powered off. Connect the USB Microphone onto one of the USB ports on the DragonBoard. If you are using USB Speakers, connect them as well. Since the DragonBoard has two USB ports, you may use a USB hub in order to connect the input devices such as mouse and keyboard. Then connect the monitor using the HDMI port and power on the DragonBoard 410c with 96Boards compliant power supply.
 
 {% include image.html path="/assets/images/blog/ga-img-1.jpg" alt="New title" %}
-
 
 If you want to use Bluetooth speakers, keep them switched on. When the system boots, open Bluetooth Manager from the Application Menu. Click on search so that the DragonBoard can start scanning for nearby devices. Once the device appears, right click on it and select pair. Finally, after pairing, click on connect. To make sure the microphone and speakers are connected successfully, go to Application Menu - Sound & Video - PulseAudio Volume Control and check the input and output devices.
 
@@ -154,6 +154,7 @@ So these are all the packages we will be using for this application. Now let’s
 # **Integrating the assistant onto the DragonBoard**
 
 Google has provided a sample code which we will be using for our project. Run the following commands in order to clone the sample project repository and move the code into a new directory called new-project.
+
 ```bash
  $ git clone https://github.com/googlesamples/assistant-sdk-python
  $ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
@@ -213,7 +214,7 @@ The appropriate size depends on the hardware so you may have to try more than on
 
 So there you have it, your own Google Assistant working on a DragonBoard! You can go through the [Google Assistant gRPC API](https://developers.google.com/assistant/sdk/reference/rpc/) documentation and try some more things by modifying the sample code in order to customize how the device interacts with Google Assistant.
 
-* * *
+---
 
 # Resources
 
@@ -223,6 +224,6 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

@@ -1,7 +1,7 @@
 ---
 title: Ultra96 Contest - 2018
 description: |-
-    Ultra96 Contest by Xilinx, Avnets and Hackster.io
+  Ultra96 Contest by Xilinx, Avnets and Hackster.io
 permalink: /go/2018-ultra96-contest/
 layout: flow
 date: 2018-11-29 01:00:00+00:00
@@ -23,45 +23,45 @@ date: 2018-11-29 01:00:00+00:00
 - Links to fun blogs and videos
 - and more!
 
-***
+---
 
 ## Contest Kit
 
 - [Ultra96](https://www.96boards.org/product/ultra96/)
-   - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
+  - By Avnet, featuring the Xilinx Zynq UltraScale+ MPSoC
 - [Optional Mezzanine Add-ons](https://www.96boards.org/products/mezzanine/)
 
-***
+---
 
 ## Webinars, Workshops and More!
 
 - [Hackster.io MCU Monday Ultra96 Unboxing](https://youtu.be/QA90ClbP4EM)
 - Introduction to the Ultra96 with Hackster.io and the 96Boards team
-   - [Ultra96 Intro // FPGA Single-Board Computer](https://youtu.be/fVR_YB0qnBQ)
-   - [Ultra96 Live Demos // FPGA Single-Board Computer](https://youtu.be/MoCFhOiGj6c)
-   - [Ultra96 SDSoC Software License // FPGA Single-Board Computer](https://youtu.be/pdXdKK14xfo)
+  - [Ultra96 Intro // FPGA Single-Board Computer](https://youtu.be/fVR_YB0qnBQ)
+  - [Ultra96 Live Demos // FPGA Single-Board Computer](https://youtu.be/MoCFhOiGj6c)
+  - [Ultra96 SDSoC Software License // FPGA Single-Board Computer](https://youtu.be/pdXdKK14xfo)
 - Element14 Webinar: [What Can I do with Programmable Logic?](https://www.element14.com/community/docs/DOC-90581/l/webinar-recording-what-can-i-do-with-programmable-logic)
 
-***
+---
 
 ## Resources
 
 - **Ultra96 Landing page**
-   - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
-   - [Documentation](https://github.com/96boards/documentation)
-   - [Zed Board](http://zedboard.org/product/ultra96)
-   - [Ultra96 Getting Started Guide](http://zedboard.org/sites/default/files/documentations/Ultra96-GSG-v1_0.pdf)
+  - [96Boards Landing Page](https://www.96boards.org/product/ultra96/)
+  - [Documentation](https://github.com/96boards/documentation)
+  - [Zed Board](http://zedboard.org/product/ultra96)
+  - [Ultra96 Getting Started Guide](http://zedboard.org/sites/default/files/documentations/Ultra96-GSG-v1_0.pdf)
 - **Projects**
-   - [MicroZed Chronicles](http://www.microzedchronicles.com/)
-   - [Xilinx Projects](https://www.hackster.io/xilinx/projects)
+  - [MicroZed Chronicles](http://www.microzedchronicles.com/)
+  - [Xilinx Projects](https://www.hackster.io/xilinx/projects)
 - **Blogs**
-   - [96Boards Blogs](https://www.96boards.org/blog/)
-   - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
+  - [96Boards Blogs](https://www.96boards.org/blog/)
+  - [Two Methods of Building PetaLinux](https://www.hackster.io/adam-taylor/two-methods-of-building-petalinux-for-the-ultra96-77c8e0)
 - **96Boards OpenHours**
-   - [Website](https://www.96boards.org/openhours/)
-   - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
+  - [Website](https://www.96boards.org/)
+  - [Previous Episodes](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)
 
-***
+---
 
 </div>
 <div class="col-md-6">
@@ -69,21 +69,21 @@ date: 2018-11-29 01:00:00+00:00
 
 <iframe width="350" height="180" src="https://w2.countingdownto.com/2217783" frameborder="0"></iframe>
 
-1) Install BlueJeans video conferencing software on your desktop or mobile device: ([Desktop download](https://www.bluejeans.com/downloads) / [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet))
+1. Install BlueJeans video conferencing software on your desktop or mobile device: ([Desktop download](https://www.bluejeans.com/downloads) / [Mobile download](https://www.bluejeans.com/downloads#mobile-tablet))
 
-2) Launch BlueJeans applications
+2. Launch BlueJeans applications
 
-3) Use the following ID to join the weekly call: 943216362
+3. Use the following ID to join the weekly call: 943216362
 
 **NOTE - You can also join via web browser with the following link: [https://bluejeans.com/943216362](https://bluejeans.com/943216362)**
 
-***
+---
 
 ## Ultra96 Playlist
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PL-NF6S9MM_W0V7iIE5UTj12IvvpAfUdhj" %}
 
-***
+---
 
 ## OpenHours Playlist
 

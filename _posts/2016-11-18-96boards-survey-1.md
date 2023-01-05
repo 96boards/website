@@ -7,20 +7,20 @@ link: https://www.96boards.org/blog/96boards-survey-1/
 slug: 96boards-survey-1
 image: /assets/images/blog/Screenshot-193.png
 image_name: Screenshot-193.png
-title: '96Boards Survey: What do 96Boards users care about?'
+title: "96Boards Survey: What do 96Boards users care about?"
 wordpress_id: 18632
 category: blog
 tags:
-- 32-bit Linux
-- 64-bit
-- 96Boards
-- ARM
-- ARMv8
-- community
-- Consumer IoT
-- dragonboard410c
-- HiKey
-- survery
+  - 32-bit Linux
+  - 64-bit
+  - 96Boards
+  - ARM
+  - ARMv8
+  - community
+  - Consumer IoT
+  - dragonboard410c
+  - HiKey
+  - survery
 ---
 
 It’s interesting, a few weeks ago the 96Boards team sent out a survey to our email list. We wanted to find out more about the folks interested in 96Boards. Some things were not a surprise to me personally but are interesting overall.
@@ -51,32 +51,22 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 **Other Blogs from David Mandala:**
 
+- **[How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)**
 
+- [How do you install 96Board GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
+- [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
-  * **[How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)**
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
-  * [How do you install 96Board GPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+- [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)
 
+- [Ramblings of Mezzanine boards](/blog/ramblings-mezzanine-boards/)
 
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
-
-
-  * [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/)
-
-
-  * [Ramblings of Mezzanine boards](/blog/ramblings-mezzanine-boards/)
-
-
-  * [How to Develop on your 96Boards](/blog/how-to-develop-on-your-96boards/)
+- [How to Develop on your 96Boards](/blog/how-to-develop-on-your-96boards/)

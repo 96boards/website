@@ -10,37 +10,37 @@ image: /assets/images/blog/OpenHours-02.png
 image_name: OpenHours-02.png
 wordpress_id: 18992
 Boards:
-- DragonBoard 410c
-- HiKey
+  - DragonBoard 410c
+  - HiKey
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- ARM
-- ARMv8
-- Breakout
-- bubblegum-96
-- CE
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- debugging
-- dragonboard410c
-- gdb
-- gui
-- HiKey
-- Library
-- Linux
-- Low speed expansion header
-- Open Embedded
-- Open Hours
-- OpenHours
-- Reference Platform
-- rpb
-- sensors
-- UART
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - Breakout
+  - bubblegum-96
+  - CE
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - debugging
+  - dragonboard410c
+  - gdb
+  - gui
+  - HiKey
+  - Library
+  - Linux
+  - Low speed expansion header
+  - Open Embedded
+  - Open Hours
+  - OpenHours
+  - Reference Platform
+  - rpb
+  - sensors
+  - UART
 ---
 
 Welcome to our 30th episode of 96Boards OpenHours.  Last week we had a great discussion with David Mandala about creating a community mezzanine board.  David wrote a blog about this and it was posted on the 96Boards site:  [https://www.96boards.org/blog/community-mezzanine-board/](/blog/community-mezzanine-board/).  Check out the blog for more information on this initiative.
@@ -69,7 +69,7 @@ To watch episode 30 go to[ https://www.youtube.com/watch?v=njMXCPLmPT4](https://
 
 {% include media.html media_url="https://www.youtube.com/embed/njMXCPLmPT4?feature=oembed" %}
 
-**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/openhours/](/openhours/)**
+**Be sure to join us for next week's OpenHours:  [https://www.96boards.org/](/)**
 
 As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
 
@@ -77,1040 +77,115 @@ Please remember, if you get stuck, there are resources to help you through the i
 
 **Below is the chat log from the OpenHours session today:**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
+---
 
 Helpful links:
 https://www.96boards.org/blog/community-mezzanine-board/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://www.gumstix.com/gogeppetto/?mc_cid=69078103ff&mc_eid=bcd2a7cf36
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Dragon Detector Blog: http://wsshd.com/DragonDectector
 
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 A
 
-
-
-
-
-
-
-
-
-
-
-
 sir just want to ask i've mailed my address to the mail id u provided me but did'nt get any confirmation from them.. are they upto shipping the dragon board ??
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Ayush, it was confirmed by QC. You should be good within next couple weeks
 
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 https://www.96boards.org/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 http://wsshd.com/DragonDectector
 
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 G1
-
-
-
-
-
-
-
-
-
-
-
 
 Andy, nice knight. Looks like Saint George's cross on the shield and a Barbuta (italian) helmet.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://github.com/Workshopshed/Dragon
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 https://twitter.com/Workshopshed
 
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 AW
-
-
-
-
-
-
-
-
-
-
-
 
 Yes the shield was designed on a St George design
 
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 KD
 
-
-
-
-
-
-
-
-
-
-
-
 https://www.96boards.org/blog/community-mezzanine-board/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 AW
-
-
-
-
-
-
-
-
-
-
-
 
 The helmet was roughtly based on the paper design from Rob Ives
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://www.robives.com/knight
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Andy will be sticking around for bit longer. If you have any questions. Please speak up, or post them in the chat.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 AW
-
-
-
-
-
-
-
-
-
-
-
 
 The 3D model is available on the GitHub so you can print your own
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 I went for a USB camera but if you wanted a high frame rate then a direct attached would be better
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 http://dev.iachieved.it/iachievedit/swift-for-arm-systems/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 G7
 
-
-
-
-
-
-
-
-
-
-
-
 I have a question regarding HW available for i2s testing via low speed expansion connector. Do we have any mezzanine on any i2s 1.8v module which someone test?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 AW
-
-
-
-
-
-
-
-
-
-
-
 
 Could that be loaded with a default firmware?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://webchat.freenode.net/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #96boards
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #linaro
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 96boards.org/blog
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 C
 
-
-
-
-
-
-
-
-
-
-
-
 Yep, had to do the same thing.  I think I have some step-by-step instructions for this that I got from Lawerence King.  -cj
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 MF
 
-
-
-
-
-
-
-
-
-
-
-
 I have a very simple question since i am beginner. Is it possible to use cellular network in 410c by any extension?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 G1
 
-
-
-
-
-
-
-
-
-
-
-
 usb 3g modem easiest by my reckoning as far as availability and price
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-
-
-
-
-
-
-
+---
 
 AW
 
-
-
-
-
-
-
-
-
-
-
-
 The MAX98357A I2C chip seems to accept a minimum of 1.2v for the digital signals. There's an AdaFruit board amplifier board you could try
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-
-
-
-Click here to join us for [next OpenHours ](/openhours/)
+Click here to join us for [next OpenHours ](/)

@@ -14,24 +14,17 @@ category: blog
 
 I was asked the other day to write a blog about using using the Arduino IDE with the Sensors Mezzanine Board. It’s pretty easy to use, there are some steps you need to do to make it work but nothing too hard.
 
-
 # Assumptions
-
 
 I am making some assumptions, I’m using a DragonBoard 410c today, but this works on a HiKey and a Bubblegum-96 board just as well. You are connected to the Internet, if not connect, this Blog won’t work without the Internet connected with your 96Boards. Make sure to use apt-get and update your 96Boards Image with the latest packages. I assume you have installed the Sensors board on top of the 96Boards being very careful to line up the pins correctly so you did not damage the sensor board or the 96Boards. Finally, this is not instructions or a tutorial on using the Arduino IDE or the Arduino Command line tools. This will get the IDE working and the Blink example code running on your Sensors Board.
 
-
 ## Update Image Packages
-
 
 Make sure all of the Image packages are up to date before trying to install the packages required to use the Sensors Mezzanine.
 
-`$ sudo apt-get update
-$ sudo apt-get dist-upgrade -u`
-
+`$ sudo apt-get update $ sudo apt-get dist-upgrade -u`
 
 ## Install extra tool packages
-
 
 To run the IDE, we’ll install the Debian packages for the standard Linux development tools, the Python environment, and the Arduino toolchain.
 
@@ -41,9 +34,7 @@ Remove the extra package files they are no longer needed, saves space on the eMM
 
 `$ sudo apt-get clean`
 
-
 ## Configure the software
-
 
 The last step is to install some configuration files so that the development tools know which devices to uses. Fetch the 96boards-tools package and install the provided configuration files:
 
@@ -57,9 +48,7 @@ Now you need to edit/create a shell script in /etc/profile.d the shell script fi
 
 `$ vim /etc/profile.d/96boards-sensors.sh`
 
-`export JAVA_TOOL_OPTIONS="-Dgnu.io.rxtx.SerialPorts=/dev/tty96B0"
-export MONITOR_PORT=/dev/tty96B0
-export PYTHONPATH="$PYTHONPATH:/usr/local/lib/python2.7/site-packages"`
+`export JAVA_TOOL_OPTIONS="-Dgnu.io.rxtx.SerialPorts=/dev/tty96B0" export MONITOR_PORT=/dev/tty96B0 export PYTHONPATH="$PYTHONPATH:/usr/local/lib/python2.7/site-packages"`
 
 Save and Exit the editor
 
@@ -87,29 +76,20 @@ Don’t forget, if you get stuck, there are resources to help you through the in
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget about the [Open Hours](/openhours/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
+Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!
 
 Other Blogs from David Mandala:
 
+- [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
 
+- [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
 
+- [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
 
-  * [How do you access the GPIO pins programmatically?](/blog/access-gpio-pins-programmatically/)
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
+- [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
 
-  * [How do you install 96BoardGPIO, libsoc and libmraa on a new image?](/blog/install-96boardgpio-libsoc-libmraa-new-image/)
+- [Gui & command line remote debugging](/blog/gui-command-line-remote-debugging/)
 
-
-  * [How to Cross Compile files on X86 Linux System for 96Boards, libsoc & mraa libraries](/blog/cross-compile-files-x86-linux-to-96boards/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
-
-
-  * [Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux with external libraries](/blog/eclipse-x86-linux-cross-compile-arm-linux-external-libraries/)
-
-
-  * [Gui & command line remote debugging](/blog/gui-command-line-remote-debugging/)
-
-
-  * [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/) (Previous Blog)
+- [Eclipse remote development and debugging](/blog/eclipse-remote-development-debugging/) (Previous Blog)

@@ -12,40 +12,38 @@ title: 96Boards Updates on development in AOSP
 wordpress_id: 20504
 category: blog
 tags:
-- 96Boards
-- Android
-- AOSP
-- ARM
-- arm32
-- arm64
-- Bluetooth
-- bootloader
-- HAL
-- HiKey
-- HiKey960
-- HiSi
-- HiSilicon
-- huawei
-- John Stultz
-- Kernel
-- Lemaker
-- Linaro
-- Linux
-- Open Hours
-- open source
-- OpenHours
-- Raspberry Pi
-- TI
-- u-boot
-- UEFI
-- upstream
+  - 96Boards
+  - Android
+  - AOSP
+  - ARM
+  - arm32
+  - arm64
+  - Bluetooth
+  - bootloader
+  - HAL
+  - HiKey
+  - HiKey960
+  - HiSi
+  - HiSilicon
+  - huawei
+  - John Stultz
+  - Kernel
+  - Lemaker
+  - Linaro
+  - Linux
+  - Open Hours
+  - open source
+  - OpenHours
+  - Raspberry Pi
+  - TI
+  - u-boot
+  - UEFI
+  - upstream
 ---
 
 It's been awhile since I've posted any updates on 96boards devboards in AOSP, so I figure it's past time I do so.
 
-
 # HiKey
-
 
 On the HiKey front, things continue to move upstream, although it's been slower of late due to working on other activities.
 
@@ -65,9 +63,7 @@ The patch set I manage continually shrinks and grows, as bits get upstreamed and
 
 We’re also really starting to feel the benefits of the effort to get the HiKey board upstream. There’s a lot of testing work that can now be done with the HiKey against mainline kernels, and thanks to efforts from +[Milosz Wasilewski](https://plus.google.com/110678333419866011234) and others we’ve uncovered some pretty hairy generic bugs with upstream and LTS kernels that I’ve not been able to trigger elsewhere. And while having some unplanned ugly bugs to chase might wreck one’s plans for the week, it is good to see them uncovered through testing and eventually resolved upstream.
 
-
 # HiKey960
-
 
 Of course, since my last update, we've also announced the HiKey960! It was great to see the press response to the board announcement, although also a bit frustrating to see it constantly called a "RasPi killer" in the majority of headlines, which is silly. It is similar form-factor, but both its power (and expense) makes it a whole different animal. The benefit I see most with the board is that it gives us flagship class hardware to do development and prototyping with. Of course, it's not going to be for everyone, and for folks who are price sensitive and don't need the extra power, we still support the cheaper original HiKey board in AOSP. But for those who are trying to develop new features like the EAS scheduler, or new block layer or filesystem features, having the latest ARM processor and fast UFS storage in an affordable devboard will be really valuable.
 
@@ -85,14 +81,9 @@ So yea, its been busy of late! And as always, everyone has been doing amazing wo
 
 {% include image.html path="/assets/images/blog/hikey-960-SD-front.jpg" alt="Hikey 960 Front Image" class="img-fluid" %}
 
-
 [Find John Stultz on Google+](https://plus.google.com/111524780435806926688)
 
-
-
-* * *
-
-
+---
 
 **For 96Boards announcements and fun, be sure to visit and follow all of our social media channels!**
 
@@ -100,6 +91,6 @@ So yea, its been busy of late! And as always, everyone has been doing amazing wo
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

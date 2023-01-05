@@ -8,8 +8,6 @@ pages:
         url: /projects/contribute/
       - title: FAQ
         url: /projects/faq/
-      - title: OpenHours
-        url: /openhours/
     sub-pages-enabled: true
     urls: [/projects/]
   - list:
@@ -19,23 +17,15 @@ pages:
         url: /services/partners/
     urls: [/services/,/services/partners/]
   - list:
-      - title: OpenHours
-        url: /openhours/
-      - title: About
-        url: /openhours/about/
-    urls: [/openhours/,/openhours/about/]
-  - list:
       - title: Overview
         url: /about/
       - title: Specifications
         url: /specifications/
       - title: Compliance
         url: /compliance/
-      - title: Membership
-        url: /membership/
       - title: News
         url: /news/
-    urls: [/about/,/specifications/,/compliance/,/membership/,/news/]
+    urls: [/about/,/specifications/,/compliance/,/news/]
   - list:
       - title: All
         url: /products/
@@ -66,8 +56,6 @@ pages:
         url: /projects/contribute/
       - title: FAQ
         url: /projects/faq/
-      - title: OpenHours
-        url: /openhours/
       - title: Submit a Project
         url: /projects/submit/
         right: true
