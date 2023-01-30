@@ -222,7 +222,7 @@ schema:
   "@type": "Corporation"
   "name": "96Boards"
   "url": "https://www.96Boards.org"
-  "logo": "https://www.96boards.org/assets/images/content/96boards-logo.png"
+  "logo": "https://www.96boards.org/assets/images/logo.svg"
   "contactPoint":
     "@type": "ContactPoint"
     "telephone": "01223 400060"
