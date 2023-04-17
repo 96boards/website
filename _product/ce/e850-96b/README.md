@@ -159,7 +159,7 @@ WinLink E850-96 Board is 100mm x 85mm in size, 96 Boards CE(Consumer Edition) Ex
 |  Ethernet Port       | 1x10/100 Ethernet (RJ-45) socket                                                                                               |
 |  Wireless            | WiFi 2.4/5GHz & BT5.0 (S612 RF transceiver)                                                                                    |
 |  USB                 | 1 x USB 2.0 Micro B (Debug only ), <br> 2x USB 2.0 Type A (Host mode only)                                                     |
-|  Display             | HDM|lv1.4 Type-A full-size connector                                                                                           |
+|  Display             | HDMI (v1.4 Type-A full-size connector )                                                                                        |
 |  Video               | HEVC (High Efficiency Video Coding) codec which enables FHD(1920X1080) 60fps encoding and decoding simultaneously              |
 |  Audio               | Stereo Headphone output & MIC input via 3.5mm Audio Jack <br> Built-in audio interfaces HMU(Headphone Management Unit) by PMIC |
 |  Camera              | Up to 3-image sensor(camera) inputs with a max. resolution of 21.7MP Bayer supported                                           |
