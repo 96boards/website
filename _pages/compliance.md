@@ -1,20 +1,19 @@
 ---
 title: Compliance
 description: |-
-    96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
+  96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program.
 permalink: /compliance/
 layout: flow
 sticky_tab_bar: true
 css_bundle: about
 js-package: about
 jumbotron:
-    title: Compliance
-    image: /assets/images/content/96boards-banner-5.jpg
+  title: Compliance
+  image: /assets/images/content/96boards-banner-5.jpg
 flow:
-    - row: main_content_row
-    - row: custom_include_row
-      source: members.html
+  - row: main_content_row
 ---
+
 96Boards Compliance is designed to ensure a level of hardware and software functionality and quality for the 96Boards Community Board program. The following Compliance topics are covered in this document:
 
 - [1. Availability of Documentation <a name="Availability"></a>](#1-availability-of-documentation-)
@@ -24,47 +23,54 @@ flow:
 
 Compliance is tested against the following:
 
-*   [96Boards Consumer Edition Specification](https://linaro.co/ce-specification),
-*   [96Boards Enterprise Edition Specification](https://linaro.co/ee-specification) and     [96Boards TV Platform Specification](https://linaro.co/tv-specification),
-*   [96Boards IoT Edition Specification](https://linaro.co/ie-specification)
-*   [96Boards SoM Specification (Compute)](https://linaro.co/som-spec)
-*   [96Boards SoM Specification (Wireless)](https://linaro.co/som-w-spec)
-*   The requirements specified in the below
+- [96Boards Consumer Edition Specification](https://linaro.co/ce-specification),
+- [96Boards Enterprise Edition Specification](https://linaro.co/ee-specification) and [96Boards TV Platform Specification](https://linaro.co/tv-specification),
+- [96Boards IoT Edition Specification](https://linaro.co/ie-specification)
+- [96Boards SoM Specification (Compute)](https://linaro.co/som-spec)
+- [96Boards SoM Specification (Wireless)](https://linaro.co/som-w-spec)
+- The requirements specified in the below
 
-----
+---
 
 ## 1. Availability of Documentation <a name="Availability"></a>
+
 It is **recommended** that all documentation required under the 96Boards program for the board and SoC be freely available from the 96Boards website. Any documentation that cannot be provided from the 96Boards website **shall** be available from a vendor or other public website that can be linked to from the 96Boards website.
-  *   Board schematics **shall** be available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) licence on the 96Boards.org site
-  *   It is not required that board layout or manufacturing data documents be made available.  This is a board vendor decision.
-  *   A Board reference manual **shall** be available on the 96Boards.org site
-      *   This **shall** include information on hardware and software interfaces to enable the maker community and developers of bootloaders, kernels and OS distributions.
-  *   An SoC technical reference manual **shall** be available
-      *   This **shall** include sufficient information for developers to be able to create board drivers and software interfaces for the supported SoC features.
+
+- Board schematics **shall** be available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) licence on the 96Boards.org site
+- It is not required that board layout or manufacturing data documents be made available.  This is a board vendor decision.
+- A Board reference manual **shall** be available on the 96Boards.org site
+  - This **shall** include information on hardware and software interfaces to enable the maker community and developers of bootloaders, kernels and OS distributions.
+- An SoC technical reference manual **shall** be available
+  - This **shall** include sufficient information for developers to be able to create board drivers and software interfaces for the supported SoC features.
 
 ---
 
 ## 2. Binary Licensing <a name="Binary"></a>
+
 96Boards recognizes the present industry reality that it is generally not possible to provide all software on a community board as open source code. A goal of the 96Boards program is to encourage vendors and the community to move towards making more software fully open source.
 
 For any software provided in binary form:
-*   The vendor or SoC provider **shall** provide a binary distribution license to Linaro/96Boards to allow those binaries to be redistributed from the 96Boards websites.
-*   The vendor or SoC provider **shall** provide a binary distribution license allowing the board manufacturer to ship all necessary binaries.
-*   It is acceptable to require the end user to accept an EULA prior to first use of the board.
+
+- The vendor or SoC provider **shall** provide a binary distribution license to Linaro/96Boards to allow those binaries to be redistributed from the 96Boards websites.
+- The vendor or SoC provider **shall** provide a binary distribution license allowing the board manufacturer to ship all necessary binaries.
+- It is acceptable to require the end user to accept an EULA prior to first use of the board.
 
 ---
+
 <a name="Hardware"></a>
+
 ## 3. Hardware Compliance
+
 **96Boards Goals**
 
 The 96Boards program requires board vendors to publish full schematics. However, due to the cost of high performance board development, vendors are not required to provide full manufacturing information. Nevertheless, we encourage vendors to consider providing full open source hardware solutions, including full board manufacturing information. Hardware compliance testing **shall** include (but is not limited to):
 
-*   Review of schematics
-*   Verification of conformance to physical footprint and component dimensions
-*   Conformance to 96Boards specification minimum required hardware feature set
-*   Conformance to 96Boards expansion bus functionality
-    *   Low speed connector
-    *   High speed connector
+- Review of schematics
+- Verification of conformance to physical footprint and component dimensions
+- Conformance to 96Boards specification minimum required hardware feature set
+- Conformance to 96Boards expansion bus functionality
+  - Low speed connector
+  - High speed connector
 
 ---
 
@@ -74,20 +80,20 @@ The 96Boards program requires board vendors to publish full schematics. However,
 
 The 96Boards program has requirements summarized below for a 96Boards branded product supported on the 96Boards.org website. We encourage and want vendors to go further and benefit from more complete open source support. Specifically we would like to see:
 
-*   Full upstream support for 96Boards products BSP software
-*   Product quality reference open source software for 96Boards products
-*   Full open source stack from bootloader to distribution
-*   Minimal or, even better, no binary blobs
+- Full upstream support for 96Boards products BSP software
+- Product quality reference open source software for 96Boards products
+- Full open source stack from bootloader to distribution
+- Minimal or, even better, no binary blobs
 
 Software compliance testing **shall** include (but is not limited to):
 
-*   Review of supplied software build and functionality
-*   Build of supplied software from documentation and source code
+- Review of supplied software build and functionality
+- Build of supplied software from documentation and source code
 
-  **Software Compliance Requirements**
+**Software Compliance Requirements**
 
-*   All open source software used **shall** comply with its respective open source license(s)
-*   A software method **shall** be supplied to allow the board to be recovered from a “bricked” condition.
+- All open source software used **shall** comply with its respective open source license(s)
+- A software method **shall** be supplied to allow the board to be recovered from a “bricked” condition.
 
 ---
 
@@ -108,17 +114,18 @@ Software compliance testing **shall** include (but is not limited to):
 <div role="tabpanel" class="tab-pane active" id="firmware" markdown="1">
 While open source implementations are preferred, the following software will be accepted as binary blobs if necessary:
 
-* Power management or other modules that execute on the SoC or board (PSCI, MCU or system control block firmware for example)
-* Firmware and/or user space libraries for:
-* GPU
-* Multimedia accelerator
-* DSP/coprocessor
-* Camera ISP
-* Baseband processor
-* _Bluetooth_ ® wireless technology and WiFi firmware
+- Power management or other modules that execute on the SoC or board (PSCI, MCU or system control block firmware for example)
+- Firmware and/or user space libraries for:
+- GPU
+- Multimedia accelerator
+- DSP/coprocessor
+- Camera ISP
+- Baseband processor
+- _Bluetooth_ ® wireless technology and WiFi firmware
 
 Note that Linux kernel modules **must not** be provided as binary firmware blobs.
 The GPLv2 licence prohibits this.
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="bootloader" markdown="1">
@@ -139,11 +146,12 @@ Hardware accelerators such as GPUs are enabled with binary user space libraries,
 * Level 4 – boot from upstream kernel with full board functionality with all hardware specific code (including any required user space libraries) available as open source
 
 A 96Boards product **shall** support at least one of the following kernels:
-* An unmodified kernel.org mainline, stable or longterm (latest two releases) kernel.
-Note: Upstream mainline support is a 96Boards program goal
-* A Linaro-supported kernel with additional published patches against a kernel.org mainline, stable or longterm (latest two releases) kernel
-* A Linaro-supported kernel with additional published patches against an AOSP release kernel (latest two letter releases) or the latest AOSP current kernel
-* A vendor-supported kernel using any of the above kernel versions
+
+- An unmodified kernel.org mainline, stable or longterm (latest two releases) kernel.
+  Note: Upstream mainline support is a 96Boards program goal
+- A Linaro-supported kernel with additional published patches against a kernel.org mainline, stable or longterm (latest two releases) kernel
+- A Linaro-supported kernel with additional published patches against an AOSP release kernel (latest two letter releases) or the latest AOSP current kernel
+- A vendor-supported kernel using any of the above kernel versions
 </div>
 
 <div role="tabpanel" class="tab-pane" id="graphics" markdown="1">

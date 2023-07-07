@@ -37,7 +37,7 @@ We need to install k8s on laptop and PCU and the steps below are the same for bo
 
 ## Installing k8s
 
-The first thing we need to do is install k8s in the PCU adn laptop. To do so we have first flashed the PCU with Autocore's provided image as we explained in [this post](https://www.96boards.org/blog/autocore_pcu_1/).
+The first thing we need to do is install k8s in the PCU and laptop. To do so we have first flashed the PCU with Autocore's provided image as we explained in [this post](https://www.96boards.org/blog/autocore_pcu_1/).
 
 After getting the PCU SD card ready we can boot the board and `ssh` into it.
 
@@ -107,7 +107,7 @@ $ docker cp subCont:/usr/local/sub-process_pid.log .
 
 We will rename the log as `raw_containers_test_data.txt` to use it later.
 ```
-$ mv sub-process_pid.log contraw_containers_test_dataainers_test_data.txt
+$ mv sub-process_pid.log raw_containers_test_data.txt
 ```
 
 ### Using k8s

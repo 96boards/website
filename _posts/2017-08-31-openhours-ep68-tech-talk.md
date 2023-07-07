@@ -15,31 +15,32 @@ image_name: OpenHours.png
 image_thumb: OpenHours-thumb.png
 # Tags related this post. For use in tag filters that will be used in future updates.
 tags:
-- 64-Bit
-- 96Boards
-- OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
-- Bubblegum96
-- HiKey
-- DragonBoard 410c
-- Linux
-- Linaro
-- ARM
-- SBC
-- Single Board Computer
-- AOSP
-- Android
-- Red Hat
-- Redhat
-- fedora
-- Open Source
-- Open Hours
-- tech
-- tech talk
-- fuscia os
-- google
-- operating system
-- protomezzanine
+  - 64-Bit
+  - 96Boards
+  - OpenHours # Use this tag if you want it to be featured in the openhours blog sections.
+  - Bubblegum96
+  - HiKey
+  - DragonBoard 410c
+  - Linux
+  - Linaro
+  - ARM
+  - SBC
+  - Single Board Computer
+  - AOSP
+  - Android
+  - Red Hat
+  - Redhat
+  - fedora
+  - Open Source
+  - Open Hours
+  - tech
+  - tech talk
+  - fuscia os
+  - google
+  - operating system
+  - protomezzanine
 ---
+
 # Introduction
 
 In this episode we talk about Fuchsia OS, Fedora Flock, the new protomezzanine from the mezzanine-community repository and more! Join us as we meet with Sahaj Sarup from [Geek Till it Hertz](https://www.youtube.com/user/sahajsarup) to discuss his efforts around the Magenta Kernel and Fuscia OS for [96Boards](https://96boards.org/). The community chimes in on 96Boards issues and forums posts and finally we take a look at the 96Boards Mezzanine initiative and the newly tested "proto-mezzanine" (links, video and chat log below).
@@ -222,7 +223,7 @@ maddog - M
 I quickly read it, and this paper was not so much "for SQL" as it was "MapReduce it not good".  The mentions of SQL was more as an example of a high level language to access the data, not necessarily SQL itself.
 
 Robert Wolff - RW
-www.96boards.org/openhours/
+www.96boards.org/
 
 Carl - C
 OK - perfect1

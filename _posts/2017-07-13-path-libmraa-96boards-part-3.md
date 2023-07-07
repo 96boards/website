@@ -12,38 +12,38 @@ title: Our path to libmraa on 96Boards – Part 3
 wordpress_id: 20365
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- ARM
-- ARMv8
-- B2260
-- bubblegum-96
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- F-Cue
-- General Purpose Input Output
-- GPIO
-- HiKey
-- I Squared C
-- I2C
-- intel
-- libmraa
-- libupm
-- Linaro
-- Linux
-- MediaTek X20
-- mraa
-- Open Embedded
-- Open Hours
-- open source
-- OpenHours
-- Reference Platform
-- rpb
-- UPM
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - ARM
+  - ARMv8
+  - B2260
+  - bubblegum-96
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - F-Cue
+  - General Purpose Input Output
+  - GPIO
+  - HiKey
+  - I Squared C
+  - I2C
+  - intel
+  - libmraa
+  - libupm
+  - Linaro
+  - Linux
+  - MediaTek X20
+  - mraa
+  - Open Embedded
+  - Open Hours
+  - open source
+  - OpenHours
+  - Reference Platform
+  - rpb
+  - UPM
 ---
 
 # **Introduction**
@@ -104,7 +104,6 @@ API for setting pull-up/down mode is **mraa_gpio_input_mode**. You need to speci
 
 1. MODE_IN_ACTIVE_HIGH
 2. MODE_IN_ACTIVE_LOW
-
 
 Core support has been added to gpio source in **_src/gpio/gpio.c_** and C++ binding in **_api/mraa/gpio.hpp_**.
 
@@ -172,9 +171,8 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
-
 
 Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!

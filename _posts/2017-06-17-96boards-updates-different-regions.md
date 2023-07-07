@@ -12,20 +12,19 @@ image: /assets/images/blog/globe.png
 image_name: globe.png
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- Consumer IoT
-- DB410c
-- DragonBoard
-- Freedreno
-- HiKey
-- Linux
-- Open Embedded
-- Windows 10
-
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - Consumer IoT
+  - DB410c
+  - DragonBoard
+  - Freedreno
+  - HiKey
+  - Linux
+  - Open Embedded
+  - Windows 10
 ---
 
 _Since the beginning of this year, 96Boards has been seen around the world. Let’s take a look at some of the impact we have made…_
@@ -40,7 +39,7 @@ In February of 2017, Mexico got to experience a 96Boards hackathon for the first
 
 {% include image.html path="/assets/images/blog/96boards-updates-img-2.png" alt="96boards Updates" class="img-fluid" %}
 
-For the first time ever, Linaro decided to invite a large group of local engineers from the Hungarian Robot Association, to a “free preview day” of **LINK REMOVED**. The preview day took place on Thursday of the week long event, and it included two custom tailored sessions as well as an invite to the live broadcast of [**96Boards OpenHours**](/openhours/). Of the many who were invited, we had a fantastic turnout of over 25 locals! Since then we have been in close contact with the association and have seen several projects surface around 96Boards. We plan to continue our efforts in promoting and supporting the work they have done so far and plan to push forward in creating more evangelists in Hungary with the help of this association. This initiative will hopefully be replicated for future Linaro Connects. Feel free to check out the recorded [video from the live broadcast](https://youtu.be/Bd7InYlMLAE?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
+For the first time ever, Linaro decided to invite a large group of local engineers from the Hungarian Robot Association, to a “free preview day” of **LINK REMOVED**. The preview day took place on Thursday of the week long event, and it included two custom tailored sessions as well as an invite to the live broadcast of [**96Boards OpenHours**](/). Of the many who were invited, we had a fantastic turnout of over 25 locals! Since then we have been in close contact with the association and have seen several projects surface around 96Boards. We plan to continue our efforts in promoting and supporting the work they have done so far and plan to push forward in creating more evangelists in Hungary with the help of this association. This initiative will hopefully be replicated for future Linaro Connects. Feel free to check out the recorded [video from the live broadcast](https://youtu.be/Bd7InYlMLAE?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk).
 
 # **India**
 
@@ -60,7 +59,7 @@ Due to a variety of initiatives in Brazil, 96Boards and Linaro websites have see
 
 Over 100 students gathered and split up into teams for the once a year H.A.R.D. hackathon. Yes, this is what they call it! HKN (Eta Kappa Nu – Honors Society) and IEEE branches from the University of California San Diego joined forces to give students a chance at prizes and the thrill of a challenge. The theme was “smart homes”, and the hardware none other than [96Boards DragonBoard 410c](/product/dragonboard410c/)! The event took place over the course of ~30 hours (24 hours of hack time) and pumped out over 20 amazing projects! Qualcomm and 96Boards representatives set up shop offering technical help to the hackers along with several demos and some fun swag. The event closed out with 3 winning teams and of course an invite for 96Boards to join once again the next year, see you then! These projects can be found on YouTube under the [HARD Hack 2017 playlist.](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1xI5NiKVjR2mQ5AvBxMqww) A slideshow full of images from the event can also be found [**here**](https://www.slideshare.net/96Boards/ucsd-hard-hackathon-2017-photo-gallery).
 
-* * *
+---
 
 And that’s not all! As you can imagine, this is only a glimpse of what has happened and what is to come…
 

@@ -11,37 +11,36 @@ title: Part 2 - Facial recognition using OpenCV on 96Boards
 wordpress_id: 20398
 category: blog
 tags:
-- 96Boards
-- ARM
-- arm32
-- arm64
-- ARMv7
-- ARMv8
-- Bubblegum
-- bubblegum-96
-- Cloud
-- computer vision
-- DIY
-- DragonBoard
-- DragonBoard 410c
-- HiKey
-- HiKey960
-- Home Surveillance
-- IoT
-- Linaro
-- Linux
-- Maker
-- Mezzanine
-- OpenCV
-- OpenHours
-- PZT
-- Qualcomm
-- Raspberry Pi
-- servo
+  - 96Boards
+  - ARM
+  - arm32
+  - arm64
+  - ARMv7
+  - ARMv8
+  - Bubblegum
+  - bubblegum-96
+  - Cloud
+  - computer vision
+  - DIY
+  - DragonBoard
+  - DragonBoard 410c
+  - HiKey
+  - HiKey960
+  - Home Surveillance
+  - IoT
+  - Linaro
+  - Linux
+  - Maker
+  - Mezzanine
+  - OpenCV
+  - OpenHours
+  - PZT
+  - Qualcomm
+  - Raspberry Pi
+  - servo
 ---
 
 # **Introduction**
-
 
 Have you thought of implementing face detection on your own? How well it would be if your SBC can identify your face and take action accordingly. And yeah this is the part 2 of ‘**Home surveillance**' blog series about creating a full fledged home monitoring system using 96Boards.
 
@@ -51,25 +50,19 @@ In this blog, we are going to see how to implement the face recognition algorith
 
 **See other blogs from this series:**
 
-  1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)
+1. **Part 1:** [Introduction to 'Home Surveillance' using 96Boards](https://www.96boards.org/blog/part-1-home-surveillance-project-96boards/)
 
 # **OpenCV -  Insight and Installation**
 
-
 OpenCV is the acronym of '**Open Computer Vision**', an open source library for doing image processing. This library has grown big and has been used in a plethora of fields. Our aim is to install this library on one of our 96Boards CE board and use it for face detection. One of the pain points I encountered while doing this part is the installation steps. So, I thought it would be better to cover the installation steps also in this blog to help the community.
-
 
 ## **Hardware requirement**
 
+1. [96Boards CE](/products/ce/)
 
-
-  1. [96Boards CE](/products/ce/)
-
-
-  2. USB Webcam
+2. USB Webcam
 
 ## **Software dependencies**
-
 
 For this entire project, we will be using a Debian/Linux based OS on our 96Boards.
 
@@ -78,10 +71,7 @@ $ sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev
 $ pip install pillow
 ```
 
-
-
 ## Installation
-
 
 OpenCV version which is used here is 3.2.0, and I recommend using the series greater than 3.0.0. First OpenCV and then the extra modules needs to be downloaded.
 
@@ -130,9 +120,7 @@ $ sudo make install
 
 **Note: **Library would be installed in /usr/local path as we specified in cmake.
 
-
 ## **Let's do OpenCV**
-
 
 We now have OpenCV installed in our favourite 96Boards platform. **What’s next? Face detection?** Yes, but before that, there are some steps which need to be executed to make 96Boards detect our face :)
 
@@ -145,10 +133,7 @@ $ git clone https://github.com/96boards-projects/home_surveillance
 $ cd home_surveillance/part-2
 ```
 
-
-
 ## **Create dataset**
-
 
 Dataset contains a bunch of images of persons whose faces needs to be detected. More number of images in different angles, the more accurate this will be. For the sake of this blog, I've limited the image count to 10. So, execute _dataset.py_ script using the following command and give the User id then move your face in different positions in front of the webcam.
 
@@ -159,9 +144,7 @@ $ sudo python dataset.py
 
 Once 10 images have been captured, you can find everything under dataset directory. All of the images would be named after the User ID you have given. If the dataset needs to be created for multiple persons, execute the python file with different User ID.
 
-
 ## **Train the dataset**
-
 
 The captured dataset can be trained using the trainer.py script. It will run through the images present inside dataset folder and will convert each image to PIL image then extract face samples from it. After that, the face samples along with the User IDs would get passed to trainer algorithm. Finally the trained dataset would be stored inside trainer folder as _trainer.yml_. This would be used in next step to implement face detection.
 
@@ -170,12 +153,9 @@ $ mkdir trainer
 $ sudo python trainer.py
 ```
 
-
-
 ## Face Detection
 
-
-Alright, we are on the last stage of our face detection mission :) In this step, _facedetect.py _script would be used to implement the face detection algorithm. It will take the trained dataset file _trainer.yml_ and will run prediction algorithm on the captured frames. If a face matching the dataset has been found, it will show the person's name, otherwise unknown will be shown.
+Alright, we are on the last stage of our face detection mission :) In this step, _facedetect.py \_script would be used to implement the face detection algorithm. It will take the trained dataset file \_trainer.yml_ and will run prediction algorithm on the captured frames. If a face matching the dataset has been found, it will show the person's name, otherwise unknown will be shown.
 
 **Note:** In order to show the person's name in the screen, the user has to populate the 'if' condition in facedetect.py with person's name.
 
@@ -189,7 +169,7 @@ Alright, what's next? Implementing in your home... Yeah.. But hold on, we have p
 
 **Want more? [Continue on to Part - 3 of the series](https://www.96boards.org/blog/part-3-home-surveillance-project-96boards/)**.
 
-* * *
+---
 
 For 96Boards announcements and fun, be sure to visit and follow all of our social media channels!
 
@@ -197,7 +177,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “[Monthly Newsletter](/digest/)” and our “[Weekly Digest](/digest/)”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 

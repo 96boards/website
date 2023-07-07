@@ -12,20 +12,19 @@ image: /assets/images/blog/8-ball-feature.jpg
 image_name: 8-ball-feature.jpg
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- Android
-- ARM
-- ARMv8
-- Consumer IoT
-- DB410c
-- DragonBoard
-- Freedreno
-- HiKey
-- Linux
-- Open Embedded
-- Windows 10
-
+  - 64-bit
+  - 96Boards
+  - Android
+  - ARM
+  - ARMv8
+  - Consumer IoT
+  - DB410c
+  - DragonBoard
+  - Freedreno
+  - HiKey
+  - Linux
+  - Open Embedded
+  - Windows 10
 ---
 
 # **Introduction**
@@ -58,7 +57,6 @@ Make sure you have the following two libraries installed along with the source c
 
 `$ sudo apt-get install libmraa-dev`
 
-
 **Source Code**
 
 ```bash
@@ -86,7 +84,6 @@ $ ./hourglass
 
 {% include media.html media_url="https://www.youtube.com/embed/LXQDQ833CT4" %}
 
-
 You can see that the display has the initial message printed on it which prompts the user to enter time in minutes. Once you enter the time, you will find the LCD filling up with characters till the time is up.
 
 Similarly for the magic 8 ball application,
@@ -99,14 +96,13 @@ $ ./magic8
 
 {% include media.html media_url="https://www.youtube.com/embed/nY3zzHqJplk" %}
 
-
 In this application, the input is nothing but the touch sensor readings. Every time a tap gets detected on the sensor, it generates a random number from 0-19 using the rand() function. Associated with each number is a string that is displayed onto the LCD. You can play around with the code to modify the statements
 
 # **Conclusion**
 
 So that’s about it in this one! These projects should help you get started with 96Boards and get comfortable with the working environment.
 
-* * *
+---
 
 # Resources
 
@@ -116,7 +112,7 @@ For 96Boards announcements and fun, be sure to visit and follow all of our socia
 
 "For those of you who prefer a mailing list, we have just the one for you! You can choose between our “["Monthly Newsletter](/digest/)"” and our “["Weekly Digest](/digest/)"”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-"Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – ["OpenHours](/openhours/)". All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
+"Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience – ["OpenHours](/)". All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea 😀
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 

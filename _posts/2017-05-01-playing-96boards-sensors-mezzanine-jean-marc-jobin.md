@@ -11,43 +11,42 @@ title: Playing on the 96Boards Sensors Mezzanine with Jean-Marc Jobin
 wordpress_id: 20320
 category: blog
 tags:
-- '960'
-- 96Boards
-- Android
-- AOSP
-- arduino
-- ARM
-- arm32
-- arm64
-- ATMega
-- ATMega328
-- AVR
-- Community Minute
-- DragonBoard
-- DragonBoard 410c
-- GPIO
-- HD44780
-- HiKey
-- HiKey960
-- I2C
-- input output
-- IO
-- Jean-Marc
-- Jobin
-- Linaro
-- Linux
-- Mezzanine
-- OpenHours
-- Qualcomm
-- Robert Wolff
-- Seeed Studio
-- Snapdragon
-- temperature sensor
-- TMP102
+  - "960"
+  - 96Boards
+  - Android
+  - AOSP
+  - arduino
+  - ARM
+  - arm32
+  - arm64
+  - ATMega
+  - ATMega328
+  - AVR
+  - Community Minute
+  - DragonBoard
+  - DragonBoard 410c
+  - GPIO
+  - HD44780
+  - HiKey
+  - HiKey960
+  - I2C
+  - input output
+  - IO
+  - Jean-Marc
+  - Jobin
+  - Linaro
+  - Linux
+  - Mezzanine
+  - OpenHours
+  - Qualcomm
+  - Robert Wolff
+  - Seeed Studio
+  - Snapdragon
+  - temperature sensor
+  - TMP102
 ---
 
 # Introduction
-
 
 **- With help from guest Author, [Jean-Marc Jobin](https://twitter.com/jmjobin)**
 
@@ -65,47 +64,29 @@ Following the steps below, you will be able to build and play with the thermomet
 
 {% include media.html media_url="https://www.youtube.com/embed/Qll2MPDj_wc" %}
 
-
 # Hardware Requirements
 
+- 1 x [96Boards Sensors Mezzanine](/product/sensors-mezzanine/) from Seeed Studio
 
+- 1 x USB Tiny ISP (Many different models available online)
 
+- 1 x [TMP102 Thermometor sensor](https://www.sparkfun.com/products/13314)
 
+- 1 x [HD44780](https://www.seeedstudio.com/LCD-16%2A2-Characters-Green-Yellow-back-light-p-62.html)
 
-
-  * 1 x [96Boards Sensors Mezzanine](/product/sensors-mezzanine/) from Seeed Studio
-
-
-  * 1 x USB Tiny ISP (Many different models available online)
-
-
-  * 1 x [TMP102 Thermometor sensor](https://www.sparkfun.com/products/13314)
-
-
-  * 1 x [HD44780](https://www.seeedstudio.com/LCD-16%2A2-Characters-Green-Yellow-back-light-p-62.html)
-
-
-  * 1 x Potentiometer 10K Ohm (for display contrast control)
-
+- 1 x Potentiometer 10K Ohm (for display contrast control)
 
 _**Note: The display is optional, we can also display the temperature by using a serial USB device connected to your PC**_
 
-
 # Instructions
 
-
-
-
 ### **Step 1: Locate P6 Connector on your Sensors Mezzanine**
-
 
 When running Android on the DragonBoard 410c, the easiest way (if not the only way) to program the AVR ATMega 238 chip is to use a USBTinyISP programmer. Before connecting any cables, be sure to identify the location of PIN 1 on the P6 connector on your Sensor Mezzanine. This connector can be found between your "I2C0" and "EF" Grove connectors toward the bottom middle of your board.
 
 {% include image.html path="/assets/images/blog/Step1-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 1" class="img-fluid" %}
 
-
 ### **Step 2: Provide power to your Sensor Mezzanine (without baseboard 96Boards)**
-
 
 The power (5VDC) will be supplied by the programmer itself, no need to connect your mezzanine to any 96Boards base board at this point.
 
@@ -113,14 +94,11 @@ Please note: In this example, the USBTinyISP Jean-Marc is using, it has a tiny y
 
 {% include image.html path="/assets/images/blog/Step2-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 2" class="img-fluid" %}
 
-
 ### **Step 3: (RECOMMENDED STEP) Remove resistor R4 from your Sensor Mezzanine**
-
 
 If anyone plans to use their mezzanine excursively and with the Android OS in the future, Jean-Marc recommends you remove resistor R5. This resistor is connected to the serial port UART0 RTS (request to send) and will reset the ATMega328 when programming the mezzanine with DragonBoard under Linux.
 
 {% include image.html path="/assets/images/blog/Screenshot-sensors-mezzanine.png" alt="Sensors Mezzanine Image Screenshot" class="img-fluid" %}
-
 
 Not knowing the state of the 96UART0_RTS with Android, this may reset our ATMega328 permanently.
 
@@ -128,43 +106,29 @@ Not knowing the state of the 96UART0_RTS with Android, this may reset our ATMega
 
 Jean-Marc has told us that he will come back to talk more about the UART0 for 96Boards running Android. There are still some issues he is working on to resolve.
 
-
 ### **Step 4: Install USBTinyISP drivers on your PC**
-
 
 A good setup guide can be found **[here](https://learn.adafruit.com/usbtinyisp/drivers)**
 
 **Note: Before moving on, please spend some time to test and ensure a good installation of your USBTinyISP.**
 
-
 ### **Step 5: Install Arduino IDE on your PC (Windows, Mac, or Linux)**
-
 
 Instructions and download links can be found [here](https://www.arduino.cc/en/Main/Software)
 
 Note: Once your Android IDE is installed and setup, check to see if you can find the USBTinyISP programmer. If you have trouble finding this, please refer to the Arduino tutorial for instructions on how to install this library.
 
-
     "Tools" ---> "Programmer" ---> "USBTinyISP"
 
-
-
-
 ### **Step 6: Connect the temperature sensor to A_I2C. This is the Grove connector located at P9.**
-
 
 {% include image.html path="/assets/images/blog/Step6-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 6" class="img-fluid" %}
 
 This sensor uses the I2C protocol. Arduino has several libraries for this sensor, though you will have to install this one. Please refer to the Arduino tutorial for instructions on how to install.
 
-
     #include <Wire.h>
 
-
-
-
 ### **Step 7: Install compatible LCD screen**
-
 
 To display the temperature, Jean-Marc used the "Immortal" LCD Hitachi HD44780. This is a very cheap solution.
 
@@ -178,9 +142,7 @@ You can check out [**this link**](https://www.arduino.cc/en/Tutorial/LiquidCryst
 
 {% include image.html path="/assets/images/blog/Step7-sensors-mezzanine.png" alt="Sensors Mezzanine Image Step 7" class="img-fluid" %}
 
-
 ### **Step 8: Open the Arduino IDE on your host machine and copy the sketch code below.**
-
 
 **Note: this code was provided by Jean-Marc Jobin for the purpose of the OpenHours community minute and this blog.**
 
@@ -286,11 +248,9 @@ It is possible to add a USB to Serial port FTDI and plug it into the Arduino con
 
 {% include image.html path="/assets/images/blog/END-sensors-mezzanine.jpg" alt="Sensors Mezzanine Image END" class="img-fluid" %}
 
-
-* * *
+---
 
 # **Resources**
-
 
 **For 96Boards announcements and fun, be sure to visit and follow all of our social media channels!**
 
@@ -298,7 +258,7 @@ It is possible to add a USB to Serial port FTDI and plug it into the Arduino con
 
 For those of you who prefer a mailing list, we have just the one for you! You can choose between our “**[Monthly Newsletter](/digest/)**” and our “**[Weekly Digest](/digest/)**”. Get ready for just the right amount of commitment and information, 2017 is calling and 96Boards is here to answer.
 
-Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/openhours/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
+Every week at 4:00pm UTC the 96Boards team engages in the ultimate community driven experience - [OpenHours](/). All are welcome to join LIVE, for free, to interact as equal members in the 96Boards tribe of enthusiasts and developers. This is your channel/means to bring up interesting/controversial topics, explore new possibilities around the 96Boards brand, and pretty much anything else you would like to talk about! You can also just simply join to hang out and have a quick chat while you enjoy your morning coffee/tea :D
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
@@ -306,7 +266,4 @@ Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel f
 
 **Other Guest Blogs by Jean-Marc Jobin:**
 
-
-
-
-  * **[OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine](/blog/openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin/)**
+- **[OpenHours "Community Minute" - Testing the 96Boards Audio Mezzanine](/blog/openhours-community-minute-testing-96boards-audio-mezzanine-jean-marc-jobin/)**

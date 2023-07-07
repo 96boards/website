@@ -11,134 +11,96 @@ title: Programing I2C devices with libmraa and libupm
 wordpress_id: 15078
 category: blog
 tags:
-- 64-bit
-- 96Boards
-- aarch64
-- Android
-- apt-get
-- ARM
-- ARMv8
-- Consumer Edition
-- Consumer IoT
-- DB410c
-- dragonboard410c
-- General Purpose Input Output
-- GPIO
-- HiKey
-- I Squared C
-- I2C
-- LCD
-- LED
-- libmraa
-- libsoc
-- libupm
-- Linux
-- Open Embedded
-- Reference Platform
-- rpb
-- SCL
-- SDA
-- Sensor
-- Source
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Android
+  - apt-get
+  - ARM
+  - ARMv8
+  - Consumer Edition
+  - Consumer IoT
+  - DB410c
+  - dragonboard410c
+  - General Purpose Input Output
+  - GPIO
+  - HiKey
+  - I Squared C
+  - I2C
+  - LCD
+  - LED
+  - libmraa
+  - libsoc
+  - libupm
+  - Linux
+  - Open Embedded
+  - Reference Platform
+  - rpb
+  - SCL
+  - SDA
+  - Sensor
+  - Source
 ---
 
-Thank you everyone who participated in this week’s [Open Hours](/openhours/). Today I had the opportunity to speak about the I2C (Inter-integrated Circtui) and GPIO (General Purpose input/output) interfaces, taking what Robert spoke about these last two weeks and going a little more in depth. I decided to use the libmraa library and paired it with the UPM library to program the [LCD screen](https://www.seeedstudio.com/item_detail.html?p_id=1643) included in the [96Boards Sensors Mezzanine kit](https://www.seeedstudio.com/item_detail.html?p_id=2618).
+Thank you everyone who participated in this week’s [Open Hours](/). Today I had the opportunity to speak about the I2C (Inter-integrated Circtui) and GPIO (General Purpose input/output) interfaces, taking what Robert spoke about these last two weeks and going a little more in depth. I decided to use the libmraa library and paired it with the UPM library to program the [LCD screen](https://www.seeedstudio.com/item_detail.html?p_id=1643) included in the [96Boards Sensors Mezzanine kit](https://www.seeedstudio.com/item_detail.html?p_id=2618).
 
 During the open hours I tried showing several printed diagram, those diagrams are available in this blog. The diagrams might help you gain a better understanding of the pros and cons for each of these interfaces (GPIO and I2C)
 
-
 ## What is GPIO?
-
 
 General purpose Input/Output pins or GPIO are pins that go generally unused by default and are said to have no defined special purpose. This means the user maintains decisive control over the GPIO pins and their actions. That being said, these GPIO are capable of performing a variety of user driven actions. Below is a list of potential capabilities of the GPIO pins as seen on [https://en.wikipedia.org/wiki/General-purpose_input/output](https://en.wikipedia.org/wiki/General-purpose_input/output)
 
 **GPIO capabilities may include:**
 
+- GPIO pins can be configured to be input or output
 
+- GPIO pins can be enabled/disabled
 
+- Input values are readable (typically high=1, low=0)
 
-  * GPIO pins can be configured to be input or output
+- Output values are writable/readable
 
-
-  * GPIO pins can be enabled/disabled
-
-
-  * Input values are readable (typically high=1, low=0)
-
-
-  * Output values are writable/readable
-
-
-  * Input values can often be used as IRQs (Interrupt), typically for wakeup events
-
+- Input values can often be used as IRQs (Interrupt), typically for wakeup events
 
 Here it is important to note the GPIO pins are configurable, and can be set as an input or output. With that, we see values can be written onto, or read from these interfaces (GPIO), typically as discrete values of 0 and 1 (High or Low). Being able to read and write values to these pins allows simple and quick communication with peripheral devices. These devices in turn help the 96Boards to interpret and communicate with the environment or other devices. All Single Board Computers are not the same, and will usually differ in many ways. 96Boards have 12 GPIO pins, one of which is multi-purpose.
 
 {% include image.html path="/assets/images/blog/ic2-devices-img-1.png" alt="GPIO-S" class="img-fluid" %}
 
-
 **Pros**
 
+- Very easy to use for both software and hardware engineers
 
+- Only two states for direction (“in” or “out”)
 
+- Only two states for value (“0 → low” or “1 → high”)
 
-  * Very easy to use for both software and hardware engineers
+- Value of high is usually set to a standard voltage
 
+  - 1.8V, 2.5V, 3.3V or 5V
 
-  * Only two states for direction (“in” or “out”)
-
-
-  * Only two states for value (“0 → low” or “1 → high”)
-
-
-  * Value of high is usually set to a standard voltage
-
-
-    * 1.8V, 2.5V, 3.3V or 5V
-
-
-
-
-
-  * Input values can often be used as IRQs (Interrupt), typically for wakeup events
-
+- Input values can often be used as IRQs (Interrupt), typically for wakeup events
 
 **Cons**
 
+- Pins can only send or read one bit per line.
 
-
-
-  * Pins can only send or read one bit per line.
-
-
-  * More pins are required to do simple tasks
-
+- More pins are required to do simple tasks
 
 GPIO pins are especially good to use when programming simple sensors or actuators which only require a single data line. For example:
 
+- LEDs
 
-  * LEDs
+- Relays
 
+- Buzzers
 
-  * Relays
+- Buttons
 
+- Passive Infrared sensor (PIR)
 
-  * Buzzers
-
-
-  * Buttons
-
-
-  * Passive Infrared sensor (PIR)
-
-
-  * Many more!
-
-
-
+- Many more!
 
 ## What is I2C?
-
 
 The Inter-integrated Circuit (I2C, also read as “eye squared see”) is essentially a serial computer bus (a bus is something that communicates/transfers data between components) which allows lower speed peripheral ICs to be connected with processors and microcontrollers. They permit multiple synchronized master-slave connections to be formed. It is used in short distance communications within a single device. Although it is slower, it can be used for many devices. Requires two signal wires to transfer information.
 
@@ -148,82 +110,50 @@ Source: [https://en.wikipedia.org/wiki/I%C2%B2C](https://en.wikipedia.org/wiki/I
 
 {% include image.html path="/assets/images/blog/ic2-devices-img-2.png" alt="Ic2 Devices Image 2" class="img-fluid" %}
 
-
 **Pros ([Source](http://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2c-bus/))**
 
+- Maintains low pin/signal count even with numerous devices on bus
 
+- Adapts to the needs of different slave devices
 
+- Readily supports multiple masters
 
-  * Maintains low pin/signal count even with numerous devices on bus
-
-
-  * Adapts to the needs of different slave devices
-
-
-  * Readily supports multiple masters
-
-
-  * Incorporates ACK/NACK functionality for improved handling
-
+- Incorporates ACK/NACK functionality for improved handling
 
 **Cons ([Source](http://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2c-bus/))**
 
+- Increases the complexity of firmware or low-level hardware
 
+- Imposes protocol overhead that reduces throughput
 
+- Requires pull-up resistors, which
 
-  * Increases the complexity of firmware or low-level hardware
+  - Limit clock speed
 
+  - Consume valuable PCB real estate in extremely space-constrained systems
 
-  * Imposes protocol overhead that reduces throughput
-
-
-  * Requires pull-up resistors, which
-
-
-    * Limit clock speed
-
-
-    * Consume valuable PCB real estate in extremely space-constrained systems
-
-
-    * Increase power dissipation
-
-
-
-
+  - Increase power dissipation
 
 I2C pins are especially good to use when programming more complex sensors or actuators which require multiple data lines. For example:
 
+- Ultrasonic sensors
 
-  * Ultrasonic sensors
+- Stepper motors and servos
 
+- LCD screen
 
-  * Stepper motors and servos
+- LED matrices
 
-
-  * LCD screen
-
-
-  * LED matrices
-
-
-  * Many more!
-
-
-
+- Many more!
 
 ## What is libmraa and libupm?
-
 
 In the past, GPIO and I2C code had to be different, when programming for different boards. By using the libmraa and libupm libraries, the code can be unified across a variety of Single Board Computers. These libraries allow us to eliminate code redundancies and create higher quality software.
 
 {% include image.html path="/assets/images/blog/ic2-devices-img-3.png" alt="Ic2 Devices Image 3" class="img-fluid" %}
 {% include image.html path="/assets/images/blog/ic2-devices-img-4.png" alt="Ic2 Devices Image 4" class="img-fluid" %}
 
-
-
 ## How to unify code for all sensors on GPIO and I2C?
-
 
 Bringing in an abstraction layer will allow for multiple boards to access these interfaces (without the need of multiple libraries). The abstraction layer can also be looked at as a translation layer. This layer is used to translate each board’s GPIO values to a generic set of command variables. The layer is translated differently though used in the same way by each board. You can see this layer in the diagrams below (labeled as Common API layer). I would suggest reading more about the abstraction layer by visiting it’s [wiki page](https://en.wikipedia.org/wiki/Abstraction_layer).
 
@@ -239,33 +169,19 @@ A complete list of UPM enabled sensors can be found here:
 
 In this blog we will be working with a pre-enabled UPM sensor. Just like the project you saw during the open hours, and will also find below. Other UPM sensors are easy to pick up and program using the same libraries we are using (libmraa and libupm).
 
-
 ## Libmraa and UPM programming languages
 
+- C
 
+- C++
 
+- Python
 
+- Java
 
-
-  * C
-
-
-  * C++
-
-
-  * Python
-
-
-  * Java
-
-
-  * Node.js
-
-
-
+- Node.js
 
 ## Programing I2C devices on 96Boards
-
 
 _Note: Your 96Boards is required to have an internet connection_
 
@@ -281,19 +197,15 @@ You can always connect to the Internet by using a USB type-A to ethernet adapter
 
 {% include image.html path="/assets/images/blog/ic2-devices-img-7.jpg" alt="Ic2 Devices Image 7" class="img-fluid" %}
 
-
 USB-Ethernet dongle to the USB-Type-A connector.
 
 Once we are connected to the internet, we can make sure packets are being exchanged by updating the system time.
 
 **Commands:**
 
-`$ ntpdate pool.ntp.org
-8 Jun 04:03:38 ntpdate[2163]: adjust time server 129.250.35.251 offset 0.00031c……`
-
+`$ ntpdate pool.ntp.org 8 Jun 04:03:38 ntpdate[2163]: adjust time server 129.250.35.251 offset 0.00031c……`
 
 ## Installing libmraa and libupm.
-
 
 _Note: The following procedure is confirmed with Debian Linux on DragonBoard 410C and HiKey._
 
@@ -301,8 +213,7 @@ _Note: The following procedure is confirmed with Debian Linux on DragonBoard 410
 
 **Commands:**
 
-`$ sudo apt-get update
-$ sudo sudo apt-get dist-upgrade -u`
+`$ sudo apt-get update $ sudo sudo apt-get dist-upgrade -u`
 
 **Step 2: Install libmraa and libupm**
 
@@ -312,35 +223,24 @@ $ sudo sudo apt-get dist-upgrade -u`
 
 The command above will install the following four packages:
 
+- **libmraa0:** contains only libraa run-time library
 
+- **libmraa-dev:** includes header files to compile program using libmraa
 
+- **libupm0:** contains only libupm run-time library
 
-  * **libmraa0:** contains only libraa run-time library
-
-
-  * **libmraa-dev:** includes header files to compile program using libmraa
-
-
-  * **libupm0:** contains only libupm run-time library
-
-
-  * **libupm-dev:** includes header files to compile program using libupm
-
-
-
+- **libupm-dev:** includes header files to compile program using libupm
 
 ## Connecting Grove RGB backlight LCD
 
-
 {% include image.html path="/assets/images/blog/ic2-devices-img-8.png" alt="Ic2 Devices Image 8" class="img-fluid" %}
 
-
 ## Sample program #1: Grove RGB backlight LCD module using I2C
-
 
 _Download, build and run sample program:_
 
 **Commands:**
+
 ```bash
 $ git clone https://github.com/96boards/Starter_Kit_for_96Boards
 $ cd Starter_Kit_for_96Boards
@@ -354,9 +254,7 @@ and green.
 
 _Note: Press ctr-c to stop the program._
 
-
 ### _Inside the sample program #1_
-
 
 Below you will see the insides of the sample program you just ran. It is written in C++. There is no immediate need to write you own code for controlling the LCD display, reading this code over should give you a good start to designing your own I2C programs.
 
@@ -367,7 +265,6 @@ Example using vim text editor:
 `$ vim rgb-lcd-demo.cpp`
 
 ------ rgb-lcd-demo.cpp -----
-
 
 ```cpp
 
@@ -434,10 +331,7 @@ Example using vim text editor:
 
 ```
 
-
-
 ### Compiling
-
 
 For those of you who wish to compile the program manually please use the following command. This is important for those who wish to try other sensors, you will need to find the linking library before compilation.
 
@@ -448,19 +342,11 @@ For those of you who wish to compile the program manually please use the followi
 The way to find the linking library, goto
 [http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html#details](http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html#details)
 
-
 ###
 
-
-
-
 ###
-
-
-
 
 ### Running
-
 
 Once you have successfully written your code and compiled your program, you are ready to run it. This is the fun part.
 
@@ -468,21 +354,15 @@ Once you have successfully written your code and compiled your program, you are 
 
 `$ sudo ./rgb-lcd-demo`
 
-
 ## Connecting Grove LED module
-
 
 {% include image.html path="/assets/images/blog/ic2-devices-img-9.png" alt="Ic2 Devices Image 9" class="img-fluid" %}
 
-
 ## Sample Program #2: LED module using GPIO
-
 
 This particular code is very straightforward and works will all 96Boards running Debian Linux. The code seen below is found in the same folder as the code we dissected above (the LCD display)
 
-
 ### Inside the sample program #1
-
 
 Below you will see the insides of another sample program. It is also written in C++. Reading this code over should give you a good start to designing your own GPIO programs.
 
@@ -545,9 +425,7 @@ This can be accessed through the terminal using your favorite text editor. Make 
 
 _Note: This program is using GPIO_E. You can always change the value inside the code to a GPIO you prefer to use. If you do not change the value, you will have to connect your LED to GPIO_E in order for this program to work._
 
-
 ### Compiling
-
 
 **Commands:**
 
@@ -562,22 +440,14 @@ Once you have successfully written your code and compiled your program, you are 
 
 After execution, you will see your the LED you have connected to your Mezzanine board begin to blink.
 
-
-
-
 ## **Forum**
-
 
 [https://discuss.96boards.org/c/products/](https://discuss.96boards.org/c/products/)
 
-
-
-
 ## **Web page**
-
 
 [https://www.96boards.org/documentation/](/documentation/)
 
 [http://www.github.com/96boards/documentation/](http://www.github.com/96boards/documentation/)
 
-https://www.96boards.org/openhours/
+https://www.96boards.org/
