@@ -179,22 +179,22 @@ processing power, Wi-Fi, _Bluetooth_ ® wireless technology connectivity, and GP
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm APQ8016E                                                                         |
-|  CPU                 | ARM Cortex-A53 Quad-core up to 1.2 GHz per core                                                  |
-|  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
-|  RAM                 | 1GB or 2GB LPDDR3 533MHz                                                                        |
-|  Storage             | 8GB or 16GB eMMC 5.0 on board storage and MicroSD card slot                                             |
-|  Ethernet Port       | USB 2.0 expansion                                                                                |
-|  Wireless            | WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas                |
-|  USB                 | 2 x USB 2.0 Host 1 x USB 2.0 OTG                                                                 |
-|  Display             | 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P                            |
-|  Video               | 1080p@30fps HD video playback and capture with H.264 (AVC), and 720p playback with H.265 (HEVC)  |
-|  Audio               | PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)                                        |
-|  Camera              | Integrated ISP with support for image sensors up to 13MP                                         |
-|  Expansion Interface | 40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12 60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI                                                  |
-|  LED                 | 6 x LED: 4xUser controlled, 2xRadio(BT and WLAN activity)                                        |
-|  Button              | Power/Reset and Volume Up/down                                                                   |
-|  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
-|  OS Support          | Android / Linux / Windows IoT Core                                                    |
-|  Size                | 85mm x 54mm                                                                                      |
+|  SoC                 | Renesas RZ/G2L                                                                                   |
+|  CPU                 | 1× or 2× Cortex®-A55@1.2GHz L1,L3 Parity/ECC,1× Cortex®-M33@200MHz                               |
+|  GPU                 | Arm Mali-G31 GPU @500MHz                                                                         |
+|  RAM                 | 16-bit ×1ch DDR4-1600/DDR3L-1333 w/ECC                                                           |
+|  Storage             | 8GB eMMC on board storage MicroSD card slot                                                      |
+|  Ethernet Port       | 2ch                                                                                              |
+|  Wireless            | WIFI Module 2.4G/5.0G (optional)                                                                 |
+|  USB                 | 2 x USB2.0, 1 x USB(OTG)                                                                         |
+|  Display             | 1 x HDMI                                                                                         |
+|  Video               | Support up to Full HD @30fps resolutions Encoding and Decoding: H.264                            |
+|  Audio               |                                                                                                  |
+|  Camera              |                                                                                                  |
+|  Expansion Interface |                                                                                                  |
+|  LED                 |                                                                                                  |
+|  Button              |                                                                                                  |
+|  Power Source        |                                                                                                  |
+|  OS Support          |                                                                                                  |
+|  Size                |                                                                                                  |
 
