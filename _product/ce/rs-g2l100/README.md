@@ -9,9 +9,9 @@ dateAdded: 2020-12-20 09:00:00+00:00
 description: |-
     The Geniatech AHAURA RS-G2L100 / AKITIO RS-V2L100 Development Board are based on Renesas low power highly efficient powerful RZ/G2L / RZ/V2L SoC, which is jointly designed & manufactured in closed collaboration with Geniatech & Renesas.The board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 keywords: |-
-    processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
+    processing, power, Wi-Fi, Bluetooth connectivity, development, board, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "Board based on Qualcomm® APQ8016E processor and it's the size of a credit card."
+product_short_desc: "Board based on Renesas® RZG2L processor and it's the size of a credit card."
 product_specification: ce
 product_images:
   - images/rs-g2l100-front.png
@@ -27,23 +27,16 @@ sticky_tab_bar:
       url: /documentation/consumer/rs-g2l100/
       tab_position: 2
     - title: Support
-      url: https://discuss.96boards.org/c/products/dragonboard410c/
+      url: https://discuss.96boards.org/c/products/rs-g2l100/
       tab_position: 3
       tab_align_right: true
 product_buy_links:
   -
-    link-title: DB4 1G RAM+8G flash
-    link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
+    link-title: rs-g2l100 4G RAM+8G flash
+    link-url: "https://www.geniatech.com/product/renesas-development-board/"
     from: Geniatech
     type: board
     link-price: "$109.00"
-    link-price-currency: USD
-  -
-    link-title: DB4 2G RAM +16Flash
-    link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
-    from: Geniatech
-    type: board
-    link-price: "$119"
     link-price-currency: USD
   
 product_sidebar_sections:
