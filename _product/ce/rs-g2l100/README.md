@@ -11,7 +11,7 @@ description: |-
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, development, board, processor, low cost, Product, Development, Platform
 display_product: true
-product_short_desc: "Board based on Renesas® RZG2L processor and it's the size of a credit card."
+product_short_desc: "Board based on Renesas® RZ/G2L processor and it's the size of a credit card."
 product_specification: ce
 product_images:
   - images/rs-g2l100-front.png
@@ -108,7 +108,7 @@ attributes:
       1080p@30fps HD video playback and capture with H.264 (AVC)
   - name: "Audio"
     value: >-
-      PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
+      PCM/AAC+/WMA, ECNS, Audio+ post-processing (optional)
   - name: "Camera"
     value: Integrated ISU with support for image sensors up to 5M
   - name: "Expansion Interface"
@@ -122,9 +122,6 @@ attributes:
       "6 x LED:
         4 x User controlled
         2 x Radio (BT and WLAN activity)"
-  - name: "Buttons"
-    value: >-
-      Power/Reset and Volume Up/down
   - name: "Power"
     value: 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
   - name: "OS Support"
@@ -137,7 +134,6 @@ attributes:
         value: 85mm
       - title: "length"
         value: 100mm
-
 ---
 The Geniatech rs-g2l100, the board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 
