@@ -96,7 +96,7 @@ attributes:
   - name: "Storage"
     value: 8GB eMMC 5.1 (16/64/128GB optional)
   - name: "Ethernet"
-    value: USB 2.0 expansion
+    value: 2*RJ45, 10/100/1000M
   - name: "USB"
     value: >-
       2 x USB 2.0 Host
