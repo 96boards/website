@@ -7,8 +7,7 @@ shortname: rs-g2l100
 archived: false
 dateAdded: 2020-12-20 09:00:00+00:00
 description: |-
-    The Geniatech AHAURA RS-G2L100 / AKITIO RS-V2L100 Development Board are based on Renesas low power highly efficient powerful RZ/G2L / RZ/V2L SoC, which is jointly designed & manufactured in closed collaboration with Geniatech & Renesas.
-The board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
+    The Geniatech AHAURA RS-G2L100 / AKITIO RS-V2L100 Development Board are based on Renesas low power highly efficient powerful RZ/G2L / RZ/V2L SoC, which is jointly designed & manufactured in closed collaboration with Geniatech & Renesas.The board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
