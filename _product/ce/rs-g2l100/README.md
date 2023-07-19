@@ -40,43 +40,18 @@ product_buy_links:
     link-price-currency: USD
   
 product_sidebar_sections:
+    - title: More Info
+      icon: icon-link-ext-alt
+      items:
+        - title: Hardware User Manual
+          link: https://github.com/96boards/documentation/blob/master/consumer/rs-g2l100/hardware-docs/files/RS-G2L100-hardware-userguide.pdf
+        - title: Schematics
+          link: https://github.com/96boards/documentation/blob/master/consumer/rs-g2l100/hardware-docs/files/RS-G2L100_Schematic.pdf
     - title: OS
-      icon: fa-terminal
+      icon: icon-terminal
       items:
-        - title: Android
-          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/android.md.html
-        - title: Debian
-          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/debian.md.html
-        - title: OpenEmbedded
-          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/open-embedded.md.html
-        - title: Windows
-          link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
-        - title: Ubuntu
-          link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
-        - title: Fedora
-          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-    - title: Third Party Images
-      icon: fa-external-link-square
-      items:
-        - title: Windows 10 IoT Core
-          link: https://www.microsoft.com/en-us/download/details.aspx?id=55027
-        - title: Ubuntu Core
-          link: https://developer.ubuntu.com/core/get-started/dragonboard-410c
-        - title: Fedora
-          link: https://fedoraproject.org/wiki/Architectures/ARM/96Boards
-        - title: More Downloads
-          link: /documentation/consumer/dragonboard/dragonboard410c/downloads/
-    - title: Middleware & SDK's
-      icon: fa-code
-      items:
-        - title: AWS IoT SDK
-          link: https://github.com/ArrowElectronics/aws-iot-device-sdk
-        - title: IBM Watson IoT Platform
-          link: https://developer.ibm.com/recipes/tutorials/dragonboard410c-recipe/
-        - title: AT&T M2X
-          link: https://github.com/ArrowElectronics/att-iot-device-sdk
-        - title: ROS
-          link: http://wiki.ros.org/kinetic/Installation/Debian
+        - title: All Downloads
+          link: /documentation/consumer/rs-g2l100/downloads/
 product_bottom_section:
     - title: Accessories
       url: /products/accessories/
