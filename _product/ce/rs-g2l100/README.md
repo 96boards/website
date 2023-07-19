@@ -83,18 +83,18 @@ vendor:
 attributes:
   - name: "SoC"
     value: >-
-      Qualcomm Snapdragon 410E
+      Renesas RZ/G2L
   - name: "CPU"
-    value: ARM Cortex-A53 Quad-core up to 1.2 GHz per core
+    value: 2xCortex-A55 core up to 1.2GHz per core 1x Cortex-M33 core up to 200MHz
   - name: "GPU"
-    value: Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security
+    value: Arm Mali-G31 GPU @500MHz
   - name: "RAM"
-    value: 1GB or 2GB LPDDR3 533MHz
+    value: 4GB（4 or 8G optional）
   - name: "Wireless"
     value: >-
-      WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas
+      WIFI Module 2.4G/5.8G (optional)
   - name: "Storage"
-    value: 8GB or 16GB eMMC 5.0 on board storage and MicroSD card slot
+    value: 8GB eMMC 5.1 (16/64/128GB optional)
   - name: "Ethernet"
     value: USB 2.0 expansion
   - name: "USB"
@@ -105,16 +105,18 @@ attributes:
     value: 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P
   - name: "Video"
     value: >-
-      1080p@30fps HD video playback and capture with H.264 (AVC), and 720p playback with H.265 (HEVC)
+      1080p@30fps HD video playback and capture with H.264 (AVC)
   - name: "Audio"
     value: >-
       PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
   - name: "Camera"
-    value: Integrated ISP with support for image sensors up to 13MP
+    value: Integrated ISU with support for image sensors up to 5M
   - name: "Expansion Interface"
     value: >-
-      "40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12
-       60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI"
+      "1x High-Speed Connector1 intergrade MIPI-CSI/MIPI-DSI/USB/SD1 function
+       1x High-Speed Connector1 Support SPI/GPIO
+       1x Low-Speed Connector1 UART/I2C/SPI/GPIO/I2S
+       1x Low-Speed Connector2 Speak/MIC"
   - name: "LED"
     value: >-
       "6 x LED:
@@ -129,13 +131,12 @@ attributes:
     values:
       - title: Android
       - title: Linux
-      - title: Windows IoT Core
   - name: "Dimensions"
     values:
       - title: "width"
-        value: 54mm
-      - title: "length"
         value: 85mm
+      - title: "length"
+        value: 100mm
 
 ---
 The Geniatech rs-g2l100, the board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
