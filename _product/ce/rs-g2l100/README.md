@@ -120,8 +120,7 @@ attributes:
   - name: "LED"
     value: >-
       "6 x LED:
-        4 x User controlled
-        2 x Radio (BT and WLAN activity)"
+        6 x User controlled"
   - name: "Power"
     value: 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
   - name: "OS Support"
