@@ -5,7 +5,7 @@ permalink: /product/rs-g2l100/
 product: true
 shortname: rs-g2l100
 archived: false
-dateAdded: 2020-12-20 09:00:00+00:00
+dateAdded: 2023-07-19 16:00:00+00:00
 description: |-
     The Geniatech AHAURA RS-G2L100 / AKITIO RS-V2L100 Development Board are based on Renesas low power highly efficient powerful RZ/G2L / RZ/V2L SoC, which is jointly designed & manufactured in closed collaboration with Geniatech & Renesas.The board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 keywords: |-
@@ -36,7 +36,7 @@ product_buy_links:
     link-url: "https://www.geniatech.com/product/renesas-development-board/"
     from: Geniatech
     type: board
-    link-price: "$109.00"
+    link-price: "$199.00"
     link-price-currency: USD
   
 product_sidebar_sections:
@@ -104,7 +104,7 @@ product_bottom_section:
           link: /product/audio-mezzanine/
 vendor:
   name: Geniatech
-  url: https://shop.geniatech.com/product/developer_board_4_v3/
+  url: https://www.geniatech.com/product/renesas-development-board/
 attributes:
   - name: "SoC"
     value: >-
@@ -163,8 +163,7 @@ attributes:
         value: 85mm
 
 ---
-The Geniatech DB4, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
-processing power, Wi-Fi, _Bluetooth_ ® wireless technology connectivity, and GPS, all packed into a board the size of a credit card.
+The Geniatech rs-g2l100, the board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 
 ***
 
