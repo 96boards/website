@@ -7,7 +7,8 @@ shortname: rs-g2l100
 archived: false
 dateAdded: 2020-12-20 09:00:00+00:00
 description: |-
-    Geniatech DB4 by Arrow Electronics, development board based on the mid-tier Qualcomm® APQ8016E processor. Low-Cost Product Development Platform
+    The Geniatech AHAURA RS-G2L100 / AKITIO RS-V2L100 Development Board are based on Renesas low power highly efficient powerful RZ/G2L / RZ/V2L SoC, which is jointly designed & manufactured in closed collaboration with Geniatech & Renesas.
+The board includes a high-performance 64-bit Dual-core (Cortex A55) processor, HDMI out display support at resolutions up to 1080P, hardware video decodes up to 1080P, up to 4GB of RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth (BT 5.1 compliant BLE) two Gigabit Ethernet, two USB 2.0 and LTE Cat-M1, as well as supporting different high-speed interfaces such as MIPI-DSI / MIPI-CSI / USB2.0 and low speed 96Boards Mezzanine Connector.
 keywords: |-
     processing, power, Wi-Fi, Bluetooth connectivity, GPS, development, board, mid-tier, Qualcomm, APQ8016E, processor, low cost, Product, Development, Platform
 display_product: true
@@ -182,19 +183,14 @@ processing power, Wi-Fi, _Bluetooth_ ® wireless technology connectivity, and GP
 |  SoC                 | Renesas RZ/G2L                                                                                   |
 |  CPU                 | 1× or 2× Cortex®-A55@1.2GHz L1,L3 Parity/ECC,1× Cortex®-M33@200MHz                               |
 |  GPU                 | Arm Mali-G31 GPU @500MHz                                                                         |
-|  RAM                 | 16-bit ×1ch DDR4-1600/DDR3L-1333 w/ECC                                                           |
+|  RAM                 | 4GB (4 or 8G optional）                                                                          |
 |  Storage             | 8GB eMMC on board storage MicroSD card slot                                                      |
-|  Ethernet Port       | 2ch                                                                                              |
+|  Ethernet Port       | 2*RJ45, 10/100/1000M                                                                             |
 |  Wireless            | WIFI Module 2.4G/5.0G (optional)                                                                 |
 |  USB                 | 2 x USB2.0, 1 x USB(OTG)                                                                         |
 |  Display             | 1 x HDMI                                                                                         |
 |  Video               | Support up to Full HD @30fps resolutions Encoding and Decoding: H.264                            |
-|  Audio               |                                                                                                  |
-|  Camera              |                                                                                                  |
-|  Expansion Interface |                                                                                                  |
-|  LED                 |                                                                                                  |
-|  Button              |                                                                                                  |
-|  Power Source        |                                                                                                  |
-|  OS Support          |                                                                                                  |
-|  Size                |                                                                                                  |
+|  Power Source        | DC 12V / 3A (12V/3A Power adapter，Bootup with electrify)                                        |
+|  OS Support          | Yocto (Linux)                                                                                    |
+|  Size                | 100mm*85mm                                                                                       |
 
