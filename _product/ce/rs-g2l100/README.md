@@ -122,7 +122,7 @@ attributes:
       "6 x LED:
         6 x User controlled"
   - name: "Power"
-    value: 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm
+    value: DC 12V / 3A (12V/3A Power adapter，Bootup with electrify)
   - name: "OS Support"
     values:
       - title: Android
