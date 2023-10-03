@@ -145,13 +145,13 @@ attributes:
       LE build from Linaro
       LU build from Thundercomm
 ---
-    The Qualcomm® Robotics RB2 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping.
+The Qualcomm® Robotics RB2 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping.
 
-    At the heart of the kit is the Qualcomm® QRB4210 processor, customized for robotics applications. The QRB4210 SoC offers maximum mid-tier benefits delivering greater performance. With the Qualcomm® Kryo™ 260 CPU architecture for increased speeds and robust on-device performance, in addition to the 3rd generation Qualcomm® AI Engine, this platform delivers powerful performance, dynamic camera capabilities and Wi-Fi 6-ready connectivity, ideal for industrial and commercial IoT applications such as industrial handhelds in logistics and warehousing, security panels and cameras. For increased intuitive on-device intelligence, devices based on this new solution will help enable productive and efficient work environments.
+At the heart of the kit is the Qualcomm® QRB4210 processor, customized for robotics applications. The QRB4210 SoC offers maximum mid-tier benefits delivering greater performance. With the Qualcomm® Kryo™ 260 CPU architecture for increased speeds and robust on-device performance, in addition to the 3rd generation Qualcomm® AI Engine, this platform delivers powerful performance, dynamic camera capabilities and Wi-Fi 6-ready connectivity, ideal for industrial and commercial IoT applications such as industrial handhelds in logistics and warehousing, security panels and cameras. For increased intuitive on-device intelligence, devices based on this new solution will help enable productive and efficient work environments.
 
-     Built on the Qualcomm Robotics RB1 and Qualcomm Robotics RB2 platforms, the kits are ideal for OEMs, ODMs, and IoT developers. In a cost-effective package, they combine the computing, camera features, artificial intelligence and connectivity you need to take mass-market robotics and IoT products to consumers.
+Built on the Qualcomm Robotics RB1 and Qualcomm Robotics RB2 platforms, the kits are ideal for OEMs, ODMs, and IoT developers. In a cost-effective package, they combine the computing, camera features, artificial intelligence and connectivity you need to take mass-market robotics and IoT products to consumers.
 
-    There are three options to purchase the Qualcomm® Robotics RB2 Development Kit. The Core Kit includes just the mainboard and the QRB4210 SoM, whereas the Vision Kit includes the Vision Mezzanine and Camera Modules, and the Full Kit includes a display panel in addition.
+There are three options to purchase the Qualcomm® Robotics RB2 Development Kit. The Core Kit includes just the mainboard and the QRB4210 SoM, whereas the Vision Kit includes the Vision Mezzanine and Camera Modules, and the Full Kit includes a display panel in addition.
 
 ***
 
