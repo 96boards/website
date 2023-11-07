@@ -1,0 +1,25 @@
+---
+import BaseHead from "@/components/head/BaseHead.astro";
+import NavBar from "@/components/nav/NavBar.astro";
+import Footer from "@/components/footer/Footer.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  type?: string;
+}
+
+const { title, description, type = "website" } = Astro.props;
+---
+
+<html lang="en">
+  <BaseHead title={title} description={description} type={type} />
+  <body class="min-h-screen flex flex-col">
+    <NavBar />
+    <slot />
+    <Footer />
+    <script
+      type="text/javascript"
+      src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  </body>
+</html>

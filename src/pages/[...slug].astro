@@ -1,0 +1,25 @@
+---
+import type { Code, Debug } from "astro:components";
+import { getCollection } from "astro:content";
+// import "../styles/global.scss";
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  return pages
+    .filter((page) => page.id !== "404.md")
+    .map((page) => {
+      return {
+        params: {
+          slug: page.slug || undefined,
+        },
+        props: {
+          page,
+        },
+      };
+    });
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+---
+
+<Content />

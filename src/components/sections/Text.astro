@@ -1,0 +1,9 @@
+---
+const { style, text_content } = Astro.props;
+import * as marked from "marked";
+const markdown = marked.parse(text_content.text);
+---
+
+<div class:list={[style, "prose-lg md:prose-xl px-4"]}>
+  <p set:html={markdown} />
+</div>

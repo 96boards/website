@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+ html {
+	font-family: "Lato", sans-serif
+ }
+}
+
+
+@layer utilities {
+	.nav-hover {
+
+		:before {
+			@apply w-0 lg:bg-accent content-[""] bottom-0 h-1 block absolute left-[50%] duration-150 
+		}
+		:before:hover {
+				@apply w-full left-0
+		}
+
+	}
+}

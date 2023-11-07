@@ -1,0 +1,64 @@
+---
+import { getEntry } from "astro:content";
+import { Image } from "astro:assets";
+import Icon from "astro-icon";
+import LinaroLogo from "../../assets/images/linaro-logo-white.svg";
+const footer = await getEntry("data", "footer");
+const { data }: any = footer;
+---
+
+<footer class="justify-self-end mt-auto bg-neutral-500 text-white pt-8 px-2">
+  <div class="flex flex-wrap flex-row items-center justify-center gap-4">
+    <a
+      href="https://github.com/Linaro/linaro-astro-template"
+      class="flex gap-2 hover:underline"
+    >
+      <Icon name="mdi:github" class="w-6 text-inherit" />View on GitHub
+    </a>
+  </div>
+  <ul class="flex flex-wrap flex-row items-center justify-center gap-4 my-6">
+    <span class="text-center">
+      Copyright © {new Date().getFullYear()}
+    </span>
+    {
+      data.company_links.map((link: any) => (
+        <li>
+          <a
+            href={link.url}
+            class="before:content-['•'] before:mr-4 text-white"
+          >
+            <span class="hover:underline">{link.label}</span>
+          </a>
+        </li>
+      ))
+    }
+    <div
+      class="flex flex-row justify-center items-center flex-wrap h-full gap-8 ml-4 before:content-['•']"
+    >
+      <a href="https://twitter.com/linaroorg" class="h-full">
+        <Icon name="mdi:twitter" class="w-5 text-white" />
+      </a>
+      <a href="https://www.facebook.com/LinaroOrg" class="h-full">
+        <Icon name="mdi:facebook" class="w-5 text-white" />
+      </a>
+      <a href="https://www.linkedin.com/company/1026961" class="h-full">
+        <Icon name="mdi:linkedin" class="w-5 text-white" />
+      </a>
+      <a href="https://instagram.com/linaroorg">
+        <Icon name="mdi:instagram" class="w-5 text-white" />
+      </a>
+      <a href="https://www.youtube.com/linaroorg">
+        <Icon name="mdi:youtube" class="w-5 text-white" />
+      </a>
+      <a href="https://github.com/Linaro">
+        <Icon name="mdi:github" class="w-5 text-white" />
+      </a>
+    </div>
+  </ul>
+
+  <div class="flex flex-row justify-center my-4">
+    <a href="/">
+      <Image class="w-[60px]" src={LinaroLogo} alt="logo" />
+    </a>
+  </div>
+</footer>

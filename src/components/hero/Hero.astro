@@ -1,0 +1,35 @@
+---
+import { Image, getImage } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+type Props = CollectionEntry<"pages">["data"]["hero"];
+
+console.log(Astro.props)
+const { title, background_image, style, inner_image } = Astro.props!;
+
+---
+
+<section
+  class:list={[
+    style,
+    "hero-background",
+    "flex flex-col items-center text-white justify-around px-5 h-96",
+  ]}
+>
+  {inner_image ?  <Image
+    src={inner_image.src}
+    alt={inner_image.alt}
+    class="w-64"
+  /> : <></>}
+  <h1 class="text-inherit text-3xl lg:text-5xl text-left">{title}</h1>
+</section>
+
+<style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
+  .hero-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      var(--backgroundUrl);
+    background-position: center;
+    object-fit: cover;
+  }
+</style>
+

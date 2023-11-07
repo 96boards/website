@@ -1,0 +1,63 @@
+---
+import Cookies from "./Cookies.astro";
+import GoogleAnalytics from "./GoogleAnalytics.astro";
+import { SEO } from "astro-seo";
+import "@fontsource/lato";
+import "../../styles/global.scss";
+const GA_ID = import.meta.env.GA_ID;
+
+const { title = "", description = "", type = "website" } = Astro.props;
+
+const social_image = "";
+---
+
+<head>
+  <title>{title}</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <meta property="description" content={description} />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <Cookies />
+  <GoogleAnalytics id={GA_ID} />
+  <SEO
+    title={title}
+    description={description}
+    openGraph={{
+      basic: {
+        title: title,
+        type: type,
+        image: social_image,
+      },
+    }}
+    ,
+    twitter={{
+      title: title,
+      description: description.slice(0, 196) + "...",
+      card: "summary_large_image",
+      image: social_image,
+      creator: "@LinaroOrg",
+    }}
+    extend={{
+      link: [
+        {
+          rel: "me",
+          href: "https://mastodon.org.uk/@LinaroLtd@mastodon.social",
+        },
+      ],
+      meta: [
+        {
+          property: "twitter:image",
+          content: social_image,
+        },
+        {
+          property: "og:image",
+          content: social_image,
+        },
+        {
+          property: "og:description",
+          content: description,
+        },
+      ],
+    }}
+  />
+</head>

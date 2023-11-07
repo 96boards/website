@@ -1,0 +1,62 @@
+---
+// import NavBar from '../components/Nav/NavBar.astro';
+
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import { getCollection, getEntries } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+import Hero from "@/components/hero/Hero.astro";
+import { getEntryBySlug } from "astro:content";
+
+type Props = { frontmatter: CollectionEntry<"pages">};
+
+
+const {
+  frontmatter: { slug },
+} = Astro.props!;
+const page = await getEntryBySlug("pages", slug)
+
+const { title, description, flow, hero } = page.data
+
+const allComponents = await import.meta.glob("../components/**/*.astro")
+const rowComponents = {} as Record<string, {default: AstroComponentFactory} >;
+const sectionComponents = {} as Record<
+  string,
+   {default: AstroComponentFactory }
+>;
+
+if (flow && flow?.length > 0) {
+  for (const rowData of await getEntries(flow.map((row) => row.row))) {
+    rowComponents[rowData.slug] = await allComponents[rowData.data.path.replace("@/components", "../components")]()
+  }
+
+for (const sectionData of await getEntries(flow.map((row) => row.sections!.map((section) => section.component)).flat())) {
+    sectionComponents[sectionData.slug] = await allComponents[sectionData.data.path.replace("@/components", "../components")]()
+  }
+}
+
+---
+
+<BaseLayout title={title} description={description}  >
+    <main class="prose mx-0 max-w-full">
+      {hero && <Hero {...hero} />}
+      {
+        flow?.map((row: any) => {
+          const { row: component, sections, ...rowProps } = row
+          const RowComp = rowComponents[component.slug].default;
+          console.log
+          return RowComp ? (
+            <RowComp {...rowProps}>
+              {sections ? sections.map((section: any) => {
+                const {component, ...sectionProps} = section
+                const SectionComp = sectionComponents[component.slug].default
+                console.log(SectionComp)
+                return SectionComp ? <SectionComp {...sectionProps} ><slot /></SectionComp> : <div>Not implemented</div>
+              }) : <></>}
+            </RowComp>
+          ) : <div>Not implemented</div>;
+        })
+      }
+    </main>
+    <!-- <Footer /> -->
+</BaseLayout>
