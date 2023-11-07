@@ -1,30 +1,37 @@
 ---
 import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
-import LinaroLogo from "../../assets/images/linaro-logo.png";
+import LinaroLogo from "../../assets/images/logo.svg";
 import { Image } from "astro:assets";
 import { getEntry } from "astro:content";
 
 const navData = await getEntry("data", "nav");
 ---
 
-<header
-  class="flex flex-col lg:flex-row justify-around items-center bg-background"
->
+<header class="flex flex-col lg:flex-row justify-around items-center bg-black">
   <Astronav>
     <div class="flex w-full lg:w-auto items-center justify-between px-8">
       <a href="/" class="text-lg"
-        ><Image src={LinaroLogo} alt="Linaro Logo" width={60} height={60} /></a
+        ><Image
+          src={LinaroLogo}
+          alt="Linaro Logo"
+          width={120}
+          height={120}
+        /></a
       >
       <div class="block lg:hidden">
         <MenuIcon class="w-4 h-4 text-white" />
       </div>
     </div>
-    <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 font-medium">
-      <ul class="flex flex-col lg:flex-row lg:gap-3 items-center">
+    <MenuItems
+      class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 font-medium text-white"
+    >
+      <ul
+        class="flex flex-col lg:flex-row lg:gap-3 items-start max-w-3xl px-5 mx-auto"
+      >
         {
           navData.data.map((item: any, index: number) => (
-            <>
+            <li>
               {item.children && (
                 <Dropdown
                   title={item.label}
@@ -42,7 +49,7 @@ const navData = await getEntry("data", "nav");
                   </div>
                 </div>
               )}
-            </>
+            </li>
           ))
         }
       </ul>

@@ -11,6 +11,8 @@ const pages = defineCollection({
           title: z.string(),
           background_image: image(),
           style: z.string(),
+          title_style: z.string().optional(),
+          description: z.string().optional(),
           inner_image: z
             .object({
               src: image(),
@@ -27,6 +29,22 @@ const pages = defineCollection({
               z
                 .object({
                   component: reference("sections"),
+                  blocks: z
+                    .array(
+                      z.object({
+                        description: z.string(),
+                        title: z.string(),
+                        image: image(),
+                        buttons: z.array(
+                          z.object({
+                            url: z.string(),
+                            style: z.string(),
+                            title: z.string(),
+                          })
+                        ),
+                      })
+                    )
+                    .optional(),
                 })
                 .catchall(z.any())
             ),

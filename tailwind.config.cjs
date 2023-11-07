@@ -7,8 +7,9 @@ module.exports = {
     content: ["./node_modules/tw-elements/dist/js/**/*.js"],
     extend: {
       colors: {
-        accent: "rgb(152, 204, 51)",
+        accent: "#19937a",
         linarogreen: "rgb(152, 204, 51)",
+        yellowtitle: "#ffdf84",
       },
       typography: (theme) => ({
         DEFAULT: {

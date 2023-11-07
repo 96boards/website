@@ -14,11 +14,19 @@
 	.nav-hover {
 
 		:before {
-			@apply w-0 lg:bg-accent content-[""] bottom-0 h-1 block absolute left-[50%] duration-150 
+			@apply w-0 lg:bg-accent content-[""] bottom-0 h-[2px] block absolute left-[50%] duration-150 
 		}
 		:before:hover {
 				@apply w-full left-0
 		}
 
 	}
+
+	.btn-primary {
+		@apply bg-accent hover:bg-emerald-900 text-white px-3 py-2 no-underline rounded-sm
+	}
+
+	.btn-secondary {
+		@apply bg-neutral-700 hover:bg-neutral-900 text-white px-3 py-2 no-underline rounded-sm
+	} 
 }

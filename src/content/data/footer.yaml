@@ -1,5 +1,7 @@
 company_links:
   - label: Legal
-    url: https://www.linaro.org/legal/
+    url: /legal/
+  - label: Cookies
+    url: /cookies/
   - label: Contact
-    url: https://www.linaro.org/contact
+    url: /contact/

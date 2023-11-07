@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+const { item_width, container_style, blocks } = Astro.props;
+---
+
+<div
+  class:list={[
+    "grid grid-cols-1 md:grid-cols-2 gap-6 justify-center",
+    container_style,
+  ]}
+>
+  {
+    blocks.map(({ title, description, buttons, image }: any) => (
+      <div class="border border-neutral-200 rounded-md shadow-lg px-10 py-4 w-full  flex flex-col items-center  ">
+        <Image src={image} alt={title} width={100} />
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div class="mb-4 flex flex-row md:flex-col lg:flex-row gap-3 justify-center">
+          {buttons.map((button: any) => (
+            <a href={button.url} class={button.style}>
+              {button.title}
+            </a>
+          ))}
+        </div>
+      </div>
+    ))
+  }
+</div>

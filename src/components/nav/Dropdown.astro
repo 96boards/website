@@ -1,13 +1,17 @@
 ---
-import { Dropdown as DropdownContainer, DropdownItems } from "astro-navbar";
+import {
+  Dropdown as DropdownContainer,
+  DropdownItems,
+  DropdownSubmenu,
+} from "astro-navbar";
 const { title, lastItem, children } = Astro.props;
 ---
 
 <li class="relative my-5">
   <DropdownContainer class="group">
-    <div class="nav-hover transition">
+    <div class="nav-hover">
       <button
-        class="flex items-center gap-1 w-full lg:w-auto lg:px-3 py-2 text-inherit"
+        class="flex items-center gap-1 w-full lg:w-auto px-3 py-2 text-inherit"
       >
         <span>{title}</span>
         <svg
@@ -25,29 +29,72 @@ const { title, lastItem, children } = Astro.props;
         </svg>
       </button>
     </div>
-    <DropdownItems>
+    <DropdownItems class="relative ml-5 lg:ml-0">
       <div
         class:list={[
-          "lg:absolute w-full lg:w-48 z-10 mt-1",
+          "lg:absolute w-full lg:w-48 z-10 mt-1 lg:text-black",
           lastItem
             ? "lg:right-0 origin-top-right"
             : "lg:left-0 origin-top-left",
         ]}
       >
-        <div
-          class="lg:py-2 lg:bg-white lg:rounded-md lg:shadow lg:border flex flex-col"
-        >
+        <ul class="py-2 lg:bg-white lg:rounded-md lg:shadow lg:border">
           {
-            children.map((item: any) => (
-              <a
-                href={item.url}
-                class=" px-3 py-1  lg:hover:text-white hover:bg-accent"
-              >
-                {item.label}
-              </a>
+            children.map((item: any, index: number) => (
+              <li class=" ">
+                {item.children && (
+                  <DropdownSubmenu class="group/submenu flex flex-col-reverse lg:flex-col">
+                    <DropdownItems class="relative ml-5 lg:ml-0">
+                      <ul class="lg:absolute lg:bg-white left-full top-0 w-40 lg:border lg:shadow lg:rounded py-1">
+                        {item.children.map((child: any) => (
+                          <li class="">
+                            <div class="relative lg:hover:bg-accent lg:hover:text-white">
+                              <div class=" ">
+                                <a
+                                  href={child.url}
+                                  class="flex lg:px-3 py-2 text-inherit "
+                                >
+                                  {child.label}
+                                </a>
+                              </div>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    </DropdownItems>
+                    <button class="flex w-full items-center justify-between px-3 py-2 text-inherit lg:hover:bg-accent lg:hover:text-white ">
+                      <span>{item.label}</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="3"
+                        stroke="currentColor"
+                        class="w-3 h-3 mt-0.5 group-open/submenu:rotate-180"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
+                    </button>
+                  </DropdownSubmenu>
+                )}
+
+                {!item.children && (
+                  <div class="relative lg:hover:bg-accent lg:hover:text-white">
+                    <div class=" ">
+                      <a href={item.url} class="flex px-3 py-2 text-inherit ">
+                        {item.label}
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </li>
             ))
           }
-        </div>
+        </ul>
       </div>
     </DropdownItems>
   </DropdownContainer>

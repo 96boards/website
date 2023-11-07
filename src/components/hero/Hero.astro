@@ -5,7 +5,7 @@ import type { CollectionEntry } from "astro:content";
 type Props = CollectionEntry<"pages">["data"]["hero"];
 
 console.log(Astro.props)
-const { title, background_image, style, inner_image } = Astro.props!;
+const { title, background_image, style, inner_image, description, title_style } = Astro.props!;
 
 ---
 
@@ -13,7 +13,7 @@ const { title, background_image, style, inner_image } = Astro.props!;
   class:list={[
     style,
     "hero-background",
-    "flex flex-col items-center text-white justify-around px-5 h-96",
+    "flex flex-col items-center text-white justify-center px-5 h-96",
   ]}
 >
   {inner_image ?  <Image
@@ -21,12 +21,15 @@ const { title, background_image, style, inner_image } = Astro.props!;
     alt={inner_image.alt}
     class="w-64"
   /> : <></>}
-  <h1 class="text-inherit text-3xl lg:text-5xl text-left">{title}</h1>
+  <div class="max-w-3xl text-center mx-auto">
+  <h1 class:list={["text-inherit text-3xl lg:text-5xl ", title_style]}>{title}</h1>
+  <p class="text-xl">{description}</p>
+</div>
 </section>
 
 <style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
   .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       var(--backgroundUrl);
     background-position: center;
     object-fit: cover;

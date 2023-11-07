@@ -2,7 +2,7 @@
 import { getEntry } from "astro:content";
 import { Image } from "astro:assets";
 import Icon from "astro-icon";
-import LinaroLogo from "../../assets/images/linaro-logo-white.svg";
+import LinaroLogo from "../../assets/images/Linaro-logo-white.png";
 const footer = await getEntry("data", "footer");
 const { data }: any = footer;
 ---
@@ -10,7 +10,7 @@ const { data }: any = footer;
 <footer class="justify-self-end mt-auto bg-neutral-500 text-white pt-8 px-2">
   <div class="flex flex-wrap flex-row items-center justify-center gap-4">
     <a
-      href="https://github.com/Linaro/linaro-astro-template"
+      href="https://github.com/96boards/website"
       class="flex gap-2 hover:underline"
     >
       <Icon name="mdi:github" class="w-6 text-inherit" />View on GitHub
@@ -18,7 +18,7 @@ const { data }: any = footer;
   </div>
   <ul class="flex flex-wrap flex-row items-center justify-center gap-4 my-6">
     <span class="text-center">
-      Copyright © {new Date().getFullYear()}
+      Copyright © {new Date().getFullYear()} Linaro Limited
     </span>
     {
       data.company_links.map((link: any) => (

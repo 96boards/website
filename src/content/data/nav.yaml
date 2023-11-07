@@ -1,8 +1,92 @@
-- label: View on Github
-  url: https://github.com/linaro-astro-template
-- label: Dropdown
+- label: About
   children:
-    - label: Option 1
-      url: /option1
-    - label: Option 2
-      url: /option2
+    - label: Overview
+      url: /about/
+    - label: Specifications
+      url: /specifications/
+    - label: Compliance
+      url: /compliance/
+    - label: News
+      url: /news/
+- label: Products
+  active_paths:
+    - /product/
+  children:
+    - label: All Boards
+      url: /products/
+    - label: Consumer Edition (CE)
+      url: /products/ce/
+    - label: Enterprise Edition (EE)
+      url: /products/ee/
+    - label: IoT Edition (IE)
+      url: /products/ie/
+    - label: SoM Edition (SE)
+      children:
+        - label: All
+          url: /products/se/
+        - label: Carrier Boards
+          url: /products/se/carrier-boards/
+        - label: Modules
+          url: /products/se/modules/
+    - label: Auto Edition (AE)
+      children:
+        - label: All
+          url: /products/ae/
+        - label: PCU
+          url: /products/ae/pcu/
+        - label: CCU
+          url: /products/ae/ccu/
+        - label: Drone
+          url: /products/ae/drone/
+    - label: Mezzanine Products
+      url: /products/mezzanine/
+    - label: Archived 96Boards
+      url: /products/archived/
+    - label: Compare 96Boards
+      url: /products/compare/
+    - label: Accessories
+      url: /products/accessories/
+- label: Initiatives
+  children:
+    - label: Blog
+      url: /blog/
+    - label: Projects
+      children:
+        - label: Projects
+          url: /projects/
+        - label: Contribute
+          url: /projects/contribute/
+        - label: FAQ
+          url: /projects/faq/
+        - label: Submit a Project
+          url: /projects/submit/
+    - label: Go Events
+      url: /go/
+    - label: 96Boards Pinout
+      url: /pinout/
+- label: Documentation
+  children:
+    - label: All Documentation
+      url: /documentation/
+    - label: Guides
+      url: /documentation/guides/
+    - label: Consumer Edition Docs
+      url: /documentation/consumer/
+    - label: Enterprise Edition Docs
+      url: /documentation/enterprise/
+    - label: IoT Edition Docs
+      url: /documentation/iot/
+    - label: Mezzanine Products Docs
+      url: /documentation/mezzanine/
+    - label: Specification Docs
+      url: /documentation/Specifications/
+    - label: Contribution Policy
+      url: /documentation/CONTRIBUTE.md.html
+- label: Support
+  children:
+    - label: Discussion Forum
+      url: https://discuss.96boards.org/
+    - label: 96Boards Discord
+      url: https://discord.gg/x5uMn5d
+    - label: Partner Services
+      url: /services/
