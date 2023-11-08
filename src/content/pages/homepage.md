@@ -23,8 +23,7 @@ flow:
           text: |
             Each board has its own **unique features**, you can **pick and choose**
             one based on the project you are working on.
-      # - component: custom_include
-      #   source: products/featured_products.html
+      - component: featured_products
       - component: buttons
         style: text-center
         buttons_content:

@@ -50,7 +50,6 @@ for (const sectionData of await getEntries(flow.map((row) => row.sections!.map((
               {sections ? sections.map((section: any) => {
                 const {component, ...sectionProps} = section
                 const SectionComp = sectionComponents[component.slug].default
-                console.log(SectionComp)
                 return SectionComp ? <SectionComp {...sectionProps} ><slot /></SectionComp> : <div>Not implemented</div>
               }) : <></>}
             </RowComp>

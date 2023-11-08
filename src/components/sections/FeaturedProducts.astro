@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+
+const products = await getCollection("products");
+
+const featuredProducts = products
+  .sort((a, b) =>
+    dayjs(b.data.dateAdded || "2017-1-1").diff(a.data.dateAdded || "2017-1-1")
+  )
+  .slice(0, 6);
+---
+
+<section>
+  <ul class="list-none">
+    {
+      featuredProducts.map((product) => {
+        const { product_images, product_buy_links, title } = product.data;
+        const lowestPriceLink =
+          product_buy_links?.sort(
+            (a: any, b: any) =>
+              parseFloat(
+                (a["link-price"] || `$${9e9}`).replace(/[^0-9\.]+/g, "")
+              ) -
+              parseFloat(
+                (b["link-price"] || `${9e9}`).replace(/[^0-9\.]+/g, "")
+              )
+          )[0] || {};
+        let lowestPrice;
+        if ("link-price" in lowestPriceLink) {
+          lowestPrice = lowestPriceLink["link-price"];
+        } else {
+          lowestPrice = null;
+        }
+        return (
+          <li>
+            <a href={`/${product.slug}`} class="no-underline hover:underline">
+              <h3>{title}</h3>
+              {lowestPrice && <i>From {lowestPrice}</i>}
+              {product_images && product_images.length > 0 && (
+                <Image src={product_images[0]} alt={title} />
+              )}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</section>
+<>{featuredProducts.map((product) => product.data.title)}</>

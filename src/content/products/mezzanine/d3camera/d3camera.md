@@ -1,0 +1,80 @@
+---
+title: D3Camera
+layout: ../../../../layouts/ProductLayout.astro
+product: true
+shortname: d3camera
+archived: false
+dateAdded: 2017-06-26T09:00:00.000Z
+description: D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables
+  direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™
+  410c.  Direct MIPI CSI-2 access to camera data allows more realistic
+  evaluation of embedded vision designs. Eliminating the need to decode USB or
+  Ethernet protocols results in lower power and higher performance.
+display_product: true
+product_specification: mezzanine
+product_short_desc: D3 Camera Mezzanine Board OV5640 enables up to two MIPI
+  CSI-2 cameras to connect to the DragonBoard™ 410c.
+product_images:
+  - ./_images/Camera_Mezzanine_Board_OV5640_front.jpg
+  - ./_images/Camera Mezzanine Board OV5640_back.jpg
+  - ./_images/D3-DesignCore.jpg
+product_sidebar_sections:
+  - title: Documents
+    items:
+      - title: D3 Engineering website
+        link: http://www.d3engineering.com/solutions/embedded-vision
+      - title: D3 DesignCore Mezzanine Wiki
+        link: https://github.com/D3Engineering/410c_camera_support/wiki
+      - title: Data Sheet
+        link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf
+      - title: Quickstart Guide and Schematics
+        link: https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf
+  - title: Features
+    items:
+      - title: "Camera Interfaces: Two MIPI CSI-2 (2-lane)"
+      - title: "Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO."
+product_video:
+  - url: https://www.youtube.com/embed/nosQO0K60YM?feature=oembed
+  - url: https://www.youtube.com/embed/1gpMbZf4x8w?feature=oembed
+product_buy_links:
+  - link-title: Arrow Electronics
+    link-url: https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering
+  - link-title: FabToLab (India)
+    link-url: https://www.fabtolab.com/boards/96boards/d3-mezzanine-camera-board
+sticky_tab_bar:
+  - title: D3Camera
+    url: /product/d3camera/
+    active: true
+  - title: Documentation
+    url: /documentation/mezzanine/d3camera/
+    tab_position: 1
+  - title: Support
+    url: https://discuss.96boards.org/c/products/mezzanine
+    tab_position: 2
+    tab_align_right: true
+attributes:
+  - name: Camera
+    value: '"Two MIPI CSI-2 (2-lane)"'
+  - name: Expansion Interface
+    value: '" Two UART, two SPI, one I2C, one PCM, GPIO. "'
+  - name: Parent Board
+    value: /product/dragonboard410c/
+slug: product/d3camera/
+---
+D3 Engineering DesignCore™ Camera Mezzanine Board OV5640 enables direct connection of up to two MIPI CSI-2 cameras to the DragonBoard™ 410c.  Direct MIPI CSI-2 access to camera data allows more realistic evaluation of embedded vision designs. Eliminating the need to decode USB or Ethernet protocols results in lower power and higher performance.
+
+## Buy Now
+
+- [Arrow Electronics](https://www.arrow.com/en/products/d3cameramezzov5640/d3-engineering)
+
+***
+
+## Additional Information
+
+- Camera Interfaces: Two MIPI CSI-2 (2-lane)
+- Expansion Interfaces: Two UART, two SPI, one I2C, one PCM, GPIO.
+- [Designcore Camera Mezzanine WIKI](https://github.com/D3Engineering/410c_camera_support/wiki)
+- Datasheet and Schematics ([View](https://github.com/96boards/website/blob/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf) / [Download](https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_DataSheet.pdf))
+- OV5640 Quickstart Guide ([View](https://github.com/96boards/website/blob/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf) / [Download](https://github.com/96boards/website/raw/master/_product/mezzanine/d3camera/files/D3Eng_DesignCore_CamMezzBoard_OV5640_QuickStart_Guide_v1.pdf))
+
+***

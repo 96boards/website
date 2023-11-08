@@ -8,11 +8,12 @@ layout: ../../layouts/Flow.astro
 sticky_tab_bar: true
 hero:
   title: About
-  image: ../../assets/images/content/96boards-banner-1.jpg
+  background_image: ../../assets/images/content/96boards-banner-1.jpg
 flow:
   - row: container_row
     sections:
       - component: text
+        style: max-w-full prose-xl
         text_content:
           text: >
             96Boards is a range of hardware specifications created by Linaro to make the latest ARM-based processors available to developers at a reasonable cost. The specifications are open and define a standard board layout for SoC-agnostic (processor independent) development platforms that can be used by software application, hardware device, kernel and other system software developers. Boards produced to the 96Boards specifications are suitable for rapid prototyping, hobbyist projects or incorporation into new systems for a wide range of applications including desktop and laptop computing, the digital home, digital signage, point of sale (POS), high-end audio, robotics and drones, artificial intelligence, virtual reality, IoT and industrial control.
@@ -36,48 +37,53 @@ flow:
   - row: container_row
     sections:
       - component: feature_block
-        position: right
-        type: image
-        image_content_path: /assets/images/products/carbon-front-hd.jpg
-        title: Small
-        text: >
-          The 96Boards Specifications manages to pack an unexpected amount of components and features onto a small form-factor. This small size offers developers and makers a wide range of prototyping options when bringing a project or product to life.
+        feature_block_content:
+          position: right
+          type: image
+          image_content_path: ../../assets/images/products/carbon-front-hd.jpg
+          title: Small
+          text: >
+            The 96Boards Specifications manages to pack an unexpected amount of components and features onto a small form-factor. This small size offers developers and makers a wide range of prototyping options when bringing a project or product to life.
   - row: container_row
     sections:
       - component: feature_block
-        position: left
-        type: image
-        image_content_path: ../../assets/images/products/hikey960-hd.png
-        title: Powerful
-        text: >
-          Industry wide, the 96Boards standard has attracted many leading chip makers and board manufacturers. Most SoCs which are made available for development on 96Boards are also found in currently shipping mainstream products. You will always find new and exciting features on every 96Boards.
+        feature_block_content:
+          position: left
+          type: image
+          image_content_path: ../../assets/images/products/hikey960-hd.png
+          title: Powerful
+          text: >
+            Industry wide, the 96Boards standard has attracted many leading chip makers and board manufacturers. Most SoCs which are made available for development on 96Boards are also found in currently shipping mainstream products. You will always find new and exciting features on every 96Boards.
   - row: container_row
     sections:
       - component: feature_block
-        position: right
-        type: image
-        image_content_path: ../../../assets/images/products/avenger96-front-sd.png
-        title: Reliable
-        text: >
-          Most 96Boards are released with a production plan in mind. The chips used on 96Boards are an ideal option for product development. Most chip makers who choose 96Boards will guarantee the availability of their chips over the long term. This allows for interruption-free development of a project and/or product. The availability of your 96Boards SoC (and/or SoM equivalent) will allow you to, much more easily, bring your product to market. End users can develop and test prototypes on a 96Boards device, then purchase the SoC in large quantities to use in a final product.
+        feature_block_content:
+          position: right
+          type: image
+          image_content_path: ../../assets/images/products/avenger96-front-sd.png
+          title: Reliable
+          text: >
+            Most 96Boards are released with a production plan in mind. The chips used on 96Boards are an ideal option for product development. Most chip makers who choose 96Boards will guarantee the availability of their chips over the long term. This allows for interruption-free development of a project and/or product. The availability of your 96Boards SoC (and/or SoM equivalent) will allow you to, much more easily, bring your product to market. End users can develop and test prototypes on a 96Boards device, then purchase the SoC in large quantities to use in a final product.
   - row: container_row
     sections:
       - component: feature_block
-        position: left
-        type: image
-        image_content_path: ../../assets/images/products/oxalis-front-sd.jpg
-        title: Versatile
-        text: >
-          The family of specifications allows one to choose from a wide range of functionality in a variety of form-factors, catering to different market segments and price points. The availability of compatible add-ons through the mezzanine ecosystem allows product designers to enhance the functionality of the board to cater to their specific application.
+        feature_block_content:
+          position: left
+          type: image
+          image_content_path: ../../assets/images/products/oxalis-front-sd.jpg
+          title: Versatile
+          text: >
+            The family of specifications allows one to choose from a wide range of functionality in a variety of form-factors, catering to different market segments and price points. The availability of compatible add-ons through the mezzanine ecosystem allows product designers to enhance the functionality of the board to cater to their specific application.
   - row: container_row
     sections:
       - component: feature_block
-        position: right
-        type: image
-        image_content_path: ../../assets/images/products/SoM-Carrier-Board-with-Module-min.jpg
-        title: Interchangeable
-        text: >
-          The 96Boards specification requires exposure of the various I/O interfaces on the SoCs through standard expansion connectors (High and Low speed). This allows any product designed on one board to be fairly portable to other boards in the same family.
+        feature_block_content:
+          position: right
+          type: image
+          image_content_path: ../../assets/images/products/SoM-Carrier-Board-with-Module-min.jpg
+          title: Interchangeable
+          text: >
+            The 96Boards specification requires exposure of the various I/O interfaces on the SoCs through standard expansion connectors (High and Low speed). This allows any product designed on one board to be fairly portable to other boards in the same family.
   - row: container_row
     sections:
       - component: title
@@ -94,7 +100,7 @@ flow:
           buttons:
             - title: Specifications
               url: /specifications/
-              class: btn-primary
+              style: btn-primary
           title: Vendors
           text: >
             **As a Vendor** you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
@@ -111,7 +117,7 @@ flow:
           buttons:
             - title: Browse 96Boards
               url: /products/
-              class: btn-primary
+              style: btn-primary
           title: End users
           text: >
             **As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.

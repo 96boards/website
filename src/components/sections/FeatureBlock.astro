@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+import { marked } from "marked";
+import Buttons from "./Buttons.astro";
+const {
+  feature_block_content: { text, image_content_path, position, title, buttons },
+} = Astro.props;
+const parsedText = text ? marked.parse(text) : "";
+---
+
+<section
+  class:list={[
+    "flex flex-col mx-auto items-center",
+    position === "right" ? "md:flex-row-reverse" : "md:flex-row",
+  ]}
+>
+  <Image
+    src={image_content_path}
+    alt={title}
+    class="max-w-[50%] p-12 mb-auto mt-0 aspect-auto"
+  />
+  <div class="basis-1/2 prose-xl p-6 flex-grow">
+    <h2>{title}</h2>
+
+    <p set:html={parsedText} />
+    {buttons && <Buttons buttons_content={buttons} style="justify-start" />}
+  </div>
+</section>
