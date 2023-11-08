@@ -12,8 +12,8 @@ const featuredProducts = products
   .slice(0, 6);
 ---
 
-<section>
-  <ul class="list-none">
+<section class="mx-auto max-w-5xl border rounded-lg shadow-xl">
+  <ul class="list-none flex flex-wrap p-0 justify-center m-0">
     {
       featuredProducts.map((product) => {
         const { product_images, product_buy_links, title } = product.data;
@@ -34,13 +34,25 @@ const featuredProducts = products
           lowestPrice = null;
         }
         return (
-          <li>
-            <a href={`/${product.slug}`} class="no-underline hover:underline">
-              <h3>{title}</h3>
-              {lowestPrice && <i>From {lowestPrice}</i>}
-              {product_images && product_images.length > 0 && (
-                <Image src={product_images[0]} alt={title} />
-              )}
+          <li class="basis-full sm:basis-1/2 md:basis-1/3 overflow-hidden border-b border-rounded-lg m-0">
+            <a
+              href={`/${product.slug}`}
+              class="no-underline hover:underline group transition-[bottom opacity] flex flex-col justify-end  "
+            >
+              <div class="group-hover:opacity-0 duration-200 min-h-[150px] flex flex-col items-center">
+                <h3 class="text-center">{title}</h3>
+                {lowestPrice && <i>From {lowestPrice}</i>}
+              </div>
+              <div class="relative h-[200px] mb-auto flex justify-center items-start">
+                {product_images && product_images.length > 0 && (
+                  <Image
+                    src={product_images[0]}
+                    alt={title}
+                    height={300}
+                    class="absolute bottom-[-50%] group-hover:bottom-[0] duration-500  m-0 mb-auto"
+                  />
+                )}
+              </div>
             </a>
           </li>
         );
@@ -48,4 +60,3 @@ const featuredProducts = products
     }
   </ul>
 </section>
-<>{featuredProducts.map((product) => product.data.title)}</>
