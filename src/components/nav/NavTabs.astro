@@ -4,8 +4,6 @@ const navData = await getEntry("data", "nav");
 const url = Astro.url;
 function findNavSiblings(navData: any[], url: string): any {
   for (const navItem of navData) {
-    console.log(url, navItem);
-
     if (navItem.url === url) {
       return navData;
     } else if (navItem.children) {
@@ -16,7 +14,6 @@ function findNavSiblings(navData: any[], url: string): any {
 }
 
 const siblings = findNavSiblings(navData.data, url.pathname);
-console.log(siblings);
 type Sibling = {
   label: string;
   url: string;
@@ -26,7 +23,7 @@ type Sibling = {
 ---
 
 <!-- Main navigation container -->
-<div class="sticky top-0 shadow-md w-full bg-white mt-0">
+<div class="sticky top-0 shadow-md w-full bg-white mt-0 z-10">
   <nav
     class="container mx-auto px-4 flex flex-nowrap items-center lg:flex-wrap lg:justify-start pt-4"
     data-te-navbar-ref

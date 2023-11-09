@@ -117,8 +117,8 @@ const products = defineCollection({
       keywords: z.string().optional(),
       display_product: z.boolean().optional(),
       product_short_desc: z.string(),
-      product_specification: z.enum(["ce", "ee", "ie", "mezzanine", "se"]),
-      product_images: z.array(image()).optional(),
+      product_specification: reference("specifications"),
+      product_images: z.array(image()),
       sticky_bar_bar: z
         .array(
           z.object({
@@ -193,9 +193,18 @@ const products = defineCollection({
     }),
 });
 
+const specifications = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      thumbnail: image(),
+    }),
+});
+
 // Expose your defined collection to Astro
 // with the `collections` export
 export const collections = {
+  specifications,
   products,
   pages,
   rows,

@@ -11,14 +11,20 @@ keywords: Developement Boards, Arm 64 Dev Boards, IoT Production Boards, hackers
 seo:
   type: Product
 hero:
-  inner-image: ../../assets/images/content/96Boards-Logo_horizontal-white.svg
+  inner_image:
+    src: ../../assets/images/content/96Boards-Logo_horizontal-white.svg
+    alt: "96Boards logo"
   description: >
     Products built with the latest silicon, based on open platform specifications for developers, makers and businesses.
-  style: background-color all text-center products_jumbotron text-white
+  style: bg-neutral-300
   buttons:
     - title: View the Specifications
       url: /specifications/
-      class: btn btn-primary
+      style: btn btn-primary
+flow:
+  - row: product_grid
+    specification: all
+    sections: []
 ---
 
 {% include product-filters.html %}
