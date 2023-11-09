@@ -8,7 +8,11 @@ const ProductItem = ({
   data,
   slug,
   specificationThumbnail,
-}: Product & { specificationThumbnail: GetImageResult }) => {
+}: {
+  specificationThumbnail: GetImageResult;
+  data: Product["data"];
+  slug: Product["slug"];
+}) => {
   const [showBuyLinks, setShowBuyLinks] = createSignal(false);
 
   const toggleBuyLinks = () => setShowBuyLinks(!showBuyLinks());
