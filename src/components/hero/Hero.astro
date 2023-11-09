@@ -1,10 +1,11 @@
 ---
 import { Image, getImage } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
+import Buttons from "../sections/Buttons.astro";
 
 type Props = CollectionEntry<"pages">["data"]["hero"];
 
-const { title, background_image, style, inner_image, description, title_style } = Astro.props!;
+const { title, background_image, style, inner_image, description, title_style, buttons } = Astro.props!;
 
 ---
 
@@ -18,21 +19,29 @@ const { title, background_image, style, inner_image, description, title_style } 
   {inner_image ?  <Image
     src={inner_image.src}
     alt={inner_image.alt}
-    class="w-64"
+    class="w-64 m-0"
   /> : <></>}
   <div class="max-w-3xl text-center mx-auto">
-  <h1 class:list={["text-inherit text-3xl lg:text-5xl ", title_style]}>{title}</h1>
+  <h1 class:list={["text-inherit text-3xl lg:text-5xl m-0", title_style]}>{title}</h1>
   <p class="text-xl">{description}</p>
+  {buttons && <Buttons buttons_content={buttons} style="" />}
 </div>
 </section>
 
-<style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
-  .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-      var(--backgroundUrl);
+<style define:vars={{ backgroundUrl: `url(${background_image?.src || ""})` }}>
+   .hero-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      var(--backgroundUrl) ;
     background-position: center;
-    background-size: 100% auto;
+    background-size: auto 105%;
     object-fit: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .hero-background {
+      background-size:  105%;
+    }
   }
 </style>
 

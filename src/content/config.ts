@@ -7,10 +7,11 @@ const pages = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
+      sticky_tab_bar: z.boolean().optional(),
       hero: z
         .object({
-          title: z.string(),
-          background_image: image(),
+          title: z.string().optional(),
+          background_image: image().optional(),
           style: z.string().optional(),
           title_style: z.string().optional(),
           description: z.string().optional(),
@@ -19,6 +20,15 @@ const pages = defineCollection({
               src: image(),
               alt: z.string(),
             })
+            .optional(),
+          buttons: z
+            .array(
+              z.object({
+                url: z.string(),
+                style: z.string().optional(),
+                title: z.string(),
+              })
+            )
             .optional(),
         })
         .optional(),
@@ -129,8 +139,8 @@ const products = defineCollection({
       keywords: z.string().optional(),
       display_product: z.boolean().optional(),
       product_short_desc: z.string(),
-      product_specification: z.enum(["ce", "ee", "ie", "mezzanine", "se"]),
-      product_images: z.array(image()).optional(),
+      product_specification: reference("specifications"),
+      product_images: z.array(image()),
       sticky_bar_bar: z
         .array(
           z.object({
@@ -205,9 +215,18 @@ const products = defineCollection({
     }),
 });
 
+const specifications = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      thumbnail: image(),
+    }),
+});
+
 // Expose your defined collection to Astro
 // with the `collections` export
 export const collections = {
+  specifications,
   products,
   blog,
   authors,

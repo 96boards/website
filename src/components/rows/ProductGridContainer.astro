@@ -1,0 +1,26 @@
+---
+import { object } from "astro/zod";
+import ProductGrid from "../products/ProductGrid";
+import { getCollection, type CollectionEntry } from "astro:content";
+import type { GetImageResult } from "astro";
+const { specification } = Astro.props;
+const products = await getCollection("products");
+const specifications = await getCollection("specifications");
+const specificationThumbnails = specifications.reduce(
+  (obj, spec) => ({
+    ...obj,
+    [spec.slug]: spec.data.thumbnail,
+  }),
+  {}
+) as Record<CollectionEntry<"specifications">["slug"], GetImageResult>;
+
+console.log(specificationThumbnails);
+---
+
+<section class="container mx-auto">
+  <ProductGrid
+    products={products}
+    specificationThumbnails={specificationThumbnails}
+    client:only="solid-js"
+  />
+</section>

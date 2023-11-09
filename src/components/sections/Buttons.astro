@@ -3,7 +3,7 @@ interface Props {
   buttons_content: {
     url: string;
     title: string;
-    style: string;
+    style?: string;
   }[];
   style: string;
 }
@@ -12,7 +12,7 @@ const { style, buttons_content } = Astro.props;
 
 <div
   class:list={[
-    "py-6 flex flex-wrap justify-center items-center gap-3 px-5 max-w-5xl mx-auto",
+    "py-6 flex flex-wrap justify-center items-center gap-3 px-5 max-w-5xl mx-auto my-0",
     style,
   ]}
 >

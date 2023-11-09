@@ -3,9 +3,13 @@
   "compilerOptions": {
     "allowJs": true,
     "strictNullChecks": true,
-    "baseUrl": ".",
+    "baseUrl": "/home/louismorgan-linaro/96boards/website",
     "paths": {
-      "@/*": ["src/*"]
-    }
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }

@@ -10,16 +10,16 @@ const parsedText = text ? marked.parse(text) : "";
 
 <section
   class:list={[
-    "flex flex-col mx-auto items-center",
+    "flex flex-col-reverse w-full mx-auto items-center md:items-start px-4",
     position === "right" ? "md:flex-row-reverse" : "md:flex-row",
   ]}
 >
   <Image
     src={image_content_path}
     alt={title}
-    class="max-w-[50%] p-12 mb-auto mt-0 aspect-auto"
+    class="max-w-[50%] py-6 mb-auto mt-0 aspect-auto"
   />
-  <div class="basis-1/2 prose-xl p-6 flex-grow">
+  <div class="basis-1/2 prose-xl py-6 flex-grow">
     <h2>{title}</h2>
 
     <p set:html={parsedText} />
