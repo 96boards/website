@@ -1,0 +1,34 @@
+---
+title: OpenHours Episode 147 - Experience Daliona
+author: robert-wolff
+date: 2019-05-16T00:01:00.000Z
+image: ../../assets/images/blog/OpenHours.png
+image_name: OpenHours.png
+image_thumb: OpenHours-thumb.png
+categories: blog
+tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960,
+  Hikey960, enterprise edition, product, single board computer, linaro, linux,
+  open source, openhours, robert wolff, podcast, technology, tech, computer,
+  hardware, software, groupgets, qwerty, embedded, crowd fund, mezzanine,
+  community, firmware, bootloaders, security, laptop, Experience Daliona
+---
+
+# Introduction
+
+\*\*Alex Martin joins us for OpenHours, Episode 147. [Experience Daliona](https://www.instagram.com/experiencedaliona/), Sidewalk Science Centers and science-fiction novels!
+
+Experience Daliona provides initiatives and strategies to engage the public with accessible science research and education. Discover what makes us unique, and then locate a Sidewalk Science Center near you.
+
+#### Links and resources
+
+- Experience Daliona
+  - [Website](https://www.experiencedaliona.com/)
+  - [Instagram](https://www.instagram.com/experiencedaliona/)
+  - [Patreon](https://www.patreon.com/ExpDalScience)
+- [Alex Martin Instagram](https://www.instagram.com/thescalex.of.science/)
+
+# Livestream recording
+
+{% include media.html media_url="https://youtu.be/s57GnLcN19s" %}
+
+Join us next week! [https://www.96boards.org/](https://www.96boards.org/)

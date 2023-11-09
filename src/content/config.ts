@@ -92,6 +92,28 @@ const data = defineCollection({
   schema: z.any(),
 });
 
+const blog = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      author: reference("authors"),
+      description: z.string().optional(),
+      title: z.string(),
+      date: z.date(),
+      image: image().optional(),
+    }),
+});
+
+const authors = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      username: z.string(),
+      image: image().optional(),
+    }),
+});
+
 const products = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -187,6 +209,8 @@ const products = defineCollection({
 // with the `collections` export
 export const collections = {
   products,
+  blog,
+  authors,
   pages,
   rows,
   sections,

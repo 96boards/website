@@ -1,0 +1,59 @@
+---
+import { Image } from "astro:assets";
+import dayjs from "dayjs";
+import { getEntry, type CollectionEntry } from "astro:content";
+import { remark } from "remark";
+import strip from "strip-markdown";
+
+const { data, body, collection, slug } = Astro.props;
+console.log(data);
+
+const author = (await getEntry(data.author)) as CollectionEntry<"authors">;
+
+const dateObj = dayjs(data.date);
+const dateString = dateObj.format("dddd, MMMM D, YYYY");
+
+const content =
+  String(
+    await remark()
+      .use(strip, {
+        remove: ["heading"],
+      })
+      .process(body)
+  )
+    .split(" ")
+    .slice(0, 30)
+    .join(" ")
+    .replace("\\", "") + "...";
+---
+
+<a
+  class="flex prose-xl flex-col-reverse p-0 w-full h-full justify-end border border-gray-300
+  rounded-lg bg-white drop-shadow-lg hover:drop-shadow-2xl hover:scale-105 duration-300"
+  href={`/${collection}/${slug}`}
+>
+  <div class="w-full p-6">
+    <div class="flex w-full flex-wrap justify-between items-center my-4">
+      <i class="text-xl m-0">{author!.data.name}</i>
+      <img
+        class="w-12 m-0 rounded-[50%] aspect-square object-cover object-center"
+        src={author!.data.image?.src}
+        alt={author!.data.name}
+      />
+    </div>
+    <h2 class="text-xl text-left m-0">{data.title}</h2>
+    <p class="text-slate-500 my-2 text-sm">{dateString}</p>
+    <div
+      class="prose prose-strong:font-normal prose-strong:text-md prose-headings:font-normal prose-headings:text-md break-words"
+    >
+      <div set:html={content} />
+    </div>
+  </div>
+  <div class="md:h-40 w-full rounded-t-lg m-0">
+    <img
+      src={data.image?.src}
+      alt={data.title}
+      class="object-cover object-center m-0 w-full h-full rounded-t-lg"
+    />
+  </div>
+</a>

@@ -1,0 +1,51 @@
+---
+import Hero from "@/components/hero/Hero.astro";
+import BaseLayout from "./BaseLayout.astro";
+// import BackgroundImage from "../assets/images/TF_Banner_image.jpg";
+// import PostDetails from "@/components/articles/PostDetails.astro";
+// import RecentPosts from "@/components/articles/RecentPosts.astro";
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+import { remark } from "remark";
+import strip from "strip-markdown";
+// import { parseDescription } from "@/lib/parseDescription";
+
+const file = await remark()
+  .use(strip)
+  .process("Some *emphasis*, **importance**, and `code`.");
+
+const { post } = Astro.props;
+const { data, body } = post;
+const { title, description, author, date } = data;
+const { Content, headings } = await post.render();
+
+const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
+
+const blogs = await getCollection("blog");
+
+const latestPosts = [...blogs]
+  .sort((a, b) => dayjs(b.data.date).diff(a.data.date))
+  .slice(0, 5);
+
+// const parsedDescription = await parseDescription(post);
+---
+
+<BaseLayout title={title} description={description} type="article">
+  <main>
+    <!-- <Hero title="" background_image={BackgroundImage} /> -->
+
+    <h1 class="text-3xl max-w-6xl px-5 md:px-16 mx-auto my-8">{title}</h1>
+    <!-- <PostDetails author={author} date={date} readTime={readTime} />
+    <article
+      class="px-5 md:px-16 prose:lg prose-p:mb-6 max-w-5xl mx-auto my-12 break-words
+      prose-headings:text-3xl prose-headings:font-bold prose-headings:my-8
+      prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+      prose-li:list-item prose-ol:list-decimal prose-ul:list-disc
+      prose-li:prose-li:list-[circle] prose-ul:ml-8 prose-ol:ml-8 prose-ul:mb-4
+      prose-p:prose-li:mb-0"
+    >
+      <Content />
+    </article>
+    <RecentPosts posts={latestPosts} title="Recent Posts" /> -->
+  </main>
+</BaseLayout>
