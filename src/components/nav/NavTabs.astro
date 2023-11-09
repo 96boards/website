@@ -1,0 +1,88 @@
+---
+import { Astronav, MenuIcon, MenuItems } from "astro-navbar";
+import { getEntry, type CollectionEntry } from "astro:content";
+const navData = await getEntry("data", "nav");
+const url = Astro.url;
+console.log(url);
+function findNavSiblings(navData: any[], url: string): any {
+  for (const navItem of navData) {
+    if (navItem.url === url) {
+      return navData;
+    } else if (navItem.children) {
+      return findNavSiblings(navItem.children, url);
+    }
+  }
+}
+
+const siblings = findNavSiblings(navData.data, url.pathname);
+console.log(siblings);
+---
+
+<!-- Main navigation container -->
+<nav
+  class="container mx-auto px-4 relative flex flex-nowrap items-center justify-between lg:flex-wrap lg:justify-start my-2 mt-6"
+  data-te-navbar-ref
+>
+  <div class="flex w-full flex-wrap items-center justify-between">
+    <!-- Hamburger button for mobile view -->
+    <button
+      class="block border-0 bg-transparent text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+      type="button"
+      data-te-collapse-init
+      data-te-target="#navbarSupportedContent13"
+      aria-controls="navbarSupportedContent13"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <!-- Hamburger icon -->
+      <span class="[&>svg]:w-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="black"
+          class="h-7 w-7"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </span>
+    </button>
+
+    <!-- Collapsible navbar container -->
+    <div
+      class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+      id="navbarSupportedContent13"
+      data-te-collapse-item
+    >
+      <ul
+        class="list-none flex flex-col items-center lg:flex-row no-underline gap-5 text-lg p-0"
+      >
+        {
+          siblings.map((sibling: { label: string; url: string }) => (
+            <li>
+              <a
+                href={sibling.url}
+                class:list={[
+                  url.pathname === sibling.url
+                    ? "bg-neutral-600 text-white px-6 py-4 rounded-lg"
+                    : "",
+                  ,
+                  "no-underline",
+                ]}
+              >
+                {sibling.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  import { Collapse, initTE } from "tw-elements";
+  initTE({ Collapse });
+</script>

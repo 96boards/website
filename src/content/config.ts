@@ -7,6 +7,7 @@ const pages = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
+      sticky_tab_bar: z.boolean().optional(),
       hero: z
         .object({
           title: z.string(),

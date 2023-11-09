@@ -7,6 +7,7 @@ import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
 import Hero from "@/components/hero/Hero.astro";
 import { getEntryBySlug } from "astro:content";
+import NavTabs from "@/components/nav/NavTabs.astro";
 
 type Props = { frontmatter: CollectionEntry<"pages">};
 
@@ -16,7 +17,7 @@ const {
 } = Astro.props!;
 const page = await getEntryBySlug("pages", slug)
 
-const { title, description, flow, hero } = page.data
+const { title, description, flow, hero, sticky_tab_bar } = page.data
 
 const allComponents = await import.meta.glob("../components/**/*.astro")
 const rowComponents = {} as Record<string, {default: AstroComponentFactory} >;
@@ -40,6 +41,7 @@ for (const sectionData of await getEntries(flow.map((row) => row.sections!.map((
 <BaseLayout title={title} description={description}  >
     <main class="prose mx-0 max-w-full">
       {hero && <Hero {...hero} />}
+      {sticky_tab_bar && <NavTabs />}
       {
         flow?.map((row: any) => {
           const { row: component, sections, ...rowProps } = row

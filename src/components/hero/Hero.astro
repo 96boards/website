@@ -27,12 +27,20 @@ const { title, background_image, style, inner_image, description, title_style } 
 </section>
 
 <style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
-  .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-      var(--backgroundUrl);
+   .hero-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      var(--backgroundUrl) ;
+    background-color: black;
     background-position: center;
-    background-size: 100% auto;
+    background-size: auto 105%;
     object-fit: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .hero-background {
+      
+    }
   }
 </style>
 
