@@ -1,11 +1,11 @@
 ---
 import { getCollection } from "astro:content";
-import FirstItem from "@/components/articles/FirstItem.astro";
-import BlogsItem from "@/components/articles/Article.astro";
+
 import dayjs from "dayjs";
+import FirstItem from "../articles/FirstItem.astro";
+import BlogsItem from "../articles/Article.astro";
 
 const articles = await getCollection("blog");
-// console.log("aaaa", articles);
 
 const sortedArticles = articles
   .sort((a, b) => dayjs(b.data.date).diff(a.data.date))

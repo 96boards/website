@@ -6,7 +6,6 @@ import { remark } from "remark";
 import strip from "strip-markdown";
 
 const { data, body, collection, slug } = Astro.props;
-console.log(data);
 
 const author = (await getEntry(data.author)) as CollectionEntry<"authors">;
 

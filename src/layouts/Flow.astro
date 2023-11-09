@@ -5,9 +5,10 @@ import type { AstroComponentFactory } from "astro/runtime/server/index.js";
 import { getCollection, getEntries } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
-import Hero from "@/components/hero/Hero.astro";
 import { getEntryBySlug } from "astro:content";
-import NavTabs from "@/components/nav/NavTabs.astro";
+import Hero from "../components/hero/Hero.astro";
+import NavTabs from "../components/nav/NavTabs.astro";
+
 
 type Props = { frontmatter: CollectionEntry<"pages">};
 
