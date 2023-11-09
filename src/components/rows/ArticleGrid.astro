@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+
+import dayjs from "dayjs";
+import FirstItem from "../articles/FirstItem.astro";
+import BlogsItem from "../articles/Article.astro";
+
+const articles = await getCollection("blog");
+
+const sortedArticles = articles
+  .sort((a, b) => dayjs(b.data.date).diff(a.data.date))
+  .slice(0, 22);
+---
+
+<section
+  class="max-w-7xl container mx-auto px-5 sm:px-12 md:px-24 py-6 not-prose"
+>
+  <ul
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4 gap-5 auto-rows-min"
+  >
+    <FirstItem {...sortedArticles[0]} />
+    {sortedArticles.slice(1).map((article) => <BlogsItem {...article} />)}
+  </ul>
+</section>

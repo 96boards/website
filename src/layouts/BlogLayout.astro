@@ -1,0 +1,15 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+const { post } = Astro.props;
+
+const { Content } = await post.render();
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <div
+    class="prose-xl md-content max-w-5xl first-line:text-left p-4 md:p-12 blog-content mx-auto"
+  >
+    <Content />
+  </div>
+</BaseLayout>

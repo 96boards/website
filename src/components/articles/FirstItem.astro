@@ -1,0 +1,62 @@
+---
+import { Image } from "astro:assets";
+import dayjs from "dayjs";
+import { getEntry, type CollectionEntry } from "astro:content";
+import { remark } from "remark";
+import strip from "strip-markdown";
+
+const { data, body, collection, slug } = Astro.props;
+
+const author = (await getEntry(data.author)) as CollectionEntry<"authors">;
+
+const dateObj = dayjs(data.date);
+const dateString = dateObj.format("dddd, MMMM D, YYYY");
+const content =
+  String(
+    await remark()
+      .use(strip, {
+        remove: ["heading"],
+      })
+      .process(body)
+  )
+    .split(" ")
+    .slice(0, 30)
+    .join(" ")
+    .replace("\\", "") + "...";
+---
+
+<div
+  class="flex col-span-full prose-xl flex-col-reverse md:flex-row w-full items-stretch
+rounded-lg mx-auto bg-white shadow-lg border border-gray-200"
+>
+  <div class="w-full basis-1/2 p-6">
+    <div class="flex w-full justify-between flex-wrap items-center my-4">
+      <i class="text-xl m-0">{author!.data.name}</i>
+      <img
+        class="w-12 m-0 rounded-[50%] aspect-square object-cover"
+        src={author!.data.image?.src}
+        alt={author!.data.name}
+      />
+    </div>
+    <h2 class="text-xl text-left m-0">{data.title}</h2>
+    <p class="text-slate-500 my-2 text-sm">{dateString}</p>
+    <div class="prose-lg mb-4" set:html={content} />
+    <a
+      id="readme"
+      href={`/${collection}/${slug}`}
+      class="bg-[#19937a] hover:bg-[#3e7c70] hover:bold transition ease-in-out delay-150 text-white text-sm px-4 py-2 rounded-sm"
+    >
+      Read
+    </a>
+  </div>
+  <a
+    href={`/${collection}/${slug}`}
+    class="basis-1/2 w-full rounded-t-lg md:rounded-l-none md:rounded-r-lg overflow-hidden m-0 h-96 md:h-full max-h-full"
+  >
+    <Image
+      src={data.image}
+      alt={data.title}
+      class="object-cover object-top m-0 h-full"
+    />
+  </a>
+</div>
