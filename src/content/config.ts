@@ -10,8 +10,8 @@ const pages = defineCollection({
       sticky_tab_bar: z.boolean().optional(),
       hero: z
         .object({
-          title: z.string(),
-          background_image: image(),
+          title: z.string().optional(),
+          background_image: image().optional(),
           style: z.string().optional(),
           title_style: z.string().optional(),
           description: z.string().optional(),
@@ -20,6 +20,15 @@ const pages = defineCollection({
               src: image(),
               alt: z.string(),
             })
+            .optional(),
+          buttons: z
+            .array(
+              z.object({
+                url: z.string(),
+                style: z.string().optional(),
+                title: z.string(),
+              })
+            )
             .optional(),
         })
         .optional(),

@@ -1,21 +1,28 @@
 ---
-import { Astronav, MenuIcon, MenuItems } from "astro-navbar";
-import { getEntry, type CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 const navData = await getEntry("data", "nav");
 const url = Astro.url;
-console.log(url);
 function findNavSiblings(navData: any[], url: string): any {
   for (const navItem of navData) {
+    console.log(url, navItem);
+
     if (navItem.url === url) {
       return navData;
     } else if (navItem.children) {
-      return findNavSiblings(navItem.children, url);
+      const found = findNavSiblings(navItem.children, url);
+      if (found) return found;
     }
   }
 }
 
 const siblings = findNavSiblings(navData.data, url.pathname);
 console.log(siblings);
+type Sibling = {
+  label: string;
+  url: string;
+  sticky_label?: string;
+  sticky_exclude?: boolean;
+};
 ---
 
 <!-- Main navigation container -->
@@ -58,25 +65,27 @@ console.log(siblings);
         data-te-collapse-item
       >
         <ul
-          class="list-none flex flex-col items-center lg:flex-row no-underline gap-5 text-lg p-0 m-0 h-auto lg:h-16"
+          class="list-none flex flex-col items-center justify-center w-full lg:flex-row no-underline gap-5 text-md p-0 m-0 h-auto lg:h-16"
         >
           {
-            siblings.map((sibling: { label: string; url: string }) => (
-              <li>
-                <a
-                  href={sibling.url}
-                  class:list={[
-                    url.pathname === sibling.url
-                      ? "bg-neutral-600 text-white px-6 py-4 rounded-lg"
-                      : "",
-                    ,
-                    "no-underline",
-                  ]}
-                >
-                  {sibling.label}
-                </a>
-              </li>
-            ))
+            siblings
+              .filter((sibling: Sibling) => !sibling.sticky_exclude)
+              .map((sibling: Sibling) => (
+                <li>
+                  <a
+                    href={sibling.url}
+                    class:list={[
+                      url.pathname === sibling.url
+                        ? "bg-neutral-600 text-white px-6 py-4 rounded-lg"
+                        : "",
+                      ,
+                      "no-underline",
+                    ]}
+                  >
+                    {sibling.sticky_label || sibling.label}
+                  </a>
+                </li>
+              ))
           }
         </ul>
       </div>

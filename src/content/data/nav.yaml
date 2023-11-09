@@ -15,12 +15,18 @@
     - label: All Boards
       url: /products/
     - label: Consumer Edition (CE)
+      sticky_label: Consumer Edition
       url: /products/ce/
     - label: Enterprise Edition (EE)
+      sticky_label: Enterprise Edition
+
       url: /products/ee/
     - label: IoT Edition (IE)
+      sticky_label: IOT Edition
+
       url: /products/ie/
     - label: SoM Edition (SE)
+      sticky_label: SoM Edition
       children:
         - label: All
           url: /products/se/
@@ -29,6 +35,7 @@
         - label: Modules
           url: /products/se/modules/
     - label: Auto Edition (AE)
+      sticky_label:: Auto Edition
       children:
         - label: All
           url: /products/ae/
@@ -42,7 +49,9 @@
       url: /products/mezzanine/
     - label: Archived 96Boards
       url: /products/archived/
+      sticky_exclude: true
     - label: Compare 96Boards
+      sticky_label: Compare
       url: /products/compare/
     - label: Accessories
       url: /products/accessories/
