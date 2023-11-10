@@ -147,7 +147,7 @@ The Rock960c is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 | Component           | Description                                                  |
 | :------------------ | :----------------------------------------------------------- |
@@ -170,6 +170,6 @@ The Rock960c is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex
 | Power Source        | Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant) |
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS            |
 | Size                | 85mm x 55mm                                                  |
-{:.hidden_rows}
 
-</div>
+
+

@@ -145,7 +145,7 @@ The Chameleon96™ board, based on Intel® Cyclone V SoC FPGA, is a member of 96
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -166,6 +166,6 @@ The Chameleon96™ board, based on Intel® Cyclone V SoC FPGA, is a member of 96
 |  OS Support          | Linux OS, terminal base (BuildRoot build)<br>Linux OS, GUI (Yocto build)                         |
 |  Size                | Dimensions: 54mm x 85mm meeting 96Boards™ Consumer Edition standard dimensions specifications    |
 
-{:.hidden_rows}
 
-</div>
+
+

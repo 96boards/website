@@ -83,7 +83,7 @@ The board incorporates the following key elements:
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 | Component | Description |
@@ -95,8 +95,8 @@ The board incorporates the following key elements:
 | USB | 2.0 OTG USB A Connector |
 | Storage | SLC NAND FLASH – 1G x 8bit (8Gbit/1GB) <br> micro SD connector |
 
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

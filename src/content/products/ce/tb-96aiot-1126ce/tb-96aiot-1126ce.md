@@ -133,7 +133,7 @@ TB-96AIoT-1126CE development board is only 85mm x 54mm in size. It is very compa
 
 ## Additional Information
 
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -153,5 +153,5 @@ TB-96AIoT-1126CE development board is only 85mm x 54mm in size. It is very compa
 |  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
 |  OS Support          | Linux: Debian & Buildroot |
 |  Size                | 54mm x 85 mm                                                                                                            |
-{:.hidden_rows}
-</div>
+
+

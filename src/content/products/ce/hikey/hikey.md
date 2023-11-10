@@ -162,7 +162,7 @@ Hikey relaunched by Lemaker
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 |   Component          |   Description                                                                                    |
@@ -186,9 +186,9 @@ Hikey relaunched by Lemaker
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
 |  OS Support          | Android 4.2 / Debian Linux                                                                       |
 |  Size                | 85mm x 54mm                                                                                      |
-{:.hidden_rows}
 
-</div>
+
+
 
 Please visit the [HiKey Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/hardware-docs/hardware-user-manual.md) for more information
 

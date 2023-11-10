@@ -102,7 +102,7 @@ slug: neonkey
 | LED                  | 15 x General purpose LEDs, 4 User LEDs                                                                                     |
 | Button               | RST (Reset the STM32), USR (boot into bootloader mode for flashing)                                       |
 | Size                 | 60x30mm                                                                                                   |
-{:.hidden_rows}
+
 
 ## Documents
 

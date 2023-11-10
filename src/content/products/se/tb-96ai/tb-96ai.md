@@ -204,7 +204,7 @@ The following features are quoted from RockChip. If you have any questions, plea
 - Rich open materials, 96Boards community
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -224,8 +224,8 @@ The following features are quoted from RockChip. If you have any questions, plea
 |  Power Source        | DC 5V                                              |
 |  OS Support          | Android8.1;Linux version: fedora 2.8, kernel 4.4|
 |  Size                | 50mm x 85 mm                                                                                                            |
-{:.hidden_rows}
-</div>
+
+
 
 ### Six-core High-performance AI Core Board
 

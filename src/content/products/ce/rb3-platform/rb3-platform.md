@@ -190,7 +190,7 @@ The development board supports new architecture for AI, 4K@60fps H.264/H.265 Enc
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                                                                 |
 |:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -214,5 +214,5 @@ The development board supports new architecture for AI, 4K@60fps H.264/H.265 Enc
 |  Power Source        | 12V@2.5A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                     |
 |  OS Support          | Thundersoft LE, Linaro Linux builds with Debian or OpenEmbedded / Yocto Project, AOSP                                                                                                                                            |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
-{:.hidden_rows}
-</div>
+
+

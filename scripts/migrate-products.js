@@ -36,8 +36,12 @@ async function updateFrontMatter(filepath, slug) {
     //   frontMatter.layout = "../../../../layouts/AIProductLayout.astro";
   }
 
+  const migratedContent = content
+    .replace(`<div style="overflow-x:scroll;" markdown="1">`, "")
+    .replace("</div>", "")
+    .replace("{:.hidden_rows}", "");
   // overwrite file
-  const newContent = `---\n${stringify(frontMatter)}---\n${content}`;
+  const newContent = `---\n${stringify(frontMatter)}---\n${migratedContent}`;
   await writeFile(filepath, newContent);
   console.log(`- [x] ${filepath}`);
 }

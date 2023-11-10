@@ -81,7 +81,7 @@ Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economi
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 |   Component          |   Description                                                                                    |
@@ -102,8 +102,8 @@ Nitrogen is a 96Boards compliant IoT Edition board which aims to provide economi
 |  Power Source        | USB power supply with fuse protect                                                               |
 |  OS Support          | Zephyr                                                                                           |
 |  Size                | 60x30mm                                                                                          |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

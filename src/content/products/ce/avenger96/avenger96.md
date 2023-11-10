@@ -97,8 +97,7 @@ attributes:
   - name: RAM
     value: 1024 Mbyte @ 533MHz
   - name: Wireless
-    value:
-      WiFi -  5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac Bluetooth® v4.2 (BR/EDR/BLE)
+    value: WiFi -  5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac Bluetooth® v4.2 (BR/EDR/BLE)
       PCB Antenna
   - name: Storage
     value: >
@@ -119,8 +118,7 @@ attributes:
   - name: Expansion Interface
     value: '"96Boards Compliant: 40-Pin Low Speed Header 60-Pin High Speed Header"'
   - name: LED
-    value:
-      '"4 x green user controlled LEDs 1 x blue Bluetooth enabled 1 x yellow
+    value: '"4 x green user controlled LEDs 1 x blue Bluetooth enabled 1 x yellow
       WiFi enabled 1 x red power supply okay"'
   - name: Buttons
     value: Power and Reset
@@ -144,29 +142,32 @@ attributes:
       PMIC - STPMIC1A
 slug: avenger96
 ---
-
 The STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things. Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays an MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE.
 
----
+*******
 
 ## Additional Information
 
-| Component           | Description                                                                                                                                                             |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SoC                 | STM32MP157AAC                                                                                                                                                           |
-| CPU                 | 2x ARM®Cortex-A7 up to 650 MHz <br> 1x ARM®Cortex-M4 up to 200 MHz                                                                                                      |
-| GPU                 | 1x 3D GPU Vivante® @ 533 MHz -OpenGL® ES 2.0                                                                                                                            |
-| PMIC                | STPMIC1A                                                                                                                                                                |
-| RAM                 | 1024 Mbyte @ 533MHz                                                                                                                                                     |
-| Storage             | eMMC v4.51: 8 Gbyte <br> QSPI: 2Mbyte <br> EEPROM: 128 byte <br> microSD Socket: UHS-1 v3.01                                                                            |
-| Ethernet Port       | 10/100/1000 Mbit/s, IEEE 802.3 Compliant                                                                                                                                |
-| Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth® v4.2 (BR/EDR/BLE) <br> PCB Antenna                                                                           |
-| USB                 | Host: 2x type A, 2.0 high-speed <br> OTG: 1x type micro-AB, 2.0 high-speed                                                                                              |
-| Display             | HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4                                                                                                                                 |
-| Audio               | Over HDMI                                                                                                                                                               |
-| Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                                                                          |
-| LED                 | 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay                                                  |
-| Button              | Power and Reset                                                                                                                                                         |
-| Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                                                                            |
-| OS Support          | U-Boot version: U-Boot 2018.09-stm32mp-r2 <br> Linux version: Linux stm32mp1-av96 4.14.48 <br> Linux Distribution: ST OpenSTLinux Weston (A Yocto Project Based Distro) |
-| Size                | 100 x 85 mm                                                                                                                                                             |
+
+
+|   Component          |   Description |
+|:---------------------|:--------------|
+|  SoC                 | STM32MP157AAC              |
+|  CPU                 | 2x ARM®Cortex-A7 up to 650 MHz <br> 1x ARM®Cortex-M4 up to 200 MHz                                                     |
+|  GPU                 | 1x 3D GPU Vivante® @ 533 MHz -OpenGL® ES 2.0                                                                           |
+|  PMIC                | STPMIC1A                                                                                                               |
+|  RAM                 | 1024 Mbyte @ 533MHz                                                                                                    |
+|  Storage             | eMMC v4.51: 8 Gbyte <br> QSPI: 2Mbyte <br> EEPROM: 128 byte <br> microSD Socket: UHS-1 v3.01                           |
+|  Ethernet Port       | 10/100/1000 Mbit/s, IEEE 802.3 Compliant                                                                               |
+|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth® v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
+|  USB                 | Host: 2x type A, 2.0 high-speed <br> OTG: 1x type micro-AB, 2.0 high-speed                                             |
+|  Display             | HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4                                                                                |
+|  Audio               | Over HDMI                                                                                                              |
+|  Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |
+|  LED                 | 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay |
+|  Button              | Power and Reset                                                                                                        |
+|  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
+|  OS Support          | U-Boot version: U-Boot 2018.09-stm32mp-r2 <br> Linux version: Linux stm32mp1-av96 4.14.48 <br> Linux Distribution: ST OpenSTLinux Weston (A Yocto Project Based Distro) |
+|  Size                | 100 x 85 mm                                                                                                            |
+
+

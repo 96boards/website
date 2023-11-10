@@ -82,7 +82,7 @@ The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                   |
 |:---------------------|:--------------------------------|
@@ -95,8 +95,8 @@ The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana
 |  Expansion Interface | 40pin GPIO                      |
 |  Digital Out Voltage | 1.8v                            |
 |  OS Support          | LiteOS                          |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

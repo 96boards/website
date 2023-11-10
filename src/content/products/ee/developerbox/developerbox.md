@@ -124,7 +124,7 @@ By providing this software development environment, we are accelerating the deve
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 |   Component          |   Description                                                                                    |
@@ -136,8 +136,8 @@ By providing this software development environment, we are accelerating the deve
 | LAN                  | 1ch 1Gbps                                                                                        |
 | PCIe I/F             | Two of 1 Lane per slot, one 16 Lanes slot: 1 for PCIe Graphics card, 1 for PCIe IO Extension, 2x USB3.0/2.0 + 2x SATA                                                                                                             |
 | Other                | 1 x UART via micro USB for console, 40pin LS Expansion Connector, RTC                            |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

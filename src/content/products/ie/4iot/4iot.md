@@ -95,7 +95,7 @@ and 1080p HD video playback and capture with H.264 (AVC).
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -107,8 +107,8 @@ and 1080p HD video playback and capture with H.264 (AVC).
 |  Wireless            | WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas                |
 |  Camera              | Integrated ISP with up to 13 MP camera support                                                   |
 |  Size                | 96Boards IoT Edition Compliant                                                                   |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

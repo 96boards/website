@@ -3,6 +3,9 @@ import NavTabWrapper from "@/components/nav/NavTabWrapper.astro";
 import BaseLayout from "./BaseLayout.astro";
 import type { CollectionEntry } from "astro:content";
 
+import Banner from "../assets/images/breadcrumb-banner.png";
+import { getImage } from "astro:assets";
+const optimizedBanner = await getImage({ src: Banner });
 type Props = {
   product: CollectionEntry<"products">;
 };
@@ -15,6 +18,25 @@ console.log(product.data.product_buy_links);
 ---
 
 <BaseLayout title={product.data.title} description={product.data.description}>
+  <section
+    style={`background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${optimizedBanner.src}')`}
+    class="py-12"
+  >
+    <div class="max-w-6xl mx-auto px-5 md:px-16 text-white">
+      <h1 class="text-3xl font-bold">
+        {product.data.title}
+      </h1>
+      <ul class="flex gap-3 items-center mt-2">
+        <li class="after:content-['»'] after:ml-3 text-accent">
+          <a href="/" class="hover:underline">Home</a>
+        </li>
+        <li class="after:content-['»'] after:ml-3 text-accent">
+          <a href="/products/" class="hover:underline">Products</a>
+        </li>
+        <li>{product.data.title}</li>
+      </ul>
+    </div>
+  </section>
   <NavTabWrapper>
     <ul
       class="max-w-6xl mx-auto px-5 md:px-16 list-none flex flex-col items-center justify-start w-full lg:flex-row no-underline gap-5 text-md p-0 m-0 h-auto lg:h-16"

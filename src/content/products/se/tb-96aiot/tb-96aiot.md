@@ -209,8 +209,6 @@ The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is 
 
 ## Additional Information
 
-<div style="overflow-x:scroll;" markdown="1">
-
 | Component                              | Description                                                                                                   |
 | :------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
 | SoC                                    | Rockchip RK1808(22nm FD-SOI)                                                                                  |
@@ -228,7 +226,3 @@ The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is 
 | Power Source                           | DC 5V                                                                                                         |
 | OS Support                             | Linux (The supported Linux distribution is buildroot-2018.02-rc3 / The supported Linux kernel version is 4.4) |
 | Size                                   | 50mm x 50 mm                                                                                                  |
-
-{:.hidden_rows}
-
-</div>

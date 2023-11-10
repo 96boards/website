@@ -167,7 +167,7 @@ The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 | Component           | Description                              |
 | :------------------ | :--------------------------------------- |
@@ -191,6 +191,6 @@ The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
 | Size                | 85mm x 55mm                              |
 
-{:.hidden_rows}
 
-</div>
+
+

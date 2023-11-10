@@ -164,7 +164,7 @@ The Qualcomm® Robotics RB2 Development kit contains a robotics-focused developm
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                                                                 |
 |:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -186,5 +186,5 @@ The Qualcomm® Robotics RB2 Development kit contains a robotics-focused developm
 |  Power Source        | 12V adapter with a DC plug <br> Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                         |
 |  OS Support          | LE build from Linaro, <br> LU build from Thundercomm                                                                                          |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
-{:.hidden_rows}
-</div>
+
+

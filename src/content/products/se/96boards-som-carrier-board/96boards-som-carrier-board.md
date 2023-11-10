@@ -112,7 +112,7 @@ The 96Boards SoM Carrier Board is an Interface debugging and testing carrier boa
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -146,5 +146,5 @@ The 96Boards SoM Carrier Board is an Interface debugging and testing carrier boa
 |  CAN | CAN interface |
 |  System LED | System LED |
 |  X1、X2、X3、X4 | Som board Connector |
-{:.hidden_rows}
-</div>
+
+
