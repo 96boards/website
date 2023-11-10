@@ -2,11 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-export const parseDescription = async (
-  post:
-    | CollectionEntry<"blog">
-    | 
-) => {
+export const parseDescription = async (post: CollectionEntry<"blog">) => {
   const { headings } = await post.render();
 
   const h1 = headings[0]?.text;
