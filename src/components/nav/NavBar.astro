@@ -8,7 +8,9 @@ import { getEntry } from "astro:content";
 const navData = await getEntry("data", "nav");
 ---
 
-<header class="flex flex-col lg:flex-row justify-around items-center bg-black">
+<header
+  class="flex flex-col lg:flex-row justify-around items-center bg-black z-30"
+>
   <Astronav>
     <div class="flex w-full lg:w-auto items-center justify-between px-8">
       <a href="/" class="text-lg"

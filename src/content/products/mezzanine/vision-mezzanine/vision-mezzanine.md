@@ -1,6 +1,5 @@
 ---
 title: Vision Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: vision-mezzanine
 archived: false
@@ -66,7 +65,7 @@ attributes:
     value: '" Two UART, two SPI, one I2C, one PCM, GPIO. "'
   - name: Parent Board
     value: /product/ultra96/
-slug: product/vision-mezzanine/
+slug: vision-mezzanine
 ---
 The AGV Vision Perception kits enable the 360 degree Surround View and Front smart camera functions for ADAS applications, which consists of
 96Boards CE based Ultr96, 96Boards Vision Mezzanine Boards and up to 6pcs Automotive Grade GMSL Camera modules and cables.

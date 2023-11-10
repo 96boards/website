@@ -1,6 +1,5 @@
 ---
 title: AeroCore 2
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: aerocore2
@@ -99,7 +98,7 @@ attributes:
       Instruments DSPs with CAN controllers and equivalent devices. Provides
       differential transmit and receive capability at speeds up to 1 Mbps.
       (SPEC)
-slug: product/aerocore2/
+slug: aerocore2
 ---
 Customize the AreoCore 2 for 96Boards to your project’s specific needs in [Geppetto D2O](https://geppetto.gumstix.com). Add functionality or remove unused components with the ease of a drag-and-drop interface.
 

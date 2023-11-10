@@ -1,6 +1,5 @@
 ---
 title: Geniatech DB4
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: db4
 archived: false
@@ -164,7 +163,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/db4/
+slug: db4
 ---
 The Geniatech DB4, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
 processing power, Wi-Fi, _Bluetooth_ ® wireless technology connectivity, and GPS, all packed into a board the size of a credit card.

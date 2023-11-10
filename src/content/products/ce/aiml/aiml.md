@@ -1,6 +1,5 @@
 ---
-title: AI-ML
-layout: ../../../../layouts/ProductLayout.astro
+title: AI_ML
 description: The i.MX 8X SoC is a feature-rich system containing a quad-core,
   64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of
   decoding 4K video at 30 fps. These features alone make the AI_ML board highly
@@ -29,7 +28,7 @@ product_images:
   - ./_images/aiml-sd-front.jpg
   - ./_images/aiml-sd-back.jpg
 sticky_tab_bar:
-  - title: i.MX 8X
+  - title: AI_ML
     url: /product/aiml/
     active: true
   - title: Getting Started
@@ -43,7 +42,7 @@ sticky_tab_bar:
     tab_position: 4
     tab_align_right: true
 product_buy_links:
-  - link-title: i.MX 8X
+  - link-title: AI_ML
     link-url: https://www.arrow.com/en/products/i.imx8x-ai-ml/arrow-development-tools
     from: Arrow Electronics
     type: board
@@ -130,7 +129,7 @@ attributes:
         value: 85mm
       - title: length
         value: 100mm
-slug: product/aiml/
+slug: aiml
 ---
 
 ## Do More with i.MX 8X SoC
@@ -144,8 +143,6 @@ The i.MX 8X SoC boasts a wide range of security features for ensuring device int
 ---
 
 ## Additional Information
-
-<div style="overflow-x:scroll;" markdown="1">
 
 | Component           | Description                                                                                                            |
 | :------------------ | :--------------------------------------------------------------------------------------------------------------------- |
@@ -164,7 +161,3 @@ The i.MX 8X SoC boasts a wide range of security features for ensuring device int
 | Button              | Power and Reset                                                                                                        |
 | Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
 | Size                | 100 x 85 mm                                                                                                            |
-
-{:.hidden_rows}
-
-</div>

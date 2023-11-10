@@ -1,6 +1,5 @@
 ---
 title: Shiratech LTE Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 product_specification: mezzanine
 archived: false
 shortname: shiratech-lte
@@ -51,7 +50,7 @@ attributes:
       receiver available for applications requiring fast and accurate fixes in
       any environment. MIMO technology meets demands for data rate and link
       reliability in modem wireless communication system.
-slug: product/shiratech-lte/
+slug: shiratech-lte
 ---
 Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product
 

@@ -1,6 +1,5 @@
 ---
 title: UART Serial
-layout: ../../../../layouts/ProductLayout.astro
 product_specification: mezzanine
 product: true
 shortname: uartserial
@@ -80,7 +79,7 @@ attributes:
     value: '" Switchable between LS UART0 and UART1. (UART1 is the default console)
       CTS/RTS with using UART0 Remote control of baseboard reset and power
       signals "'
-slug: product/uartserial/
+slug: uartserial
 ---
 Available now from Seeed: This adapter is a USB to UART interface to be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
 

@@ -1,6 +1,5 @@
 ---
 title: Sensors
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: sensors-mezzanine
 archived: false
@@ -79,7 +78,7 @@ attributes:
         3 user LEDs"
   - name: Buttons
     value: '"Reset button Power button"'
-slug: product/sensors-mezzanine/
+slug: sensors-mezzanine
 ---
 The 96Boards Sensors Mezzanine adapter makes it simple and easy to connect sensors and devices to any 96Boards-compatible base board. With it you can connect your favourite Grove modules and Arduino compatible shields and interface to software running
 on the 96Boards baseboard. It provides everything you need to start experimenting and prototyping on the 96Boards platform.

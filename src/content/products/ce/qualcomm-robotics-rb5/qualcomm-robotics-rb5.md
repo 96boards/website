@@ -1,6 +1,5 @@
 ---
 title: Qualcomm® Robotics RB5 Development Platform
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: qualcomm-robotics-rb5
 archived: false
@@ -197,7 +196,7 @@ attributes:
   - name: Sensors
     value: |
       Accelerometer + Gyro Sensor/ Proximity sensor
-slug: product/qualcomm-robotics-rb5/
+slug: qualcomm-robotics-rb5
 ---
 The Qualcomm® Robotics RB5 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping. 
 

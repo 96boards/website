@@ -1,6 +1,5 @@
 ---
 title: Qualcomm® Robotics RB3 Development Platform
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: rb3-platform
 archived: false
@@ -176,7 +175,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/rb3-platform/
+slug: rb3-platform
 ---
 The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor.
 

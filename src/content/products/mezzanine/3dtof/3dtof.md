@@ -1,6 +1,5 @@
 ---
 title: Analog Devices 3D Time Of Flight Mezzanine Stack
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: 3dtof
 archived: false
@@ -52,7 +51,7 @@ product_sidebar_sections:
 product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
-slug: product/3dtof/
+slug: 3dtof
 ---
 
 ## Analog Devices 3D Time Of Flight Mezzanine Stack
@@ -62,33 +61,33 @@ slug: product/3dtof/
 ## Applications
 
 - **INDUSTRIAL**
- - Automated vehicles
- - Safe zone operation
- - Robotics
+  - Automated vehicles
+  - Safe zone operation
+  - Robotics
 - **BUILDING MANAGEMENT**
- - Surveillance applications
- - SLAM
+  - Surveillance applications
+  - SLAM
 - **AUTOMOTIVE**
- - Gesturing
- - Passenger Monitoring
+  - Gesturing
+  - Passenger Monitoring
 
-***
+---
 
 ## Additional Information
 
-| Specifications | Typical           |
-|:--------------:|:-----------------:|
-| DC Input       | 5 VDC             |
-| Range          | Up to 6m          |
-| FoV            | 90° x 69.2°       |
-| VCSEL          | 940nm             |
-| Accuracy       | Near: 20cm to 1.2m; < 2.5% accuracy <br> Mid: 1m to 2.6m; < 2% accuracy <br> Far: 2.6m to 6m; < 1% accuracy |
-| Frame Rate     | Up to 30fps       |
-| Resolution     | 640 x 480         |
-| Operating Temperature | 0° to 60°C |
+|          Specifications          |                                                                                                       Typical                                                                                                       |
+| :------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|             DC Input             |                                                                                                        5 VDC                                                                                                        |
+|              Range               |                                                                                                      Up to 6m                                                                                                       |
+|               FoV                |                                                                                                     90° x 69.2°                                                                                                     |
+|              VCSEL               |                                                                                                        940nm                                                                                                        |
+|             Accuracy             |                                                     Near: 20cm to 1.2m; < 2.5% accuracy <br> Mid: 1m to 2.6m; < 2% accuracy <br> Far: 2.6m to 6m; < 1% accuracy                                                     |
+|            Frame Rate            |                                                                                                     Up to 30fps                                                                                                     |
+|            Resolution            |                                                                                                      640 x 480                                                                                                      |
+|      Operating Temperature       |                                                                                                     0° to 60°C                                                                                                      |
 | I/O Options for DragonBoard 410c | USB 2.0, Ethernet, Wi-Fi <br> 802.11agn, I²S, HDMI, I²C, MIPICSI, MIPI-DSI, SDIO, USB 2.0, <br> 16 Configurable GPIO <br> Additional RPI connector on Mezzanine board for connection to other compatible CPU boards |
-| Processor | Qualcomm 410E processor |
-| EEPROM | 1Mb storage |
-| SD/uSD | Removeable uSD card slot |
+|            Processor             |                                                                                               Qualcomm 410E processor                                                                                               |
+|              EEPROM              |                                                                                                     1Mb storage                                                                                                     |
+|              SD/uSD              |                                                                                              Removeable uSD card slot                                                                                               |
 
-***
+---

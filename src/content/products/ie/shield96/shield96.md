@@ -1,6 +1,5 @@
 ---
 title: Shield96 - Arrow
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 product_specification: ie
 product: true
@@ -65,7 +64,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/shield96/
+slug: shield96
 ---
 
 # Advanced Hardware Security for IoT at Scale

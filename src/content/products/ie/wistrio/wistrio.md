@@ -1,6 +1,5 @@
 ---
 title: WisTrio
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: wistrio
 archived: false
@@ -89,7 +88,7 @@ attributes:
         value: 60mm
       - title: height
         value: 11.45 mm
-slug: product/wistrio/
+slug: wistrio
 ---
 
 WisTrio LORA Tracker by RAK Wireless is based on the RK5205 chipset. This extremely low power consumption device supports multiple global bands, contains a variety of onboard sensors, offers standard IO (I2C, GPIO, UART and ADC) and several antenna options (SMA & IPEX). All of this on the 96Boards IoT Edition standard footprint!

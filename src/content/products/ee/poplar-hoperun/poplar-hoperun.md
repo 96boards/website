@@ -1,6 +1,5 @@
 ---
 title: Poplar (Hoperun)
-layout: ../../../../layouts/ProductLayout.astro
 description: Poplar is the first development board compliant with the 96Boards
   Enterprise Edition TV Platform specification.
 display_product: true
@@ -70,7 +69,7 @@ attributes:
         value: 120mm
       - title: length
         value: 160mm
-slug: product/poplar-hoperun/
+slug: poplar-hoperun
 ---
 Poplar is the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. Developed by HiSilicon, the board features the Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53 processor and high performance Mali T720 GPU. Its high performance specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second.
 

@@ -1,6 +1,5 @@
 ---
 title: Rock960c (Vamrs)
-layout: ../../../../layouts/ProductLayout.astro
 description: The Rock960c is based on the RK3399 SoC which is a Dual Cortex-A72
   + quad Cortex-A53 CPU, with up to 2.0GHz frequency. This board comes packed
   with 1GB, 2GB or 4GB of RAM, on board eMMC socket, USB 3.0 type C with DP,
@@ -141,7 +140,7 @@ attributes:
         value: 55mm
       - title: length
         value: 85mm
-slug: product/rock960c/
+slug: rock960c
 ---
 The Rock960c is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency. This board comes packed with 1GB, 2GB or 4GB of RAM, on board eMMC socket, USB 3.0 type C with DP, HDMI 2.0 with 4K output, 4 lane M.2 PCI-E 2.1, and so much more! All of this on the 96Boards Consumer Edition Standard form factor, a truly little beast.
 

@@ -14,7 +14,6 @@ const ProductItem = ({
   slug: Product["slug"];
 }) => {
   const [showBuyLinks, setShowBuyLinks] = createSignal(false);
-
   const toggleBuyLinks = () => setShowBuyLinks(!showBuyLinks());
   return (
     <li class="col-span-1 flex flex-col items-center p-8 relative">
@@ -28,7 +27,7 @@ const ProductItem = ({
       <p class="text-xs text-center">{data.product_short_desc}</p>
       <div class="flex gap-1">
         <a
-          href={`/${slug}`}
+          href={`/product/${slug}`}
           class="bg-accent no-underline px-4 py-2 text-white"
         >
           View Product

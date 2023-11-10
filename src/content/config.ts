@@ -143,13 +143,14 @@ const products = defineCollection({
       product_short_desc: z.string(),
       product_specification: reference("specifications"),
       product_images: z.array(image()),
-      sticky_bar_bar: z
+      sticky_tab_bar: z
         .array(
           z.object({
             title: z.string(),
             url: z.string(),
-            tab_position: z.number(),
-            tab_align_right: z.boolean(),
+            tab_position: z.number().optional(),
+            tab_align_right: z.boolean().optional(),
+            active: z.boolean().optional(),
           })
         )
         .optional(),
@@ -194,6 +195,34 @@ const products = defineCollection({
               z.object({
                 title: z.string(),
                 link: z.string(),
+              })
+            ),
+          })
+        )
+        .optional(),
+
+      product_sidebar_sections: z
+        .array(
+          z.object({
+            title: z.string(),
+            items: z.array(
+              z.object({
+                title: z.string(),
+                link: z.string().or(z.null()).optional(),
+              })
+            ),
+          })
+        )
+        .optional(),
+      product_bottom_section: z
+        .array(
+          z.object({
+            title: z.string(),
+            url: z.string().optional(),
+            items: z.array(
+              z.object({
+                title: z.string(),
+                link: z.string().or(z.null()).optional(),
               })
             ),
           })

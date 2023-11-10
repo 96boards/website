@@ -1,6 +1,5 @@
 ---
 title: 4IoT - Geniatech
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 product_specification: ie
 product: true
@@ -84,7 +83,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/4iot/
+slug: 4iot
 ---
 Geniatech’s Developer Board 4IoT features Qualcomm Snapdragon 410 processor, a Quadcore ARM® Cortex™ A53 at up to 1.2GHz clock
 speed per core, capable of 32-bit and 64-bit operation. It supports Android, Linux and Windows 10 and offers advanced

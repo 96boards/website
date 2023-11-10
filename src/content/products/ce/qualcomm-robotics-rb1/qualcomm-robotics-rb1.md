@@ -1,6 +1,5 @@
 ---
 title: Qualcomm® Robotics RB1 Development Platform
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: qualcomm-robotics-rb1
 archived: false
@@ -151,7 +150,7 @@ attributes:
       and outer diameter 4.75mm
   - name: OS Support
     values: LE build from Linaro LU build from Thundercomm
-slug: product/qualcomm-robotics-rb1/
+slug: qualcomm-robotics-rb1
 ---
 The Qualcomm® Robotics RB1 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping.
 

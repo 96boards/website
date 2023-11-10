@@ -1,6 +1,5 @@
 ---
 title: TB-96AIot-1126CE
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 display_product: true
 product_specification: ce
@@ -123,7 +122,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/tb-96aiot-1126ce/
+slug: tb-96aiot-1126ce
 ---
 TB-96AIoT-1126CE Development Board is a 96Boards CE HW Specification V2.0  Development Board based on Rockchip artificial intelligence chip RV1126 developed by BeiQi Technology。
 RV1126 is manufactured by a 14nm process with built-in NPU and self-developed ISP. With multi-level noise reduction,3-frame HDR, Smart AE smart auto-exposure, white balance, distortion correction and other technologies, it can not only ensure the dynamic range of the scene, but also meet the needs of black full-color and complex light environment to maintain clarity. At the same time,Smart H.265 coding technology can save half of the back-end storage space;with its own AI algorithm,2.0Tops is powerful,Compatibility,support TensorFlow/MXNet/PyTorch/Caffe and other network models;support MIPI CIS,USB and other camera multi-interface input at the same time,is very suitable for IPC smart webcam products,face recognition gate/access/attendance products and battery IPC/smart doorbell/cat-eye products.

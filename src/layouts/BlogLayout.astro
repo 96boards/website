@@ -7,9 +7,14 @@ const { Content } = await post.render();
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description}>
-  <div
-    class="prose-xl md-content max-w-5xl first-line:text-left p-4 md:p-12 blog-content mx-auto"
+  <article
+    class="px-5 md:px-16 prose:lg prose-p:mb-6 max-w-5xl mx-auto my-12 break-words
+      prose-headings:text-3xl prose-headings:font-bold prose-headings:my-8
+      prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+      prose-li:list-item prose-ol:list-decimal prose-ul:list-disc
+      prose-li:prose-li:list-[circle] prose-ul:ml-8 prose-ol:ml-8 prose-ul:mb-4
+      prose-p:prose-li:mb-0"
   >
     <Content />
-  </div>
+  </article>
 </BaseLayout>

@@ -1,6 +1,5 @@
 ---
 title: Bubblegum-96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: bubblegum-96
@@ -132,7 +131,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/bubblegum-96/
+slug: bubblegum-96
 ---
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all
