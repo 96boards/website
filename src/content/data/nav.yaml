@@ -6,8 +6,6 @@
       url: /specifications/
     - label: Compliance
       url: /compliance/
-    - label: News
-      url: /news/
 - label: Products
   active_paths:
     - /product/
@@ -26,33 +24,30 @@
       url: /products/ie/
     - label: SoM Edition (SE)
       sticky_label: SoM Edition
-      children:
-        - label: All
-          url: /products/se/
-        - label: Carrier Boards
-          url: /products/se/carrier-boards/
-        - label: Modules
-          url: /products/se/modules/
-    - label: Auto Edition (AE)
-      sticky_label: Auto Edition
-      children:
-        - label: All
-          url: /products/ae/
-        - label: PCU
-          url: /products/ae/pcu/
-        - label: CCU
-          url: /products/ae/ccu/
-        - label: Drone
-          url: /products/ae/drone/
+      url: /products/se/
+      # children:
+      #   - label: All
+      #   - label: Carrier Boards
+      #     url: /products/se/carrier-boards/
+      #   - label: Modules
+      #     url: /products/se/modules/
+    # - label: Auto Edition (AE)
+    #   sticky_label: Auto Edition
+    #   url: /products/ae/
+    # children:
+    #   - label: All
+    #   - label: PCU
+    #     url: /products/ae/pcu/
+    #   - label: CCU
+    #     url: /products/ae/ccu/
+    #   - label: Drone
+    #     url: /products/ae/drone/
     - label: Mezzanine Products
       sticky_label: Mezzanine
       url: /products/mezzanine/
     - label: Archived 96Boards
       url: /products/archived/
       sticky_exclude: true
-    - label: Compare 96Boards
-      sticky_label: Compare
-      url: /products/compare/
     - label: Accessories
       url: /products/accessories/
 - label: Initiatives

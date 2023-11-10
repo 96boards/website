@@ -6,14 +6,14 @@ import Buttons from "../sections/Buttons.astro";
 type Props = CollectionEntry<"pages">["data"]["hero"];
 
 const { title, background_image, style, inner_image, description, title_style, buttons } = Astro.props!;
-
+console.log(inner_image)
 ---
 
 <section
   class:list={[
-    style,
     "hero-background",
     "flex flex-col items-center text-white justify-center px-5 h-96",
+    style,
   ]}
 >
   {inner_image ?  <Image

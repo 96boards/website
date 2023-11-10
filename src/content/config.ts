@@ -34,50 +34,52 @@ const pages = defineCollection({
         .optional(),
       flow: z
         .array(
-          z.object({
-            row: reference("rows"),
-            sections: z.array(
-              z
-                .object({
-                  component: reference("sections"),
-                  blocks: z
-                    .array(
-                      z.object({
-                        description: z.string(),
+          z
+            .object({
+              row: reference("rows"),
+              sections: z.array(
+                z
+                  .object({
+                    component: reference("sections"),
+                    blocks: z
+                      .array(
+                        z.object({
+                          description: z.string(),
+                          title: z.string(),
+                          image: image(),
+                          buttons: z.array(
+                            z.object({
+                              url: z.string(),
+                              style: z.string(),
+                              title: z.string(),
+                            })
+                          ),
+                        })
+                      )
+                      .optional(),
+                    feature_block_content: z
+                      .object({
+                        text: z.string(),
                         title: z.string(),
-                        image: image(),
-                        buttons: z.array(
-                          z.object({
-                            url: z.string(),
-                            style: z.string(),
-                            title: z.string(),
-                          })
-                        ),
+                        buttons: z
+                          .array(
+                            z.object({
+                              url: z.string(),
+                              style: z.string(),
+                              title: z.string(),
+                            })
+                          )
+                          .optional(),
+                        position: z.enum(["left", "right"]),
+                        image_content_path: image(),
+                        type: z.string(),
                       })
-                    )
-                    .optional(),
-                  feature_block_content: z
-                    .object({
-                      text: z.string(),
-                      title: z.string(),
-                      buttons: z
-                        .array(
-                          z.object({
-                            url: z.string(),
-                            style: z.string(),
-                            title: z.string(),
-                          })
-                        )
-                        .optional(),
-                      position: z.enum(["left", "right"]),
-                      image_content_path: image(),
-                      type: z.string(),
-                    })
-                    .optional(),
-                })
-                .catchall(z.any())
-            ),
-          })
+                      .optional(),
+                  })
+                  .catchall(z.any())
+              ),
+            })
+            .catchall(z.any())
         )
         .optional(),
     }),
