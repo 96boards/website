@@ -6,15 +6,15 @@ description: This project was designed with backwards compatibility in mind.
   with any phone that has SMS capabilities, so even our grandparents who still
   prefer feature phones and want a smart door will not be left out.
 images:
-  - Janus_FrontPage.png
-  - Janus_Image1.png
-  - Janus_Image2.png
-  - Janus_Video_Image.png
+  - ./_images/Janus_FrontPage.png
+  - ./_images/Janus_Image1.png
+  - ./_images/Janus_Image2.png
+  - ./_images/Janus_Video_Image.png
 categories:
   - dragonboard410c
-slug: projects/Janus/
-layout: ../../layouts/Project.astro
+slug: janus/
 ---
+
 # Janus, Roman God of Doors
 
 This project was designed with backwards compatibility in mind. With technology evolving rapidly, there are people in parts of our lives that are not necessarily chasing after everything new. Janus is designed to operate with any phone that has SMS capabilities, so even our grandparents who still prefer feature phones and want a smart door will not be left out.
@@ -40,5 +40,4 @@ In line with the smart home theme of the H.A.R.D Hack hackathon at University of
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

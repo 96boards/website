@@ -7,21 +7,21 @@ description: This project is part of a technical workshop at IBM InterConnect
   IBM Watson IoT platform, as well as more detailed information about the
   hardware and software libraries.
 images:
-  - IBMWatson_FrontPage.png
-  - IBMWatson_Image1.png
-  - IBMWatson_Image2.png
-  - IBMWatson_Image3.png
-  - IBMWatson_Image4.png
-  - IBMWatson_Image5.png
-  - IBMWatson_Image6.png
-  - IBMWatson_Image7.png
-  - IBMWatson_Image8.png
-  - IBMWatson_Image9.png
+  - ./_images/IBMWatson_FrontPage.png
+  - ./_images/IBMWatson_Image1.png
+  - ./_images/IBMWatson_Image2.png
+  - ./_images/IBMWatson_Image3.png
+  - ./_images/IBMWatson_Image4.png
+  - ./_images/IBMWatson_Image5.png
+  - ./_images/IBMWatson_Image6.png
+  - ./_images/IBMWatson_Image7.png
+  - ./_images/IBMWatson_Image8.png
+  - ./_images/IBMWatson_Image9.png
 categories:
   - dragonboard410c
-slug: projects/IBMWatsonSensorRead/
-layout: ../../layouts/Project.astro
+slug: ibmwatsonsensorread/
 ---
+
 # IBM Watson IoT Platform: Sensor Reading
 
 This project is part of a technical workshop at IBM InterConnect 2016. The [slide deck from this workshop](https://developer.qualcomm.com/download/project/ibm-interconnect-demo.pdf) provides an overview of the DragonBoard 410c, Arrow Electronics (the manufacturer of the kit), and the Watson IoT platform. It then covers how to connect the DragonBoard 410c to the IBM Watson IoT platform, as well as more detailed information about the hardware and software libraries.
@@ -46,5 +46,4 @@ This project is part of a technical workshop at IBM InterConnect 2016. The [slid
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

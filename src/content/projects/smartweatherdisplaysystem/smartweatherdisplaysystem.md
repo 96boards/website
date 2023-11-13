@@ -6,10 +6,10 @@ description: This project is a smart home system design based on the
   is designed to use strong data processing power for the display of time,
   pictures, and sensor values.
 images:
-  - SmartWeather_FrontPage.png
-slug: projects/SmartWeatherDisplaySystem/
-layout: ../../layouts/Project.astro
+  - ./_images/SmartWeather_FrontPage.png
+slug: smartweatherdisplaysystem/
 ---
+
 # Smart Weather Display System
 
 This project is a smart home system design based on the DragonBoard™ 410c from Arrow Electronics. It utilizes the DragonBoard 410c network support function and
@@ -45,5 +45,4 @@ designed to display real-time local weather, local time, acquiring indoor temper
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

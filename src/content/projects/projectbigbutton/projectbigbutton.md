@@ -7,14 +7,14 @@ description: Using a 96Boards DragonBoard 410c, several micro:bit
   of both onboard Bluetooth modules (DragonBoard and micro:bit) as well as
   Python for the base programming language.
 images:
-  - ProjectBIGButton_FrontPage.png
-  - ProjectBIGButton_Video_Demo.png
-  - ProjectBIGButton_Video_OpenHours.png
+  - ./_images/ProjectBIGButton_FrontPage.png
+  - ./_images/ProjectBIGButton_Video_Demo.png
+  - ./_images/ProjectBIGButton_Video_OpenHours.png
 categories:
   - dragonboard410c
-slug: projects/ProjectBIGButton/
-layout: ../../layouts/Project.astro
+slug: projectbigbutton/
 ---
+
 # Project BIG Button
 
 Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver board, some BIG buttons and various miscellaneous wires and tools, this set of instructions will walk you through setting up your very own BIG Button Game! This particular application focuses on the use of both onboard _Bluetooth_ ® wireless technology modules (DragonBoard and micro:bit) as well as Python for the base programming language.
@@ -30,9 +30,11 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 ## Videos
 
 ### Project BIG Button Demo
+
 {% include image.html path="_projects/view/projectbigbutton/images/ProjectBIGButton_Video_Demo.png" alt="Project BIG Button Demo" url="https://youtu.be/VeuXedlyDvc" class="img-fluid"%}
 
 ### Barry Byford demos Project BIG Button on OpenHours ep. 46
+
 {% include image.html path="_projects/view/projectbigbutton/images/ProjectBIGButton_Video_OpenHours.png" alt="Barry Byford demos Project BIG Button on OpenHours ep. 46" url="https://youtu.be/F6xZPTO9eO0" class="img-fluid"%}
 
 ## Resources
@@ -47,5 +49,4 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 - Barry Byford: [Twitter](https://twitter.com/uk_baz)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

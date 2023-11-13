@@ -3,14 +3,13 @@ title: Training and Implementing a BNN Using Pynq
 description: Using Pynq, we can implement an accelerated AI/ML on an FPGA
   without writing a line of HDL! Let's take a look at how we can this...
 images:
-  - bnn-using-pynq.png
+  - ./_images/bnn-using-pynq.png
 categories:
   - Ultra96
-slug: projects/bnn-using-pynq/
-layout: ../../layouts/Project.astro
+slug: bnn-using-pynq/
 ---
-# Training and Implementing a BNN Using Pynq
 
+# Training and Implementing a BNN Using Pynq
 
 Using Pynq, we can implement an accelerated AI/ML on an FPGA without writing a line of HDL! Let's take a look at how we can this...
 
@@ -21,7 +20,6 @@ Using Pynq, we can implement an accelerated AI/ML on an FPGA without writing a l
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Neural Networks, Machine Learning, Python
 - **Board(s) used:** [Ultra96](/product/ultra96/)
-
 
 ## Introduction
 
@@ -50,6 +48,4 @@ For this project we will be using Pynq on the Arty Z7 / Pynq Z1.
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-
-***
+---

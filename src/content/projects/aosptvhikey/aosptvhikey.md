@@ -3,14 +3,14 @@ title: AOSP TV Build
 description: Taking clues from how we used to build Android TV for the Raspberry
   Pi, I was able to get a AOSP TV build running on both the Hikey bords.
 images:
-  - AOSPTV_FrontPage.png
-  - AOSPTV_Video_Demo.png
+  - ./_images/AOSPTV_FrontPage.png
+  - ./_images/AOSPTV_Video_Demo.png
 categories:
   - Hikey960
   - Hikey
-slug: projects/AOSPTVHikey/
-layout: ../../layouts/Project.astro
+slug: aosptvhikey/
 ---
+
 # AOSP TV Build For The Hikey And Hikey 960
 
 Taking clues from how we used to build Android TV for the Raspberry Pi, I was able to get a AOSP TV build running on both the Hikey bords.
@@ -30,21 +30,25 @@ device source tree. The only part not included in the AOSP is the Leanback Launc
 ## Videos
 
 ### Video Of The AOSP TV Build Running On a Hikey960
+
 {% include image.html path="_projects/view/aosptvhikey/images/AOSPTV_Video_Demo.png" alt="Video Of The AOSP TV Build Running On a Hikey960" class="img-fluid" url="https://youtu.be/3YgdDLQ46TA"%}
 
 ## Resources
 
 ### Pre-Built Installation Guide [Only For Hikey960]
 
-1) Download from [here](https://mega.nz/#!QAtD2JrK!0Z6l2vgZqYyxsw_9CwWmqmYYwEMx1B6obJqAQhSoeAo)
-2) Put Hikey960 into fastboot mode by using the following switch configuration
+1. Download from [here](https://mega.nz/#!QAtD2JrK!0Z6l2vgZqYyxsw_9CwWmqmYYwEMx1B6obJqAQhSoeAo)
+2. Put Hikey960 into fastboot mode by using the following switch configuration
+
 ```
   switch 1 ON
   switch 2 OFF
   switch 3 ON
 ```
-3) Connect Hikey960 to a Linux Desktop
-4) Open a terminal and enter the following commands:
+
+3. Connect Hikey960 to a Linux Desktop
+4. Open a terminal and enter the following commands:
+
 ```
   cd <download directory>
   tar -xvzf hikey960-tv-binaries.tar.gz
@@ -60,7 +64,9 @@ loosing all the external apps, comment out the userdata flash line in flashall.s
 - Follow The [GitHub](https://github.com/ric96/device_linaro_hikey_tv) link for source and build instructions.
 
 ### Social Media Link
+
 - **BLOG:** http://geektillithertz.com/wordpress/
 - **Youtube:** https://www.youtube.com/user/sahajsarup
 - **GitHub:** https://github.com/ric96
-***
+
+---

@@ -3,14 +3,14 @@ title: Integrating Alexa & Ultra96
 description: Voice control using Alexa is popular for a number of applications.
   This project shows how to connect an Ultra96 (Arm & FPGA) with Alexa.
 images:
-  - alexa-and-ultra96.png
-  - alexa-and-ultra96-hardware.png
-  - alexa-and-ultra96-flowchart.png
+  - ./_images/alexa-and-ultra96.png
+  - ./_images/alexa-and-ultra96-hardware.png
+  - ./_images/alexa-and-ultra96-flowchart.png
 categories:
   - Ultra96
-slug: projects/alexa-and-ultra96/
-layout: ../../layouts/Project.astro
+slug: alexa-and-ultra96/
 ---
+
 # Integrating Alexa & Ultra96
 
 Voice control using Alexa is popular for a number of applications. This project shows how to connect an Ultra96 (Arm & FPGA) with Alexa.
@@ -22,7 +22,6 @@ Voice control using Alexa is popular for a number of applications. This project 
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** AWS
 - **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
-
 
 ## Introduction
 
@@ -47,6 +46,4 @@ To integrate our application with Alexa we are going to use a number of Amazon W
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-
-***
+---

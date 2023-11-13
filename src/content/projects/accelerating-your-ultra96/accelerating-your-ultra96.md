@@ -3,15 +3,14 @@ title: Accelerating Your Ultra96 Developments
 description: Learn how to use SDSoC to accelerate functions from the processors
   to the logic in the Ultra96!
 images:
-  - accelerating-your-ultra96.png
-  - mpsoc.png
+  - ./_images/accelerating-your-ultra96.png
+  - ./_images/mpsoc.png
 categories:
   - Ultra96
-slug: projects/accelerating-your-ultra96/
-layout: ../../layouts/Project.astro
+slug: accelerating-your-ultra96/
 ---
-# Accelerating Your Ultra96 Developments
 
+# Accelerating Your Ultra96 Developments
 
 Learn how to use SDSoC to accelerate functions from the processors to the logic in the Ultra96!
 
@@ -23,10 +22,9 @@ Learn how to use SDSoC to accelerate functions from the processors to the logic 
 - **Project Category:** MPSoC, Hardware Acceleration
 - **Board(s) used:** [Ultra96](/product/ultra96/)
 
-
 ## Introduction
 
-The Ultra96 provides both processors system and programmable logic. One of the key benefits of this heterogeneous approach is the ability to accelerate functions from the running on the processing system to being implemented in logic. 
+The Ultra96 provides both processors system and programmable logic. One of the key benefits of this heterogeneous approach is the ability to accelerate functions from the running on the processing system to being implemented in logic.
 
 Done correctly (we will explore this more further down) moving functions into the programmable logic results in a significant acceleration in performance.
 
@@ -34,7 +32,7 @@ To get the best from this acceleration, we also want to accelerate the design cy
 
 This increasing time scale stems from the need to create a hardware description language (HDL) block, verify its performance and create SW to drive the new module.
 
-Ideally what we want is a system optimizing compiler which allows us to move functions between the PS and PL seamlessly and with ease. 
+Ideally what we want is a system optimizing compiler which allows us to move functions between the PS and PL seamlessly and with ease.
 
 ## Resources
 
@@ -47,6 +45,4 @@ Ideally what we want is a system optimizing compiler which allows us to move fun
 - Adam Taylor: [Hackster.io](https://www.hackster.io/adam-taylor)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-
-***
+---

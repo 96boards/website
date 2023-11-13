@@ -7,13 +7,13 @@ description: This project was created during a Hackathon challenge organized for
   To help solve this problem, the Needy Trashcan was created to remind them
   automatically.
 images:
-  - NeedyTrashcan_FrontPage.png
-  - NeedyTrashcan_Video_Image.png
+  - ./_images/NeedyTrashcan_FrontPage.png
+  - ./_images/NeedyTrashcan_Video_Image.png
 categories:
   - dragonboard410c
-slug: projects/NeedyTrashcan/
-layout: ../../layouts/Project.astro
+slug: needytrashcan/
 ---
+
 # The Needy Trashcan
 
 This project was created during a Hackathon challenge organized for the H.A.R.D hack at University of California, San Diego. It was inspired by an everyday problem that comes with having roommates -- taking turns to take out the trash. Many times, trash piles up as someone has failed to do their part. To help solve this problem, the Needy Trashcan was created to remind them automatically.
@@ -41,5 +41,4 @@ It has been a month since you moved into your new apartment and no one has taken
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

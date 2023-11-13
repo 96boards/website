@@ -9,14 +9,14 @@ description: This project is designed to implement remote monitoring on the
   upload photos from which faces are detected. It may also take and upload
   photos based on any hardware-triggered commands.
 images:
-  - RemoteMonitor_FrontPage.png
-  - RemoteMonitor_Image1.png
-  - RemoteMonitor_Image2.png
+  - ./_images/RemoteMonitor_FrontPage.png
+  - ./_images/RemoteMonitor_Image1.png
+  - ./_images/RemoteMonitor_Image2.png
 categories:
   - dragonboard410c
-slug: projects/RemoteMonitoring/
-layout: ../../layouts/Project.astro
+slug: remotemonitoring/
 ---
+
 # Remote Monitoring Project
 
 This project is designed to implement remote monitoring on the DragonBoard™ 410c from Arrow Electronics. A picture can be taken upon request using the USB camera connected to the DragonBoard 410c, and the pictures can be transmitted to the server. An Android phone is used to make the request and view the pictures that have been sent to the server. The DragonBoard 410c can also be set up to proactively take photos, carry out facial recognition, and upload photos from which faces are detected. It may also take and upload photos based on any hardware-triggered commands.
@@ -44,5 +44,4 @@ Sometimes when I am not home I wanted to have a look of my home conditions. It w
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

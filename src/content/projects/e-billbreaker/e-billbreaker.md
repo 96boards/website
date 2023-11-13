@@ -10,18 +10,18 @@ description: e-BillBreaker was created during an IoT Hackathon challenge
   power consumption by appliance, and quickly identify any critical events or
   trigger conditions that caused any power fluctuation.
 images:
-  - BillBreaker_FrontPage1.png
-  - BillBreaker_Image1.png
-  - BillBreaker_Image2.png
-  - BillBreaker_Image3.png
-image: ../../assets/images/projects/ebillbreaker-thumb.png
+  - ./_images/BillBreaker_FrontPage1.png
+  - ./_images/BillBreaker_Image1.png
+  - ./_images/BillBreaker_Image2.png
+  - ./_images/BillBreaker_Image3.png
+# image: ../../assets/images/projects/ebillbreaker-thumb.png
 image_name: ebillbreaker-thumb.png
 image_thumb: ebillbreaker-thumb.png
 categories:
   - dragonboard410c
-slug: projects/e-BillBreaker/
-layout: ../../layouts/Project.astro
+slug: e-billbreaker/
 ---
+
 # e-BillBreaker
 
 This project is designed to quantify power consumption in different environments using DragonBoard™ 410c.
@@ -41,7 +41,7 @@ e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcom
 ### RSS URL
 
 - [View Project on Qualcomm Developer Network](https://developer.qualcomm.com/project/e-billbreaker)
-= [Source Code](https://bitbucket.org/Allyson/atmega_firmware)
+  = [Source Code](https://bitbucket.org/Allyson/atmega_firmware)
 - [Python Script for DragonBoard](https://bitbucket.org/Allyson/atmega_interface/src)
 - [WebServer Code](https://bitbucket.org/samuelpereira7/e-billbreaker/src)
 - [Instructions on Instructables](http://www.instructables.com/id/E-BillBreaker-Smart-Power-Meter-With-Dragonboard/step2/Current-Sensor/)
@@ -52,5 +52,4 @@ e-BillBreaker was created during an IoT Hackathon challenge organized by Qualcom
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

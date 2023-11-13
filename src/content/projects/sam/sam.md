@@ -5,12 +5,12 @@ description: Since the ancient Egypt, the mirror has been used for personal
   generation of homes. We want to introduce you S.A.M., your personal smart
   assistant mirror.
 images:
-  - SAM_FrontPage.png
-  - SAM_Video_Demo.png
-  - SAM_Video_Presentation.png
-slug: projects/SAM/
-layout: ../../layouts/Project.astro
+  - ./_images/SAM_FrontPage.png
+  - ./_images/SAM_Video_Demo.png
+  - ./_images/SAM_Video_Presentation.png
+slug: sam/
 ---
+
 # S.A.M. (Smart Assistant Mirror)
 
 Since the ancient Egypt, the mirror has been used for personal grooming and admiring oneself, but now we want to make it a part of the next generation of homes. We want to introduce you S.A.M., your personal smart assistant mirror.
@@ -26,9 +26,11 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 ## Videos
 
 ### S.A.M. Video Submission
+
 {% include image.html path="_projects/view/sam/images/SAM_Video_Demo.png" alt="S.A.M. Video Submission" url="https://youtu.be/EE9Aeucd7zw?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### S.A.M. Presentation and Demo
+
 {% include image.html path="_projects/view/sam/images/SAM_Video_Presentation.png" alt="S.A.M. Presentation and Demo" url="https://youtu.be/i-RyjroqMvU?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ## Resources
@@ -41,5 +43,4 @@ Since the ancient Egypt, the mirror has been used for personal grooming and admi
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

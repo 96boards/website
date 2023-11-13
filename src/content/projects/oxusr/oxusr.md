@@ -3,15 +3,15 @@ title: OxusR – Content Optimization
 description: OxusR is a Digital Signage project that is designed to optimize
   bandwidth consumption by avoiding redundant downloads on the same network.
 images:
-  - OXUS_FrontPage.png
-  - OXUS_Image1.png
-  - OXUS_Image2.png
-  - OXUS_Image3.png
+  - ./_images/OXUS_FrontPage.png
+  - ./_images/OXUS_Image1.png
+  - ./_images/OXUS_Image2.png
+  - ./_images/OXUS_Image3.png
 categories:
   - dragonboard410c
-slug: projects/OxusR/
-layout: ../../layouts/Project.astro
+slug: oxusr/
 ---
+
 # OxusR – Content Optimization
 
 OxusR is a Digital Signage project that is designed to optimize bandwidth consumption by avoiding redundant downloads on the same network.
@@ -42,5 +42,4 @@ This project was created during an IoT Hackathon challenge organized by Qualcomm
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

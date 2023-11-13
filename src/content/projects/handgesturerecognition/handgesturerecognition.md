@@ -6,12 +6,12 @@ description: The project is designed to implement a program that can recognize
   system, using Python development language and Open CV vision processing
   library.
 images:
-  - HandGestureRecognition_FrontPage.png
+  - ./_images/HandGestureRecognition_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/HandGestureRecognition/
-layout: ../../layouts/Project.astro
+slug: handgesturerecognition/
 ---
+
 # Hand Gesture Recognition
 
 The project is designed to implement a program that can recognize simple hand gestures of rock, paper and scissors on a DragonBoard™ 410c development board from Arrow Electronics that is hosting a Debian operating system, using Python development language and Open CV vision processing library.
@@ -37,5 +37,4 @@ Aim of this demo is to introduce developers to the concept of image recognition 
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

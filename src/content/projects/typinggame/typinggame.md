@@ -5,12 +5,12 @@ description: A typing game for the DragonBoard™ 410c from Arrow Electronics th
   along with real-time animation and sound by utilizing the strong AV processing
   computing power of the DragonBoard 410c.
 images:
-  - TypingGame_FrontPage.png
+  - ./_images/TypingGame_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/TypingGame/
-layout: ../../layouts/Project.astro
+slug: typinggame/
 ---
+
 # Typing Game
 
 A typing game for the DragonBoard™ 410c from Arrow Electronics that utilizes java language and JVM. This game is designed to provide interactivity along with
@@ -38,5 +38,4 @@ carry out small game development by java.
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

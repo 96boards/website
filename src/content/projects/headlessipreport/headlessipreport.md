@@ -4,12 +4,12 @@ description: Report IP Address During Headless Boot is a method to run the
   DragonBoard™ 410c in headless mode (with no monitor attached) and have it
   report its IP address at boot.
 images:
-  - HeadlessIP_FrontPage.png
+  - ./_images/HeadlessIP_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/HeadlessIPReport/
-layout: ../../layouts/Project.astro
+slug: headlessipreport/
 ---
+
 # Report IP Address During Headless Boot
 
 Report IP Address During Headless Boot is a method to run the DragonBoard™ 410c in headless mode (with no monitor attached) and have it report its IP address at boot.
@@ -37,4 +37,4 @@ This method uses Amazon Web Services (AWS), and causes the IP address of the Dra
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

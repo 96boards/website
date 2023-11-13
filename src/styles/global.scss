@@ -2,31 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
- html {
-	font-family: "Lato", sans-serif
- }
+  html {
+    font-family: "Lato", sans-serif;
+  }
+}
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
-
 @layer utilities {
-	.nav-hover {
+  .nav-hover {
+    :before {
+      @apply w-0 lg:bg-accent content-[""] bottom-0 h-[2px] block absolute left-[50%] duration-150;
+    }
+    :before:hover {
+      @apply w-full left-0;
+    }
+  }
 
-		:before {
-			@apply w-0 lg:bg-accent content-[""] bottom-0 h-[2px] block absolute left-[50%] duration-150 
-		}
-		:before:hover {
-				@apply w-full left-0
-		}
+  .btn-primary {
+    @apply bg-accent hover:bg-emerald-900 text-white px-3 py-2 no-underline rounded-sm;
+  }
 
-	}
-
-	.btn-primary {
-		@apply bg-accent hover:bg-emerald-900 text-white px-3 py-2 no-underline rounded-sm
-	}
-
-	.btn-secondary {
-		@apply bg-neutral-700 hover:bg-neutral-900 text-white px-3 py-2 no-underline rounded-sm
-	} 
+  .btn-secondary {
+    @apply bg-neutral-700 hover:bg-neutral-900 text-white px-3 py-2 no-underline rounded-sm;
+  }
 }

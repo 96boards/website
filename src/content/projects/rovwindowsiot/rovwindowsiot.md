@@ -5,12 +5,12 @@ description: ROV 10 is inspired by the OpenROV project and demonstrates how to
   demonstrated in an ROV and can be used in nearly every robot that requires
   live video.
 images:
-  - ROV_FrontPage.png
+  - ./_images/ROV_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/ROVWindowsIoT/
-layout: ../../layouts/Project.astro
+slug: rovwindowsiot/
 ---
+
 # ROV with Windows 10 IoT Core
 
 ROV 10 is inspired by the OpenROV project and demonstrates how to use Windows 10 IOT Core in a remote controlled robot. Even the software is demonstrated in an ROV and can be used in nearly every robot that requires live video. The live video feed
@@ -37,5 +37,4 @@ Applications for Windows 10. The controller side can run on Windows 10 Mobile, D
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

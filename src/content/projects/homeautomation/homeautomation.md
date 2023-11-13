@@ -5,13 +5,13 @@ description: The aim of this workshop, created for an event at the University of
   scripting language, the OpenCV library, the Linux operating system, and the
   DragonBoard 410c.
 images:
-  - HomeAutomation_FrontPage.png
-  - HomeAutomation_Image1.png
+  - ./_images/HomeAutomation_FrontPage.png
+  - ./_images/HomeAutomation_Image1.png
 categories:
   - dragonboard410c
-slug: projects/HomeAutomation/
-layout: ../../layouts/Project.astro
+slug: homeautomation/
 ---
+
 # Home Automation
 
 The aim of this workshop, created for an event at the University of Illinois at Urbana-Champaign, is to familiarize students with the Python scripting language, the OpenCV library, the Linux operating system, and the DragonBoard 410c.
@@ -40,5 +40,4 @@ No experience is needed, as the handout walks you through the project step by st
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

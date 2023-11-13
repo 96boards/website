@@ -8,12 +8,12 @@ description: This project aims to implement video acquisition by using a USB
   conveniently integrate this demo to his own DIY project to realize video
   monitoring related functions.
 images:
-  - VideoMonitor_FrontPage.png
+  - ./_images/VideoMonitor_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/RemoteVideoTargetTracking/
-layout: ../../layouts/Project.astro
+slug: remotevideotargettracking/
 ---
+
 # Remote Video Monitoring and Target Tracking
 
 This project aims to implement video acquisition by using a USB camera and provide web access using Wi-Fi communication on the DragonBoard™ 410c from Arrow Electronics. In addition, it is also designed to use open-source motion codes to detect and track the moving objects in a video and configure the monitoring parameters, image output and mode. A developer may conveniently integrate this demo to his own DIY project to realize video monitoring related functions.
@@ -39,5 +39,4 @@ This demo is designed to teach people how to realize web video monitoring and ta
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

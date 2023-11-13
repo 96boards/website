@@ -1,18 +1,16 @@
 ---
 title: ReSeNi
 images:
-  - visual5.png
-  - logo.png
-  - pcb-ce.png
-  - pcb-module.png
-  - visual1.png
-  - visual2.png
-  - visual3.png
-  - visual4.png
-slug: projects/reseni/
-layout: ../../layouts/Project.astro
+  - ./_images/visual5.png
+  - ./_images/logo.png
+  - ./_images/pcb-ce.png
+  - ./_images/pcb-module.png
+  - ./_images/visual1.png
+  - ./_images/visual2.png
+  - ./_images/visual3.png
+  - ./_images/visual4.png
+slug: reseni/
 ---
-
 
 # ReSeNi
 
@@ -46,4 +44,4 @@ While instructions might be made available in other formats at a later time, the
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - < Links to any additional Social media >
 
-***
+---

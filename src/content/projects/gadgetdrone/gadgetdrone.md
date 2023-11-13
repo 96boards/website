@@ -5,14 +5,14 @@ description: Gumstix has put together a working 96Boards drone using the
   and the Gumstix AeroCore 2 card are used to fly a drone with PX4 R/C and
   wireless, telemetry, and video feed capabilities.
 images:
-  - DroneKit_BOM.png
-  - GadgetDrone_VideoImage_OnboardCameraFlight.png
-  - GadgetDrone_VideoImage_OpenHours.png
+  - ./_images/DroneKit_BOM.png
+  - ./_images/GadgetDrone_VideoImage_OnboardCameraFlight.png
+  - ./_images/GadgetDrone_VideoImage_OpenHours.png
 categories:
   - dragonboard410c
-slug: projects/GadgetDrone/
-layout: ../../layouts/Project.astro
+slug: gadgetdrone/
 ---
+
 # Gumstix Gadget Drone
 
 Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard 410c and the AeroCore 2 Mezzanine from Gumstix. 96Boards and the Gumstix AeroCore 2 card are used to fly a drone with PX4 R/C and wireless, telemetry, and video feed capabilities.
@@ -28,9 +28,11 @@ Gumstix has put together a working 96Boards drone using the Qualcomm DragonBoard
 ## Videos
 
 ### GadgetDrone Flight Test (Drone view)
+
 {% include image.html path="_projects/view/gadgetdrone/images/GadgetDrone_VideoImage_OnboardCameraFlight.png" alt="GadgetDrone Flight Test (Drone view)" url="https://youtu.be/XK0PIaZMKJY" class="img-fluid" %}
 
 ### Live drone demo on OpenHours ep.25
+
 {% include image.html path="_projects/view/gadgetdrone/images/GadgetDrone_VideoImage_OpenHours.png" alt="Live drone demo on OpenHours ep.25" url="https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" class="img-fluid" %}
 
 ## Resources
@@ -51,4 +53,4 @@ While instructions might be made available in other formats at a later time, the
 - https://youtu.be/XK0PIaZMKJY
 - https://youtu.be/iNO08qbi-oc?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk
 
-***
+---

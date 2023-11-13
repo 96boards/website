@@ -3,17 +3,17 @@ title: Breakerball
 description: This is a great demo of the simplicity and power of the DragonBoard
   410c that would interest younger programmers.
 images:
-  - BreakerBall_FrontPage.png
-  - BreakerBall_Image1.png
-  - BreakerBall_Image2.png
-image: ../../assets/images/projects/breakerball-thumb.png
+  - ./_images/BreakerBall_FrontPage.png
+  - ./_images/BreakerBall_Image1.png
+  - ./_images/BreakerBall_Image2.png
+# image: ../../assets/images/projects/breakerball-thumb.png
 image_name: breakerball-thumb.png
 image_thumb: breakerball-thumb.png
 categories:
   - dragonboard410c
-slug: projects/BreakerBall/
-layout: ../../layouts/Project.astro
+slug: breakerballl/
 ---
+
 # Breakerball
 
 This is a great demo of the simplicity and power of the DragonBoard 410c that would interest younger programmers.
@@ -43,4 +43,4 @@ In this project, the DragonBoard 410c is combined with a Mezzanine Kit to create
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

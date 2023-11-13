@@ -2,14 +2,13 @@
 title: AI Facial Recognition WiFi Lock
 description: Using facial recognition to unlock a deadbolt through Netduino WiFi.
 images:
-  - facial-recognition-lock.png
+  - ./_images/facial-recognition-lock.png
 categories:
   - Ultra96
-slug: projects/facial-recognition-lock/
-layout: ../../layouts/Project.astro
+slug: facial-recognition-lock/
 ---
-# AI Facial Recognition WiFi Lock
 
+# AI Facial Recognition WiFi Lock
 
 Using facial recognition to unlock a deadbolt through Netduino WiFi.
 
@@ -20,7 +19,6 @@ Using facial recognition to unlock a deadbolt through Netduino WiFi.
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Computer Vision, Facial Recognition
 - **Board(s) used:** [Ultra96](/product/ultra96/)
-
 
 ## Introduction
 
@@ -41,6 +39,4 @@ For the first part of the guide, we used Android to open the lock via WiFi. If y
 - Peter Ma: [Hackster.io](https://www.hackster.io/Nyceane)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-
-***
+---

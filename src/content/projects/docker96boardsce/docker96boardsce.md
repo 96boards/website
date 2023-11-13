@@ -5,14 +5,14 @@ description: Docker is “an open source project to pack, ship and run any
   Enterprise space, and docker.com lists its use cases as Continuous
   integration, DevOps, Big Data and Infrastructure Optimization.
 images:
-  - Docker_FrontPage.jpg
-  - Docker_Video_OpenHours.png
-image: ../../assets/images/projects/docker96-thumb.png
+  - ./_images/Docker_FrontPage.jpg
+  - ./_images/Docker_Video_OpenHours.png
+# image: ../../assets/images/projects/docker96-thumb.png
 image_name: docker96-thumb.png
 image_thumb: docker96-thumb.png
-slug: projects/Docker96BoardsCE/
-layout: ../../layouts/Project.astro
+slug: docker96boardsce/
 ---
+
 # Docker on AArch64 96Boards Consumer Edition
 
 Docker is “an open source project to pack, ship and run any application as a lightweight container.” It’s a very interesting tool from the Enterprise space, and docker.com lists its usecases as:
@@ -46,5 +46,4 @@ Docker is “an open source project to pack, ship and run any application as a l
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

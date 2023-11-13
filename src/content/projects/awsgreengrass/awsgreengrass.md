@@ -6,15 +6,15 @@ description: >-
 
   Support for AWS Greengrass on the DragonBoard 410c is designed to allow local AWS Lambda execution on gateways and devices, and help enhance the performance and cost effectiveness of many IoT applications by bringing the power of AWS to the edge.
 images:
-  - green-grass-thumb.png
-image: ../../assets/images/projects/green-grass-thumb.png
+  - ./_images/green-grass-thumb.png
+# image: ../../assets/images/projects/green-grass-thumb.png
 image_name: green-grass-thumb.png
 image_thumb: green-grass-thumb.png
 categories:
   - dragonboard410c
-slug: projects/AWSGreengrass/
-layout: ../../layouts/Project.astro
+slug: awsgreengrass/
 ---
+
 # AWS Greengrass
 
 This project shows how to get Amazon Web Services (AWS) Greengrass Core up and running on a DragonBoard™ 410c development board by Arrow Electronics.
@@ -66,4 +66,4 @@ Follow the detailed AWS Greengrass Setup Instructions, which covers the followin
 
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

@@ -1,24 +1,24 @@
 ---
 title: Bengala IoT (Walking stick)
 images:
-  - bengala-iot-thumb.png
-  - visual2.png
-  - diagram1.png
-  - diagram2.png
-  - diagram3.png
-  - IDE.png
-  - pinout.png
-  - schematics.png
-  - team.png
-  - visual1.png
-image: ../../assets/images/projects/bengala-iot-thumb.png
+  - ./_images/bengala-iot-thumb.png
+  - ./_images/visual2.png
+  - ./_images/diagram1.png
+  - ./_images/diagram2.png
+  - ./_images/diagram3.png
+  - ./_images/IDE.png
+  - ./_images/pinout.png
+  - ./_images/schematics.png
+  - ./_images/team.png
+  - ./_images/visual1.png
+# image: ../../assets/images/projects/bengala-iot-thumb.png
 image_name: bengala-iot-thumb.png
 image_thumb: bengala-iot-thumb.png
 categories:
   - Robotics
-slug: projects/bengala-iot/
-layout: ../../layouts/Project.astro
+slug: bengala-iot/
 ---
+
 # Bengala IoT (Walking stick)
 
 According to IBGE, 6.2% of the population has some kind of physical disability. This project aims to serve the public by assisting these folks, more specifically the visually impaired.
@@ -55,4 +55,4 @@ While instructions might be made available in other formats at a later time, the
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - < Links to any additional Social media >
 
-***
+---

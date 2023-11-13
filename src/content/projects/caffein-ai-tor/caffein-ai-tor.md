@@ -3,14 +3,14 @@ title: Caffein-AI-tor
 description: Double deep learning CNNs with face and motion recognition, feeding
   predictive machine learning, to bring you the optimal caffein kick.
 images:
-  - caffein-ai-tor.png
+  - ./_images/caffein-ai-tor.png
 categories:
   - Ultra96
   - Heathcare
   - Maker
-slug: projects/Caffein-AI-tor/
-layout: ../../layouts/Project.astro
+slug: caffein-ai-tor/
 ---
+
 # Caffein-AI-Tor
 
 Double deep learning CNNs with face and motion recognition, feeding predictive machine learning, to bring you the optimal caffein kick.
@@ -22,7 +22,6 @@ Double deep learning CNNs with face and motion recognition, feeding predictive m
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Deep Learning, Neural Networks, Computer Vision, Robotic Interfacing
 - **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
-
 
 ## Resources
 
@@ -39,5 +38,4 @@ Double deep learning CNNs with face and motion recognition, feeding predictive m
 
 - [GitHub](https://github.com/dnhkng/Caffein-AI-tor)
 
-
-***
+---

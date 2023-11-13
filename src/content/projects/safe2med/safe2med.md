@@ -1,16 +1,15 @@
 ---
 title: Safe2Med
 images:
-  - BlocosAppDiagrama-1.png
-  - diagram.png
-  - output1.png
-  - output2.png
-  - SaudeCerta.png
-  - sponsor.png
-  - visual1.png
-  - visual2.png
-slug: projects/safe2med/
-layout: ../../layouts/Project.astro
+  - ./_images/BlocosAppDiagrama-1.png
+  - ./_images/diagram.png
+  - ./_images/output1.png
+  - ./_images/output2.png
+  - ./_images/SaudeCerta.png
+  - ./_images/sponsor.png
+  - ./_images/visual1.png
+  - ./_images/visual2.png
+slug: safe2med/
 ---
 
 # Safe2Med
@@ -43,4 +42,4 @@ While instructions might be made available in other formats at a later time, the
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - < Links to any additional Social media >
 
-***
+---

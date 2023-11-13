@@ -7,10 +7,10 @@ description: This project is designed to use the DragonBoard™ 410c from Arrow
   triggering a relay connected to the DragonBoard 410c. The system is also
   designed to turn on the fan when the proximity near the fan is clear.
 images:
-  - UltraSonicFan_FrontPage.png
-slug: projects/UltraSonicFan/
-layout: ../../layouts/Project.astro
+  - ./_images/UltraSonicFan_FrontPage.png
+slug: ultrasonicfan/
 ---
+
 # Ultrasonic Fan Control
 
 This project is designed to use the DragonBoard™ 410c from Arrow Electronics with a HS-100 ultrasonic module to detect the distance a person is from a fan to
@@ -39,5 +39,4 @@ project uses the available resources to try to reduce such accidents.
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

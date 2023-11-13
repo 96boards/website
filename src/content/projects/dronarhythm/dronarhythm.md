@@ -4,8 +4,8 @@ description: DronaRhythm is an audio control system designed to allow drones to
   be virtually always-on, and respond to their environment in real-time without
   needing specific user input.
 images:
-  - DronaRhythm_FrontPage.png
-image: ../../assets/images/projects/dronarhythm-thumb.png
+  - ./_images/DronaRhythm_FrontPage.png
+# image: ../../assets/images/projects/dronarhythm-thumb.png
 image_name: dronarhythm-thumb.png
 image_thumb: dronarhythm-thumb.png
 categories:
@@ -13,9 +13,9 @@ categories:
   - Robotics
   - Drone
   - IoT
-slug: projects/DronaRhythm/
-layout: ../../layouts/Project.astro
+slug: dronarhythm/
 ---
+
 # DronaRhythm
 
 DronaRhythm is an audio control system designed to allow drones to be virtually always-on, and respond to their environment in real-time without needing specific user input.
@@ -44,4 +44,4 @@ The desired result is to have drones that can perform certain actions in respons
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

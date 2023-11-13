@@ -4,16 +4,16 @@ description: This project aims to provide the ability to bring Alexa to a Linux
   device including embedded systems like the DragonBoard™ 410c from Arrow
   Electronics.
 images:
-  - AmazonAlexa_FrontPage.png
+  - ./_images/AmazonAlexa_FrontPage.png
 categories:
   - dragonboard410c
   - Alexa
-image: ../../assets/images/projects/alexavd-thumb.png
+# image: ../../assets/images/projects/AmazonAlexa_FrontPage.png
 image_name: alexavd-thumb.png
 image_thumb: alexavd-thumb.png
-slug: projects/AmazonAlexaVirtualDevice/
-layout: ../../layouts/Project.astro
+slug: amazonalexavirtualdevice/
 ---
+
 # Amazon Alexa Virtual Device
 
 This project aims to provide the ability to bring Alexa to a Linux device including embedded systems like the DragonBoard™ 410c from Arrow Electronics. The
@@ -37,12 +37,12 @@ binary release is packed into an Ubuntu Core Snap package.
 ### Build / Assembly Instructions
 
 1. You need to create your own Alexa Device on the Amazon developer portal. Instructions available on GitHub to create your own device and security profile.
-Add http://alexa.local:3000/authresponse to the Allowed Return URLs and http://alexa.local:3000 to the Allowed Origins.
+   Add http://alexa.local:3000/authresponse to the Allowed Return URLs and http://alexa.local:3000 to the Allowed Origins.
 2. Connect an audio device: a microphone and speakers to your device. It could be a USB headset for example.
 3. Install the PulseAudio snap: `sudo snap install --devmode pulseaudio`
 4. Install the Alexa snap from the store: `sudo snap install --channel beta alexa`
 5. Open http://alexa.local:3000 in a web browser on a local device or a device on the same network. Note: the app provides an mDNS advertisement of the local
-domain alexa.local. This is very helpful for using with monitor less devices.
+   domain alexa.local. This is very helpful for using with monitor less devices.
 6. Fill in the device credentials that were created during step 1, click 'log in'. Note: the voice detection threshold is a float value for adjusting voice detection. The smaller the value, the easier it is to trigger. You may need to adjust it for your mic and voice.
 7. Fill in your Amazon credentials
 
@@ -55,5 +55,4 @@ when it hears the 'Alexa' keyword and starts recording. Enjoy Alexa without the 
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

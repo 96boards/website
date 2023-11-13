@@ -5,15 +5,15 @@ description: This project attempts to build Android TV on the DragonBoard™ 410
   Framework, and this was done by running the built-in reference LiveTv App and
   Sample Input Apps.
 images:
-  - AndroidTVDB410c_FrontPage.png
-image: ../../assets/images/projects/androidtv-thumb.png
+  - ./_images/AndroidTVDB410c_FrontPage.png
+# image: ../../assets/images/projects/androidtv-thumb.png
 image_name: androidtv-thumb.png
 image_thumb: androidtv-thumb.png
 categories:
   - dragonboard410c
-slug: projects/AndroidTV/
-layout: ../../layouts/Project.astro
+slug: androidtv/
 ---
+
 # Android TV - DragonBoard 410c
 
 This project attempts to build Android TV on the DragonBoard™ 410c from Arrow Electronics. The main objective was to utilize the Android TV Input Framework, and this was done by running the built-in reference LiveTv App and Sample Input Apps.
@@ -59,7 +59,7 @@ Fine tuning the performance and built-in tuner implementation.
 
 #### Add the below two lines in the device/qcom/msm8916_64.mk file
 
-```shell
+`````shell
 PRODUCT_CHARACTERISTICS := tv
 $(call inherit-product,
 device/google/atv/products/atv_base.mk)
@@ -74,7 +74,7 @@ make LiveTv
 cp -r out/target/product/generic_arm64/system//priv-app/LiveTv/ /system/priv-app/
 rm -rf out/target
 cd –
-```
+`````
 
 #### Build the Sample Input Apk and its dependencies (Exo player) using the Gradle scripts:
 
@@ -118,4 +118,4 @@ cd -
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

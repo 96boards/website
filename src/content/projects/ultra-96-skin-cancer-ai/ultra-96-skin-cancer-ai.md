@@ -2,12 +2,12 @@
 title: Ultra96 Skin Cancer AI
 description: Using Ultra96 and NCS to detect and classify skin cancer.
 images:
-  - skincancerai.png
+  - ./_images/skincancerai.png
 categories:
   - Ultra96
-slug: projects/ultra-96-skin-cancer-ai/
-layout: ../../layouts/Project.astro
+slug: ultra-96-skin-cancer-ai/
 ---
+
 # Ultra96 Skin Cancer AI
 
 Using Ultra96 and NCS to detect and classify skin cancer.
@@ -19,7 +19,6 @@ Using Ultra96 and NCS to detect and classify skin cancer.
 - **Type of Project:** Demonstrations (Projects showcasing individual features of a 96Boards product)
 - **Project Category:** Deep Learning, Neural Networks, Computer Vision
 - **Board(s) used:** [Ultra96](https://www.96boards.org/product/ultra96/)
-
 
 ## Resources
 
@@ -38,5 +37,4 @@ Using Ultra96 and NCS to detect and classify skin cancer.
 - [Download Python Code](https://hackster.io/code_files/215118/download)
 - [GitHub](https://github.com/markjay4k/ncsdk-aarch64)
 
-
-***
+---

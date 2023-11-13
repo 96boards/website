@@ -4,19 +4,19 @@ description: This project aims to implement a smart grid system using
   DragonBoard™ 410c, Bluetooth® Low Energy Beacons and Current Accumulators. It
   is designed to eliminate a complex and large network infrastructure setup.
 images:
-  - SmartGrid_FrontPage.png
-  - SmartGrid_Image1.png
-  - SmartGrid_Image2.png
-  - SmartGrid_Image3.png
-  - SmartGrid_Image4.png
+  - ./_images/SmartGrid_FrontPage.png
+  - ./_images/SmartGrid_Image1.png
+  - ./_images/SmartGrid_Image2.png
+  - ./_images/SmartGrid_Image3.png
+  - ./_images/SmartGrid_Image4.png
 categories:
   - dragonboard410c
-slug: projects/SmartGridEnergyMeter/
-layout: ../../layouts/Project.astro
+slug: smartgridenergymeter/
 ---
+
 # Smart Grids and Energy Meters
 
-This project aims to implement a smart grid system using DragonBoard™ 410c, _Bluetooth_® wireless technology Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.
+This project aims to implement a smart grid system using DragonBoard™ 410c, *Bluetooth*® wireless technology Low Energy Beacons and Current Accumulators. It is designed to eliminate a complex and large network infrastructure setup.
 
 ### Objective
 
@@ -42,5 +42,4 @@ Smart Grids and Energy Meters was created during an IoT Hackathon challenge orga
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

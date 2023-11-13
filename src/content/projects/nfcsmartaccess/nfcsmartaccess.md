@@ -9,12 +9,12 @@ description: Many large office buildings allow entry by door access control
   control, and a two-color LED light is used to indicate if an NFC card passes
   through the access control system.
 images:
-  - NFC_FrontPage.png
+  - ./_images/NFC_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/NFCSmartAccess/
-layout: ../../layouts/Project.astro
+slug: nfcsmartaccess/
 ---
+
 # NFC Smart Access Control System
 
 Many large office buildings allow entry by door access control systems using RFID modules. An NFC module is typically more expensive than simply an RFID module, but also usually features more powerful functions and security features. This project is designed to simulate a door access control system based on an NFC module. An NFC module is loaded on the DragonBoard™ 410c from Arrow Electronics using libnfc open-source code to provide access control, and a two-color LED light is used to indicate if an NFC card passes through the access control system.
@@ -46,5 +46,4 @@ Years ago, I loaded an RFID module onto a system via a serial port. However, the
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

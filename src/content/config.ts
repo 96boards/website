@@ -5,8 +5,8 @@ const pages = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
-      title: z.string(),
-      description: z.string(),
+      title: z.string().optional(),
+      description: z.string().optional(),
       sticky_tab_bar: z.boolean().optional(),
       hero: z
         .object({
@@ -36,47 +36,49 @@ const pages = defineCollection({
         .array(
           z.object({
             row: reference("rows"),
-            sections: z.array(
-              z
-                .object({
-                  component: reference("sections"),
-                  blocks: z
-                    .array(
-                      z.object({
-                        description: z.string(),
+            sections: z
+              .array(
+                z
+                  .object({
+                    component: reference("sections"),
+                    blocks: z
+                      .array(
+                        z.object({
+                          description: z.string(),
+                          title: z.string(),
+                          image: image(),
+                          buttons: z.array(
+                            z.object({
+                              url: z.string(),
+                              style: z.string(),
+                              title: z.string(),
+                            })
+                          ),
+                        })
+                      )
+                      .optional(),
+                    feature_block_content: z
+                      .object({
+                        text: z.string(),
                         title: z.string(),
-                        image: image(),
-                        buttons: z.array(
-                          z.object({
-                            url: z.string(),
-                            style: z.string(),
-                            title: z.string(),
-                          })
-                        ),
+                        buttons: z
+                          .array(
+                            z.object({
+                              url: z.string(),
+                              style: z.string(),
+                              title: z.string(),
+                            })
+                          )
+                          .optional(),
+                        position: z.enum(["left", "right"]),
+                        image_content_path: image(),
+                        type: z.string(),
                       })
-                    )
-                    .optional(),
-                  feature_block_content: z
-                    .object({
-                      text: z.string(),
-                      title: z.string(),
-                      buttons: z
-                        .array(
-                          z.object({
-                            url: z.string(),
-                            style: z.string(),
-                            title: z.string(),
-                          })
-                        )
-                        .optional(),
-                      position: z.enum(["left", "right"]),
-                      image_content_path: image(),
-                      type: z.string(),
-                    })
-                    .optional(),
-                })
-                .catchall(z.any())
-            ),
+                      .optional(),
+                  })
+                  .catchall(z.any())
+              )
+              .optional(),
           })
         )
         .optional(),
@@ -111,6 +113,38 @@ const blog = defineCollection({
       title: z.string(),
       date: z.date(),
       image: image().optional(),
+    }),
+});
+
+const projects = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string().optional(),
+      description: z.string().optional(),
+      images: z.array(image()).optional(),
+      image: image().optional(),
+      // image_name: z.string().optional(),
+      // image_thumb: z.string().optional(),
+      categories: z.array(z.string()).optional(),
+      sticky_tab_bar: z.boolean().optional(),
+      flow: z
+        .array(
+          z.object({
+            row: reference("rows").optional(),
+            style: z.string().optional(),
+            sections: z
+              .array(
+                z
+                  .object({
+                    component: reference("sections"),
+                  })
+                  .catchall(z.any())
+              )
+              .optional(),
+          })
+        )
+        .optional(),
     }),
 });
 
@@ -234,4 +268,5 @@ export const collections = {
   rows,
   sections,
   data,
+  projects,
 };

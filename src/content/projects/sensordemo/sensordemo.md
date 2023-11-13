@@ -4,12 +4,12 @@ description: With the simple connection of some wires and sensors, you’ll be
   able to control virtual 3D objects by having them change and move at your
   command in real-time.
 images:
-  - SensorDemo_FrontPage.png
+  - ./_images/SensorDemo_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/SensorDemo/
-layout: ../../layouts/Project.astro
+slug: sensordemo/
 ---
+
 # Sensor Demo
 
 With the simple connection of some wires and sensors, you’ll be able to control virtual 3D objects by having them change and move at your command in real-time.
@@ -35,5 +35,4 @@ With the simple connection of some wires and sensors, you’ll be able to contro
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

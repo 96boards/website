@@ -4,13 +4,13 @@ description: For some releases now,  KVM – the virtualization infrastructure
   that turns the Linux kernel into an hypervisor- has been available in the
   HiKey from 96Boards.
 images:
-  - KVM_FrontPage.png
-slug: projects/KVM/
-layout: ../../layouts/Project.astro
+  - ./_images/KVM_FrontPage.png
+slug: kvm/
 ---
+
 # Running KVM on HiKey
 
-For some releases now,  KVM – the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the HiKey from 96Boards.
+For some releases now, KVM – the virtualization infrastructure that turns the Linux kernel into an hypervisor- has been available in the HiKey from 96Boards.
 
 ## Project Details
 
@@ -30,5 +30,4 @@ For some releases now,  KVM – the virtualization infrastructure that turns the
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

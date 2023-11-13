@@ -6,12 +6,12 @@ description: This project aims to implement vision assistive technology using
   navigate through the given area by providing feedback about the user’s
   surroundings.
 images:
-  - Vision4all_FrontPage.png
+  - ./_images/Vision4all_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/Vision4all/
-layout: ../../layouts/Project.astro
+slug: vision4all/
 ---
+
 # Vision 4all
 
 This project aims to implement vision assistive technology using DragonBoard™ 410c, OpenCV and Android applications. It uses computer vision and image processing to identify possible obstacles and helps the user navigate through the given area by providing feedback about the user’s surroundings.
@@ -43,5 +43,4 @@ The goal of the project was to provide more autonomy to the visually impaired in
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

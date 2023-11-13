@@ -4,12 +4,12 @@ description: Set up a network connection between your DragonBoard™ 410c and yo
   development computer enabling installation of applications, file copying, or
   changing settings.
 images:
-  - WindowsIoT_FrontPage.png
+  - ./_images/WindowsIoT_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/WinIoTNetwork/
-layout: ../../layouts/Project.astro
+slug: winiotnetwork/
 ---
+
 # Windows IoT – Connecting to Network
 
 Set up a network connection between your DragonBoard™ 410c and your development computer enabling installation of applications, file copying, or changing settings.
@@ -33,4 +33,4 @@ Set up a network connection between your DragonBoard™ 410c and your developmen
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

@@ -5,12 +5,12 @@ description: Build a passive information display to quickly view information as
   your wall and always points to the location of the person being followed on
   Foursquare.
 images:
-  - MagicClock_FrontPage.png
+  - ./_images/MagicClock_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/MagicCheck-inClock/
-layout: ../../layouts/Project.astro
+slug: magiccheck-inclock/
 ---
+
 # Magic Check-in Clock
 
 Build a passive information display to quickly view information as opposed to opening an app on your phone or computer. The Magic Clock hangs on your wall and always points to the location of the person being followed on Foursquare.
@@ -34,5 +34,4 @@ Build a passive information display to quickly view information as opposed to op
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

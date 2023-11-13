@@ -1,14 +1,13 @@
 ---
 title: Dragon Wally
 images:
-  - visual1.png
-image: ../../assets/images/projects/dragonwally-thumb.png
+  - ./_images/visual1.png
+# image: ../../assets/images/projects/dragonwally-thumb.png
 image_name: dragonwally-thumb.png
 image_thumb: dragonwally-thumb.png
 categories:
   - dragonboard410c
-slug: projects/dragon-wally/
-layout: ../../layouts/Project.astro
+slug: dragon-wally/
 ---
 
 # Dragon Wally
@@ -36,4 +35,4 @@ While instructions might be made available in other formats at a later time, the
 
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

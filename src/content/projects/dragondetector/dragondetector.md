@@ -6,20 +6,20 @@ description: The DragonBoard™410c detects motion via an IR sensor and takes a
   point and notifies an operator on their phone, and the knight on the top of
   the detector flashes his eyes red.
 images:
-  - DragonDetector_FrontPage.png
-  - DragonDetector_Image1.png
-  - DragonDetector_Image2.png
-  - DragonDetector_Image3.png
-  - DragonDetector_Video_Demo.png
-  - DragonDetector_Video_OpenHours.png
-image: ../../assets/images/projects/dragondetector-thumb.png
+  - ./_images/DragonDetector_FrontPage.png
+  - ./_images/DragonDetector_Image1.png
+  - ./_images/DragonDetector_Image2.png
+  - ./_images/DragonDetector_Image3.png
+  - ./_images/DragonDetector_Video_Demo.png
+  - ./_images/DragonDetector_Video_OpenHours.png
+# image: ../../assets/images/projects/dragondetector-thumb.png
 image_name: dragondetector-thumb.png
 image_thumb: dragondetector-thumb.png
 categories:
   - dragonboard410c
-slug: projects/DragonDetector/
-layout: ../../layouts/Project.astro
+slug: dragondetector/
 ---
+
 # Dragon Detector
 
 The DragonBoard™410c detects motion via an IR sensor and takes a photo via the webcam. The image is processed by OpenCV to see if there are any dragons. If a dragon is detected then the program calls an IFTTT maker API end point and notifies an operator on their phone, and the knight on the top of the detector flashes his eyes red.
@@ -35,9 +35,11 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 ## Videos
 
 ### DragonDetector demo
+
 {% include image.html path="_projects/view/dragondetector/images/DragonDetector_Video_Demo.png" alt="DragonDetector demo" url="https://youtu.be/9NGkGyWplvQ" class="img-fluid"%}
 
 ### Andy Clark demos the DragonDetector on OpenHours ep. #30
+
 {% include image.html path="_projects/view/dragondetector/images/DragonDetector_Video_OpenHours.png" alt="Andy Clark demos the DragonDetector on OpenHours ep.30" url="https://youtu.be/njMXCPLmPT4?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk" class="img-fluid" %}
 
 ## Resources
@@ -52,5 +54,4 @@ The DragonBoard™410c detects motion via an IR sensor and takes a photo via the
 - Andy Clark: [Twitter](https://twitter.com/Workshopshed)
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

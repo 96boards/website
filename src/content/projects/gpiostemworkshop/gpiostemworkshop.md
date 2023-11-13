@@ -4,15 +4,15 @@ description: How can students aspire to jobs they don’t know exist? That is th
   challenge that the UK charity STEM Team East is trying to solve for students
   living in the east of England.
 images:
-  - GPIOWorkshop_FrontPage.png
-  - GPIOWorkshop_Image1.png
-  - GPIOWorkshop_Image2.png
-  - GPIOWorkshop_Image3.png
+  - ./_images/GPIOWorkshop_FrontPage.png
+  - ./_images/GPIOWorkshop_Image1.png
+  - ./_images/GPIOWorkshop_Image2.png
+  - ./_images/GPIOWorkshop_Image3.png
 categories:
   - dragonboard410c
-slug: projects/GPIOSTEMWorkshop/
-layout: ../../layouts/Project.astro
+slug: gpiostemworkshop/
 ---
+
 # GPIO STEM Workshop
 
 How can students aspire to jobs they don’t know exist? That is the challenge that the UK charity STEM Team East is trying to solve for students living in the east of England.
@@ -21,7 +21,7 @@ This workshop is designed to encourage students to take STEM related subjects in
 
 The workshop starts off with some simple examples written in Python of how to use the some of the Linker kit modules. To help the student’s ramp up quickly, a wrapper library is used around the very good libsoc GPIO library. The wrapper library is called libsoc_zero which is a Python library designed to reduce the amount of ‘boilerplate’ code required to get up and running with some of the Linker kit modules.
 
-Once the students have the basics understood, they are challenged to come up with ideas for how they can combine modules to solve a problem in a new way. The range of imaginative ideas the students come up with are impressive.  One such project by two students prompts users to enter a phrase, which is then ‘displayed’ on the LED using Morse code. The message can be repeated by the user pressing the touch sensor, and has two speed settings by using the tilt sensor.
+Once the students have the basics understood, they are challenged to come up with ideas for how they can combine modules to solve a problem in a new way. The range of imaginative ideas the students come up with are impressive. One such project by two students prompts users to enter a phrase, which is then ‘displayed’ on the LED using Morse code. The message can be repeated by the user pressing the touch sensor, and has two speed settings by using the tilt sensor.
 
 ## Project Details
 
@@ -43,5 +43,4 @@ Once the students have the basics understood, they are challenged to come up wit
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

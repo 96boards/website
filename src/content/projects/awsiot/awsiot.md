@@ -5,22 +5,22 @@ description: >-
   Amazon Web Services IoT.
 
   DragonPulse app utilizes NodeJS, MQTT protocol, and Amazon AWS services, to interact with Ubuntu shell commands.  Extract performance and summary statistics to remotely monitor top CPU consumption, memory usage, network traffic, and disk space.
-image: ../../assets/images/projects/AWSIoT_FrontPage.png
+# image: ../../assets/images/projects/AWSIoT_FrontPage.png
 image_name: AWSIoT_FrontPage.png
 image_thumb: awsiot-thumb.png
 images:
-  - awsiot-thumb.png
-  - AWSIoT_FrontPage.png
+  - ./_images/awsiot-thumb.png
+  - ./_images/AWSIoT_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/AWSIoT/
-layout: ../../layouts/Project.astro
+slug: awsiot/
 ---
+
 # Amazon Web Services (AWS) IoT
 
 The DragonBoard™ 410c AWS IoT SDK kit includes applications that utilize the Amazon Web Services IoT.
 
-DragonPulse app utilizes NodeJS, MQTT protocol, and Amazon AWS services, to interact with Ubuntu shell commands.  Extract performance and summary statistics to remotely monitor top CPU consumption, memory usage, network traffic, and disk space.
+DragonPulse app utilizes NodeJS, MQTT protocol, and Amazon AWS services, to interact with Ubuntu shell commands. Extract performance and summary statistics to remotely monitor top CPU consumption, memory usage, network traffic, and disk space.
 
 DragonConnect app connects and communicates with the DragonBoard. Written in C and integrating a 2-way MQTT channel through Amazon AWS, DragonConnect reads/writes to Ubuntu file handlers allowing control of on-board IO.
 
@@ -47,4 +47,4 @@ DragonConnect app connects and communicates with the DragonBoard. Written in C a
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

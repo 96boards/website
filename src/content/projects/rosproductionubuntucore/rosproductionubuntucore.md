@@ -5,14 +5,14 @@ description: |-
   Robot Operating System (ROS) prototype on classic Ubuntu to creating a
   flashable Ubuntu Core image with the prototype preinstalled. Along the way
   you'll learn about ROS, snaps, and Ubuntu Core.
-image: ../../assets/images/projects/ros-thumb.png
+# image: ../../assets/images/projects/ros-thumb.png
 image_name: ros-thumb.png
 images:
-  - ros-thumb.png
+  - ./_images/ros-thumb.png
 image_thumb: ros-thumb.png
-slug: projects/ROSProductionUbuntuCore/
-layout: ../../layouts/Project.astro
+slug: rosproductionubuntucore/
 ---
+
 # ROS prototype to production on Ubuntu Core
 
 Follow along in this five-part series as Kyle takes you from creating a
@@ -40,6 +40,7 @@ you'll learn about ROS, snaps, and Ubuntu Core.
 ## Resources
 
 Blog series (if you don't want to follow the videos):
+
 - [From ROS prototype to production on Ubuntu Core [1/5]](https://insights.ubuntu.com/2017/04/06/from-ros-prototype-to-production-on-ubuntu-core/)
 - [ROS production: our prototype [2/5]](https://insights.ubuntu.com/2017/04/13/ros-production-our-prototype/)
 - [ROS production: our prototype as a snap [3/5]](https://insights.ubuntu.com/2017/04/21/ros-production-our-prototype-as-a-snap-35/)
@@ -50,4 +51,4 @@ Blog series (if you don't want to follow the videos):
 
 - Kyle Fazzari: [Blog](https://kyrofa.com) &#124; [Twitter](https://twitter.com/rainveil) &#124; [Facebook]()https://www.facebook.com/fazzari.kyle &#124; [Linkedin](https://www.linkedin.com/in/kylefazzari/) &#124; [G+](https://plus.google.com/+KyleFazzari) &#124; [YouTube](https://youtube.com/c/KyleFazzari)
 
-***
+---

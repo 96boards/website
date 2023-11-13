@@ -6,12 +6,12 @@ description: Using the DragonBoard™ 410c from Arrow Electronics, this project 
   to scan and determine if there is fire in the captured images to achieve flame
   recognition.
 images:
-  - FlameRecognition_FrontPage.png
+  - ./_images/FlameRecognition_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/FlameRecognition/
-layout: ../../layouts/Project.astro
+slug: flamerecognition/
 ---
+
 # Flame Recognition
 
 Using the DragonBoard™ 410c from Arrow Electronics, this project is designed to acquire images of the surrounding environment using the camera, store the
@@ -41,5 +41,4 @@ recognition of small area fire achieve accuracy of 90%.
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

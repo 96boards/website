@@ -6,15 +6,15 @@ description: This project is using the DragonBoard 410c running Windows 10 IoT
   schedules for your lights. Examples include turning lights on or off at a
   designated time or turning on lights prior to walking into the house.
 images:
-  - AutoLuminosity_FrontPage.png
-image: ../../assets/images/projects/al-thumb.png
+  - ./_images/AutoLuminosity_FrontPage.png
+# image: ../../assets/images/projects/al-thumb.png
 image_name: al-thumb.png
 image_thumb: al-thumb.png
 categories:
   - dragonboard410c
-slug: projects/AutoLuminosity/
-layout: ../../layouts/Project.astro
+slug: autoluminosity/
 ---
+
 # Auto Luminosity
 
 This project is using the DragonBoard 410c running Windows 10 IoT Core, an Android app to handle managing different lights and rooms, and LIFX smart light bulbs. The goal of this project is to make it easier to set up schedules for your lights. Examples include turning lights on or off at a designated time or turning on lights prior to walking into the house.
@@ -38,5 +38,4 @@ This project is using the DragonBoard 410c running Windows 10 IoT Core, an Andro
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

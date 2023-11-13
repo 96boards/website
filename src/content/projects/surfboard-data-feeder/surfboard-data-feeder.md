@@ -1,9 +1,8 @@
 ---
 title: Surfboard Data Feeder
 images:
-  - diagram.png
-slug: projects/surfboard-data-feeder/
-layout: ../../layouts/Project.astro
+  - ./_images/diagram.png
+slug: surfboard-data-feeder/
 ---
 
 # Surfboard Data Feeder
@@ -42,4 +41,4 @@ While instructions might be made available in other formats at a later time, the
 - 96Boards: [URL](https://www.96boards.org/) | [Twitter](https://twitter.com/96boards) | [Facebook](https://www.facebook.com/96Boards) | [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 - < Links to any additional Social media >
 
-***
+---

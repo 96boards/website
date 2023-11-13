@@ -4,15 +4,15 @@ description: Do you want to know if a device went haywire or working just fine?
   In this project, a simple AI system is used to show that with current
   metering, you can find it, and be informed when something goes wrong.
 images:
-  - CurrentTracking_FrontPage.png
-image: ../../assets/images/projects/currenttracking-thumb.png
+  - ./_images/CurrentTracking_FrontPage.png
+# image: ../../assets/images/projects/currenttracking-thumb.png
 image_name: currenttracking-thumb.png
 image_thumb: currenttracking-thumb.png
 categories:
   - dragonboard410c
-slug: projects/CurrentTracking/
-layout: ../../layouts/Project.astro
+slug: currenttracking/
 ---
+
 # Electrical Current Tracking
 
 Do you want to know if a device went haywire or working just fine? In this project, a simple AI system is used to show that with current metering, you can find it, and be informed when something goes wrong.
@@ -36,5 +36,4 @@ Do you want to know if a device went haywire or working just fine? In this proje
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

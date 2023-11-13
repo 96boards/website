@@ -2,8 +2,6 @@
 import { getEntry } from "astro:content";
 const page = await getEntry("pages", "404");
 
-console.log(page);
-
 const { Content } = await page!.render();
 ---
 

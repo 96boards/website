@@ -7,16 +7,16 @@ description: This project is designed to read out images under the home
   image using two buttons, and implement image processing options such as
   adjusting contrast, brightness and corrosion expansion.
 images:
-  - DigitalAlbum_FrontPage1.png
-  - DigitalAlbum_FrontPage2.png
-image: ../../assets/images/projects/digitalalbum-thumb.png
+  - ./_images/DigitalAlbum_FrontPage1.png
+  - ./_images/DigitalAlbum_FrontPage2.png
+# image: ../../assets/images/projects/digitalalbum-thumb.png
 image_name: digitalalbum-thumb.png
 image_thumb: digitalalbum-thumb.png
 categories:
   - dragonboard410c
-slug: projects/DigitalAlbum/
-layout: ../../layouts/Project.astro
+slug: digitalalbum/
 ---
+
 # Digital Album
 
 This project is designed to read out images under the home partition and display them in a certain sequence to realize different transitions like left-right image switchover, fade in-out, louver etc. The project is also designed to allow the user to select the previous or next image using two buttons, and implement image processing options such as adjusting contrast, brightness and corrosion expansion.
@@ -42,5 +42,4 @@ We have an ever-expanding digital library, and thanks to advancements in data st
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

@@ -8,10 +8,10 @@ description: The project is designed to adopt laser imaging in combination with
   DragonBoard 410c software was developed on QT and uses Open CV for image
   processing. The acquired pseudo-3D model can be viewed in MeshLab.
 images:
-  - LaserImaging_FrontPage.png
-slug: projects/LaserImagingandModeling/
-layout: ../../layouts/Project.astro
+  - ./_images/LaserImaging_FrontPage.png
+slug: laserimagingandmodeling/
 ---
+
 # Laser Imaging and Modeling
 
 The project is designed to adopt laser imaging in combination with software developed on the DragonBoard™ 410c from Arrow Electronics to scan any designated object and get its pseudo-3D model. The laser imaging unit is composed of line laser and camera. The specific structure calibrated by software can be used for high precision modeling of the object. The DragonBoard 410c software was developed on QT and uses Open CV for image processing. The acquired pseudo-3D model can be viewed in MeshLab.
@@ -44,11 +44,10 @@ Pseudo-3D modeling and similar techniques are used to simulate the appearance of
 - Place an object in the camera bellows and the guide rail in front of the bellows.
 - Install the software and open it. Set the darkness of camber bellows and click to start scanning.
 - Slowly move the movable table of head and laser-scanned blue lines will appear on screen. When the blue lines seem sufficiently dense, click to stop scanning
-and the 3D file will be generated.
+  and the 3D file will be generated.
 
 ### Social Media Links
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

@@ -1,0 +1,16 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import type { CollectionEntry } from "astro:content";
+
+const { project } = Astro.props;
+
+const { Content } = await project.render();
+---
+
+<BaseLayout title={project.data.title} description={project.data.description}>
+  <div
+    class="prose-xl md-content max-w-5xl first-line:text-left p-4 md:p-12 blog-content mx-auto"
+  >
+    <Content />
+  </div>
+</BaseLayout>

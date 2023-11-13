@@ -6,12 +6,12 @@ description: This project is for the Smart Cities Hackathon. The main point of
   the security camera to locate all the cars in the parking lot and count them
   for the process and see the spots.
 images:
-  - SuperParking_FrontPage.png
-  - SuperParking_Video_Demo.png
-  - SuperParking_Video_Presentation.png
-slug: projects/SuperParking/
-layout: ../../layouts/Project.astro
+  - ./_images/SuperParking_FrontPage.png
+  - ./_images/SuperParking_Video_Demo.png
+  - ./_images/SuperParking_Video_Presentation.png
+slug: superparking/
 ---
+
 # Super Parking
 
 This project is for the Smart Cities Hackathon. The main point of doing this project learn how to use the DragonBoard. The project objetive is to let the user know if in a parking lot are free parking spots, this using the security camera to locate all the cars in the parking lot and count them for the process and see the spots.
@@ -27,9 +27,11 @@ This project is for the Smart Cities Hackathon. The main point of doing this pro
 ## Videos
 
 ### Super Parking Video Submission
+
 {% include image.html path="_projects/view/superparking/images/SuperParking_Video_Demo.png" alt="Super Parking Video Submission" url="https://youtu.be/fIBGxbARHo4?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid"%}
 
 ### Super Parking Presentation and Demo
+
 {% include image.html path="_projects/view/superparking/images/SuperParking_Video_Presentation.png" alt="Super Parking Presentation and Demo" url="https://youtu.be/rbnxT9H8iHY?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid"%}
 
 ## Resources
@@ -42,5 +44,4 @@ This project is for the Smart Cities Hackathon. The main point of doing this pro
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

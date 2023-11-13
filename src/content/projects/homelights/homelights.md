@@ -4,10 +4,10 @@ description: This project is for the Smart Cities Hackathon. The project
   objetive was to find a way to control your lights at home and develop a cheap
   and practical kit to make your house smarter.
 images:
-  - HomeLights_FrontPage.png
-slug: projects/HomeLights/
-layout: ../../layouts/Project.astro
+  - ./_images/HomeLights_FrontPage.png
+slug: homelights/
 ---
+
 # Home Lights
 
 This project is for the Smart Cities Hackathon. The project objetive was to find a way to control your lights at home and develop a cheap and practical kit to make your house smarter.
@@ -30,5 +30,4 @@ This project is for the Smart Cities Hackathon. The project objetive was to find
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

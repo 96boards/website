@@ -5,14 +5,14 @@ description: This project is designed to connect lighting systems from different
   management and control. The goal is to reduce energy consumption and manage
   lighting efficiency.
 images:
-  - SmartLight_FrontPage.png
-  - SmartLight_Image1.png
-  - SmartLight_Image2.png
+  - ./_images/SmartLight_FrontPage.png
+  - ./_images/SmartLight_Image1.png
+  - ./_images/SmartLight_Image2.png
 categories:
   - dragonboard410c
-slug: projects/SmartLighting/
-layout: ../../layouts/Project.astro
+slug: smartlighting/
 ---
+
 # Smart Lighting Management System
 
 This project is designed to connect lighting systems from different areas, such as home, office building and hotel, to the cloud for centralized management and control. The goal is to reduce energy consumption and manage lighting efficiency.
@@ -41,5 +41,4 @@ The available lighting management systems generally adopt wired connections such
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

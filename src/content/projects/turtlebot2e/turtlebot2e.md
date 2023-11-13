@@ -4,12 +4,12 @@ description: The TurtleBot 2e is a new revision of the TurtleBot that uses a
   single board computer (SBC) such as the DragonBoard™ 410c. It also features
   the Orbbec Astra camera.
 images:
-  - Turtlebot2e_FrontPage.png
+  - ./_images/Turtlebot2e_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/TurtleBot2e/
-layout: ../../layouts/Project.astro
+slug: turtleBot2e/
 ---
+
 # TurtleBot 2e
 
 The TurtleBot 2e is a new revision of the TurtleBot that uses a single board computer (SBC) such as the DragonBoard™ 410c. It also features the Orbbec Astra camera.
@@ -39,4 +39,4 @@ The DragonBoard 410c offers two advantages over the prior TurtleBot netbook vers
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-***
+---

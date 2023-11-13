@@ -1,0 +1,23 @@
+---
+import type { Code, Debug } from "astro:components";
+import { getCollection } from "astro:content";
+import ProjectLayout from "../../layouts/ProjectLayout.astro";
+// import "../styles/global.scss";
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((project) => {
+    return {
+      params: {
+        project: project.slug || undefined,
+      },
+      props: {
+        project,
+      },
+    };
+  });
+}
+
+const { project } = Astro.props;
+---
+
+<ProjectLayout project={project} />

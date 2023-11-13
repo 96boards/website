@@ -5,18 +5,18 @@ description: Smart Cities need to focus on the interconnection of services for a
   population will be living in the cities and necessities like feeding will be a
   complexity.
 images:
-  - ComuniCibo_FrontPage.png
-  - ComuniCibo_Video_Demo.png
-  - ComuniCibo_Video_Pesentation2.png
-  - ComuniCibo_Video_Presentation1.png
-image: ../../assets/images/projects/comunicibo-thumb.png
+  - ./_images/ComuniCibo_FrontPage.png
+  - ./_images/ComuniCibo_Video_Demo.png
+  - ./_images/ComuniCibo_Video_Pesentation2.png
+  - ./_images/ComuniCibo_Video_Presentation1.png
+# image: ../../assets/images/projects/comunicibo-thumb.png
 image_name: comunicibo-thumb.png
 image_thumb: comunicibo-thumb.png
 categories:
   - dragonboard410c
-slug: projects/ComuniCibo/
-layout: ../../layouts/Project.astro
+slug: comunicibo/
 ---
+
 # ComuniCibo
 
 Smart Cities need to focus on the interconnection of services for a better quality of life. It has been estimated that in 2050 more than 60% of population will be living in the cities and necessities like feeding will be a complexity.
@@ -36,12 +36,15 @@ Making the refrigerator-concept for a public space helps people confront the rea
 ## Videos
 
 ### ComuniCibo Video Submission
+
 {% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Demo.png" alt="ComuniCibo Video Submission" url="https://youtu.be/vI0JuVktJ9o?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### ComuniCibo Presentation and Demo Part 1/2
+
 {% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Presentation1.png" alt="ComuniCibo Presentation and Demo Part 1/2" url="https://youtu.be/n4Q2v6P-RZE?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ### ComuniCibo Presentation and Demo Part 2/2
+
 {% include image.html path="_projects/view/comunicibo/images/ComuniCibo_Video_Pesentation2.png" alt="ComuniCibo Presentation and Demo Part 2/2" url="https://youtu.be/gQLgcpw-ADQ?list=PL-NF6S9MM_W2ss20r7NZiyZBiz85zHuw5" class="img-fluid" %}
 
 ## Resources
@@ -54,5 +57,4 @@ Making the refrigerator-concept for a public space helps people confront the rea
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

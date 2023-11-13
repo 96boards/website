@@ -4,15 +4,15 @@ description: This project shows how to read values from a Bluetooth Low Energy
   device CSR1010 using DragonBoard™ 410c from Arrow Electronics. In this
   example, the CSR1010 is emulating a heart rate sensor.
 images:
-  - EmulatingBLEHeartRateSensor_FrontPage.png
-image: ../../assets/images/projects/ehrs-thumb.png
+  - ./_images/EmulatingBLEHeartRateSensor_FrontPage.png
+# image: ../../assets/images/projects/ehrs-thumb.png
 image_name: ehrs-thumb.png
 image_thumb: ehrs-thumb.png
 categories:
   - dragonboard410c
-slug: projects/EmulatorBLEHeartRateSensor/
-layout: ../../layouts/Project.astro
+slug: emulatorbleheartratesensor/
 ---
+
 # Emulating BLE Heart Rate Sensor
 
 This project shows how to read values from a _Bluetooth_ ® wireless technology Low Energy device CSR1010 using DragonBoard™ 410c from Arrow Electronics. In this example, the CSR1010
@@ -41,5 +41,4 @@ sensor.
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---

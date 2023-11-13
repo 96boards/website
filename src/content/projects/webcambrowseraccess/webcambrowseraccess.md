@@ -7,12 +7,12 @@ description: Based on the DragonBoard™ 410c development board from Arrow
   development board. Such images should then be accessible by other devices
   through network.
 images:
-  - BrowserWebcamAccess_FrontPage.png
+  - ./_images/BrowserWebcamAccess_FrontPage.png
 categories:
   - dragonboard410c
-slug: projects/WebcamBrowserAccess/
-layout: ../../layouts/Project.astro
+slug: webcambrowseraccess/
 ---
+
 # Webcam Access on a Web Browser
 
 Based on the DragonBoard™ 410c development board from Arrow Electronics, a demo for image acquisition and web release was developed using the Python language. It is designed to demonstrate how to acquire images by camera and upload them to a web server deployed on DragonBoard 410c development board. Such images should then be accessible by other devices through network.
@@ -38,5 +38,4 @@ This project is a simplified example of photo shooting and uploading, and can be
 
 - 96Boards: [URL](https://www.96boards.org/) &#124; [Twitter](https://twitter.com/96boards) &#124; [Facebook](https://www.facebook.com/96Boards) &#124; [Linkedin](https://www.linkedin.com/company/{{site.linkedin_username}}/)
 
-
-***
+---
