@@ -1,6 +1,5 @@
 ---
 title: Shiratech Camera 1 Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 shortname: shiratech-cam1
 archived: false
@@ -38,7 +37,7 @@ product_sidebar_sections:
         link: /documentation/mezzanine/shiratech-cam1/files/shiratech-cam1-user-manual.pdf
       - title: Shiratech Solutions
         link: https://www.shiratech-solutions.com/products/cam1/
-slug: product/shiratech-cam1/
+slug: shiratech-cam1
 ---
 The new Shiratech Camera 1 Mezzanine is a 96Boards compatible add on board with OnSemiconductor 13Mp imaging sensor and AP1302 ISP for evaluation and prototyping.
 

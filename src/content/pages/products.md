@@ -26,7 +26,3 @@ flow:
     specification: all
     sections: []
 ---
-
-{% include product-filters.html %}
-{% include compare-boards-modal.html %}
-{% include display-products.html specification="all" %}

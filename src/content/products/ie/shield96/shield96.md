@@ -1,6 +1,5 @@
 ---
 title: Shield96 - Arrow
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 product_specification: ie
 product: true
@@ -65,7 +64,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/shield96/
+slug: shield96
 ---
 
 # Advanced Hardware Security for IoT at Scale
@@ -79,7 +78,7 @@ The **Shield96 Trusted Platform** comes preloaded with the EmSPARK Security Suit
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 | Component | Description |
@@ -94,8 +93,8 @@ The **Shield96 Trusted Platform** comes preloaded with the EmSPARK Security Suit
 | SD Card | One micro SD Card Slot |
 | NOR Flash | Micron MT25QU01GBBB,128 Mb<br>Clock frequency 166MHz (MAX) for all protocols in STR |
 
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

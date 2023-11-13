@@ -1,6 +1,5 @@
 ---
 title: STM32 Sensor Mezzanine Board
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: stm32
 product_specification: mezzanine
@@ -59,7 +58,7 @@ attributes:
   - name: OS Support
     values:
       - title: Zephyr RTOS support
-slug: product/stm32/
+slug: stm32
 ---
 The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A). This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement, pressure and
 sound. It can be plugged directly on top of 96Boards consumer edition (CE) products and supports multiple expansion possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software

@@ -1,6 +1,5 @@
 ---
 title: Arrow NextBio
-layout: ../../../../layouts/ProductLayout.astro
 archived: false
 shortname: arrow-nextbio
 dateAdded: 2018-06-26T09:00:00.000Z
@@ -73,7 +72,7 @@ attributes:
         value: 14 mm
   - name: Weight
     value: 18g
-slug: product/arrow-nextbio/
+slug: arrow-nextbio
 ---
 
 The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module is a fingerprint development shield for the DragonBoard 410c development board by Arrow Electronics. The mezzanine includes a software Development Kit (SDK), which can be downloaded from NEXT Biometrics Support Portal https://support.nextbiometrics.com/. The NB-2023-S2 shield board has been paired with the DragonBoard 410c development board and used as a one solid piece of hardware (However, other 96Boards may be compatible). Such a set allows to the user easy evaluation of the connected NB-2023-S2-VAIX fingerprint sensor module at ARM Cortex-A53 64-bit powered platform.

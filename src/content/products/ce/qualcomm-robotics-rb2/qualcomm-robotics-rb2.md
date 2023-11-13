@@ -1,6 +1,5 @@
 ---
 title: Qualcomm® Robotics RB2 Development Platform
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: qualcomm-robotics-rb2
 archived: false
@@ -155,7 +154,7 @@ attributes:
       and outer diameter 4.75mm
   - name: OS Support
     values: LE build from Linaro LU build from Thundercomm
-slug: product/qualcomm-robotics-rb2/
+slug: qualcomm-robotics-rb2
 ---
 The Qualcomm® Robotics RB2 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping.
 
@@ -167,7 +166,7 @@ There are three options to purchase the Qualcomm® Robotics RB2 Development Kit.
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                                                                 |
 |:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -190,5 +189,5 @@ There are three options to purchase the Qualcomm® Robotics RB2 Development Kit.
 |  Power Source        | 12V adapter with a DC plug <br> Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                         |
 |  OS Support          | LE build from Linaro, <br> LU build from Thundercomm                                                                                          |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
-{:.hidden_rows}
-</div>
+
+

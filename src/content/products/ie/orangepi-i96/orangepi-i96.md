@@ -1,6 +1,5 @@
 ---
 title: Orange Pi i96
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 product_specification: ie
 shortname: orangepi-i96
@@ -81,7 +80,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/orangepi-i96/
+slug: orangepi-i96
 ---
 The Orange Pi is an open-source single-board computer built upon the 96Boards IoT Edition specification. It can run Android 4.4, Ubuntu, Debian, Raspbian and more... Based on the RDA8810PL ARM Cortex-A5 32bit SoC, the Orange Pi i96 is for anyone who wants to create using fun open source technology while working with a simple, fun and intuitive platform.
 
@@ -102,7 +101,7 @@ Think of the things you can build...
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -119,8 +118,8 @@ Think of the things you can build...
 |  Power Source        | USB OTG input can supply power / Battery input can supply power(Optional)                        |
 |  OS Support          | Android, Ubuntu, Debian, etc.                                                                    |
 |  Size                | 60mm × 30mm                                                                                      |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

@@ -1,0 +1,145 @@
+---
+import NavTabWrapper from "@/components/nav/NavTabWrapper.astro";
+import BaseLayout from "./BaseLayout.astro";
+import type { CollectionEntry } from "astro:content";
+
+import Banner from "../assets/images/breadcrumb-banner.png";
+import { getImage } from "astro:assets";
+const optimizedBanner = await getImage({ src: Banner });
+type Props = {
+  product: CollectionEntry<"products">;
+};
+
+const { product } = Astro.props;
+
+const { Content } = await product.render();
+
+console.log(product.data.product_buy_links);
+---
+
+<BaseLayout title={product.data.title} description={product.data.description}>
+  <section
+    style={`background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${optimizedBanner.src}')`}
+    class="py-12"
+  >
+    <div class="max-w-6xl mx-auto px-5 md:px-16 text-white">
+      <h1 class="text-3xl font-bold">
+        {product.data.title}
+      </h1>
+      <ul class="flex gap-3 items-center mt-2">
+        <li class="after:content-['»'] after:ml-3 text-accent">
+          <a href="/" class="hover:underline">Home</a>
+        </li>
+        <li class="after:content-['»'] after:ml-3 text-accent">
+          <a href="/products/" class="hover:underline">Products</a>
+        </li>
+        <li>{product.data.title}</li>
+      </ul>
+    </div>
+  </section>
+  <NavTabWrapper>
+    <ul
+      class="max-w-6xl mx-auto px-5 md:px-16 list-none flex flex-col items-center justify-start w-full lg:flex-row no-underline gap-5 text-md p-0 m-0 h-auto lg:h-16"
+    >
+      {
+        product.data.sticky_tab_bar?.map((item) => (
+          <li>
+            <a
+              href={item.url}
+              class:list={[
+                item.active
+                  ? "bg-neutral-600 text-white px-6 py-4 rounded-lg"
+                  : "",
+                ,
+                "no-underline",
+              ]}
+            >
+              {item.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </NavTabWrapper>
+  <main
+    class="px-5 md:px-16 prose-lg max-w-6xl mx-auto my-12 prose-p:mb-6 break-words
+  prose-headings:text-3xl prose-headings:font-bold prose-headings:my-8
+  prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+  prose-li:list-item prose-ol:list-decimal prose-ul:list-disc
+  prose-li:prose-li:list-[circle] prose-ul:ml-8 prose-ol:ml-8 prose-ul:mb-4
+  prose-th:bg-accent prose-th:text-white prose-tr:first:rounded-t-md prose-th:text-lg prose-th:p-4
+  prose-a:prose-th:text-white prose-tr:border prose-td:p-4"
+  >
+    <div class="flex flex-col-reverse sm:flex-row">
+      <article class="basis-2/3">
+        <Content />
+      </article>
+      <aside class="basis-1/3 ml-8 mt-8">
+        <table class="w-full text-lg rounded-t-md">
+          <tr>
+            <th>Buy Now</th>
+          </tr>
+          {
+            product.data.product_buy_links?.map((link) => (
+              <tr>
+                <td>
+                  <a href={link["link-url" as keyof typeof link]}>
+                    {link["link-title" as keyof typeof link]}
+                  </a>
+                </td>
+              </tr>
+            ))
+          }
+          {
+            product.data.product_sidebar_sections?.map((section) => (
+              <>
+                <tr>
+                  <th>{section.title}</th>
+                </tr>
+                {section.items.map((item) => (
+                  <tr>
+                    <td>
+                      {item.link ? (
+                        <a href={item.link}>{item.title}</a>
+                      ) : (
+                        item.title
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </>
+            ))
+          }
+        </table>
+      </aside>
+    </div>
+    <div class="flex gap-5 items-start mt-6">
+      {
+        product.data.product_bottom_section?.map((section) => (
+          <table class="grow">
+            <tr>
+              <th>
+                {section.url ? (
+                  <a href={section.url}>{section.title}</a>
+                ) : (
+                  section.title
+                )}
+              </th>
+            </tr>
+            {section.items.map((item) => (
+              <tr>
+                <td>
+                  {item.link ? (
+                    <a href={item.link}>{item.title}</a>
+                  ) : (
+                    item.title
+                  )}
+                </td>
+              </tr>
+            ))}
+          </table>
+        ))
+      }
+    </div>
+  </main>
+</BaseLayout>

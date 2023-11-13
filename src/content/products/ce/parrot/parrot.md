@@ -1,6 +1,5 @@
 ---
 title: Parrot
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: parrot
 archived: false
@@ -103,7 +102,7 @@ attributes:
         value: 85mm
       - title: length
         value: 100mm
-slug: product/parrot/
+slug: parrot
 ---
 
 Hichips-Parrot Board (Allwinner SoC-Only 3-Mic Far-Field Dev Kit) for Amazon AVS

@@ -1,6 +1,5 @@
 ---
 title: Shiratech Bosch Sensor Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 shortname: shiratech-bosch
 archived: false
@@ -53,7 +52,7 @@ attributes:
       with a wide selection of sensors for any IoT/drone application. All
       sensors are activated from the 1.8v voltage and controlled by spi-0, i2c-0
       and 6 gpio lines (gpio a,b,c,d,e,f).
-slug: product/shiratech-bosch/
+slug: shiratech-bosch
 ---
 The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes.
 

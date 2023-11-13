@@ -1,6 +1,5 @@
 ---
 title: Bubblegum-96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: bubblegum-96
@@ -132,7 +131,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/bubblegum-96/
+slug: bubblegum-96
 ---
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support
 and ensure the best possible performance. The board is based on the Actions s900 SoC and delivers high-quality graphics, Wi-Fi, and Bluetooth connectivity, all
@@ -147,7 +146,7 @@ TrustZone® security support.
 
 ## Additional Information
 
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                          |
 |:---------------------|:-------------------------------------------------------------------------------------------------------|
@@ -170,8 +169,8 @@ TrustZone® security support.
 |  Power Source        | 6.5V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm  |
 |  OS Support          | Android 5.1 / Debian Linux / Ubuntu Core / Android Remix                                          |
 |  Size                | 85mm x 54mm                                                                     |
-{:.hidden_rows}
-</div>
+
+
 
 Please visit the [Bubblegum-96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/bubblegum-96/hardware-docs/HardwareManual_Bubblegum96_S900_V1.1.pdf) for more information
 

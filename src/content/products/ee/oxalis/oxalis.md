@@ -1,6 +1,5 @@
 ---
 title: Oxalis
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: oxalis
 archived: false
@@ -104,7 +103,7 @@ attributes:
         value: 120mm
       - title: length
         value: 160mm
-slug: product/oxalis/
+slug: oxalis
 ---
 
 Near ubiquitous broadband Internet connecting a multitude of distributed embedded systems in the IoT world, introduces new challenges in data transfer performance and communication security.

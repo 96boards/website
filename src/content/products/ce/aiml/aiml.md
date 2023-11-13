@@ -1,6 +1,5 @@
 ---
-title: AI-ML
-layout: ../../../../layouts/ProductLayout.astro
+title: AI_ML
 description: The i.MX 8X SoC is a feature-rich system containing a quad-core,
   64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of
   decoding 4K video at 30 fps. These features alone make the AI_ML board highly
@@ -29,7 +28,7 @@ product_images:
   - ./_images/aiml-sd-front.jpg
   - ./_images/aiml-sd-back.jpg
 sticky_tab_bar:
-  - title: i.MX 8X
+  - title: AI_ML
     url: /product/aiml/
     active: true
   - title: Getting Started
@@ -43,7 +42,7 @@ sticky_tab_bar:
     tab_position: 4
     tab_align_right: true
 product_buy_links:
-  - link-title: i.MX 8X
+  - link-title: AI_ML
     link-url: https://www.arrow.com/en/products/i.imx8x-ai-ml/arrow-development-tools
     from: Arrow Electronics
     type: board
@@ -100,16 +99,14 @@ attributes:
   - name: Ethernet
     value: 10/100/1000 Mbit/s
   - name: Wireless
-    value:
-      Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless
+    value: Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless
       connectivity
   - name: USB
     value: "Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed"
   - name: Display
     value: HDMI Output <br> Dual MIPI DSI Support
   - name: Expansion Interface
-    value:
-      "96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed
+    value: "96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed
       Header"
   - name: LED
     value: 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x
@@ -130,7 +127,7 @@ attributes:
         value: 85mm
       - title: length
         value: 100mm
-slug: product/aiml/
+slug: aiml
 ---
 
 ## Do More with i.MX 8X SoC
@@ -141,30 +138,28 @@ The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 
 
 The i.MX 8X SoC boasts a wide range of security features for ensuring device integrity, making it ideal for applications involving sensitive data (such as IoT). Security features built into the i.MX 8X include HAB, SRTC, TrustZone, SHA_256, 3DES, ARC4, MD5, Tamper and Inline Enc Engine.Connect to the World with the AI_ML When it comes to connectivity, the AI_ML demonstrates its dominance in the single-board computer market. One low-speed 40pin and one high-speed 60-pin connector allow the AI_ML to be easily expanded and connected to external circuitry and systems.
 
----
+***
 
 ## Additional Information
 
-<div style="overflow-x:scroll;" markdown="1">
 
-| Component           | Description                                                                                                            |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------- |
-| SoC                 | NXP i.MX 8X                                                                                                            |
-| CPU                 | Arm A35 Quad-Core 64-bit @ 1.2 GHz <br> Cortex-M4F Core                                                                |
-| DSP                 | Tensilica HiFi 4 DSP Core                                                                                              |
-| GPU                 | 1x 3D GPU Vivante® GC7000Lite                                                                                          |
-| RAM                 | 2 GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron                                                                      |
-| Storage             | microSD Socket <br> 512 Mb NOR FLASH on Octal-SPI <br> 256 Kb EEPROM                                                   |
-| Ethernet Port       | 10/100/1000 Mbit/s                                                                                                     |
-| Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity                                 |
-| USB                 | Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed                                                     |
-| Display             | HDMI Output <br> Dual MIPI DSI Support                                                                                 |
-| Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |
-| LED                 | 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay |
-| Button              | Power and Reset                                                                                                        |
-| Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
-| Size                | 100 x 85 mm                                                                                                            |
 
-{:.hidden_rows}
+|   Component          |   Description |
+|:---------------------|:--------------|
+|  SoC                 | NXP i.MX 8X |
+|  CPU                 | Arm A35 Quad-Core 64-bit @ 1.2 GHz <br> Cortex-M4F Core  |
+|  DSP                 | Tensilica HiFi 4 DSP Core |
+|  GPU                 | 1x 3D GPU Vivante® GC7000Lite |
+|  RAM                 | 2 GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron |
+|  Storage             | microSD Socket <br> 512 Mb NOR FLASH on Octal-SPI <br> 256 Kb EEPROM |
+|  Ethernet Port       | 10/100/1000 Mbit/s |
+|  Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity |
+|  USB                 | Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed |
+|  Display             | HDMI Output <br> Dual MIPI DSI Support |
+|  Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |
+|  LED                 | 4x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled <br> 1x red power supply okay |
+|  Button              | Power and Reset                                                                                                        |
+|  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
+|  Size                | 100 x 85 mm                                                                                                            |
 
-</div>
+

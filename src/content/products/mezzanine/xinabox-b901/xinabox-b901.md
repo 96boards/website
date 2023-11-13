@@ -1,6 +1,5 @@
 ---
 title: X in a Box B901
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 display_product: true
@@ -46,7 +45,7 @@ attributes:
   - name: Other
     value: '" Provides an interface to support the xCHIP ecosystem, adding support
       for many additional sensors etc. "'
-slug: product/xinabox-b901/
+slug: xinabox-b901
 ---
 
 This ☒CHIP is designed to interface with the 96 Boards, such as the DragonBoard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc.

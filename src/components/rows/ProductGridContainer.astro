@@ -1,10 +1,15 @@
 ---
-import { object } from "astro/zod";
+import type { GetImageResult } from "astro";
 import ProductGrid from "../products/ProductGrid";
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { GetImageResult } from "astro";
+
 const { specification } = Astro.props;
-const products = await getCollection("products");
+const products = (await getCollection("products")).filter((product) => {
+  return (
+    specification === "all" ||
+    product.data.product_specification.slug === specification
+  );
+});
 const specifications = await getCollection("specifications");
 const specificationThumbnails = specifications.reduce(
   (obj, spec) => ({
@@ -13,8 +18,6 @@ const specificationThumbnails = specifications.reduce(
   }),
   {}
 ) as Record<CollectionEntry<"specifications">["slug"], GetImageResult>;
-
-console.log(specificationThumbnails);
 ---
 
 <section class="container mx-auto">

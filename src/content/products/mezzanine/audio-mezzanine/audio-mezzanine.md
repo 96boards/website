@@ -1,6 +1,5 @@
 ---
 title: Audio Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: audio-mezzanine
@@ -70,7 +69,7 @@ attributes:
       Mic Digital Mic Speaker connection
   - name: Other
     value: '" USB to UART conversion for access to the 410c system console "'
-slug: product/audio-mezzanine/
+slug: audio-mezzanine
 ---
 This Audio Mezzanine Board is a Grove interfaced expansion board intended for 96boards.
 You can connect 96Boards to various modules easily with this expansion board. There are six

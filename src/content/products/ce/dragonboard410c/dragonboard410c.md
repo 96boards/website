@@ -1,6 +1,5 @@
 ---
 title: DragonBoard™ 410c
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: dragonboard410c
 archived: false
@@ -203,7 +202,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/dragonboard410c/
+slug: dragonboard410c
 ---
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced
 processing power, Wi-Fi, _Bluetooth_ ® wireless technology connectivity, and GPS, all packed into a board the size of a credit card.

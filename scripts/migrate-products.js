@@ -5,14 +5,12 @@ import { stringify } from "yaml";
 
 const in_directory = "../old_website/_product_copy";
 
-async function updateFrontMatter(filepath) {
+async function updateFrontMatter(filepath, slug) {
   const { data: frontMatter, content } = matter(await readFile(filepath));
 
   // replace permalink with slug
   const { permalink, product_images, layout } = frontMatter;
   if (permalink) {
-    let slug = permalink;
-    if (slug.charAt(0) == "/") slug = slug.substr(1);
     frontMatter.slug = slug;
     delete frontMatter["permalink"];
   }
@@ -31,14 +29,19 @@ async function updateFrontMatter(filepath) {
 
   // convert layout to relative path
   if (layout) {
-    if (layout === "product")
-      frontMatter.layout = "../../../../layouts/ProductLayout.astro";
-    if (layout === "product-ai")
-      frontMatter.layout = "../../../../layouts/AIProductLayout.astro";
+    delete frontMatter["layout"];
+    // if (layout === "product")
+    //   frontMatter.layout = "../../../../layouts/ProductLayout.astro";
+    // if (layout === "product-ai")
+    //   frontMatter.layout = "../../../../layouts/AIProductLayout.astro";
   }
 
+  const migratedContent = content
+    .replace(`<div style="overflow-x:scroll;" markdown="1">`, "")
+    .replace("</div>", "")
+    .replace("{:.hidden_rows}", "");
   // overwrite file
-  const newContent = `---\n${stringify(frontMatter)}---\n${content}`;
+  const newContent = `---\n${stringify(frontMatter)}---\n${migratedContent}`;
   await writeFile(filepath, newContent);
   console.log(`- [x] ${filepath}`);
 }
@@ -59,14 +62,15 @@ async function main() {
       }
       markdownFilenames.forEach(async (file) => {
         const path = `${basePath}/${file}`;
-        updateFrontMatter(path);
 
         if (file === "README.md") {
+          await updateFrontMatter(path, product);
           await rename(path, path.replace("README.md", `${product}.md`));
-          await unlink(path);
+          try {
+            await unlink(path);
+          } catch {}
         }
         if (file === "ai.md") {
-          await rename(path, path.replace("ai.md", `${product}-ai.md`));
           await unlink(path);
         }
       });

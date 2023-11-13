@@ -1,6 +1,5 @@
 ---
 title: Avenger96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 display_product: true
 product_specification: ce
@@ -141,7 +140,7 @@ attributes:
   - name: Other
     value: |
       PMIC - STPMIC1A
-slug: product/avenger96/
+slug: avenger96
 ---
 The STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things. Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays an MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE.
 
@@ -149,7 +148,7 @@ The STM32MP157 is a highly integrated multi-market system-on-chip designed to en
 
 ## Additional Information
 
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -170,5 +169,5 @@ The STM32MP157 is a highly integrated multi-market system-on-chip designed to en
 |  Power Source        | DC Power Jack: 1.65mm Center Positive <br> 8v - 18v upto 24W                                                           |
 |  OS Support          | U-Boot version: U-Boot 2018.09-stm32mp-r2 <br> Linux version: Linux stm32mp1-av96 4.14.48 <br> Linux Distribution: ST OpenSTLinux Weston (A Yocto Project Based Distro) |
 |  Size                | 100 x 85 mm                                                                                                            |
-{:.hidden_rows}
-</div>
+
+

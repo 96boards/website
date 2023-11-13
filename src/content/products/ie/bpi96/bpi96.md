@@ -1,6 +1,5 @@
 ---
 title: BPi96 NB-IoT
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: bpi96
 archived: false
@@ -71,7 +70,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/bpi96/
+slug: bpi96
 ---
 The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board.
 
@@ -83,7 +82,7 @@ The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                   |
 |:---------------------|:--------------------------------|
@@ -96,8 +95,8 @@ The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana
 |  Expansion Interface | 40pin GPIO                      |
 |  Digital Out Voltage | 1.8v                            |
 |  OS Support          | LiteOS                          |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

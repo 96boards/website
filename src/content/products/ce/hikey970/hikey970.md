@@ -1,6 +1,5 @@
 ---
 title: HiKey970
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: hikey970
@@ -154,7 +153,7 @@ attributes:
         value: 105.26mm
   - name: Environmental
     value: "Operating Temp: 0°C to +70°C RoHS and Reach compliant"
-slug: product/hikey970/
+slug: hikey970
 ---
 HiKey970 is the first 96Boards from the HiKey family to join the 96Boards.ai initiative. The HiKey970 features the HiSilicon Kirin 970 SoC with HiAI Architecture and a dedicated NPU. Stacked with LPDDR4X 1866MHz memory, 64GB UFS 2.1 storage, _Bluetooth_ ® wireless technology, WIFI, GPS among many other features, this board is made for developers, looking maximize accelerated AI capabilities not found in most other development platforms!
 

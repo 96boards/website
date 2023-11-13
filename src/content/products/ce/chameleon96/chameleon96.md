@@ -1,6 +1,5 @@
 ---
 title: Chameleon96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: chameleon96
@@ -139,14 +138,14 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/chameleon96/
+slug: chameleon96
 ---
 The Chameleon96™ board, based on Intel® Cyclone V SoC FPGA, is a member of 96Boards community and complies with Consumer Edition board specifications. The Chameleon96™ meets all 96Boards mandatory specifications (excluding MIPI DSI Interface) and most optional specifications. The Chameleon96™ features Dual ARM Cortex-A9 processors and a set of peripherals allow direct interfacing and connecting to MMC/SD card, HDMI out, USB, WLAN and BLE. Two expansion connectors provide additional interfaces to cameras, USB, UARTs, I2C, SPI and GPIOs. The use of the FPGA fabric for the video processing allows development of custom IPU/GPU/VPU solutions on this platform.
 
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
@@ -167,6 +166,6 @@ The Chameleon96™ board, based on Intel® Cyclone V SoC FPGA, is a member of 96
 |  OS Support          | Linux OS, terminal base (BuildRoot build)<br>Linux OS, GUI (Yocto build)                         |
 |  Size                | Dimensions: 54mm x 85mm meeting 96Boards™ Consumer Edition standard dimensions specifications    |
 
-{:.hidden_rows}
 
-</div>
+
+

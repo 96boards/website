@@ -1,6 +1,5 @@
 ---
 title: Qualcomm® Robotics RB5 Development Platform
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: qualcomm-robotics-rb5
 archived: false
@@ -197,7 +196,7 @@ attributes:
   - name: Sensors
     value: |
       Accelerometer + Gyro Sensor/ Proximity sensor
-slug: product/qualcomm-robotics-rb5/
+slug: qualcomm-robotics-rb5
 ---
 The Qualcomm® Robotics RB5 Development kit contains a robotics-focused development board and compliant with the 96Boards open hardware specification which supports a broad range of mezzanine-board expansions for rapid prototyping. 
 
@@ -213,7 +212,7 @@ Note: Intel® RealSense™ Depth Camera D435i is not included. It can be purchas
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description                                                                                                                                 |
 |:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -237,5 +236,5 @@ Note: Intel® RealSense™ Depth Camera D435i is not included. It can be purchas
 |  Power Source        | 12V@2.5A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                                     |
 |  OS Support          | Thundersoft LU, Linaro Linux builds with OpenEmbedded / Yocto Project                                                                                                                                            |
 |  Size                | 85mm by 54 mm meeting 96Boards™ Consumer Edition Standard form dimensions specifications                                                      |
-{:.hidden_rows}
-</div>
+
+

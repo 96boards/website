@@ -1,6 +1,5 @@
 ---
 title: Rock960 (Vamrs)
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: rock960
 archived: false
@@ -161,14 +160,14 @@ attributes:
         value: 55mm
       - title: length
         value: 85mm
-slug: product/rock960/
+slug: rock960
 ---
 The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency. This board comes packed with 4GB of RAM, 32GB of on board eMMC storage, USB 3.1 type C with DP, HDMI 2.0 with 4K output, 4 lane M.2 PCI-E 2.1, and so much more! All of this on the 96Boards Consumer Edition Standard form factor, a truely little beast.
 
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 | Component           | Description                              |
 | :------------------ | :--------------------------------------- |
@@ -192,6 +191,6 @@ The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
 | Size                | 85mm x 55mm                              |
 
-{:.hidden_rows}
 
-</div>
+
+

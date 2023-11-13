@@ -1,6 +1,5 @@
 ---
 title: MIPI Adapter Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: mipiadapter
@@ -92,7 +91,7 @@ attributes:
     value: '" Two CSI2 channels support(CSI0:4lane;CSI1:2lane) "'
   - name: Parent Board
     value: /product/dragonboard410c/
-slug: product/mipiadapter/
+slug: mipiadapter
 ---
 This MIPI adapter board is primarily designed for DragonBoard 410c, though it is hardware compatible with other Consumer Edition 96Boards. With this adapter, you can easily  integrate image sensors into your camera projects. This mezzanine is ideal for
 surveillance, video conference and even robots projects. It provides multiple interfaces, and gives you a wide range of choices for selecting different camera boards/modules.

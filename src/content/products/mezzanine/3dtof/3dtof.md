@@ -1,6 +1,5 @@
 ---
 title: Analog Devices 3D Time Of Flight Mezzanine Stack
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: 3dtof
 archived: false
@@ -52,7 +51,7 @@ product_sidebar_sections:
 product_buy_links:
   - link-title: Arrow
     link-url: https://www.arrow.com/en/products/ad-96tof1-ebz/analog-devices
-slug: product/3dtof/
+slug: 3dtof
 ---
 
 ## Analog Devices 3D Time Of Flight Mezzanine Stack

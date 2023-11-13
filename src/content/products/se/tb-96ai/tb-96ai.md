@@ -1,6 +1,5 @@
 ---
 title: TB-96AI
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: tb-96ai
@@ -186,7 +185,7 @@ attributes:
         value: 50mm
       - title: length
         value: 85mm
-slug: product/tb-96ai/
+slug: tb-96ai
 ---
 TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi Technology Co., Ltd. can form a complete development board or evaluation board; and the board customized by customers according to actual needs can directly form the industry application motherboard, which can meet industrial automation, UAV, image detection, face recognition, edge computing gateway, cluster server, Intelligent Quotient display, automatic driving, medicine. Application needs of market segments such as health care equipment, robots and intelligent retail.
 
@@ -205,7 +204,7 @@ The following features are quoted from RockChip. If you have any questions, plea
 - Rich open materials, 96Boards community
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -225,8 +224,8 @@ The following features are quoted from RockChip. If you have any questions, plea
 |  Power Source        | DC 5V                                              |
 |  OS Support          | Android8.1;Linux version: fedora 2.8, kernel 4.4|
 |  Size                | 50mm x 85 mm                                                                                                            |
-{:.hidden_rows}
-</div>
+
+
 
 ### Six-core High-performance AI Core Board
 

@@ -1,6 +1,5 @@
 ---
 title: DragonBoard™ 820c
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 shortname: dragonboard820c
@@ -144,7 +143,7 @@ attributes:
         value: 85mm
       - title: length
         value: 100mm
-slug: product/dragonboard820c/
+slug: dragonboard820c
 ---
 The DragonBoard 820c development board is based on the Qualcomm® Snapdragon™ 820E embedded
 platform with the custom 64-bit Qualcomm® Kryo™ quad-core CPU and is compliant with the 96Boards

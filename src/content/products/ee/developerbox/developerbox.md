@@ -1,6 +1,5 @@
 ---
 title: Developerbox (Socionext)
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: developerbox
 archived: false
@@ -106,7 +105,7 @@ attributes:
     values:
       - title: EDK2 (Firmware)
       - title: Debian
-slug: product/developerbox/
+slug: developerbox
 ---
 SynQuacer™ E-Series is a software development environment compliant with Linaro’s 96Boards open hardware specification. This has been built jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”.
 "SC2A11" is a multi-core chip with 24 cores of ARM® Cortex-A53. It is possible to construct a high integrated and low power consumption server system. It is so highly efficient chip that it supports from cloud computing to edge computing, which is the key to IoT era.
@@ -125,7 +124,7 @@ By providing this software development environment, we are accelerating the deve
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 |   Component          |   Description                                                                                    |
@@ -137,8 +136,8 @@ By providing this software development environment, we are accelerating the deve
 | LAN                  | 1ch 1Gbps                                                                                        |
 | PCIe I/F             | Two of 1 Lane per slot, one 16 Lanes slot: 1 for PCIe Graphics card, 1 for PCIe IO Extension, 2x USB3.0/2.0 + 2x SATA                                                                                                             |
 | Other                | 1 x UART via micro USB for console, 40pin LS Expansion Connector, RTC                            |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

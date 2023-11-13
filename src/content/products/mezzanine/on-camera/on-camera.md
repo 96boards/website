@@ -1,6 +1,5 @@
 ---
 title: On Camera Mezzanine
-layout: ../../../../layouts/ProductLayout.astro
 archived: false
 shortname: on-camera
 display_product: true
@@ -47,7 +46,7 @@ attributes:
       74.48° +/-3° Autofocus "'
   - name: Parent Board
     value: /product/dragonboard410c/
-slug: product/on-camera/
+slug: on-camera
 ---
 
 - Designed to work with Arrow DragonBoardTM 410c development platform and Android OS

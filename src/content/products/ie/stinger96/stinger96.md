@@ -1,6 +1,5 @@
 ---
 title: Stinger96 - Shiratech
-layout: ../../../../layouts/ProductLayout.astro
 display_product: true
 product_specification: ie
 product: true
@@ -68,7 +67,7 @@ attributes:
         value: 30mm
       - title: length
         value: 60mm
-slug: product/stinger96/
+slug: stinger96
 ---
 
 # Advanced Hardware Security for IoT at Scale
@@ -84,7 +83,7 @@ The board incorporates the following key elements:
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 | Component | Description |
@@ -96,8 +95,8 @@ The board incorporates the following key elements:
 | USB | 2.0 OTG USB A Connector |
 | Storage | SLC NAND FLASH – 1G x 8bit (8Gbit/1GB) <br> micro SD connector |
 
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

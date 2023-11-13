@@ -1,6 +1,5 @@
 ---
 title: Akebi96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: akebi96
 archived: false
@@ -79,14 +78,14 @@ attributes:
         value: 85mm
       - title: length
         value: 100mm
-slug: product/akebi96/
+slug: akebi96
 ---
 High-definition, high-performance, low-cost TV systems are realized with the latest 4K technology such as HDR processing. The board features the Socionext SC1408AJ1 with an integrated Dual Arm® Cortex®-A72 and Dual Cortex®-A53 processors and a high performance Mali™-T820MP3 GPU, making it capable of running any commercial set-top solution based on Linux or Android.
 
 ******
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 
 |   Component          |   Description                                                                                    |
@@ -102,8 +101,8 @@ High-definition, high-performance, low-cost TV systems are realized with the lat
 |  Expansion Interface | Linaro 96Boards Low Speed Expansion slot                                                         |
 |  Dimension           | Standard 160×120 mm 96Boards Enterprice Edition form factor                                      |
 |  Connectors          | One connector for Smart Card One connector for TSI                                               |
-{:.hidden_rows}
 
-</div>
+
+
 
 ***

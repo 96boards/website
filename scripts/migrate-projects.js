@@ -52,6 +52,10 @@ async function main() {
       if (file === "README.md") {
         await rename(path, path.replace("README.md", `${project}.md`));
       }
+
+      if (file === "ai.md") {
+        await unlink(`${path}/${file}`);
+      }
     });
   });
 }

@@ -1,6 +1,5 @@
 ---
 title: Link Sprite
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 shortname: linkspritesensorkit
 archived: false
@@ -56,7 +55,7 @@ attributes:
       Module [118101006] 1 × Tilt Module [118101004] 1 × Touch Sensor Module
       [118101007] 1 × Relay Module [118101008] 8 × 20cm Cables [118201001] 1 ×
       Plastic case "'
-slug: product/linkspritesensorkit/
+slug: linkspritesensorkit
 ---
 96Boards starter kit with Linker mezzanine card and loft modules. All the Linker kit modules can be plugged onto 96Boards through this card. This starter kit is a great way to get started with 96Boards, and it contains the components you need to make
 eight fun projects following step-by-step tutorials. Starting from the basics of electronics modules, to more complex projects, the kit will help you control the physical world with sensor and actuators and help you ramp up your progamming using

@@ -1,6 +1,5 @@
 ---
 title: Ultra96
-layout: ../../../../layouts/ProductLayout.astro
 product: true
 archived: false
 dateAdded: 2018-03-18T09:00:00.000Z
@@ -150,7 +149,7 @@ attributes:
         value: 54mm
       - title: length
         value: 85mm
-slug: product/ultra96/
+slug: ultra96
 ---
 The Ultra96-V2 updates and refreshes the Ultra96 product that was released in 2018. Like Ultra96, the Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification. Ultra96-V2 will be available in more countries around the world as it has been designed with a certified radio module from Microchip. Additionally, all components are updated to allow industrial temperature grade options. Additional power control and monitoring will be possible with the included Infineon Pmics.
 

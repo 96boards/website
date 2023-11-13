@@ -1,6 +1,5 @@
 ---
 title: 96Boards SoM Carrier Board
-layout: ../../../../layouts/ProductLayout.astro
 description: >-
   The 96Boards SoM Carrier Board is an interface debugging and testing carrier
   board. This 96Board is compliant with accordance to “96Boards Compute SoM
@@ -107,13 +106,13 @@ attributes:
         value: 120mm
       - title: length
         value: 160mm
-slug: product/96boards-som-carrier-board/
+slug: 96boards-som-carrier-board
 ---
 The 96Boards SoM Carrier Board is an Interface debugging and testing carrier board. This 96Board is compliant with accordance to “96Boards Compute SoM Specification” and “96Boards Enterprise Edition Specification” This carrier board provides as many interfaces as possible to meet the needs of SoM board debugging and testing. This Carrier Board has already been adapted to [TB-96AI](/product/tb-96ai/) SoM and [TB-96AIoT](/product/tb-96aiot/) SoM boards.
 ***
 
 ## Additional Information
-<div style="overflow-x:scroll;" markdown="1">
+
 
 |   Component          |   Description |
 |:---------------------|:--------------|
@@ -147,5 +146,5 @@ The 96Boards SoM Carrier Board is an Interface debugging and testing carrier boa
 |  CAN | CAN interface |
 |  System LED | System LED |
 |  X1、X2、X3、X4 | Som board Connector |
-{:.hidden_rows}
-</div>
+
+
