@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
 title: Submit Project
 slug: submit/
 description: |-

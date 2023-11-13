@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+# layout: ../../layouts/ProjectLayout.astro
 title: Project Contribution
 slug: contribute/
 description: |-

@@ -1,0 +1,24 @@
+---
+import type { Code, Debug } from "astro:components";
+import { getCollection } from "astro:content";
+import EventLayout from "../../layouts/EventLayout.astro";
+// import "../styles/global.scss";
+export async function getStaticPaths() {
+  const events = await getCollection("events");
+
+  return events.map((event) => {
+    return {
+      params: {
+        event: event.slug,
+      },
+      props: {
+        event,
+      },
+    };
+  });
+}
+
+const { event } = Astro.props;
+---
+
+<EventLayout event={event} />

@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import bb from "../../assets/images/projects/3DPrintCase_FrontPage.png";
+
+import { Image } from "astro:assets";
+
+const events = await getCollection("events");
+
+const tt = events.map((item: any) => item.data.image);
+console.log(tt);
+---
+
+<section
+  class="max-w-7xl container mx-auto px-5 sm:px-12 md:px-24 py-6 not-prose"
+>
+  <div class="grid-cols-1 sm:grid md:grid-cols-4">
+    {
+      events.map((event: any) => (
+        <div
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(25, 147, 122)), url(${
+              event.data?.image?.src || ""
+            })`,
+            backgroundPosition: "center",
+            objectFit: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+          class="mx-3 mt-6 flex flex-col rounded-lg  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0"
+        >
+          <a href={event.slug}>
+            <div class="p-6">
+              <h5 class="mb-2 mx-auto text-xl font-medium leading-tight hover:text-white text-neutral-800 dark:text-neutral-50">
+                {event.data.title}
+              </h5>
+            </div>
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</section>

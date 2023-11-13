@@ -126,7 +126,7 @@ const projects = defineCollection({
       image: image().optional(),
       // image_name: z.string().optional(),
       // image_thumb: z.string().optional(),
-      categories: z.array(z.string()).optional(),
+      categories: z.array(z.string()).or(z.string()).optional(),
       sticky_tab_bar: z.boolean().optional(),
       flow: z
         .array(
@@ -286,6 +286,38 @@ const specifications = defineCollection({
     }),
 });
 
+const events = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      image: image().optional(),
+      hero: z
+        .object({
+          title: z.string().optional(),
+          background_image: image().optional(),
+          style: z.string().optional(),
+          description: z.string().optional(),
+        })
+        .optional(),
+      date: z.date(),
+      flow: z
+        .array(
+          z.object({
+            row: reference("rows").optional(),
+            sections: z
+              .array(
+                z.object({
+                  component: reference("sections"),
+                })
+              )
+              .optional(),
+          })
+        )
+        .optional(),
+    }),
+});
+
 // Expose your defined collection to Astro
 // with the `collections` export
 export const collections = {
@@ -298,4 +330,5 @@ export const collections = {
   sections,
   data,
   projects,
+  events,
 };
