@@ -44,6 +44,7 @@ exclude:
   - staging.96boards.org
   - production.96boards.org
   - merged_sources
+  - security.txt
 sass:
   style: compressed
   load_paths:
