@@ -20,7 +20,6 @@
                 <div class="col col-12 col-sm-4 featured-product">
                 <a href="{{product.url}}">
                         <h3 class="featured-product-title text-dark">{{product.title}}</h3>
-                        {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                         {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                         {% capture image_alt %}{{ product.title }} image{% endcapture %}
                         {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
@@ -30,7 +29,6 @@
                 <div class="col col-12 col-sm-4 featured-product bottom">
                 <a href="{{product.url}}">
                         <h3 class="featured-product-title text-dark">{{product.title}}</h3>
-                        {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From {{product.product_buy_links[0].link-price}}</span>{% endif %}
                         {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                         {% capture image_alt %}{{ product.title }} image{% endcapture %}
                         {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
@@ -63,8 +61,6 @@
                                 <div class="owl-item__inner">
                                     <div class="col col-12">
                                         <h3 class="featured-product-title">{{product.title}}</h3>
-                                        {% if product.product_buy_links[0].link-price %}<span class="featured-product-price">From
-                                            {{product.product_buy_links[0].link-price}}</span>{% endif %}
                                         {% capture image_path %}_product/{{product.product_specification}}/{{url-slug}}/{{ product_image }}{% endcapture %}
                                         {% capture image_alt %}{{ product.title }} image{% endcapture %}
                                         {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
