@@ -42,6 +42,7 @@ breadcrumb: true
                             <i class="glyphicon glyphicon-shopping-cart pull-right" style="margin-top:8px;"></i>
                         </li>
                         {% for buy_link in page.product_buy_links %}
+                        {% if buy_link.link-title %}
                             <li class="list-group-item">
                                 <a href="{{ buy_link.link-url }}">
                                     <span class="text-left">{{ buy_link.link-title }}</span>
@@ -52,6 +53,7 @@ breadcrumb: true
                                     {% if buy_link.from %}<a href="{{ buy_link.link-url }}">Buy from {{buy_link.from}}</a>{% endif %}
                                 </small>
                             </li>
+                        {% endif %}
                         {% endfor %}
                     </ul>
                 {% endif %}
