@@ -34,19 +34,19 @@ product_sidebar_sections:
         - title: "UART to USB debug connector"
         - title: "ETH port ( converting from USB2.0 of the HS connector to ETH bridge )"
         - title: "Two CSI-2 connector interface:two 4Lanes CSI-2 connector from MAX9286 output"
-product_buy_links:
-  -
-    link-title: Ali Express (Vision Board)
-    link-url: https://www.aliexpress.com/item/1005001818961952.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
-  -
-    link-title: Ali Express (1MP GMSL Camera,AR0231)
-    link-url: https://www.aliexpress.com/item/1005001819016183.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
-  -
-    link-title: Ali Express (CES-CAMERA-GMSL-AR0143-HXXX)
-    link-url: https://www.aliexpress.com/item/1005001798329168.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
-  -
-    link-title: Ali Express (Cable for vision board)
-    link-url: https://www.aliexpress.com/item/1005001819002420.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
+# product_buy_links:
+#   -
+#     link-title: Ali Express (Vision Board)
+#     link-url: https://www.aliexpress.com/item/1005001818961952.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
+#   -
+#     link-title: Ali Express (1MP GMSL Camera,AR0231)
+#     link-url: https://www.aliexpress.com/item/1005001819016183.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
+#   -
+#     link-title: Ali Express (CES-CAMERA-GMSL-AR0143-HXXX)
+#     link-url: https://www.aliexpress.com/item/1005001798329168.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
+#   -
+#     link-title: Ali Express (Cable for vision board)
+#     link-url: https://www.aliexpress.com/item/1005001819002420.html?spm=a2g0o.store_home.0.0.5c0c4deaOXneSU
 sticky_tab_bar:
   - title: vision-mezzanine
     url: /product/vision-mezzanine/

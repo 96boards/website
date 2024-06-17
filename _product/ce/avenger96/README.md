@@ -30,14 +30,14 @@ sticky_tab_bar:
       url: https://discuss.96boards.org/c/products/avenger96
       tab_position: 4
       tab_align_right: true
-product_buy_links:
-  -
-    link-title: Avenger96
-    link-url: "https://www.arrow.com/en/products/avenger96/arrow-development-tools"
-    from: Arrow Electronics
-    type: board
-    link-price: "$129.99"
-    link-price-currency: USD
+# product_buy_links:
+#   -
+#     link-title: Avenger96
+#     link-url: "https://www.arrow.com/en/products/avenger96/arrow-development-tools"
+#     from: Arrow Electronics
+#     type: board
+#     link-price: "$129.99"
+#     link-price-currency: USD
 product_sidebar_sections:
     - title: More Info
       icon: icon-link-ext-alt

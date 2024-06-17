@@ -30,21 +30,21 @@ sticky_tab_bar:
       url: https://discuss.96boards.org/c/products/dragonboard410c/
       tab_position: 3
       tab_align_right: true
-product_buy_links:
-  -
-    link-title: DB4 1G RAM+8G flash
-    link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
-    from: Geniatech
-    type: board
-    link-price: "$109.00"
-    link-price-currency: USD
-  -
-    link-title: DB4 2G RAM +16Flash
-    link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
-    from: Geniatech
-    type: board
-    link-price: "$119"
-    link-price-currency: USD
+# product_buy_links:
+#   -
+#     link-title: DB4 1G RAM+8G flash
+#     link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
+#     from: Geniatech
+#     type: board
+#     link-price: "$109.00"
+#     link-price-currency: USD
+#   -
+#     link-title: DB4 2G RAM +16Flash
+#     link-url: "https://shop.geniatech.com/product/developer_board_4_v3/"
+#     from: Geniatech
+#     type: board
+#     link-price: "$119"
+#     link-price-currency: USD
   
 product_sidebar_sections:
     - title: OS
@@ -109,9 +109,9 @@ product_bottom_section:
           link: /product/sensors-mezzanine
         - title: Audio Mezzanine
           link: /product/audio-mezzanine/
-vendor:
-  name: Geniatech
-  url: https://shop.geniatech.com/product/developer_board_4_v3/
+# vendor:
+#   name: Geniatech
+#   url: https://shop.geniatech.com/product/developer_board_4_v3/
 attributes:
   - name: "SoC"
     value: >-

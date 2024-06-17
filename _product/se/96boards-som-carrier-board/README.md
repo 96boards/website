@@ -33,14 +33,14 @@ sticky_tab_bar:
       url: https://discuss.96boards.org/c/products/96boards-som-carrier-board
       tab_position: 3
       tab_align_right: true
-product_buy_links:
-  -
-    link-title: SeeedStudio
-    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-CarrierBoard-Kit-For-RK1808-RK3399Pro-p-4076.html
-    from: SeeedStudio
-    type: board
-    link-price: "125.00"
-    link-price-currency: USD
+# product_buy_links:
+#   -
+#     link-title: SeeedStudio
+#     link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-CarrierBoard-Kit-For-RK1808-RK3399Pro-p-4076.html
+#     from: SeeedStudio
+#     type: board
+#     link-price: "125.00"
+#     link-price-currency: USD
 product_sidebar_sections:
     - title: More Info
       icon: icon-link-ext-alt
