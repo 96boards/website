@@ -70,18 +70,7 @@
                                         <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
                                             {% endif %}>
                                             <a href="{{ buy_link.link-url }}">
-                                                {% if buy_link.link-price %}
-                                                {% if buy_link.link-price-currency %}
-                                                {% if buy_link.link-price-currency == "JPY" %}
-                                                JP&yen;
-                                                {% else %}
-                                                {{buy_link.link-price-currency}}
-                                                {% endif %}
-                                                {% endif %}
-                                                {% endif %}
-                                                {{buy_link.link-price}}
-                                                {% if buy_link.type == "package" %}(Package Deal){% endif %}
-                                                {% if buy_link.type == "board" %}(Board){% endif %}
+                                                {{buy_link.from}}
                                             </a>
                                         </li>
                                         {% endfor %}
@@ -164,18 +153,7 @@
                                         <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
                                             {% endif %}>
                                             <a href="{{ buy_link.link-url }}">
-                                                {% if buy_link.link-price %}
-                                                {% if buy_link.link-price-currency %}
-                                                {% if buy_link.link-price-currency == "JPY" %}
-                                                JP&yen;
-                                                {% else %}
-                                                {{buy_link.link-price-currency}}
-                                                {% endif %}
-                                                {% endif %}
-                                                {% endif %}
-                                                {{buy_link.link-price}}
-                                                {% if buy_link.type == "package" %}(Package Deal){% endif %}
-                                                {% if buy_link.type == "board" %}(Board){% endif %}
+                                                {{buy_link.from}}
                                             </a>
                                         </li>
                                         {% endfor %}
