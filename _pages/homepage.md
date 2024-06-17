@@ -7,14 +7,14 @@ keywords: Arm, Silicon, AI, Developer Boards, Developers, Makers, SoC, Consumer,
 layout: flow
 js-package: home
 css_bundle: home
-jumbotron:
-  class: text-center
-  slider:
-    - title: Develop & Prototype on the Latest Arm Technology
-      title-class: big-title
-      description: >
-        Products built with the latest silicon, based on open platform specifications for developers, makers and businesses
-      image: /assets/images/content/96boards-home-image-2.jpg
+# jumbotron:
+#   class: text-center
+#   slider:
+#     - title: Develop & Prototype on the Latest Arm Technology
+#       title-class: big-title
+#       description: >
+#         Products built with the latest silicon, based on open platform specifications for developers, makers and businesses
+#       image: /assets/images/content/96boards-home-image-2.jpg
 flow:
   - row: container_row
     sections:
@@ -106,8 +106,8 @@ flow:
                 - title: Wireless
                   url: https://linaro.co/som-w-spec
                   style: btn-secondary
-  - row: custom_include_row
-    source: latest-blogs.html
-  - row: custom_include_row
-    source: projects.html
+  # - row: custom_include_row
+  #   source: latest-blogs.html
+  # - row: custom_include_row
+  #   source: projects.html
 ---

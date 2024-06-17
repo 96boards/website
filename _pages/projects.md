@@ -7,7 +7,7 @@ description: |-
     Click on the links to find out more about the projects.
 css_bundle: projects
 js-package: projects
-sticky_tab_bar: true
+sticky_tab_bar: false
 jumbotron:
     title: Projects with 96Boards
     description: >
