@@ -42,7 +42,7 @@
                             {% endif %}
                         <tr>
                             <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                                {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
+                                {{board.title}} {% if board.product_buy_links %}<a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a>{% endif %} <i
                                     data-toggle="tooltip" data-placement="top" title="Remove Board" class="icon-cancel"></i>
                             </td>
                             {% assign product-url = board.permalink | split: "/" %}
@@ -59,6 +59,7 @@
                             <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
                                 class="data">
                                 <div class="btn-group" role="group">
+                                    {% if board.product_buy_links %}
                                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         Buy Links
@@ -85,6 +86,7 @@
                                         </li>
                                         {% endfor %}
                                     </ul>
+                                    {% endif %}
                                 </div>
                             </td>
                             {% for attr in tags %}
