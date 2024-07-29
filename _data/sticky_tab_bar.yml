@@ -4,10 +4,10 @@ pages:
         url: __current_page__
       - title: Projects
         url: /projects/
-      - title: Contribute
-        url: /projects/contribute/
-      - title: FAQ
-        url: /projects/faq/
+      # - title: Contribute
+      #   url: /projects/contribute/
+      # - title: FAQ
+      #   url: /projects/faq/
     sub-pages-enabled: true
     urls: [/projects/]
   - list:
@@ -21,11 +21,11 @@ pages:
         url: /about/
       - title: Specifications
         url: /specifications/
-      - title: Compliance
-        url: /compliance/
-      - title: News
-        url: /news/
-    urls: [/about/,/specifications/,/compliance/,/news/]
+      # - title: Compliance
+      #   url: /compliance/
+      # - title: News
+      #   url: /news/
+    urls: [/about/,/specifications/]
   - list:
       - title: All
         url: /products/
@@ -49,17 +49,17 @@ pages:
         url: /products/accessories/
     urls: [/products/,/products/ce/,/products/ee/,/products/ie/,/products/mezzanine/,
     /products/accessories/, /products/archived/, /products/compare/, /products/se/, /products/se/modules/, /products/se/carrier-boards/, /products/ae/, /products/ae/pcu/, /products/ae/ccu/, /products/ae/drone/]
-  - list:
-      - title: Projects
-        url: /projects/
-      - title: Contribute
-        url: /projects/contribute/
-      - title: FAQ
-        url: /projects/faq/
-      - title: Submit a Project
-        url: /projects/submit/
-        right: true
-    urls: [/projects/,/projects/contribute/,/projects/faq/,/projects/submit/]
+  # - list:
+  #     - title: Projects
+  #       url: /projects/
+  #     - title: Contribute
+  #       url: /projects/contribute/
+  #     - title: FAQ
+  #       url: /projects/faq/
+  #     - title: Submit a Project
+  #       url: /projects/submit/
+  #       right: true
+  #   urls: [/projects/,/projects/contribute/,/projects/faq/,/projects/submit/]
   - list:
       - title: Thor96
         url: /product/thor96/

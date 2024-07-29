@@ -41,13 +41,13 @@ sticky_tab_bar:
       tab_position: 4
       tab_align_right: true
 product_buy_links:
-  -
-    link-title: SeeedStudio
-    link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-RK3399Pro-AIoT-96Boards-Compute-SoM-p-4075.html
-    from: SeeedStudio
-    type: board
-    link-price: "119.00"
-    link-price-currency: USD
+  # -
+  #   link-title: SeeedStudio
+  #   link-url: https://www.seeedstudio.com/category/Development-Platforms-c-1002/single-board-computer-c-950/category/96Boards-c-31/BeiQi-RK3399Pro-AIoT-96Boards-Compute-SoM-p-4075.html
+  #   from: SeeedStudio
+  #   type: board
+  #   link-price: "119.00"
+  #   link-price-currency: USD
   -
     link-title: 3G DDR3+16G eMMC  Core Board
     link-url: https://www.aliexpress.com/item/4000026756329.html?spm=a2g0o.detail.1000060.2.29226dbb6lIl9h&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm_id=1007.13339.90158.0&scm-url=1007.13339.90158.0&pvid=18fa6697-037a-43a0-a5e1-1fca5f7ec902

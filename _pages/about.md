@@ -83,73 +83,73 @@ flow:
           title: Interchangeable
           text: >
             The 96Boards specification requires exposure of the various I/O interfaces on the SoCs through standard expansion connectors (High and Low speed). This allows any product designed on one board to be fairly portable to other boards in the same family.
-  - row: container_row
-    sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Benefits of the 96Boards ecosystem
-  - row: container_row
-    sections:
-      - format: feature_block
-        feature_block_content:
-          position: left
-          type: slider
-          slider_content:
-            lightbox_enabled: true
-            xs_items: 1
-            sm_items: 1
-            md_items: 1
-            lg_items: 1
-            seconds_per_slide: 5
-            items:
-              - image: /assets/images/content/vendor-image-1.jpg
-                alt: Vendor Image
-                title: Vendor Image 1
-              - image: /assets/images/content/vendor-image-2.jpg
-                alt: Vendor Image
-                title: Vendor Image 1
-          buttons:
-            - title: Specifications
-              url: /specifications/
-              class: btn-primary
-          title: Vendors
-          text: >
+  # - row: container_row
+  #   sections:
+  #     - format: title
+  #       title_content:
+  #         size: h2
+  #         text: Benefits of the 96Boards ecosystem
+  # - row: container_row
+  #   sections:
+  #     - format: feature_block
+  #       feature_block_content:
+  #         position: left
+  #         type: slider
+  #         slider_content:
+  #           lightbox_enabled: true
+  #           xs_items: 1
+  #           sm_items: 1
+  #           md_items: 1
+  #           lg_items: 1
+  #           seconds_per_slide: 5
+  #           items:
+  #             - image: /assets/images/content/vendor-image-1.jpg
+  #               alt: Vendor Image
+  #               title: Vendor Image 1
+  #             - image: /assets/images/content/vendor-image-2.jpg
+  #               alt: Vendor Image
+  #               title: Vendor Image 1
+  #         buttons:
+  #           - title: Specifications
+  #             url: /specifications/
+  #             class: btn-primary
+  #         title: Vendors
+  #         text: >
 
-            **As a Vendor** you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
+  #           **As a Vendor** you are able to join a growing 96Boards ecosystem while minimizing your engineering efforts to design a new board. This market comes with an established community of end users who are interested in low-cost prototyping platforms for their next product idea or just to tinker with.
 
-            The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
+  #           The 96Boards specification allows enough flexibility to expose differentiating features of a SoC outside of the mandatory feature set. The board can be an enabler for new design wins and custom board design consultancy eventually leading to volume orders for the SoC.
 
-  - row: container_row
-    sections:
-      - format: feature_block
-        feature_block_content:
-          position: right
-          type: slider
-          slider_content:
-            lightbox_enabled: true
-            xs_items: 1
-            sm_items: 1
-            md_items: 1
-            lg_items: 1
-            seconds_per_slide: 5
-            items:
-              - image: /assets/images/content/bkk19-demo-friday.jpg
-                alt: Background Image
-                title: Background Image 1
-              - image: /assets/images/content/consumer-image-1.jpg
-                alt: End User Slider Image
-                title: End User Slider Image 1
-              - image: /assets/images/content/consumer-image-2.jpg
-                alt: End User 96Boards Slider Image
-                title: End User 96Boards Slider Image 1
-          buttons:
-            - title: Browse 96Boards
-              url: /products/
-              class: btn-primary
-          title: End users
-          text: >
-            **As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
+  # - row: container_row
+  #   sections:
+  #     - format: feature_block
+  #       feature_block_content:
+  #         position: right
+  #         type: slider
+  #         slider_content:
+  #           lightbox_enabled: true
+  #           xs_items: 1
+  #           sm_items: 1
+  #           md_items: 1
+  #           lg_items: 1
+  #           seconds_per_slide: 5
+  #           items:
+  #             - image: /assets/images/content/bkk19-demo-friday.jpg
+  #               alt: Background Image
+  #               title: Background Image 1
+  #             - image: /assets/images/content/consumer-image-1.jpg
+  #               alt: End User Slider Image
+  #               title: End User Slider Image 1
+  #             - image: /assets/images/content/consumer-image-2.jpg
+  #               alt: End User 96Boards Slider Image
+  #               title: End User 96Boards Slider Image 1
+  #         buttons:
+  #           - title: Browse 96Boards
+  #             url: /products/
+  #             class: btn-primary
+  #         title: End users
+  #         text: >
+  #           **As an End User** you are able to pick and choose from a variety of boards featuring different SoCs in a range of form factors and a common set of core features. The family of 96Boards specifications allows you to pick the form-factor that best suits your usecase and price point. To protect your investment while developing products on 96Boards, it is important to know, many of our SoC vendors intend to make their parts available for the long-term.
 
-            A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
+  #           A vibrant and growing 96Boards community can also be leveraged when getting up to speed on current software and core functionality for all our boards.
 ---

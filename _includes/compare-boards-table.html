@@ -25,8 +25,6 @@
                         <th class="attr attr-heading" data-attr="image">
                             Image <i data-toggle="tooltip" data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
                         </th>
-                        <th class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip" data-placement="top"
-                                title="Remove Attribute" class="icon-cancel removeAttribute"></i> </th>
                         {% for attr in tags %}
                         <th data-attr="{{attr}}" class="attr attr-heading">{{attr}} <i data-toggle="tooltip"
                                 data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
@@ -42,7 +40,7 @@
                             {% endif %}
                         <tr>
                             <td class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                                {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
+                                {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Details</a> <i
                                     data-toggle="tooltip" data-placement="top" title="Remove Board" class="icon-cancel"></i>
                             </td>
                             {% assign product-url = board.permalink | split: "/" %}
@@ -55,37 +53,6 @@
                                     {% capture image_alt %}{{ board.title }} image{% endcapture %}
                                     {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
                                 </a>
-                            </td>
-                            <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
-                                class="data">
-                                <div class="btn-group" role="group">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        Buy Links
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        {% for buy_link in board.product_buy_links %}
-                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
-                                            {% endif %}>
-                                            <a href="{{ buy_link.link-url }}">
-                                                {% if buy_link.link-price %}
-                                                {% if buy_link.link-price-currency %}
-                                                {% if buy_link.link-price-currency == "JPY" %}
-                                                JP&yen;
-                                                {% else %}
-                                                {{buy_link.link-price-currency}}
-                                                {% endif %}
-                                                {% endif %}
-                                                {% endif %}
-                                                {{buy_link.link-price}}
-                                                {% if buy_link.type == "package" %}(Package Deal){% endif %}
-                                                {% if buy_link.type == "board" %}(Board){% endif %}
-                                            </a>
-                                        </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
                             </td>
                             {% for attr in tags %}
                             {% assign found = "false" %}
@@ -116,7 +83,7 @@
                         <th data-attr="attr" class="attr attr-heading"></th>
                         {% for board in products_array %}
                         <th class="board" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}">
-                            {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Buy Now</a> <i
+                            {{board.title}} <a class="btn btn-default btn-xs" href="{{board.url}}">Details</a> <i
                                 data-toggle="tooltip" data-placement="top" title="Remove Board" class="icon-cancel"></i>
                         </th>
                         {% endfor %}
@@ -141,44 +108,6 @@
                                     {% capture image_alt %}{{ board.title }} image{% endcapture %}
                                     {% picture card_block_image {{image_path}} --alt {{image_alt}} %}
                                 </a>
-                            </td>
-                            {% endfor %}
-                        </tr>
-                        <tr data-attr-row="price">
-                            <td class="attr attr-heading" data-attr="price"> Price <i data-toggle="tooltip"
-                                    data-placement="top" title="Remove Attribute" class="icon-cancel removeAttribute"></i>
-                            </td>
-                            {% for board in products_array %}
-                            <td class="board" data-attr="price" data-board="{{board.url | replace: "/product/", "" | replace: "/", ""}}"
-                                class="data">
-                                <div class="btn-group" role="group">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        Buy Links
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        {% for buy_link in board.product_buy_links %}
-                                        <li {% if buy_link.from %}data-toggle="tooltip" data-placement="right" title="Buy from {{buy_link.from}}"
-                                            {% endif %}>
-                                            <a href="{{ buy_link.link-url }}">
-                                                {% if buy_link.link-price %}
-                                                {% if buy_link.link-price-currency %}
-                                                {% if buy_link.link-price-currency == "JPY" %}
-                                                JP&yen;
-                                                {% else %}
-                                                {{buy_link.link-price-currency}}
-                                                {% endif %}
-                                                {% endif %}
-                                                {% endif %}
-                                                {{buy_link.link-price}}
-                                                {% if buy_link.type == "package" %}(Package Deal){% endif %}
-                                                {% if buy_link.type == "board" %}(Board){% endif %}
-                                            </a>
-                                        </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
                             </td>
                             {% endfor %}
                         </tr>

@@ -1,7 +1,7 @@
 search:
   enabled: true
   label: 96Boards
-universal_nav: true
+universal_nav: false
 expand_breakpoint: lg
 brand:
   path: /assets/images/logo.svg
@@ -13,10 +13,10 @@ pages:
         url: /about/
       - text: Specifications
         url: /specifications/
-      - text: Compliance
-        url: /compliance/
-      - text: News
-        url: /news/
+      # - text: Compliance
+      #   url: /compliance/
+      # - text: News
+      #   url: /news/
   - title: Products
     active_paths:
       - /product/
@@ -60,17 +60,9 @@ pages:
       - text: Blog
         url: /blog/
       - text: Projects
-        options:
-          - text: Projects
-            url: /projects/
-          - text: Contribute
-            url: /projects/contribute/
-          - text: FAQ
-            url: /projects/faq/
-          - text: Submit a Project
-            url: /projects/submit/
-      - text: Go Events
-        url: /go/
+        url: /projects/
+      # - text: Go Events
+      #   url: /go/
       - text: 96Boards Pinout
         url: /pinout/
   - title: Documentation
@@ -91,11 +83,11 @@ pages:
         url: /documentation/Specifications/
       - text: Contribution Policy
         url: /documentation/CONTRIBUTE.md.html
-  - title: Support
-    options:
-      - text: Discussion Forum
-        url: https://discuss.96boards.org/
-      - text: 96Boards Discord
-        url: https://discord.gg/x5uMn5d
-      - text: Partner Services
-        url: /services/
+  # - title: Support
+  #   options:
+  #     - text: Discussion Forum
+  #       url: https://discuss.96boards.org/
+  #     - text: 96Boards Discord
+  #       url: https://discord.gg/x5uMn5d
+  #     - text: Partner Services
+  #       url: /services/

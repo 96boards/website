@@ -42,21 +42,10 @@ breadcrumb: true
                             <i class="glyphicon glyphicon-shopping-cart pull-right" style="margin-top:8px;"></i>
                         </li>
                         {% for buy_link in page.product_buy_links %}
+                        {% if buy_link.link-title %}
                             <li class="list-group-item">
                                 <a href="{{ buy_link.link-url }}">
                                     <span class="text-left">{{ buy_link.link-title }}</span>
-                                    {% if buy_link.link-price %}
-                                        <span class="pull-right buy-price">
-                                            {% if buy_link.link-price-currency %}
-                                                {% if buy_link.link-price-currency == "JPY" %}
-                                                    JP&yen;
-                                                {% else %}
-                                                    {{buy_link.link-price-currency}}
-                                                {% endif %}
-                                            {% endif %}
-                                            {{buy_link.link-price}}
-                                        </span>
-                                    {% endif %}
                                 </a>
                                 <small>
                                     {% if buy_link.type == "package" %}<span>Package Deal</span>{% endif %}
@@ -64,6 +53,7 @@ breadcrumb: true
                                     {% if buy_link.from %}<a href="{{ buy_link.link-url }}">Buy from {{buy_link.from}}</a>{% endif %}
                                 </small>
                             </li>
+                        {% endif %}
                         {% endfor %}
                     </ul>
                 {% endif %}

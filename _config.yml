@@ -215,7 +215,7 @@ disqus:
   shortname: 96boards
 # Edit on GitHub Settings
 edit-on-github:
-  enabled: true
+  enabled: false
   docs: https://www.github.com/96Boards/documentation
   repo: https://www.github.com/96Boards/website
 # Shema.org settings used in the schema.html include.
