@@ -29,9 +29,6 @@ sticky_tab_bar:
       url: /documentation/consumer/sophon-edge/getting-started/
     - title: Documentation
       url: /documentation/consumer/sophon-edge/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/sophon-edge/
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Sophon Edge (US)

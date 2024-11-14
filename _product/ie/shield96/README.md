@@ -19,10 +19,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/iot/shield96/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/
-      tab_position: 2
-      tab_align_right: true
 product_short_desc: "Arrow's Shield96 Boards are based on the ATSAMA5D2 Security first SoC from Microchip and boasts features such as Secure Boot, Hardware crypto engines, Arm® TrustZone® etc"
 product_images:
   - images/shield96-front.jpg

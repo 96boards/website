@@ -15,10 +15,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/enterprise/akebi96/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/
-      tab_position: 2
-      tab_align_right: true
 product_specification: ee
 product_short_desc: "Board based on Socionext LD20"
 product_images:

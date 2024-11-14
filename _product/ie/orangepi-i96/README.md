@@ -20,10 +20,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/iot/orangepi-i96/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/orangepi-i96
-      tab_position: 2
-      tab_align_right: true
 product_images:
   - images/orangepi-i96_front-sd.jpg
   - images/orangepi-i96_back-sd.jpg

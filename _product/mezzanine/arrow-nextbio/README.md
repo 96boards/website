@@ -15,10 +15,6 @@ sticky_tab_bar:
   - title: Documentation
     url: /documentation/mezzanine/arrow-nextbio/
     tab_position: 1
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_position: 2
-    tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module is a fingerprint development shield for the DragonBoard 410c development board by Arrow Electronics."
 product_images:

@@ -81,8 +81,6 @@ Last week the team discussed General Purpose Input/Output (GPIO) and low speed e
 
 Be sure to stay tune in next week where we will discuss installing Docker on aarch64 with the reference platform build on a 96Boards CE-edition [https://www.96boards.org/](/)
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours image" class="img-fluid" %}
 
 **In this series**

@@ -40,9 +40,6 @@ sticky_tab_bar:
       url: /documentation/consumer/ultra96/ultra96-v2/getting-started/
     - title: Documentation
       url: /documentation/consumer/ultra96/ultra96-v2/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/ultra96/
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Ultra96-v2 Developer Board

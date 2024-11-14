@@ -112,7 +112,5 @@ Our eight week of 96Boards OpenHours session the team discussed the 16.06 releas
 
 Be sure to stay tune in next week  [https://www.96boards.org/](/).  Next week during session 10 we will have an open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 [n](/blog/installing-docker-aarch64-96boards-ce/)

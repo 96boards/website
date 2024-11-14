@@ -16,9 +16,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/sensors-mezzanine/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_short_desc: "Available now: I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors."
 product_images:
   - images/96Boards-Sensors-2.jpg

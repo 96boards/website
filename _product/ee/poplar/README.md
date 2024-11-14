@@ -16,10 +16,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/enterprise/poplar/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/poplar
-      tab_position: 2
-      tab_align_right: true
 product_specification: ee
 product_short_desc: "Board based on Hi3798C V200 with an integrated quad-core 64-bit ARM Cortex A53"
 product_images:

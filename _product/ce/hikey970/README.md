@@ -24,9 +24,6 @@ sticky_tab_bar:
       url: /documentation/consumer/hikey/hikey970/getting-started/
     - title: Documentation
       url: /documentation/consumer/hikey/hikey970/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/hikey970
-      tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on the HiSilicon Kirin 970"
 product_images:

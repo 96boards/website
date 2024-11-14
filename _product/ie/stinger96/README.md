@@ -19,10 +19,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/iot/stinger96/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/
-      tab_position: 2
-      tab_align_right: true
 product_short_desc: "Shiratech's STINGER96 is a 96Boards IoT Edition compatible (IE extended) base board from Shiratech. The board provides full support for 96Boards IoT Edition (IE) mezzanines via the Low Speed expansion connector, and features LTE connectivity using the Quectel BG96 NB-IoT modem."
 product_images:
   - images/stinger96-front.jpg

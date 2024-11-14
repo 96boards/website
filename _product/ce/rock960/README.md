@@ -28,9 +28,6 @@ sticky_tab_bar:
       url: /documentation/consumer/rock/rock960/getting-started/
     - title: Documentation
       url: /documentation/consumer/rock/rock960/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/rock960/
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Rock960 (SeeedStudio)

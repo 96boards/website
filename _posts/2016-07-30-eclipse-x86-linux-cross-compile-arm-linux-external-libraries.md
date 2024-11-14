@@ -303,8 +303,6 @@ When you run it it will execute the board_test libsoc application. Congratulatio
 
 So far in the series of blog postings, we’ve installed and setup command line cross compiling, the building cross compiled shared libraries, and use of shared libraries, then setup Eclipse for cross compiling from X86 to ARM, including using shared libraries, we have setup Eclipse to copy the new binary files over to the ARM 96Boards. I think by far the trickiest part to date has been setting up the secure remote copy command outlined above using ssh and scp with a secure ssh key.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

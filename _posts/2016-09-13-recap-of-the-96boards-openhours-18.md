@@ -77,11 +77,7 @@ This was our last between season 96Boards OpenHours where we will have the enti
 
 **Be sure to join us for the next OpenHours  [https://www.96boards.org/](/) where we will have the first of our 3 part series  and go through an out of box experience with the DragonBoard 410c.**
 
-As always there is a lot of good information and resources that is in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
-
 Don't forget about the upcoming Linaro Connect where attendees have an opportunity to meet with Linaro in person and learn a lot more about what is going on in the community.  There are still openings available to attend this conference in Las Vegas, Nevada September 26-30, 2016 --[http://connect.linaro.org/](http://connect.linaro.org/).
-
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -201,8 +197,6 @@ RW
 
 Thanks Lasse!
 
-[https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/](https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/)
-
 T
 
 [http://www.linux-kvm.org/page/Migration](http://www.linux-kvm.org/page/Migration)
@@ -236,10 +230,6 @@ Abraxas3d
 A
 
 I have a 96B Sensors Rev C board with no LEDs here as well. Just arrived from Seeed this week.
-
-MB
-
-Akira answered missing LEDs at:: [https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/](https://discuss.96boards.org/t/dragon-board-mezzanine-components-not-matching-the-layout/)
 
 G3
 

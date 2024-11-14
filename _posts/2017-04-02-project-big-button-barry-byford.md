@@ -61,11 +61,6 @@ That being said, this week we spoke with [Barry Byford](https://twitter.com/uk_b
 
 As mentioned, Barry came to us via OpenHours conference call from England, where he lives. In the beginning of the episode, Barry spoke to us about himself, explaining how he ended up getting involved with 96Boards and the DragonBoard 410c. For a long time now, it has been a goal to get _Bluetooth_ ® wireless technology Low Energy usable on Linux Single Board Computers from within the Python programming language to interact with peripheral devices. Barry explained about some of the false starts he has had with this goal although with this project good progress seems to have been made to his goal.
 
-# **Announcements**
-
-- OpenHours will begin to gamify! [Attending our weekly OpenHours](/) call, participating in [96Boards forum](https://discuss.96boards.org) activity and over all contributing to the 96Boards community in any way possible will earn you community points(as long as we can track it). We will do our best to log community efforts on our side to ultimately generate a leaderboard for the website. Tracking and registering efforts might change as the team becomes more in tuned with collection process. Persons with the most community efforts will have chances to win 96Boards prizes such as boards, mezzanine, swag(96Boards, Linaro and member) and possibly a badge to the next Linaro Connect which will be held in San Francisco!
-
-- We have officially launched the [OpenHours forum topics page](https://discuss.96boards.org/c/general/OpenHours)! You are welcome to post/suggest new OpenHours related topics, open new questions to be addressed during the show, and/or tackle current issues that are facing the community.
 
 # **“Project BIG Button” on OpenHours**
 
@@ -95,9 +90,7 @@ Using a 96Boards DragonBoard 410c, several micro:bit microcontrollers, a driver 
 
 Instructions to recreate **“Project BIG Button”** can be found **[here](https://ukbaz.github.io/howto/proj_big_btn.html)**
 
-## **Conclusion**
 
-By the end of this blog and Barry’s instruction set, you should be able to use BLE to seamlessly communicate between a 96Boards DragonBoard 410c and the micro:bit microcontroller. Thankfully, Barry was able to provide us with all of his code and experience. This baseline use-case BLE game will hopefully sets the foundation for future applications of a similar nature. We look forward to seeing what you all come up with! Feel free to bring your questions to the [OpenHours forums](https://discuss.96boards.org/c/general/OpenHours). If anyone creates a derivative version of the BIG Button Game or another application around these efforts, we would love to feature it on the 96Boards website.
 
 # **Resources**
 
@@ -111,7 +104,6 @@ Every week at 4:00pm UTC the 96Boards team engages in the ultimate community dri
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
-Don’t forget, if you get stuck, 96Boards offers many helpful resources. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards documentation landing page](https://github.com/96boards/documentation/), and/or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards and #OpenHours (there are many ways to access IRC, this website is one of them). Dig around the docs and website, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help!
 
 Other Blogs from Robert Wolff
 

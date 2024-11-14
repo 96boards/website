@@ -100,12 +100,6 @@ CE AOSP RPB for [HiKey](/product/hikey/) (including support for the LeMaker vers
 
 Install instructions, known issues, test reports and instructions to build from source are all published at [https://github.com/96boards/documentation/wiki/RP-Release-2015.12](https://github.com/96boards/documentation/wiki/RP-Release-2015.12). Please also check [https://github.com/96boards/documentation/wiki/ReferenceSoftwareEE](https://github.com/96boards/documentation/wiki/ReferenceSoftwareEE) for documentation covering the components released as part of the EE RPB.
 
-For general questions or support requests, please go to the [96boards.org](https://96boards.org/) Community forum ([https://discuss.96boards.org/](https://discuss.96boards.org/)). For development questions and topics, please use the 96Boards.org development mailing-list ([dev@lists.96boards.org](mailto:dev@lists.96boards.org)).
-
-For bugs related to the 96Boards platforms, please use the 96Boards bug tracking system ([https://bugs.96boards.org/](https://bugs.96boards.org/)). For bugs related to the reference software platform release, but on development boards that are not officially part of 96Boards, please use [https://bugs.linaro.org](https://bugs.linaro.org/) instead (e.g. AMD Overdrive and HiSilicon D02).
-
-For IRC support, please go to the #96boards channel at Freenode.
-
 **Challenges for the next release (15.03)**:
 
 

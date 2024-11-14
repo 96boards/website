@@ -14,11 +14,6 @@ Membership & General Enquiries: [contact@linaro.org](mailto:contact@linaro.org?s
 
 Media Enquiries: [marketing@linaro.org](mailto:marketing@linaro.org)
 
-## 96Boards Technical Support
-
-If you have a technical support query relating to 96Boards, please post your question on
-[https://discuss.96boards.org/](https://discuss.96boards.org/).
-
 ### Address
 
 <address>

@@ -67,6 +67,4 @@ David began to explain that cross compiling is not your best option but if you d
 
 Next week’s 96Boards OpenHours topic will be on the reference platform around 16:06.  Be sure to join us [https://www.96boards.org/](/)
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}

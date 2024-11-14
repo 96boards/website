@@ -19,9 +19,6 @@ sticky_tab_bar:
       url: /documentation/consumer/thor96/getting-started/
     - title: Documentation
       url: /documentation/consumer/thor96/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/thor96/
-      tab_align_right: true
 header-image: thor96-sd-front.jpg
 footer-image: thor96-sd-back.jpg
 product_specification: ce

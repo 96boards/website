@@ -19,9 +19,6 @@ sticky_tab_bar:
       active: true
     - title: Documentation
       url: /documentation/consumer/bubblegum-96/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/bubblegum96
-      tab_align_right: true
 product_specification: ce
 product_short_desc: Board based on Actions Semi S900 Processor
 product_images:

@@ -18,9 +18,7 @@ for HiKey boards. Why it was needed, how it was done and the future plans.
 # Recap of the State of Debian support for HiKey boards
 
 Before this new snapshot image, there was a Debian snapshot build existed for
-the HiKey boards ([HiKey](https://www.96boards.org/product/hikey/), and [HiKey960](https://www.96boards.org/product/hikey960/)) based on old 4.14 stable Linux Kernel. And we
-started to see many queries in our [Support Forum](http://discuss.96boards.org)
-regarding the [HiKey960 UFS issue](https://discuss.96boards.org/t/marginality-with-ufs-chip-change/4450), HiKey960 USB issue and much more. So we decided to spin next version
+the HiKey boards ([HiKey](https://www.96boards.org/product/hikey/), and [HiKey960](https://www.96boards.org/product/hikey960/)) based on old 4.14 stable Linux Kernel.  So we decided to spin next version
 of the Debian snapshot image with 4.19.5 recent LTS Kernel, HiKey960 UFS fix,
 HiKey960 USB support.
 
@@ -83,6 +81,3 @@ At the end, we have a working Debian image for all HiKey boards. We also have
 plans to release major snapshot image for every new LTS Kernel and minor snapshot
 image for feature addition like HDMI for HiKey960. Below are the forum posts,
 describing the image release:
-
-https://discuss.96boards.org/t/4-19-5-kernel-based-debian-snapshot-image-release-for-hikey/6835
-https://discuss.96boards.org/t/4-19-5-kernel-based-debian-snapshot-image-release-for-hikey960/6836

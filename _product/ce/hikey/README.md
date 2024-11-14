@@ -20,10 +20,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/hikey/hikey620/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/hikey
-      tab_position: 2
-      tab_align_right: true
 product_buy_links:
   - link-title: Buy HiKey(1GB RAM)
     link-url: https://linaro.co/hikey-lenovator-buy-1gb

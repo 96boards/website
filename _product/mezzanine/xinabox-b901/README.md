@@ -16,9 +16,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/xinabox-b901/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_short_desc: "This ☒CHIP is designed to interface with the 96 Boards, such as the Dragonboard 410c. This provides an interface to support the ☒CHIP ecosystem, adding support for many additional sensors etc."
 product_images:
   - images/xinabox-b901-front-sd.png

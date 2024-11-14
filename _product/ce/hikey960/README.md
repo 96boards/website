@@ -8,7 +8,6 @@ keywords: hikey 960, hikey960, aosp, aosp developement board, boards
 display_product: true
 shortname: hikey960
 product_media_highlights: true
-product_support_link: "https://discuss.96boards.org/c/products/hikey960/"
 product: true
 archived: false
 dateAdded: 2017-08-02 09:00:00+00:00
@@ -22,9 +21,6 @@ sticky_tab_bar:
       tab_link: /documentation/consumer/hikey/hikey960/getting-started/
     - tab_title: Documentation
       tab_link: /documentation/consumer/hikey/hikey960/
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/hikey960
-      tab_align_right: true
 product_specification: ce
 product_short_desc: "Board based on Huawei Kirin 960 octa-core ARM® big.LITTLE™"
 product_images:

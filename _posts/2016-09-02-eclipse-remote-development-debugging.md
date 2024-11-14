@@ -243,8 +243,6 @@ To run the debugger remotely from the C/C++ perspective now that you have this s
 
 Another quirk is that you really need to use the “Run as” and “Debug as” functions vs “Run” or “Debug” because sometimes if you use “Run” or “Debug” Eclipse will try to run the program locally instead of remotely! Does not always happen but it does happen and it’s quite annoying so be aware of this. SInce you are cross compiling you get an error that the application failed to run. Exactly what one would expect if you try to run an ARM binary on an X86 box.
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

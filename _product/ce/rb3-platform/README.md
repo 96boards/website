@@ -35,10 +35,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/dragonboard/dragonboard845c/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/c/products/dragonboard-845c
-      tab_position: 4
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Qualcomm® Robotics RB3 Development Platform (RB3 Kit)

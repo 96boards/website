@@ -164,10 +164,6 @@ product_tab_menu:
       tab_link: /documentation/consumer/sophon-edge/
       tab_position: 2
       tab_position: 3
-    - tab_title: Support
-      tab_link: https://discuss.96boards.org/c/products/sophon-edge/
-      tab_position: 4
-      tab_align_right: true
 # Product buy links - these links let you customize the buy links available for your product.
 product_buy_links:
   -

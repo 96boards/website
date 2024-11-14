@@ -14,9 +14,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/shiratech-fpga/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_specification: "mezzanine"
 product: true
 product_short_desc: "Introducing the Shiratech FPGA Mezzanine, the most flexible and affordable embedded environment for the Intel MAX-10 FPGA, lets you connect to any interface."

@@ -26,10 +26,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/dragonboard/dragonboard410c/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/c/products/dragonboard410c/
-      tab_position: 3
-      tab_align_right: true
 product_buy_links:
   -
     link-title: DragonBoard410c (Basic Kit)

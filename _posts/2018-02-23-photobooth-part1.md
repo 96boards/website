@@ -42,9 +42,7 @@ After downloading the images, flash it onto Dragonboard and setup the Camera
 Mezzanine using the instructions available in [D3 Engineering Wiki](https://github.com/D3Engineering/410c_camera_support/wiki/D3-Camera-Mezzanine-User-Guide).
 
 > Note: The custom images were based on 4.9 QC release kernel and it is a
-        bit outdated. If you want to use the latest release images from
-        Linaro.org, then you need to follow the instructions I have mentioned
-        in the [forum](https://discuss.96boards.org/t/getting-ov5640-camera-working-with-upcoming-kernel-releases/3826/7?u=mani).
+        bit outdated.
 
 Once the Dragonboard410c is setup with the required boot and rootfs images, verify
 the functionality of the camera by using the scripts mentioned in the Wiki.

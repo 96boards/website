@@ -51,7 +51,6 @@ So In this quick and dirty method, we need to compile cmake, libdrm, mesa, linux
 - Connected to Ethernet via USB
     - Wifi doesn't seem to work on mainline kernel, something about missing firmware. Idk ask Mani.
 - Rootfs is expanded:
-    - Follow this [forum link.](https://discuss.96boards.org/t/gpt-pmbr-size-mismatch/5903/2)
 
 ## 2. Build Dependencies:
 - Basic dependencies

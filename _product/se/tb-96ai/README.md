@@ -36,10 +36,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/som/tb-96ai/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/c/products/tb-96ai
-      tab_position: 4
-      tab_align_right: true
 product_buy_links:
   # -
   #   link-title: SeeedStudio

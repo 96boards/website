@@ -16,9 +16,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/tresor/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_short_desc: "The TRESOR Mezzanine Board is a solution that enables the 96Boards to implement different security elements in the projects."
 product_images:
   - images/tresor-front-sd.png

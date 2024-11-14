@@ -14,9 +14,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/shiratech-bosch-sensors/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_specification: "mezzanine"
 product: true
 product_short_desc: "The new Shiratech Bosch Sensor Mezzanine adds full sensing capabilities to the 96boards platform, including pressure and environmental sensors, accelerometer, magnometer and a hub sensor for design and evaluation purposes."

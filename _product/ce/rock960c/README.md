@@ -25,10 +25,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/rock/rock960/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/c/products/rock960/
-      tab_position: 4
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Rock960c (Vamrs)

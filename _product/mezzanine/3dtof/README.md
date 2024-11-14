@@ -14,9 +14,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/3dtof/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: "3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications."
 product_images:

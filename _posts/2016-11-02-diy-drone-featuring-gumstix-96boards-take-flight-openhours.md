@@ -219,8 +219,6 @@ This completes the demonstration walkthrough.  Having followed these steps you 
 
 ---
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="Open Hours" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

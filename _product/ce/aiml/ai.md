@@ -19,9 +19,6 @@ sticky_tab_bar:
       url: /documentation/consumer/aiml/getting-started/
     - title: Documentation
       url: /documentation/consumer/aiml/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/
-      tab_align_right: true
 header-image: aiml-sd-front.jpg
 footer-image: aiml-sd-back.jpg
 product_specification: ce

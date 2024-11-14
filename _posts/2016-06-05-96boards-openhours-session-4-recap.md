@@ -93,8 +93,6 @@ Last week the team discussed  available Mezzanine product line with sensors and
 
   1. 19:53 – Question: Libsoc: Why did I have to move the headers into file with my code before compilation?
 
-  1. 21:54 – Question: Python GPIO access without 'sudo' on Linux _[https://discuss.96boards.org/t/python-gpio-access-without-sudo-on-linux/](https://discuss.96boards.org/t/python-gpio-access-without-sudo-on-linux/) _
-
   1. 25:15 – Question: How to access GPIO? android, linux or windows?
 
   1. 28:43 – Question: Is programming GPIO the same for all 96Boards?
@@ -110,8 +108,6 @@ Last week the team discussed  available Mezzanine product line with sensors and
 The last several minutes of the call there was much discussion on the Dragonboard.  Robert then mentioned next week’s topic and demos that would be given next week.
 
 Be sure to stay tune in next week where we will continue to explore the 96boards GPIO interfaces. Robert will take a more in-depth look at the various 96Boards enabled libraries, and go through the download and installation process using the [GPIO beginner’s guide]().  [https://www.96boards.org/](/)
-
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
 
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
@@ -195,8 +191,6 @@ UPM: [https://github.com/intel-iot-devkit/upm](https://github.com/intel-iot-devk
 
 Device Tree: [http://www.devicetree.org/](http://www.devicetree.org/)
 
-[https://discuss.96boards.org/t/python-gpio-access-without-sudo-on-linux/](https://discuss.96boards.org/t/python-gpio-access-without-sudo-on-linux/)
-
 [https://docs.google.com/a/linaro.org/document/d/1xnmkSB3IZV6KwIXVJi7UG1e0dtqXR3l_V0Ey_sN0-sg/edit?usp=sharing](https://docs.google.com/a/linaro.org/document/d/1xnmkSB3IZV6KwIXVJi7UG1e0dtqXR3l_V0Ey_sN0-sg/edit?usp=sharing)
 
 Is programming GPIO the same for all 96Boards?
@@ -271,7 +265,6 @@ Akira: do we have a forum thread for this?
 
 D(
 
-[https://discuss.96boards.org/t/dragonboard-keyboardmouse-and-micro-usb-not-responding/](https://discuss.96boards.org/t/dragonboard-keyboard-mouse-and-micro-usb-not-responding/676)
 
 ---
 

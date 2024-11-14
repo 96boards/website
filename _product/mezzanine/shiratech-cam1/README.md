@@ -14,9 +14,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/shiratech-cam1/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_specification: "mezzanine"
 product: true
 product_short_desc: "The new Shiratech Camera 1 Mezzanine is a 96Boards compatible add on board with OnSemiconductor 13Mp imaging sensor and AP1302 ISP for evaluation and prototyping."

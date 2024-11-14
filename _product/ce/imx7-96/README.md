@@ -24,10 +24,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/imx7-96/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/c/products/imx7-96/
-      tab_position: 3
-      tab_align_right: true
 product_buy_links:
   -
     link-title: IMX7 96 BOARD

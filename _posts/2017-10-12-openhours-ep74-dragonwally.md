@@ -105,9 +105,6 @@ Safe2Med: https://youtu.be/qu14YpZsUhM
 Rafael Christ - RC
 https://www.irccloud.com/irc/freenode/channel/openhours
 
-Sahaj Sarup - SS
-forum https://discuss.96boards.org/
-
 Robert Wolff - RW
 http://dragonwally.com/
 https://www.cnx-software.com/2017/10/11/dragonwally-is-a-stereoscopic-computer-vision-mezzanine-for-96boards-ce-boards/

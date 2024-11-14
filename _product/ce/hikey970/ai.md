@@ -18,9 +18,6 @@ sticky_tab_bar:
       url: /documentation/consumer/hikey/hikey970/getting-started/
     - title: Documentation
       url: /documentation/consumer/hikey/hikey970/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/hikey970/
-      tab_align_right: true
 header-image: hikey970-front-sd-min.png
 footer-image: hikey970-back-sd-min.png
 product_specification: ce

@@ -45,10 +45,6 @@ This episode was hosted from the Hyatt Regency hotel lobby in Denver Colorado. T
 
 The episode didn't focus on anything in particular. We hung out and talked about a couple projects as well as the future episodes that are to come.
 
-#### Links and resources
-
-- [96Boards Forums](https://discuss.96boards.org/)
-
 # Video
 
 {% include media.html media_url="https://youtu.be/94ZCvy5b6kE" %}
@@ -95,15 +91,6 @@ thnk
 
 Ragnar. - R
 :)
-
-Robert Wolff - RW
-https://discuss.96boards.org/t/2-00mm-to-2-54mm-breakou-board-for-2x20-connector/1168/7
-
-Mani - M
-https://discuss.96boards.org/t/generate-high-frequency-square-wave-on-a-gpio-pin/2615
-
-Robert Wolff - RW
-https://discuss.96boards.org/
 
 CEZAR - C
 A suggestion I have would be exposing the SPI I/O pins (SDI,SDO,SCK) and a couple of other I/Os (for chip selection and Interruptions) in a

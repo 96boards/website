@@ -21,6 +21,3 @@ Qualcomm Developer Network is declaring March as Maker Month, and in celebratio
 
 
   * **QDN (Qualcomm Developer Network)**: [https://developer.qualcomm.com/](https://developer.qualcomm.com/)
-
-
-  * **Support forum**: [https://discuss.96boards.org/c/products/dragonboard410c/](https://discuss.96boards.org/c/products/dragonboard410c/)

@@ -52,8 +52,6 @@ Don't forget about the upcoming Linaro Connect where attendees have an opportuni
 
 Be sure to join us for the next OpenHours  [https://www.96boards.org/](/).  Next week during session 12 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
-
 **Below is the chat log from the OpenHours session today because there was a long exchange on Bluetooth and audio:**
 
 Q
@@ -101,14 +99,6 @@ So playing with Bluetooth (and contrasting with "real" android device) might giv
 A
 
 All my experiments we are doing on Android only
-
-Info
-
-[https://discuss.96boards.org/t/wi-fi-not-connecting-at-boot/](https://discuss.96boards.org/t/wi-fi-not-connecting-at-boot/)
-
-Info
-
-[builds.96boards.org](http://builds.96boards.org/)
 
 A
 

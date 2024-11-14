@@ -17,10 +17,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/hikey/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/hikey
-      tab_position: 2
-      tab_align_right: true
 product_images:
   - images/hikey-circuitco-top.png
   - images/hikey-circuitco-back.png

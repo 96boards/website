@@ -38,7 +38,7 @@ The post is organized as follows:
 
 ***
 ## Requirements
-For the following steps you will need your Hikey970 to be accesible via SSH and, for an easier setup, have Docker installed on it. So, to get the board ready you can follow the steps [here](https://www.96boards.org/blog/hikey970-rt/) if you plan to also develop real time applications using ROS/ROS2 or just use the [Bionic Builder Tool](https://discuss.96boards.org/t/tool-bionic-builder-automated-kernel-ubuntu-builder-for-hikey970/7879) to get Ubuntu 18.04 working.
+For the following steps you will need your Hikey970 to be accesible via SSH and, for an easier setup, have Docker installed on it. So, to get the board ready you can follow the steps [here](https://www.96boards.org/blog/hikey970-rt/) if you plan to also develop real time applications using ROS/ROS2.
 
 In addition, to install Docker you just need to follow the official steps to install docker on arm64 target for [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/). Though it is also possible to [install ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) natively on the board running Ubuntu 18.04.
 

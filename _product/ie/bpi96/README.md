@@ -18,9 +18,6 @@ sticky_tab_bar:
       url: /documentation/iot/bpi96/getting-started/
     - title: Documentation
       url: /documentation/iot/bpi96/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/bpi96
-      tab_align_right: true
 display_product: true
 product_specification: ie
 product_short_desc: "The BPi NB-IoT development board is based on the Quecte BC95 is the first Banana Pi which follows the Linaro 96Boards IoT Standardization Linaro 96Boards with BC95 module development board."

@@ -440,10 +440,6 @@ Once you have successfully written your code and compiled your program, you are 
 
 After execution, you will see your the LED you have connected to your Mezzanine board begin to blink.
 
-## **Forum**
-
-[https://discuss.96boards.org/c/products/](https://discuss.96boards.org/c/products/)
-
 ## **Web page**
 
 [https://www.96boards.org/documentation/](/documentation/)

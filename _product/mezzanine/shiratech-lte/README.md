@@ -16,9 +16,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/shiratech-lte/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_short_desc: "Introducing the Shiratech LTE and Sensor Mezzanine, the easiest and fastest way to add LTE connectivity and full context awareness to your product"
 product_images:
   - images/shiratech-lte-front-sd.jpg

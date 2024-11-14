@@ -22,8 +22,6 @@ Don’t forget to join us in our new [OpenHours IRC channel](https://webchat.fre
 - Blogs
    - https://www.96boards.org/blog/patient-monitoring-system-into/
    - https://www.96boards.org/blog/media-server-revisited/
-- Forum Reminder
-   - https://discuss.96boards.org/
 - IRC Reminder:
    - Apologies for anyone in the channels this week - horrible bot spam
    - #OpenHours & #96Boards

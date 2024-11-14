@@ -202,8 +202,6 @@ Last week during [OpenHours](/) we had the opportunity to announce the 16.06 rel
 
 Since the RPB alpha release in October of last year (15.10), the platform has not stopped evolving. Highlights for each release can be found in the [RPB github](https://github.com/Linaro/documentation/blob/master/Reference-Platform/README.md) under “[Previous RPB Releases](https://github.com/Linaro/documentation/tree/master/Reference-Platform/Releases)”.
 
-Please remember, there are plenty of resources all over the [96Boards](http://www.github.com/96boards/documentation) and [Linaro](http://www.github.com/Linaro/documentation) github pages. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](https://webchat.freenode.net/) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running with the Reference Software Platform!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!

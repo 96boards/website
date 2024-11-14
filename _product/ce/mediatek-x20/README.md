@@ -17,10 +17,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/mediatekx20/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/mediatek-x20
-      tab_position: 2
-      tab_align_right: true
 product_specification: ce
 display_product: true
 product_short_desc: "Board based on MediaTek X20 series CPU"

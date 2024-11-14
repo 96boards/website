@@ -76,7 +76,6 @@ Each team participating in the challenge will be able to check out one hack kit 
 **Support:**
 
 *   Find our staff on the floor or at the Qualcomm Developer Network booth
-*   Visit the [DragonBoard 410c support forum](https://discuss.96boards.org/c/products/dragonboard410c/) on 96Boards.org
 *   [Live chat with 96Boards and Linaro developers](https://webchat.freenode.net/) (you will need to create a temp user name and join channel #96boards #OpenHours
 *   **[View the OpenHours video recordings](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1QBjUc2B5Pg502bz7qslxk)** which pair the weekly blog with a question and answer hour. The recordings review the blog, cover questions, and feature a guest developer/engineer to talk about a more advanced subject.
 

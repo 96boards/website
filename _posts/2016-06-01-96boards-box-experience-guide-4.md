@@ -169,8 +169,6 @@ Once you have read through these blogs, you can check out our new [96Boards GPIO
 
 Since the beginning of this series, it has been my goal to take it slow. A good foundation is important, and it must be built with correct information and a well organized bank of resources. As we steer deeper into the 96Boards universe, you will find yourself collecting links, cheatsheets, sample code, examples, diagrams, schematics, and so much more! It is important to stay organized. I would suggest starting your collection now, it will pay off in the long run.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/) or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. I hope to you see you there!

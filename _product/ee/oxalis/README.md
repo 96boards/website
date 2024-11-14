@@ -25,9 +25,6 @@ sticky_tab_bar:
       url: /documentation/enterprise/oxalis/getting-started/
     - title: Documentation
       url: /documentation/enterprise/oxalis/
-    - title: Support
-      url: https://discuss.96boards.org/c/products/oxalis/
-      tab_align_right: true
 product_buy_links:
   -
     link-title: Oxalis

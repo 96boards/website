@@ -81,9 +81,6 @@ Thanks @Todd Thal!
 Sahaj Sarup - SS
 thanks Todd!
 
-Michael Welling - MW
-found this:https://discuss.96boards.org/t/standoffs/690
-
 Sahaj Sarup - SS
 aah.. these
 I got mine with the mediatek x20, just have thoes

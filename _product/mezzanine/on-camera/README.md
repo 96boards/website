@@ -16,9 +16,6 @@ sticky_tab_bar:
     active: true
   - title: Documentation
     url: /documentation/mezzanine/on-camera/
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_align_right: true
 product_short_desc: "Designed to work with Arrow DragonBoard 410c development platform and Android OS  and follows 96Boards Consumer Edition specification. Support includes the following OnSemi 13 MP AR1337 RAW sensor: F13M02A Modul-201 Camera module, MIPI CSI 4-lane interface, Optical format 1/3.2” 13Mp (4:3), Active pixels 4208H x 3120V, View Angle 74.48° +/-3° Autofocus."
 product_images:
   - images/on-camera-front-sd.png

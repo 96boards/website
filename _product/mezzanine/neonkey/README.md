@@ -42,10 +42,6 @@ sticky_tab_bar:
   - title: Documentation
     url: /documentation/mezzanine/neonkey/
     tab_position: 1
-  - title: Support
-    url: https://discuss.96boards.org/c/products/mezzanine
-    tab_position: 2
-    tab_align_right: true
 attributes:
   - name: "SoC"
     value: >-

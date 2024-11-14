@@ -193,8 +193,6 @@ I personally recommend using libsoc or mraa libraries, when installed with the 9
 
 Have fun, unless you manage to need to write some code in assembler coding on ARM is exactly the same as coding on X86. Really now a days there is really very very little reason to consider developing anything using assembler code, if you need tight code that's really fast, use C, there are reasons that C has been called the portable assembler….. If clean tight C is really not fast enough then yes, you might need to learn ARM assembler but the need should be very rare.
 
-Don’t forget, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96Boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat, myself or one of the 96Boards developers would love to help get your 96Boards up and running!
-
 {% include image.html path="/assets/images/blog/OpenHours.png" alt="OpenHours Image" class="img-fluid" %}
 
 Don’t forget about the [Open Hours](/) every Thursday, where we will discuss this blog along with other pressing questions amongst a fun crowd of 96Boards users and developers over coffee. We hope to you see you there!

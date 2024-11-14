@@ -87,7 +87,3 @@ Have fun with these boards, build cool prototypes and as always, enjoy your codi
 
 
   4. Xenomai 3 can also run over PREEMPT_RT as a real-time provider instead of using the Cobalt kernel.
-
-
-  5. [https://discuss.96boards.org/t/announcement-xenomai-on-hikey/](https://discuss.96boards.org/t/announcement-xenomai-on-hikey/)
-[https://discuss.96boards.org/t/announcement-xenomai-on-410c/](https://discuss.96boards.org/t/announcement-xenomai-on-410c/)

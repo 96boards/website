@@ -18,9 +18,6 @@ sticky_tab_bar:
       url: /documentation/som/tb-96ai/getting-started/
     - title: Documentation
       url: /documentation/som/tb-96ai/
-    - title: Support
-      url: https://discuss.96boards.org/som/products/tb-96ai/
-      tab_align_right: true
 header-image: TB-96AI-front.jpg
 footer-image: TB-96AI-rear.jpg
 product_specification: se

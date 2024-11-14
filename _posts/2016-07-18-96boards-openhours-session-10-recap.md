@@ -50,18 +50,11 @@ This week began by addressing any questions from last week's session 9 as well a
 
 Be sure to stay tune in to the next OpenHours  [https://www.96boards.org/](/).  Next week during session 11 we will have another open hour to just answer questions.  So join us and bring all your 96Board questions and we will try to answer them all for you.
 
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
-
 **Below is the chat log from the OpenHours session today because there were many links referenced in the call and many resources given:**
 **RW**
 
 [https://www.96boards.org/blog/96boards-box-experience-guide-1/](/blog/96boards-box-experience-guide-1/) [https://www.96boards.org/blog/fritzing-part-96boards-ce/](/blog/fritzing-part-96boards-ce/) [https://www.96boards.org/blog/96boards-box-experience-guide-2/](/blog/96boards-box-experience-guide-2/) [https://www.96boards.org/blog/96boards-box-experience-guide-3/](/blog/96boards-box-experience-guide-3/) [https://www.96boards.org/blog/96boards-box-experience-guide-4/](/blog/96boards-box-experience-guide-4/) [https://www.96boards.org/blog/96boards-box-experience-guide-5/](/blog/96boards-box-experience-guide-5/) [https://www.96boards.org/blog/programing-i2c-devices-libmraa-libupm/](/blog/programing-i2c-devices-libmraa-libupm/) [https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/](/blog/installing-docker-aarch64-96boards-ce/) [https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/](/blog/cross-compile-files-x86-linux-to-96boards/) [https://www.96boards.org/blog/reference-software-platform-16-06-release/](/blog/reference-software-platform-16-06-release/) [https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/](/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
-**RS**
-
-[https://bugs.96boards.org/show_bug.cgi?id=272](https://bugs.96boards.org/show_bug.cgi?id=272)
-
-can also subscribe to the bug
 
 **RW**
 
@@ -76,12 +69,6 @@ Qualcomm chip is available from Arrow
 **ES**
 
 LINK REMOVED
-
-**RW**
-
-Last Connect's content: [https://discuss.96boards.org/t/96boards-at-linaro-connect-bangkok-bkk16/](https://discuss.96boards.org/t/96boards-at-linaro-connect-bangkok-bkk16/)
-
-@LinaroOrg @96Boards
 
 **T**
 

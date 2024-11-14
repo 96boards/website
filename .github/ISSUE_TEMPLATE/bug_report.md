@@ -9,7 +9,6 @@ assignees: ''
 
 <!--
 The issues in this repository are for bugs with the website itself.
-For support requests, please ask at the appropriate forum in https://discuss.96boards.org/c/products/
 For bug reports, please fill out the information below.
 Be as detailed as possible.
 -->

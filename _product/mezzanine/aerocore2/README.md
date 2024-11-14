@@ -17,10 +17,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/mezzanine/aerocore2/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/mezzanine
-      tab_position: 2
-      tab_align_right: true
 product_specification: "mezzanine"
 product_short_desc: Most technologically advanced AeroCore expansion board with LTE support
 product_images:

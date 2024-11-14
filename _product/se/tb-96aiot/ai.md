@@ -18,9 +18,6 @@ sticky_tab_bar:
       url: /documentation/som/tb-96aiot/getting-started/
     - title: Documentation
       url: /documentation/som/tb-96aiot/
-    - title: Support
-      url: https://discuss.96boards.org/som/products/tb-96aiot/
-      tab_align_right: true
 header-image: TB-96AIoT-Top.jpg
 footer-image: TB-96AIoT-Bottom.jpg
 product_specification: se

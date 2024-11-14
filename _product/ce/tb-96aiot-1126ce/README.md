@@ -26,10 +26,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/consumer/tb-96aiot-1126ce/
       tab_position: 2
-    - title: Support
-      url: https://discuss.96boards.org/
-      tab_position: 4
-      tab_align_right: true
 product_buy_links:
   -
     link-title: TB-96AIot-1126CE

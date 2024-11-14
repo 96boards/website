@@ -15,10 +15,6 @@ sticky_tab_bar:
     - title: Documentation
       url: /documentation/iot/carbon/
       tab_position: 1
-    - title: Support
-      url: https://discuss.96boards.org/c/products/carbon
-      tab_position: 2
-      tab_align_right: true
 display_product: true
 product_specification: ie
 product_short_desc: "Cortex-M4 chip with 96Boards IE Specification"

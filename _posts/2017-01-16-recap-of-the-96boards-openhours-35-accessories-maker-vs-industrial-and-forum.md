@@ -57,9 +57,6 @@ To watch episode 35 go to[ https://www.youtube.com/watch?v=njMXCPLmPT4](https://
 
 **Be sure to join us for next week's OpenHours:  [https://www.96boards.org/](/)**
 
-As always there is a lot of good information and resources that is available in the chat below, this is a great place to get more detailed information mentioned during the call.  Also a while ago in the hangout Robert shared a link to allow people to submit topics or questions for the developers on the hangout.  The link is:[ https://discuss.96boards.org/t/openhours-topic-suggestion/ ](https://discuss.96boards.org/t/openhours-topic-suggestion/)and Robert will take these suggestions and try to incorporate these into future OpenHours.
-
-Please remember, if you get stuck, there are resources to help you through the installation. Feel free to check out the [96Boards forums](https://discuss.96boards.org/), [96Boards wiki](https://github.com/96boards/documentation/wiki), or [Freenode IRC](http://webchat.freenode.net/?channels=%2396boards) channel #96boards (there are many ways to access IRC, this website is one of them). Dig around the wiki, create a new forum thread, and/or post a question in the chat.
 
 **Below is the chat log from the OpenHours session today:**
 
@@ -241,18 +238,6 @@ https://www.pactecenclosures.com/ companies like pac tec can make IP rated encl
 
 ---
 
-RW
-
-https://discuss.96boards.org
-
-https://discuss.96boards.org/c/products/dragonboard410c/#gsc.tab=0
-
-https://discuss.96boards.org/c/products/hikey/#gsc.tab=0
-
-https://discuss.96boards.org/c/products/bubblegum96/#gsc.tab=0
-
----
-
 DM
 
 I am about to start a new blog series, adding 1.8v sensors to a 96boards with the goal of an HVAC control system
@@ -260,8 +245,6 @@ I am about to start a new blog series, adding 1.8v sensors to a 96boards with th
 ---
 
 RW
-
-https://discuss.96boards.org/t/no-limited-video-and-audio-playback-on-the-hikey/#gsc.tab=0
 
 https://docs.google.com/spreadsheets/d/1aYNUlGx5J8RmfWrtML4lFJ-7tV8u-3AH_3IaiOlWfoE/edit?usp=sharing
 
