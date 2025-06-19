@@ -23,6 +23,7 @@
   "^/carbon/docs(/?|/index.html)$ /product/carbon/ [R,L,NC]",
   "^/carbon(/?|/index.html)$ /product/carbon/ [R,L,NC]",
   "^/ce-specification(/?|/index.html)$ /documentation/Specifications/ [R,L,NC]",
+  "^/contact(/?|/index.html)$ / [R,L,NC]",
   "^/db410c-getting-started/Downloads/README.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/downloads/ [R,L,NC]",
   "^/db410c-getting-started/Quickstart/README.md(/?|/index.html)$ /documentation/consumer/dragonboard410c/getting-started/ [R,L,NC]",
   "^/db410c(/?|/index.html)$ /product/dragonboard410c/ [R,L,NC]",
