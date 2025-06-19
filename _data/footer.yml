@@ -11,5 +11,5 @@ company_links:
     url: /legal/
   - name: Cookies
     url: /cookies/
-  - name: Contact
-    url: https://www.linaro.org/contact
+  # - name: Contact
+  #   url: https://www.linaro.org/contact
