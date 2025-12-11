@@ -72,7 +72,7 @@ sudo hciconfig hci0 lestates`
 MB
 I don't know for sure, but I believe BLE would need hardware changes in the base design unless that was taken into account from the outset.
 RW
-[http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)
+[http://builds.96boards.org/dragonboard410c/linaro/rescue/latest/](http://builds.96boards.org/dragonboard410c/linaro/rescue/latest/)
 AT
 [http://seeedstudio.com/depot/96Boards-UART-p-2525.html?cPath=122_163](http://seeedstudio.com/depot/96Boards-UART-p-2525.html?cPath=122_163)
 YZ

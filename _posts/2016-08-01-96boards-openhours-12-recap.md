@@ -140,7 +140,7 @@ NICE! :-d
 
 MB
 
-Is this the latest available? I notice ubuntu is much older than debian? [https://builds.96boards.org/releases/dragonboard410c/linaro/](https://builds.96boards.org/releases/dragonboard410c/linaro/)
+Is this the latest available? I notice ubuntu is much older than debian? [https://builds.96boards.org/dragonboard410c/linaro/](https://builds.96boards.org/dragonboard410c/linaro/)
 
 T
 

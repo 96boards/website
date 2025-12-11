@@ -106,7 +106,7 @@ WiFi works fine on Hikey with the latest Android Images
 
 Info
 
-[https://releases.linaro.org/96boards/dragonboard410c/qualcomm/](https://releases.linaro.org/96boards/dragonboard410c/qualcomm/)
+[https://builds.96boards.org/dragonboard410c/qualcomm/](https://builds.96boards.org/dragonboard410c/qualcomm/)
 
 A
 

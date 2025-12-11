@@ -23,7 +23,7 @@ Also, it is architecture independent, ie it can run on Arm... almost. Although t
   ![](https://i.imgur.com/h83jhs6.gif)
 
 ### **Step 1:** Operating systems
-  - You should be running Debian build **[17.09](https://builds.96boards.org/releases/dragonboard410c/linaro/debian/17.09/)**
+  - You should be running Debian build **[17.09](https://builds.96boards.org/dragonboard410c/linaro/debian/17.09/)**
   - Make sure it is updated:
   ```shell
   sudo apt update

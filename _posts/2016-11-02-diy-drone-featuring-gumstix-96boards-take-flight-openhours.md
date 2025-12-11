@@ -105,7 +105,7 @@ Before we get started, there are a few things you’ll need to take care of.
 
 {% include image.html path="/assets/images/blog/diy-drone-img-2.png" alt="soldering highlight" class="img-fluid" %}
 
-- Make sure you’ve flashed your Dragonboard with Linux. [Linaro’s Debian 16.09](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.09/) was used for this demo.
+- Make sure you’ve flashed your Dragonboard with Linux. [Linaro’s Debian 16.09](http://builds.96boards.org/dragonboard410c/linaro/debian/16.09/) was used for this demo.
 
 - Build QGroundControl.
 

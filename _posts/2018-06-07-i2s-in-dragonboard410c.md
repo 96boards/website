@@ -12,7 +12,7 @@ tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, Kernel, Linux, Dr
 # Introduction
 
 When you look at the spec of [Dragonboard410c](/documentation/consumer/dragonboard/dragonboard410c/hardware-docs/hardware-user-manual.md.html), there will be 2 I2S ports mentioned.
-However, on the [release image](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/)
+However, on the [release image](http://builds.96boards.org/dragonboard410c/linaro/debian/)
 provided by Qualcomm Landing team, only one I2S will be used (for HDMI). The other
 one will be on the Low Speed Expansion header but since nothing is connected to those
 pins, the configuration for enabling the I2S is not provided in the release image(kernel).
@@ -88,7 +88,7 @@ $ cd kernel
 $ git checkout -b kernel-<RELEASE> debian-qcom-dragonboard410c-<RELEASE>
 ```
 > Note: Replace < RELEASE > with latest release version found
-[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/)
+[here](http://builds.96boards.org/dragonboard410c/linaro/debian/latest/)
 
 2. Add LS I2S support
 

@@ -39,7 +39,7 @@ In order the be able to execute the Cobalt co-kernel, the Linux kernel needs to 
 " The I-pipe inserts itself between the interrupt-management hardware and Linux. Any attempt from any Linux component to disable interrupts results in Linux's I-pipe stage to be stalled. While stalled, a pipeline stage will not receive interrupts. However, any pipeline stage of higher priority will continue receiving interrupts, unless it too stalled its own stage. It follows that interrupts are almost never disabled"
 
 The interrupt pipeline is delivered in the form of a kernel patch and maintained outside of the Linux kernel tree.
-For HiKey all that would be required is to replace the kernel from any of the [releases](https://builds.96boards.org/releases/hikey/linaro/debian/latest/) currently available with the I-PIPE aarch64 patched kernel for this board.
+For HiKey all that would be required is to replace the kernel from any of the [releases](https://builds.96boards.org/hikey/linaro/debian/latest/) currently available with the I-PIPE aarch64 patched kernel for this board.
 
 For 96Boards HiKey users it is enough with cloning the following repository checking out the hikey branch:
 
@@ -50,7 +50,7 @@ $ git checkout hikey
 
 ```
 
-Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/)).
+Xenomai3  for aarch64 remains work in progress and it hasn’t been merged yet in the project’s master branch. Despite of this some effort was invested during our last Linaro Connect 2015 in SFO and support was added to both 96Boards: HiKey running kernel v3.18 (all Linaro HiKey releases to date) and Dragon 410c running kernel v4.0.0 (Linaro Release [15.07](http://builds.96boards.org/dragonboard410c/linaro/debian/)).
 
 So in order to install the Cobalt co-kernel in the I-PIPE enabled kernel just do:
 ```bash
