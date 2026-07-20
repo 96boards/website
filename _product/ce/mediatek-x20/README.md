@@ -29,7 +29,7 @@ product_sidebar_sections:
     - title: Third Party Images
       icon: icon-link-ext-alt
       items:
-        - link: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
+        - link: /documentation/consumer/mediatekx20/downloads/aosp.md.html
           title: AOSP
 product_bottom_section:
     - title: Accessories
