@@ -103,3 +103,33 @@
     }
   }
 }
+
+// Site notice banner - rendered by _includes/notice.html beneath the main nav.
+// Background is derived from $primary (see assets/css/app/overrides.scss) and
+// darkened so that white body text clears the WCAG AA 4.5:1 contrast threshold;
+// undarkened $primary measures 3.82:1 against white, darken($primary, 5%)
+// measures 5.04:1.
+.site-notice {
+  background-color: darken($primary, 5%);
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem 0;
+  .site-notice-text {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
