@@ -1,0 +1,23 @@
+---
+---
+{% comment %}
+    Local override of the base.html layout from the linaro-jekyll-theme gem,
+    version 4.2.0 (pinned in Gemfile). Copied verbatim from that release and
+    modified only by the addition of the notice.html include below, which
+    renders the site notice banner beneath the main navigation.
+    When the theme is upgraded, re-copy the gem's base.html and re-apply that
+    single line.
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+    {% include components/head.html %}
+    <body>
+        <div id="wrapper" class="main">
+            {% include_cached nav/nav.html pageUrl=page.url %}
+            {% include notice.html %}
+            {{content}}
+            {% include footer/footer.html %}
+        </div>
+        {% include components/javascript.html %}
+    </body>
+</html>

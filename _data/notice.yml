@@ -1,0 +1,17 @@
+# Set to false to hide the site notice banner on every page.
+# The banner is only rendered when this is true.
+# Must be an unquoted YAML boolean: in Liquid any non-empty string is truthy,
+# so a quoted "false" would still render the banner.
+enabled: true
+# The banner message. The literal token {link} is replaced by the link
+# below, rendered as an anchor. Plain text only - no HTML.
+message: "This website is not being monitored at the moment. Please reach out to us via {link}"
+# The visible text of the link inside the message.
+link_label: "www.linaro.org"
+# Where the link points. Opens in the same tab.
+link_url: "https://www.linaro.org/contact/"
+# Screen reader name for the link. Must contain link_label so that voice
+# control still works (WCAG 2.5.3). Remove this key to fall back to link_label.
+link_aria_label: "Contact Linaro via www.linaro.org"
+# Accessible name for the banner landmark itself.
+region_label: "Site notice"
