@@ -103,3 +103,35 @@
     }
   }
 }
+
+// Site notice banner - rendered by _includes/notice.html beneath the main nav.
+// Background derives from the theme brand red #ff4136 (the "danger" entry in
+// assets/css/app/overrides.scss), darkened so that white body text clears the
+// WCAG AA 4.5:1 contrast threshold; bare #ff4136 measures 3.46:1 against white
+// and fails, darken(#ff4136, 15%) resolves to ~#e80d00 and measures ~4.7:1.
+// $danger is deliberately not used here: overrides.scss sets only the
+// $theme-colors map entry, so $danger still holds Bootstrap's default #dc3545.
+.site-notice {
+  background-color: darken(#ff4136, 15%);
+  color: #fff;
+  width: 100%;
+  padding: 1rem 0;
+  .site-notice-text {
+    margin: 0;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

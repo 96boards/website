@@ -1,0 +1,28 @@
+{%- comment -%}
+    Site notice banner. Content and visibility come from _data/notice.yml.
+    Called from _layouts/base.html immediately after the main navigation.
+    Renders nothing at all if the data file is missing, disabled, or has no message.
+{%- endcomment -%}
+{%- assign notice = site.data.notice -%}
+{%- if notice and notice.enabled and notice.message -%}
+    {%- assign notice_label = notice.link_label | default: notice.link_url -%}
+    {%- assign notice_region = notice.region_label | default: "Site notice" -%}
+    {%- capture notice_link -%}
+        {%- if notice.link_url and notice_label -%}
+            <a href="{{ notice.link_url }}"{% if notice.link_aria_label %} aria-label="{{ notice.link_aria_label }}"{% endif %}>{{ notice_label }}</a>
+        {%- else -%}
+            {{ notice_label }}
+        {%- endif -%}
+    {%- endcapture -%}
+    {%- assign notice_parts = notice.message | split: "{link}" -%}
+    {%- if notice_parts.size > 1 -%}
+        {%- capture notice_body -%}{{ notice_parts[0] }}{{ notice_link }}{{ notice_parts[1] }}{%- endcapture -%}
+    {%- else -%}
+        {%- capture notice_body -%}{{ notice_parts[0] }} {{ notice_link }}{%- endcapture -%}
+    {%- endif -%}
+<aside class="site-notice" aria-label="{{ notice_region }}">
+    <div class="container">
+        <p class="site-notice-text">{{ notice_body }}</p>
+    </div>
+</aside>
+{%- endif -%}
